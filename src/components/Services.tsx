@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const junkServices = [
   {
     id: 'residential-junk',
@@ -11,7 +13,7 @@ const junkServices = [
       'Yard waste & debris',
       'Same-day service available'
     ],
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'
+    image: '/webphotos/residential.jpg'
   },
   {
     id: 'commercial-junk',
@@ -25,7 +27,7 @@ const junkServices = [
       'Construction debris',
       'Flexible scheduling'
     ],
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'
+    image: '/webphotos/commercial.jpg'
   },
   {
     id: 'estate-cleanout',
@@ -39,7 +41,7 @@ const junkServices = [
       'Document shredding',
       'Flexible timelines'
     ],
-    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'
+    image: '/webphotos/estate.jpg'
   },
   {
     id: 'construction-debris',
@@ -53,7 +55,7 @@ const junkServices = [
       'Scrap metal recycling',
       'Job site cleanup'
     ],
-    image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'
+    image: '/webphotos/construction.jpg'
   },
   {
     id: 'appliance-furniture',
@@ -67,7 +69,7 @@ const junkServices = [
       'Office furniture removal',
       'Safe disconnection & transport'
     ],
-    image: 'https://images.unsplash.com/photo-1556909114-44e3e70034e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'
+    image: '/webphotos/furniture.jpg'
   },
   {
     id: 'hoarding-cleanup',
@@ -81,7 +83,7 @@ const junkServices = [
       'Sorting & organizing',
       'Follow-up support'
     ],
-    image: 'https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'
+    image: '/webphotos/hoarding.jpg'
   }
 ];
 
@@ -119,11 +121,12 @@ export default function Services() {
                 className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group"
               >
                 <div className="relative h-48 overflow-hidden">
-                  <img
+                  <Image
                     src={service.image}
                     alt={service.title}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                    loading="lazy"
+                    fill
+                    className="object-cover group-hover:scale-110 transition-transform duration-300"
+                    unoptimized
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                   <div className="absolute bottom-4 left-4">

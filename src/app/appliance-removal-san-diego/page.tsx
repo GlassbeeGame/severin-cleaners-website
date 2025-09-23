@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+import ApplianceFAQSection from "./ApplianceFAQSection";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -25,6 +26,7 @@ export const metadata: Metadata = {
 };
 
 export default function ApplianceRemovalPage() {
+
   return (
     <div className={`${inter.variable} font-sans antialiased`}>
       <Header />
@@ -315,59 +317,8 @@ export default function ApplianceRemovalPage() {
                   <li><strong>Environmental Responsibility:</strong> 85% material recovery rate exceeding industry standards</li>
                 </ul>
 
-                {/* FAQ Section */}
-                <div className="bg-blue-50 p-8 rounded-lg mt-12 mb-8">
-                  <h2 className="text-3xl font-bold mb-8 text-blue-900">
-                    Frequently Asked Questions - Appliance Removal San Diego
-                  </h2>
-
-                  <div className="space-y-6">
-                    <div>
-                      <h3 className="text-xl font-bold mb-2 text-gray-900">
-                        How much does appliance removal cost in San Diego?
-                      </h3>
-                      <p className="text-gray-700">
-                        Appliance removal San Diego costs range from $89 for small appliances to $599+ for commercial equipment. Refrigerator removal San Diego typically costs $149-$249, while washer dryer removal San Diego averages $149-$249 per unit. Our licensed appliance haulers provide transparent pricing including disconnection, removal, and eco-friendly disposal with no hidden fees.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-xl font-bold mb-2 text-gray-900">
-                        Do you recycle old refrigerators and appliances?
-                      </h3>
-                      <p className="text-gray-700">
-                        Yes! Our appliance recycling San Diego service maintains an 85% material recovery rate. We're EPA-certified for refrigerant recovery and properly recycle metals, plastics, and electronic components. Our eco-friendly appliance disposal ensures valuable materials are recovered while hazardous substances are safely handled according to California regulations.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-xl font-bold mb-2 text-gray-900">
-                        Can you disconnect water, gas, and electrical hookups?
-                      </h3>
-                      <p className="text-gray-700">
-                        Absolutely. Our licensed appliance haulers San Diego are trained in safe utility disconnection for all appliance types. We properly shut off water lines, cap gas connections, and disconnect electrical systems to prevent leaks, damage, or safety hazards. This service is included in our appliance pickup San Diego pricing.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-xl font-bold mb-2 text-gray-900">
-                        Do you offer same-day appliance pickup?
-                      </h3>
-                      <p className="text-gray-700">
-                        Yes, we provide same-day appliance removal San Diego when you call before 2 PM. Our licensed team maintains flexible scheduling including evenings and weekends at no extra charge. Same-day service is perfect for kitchen renovations, emergency removals, or when you need immediate space for new appliance delivery.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-xl font-bold mb-2 text-gray-900">
-                        What happens to my old appliances after removal?
-                      </h3>
-                      <p className="text-gray-700">
-                        After appliance disposal San Diego, we transport units to certified recycling facilities where they're properly dismantled. Refrigerants are recovered and recycled, metals are separated for steel and aluminum recycling, electronic components go to e-waste facilities, and any hazardous materials are disposed of according to EPA regulations. We provide recycling documentation upon request.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+        {/* FAQ Section */}
+        <ApplianceFAQSection />
 
                 <div className="bg-blue-50 border-2 border-blue-500 p-6 rounded-lg mt-8">
                   <h3 className="text-2xl font-bold mb-4 text-blue-900">

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import LaJollaFAQSection from "./LaJollaFAQSection";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -24,6 +25,7 @@ export const metadata: Metadata = {
 };
 
 export default function JunkRemovalLaJollaPage() {
+
   return (
     <div className={`${inter.variable} font-sans antialiased`}>
       <Header />
@@ -329,68 +331,7 @@ export default function JunkRemovalLaJollaPage() {
           </div>
         </section>
 
-        {/* FAQ Section */}
-        <section className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions - La Jolla Junk Removal</h2>
-
-              <div className="space-y-8">
-                <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">How much does junk removal cost in La Jolla?</h3>
-                  <p className="text-gray-700">
-                    Our <strong>La Jolla junk removal</strong> pricing reflects the premium service standards expected in this exclusive community. Rates start at $150 for small luxury items and vary based on volume, item value, and special handling requirements. We provide transparent upfront pricing for estate cleanouts, typically ranging from $500-$5,000+ depending on property size and item complexity. High-value items receive specialized appraisal coordination.
-                  </p>
-                </div>
-
-                <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">Do you provide discreet junk removal with unmarked vehicles?</h3>
-                  <p className="text-gray-700">
-                    Absolutely. Our <strong>junk hauling La Jolla</strong> service exclusively uses unmarked, luxury-standard vehicles to maintain complete discretion for your estate. Our professionally uniformed crews are trained in privacy protocols and will coordinate with your security systems, gate access, and any confidentiality requirements. We understand that privacy is paramount in La Jolla's exclusive neighborhoods.
-                  </p>
-                </div>
-
-                <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">Can you handle valuable or luxury furniture?</h3>
-                  <p className="text-gray-700">
-                    Yes, our <strong>La Jolla furniture removal</strong> specialists are expertly trained in handling museum-quality pieces, designer furniture, and priceless antiques. We coordinate with specialized art handlers, provide custom packaging for fragile items, and work directly with auction houses like Sotheby's and Christie's. Our team includes certified professionals experienced with luxury Italian furniture, rare collectibles, and estate-quality pieces.
-                  </p>
-                </div>
-
-                <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">Do you offer estate cleanout services in La Jolla?</h3>
-                  <p className="text-gray-700">
-                    Our comprehensive <strong>estate cleanout La Jolla</strong> service specializes in multi-million dollar properties and complex family estates. We provide complete trust property management, probate support, and coordination with estate attorneys and financial advisors. Our services include professional appraisal coordination, luxury item authentication, and secure handling of valuable collections, art, and heirloom pieces.
-                  </p>
-                </div>
-
-                <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">What environmentally responsible disposal options do you provide?</h3>
-                  <p className="text-gray-700">
-                    Our <strong>trash removal La Jolla</strong> service maintains the highest environmental standards befitting this pristine coastal community. We partner with luxury consignment houses, donate to prestigious local charities, and utilize specialized recycling for high-end materials. For La Jolla's environmentally conscious residents, we offer carbon-neutral transport options and comprehensive sustainability reporting for estate cleanouts.
-                  </p>
-                </div>
-              </div>
-
-              <div className="text-center mt-12">
-                <a
-                  href="tel:+16197500114"
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors duration-200 inline-block mb-4"
-                >
-                  📞 Call Today for Same-Day La Jolla Service: (619) 750-0114
-                </a>
-                <div className="mt-4">
-                  <a
-                    href="#contact"
-                    className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors duration-200 inline-block"
-                  >
-                    Get La Jolla Junk Removal Quote
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <LaJollaFAQSection />
 
         {/* Related Services */}
         <section className="py-12 bg-white">

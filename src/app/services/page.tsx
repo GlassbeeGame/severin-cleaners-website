@@ -65,6 +65,34 @@ export default function ServicesPage() {
       description: "Business-focused junk removal for offices, retail spaces, warehouses, and commercial properties.",
       icon: "🏢",
       features: ["Office Cleanouts", "Retail Spaces", "Warehouse Clearing", "Scheduled Service"]
+    },
+    {
+      title: "Emergency Junk Removal",
+      link: "/emergency-junk-removal-san-diego",
+      description: "24/7 emergency junk removal service for urgent situations and last-minute cleanouts.",
+      icon: "🚨",
+      features: ["24/7 Availability", "Same-Day Response", "Weekend Service", "Court Deadlines"]
+    },
+    {
+      title: "Pricing & Cost Information",
+      link: "/junk-removal-cost-san-diego",
+      description: "Transparent pricing with free quotes and competitive rates for all junk removal services.",
+      icon: "💰",
+      features: ["Free Quotes", "Transparent Pricing", "No Hidden Fees", "Volume-Based Rates"]
+    },
+    {
+      title: "Foreclosure & Eviction Cleanouts",
+      link: "/foreclosure-eviction-cleanout-san-diego",
+      description: "Professional, discreet cleanout services for banks, landlords, and property managers.",
+      icon: "🏦",
+      features: ["Discreet Service", "Fast Turnaround", "Bank Experience", "Property Management"]
+    },
+    {
+      title: "Complete Cleanout Services",
+      link: "/cleanout-services-san-diego",
+      description: "Full-service cleanouts for homes, garages, storage units, and commercial properties.",
+      icon: "🧹",
+      features: ["All Cleanout Types", "Same-Day Available", "Donation Handling", "Deep Cleaning Add-Ons"]
     }
   ];
 

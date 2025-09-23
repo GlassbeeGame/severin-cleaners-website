@@ -31,7 +31,7 @@ export default function SanDiegoJunkRemoval() {
           <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: "url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')"
+              backgroundImage: "url('/webphotos/landingpage.jpg')"
             }}
           >
             <div className="gradient-overlay"></div>

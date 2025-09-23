@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+import FurnitureFAQSection from "./FurnitureFAQSection";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -25,6 +26,7 @@ export const metadata: Metadata = {
 };
 
 export default function FurnitureRemovalPage() {
+
   return (
     <div className={`${inter.variable} font-sans antialiased`}>
       <Header />
@@ -280,85 +282,7 @@ export default function FurnitureRemovalPage() {
                   <li><strong>No Hidden Fees:</strong> Transparent pricing with all costs included upfront</li>
                 </ul>
 
-                {/* FAQ Section */}
-                <div className="bg-blue-50 p-8 rounded-lg mt-12 mb-8">
-                  <h2 className="text-3xl font-bold mb-8 text-blue-900">
-                    Frequently Asked Questions - Furniture Removal San Diego
-                  </h2>
-
-                  <div className="space-y-6">
-                    <div>
-                      <h3 className="text-xl font-bold mb-2 text-gray-900">
-                        How much does furniture removal cost in San Diego?
-                      </h3>
-                      <p className="text-gray-700">
-                        Furniture removal San Diego costs range from $89 for single items to $399+ for large pieces. Couch removal San Diego typically costs $149-$249, while mattress removal San Diego averages $89-$149. Our licensed furniture haulers provide upfront pricing with no hidden fees, including all labor, transportation, and eco-friendly disposal.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-xl font-bold mb-2 text-gray-900">
-                        Do you take couches, mattresses, and large items?
-                      </h3>
-                      <p className="text-gray-700">
-                        Yes! Our furniture pickup San Diego service handles all furniture types including sectional couches, king-size mattresses, dining sets, and specialty items like pianos. We're equipped with proper tools and trained crews for safe removal of oversized furniture from any location in your home or business.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-xl font-bold mb-2 text-gray-900">
-                        Can you donate furniture in San Diego?
-                      </h3>
-                      <p className="text-gray-700">
-                        Absolutely. Our eco-friendly furniture removal service partners with local San Diego charities to donate usable furniture. We provide detailed donation receipts for tax purposes and ensure good-condition furniture reaches families in need rather than landfills. This is part of our commitment to sustainable old furniture disposal San Diego.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-xl font-bold mb-2 text-gray-900">
-                        Do you provide same-day furniture pickup?
-                      </h3>
-                      <p className="text-gray-700">
-                        Yes, we offer same-day furniture removal San Diego when you call before 2 PM. Our licensed furniture haulers San Diego maintain flexible scheduling including evenings and weekends. We understand furniture removal is often urgent, especially for moves, deliveries, or space clearing situations.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-xl font-bold mb-2 text-gray-900">
-                        How do I get rid of old furniture legally in San Diego?
-                      </h3>
-                      <p className="text-gray-700">
-                        Legal furniture disposal in San Diego requires using licensed waste haulers and proper disposal facilities. Our licensed team ensures compliance with all California waste regulations. We handle mattress recycling requirements, donation documentation, and proper disposal at certified facilities, giving you peace of mind that your old furniture disposal San Diego follows all local laws.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="bg-blue-50 border-2 border-blue-500 p-6 rounded-lg mt-8">
-                  <h3 className="text-2xl font-bold mb-4 text-blue-900">
-                    🚛 Ready for Professional Furniture Removal?
-                  </h3>
-                  <p className="text-lg mb-4 text-gray-800">
-                    Don't struggle with heavy furniture removal on your own. Our licensed <strong>furniture removal San Diego</strong> team makes the process simple, safe, and environmentally responsible. Same-day service available throughout San Diego County.
-                  </p>
-                  <div className="flex flex-col sm:flex-row gap-4">
-                    <a
-                      href="tel:+16197500114"
-                      className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg text-center font-bold transition-colors inline-block"
-                    >
-                      Call Today for Same-Day Furniture Pickup: (619) 750-0114
-                    </a>
-                    <a
-                      href="#contact"
-                      className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg text-center font-bold transition-colors inline-block"
-                    >
-                      Get Your Furniture Removal Quote
-                    </a>
-                  </div>
-                  <p className="text-sm text-gray-600 mt-4">
-                    Licensed & insured • Same-day service • Eco-friendly disposal • All San Diego neighborhoods
-                  </p>
-                </div>
+        <FurnitureFAQSection />
 
                 {/* Trust Signals */}
                 <div className="mt-12 pt-8 border-t border-gray-200">
