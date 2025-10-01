@@ -191,38 +191,47 @@ export default function Services() {
 
       <section className="section-padding bg-blue-500 text-white">
         <div className="container">
-          <div className="text-center">
-            <h2 className="text-white mb-6">Why Choose Severin Cleaners?</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
-              {[
-                {
-                  title: 'Same Day Service',
-                  description: 'Professional emergency junk removal available 24/7',
-                  icon: '⚡'
-                },
-                {
-                  title: 'Eco-Friendly',
-                  description: 'We recycle and donate whenever possible',
-                  icon: '♻️'
-                },
-                {
-                  title: 'Licensed & Insured',
-                  description: 'Top rated, fully licensed and insured professionals',
-                  icon: '🛡️'
-                },
-                {
-                  title: 'Transparent Pricing',
-                  description: 'No hidden fees, upfront quotes always',
-                  icon: '💰'
-                }
-              ].map((benefit, index) => (
-                <div key={index} className="text-center">
-                  <div className="text-4xl mb-4">{benefit.icon}</div>
-                  <h3 className="text-xl font-bold mb-2">{benefit.title}</h3>
-                  <p className="text-white/90 text-sm">{benefit.description}</p>
-                </div>
-              ))}
-            </div>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              Need Junk Removed Today?
+            </h2>
+            <a
+              href="tel:+16197500114"
+              className="inline-block text-2xl md:text-3xl font-black text-white hover:text-blue-200 transition-colors"
+            >
+              📞 Call (619) 750-0114
+            </a>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {[
+              {
+                title: 'Same Day Service',
+                description: 'Fast response times for urgent removals',
+                icon: '⚡'
+              },
+              {
+                title: 'Eco-Responsible',
+                description: 'We recycle and donate whenever possible',
+                icon: '♻️'
+              },
+              {
+                title: 'Licensed & Insured',
+                description: 'Top rated, fully licensed and insured professionals',
+                icon: '🛡️'
+              },
+              {
+                title: 'Transparent Pricing',
+                description: 'No hidden fees, upfront quotes always',
+                icon: '💰'
+              }
+            ].map((benefit, index) => (
+              <div key={index} className="text-center">
+                <div className="text-4xl mb-4">{benefit.icon}</div>
+                <h3 className="text-xl font-bold mb-2">{benefit.title}</h3>
+                <p className="text-white/90 text-sm">{benefit.description}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
