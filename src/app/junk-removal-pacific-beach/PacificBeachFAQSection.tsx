@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-export default function EmergencyFAQSection() {
+export default function PacificBeachFAQSection() {
   const [openFAQ, setOpenFAQ] = useState<number | null>(null);
 
   return (
@@ -10,11 +10,11 @@ export default function EmergencyFAQSection() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Frequently Asked Questions - Emergency Junk Removal
+            Frequently Asked Questions - Pacific Beach Junk Removal
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Get answers to common questions about our <strong>emergency junk removal San Diego</strong> services,
-            same-day availability, and urgent response times.
+            Get answers to common questions about our <strong>Pacific Beach junk removal</strong> services,
+            vacation rental turnovers, beach community logistics, and same-day service throughout PB.
           </p>
         </div>
 
@@ -25,7 +25,7 @@ export default function EmergencyFAQSection() {
                 className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
                 onClick={() => setOpenFAQ(openFAQ === 0 ? null : 0)}
               >
-                <h3 className="font-bold text-gray-900 text-lg">What are your emergency junk removal prices?</h3>
+                <h3 className="font-bold text-gray-900 text-lg">Do you service all of Pacific Beach?</h3>
                 <svg
                   className={`w-5 h-5 text-gray-500 transition-transform ${
                     openFAQ === 0 ? 'rotate-180' : ''
@@ -39,18 +39,8 @@ export default function EmergencyFAQSection() {
               </button>
               {openFAQ === 0 && (
                 <div className="px-6 py-4 bg-white">
-                  <p className="text-gray-700 leading-relaxed mb-4">
-                    <strong>Single Item Pickup:</strong> Starting at $175<br />
-                    <strong>1/4 Trailer Load:</strong> $249<br />
-                    <strong>3/8 Trailer Load:</strong> $319<br />
-                    <strong>1/2 Trailer Load:</strong> $349<br />
-                    <strong>5/8 Trailer Load:</strong> $366<br />
-                    <strong>3/4 Trailer Load:</strong> $429<br />
-                    <strong>7/8 Trailer Load:</strong> $462<br />
-                    <strong>Full Trailer Load:</strong> $495
-                  </p>
                   <p className="text-gray-700 leading-relaxed">
-                    Prices include labor, hauling, proper disposal, and cleanup. Additional fees may apply for unusually heavy items or special handling.
+                    Yes! We service every street in PB from Tourmaline Surf Beach to Belmont Park, including Crown Point, Bay Park, and all of Garnet Avenue. Our team knows every alley and access point.
                   </p>
                 </div>
               )}
@@ -61,7 +51,7 @@ export default function EmergencyFAQSection() {
                 className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
                 onClick={() => setOpenFAQ(openFAQ === 1 ? null : 1)}
               >
-                <h3 className="font-bold text-gray-900 text-lg">Do you offer same day junk removal in San Diego?</h3>
+                <h3 className="font-bold text-gray-900 text-lg">Can you handle vacation rental turnovers?</h3>
                 <svg
                   className={`w-5 h-5 text-gray-500 transition-transform ${
                     openFAQ === 1 ? 'rotate-180' : ''
@@ -76,7 +66,7 @@ export default function EmergencyFAQSection() {
               {openFAQ === 1 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, we specialize in same day junk removal San Diego with emergency crews available throughout the county. Most requests are handled within 2-4 hours of your call, depending on location and current demand.
+                    Absolutely. We specialize in same-day vacation rental cleanouts throughout Pacific Beach, including Airbnb and VRBO properties. We understand the tight turnaround times required.
                   </p>
                 </div>
               )}
@@ -87,7 +77,7 @@ export default function EmergencyFAQSection() {
                 className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
                 onClick={() => setOpenFAQ(openFAQ === 2 ? null : 2)}
               >
-                <h3 className="font-bold text-gray-900 text-lg">Can you come on weekends for emergency junk removal?</h3>
+                <h3 className="font-bold text-gray-900 text-lg">Do you work around PB's Tuesday Farmers Market?</h3>
                 <svg
                   className={`w-5 h-5 text-gray-500 transition-transform ${
                     openFAQ === 2 ? 'rotate-180' : ''
@@ -102,7 +92,7 @@ export default function EmergencyFAQSection() {
               {openFAQ === 2 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed">
-                    Absolutely. We provide weekend junk removal San Diego Saturday Sunday service with dedicated emergency crews. Weekend availability is one of our specialties for urgent situations.
+                    Yes, we're familiar with all PB events including the Tuesday Farmers Market on Bayard Street, Over-the-Line Tournament, and summer concerts. We schedule accordingly.
                   </p>
                 </div>
               )}
@@ -113,7 +103,7 @@ export default function EmergencyFAQSection() {
                 className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
                 onClick={() => setOpenFAQ(openFAQ === 3 ? null : 3)}
               >
-                <h3 className="font-bold text-gray-900 text-lg">How quickly can you arrive for urgent trash removal San Diego?</h3>
+                <h3 className="font-bold text-gray-900 text-lg">How much does junk removal cost in Pacific Beach?</h3>
                 <svg
                   className={`w-5 h-5 text-gray-500 transition-transform ${
                     openFAQ === 3 ? 'rotate-180' : ''
@@ -128,7 +118,7 @@ export default function EmergencyFAQSection() {
               {openFAQ === 3 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed">
-                    For emergency junk removal San Diego today requests, we typically arrive within 2-4 hours. In some cases, we can dispatch crews within 1 hour for true emergencies like foreclosure cleanouts or tenant issues.
+                    Pricing starts from $95 for single items and varies based on volume. Most PB jobs range from $250-$700. We provide upfront quotes from photos with no hidden fees.
                   </p>
                 </div>
               )}
@@ -139,7 +129,7 @@ export default function EmergencyFAQSection() {
                 className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
                 onClick={() => setOpenFAQ(openFAQ === 4 ? null : 4)}
               >
-                <h3 className="font-bold text-gray-900 text-lg">Do you handle bulky or heavy items during emergency calls?</h3>
+                <h3 className="font-bold text-gray-900 text-lg">Do you offer same-day or evening pickups?</h3>
                 <svg
                   className={`w-5 h-5 text-gray-500 transition-transform ${
                     openFAQ === 4 ? 'rotate-180' : ''
@@ -154,7 +144,7 @@ export default function EmergencyFAQSection() {
               {openFAQ === 4 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, our emergency crews are equipped to handle everything from single items like refrigerators and couches to complete property cleanouts. We bring the necessary equipment for heavy lifting and safe removal.
+                    Yes, we provide same-day service when scheduled before 2 PM and offer evening pickups for urgent situations. Perfect for vacation rental emergencies or move-out deadlines.
                   </p>
                 </div>
               )}
@@ -165,7 +155,7 @@ export default function EmergencyFAQSection() {
                 className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
                 onClick={() => setOpenFAQ(openFAQ === 5 ? null : 5)}
               >
-                <h3 className="font-bold text-gray-900 text-lg">Is there an extra cost for last minute or emergency service?</h3>
+                <h3 className="font-bold text-gray-900 text-lg">Can you remove heavy items from upstairs apartments?</h3>
                 <svg
                   className={`w-5 h-5 text-gray-500 transition-transform ${
                     openFAQ === 5 ? 'rotate-180' : ''
@@ -180,33 +170,7 @@ export default function EmergencyFAQSection() {
               {openFAQ === 5 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed">
-                    Our pricing remains transparent even for last minute junk removal San Diego requests. While emergency service may include a small urgency fee, we provide upfront pricing with no hidden charges.
-                  </p>
-                </div>
-              )}
-            </div>
-
-            <div className="border border-gray-200 rounded-xl overflow-hidden">
-              <button
-                className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
-                onClick={() => setOpenFAQ(openFAQ === 6 ? null : 6)}
-              >
-                <h3 className="font-bold text-gray-900 text-lg">What areas do you cover for emergency junk removal San Diego?</h3>
-                <svg
-                  className={`w-5 h-5 text-gray-500 transition-transform ${
-                    openFAQ === 6 ? 'rotate-180' : ''
-                  }`}
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
-                </svg>
-              </button>
-              {openFAQ === 6 && (
-                <div className="px-6 py-4 bg-white">
-                  <p className="text-gray-700 leading-relaxed">
-                    We provide emergency junk removal service throughout the entire county, from coastal areas like La Jolla and Pacific Beach to inland communities like El Cajon and Santee. Call to confirm immediate availability in your area.
+                    Absolutely. Our team safely removes heavy furniture and appliances from multi-story buildings, including the narrow staircases common in PB apartments. We use proper equipment and protection.
                   </p>
                 </div>
               )}
@@ -216,24 +180,23 @@ export default function EmergencyFAQSection() {
 
         <div className="bg-blue-50 rounded-xl p-8 mt-12 text-center">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">
-            Still Have Questions About Emergency Service?
+            Ready for Same-Day Junk Removal in Pacific Beach?
           </h3>
           <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
-            Our emergency team is ready to answer any questions about our <strong>emergency junk removal San Diego</strong>
-            services, provide immediate quotes, or dispatch crews for same-day service.
+            Whether you're managing a vacation rental on Ocean Front Walk, clearing out a beach cottage near Crystal Pier, or handling a student move-out on Garnet Avenue, we're your local <strong>Pacific Beach junk removal</strong> experts.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:+16197500114"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition-colors"
             >
-              📞 Call (619) 750-0114 – Emergency Line
+              📞 Call (619) 750-0114 – PB Service
             </a>
             <a
-              href="mailto:severincleaners@gmail.com"
+              href="#contact"
               className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-colors"
             >
-              Get Emergency Quote
+              Get Free PB Quote
             </a>
           </div>
         </div>

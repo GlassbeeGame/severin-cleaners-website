@@ -44,7 +44,7 @@ export default function Hero() {
             </div>
 
             <h1 className="text-white uppercase mb-6">
-              San Diego&apos;s #1
+              San Diego&apos;s Best
               <span className="block text-blue-500 mt-2">
                 Junk Removal Service
               </span>

@@ -5,9 +5,9 @@ export default function StructuredData() {
       {
         "@type": "LocalBusiness",
         "@id": "https://severincleaners.com/#business",
-        "name": "Severin Cleaners",
-        "alternateName": "Severin Junk Removal",
-        "description": "Professional junk removal and hauling services in El Cajon, San Diego. Same-day service for estate cleanouts, furniture removal, construction debris. Licensed & insured.",
+        "name": "Severin Cleaners - Best Junk Removal San Diego",
+        "alternateName": ["Severin Junk Removal", "Best Junk Removal San Diego", "Top Rated Junk Removal San Diego"],
+        "description": "San Diego's best junk removal service. Professional, licensed & insured full-service junk hauling. Same-day service for estate cleanouts, furniture removal, construction debris.",
         "url": "https://severincleaners.com",
         "telephone": "+1-619-750-0114",
         "email": "severincleaners@gmail.com",
@@ -24,18 +24,104 @@ export default function StructuredData() {
           "longitude": "-116.9625"
         },
         "areaServed": [
-          "El Cajon, CA",
-          "La Mesa, CA",
-          "Santee, CA",
-          "Lakeside, CA",
-          "Spring Valley, CA",
-          "Lemon Grove, CA",
-          "San Diego, CA",
-          "Chula Vista, CA",
-          "National City, CA",
-          "Bonita, CA",
-          "Alpine, CA",
-          "Jamul, CA"
+          {
+            "@type": "City",
+            "name": "San Diego",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "California"
+            }
+          },
+          {
+            "@type": "City",
+            "name": "El Cajon",
+            "containedInPlace": "California"
+          },
+          {
+            "@type": "City",
+            "name": "La Mesa",
+            "containedInPlace": "California"
+          },
+          {
+            "@type": "City",
+            "name": "Santee",
+            "containedInPlace": "California"
+          },
+          {
+            "@type": "City",
+            "name": "Lakeside",
+            "containedInPlace": "California"
+          },
+          {
+            "@type": "City",
+            "name": "Spring Valley",
+            "containedInPlace": "California"
+          },
+          {
+            "@type": "City",
+            "name": "Lemon Grove",
+            "containedInPlace": "California"
+          },
+          {
+            "@type": "City",
+            "name": "Chula Vista",
+            "containedInPlace": "California"
+          },
+          {
+            "@type": "City",
+            "name": "Carmel Valley",
+            "containedInPlace": "California"
+          },
+          {
+            "@type": "City",
+            "name": "Del Mar",
+            "containedInPlace": "California"
+          },
+          {
+            "@type": "City",
+            "name": "Hillcrest",
+            "containedInPlace": "California"
+          },
+          {
+            "@type": "City",
+            "name": "La Jolla",
+            "containedInPlace": "California"
+          },
+          {
+            "@type": "City",
+            "name": "North Park",
+            "containedInPlace": "California"
+          },
+          {
+            "@type": "City",
+            "name": "Oceanside",
+            "containedInPlace": "California"
+          },
+          {
+            "@type": "City",
+            "name": "Pacific Beach",
+            "containedInPlace": "California"
+          },
+          {
+            "@type": "City",
+            "name": "Point Loma",
+            "containedInPlace": "California"
+          },
+          {
+            "@type": "City",
+            "name": "Poway",
+            "containedInPlace": "California"
+          },
+          {
+            "@type": "City",
+            "name": "Rancho Santa Fe",
+            "containedInPlace": "California"
+          },
+          {
+            "@type": "City",
+            "name": "Vista",
+            "containedInPlace": "California"
+          }
         ],
         "openingHoursSpecification": {
           "@type": "OpeningHoursSpecification",
@@ -46,12 +132,26 @@ export default function StructuredData() {
         "priceRange": "$$",
         "paymentAccepted": ["Cash", "Credit Card", "Debit Card", "Check", "Venmo", "Zelle"],
         "currenciesAccepted": "USD",
+        "slogan": "From Junk to Shine, We Handle Every Grime",
+        "keywords": "best junk removal san diego, junk removal near me, professional junk removal, top rated junk removal, licensed junk removal, local junk removal, full service junk removal",
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "5.0",
           "reviewCount": "18",
           "bestRating": "5"
         },
+        "hasCredential": [
+          {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "license",
+            "name": "Licensed Junk Removal Service"
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "certification",
+            "name": "Insured Junk Removal Business"
+          }
+        ],
         "image": [
           "https://severincleaners.com/junk-removal-truck.jpg",
           "https://severincleaners.com/team-photo.jpg",

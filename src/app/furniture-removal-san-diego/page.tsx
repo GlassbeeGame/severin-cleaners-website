@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import Link from "next/link";
 import FurnitureFAQSection from "./FurnitureFAQSection";
 
 const inter = Inter({
@@ -12,12 +11,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Furniture Removal San Diego | Couch & Mattress Pickup | Licensed Haulers",
-  description: "Professional furniture removal San Diego - same-day couch removal, mattress pickup, sofa disposal & eco-friendly furniture hauling. Licensed & insured. Call (619) 750-0114!",
-  keywords: "furniture removal San Diego, couch removal San Diego, mattress removal San Diego, sofa removal San Diego, furniture pickup San Diego, old furniture disposal San Diego, licensed furniture haulers San Diego, eco-friendly furniture removal",
+  title: "Furniture Removal San Diego | Couch & Sofa Disposal | Severin Cleaners",
+  description: "Professional furniture removal in San Diego. We remove couches, sofas, desks, and all furniture types. Same-day service available. Call (619) 750-0114. Starting at $175.",
   openGraph: {
-    title: "Furniture Removal San Diego | Couch & Mattress Pickup",
-    description: "Professional furniture removal service in San Diego. Couch, mattress, sofa and complete furniture hauling with same-day availability.",
+    title: "Furniture Removal San Diego | Couch & Sofa Disposal | Severin Cleaners",
+    description: "Professional furniture removal in San Diego. We remove couches, sofas, desks, and all furniture types. Same-day service available. Starting at $175.",
     url: "https://severincleaners.com/furniture-removal-san-diego",
   },
   alternates: {
@@ -37,27 +35,27 @@ export default function FurnitureRemovalPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center text-white">
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Furniture Removal San Diego - Licensed Haulers
+                Furniture Removal San Diego
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                Same-Day Couch Removal • Mattress Pickup • Eco-Friendly Furniture Disposal
+                Fast, Professional Service • We Do the Heavy Lifting • Same-Day Available
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                   href="tel:+16197500114"
                   className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors"
                 >
-                  CALL FOR SAME-DAY FURNITURE PICKUP: (619) 750-0114
+                  Call Now: (619) 750-0114
                 </a>
                 <a
                   href="#contact"
                   className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-bold transition-colors"
                 >
-                  GET FURNITURE REMOVAL QUOTE
+                  Get Free Quote
                 </a>
               </div>
               <p className="mt-6 text-sm text-blue-100">
-                🚛 Licensed & insured furniture haulers • Eco-friendly disposal • Same-day service available
+                Licensed & Insured • Starting at $175 • Serving All San Diego County
               </p>
             </div>
           </div>
@@ -67,30 +65,29 @@ export default function FurnitureRemovalPage() {
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
-              Why San Diego Chooses Our Licensed Furniture Haulers
+              Why Choose Us for Furniture Hauling
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-lg text-center">
                 <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 4V2a1 1 0 011-1h8a1 1 0 011 1v2m-9 0h10l1 2H6l1-2zM6 6v14a2 2 0 002 2h8a2 2 0 002-2V6M9 10v6M15 10v6"></path>
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold mb-2">Eco-Friendly Furniture Removal</h3>
+                <h3 className="text-xl font-bold mb-2">Same-Day Service</h3>
                 <p className="text-gray-600">
-                  Responsible old furniture disposal San Diego with 70% donation and recycling rate. Licensed for proper waste handling.
+                  Need that couch gone today? We offer same-day pickup throughout San Diego when you call early.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-lg text-center">
                 <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold mb-2">Same-Day San Diego Service</h3>
+                <h3 className="text-xl font-bold mb-2">We Do All the Work</h3>
                 <p className="text-gray-600">
-                  Rapid furniture pickup San Diego wide with same-day availability. Serving all neighborhoods with professional crews.
+                  Don't lift a finger. Our team handles everything—from your upstairs bedroom to the curb and beyond.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-lg text-center">
@@ -99,211 +96,345 @@ export default function FurnitureRemovalPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold mb-2">Licensed & Transparent Pricing</h3>
+                <h3 className="text-xl font-bold mb-2">Upfront Pricing</h3>
                 <p className="text-gray-600">
-                  Upfront pricing for all furniture removal services. Licensed furniture haulers San Diego with no hidden fees or surprises.
+                  No surprises. You'll know exactly what you're paying before we start. Free quotes by phone.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Detailed Content */}
-        <section className="py-16">
+        {/* Pricing Section */}
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="max-w-5xl mx-auto">
+              <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900">
+                Simple, Straightforward Pricing
+              </h2>
+              <p className="text-center text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
+                Know what you'll pay before we arrive. All prices include labor, hauling, and proper disposal.
+              </p>
+
+              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl border-2 border-blue-200">
+                  <div className="text-center">
+                    <p className="text-sm font-semibold text-blue-600 mb-2">SINGLE ITEM</p>
+                    <p className="text-4xl font-bold text-blue-900 mb-1">$175</p>
+                    <p className="text-sm text-blue-700">Starting at</p>
+                  </div>
+                  <p className="text-sm text-gray-600 mt-4 text-center">
+                    One couch, desk, dresser, or similar
+                  </p>
+                </div>
+                <div className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-xl border-2 border-green-200">
+                  <div className="text-center">
+                    <p className="text-sm font-semibold text-green-600 mb-2">MULTIPLE PIECES</p>
+                    <p className="text-4xl font-bold text-green-900 mb-1">$249</p>
+                    <p className="text-sm text-green-700">1/4 Trailer Load</p>
+                  </div>
+                  <p className="text-sm text-gray-600 mt-4 text-center">
+                    A few pieces of furniture
+                  </p>
+                </div>
+                <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-xl border-2 border-purple-200">
+                  <div className="text-center">
+                    <p className="text-sm font-semibold text-purple-600 mb-2">FULL ROOM</p>
+                    <p className="text-4xl font-bold text-purple-900 mb-1">$349</p>
+                    <p className="text-sm text-purple-700">1/2 Trailer Load</p>
+                  </div>
+                  <p className="text-sm text-gray-600 mt-4 text-center">
+                    Bedroom or living room set
+                  </p>
+                </div>
+                <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-xl border-2 border-orange-200">
+                  <div className="text-center">
+                    <p className="text-sm font-semibold text-orange-600 mb-2">FULL LOAD</p>
+                    <p className="text-4xl font-bold text-orange-900 mb-1">$495</p>
+                    <p className="text-sm text-orange-700">Complete removal</p>
+                  </div>
+                  <p className="text-sm text-gray-600 mt-4 text-center">
+                    Multiple rooms or small apartment
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-gray-100 rounded-xl p-6 mb-8">
+                <h3 className="font-bold text-lg mb-4 text-gray-900">Additional Load Sizes:</h3>
+                <div className="grid md:grid-cols-2 gap-4">
+                  <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                    <span className="font-semibold text-gray-700">Half Room (3/8 Trailer Load)</span>
+                    <span className="text-xl font-bold text-gray-900">$319</span>
+                  </div>
+                  <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                    <span className="font-semibold text-gray-700">Multiple Rooms (5/8 Trailer)</span>
+                    <span className="text-xl font-bold text-gray-900">$366</span>
+                  </div>
+                  <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                    <span className="font-semibold text-gray-700">2-3 Rooms (3/4 Trailer Load)</span>
+                    <span className="text-xl font-bold text-gray-900">$429</span>
+                  </div>
+                  <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                    <span className="font-semibold text-gray-700">Small Apartment (7/8 Trailer)</span>
+                    <span className="text-xl font-bold text-gray-900">$462</span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg">
+                <p className="text-sm text-gray-700 leading-relaxed">
+                  <strong>Note:</strong> Prices shown are for standard furniture removal. Heavy items like pianos or items requiring special handling may have additional fees. Call <a href="tel:+16197500114" className="text-blue-600 font-bold hover:underline">(619) 750-0114</a> for an accurate quote.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Content Section */}
+        <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-bold mb-8 text-gray-900">
-                Professional Furniture Removal San Diego - Same-Day Service Available
+                Got Old Furniture? We'll Haul It Away.
               </h2>
 
               <div className="prose prose-lg max-w-none">
-                <p className="text-lg mb-6">
-                  When you need reliable <strong>furniture removal San Diego</strong> service, Severin Cleaners provides licensed, professional furniture hauling that makes disposing of unwanted furniture simple and stress-free. Our experienced team of licensed furniture haulers San Diego handles everything from single item pickup to complete home furniture cleanouts.
-                </p>
-
-                <p className="text-lg mb-6">
-                  Our <strong>couch removal San Diego</strong> service goes beyond basic furniture pickup. We're fully licensed, insured, and equipped to handle all types of furniture disposal with eco-friendly practices. Whether you need mattress removal San Diego or complete living room furniture disposal, our team provides safe, efficient service that protects your property and the environment.
-                </p>
-
-                <h3 className="text-2xl font-bold mt-8 mb-4">Complete Furniture Pickup San Diego Services</h3>
                 <p className="text-lg mb-4">
-                  Severin Cleaners offers comprehensive <strong>furniture removal San Diego</strong> services for residential and commercial properties throughout San Diego County:
+                  Redecorating? Downsizing? Moving? Or maybe you just bought new furniture and need to get rid of the old stuff.
+                </p>
+
+                <p className="text-lg mb-6">
+                  Whatever the reason, our <strong>furniture removal San Diego</strong> service makes it easy. We handle couches, desks, mattresses, dressers—anything you need gone. From La Jolla to Chula Vista, we're helping San Diego homeowners and businesses clear out unwanted furniture every day.
+                </p>
+
+                <h3 className="text-2xl font-bold mt-10 mb-4">What We Remove</h3>
+                <p className="text-lg mb-4">
+                  If it's furniture, we'll take it. Here's what we haul away most often:
                 </p>
 
                 <div className="grid md:grid-cols-2 gap-8 mb-8">
-                  <div>
-                    <h4 className="text-xl font-bold mb-3 text-blue-600">Living Room Furniture Removal</h4>
-                    <ul className="list-disc pl-6 space-y-2">
-                      <li><strong>Couch removal San Diego</strong> - sectionals, loveseats, recliners of all sizes</li>
-                      <li><strong>Sofa removal San Diego</strong> - sleeper sofas, modular seating, leather furniture</li>
-                      <li>Coffee tables, end tables, and accent furniture</li>
-                      <li>Entertainment centers and TV stands</li>
-                      <li>Bookshelves, display cabinets, and storage units</li>
-                      <li>Chairs, ottomans, and lounge furniture</li>
+                  <div className="bg-white p-6 rounded-lg shadow-md">
+                    <h4 className="font-bold text-xl mb-3 text-blue-600">Living Room</h4>
+                    <ul className="list-disc pl-4 space-y-2 text-gray-700">
+                      <li>Couches & sectionals</li>
+                      <li>Sofas & loveseats</li>
+                      <li>Recliners & armchairs</li>
+                      <li>Coffee tables & end tables</li>
+                      <li>Entertainment centers</li>
+                      <li>Bookshelves & cabinets</li>
                     </ul>
                   </div>
-                  <div>
-                    <h4 className="text-xl font-bold mb-3 text-blue-600">Bedroom Furniture Disposal</h4>
-                    <ul className="list-disc pl-6 space-y-2">
-                      <li><strong>Mattress removal San Diego</strong> - all sizes including California king</li>
-                      <li>Box springs, bed frames, and platform beds</li>
-                      <li>Dressers, nightstands, and armoires</li>
-                      <li>Wardrobes and walk-in closet systems</li>
-                      <li>Mirrors, headboards, and bedroom sets</li>
-                      <li>Children's furniture, cribs, and bunk beds</li>
+                  <div className="bg-white p-6 rounded-lg shadow-md">
+                    <h4 className="font-bold text-xl mb-3 text-blue-600">Bedroom</h4>
+                    <ul className="list-disc pl-4 space-y-2 text-gray-700">
+                      <li>Beds, mattresses & box springs</li>
+                      <li>Dressers & nightstands</li>
+                      <li>Armoires & wardrobes</li>
+                      <li>Mirrors & headboards</li>
+                      <li>Children's furniture</li>
                     </ul>
                   </div>
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-8 mb-8">
-                  <div>
-                    <h4 className="text-xl font-bold mb-3 text-blue-600">Dining & Kitchen Furniture</h4>
-                    <ul className="list-disc pl-6 space-y-2">
-                      <li>Dining tables, chairs, and dining room sets</li>
-                      <li>Kitchen islands, carts, and breakfast nooks</li>
-                      <li>Bar stools, pub tables, and counter seating</li>
-                      <li>China cabinets, hutches, and buffets</li>
-                      <li>Kitchen appliances (<Link href="/appliance-removal-san-diego" className="text-blue-600 underline">see our appliance removal service</Link>)</li>
+                  <div className="bg-white p-6 rounded-lg shadow-md">
+                    <h4 className="font-bold text-xl mb-3 text-blue-600">Office</h4>
+                    <ul className="list-disc pl-4 space-y-2 text-gray-700">
+                      <li>Desks (all sizes)</li>
+                      <li>Office chairs</li>
+                      <li>Conference tables</li>
+                      <li>Filing cabinets</li>
+                      <li>Cubicles & workstations</li>
+                      <li>Storage units</li>
                     </ul>
                   </div>
-                  <div>
-                    <h4 className="text-xl font-bold mb-3 text-blue-600">Office & Specialty Furniture</h4>
-                    <ul className="list-disc pl-6 space-y-2">
-                      <li>Office desks, chairs, and conference tables</li>
-                      <li>Filing cabinets, storage units, and bookcases</li>
-                      <li>Outdoor patio furniture and umbrellas</li>
-                      <li>Exercise equipment and gym furniture</li>
-                      <li>Pianos, organs, and large musical instruments</li>
+                  <div className="bg-white p-6 rounded-lg shadow-md">
+                    <h4 className="font-bold text-xl mb-3 text-blue-600">Other Items</h4>
+                    <ul className="list-disc pl-4 space-y-2 text-gray-700">
+                      <li>Dining tables & chairs</li>
+                      <li>Patio furniture</li>
+                      <li>Exercise equipment</li>
+                      <li>Pianos</li>
+                      <li>Pool tables</li>
                     </ul>
                   </div>
                 </div>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">Our Licensed Furniture Removal Process</h3>
+                <h3 className="text-2xl font-bold mt-10 mb-4">How It Works</h3>
                 <p className="text-lg mb-4">
-                  When you choose our <strong>furniture pickup San Diego</strong> service, here's what our licensed team provides:
-                </p>
-                <ol className="list-decimal pl-6 mb-6 space-y-2">
-                  <li><strong>Free Phone Estimate:</strong> Get transparent pricing over the phone based on furniture type and quantity</li>
-                  <li><strong>Same-Day Scheduling:</strong> Book convenient times including evenings and weekends</li>
-                  <li><strong>Professional Crew Arrival:</strong> Licensed, uniformed team arrives with proper equipment and protection</li>
-                  <li><strong>Safe Furniture Removal:</strong> Careful removal protecting your walls, floors, and doorways</li>
-                  <li><strong>Eco-Friendly Disposal:</strong> Items donated, recycled, or responsibly disposed of at licensed facilities</li>
-                  <li><strong>Complete Cleanup:</strong> Area swept clean and ready for new furniture or other use</li>
-                </ol>
-
-                <h3 className="text-2xl font-bold mt-8 mb-4">Specialized Old Furniture Disposal San Diego</h3>
-
-                <h4 className="text-xl font-bold mb-3">Expert Mattress Removal San Diego</h4>
-                <p className="text-lg mb-4">
-                  Our professional <strong>mattress removal San Diego</strong> service handles the complexities of mattress disposal in compliance with California regulations. We ensure your old mattress is recycled through certified facilities, keeping springs, foam, and fabric out of local landfills while supporting sustainable waste management practices.
+                  Getting rid of unwanted furniture couldn't be simpler:
                 </p>
 
-                <h4 className="text-xl font-bold mb-3">Heavy Couch and Sectional Removal</h4>
-                <p className="text-lg mb-4">
-                  <strong>Couch removal San Diego</strong> requires specialized equipment and techniques for safe handling. Our licensed furniture haulers are trained in maneuvering oversized sectionals, sleeper sofas, and recliners through tight spaces, stairs, and challenging doorways without damage to your property.
-                </p>
+                <div className="grid md:grid-cols-3 gap-6 mb-8">
+                  <div className="bg-blue-50 p-6 rounded-lg">
+                    <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl mb-4">1</div>
+                    <h4 className="font-bold text-lg mb-2">Call or Book Online</h4>
+                    <p className="text-gray-700 text-sm">
+                      Give us a call at <a href="tel:+16197500114" className="text-blue-600 underline font-semibold">(619) 750-0114</a> or request a quote. We'll give you upfront pricing.
+                    </p>
+                  </div>
 
-                <h4 className="text-xl font-bold mb-3">Estate and Inherited Furniture Cleanouts</h4>
-                <p className="text-lg mb-4">
-                  We provide sensitive estate furniture removal services for families dealing with inherited properties. Our <Link href="/estate-cleanout-san-diego" className="text-blue-600 underline">estate cleanout specialists</Link> understand the emotional aspects of furniture disposal during difficult times while ensuring valuable pieces are properly identified and preserved.
-                </p>
+                  <div className="bg-blue-50 p-6 rounded-lg">
+                    <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl mb-4">2</div>
+                    <h4 className="font-bold text-lg mb-2">We Show Up & Haul It</h4>
+                    <p className="text-gray-700 text-sm">
+                      Our team arrives on time, handles all the lifting, and carefully removes your furniture without damaging your home.
+                    </p>
+                  </div>
 
-                <h4 className="text-xl font-bold mb-3">Commercial Furniture Disposal</h4>
-                <p className="text-lg mb-4">
-                  Our business <strong>furniture removal San Diego</strong> service helps offices, restaurants, and retail spaces upgrade or relocate efficiently. We handle everything from office cubicles to restaurant seating with minimal disruption to your business operations.
-                </p>
-
-                <h3 className="text-2xl font-bold mt-8 mb-4">San Diego Neighborhoods We Serve for Furniture Pickup</h3>
-                <p className="text-lg mb-4">
-                  Our licensed <strong>furniture removal San Diego</strong> service covers all major neighborhoods with same-day availability:
-                </p>
-                <div className="grid md:grid-cols-3 gap-4 mb-6">
-                  <ul className="list-disc pl-4">
-                    <li>Downtown & Gaslamp Quarter</li>
-                    <li>Hillcrest & University Heights</li>
-                    <li>Pacific Beach & Mission Beach</li>
-                    <li>La Jolla & Bird Rock</li>
-                    <li>Point Loma & Ocean Beach</li>
-                  </ul>
-                  <ul className="list-disc pl-4">
-                    <li>Chula Vista & Eastlake</li>
-                    <li>National City & Paradise Hills</li>
-                    <li>El Cajon & Fletcher Hills</li>
-                    <li>La Mesa & Mount Helix</li>
-                    <li>Santee & Lakeside</li>
-                  </ul>
-                  <ul className="list-disc pl-4">
-                    <li>Oceanside & Carlsbad</li>
-                    <li>Escondido & San Marcos</li>
-                    <li>Poway & Rancho Penasquitos</li>
-                    <li>Imperial Beach & Coronado</li>
-                    <li>Bonita & Spring Valley</li>
-                  </ul>
+                  <div className="bg-blue-50 p-6 rounded-lg">
+                    <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl mb-4">3</div>
+                    <h4 className="font-bold text-lg mb-2">Done!</h4>
+                    <p className="text-gray-700 text-sm">
+                      We dispose of your furniture properly according to local regulations. You're done—no truck rental, no heavy lifting.
+                    </p>
+                  </div>
                 </div>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">Eco-Friendly Furniture Removal Practices</h3>
-                <p className="text-lg mb-4">
-                  Severin Cleaners leads San Diego in sustainable <strong>old furniture disposal San Diego</strong> practices. Our licensed team prioritizes environmental responsibility while providing efficient furniture removal services:
+                <h3 className="text-2xl font-bold mt-10 mb-4">Couch Removal</h3>
+                <p className="text-lg mb-6">
+                  Old couches are bulky, heavy, and a pain to move. Our <strong>couch removal San Diego</strong> service takes care of everything. Whether it's a sectional that won't fit through the door or a sleeper sofa weighing 300 pounds, we've got the equipment and expertise to get it out safely—even from upstairs apartments.
                 </p>
-                <ul className="list-disc pl-6 mb-6 space-y-2">
-                  <li><strong>Donation Programs:</strong> Good condition furniture donated to local San Diego charities and families in need</li>
-                  <li><strong>Material Recycling:</strong> Metal frames, wood components, and fabric separated for specialized recycling</li>
-                  <li><strong>Certified Disposal:</strong> Non-recyclable items disposed of at licensed facilities following California regulations</li>
-                  <li><strong>Component Salvage:</strong> Usable hardware, springs, and materials recovered for reuse</li>
-                  <li><strong>Documentation Provided:</strong> Detailed receipts for tax-deductible donations and proper disposal records</li>
-                </ul>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">Transparent Furniture Removal Pricing</h3>
-                <p className="text-lg mb-4">
-                  Our <strong>furniture pickup San Diego</strong> pricing is honest, competitive, and includes all services. Factors affecting cost include:
+                <h3 className="text-2xl font-bold mt-10 mb-4">Sofa Removal</h3>
+                <p className="text-lg mb-6">
+                  Need a <strong>sofa removal San Diego</strong> team that shows up on time and does the job right? That's us. We handle loveseats, futons, and modular seating. Just point us to what needs to go, and we'll handle the rest.
                 </p>
-                <div className="bg-gray-100 p-6 rounded-lg mb-6">
-                  <ul className="space-y-2">
-                    <li><strong>Single Item:</strong> $89-$149 (chairs, small tables, single mattress)</li>
-                    <li><strong>Medium Furniture:</strong> $149-$249 (couches, dressers, dining sets)</li>
-                    <li><strong>Large Items:</strong> $249-$399 (sectionals, bedroom sets, office furniture)</li>
-                    <li><strong>Specialty Handling:</strong> $399+ (pianos, pool tables, complex removals)</li>
-                  </ul>
-                  <p className="text-sm text-gray-600 mt-4">
-                    * Pricing includes labor, transportation, eco-friendly disposal, and cleanup. Additional fees for stairs or complex access.
-                  </p>
+
+                <h3 className="text-2xl font-bold mt-10 mb-4">Office Furniture Removal</h3>
+                <p className="text-lg mb-6">
+                  Closing an office? Upgrading your workspace? Our <strong>office furniture removal San Diego</strong> service handles corporate cleanouts of all sizes. We remove desks, cubicles, conference tables, and filing cabinets quickly and professionally—with minimal disruption to your business.
+                </p>
+
+                <h3 className="text-2xl font-bold mt-10 mb-4">Desk Removal</h3>
+                <p className="text-lg mb-6">
+                  Those big executive desks can be surprisingly heavy. Our <strong>desk removal San Diego</strong> team has the tools to disassemble and remove desks of any size—from home office setups to industrial metal desks weighing hundreds of pounds.
+                </p>
+
+                <h3 className="text-2xl font-bold mt-10 mb-4">Old Furniture Disposal</h3>
+                <p className="text-lg mb-6">
+                  When it comes to <strong>old furniture removal San Diego</strong>, we've seen it all. Worn-out recliners, broken bed frames, outdated dining sets—if it's furniture and you need it gone, we'll haul it away and dispose of it properly according to local San Diego regulations.
+                </p>
+
+                <h3 className="text-2xl font-bold mt-10 mb-4">When You Might Need Us</h3>
+                <p className="text-lg mb-4">
+                  San Diego homeowners and businesses call us for <strong>furniture disposal San Diego</strong> in all kinds of situations:
+                </p>
+
+                <div className="grid md:grid-cols-2 gap-6 mb-8">
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">Moving or Downsizing</h4>
+                    <p className="text-gray-700 text-sm">
+                      Can't fit all your furniture in the new place? We'll haul away what doesn't make the cut.
+                    </p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">Redecorating</h4>
+                    <p className="text-gray-700 text-sm">
+                      Out with the old, in with the new. We'll remove your old furniture to make room for fresh pieces.
+                    </p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">Estate Cleanouts</h4>
+                    <p className="text-gray-700 text-sm">
+                      Need to clear an inherited property? We handle full-house furniture removal with care and respect.
+                    </p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">Office Closures</h4>
+                    <p className="text-gray-700 text-sm">
+                      Corporate relocations or closures. We remove office furniture quickly so you can move on.
+                    </p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">Broken or Damaged Items</h4>
+                    <p className="text-gray-700 text-sm">
+                      That broken dresser has been in the garage for months. Time to get your space back.
+                    </p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">Property Management</h4>
+                    <p className="text-gray-700 text-sm">
+                      Tenant left furniture behind? We'll clear it out fast so you can re-list the unit.
+                    </p>
+                  </div>
                 </div>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Licensed Furniture Haulers San Diego</h3>
+                <h3 className="text-2xl font-bold mt-10 mb-4">Why Hire Professionals for Furniture Hauling?</h3>
                 <p className="text-lg mb-4">
-                  Professional furniture removal requires proper licensing, insurance, and expertise:
+                  You could try to move that couch yourself. But here's why that's usually a bad idea:
                 </p>
+
                 <ul className="list-disc pl-6 mb-6 space-y-2">
-                  <li><strong>Licensed & Insured:</strong> Full business license and liability coverage for your protection</li>
-                  <li><strong>Trained Crews:</strong> Experienced in safe furniture handling and property protection</li>
-                  <li><strong>Proper Equipment:</strong> Dollies, straps, blankets, and tools for safe furniture removal</li>
-                  <li><strong>Environmental Compliance:</strong> Following all California waste disposal regulations</li>
-                  <li><strong>Same-Day Service:</strong> Quick response when you need furniture removed immediately</li>
-                  <li><strong>No Hidden Fees:</strong> Transparent pricing with all costs included upfront</li>
+                  <li><strong>Heavy & Awkward:</strong> Furniture is heavier than it looks. Couches can weigh 200+ lbs, and they're awkward to carry.</li>
+                  <li><strong>Risk of Injury:</strong> Back strains, pinched fingers, and worse. It happens more often than you'd think.</li>
+                  <li><strong>Property Damage:</strong> Scratched floors, dented walls, broken railings. One wrong move can cost you.</li>
+                  <li><strong>No Truck Needed:</strong> Why rent a truck and make multiple trips when we handle it all?</li>
+                  <li><strong>Proper Disposal:</strong> Furniture can't just go to the curb. We know where it needs to go.</li>
                 </ul>
 
+                <h3 className="text-2xl font-bold mt-10 mb-4">Serving All of San Diego</h3>
+                <p className="text-lg mb-4">
+                  We provide fast, professional <strong>furniture hauling San Diego</strong> service throughout the county—from coastal neighborhoods to inland communities.
+                </p>
+
+                <div className="grid md:grid-cols-3 gap-6 mb-8">
+                  <div className="bg-white p-4 rounded-lg shadow">
+                    <h4 className="font-bold mb-2 text-blue-600">Central San Diego</h4>
+                    <ul className="text-sm space-y-1 text-gray-700">
+                      <li>• Downtown</li>
+                      <li>• La Jolla</li>
+                      <li>• Pacific Beach</li>
+                      <li>• North Park</li>
+                    </ul>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow">
+                    <h4 className="font-bold mb-2 text-blue-600">East County</h4>
+                    <ul className="text-sm space-y-1 text-gray-700">
+                      <li>• El Cajon</li>
+                      <li>• La Mesa</li>
+                      <li>• Santee</li>
+                      <li>• Lakeside</li>
+                    </ul>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow">
+                    <h4 className="font-bold mb-2 text-blue-600">South & North</h4>
+                    <ul className="text-sm space-y-1 text-gray-700">
+                      <li>• Chula Vista</li>
+                      <li>• Oceanside</li>
+                      <li>• Carlsbad</li>
+                      <li>• Poway</li>
+                    </ul>
+                  </div>
+                </div>
+
+        {/* FAQ Section */}
         <FurnitureFAQSection />
 
-                {/* Trust Signals */}
-                <div className="mt-12 pt-8 border-t border-gray-200">
-                  <div className="grid md:grid-cols-4 gap-4 text-center">
-                    <div>
-                      <p className="text-3xl font-bold text-blue-600">500+</p>
-                      <p className="text-sm text-gray-600">Furniture Removals Completed</p>
-                    </div>
-                    <div>
-                      <p className="text-3xl font-bold text-blue-600">Same-Day</p>
-                      <p className="text-sm text-gray-600">Service Available</p>
-                    </div>
-                    <div>
-                      <p className="text-3xl font-bold text-blue-600">70%</p>
-                      <p className="text-sm text-gray-600">Donation & Recycling Rate</p>
-                    </div>
-                    <div>
-                      <p className="text-3xl font-bold text-blue-600">Licensed</p>
-                      <p className="text-sm text-gray-600">Bonded & Insured</p>
-                    </div>
+                <div className="bg-blue-50 border-2 border-blue-500 p-6 rounded-lg mt-8">
+                  <h3 className="text-2xl font-bold mb-4 text-blue-900">
+                    Ready to Clear Out That Furniture?
+                  </h3>
+                  <p className="text-lg mb-4 text-gray-800">
+                    Don't let unwanted furniture take up valuable space. Give us a call and we'll haul it away—fast, affordable, and hassle-free.
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-4">
+                    <a
+                      href="tel:+16197500114"
+                      className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg text-center font-bold transition-colors inline-block"
+                    >
+                      Call Now: (619) 750-0114
+                    </a>
+                    <a
+                      href="#contact"
+                      className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg text-center font-bold transition-colors inline-block"
+                    >
+                      Get Free Quote
+                    </a>
                   </div>
+                  <p className="text-sm text-gray-600 mt-4">
+                    Licensed & Insured • Same-Day Service Available • Serving All San Diego County
+                  </p>
                 </div>
               </div>
             </div>

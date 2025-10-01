@@ -13,7 +13,8 @@ const junkServices = [
       'Yard waste & debris',
       'Same-day service available'
     ],
-    image: '/webphotos/residential.jpg'
+    image: '/webphotos/residential.jpg',
+    link: '/cleanout-services-san-diego'
   },
   {
     id: 'commercial-junk',
@@ -27,7 +28,8 @@ const junkServices = [
       'Construction debris',
       'Flexible scheduling'
     ],
-    image: '/webphotos/commercial.jpg'
+    image: '/webphotos/commercial.jpg',
+    link: '/commercial-junk-removal-san-diego'
   },
   {
     id: 'estate-cleanout',
@@ -41,7 +43,8 @@ const junkServices = [
       'Document shredding',
       'Flexible timelines'
     ],
-    image: '/webphotos/estate.jpg'
+    image: '/webphotos/estate.jpg',
+    link: '/estate-cleanout-san-diego'
   },
   {
     id: 'construction-debris',
@@ -55,7 +58,8 @@ const junkServices = [
       'Scrap metal recycling',
       'Job site cleanup'
     ],
-    image: '/webphotos/construction.jpg'
+    image: '/webphotos/construction.jpg',
+    link: '/cleanout-services-san-diego'
   },
   {
     id: 'appliance-furniture',
@@ -69,7 +73,8 @@ const junkServices = [
       'Office furniture removal',
       'Safe disconnection & transport'
     ],
-    image: '/webphotos/furniture.jpg'
+    image: '/webphotos/furniture.jpg',
+    link: '/cleanout-services-san-diego'
   },
   {
     id: 'hoarding-cleanup',
@@ -83,7 +88,8 @@ const junkServices = [
       'Sorting & organizing',
       'Follow-up support'
     ],
-    image: '/webphotos/hoarding.jpg'
+    image: '/webphotos/hoarding.jpg',
+    link: '/hoarding-cleanup-san-diego'
   }
 ];
 
@@ -116,9 +122,10 @@ export default function Services() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
             {junkServices.map((service) => (
-              <div
+              <a
                 key={service.id}
-                className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group"
+                href={service.link}
+                className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group block cursor-pointer"
               >
                 <div className="relative h-48 overflow-hidden">
                   <Image
@@ -130,21 +137,21 @@ export default function Services() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                   <div className="absolute bottom-4 left-4">
-                    <div className="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center">
+                    <div className="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center group-hover:bg-blue-600 transition-colors">
                       <span className="text-white text-xl">{service.icon}</span>
                     </div>
                   </div>
                 </div>
 
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-500 transition-colors">
                     {service.title}
                   </h3>
                   <p className="text-gray-600 mb-4 text-sm leading-relaxed">
                     {service.description}
                   </p>
 
-                  <ul className="space-y-2 mb-6">
+                  <ul className="space-y-2">
                     {service.features.map((feature, index) => (
                       <li key={index} className="flex items-start gap-2 text-sm text-gray-600">
                         <svg className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -154,15 +161,8 @@ export default function Services() {
                       </li>
                     ))}
                   </ul>
-
-                  <a
-                    href="#contact"
-                    className="btn btn-primary w-full text-center"
-                  >
-                    Get Free Quote
-                  </a>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
 
@@ -197,7 +197,7 @@ export default function Services() {
               {[
                 {
                   title: 'Same Day Service',
-                  description: 'Emergency junk removal available 24/7',
+                  description: 'Professional emergency junk removal available 24/7',
                   icon: '⚡'
                 },
                 {
@@ -207,7 +207,7 @@ export default function Services() {
                 },
                 {
                   title: 'Licensed & Insured',
-                  description: 'Fully licensed and insured for your protection',
+                  description: 'Top rated, fully licensed and insured professionals',
                   icon: '🛡️'
                 },
                 {
@@ -234,18 +234,37 @@ export default function Services() {
               Serving All of San Diego County
             </h3>
             <p className="text-gray-600 mb-8 text-center text-lg">
-              Professional junk removal services available throughout:
+              Local junk removal near me - we serve these San Diego areas:
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {[
-                'El Cajon', 'La Mesa', 'Santee', 'Lakeside',
-                'Spring Valley', 'Lemon Grove', 'San Diego', 'Chula Vista',
-                'National City', 'Bonita', 'Alpine', 'Jamul',
-                'Rancho San Diego', 'La Jolla', 'Pacific Beach', 'Mission Valley'
+                { name: 'El Cajon', link: '/junk-removal-el-cajon' },
+                { name: 'La Mesa', link: '/junk-removal-la-mesa' },
+                { name: 'Santee', link: '/junk-removal-santee' },
+                { name: 'Lakeside', link: '/junk-removal-lakeside' },
+                { name: 'Spring Valley', link: '/junk-removal-spring-valley' },
+                { name: 'Lemon Grove', link: '/junk-removal-lemon-grove' },
+                { name: 'San Diego', link: '/san-diego-junk-removal' },
+                { name: 'Chula Vista', link: '/junk-removal-chula-vista' },
+                { name: 'Carmel Valley', link: '/junk-removal-carmel-valley' },
+                { name: 'Del Mar', link: '/junk-removal-del-mar' },
+                { name: 'Hillcrest', link: '/junk-removal-hillcrest' },
+                { name: 'La Jolla', link: '/junk-removal-la-jolla' },
+                { name: 'North Park', link: '/junk-removal-north-park' },
+                { name: 'Oceanside', link: '/junk-removal-oceanside' },
+                { name: 'Pacific Beach', link: '/junk-removal-pacific-beach' },
+                { name: 'Point Loma', link: '/junk-removal-point-loma' },
+                { name: 'Poway', link: '/junk-removal-poway' },
+                { name: 'Rancho Santa Fe', link: '/junk-removal-rancho-santa-fe' },
+                { name: 'Vista', link: '/junk-removal-vista' }
               ].map((area, index) => (
-                <div key={index} className="bg-gray-50 rounded-lg p-3 text-center">
-                  <span className="text-gray-700 font-medium">{area}</span>
-                </div>
+                <a
+                  key={index}
+                  href={area.link}
+                  className="bg-gray-50 rounded-lg p-3 text-center hover:bg-blue-500 hover:text-white transition-colors duration-200 block"
+                >
+                  <span className="font-medium">{area.name}</span>
+                </a>
               ))}
             </div>
             <p className="text-center mt-8">

@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+import HotTubFAQSection from "./HotTubFAQSection";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -273,74 +274,67 @@ export default function HotTubRemovalSanDiegoPage() {
                 </ul>
 
                 <h3 className="text-2xl font-bold mt-8 mb-4">Hot Tub Removal Pricing & Payment Options</h3>
-                <p className="text-lg mb-4">
-                  Our <strong>hot tub removal San Diego</strong> pricing is transparent and based on spa type, size, and access requirements:
+                <p className="text-lg mb-6">
+                  Our <strong>hot tub removal San Diego</strong> pricing is transparent and based on volume removed:
                 </p>
-                <div className="bg-gray-100 p-6 rounded-lg mb-6">
-                  <ul className="space-y-2">
-                    <li><strong>Portable Hot Tubs:</strong> $299-$499 (standard above-ground spas)</li>
-                    <li><strong>Large Portable Spas:</strong> $499-$799 (8+ person spas, difficult access)</li>
-                    <li><strong>Built-In Spa Removal:</strong> $799-$1,499 (includes basic demolition)</li>
-                    <li><strong>Complex Demolition:</strong> $1,500+ (extensive concrete work, utilities)</li>
-                    <li><strong>Emergency Service:</strong> Standard rates - no extra fees</li>
-                  </ul>
-                  <p className="text-sm text-gray-600 mt-4">
-                    * Pricing includes disconnection, removal, disposal, and cleanup. Additional fees for complex electrical/plumbing work.
-                  </p>
-                </div>
 
-                {/* FAQ Section */}
-                <div className="bg-blue-50 p-8 rounded-lg mt-12 mb-8">
-                  <h2 className="text-3xl font-bold mb-8 text-blue-900">
-                    Frequently Asked Questions - Hot Tub Removal San Diego
-                  </h2>
-
-                  <div className="space-y-6">
-                    <div>
-                      <h3 className="text-xl font-bold mb-2 text-gray-900">
-                        How much does hot tub removal cost in San Diego?
-                      </h3>
-                      <p className="text-gray-700">
-                        Hot tub removal San Diego costs range from $299 for portable spas to $1,499+ for built-in Jacuzzi removal. Spa removal San Diego pricing depends on size, type, and access difficulty. Our Jacuzzi removal San Diego service includes disconnection, removal, and disposal with transparent upfront pricing and no hidden fees.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-xl font-bold mb-2 text-gray-900">
-                        Do you remove both portable and built-in spas?
-                      </h3>
-                      <p className="text-gray-700">
-                        Yes, our spa disposal San Diego service handles all types including portable hot tubs, above-ground spas, built-in Jacuzzis, and custom installations. We have specialized equipment for backyard hot tub demolition San Diego and experience with both simple removals and complex demolition projects.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-xl font-bold mb-2 text-gray-900">
-                        Can you disconnect plumbing, gas, and electrical lines?
-                      </h3>
-                      <p className="text-gray-700">
-                        Absolutely. Our licensed team safely disconnects all utilities including 220V electrical lines, plumbing connections, and gas lines for heated spas. Professional hot tub disposal includes proper utility disconnection, water draining, and safe capping of all connections to meet local codes.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-xl font-bold mb-2 text-gray-900">
-                        What happens to the old hot tub after removal?
-                      </h3>
-                      <p className="text-gray-700">
-                        Our eco-friendly spa removal San Diego service recycles materials whenever possible. Fiberglass and acrylic shells are recycled, metal components go to scrap yards, and working equipment may be donated or resold. We ensure responsible disposal at licensed facilities while maximizing material recovery.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-xl font-bold mb-2 text-gray-900">
-                        Do you provide same-day hot tub removal?
-                      </h3>
-                      <p className="text-gray-700">
-                        Yes, we offer same-day hot tub removal San Diego when you call before 2 PM. Our rapid Jacuzzi removal San Diego service is perfect for emergency situations, property staging, or when you need immediate spa disposal. Same-day service available throughout San Diego County at standard rates.
-                      </p>
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                  <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl border-2 border-blue-200">
+                    <div className="text-center">
+                      <p className="text-sm font-semibold text-blue-600 mb-2">SINGLE ITEM</p>
+                      <p className="text-4xl font-bold text-blue-900 mb-1">$175</p>
+                      <p className="text-sm text-blue-700">Starting at</p>
                     </div>
                   </div>
+                  <div className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-xl border-2 border-green-200">
+                    <div className="text-center">
+                      <p className="text-sm font-semibold text-green-600 mb-2">1/4 TRAILER LOAD</p>
+                      <p className="text-4xl font-bold text-green-900 mb-1">$249</p>
+                      <p className="text-sm text-green-700">3 cubic yards</p>
+                    </div>
+                  </div>
+                  <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-xl border-2 border-purple-200">
+                    <div className="text-center">
+                      <p className="text-sm font-semibold text-purple-600 mb-2">1/2 TRAILER LOAD</p>
+                      <p className="text-4xl font-bold text-purple-900 mb-1">$349</p>
+                      <p className="text-sm text-purple-700">6 cubic yards</p>
+                    </div>
+                  </div>
+                  <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-xl border-2 border-orange-200">
+                    <div className="text-center">
+                      <p className="text-sm font-semibold text-orange-600 mb-2">FULL TRAILER LOAD</p>
+                      <p className="text-4xl font-bold text-orange-900 mb-1">$495</p>
+                      <p className="text-sm text-orange-700">12 cubic yards</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-gray-100 rounded-xl p-6 mb-8">
+                  <h4 className="font-bold text-lg mb-4 text-gray-900">Additional Load Sizes:</h4>
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                      <span className="font-semibold text-gray-700">3/8 Trailer Load (4.5 cubic yards)</span>
+                      <span className="text-xl font-bold text-gray-900">$319</span>
+                    </div>
+                    <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                      <span className="font-semibold text-gray-700">5/8 Trailer Load (7.5 cubic yards)</span>
+                      <span className="text-xl font-bold text-gray-900">$366</span>
+                    </div>
+                    <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                      <span className="font-semibold text-gray-700">3/4 Trailer Load (9 cubic yards)</span>
+                      <span className="text-xl font-bold text-gray-900">$429</span>
+                    </div>
+                    <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                      <span className="font-semibold text-gray-700">7/8 Trailer Load (10.5 cubic yards)</span>
+                      <span className="text-xl font-bold text-gray-900">$462</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg mb-6">
+                  <p className="text-sm text-gray-700 leading-relaxed">
+                    Note: Hot tub removal pricing varies based on size, type, and access requirements. Portable hot tubs typically range from $299-$799, while built-in spa removal with demolition ranges from $799-$1,499+. Pricing includes disconnection, removal, disposal, and cleanup. Call <a href="tel:+16197500114" className="text-blue-600 font-bold hover:underline">(619) 750-0114</a> for an accurate quote.
+                  </p>
                 </div>
 
                 <div className="bg-blue-50 border-2 border-blue-500 p-6 rounded-lg mt-8">
@@ -373,20 +367,20 @@ export default function HotTubRemovalSanDiegoPage() {
                 <div className="mt-12 pt-8 border-t border-gray-200">
                   <div className="grid md:grid-cols-4 gap-4 text-center">
                     <div>
-                      <p className="text-3xl font-bold text-blue-600">300+</p>
-                      <p className="text-sm text-gray-600">Hot Tubs Removed</p>
+                      <p className="text-3xl font-bold text-blue-600">200+</p>
+                      <p className="text-sm text-gray-600">Cleanout & Hauling Projects Completed</p>
+                    </div>
+                    <div>
+                      <p className="text-3xl font-bold text-blue-600">Licensed</p>
+                      <p className="text-sm text-gray-600">& Insured</p>
                     </div>
                     <div>
                       <p className="text-3xl font-bold text-blue-600">Same-Day</p>
                       <p className="text-sm text-gray-600">Service Available</p>
                     </div>
                     <div>
-                      <p className="text-3xl font-bold text-blue-600">Licensed</p>
-                      <p className="text-sm text-gray-600">Bonded & Insured</p>
-                    </div>
-                    <div>
-                      <p className="text-3xl font-bold text-blue-600">15%</p>
-                      <p className="text-sm text-gray-600">Off This Week</p>
+                      <p className="text-3xl font-bold text-blue-600">Serving</p>
+                      <p className="text-sm text-gray-600">All San Diego</p>
                     </div>
                   </div>
                 </div>
@@ -394,6 +388,8 @@ export default function HotTubRemovalSanDiegoPage() {
             </div>
           </div>
         </section>
+
+        <HotTubFAQSection />
       </main>
       <Footer />
     </div>

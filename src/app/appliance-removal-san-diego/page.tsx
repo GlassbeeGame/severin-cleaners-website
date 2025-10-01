@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import Link from "next/link";
 import ApplianceFAQSection from "./ApplianceFAQSection";
 
 const inter = Inter({
@@ -12,12 +11,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Appliance Removal San Diego | Refrigerator & Washer Disposal | Same-Day Service",
-  description: "Professional appliance removal San Diego - same-day refrigerator removal, washer dryer disposal, eco-friendly appliance recycling. Licensed appliance haulers. Call (619) 750-0114!",
-  keywords: "appliance removal San Diego, refrigerator removal San Diego, washer dryer removal San Diego, appliance disposal San Diego, appliance recycling San Diego, appliance pickup San Diego, licensed appliance haulers San Diego, eco-friendly appliance disposal",
+  title: "Appliance Removal San Diego | Refrigerator & Washer Disposal | Severin Cleaners",
+  description: "Professional appliance removal in San Diego. We remove refrigerators, washers, dryers, stoves, and all appliance types. Same-day service available. Call (619) 750-0114. Starting at $175.",
   openGraph: {
-    title: "Appliance Removal San Diego | Refrigerator & Washer Disposal",
-    description: "Professional appliance removal and recycling service in San Diego. Refrigerator, washer, dryer and all appliance disposal with eco-friendly recycling.",
+    title: "Appliance Removal San Diego | Refrigerator & Washer Disposal | Severin Cleaners",
+    description: "Professional appliance removal in San Diego. We remove refrigerators, washers, dryers, stoves, and all appliance types. Same-day service available. Call (619) 750-0114. Starting at $175.",
     url: "https://severincleaners.com/appliance-removal-san-diego",
   },
   alternates: {
@@ -37,27 +35,27 @@ export default function ApplianceRemovalPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center text-white">
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Appliance Removal San Diego – Refrigerator, Washer & Dryer Disposal
+                Appliance Removal San Diego
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                Same-Day Appliance Pickup • Eco-Friendly Recycling • Licensed Appliance Haulers
+                Fast, Professional Service • We Handle the Heavy Lifting • Same-Day Available
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                   href="tel:+16197500114"
                   className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors"
                 >
-                  CALL FOR SAME-DAY APPLIANCE REMOVAL: (619) 750-0114
+                  Call Now: (619) 750-0114
                 </a>
                 <a
                   href="#contact"
                   className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-bold transition-colors"
                 >
-                  GET APPLIANCE REMOVAL QUOTE
+                  Get Free Quote
                 </a>
               </div>
               <p className="mt-6 text-sm text-blue-100">
-                🔌 Licensed appliance haulers • EPA-compliant recycling • Don't wait—free up space today!
+                Licensed & Insured • Starting at $175 • Serving All of San Diego County
               </p>
             </div>
           </div>
@@ -67,29 +65,29 @@ export default function ApplianceRemovalPage() {
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
-              Why San Diego Trusts Our Licensed Appliance Haulers
+              Why San Diego Homeowners Choose Severin Cleaners
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-                <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold mb-2">Eco-Friendly Appliance Recycling</h3>
-                <p className="text-gray-600">
-                  EPA-compliant appliance recycling San Diego with 85% material recovery rate. Licensed for refrigerant handling and hazardous waste disposal.
-                </p>
-              </div>
               <div className="bg-white p-6 rounded-lg shadow-lg text-center">
                 <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold mb-2">Professional Appliance Handling</h3>
+                <h3 className="text-xl font-bold mb-2">We Do the Heavy Lifting</h3>
                 <p className="text-gray-600">
-                  Licensed appliance haulers San Diego with specialized equipment. Safe disconnection and removal without property damage.
+                  No need to move anything to your curb. Our team handles everything—from your basement, second floor, or wherever the appliance sits.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+                <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                  </svg>
+                </div>
+                <h3 className="text-xl font-bold mb-2">Upfront, Honest Pricing</h3>
+                <p className="text-gray-600">
+                  No surprises. You'll know the total cost before we start. Pricing includes removal, hauling, and proper disposal.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-lg text-center">
@@ -98,9 +96,9 @@ export default function ApplianceRemovalPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold mb-2">Same-Day Appliance Pickup</h3>
+                <h3 className="text-xl font-bold mb-2">Same-Day Service</h3>
                 <p className="text-gray-600">
-                  Rapid appliance pickup San Diego with same-day and emergency scheduling. Perfect for kitchen renovations and urgent removals.
+                  Need it gone today? We offer same-day pickup throughout San Diego when you call early. Evenings and weekends available.
                 </p>
               </div>
             </div>
@@ -112,254 +110,292 @@ export default function ApplianceRemovalPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-bold mb-8 text-gray-900">
-                Professional Appliance Removal San Diego - Licensed & EPA Compliant
+                Old Appliances Taking Up Space? We'll Haul Them Away.
               </h2>
 
               <div className="prose prose-lg max-w-none">
-                <p className="text-lg mb-6">
-                  When you need reliable <strong>appliance removal San Diego</strong> service, Severin Cleaners provides licensed, professional appliance disposal that combines convenience with environmental responsibility. Our experienced team of licensed appliance haulers San Diego handles all types of appliance removal with proper permits, specialized equipment, and EPA-compliant recycling practices.
-                </p>
-
-                <p className="text-lg mb-6">
-                  Our <strong>refrigerator removal San Diego</strong> service extends to all major appliances, ensuring safe disconnection and eco-friendly disposal that meets strict California environmental standards. We understand that appliances contain refrigerants, metals, and electronic components requiring specialized handling – that's why we're certified for hazardous material disposal and appliance recycling San Diego.
-                </p>
-
-                <h3 className="text-2xl font-bold mt-8 mb-4">Complete Appliance Pickup San Diego Services</h3>
                 <p className="text-lg mb-4">
-                  Severin Cleaners offers comprehensive <strong>appliance removal San Diego</strong> services for residential, commercial, and industrial properties throughout San Diego County:
+                  Just upgraded to new appliances? Remodeling your kitchen? Or maybe you've got an old fridge that's been sitting in the garage for months.
+                </p>
+
+                <p className="text-lg mb-6">
+                  Whatever the reason, getting rid of heavy appliances is a hassle. That's where our <strong>appliance removal San Diego</strong> service comes in. We handle refrigerators, washers, dryers, stoves, dishwashers—you name it. From La Jolla to Chula Vista, we're helping San Diego homeowners reclaim their space every day.
+                </p>
+
+                {/* Pricing Section */}
+                <h3 className="text-2xl font-bold mt-8 mb-4">Simple, Straightforward Pricing</h3>
+                <p className="text-lg mb-6">
+                  No hidden fees. No surprises. Here's what you'll pay for professional <strong>appliance disposal San Diego</strong>:
+                </p>
+
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+                  <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl border-2 border-blue-200">
+                    <div className="text-center">
+                      <p className="text-sm font-semibold text-blue-600 mb-2">SINGLE APPLIANCE</p>
+                      <p className="text-4xl font-bold text-blue-900 mb-1">$175</p>
+                      <p className="text-sm text-blue-700">Starting at</p>
+                    </div>
+                    <p className="text-sm text-gray-600 mt-4 text-center">
+                      One refrigerator, washer, dryer, stove, or similar
+                    </p>
+                  </div>
+
+                  <div className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-xl border-2 border-green-200">
+                    <div className="text-center">
+                      <p className="text-sm font-semibold text-green-600 mb-2">2 APPLIANCES</p>
+                      <p className="text-4xl font-bold text-green-900 mb-1">$249</p>
+                      <p className="text-sm text-green-700">Total price</p>
+                    </div>
+                    <p className="text-sm text-gray-600 mt-4 text-center">
+                      Perfect for washer & dryer sets
+                    </p>
+                  </div>
+
+                  <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-xl border-2 border-purple-200">
+                    <div className="text-center">
+                      <p className="text-sm font-semibold text-purple-600 mb-2">3-4 APPLIANCES</p>
+                      <p className="text-4xl font-bold text-purple-900 mb-1">$319</p>
+                      <p className="text-sm text-purple-700">Total price</p>
+                    </div>
+                    <p className="text-sm text-gray-600 mt-4 text-center">
+                      Partial kitchen cleanout
+                    </p>
+                  </div>
+
+                  <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-xl border-2 border-orange-200">
+                    <div className="text-center">
+                      <p className="text-sm font-semibold text-orange-600 mb-2">5-6 APPLIANCES</p>
+                      <p className="text-4xl font-bold text-orange-900 mb-1">$349</p>
+                      <p className="text-sm text-orange-700">Total price</p>
+                    </div>
+                    <p className="text-sm text-gray-600 mt-4 text-center">
+                      Most kitchen remodels
+                    </p>
+                  </div>
+
+                  <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl border-2 border-blue-200">
+                    <div className="text-center">
+                      <p className="text-sm font-semibold text-blue-600 mb-2">FULL KITCHEN</p>
+                      <p className="text-4xl font-bold text-blue-900 mb-1">$495</p>
+                      <p className="text-sm text-blue-700">7+ appliances</p>
+                    </div>
+                    <p className="text-sm text-gray-600 mt-4 text-center">
+                      Complete kitchen renovation cleanout
+                    </p>
+                  </div>
+                </div>
+
+                <div className="bg-blue-50 border-l-4 border-blue-400 p-4 mb-8">
+                  <p className="text-sm text-blue-900">
+                    <strong>Note:</strong> Prices include removal from anywhere on your property, loading, hauling, and proper disposal. Built-in appliances or items requiring disconnection may have additional fees. Call <a href="tel:+16197500114" className="underline font-bold">(619) 750-0114</a> for an accurate quote.
+                  </p>
+                </div>
+
+                <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove</h3>
+                <p className="text-lg mb-4">
+                  If it's an appliance and you need it gone, we'll take it. Here's what we haul away most often:
                 </p>
 
                 <div className="grid md:grid-cols-2 gap-8 mb-8">
-                  <div>
-                    <h4 className="text-xl font-bold mb-3 text-blue-600">Kitchen Appliance Removal</h4>
-                    <ul className="list-disc pl-6 space-y-2">
-                      <li><strong>Refrigerator removal San Diego</strong> - all sizes including commercial walk-in units</li>
-                      <li>Freezers, ice makers, and beverage centers</li>
-                      <li>Dishwashers and garbage disposal units</li>
-                      <li>Gas and electric stoves, ovens, and cooktops</li>
-                      <li>Built-in microwaves and range hoods</li>
-                      <li>Wine coolers and under-counter refrigerators</li>
+                  <div className="bg-white p-6 rounded-lg shadow-md">
+                    <h4 className="font-bold text-xl mb-3 text-blue-600">Kitchen Appliances</h4>
+                    <ul className="list-disc pl-4 space-y-2">
+                      <li>Refrigerators & freezers (all sizes)</li>
+                      <li>Stoves, ovens & cooktops (gas or electric)</li>
+                      <li>Dishwashers (built-in or portable)</li>
+                      <li>Microwaves & range hoods</li>
+                      <li>Garbage disposals & ice makers</li>
                     </ul>
                   </div>
-                  <div>
-                    <h4 className="text-xl font-bold mb-3 text-blue-600">Laundry & Utility Appliances</h4>
-                    <ul className="list-disc pl-6 space-y-2">
-                      <li><strong>Washer dryer removal San Diego</strong> - front load, top load, and stackable units</li>
-                      <li>Commercial laundry equipment and coin-operated machines</li>
-                      <li>Water heaters (gas, electric, and tankless)</li>
-                      <li>Boilers and utility heating systems</li>
-                      <li>Utility sinks, laundry tubs, and washbasins</li>
-                    </ul>
-                  </div>
-                </div>
 
-                <div className="grid md:grid-cols-2 gap-8 mb-8">
-                  <div>
-                    <h4 className="text-xl font-bold mb-3 text-blue-600">HVAC & Climate Control</h4>
-                    <ul className="list-disc pl-6 space-y-2">
-                      <li>Window and central air conditioning units</li>
-                      <li>Heating units, furnaces, and heat pumps</li>
-                      <li>Dehumidifiers, humidifiers, and air purifiers</li>
-                      <li>Evaporative coolers and industrial fans</li>
-                      <li>Pool heaters, pumps, and spa equipment</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="text-xl font-bold mb-3 text-blue-600">Commercial & Specialty Equipment</h4>
-                    <ul className="list-disc pl-6 space-y-2">
-                      <li>Restaurant equipment and commercial kitchen appliances</li>
-                      <li>Medical and laboratory equipment disposal</li>
-                      <li>Exercise equipment with electronic components</li>
-                      <li>Industrial machinery and manufacturing equipment</li>
-                      <li>E-waste and computer server equipment</li>
+                  <div className="bg-white p-6 rounded-lg shadow-md">
+                    <h4 className="font-bold text-xl mb-3 text-blue-600">Laundry & Other Appliances</h4>
+                    <ul className="list-disc pl-4 space-y-2">
+                      <li>Washers & dryers (stackable or side-by-side)</li>
+                      <li>Water heaters (gas, electric, tankless)</li>
+                      <li>AC units & dehumidifiers</li>
+                      <li>Space heaters</li>
+                      <li>Small kitchen appliances</li>
                     </ul>
                   </div>
                 </div>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">Our Licensed Appliance Removal Process</h3>
+                <h3 className="text-2xl font-bold mt-8 mb-4">How It Works</h3>
                 <p className="text-lg mb-4">
-                  When you choose our <strong>appliance pickup San Diego</strong> service, here's our certified professional process:
-                </p>
-                <ol className="list-decimal pl-6 mb-6 space-y-2">
-                  <li><strong>Professional Assessment:</strong> Licensed technician evaluates appliances and disconnection requirements</li>
-                  <li><strong>Transparent Pricing:</strong> Upfront quote including all disconnection, removal, and recycling fees</li>
-                  <li><strong>Safe Disconnection:</strong> Proper shutdown of gas, water, and electrical connections by certified technicians</li>
-                  <li><strong>Professional Removal:</strong> Safe extraction using specialized equipment, dollies, and protective materials</li>
-                  <li><strong>EPA-Compliant Disposal:</strong> Certified recycling and disposal at licensed facilities</li>
-                  <li><strong>Complete Cleanup:</strong> Area cleaned and ready for new appliance installation or other use</li>
-                </ol>
-
-                <h3 className="text-2xl font-bold mt-8 mb-4">Specialized Appliance Disposal San Diego Services</h3>
-
-                <h4 className="text-xl font-bold mb-3">Expert Refrigerator Removal San Diego</h4>
-                <p className="text-lg mb-4">
-                  Our professional <strong>refrigerator removal San Diego</strong> service handles the complex requirements of refrigeration equipment disposal. We're certified for refrigerant recovery, ensuring proper removal of R-134a, R-410A, and other cooling gases. Our team safely recycles valuable metals, plastic components, and electronic parts while ensuring full EPA compliance for refrigerator disposal throughout San Diego County.
+                  Getting rid of your old appliances is easier than you think:
                 </p>
 
-                <h4 className="text-xl font-bold mb-3">Safe Washer Dryer Removal San Diego</h4>
-                <p className="text-lg mb-4">
-                  <strong>Washer dryer removal San Diego</strong> requires careful disconnection from water lines, gas connections, and electrical systems. Our licensed appliance haulers are trained in safe utility disconnection, preventing water damage, gas leaks, and electrical hazards. We handle both standard and stackable units, including complex built-in installations that require special removal techniques.
-                </p>
-
-                <h4 className="text-xl font-bold mb-3">Commercial Appliance Disposal</h4>
-                <p className="text-lg mb-4">
-                  For businesses requiring commercial appliance removal, we provide specialized services for restaurants, hotels, hospitals, and industrial facilities. Our team understands commercial equipment regulations, OSHA compliance, and business continuity needs. We schedule removals during off-hours to minimize operational disruption and ensure proper disposal of commercial-grade appliances.
-                </p>
-
-                <h4 className="text-xl font-bold mb-3">Emergency Appliance Removal</h4>
-                <p className="text-lg mb-4">
-                  When appliances fail catastrophically or pose safety hazards, our emergency <strong>appliance pickup San Diego</strong> service provides rapid response. We handle water-damaged units, gas appliance emergencies, and electrical hazards with immediate removal to protect your property and family safety.
-                </p>
-
-                <h3 className="text-2xl font-bold mt-8 mb-4">Comprehensive When to Schedule Appliance Removal Guide</h3>
-                <p className="text-lg mb-4">
-                  Consider our professional <strong>appliance removal San Diego</strong> service for these common situations:
-                </p>
-
-                <div className="grid md:grid-cols-2 gap-8 mb-6">
-                  <div>
-                    <h4 className="text-lg font-bold mb-3">Home Improvement Projects</h4>
-                    <ul className="list-disc pl-6 space-y-1">
-                      <li><strong>Kitchen Renovations:</strong> Removing old appliances before cabinet installation</li>
-                      <li><strong>Appliance Upgrades:</strong> Energy-efficient replacements for older units</li>
-                      <li><strong>Home Sales:</strong> Clearing non-conveying appliances for staging</li>
-                      <li><strong>New Construction:</strong> Removing temporary or damaged appliances</li>
-                    </ul>
+                <div className="grid md:grid-cols-3 gap-6 mb-8">
+                  <div className="bg-blue-50 p-6 rounded-lg">
+                    <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl mb-4">1</div>
+                    <h4 className="font-bold text-lg mb-2">Call or Book Online</h4>
+                    <p className="text-gray-700">
+                      Give us a call at <a href="tel:+16197500114" className="text-blue-600 underline font-semibold">(619) 750-0114</a> or request a quote. We'll give you an upfront price and schedule a time that works for you.
+                    </p>
                   </div>
-                  <div>
-                    <h4 className="text-lg font-bold mb-3">Property Management Needs</h4>
-                    <ul className="list-disc pl-6 space-y-1">
-                      <li><strong>Tenant Turnover:</strong> Removing abandoned or damaged appliances</li>
-                      <li><strong>Estate Cleanouts:</strong> (<Link href="/estate-cleanout-san-diego" className="text-blue-600 underline">see our estate services</Link>) Clearing inherited properties</li>
-                      <li><strong>Property Flips:</strong> Removing outdated appliances for modernization</li>
-                      <li><strong>Business Closures:</strong> Commercial equipment and appliance disposal</li>
-                    </ul>
+
+                  <div className="bg-blue-50 p-6 rounded-lg">
+                    <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl mb-4">2</div>
+                    <h4 className="font-bold text-lg mb-2">We Show Up & Haul It</h4>
+                    <p className="text-gray-700">
+                      Our team arrives on time, handles all the lifting, and carefully removes your appliance without damaging your home.
+                    </p>
+                  </div>
+
+                  <div className="bg-blue-50 p-6 rounded-lg">
+                    <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl mb-4">3</div>
+                    <h4 className="font-bold text-lg mb-2">Proper Disposal</h4>
+                    <p className="text-gray-700">
+                      We dispose of your appliance according to local San Diego regulations. You're done—no truck rental, no hauling.
+                    </p>
                   </div>
                 </div>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">San Diego Areas We Serve for Appliance Pickup</h3>
-                <p className="text-lg mb-4">
-                  Our licensed <strong>appliance removal San Diego</strong> service covers all major neighborhoods with same-day availability:
+                <h3 className="text-2xl font-bold mt-8 mb-4">Refrigerator Removal</h3>
+                <p className="text-lg mb-6">
+                  Old fridges are heavy, awkward, and tough to move. Our <strong>refrigerator removal San Diego</strong> team has the right equipment to safely extract your fridge—even from tight kitchens, garages, or second-story units. We'll navigate stairs, protect your walls and floors, and get it out without breaking a sweat (well, maybe a little).
                 </p>
+
+                <h3 className="text-2xl font-bold mt-8 mb-4">Washer & Dryer Removal</h3>
+                <p className="text-lg mb-6">
+                  Whether you've got a stackable set in a closet or a side-by-side pair in the laundry room, our <strong>washer dryer removal San Diego</strong> service makes it easy. We handle disconnection from water and power, carefully remove both units, and haul them away—all in one visit.
+                </p>
+
+                <h3 className="text-2xl font-bold mt-8 mb-4">Stove & Dishwasher Removal</h3>
+                <p className="text-lg mb-6">
+                  Gas stoves, electric ranges, built-in ovens—we remove them all. Need <strong>stove removal San Diego</strong> or <strong>dishwasher removal San Diego</strong>? We'll carefully disconnect and extract built-in units without damaging your cabinetry or countertops.
+                </p>
+
+                <h3 className="text-2xl font-bold mt-8 mb-4">Freezer Removal</h3>
+                <p className="text-lg mb-6">
+                  Got a chest freezer in the garage that's seen better days? Our <strong>freezer removal San Diego</strong> service handles standalone freezers of all sizes. Just make sure it's emptied out, and we'll take care of the rest.
+                </p>
+
+                <h3 className="text-2xl font-bold mt-8 mb-4">When You Might Need Us</h3>
+                <p className="text-lg mb-4">
+                  San Diego homeowners call us for appliance disposal in all kinds of situations:
+                </p>
+
+                <div className="grid md:grid-cols-2 gap-6 mb-8">
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">Kitchen Remodels</h4>
+                    <p className="text-gray-700 text-sm">
+                      Contractors need the old appliances out before the new ones arrive. We coordinate with your schedule.
+                    </p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">Upgrading Appliances</h4>
+                    <p className="text-gray-700 text-sm">
+                      New fridge being delivered tomorrow? We'll haul the old one away same-day.
+                    </p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">Moving Out</h4>
+                    <p className="text-gray-700 text-sm">
+                      Your new place has appliances, but you need to clear out your old ones before closing.
+                    </p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">Broken Appliances</h4>
+                    <p className="text-gray-700 text-sm">
+                      That dead dishwasher has been sitting there for months. Time to reclaim the space.
+                    </p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">Rental Property Turnovers</h4>
+                    <p className="text-gray-700 text-sm">
+                      Tenant left behind a broken washer? We'll remove it fast so you can re-list the unit.
+                    </p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">Estate Cleanouts</h4>
+                    <p className="text-gray-700 text-sm">
+                      Multiple appliances to remove? We handle everything in one trip.
+                    </p>
+                  </div>
+                </div>
+
+                <h3 className="text-2xl font-bold mt-8 mb-4">Why Hire Professionals?</h3>
+                <p className="text-lg mb-4">
+                  You might be tempted to drag that old fridge to the curb yourself. Here's why that's usually a bad idea:
+                </p>
+
+                <ul className="list-disc pl-6 mb-6 space-y-2">
+                  <li><strong>They're Heavy:</strong> A full-size refrigerator can weigh 250-400 lbs. Washers and dryers aren't much lighter.</li>
+                  <li><strong>Risk of Injury:</strong> Back strains, dropped appliances, smashed fingers—it happens more than you'd think.</li>
+                  <li><strong>Property Damage:</strong> One wrong move and you've got a hole in your wall or a scratched floor.</li>
+                  <li><strong>Disposal Regulations:</strong> Appliances can't just go to the dump. They need to be disposed of properly.</li>
+                  <li><strong>No Truck Needed:</strong> Why rent a truck and do multiple trips when we can handle it all?</li>
+                </ul>
+
+                <h3 className="text-2xl font-bold mt-8 mb-4">Serving All of San Diego</h3>
+                <p className="text-lg mb-4">
+                  We provide fast, professional service throughout San Diego County—from coastal neighborhoods to inland communities.
+                </p>
+
                 <div className="grid md:grid-cols-3 gap-4 mb-6">
-                  <ul className="list-disc pl-4">
-                    <li>Downtown & Gaslamp Quarter</li>
-                    <li>Hillcrest & Bankers Hill</li>
-                    <li>Pacific Beach & Mission Beach</li>
-                    <li>La Jolla & UC San Diego</li>
-                    <li>Point Loma & Sunset Cliffs</li>
+                  <ul className="list-disc pl-4 text-gray-700">
+                    <li>La Jolla</li>
+                    <li>Pacific Beach</li>
+                    <li>Downtown San Diego</li>
+                    <li>North Park</li>
+                    <li>El Cajon</li>
                   </ul>
-                  <ul className="list-disc pl-4">
-                    <li>Chula Vista & Eastlake</li>
-                    <li>National City & Lincoln Acres</li>
-                    <li>El Cajon & Rancho San Diego</li>
-                    <li>La Mesa & Spring Valley</li>
-                    <li>Santee & Lakeside</li>
+                  <ul className="list-disc pl-4 text-gray-700">
+                    <li>Chula Vista</li>
+                    <li>Oceanside</li>
+                    <li>La Mesa</li>
+                    <li>Santee</li>
+                    <li>Poway</li>
                   </ul>
-                  <ul className="list-disc pl-4">
-                    <li>Oceanside & Vista</li>
-                    <li>Escondido & San Marcos</li>
-                    <li>Poway & Scripps Ranch</li>
-                    <li>Imperial Beach & Coronado</li>
-                    <li>Bonita & Paradise Hills</li>
+                  <ul className="list-disc pl-4 text-gray-700">
+                    <li>Point Loma</li>
+                    <li>Hillcrest</li>
+                    <li>Mission Valley</li>
+                    <li>Vista</li>
+                    <li>All North County</li>
                   </ul>
                 </div>
-
-                <h3 className="text-2xl font-bold mt-8 mb-4">Advanced Eco-Friendly Appliance Disposal</h3>
-                <p className="text-lg mb-4">
-                  Severin Cleaners leads San Diego in sustainable <strong>appliance recycling San Diego</strong> practices. Our licensed team follows strict environmental protocols while maximizing material recovery:
-                </p>
-                <ul className="list-disc pl-6 mb-6 space-y-2">
-                  <li><strong>Refrigerant Recovery:</strong> EPA-certified removal and recycling of R-134a, R-410A, and other cooling gases</li>
-                  <li><strong>Metal Recovery:</strong> Steel, aluminum, copper, and stainless steel separation for specialized recycling</li>
-                  <li><strong>Electronic Component Recycling:</strong> Circuit boards, wiring, and control panels processed at certified e-waste facilities</li>
-                  <li><strong>Hazardous Material Handling:</strong> Safe disposal of mercury switches, asbestos insulation, and lead components</li>
-                  <li><strong>Plastic and Glass Recovery:</strong> Separation and recycling of appliance plastic housings and glass components</li>
-                  <li><strong>Documentation Provided:</strong> Detailed recycling certificates and disposal records for regulatory compliance</li>
-                </ul>
-
-                <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8">
-                  <p className="font-bold text-yellow-800">
-                    🏗️ Renovation Project with Multiple Items?
-                  </p>
-                  <p className="text-yellow-700 mt-2">
-                    If your appliance removal is part of a larger renovation involving construction debris, <Link href="/construction-debris-removal-san-diego" className="text-blue-600 underline">see our construction debris removal services</Link> for comprehensive project cleanup.
-                  </p>
-                </div>
-
-                <h3 className="text-2xl font-bold mt-8 mb-4">Transparent Appliance Removal Pricing</h3>
-                <p className="text-lg mb-4">
-                  Our <strong>appliance pickup San Diego</strong> pricing is competitive, comprehensive, and includes all services:
-                </p>
-                <div className="bg-gray-100 p-6 rounded-lg mb-6">
-                  <ul className="space-y-2">
-                    <li><strong>Single Appliance:</strong> $89-$149 (dishwashers, microwaves, small units)</li>
-                    <li><strong>Large Appliances:</strong> $149-$249 (refrigerators, washers, dryers)</li>
-                    <li><strong>HVAC Equipment:</strong> $199-$349 (AC units, water heaters, furnaces)</li>
-                    <li><strong>Commercial Equipment:</strong> $299-$599+ (restaurant, medical, industrial)</li>
-                    <li><strong>Same-Day Service:</strong> Standard pricing - no emergency fees</li>
-                  </ul>
-                  <p className="text-sm text-gray-600 mt-4">
-                    * Pricing includes disconnection, removal, transportation, eco-friendly disposal, and cleanup. Additional fees for complex installations or hazardous material handling.
-                  </p>
-                </div>
-
-                <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Licensed Appliance Haulers San Diego</h3>
-                <p className="text-lg mb-4">
-                  Professional appliance disposal requires proper licensing, certifications, and specialized knowledge:
-                </p>
-                <ul className="list-disc pl-6 mb-6 space-y-2">
-                  <li><strong>EPA Certification:</strong> Licensed for refrigerant handling and hazardous waste disposal</li>
-                  <li><strong>California Compliance:</strong> Following all state regulations for appliance recycling and disposal</li>
-                  <li><strong>Insurance Coverage:</strong> Full liability and workers compensation for your protection</li>
-                  <li><strong>Specialized Equipment:</strong> Appliance dollies, refrigerant recovery units, and safety gear</li>
-                  <li><strong>Trained Technicians:</strong> Certified in safe disconnection and hazardous material handling</li>
-                  <li><strong>Environmental Responsibility:</strong> 85% material recovery rate exceeding industry standards</li>
-                </ul>
 
         {/* FAQ Section */}
         <ApplianceFAQSection />
 
                 <div className="bg-blue-50 border-2 border-blue-500 p-6 rounded-lg mt-8">
                   <h3 className="text-2xl font-bold mb-4 text-blue-900">
-                    🔌 Ready for Professional Appliance Removal?
+                    Ready to Get Rid of That Old Appliance?
                   </h3>
                   <p className="text-lg mb-4 text-gray-800">
-                    Don't let old appliances take up valuable space or pose safety hazards. Our licensed <strong>appliance removal San Diego</strong> team provides safe, eco-friendly disposal with same-day service throughout San Diego County. Call today for immediate appliance pickup!
+                    Don't let old appliances take up space in your home. Give us a call and we'll haul them away—fast, affordable, and hassle-free.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <a
                       href="tel:+16197500114"
                       className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg text-center font-bold transition-colors inline-block"
                     >
-                      Call Today for Same-Day Appliance Removal: (619) 750-0114
+                      Call Now: (619) 750-0114
                     </a>
                     <a
                       href="#contact"
                       className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg text-center font-bold transition-colors inline-block"
                     >
-                      Get Your Appliance Removal Quote
+                      Get Free Quote
                     </a>
                   </div>
                   <p className="text-sm text-gray-600 mt-4">
-                    Licensed & EPA certified • Same-day service • 85% recycling rate • All San Diego neighborhoods
+                    Licensed & Insured • Same-Day Service Available • Serving All San Diego County
                   </p>
                 </div>
 
                 {/* Trust Signals */}
                 <div className="mt-12 pt-8 border-t border-gray-200">
-                  <div className="grid md:grid-cols-4 gap-4 text-center">
+                  <div className="grid md:grid-cols-3 gap-4 text-center">
                     <div>
-                      <p className="text-3xl font-bold text-blue-600">800+</p>
-                      <p className="text-sm text-gray-600">Appliances Removed</p>
+                      <p className="text-3xl font-bold text-blue-600">200+</p>
+                      <p className="text-sm text-gray-600">Jobs Completed</p>
                     </div>
                     <div>
-                      <p className="text-3xl font-bold text-blue-600">EPA</p>
-                      <p className="text-sm text-gray-600">Certified & Licensed</p>
-                    </div>
-                    <div>
-                      <p className="text-3xl font-bold text-blue-600">85%</p>
-                      <p className="text-sm text-gray-600">Material Recovery Rate</p>
+                      <p className="text-3xl font-bold text-blue-600">Licensed</p>
+                      <p className="text-sm text-gray-600">& Fully Insured</p>
                     </div>
                     <div>
                       <p className="text-3xl font-bold text-blue-600">Same-Day</p>

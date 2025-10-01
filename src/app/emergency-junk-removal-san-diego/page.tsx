@@ -4,18 +4,18 @@ import Footer from "@/components/Footer";
 import EmergencyFAQSection from "./EmergencyFAQSection";
 
 export const metadata: Metadata = {
-  title: "Emergency Junk Removal San Diego - Same Day, Last Minute & 24/7 Service",
-  description: "Emergency junk removal San Diego today! Same-day, weekend & 24/7 urgent trash removal. Licensed & insured. Call (619) 750-0114 for immediate service!",
+  title: "Emergency Junk Removal San Diego - Same Day & Last Minute Service",
+  description: "Emergency junk removal San Diego today! Same-day, weekend & immediate dispatch urgent trash removal. Licensed & insured. Call (619) 750-0114 for immediate service!",
   keywords: "emergency junk removal San Diego today, same day junk removal San Diego, urgent trash removal San Diego now, 24 hour junk removal San Diego, weekend junk removal San Diego Saturday Sunday, last minute junk removal San Diego",
   openGraph: {
     title: "Emergency Junk Removal San Diego - Same Day Service Available",
-    description: "Need emergency junk removal San Diego today? Same-day, weekend & 24/7 urgent trash removal. Licensed & insured. Call (619) 750-0114 now!",
+    description: "Need emergency junk removal San Diego today? Same-day, weekend & immediate dispatch urgent trash removal. Licensed & insured. Call (619) 750-0114 now!",
     url: 'https://severincleaners.com/emergency-junk-removal-san-diego',
   },
   twitter: {
     card: 'summary_large_image',
     title: "Emergency Junk Removal San Diego - Same Day Service",
-    description: "Emergency junk removal San Diego today! Same-day, weekend & 24/7 urgent trash removal. Call (619) 750-0114 for immediate service!",
+    description: "Emergency junk removal San Diego today! Same-day, weekend & immediate dispatch urgent trash removal. Call (619) 750-0114 for immediate service!",
     images: ['https://severincleaners.com/og-image.jpg'],
   },
 };
@@ -32,10 +32,10 @@ export default function EmergencyJunkRemovalPage() {
             <div className="max-w-4xl mx-auto text-center text-white">
               <h1 className="text-5xl font-bold mb-6">
                 Emergency Junk Removal San Diego
-                <span className="block text-blue-300 mt-2">Same Day, Last Minute & 24/7 Service</span>
+                <span className="block text-blue-300 mt-2">Same Day, Last Minute & Immediate Dispatch Service</span>
               </h1>
               <p className="text-xl mb-8 leading-relaxed">
-                Need urgent trash removal San Diego now? We're here 24/7 for emergency junk removal San Diego today! Same-day service available throughout San Diego County with immediate dispatch and professional crews ready to handle your most urgent cleanout needs.
+                Need urgent trash removal San Diego now? We provide same-day service with immediate dispatch for emergency junk removal San Diego today! Same-day service available throughout San Diego County with immediate dispatch and professional crews ready to handle your most urgent cleanout needs.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
@@ -83,8 +83,8 @@ export default function EmergencyJunkRemovalPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">24/7 Availability</h3>
-                  <p className="text-gray-600">Call anytime for 24 hour junk removal San Diego emergency service</p>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Immediate Response</h3>
+                  <p className="text-gray-600">Fast response for emergency service - extended hours</p>
                 </div>
 
                 <div className="text-center">
@@ -226,7 +226,7 @@ export default function EmergencyJunkRemovalPage() {
                 Our Same-Day Emergency Process
               </h2>
               <p className="text-xl text-gray-600 mb-12 text-center">
-                From your call to completion, our 24 hour junk removal San Diego service follows this streamlined emergency response process:
+                From your call to completion, our same-day junk removal San Diego service follows this streamlined emergency response process:
               </p>
 
               <div className="space-y-8">
@@ -298,8 +298,8 @@ export default function EmergencyJunkRemovalPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                   </svg>
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">True 24 Hour Junk Removal Coverage</h3>
-                    <p className="text-gray-600">Real emergency response with crews available around the clock for urgent San Diego cleanouts</p>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Real Same-Day Emergency Coverage</h3>
+                    <p className="text-gray-600">Real emergency response with crews available 7 days a week for urgent San Diego cleanouts</p>
                   </div>
                 </div>
 
@@ -355,13 +355,13 @@ export default function EmergencyJunkRemovalPage() {
                 Emergency & Weekend Availability
               </h2>
               <p className="text-xl text-gray-600 mb-8">
-                When you need urgent trash removal San Diego now, we're ready to respond immediately. Our emergency junk removal San Diego today service includes true 24/7 availability with specialized weekend crews standing by for Saturday and Sunday emergencies. Unlike other companies that claim emergency service but can't deliver, we maintain active crews throughout San Diego County ready for last minute junk removal San Diego requests.
+                When you need urgent trash removal San Diego now, we're ready to respond immediately. Our emergency junk removal San Diego today service includes same-day availability with specialized weekend crews standing by for Saturday and Sunday emergencies. Unlike other companies, we maintain active crews throughout San Diego County ready for same-day response and last minute junk removal San Diego requests.
               </p>
 
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-blue-700 mb-4">🚨 EMERGENCY HOTLINE ALWAYS OPEN</h3>
+                <h3 className="text-2xl font-bold text-blue-700 mb-4">🚨 EMERGENCY HOTLINE</h3>
                 <p className="text-lg text-gray-700 mb-6">
-                  Call anytime for 24 hour junk removal San Diego emergency dispatch. Weekend junk removal San Diego Saturday Sunday crews available for urgent cleanouts when you need them most.
+                  Call for same-day emergency dispatch. Weekend crews available Saturday and Sunday. Weekend junk removal San Diego Saturday Sunday crews available for urgent cleanouts when you need them most.
                 </p>
                 <a
                   href="tel:+16197500114"
@@ -485,7 +485,7 @@ export default function EmergencyJunkRemovalPage() {
               Call Now for Emergency Junk Removal in San Diego
             </h2>
             <p className="text-xl mb-8 max-w-4xl mx-auto">
-              Don't wait when you need urgent trash removal San Diego now. Call us immediately for emergency junk removal San Diego today with same-day crews ready for dispatch. Our 24 hour junk removal San Diego service includes weekend junk removal San Diego Saturday Sunday availability and last minute junk removal San Diego solutions anywhere in San Diego County.
+              Don't wait when you need urgent trash removal San Diego now. Call us immediately for emergency junk removal San Diego today with same-day crews ready for dispatch. Our same-day junk removal San Diego service includes weekend junk removal San Diego Saturday Sunday availability and last minute junk removal San Diego solutions anywhere in San Diego County.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <a
@@ -502,7 +502,7 @@ export default function EmergencyJunkRemovalPage() {
               </a>
             </div>
             <p className="text-blue-200 mt-6 text-lg">
-              Available 24/7 • Same-Day Service • Weekend Emergency Crews • Licensed & Insured
+              Same-Day Service Available • Weekend Emergency Crews • Licensed & Insured
             </p>
           </div>
         </section>

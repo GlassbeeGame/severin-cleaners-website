@@ -69,9 +69,9 @@ export default function ServicesPage() {
     {
       title: "Emergency Junk Removal",
       link: "/emergency-junk-removal-san-diego",
-      description: "24/7 emergency junk removal service for urgent situations and last-minute cleanouts.",
+      description: "Emergency junk removal service for urgent situations and last-minute cleanouts.",
       icon: "🚨",
-      features: ["24/7 Availability", "Same-Day Response", "Weekend Service", "Court Deadlines"]
+      features: ["Emergency Availability", "Same-Day Response", "Weekend Service", "Court Deadlines"]
     },
     {
       title: "Pricing & Cost Information",

@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Junk Removal San Diego | Same Day Junk Hauling | Severin Cleaners",
-  description: "Professional junk removal San Diego - same day junk hauling, trash removal & junk pickup service. Emergency junk removal, furniture & appliance removal. Licensed & insured. Call (619) 750-0114!",
+  title: "Best Junk Removal San Diego | Same Day Service | Severin Cleaners",
+  description: "San Diego's top rated junk removal service. Professional, licensed & insured. Same day service available. Call (619) 750-0114 for free quote.",
   keywords: "junk removal San Diego, junk hauling San Diego, trash removal San Diego, junk pickup San Diego, haul away junk San Diego, same day junk removal, emergency junk removal San Diego, furniture removal San Diego, appliance removal San Diego, estate cleanout San Diego, construction debris removal, garage cleanout San Diego, mattress removal San Diego, couch removal San Diego, commercial junk removal, residential junk hauling",
   authors: [{ name: "Severin Cleaners" }],
   robots: {
@@ -35,8 +35,8 @@ export const metadata: Metadata = {
     title: "Severin Cleaners",
   },
   openGraph: {
-    title: "Junk Removal San Diego | Same Day Junk Hauling | Severin Cleaners",
-    description: "Professional junk removal San Diego - same day junk hauling, trash removal & junk pickup service. Emergency junk removal, furniture & appliance removal. Licensed & insured. Call (619) 750-0114!",
+    title: "Best Junk Removal San Diego | Same Day Service | Severin Cleaners",
+    description: "San Diego's top rated junk removal service. Professional, licensed & insured. Same day service available. Call (619) 750-0114 for free quote.",
     type: "website",
     locale: "en_US",
     url: "https://severincleaners.com",
@@ -52,8 +52,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Junk Removal San Diego | Same Day Junk Hauling | Severin Cleaners",
-    description: "Same-day junk removal service in San Diego. Junk hauling, trash removal, furniture & appliance removal. Emergency service available. Call (619) 750-0114!",
+    title: "Best Junk Removal San Diego | Same Day Service | Severin Cleaners",
+    description: "San Diego's top rated junk removal service. Professional, licensed & insured. Same day service available. Call (619) 750-0114 for free quote.",
     images: ["https://severincleaners.com/twitter-image.jpg"],
   },
   alternates: {

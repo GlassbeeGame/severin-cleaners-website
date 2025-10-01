@@ -137,32 +137,50 @@ export default function JunkRemovalCostPage() {
                     </thead>
                     <tbody className="divide-y divide-gray-200">
                       <tr className="hover:bg-gray-50">
-                        <td className="px-6 py-4 font-semibold text-gray-900">Single Item</td>
-                        <td className="px-6 py-4 text-green-600 font-bold">$75 - $125</td>
+                        <td className="px-6 py-4 font-semibold text-gray-900">Single Item Pickup</td>
+                        <td className="px-6 py-4 text-green-600 font-bold">Starting at $175</td>
                         <td className="px-6 py-4 text-gray-600">Quick pickups</td>
                         <td className="px-6 py-4 text-gray-600">Couch, mattress, refrigerator, desk</td>
                       </tr>
                       <tr className="hover:bg-gray-50">
-                        <td className="px-6 py-4 font-semibold text-gray-900">1/4 Truckload</td>
-                        <td className="px-6 py-4 text-green-600 font-bold">$150 - $250</td>
+                        <td className="px-6 py-4 font-semibold text-gray-900">1/4 Trailer Load</td>
+                        <td className="px-6 py-4 text-green-600 font-bold">$249</td>
                         <td className="px-6 py-4 text-gray-600">Small cleanouts</td>
                         <td className="px-6 py-4 text-gray-600">Bedroom furniture, small appliances</td>
                       </tr>
                       <tr className="hover:bg-gray-50">
-                        <td className="px-6 py-4 font-semibold text-gray-900">1/2 Truckload</td>
-                        <td className="px-6 py-4 text-green-600 font-bold">$250 - $400</td>
+                        <td className="px-6 py-4 font-semibold text-gray-900">3/8 Trailer Load</td>
+                        <td className="px-6 py-4 text-green-600 font-bold">$319</td>
+                        <td className="px-6 py-4 text-gray-600">Medium cleanouts</td>
+                        <td className="px-6 py-4 text-gray-600">Multiple furniture pieces, boxes</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="px-6 py-4 font-semibold text-gray-900">1/2 Trailer Load</td>
+                        <td className="px-6 py-4 text-green-600 font-bold">$349</td>
                         <td className="px-6 py-4 text-gray-600">Garage cleanouts</td>
                         <td className="px-6 py-4 text-gray-600">Moving leftovers, garage items, yard waste</td>
                       </tr>
                       <tr className="hover:bg-gray-50">
-                        <td className="px-6 py-4 font-semibold text-gray-900">3/4 Truckload</td>
-                        <td className="px-6 py-4 text-green-600 font-bold">$400 - $550</td>
+                        <td className="px-6 py-4 font-semibold text-gray-900">5/8 Trailer Load</td>
+                        <td className="px-6 py-4 text-green-600 font-bold">$366</td>
+                        <td className="px-6 py-4 text-gray-600">Large cleanouts</td>
+                        <td className="px-6 py-4 text-gray-600">Room contents, multiple appliances</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="px-6 py-4 font-semibold text-gray-900">3/4 Trailer Load</td>
+                        <td className="px-6 py-4 text-green-600 font-bold">$429</td>
                         <td className="px-6 py-4 text-gray-600">Full room cleanouts</td>
                         <td className="px-6 py-4 text-gray-600">Living room sets, multiple appliances</td>
                       </tr>
                       <tr className="hover:bg-gray-50">
-                        <td className="px-6 py-4 font-semibold text-gray-900">Full Truckload</td>
-                        <td className="px-6 py-4 text-green-600 font-bold">$550 - $750+</td>
+                        <td className="px-6 py-4 font-semibold text-gray-900">7/8 Trailer Load</td>
+                        <td className="px-6 py-4 text-green-600 font-bold">$462</td>
+                        <td className="px-6 py-4 text-gray-600">Near-full cleanouts</td>
+                        <td className="px-6 py-4 text-gray-600">Multi-room contents, large volumes</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="px-6 py-4 font-semibold text-gray-900">Full Trailer Load</td>
+                        <td className="px-6 py-4 text-green-600 font-bold">$495</td>
                         <td className="px-6 py-4 text-gray-600">Complete cleanouts</td>
                         <td className="px-6 py-4 text-gray-600">Estate cleanouts, renovation debris</td>
                       </tr>
@@ -277,12 +295,12 @@ export default function JunkRemovalCostPage() {
                   <div className="bg-white p-6 rounded-lg shadow">
                     <h4 className="font-bold text-gray-900 mb-2">🛋️ Single Couch Removal</h4>
                     <p className="text-gray-600 mb-2">Ground floor pickup in Mission Valley</p>
-                    <p className="text-green-600 font-bold text-xl">$85</p>
+                    <p className="text-green-600 font-bold text-xl">Starting at $175</p>
                   </div>
                   <div className="bg-white p-6 rounded-lg shadow">
                     <h4 className="font-bold text-gray-900 mb-2">🏠 Full Garage Cleanout</h4>
-                    <p className="text-gray-600 mb-2">Mixed items, 1/2 truck load in Chula Vista</p>
-                    <p className="text-green-600 font-bold text-xl">$320</p>
+                    <p className="text-gray-600 mb-2">Mixed items, 1/2 trailer load in Chula Vista</p>
+                    <p className="text-green-600 font-bold text-xl">$349</p>
                   </div>
                 </div>
               </div>

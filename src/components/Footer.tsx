@@ -16,8 +16,8 @@ export default function Footer() {
                 &quot;From Junk to Shine, We Handle Every Grime."
               </p>
               <p className="text-white/90 text-base leading-relaxed mb-6">
-                Professional junk removal services in San Diego and surrounding areas.
-                We provide reliable junk hauling, estate cleanouts, furniture removal, and more
+                Full service junk removal in San Diego and surrounding areas.
+                We provide professional junk hauling, estate cleanouts, furniture removal, and more
                 with same-day service and exceptional quality.
               </p>
             </div>

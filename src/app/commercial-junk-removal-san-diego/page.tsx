@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import CommercialFAQSection from "./CommercialFAQSection";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -202,6 +203,64 @@ export default function CommercialjunkremovalsandiegoPage() {
                 </div>
               </div>
 
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Transparent Commercial Pricing</h3>
+              <p className="text-lg text-gray-700 mb-6">
+                Our commercial junk removal pricing is based on volume removed. We provide upfront quotes with no hidden fees, allowing you to budget accurately for your business cleanup projects.
+              </p>
+
+              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl border-2 border-blue-200">
+                  <div className="text-center">
+                    <p className="text-sm font-semibold text-blue-600 mb-2">SINGLE ITEM</p>
+                    <p className="text-4xl font-bold text-blue-900 mb-1">$175</p>
+                    <p className="text-sm text-blue-700">Starting at</p>
+                  </div>
+                </div>
+                <div className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-xl border-2 border-green-200">
+                  <div className="text-center">
+                    <p className="text-sm font-semibold text-green-600 mb-2">1/4 TRAILER LOAD</p>
+                    <p className="text-4xl font-bold text-green-900 mb-1">$249</p>
+                    <p className="text-sm text-green-700">3 cubic yards</p>
+                  </div>
+                </div>
+                <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-xl border-2 border-purple-200">
+                  <div className="text-center">
+                    <p className="text-sm font-semibold text-purple-600 mb-2">1/2 TRAILER LOAD</p>
+                    <p className="text-4xl font-bold text-purple-900 mb-1">$349</p>
+                    <p className="text-sm text-purple-700">6 cubic yards</p>
+                  </div>
+                </div>
+                <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-xl border-2 border-orange-200">
+                  <div className="text-center">
+                    <p className="text-sm font-semibold text-orange-600 mb-2">FULL TRAILER LOAD</p>
+                    <p className="text-4xl font-bold text-orange-900 mb-1">$495</p>
+                    <p className="text-sm text-orange-700">12 cubic yards</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gray-100 rounded-xl p-6 mb-8">
+                <h4 className="font-bold text-lg mb-4 text-gray-900">Additional Load Sizes:</h4>
+                <div className="grid md:grid-cols-2 gap-4">
+                  <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                    <span className="font-semibold text-gray-700">3/8 Trailer Load (4.5 cubic yards)</span>
+                    <span className="text-xl font-bold text-gray-900">$319</span>
+                  </div>
+                  <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                    <span className="font-semibold text-gray-700">5/8 Trailer Load (7.5 cubic yards)</span>
+                    <span className="text-xl font-bold text-gray-900">$366</span>
+                  </div>
+                  <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                    <span className="font-semibold text-gray-700">3/4 Trailer Load (9 cubic yards)</span>
+                    <span className="text-xl font-bold text-gray-900">$429</span>
+                  </div>
+                  <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                    <span className="font-semibold text-gray-700">7/8 Trailer Load (10.5 cubic yards)</span>
+                    <span className="text-xl font-bold text-gray-900">$462</span>
+                  </div>
+                </div>
+              </div>
+
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Industries We Serve in San Diego</h3>
               <p className="text-lg text-gray-700 mb-4">
                 Our <strong>business junk removal San Diego</strong> service spans multiple industries, each with unique requirements and regulatory challenges. From downtown high-rises to industrial complexes in Kearny Mesa, we have the specialized experience and commercial-grade equipment to handle any <strong>commercial debris removal San Diego</strong> project efficiently.
@@ -326,56 +385,29 @@ export default function CommercialjunkremovalsandiegoPage() {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-16 bg-gray-50">
+      <CommercialFAQSection />
+
+      {/* Trust Signals */}
+      <section className="py-12 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions - Commercial Junk Removal San Diego</h2>
-
-            <div className="space-y-8">
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Do you provide after-hours or weekend commercial junk removal in San Diego?</h3>
-                <p className="text-gray-700">
-                  Yes, we understand that business operations cannot be disrupted during regular hours. Our <strong>commercial junk removal San Diego</strong> service includes evening, weekend, and holiday scheduling to minimize impact on your business operations. We work with your schedule to ensure seamless service delivery.
-                </p>
+            <div className="grid md:grid-cols-4 gap-6 text-center">
+              <div className="p-6">
+                <p className="text-3xl font-bold text-blue-600 mb-2">200+</p>
+                <p className="text-sm text-gray-600">Cleanout & Hauling Projects Completed</p>
               </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Can you provide disposal documentation for compliance?</h3>
-                <p className="text-gray-700">
-                  Absolutely. We provide comprehensive disposal documentation including certificates of disposal, chain of custody records, and environmental compliance reports. Our <strong>business junk removal San Diego</strong> service includes HIPAA-compliant document destruction and EPA-certified hazardous waste handling with full documentation.
-                </p>
+              <div className="p-6">
+                <p className="text-3xl font-bold text-blue-600 mb-2">Licensed</p>
+                <p className="text-sm text-gray-600">& Insured</p>
               </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Do you offer recurring services or contracts for businesses?</h3>
-                <p className="text-gray-700">
-                  Yes, we offer flexible commercial contracts for recurring <strong>office cleanout San Diego</strong> services, including monthly warehouse cleanouts, quarterly office reorganizations, and ongoing retail maintenance. We provide volume discounts and NET-30 payment terms for qualified business accounts.
-                </p>
+              <div className="p-6">
+                <p className="text-3xl font-bold text-blue-600 mb-2">Same-Day</p>
+                <p className="text-sm text-gray-600">Service Available</p>
               </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">How quickly can you complete a large office or warehouse cleanout?</h3>
-                <p className="text-gray-700">
-                  Timeline depends on project scope, but we typically complete small <strong>office cleanout San Diego</strong> projects in 2-4 hours, medium retail cleanouts in 4-8 hours, and large <strong>warehouse junk removal San Diego</strong> projects in 1-3 days. We provide detailed timelines during our free assessment and can expedite urgent projects.
-                </p>
+              <div className="p-6">
+                <p className="text-3xl font-bold text-blue-600 mb-2">Serving All</p>
+                <p className="text-sm text-gray-600">San Diego</p>
               </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">What industries do you serve in San Diego?</h3>
-                <p className="text-gray-700">
-                  We serve all industries including healthcare and medical offices, legal and professional services, technology and startups, manufacturing and warehouses, hospitality and tourism, retail and shopping centers. Our <strong>commercial debris removal San Diego</strong> team has specialized experience with industry-specific requirements and regulations.
-                </p>
-              </div>
-            </div>
-
-            <div className="text-center mt-12">
-              <a
-                href="tel:6197500114"
-                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors duration-200 inline-block"
-              >
-                📞 Call Now for Same-Day Commercial Service: (619) 750-0114
-              </a>
             </div>
           </div>
         </div>

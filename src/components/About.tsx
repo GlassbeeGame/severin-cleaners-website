@@ -35,9 +35,9 @@ export default function About() {
                   <span className="text-accent text-lg">🛡️</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-neutral-dark mb-1">Professional & Reliable</h3>
+                  <h3 className="font-semibold text-neutral-dark mb-1">Professional & Licensed</h3>
                   <p className="text-neutral text-sm sm:text-base">
-                    Our team is fully licensed, insured, and committed to delivering quality work every time.
+                    Our top rated team is fully licensed, insured, and committed to delivering quality work every time.
                   </p>
                 </div>
               </div>
