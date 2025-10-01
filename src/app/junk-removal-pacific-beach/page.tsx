@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PacificBeachFAQSection from "./PacificBeachFAQSection";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -10,12 +11,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Junk Removal Pacific Beach | Same-Day Service (92109)',
-  description: 'Pacific Beach junk removal experts. Vacation rental turnovers, beach house cleanouts, student moves. Garnet Ave to Ocean Front Walk. Same-day service.',
-  keywords: 'junk removal Pacific Beach, vacation rental cleanouts, PB junk hauling, same-day junk removal 92109, apartment cleanouts Garnet Avenue, beach house cleanouts',
+  title: 'Pacific Beach Junk Removal | Same-Day Hauling | Licensed & Insured',
+  description: 'Professional Pacific Beach junk removal from Crystal Pier to Crown Point. Same-day service, transparent pricing, vacation rental experts. Licensed & insured. Call (619) 750-0114!',
+  keywords: 'Pacific Beach junk removal, junk hauling Pacific Beach, junk pickup PB, trash removal Pacific Beach, PB San Diego junk removal, junk removal 92109, Garnet Avenue junk hauling',
   openGraph: {
-    title: 'Junk Removal Pacific Beach | Same-Day Service (92109)',
-    description: 'Pacific Beach junk removal experts. Vacation rental turnovers, beach house cleanouts, student moves. Garnet Ave to Ocean Front Walk. Same-day service.',
+    title: 'Pacific Beach Junk Removal | Same-Day Hauling | Licensed & Insured',
+    description: 'Professional Pacific Beach junk removal from Crystal Pier to Crown Point. Same-day service, transparent pricing, vacation rental experts. Licensed & insured. Call (619) 750-0114!',
     url: 'https://severincleaners.com/junk-removal-pacific-beach/',
     siteName: 'Severin Cleaners',
     images: [{
@@ -28,8 +29,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Junk Removal Pacific Beach | Same-Day Service (92109)',
-    description: 'Pacific Beach junk removal experts. Vacation rental turnovers, beach house cleanouts, student moves. Garnet Ave to Ocean Front Walk. Same-day service.',
+    title: 'Pacific Beach Junk Removal | Same-Day Hauling | Licensed & Insured',
+    description: 'Professional Pacific Beach junk removal from Crystal Pier to Crown Point. Same-day service, transparent pricing, vacation rental experts. Licensed & insured. Call (619) 750-0114!',
     images: ['https://severincleaners.com/og-image.jpg'],
   },
   alternates: {
@@ -58,26 +59,32 @@ export default function JunkRemovalPacificBeachPage() {
         <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center text-white">
+              <div className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                ✓ Same-Day Service • Licensed & Insured • Transparent Pricing
+              </div>
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Junk Removal in Pacific Beach, CA (92109)
+                Pacific Beach Junk Removal – Same-Day Service for Homes & Businesses
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                From Crystal Pier to Crown Point - Your Local PB Experts
+                ⭐⭐⭐⭐⭐ 5.0 Rating • Crystal Pier to Crown Point • Your Local PB Experts
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                   href="tel:+16197500114"
                   className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors"
                 >
-                  CALL NOW: (619) 750-0114
+                  📞 Call Now for Same-Day Junk Removal: (619) 750-0114
                 </a>
                 <a
                   href="#contact"
                   className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-bold transition-colors"
                 >
-                  GET FREE QUOTE
+                  Book Your Pacific Beach Junk Pickup – Save 15% Online
                 </a>
               </div>
+              <p className="text-lg mt-4">
+                ✓ Vacation Rental Specialists ✓ Same-Day Hauling ✓ Beach Property Experts
+              </p>
             </div>
           </div>
         </section>
@@ -88,16 +95,16 @@ export default function JunkRemovalPacificBeachPage() {
             <div className="max-w-4xl mx-auto">
 
               <h2 className="text-3xl md:text-4xl font-bold mb-8 text-gray-900">
-                Pacific Beach Junk Removal Experts
+                Professional Junk Hauling Pacific Beach – Crystal Pier to Crown Point
               </h2>
 
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg mb-6">
-                  Our Pacific Beach junk removal team offers same-day service throughout 92109, from Tourmaline to Mission Bay. We're fully licensed and insured, providing upfront quotes based on photos you text or email. As locals, we understand PB's unique challenges from narrow Ocean Front Walk access to vacation rental turnovers.
+                  <strong>Pacific Beach junk removal</strong> requires specialized knowledge of one of San Diego's most vibrant beach communities. From Ocean Front Walk condos near Crystal Pier to Crown Point bay-front homes, our <strong>junk hauling Pacific Beach</strong> team navigates narrow alleys, tight parking, and vacation rental schedules with expert efficiency. We're fully licensed and insured, providing same-day <strong>trash removal Pacific Beach</strong> service throughout the 92109 area with transparent pricing—no hidden fees, no surprises.
                 </p>
 
                 <p className="text-lg mb-6">
-                  Whether you need furniture removed from your Garnet Avenue apartment or beach house cleanouts near Crystal Pier, our professional crew handles every job with care and efficiency. We specialize in vacation rental cleanouts, student housing moves, and beach property challenges.
+                  Whether you need <strong>junk pickup PB</strong> for a Garnet Avenue apartment cleanout, beach house furniture removal near Tourmaline Surf Park, or commercial debris hauling along Mission Boulevard, our <strong>PB San Diego junk removal</strong> experts handle it all. We understand PB's unique challenges: tourist traffic, student move-outs, vacation rental turnovers, and salt-air damaged furniture. Our local team knows the backstreets, parking regulations, and building access points throughout North PB cottages, Crown Point neighborhoods, and Bay Park hillside properties.
                 </p>
 
                 <h2 className="text-3xl font-bold mt-8 mb-4">Complete Coverage of Pacific Beach</h2>
@@ -175,28 +182,73 @@ export default function JunkRemovalPacificBeachPage() {
                   The narrow alleys between Mission Boulevard and Bayard Street present unique access challenges. Our team has specialized equipment and experience navigating PB's tight alleyways and limited parking areas.
                 </p>
 
-                <h2 className="text-3xl font-bold mt-8 mb-4">Transparent, Photo-Based Pricing</h2>
-                <p className="text-lg mb-4">
-                  Get an instant quote by texting photos of your items. Our pricing is straightforward with no hidden fees:
-                </p>
-                <ul className="list-disc pl-6 mb-4">
-                  <li><strong>Single item:</strong> from $95</li>
-                  <li><strong>¼ truck:</strong> from $250</li>
-                  <li><strong>½ truck:</strong> from $450</li>
-                  <li><strong>Full truck:</strong> from $700</li>
-                </ul>
-                <p className="text-sm text-gray-600 mb-8">
-                  <em>Final quote confirmed from photos or quick onsite assessment; includes labor, haul-away, disposal fees.</em>
+                <h2 className="text-3xl font-bold mt-8 mb-4">Junk Hauling Near Garnet Avenue & Mission Boulevard</h2>
+                <p className="text-lg mb-6">
+                  The bustling Garnet Avenue commercial corridor and Mission Boulevard beachfront present unique access challenges for <strong>junk hauling Pacific Beach</strong>. Our team coordinates with building managers, navigates permit parking zones, and schedules around peak tourist traffic hours to provide efficient service. We specialize in multi-story apartment cleanouts, commercial property debris removal, and vacation rental furniture disposal throughout PB's most active corridors.
                 </p>
 
-                <h2 className="text-3xl font-bold mt-8 mb-4">Why PB Residents Choose Us</h2>
+                <h2 className="text-3xl font-bold mt-8 mb-4">Appliance & Furniture Removal in Pacific Beach</h2>
+                <p className="text-lg mb-4">
+                  Beach living is tough on furniture and appliances. Salt air corrodes outdoor sets, sand damages upholstery, and the constant sun fades fabric. Our <strong>junk pickup PB</strong> service removes:
+                </p>
+                <div className="grid md:grid-cols-2 gap-6 mb-8">
+                  <ul className="list-disc pl-6 space-y-1">
+                    <li><strong>Furniture:</strong> sofas, mattresses, tables, beach-damaged patio sets</li>
+                    <li><strong>Appliances:</strong> refrigerators, washers, dryers, dishwashers</li>
+                    <li><strong>Beach gear:</strong> surfboards, paddleboards, beach cruisers</li>
+                    <li><strong>Hot tubs:</strong> salt-air damaged jacuzzis and spas</li>
+                  </ul>
+                  <ul className="list-disc pl-6 space-y-1">
+                    <li><strong>Construction debris:</strong> home remodel materials and fixtures</li>
+                    <li><strong>Yard waste:</strong> palm fronds, plant trimmings, landscaping debris</li>
+                    <li><strong>E-waste:</strong> TVs, computers, electronics</li>
+                    <li><strong>Commercial items:</strong> restaurant equipment, retail fixtures</li>
+                  </ul>
+                </div>
+
+                <h2 className="text-3xl font-bold mt-8 mb-4">Transparent Pricing for Pacific Beach Junk Removal</h2>
+                <p className="text-lg mb-4">
+                  Our <strong>trash removal Pacific Beach</strong> pricing is based on trailer volume with no hidden fees:
+                </p>
+                <ul className="list-disc pl-6 mb-4">
+                  <li><strong>Single Item Pickup:</strong> Starting at $175</li>
+                  <li><strong>1/4 Trailer Load:</strong> $249</li>
+                  <li><strong>3/8 Trailer Load:</strong> $319</li>
+                  <li><strong>1/2 Trailer Load:</strong> $349</li>
+                  <li><strong>5/8 Trailer Load:</strong> $366</li>
+                  <li><strong>3/4 Trailer Load:</strong> $429</li>
+                  <li><strong>7/8 Trailer Load:</strong> $462</li>
+                  <li><strong>Full Trailer Load:</strong> $495</li>
+                </ul>
+                <p className="text-sm text-gray-600 mb-8">
+                  <em>Call <a href="tel:6197500114" className="text-blue-600 hover:underline">(619) 750-0114</a> for a quote based on your specific items and PB location. All prices include labor, hauling, and environmentally responsible disposal.</em>
+                </p>
+
+                {/* Sticky CTA */}
+                <div className="sticky top-20 bg-gradient-to-r from-blue-600 to-orange-500 text-white p-4 rounded-lg shadow-lg mb-8 z-10">
+                  <div className="flex items-center justify-between gap-4">
+                    <div>
+                      <p className="font-semibold">Call Today for Same-Day Junk Removal in Pacific Beach</p>
+                      <p className="text-sm opacity-90">Vacation rental experts • Licensed & insured • Transparent pricing</p>
+                    </div>
+                    <a
+                      href="tel:6197500114"
+                      className="bg-white text-blue-600 px-6 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 whitespace-nowrap"
+                    >
+                      📞 Call Now
+                    </a>
+                  </div>
+                </div>
+
+                <h2 className="text-3xl font-bold mt-8 mb-4">Why PB Residents & Property Managers Choose Severin Cleaners</h2>
                 <ul className="list-disc pl-6 mb-8 space-y-2">
-                  <li><strong>Local traffic expertise</strong> - We know back routes via Ingraham during beach rush</li>
-                  <li><strong>Event coordination</strong> - We schedule around Tuesday Farmers Market and PB events</li>
-                  <li><strong>Permit parking knowledge</strong> - Familiar with PB's complex parking regulations</li>
-                  <li><strong>Beach property access</strong> - Experienced with Ocean Front Walk and pier area challenges</li>
-                  <li><strong>Summer surge readiness</strong> - Extra crews during peak vacation rental season</li>
-                  <li><strong>Licensed and insured</strong> - Full coverage for residential and commercial properties</li>
+                  <li><strong>Local traffic expertise</strong> - We know back routes via Ingraham and Grand during beach rush hours</li>
+                  <li><strong>Event coordination</strong> - Scheduling around Tuesday Farmers Market, Over-the-Line, summer concerts</li>
+                  <li><strong>Permit parking mastery</strong> - Expert navigation of PB's complex parking regulations and time limits</li>
+                  <li><strong>Beach property access</strong> - Experience with Ocean Front Walk boardwalk, narrow alleys, elevator buildings</li>
+                  <li><strong>Summer surge readiness</strong> - Extra crews during peak vacation rental and student move-out seasons</li>
+                  <li><strong>Licensed and insured</strong> - Full coverage for residential, commercial, and vacation rental properties</li>
+                  <li><strong>Eco-friendly disposal</strong> - Handle all items in accordance with local environmental regulations</li>
                 </ul>
 
                 <h2 className="text-3xl font-bold mt-8 mb-4">Property Types We Service in Pacific Beach</h2>
@@ -215,68 +267,53 @@ export default function JunkRemovalPacificBeachPage() {
                   </ul>
                 </div>
 
-                <h2 className="text-3xl font-bold mt-8 mb-4">FAQs About Junk Removal in Pacific Beach</h2>
-
-                <div className="space-y-6 mb-8">
-                  <div className="bg-gray-50 p-6 rounded-lg">
-                    <h3 className="text-xl font-semibold mb-2">Do you service all of Pacific Beach?</h3>
-                    <p>Yes! We service every street in PB from Tourmaline Surf Beach to Belmont Park, including Crown Point, Bay Park, and all of Garnet Avenue. Our team knows every alley and access point.</p>
+                <div className="text-center bg-blue-900 text-white p-8 rounded-lg mb-8">
+                  <h3 className="text-2xl font-bold mb-4">Get PB Junk Removal Quote Today</h3>
+                  <p className="text-lg mb-6">
+                    Serving Crystal Pier to Crown Point with same-day beach community expertise
+                  </p>
+                  <a
+                    href="tel:6197500114"
+                    className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors duration-200 inline-block mb-6"
+                  >
+                    📞 Call (619) 750-0114 Now
+                  </a>
+                  <div className="bg-blue-800 rounded-lg p-4">
+                    <p className="text-yellow-300 font-semibold mb-2">🏖️ Pacific Beach Special 🏖️</p>
+                    <div className="text-sm">
+                      <strong>15% Off Vacation Rental Cleanouts</strong> • <strong>Same-Day Service Available</strong><br/>
+                      <strong>Beach Property Specialists</strong> • <strong>Licensed & Insured</strong>
+                    </div>
                   </div>
-
-                  <div className="bg-gray-50 p-6 rounded-lg">
-                    <h3 className="text-xl font-semibold mb-2">Can you handle vacation rental turnovers?</h3>
-                    <p>Absolutely. We specialize in same-day vacation rental cleanouts throughout Pacific Beach, including Airbnb and VRBO properties. We understand the tight turnaround times required.</p>
-                  </div>
-
-                  <div className="bg-gray-50 p-6 rounded-lg">
-                    <h3 className="text-xl font-semibold mb-2">Do you work around PB's Tuesday Farmers Market?</h3>
-                    <p>Yes, we're familiar with all PB events including the Tuesday Farmers Market on Bayard Street, Over-the-Line Tournament, and summer concerts. We schedule accordingly.</p>
-                  </div>
-
-                  <div className="bg-gray-50 p-6 rounded-lg">
-                    <h3 className="text-xl font-semibold mb-2">How much does junk removal cost in Pacific Beach?</h3>
-                    <p>Pricing starts from $95 for single items and varies based on volume. Most PB jobs range from $250-$700. We provide upfront quotes from photos with no hidden fees.</p>
-                  </div>
-
-                  <div className="bg-gray-50 p-6 rounded-lg">
-                    <h3 className="text-xl font-semibold mb-2">Do you offer same-day or evening pickups?</h3>
-                    <p>Yes, we provide same-day service when scheduled before 2 PM and offer evening pickups for urgent situations. Perfect for vacation rental emergencies or move-out deadlines.</p>
-                  </div>
-
-                  <div className="bg-gray-50 p-6 rounded-lg">
-                    <h3 className="text-xl font-semibold mb-2">Can you remove heavy items from upstairs apartments?</h3>
-                    <p>Absolutely. Our team safely removes heavy furniture and appliances from multi-story buildings, including the narrow staircases common in PB apartments. We use proper equipment and protection.</p>
-                  </div>
-                </div>
-
-                <h2 className="text-3xl font-bold mt-8 mb-4">Ready for Same-Day Junk Removal in Pacific Beach?</h2>
-                <p className="text-lg mb-4">
-                  Whether you're managing a vacation rental on Ocean Front Walk, clearing out a beach cottage near Crystal Pier, or handling a student move-out on Garnet Avenue, we're your local Pacific Beach junk removal experts.
-                </p>
-                <p className="text-lg mb-6">
-                  Text photos for an instant quote or call for immediate scheduling. Licensed, insured, and ready for same-day service throughout 92109.
-                </p>
-
-                <div className="bg-blue-50 p-6 rounded-lg text-center">
-                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a
-                      href="tel:+16197500114"
-                      className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors"
-                    >
-                      Call Now: (619) 750-0114
-                    </a>
-                    <a
-                      href="#contact"
-                      className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors"
-                    >
-                      Get Free PB Quote
-                    </a>
-                  </div>
-                  <p className="text-sm text-gray-600 mt-4">
-                    Serving all of Pacific Beach • Same-day service available • Licensed & insured
+                  <p className="text-sm mt-4">
+                    Transparent pricing • Same-day junk hauling • PB vacation rental experts
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section - Now using dropdown component */}
+        <PacificBeachFAQSection />
+
+        {/* Related Services */}
+        <section className="py-12 bg-white">
+          <div className="container mx-auto px-4">
+            <h3 className="text-2xl font-bold text-center mb-8">Related Beach Community Services</h3>
+            <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+              <a href="/furniture-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
+                <p className="text-gray-600">Sofas, mattresses, and bulky beach-damaged furniture removal throughout PB</p>
+              </a>
+              <a href="/appliance-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Appliance Removal San Diego</h4>
+                <p className="text-gray-600">Fridges, washers, dryers, and salt-air damaged appliance disposal</p>
+              </a>
+              <a href="/construction-debris-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Construction Debris Removal</h4>
+                <p className="text-gray-600">Beach house remodel and renovation debris cleanup services</p>
+              </a>
             </div>
           </div>
         </section>

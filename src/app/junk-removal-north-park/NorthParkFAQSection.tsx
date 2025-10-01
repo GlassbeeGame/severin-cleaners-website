@@ -39,18 +39,21 @@ export default function NorthParkFAQSection() {
               </button>
               {openFAQ === 0 && (
                 <div className="px-6 py-4 bg-white">
-                  <p className="text-gray-700 leading-relaxed mb-4">
-                    <strong>Single Item Pickup:</strong> Starting at $175<br />
-                    <strong>1/4 Trailer Load:</strong> $249<br />
-                    <strong>3/8 Trailer Load:</strong> $319<br />
-                    <strong>1/2 Trailer Load:</strong> $349<br />
-                    <strong>5/8 Trailer Load:</strong> $366<br />
-                    <strong>3/4 Trailer Load:</strong> $429<br />
-                    <strong>7/8 Trailer Load:</strong> $462<br />
-                    <strong>Full Trailer Load:</strong> $495
+                  <p className="text-gray-700 leading-relaxed mb-3">
+                    Our <strong>North Park junk removal</strong> pricing is transparent and based on trailer volume:
                   </p>
+                  <ul className="list-disc pl-6 mb-3 space-y-1 text-gray-700">
+                    <li><strong>Single Item Pickup:</strong> Starting at $175</li>
+                    <li><strong>1/4 Trailer Load:</strong> $249</li>
+                    <li><strong>3/8 Trailer Load:</strong> $319</li>
+                    <li><strong>1/2 Trailer Load:</strong> $349</li>
+                    <li><strong>5/8 Trailer Load:</strong> $366</li>
+                    <li><strong>3/4 Trailer Load:</strong> $429</li>
+                    <li><strong>7/8 Trailer Load:</strong> $462</li>
+                    <li><strong>Full Trailer Load:</strong> $495</li>
+                  </ul>
                   <p className="text-gray-700 leading-relaxed">
-                    Our <strong>North Park junk removal</strong> pricing includes labor, hauling, eco-friendly disposal, and cleanup. We offer special rates for artists, students, and small businesses in the arts district.
+                    For the most accurate estimate, please call <a href="tel:6197500114" className="text-blue-600 hover:underline">(619) 750-0114</a> for a custom quote based on your specific needs in North Park.
                   </p>
                 </div>
               )}
@@ -61,7 +64,7 @@ export default function NorthParkFAQSection() {
                 className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
                 onClick={() => setOpenFAQ(openFAQ === 1 ? null : 1)}
               >
-                <h3 className="font-bold text-gray-900 text-lg">Do you handle apartment and condo junk removal in North Park?</h3>
+                <h3 className="font-bold text-gray-900 text-lg">Can you remove heavy items like couches and appliances in North Park?</h3>
                 <svg
                   className={`w-5 h-5 text-gray-500 transition-transform ${
                     openFAQ === 1 ? 'rotate-180' : ''
@@ -75,8 +78,18 @@ export default function NorthParkFAQSection() {
               </button>
               {openFAQ === 1 && (
                 <div className="px-6 py-4 bg-white">
+                  <p className="text-gray-700 leading-relaxed mb-3">
+                    Absolutely! Our <strong>junk hauling North Park</strong> team specializes in removing heavy furniture and appliances from apartments, condos, and Craftsman homes throughout North Park. We safely handle:
+                  </p>
+                  <ul className="list-disc pl-6 mb-3 space-y-1 text-gray-700">
+                    <li>Sofas, sectionals, and bulky furniture from University Avenue apartments</li>
+                    <li>Refrigerators, washers, dryers, and kitchen appliances</li>
+                    <li>Entertainment centers and bookshelves from condos near El Cajon Blvd</li>
+                    <li>Hot tubs and outdoor furniture from historic homes</li>
+                    <li>Exercise equipment and home office furniture</li>
+                  </ul>
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, our <strong>junk hauling North Park</strong> service specializes in apartment and condo cleanouts throughout the arts district. We understand the unique challenges of urban living, including limited parking on 30th Street and University Avenue, narrow hallways, and building access requirements. Our team coordinates with property management, respects community living standards, and handles everything from vintage bungalow cleanouts to modern loft renovations.
+                    Our crew is experienced with North Park's tight parking near 30th Street and University Avenue, narrow staircases in historic Craftsman homes, and multi-story apartment buildings along the nightlife corridor.
                   </p>
                 </div>
               )}
@@ -87,7 +100,7 @@ export default function NorthParkFAQSection() {
                 className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
                 onClick={() => setOpenFAQ(openFAQ === 2 ? null : 2)}
               >
-                <h3 className="font-bold text-gray-900 text-lg">Can you provide same-day junk hauling in North Park?</h3>
+                <h3 className="font-bold text-gray-900 text-lg">Do you provide same-day junk hauling in North Park?</h3>
                 <svg
                   className={`w-5 h-5 text-gray-500 transition-transform ${
                     openFAQ === 2 ? 'rotate-180' : ''
@@ -102,7 +115,7 @@ export default function NorthParkFAQSection() {
               {openFAQ === 2 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, we provide same-day <strong>junk pickup North Park</strong> for urgent needs throughout the University Avenue arts corridor and 30th Street craft beer district. Our local team can respond quickly for apartment moves, artist studio transitions, small business cleanouts, or emergency situations while maintaining our commitment to eco-friendly disposal and community standards.
+                    Yes! We offer same-day <strong>junk pickup North Park</strong> service when you call before 2 PM. This is especially helpful for apartment cleanouts near University Avenue, restaurant or bar waste removal from the 30th Street nightlife district, and emergency situations throughout the North Park arts community. During busy weekends, we recommend scheduling morning appointments to guarantee same-day service.
                   </p>
                 </div>
               )}
@@ -113,7 +126,7 @@ export default function NorthParkFAQSection() {
                 className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
                 onClick={() => setOpenFAQ(openFAQ === 3 ? null : 3)}
               >
-                <h3 className="font-bold text-gray-900 text-lg">Do you offer junk removal for small businesses, bars, and restaurants in North Park?</h3>
+                <h3 className="font-bold text-gray-900 text-lg">What types of junk do you not remove?</h3>
                 <svg
                   className={`w-5 h-5 text-gray-500 transition-transform ${
                     openFAQ === 3 ? 'rotate-180' : ''
@@ -128,7 +141,7 @@ export default function NorthParkFAQSection() {
               {openFAQ === 3 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed">
-                    Absolutely! Our <strong>trash removal North Park</strong> service supports the creative community with specialized cleanouts for craft breweries, coffee shops, art galleries, music venues, restaurants, and small businesses along the 30th Street and University Avenue corridors. We understand the unique needs of North Park's vibrant business community and provide flexible scheduling, commercial waste handling, and eco-friendly disposal that aligns with the neighborhood's sustainability values.
+                    We handle all standard household items, furniture, appliances, construction debris, yard waste, and more in accordance with local regulations. If you're unsure about a specific item, please call us at <a href="tel:6197500114" className="text-blue-600 hover:underline">(619) 750-0114</a> and we can discuss it — there are various factors that can affect pricing and service options.
                   </p>
                 </div>
               )}
@@ -139,7 +152,7 @@ export default function NorthParkFAQSection() {
                 className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
                 onClick={() => setOpenFAQ(openFAQ === 4 ? null : 4)}
               >
-                <h3 className="font-bold text-gray-900 text-lg">What eco-friendly practices do you use in North Park?</h3>
+                <h3 className="font-bold text-gray-900 text-lg">Are you licensed and insured for junk removal in San Diego?</h3>
                 <svg
                   className={`w-5 h-5 text-gray-500 transition-transform ${
                     openFAQ === 4 ? 'rotate-180' : ''
@@ -154,7 +167,7 @@ export default function NorthParkFAQSection() {
               {openFAQ === 4 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed">
-                    Our <strong>North Park San Diego junk removal</strong> service prioritizes environmental responsibility through donations to the North Park Community Foundation and local charities, art supply redistribution to schools and community programs, and a zero-landfill commitment for reusable materials. We recycle electronics from creative studios, repurpose artistic materials for emerging artists, support sustainable disposal methods that protect Balboa Park, and actively contribute to North Park's reputation as an environmentally conscious arts community.
+                    Yes! Severin Cleaners is fully licensed and insured to provide <strong>North Park San Diego junk removal</strong> services throughout North Park and all of San Diego County. We carry comprehensive liability insurance to protect your property during removal, and we dispose of all items responsibly at licensed facilities. Our team follows all local regulations for waste handling and environmental compliance.
                   </p>
                 </div>
               )}
@@ -164,24 +177,23 @@ export default function NorthParkFAQSection() {
 
         <div className="bg-blue-50 rounded-xl p-8 mt-12 text-center">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">
-            Still Have Questions About North Park Junk Removal?
+            Ready for Same-Day Junk Removal in North Park?
           </h3>
           <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
-            Our community-focused team is ready to answer any questions about our <strong>North Park junk removal</strong>
-            services, provide quotes, or schedule same-day service for the arts district.
+            Whether you're managing an apartment cleanout near University Avenue, clearing out a Craftsman home east of Balboa Park, or handling a business renovation on 30th Street, we're your local <strong>North Park junk removal</strong> experts.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:+16197500114"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition-colors"
             >
-              📞 Call (619) 750-0114
+              📞 Call (619) 750-0114 – North Park Service
             </a>
             <a
-              href="mailto:severincleaners@gmail.com"
+              href="#contact"
               className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-colors"
             >
-              Get North Park Quote
+              Get Free North Park Quote
             </a>
           </div>
         </div>

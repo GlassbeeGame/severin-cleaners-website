@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import DelMarFAQSection from "./DelMarFAQNew";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -10,12 +11,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Junk Removal Del Mar | Same-Day Hauling (92014)",
-  description: "Same-day junk removal in Del Mar. Photo quotes, coastal estates/vacation rentals. Eco-friendly disposal. Licensed & insured. Call (619) 750-0114.",
-  keywords: "junk removal del mar, del mar junk hauling, del mar junk pickup, del mar junk disposal, same-day junk removal del mar",
+  title: "Del Mar Junk Removal | Same-Day Hauling | Licensed & Insured",
+  description: "Professional Del Mar junk removal from Del Mar Village to Del Mar Heights. Luxury coastal estates, transparent pricing, same-day service. Licensed & insured. Call (619) 750-0114!",
+  keywords: "Del Mar junk removal, junk hauling Del Mar, junk pickup Del Mar, trash removal Del Mar, Del Mar San Diego junk removal, junk removal 92014, Camino Del Mar junk hauling",
   openGraph: {
-    title: "Junk Removal Del Mar | Same-Day Hauling (92014)",
-    description: "Same-day junk removal in Del Mar. Photo quotes, coastal estates/vacation rentals. Eco-friendly disposal. Licensed & insured.",
+    title: "Del Mar Junk Removal | Same-Day Hauling | Licensed & Insured",
+    description: "Professional Del Mar junk removal from Del Mar Village to Del Mar Heights. Luxury coastal estates, transparent pricing, same-day service. Licensed & insured. Call (619) 750-0114!",
     url: "https://severincleaners.com/junk-removal-del-mar",
   },
   alternates: {
@@ -169,27 +170,32 @@ export default function JunkRemovalDelMarPage() {
         <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center text-white">
+              <div className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                ✓ Same-Day Service • Licensed & Insured • Luxury Property Experts
+              </div>
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Junk Removal in Del Mar, CA (92014)
+                Del Mar Junk Removal – Same-Day Service for Homes & Businesses
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                Professional hauling for Del Mar's coastal homes and estates
+                ⭐⭐⭐⭐⭐ 5.0 Rating • Del Mar Village to Del Mar Heights • Coastal Estate Specialists
               </p>
-
-              {/* Opening CTA Block */}
-              <div className="bg-orange-500 rounded-xl p-6 mb-8 mx-auto max-w-2xl">
-                <div className="text-center">
-                  <div className="text-2xl font-bold mb-2">Call (619) 750-0114 for Same-Day Service</div>
-                  <div className="text-lg font-semibold mb-3">15% Off When You Book Online Today</div>
-                  <div className="text-sm mb-4">Licensed & Insured • Transparent Pricing • Eco-Friendly Disposal</div>
-                  <a
-                    href="tel:+16197500114"
-                    className="bg-white text-orange-500 hover:bg-gray-100 px-6 py-3 rounded-lg font-bold transition-colors inline-block"
-                  >
-                    Get a Free Del Mar Quote
-                  </a>
-                </div>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a
+                  href="tel:+16197500114"
+                  className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors"
+                >
+                  📞 Call Now for Same-Day Junk Removal in Del Mar: (619) 750-0114
+                </a>
+                <a
+                  href="#contact"
+                  className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-bold transition-colors"
+                >
+                  Book Your Del Mar Junk Pickup – Save 15% Online
+                </a>
               </div>
+              <p className="text-lg mt-4">
+                ✓ Transparent Pricing ✓ Eco-Friendly Disposal ✓ Luxury Estate Experience
+              </p>
             </div>
           </div>
         </section>
@@ -199,13 +205,18 @@ export default function JunkRemovalDelMarPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <div className="prose prose-lg max-w-none">
-                <p className="text-lg mb-8 text-center text-gray-700">
-                  Our Del Mar junk removal team provides same-day service throughout 92014, from the Village to Del Mar Heights. We&apos;re fully licensed and insured, offering upfront quotes with no hidden fees for coastal properties.
+                <h2 className="text-3xl font-bold mb-6 text-gray-900">Professional Junk Hauling Del Mar – Del Mar Village to Crest Canyon</h2>
+                <p className="text-lg mb-6">
+                  <strong>Del Mar junk removal</strong> requires understanding one of San Diego's most exclusive coastal communities. From oceanfront homes near Powerhouse Park and Seagrove Park to Del Mar Heights estates overlooking the Pacific, our <strong>junk hauling Del Mar</strong> team delivers premium service with the discretion and professionalism luxury properties demand. We're fully licensed and insured, providing same-day <strong>trash removal Del Mar</strong> throughout the 92014 area with transparent pricing and eco-friendly disposal practices.
                 </p>
 
-                <h2 className="text-3xl font-bold mb-6 text-gray-900">Del Mar Neighborhoods We Serve</h2>
+                <p className="text-lg mb-6">
+                  Whether you need <strong>junk pickup Del Mar</strong> for a Del Mar Village coastal cottage, estate cleanout in Del Mar Heights, vacation rental turnover near the Fairgrounds, or construction debris removal along Camino Del Mar, our <strong>Del Mar San Diego junk removal</strong> experts understand the unique requirements. We navigate narrow residential streets, coordinate with HOAs and gated communities, schedule around Fairgrounds events, and provide the white-glove service Del Mar properties deserve.
+                </p>
+
+                <h2 className="text-3xl font-bold mb-6 text-gray-900 mt-8">Del Mar Neighborhoods We Serve</h2>
                 <p className="text-lg mb-4">
-                  Our <strong>junk removal Del Mar</strong> service covers every area of this prestigious coastal community:
+                  Our <strong>Del Mar junk removal</strong> service covers every neighborhood in this prestigious coastal community:
                 </p>
                 <ul className="list-disc pl-6 mb-8 space-y-2">
                   <li><strong>Del Mar Village</strong> - Historic downtown area near Camino Del Mar</li>
@@ -410,83 +421,54 @@ export default function JunkRemovalDelMarPage() {
                   </div>
                 </div>
 
-                <div className="bg-gray-50 p-8 rounded-xl mb-8">
-                  <h3 className="text-2xl font-bold mb-6 text-gray-900 text-center">Frequently Asked Questions</h3>
-
-                  <div className="space-y-6">
-                    <div className="bg-white p-6 rounded-lg">
-                      <h4 className="text-lg font-bold mb-2 text-gray-900">Do you provide same-day junk removal in Del Mar?</h4>
-                      <p className="text-gray-700">Yes, we offer same-day junk pickup throughout Del Mar including Del Mar Village, Del Mar Heights, and Carmel Valley border areas. Call (619) 750-0114 before 2 PM for same-day service availability.</p>
-                    </div>
-
-                    <div className="bg-white p-6 rounded-lg">
-                      <h4 className="text-lg font-bold mb-2 text-gray-900">What areas of Del Mar do you serve for junk removal?</h4>
-                      <p className="text-gray-700">We serve all neighborhoods in Del Mar 92014 including Del Mar Village, Del Mar Heights, Flower Hill, and the border areas with Carmel Valley and Solana Beach. Our service extends to coastal properties and inland estates.</p>
-                    </div>
-
-                    <div className="bg-white p-6 rounded-lg">
-                      <h4 className="text-lg font-bold mb-2 text-gray-900">How much does junk removal cost in Del Mar?</h4>
-                      <p className="text-gray-700">Our transparent pricing: $95 single item, $250 quarter truck, $450 half truck, $700 full truck. All prices include labor, disposal fees, and cleanup. No hidden charges or surprise fees for Del Mar residents.</p>
-                    </div>
-
-                    <div className="bg-white p-6 rounded-lg">
-                      <h4 className="text-lg font-bold mb-2 text-gray-900">Do you handle luxury home cleanouts in Del Mar?</h4>
-                      <p className="text-gray-700">Yes, we specialize in luxury property cleanouts throughout Del Mar. Our team understands the unique requirements of high-end coastal homes and provides discreet, professional service with proper handling of valuable items.</p>
-                    </div>
-
-                    <div className="bg-white p-6 rounded-lg">
-                      <h4 className="text-lg font-bold mb-2 text-gray-900">Are you licensed and insured for junk removal in San Diego County?</h4>
-                      <p className="text-gray-700">Yes, Severin Cleaners is fully licensed and insured for junk removal services throughout San Diego County including Del Mar. We carry comprehensive liability insurance and proper waste hauling permits.</p>
-                    </div>
-
-                    <div className="bg-white p-6 rounded-lg">
-                      <h4 className="text-lg font-bold mb-2 text-gray-900">Can you remove items from Del Mar vacation rentals and beach houses?</h4>
-                      <p className="text-gray-700">Absolutely. We provide specialized vacation rental cleanout services for Del Mar beach houses and short-term rentals. We work around guest schedules and provide quick turnaround for property managers and owners.</p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Final CTA Section */}
-                <div className="bg-blue-900 text-white p-8 rounded-xl text-center">
-                  <h3 className="text-3xl font-bold mb-4">Ready for Professional Junk Removal in Del Mar?</h3>
-                  <p className="text-xl mb-6">
-                    From beachfront estates to Del Mar Heights luxury homes - we provide the reliable <strong>junk removal Del Mar</strong> service your coastal property deserves.
+                {/* CTA Section */}
+                <div className="text-center bg-blue-900 text-white p-8 rounded-lg mb-8">
+                  <h3 className="text-2xl font-bold mb-4">Get Del Mar Junk Removal Quote Today</h3>
+                  <p className="text-lg mb-6">
+                    Serving Del Mar Village to Del Mar Heights with luxury coastal estate expertise
                   </p>
-                  <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-                    <a
-                      href="tel:+16197500114"
-                      className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors"
-                    >
-                      📞 Call (619) 750-0114 Now
-                    </a>
-                    <a
-                      href="#contact"
-                      className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-bold transition-colors"
-                    >
-                      Get Free Del Mar Quote
-                    </a>
+                  <a
+                    href="tel:6197500114"
+                    className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors duration-200 inline-block mb-6"
+                  >
+                    📞 Call (619) 750-0114 Now
+                  </a>
+                  <div className="bg-blue-800 rounded-lg p-4">
+                    <p className="text-yellow-300 font-semibold mb-2">🏖️ Del Mar Special 🏖️</p>
+                    <div className="text-sm">
+                      <strong>15% Off Luxury Estate Cleanouts</strong> • <strong>Same-Day Service Available</strong><br/>
+                      <strong>Coastal Property Specialists</strong> • <strong>Licensed & Insured</strong>
+                    </div>
                   </div>
-                  <div className="bg-orange-500 rounded-lg p-4 inline-block">
-                    <p className="font-bold text-lg">🎯 15% OFF Same-Day Service</p>
-                    <p className="text-sm">Licensed • Insured • Same-Day Available</p>
-                  </div>
-                </div>
-
-                {/* Internal Linking Suggestions */}
-                <div className="mt-12 p-6 bg-gray-100 rounded-lg">
-                  <h4 className="text-lg font-bold mb-4 text-gray-900">Related Services & Areas:</h4>
-                  <div className="grid md:grid-cols-2 gap-2 text-sm text-blue-600">
-                    <div>[Same-Day Junk Removal San Diego]</div>
-                    <div>[Furniture Removal San Diego]</div>
-                    <div>[Estate Cleanout San Diego]</div>
-                    <div>[Junk Removal Carmel Valley]</div>
-                    <div>[Junk Removal Solana Beach]</div>
-                    <div>[Luxury Junk Removal Services]</div>
-                    <div>[San Diego Service Areas]</div>
-                    <div>[Vacation Rental Cleanouts]</div>
-                  </div>
+                  <p className="text-sm mt-4">
+                    Transparent pricing • Eco-friendly disposal • Del Mar luxury estate experts
+                  </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section - Now using dropdown component */}
+        <DelMarFAQSection />
+
+        {/* Related Services */}
+        <section className="py-12 bg-white">
+          <div className="container mx-auto px-4">
+            <h3 className="text-2xl font-bold text-center mb-8">Related Luxury Coastal Services</h3>
+            <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+              <a href="/furniture-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
+                <p className="text-gray-600">Designer furniture and luxury coastal home furnishings removal</p>
+              </a>
+              <a href="/appliance-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Appliance Removal San Diego</h4>
+                <p className="text-gray-600">High-end kitchen appliances and estate equipment disposal</p>
+              </a>
+              <a href="/construction-debris-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Construction Debris Removal</h4>
+                <p className="text-gray-600">Del Mar Village and Del Mar Heights remodel cleanup services</p>
+              </a>
             </div>
           </div>
         </section>

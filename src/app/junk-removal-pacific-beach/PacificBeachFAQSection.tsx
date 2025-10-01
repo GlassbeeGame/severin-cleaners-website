@@ -51,7 +51,7 @@ export default function PacificBeachFAQSection() {
                 className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
                 onClick={() => setOpenFAQ(openFAQ === 1 ? null : 1)}
               >
-                <h3 className="font-bold text-gray-900 text-lg">Can you handle vacation rental turnovers?</h3>
+                <h3 className="font-bold text-gray-900 text-lg">Do you work around PB's Tuesday Farmers Market?</h3>
                 <svg
                   className={`w-5 h-5 text-gray-500 transition-transform ${
                     openFAQ === 1 ? 'rotate-180' : ''
@@ -66,7 +66,7 @@ export default function PacificBeachFAQSection() {
               {openFAQ === 1 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed">
-                    Absolutely. We specialize in same-day vacation rental cleanouts throughout Pacific Beach, including Airbnb and VRBO properties. We understand the tight turnaround times required.
+                    Yes, we're familiar with all PB events including the Tuesday Farmers Market on Bayard Street, Over-the-Line Tournament, and summer concerts. We schedule accordingly.
                   </p>
                 </div>
               )}
@@ -77,7 +77,7 @@ export default function PacificBeachFAQSection() {
                 className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
                 onClick={() => setOpenFAQ(openFAQ === 2 ? null : 2)}
               >
-                <h3 className="font-bold text-gray-900 text-lg">Do you work around PB's Tuesday Farmers Market?</h3>
+                <h3 className="font-bold text-gray-900 text-lg">How much does junk removal cost in Pacific Beach?</h3>
                 <svg
                   className={`w-5 h-5 text-gray-500 transition-transform ${
                     openFAQ === 2 ? 'rotate-180' : ''
@@ -91,8 +91,21 @@ export default function PacificBeachFAQSection() {
               </button>
               {openFAQ === 2 && (
                 <div className="px-6 py-4 bg-white">
+                  <p className="text-gray-700 leading-relaxed mb-3">
+                    Our <strong>Pacific Beach junk removal</strong> pricing is transparent and based on trailer volume:
+                  </p>
+                  <ul className="list-disc pl-6 mb-3 space-y-1 text-gray-700">
+                    <li><strong>Single Item Pickup:</strong> Starting at $175</li>
+                    <li><strong>1/4 Trailer Load:</strong> $249</li>
+                    <li><strong>3/8 Trailer Load:</strong> $319</li>
+                    <li><strong>1/2 Trailer Load:</strong> $349</li>
+                    <li><strong>5/8 Trailer Load:</strong> $366</li>
+                    <li><strong>3/4 Trailer Load:</strong> $429</li>
+                    <li><strong>7/8 Trailer Load:</strong> $462</li>
+                    <li><strong>Full Trailer Load:</strong> $495</li>
+                  </ul>
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, we're familiar with all PB events including the Tuesday Farmers Market on Bayard Street, Over-the-Line Tournament, and summer concerts. We schedule accordingly.
+                    For the most accurate estimate, please call <a href="tel:6197500114" className="text-blue-600 hover:underline">(619) 750-0114</a> for a quote based on your specific items and location in PB.
                   </p>
                 </div>
               )}
@@ -103,7 +116,7 @@ export default function PacificBeachFAQSection() {
                 className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
                 onClick={() => setOpenFAQ(openFAQ === 3 ? null : 3)}
               >
-                <h3 className="font-bold text-gray-900 text-lg">How much does junk removal cost in Pacific Beach?</h3>
+                <h3 className="font-bold text-gray-900 text-lg">Do you offer same-day or evening pickups?</h3>
                 <svg
                   className={`w-5 h-5 text-gray-500 transition-transform ${
                     openFAQ === 3 ? 'rotate-180' : ''
@@ -118,7 +131,7 @@ export default function PacificBeachFAQSection() {
               {openFAQ === 3 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed">
-                    Pricing starts from $95 for single items and varies based on volume. Most PB jobs range from $250-$700. We provide upfront quotes from photos with no hidden fees.
+                    Yes, we provide same-day service when scheduled before 2 PM and offer evening pickups for urgent situations. Perfect for vacation rental emergencies or move-out deadlines.
                   </p>
                 </div>
               )}
@@ -129,7 +142,7 @@ export default function PacificBeachFAQSection() {
                 className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
                 onClick={() => setOpenFAQ(openFAQ === 4 ? null : 4)}
               >
-                <h3 className="font-bold text-gray-900 text-lg">Do you offer same-day or evening pickups?</h3>
+                <h3 className="font-bold text-gray-900 text-lg">Can you remove heavy items like couches and appliances in PB?</h3>
                 <svg
                   className={`w-5 h-5 text-gray-500 transition-transform ${
                     openFAQ === 4 ? 'rotate-180' : ''
@@ -143,8 +156,18 @@ export default function PacificBeachFAQSection() {
               </button>
               {openFAQ === 4 && (
                 <div className="px-6 py-4 bg-white">
+                  <p className="text-gray-700 leading-relaxed mb-3">
+                    Absolutely! Our <strong>junk hauling Pacific Beach</strong> team specializes in removing heavy furniture and appliances from Ocean Front Walk condos, Garnet Avenue apartments, and Crown Point homes. We safely handle:
+                  </p>
+                  <ul className="list-disc pl-6 mb-3 space-y-1 text-gray-700">
+                    <li>Sofas, sectionals, and mattresses from beachfront properties</li>
+                    <li>Refrigerators, washers, dryers, and dishwashers</li>
+                    <li>Entertainment centers and bulky furniture pieces</li>
+                    <li>Hot tubs and outdoor patio sets damaged by salt air</li>
+                    <li>Exercise equipment from condo buildings</li>
+                  </ul>
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, we provide same-day service when scheduled before 2 PM and offer evening pickups for urgent situations. Perfect for vacation rental emergencies or move-out deadlines.
+                    Our crew is experienced with PB's narrow staircases, tight alleyways, and elevator access in multi-story buildings near Crystal Pier and throughout the beach area.
                   </p>
                 </div>
               )}
@@ -155,7 +178,7 @@ export default function PacificBeachFAQSection() {
                 className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
                 onClick={() => setOpenFAQ(openFAQ === 5 ? null : 5)}
               >
-                <h3 className="font-bold text-gray-900 text-lg">Can you remove heavy items from upstairs apartments?</h3>
+                <h3 className="font-bold text-gray-900 text-lg">Do you provide same-day junk hauling in Pacific Beach?</h3>
                 <svg
                   className={`w-5 h-5 text-gray-500 transition-transform ${
                     openFAQ === 5 ? 'rotate-180' : ''
@@ -170,7 +193,59 @@ export default function PacificBeachFAQSection() {
               {openFAQ === 5 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed">
-                    Absolutely. Our team safely removes heavy furniture and appliances from multi-story buildings, including the narrow staircases common in PB apartments. We use proper equipment and protection.
+                    Yes! We offer same-day <strong>junk pickup PB</strong> service when you call before 2 PM. This is especially helpful for vacation rental turnovers on Ocean Front Walk, student move-outs near Garnet Avenue, and emergency cleanouts near Tourmaline Surf Park. During peak summer season, we recommend scheduling morning appointments to guarantee same-day service throughout the 92109 area.
+                  </p>
+                </div>
+              )}
+            </div>
+
+            <div className="border border-gray-200 rounded-xl overflow-hidden">
+              <button
+                className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
+                onClick={() => setOpenFAQ(openFAQ === 6 ? null : 6)}
+              >
+                <h3 className="font-bold text-gray-900 text-lg">What types of junk do you not remove?</h3>
+                <svg
+                  className={`w-5 h-5 text-gray-500 transition-transform ${
+                    openFAQ === 6 ? 'rotate-180' : ''
+                  }`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </button>
+              {openFAQ === 6 && (
+                <div className="px-6 py-4 bg-white">
+                  <p className="text-gray-700 leading-relaxed">
+                    We handle all standard household items, furniture, appliances, construction debris, yard waste, and beach-damaged items in accordance with local regulations. If you're unsure about a specific item, please call us at <a href="tel:6197500114" className="text-blue-600 hover:underline">(619) 750-0114</a> and we can discuss it - there are various factors that can affect pricing and service options.
+                  </p>
+                </div>
+              )}
+            </div>
+
+            <div className="border border-gray-200 rounded-xl overflow-hidden">
+              <button
+                className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
+                onClick={() => setOpenFAQ(openFAQ === 7 ? null : 7)}
+              >
+                <h3 className="font-bold text-gray-900 text-lg">Are you licensed and insured for junk removal in San Diego?</h3>
+                <svg
+                  className={`w-5 h-5 text-gray-500 transition-transform ${
+                    openFAQ === 7 ? 'rotate-180' : ''
+                  }`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </button>
+              {openFAQ === 7 && (
+                <div className="px-6 py-4 bg-white">
+                  <p className="text-gray-700 leading-relaxed">
+                    Yes! Severin Cleaners is fully licensed and insured to provide <strong>PB San Diego junk removal</strong> services throughout Pacific Beach and all of San Diego County. We carry comprehensive liability insurance to protect your property during removal, and we dispose of all items responsibly at licensed facilities. Our team follows all local regulations for waste handling and environmental compliance.
                   </p>
                 </div>
               )}
