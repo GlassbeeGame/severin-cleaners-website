@@ -4,15 +4,24 @@
 
 echo "🧹 Cleaning up old processes and cache..."
 
-# Kill any existing Next.js dev servers
-pkill -f "next dev" 2>/dev/null
-sleep 1
+# Kill any existing Next.js dev servers (multiple attempts)
+pkill -9 -f "next dev" 2>/dev/null
+pkill -9 -f "npm run dev" 2>/dev/null
+sleep 2
 
-# Verify port 3000 is free
+# Force-kill anything on port 3000
 if lsof -ti:3000 > /dev/null 2>&1; then
-  echo "⚠️  Port 3000 still in use, forcing cleanup..."
+  echo "⚠️  Port 3000 in use, forcing cleanup..."
   lsof -ti:3000 | xargs kill -9 2>/dev/null
-  sleep 1
+  sleep 2
+fi
+
+# Verify port is actually free
+PORT_CHECK=$(lsof -ti:3000 2>/dev/null | wc -l)
+if [ "$PORT_CHECK" -gt 0 ]; then
+  echo "❌ ERROR: Could not free port 3000"
+  echo "Run: sudo lsof -ti:3000 | xargs kill -9"
+  exit 1
 fi
 
 # Clear Next.js cache (fixes JSON parse errors)
