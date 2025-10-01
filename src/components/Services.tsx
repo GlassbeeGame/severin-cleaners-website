@@ -147,11 +147,11 @@ export default function Services() {
                   <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-500 transition-colors">
                     {service.title}
                   </h3>
-                  <p className="text-gray-600 mb-4 text-sm leading-relaxed">
+                  <p className="text-gray-600 mb-4 text-sm leading-relaxed hidden md:block">
                     {service.description}
                   </p>
 
-                  <ul className="space-y-2">
+                  <ul className="space-y-2 hidden md:block">
                     {service.features.map((feature, index) => (
                       <li key={index} className="flex items-start gap-2 text-sm text-gray-600">
                         <svg className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -179,7 +179,7 @@ export default function Services() {
                     </div>
                     <div>
                       <h4 className="text-lg font-bold text-gray-900 mb-2">{service.title}</h4>
-                      <p className="text-gray-600 text-sm">{service.description}</p>
+                      <p className="text-gray-600 text-sm hidden md:block">{service.description}</p>
                     </div>
                   </div>
                 </div>
@@ -229,7 +229,18 @@ export default function Services() {
 
       <section className="section-padding bg-gray-50">
         <div className="container">
-          <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
+          {/* Mobile: Clickable Card */}
+          <a href="/areas-we-serve" className="md:hidden block bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-shadow duration-300 group">
+            <h3 className="text-xl font-bold text-gray-900 mb-2 text-center group-hover:text-blue-500 transition-colors">
+              Serving All of San Diego County
+            </h3>
+            <p className="text-gray-600 text-center text-sm">
+              Click to view all areas we serve →
+            </p>
+          </a>
+
+          {/* Desktop: Full Area List */}
+          <div className="hidden md:block bg-white rounded-2xl shadow-xl p-8 md:p-12">
             <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 text-center">
               Serving All of San Diego County
             </h3>

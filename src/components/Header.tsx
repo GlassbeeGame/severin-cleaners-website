@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,17 +19,8 @@ export default function Header() {
       <div className="container">
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0">
-            <Link href="/" className="flex items-center gap-3">
-              <Image
-                src="/logo.png"
-                alt="Severin Cleaners Logo"
-                width={48}
-                height={48}
-                className="h-12 w-auto"
-                priority
-                unoptimized
-              />
-              <div className="text-xl md:text-2xl font-black text-gray-900 uppercase">
+            <Link href="/" className="flex items-center">
+              <div className="text-2xl font-black text-gray-900 uppercase">
                 Severin
                 <span className="text-blue-500"> Cleaners</span>
               </div>
@@ -85,13 +75,7 @@ export default function Header() {
             </a>
           </div>
 
-          <div className="md:hidden flex items-center gap-2">
-            <a
-              href="tel:+16197500114"
-              className="btn btn-primary py-2 px-3 text-sm"
-            >
-              Call Now
-            </a>
+          <div className="md:hidden">
             <button
               onClick={toggleMenu}
               className="p-2 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200"
@@ -126,6 +110,13 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden border-t border-gray-200">
             <div className="px-2 pt-2 pb-3 space-y-1">
+              <Link
+                href="/"
+                onClick={closeMenu}
+                className="block px-3 py-2 text-base font-semibold text-gray-700 hover:text-blue-500 hover:bg-gray-50 rounded-md transition-colors duration-200"
+              >
+                Home
+              </Link>
               <Link
                 href="/services"
                 onClick={closeMenu}
