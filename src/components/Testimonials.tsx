@@ -153,7 +153,7 @@ export default function Testimonials() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
           <div className="text-center">
-            <div className="text-4xl font-bold text-blue-500 mb-2">500+</div>
+            <div className="text-4xl font-bold text-blue-500 mb-2">200+</div>
             <div className="text-gray-600">Happy Customers</div>
           </div>
           <div className="text-center">
@@ -161,8 +161,8 @@ export default function Testimonials() {
             <div className="text-gray-600">Google Rating</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-blue-500 mb-2">24/7</div>
-            <div className="text-gray-600">Emergency Service</div>
+            <div className="text-4xl font-bold text-blue-500 mb-2">Same Day</div>
+            <div className="text-gray-600">Service Available</div>
           </div>
         </div>
 

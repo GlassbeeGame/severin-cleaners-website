@@ -11,9 +11,9 @@ export default function About() {
               About Severin Cleaners
             </h2>
             <p className="text-lg text-neutral mb-6 leading-relaxed">
-              With years of experience serving the El Cajon and greater San Diego area, 
-              Severin Cleaners has built a reputation for reliable, professional cleaning services. 
-              We understand that every job is unique, and we&apos;re committed to delivering 
+              With years of experience serving the greater San Diego area,
+              Severin Cleaners has built a reputation for reliable, professional cleaning services.
+              We understand that every job is unique, and we&apos;re committed to delivering
               exceptional results that exceed your expectations.
             </p>
             
@@ -95,44 +95,6 @@ export default function About() {
           </div>
         </div>
 
-        {/* Why Choose Us */}
-        <div className="mt-16 sm:mt-20">
-          <h3 className="text-2xl sm:text-3xl font-bold text-neutral-dark text-center mb-8 sm:mb-12">
-            Why Choose Severin Cleaners?
-          </h3>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
-            <div className="text-center">
-              <div className="bg-primary/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <span className="text-primary text-2xl">🏆</span>
-              </div>
-              <h4 className="font-semibold text-neutral-dark mb-2 text-lg">Quality Work</h4>
-              <p className="text-neutral text-sm sm:text-base">
-                We take pride in delivering high-quality results that meet and exceed your expectations.
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <div className="bg-accent/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <span className="text-accent text-2xl">💰</span>
-              </div>
-              <h4 className="font-semibold text-neutral-dark mb-2 text-lg">Fair Pricing</h4>
-              <p className="text-neutral text-sm sm:text-base">
-                Competitive rates with no hidden fees. Free estimates for all services.
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <div className="bg-primary/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <span className="text-primary text-2xl">🤝</span>
-              </div>
-              <h4 className="font-semibold text-neutral-dark mb-2 text-lg">Trusted Service</h4>
-              <p className="text-neutral text-sm sm:text-base">
-                Licensed, insured, and trusted by homeowners and businesses throughout San Diego.
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
