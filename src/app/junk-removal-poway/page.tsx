@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PowayFAQSection from "./PowayFAQSection";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -222,60 +223,8 @@ export default function JunkremovalpowayPage() {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions - Poway Junk Removal</h2>
-
-            <div className="space-y-8">
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">How much does junk removal cost in Poway?</h3>
-                <p className="text-gray-700">
-                  Our <strong>Poway junk removal</strong> pricing starts at $99 for small loads and varies based on volume and property access. Ranch properties and large estates may qualify for volume discounts, with most family home projects ranging from $200-$500. We provide transparent pricing with no hidden fees for all Poway neighborhoods.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Do you handle junk hauling for large ranch or equestrian properties?</h3>
-                <p className="text-gray-700">
-                  Yes, our <strong>junk hauling Poway</strong> service specializes in ranch and equestrian properties throughout Poway's rural areas. We handle barn cleanouts, arena maintenance debris, fence removal, and agricultural equipment disposal. Our team is experienced with multi-acre properties and understands the unique needs of horse facilities.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Can you provide same-day junk pickup in Poway?</h3>
-                <p className="text-gray-700">
-                  Absolutely. We offer same-day <strong>junk pickup Poway</strong> service for urgent needs throughout all Poway neighborhoods, from Old Poway Village to Green Valley. Our local team can respond quickly for family emergencies, ranch property issues, or time-sensitive business cleanouts.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Do you work with Poway Business Park offices and commercial properties?</h3>
-                <p className="text-gray-700">
-                  Yes, our <strong>trash removal Poway</strong> service includes comprehensive commercial support for Poway Business Park and local businesses. We provide office cleanouts, warehouse clearing, retail renovation debris removal, and regular commercial waste management with flexible scheduling to minimize business disruption.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Are your junk removal services eco-friendly in Poway?</h3>
-                <p className="text-gray-700">
-                  Yes, our <strong>Poway San Diego junk removal</strong> prioritizes environmental responsibility through recycling, donation programs, and proper disposal methods. We work with local Poway charities, ensure proper handling of ranch and agricultural waste, and maintain eco-friendly practices that protect our community's rural character.
-                </p>
-              </div>
-            </div>
-
-            <div className="text-center mt-12">
-              <a
-                href="tel:6197500114"
-                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors duration-200 inline-block"
-              >
-                📞 Call Now for Same-Day Poway Service: (619) 750-0114
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* FAQ Section - Now using dropdown component */}
+      <PowayFAQSection />
 
       {/* Related Services */}
       <section className="py-12 bg-white">

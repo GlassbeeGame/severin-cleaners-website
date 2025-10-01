@@ -13,9 +13,11 @@ export default function AreasWeServePage() {
     { name: "San Diego", link: "/san-diego-junk-removal", description: "Downtown and city center areas" },
     { name: "Carmel Valley", link: "/junk-removal-carmel-valley", description: "Upscale planned community" },
     { name: "Chula Vista", link: "/junk-removal-chula-vista", description: "Large suburban city" },
+    { name: "Clairemont", link: "/junk-removal-clairemont", description: "Family-friendly mid-century homes" },
     { name: "Del Mar", link: "/junk-removal-del-mar", description: "Exclusive beach city" },
     { name: "El Cajon", link: "/junk-removal-el-cajon", description: "Family-friendly suburban city" },
     { name: "Hillcrest", link: "/junk-removal-hillcrest", description: "Urban village atmosphere" },
+    { name: "Kearny Mesa", link: "/junk-removal-kearny-mesa", description: "Commercial hub with industrial parks" },
     { name: "La Jolla", link: "/junk-removal-la-jolla", description: "Upscale coastal community" },
     { name: "La Mesa", link: "/junk-removal-la-mesa", description: "Village charm with modern amenities" },
     { name: "Lakeside", link: "/junk-removal-lakeside", description: "Rural feel, close to city" },
@@ -84,7 +86,7 @@ export default function AreasWeServePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">19 Communities</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">21 Communities</h3>
                 <p className="text-gray-600">Serving established neighborhoods across San Diego County</p>
               </div>
 

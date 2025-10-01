@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import VistaFAQSection from "./VistaFAQSection";
 
 export const metadata: Metadata = {
   title: "Vista Junk Removal | Family Homes & Business Cleanout Specialists | Same-Day Service",
@@ -325,86 +326,8 @@ export default function VistaJunkRemoval() {
           </div>
         </section>
 
-        {/* FAQ Section */}
-        <section className="py-16 bg-white">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
-              Frequently Asked Questions - Vista Junk Removal
-            </h2>
-
-            <div className="max-w-4xl mx-auto space-y-6">
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  How much does junk removal cost in Vista?
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Our <strong>Vista junk removal</strong> pricing depends on the volume and type of items. Most residential jobs range from $150-$500, while commercial projects vary based on scope. We provide transparent, upfront pricing with no hidden fees. Call (619) 750-0114 for a free estimate tailored to your specific <strong>junk hauling Vista</strong> needs.
-                </p>
-              </div>
-
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Do you handle apartment and condo junk hauling in Vista?
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Yes! We specialize in apartment and condo <strong>junk pickup Vista</strong> services, especially in Downtown Vista Village and Shadowridge complexes. Our team navigates stairs, elevators, and tight spaces with care. We coordinate with property managers and respect HOA guidelines for all <strong>trash removal Vista</strong> projects.
-                </p>
-              </div>
-
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Can you provide same-day junk pickup in Vista?
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Absolutely! We offer same-day <strong>Vista junk removal</strong> service 7 days a week. Our local team can often arrive within 2-4 hours of your call for emergency cleanouts. Whether you need urgent help for moving deadlines or unexpected situations, our same-day <strong>junk hauling Vista</strong> service is ready to help.
-                </p>
-              </div>
-
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Do you work with Vista businesses and warehouses?
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Yes, we provide comprehensive commercial <strong>Vista San Diego junk removal</strong> for businesses throughout Vista Business Park, downtown breweries, and warehouse facilities. Our services include office cleanouts, retail space clearing, and industrial equipment removal. We work with contractors, property managers, and business owners on projects of all sizes.
-                </p>
-              </div>
-
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Are your junk removal services eco-friendly in North County?
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Our <strong>Vista junk removal</strong> approach prioritizes environmental responsibility. We recycle metals, electronics, and materials whenever possible, and donate usable furniture to local North County charities. Our eco-friendly disposal methods ensure that your <strong>junk pickup Vista</strong> service makes a positive impact on the community and environment.
-                </p>
-              </div>
-            </div>
-
-            <div className="text-center mt-12">
-              <div className="bg-blue-600 text-white p-8 rounded-xl max-w-3xl mx-auto">
-                <h3 className="text-2xl font-bold mb-4">
-                  Ready for Professional Vista Junk Removal?
-                </h3>
-                <p className="text-blue-100 mb-6">
-                  Join hundreds of Vista families and businesses who trust Severin Cleaners for reliable, eco-friendly <strong>junk hauling Vista</strong> services.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a
-                    href="tel:+16197500114"
-                    className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-bold transition-colors"
-                  >
-                    📞 Call (619) 750-0114 - Book Same-Day Service
-                  </a>
-                  <a
-                    href="#quote"
-                    className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition-colors"
-                  >
-                    Get Free Vista Quote Online
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        {/* FAQ Section - Now using dropdown component */}
+        <VistaFAQSection />
 
         {/* Contact CTA */}
         <section id="quote" className="py-16 bg-gray-900 text-white">

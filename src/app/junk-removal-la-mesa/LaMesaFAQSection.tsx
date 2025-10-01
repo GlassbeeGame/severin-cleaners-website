@@ -39,8 +39,23 @@ export default function LaMesaFAQSection() {
               </button>
               {openFAQ === 0 && (
                 <div className="px-6 py-4 bg-white">
-                  <p className="text-gray-700 leading-relaxed">
-                    Our <strong>La Mesa junk removal</strong> pricing starts at $99 for small loads and varies based on volume and access requirements. Hillside properties and challenging access may have additional coordination fees. We provide upfront pricing with no hidden fees and special rates for family homes and rental property managers.
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    Our <strong>La Mesa junk removal</strong> pricing is transparent and upfront with no hidden fees. We offer special rates for family homes and rental property managers throughout East County:
+                  </p>
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <ul className="space-y-2 text-gray-700">
+                      <li><strong>Single Item Pickup:</strong> Starting at $175</li>
+                      <li><strong>1/4 Trailer Load:</strong> $249</li>
+                      <li><strong>3/8 Trailer Load:</strong> $319</li>
+                      <li><strong>1/2 Trailer Load:</strong> $349</li>
+                      <li><strong>5/8 Trailer Load:</strong> $366</li>
+                      <li><strong>3/4 Trailer Load:</strong> $429</li>
+                      <li><strong>7/8 Trailer Load:</strong> $462</li>
+                      <li><strong>Full Trailer Load:</strong> $495</li>
+                    </ul>
+                  </div>
+                  <p className="text-gray-700 leading-relaxed mt-4">
+                    Mount Helix hillside properties and challenging access locations may have additional coordination fees. Final pricing depends on volume, accessibility, and disposal requirements.
                   </p>
                 </div>
               )}
@@ -143,8 +158,11 @@ export default function LaMesaFAQSection() {
               </button>
               {openFAQ === 4 && (
                 <div className="px-6 py-4 bg-white">
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    Absolutely. Our <strong>La Mesa San Diego junk removal</strong> prioritizes environmental responsibility through donations to local East County charities, comprehensive recycling programs, and eco-friendly disposal methods that exceed local regulations.
+                  </p>
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, our <strong>La Mesa San Diego junk removal</strong> prioritizes environmental responsibility through donations to local East County charities, recycling programs, and eco-friendly disposal methods. We understand East County families value environmental stewardship and work to minimize landfill waste through responsible sorting and donation programs.
+                    We handle all items in full compliance with San Diego County and East County environmental regulations, so you don't have to worry about a thing. Our team sorts materials for donation, recycling, and proper disposal—ensuring minimal landfill impact while supporting local East County community organizations. We understand East County families value environmental stewardship and we're committed to protecting our hillside communities and natural spaces.
                   </p>
                 </div>
               )}

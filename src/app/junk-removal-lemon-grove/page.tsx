@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import LemonGroveFAQSection from "./LemonGroveFAQSection";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -222,60 +223,8 @@ export default function JunkremovallemongovePage() {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions - Lemon Grove Junk Removal</h2>
-
-            <div className="space-y-8">
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">How much does junk removal cost in Lemon Grove?</h3>
-                <p className="text-gray-700">
-                  Our <strong>Lemon Grove junk removal</strong> pricing starts at just $99 for small loads, making it affordable for families and apartment residents. We offer transparent pricing based on volume, with most apartment cleanouts ranging from $150-$350 and family home projects from $200-$500. Special discounts available for seniors and repeat customers.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Do you offer same-day junk pickup in Lemon Grove?</h3>
-                <p className="text-gray-700">
-                  Yes, we provide same-day <strong>junk pickup Lemon Grove</strong> service for urgent needs throughout the community. Whether you're dealing with an apartment move-out deadline or unexpected family situation, our local team can respond quickly with professional, affordable service.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Can you handle junk hauling for apartments and multifamily housing?</h3>
-                <p className="text-gray-700">
-                  Absolutely. Our <strong>junk hauling Lemon Grove</strong> service specializes in apartment complexes and multifamily housing throughout the community. We coordinate with property managers, respect tenant privacy, and work efficiently to minimize disruption while providing affordable bulk item removal and turnover support.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Do you provide trash removal services for small businesses in Lemon Grove?</h3>
-                <p className="text-gray-700">
-                  Yes, our <strong>trash removal Lemon Grove</strong> service supports local small businesses along Broadway and throughout the community. We offer flexible scheduling, competitive commercial rates, and regular service options that help small businesses maintain clean, professional spaces without breaking their budgets.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Are your junk removal services eco-friendly and affordable?</h3>
-                <p className="text-gray-700">
-                  Yes, our <strong>Lemon Grove San Diego junk removal</strong> combines affordability with environmental responsibility. We donate usable items to local charities, recycle whenever possible, and ensure proper disposal while keeping our prices competitive. Our eco-friendly approach helps protect our community while providing value to residents.
-                </p>
-              </div>
-            </div>
-
-            <div className="text-center mt-12">
-              <a
-                href="tel:6197500114"
-                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors duration-200 inline-block"
-              >
-                📞 Call Now for Same-Day Lemon Grove Service: (619) 750-0114
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* FAQ Section - Now using dropdown component */}
+      <LemonGroveFAQSection />
 
       {/* Related Services */}
       <section className="py-12 bg-white">

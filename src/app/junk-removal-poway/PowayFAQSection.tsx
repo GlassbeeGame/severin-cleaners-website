@@ -39,8 +39,23 @@ export default function PowayFAQSection() {
               </button>
               {openFAQ === 0 && (
                 <div className="px-6 py-4 bg-white">
-                  <p className="text-gray-700 leading-relaxed">
-                    Our <strong>Poway junk removal</strong> pricing starts at $99 for small loads and varies based on volume and property access. Ranch properties and large estates may qualify for volume discounts, with most family home projects ranging from $200-$500. We provide transparent pricing with no hidden fees for all Poway neighborhoods.
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    Our <strong>Poway junk removal</strong> pricing is transparent and upfront with no hidden fees. We offer special rates for ranch properties, large estates, and volume discounts for multi-acre cleanouts:
+                  </p>
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <ul className="space-y-2 text-gray-700">
+                      <li><strong>Single Item Pickup:</strong> Starting at $175</li>
+                      <li><strong>1/4 Trailer Load:</strong> $249</li>
+                      <li><strong>3/8 Trailer Load:</strong> $319</li>
+                      <li><strong>1/2 Trailer Load:</strong> $349</li>
+                      <li><strong>5/8 Trailer Load:</strong> $366</li>
+                      <li><strong>3/4 Trailer Load:</strong> $429</li>
+                      <li><strong>7/8 Trailer Load:</strong> $462</li>
+                      <li><strong>Full Trailer Load:</strong> $495</li>
+                    </ul>
+                  </div>
+                  <p className="text-gray-700 leading-relaxed mt-4">
+                    Ranch properties and large estates may qualify for volume discounts. Most family home projects range from $349-$495. Final pricing depends on volume, property accessibility, and disposal requirements.
                   </p>
                 </div>
               )}
@@ -143,8 +158,11 @@ export default function PowayFAQSection() {
               </button>
               {openFAQ === 4 && (
                 <div className="px-6 py-4 bg-white">
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    Absolutely. Our <strong>Poway San Diego junk removal</strong> prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations.
+                  </p>
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, our <strong>Poway San Diego junk removal</strong> prioritizes environmental responsibility through recycling, donation programs, and proper disposal methods. We work with local Poway charities, ensure proper handling of ranch and agricultural waste, and maintain eco-friendly practices that protect our community's rural character.
+                    We handle all items in accordance with San Diego County and Poway regulations, so you don't have to worry about a thing. Our team works with local Poway charities for donations, ensures proper handling of ranch and agricultural waste, and maintains eco-friendly practices that protect our community's unique "City in the Country" rural character and natural environment.
                   </p>
                 </div>
               )}

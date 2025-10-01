@@ -39,8 +39,23 @@ export default function LemonGroveFAQSection() {
               </button>
               {openFAQ === 0 && (
                 <div className="px-6 py-4 bg-white">
-                  <p className="text-gray-700 leading-relaxed">
-                    Our <strong>Lemon Grove junk removal</strong> pricing starts at just $99 for small loads, making it affordable for families and apartment residents. We offer transparent pricing based on volume, with most apartment cleanouts ranging from $150-$350 and family home projects from $200-$500. Special discounts available for seniors and repeat customers.
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    Our <strong>Lemon Grove junk removal</strong> pricing is transparent and affordable, designed with families and apartment residents in mind. We offer upfront pricing with no hidden fees:
+                  </p>
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <ul className="space-y-2 text-gray-700">
+                      <li><strong>Single Item Pickup:</strong> Starting at $175</li>
+                      <li><strong>1/4 Trailer Load:</strong> $249</li>
+                      <li><strong>3/8 Trailer Load:</strong> $319</li>
+                      <li><strong>1/2 Trailer Load:</strong> $349</li>
+                      <li><strong>5/8 Trailer Load:</strong> $366</li>
+                      <li><strong>3/4 Trailer Load:</strong> $429</li>
+                      <li><strong>7/8 Trailer Load:</strong> $462</li>
+                      <li><strong>Full Trailer Load:</strong> $495</li>
+                    </ul>
+                  </div>
+                  <p className="text-gray-700 leading-relaxed mt-4">
+                    Most apartment cleanouts range from $249-$349, while family home projects typically run $349-$495. Special discounts available for seniors, repeat customers, and multifamily properties. Contact us for a free, no-obligation quote.
                   </p>
                 </div>
               )}
@@ -143,8 +158,11 @@ export default function LemonGroveFAQSection() {
               </button>
               {openFAQ === 4 && (
                 <div className="px-6 py-4 bg-white">
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    Absolutely. Our <strong>Lemon Grove San Diego junk removal</strong> combines affordability with environmental responsibility and full regulatory compliance.
+                  </p>
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, our <strong>Lemon Grove San Diego junk removal</strong> combines affordability with environmental responsibility. We donate usable items to local charities, recycle whenever possible, and ensure proper disposal while keeping our prices competitive. Our eco-friendly approach helps protect our community while providing value to residents.
+                    We handle all items in accordance with San Diego County and local Lemon Grove regulations, so you don't have to worry about a thing. Our team donates usable items to local charities, recycles whenever possible, and ensures proper disposal through certified facilities—all while keeping our prices competitive. Our eco-friendly approach helps protect our community environment while providing maximum value to families and residents.
                   </p>
                 </div>
               )}

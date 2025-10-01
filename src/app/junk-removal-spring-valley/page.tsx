@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SpringValleyFAQSection from "./SpringValleyFAQSection";
 
 export const metadata: Metadata = {
   title: "Spring Valley Junk Removal | Affordable Family & Hillside Specialists | Same-Day Service",
@@ -338,86 +339,8 @@ export default function SpringValleyJunkRemoval() {
           </div>
         </section>
 
-        {/* FAQ Section */}
-        <section className="py-16 bg-white">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
-              Frequently Asked Questions - Spring Valley Junk Removal
-            </h2>
-
-            <div className="max-w-4xl mx-auto space-y-6">
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  How much does junk removal cost in Spring Valley?
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Our <strong>Spring Valley junk removal</strong> pricing is designed to be affordable for East County families. Most residential jobs range from $120-$450, with transparent pricing based on volume. We offer family-friendly rates and flexible payment options. Call (619) 750-0114 for a free estimate tailored to your specific <strong>junk hauling Spring Valley</strong> needs.
-                </p>
-              </div>
-
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Do you provide hillside junk hauling in Spring Valley?
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Yes! We specialize in hillside property <strong>junk pickup Spring Valley</strong> services, especially in Dictionary Hill and Casa de Oro areas. Our team has specialized equipment and experience handling challenging terrain, steep driveways, and unique access situations. We&apos;re experts at safely navigating hillside properties throughout East County.
-                </p>
-              </div>
-
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Can you offer same-day junk pickup for apartments and mobile homes?
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Absolutely! We provide same-day <strong>Spring Valley junk removal</strong> service for apartments, mobile home parks, and multi-family properties. Our team works efficiently with property managers and understands the unique requirements of rental properties. We coordinate with building management and respect community guidelines for all <strong>trash removal Spring Valley</strong> projects.
-                </p>
-              </div>
-
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Do you handle large family cleanouts and estate junk removal?
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Yes, we provide compassionate estate cleanout and large family <strong>junk hauling Spring Valley</strong> services. Our team understands the sensitivity required for multi-generational households and inherited properties. We handle everything from sorting and organizing to respectful disposal, working closely with families during difficult transitions in East County communities.
-                </p>
-              </div>
-
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Are your junk removal services eco-friendly in East County?
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  Our <strong>Spring Valley San Diego junk removal</strong> approach prioritizes environmental responsibility. We recycle metals, electronics, and materials whenever possible, and donate usable furniture to local East County charities. Our eco-friendly disposal methods ensure that your <strong>junk pickup Spring Valley</strong> service benefits both your family and the community environment.
-                </p>
-              </div>
-            </div>
-
-            <div className="text-center mt-12">
-              <div className="bg-green-600 text-white p-8 rounded-xl max-w-3xl mx-auto">
-                <h3 className="text-2xl font-bold mb-4">
-                  Ready for Affordable Spring Valley Junk Removal?
-                </h3>
-                <p className="text-green-100 mb-6">
-                  Join hundreds of East County families who trust Severin Cleaners for reliable, affordable <strong>junk hauling Spring Valley</strong> services that work for your budget and schedule.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a
-                    href="tel:+16197500114"
-                    className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-bold transition-colors"
-                  >
-                    📞 Call (619) 750-0114 - Book Same-Day Service
-                  </a>
-                  <a
-                    href="#quote"
-                    className="bg-white text-green-600 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition-colors"
-                  >
-                    Get Free Spring Valley Quote Online
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        {/* FAQ Section - Now using dropdown component */}
+        <SpringValleyFAQSection />
 
         {/* Contact CTA */}
         <section id="quote" className="py-16 bg-gray-900 text-white">

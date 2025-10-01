@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import LakesideFAQSection from "./LakesideFAQSection";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -222,60 +223,8 @@ export default function JunkremovallakesidePage() {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions - Lakeside Junk Removal</h2>
-
-            <div className="space-y-8">
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">How much does junk removal cost in Lakeside?</h3>
-                <p className="text-gray-700">
-                  Our <strong>Lakeside junk removal</strong> pricing starts at $99 for small loads and varies based on volume and property access. Large properties and ranch cleanouts are priced based on scope and may qualify for volume discounts. We provide upfront pricing with no hidden fees and special rates for recurring rural property maintenance.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Do you handle large property and ranch junk hauling?</h3>
-                <p className="text-gray-700">
-                  Yes, our <strong>junk hauling Lakeside</strong> service specializes in large properties, ranches, and agricultural facilities. We handle multi-acre cleanouts, ranch equipment disposal, barn cleanouts, and agricultural waste removal. Our team is experienced with the scale and unique requirements of East County's rural properties.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Can you provide same-day junk pickup in Lakeside?</h3>
-                <p className="text-gray-700">
-                  Absolutely. We provide same-day <strong>junk pickup Lakeside</strong> for urgent needs throughout East County rural areas. Our team can respond quickly for large property emergencies, seasonal cleanouts, or time-sensitive agricultural operations while respecting working ranch and farm schedules.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Do you remove yard debris and outdoor storage items?</h3>
-                <p className="text-gray-700">
-                  Yes, our <strong>trash removal Lakeside</strong> includes comprehensive yard debris removal, outdoor storage cleanouts, and landscaping waste disposal. We handle tree trimming debris, seasonal cleanup, garden renovation waste, and outdoor equipment disposal common to Lakeside's rural lifestyle.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Are your junk removal services eco-friendly in East County?</h3>
-                <p className="text-gray-700">
-                  Yes, our <strong>Lakeside San Diego junk removal</strong> prioritizes environmental responsibility through agricultural waste recycling, donation programs with local East County charities, and eco-friendly disposal methods. We understand rural communities' commitment to environmental stewardship and work to minimize waste through responsible sorting and reuse programs.
-                </p>
-              </div>
-            </div>
-
-            <div className="text-center mt-12">
-              <a
-                href="tel:6197500114"
-                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors duration-200 inline-block"
-              >
-                📞 Call Now for Same-Day Lakeside Service: (619) 750-0114
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* FAQ Section - Now using dropdown component */}
+      <LakesideFAQSection />
 
       {/* Related Services */}
       <section className="py-12 bg-white">

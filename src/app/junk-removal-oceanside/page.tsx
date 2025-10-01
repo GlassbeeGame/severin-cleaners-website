@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import OceansideFAQSection from "./OceansideFAQSection";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -227,60 +228,8 @@ export default function JunkremovaloceansidePage() {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions - Oceanside Junk Removal</h2>
-
-            <div className="space-y-8">
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">How much does junk removal cost in Oceanside?</h3>
-                <p className="text-gray-700">
-                  Our <strong>Oceanside junk removal</strong> pricing starts at $99 for small loads and varies based on volume and property type. Military families receive special discounts, and we offer competitive rates for vacation rental turnovers. Most residential projects range from $200-$500, with custom quotes for large coastal properties or commercial cleanouts.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Do you provide junk removal for Camp Pendleton military housing?</h3>
-                <p className="text-gray-700">
-                  Yes, our <strong>Camp Pendleton junk removal</strong> service specializes in military PCS moves and base housing cleanouts. We coordinate with base housing offices, understand inspection requirements, and work within tight military timelines. Active duty families receive special discounts, and we're familiar with all base access procedures.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Can you handle same-day junk pickup for vacation rentals in Oceanside?</h3>
-                <p className="text-gray-700">
-                  Absolutely. Our <strong>junk pickup Oceanside</strong> team provides same-day service for vacation rental turnovers throughout coastal Oceanside. We understand the importance of quick turnarounds for maintaining bookings and reviews, offering priority scheduling for property managers and vacation rental owners.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Do you offer coastal property cleanouts and storm debris removal?</h3>
-                <p className="text-gray-700">
-                  Yes, our <strong>trash removal Oceanside</strong> service includes comprehensive coastal property maintenance, storm debris cleanup, and salt air damaged item disposal. We respond quickly to weather events, handle beach erosion cleanup, and provide environmentally responsible disposal that protects Oceanside's marine environment.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Are your junk removal services eco-friendly in North County?</h3>
-                <p className="text-gray-700">
-                  Yes, our <strong>Oceanside San Diego junk removal</strong> prioritizes environmental protection through recycling, donation programs, and responsible disposal methods. We work with local North County charities, protect beach and marine environments, and ensure proper handling of materials to minimize environmental impact.
-                </p>
-              </div>
-            </div>
-
-            <div className="text-center mt-12">
-              <a
-                href="tel:6197500114"
-                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors duration-200 inline-block"
-              >
-                📞 Call Now for Same-Day Oceanside Service: (619) 750-0114
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* FAQ Section - Now using dropdown component */}
+      <OceansideFAQSection />
 
       {/* Related Services */}
       <section className="py-12 bg-white">

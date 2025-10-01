@@ -39,8 +39,23 @@ export default function SpringValleyFAQSection() {
               </button>
               {openFAQ === 0 && (
                 <div className="px-6 py-4 bg-white">
-                  <p className="text-gray-700 leading-relaxed">
-                    Our <strong>Spring Valley junk removal</strong> pricing is designed to be affordable for East County families. Most residential jobs range from $120-$450, with transparent pricing based on volume. We offer family-friendly rates and flexible payment options. Call (619) 750-0114 for a free estimate tailored to your specific <strong>junk hauling Spring Valley</strong> needs.
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    Our <strong>Spring Valley junk removal</strong> pricing is transparent and affordable, designed with East County families in mind. We offer upfront pricing with no hidden fees:
+                  </p>
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <ul className="space-y-2 text-gray-700">
+                      <li><strong>Single Item Pickup:</strong> Starting at $175</li>
+                      <li><strong>1/4 Trailer Load:</strong> $249</li>
+                      <li><strong>3/8 Trailer Load:</strong> $319</li>
+                      <li><strong>1/2 Trailer Load:</strong> $349</li>
+                      <li><strong>5/8 Trailer Load:</strong> $366</li>
+                      <li><strong>3/4 Trailer Load:</strong> $429</li>
+                      <li><strong>7/8 Trailer Load:</strong> $462</li>
+                      <li><strong>Full Trailer Load:</strong> $495</li>
+                    </ul>
+                  </div>
+                  <p className="text-gray-700 leading-relaxed mt-4">
+                    Most residential jobs range from $249-$429, with flexible payment options for families. Hillside properties may have additional access coordination. We provide family-friendly rates for apartments, mobile homes, and multi-family properties throughout Dictionary Hill and Casa de Oro.
                   </p>
                 </div>
               )}
@@ -117,8 +132,11 @@ export default function SpringValleyFAQSection() {
               </button>
               {openFAQ === 3 && (
                 <div className="px-6 py-4 bg-white">
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    Yes, while we're a professional <strong>junk removal Spring Valley</strong> company, we excel at large family cleanouts and estate property junk removal. Our core service is hauling away unwanted items, furniture, and debris from inherited homes and multi-generational households.
+                  </p>
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, we provide compassionate estate cleanout and large family <strong>junk hauling Spring Valley</strong> services. Our team understands the sensitivity required for multi-generational households and inherited properties. We handle everything from sorting and organizing to respectful disposal, working closely with families during difficult transitions in East County communities.
+                    Our compassionate <strong>junk hauling Spring Valley</strong> team understands the sensitivity required when families are dealing with estate transitions or downsizing situations. We efficiently remove and haul away items while working respectfully with families during difficult times in East County communities. We focus on the junk removal aspect, making the physical cleanout process smooth and stress-free.
                   </p>
                 </div>
               )}
@@ -143,8 +161,11 @@ export default function SpringValleyFAQSection() {
               </button>
               {openFAQ === 4 && (
                 <div className="px-6 py-4 bg-white">
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    Absolutely. Our <strong>Spring Valley San Diego junk removal</strong> approach prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations.
+                  </p>
                   <p className="text-gray-700 leading-relaxed">
-                    Our <strong>Spring Valley San Diego junk removal</strong> approach prioritizes environmental responsibility. We recycle metals, electronics, and materials whenever possible, and donate usable furniture to local East County charities. Our eco-friendly disposal methods ensure that your <strong>junk pickup Spring Valley</strong> service benefits both your family and the community environment.
+                    We handle all items in accordance with San Diego County and East County regulations, so you don't have to worry about a thing. Our team recycles metals, electronics, and materials through certified facilities, donates usable furniture to local East County charities, and ensures eco-friendly disposal methods that benefit both your family and the Spring Valley community environment.
                   </p>
                 </div>
               )}
