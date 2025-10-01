@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import HillcrestFAQSection from "./HillcrestFAQSection";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -221,56 +222,144 @@ export default function JunkremovalhillcrestPage() {
         </div>
       </section>
 
-      {/* FAQ Section */}
+      {/* Pricing Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions - Hillcrest Junk Removal</h2>
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+              Transparent Pricing for Hillcrest Junk Removal
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Upfront, honest pricing with no hidden fees. Our <strong>junk hauling Hillcrest</strong> rates include labor, hauling, disposal, and cleanup.
+            </p>
+          </div>
 
-            <div className="space-y-8">
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">How much does junk removal cost in Hillcrest?</h3>
-                <p className="text-gray-700">
-                  Our <strong>Hillcrest junk removal</strong> pricing starts at $99 for small loads and varies based on volume and access challenges. We provide upfront pricing with no hidden fees, considering factors like elevator access, parking restrictions, and historic property requirements. Urban locations may have additional coordination fees for permits or building management.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Do you provide junk removal for high-rise condos and apartments?</h3>
-                <p className="text-gray-700">
-                  Yes, our <strong>junk hauling Hillcrest</strong> service specializes in high-rise and apartment cleanouts. We coordinate with building management, schedule elevator time, and handle all access logistics. Our team is experienced with condo association requirements and maintains professional standards for upscale properties throughout the urban core.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Can you handle limited parking and narrow streets in Hillcrest?</h3>
-                <p className="text-gray-700">
-                  Absolutely. Our <strong>urban junk removal San Diego</strong> team specializes in navigating Hillcrest's narrow streets, limited parking, and time-restricted loading zones. We secure necessary permits, coordinate with city regulations, and use appropriately sized vehicles to access urban properties while minimizing neighborhood disruption.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Do you offer same-day junk hauling in Hillcrest and University Heights?</h3>
-                <p className="text-gray-700">
-                  Yes, we provide same-day <strong>junk pickup Hillcrest</strong> and <strong>University Heights junk removal</strong> for urgent needs. Our urban-focused team can respond quickly throughout the central San Diego area. Same-day availability depends on scheduling and may require coordination with building management for access.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Are you experienced with historic homes and older buildings?</h3>
-                <p className="text-gray-700">
-                  Yes, our <strong>trash removal Hillcrest</strong> service has extensive experience with historic properties and vintage buildings. We understand preservation requirements, structural considerations, and special handling needs for historic homes. Our team protects architectural features and follows best practices for working in sensitive historic environments.
-                </p>
-              </div>
+          <div className="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl shadow-lg border-2 border-blue-200">
+              <h3 className="text-2xl font-bold text-blue-900 mb-2">Single Item</h3>
+              <p className="text-4xl font-bold text-blue-600 mb-4">$175</p>
+              <p className="text-gray-700">Starting price for single item pickup in Hillcrest</p>
             </div>
 
-            <div className="text-center mt-12">
-              <a
-                href="tel:6197500114"
-                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors duration-200 inline-block"
-              >
-                📞 Call Now for Same-Day Hillcrest Service: (619) 750-0114
-              </a>
+            <div className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-xl shadow-lg border-2 border-green-200">
+              <h3 className="text-2xl font-bold text-green-900 mb-2">1/4 Trailer</h3>
+              <p className="text-4xl font-bold text-green-600 mb-4">$249</p>
+              <p className="text-gray-700">Perfect for small cleanouts and apartment clear-outs</p>
+            </div>
+
+            <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-xl shadow-lg border-2 border-orange-200">
+              <h3 className="text-2xl font-bold text-orange-900 mb-2">1/2 Trailer</h3>
+              <p className="text-4xl font-bold text-orange-600 mb-4">$349</p>
+              <p className="text-gray-700">Ideal for medium-sized junk removal projects</p>
+            </div>
+
+            <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-xl shadow-lg border-2 border-purple-200">
+              <h3 className="text-2xl font-bold text-purple-900 mb-2">Full Trailer</h3>
+              <p className="text-4xl font-bold text-purple-600 mb-4">$495</p>
+              <p className="text-gray-700">Complete property cleanouts and large loads</p>
+            </div>
+          </div>
+
+          <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Complete Pricing Breakdown</h3>
+            <div className="grid md:grid-cols-2 gap-4">
+              <div className="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
+                <span className="font-semibold text-gray-700">Single Item Pickup</span>
+                <span className="text-xl font-bold text-blue-600">$175+</span>
+              </div>
+              <div className="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
+                <span className="font-semibold text-gray-700">1/4 Trailer Load</span>
+                <span className="text-xl font-bold text-blue-600">$249</span>
+              </div>
+              <div className="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
+                <span className="font-semibold text-gray-700">3/8 Trailer Load</span>
+                <span className="text-xl font-bold text-blue-600">$319</span>
+              </div>
+              <div className="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
+                <span className="font-semibold text-gray-700">1/2 Trailer Load</span>
+                <span className="text-xl font-bold text-blue-600">$349</span>
+              </div>
+              <div className="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
+                <span className="font-semibold text-gray-700">5/8 Trailer Load</span>
+                <span className="text-xl font-bold text-blue-600">$366</span>
+              </div>
+              <div className="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
+                <span className="font-semibold text-gray-700">3/4 Trailer Load</span>
+                <span className="text-xl font-bold text-blue-600">$429</span>
+              </div>
+              <div className="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
+                <span className="font-semibold text-gray-700">7/8 Trailer Load</span>
+                <span className="text-xl font-bold text-blue-600">$462</span>
+              </div>
+              <div className="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
+                <span className="font-semibold text-gray-700">Full Trailer Load</span>
+                <span className="text-xl font-bold text-blue-600">$495</span>
+              </div>
+            </div>
+            <p className="text-center text-gray-600 mt-6">
+              All prices include labor, hauling, eco-friendly disposal, and site cleanup. Urban locations may have additional fees for permits or building coordination.
+            </p>
+          </div>
+
+          <div className="text-center mt-8">
+            <p className="text-lg text-gray-700 mb-4">
+              <strong>Urban Core Special:</strong> Call now for 15% off your first <strong>Hillcrest junk removal</strong> service
+            </p>
+            <a
+              href="tel:6197500114"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors duration-200 inline-block"
+            >
+              📞 Call (619) 750-0114 for Free Quote
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <HillcrestFAQSection />
+
+      {/* Trust Signals Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
+            Why Hillcrest Trusts Severin Cleaners
+          </h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+            <div className="text-center">
+              <div className="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-4xl">🏙️</span>
+              </div>
+              <h3 className="text-xl font-bold mb-2 text-gray-900">Urban Core Specialists</h3>
+              <p className="text-gray-600">
+                Experts in navigating Hillcrest's narrow streets, limited parking, and high-rise buildings
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-4xl">🏛️</span>
+              </div>
+              <h3 className="text-xl font-bold mb-2 text-gray-900">Historic Property Experience</h3>
+              <p className="text-gray-600">
+                Skilled in working with vintage buildings and preserving architectural features
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="bg-orange-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-4xl">⚡</span>
+              </div>
+              <h3 className="text-xl font-bold mb-2 text-gray-900">Same-Day Service</h3>
+              <p className="text-gray-600">
+                Fast response times for urgent junk removal needs in Hillcrest and University Heights
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="bg-purple-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-4xl">✅</span>
+              </div>
+              <h3 className="text-xl font-bold mb-2 text-gray-900">Licensed & Insured</h3>
+              <p className="text-gray-600">
+                Fully licensed, insured, and professional service for all urban core properties
+              </p>
             </div>
           </div>
         </div>

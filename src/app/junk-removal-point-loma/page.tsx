@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PointLomaFAQSection from "./PointLomaFAQSection";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -220,59 +221,7 @@ export default function JunkremovalpointlomaPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions - Point Loma Junk Removal</h2>
-
-            <div className="space-y-8">
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Do you provide junk removal for military PCS moves in Point Loma?</h3>
-                <p className="text-gray-700">
-                  Yes, our <strong>Point Loma junk removal</strong> service specializes in military PCS moves and base housing transitions. We coordinate with Naval Base San Diego housing offices, work within tight PCS timelines, and provide special military discounts for active duty families. Our team understands base housing regulations and inspection requirements.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">How much does junk removal cost in Point Loma?</h3>
-                <p className="text-gray-700">
-                  Our <strong>junk hauling Point Loma</strong> pricing starts at $99 for small loads and varies based on volume and access requirements. We offer special military discounts for active duty families and competitive rates for coastal property cleanouts. All pricing includes labor, transportation, and eco-friendly disposal.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Do you handle coastal property cleanouts and storm debris?</h3>
-                <p className="text-gray-700">
-                  Absolutely. Our <strong>trash removal Point Loma</strong> service specializes in coastal property maintenance including storm debris cleanup, salt air corrosion disposal, and weather damage removal. We understand the unique challenges of Sunset Cliffs and oceanfront properties, providing environmentally responsible disposal methods.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Can you provide same-day junk hauling in Liberty Station or Sunset Cliffs?</h3>
-                <p className="text-gray-700">
-                  Yes, we offer same-day <strong>junk pickup Point Loma</strong> service throughout Liberty Station, Sunset Cliffs, and all Point Loma neighborhoods. Our local team can respond quickly for urgent military moves, storm cleanup, or emergency coastal property needs while maintaining our commitment to quality and environmental responsibility.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Are your junk removal services eco-friendly and HOA-compliant?</h3>
-                <p className="text-gray-700">
-                  Yes, our <strong>Point Loma San Diego junk removal</strong> prioritizes environmental responsibility and community compliance. We donate usable items, recycle materials, and follow HOA guidelines for Liberty Station and coastal communities. Our service protects Point Loma's beautiful environment while respecting community standards.
-                </p>
-              </div>
-            </div>
-
-            <div className="text-center mt-12">
-              <a
-                href="tel:6197500114"
-                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors duration-200 inline-block"
-              >
-                📞 Call Now for Same-Day Point Loma Service: (619) 750-0114
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      <PointLomaFAQSection />
 
       {/* Related Services */}
       <section className="py-12 bg-white">

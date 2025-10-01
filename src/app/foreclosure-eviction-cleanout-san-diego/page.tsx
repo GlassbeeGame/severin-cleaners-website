@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ForeclosureFAQSection from "./ForeclosureFAQSection";
 
 export const metadata: Metadata = {
   title: "Foreclosure & Eviction Cleanout Services San Diego - Fast & Discreet",
   description: "Professional foreclosure & eviction cleanout services in San Diego. Discreet, fast turnaround for banks, landlords & property managers. Call (619) 750-0114!",
-  keywords: "foreclosure cleanout San Diego, eviction cleanout services, REO property cleanup, tenant cleanout San Diego, property management cleanouts, bank foreclosure cleanup",
+  keywords: "foreclosure cleanout San Diego, eviction cleanout San Diego, foreclosure junk removal San Diego, eviction junk removal San Diego, property cleanout San Diego, REO property cleanup, tenant cleanout San Diego, property management cleanouts, bank foreclosure cleanup",
   openGraph: {
     title: "Foreclosure & Eviction Cleanout Services San Diego - Fast & Discreet",
     description: "Professional foreclosure & eviction cleanout services in San Diego. Discreet, fast turnaround for banks, landlords & property managers.",
@@ -33,7 +34,7 @@ export default function ForeclosureEvictionCleanoutPage() {
                 <span className="block text-blue-300 mt-2">Professional, Discreet, Compassionate</span>
               </h1>
               <p className="text-xl mb-8 leading-relaxed">
-                When you need sensitive property cleanouts handled with professionalism and discretion, Severin Cleaners provides fast, respectful foreclosure and eviction cleanout services throughout San Diego. We understand the challenges facing property managers, banks, landlords, and families during difficult transitions.
+                When you need sensitive property cleanout San Diego services handled with professionalism and discretion, Severin Cleaners provides fast, respectful foreclosure cleanout San Diego and eviction cleanout San Diego services throughout the county. We understand the challenges facing property managers, banks, landlords, and families during difficult transitions, offering reliable foreclosure junk removal San Diego and eviction junk removal San Diego solutions.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
@@ -61,7 +62,7 @@ export default function ForeclosureEvictionCleanoutPage() {
                 Discreet Cleanout Services You Can Trust
               </h2>
               <p className="text-xl text-gray-600 mb-12 text-center">
-                We understand that foreclosures and evictions are sensitive situations requiring the utmost professionalism and respect for all parties involved.
+                We understand that foreclosure cleanout San Diego and eviction cleanout San Diego projects are sensitive situations requiring the utmost professionalism and respect for all parties involved.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -107,7 +108,7 @@ export default function ForeclosureEvictionCleanoutPage() {
                 Fast Turnaround for Sensitive Timelines
               </h2>
               <p className="text-xl text-gray-600 mb-12 text-center">
-                We understand that foreclosure and eviction cleanouts often have strict deadlines. Our team is equipped to meet urgent court orders, bank requirements, and landlord timelines.
+                We understand that foreclosure junk removal San Diego and eviction junk removal San Diego projects often have strict deadlines. Our property cleanout San Diego team is equipped to meet urgent court orders, bank requirements, and landlord timelines with professional junk hauling services.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -209,7 +210,7 @@ export default function ForeclosureEvictionCleanoutPage() {
               <div className="mt-12 bg-yellow-50 p-8 rounded-xl">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">🤝 Established Partnerships</h3>
                 <p className="text-gray-700 text-center mb-6">
-                  We've built lasting relationships with San Diego's top property management companies by delivering consistent, professional service that meets tight deadlines and exceeds expectations.
+                  We&apos;ve built lasting relationships with San Diego&apos;s top property management companies by delivering consistent, professional service that meets tight deadlines and exceeds expectations.
                 </p>
                 <div className="text-center">
                   <a
@@ -232,7 +233,7 @@ export default function ForeclosureEvictionCleanoutPage() {
                 Experience with Banks & REO Properties
               </h2>
               <p className="text-xl text-gray-600 mb-12 text-center">
-                Our specialized experience with foreclosed and bank-owned (REO) properties ensures efficient cleanouts that meet lending institution requirements and prepare properties for resale.
+                Our specialized experience with foreclosed and bank-owned (REO) properties ensures efficient foreclosure cleanout San Diego services that meet lending institution requirements and prepare properties for resale through professional junk hauling and removal.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -286,8 +287,8 @@ export default function ForeclosureEvictionCleanoutPage() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                       </svg>
                       <div>
-                        <h4 className="font-semibold text-gray-900">Damage Assessment Support</h4>
-                        <p className="text-gray-600 text-sm">Clear debris to allow proper property inspections and damage evaluations</p>
+                        <h4 className="font-semibold text-gray-900">Clear Debris for Property Access</h4>
+                        <p className="text-gray-600 text-sm">Remove junk and debris to allow proper property inspections and evaluations</p>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
@@ -401,6 +402,64 @@ export default function ForeclosureEvictionCleanoutPage() {
           </div>
         </section>
 
+        {/* Pricing Section */}
+        <section className="py-16 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-4xl font-bold text-gray-900 mb-6 text-center">
+                Transparent Cleanout Pricing
+              </h2>
+              <p className="text-xl text-gray-600 mb-12 text-center">
+                Upfront pricing for foreclosure junk removal San Diego and eviction junk removal San Diego services. No hidden fees, no surprises.
+              </p>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="bg-gradient-to-br from-blue-500 to-blue-600 text-white p-6 rounded-xl shadow-lg">
+                  <h3 className="text-2xl font-bold mb-2">Single Item</h3>
+                  <p className="text-4xl font-bold mb-2">$175</p>
+                  <p className="text-sm opacity-90">Starting at</p>
+                  <p className="text-sm mt-4 opacity-90">Perfect for individual furniture or appliance removal</p>
+                </div>
+
+                <div className="bg-gradient-to-br from-green-500 to-green-600 text-white p-6 rounded-xl shadow-lg">
+                  <h3 className="text-2xl font-bold mb-2">1/4 Load</h3>
+                  <p className="text-4xl font-bold mb-2">$249</p>
+                  <p className="text-sm opacity-90">3 cubic yards</p>
+                  <p className="text-sm mt-4 opacity-90">Small room cleanouts or partial property clearing</p>
+                </div>
+
+                <div className="bg-gradient-to-br from-orange-500 to-orange-600 text-white p-6 rounded-xl shadow-lg">
+                  <h3 className="text-2xl font-bold mb-2">1/2 Load</h3>
+                  <p className="text-4xl font-bold mb-2">$349</p>
+                  <p className="text-sm opacity-90">6 cubic yards</p>
+                  <p className="text-sm mt-4 opacity-90">Standard eviction or foreclosure cleanouts</p>
+                </div>
+
+                <div className="bg-gradient-to-br from-purple-500 to-purple-600 text-white p-6 rounded-xl shadow-lg">
+                  <h3 className="text-2xl font-bold mb-2">Full Load</h3>
+                  <p className="text-4xl font-bold mb-2">$495</p>
+                  <p className="text-sm opacity-90">12 cubic yards</p>
+                  <p className="text-sm mt-4 opacity-90">Complete property cleanouts for banks and landlords</p>
+                </div>
+              </div>
+
+              <div className="mt-8 text-center">
+                <p className="text-gray-600 mb-4">Additional sizes available: 3/8 load ($319), 5/8 load ($366), 3/4 load ($429), 7/8 load ($462)</p>
+                <p className="text-sm text-gray-500">All prices include labor, hauling, disposal, and cleanup. Documentation provided when requested.</p>
+              </div>
+
+              <div className="mt-8 text-center">
+                <a
+                  href="tel:+16197500114"
+                  className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors inline-block"
+                >
+                  📞 Call (619) 750-0114 for Free Quote
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Process Section */}
         <section id="process" className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
@@ -409,7 +468,7 @@ export default function ForeclosureEvictionCleanoutPage() {
                 Our Foreclosure & Eviction Cleanout Process
               </h2>
               <p className="text-xl text-gray-600 mb-12 text-center">
-                We've streamlined our process to provide fast, efficient service while maintaining the highest standards of professionalism and discretion.
+                We&apos;ve streamlined our process to provide fast, efficient service while maintaining the highest standards of professionalism and discretion.
               </p>
 
               <div className="space-y-8">
@@ -425,7 +484,7 @@ export default function ForeclosureEvictionCleanoutPage() {
                   <div className="flex-shrink-0 w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-xl">2</div>
                   <div>
                     <h3 className="text-2xl font-bold text-gray-900 mb-2">Flexible Scheduling & Coordination</h3>
-                    <p className="text-gray-600">We work around your timeline, whether it's same-day emergency service, next-day scheduling, or planned cleanouts. Coordination with property managers, banks, and legal teams as needed.</p>
+                    <p className="text-gray-600">We work around your timeline, whether it&apos;s same-day emergency service, next-day scheduling, or planned cleanouts. Coordination with property managers, banks, and legal teams as needed.</p>
                   </div>
                 </div>
 
@@ -534,7 +593,7 @@ export default function ForeclosureEvictionCleanoutPage() {
                 Foreclosure & Eviction Cleanout Service Areas
               </h2>
               <p className="text-xl text-gray-600 mb-8 text-center">
-                We provide professional foreclosure and eviction cleanout services throughout San Diego County, serving property managers, banks, landlords, and families across all neighborhoods.
+                We provide professional foreclosure cleanout San Diego and eviction cleanout San Diego services throughout San Diego County, serving property managers, banks, landlords, and families across all neighborhoods with reliable foreclosure junk removal San Diego and eviction junk removal San Diego solutions.
               </p>
 
               <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-center">
@@ -553,48 +612,56 @@ export default function ForeclosureEvictionCleanoutPage() {
         </section>
 
         {/* FAQ Section */}
-        <section className="py-16 bg-white">
+        <ForeclosureFAQSection />
+
+        {/* Trust Signals Section */}
+        <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
+            <div className="max-w-5xl mx-auto">
               <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-                Frequently Asked Questions
+                Trusted Foreclosure & Eviction Cleanout Specialists
               </h2>
 
-              <div className="space-y-8">
-                <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">
-                    How quickly can you clear a foreclosure or eviction property?
-                  </h3>
-                  <p className="text-gray-600">
-                    We offer same-day service for urgent situations and can typically complete most residential cleanouts within 24-48 hours. For larger properties or complex situations, we provide detailed timelines during our initial consultation to ensure all deadlines are met.
-                  </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="text-center">
+                  <div className="w-20 h-20 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">200+</h3>
+                  <p className="text-gray-600 font-semibold">Cleanout & Hauling Projects Completed</p>
                 </div>
 
-                <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">
-                    Can you handle large or multi-unit properties?
-                  </h3>
-                  <p className="text-gray-600">
-                    Yes, we have the equipment and crew capacity to handle everything from single-family homes to large apartment complexes and commercial properties. We scale our team size and resources based on the scope of each project to ensure efficient completion.
-                  </p>
+                <div className="text-center">
+                  <div className="w-20 h-20 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Licensed</h3>
+                  <p className="text-gray-600 font-semibold">& Insured</p>
                 </div>
 
-                <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">
-                    Is your foreclosure cleanout service discreet?
-                  </h3>
-                  <p className="text-gray-600">
-                    Absolutely. Our teams work with the utmost professionalism and respect for all parties involved. We can provide unmarked vehicles when requested and ensure all work is conducted discreetly to maintain neighborhood relations and protect privacy.
-                  </p>
+                <div className="text-center">
+                  <div className="w-20 h-20 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Same-Day</h3>
+                  <p className="text-gray-600 font-semibold">Service Available</p>
                 </div>
 
-                <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">
-                    Do you provide documentation for banks and landlords?
-                  </h3>
-                  <p className="text-gray-600">
-                    Yes, we provide comprehensive documentation including detailed invoices, before and after photos, itemized removal lists, and disposal certificates. We understand the documentation requirements of financial institutions and property management companies and ensure all paperwork meets their standards.
-                  </p>
+                <div className="text-center">
+                  <div className="w-20 h-20 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Serving All</h3>
+                  <p className="text-gray-600 font-semibold">San Diego</p>
                 </div>
               </div>
             </div>
@@ -608,7 +675,7 @@ export default function ForeclosureEvictionCleanoutPage() {
               Call Today for San Diego Foreclosure & Eviction Cleanouts
             </h2>
             <p className="text-xl mb-8 max-w-4xl mx-auto">
-              When you need professional, discreet foreclosure and eviction cleanout services in San Diego, trust our experienced team to handle the job with compassion and efficiency. Fast turnaround, transparent pricing, and complete discretion guaranteed.
+              When you need professional, discreet foreclosure cleanout San Diego and eviction cleanout San Diego services, trust our experienced team to handle the job with compassion and efficiency. Fast turnaround on all property cleanout San Diego projects, transparent pricing for foreclosure junk removal San Diego and eviction junk removal San Diego, and complete discretion guaranteed.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <a

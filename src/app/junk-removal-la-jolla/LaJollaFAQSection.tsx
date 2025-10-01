@@ -39,8 +39,18 @@ export default function LaJollaFAQSection() {
               </button>
               {openFAQ === 0 && (
                 <div className="px-6 py-4 bg-white">
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    <strong>Single Item Pickup:</strong> Starting at $175<br />
+                    <strong>1/4 Trailer Load:</strong> $249<br />
+                    <strong>3/8 Trailer Load:</strong> $319<br />
+                    <strong>1/2 Trailer Load:</strong> $349<br />
+                    <strong>5/8 Trailer Load:</strong> $366<br />
+                    <strong>3/4 Trailer Load:</strong> $429<br />
+                    <strong>7/8 Trailer Load:</strong> $462<br />
+                    <strong>Full Trailer Load:</strong> $495
+                  </p>
                   <p className="text-gray-700 leading-relaxed">
-                    Our <strong>La Jolla junk removal</strong> pricing reflects the premium service standards expected in this exclusive community. Rates start at $150 for small luxury items and vary based on volume, item value, and special handling requirements. We provide transparent upfront pricing for estate cleanouts, typically ranging from $500-$5,000+ depending on property size and item complexity. High-value items receive specialized appraisal coordination.
+                    Our <strong>La Jolla junk removal</strong> pricing includes professional labor, discreet hauling, eco-friendly disposal, and white-glove service standards. Luxury estate cleanouts and high-value item handling may require specialized coordination with auction houses or appraisers for additional services.
                   </p>
                 </div>
               )}
@@ -118,7 +128,7 @@ export default function LaJollaFAQSection() {
               {openFAQ === 3 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed">
-                    Our comprehensive <strong>estate cleanout La Jolla</strong> service specializes in multi-million dollar properties and complex family estates. We provide complete trust property management, probate support, and coordination with estate attorneys and financial advisors. Our services include professional appraisal coordination, luxury item authentication, and secure handling of valuable collections, art, and heirloom pieces.
+                    Yes, our comprehensive <strong>estate cleanout La Jolla</strong> service specializes in multi-million dollar properties and complex family estates. We can help with the complete disposal of estate junk, from everyday items to specialized materials requiring proper handling. Our team provides probate support, coordination with estate attorneys, and professional appraisal referrals for valuable items. We handle luxury item authentication, secure transportation of high-value pieces, and work directly with auction houses for valuable collections, art, and heirloom furniture.
                   </p>
                 </div>
               )}
@@ -144,7 +154,7 @@ export default function LaJollaFAQSection() {
               {openFAQ === 4 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed">
-                    Our <strong>trash removal La Jolla</strong> service maintains the highest environmental standards befitting this pristine coastal community. We partner with luxury consignment houses, donate to prestigious local charities, and utilize specialized recycling for high-end materials. For La Jolla's environmentally conscious residents, we offer carbon-neutral transport options and comprehensive sustainability reporting for estate cleanouts.
+                    Our <strong>trash removal La Jolla</strong> service strictly adheres to San Diego County waste management regulations, California Environmental Protection Agency (CalEPA) guidelines, and City of San Diego disposal ordinances. We ensure proper handling of your waste in full compliance with local hazardous materials laws, coastal zone protection requirements, and environmental quality standards. We partner with certified San Diego disposal facilities, donate to local charities, utilize specialized recycling centers, and maintain comprehensive documentation for all estate cleanouts. For La Jolla's environmentally conscious residents, we offer carbon-neutral transport options and sustainability reporting that exceeds California's environmental compliance standards.
                   </p>
                 </div>
               )}

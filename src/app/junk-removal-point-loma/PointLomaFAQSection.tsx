@@ -65,8 +65,18 @@ export default function PointLomaFAQSection() {
               </button>
               {openFAQ === 1 && (
                 <div className="px-6 py-4 bg-white">
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    <strong>Single Item Pickup:</strong> Starting at $175<br />
+                    <strong>1/4 Trailer Load:</strong> $249<br />
+                    <strong>3/8 Trailer Load:</strong> $319<br />
+                    <strong>1/2 Trailer Load:</strong> $349<br />
+                    <strong>5/8 Trailer Load:</strong> $366<br />
+                    <strong>3/4 Trailer Load:</strong> $429<br />
+                    <strong>7/8 Trailer Load:</strong> $462<br />
+                    <strong>Full Trailer Load:</strong> $495
+                  </p>
                   <p className="text-gray-700 leading-relaxed">
-                    Our <strong>junk hauling Point Loma</strong> pricing starts at $99 for small loads and varies based on volume and access requirements. We offer special military discounts for active duty families and competitive rates for coastal property cleanouts. All pricing includes labor, transportation, and eco-friendly disposal.
+                    Our <strong>junk hauling Point Loma</strong> pricing includes labor, hauling, eco-friendly disposal, and cleanup. We offer special military discounts for active duty families and competitive rates for coastal property cleanouts.
                   </p>
                 </div>
               )}
@@ -165,13 +175,13 @@ export default function PointLomaFAQSection() {
               href="tel:+16197500114"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition-colors"
             >
-              📞 Call (619) 750-0114 – Military & Coastal Service
+              📞 Call (619) 750-0114
             </a>
             <a
-              href="#contact"
+              href="mailto:severincleaners@gmail.com"
               className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-colors"
             >
-              Get Free Point Loma Quote
+              Get Point Loma Quote
             </a>
           </div>
         </div>

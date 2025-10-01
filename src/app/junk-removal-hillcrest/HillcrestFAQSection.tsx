@@ -13,8 +13,8 @@ export default function HillcrestFAQSection() {
             Frequently Asked Questions - Hillcrest Junk Removal
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Get answers to common questions about our professional <strong>Hillcrest junk removal</strong> services,
-            urban property support, high-rise access, and historic building expertise.
+            Get answers to common questions about our <strong>Hillcrest junk removal</strong> services,
+            urban core expertise, and historic property experience.
           </p>
         </div>
 
@@ -39,8 +39,18 @@ export default function HillcrestFAQSection() {
               </button>
               {openFAQ === 0 && (
                 <div className="px-6 py-4 bg-white">
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    <strong>Single Item Pickup:</strong> Starting at $175<br />
+                    <strong>1/4 Trailer Load:</strong> $249<br />
+                    <strong>3/8 Trailer Load:</strong> $319<br />
+                    <strong>1/2 Trailer Load:</strong> $349<br />
+                    <strong>5/8 Trailer Load:</strong> $366<br />
+                    <strong>3/4 Trailer Load:</strong> $429<br />
+                    <strong>7/8 Trailer Load:</strong> $462<br />
+                    <strong>Full Trailer Load:</strong> $495
+                  </p>
                   <p className="text-gray-700 leading-relaxed">
-                    Our <strong>Hillcrest junk removal</strong> pricing starts at $99 for small loads and varies based on volume and access challenges. We provide upfront pricing with no hidden fees, considering factors like elevator access, parking restrictions, and historic property requirements. Urban locations may have additional coordination fees for permits or building management.
+                    Our <strong>Hillcrest junk removal</strong> pricing includes labor, hauling, proper disposal, and cleanup. Urban locations may have additional coordination fees for permits, elevator scheduling, or building management requirements.
                   </p>
                 </div>
               )}
@@ -157,21 +167,21 @@ export default function HillcrestFAQSection() {
             Still Have Questions About Hillcrest Service?
           </h3>
           <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
-            Our urban specialists are ready to answer any questions about our <strong>Hillcrest junk removal</strong>
-            services, coordinate building access, or schedule same-day service for your property.
+            Our urban core specialists are ready to answer any questions about our <strong>Hillcrest junk removal</strong>
+            services, provide immediate quotes, or coordinate building access for same-day service.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:+16197500114"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition-colors"
             >
-              📞 Call (619) 750-0114 – Urban Specialists
+              📞 Call (619) 750-0114
             </a>
             <a
-              href="#contact"
+              href="mailto:severincleaners@gmail.com"
               className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-colors"
             >
-              Get Free Hillcrest Quote
+              Get Hillcrest Quote
             </a>
           </div>
         </div>

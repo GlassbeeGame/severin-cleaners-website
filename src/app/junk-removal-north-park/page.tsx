@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import NorthParkFAQSection from "./NorthParkFAQSection";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -196,59 +197,7 @@ export default function JunkremovalnorthparkPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions - North Park Junk Removal</h2>
-
-            <div className="space-y-8">
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Do you provide junk removal for apartments and condos in North Park?</h3>
-                <p className="text-gray-700">
-                  Yes, our <strong>North Park junk removal</strong> service specializes in apartment and condo cleanouts throughout the arts district. We understand the unique challenges of urban living, including limited parking, narrow hallways, and building access requirements. Our team coordinates with property management and respects community living standards.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">What eco-friendly practices do you use for junk disposal?</h3>
-                <p className="text-gray-700">
-                  Our <strong>junk hauling North Park</strong> prioritizes environmental responsibility through donations to local charities, art supply redistribution to schools and community programs, and zero-landfill commitment for reusable materials. We support North Park's sustainability values by recycling electronics, repurposing creative materials, and protecting the Balboa Park environment.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Can you help small businesses and artists with studio cleanouts?</h3>
-                <p className="text-gray-700">
-                  Absolutely. Our <strong>junk pickup North Park</strong> service supports the creative community with specialized studio cleanouts, gallery preparation, and small business waste removal. We understand the value of artistic materials and work with local artists to redistribute supplies to community programs and emerging artists.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Do you offer same-day service for North Park residents?</h3>
-                <p className="text-gray-700">
-                  Yes, we provide same-day <strong>trash removal North Park</strong> for urgent needs throughout the University Avenue and 30th Street corridors. Our local team can respond quickly for apartment moves, studio transitions, or emergency cleanouts while maintaining our commitment to community standards and environmental responsibility.
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">How much does junk removal cost in the North Park arts district?</h3>
-                <p className="text-gray-700">
-                  Our <strong>North Park San Diego junk removal</strong> pricing starts at $99 for small loads and varies based on volume and access requirements. We offer special rates for artists, students, and small businesses, plus volume discounts for larger creative studio cleanouts. Call for your free arts district estimate today.
-                </p>
-              </div>
-            </div>
-
-            <div className="text-center mt-12">
-              <a
-                href="tel:6197500114"
-                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors duration-200 inline-block"
-              >
-                📞 Call Now for Same-Day North Park Service: (619) 750-0114
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      <NorthParkFAQSection />
 
       {/* Related Services */}
       <section className="py-12 bg-white">

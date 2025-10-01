@@ -50,7 +50,7 @@ export default function ServicesPage() {
       link: "/hoarding-cleanup-san-diego",
       description: "Sensitive hoarding cleanup with professional organizing and mental health awareness.",
       icon: "🧹",
-      features: ["Compassionate Service", "Professional Organizing", "Biohazard Handling", "Ongoing Support"]
+      features: ["Compassionate Service", "Professional Organizing", "Hoard Junk Handling", "Ongoing Support"]
     },
     {
       title: "Hot Tub Removal",

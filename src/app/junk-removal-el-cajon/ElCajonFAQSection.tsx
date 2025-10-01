@@ -13,8 +13,8 @@ export default function ElCajonFAQSection() {
             Frequently Asked Questions - El Cajon Junk Removal
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Get answers to common questions about our professional <strong>El Cajon junk removal</strong> services,
-            East County coverage, family property support, and multi-generational household assistance.
+            Get answers to common questions about our professional El Cajon junk removal services,
+            East County coverage, family property specialists, and multi-generational home support.
           </p>
         </div>
 
@@ -39,8 +39,47 @@ export default function ElCajonFAQSection() {
               </button>
               {openFAQ === 0 && (
                 <div className="px-6 py-4 bg-white">
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    Our El Cajon junk removal pricing is transparent and volume-based with no hidden fees. We offer comprehensive service to all Fletcher Hills, Rancho San Diego, Granite Hills, and East County neighborhoods with family-focused service:
+                  </p>
+                  <div className="bg-gray-50 p-4 rounded-lg mb-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
+                      <div className="flex justify-between">
+                        <span className="font-semibold">Single Item Pickup:</span>
+                        <span className="text-blue-600 font-bold">Starting at $175</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span className="font-semibold">1/4 Trailer Load:</span>
+                        <span className="text-green-600 font-bold">$249</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span className="font-semibold">3/8 Trailer Load:</span>
+                        <span className="text-green-600 font-bold">$319</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span className="font-semibold">1/2 Trailer Load:</span>
+                        <span className="text-orange-600 font-bold">$349</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span className="font-semibold">5/8 Trailer Load:</span>
+                        <span className="text-orange-600 font-bold">$366</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span className="font-semibold">3/4 Trailer Load:</span>
+                        <span className="text-purple-600 font-bold">$429</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span className="font-semibold">7/8 Trailer Load:</span>
+                        <span className="text-purple-600 font-bold">$462</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span className="font-semibold">Full Trailer Load:</span>
+                        <span className="text-purple-600 font-bold">$495</span>
+                      </div>
+                    </div>
+                  </div>
                   <p className="text-gray-700 leading-relaxed">
-                    Our <strong>El Cajon junk removal</strong> pricing starts at $99 for small loads and varies based on volume and items. We provide upfront pricing with no hidden fees, volume discounts for large family properties, and special rates for multi-generational household cleanouts. Call for your free East County estimate today.
+                    All prices include labor, hauling, disposal fees, and eco-friendly recycling. Volume discounts available for large East County family properties and multi-generational homes. Call for your free estimate today.
                   </p>
                 </div>
               )}
@@ -66,7 +105,7 @@ export default function ElCajonFAQSection() {
               {openFAQ === 1 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, we offer same-day <strong>junk hauling El Cajon</strong> service for urgent needs throughout East County. Whether you're in Fletcher Hills, Rancho San Diego, or Granite Hills, our team can respond quickly for emergency cleanouts, family situations, or time-sensitive property needs.
+                    Yes, we offer same-day junk hauling El Cajon service for urgent needs throughout East County. Whether you're in Fletcher Hills, Rancho San Diego, Granite Hills, Crest, or Downtown El Cajon, our family-owned team can respond quickly for emergency cleanouts, estate situations, and time-sensitive property needs. Same-day availability depends on scheduling and crew availability.
                   </p>
                 </div>
               )}
@@ -92,7 +131,7 @@ export default function ElCajonFAQSection() {
               {openFAQ === 2 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed">
-                    Our <strong>East County junk removal</strong> covers all El Cajon neighborhoods including Fletcher Hills, Rancho San Diego, Granite Hills, Bostonia, Crest, Mount Helix, Casa de Oro, Jamacha-Lomita, and central El Cajon. We also serve surrounding areas like Spring Valley and parts of La Mesa.
+                    Our East County junk removal covers all El Cajon neighborhoods including Fletcher Hills, Rancho San Diego, Granite Hills, Bostonia, Crest, Mount Helix, Downtown El Cajon, Jamacha-Lomita, Casa de Oro, and the Fletcher Parkway corridor. We serve from Parkway Plaza to the mountain communities, including hillside properties, master-planned communities, and established family neighborhoods throughout East County.
                   </p>
                 </div>
               )}
@@ -118,7 +157,7 @@ export default function ElCajonFAQSection() {
               {openFAQ === 3 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed">
-                    Absolutely. Our <strong>junk pickup El Cajon</strong> service specializes in large family properties and multi-generational households common in East County. We understand the unique needs of family cleanouts, inherited properties, and estate transitions, providing respectful service that preserves important family memories.
+                    Absolutely. Our junk pickup El Cajon service specializes in large family properties and multi-generational households common throughout East County. As a family-owned business, we understand the unique needs of family cleanouts, inherited properties, and estate transitions. We provide respectful, compassionate service that preserves important family memories while handling extensive property cleanouts with care and professionalism.
                   </p>
                 </div>
               )}
@@ -129,7 +168,7 @@ export default function ElCajonFAQSection() {
                 className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
                 onClick={() => setOpenFAQ(openFAQ === 4 ? null : 4)}
               >
-                <h3 className="font-bold text-gray-900 text-lg">Do you offer eco-friendly junk disposal in El Cajon?</h3>
+                <h3 className="font-bold text-gray-900 text-lg">Do you serve Fletcher Hills and Rancho San Diego?</h3>
                 <svg
                   className={`w-5 h-5 text-gray-500 transition-transform ${
                     openFAQ === 4 ? 'rotate-180' : ''
@@ -144,7 +183,7 @@ export default function ElCajonFAQSection() {
               {openFAQ === 4 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, our <strong>trash removal El Cajon</strong> service prioritizes eco-friendly disposal methods. We donate usable items to local East County charities, recycle materials whenever possible, and ensure proper disposal of electronics and hazardous materials. We're committed to protecting our East County environment.
+                    Yes, we provide comprehensive trash removal El Cajon service throughout Fletcher Hills and Rancho San Diego. We specialize in these premier East County neighborhoods, understanding their unique characteristics - from Fletcher Hills' established hillside properties and luxury estates to Rancho San Diego's master-planned communities and HOA requirements. Our team delivers professional service that respects community standards and family values in both areas.
                   </p>
                 </div>
               )}
@@ -157,21 +196,21 @@ export default function ElCajonFAQSection() {
             Still Have Questions About El Cajon Service?
           </h3>
           <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
-            Our East County specialists are ready to answer any questions about our <strong>El Cajon junk removal</strong>
-            services, provide free estimates, or schedule same-day service for your family property.
+            Our family-owned team is ready to answer any questions about our East County junk removal
+            services, provide free estimates, or schedule same-day service for your El Cajon property.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:+16197500114"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition-colors"
             >
-              📞 Call (619) 750-0114 – East County Service
+              📞 Call (619) 750-0114 - East County Service
             </a>
             <a
               href="#contact"
-              className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-colors"
+              className="bg-orange-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-orange-700 transition-colors"
             >
-              Get Free El Cajon Quote
+              Get Your Free El Cajon Quote
             </a>
           </div>
         </div>

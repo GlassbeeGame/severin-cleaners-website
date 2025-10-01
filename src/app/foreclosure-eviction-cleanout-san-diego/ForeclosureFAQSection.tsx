@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-export default function ChulaVistaFAQSection() {
+export default function ForeclosureFAQSection() {
   const [openFAQ, setOpenFAQ] = useState<number | null>(null);
 
   return (
@@ -10,11 +10,10 @@ export default function ChulaVistaFAQSection() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Frequently Asked Questions - Chula Vista Junk Removal
+            Frequently Asked Questions
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Get answers to common questions about our professional <strong>Chula Vista junk removal</strong> services,
-            bilingual support, HOA compliance, and South Bay area coverage.
+            Get answers to common questions about our professional foreclosure cleanout San Diego and eviction cleanout San Diego services.
           </p>
         </div>
 
@@ -25,7 +24,7 @@ export default function ChulaVistaFAQSection() {
                 className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
                 onClick={() => setOpenFAQ(openFAQ === 0 ? null : 0)}
               >
-                <h3 className="font-bold text-gray-900 text-lg">How much does junk removal cost in Chula Vista?</h3>
+                <h3 className="font-bold text-gray-900 text-lg">What are your foreclosure and eviction cleanout prices?</h3>
                 <svg
                   className={`w-5 h-5 text-gray-500 transition-transform ${
                     openFAQ === 0 ? 'rotate-180' : ''
@@ -40,46 +39,20 @@ export default function ChulaVistaFAQSection() {
               {openFAQ === 0 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed mb-4">
-                    Our <strong>Chula Vista junk removal</strong> pricing is transparent and volume-based with no hidden fees. We offer comprehensive service to all Eastlake, Otay Ranch, and South Bay neighborhoods with HOA-compliant service:
+                    Our foreclosure junk removal San Diego and eviction junk removal San Diego pricing is based on volume:
                   </p>
-                  <div className="bg-gray-50 p-4 rounded-lg mb-4">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
-                      <div className="flex justify-between">
-                        <span className="font-semibold">Single Item Pickup:</span>
-                        <span className="text-blue-600 font-bold">Starting at $175</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="font-semibold">1/4 Trailer Load:</span>
-                        <span className="text-green-600 font-bold">$249</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="font-semibold">3/8 Trailer Load:</span>
-                        <span className="text-green-600 font-bold">$319</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="font-semibold">1/2 Trailer Load:</span>
-                        <span className="text-orange-600 font-bold">$349</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="font-semibold">5/8 Trailer Load:</span>
-                        <span className="text-orange-600 font-bold">$366</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="font-semibold">3/4 Trailer Load:</span>
-                        <span className="text-purple-600 font-bold">$429</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="font-semibold">7/8 Trailer Load:</span>
-                        <span className="text-purple-600 font-bold">$462</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="font-semibold">Full Trailer Load:</span>
-                        <span className="text-purple-600 font-bold">$495</span>
-                      </div>
-                    </div>
-                  </div>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    <strong>Single Item Pickup:</strong> Starting at $175<br />
+                    <strong>1/4 Trailer Load:</strong> $249 (3 cubic yards)<br />
+                    <strong>3/8 Trailer Load:</strong> $319<br />
+                    <strong>1/2 Trailer Load:</strong> $349 (6 cubic yards)<br />
+                    <strong>5/8 Trailer Load:</strong> $366<br />
+                    <strong>3/4 Trailer Load:</strong> $429<br />
+                    <strong>7/8 Trailer Load:</strong> $462<br />
+                    <strong>Full Trailer Load:</strong> $495 (12 cubic yards)
+                  </p>
                   <p className="text-gray-700 leading-relaxed">
-                    All prices include labor, hauling, disposal fees, and eco-friendly recycling. Volume discounts available for large Chula Vista cleanouts. Call for your free estimate today.
+                    All prices include labor, hauling, proper disposal, and cleanup. We provide detailed documentation for banks and property managers when requested.
                   </p>
                 </div>
               )}
@@ -90,7 +63,7 @@ export default function ChulaVistaFAQSection() {
                 className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
                 onClick={() => setOpenFAQ(openFAQ === 1 ? null : 1)}
               >
-                <h3 className="font-bold text-gray-900 text-lg">Do you offer bilingual junk removal service in Chula Vista?</h3>
+                <h3 className="font-bold text-gray-900 text-lg">How quickly can you clear a foreclosure or eviction property?</h3>
                 <svg
                   className={`w-5 h-5 text-gray-500 transition-transform ${
                     openFAQ === 1 ? 'rotate-180' : ''
@@ -105,7 +78,7 @@ export default function ChulaVistaFAQSection() {
               {openFAQ === 1 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed">
-                    Sí, ofrecemos servicio completamente bilingüe. Our <strong>junk hauling Chula Vista</strong> team includes Spanish-speaking crew members who can communicate effectively with all residents. We provide estimates, scheduling, and service in both English and Spanish to serve our diverse South Bay community.
+                    We offer same-day service for urgent property cleanout San Diego situations and typically complete most residential cleanouts within 24-48 hours. Our team works efficiently to meet tight deadlines for banks, landlords, and property managers.
                   </p>
                 </div>
               )}
@@ -116,7 +89,7 @@ export default function ChulaVistaFAQSection() {
                 className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
                 onClick={() => setOpenFAQ(openFAQ === 2 ? null : 2)}
               >
-                <h3 className="font-bold text-gray-900 text-lg">Can you provide same-day junk removal in Eastlake or Otay Ranch?</h3>
+                <h3 className="font-bold text-gray-900 text-lg">Can you handle large or multi-unit properties?</h3>
                 <svg
                   className={`w-5 h-5 text-gray-500 transition-transform ${
                     openFAQ === 2 ? 'rotate-180' : ''
@@ -131,7 +104,7 @@ export default function ChulaVistaFAQSection() {
               {openFAQ === 2 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, we offer same-day <strong>junk pickup Chula Vista</strong> service for urgent needs in Eastlake, Otay Ranch, and throughout South Bay. Our team understands HOA requirements and can coordinate emergency cleanouts while maintaining community standards. Same-day availability depends on scheduling and crew availability.
+                    Yes, we have the crew capacity and equipment to handle everything from single-family homes to large apartment complexes and commercial properties. We scale our team size based on project scope for efficient completion.
                   </p>
                 </div>
               )}
@@ -142,7 +115,7 @@ export default function ChulaVistaFAQSection() {
                 className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
                 onClick={() => setOpenFAQ(openFAQ === 3 ? null : 3)}
               >
-                <h3 className="font-bold text-gray-900 text-lg">Are your junk removal services HOA-compliant?</h3>
+                <h3 className="font-bold text-gray-900 text-lg">Is your foreclosure cleanout service discreet?</h3>
                 <svg
                   className={`w-5 h-5 text-gray-500 transition-transform ${
                     openFAQ === 3 ? 'rotate-180' : ''
@@ -157,7 +130,7 @@ export default function ChulaVistaFAQSection() {
               {openFAQ === 3 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed">
-                    Absolutely. Our <strong>trash removal Chula Vista</strong> service is fully HOA-compliant for all neighborhoods including Eastlake, Otay Ranch, and Rolling Hills Ranch. We coordinate with property management, schedule during approved hours, maintain professional appearance, and provide documentation when required by HOA boards.
+                    Absolutely. Our teams work with professionalism and respect for all parties involved. We provide unmarked vehicles when requested and ensure all junk hauling work is conducted discreetly to maintain neighborhood relations.
                   </p>
                 </div>
               )}
@@ -168,7 +141,7 @@ export default function ChulaVistaFAQSection() {
                 className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
                 onClick={() => setOpenFAQ(openFAQ === 4 ? null : 4)}
               >
-                <h3 className="font-bold text-gray-900 text-lg">What areas of South Bay do you serve?</h3>
+                <h3 className="font-bold text-gray-900 text-lg">Do you provide documentation for banks and landlords?</h3>
                 <svg
                   className={`w-5 h-5 text-gray-500 transition-transform ${
                     openFAQ === 4 ? 'rotate-180' : ''
@@ -183,7 +156,7 @@ export default function ChulaVistaFAQSection() {
               {openFAQ === 4 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed">
-                    Our <strong>South Bay junk removal</strong> covers all Chula Vista neighborhoods, plus National City, Bonita, Imperial Beach, and San Ysidro. We serve from the bayfront to the hills, including all master-planned communities, established neighborhoods, commercial districts, and border region properties throughout South Bay.
+                    Yes, we provide comprehensive documentation including detailed invoices, before and after photos, itemized removal lists, and disposal certificates. We understand financial institution requirements and ensure all paperwork meets their standards.
                   </p>
                 </div>
               )}
@@ -193,24 +166,23 @@ export default function ChulaVistaFAQSection() {
 
         <div className="bg-blue-50 rounded-xl p-8 mt-12 text-center">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">
-            Still Have Questions About Chula Vista Service?
+            Still Have Questions About Foreclosure or Eviction Cleanouts?
           </h3>
           <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
-            Our bilingual team is ready to answer any questions about our <strong>Chula Vista junk removal</strong>
-            services, provide free estimates, or schedule same-day service in English or Spanish.
+            Our experienced team is ready to answer any questions about our foreclosure cleanout San Diego and eviction cleanout services, provide detailed quotes, or schedule your urgent cleanout.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:+16197500114"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition-colors"
             >
-              📞 Call (619) 750-0114 – English Service
+              Call (619) 750-0114 - Fast Response
             </a>
             <a
-              href="tel:+16197500114"
-              className="bg-green-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-700 transition-colors"
+              href="#contact"
+              className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-colors"
             >
-              📞 Llame (619) 750-0114 – Servicio en Español
+              Get Free Quote
             </a>
           </div>
         </div>
