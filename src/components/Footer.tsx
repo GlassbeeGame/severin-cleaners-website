@@ -61,34 +61,44 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4 text-blue-500">Our Services</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#services" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
+                <Link href="/san-diego-junk-removal" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
                   Junk Removal
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#services" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
-                  Estate Cleanouts
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
+                <Link href="/furniture-removal-san-diego" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
                   Furniture Removal
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#services" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
+                <Link href="/appliance-removal-san-diego" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
+                  Appliance Removal
+                </Link>
+              </li>
+              <li>
+                <Link href="/estate-cleanout-san-diego" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
+                  Estate Cleanouts
+                </Link>
+              </li>
+              <li>
+                <Link href="/commercial-junk-removal-san-diego" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
+                  Commercial Junk Removal
+                </Link>
+              </li>
+              <li>
+                <Link href="/construction-debris-removal-san-diego" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
                   Construction Debris
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#services" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
-                  Pressure Washing
-                </a>
+                <Link href="/hoarding-cleanup-san-diego" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
+                  Hoarding Cleanup
+                </Link>
               </li>
               <li>
-                <a href="#services" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
-                  Car Detailing
-                </a>
+                <Link href="/hot-tub-removal-san-diego" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
+                  Hot Tub Removal
+                </Link>
               </li>
             </ul>
           </div>
@@ -98,24 +108,34 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4 text-blue-500">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#about" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
+                <Link href="/" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link href="/about" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#testimonials" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
-                  Reviews
-                </a>
+                <Link href="/services" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
+                  Services
+                </Link>
               </li>
               <li>
-                <a href="#contact" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
+                <Link href="/areas-we-serve" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
+                  Areas We Serve
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
                   Contact
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#contact" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
-                  Free Quote
-                </a>
+                <Link href="/junk-removal-cost-san-diego" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
+                  Pricing
+                </Link>
               </li>
             </ul>
           </div>
@@ -124,14 +144,16 @@ export default function Footer() {
         {/* Service Areas */}
         <div className="mt-12 pt-8 border-t border-gray-700">
           <h3 className="text-lg font-semibold mb-4 text-center text-blue-500">Service Areas</h3>
-          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3 text-sm text-white/80">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 text-sm text-white/80">
             {[
               { name: 'San Diego', link: '/san-diego-junk-removal' },
               { name: 'Carmel Valley', link: '/junk-removal-carmel-valley' },
               { name: 'Chula Vista', link: '/junk-removal-chula-vista' },
+              { name: 'Clairemont', link: '/junk-removal-clairemont' },
               { name: 'Del Mar', link: '/junk-removal-del-mar' },
               { name: 'El Cajon', link: '/junk-removal-el-cajon' },
               { name: 'Hillcrest', link: '/junk-removal-hillcrest' },
+              { name: 'Kearny Mesa', link: '/junk-removal-kearny-mesa' },
               { name: 'La Jolla', link: '/junk-removal-la-jolla' },
               { name: 'La Mesa', link: '/junk-removal-la-mesa' },
               { name: 'Lakeside', link: '/junk-removal-lakeside' },
@@ -146,13 +168,13 @@ export default function Footer() {
               { name: 'Spring Valley', link: '/junk-removal-spring-valley' },
               { name: 'Vista', link: '/junk-removal-vista' }
             ].map((area, index) => (
-              <a
+              <Link
                 key={index}
                 href={area.link}
                 className="text-center hover:text-blue-400 transition-colors duration-200 block"
               >
                 {area.name}
-              </a>
+              </Link>
             ))}
           </div>
         </div>

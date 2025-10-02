@@ -62,7 +62,7 @@ export default function AboutPage() {
                 <div className="order-1 md:order-2">
                   <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                     <img
-                      src="/Webphotos/about.jpg"
+                      src="/Webphotos/dtsd.jpg"
                       alt="Severin Cleaners Professional Junk Removal Team"
                       className="w-full h-auto object-cover"
                     />
