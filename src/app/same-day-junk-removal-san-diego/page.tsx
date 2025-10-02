@@ -193,7 +193,7 @@ export default function SameDayJunkRemovalPage() {
         </section>
 
         {/* Content Section */}
-        <section className="py-16 bg-gray-50">
+        <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-bold mb-8 text-gray-900">
@@ -250,20 +250,6 @@ export default function SameDayJunkRemovalPage() {
                   Whether it's furniture blocking a doorway, appliances that need to go before delivery arrives, or a garage that needs clearing today, we make it happen. That's the advantage of working with a local team instead of a national chain.
                 </p>
 
-                <div className="bg-orange-50 border-2 border-orange-400 p-6 rounded-xl my-8">
-                  <h3 className="text-2xl font-bold mb-3 text-orange-900">
-                    Call Now, We'll Be There This Afternoon
-                  </h3>
-                  <p className="text-lg text-gray-800 mb-4">
-                    Don't wait days for service. Our <strong>today junk removal San Diego</strong> teams are standing by. Book morning, arrive afternoon.
-                  </p>
-                  <a
-                    href="tel:+16197500114"
-                    className="inline-block bg-orange-600 hover:bg-orange-700 text-white px-6 py-3 rounded-lg font-bold transition-colors"
-                  >
-                    Call for Immediate Pickup: (619) 750-0114
-                  </a>
-                </div>
 
                 <h3 className="text-2xl font-bold mt-10 mb-4">Fast Junk Removal San Diego</h3>
                 <p className="text-lg mb-6">
@@ -410,38 +396,35 @@ export default function SameDayJunkRemovalPage() {
                   </div>
                 </div>
 
-        {/* FAQ Section */}
-        <SameDayFAQSection />
-
-                <div className="bg-blue-50 border-2 border-blue-500 p-6 rounded-lg mt-8">
-                  <h3 className="text-2xl font-bold mb-4 text-blue-900">
-                    Ready for Same-Day Service?
-                  </h3>
-                  <p className="text-lg mb-4 text-gray-800">
-                    Don't wait days for junk removal. Call now and we'll be there this afternoon. Same-day service, no rush fees, no waiting around.
+                <div className="text-center bg-blue-900 text-white p-8 rounded-lg mt-8">
+                  <h3 className="text-2xl font-bold mb-4">Get Same-Day Junk Removal Quote Today</h3>
+                  <p className="text-lg mb-6">
+                    Call now and we'll be there this afternoon. Same-day service with no rush fees.
                   </p>
-                  <div className="flex flex-col sm:flex-row gap-4">
-                    <a
-                      href="tel:+16197500114"
-                      className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg text-center font-bold transition-colors inline-block"
-                    >
-                      Call for Today's Pickup: (619) 750-0114
-                    </a>
-                    <a
-                      href="#contact"
-                      className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg text-center font-bold transition-colors inline-block"
-                    >
-                      Book Today's Pickup
-                    </a>
+                  <a
+                    href="tel:6197500114"
+                    className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors duration-200 inline-block mb-6"
+                  >
+                    📞 Call (619) 750-0114 Now
+                  </a>
+                  <div className="bg-blue-800 rounded-lg p-4">
+                    <p className="text-yellow-300 font-semibold mb-2">⚡ Same-Day Service Available ⚡</p>
+                    <div className="text-sm">
+                      <strong>No Rush Fees</strong> • <strong>Arrive Within Hours</strong><br/>
+                      <strong>Available 7 Days/Week</strong> • <strong>Transparent Pricing</strong>
+                    </div>
                   </div>
-                  <p className="text-sm text-gray-600 mt-4">
-                    Call before 2 PM for guaranteed same-day service • Licensed & Insured • Serving All San Diego
+                  <p className="text-sm mt-4">
+                    Licensed & insured • Call before 2 PM for guaranteed same-day service
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </section>
+
+        {/* FAQ Section */}
+        <SameDayFAQSection />
       </main>
 
       <Footer />

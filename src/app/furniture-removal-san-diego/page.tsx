@@ -191,7 +191,7 @@ export default function FurnitureRemovalPage() {
         </section>
 
         {/* Content Section */}
-        <section className="py-16 bg-gray-50">
+        <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-bold mb-8 text-gray-900">
@@ -411,31 +411,6 @@ export default function FurnitureRemovalPage() {
         {/* FAQ Section */}
         <FurnitureFAQSection />
 
-                <div className="bg-blue-50 border-2 border-blue-500 p-6 rounded-lg mt-8">
-                  <h3 className="text-2xl font-bold mb-4 text-blue-900">
-                    Ready to Clear Out That Furniture?
-                  </h3>
-                  <p className="text-lg mb-4 text-gray-800">
-                    Don't let unwanted furniture take up valuable space. Give us a call and we'll haul it away—fast, affordable, and hassle-free.
-                  </p>
-                  <div className="flex flex-col sm:flex-row gap-4">
-                    <a
-                      href="tel:+16197500114"
-                      className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg text-center font-bold transition-colors inline-block"
-                    >
-                      Call Now: (619) 750-0114
-                    </a>
-                    <a
-                      href="#contact"
-                      className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg text-center font-bold transition-colors inline-block"
-                    >
-                      Get Free Quote
-                    </a>
-                  </div>
-                  <p className="text-sm text-gray-600 mt-4">
-                    Licensed & Insured • Same-Day Service Available • Serving All San Diego County
-                  </p>
-                </div>
               </div>
             </div>
           </div>

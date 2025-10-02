@@ -304,33 +304,6 @@ export default function HoardingCleanupPage() {
                   </ul>
                 </div>
 
-
-                <div className="bg-blue-50 border-2 border-blue-500 p-6 rounded-lg mt-8">
-                  <h3 className="text-2xl font-bold mb-4 text-blue-900">
-                    Ready for Confidential Help?
-                  </h3>
-                  <p className="text-lg mb-4 text-gray-800">
-                    Taking the first step requires courage. We're here to support you with compassion, complete confidentiality, and professional junk removal services. You're not alone.
-                  </p>
-                  <div className="flex flex-col sm:flex-row gap-4">
-                    <a
-                      href="tel:+16197500114"
-                      className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg text-center font-bold transition-colors inline-block"
-                    >
-                      Call for Confidential Help: (619) 750-0114
-                    </a>
-                    <a
-                      href="#contact"
-                      className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg text-center font-bold transition-colors inline-block"
-                    >
-                      Get Private Consultation
-                    </a>
-                  </div>
-                  <p className="text-sm text-gray-600 mt-4">
-                    Licensed & Insured • Complete Confidentiality • Judgment-Free Support
-                  </p>
-                </div>
-
                 {/* Trust Signals */}
                 <div className="mt-12 pt-8 border-t border-gray-200">
                   <div className="grid md:grid-cols-3 gap-4 text-center">

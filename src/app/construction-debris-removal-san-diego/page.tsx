@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ConstructionFAQSection from "./ConstructionFAQSection";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -308,94 +309,8 @@ export default function ConstructionDebrisRemovalPage() {
                   </div>
                 </div>
 
-                {/* FAQ Section */}
-                <div className="bg-blue-50 p-8 rounded-lg mt-12 mb-8">
-                  <h2 className="text-3xl font-bold mb-8 text-blue-900">
-                    Common Questions
-                  </h2>
-
-                  <div className="space-y-6">
-                    <div>
-                      <h3 className="text-xl font-bold mb-2 text-gray-900">
-                        How much does construction debris removal cost in San Diego?
-                      </h3>
-                      <p className="text-gray-700">
-                        Pricing starts at $175 for single items and ranges up to $495 for a full trailer load (12 cubic yards). Most small to medium construction projects fall in the $249-$429 range. Large demolition projects requiring multiple loads are quoted on-site. Volume pricing available for ongoing contracts.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-xl font-bold mb-2 text-gray-900">
-                        Do you offer same-day service for construction projects?
-                      </h3>
-                      <p className="text-gray-700">
-                        Yes. Call before 2 PM and we can usually provide same-day pickup to keep your project moving. We understand construction delays cost money, so we prioritize contractor requests.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-xl font-bold mb-2 text-gray-900">
-                        How much does demolition debris removal San Diego cost?
-                      </h3>
-                      <p className="text-gray-700">
-                        Demolition debris removal typically requires multiple trailer loads due to volume. Small demolition jobs start around $495 for a full load, while larger projects requiring 2-4 loads range from $1,000-$2,000. Heavy materials like concrete may have additional fees. We provide on-site quotes for demolition projects.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-xl font-bold mb-2 text-gray-900">
-                        Can you handle concrete and heavy materials?
-                      </h3>
-                      <p className="text-gray-700">
-                        Yes. We have equipment to handle concrete, brick, masonry, and other heavy construction materials. These materials may have additional fees due to weight and disposal requirements. Call for a quote on concrete removal projects.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-xl font-bold mb-2 text-gray-900">
-                        Do you provide documentation for permits?
-                      </h3>
-                      <p className="text-gray-700">
-                        Yes. We provide disposal receipts and documentation needed for permit compliance, inspections, and project closeout. We comply with San Diego disposal regulations and can coordinate with licensed facilities when required for specific materials.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-xl font-bold mb-2 text-gray-900">
-                        Do you offer ongoing service for active job sites?
-                      </h3>
-                      <p className="text-gray-700">
-                        Absolutely. We provide scheduled pickups for active construction sites—daily, weekly, or as needed. Volume pricing available for ongoing contracts. This keeps your site clean, safe, and compliant without the hassle of managing debris yourself.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="bg-blue-50 border-2 border-blue-500 p-6 rounded-lg mt-8">
-                  <h3 className="text-2xl font-bold mb-4 text-blue-900">
-                    Ready to Clear Your Job Site?
-                  </h3>
-                  <p className="text-lg mb-4 text-gray-800">
-                    Keep your construction project on schedule. Call now for fast, reliable debris removal with straightforward contractor pricing.
-                  </p>
-                  <div className="flex flex-col sm:flex-row gap-4">
-                    <a
-                      href="tel:+16197500114"
-                      className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg text-center font-bold transition-colors inline-block"
-                    >
-                      Call Now: (619) 750-0114
-                    </a>
-                    <a
-                      href="#contact"
-                      className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg text-center font-bold transition-colors inline-block"
-                    >
-                      Get Contractor Quote
-                    </a>
-                  </div>
-                  <p className="text-sm text-gray-600 mt-4">
-                    Same-Day Available • Licensed & Insured • All San Diego County
-                  </p>
-                </div>
+        {/* FAQ Section */}
+        <ConstructionFAQSection />
 
                 {/* Trust Signals */}
                 <div className="mt-12 pt-8 border-t border-gray-200">

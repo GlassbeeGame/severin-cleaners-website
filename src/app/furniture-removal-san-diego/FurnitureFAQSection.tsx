@@ -232,24 +232,23 @@ export default function FurnitureFAQSection() {
 
         <div className="bg-blue-50 rounded-xl p-8 mt-12 text-center">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">
-            Ready to Schedule Your Furniture Removal?
+            Still Have Questions About Furniture Removal?
           </h3>
           <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
-            Our professional team is standing by to handle your <strong>furniture removal San Diego</strong> needs.
-            Get a free quote and same-day service when available.
+            Our experienced team is ready to answer any questions about our <strong>furniture removal San Diego</strong> services, provide detailed quotes, or schedule your same-day service.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:+16197500114"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition-colors"
             >
-              📞 Call (619) 750-0114 for Free Quote
+              📞 Call (619) 750-0114 – Speak with an Expert
             </a>
             <a
               href="#contact"
               className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-colors"
             >
-              Schedule Furniture Pickup
+              Get Free Furniture Quote
             </a>
           </div>
         </div>

@@ -242,21 +242,20 @@ export default function ApplianceFAQSection() {
             Still Have Questions About Appliance Removal?
           </h3>
           <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
-            Our professional team is ready to answer any questions about our <strong>appliance removal San Diego</strong>
-            services, provide detailed quotes, or schedule your same-day service.
+            Our experienced team is ready to answer any questions about our <strong>appliance removal San Diego</strong> services, provide detailed quotes, or schedule your same-day service.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:+16197500114"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition-colors"
             >
-              Call (619) 750-0114 for Free Quote
+              📞 Call (619) 750-0114 – Speak with an Expert
             </a>
             <a
               href="#contact"
               className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-colors"
             >
-              Schedule Appliance Pickup
+              Get Free Appliance Quote
             </a>
           </div>
         </div>

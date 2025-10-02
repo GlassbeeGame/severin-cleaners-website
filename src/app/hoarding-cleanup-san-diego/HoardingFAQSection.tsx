@@ -10,10 +10,10 @@ export default function HoardingFAQSection() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Common Questions
+            Frequently Asked Questions - Hoarding Cleanup San Diego
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Answers to common questions about our compassionate hoarding cleanup services.
+            Get answers to common questions about our compassionate <strong>hoarding cleanup San Diego</strong> services, confidential support, and judgment-free junk hauling process.
           </p>
         </div>
 
@@ -180,23 +180,23 @@ export default function HoardingFAQSection() {
 
         <div className="bg-blue-50 rounded-xl p-8 mt-12 text-center">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">
-            Have More Questions?
+            Still Have Questions About Hoarding Cleanup?
           </h3>
           <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
-            Call for a confidential, compassionate consultation about your hoarding cleanup needs.
+            Our experienced team is ready to answer any questions about our <strong>hoarding cleanup San Diego</strong> services, provide detailed quotes, or schedule your confidential, compassionate service.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:+16197500114"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition-colors"
             >
-              Call (619) 750-0114
+              📞 Call (619) 750-0114 – Speak with an Expert
             </a>
             <a
               href="#contact"
               className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-colors"
             >
-              Get Private Consultation
+              Get Free Private Consultation
             </a>
           </div>
         </div>

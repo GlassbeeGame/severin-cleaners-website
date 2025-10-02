@@ -230,31 +230,27 @@ export default function SameDayFAQSection() {
           </div>
         </div>
 
-        <div className="bg-orange-50 rounded-xl p-8 mt-12 text-center border-2 border-orange-200">
+        <div className="bg-blue-50 rounded-xl p-8 mt-12 text-center">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">
-            Need Junk Removed TODAY? We're Ready!
+            Still Have Questions About Same Day Junk Removal?
           </h3>
           <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
-            Don't wait days for junk removal. Our <strong>same day junk removal San Diego</strong> team
-            can arrive within hours. Call now and we'll be there this afternoon!
+            Our experienced team is ready to answer any questions about our <strong>same day junk removal San Diego</strong> services, provide detailed quotes, or schedule your same-day service for immediate pickup availability.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:+16197500114"
-              className="bg-orange-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-orange-700 transition-colors"
+              className="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition-colors"
             >
-              📞 Call (619) 750-0114 for Same Day Pickup
+              📞 Call (619) 750-0114 – Speak with an Expert
             </a>
             <a
               href="#contact"
-              className="bg-white text-orange-600 border-2 border-orange-600 px-8 py-4 rounded-lg font-bold hover:bg-orange-50 transition-colors"
+              className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-colors"
             >
               Get Today's Pickup Quote
             </a>
           </div>
-          <p className="text-sm text-gray-600 mt-4">
-            ⚡ Available 7 days/week • No rush fees • Arrive within hours
-          </p>
         </div>
       </div>
     </section>

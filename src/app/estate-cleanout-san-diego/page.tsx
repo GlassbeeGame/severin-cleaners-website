@@ -312,32 +312,6 @@ export default function EstateCleanoutPage() {
         {/* FAQ Section */}
         <EstateFAQSection />
 
-                <div className="bg-blue-50 border-2 border-blue-500 p-6 rounded-lg mt-8">
-                  <h3 className="text-2xl font-bold mb-4 text-blue-900">
-                    Ready to Get Started?
-                  </h3>
-                  <p className="text-lg mb-4 text-gray-800">
-                    We're here to help during this difficult time. Call for a compassionate consultation and free estimate. No obligation—just professional junk hauling when you need it.
-                  </p>
-                  <div className="flex flex-col sm:flex-row gap-4">
-                    <a
-                      href="tel:+16197500114"
-                      className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg text-center font-bold transition-colors inline-block"
-                    >
-                      Call Now: (619) 750-0114
-                    </a>
-                    <a
-                      href="#contact"
-                      className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg text-center font-bold transition-colors inline-block"
-                    >
-                      Get Estate Cleanout Quote
-                    </a>
-                  </div>
-                  <p className="text-sm text-gray-600 mt-4">
-                    Licensed & Insured • Available 7 Days • Serving San Diego Families with Compassion
-                  </p>
-                </div>
-
                 {/* Trust Signals */}
                 <div className="mt-12 pt-8 border-t border-gray-200">
                   <div className="grid md:grid-cols-3 gap-4 text-center">
