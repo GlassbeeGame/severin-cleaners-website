@@ -13,9 +13,9 @@ export default function ServicesPage() {
     {
       title: "Same Day Junk Removal",
       link: "/same-day-junk-removal-san-diego",
-      description: "Emergency junk removal service available 24/7 for urgent cleanouts and immediate needs.",
+      description: "Emergency junk removal service for urgent cleanouts and immediate needs.",
       icon: "⚡",
-      features: ["24/7 Emergency Service", "Same-Day Pickup", "Urgent Cleanouts", "Fast Response Time"]
+      features: ["Emergency Service", "Same-Day Pickup", "Urgent Cleanouts", "Fast Response Time"]
     },
     {
       title: "Furniture Removal",

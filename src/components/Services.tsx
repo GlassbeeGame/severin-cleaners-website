@@ -129,11 +129,11 @@ export default function Services() {
               >
                 <div className="relative h-48 overflow-hidden">
                   <Image
-                    src={service.image}
+                    src={service.image.replace('/webphotos/', '/optimized/').replace('.jpg', '.webp')}
                     alt={service.title}
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-300"
-                    unoptimized
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                   <div className="absolute bottom-4 left-4">
@@ -251,11 +251,11 @@ export default function Services() {
           <a href="/areas-we-serve" className="md:hidden block bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
             <div className="relative h-48">
               <Image
-                src="/Webphotos/locations.jpg"
+                src="/optimized/locations.webp"
                 alt="San Diego County junk removal service areas map"
                 fill
                 className="object-cover"
-                unoptimized
+                sizes="100vw"
               />
               <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/40"></div>
               <div className="absolute inset-0 flex items-center justify-center">
@@ -278,11 +278,11 @@ export default function Services() {
               {/* Left: Image */}
               <div className="relative h-64 lg:h-full min-h-[400px]">
                 <Image
-                  src="/Webphotos/locations.jpg"
+                  src="/optimized/locations.webp"
                   alt="San Diego County junk removal service areas map"
                   fill
                   className="object-cover"
-                  unoptimized
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent"></div>
                 <div className="absolute inset-0 flex items-center justify-center lg:justify-start lg:pl-12">

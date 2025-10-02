@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -37,12 +38,16 @@ export default function ContactPageClient() {
         {/* Hero Contact Section */}
         <section className="relative min-h-screen flex items-center overflow-hidden">
           {/* Background Image */}
-          <div
-            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-            style={{
-              backgroundImage: "url('/Webphotos/contact.jpg')"
-            }}
-          >
+          <div className="absolute inset-0">
+            <Image
+              src="/optimized/contact.webp"
+              alt="Contact Severin Cleaners for junk removal"
+              fill
+              priority
+              quality={85}
+              className="object-cover"
+              sizes="100vw"
+            />
             <div className="gradient-overlay"></div>
           </div>
 

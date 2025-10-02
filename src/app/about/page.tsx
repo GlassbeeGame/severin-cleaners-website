@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from 'next/image';
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
@@ -23,10 +24,13 @@ export default function AboutPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto text-center text-white">
               <div className="mb-6 flex justify-center">
-                <img
-                  src="/logo.png"
+                <Image
+                  src="/optimized/logo.png"
                   alt="Severin Cleaners Logo"
+                  width={128}
+                  height={128}
                   className="h-32 w-32 object-contain drop-shadow-2xl"
+                  priority
                 />
               </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
@@ -60,11 +64,13 @@ export default function AboutPage() {
                   </p>
                 </div>
                 <div className="order-1 md:order-2">
-                  <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                    <img
-                      src="/Webphotos/dtsd.jpg"
+                  <div className="relative rounded-2xl overflow-hidden shadow-2xl h-80 md:h-96">
+                    <Image
+                      src="/optimized/dtsd.webp"
                       alt="Severin Cleaners Professional Junk Removal Team"
-                      className="w-full h-auto object-cover"
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 50vw"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-blue-900/30 to-transparent"></div>
                   </div>

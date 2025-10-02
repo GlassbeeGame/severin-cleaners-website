@@ -1,14 +1,20 @@
 'use client';
 
+import Image from 'next/image';
+
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: "url('/webphotos/landingpage.jpg')"
-        }}
-      >
+      <div className="absolute inset-0">
+        <Image
+          src="/optimized/landingpage.webp"
+          alt="San Diego junk removal service background"
+          fill
+          priority
+          quality={85}
+          className="object-cover"
+          sizes="100vw"
+        />
         <div className="gradient-overlay"></div>
       </div>
 
