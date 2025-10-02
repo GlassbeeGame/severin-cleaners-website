@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import CarmelValleyFAQSection from "./CarmelValleyFAQSection";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -53,26 +54,26 @@ const jsonLd = {
         "priceSpecification": [
           {
             "@type": "PriceSpecification",
-            "description": "Single Item Removal",
-            "price": "95",
+            "description": "Single Item Pickup",
+            "price": "175",
             "priceCurrency": "USD"
           },
           {
             "@type": "PriceSpecification",
-            "description": "Quarter Truck Load",
-            "price": "250",
+            "description": "1/4 Trailer Load",
+            "price": "249",
             "priceCurrency": "USD"
           },
           {
             "@type": "PriceSpecification",
-            "description": "Half Truck Load",
-            "price": "450",
+            "description": "1/2 Trailer Load",
+            "price": "349",
             "priceCurrency": "USD"
           },
           {
             "@type": "PriceSpecification",
-            "description": "Full Truck Load",
-            "price": "700",
+            "description": "Full Trailer Load",
+            "price": "495",
             "priceCurrency": "USD"
           }
         ]
@@ -102,7 +103,7 @@ const jsonLd = {
           "name": "How much does junk removal cost in Carmel Valley?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Our transparent pricing: $95 single item, $250 quarter truck, $450 half truck, $700 full truck. Price includes labor, disposal fees, and cleanup. No hidden charges or surprise fees."
+            "text": "Our transparent pricing: Single Item Pickup starting at $175, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. Price includes labor, disposal fees, and cleanup. Call for a free quote."
           }
         },
         {
@@ -320,30 +321,50 @@ export default function JunkRemovalCarmelValleyPage() {
                 <h3 className="text-2xl font-bold mt-8 mb-4">Transparent Pricing for Carmel Valley</h3>
                 <div className="bg-blue-50 p-6 rounded-lg mb-8">
                   <h4 className="text-xl font-bold mb-4 text-blue-900">Our Upfront Pricing Structure</h4>
-                  <div className="grid md:grid-cols-2 gap-6">
+                  <div className="grid md:grid-cols-2 gap-4">
                     <div className="bg-white p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-blue-600 mb-2">$95</div>
-                      <div className="font-semibold mb-1">Single Item Removal</div>
+                      <div className="text-2xl font-bold text-blue-600 mb-2">Starting at $175</div>
+                      <div className="font-semibold mb-1">Single Item Pickup</div>
                       <div className="text-sm text-gray-600">Perfect for one large item like a sofa, mattress, or appliance</div>
                     </div>
                     <div className="bg-white p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-blue-600 mb-2">$250</div>
-                      <div className="font-semibold mb-1">Quarter Truck Load</div>
+                      <div className="text-2xl font-bold text-blue-600 mb-2">$249</div>
+                      <div className="font-semibold mb-1">1/4 Trailer Load</div>
                       <div className="text-sm text-gray-600">Small cleanouts, few boxes, or couple pieces of furniture</div>
                     </div>
                     <div className="bg-white p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-blue-600 mb-2">$450</div>
-                      <div className="font-semibold mb-1">Half Truck Load</div>
+                      <div className="text-2xl font-bold text-blue-600 mb-2">$319</div>
+                      <div className="font-semibold mb-1">3/8 Trailer Load</div>
+                      <div className="text-sm text-gray-600">Medium-sized cleanouts with multiple items</div>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg">
+                      <div className="text-2xl font-bold text-blue-600 mb-2">$349</div>
+                      <div className="font-semibold mb-1">1/2 Trailer Load</div>
                       <div className="text-sm text-gray-600">Room cleanouts, multiple furniture pieces, or renovation debris</div>
                     </div>
                     <div className="bg-white p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-blue-600 mb-2">$700</div>
-                      <div className="font-semibold mb-1">Full Truck Load</div>
+                      <div className="text-2xl font-bold text-blue-600 mb-2">$366</div>
+                      <div className="font-semibold mb-1">5/8 Trailer Load</div>
+                      <div className="text-sm text-gray-600">Large room or garage cleanouts</div>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg">
+                      <div className="text-2xl font-bold text-blue-600 mb-2">$429</div>
+                      <div className="font-semibold mb-1">3/4 Trailer Load</div>
+                      <div className="text-sm text-gray-600">Multi-room cleanouts or large furniture sets</div>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg">
+                      <div className="text-2xl font-bold text-blue-600 mb-2">$462</div>
+                      <div className="font-semibold mb-1">7/8 Trailer Load</div>
+                      <div className="text-sm text-gray-600">Near-complete house cleanouts</div>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg">
+                      <div className="text-2xl font-bold text-blue-600 mb-2">$495</div>
+                      <div className="font-semibold mb-1">Full Trailer Load</div>
                       <div className="text-sm text-gray-600">Whole house cleanouts, complete furniture sets, or large projects</div>
                     </div>
                   </div>
                   <p className="text-sm text-gray-700 mt-4 text-center">
-                    Pricing includes labor, disposal fees, and cleanup. No hidden charges or fuel surcharges.
+                    Pricing includes labor, disposal fees, and cleanup. Call for a free quote tailored to your specific needs.
                   </p>
                 </div>
 
@@ -380,40 +401,6 @@ export default function JunkRemovalCarmelValleyPage() {
                   </div>
                 </div>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">Frequently Asked Questions</h3>
-
-                <div className="space-y-6 mb-8">
-                  <div className="bg-gray-50 p-6 rounded-lg">
-                    <h4 className="text-lg font-bold mb-2 text-gray-900">Do you provide same-day junk removal in Carmel Valley?</h4>
-                    <p className="text-gray-700">Yes, we offer same-day junk pickup throughout Carmel Valley including Torrey Highlands, Del Mar Mesa, and Pacific Highlands Ranch. Call (619) 750-0114 before 2 PM for same-day service availability.</p>
-                  </div>
-
-                  <div className="bg-gray-50 p-6 rounded-lg">
-                    <h4 className="text-lg font-bold mb-2 text-gray-900">What areas of Carmel Valley do you serve?</h4>
-                    <p className="text-gray-700">We serve all neighborhoods in Carmel Valley 92130 including Torrey Highlands, Del Mar Mesa, Pacific Highlands Ranch, Carmel Creek, and Torrey Hills. We also cover surrounding areas like 4S Ranch and Rancho Penasquitos.</p>
-                  </div>
-
-                  <div className="bg-gray-50 p-6 rounded-lg">
-                    <h4 className="text-lg font-bold mb-2 text-gray-900">How much does junk removal cost in Carmel Valley?</h4>
-                    <p className="text-gray-700">Our transparent pricing: $95 single item, $250 quarter truck, $450 half truck, $700 full truck. Price includes labor, disposal fees, and cleanup. No hidden charges or surprise fees.</p>
-                  </div>
-
-                  <div className="bg-gray-50 p-6 rounded-lg">
-                    <h4 className="text-lg font-bold mb-2 text-gray-900">Do you remove furniture and appliances from Carmel Valley homes?</h4>
-                    <p className="text-gray-700">Yes, we remove all types of furniture, appliances, and household items. This includes sofas, mattresses, refrigerators, washers, dryers, and exercise equipment. We handle both indoor and outdoor removal.</p>
-                  </div>
-
-                  <div className="bg-gray-50 p-6 rounded-lg">
-                    <h4 className="text-lg font-bold mb-2 text-gray-900">Are you licensed and insured for junk removal in San Diego?</h4>
-                    <p className="text-gray-700">Yes, Severin Cleaners is fully licensed and insured for junk removal services throughout San Diego County. We carry comprehensive liability insurance and proper waste hauling permits.</p>
-                  </div>
-
-                  <div className="bg-gray-50 p-6 rounded-lg">
-                    <h4 className="text-lg font-bold mb-2 text-gray-900">What items cannot be removed during junk hauling?</h4>
-                    <p className="text-gray-700">We cannot remove hazardous materials like paint, chemicals, asbestos, or medical waste. However, we handle electronics, furniture, appliances, yard waste, construction debris, and most household items.</p>
-                  </div>
-                </div>
-
                 <div className="bg-blue-50 p-6 rounded-lg mt-8">
                   <h3 className="text-2xl font-bold mb-4 text-blue-900">Ready for Professional Junk Removal in Carmel Valley?</h3>
                   <p className="text-lg mb-4">
@@ -441,6 +428,8 @@ export default function JunkRemovalCarmelValleyPage() {
             </div>
           </div>
         </section>
+
+        <CarmelValleyFAQSection />
       </main>
 
       <Footer />

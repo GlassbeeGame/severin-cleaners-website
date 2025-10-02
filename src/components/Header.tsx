@@ -19,7 +19,12 @@ export default function Header() {
       <div className="container">
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0">
-            <Link href="/" className="flex items-center">
+            <Link href="/" className="flex items-center gap-3">
+              <img
+                src="/logo.png"
+                alt="Severin Cleaners Logo"
+                className="h-12 w-12 object-contain"
+              />
               <div className="text-2xl font-black text-gray-900 uppercase">
                 Severin
                 <span className="text-blue-500"> Cleaners</span>
@@ -49,12 +54,12 @@ export default function Header() {
               Areas We Serve
             </Link>
 
-            <a
-              href="#about"
+            <Link
+              href="/about"
               className="text-gray-700 hover:text-blue-500 transition-colors duration-200 font-semibold py-2"
             >
               About
-            </a>
+            </Link>
             <Link
               href="/contact"
               className="text-gray-700 hover:text-blue-500 transition-colors duration-200 font-semibold py-2"
@@ -131,13 +136,13 @@ export default function Header() {
               >
                 Areas We Serve
               </Link>
-              <a
-                href="#about"
+              <Link
+                href="/about"
                 onClick={closeMenu}
                 className="block px-3 py-2 text-base font-semibold text-gray-700 hover:text-blue-500 hover:bg-gray-50 rounded-md transition-colors duration-200"
               >
                 About
-              </a>
+              </Link>
               <Link
                 href="/contact"
                 onClick={closeMenu}

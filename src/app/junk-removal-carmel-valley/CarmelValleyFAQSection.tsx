@@ -91,8 +91,23 @@ export default function CarmelValleyFAQSection() {
               </button>
               {openFAQ === 2 && (
                 <div className="px-6 py-4 bg-white">
-                  <p className="text-gray-700 leading-relaxed">
-                    Our transparent pricing: $95 single item, $250 quarter truck, $450 half truck, $700 full truck. Price includes labor, disposal fees, and cleanup. No hidden charges or surprise fees.
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    Our <strong>Carmel Valley junk removal</strong> pricing is transparent and upfront with no hidden fees:
+                  </p>
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <ul className="space-y-2 text-gray-700">
+                      <li><strong>Single Item Pickup:</strong> Starting at $175</li>
+                      <li><strong>1/4 Trailer Load:</strong> $249</li>
+                      <li><strong>3/8 Trailer Load:</strong> $319</li>
+                      <li><strong>1/2 Trailer Load:</strong> $349</li>
+                      <li><strong>5/8 Trailer Load:</strong> $366</li>
+                      <li><strong>3/4 Trailer Load:</strong> $429</li>
+                      <li><strong>7/8 Trailer Load:</strong> $462</li>
+                      <li><strong>Full Trailer Load:</strong> $495</li>
+                    </ul>
+                  </div>
+                  <p className="text-gray-700 leading-relaxed mt-4">
+                    Price includes labor, disposal fees, and cleanup. Call for a free quote tailored to your specific needs.
                   </p>
                 </div>
               )}

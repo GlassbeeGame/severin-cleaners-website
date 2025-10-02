@@ -4,12 +4,12 @@ import Footer from "@/components/Footer";
 import VistaFAQSection from "./VistaFAQSection";
 
 export const metadata: Metadata = {
-  title: "Vista Junk Removal | Family Homes & Business Cleanout Specialists | Same-Day Service",
-  description: "Professional Vista junk removal for families, apartments & businesses. Same-day junk hauling Vista, eco-friendly disposal. Serving Shadowridge, Downtown Vista Village, Business Park. Call (619) 750-0114!",
-  keywords: "Vista junk removal, junk hauling Vista, junk pickup Vista, trash removal Vista, Vista San Diego junk removal, Shadowridge junk removal, Downtown Vista junk hauling, Vista Business Park cleanout",
+  title: "Vista Junk Removal | Same-Day Hauling | Licensed & Insured",
+  description: "Professional Vista junk removal for families, apartments & businesses. Same-day junk hauling Vista, eco-friendly disposal. Serving Shadowridge, Downtown Vista Village, Rancho Buena Vista, Buena Creek. Call (619) 750-0114!",
+  keywords: "Vista junk removal, junk hauling Vista, junk pickup Vista, trash removal Vista, Vista San Diego junk removal, Shadowridge junk removal, Downtown Vista junk hauling, Vista Business Park cleanout, Rancho Buena Vista junk removal, Buena Creek junk hauling",
   openGraph: {
-    title: "Vista Junk Removal | Family Homes & Business Cleanout Specialists",
-    description: "Professional Vista junk removal for families, apartments & businesses. Same-day junk hauling Vista, eco-friendly disposal. Serving all Vista neighborhoods.",
+    title: "Vista Junk Removal | Same-Day Hauling | Licensed & Insured",
+    description: "Professional Vista junk removal for families, apartments & businesses. Same-day junk hauling Vista, eco-friendly disposal. Serving all Vista neighborhoods including Shadowridge and Rancho Buena Vista.",
     url: "https://severincleaners.com/junk-removal-vista",
   },
 };
@@ -24,10 +24,10 @@ export default function VistaJunkRemoval() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center text-white">
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Vista Junk Removal – Serving Families, Apartments & Businesses
+                Vista Junk Removal – Same-Day Service for North County Families & Businesses
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                Professional junk hauling for Downtown Vista Village, Shadowridge, and Buena Creek neighborhoods
+                Professional junk hauling for Downtown Vista Village, Shadowridge, Rancho Buena Vista, and Buena Creek
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
@@ -85,38 +85,192 @@ export default function VistaJunkRemoval() {
           </div>
         </section>
 
+        {/* Local Service Areas Callout */}
+        <section className="py-8 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto bg-blue-50 rounded-xl p-6 border-l-4 border-blue-600">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                Vista Neighborhoods We Serve
+              </h2>
+              <div className="grid md:grid-cols-2 gap-4 text-gray-700">
+                <div>
+                  <p className="mb-2"><strong>Main Areas:</strong></p>
+                  <ul className="space-y-1 text-sm">
+                    <li>• Downtown Vista Village</li>
+                    <li>• Shadowridge</li>
+                    <li>• Rancho Buena Vista</li>
+                    <li>• Buena Creek</li>
+                    <li>• Vista Business Park</li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="mb-2"><strong>Key Landmarks:</strong></p>
+                  <ul className="space-y-1 text-sm">
+                    <li>• Brengle Terrace Park</li>
+                    <li>• Vista Civic Center</li>
+                    <li>• North County Breweries</li>
+                    <li>• Tri-City Medical Center</li>
+                    <li>• Vista Village Drive corridor</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Detailed Content */}
         <section className="py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-bold mb-8 text-gray-900">
-                Professional Vista Junk Removal for North County Families
+                Professional Vista Junk Removal for North County Families & Businesses
               </h2>
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg mb-6">
-                  When Vista families and businesses need reliable <strong>Vista junk removal</strong> services, Severin Cleaners delivers professional solutions for the unique needs of this North County community. Our experienced team provides same-day <strong>junk hauling Vista</strong> with transparent pricing that works for family budgets and business operations.
+                  When Vista families and businesses need reliable <strong>Vista junk removal</strong> services, Severin Cleaners delivers professional solutions for the unique needs of this thriving North County community. Our experienced team provides same-day <strong>junk hauling Vista</strong> with transparent pricing that works for family budgets and business operations throughout Shadowridge, Rancho Buena Vista, and Downtown Vista Village.
                 </p>
                 <p className="text-lg mb-6">
-                  From Downtown Vista Village to Shadowridge neighborhoods, we specialize in <strong>trash removal Vista</strong> for family homes, apartments, and business properties. Our reliable service supports the diverse Vista community with eco-friendly disposal and professional handling of all types of unwanted items.
+                  From residential neighborhoods near Brengle Terrace Park to commercial properties in Vista Business Park, we specialize in comprehensive <strong>trash removal Vista</strong> for family homes, apartments, condos, and business properties. Our reliable service supports the diverse Vista community with eco-friendly disposal and professional handling of all types of unwanted items, from single furniture pieces to complete property cleanouts.
+                </p>
+                <p className="text-lg mb-6">
+                  Vista's mix of established family neighborhoods, growing business districts, and vibrant downtown breweries creates diverse junk removal needs. Whether you're a family downsizing near Buena Creek, a brewery renovating in Downtown Vista, or a business clearing warehouse space, our <strong>Vista San Diego junk removal</strong> team understands the unique requirements of North County properties and delivers solutions that work for your schedule and budget.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Local Areas */}
+        {/* Pricing Section */}
+        <section id="pricing" className="py-16 bg-blue-50">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl font-bold text-gray-900 text-center mb-8">
+                Transparent Pricing for Vista Junk Removal
+              </h2>
+              <p className="text-lg text-gray-700 text-center mb-8 max-w-3xl mx-auto">
+                Our <strong>Vista junk removal</strong> pricing is straightforward with no hidden fees. We charge based on the volume of items, not by the hour, so you know exactly what you'll pay before we start.
+              </p>
+
+              <div className="grid md:grid-cols-2 gap-6 mb-8">
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <div className="text-3xl font-bold text-blue-600 mb-2">$175</div>
+                  <div className="font-semibold mb-2">Single Item Pickup</div>
+                  <p className="text-gray-600 text-sm">Perfect for one couch, mattress, or appliance removal</p>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <div className="text-3xl font-bold text-blue-600 mb-2">$249</div>
+                  <div className="font-semibold mb-2">1/4 Trailer Load</div>
+                  <p className="text-gray-600 text-sm">Small cleanout or several furniture pieces</p>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <div className="text-3xl font-bold text-blue-600 mb-2">$319</div>
+                  <div className="font-semibold mb-2">3/8 Trailer Load</div>
+                  <p className="text-gray-600 text-sm">Garage cleanout or apartment junk removal</p>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <div className="text-3xl font-bold text-blue-600 mb-2">$349</div>
+                  <div className="font-semibold mb-2">1/2 Trailer Load</div>
+                  <p className="text-gray-600 text-sm">Medium room cleanout or storage clearing</p>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <div className="text-3xl font-bold text-blue-600 mb-2">$366</div>
+                  <div className="font-semibold mb-2">5/8 Trailer Load</div>
+                  <p className="text-gray-600 text-sm">Multiple rooms or larger furniture sets</p>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <div className="text-3xl font-bold text-blue-600 mb-2">$429</div>
+                  <div className="font-semibold mb-2">3/4 Trailer Load</div>
+                  <p className="text-gray-600 text-sm">Full home cleanout or business inventory</p>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <div className="text-3xl font-bold text-blue-600 mb-2">$462</div>
+                  <div className="font-semibold mb-2">7/8 Trailer Load</div>
+                  <p className="text-gray-600 text-sm">Large estate or commercial cleanout</p>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-md border-2 border-blue-600">
+                  <div className="text-3xl font-bold text-blue-600 mb-2">$495</div>
+                  <div className="font-semibold mb-2">Full Trailer Load</div>
+                  <p className="text-gray-600 text-sm">Maximum capacity - complete property cleanout</p>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 text-center">
+                <p className="text-gray-700 mb-4">
+                  <strong>All prices include:</strong> Labor, hauling, proper disposal, recycling fees, and cleanup. No hidden charges for Vista families and businesses.
+                </p>
+                <a
+                  href="tel:+16197500114"
+                  className="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors inline-block"
+                >
+                  Call (619) 750-0114 for Free Vista Quote
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Common Items Removed */}
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl font-bold text-gray-900 mb-8">
-                Professional Vista San Diego Junk Removal for Every Need
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
+                Common Items We Remove in Vista
               </h2>
-              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                When you need reliable <strong>Vista junk removal</strong> services, Severin Cleaners delivers professional solutions for families, apartment residents, and businesses throughout North County. Our experienced team provides same-day <strong>junk hauling Vista</strong> with transparent pricing and eco-friendly disposal methods that Vista residents trust.
-              </p>
-              <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                From Downtown Vista Village to Shadowridge neighborhoods, we handle everything from single-item pickup to complete estate cleanouts. Our <strong>trash removal Vista</strong> services support both residential families and local businesses with reliable, professional care.
-              </p>
+
+              <div className="grid md:grid-cols-3 gap-8">
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4">Furniture & Household</h3>
+                  <ul className="space-y-2 text-gray-700">
+                    <li>✓ Couches and sectionals</li>
+                    <li>✓ Mattresses and box springs</li>
+                    <li>✓ Dining sets and tables</li>
+                    <li>✓ Dressers and cabinets</li>
+                    <li>✓ Office desks and chairs</li>
+                    <li>✓ Patio furniture sets</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4">Appliances & Electronics</h3>
+                  <ul className="space-y-2 text-gray-700">
+                    <li>✓ Refrigerators and freezers</li>
+                    <li>✓ Washers and dryers</li>
+                    <li>✓ Stoves and microwaves</li>
+                    <li>✓ TVs and monitors</li>
+                    <li>✓ Computer equipment</li>
+                    <li>✓ Exercise equipment</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4">Business & Commercial</h3>
+                  <ul className="space-y-2 text-gray-700">
+                    <li>✓ <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:text-blue-700">Construction debris</a></li>
+                    <li>✓ Office furniture and equipment</li>
+                    <li>✓ Brewery and restaurant gear</li>
+                    <li>✓ Retail fixtures and displays</li>
+                    <li>✓ Warehouse inventory</li>
+                    <li>✓ Industrial equipment</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="mt-12 text-center bg-gray-50 rounded-xl p-6">
+                <p className="text-gray-700 text-lg">
+                  <strong>Don't see your item?</strong> We handle almost everything! Call us at{" "}
+                  <a href="tel:+16197500114" className="text-blue-600 font-bold hover:text-blue-700">
+                    (619) 750-0114
+                  </a>{" "}
+                  to discuss your specific <strong>Vista junk hauling</strong> needs.
+                </p>
+              </div>
             </div>
           </div>
         </section>
@@ -196,7 +350,7 @@ export default function VistaJunkRemoval() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                     </svg>
                     <div>
-                      <h4 className="font-semibold text-gray-900">Appliance and electronics disposal</h4>
+                      <h4 className="font-semibold text-gray-900"><a href="/appliance-removal-san-diego" className="text-blue-600 hover:text-blue-700">Appliance and electronics disposal</a></h4>
                       <p className="text-gray-600 text-sm">Refrigerators, washers, TVs, and computer equipment</p>
                     </div>
                   </div>
@@ -271,6 +425,69 @@ export default function VistaJunkRemoval() {
               >
                 📞 Call (619) 750-0114 - Same-Day Vista Junk Removal
               </a>
+            </div>
+          </div>
+        </section>
+
+        {/* Streets Served */}
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl font-bold text-gray-900 text-center mb-8">
+                Vista Streets We Serve
+              </h2>
+              <p className="text-center text-gray-700 mb-8 max-w-2xl mx-auto">
+                Our <strong>junk pickup Vista</strong> team provides reliable service throughout the entire Vista area,
+                including residential neighborhoods, business districts, and commercial zones.
+              </p>
+
+              <div className="grid md:grid-cols-3 gap-6 text-gray-700">
+                <div className="bg-gray-50 rounded-lg p-6">
+                  <h3 className="font-bold text-gray-900 mb-3">Downtown & Village</h3>
+                  <ul className="space-y-1 text-sm">
+                    <li>• Main Street</li>
+                    <li>• Broadway</li>
+                    <li>• Vista Village Drive</li>
+                    <li>• California Avenue</li>
+                    <li>• Santa Fe Avenue</li>
+                    <li>• Eucalyptus Avenue</li>
+                  </ul>
+                </div>
+
+                <div className="bg-gray-50 rounded-lg p-6">
+                  <h3 className="font-bold text-gray-900 mb-3">Shadowridge & Buena Creek</h3>
+                  <ul className="space-y-1 text-sm">
+                    <li>• Shadow Ridge Drive</li>
+                    <li>• Shadowridge View</li>
+                    <li>• Buena Creek Road</li>
+                    <li>• Thibodo Road</li>
+                    <li>• Vandegrift Boulevard</li>
+                    <li>• Mar Vista Drive</li>
+                  </ul>
+                </div>
+
+                <div className="bg-gray-50 rounded-lg p-6">
+                  <h3 className="font-bold text-gray-900 mb-3">Business & Commercial</h3>
+                  <ul className="space-y-1 text-sm">
+                    <li>• Sycamore Avenue (Business Park)</li>
+                    <li>• Corporate Place</li>
+                    <li>• Industrial Court</li>
+                    <li>• Commerce Drive</li>
+                    <li>• Business Park Avenue</li>
+                    <li>• Rancho Del Oro Drive</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="mt-8 text-center">
+                <p className="text-gray-600">
+                  Don't see your street listed? We serve all of Vista! Call{" "}
+                  <a href="tel:+16197500114" className="text-blue-600 font-bold hover:text-blue-700">
+                    (619) 750-0114
+                  </a>{" "}
+                  to confirm service availability in your neighborhood.
+                </p>
+              </div>
             </div>
           </div>
         </section>
