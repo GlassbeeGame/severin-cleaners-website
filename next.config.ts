@@ -23,7 +23,6 @@ const nextConfig: NextConfig = {
     pagesBufferLength: 5,
   },
   experimental: {
-    optimizeCss: true,
     optimizePackageImports: ['@/components'],
   },
 };
