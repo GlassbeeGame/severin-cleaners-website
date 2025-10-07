@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CommercialFAQSection from "./CommercialFAQSection";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateServiceSchema } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -50,10 +52,20 @@ export const metadata: Metadata = {
 };
 
 export default function CommercialjunkremovalsandiegoPage() {
+  const serviceSchema = generateServiceSchema({
+    name: "Commercial Junk Removal San Diego",
+    description: "Professional commercial junk removal for offices, retail stores, warehouses. Business cleanouts with disposal documentation and after-hours service.",
+    url: "https://severincleaners.com/commercial-junk-removal-san-diego",
+    serviceType: "Commercial Junk Removal Service",
+    areaServed: "San Diego County, CA",
+  });
+
   return (
-    <div className={`${inter.variable} font-sans antialiased`}>
-      <Header />
-      <main>
+    <>
+      <SchemaMarkup schema={serviceSchema} />
+      <div className={`${inter.variable} font-sans antialiased`}>
+        <Header />
+        <main>
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
         <div className="container mx-auto px-4">
@@ -435,6 +447,7 @@ export default function CommercialjunkremovalsandiegoPage() {
       </section>
       </main>
       <Footer />
-    </div>
+      </div>
+    </>
   );
 }

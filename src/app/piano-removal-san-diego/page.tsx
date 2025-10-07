@@ -2,6 +2,8 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateServiceSchema } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -49,10 +51,20 @@ export const metadata: Metadata = {
 };
 
 export default function PianoremovalsandiegoPage() {
+  const serviceSchema = generateServiceSchema({
+    name: "Piano Removal San Diego",
+    description: "Professional piano removal for upright pianos, grand pianos, and musical instruments. Careful handling with specialized equipment.",
+    url: "https://severincleaners.com/piano-removal-san-diego",
+    serviceType: "Piano Removal Service",
+    areaServed: "San Diego County, CA",
+  });
+
   return (
-    <div className={`${inter.variable} font-sans antialiased`}>
-      <Header />
-      <main>
+    <>
+      <SchemaMarkup schema={serviceSchema} />
+      <div className={`${inter.variable} font-sans antialiased`}>
+        <Header />
+        <main>
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
         <div className="container mx-auto px-4">
@@ -235,8 +247,9 @@ export default function PianoremovalsandiegoPage() {
           </div>
         </div>
       </section>
-      </main>
-      <Footer />
-    </div>
+        </main>
+        <Footer />
+      </div>
+    </>
   );
 }

@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FurnitureFAQSection from "./FurnitureFAQSection";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateServiceSchema } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -24,10 +26,19 @@ export const metadata: Metadata = {
 };
 
 export default function FurnitureRemovalPage() {
+  const serviceSchema = generateServiceSchema({
+    name: "Furniture Removal San Diego",
+    description: "Professional furniture removal in San Diego. We remove couches, sofas, desks, beds, and all furniture types. Same-day service available.",
+    url: "https://severincleaners.com/furniture-removal-san-diego",
+    serviceType: "Furniture Removal Service",
+    areaServed: "San Diego County, CA",
+  });
 
   return (
-    <div className={`${inter.variable} font-sans antialiased`}>
-      <Header />
+    <>
+      <SchemaMarkup schema={serviceSchema} />
+      <div className={`${inter.variable} font-sans antialiased`}>
+        <Header />
 
       <main>
         {/* Hero Section */}
@@ -417,7 +428,8 @@ export default function FurnitureRemovalPage() {
         </section>
       </main>
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </>
   );
 }

@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ApplianceFAQSection from "./ApplianceFAQSection";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateServiceSchema } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -24,10 +26,19 @@ export const metadata: Metadata = {
 };
 
 export default function ApplianceRemovalPage() {
+  const serviceSchema = generateServiceSchema({
+    name: "Appliance Removal San Diego",
+    description: "Professional appliance removal in San Diego. We remove refrigerators, washers, dryers, stoves, and all appliance types. Eco-friendly disposal.",
+    url: "https://severincleaners.com/appliance-removal-san-diego",
+    serviceType: "Appliance Removal Service",
+    areaServed: "San Diego County, CA",
+  });
 
   return (
-    <div className={`${inter.variable} font-sans antialiased`}>
-      <Header />
+    <>
+      <SchemaMarkup schema={serviceSchema} />
+      <div className={`${inter.variable} font-sans antialiased`}>
+        <Header />
 
       <main>
         {/* Hero Section */}
@@ -383,7 +394,8 @@ export default function ApplianceRemovalPage() {
         </section>
       </main>
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </>
   );
 }

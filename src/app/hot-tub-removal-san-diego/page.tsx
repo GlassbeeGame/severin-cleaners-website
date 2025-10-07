@@ -4,6 +4,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 import HotTubFAQSection from "./HotTubFAQSection";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateServiceSchema } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -28,10 +30,20 @@ export const metadata: Metadata = {
 };
 
 export default function HotTubRemovalSanDiegoPage() {
+  const serviceSchema = generateServiceSchema({
+    name: "Hot Tub Removal San Diego",
+    description: "Professional hot tub removal for spa removal, Jacuzzi disposal, and pool equipment. Licensed specialists for portable and built-in hot tubs.",
+    url: "https://severincleaners.com/hot-tub-removal-san-diego",
+    serviceType: "Hot Tub Removal Service",
+    areaServed: "San Diego County, CA",
+  });
+
   return (
-    <div className={`${inter.variable} font-sans antialiased`}>
-      <Header />
-      <main>
+    <>
+      <SchemaMarkup schema={serviceSchema} />
+      <div className={`${inter.variable} font-sans antialiased`}>
+        <Header />
+        <main>
         {/* Hero Section */}
         <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 py-20">
           <div className="container mx-auto px-4">
@@ -391,7 +403,8 @@ export default function HotTubRemovalSanDiegoPage() {
 
         <HotTubFAQSection />
       </main>
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </>
   );
 }

@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ConstructionFAQSection from "./ConstructionFAQSection";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateServiceSchema } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -24,9 +26,19 @@ export const metadata: Metadata = {
 };
 
 export default function ConstructionDebrisRemovalPage() {
+  const serviceSchema = generateServiceSchema({
+    name: "Construction Debris Removal San Diego",
+    description: "Professional construction debris removal for contractors. Fast, reliable service for renovation debris, demolition materials, and construction waste.",
+    url: "https://severincleaners.com/construction-debris-removal-san-diego",
+    serviceType: "Construction Debris Removal Service",
+    areaServed: "San Diego County, CA",
+  });
+
   return (
-    <div className={`${inter.variable} font-sans antialiased`}>
-      <Header />
+    <>
+      <SchemaMarkup schema={serviceSchema} />
+      <div className={`${inter.variable} font-sans antialiased`}>
+        <Header />
 
       <main>
         {/* Hero Section */}
@@ -335,7 +347,8 @@ export default function ConstructionDebrisRemovalPage() {
         </section>
       </main>
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </>
   );
 }

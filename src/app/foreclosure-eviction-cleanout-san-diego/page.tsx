@@ -1,7 +1,9 @@
-import type { Metadata } from "next";
+import type { Metadata} from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ForeclosureFAQSection from "./ForeclosureFAQSection";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateServiceSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Foreclosure & Eviction Cleanout Services San Diego - Fast & Discreet",
@@ -21,9 +23,19 @@ export const metadata: Metadata = {
 };
 
 export default function ForeclosureEvictionCleanoutPage() {
+  const serviceSchema = generateServiceSchema({
+    name: "Foreclosure & Eviction Cleanout San Diego",
+    description: "Professional foreclosure and eviction cleanout services for banks, landlords, and property managers. Discreet, fast turnaround service.",
+    url: "https://severincleaners.com/foreclosure-eviction-cleanout-san-diego",
+    serviceType: "Foreclosure Cleanout Service",
+    areaServed: "San Diego County, CA",
+  });
+
   return (
-    <div className="min-h-screen bg-background">
-      <Header />
+    <>
+      <SchemaMarkup schema={serviceSchema} />
+      <div className="min-h-screen bg-background">
+        <Header />
       <main>
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-blue-900 to-blue-700 py-20">
@@ -698,7 +710,8 @@ export default function ForeclosureEvictionCleanoutPage() {
         </section>
       </main>
       <Footer />
-    </div>
+      </div>
+    </>
   );
 }
 

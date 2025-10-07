@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CleanoutFAQSection from "./CleanoutFAQSection";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateServiceSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Cleanout Services San Diego - Professional Junk Hauling & Property Cleanouts",
@@ -21,9 +23,19 @@ export const metadata: Metadata = {
 };
 
 export default function CleanoutServicesPage() {
+  const serviceSchema = generateServiceSchema({
+    name: "Cleanout Services San Diego",
+    description: "Expert cleanout services for garages, attics, basements, sheds, storage units, and full properties. Same-day junk hauling available.",
+    url: "https://severincleaners.com/cleanout-services-san-diego",
+    serviceType: "Property Cleanout Service",
+    areaServed: "San Diego County, CA",
+  });
+
   return (
-    <div className="min-h-screen bg-background">
-      <Header />
+    <>
+      <SchemaMarkup schema={serviceSchema} />
+      <div className="min-h-screen bg-background">
+        <Header />
       <main>
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-blue-900 to-blue-700 py-20">
@@ -491,6 +503,7 @@ export default function CleanoutServicesPage() {
         </section>
       </main>
       <Footer />
-    </div>
+      </div>
+    </>
   );
 }

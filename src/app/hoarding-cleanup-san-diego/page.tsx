@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import HoardingFAQSection from "./HoardingFAQSection";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateServiceSchema } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -24,9 +26,19 @@ export const metadata: Metadata = {
 };
 
 export default function HoardingCleanupPage() {
+  const serviceSchema = generateServiceSchema({
+    name: "Hoarding Cleanup San Diego",
+    description: "Compassionate hoarding cleanup services with professional organizing. Judgment-free, confidential hoarding junk removal.",
+    url: "https://severincleaners.com/hoarding-cleanup-san-diego",
+    serviceType: "Hoarding Cleanup Service",
+    areaServed: "San Diego County, CA",
+  });
+
   return (
-    <div className={`${inter.variable} font-sans antialiased`}>
-      <Header />
+    <>
+      <SchemaMarkup schema={serviceSchema} />
+      <div className={`${inter.variable} font-sans antialiased`}>
+        <Header />
 
       <main>
         {/* Hero Section */}
@@ -329,7 +341,8 @@ export default function HoardingCleanupPage() {
         <HoardingFAQSection />
       </main>
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </>
   );
 }

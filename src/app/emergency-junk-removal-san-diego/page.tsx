@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import EmergencyFAQSection from "./EmergencyFAQSection";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateServiceSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Emergency Junk Removal San Diego - Same Day & Last Minute Service",
@@ -21,10 +23,19 @@ export const metadata: Metadata = {
 };
 
 export default function EmergencyJunkRemovalPage() {
+  const serviceSchema = generateServiceSchema({
+    name: "Emergency Junk Removal San Diego",
+    description: "Emergency junk removal service for urgent situations. Same-day, weekend, and immediate dispatch service available throughout San Diego County.",
+    url: "https://severincleaners.com/emergency-junk-removal-san-diego",
+    serviceType: "Emergency Junk Removal Service",
+    areaServed: "San Diego County, CA",
+  });
 
   return (
-    <div className="min-h-screen bg-background">
-      <Header />
+    <>
+      <SchemaMarkup schema={serviceSchema} />
+      <div className="min-h-screen bg-background">
+        <Header />
       <main>
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-blue-900 to-blue-700 py-20">
@@ -508,7 +519,8 @@ export default function EmergencyJunkRemovalPage() {
         </section>
       </main>
       <Footer />
-    </div>
+      </div>
+    </>
   );
 }
 

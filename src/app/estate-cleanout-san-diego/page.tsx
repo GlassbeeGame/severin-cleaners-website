@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import EstateFAQSection from "./EstateFAQSection";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateServiceSchema } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -24,9 +26,19 @@ export const metadata: Metadata = {
 };
 
 export default function EstateCleanoutPage() {
+  const serviceSchema = generateServiceSchema({
+    name: "Estate Cleanout San Diego",
+    description: "Compassionate estate cleanout services in San Diego. Professional probate cleanout, senior downsizing, and inheritance property cleanout with dignity and care.",
+    url: "https://severincleaners.com/estate-cleanout-san-diego",
+    serviceType: "Estate Cleanout Service",
+    areaServed: "San Diego County, CA",
+  });
+
   return (
-    <div className={`${inter.variable} font-sans antialiased`}>
-      <Header />
+    <>
+      <SchemaMarkup schema={serviceSchema} />
+      <div className={`${inter.variable} font-sans antialiased`}>
+        <Header />
 
       <main>
         {/* Hero Section */}
@@ -336,6 +348,7 @@ export default function EstateCleanoutPage() {
       </main>
 
       <Footer />
-    </div>
+      </div>
+    </>
   );
 }
