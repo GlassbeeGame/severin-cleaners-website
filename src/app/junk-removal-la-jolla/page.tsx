@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import LaJollaFAQSection from "./LaJollaFAQSection";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -25,10 +27,29 @@ export const metadata: Metadata = {
 };
 
 export default function JunkRemovalLaJollaPage() {
+  const serviceSchema = generateLocationServiceSchema({
+    locationName: "La Jolla",
+    serviceName: "Junk Removal",
+    description: "Premium La Jolla junk removal for estates, luxury homes, Bird Rock, Muirlands. Discreet service with unmarked vehicles. Expert luxury furniture handling.",
+    url: "https://severincleaners.com/junk-removal-la-jolla",
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
+    { name: "La Jolla Junk Removal", url: "https://severincleaners.com/junk-removal-la-jolla" },
+  ]);
+
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [serviceSchema, breadcrumbSchema],
+  };
 
   return (
-    <div className={`${inter.variable} font-sans antialiased`}>
-      <Header />
+    <>
+      <SchemaMarkup schema={combinedSchema} />
+      <div className={`${inter.variable} font-sans antialiased`}>
+        <Header />
 
       <main>
         {/* Hero Section */}
@@ -355,7 +376,8 @@ export default function JunkRemovalLaJollaPage() {
         </section>
       </main>
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </>
   );
 }

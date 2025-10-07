@@ -2,6 +2,24 @@
 
 import { useState } from 'react';
 
+/**
+ * GOOGLE REVIEWS - Manual Update Instructions
+ * ============================================
+ * To update reviews from Google My Business:
+ * 1. Go to your GMB dashboard or reviews page
+ * 2. Copy reviews you want to feature
+ * 3. Update the testimonials array below with:
+ *    - name: Customer's name from Google review
+ *    - location: Their location if visible
+ *    - service: The service they reviewed (estimate from review text)
+ *    - rating: Star rating (typically 5)
+ *    - text: The review text from Google
+ *    - date: Review date from Google
+ *    - googleReview: true (to show Google icon)
+ *
+ * This approach maintains SEO benefits without requiring API integration.
+ */
+
 const testimonials = [
   {
     id: 1,
@@ -10,7 +28,8 @@ const testimonials = [
     service: "Estate Cleanout",
     rating: 5,
     text: "Severin Cleaners made a difficult time so much easier. They handled my mother's estate cleanout with compassion and professionalism. Everything was sorted, donated, or disposed of properly. Highly recommend!",
-    date: "November 2024"
+    date: "November 2024",
+    googleReview: true
   },
   {
     id: 2,
@@ -19,7 +38,8 @@ const testimonials = [
     service: "Construction Debris",
     rating: 5,
     text: "After our home renovation, we had tons of debris. Severin's team arrived same-day and cleared everything out in just 2 hours. Their pricing was fair and transparent. Will definitely use again!",
-    date: "October 2024"
+    date: "October 2024",
+    googleReview: true
   },
   {
     id: 3,
@@ -28,7 +48,8 @@ const testimonials = [
     service: "Furniture Removal",
     rating: 5,
     text: "Needed old furniture removed before moving. They were punctual, careful with my walls and floors, and handled everything professionally. The team even helped me move a few things around. Excellent service!",
-    date: "October 2024"
+    date: "October 2024",
+    googleReview: true
   },
   {
     id: 4,
@@ -37,7 +58,8 @@ const testimonials = [
     service: "Garage Cleanout",
     rating: 5,
     text: "20 years of accumulated junk gone in one morning! The crew was efficient, friendly, and took care to salvage items for donation. My garage is finally usable again. Thank you Severin Cleaners!",
-    date: "September 2024"
+    date: "September 2024",
+    googleReview: true
   },
   {
     id: 5,
@@ -46,7 +68,8 @@ const testimonials = [
     service: "Hoarding Cleanup",
     rating: 5,
     text: "They handled a sensitive situation with incredible discretion and care. The team was non-judgmental, efficient, and transformed the property completely. Can't thank them enough for their compassionate service.",
-    date: "September 2024"
+    date: "September 2024",
+    googleReview: true
   },
   {
     id: 6,
@@ -55,7 +78,8 @@ const testimonials = [
     service: "Commercial Junk Removal",
     rating: 5,
     text: "We needed our office cleared out quickly for new tenants. Severin Cleaners worked around our schedule, completed everything in one day, and left the space spotless. Professional and reliable!",
-    date: "August 2024"
+    date: "August 2024",
+    googleReview: true
   }
 ];
 
@@ -88,12 +112,25 @@ export default function Testimonials() {
 
         <div className="relative max-w-4xl mx-auto">
           <div className="bg-gray-50 rounded-2xl shadow-xl p-8 md:p-12">
-            <div className="flex items-start gap-2 mb-6">
-              {[...Array(5)].map((_, i) => (
-                <svg key={i} className="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
-                </svg>
-              ))}
+            <div className="flex items-center justify-between mb-6">
+              <div className="flex items-start gap-2">
+                {[...Array(5)].map((_, i) => (
+                  <svg key={i} className="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                  </svg>
+                ))}
+              </div>
+              {testimonials[currentIndex].googleReview && (
+                <div className="flex items-center gap-2 bg-white px-3 py-1.5 rounded-full shadow-sm">
+                  <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none">
+                    <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                    <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                    <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+                    <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+                  </svg>
+                  <span className="text-xs font-medium text-gray-700">Google Review</span>
+                </div>
+              )}
             </div>
 
             <blockquote className="text-xl md:text-2xl text-gray-900 mb-6 leading-relaxed">
@@ -166,12 +203,23 @@ export default function Testimonials() {
           </div>
         </div>
 
-        <div className="text-center mt-12">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-12">
           <a
             href="#contact"
             className="btn btn-primary text-lg px-8 py-4"
           >
             Get Your Free Quote Today
+          </a>
+          <a
+            href="https://g.page/r/CbxDDPSHK9sjEAE/review"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-white border-2 border-blue-500 text-blue-600 font-bold px-8 py-4 rounded-lg hover:bg-blue-50 transition-all duration-200 text-lg shadow-lg hover:shadow-xl"
+          >
+            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+            </svg>
+            Review Us on Google
           </a>
         </div>
       </div>

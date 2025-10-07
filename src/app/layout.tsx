@@ -54,16 +54,16 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Junk Removal San Diego | Same Day Service | Severin Cleaners",
     description: "San Diego's top rated junk removal service. Professional, licensed & insured. Same day service available. Call (619) 750-0114 for free quote.",
-    images: ["https://severincleaners.com/twitter-image.jpg"],
+    images: ["https://severincleaners.com/og-image.jpg"],
   },
   alternates: {
     canonical: "https://severincleaners.com",
   },
   other: {
     "geo.region": "US-CA",
-    "geo.placename": "El Cajon",
-    "geo.position": "32.7948;-116.9625",
-    "ICBM": "32.7948, -116.9625",
+    "geo.placename": "La Mesa",
+    "geo.position": "32.7781;-117.0229",
+    "ICBM": "32.7781, -117.0229",
   },
 };
 

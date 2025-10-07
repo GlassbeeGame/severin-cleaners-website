@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SameDayFAQSection from "./SameDayFAQSection";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -24,9 +26,39 @@ export const metadata: Metadata = {
 };
 
 export default function SameDayJunkRemovalPage() {
+  const serviceSchema = generateServiceSchema({
+    name: "Same Day Junk Removal San Diego",
+    description: "Fast same day junk removal in San Diego. Available 7 days, arrive within hours. No rush fees. Starting at $175.",
+    url: "https://severincleaners.com/same-day-junk-removal-san-diego",
+    serviceType: "Same Day Junk Removal",
+    areaServed: [
+      "San Diego",
+      "El Cajon",
+      "La Jolla",
+      "Pacific Beach",
+      "Chula Vista",
+      "La Mesa",
+      "Santee",
+      "Oceanside",
+    ],
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Services", url: "https://severincleaners.com/services" },
+    { name: "Same Day Junk Removal", url: "https://severincleaners.com/same-day-junk-removal-san-diego" },
+  ]);
+
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [serviceSchema, breadcrumbSchema],
+  };
+
   return (
-    <div className={`${inter.variable} font-sans antialiased`}>
-      <Header />
+    <>
+      <SchemaMarkup schema={combinedSchema} />
+      <div className={`${inter.variable} font-sans antialiased`}>
+        <Header />
 
       <main>
         {/* Hero Section */}
@@ -427,7 +459,8 @@ export default function SameDayJunkRemovalPage() {
         <SameDayFAQSection />
       </main>
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </>
   );
 }

@@ -51,7 +51,14 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                 </svg>
-                <span className="text-white/90">San Diego, CA</span>
+                <a
+                  href="https://share.google/OzHkUoiWXUIaJ20K6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/90 hover:text-blue-400 transition-colors duration-200"
+                >
+                  8900 Grossmont Blvd, La Mesa, CA 91941
+                </a>
               </div>
             </div>
           </div>
@@ -186,10 +193,34 @@ export default function Footer() {
               © 2024 Severin Cleaners. All rights reserved.
             </div>
 
-            <div className="flex items-center gap-6 text-sm">
+            <div className="flex flex-wrap items-center justify-center sm:justify-end gap-3 sm:gap-6 text-sm">
               <span className="text-white/70">Licensed & Insured</span>
-              <span className="text-white/70">•</span>
+              <span className="text-white/70 hidden sm:inline">•</span>
               <span className="text-white/70">Local Business</span>
+              <span className="text-white/70 hidden sm:inline">•</span>
+              <a
+                href="https://share.google/OzHkUoiWXUIaJ20K6"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:text-blue-300 transition-colors duration-200 font-medium flex items-center gap-1"
+              >
+                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12.545,10.239v3.821h5.445c-0.712,2.315-2.647,3.972-5.445,3.972c-3.332,0-6.033-2.701-6.033-6.032s2.701-6.032,6.033-6.032c1.498,0,2.866,0.549,3.921,1.453l2.814-2.814C17.503,2.988,15.139,2,12.545,2C7.021,2,2.543,6.477,2.543,12s4.478,10,10.002,10c8.396,0,10.249-7.85,9.426-11.748L12.545,10.239z"/>
+                </svg>
+                Find us on Google
+              </a>
+              <span className="text-white/70 hidden sm:inline">•</span>
+              <a
+                href="https://g.page/r/CbxDDPSHK9sjEAE/review"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-yellow-400 hover:text-yellow-300 transition-colors duration-200 font-medium flex items-center gap-1"
+              >
+                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                </svg>
+                Review Us
+              </a>
             </div>
           </div>
         </div>
