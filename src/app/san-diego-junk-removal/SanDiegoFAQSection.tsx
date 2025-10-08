@@ -2,12 +2,74 @@
 
 import { useState } from 'react';
 
+const faqs = [
+  {
+    question: "How much does junk removal cost in San Diego?",
+    answer: `Our San Diego junk removal pricing is transparent and based on trailer volume:
+
+• Single Item Pickup: Starting at $175
+• 1/4 Trailer Load: $249
+• 3/8 Trailer Load: $319
+• 1/2 Trailer Load: $349
+• 5/8 Trailer Load: $366
+• 3/4 Trailer Load: $429
+• 7/8 Trailer Load: $462
+• Full Trailer Load: $495
+
+For large projects or custom needs, please call (619) 750-0114 for a tailored quote.`
+  },
+  {
+    question: "Do you provide same-day junk hauling in San Diego?",
+    answer: "Yes! We offer same-day junk hauling San Diego service when you call before 2 PM. This is especially helpful for urgent cleanouts, last-minute moves, renovation deadlines, and property management emergencies throughout San Diego County—from coastal communities to East County and North County inland areas."
+  },
+  {
+    question: "Can you remove heavy items like couches and appliances?",
+    answer: `Absolutely! Our junk pickup San Diego team specializes in removing heavy furniture and appliances from homes and businesses throughout San Diego County. We safely handle:
+
+• Sofas, sectionals, mattresses, and bedroom sets
+• Refrigerators, washers, dryers, and kitchen appliances
+• Hot tubs, pool equipment, and outdoor furniture
+• Exercise equipment and home gym setups
+• Office furniture and commercial equipment
+• Construction debris and renovation materials
+
+Our crew handles all the heavy lifting and navigates stairs, tight spaces, and challenging property access throughout San Diego neighborhoods.`
+  },
+  {
+    question: "What types of junk do you not remove?",
+    answer: "We handle all standard household items, furniture, appliances, construction debris, and yard waste in accordance with San Diego County regulations. If you're unsure about a specific item, please call us at (619) 750-0114 and we can discuss it — some items require special handling, and we'll help coordinate so you're fully taken care of."
+  },
+  {
+    question: "Are you licensed and insured for junk removal in San Diego County?",
+    answer: "Yes! Severin Cleaners is fully licensed and insured to provide trash removal San Diego services throughout all of San Diego County. We carry comprehensive liability insurance to protect your property during removal, and we dispose of all items in accordance with local disposal regulations. Our team follows all San Diego County waste handling requirements and environmental compliance standards."
+  }
+];
+
 export default function SanDiegoFAQSection() {
   const [openFAQ, setOpenFAQ] = useState<number | null>(null);
 
+  // Generate FAQ schema
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
+
   return (
-    <section className="py-16 bg-white">
-      <div className="container mx-auto px-4">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
             Frequently Asked Questions - San Diego Junk Removal

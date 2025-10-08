@@ -125,9 +125,9 @@ export default function SanDiegoJunkRemovalPage() {
                   <div>
                     <h4 className="font-bold text-blue-800 mb-2">Coastal San Diego</h4>
                     <ul className="text-blue-800 space-y-1">
-                      <li>La Jolla & Pacific Beach</li>
-                      <li>Del Mar & Solana Beach</li>
-                      <li>Point Loma & Ocean Beach</li>
+                      <li><a href="/junk-removal-la-jolla" className="hover:underline">La Jolla</a> & <a href="/junk-removal-pacific-beach" className="hover:underline">Pacific Beach</a></li>
+                      <li><a href="/junk-removal-del-mar" className="hover:underline">Del Mar</a> & Solana Beach</li>
+                      <li><a href="/junk-removal-point-loma" className="hover:underline">Point Loma</a> & Ocean Beach</li>
                       <li>Coronado & Imperial Beach</li>
                     </ul>
                   </div>
@@ -135,24 +135,24 @@ export default function SanDiegoJunkRemovalPage() {
                     <h4 className="font-bold text-blue-800 mb-2">Central San Diego</h4>
                     <ul className="text-blue-800 space-y-1">
                       <li>Downtown & Gaslamp Quarter</li>
-                      <li>North Park & Hillcrest</li>
-                      <li>Mission Valley & Kearny Mesa</li>
-                      <li>Clairemont & Linda Vista</li>
+                      <li><a href="/junk-removal-north-park" className="hover:underline">North Park</a> & <a href="/junk-removal-hillcrest" className="hover:underline">Hillcrest</a></li>
+                      <li>Mission Valley & <a href="/junk-removal-kearny-mesa" className="hover:underline">Kearny Mesa</a></li>
+                      <li><a href="/junk-removal-clairemont" className="hover:underline">Clairemont</a> & Linda Vista</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold text-blue-800 mb-2">East County</h4>
                     <ul className="text-blue-800 space-y-1">
-                      <li>El Cajon & La Mesa</li>
-                      <li>Santee & Lakeside</li>
-                      <li>Spring Valley & Lemon Grove</li>
+                      <li><a href="/junk-removal-el-cajon" className="hover:underline">El Cajon</a> & <a href="/junk-removal-la-mesa" className="hover:underline">La Mesa</a></li>
+                      <li><a href="/junk-removal-santee" className="hover:underline">Santee</a> & <a href="/junk-removal-lakeside" className="hover:underline">Lakeside</a></li>
+                      <li><a href="/junk-removal-spring-valley" className="hover:underline">Spring Valley</a> & <a href="/junk-removal-lemon-grove" className="hover:underline">Lemon Grove</a></li>
                       <li>Alpine & Jamul</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold text-blue-800 mb-2">South Bay</h4>
                     <ul className="text-blue-800 space-y-1">
-                      <li>Chula Vista & National City</li>
+                      <li><a href="/junk-removal-chula-vista" className="hover:underline">Chula Vista</a> & National City</li>
                       <li>Bonita & Eastlake</li>
                       <li>Otay Ranch & San Ysidro</li>
                       <li>Paradise Hills & Skyline</li>
@@ -161,7 +161,7 @@ export default function SanDiegoJunkRemovalPage() {
                   <div>
                     <h4 className="font-bold text-blue-800 mb-2">North County Coastal</h4>
                     <ul className="text-blue-800 space-y-1">
-                      <li>Oceanside & Carlsbad</li>
+                      <li><a href="/junk-removal-oceanside" className="hover:underline">Oceanside</a> & Carlsbad</li>
                       <li>Encinitas & Cardiff</li>
                       <li>Leucadia & Olivenhain</li>
                     </ul>
@@ -169,15 +169,15 @@ export default function SanDiegoJunkRemovalPage() {
                   <div>
                     <h4 className="font-bold text-blue-800 mb-2">North County Inland</h4>
                     <ul className="text-blue-800 space-y-1">
-                      <li>Poway & Rancho Bernardo</li>
-                      <li>Rancho Santa Fe & Fairbanks Ranch</li>
-                      <li>Vista & San Marcos</li>
+                      <li><a href="/junk-removal-poway" className="hover:underline">Poway</a> & Rancho Bernardo</li>
+                      <li><a href="/junk-removal-rancho-santa-fe" className="hover:underline">Rancho Santa Fe</a> & <a href="/junk-removal-carmel-valley" className="hover:underline">Carmel Valley</a></li>
+                      <li><a href="/junk-removal-vista" className="hover:underline">Vista</a> & San Marcos</li>
                       <li>Escondido & Valley Center</li>
                     </ul>
                   </div>
                 </div>
                 <div className="mt-4 text-center">
-                  <p className="text-blue-700 font-semibold">📞 Call (619) 750-0114 for same-day service in your area</p>
+                  <p className="text-blue-700 font-semibold">📞 Call (619) 750-0114 for <a href="/same-day-junk-removal-san-diego" className="hover:underline">same-day service</a> in your area</p>
                 </div>
               </div>
 
@@ -197,6 +197,160 @@ export default function SanDiegoJunkRemovalPage() {
                 </div>
               </div>
 
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">How Junk Removal Pricing Works in San Diego</h3>
+              <p className="text-lg text-gray-700 mb-4">
+                Our <strong>San Diego junk hauling</strong> pricing is straightforward and volume-based—you pay for the space your items occupy in our trailer, not by the hour or item count. This transparent approach means you know the cost before we start.
+              </p>
+
+              <p className="text-lg text-gray-700 mb-4">
+                Pricing varies based on several factors: the volume of junk, property access (stairs, elevators, parking distance), item weight (concrete and appliances cost more than furniture), and item type (some materials require special handling). Our standard pricing ranges from <strong>$175 for single item pickup</strong> to <strong>$495 for a full trailer load</strong>—all prices include labor, hauling, and proper disposal at licensed San Diego County facilities.
+              </p>
+
+              <p className="text-lg text-gray-700 mb-6">
+                We guarantee no hidden fees. The quote we provide is the price you pay. If the job takes longer than expected or requires extra effort, the price stays the same. This is why San Diego residents trust us for <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture removal</a>, and all types of <strong>junk removal San Diego</strong> services.
+              </p>
+
+              {/* Pricing Table */}
+              <div className="overflow-x-auto mb-8">
+                <table className="w-full bg-white shadow-lg rounded-lg overflow-hidden">
+                  <thead className="bg-blue-600 text-white">
+                    <tr>
+                      <th className="px-6 py-4 text-left font-semibold">Service Level</th>
+                      <th className="px-6 py-4 text-left font-semibold">Volume</th>
+                      <th className="px-6 py-4 text-left font-semibold">Price</th>
+                      <th className="px-6 py-4 text-left font-semibold">Best For</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-200">
+                    <tr className="hover:bg-gray-50">
+                      <td className="px-6 py-4 font-medium">Single Item</td>
+                      <td className="px-6 py-4">1 item</td>
+                      <td className="px-6 py-4 font-bold text-blue-600">$175</td>
+                      <td className="px-6 py-4">Quick pickups</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50">
+                      <td className="px-6 py-4 font-medium">1/4 Trailer</td>
+                      <td className="px-6 py-4">5-10 items</td>
+                      <td className="px-6 py-4 font-bold text-blue-600">$249</td>
+                      <td className="px-6 py-4">Small cleanouts</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50">
+                      <td className="px-6 py-4 font-medium">3/8 Trailer</td>
+                      <td className="px-6 py-4">Quarter room</td>
+                      <td className="px-6 py-4 font-bold text-blue-600">$319</td>
+                      <td className="px-6 py-4">Garage corners</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50">
+                      <td className="px-6 py-4 font-medium">1/2 Trailer</td>
+                      <td className="px-6 py-4">Half trailer</td>
+                      <td className="px-6 py-4 font-bold text-blue-600">$349</td>
+                      <td className="px-6 py-4">Room cleanouts</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50">
+                      <td className="px-6 py-4 font-medium">5/8 Trailer</td>
+                      <td className="px-6 py-4">Over half</td>
+                      <td className="px-6 py-4 font-bold text-blue-600">$366</td>
+                      <td className="px-6 py-4">Large rooms</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50">
+                      <td className="px-6 py-4 font-medium">3/4 Trailer</td>
+                      <td className="px-6 py-4">Most of trailer</td>
+                      <td className="px-6 py-4 font-bold text-blue-600">$429</td>
+                      <td className="px-6 py-4">Multiple rooms</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50">
+                      <td className="px-6 py-4 font-medium">7/8 Trailer</td>
+                      <td className="px-6 py-4">Nearly full</td>
+                      <td className="px-6 py-4 font-bold text-blue-600">$462</td>
+                      <td className="px-6 py-4">Small house</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50 bg-blue-50">
+                      <td className="px-6 py-4 font-medium">Full Load</td>
+                      <td className="px-6 py-4">Full trailer</td>
+                      <td className="px-6 py-4 font-bold text-blue-600">$495</td>
+                      <td className="px-6 py-4">Whole house</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div className="bg-orange-50 border-l-4 border-orange-500 p-6 mb-8">
+                <p className="text-gray-800 font-semibold mb-2">⏰ Same-Day Service Available</p>
+                <p className="text-gray-700">
+                  Call before 2 PM for same-day <strong>junk removal San Diego</strong> service. Same-day slots fill quickly—contact us early at <a href="tel:6197500114" className="text-blue-600 font-bold hover:underline">(619) 750-0114</a> to secure your appointment.
+                </p>
+              </div>
+
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">When You Need Professional Junk Removal</h3>
+              <p className="text-lg text-gray-700 mb-4">
+                Professional <strong>San Diego junk removal</strong> becomes essential in many life situations. Here's when San Diego residents and businesses call us:
+              </p>
+
+              <div className="grid md:grid-cols-2 gap-6 mb-8">
+                <div className="bg-gray-50 rounded-lg p-6">
+                  <h4 className="text-xl font-bold mb-3 text-blue-600">Moving & Downsizing</h4>
+                  <p className="text-gray-700 mb-3">
+                    Moving to a smaller home in San Diego? Our <a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">cleanout services</a> help you declutter before the move. We handle unwanted furniture, appliances, and boxes of belongings you don't want to take with you—clearing space and reducing moving truck costs.
+                  </p>
+                </div>
+                <div className="bg-gray-50 rounded-lg p-6">
+                  <h4 className="text-xl font-bold mb-3 text-blue-600">Estate Situations</h4>
+                  <p className="text-gray-700 mb-3">
+                    Handling an estate after a loved one passes requires sensitivity and efficiency. Our <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanout San Diego</a> service provides compassionate property clearing with proper documentation for probate requirements and estate settlement.
+                  </p>
+                </div>
+                <div className="bg-gray-50 rounded-lg p-6">
+                  <h4 className="text-xl font-bold mb-3 text-blue-600">Property Sale Preparation</h4>
+                  <p className="text-gray-700 mb-3">
+                    Selling a San Diego property? Buyers want clean, empty spaces. We clear out unwanted items, remove old furniture and appliances, and help you stage properties for maximum sale appeal—whether it's a <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> condo or <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a> home.
+                  </p>
+                </div>
+                <div className="bg-gray-50 rounded-lg p-6">
+                  <h4 className="text-xl font-bold mb-3 text-blue-600">HOA Violations</h4>
+                  <p className="text-gray-700 mb-3">
+                    Received an HOA notice about exterior clutter or garage overflow? San Diego HOAs enforce strict property standards. Our <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day junk removal San Diego</a> service helps you meet compliance deadlines quickly.
+                  </p>
+                </div>
+                <div className="bg-gray-50 rounded-lg p-6">
+                  <h4 className="text-xl font-bold mb-3 text-blue-600">Renovation Projects</h4>
+                  <p className="text-gray-700 mb-3">
+                    Remodeling your San Diego home or business? Our <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">construction debris removal</a> handles drywall, flooring, cabinets, and renovation waste—keeping your project site clean and safe.
+                  </p>
+                </div>
+                <div className="bg-gray-50 rounded-lg p-6">
+                  <h4 className="text-xl font-bold mb-3 text-blue-600">Emergency Situations</h4>
+                  <p className="text-gray-700 mb-3">
+                    Water damage, property damage, or sudden move-out requirements? Our <a href="/emergency-junk-removal-san-diego" className="text-blue-600 hover:underline">emergency junk removal</a> provides rapid response throughout San Diego County when time matters most.
+                  </p>
+                </div>
+              </div>
+
+              <div className="text-center bg-blue-600 text-white p-8 rounded-lg mb-8">
+                <h3 className="text-2xl font-bold mb-4">Get Your Free San Diego Junk Removal Quote</h3>
+                <p className="text-lg mb-6">
+                  Transparent pricing • Same-day service • Licensed & insured throughout San Diego County
+                </p>
+                <a
+                  href="tel:6197500114"
+                  className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors duration-200 inline-block"
+                >
+                  📞 Call Now: (619) 750-0114
+                </a>
+              </div>
+
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">What Happens to Your Junk</h3>
+              <p className="text-lg text-gray-700 mb-4">
+                All items we collect receive proper disposal following City of San Diego and San Diego County regulations. We don't just throw everything in a landfill—we follow responsible disposal practices that protect our community and environment.
+              </p>
+
+              <p className="text-lg text-gray-700 mb-4">
+                Every load is processed at licensed disposal facilities throughout San Diego County. Items that can be donated go to local charities. Materials that can be recycled are separated and sent to appropriate recycling centers. We maintain complete documentation of disposal—especially important for <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a> requiring probate documentation or property management companies needing disposal records.
+              </p>
+
+              <p className="text-lg text-gray-700 mb-6">
+                Some items require special handling beyond standard <strong>trash removal San Diego</strong> services. When we encounter such items, we coordinate with trusted professionals to ensure proper handling—because our commitment is making sure you're fully taken care of, even when it requires going beyond our core services. This is the comprehensive approach that makes us San Diego's trusted <strong>junk hauling San Diego</strong> service.
+              </p>
+
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Comprehensive San Diego Junk Removal Services</h3>
               <p className="text-lg text-gray-700 mb-4">
                 Our <strong>junk pickup San Diego</strong> service handles residential, commercial, and specialty cleanouts throughout San Diego County. We provide professional junk removal for:
@@ -206,23 +360,23 @@ export default function SanDiegoJunkRemovalPage() {
                 <div className="bg-gray-50 rounded-lg p-6">
                   <h4 className="text-xl font-bold mb-3 text-blue-600">Residential Services</h4>
                   <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                    <li><strong>Furniture Removal:</strong> Sofas, mattresses, tables, chairs, bedroom sets</li>
-                    <li><strong>Appliance Removal:</strong> Refrigerators, washers, dryers, stoves, dishwashers</li>
-                    <li><strong>Estate Cleanouts:</strong> Complete property clearing with sensitive handling</li>
-                    <li><strong>Hoarding Cleanup:</strong> Compassionate service for challenging situations</li>
-                    <li><strong>Garage & Basement Cleanouts:</strong> Total space reclamation projects</li>
+                    <li><strong><a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Furniture Removal</a>:</strong> Sofas, mattresses, tables, chairs, bedroom sets</li>
+                    <li><strong><a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Appliance Removal</a>:</strong> Refrigerators, washers, dryers, stoves, dishwashers</li>
+                    <li><strong><a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate Cleanouts</a>:</strong> Complete property clearing with sensitive handling</li>
+                    <li><strong><a href="/hoarding-cleanup-san-diego" className="text-blue-600 hover:underline">Hoarding Cleanup</a>:</strong> Compassionate service for challenging situations</li>
+                    <li><strong><a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">Garage & Basement Cleanouts</a>:</strong> Total space reclamation projects</li>
                     <li><strong>Yard Waste:</strong> Tree trimmings, landscaping debris, outdoor cleanup</li>
                   </ul>
                 </div>
                 <div className="bg-gray-50 rounded-lg p-6">
                   <h4 className="text-xl font-bold mb-3 text-green-600">Commercial Services</h4>
                   <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                    <li><strong>Office Cleanouts:</strong> Furniture, equipment, and document disposal</li>
+                    <li><strong><a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">Office Cleanouts</a>:</strong> Furniture, equipment, and document disposal</li>
                     <li><strong>Retail Space Clearing:</strong> Fixtures, inventory, and display removal</li>
                     <li><strong>Restaurant Equipment:</strong> Commercial appliances and kitchen gear</li>
-                    <li><strong>Construction Debris:</strong> Renovation materials, drywall, flooring</li>
+                    <li><strong><a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">Construction Debris</a>:</strong> Renovation materials, drywall, flooring</li>
                     <li><strong>Warehouse Clearing:</strong> Pallets, equipment, excess inventory</li>
-                    <li><strong>Property Management:</strong> Tenant cleanouts and turnover services</li>
+                    <li><strong><a href="/foreclosure-eviction-cleanout-san-diego" className="text-blue-600 hover:underline">Property Management</a>:</strong> Tenant cleanouts and turnover services</li>
                   </ul>
                 </div>
               </div>
@@ -235,22 +389,22 @@ export default function SanDiegoJunkRemovalPage() {
               <div className="bg-gray-50 rounded-lg p-6 mb-8">
                 <div className="grid md:grid-cols-3 gap-4">
                   <ul className="list-disc pl-6 space-y-1 text-gray-700">
-                    <li>Furniture of all types</li>
-                    <li>Appliances & electronics</li>
+                    <li><a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Furniture of all types</a></li>
+                    <li><a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Appliances & electronics</a></li>
                     <li>Mattresses & box springs</li>
-                    <li>Hot tubs & exercise equipment</li>
+                    <li><a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">Hot tubs</a> & exercise equipment</li>
                   </ul>
                   <ul className="list-disc pl-6 space-y-1 text-gray-700">
-                    <li>Construction debris</li>
+                    <li><a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">Construction debris</a></li>
                     <li>Yard waste & landscaping</li>
-                    <li>Office furniture & equipment</li>
+                    <li><a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">Office furniture & equipment</a></li>
                     <li>General household junk</li>
                   </ul>
                   <ul className="list-disc pl-6 space-y-1 text-gray-700">
-                    <li>Garage & basement clutter</li>
+                    <li>Garage & <a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">basement cleanouts</a></li>
                     <li>Storage unit cleanouts</li>
-                    <li>Tenant move-out debris</li>
-                    <li>Estate sale leftovers</li>
+                    <li><a href="/foreclosure-eviction-cleanout-san-diego" className="text-blue-600 hover:underline">Tenant move-out debris</a></li>
+                    <li><a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate sale leftovers</a></li>
                   </ul>
                 </div>
                 <p className="text-gray-700 mt-4 text-sm italic">
@@ -350,8 +504,35 @@ export default function SanDiegoJunkRemovalPage() {
               <p className="text-gray-600 text-sm">Business and commercial property cleanouts</p>
             </a>
             <a href="/emergency-junk-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+              <h4 className="font-semibold text-lg mb-2 text-blue-600">Emergency Service</h4>
+              <p className="text-gray-600 text-sm">Emergency and same-day junk removal</p>
+            </a>
+            <a href="/piano-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+              <h4 className="font-semibold text-lg mb-2 text-blue-600">Piano Removal</h4>
+              <p className="text-gray-600 text-sm">Specialized piano removal services</p>
+            </a>
+            <a href="/same-day-junk-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
               <h4 className="font-semibold text-lg mb-2 text-blue-600">Same-Day Service</h4>
-              <p className="text-gray-600 text-sm">Same-day junk removal available</p>
+              <p className="text-gray-600 text-sm">Fast same-day pickup available</p>
+            </a>
+            <a href="/junk-removal-cost-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+              <h4 className="font-semibold text-lg mb-2 text-blue-600">Pricing Information</h4>
+              <p className="text-gray-600 text-sm">Transparent junk removal pricing</p>
+            </a>
+            <a href="/services" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+              <h4 className="font-semibold text-lg mb-2 text-blue-600">All Services</h4>
+              <p className="text-gray-600 text-sm">View our complete service list</p>
+            </a>
+          </div>
+          <div className="text-center mt-8">
+            <p className="text-gray-700 mb-4">
+              Need a specific service? We handle all types of <strong>San Diego junk removal</strong> projects throughout the county.
+            </p>
+            <a
+              href="tel:6197500114"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-bold transition-colors inline-block"
+            >
+              📞 Call (619) 750-0114 for Your Custom Quote
             </a>
           </div>
         </div>
@@ -407,6 +588,21 @@ export default function SanDiegoJunkRemovalPage() {
             <a href="/junk-removal-vista" className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-500 hover:text-white transition-colors text-center">
               <span className="font-medium">Vista</span>
             </a>
+            <a href="/junk-removal-santee" className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-500 hover:text-white transition-colors text-center">
+              <span className="font-medium">Santee</span>
+            </a>
+            <a href="/junk-removal-lakeside" className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-500 hover:text-white transition-colors text-center">
+              <span className="font-medium">Lakeside</span>
+            </a>
+            <a href="/junk-removal-spring-valley" className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-500 hover:text-white transition-colors text-center">
+              <span className="font-medium">Spring Valley</span>
+            </a>
+            <a href="/junk-removal-lemon-grove" className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-500 hover:text-white transition-colors text-center">
+              <span className="font-medium">Lemon Grove</span>
+            </a>
+            <a href="/junk-removal-carmel-valley" className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-500 hover:text-white transition-colors text-center">
+              <span className="font-medium">Carmel Valley</span>
+            </a>
           </div>
           <p className="text-center mt-8">
             <span className="text-gray-600">Don't see your San Diego neighborhood? </span>
@@ -414,6 +610,11 @@ export default function SanDiegoJunkRemovalPage() {
               Call (619) 750-0114 for service in your area
             </a>
           </p>
+          <div className="text-center mt-6">
+            <a href="/areas-we-serve" className="text-blue-600 font-semibold hover:underline text-lg">
+              View All Service Areas →
+            </a>
+          </div>
         </div>
       </section>
       </main>
