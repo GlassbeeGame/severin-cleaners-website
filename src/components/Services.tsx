@@ -58,7 +58,7 @@ const junkServices = [
       'Scrap metal recycling',
       'Job site cleanup'
     ],
-    image: '/webphotos/construction.jpg',
+    image: '/webphotos/debris.jpg',
     link: '/cleanout-services-san-diego'
   },
   {
@@ -88,7 +88,7 @@ const junkServices = [
       'Sorting & organizing',
       'Follow-up support'
     ],
-    image: '/webphotos/hoarding.jpg',
+    image: '/webphotos/hoarder.jpg',
     link: '/hoarding-cleanup-san-diego'
   }
 ];
