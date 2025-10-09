@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   manifest: "/manifest.json",
   verification: {
-    google: "your-google-site-verification-code-here",
+    google: "BeGU1HGiaVVEbiJWNx2yGB-J9dc93sy8wzsZ34McCfg",
   },
   appleWebApp: {
     capable: true,
