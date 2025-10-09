@@ -29,6 +29,17 @@ echo "🗑️  Clearing Next.js cache..."
 rm -rf .next/cache
 rm -rf .next/*.json 2>/dev/null
 
+# Clear TypeScript build cache (prevents tsbuildinfo corruption)
+echo "🗑️  Clearing TypeScript cache..."
+rm -rf *.tsbuildinfo 2>/dev/null
+rm -rf src/**/*.tsbuildinfo 2>/dev/null
+
+# Clear node module cache (if needed)
+if [ "$1" = "--deep" ]; then
+  echo "🗑️  Deep clean: Clearing node_modules/.cache..."
+  rm -rf node_modules/.cache 2>/dev/null
+fi
+
 # Optional: Full rebuild (uncomment if issues persist)
 # rm -rf .next
 
