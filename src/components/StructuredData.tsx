@@ -159,7 +159,8 @@ export default function StructuredData() {
           "https://severincleaners.com/optimized/about.jpg",
           "https://severincleaners.com/optimized/commercial.jpg"
         ],
-        "logo": "https://severincleaners.com/logo.png"
+        "logo": "https://severincleaners.com/logo.png",
+        "sameAs": REVIEW_CONFIG.socialProfiles
       },
       // Individual Review schemas for SEO rich snippets
       ...FEATURED_TESTIMONIALS.map((testimonial) => ({

@@ -21,6 +21,15 @@ export const REVIEW_CONFIG = {
   // Google Business Profile URLs
   googleBusinessUrl: "https://g.page/r/CbxDDPSHK9sjEAE",
   googleReviewUrl: "https://g.page/r/CbxDDPSHK9sjEAE/review",
+
+  // Social Media & Review Platform URLs (for schema.org sameAs property)
+  // These help Google understand brand identity and improve entity recognition
+  socialProfiles: [
+    "https://www.instagram.com/severinhauling/",
+    "https://www.facebook.com/severinhauling",
+    "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888",
+    "https://www.yelp.com/biz/severin-cleaners-san-diego",
+  ],
 } as const;
 
 /**
