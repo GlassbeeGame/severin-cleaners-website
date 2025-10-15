@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from 'next/image';
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BeforeAfter from "@/components/BeforeAfter";
 
 export const metadata: Metadata = {
   title: "About Us | Severin Cleaners | Locally Owned San Diego Junk Removal",
@@ -50,12 +51,12 @@ export default function AboutPage() {
         <section className="py-12 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              {/* Mission Section with Image */}
-              <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
-                <div className="order-2 md:order-1">
-                  <h2 className="text-3xl font-bold mb-6 text-gray-900">
-                    Our Mission
-                  </h2>
+              {/* Mission Section */}
+              <div className="mb-12">
+                <h2 className="text-3xl font-bold mb-6 text-gray-900 text-center">
+                  Our Mission
+                </h2>
+                <div className="max-w-4xl mx-auto mb-8">
                   <p className="text-gray-700 leading-relaxed mb-4">
                     At Severin Cleaners, our mission is simple: deliver reliable, licensed, and insured <strong>San Diego junk removal</strong> that homeowners and businesses can count on. We understand that dealing with unwanted items can be overwhelming. That's why we founded Severin Cleaners: to remove the stress from <strong>junk hauling San Diego</strong> projects of all sizes.
                   </p>
@@ -63,19 +64,21 @@ export default function AboutPage() {
                     As a locally owned and operated business, we take pride in building long-term trust within our San Diego County community. Every job represents our commitment to professionalism, transparency, and respect for your property—guided by our principle: <strong>"From Junk to Shine, We Handle Every Grime."</strong>
                   </p>
                 </div>
-                <div className="order-1 md:order-2">
-                  <div className="relative rounded-2xl overflow-hidden shadow-2xl h-80 md:h-96">
-                    <Image
-                      src="/optimized/dtsd.webp"
-                      alt="Severin Cleaners Professional Junk Removal Team"
-                      fill
-                      className="object-cover"
-                      sizes="(max-width: 768px) 100vw, 50vw"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-blue-900/30 to-transparent"></div>
-                  </div>
-                </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Before/After Section */}
+        <section className="py-12 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <BeforeAfter />
+          </div>
+        </section>
+
+        <section className="py-12 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="max-w-6xl mx-auto">
 
               {/* What Sets Us Apart */}
               <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 border border-blue-200 shadow-lg">
