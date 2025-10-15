@@ -1,8 +1,12 @@
 'use client';
 
 import Image from 'next/image';
+import { getReviewCount, getRating } from '@/config/reviews';
 
 export default function Hero() {
+  const reviewCount = getReviewCount();
+  const rating = getRating();
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
@@ -26,7 +30,7 @@ export default function Hero() {
             <div className="flex text-yellow-400 text-lg md:text-xl lg:text-2xl">
               {'★'.repeat(5)}
             </div>
-            <span className="text-white text-sm md:text-base lg:text-lg font-medium">5.0 • 18 Reviews on Google</span>
+            <span className="text-white text-sm md:text-base lg:text-lg font-medium">{rating} • {reviewCount} Reviews on Google</span>
           </div>
 
           {/* Main Headline */}

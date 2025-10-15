@@ -1,89 +1,24 @@
 'use client';
 
 import { useState } from 'react';
+import { getFeaturedTestimonials, getReviewCount, getRating, REVIEW_CONFIG } from '@/config/reviews';
 
 /**
- * GOOGLE REVIEWS - Manual Update Instructions
- * ============================================
- * To update reviews from Google My Business:
- * 1. Go to your GMB dashboard or reviews page
- * 2. Copy reviews you want to feature
- * 3. Update the testimonials array below with:
- *    - name: Customer's name from Google review
- *    - location: Their location if visible
- *    - service: The service they reviewed (estimate from review text)
- *    - rating: Star rating (typically 5)
- *    - text: The review text from Google
- *    - date: Review date from Google
- *    - googleReview: true (to show Google icon)
+ * Testimonials Component
  *
- * This approach maintains SEO benefits without requiring API integration.
+ * Displays featured Google reviews in a carousel format
+ * All review data is managed centrally in /src/config/reviews.ts
+ *
+ * To update reviews:
+ * 1. Edit /src/config/reviews.ts
+ * 2. Update REVIEW_CONFIG.totalReviews with current Google count
+ * 3. Update FEATURED_TESTIMONIALS array with new reviews from Google
  */
 
-const testimonials = [
-  {
-    id: 1,
-    name: "Maria Rodriguez",
-    location: "El Cajon, CA",
-    service: "Estate Cleanout",
-    rating: 5,
-    text: "Severin Cleaners made a difficult time so much easier. They handled my mother's estate cleanout with compassion and professionalism. Everything was sorted, donated, or disposed of properly. Highly recommend!",
-    date: "November 2024",
-    googleReview: true
-  },
-  {
-    id: 2,
-    name: "James Mitchell",
-    location: "La Mesa, CA",
-    service: "Construction Debris",
-    rating: 5,
-    text: "After our home renovation, we had tons of debris. Severin's team arrived same-day and cleared everything out in just 2 hours. Their pricing was fair and transparent. Will definitely use again!",
-    date: "October 2024",
-    googleReview: true
-  },
-  {
-    id: 3,
-    name: "Sarah Thompson",
-    location: "Santee, CA",
-    service: "Furniture Removal",
-    rating: 5,
-    text: "Needed old furniture removed before moving. They were punctual, careful with my walls and floors, and handled everything professionally. The team even helped me move a few things around. Excellent service!",
-    date: "October 2024",
-    googleReview: true
-  },
-  {
-    id: 4,
-    name: "Robert Chen",
-    location: "Spring Valley, CA",
-    service: "Garage Cleanout",
-    rating: 5,
-    text: "20 years of accumulated junk gone in one morning! The crew was efficient, friendly, and took care to salvage items for donation. My garage is finally usable again. Thank you Severin Cleaners!",
-    date: "September 2024",
-    googleReview: true
-  },
-  {
-    id: 5,
-    name: "Linda Davis",
-    location: "Lakeside, CA",
-    service: "Hoarding Cleanup",
-    rating: 5,
-    text: "They handled a sensitive situation with incredible discretion and care. The team was non-judgmental, efficient, and transformed the property completely. Can't thank them enough for their compassionate service.",
-    date: "September 2024",
-    googleReview: true
-  },
-  {
-    id: 6,
-    name: "Michael Brown",
-    location: "San Diego, CA",
-    service: "Commercial Junk Removal",
-    rating: 5,
-    text: "We needed our office cleared out quickly for new tenants. Severin Cleaners worked around our schedule, completed everything in one day, and left the space spotless. Professional and reliable!",
-    date: "August 2024",
-    googleReview: true
-  }
-];
-
 export default function Testimonials() {
+  const testimonials = getFeaturedTestimonials();
+  const totalReviews = getReviewCount();
+  const rating = getRating();
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextTestimonial = () => {
@@ -194,8 +129,8 @@ export default function Testimonials() {
             <div className="text-gray-600">Happy Customers</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-blue-500 mb-2">5.0★</div>
-            <div className="text-gray-600">Google Rating</div>
+            <div className="text-4xl font-bold text-blue-500 mb-2">{rating}★</div>
+            <div className="text-gray-600">Google Rating ({totalReviews} Reviews)</div>
           </div>
           <div className="text-center">
             <div className="text-4xl font-bold text-blue-500 mb-2">Same Day</div>
@@ -211,7 +146,7 @@ export default function Testimonials() {
             Get Your Free Quote Today
           </a>
           <a
-            href="https://g.page/r/CbxDDPSHK9sjEAE/review"
+            href={REVIEW_CONFIG.googleReviewUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-white border-2 border-blue-500 text-blue-600 font-bold px-8 py-4 rounded-lg hover:bg-blue-50 transition-all duration-200 text-lg shadow-lg hover:shadow-xl"

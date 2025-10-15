@@ -1,3 +1,5 @@
+import { REVIEW_CONFIG, FEATURED_TESTIMONIALS } from '@/config/reviews';
+
 export default function StructuredData() {
   const structuredData = {
     "@context": "https://schema.org",
@@ -136,9 +138,9 @@ export default function StructuredData() {
         "keywords": "best junk removal san diego, junk removal near me, professional junk removal, top rated junk removal, licensed junk removal, local junk removal, full service junk removal",
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "5.0",
-          "reviewCount": "18",
-          "bestRating": "5"
+          "ratingValue": REVIEW_CONFIG.ratingValue,
+          "reviewCount": REVIEW_CONFIG.totalReviews.toString(),
+          "bestRating": REVIEW_CONFIG.bestRating
         },
         "hasCredential": [
           {
@@ -153,12 +155,37 @@ export default function StructuredData() {
           }
         ],
         "image": [
-          "https://severincleaners.com/junk-removal-truck.jpg",
-          "https://severincleaners.com/team-photo.jpg",
-          "https://severincleaners.com/before-after.jpg"
+          "https://severincleaners.com/optimized/locations.jpg",
+          "https://severincleaners.com/optimized/about.jpg",
+          "https://severincleaners.com/optimized/commercial.jpg"
         ],
         "logo": "https://severincleaners.com/logo.png"
       },
+      // Individual Review schemas for SEO rich snippets
+      ...FEATURED_TESTIMONIALS.map((testimonial) => ({
+        "@type": "Review",
+        "@id": `https://severincleaners.com/#review-${testimonial.id}`,
+        "author": {
+          "@type": "Person",
+          "name": testimonial.name
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": testimonial.rating.toString(),
+          "bestRating": "5"
+        },
+        "reviewBody": testimonial.text,
+        "datePublished": testimonial.datePublished,
+        "itemReviewed": {
+          "@type": "LocalBusiness",
+          "@id": "https://severincleaners.com/#business"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Google",
+          "url": REVIEW_CONFIG.googleBusinessUrl
+        }
+      })),
       {
         "@type": "Service",
         "@id": "https://severincleaners.com/#junk-removal",

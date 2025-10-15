@@ -1,4 +1,5 @@
 // Schema.org structured data utilities
+import { REVIEW_CONFIG, type Testimonial } from '@/config/reviews';
 
 export interface BreadcrumbItem {
   name: string;
@@ -159,7 +160,7 @@ export function generateLocalBusinessSchema() {
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": "6",
+        "reviewCount": "18",
         "bestRating": "5",
       },
     },
@@ -267,6 +268,57 @@ export function generateLocalBusinessSchema() {
         }
       ]
     }
+  };
+}
+
+/**
+ * Generate individual Review schema from testimonial
+ * Used for SEO rich snippets with star ratings
+ */
+export function generateReviewSchema(testimonial: Testimonial) {
+  return {
+    "@type": "Review",
+    "@id": `https://severincleaners.com/#review-${testimonial.id}`,
+    "author": {
+      "@type": "Person",
+      "name": testimonial.name
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": testimonial.rating.toString(),
+      "bestRating": "5"
+    },
+    "reviewBody": testimonial.text,
+    "datePublished": testimonial.datePublished,
+    "itemReviewed": {
+      "@type": "LocalBusiness",
+      "@id": "https://severincleaners.com/#business",
+      "name": "Severin Cleaners"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Google",
+      "url": REVIEW_CONFIG.googleBusinessUrl
+    }
+  };
+}
+
+/**
+ * Generate multiple Review schemas from testimonials array
+ */
+export function generateReviewsSchema(testimonials: Testimonial[]) {
+  return testimonials.map(testimonial => generateReviewSchema(testimonial));
+}
+
+/**
+ * Generate AggregateRating schema with consistent review data
+ */
+export function generateAggregateRatingSchema() {
+  return {
+    "@type": "AggregateRating",
+    "ratingValue": REVIEW_CONFIG.ratingValue,
+    "reviewCount": REVIEW_CONFIG.totalReviews.toString(),
+    "bestRating": REVIEW_CONFIG.bestRating
   };
 }
 
