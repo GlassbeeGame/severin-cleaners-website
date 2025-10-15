@@ -155,9 +155,12 @@ export default function StructuredData() {
           }
         ],
         "image": [
-          "https://severincleaners.com/optimized/locations.jpg",
-          "https://severincleaners.com/optimized/about.jpg",
-          "https://severincleaners.com/optimized/commercial.jpg"
+          "https://severincleaners.com/optimized/couchwithlogo.jpg",
+          "https://severincleaners.com/optimized/tableteam.jpg",
+          "https://severincleaners.com/optimized/toiletteam.jpg",
+          "https://severincleaners.com/optimized/commercial.jpg",
+          "https://severincleaners.com/optimized/debris.jpg",
+          "https://severincleaners.com/optimized/after.jpg"
         ],
         "logo": "https://severincleaners.com/logo.png",
         "sameAs": REVIEW_CONFIG.socialProfiles
