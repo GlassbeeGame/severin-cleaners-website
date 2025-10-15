@@ -220,23 +220,6 @@ export default function ContactPageClient() {
             </div>
           </div>
         </section>
-
-        {/* Google Maps Section */}
-        <section className="py-0">
-          <div className="w-full">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.6982!2d-117.0251!3d32.7781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9549d6b1c5555%3A0x232bcb087c0cf4bc!2sSeverin%20Cleaners!5e0!3m2!1sen!2sus!4v1234567890"
-              width="100%"
-              height="400"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Severin Cleaners Location - 8900 Grossmont Blvd, La Mesa, CA 91941"
-              className="w-full"
-            ></iframe>
-          </div>
-        </section>
       </main>
 
       <Footer />
