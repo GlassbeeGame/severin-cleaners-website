@@ -47,17 +47,16 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Our Story with Before/After */}
+        {/* Our Story - Condensed with Image */}
         <section className="py-12 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl font-bold mb-6 text-gray-900 text-center">
-                Our Mission
-              </h2>
-
-              <div className="flex flex-col lg:flex-row gap-8 items-center">
-                {/* Text Content */}
-                <div className="lg:w-1/2">
+              {/* Mission Section */}
+              <div className="mb-12">
+                <h2 className="text-3xl font-bold mb-6 text-gray-900 text-center">
+                  Our Mission
+                </h2>
+                <div className="max-w-4xl mx-auto mb-8">
                   <p className="text-gray-700 leading-relaxed mb-4">
                     At Severin Cleaners, our mission is simple: deliver reliable, licensed, and insured <strong>San Diego junk removal</strong> that homeowners and businesses can count on. We understand that dealing with unwanted items can be overwhelming. That's why we founded Severin Cleaners: to remove the stress from <strong>junk hauling San Diego</strong> projects of all sizes.
                   </p>
@@ -65,13 +64,15 @@ export default function AboutPage() {
                     As a locally owned and operated business, we take pride in building long-term trust within our San Diego County community. Every job represents our commitment to professionalism, transparency, and respect for your property—guided by our principle: <strong>"From Junk to Shine, We Handle Every Grime."</strong>
                   </p>
                 </div>
-
-                {/* Before/After Slider */}
-                <div className="lg:w-1/2">
-                  <BeforeAfter />
-                </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* Before/After Section */}
+        <section className="py-12 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <BeforeAfter />
           </div>
         </section>
 

@@ -42,7 +42,7 @@ export default function BeforeAfter() {
 
         <div className="max-w-5xl mx-auto">
           <div
-            className="relative w-full aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl cursor-ew-resize select-none"
+            className="relative w-full aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl cursor-ew-resize select-none bg-gray-900"
             onMouseMove={handleMouseMove}
             onMouseDown={handleMouseDown}
             onMouseUp={handleMouseUp}
@@ -52,34 +52,38 @@ export default function BeforeAfter() {
             onTouchEnd={handleMouseUp}
           >
             {/* Before Image (Background) */}
-            <div className="absolute inset-0">
-              <Image
-                src="/optimized/before.webp"
-                alt="Before junk removal - cluttered space"
-                fill
-                className="object-contain"
-                sizes="(max-width: 1280px) 100vw, 1280px"
-                priority
-              />
-              <div className="absolute top-4 left-4 bg-red-500 text-white px-4 py-2 rounded-lg font-bold text-sm shadow-lg">
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="relative w-full h-full">
+                <Image
+                  src="/optimized/before.webp"
+                  alt="Before junk removal - cluttered space"
+                  fill
+                  className="object-contain"
+                  sizes="(max-width: 1280px) 100vw, 1280px"
+                  priority
+                />
+              </div>
+              <div className="absolute top-4 left-4 bg-red-500 text-white px-4 py-2 rounded-lg font-bold text-sm shadow-lg z-10">
                 BEFORE
               </div>
             </div>
 
             {/* After Image (Clipped) */}
             <div
-              className="absolute inset-0"
+              className="absolute inset-0 flex items-center justify-center"
               style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}
             >
-              <Image
-                src="/optimized/after.webp"
-                alt="After junk removal - clean space"
-                fill
-                className="object-contain"
-                sizes="(max-width: 1280px) 100vw, 1280px"
-                priority
-              />
-              <div className="absolute top-4 right-4 bg-green-500 text-white px-4 py-2 rounded-lg font-bold text-sm shadow-lg">
+              <div className="relative w-full h-full">
+                <Image
+                  src="/optimized/after.webp"
+                  alt="After junk removal - clean space"
+                  fill
+                  className="object-contain"
+                  sizes="(max-width: 1280px) 100vw, 1280px"
+                  priority
+                />
+              </div>
+              <div className="absolute top-4 right-4 bg-green-500 text-white px-4 py-2 rounded-lg font-bold text-sm shadow-lg z-10">
                 AFTER
               </div>
             </div>

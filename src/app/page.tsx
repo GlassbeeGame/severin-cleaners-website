@@ -6,9 +6,6 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateLocalBusinessSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 // Lazy load below-the-fold components
-const BeforeAfter = dynamic(() => import("@/components/BeforeAfter"), {
-  loading: () => <div className="h-96 bg-white" />
-});
 const Services = dynamic(() => import("@/components/Services"), {
   loading: () => <div className="h-96 bg-gray-50" />
 });
@@ -37,7 +34,6 @@ export default function Home() {
         <Header />
         <main>
           <Hero />
-          <BeforeAfter />
           <Services />
           <Testimonials />
           <Contact />
