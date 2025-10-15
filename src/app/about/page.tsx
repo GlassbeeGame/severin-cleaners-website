@@ -52,13 +52,13 @@ export default function AboutPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               {/* Before/After Images */}
-              <div className="grid md:grid-cols-2 gap-4 mb-8">
+              <div className="grid md:grid-cols-2 gap-4 mb-8 max-w-4xl mx-auto">
                 <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
                   <Image
                     src="/optimized/before.webp"
                     alt="Before junk removal - cluttered space"
                     fill
-                    className="object-cover"
+                    className="object-cover object-[60%_center]"
                     sizes="(max-width: 768px) 100vw, 50vw"
                     priority
                   />
@@ -71,7 +71,7 @@ export default function AboutPage() {
                     src="/optimized/after.webp"
                     alt="After junk removal - clean space"
                     fill
-                    className="object-cover"
+                    className="object-cover object-[60%_center]"
                     sizes="(max-width: 768px) 100vw, 50vw"
                     priority
                   />
