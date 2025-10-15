@@ -15,7 +15,6 @@ const Testimonials = dynamic(() => import("@/components/Testimonials"), {
 const Contact = dynamic(() => import("@/components/Contact"), {
   loading: () => <div className="h-96 bg-gray-50" />
 });
-const PWAInstaller = dynamic(() => import("@/components/PWAInstaller"));
 
 export default function Home() {
   const localBusinessSchema = generateLocalBusinessSchema();
@@ -40,7 +39,6 @@ export default function Home() {
           <Contact />
         </main>
         <Footer />
-        <PWAInstaller />
       </div>
     </>
   );

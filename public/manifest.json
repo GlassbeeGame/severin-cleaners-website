@@ -19,28 +19,5 @@
       "type": "image/png"
     }
   ],
-  "categories": ["business", "utilities"],
-  "screenshots": [
-    {
-      "src": "/screenshot1.png",
-      "sizes": "1280x720",
-      "type": "image/png"
-    }
-  ],
-  "shortcuts": [
-    {
-      "name": "Get Quote",
-      "short_name": "Quote",
-      "description": "Get a free junk removal quote",
-      "url": "/#contact",
-      "icons": [{ "src": "/icon-96.png", "sizes": "96x96" }]
-    },
-    {
-      "name": "Call Now",
-      "short_name": "Call",
-      "description": "Call for immediate service",
-      "url": "tel:+16197500114",
-      "icons": [{ "src": "/icon-96.png", "sizes": "96x96" }]
-    }
-  ]
+  "categories": ["business", "utilities"]
 }
