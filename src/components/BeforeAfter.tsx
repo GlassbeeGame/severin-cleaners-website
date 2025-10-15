@@ -57,7 +57,7 @@ export default function BeforeAfter() {
                 src="/optimized/before.webp"
                 alt="Before junk removal - cluttered space"
                 fill
-                className="object-cover"
+                className="object-contain"
                 sizes="(max-width: 1280px) 100vw, 1280px"
                 priority
               />
@@ -75,7 +75,7 @@ export default function BeforeAfter() {
                 src="/optimized/after.webp"
                 alt="After junk removal - clean space"
                 fill
-                className="object-cover"
+                className="object-contain"
                 sizes="(max-width: 1280px) 100vw, 1280px"
                 priority
               />
