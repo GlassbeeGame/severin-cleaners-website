@@ -160,6 +160,7 @@ export default function StructuredData() {
           "https://severincleaners.com/optimized/toiletteam.jpg",
           "https://severincleaners.com/optimized/commercial.jpg",
           "https://severincleaners.com/optimized/debris.jpg",
+          "https://severincleaners.com/optimized/before.jpg",
           "https://severincleaners.com/optimized/after.jpg"
         ],
         "logo": "https://severincleaners.com/logo.png",
