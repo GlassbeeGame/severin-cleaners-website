@@ -47,10 +47,40 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Our Story - Condensed with Image */}
+        {/* Our Story with Before/After Images */}
         <section className="py-12 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
+              {/* Before/After Images */}
+              <div className="grid md:grid-cols-2 gap-4 mb-8">
+                <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
+                  <Image
+                    src="/optimized/before.webp"
+                    alt="Before junk removal - cluttered space"
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    priority
+                  />
+                  <div className="absolute top-4 left-4 bg-red-500 text-white px-4 py-2 rounded-lg font-bold text-sm shadow-lg">
+                    BEFORE
+                  </div>
+                </div>
+                <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
+                  <Image
+                    src="/optimized/after.webp"
+                    alt="After junk removal - clean space"
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    priority
+                  />
+                  <div className="absolute top-4 right-4 bg-green-500 text-white px-4 py-2 rounded-lg font-bold text-sm shadow-lg">
+                    AFTER
+                  </div>
+                </div>
+              </div>
+
               {/* Mission Section */}
               <div className="mb-12">
                 <h2 className="text-3xl font-bold mb-6 text-gray-900 text-center">
@@ -66,13 +96,6 @@ export default function AboutPage() {
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-
-        {/* Before/After Section */}
-        <section className="py-12 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <BeforeAfter />
           </div>
         </section>
 
