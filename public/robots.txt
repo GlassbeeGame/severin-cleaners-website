@@ -1,17 +1,18 @@
 User-agent: *
 Allow: /
 
-# Disallow admin and development files
-Disallow: /admin/
-Disallow: /_next/
-Disallow: /api/
+# Allow critical Next.js static assets for proper page rendering
+Allow: /_next/static/css/
+Allow: /_next/static/chunks/
+Allow: /_next/static/media/
+Allow: /_next/image
 
-# Allow important pages for SEO
-Allow: /
-Allow: /services
-Allow: /about
-Allow: /contact
-Allow: /testimonials
+# Block Next.js data files to save crawl budget
+Disallow: /_next/data/
+
+# Disallow admin and API routes
+Disallow: /admin/
+Disallow: /api/
 
 # Sitemap location
 Sitemap: https://severincleaners.com/sitemap.xml
