@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import HoardingFAQSection from "./HoardingFAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
-import { generateServiceSchema } from "@/lib/schema";
+import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -34,9 +34,20 @@ export default function HoardingCleanupPage() {
     areaServed: "San Diego County, CA",
   });
 
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Services", url: "https://severincleaners.com/services" },
+    { name: "Hoarding Cleanup", url: "https://severincleaners.com/hoarding-cleanup-san-diego" },
+  ]);
+
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [serviceSchema, breadcrumbSchema]
+  };
+
   return (
     <>
-      <SchemaMarkup schema={serviceSchema} />
+      <SchemaMarkup schema={combinedSchema} />
       <div className={`${inter.variable} font-sans antialiased`}>
         <Header />
 

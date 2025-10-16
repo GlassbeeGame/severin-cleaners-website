@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import EmergencyFAQSection from "./EmergencyFAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
-import { generateServiceSchema } from "@/lib/schema";
+import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Emergency Junk Removal San Diego - Same Day & Last Minute Service",
@@ -31,9 +31,20 @@ export default function EmergencyJunkRemovalPage() {
     areaServed: "San Diego County, CA",
   });
 
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Services", url: "https://severincleaners.com/services" },
+    { name: "Emergency Junk Removal", url: "https://severincleaners.com/emergency-junk-removal-san-diego" },
+  ]);
+
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [serviceSchema, breadcrumbSchema]
+  };
+
   return (
     <>
-      <SchemaMarkup schema={serviceSchema} />
+      <SchemaMarkup schema={combinedSchema} />
       <div className="min-h-screen bg-background">
         <Header />
       <main>

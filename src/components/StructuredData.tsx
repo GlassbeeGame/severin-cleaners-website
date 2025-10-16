@@ -15,15 +15,16 @@ export default function StructuredData() {
         "email": "severincleaners@gmail.com",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "El Cajon",
+          "streetAddress": "8900 Grossmont Blvd",
+          "addressLocality": "La Mesa",
           "addressRegion": "CA",
-          "postalCode": "92020",
+          "postalCode": "91941",
           "addressCountry": "US"
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": "32.7948",
-          "longitude": "-116.9625"
+          "latitude": "32.7781",
+          "longitude": "-117.0229"
         },
         "areaServed": [
           {

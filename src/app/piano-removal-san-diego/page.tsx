@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SchemaMarkup from "@/components/SchemaMarkup";
-import { generateServiceSchema } from "@/lib/schema";
+import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -13,11 +13,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'Piano Removal San Diego | Musical Instrument Specialists',
-  description: 'Professional piano removal throughout San Diego - upright pianos, grand pianos, and musical instruments. Careful handling guaranteed. Call (619) 271-6411.',
+  description: 'Professional piano removal throughout San Diego - upright pianos, grand pianos, and musical instruments. Careful handling guaranteed. Call (619) 750-0114.',
   keywords: 'piano removal san diego, piano disposal san diego, musical instrument removal, upright piano removal, grand piano removal',
   openGraph: {
     title: 'Piano Removal San Diego | Musical Instrument Specialists',
-    description: 'Professional piano removal throughout San Diego - upright pianos, grand pianos, and musical instruments. Careful handling guaranteed. Call (619) 271-6411.',
+    description: 'Professional piano removal throughout San Diego - upright pianos, grand pianos, and musical instruments. Careful handling guaranteed. Call (619) 750-0114.',
     url: 'https://severincleaners.com/piano-removal-san-diego/',
     siteName: 'Severin Cleaners',
     images: [{
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Piano Removal San Diego | Musical Instrument Specialists',
-    description: 'Professional piano removal throughout San Diego - upright pianos, grand pianos, and musical instruments. Careful handling guaranteed. Call (619) 271-6411.',
+    description: 'Professional piano removal throughout San Diego - upright pianos, grand pianos, and musical instruments. Careful handling guaranteed. Call (619) 750-0114.',
     images: ['https://severincleaners.com/og-image.jpg'],
   },
   alternates: {
@@ -59,9 +59,20 @@ export default function PianoremovalsandiegoPage() {
     areaServed: "San Diego County, CA",
   });
 
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Services", url: "https://severincleaners.com/services" },
+    { name: "Piano Removal", url: "https://severincleaners.com/piano-removal-san-diego" },
+  ]);
+
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [serviceSchema, breadcrumbSchema]
+  };
+
   return (
     <>
-      <SchemaMarkup schema={serviceSchema} />
+      <SchemaMarkup schema={combinedSchema} />
       <div className={`${inter.variable} font-sans antialiased`}>
         <Header />
         <main>

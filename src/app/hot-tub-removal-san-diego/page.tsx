@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import Link from "next/link";
 import HotTubFAQSection from "./HotTubFAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
-import { generateServiceSchema } from "@/lib/schema";
+import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -38,9 +38,20 @@ export default function HotTubRemovalSanDiegoPage() {
     areaServed: "San Diego County, CA",
   });
 
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Services", url: "https://severincleaners.com/services" },
+    { name: "Hot Tub Removal", url: "https://severincleaners.com/hot-tub-removal-san-diego" },
+  ]);
+
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [serviceSchema, breadcrumbSchema]
+  };
+
   return (
     <>
-      <SchemaMarkup schema={serviceSchema} />
+      <SchemaMarkup schema={combinedSchema} />
       <div className={`${inter.variable} font-sans antialiased`}>
         <Header />
         <main>
