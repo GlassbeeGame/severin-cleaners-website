@@ -14,6 +14,9 @@ export const metadata: Metadata = {
     description: "Professional Spring Valley junk removal for East County families, hillside homes & apartments. Same-day junk hauling Spring Valley, eco-friendly disposal.",
     url: "https://severincleaners.com/junk-removal-spring-valley",
   },
+  alternates: {
+    canonical: "https://severincleaners.com/junk-removal-spring-valley",
+  },
 };
 
 const faqSchema = {

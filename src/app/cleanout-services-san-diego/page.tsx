@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     description: "Expert cleanout services San Diego for all types of properties. Same-day service, eco-friendly disposal, transparent pricing.",
     images: ['https://severincleaners.com/og-image.jpg'],
   },
+  alternates: {
+    canonical: "https://severincleaners.com/cleanout-services-san-diego",
+  },
 };
 
 export default function CleanoutServicesPage() {

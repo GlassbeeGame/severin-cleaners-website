@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     images: ['https://severincleaners.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://severincleaners.com/junk-removal-pacific-beach/',
+    canonical: 'https://severincleaners.com/junk-removal-pacific-beach',
   },
   robots: {
     index: true,

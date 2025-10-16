@@ -14,6 +14,9 @@ export const metadata: Metadata = {
     description: "Professional Vista junk removal for families, apartments & businesses. Same-day junk hauling Vista, eco-friendly disposal. Serving all Vista neighborhoods including Shadowridge and Rancho Buena Vista.",
     url: "https://severincleaners.com/junk-removal-vista",
   },
+  alternates: {
+    canonical: "https://severincleaners.com/junk-removal-vista",
+  },
 };
 
 const faqSchema = {

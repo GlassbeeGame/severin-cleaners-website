@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     description: "Professional foreclosure & eviction cleanout services in San Diego. Discreet, fast turnaround for banks, landlords & property managers.",
     images: ['https://severincleaners.com/og-image.jpg'],
   },
+  alternates: {
+    canonical: "https://severincleaners.com/foreclosure-eviction-cleanout-san-diego",
+  },
 };
 
 export default function ForeclosureEvictionCleanoutPage() {

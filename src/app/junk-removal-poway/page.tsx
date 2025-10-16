@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     images: ['https://severincleaners.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://severincleaners.com/junk-removal-poway/',
+    canonical: 'https://severincleaners.com/junk-removal-poway',
   },
   robots: {
     index: true,

@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     images: ['https://severincleaners.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://severincleaners.com/junk-removal-oceanside/',
+    canonical: 'https://severincleaners.com/junk-removal-oceanside',
   },
   robots: {
     index: true,

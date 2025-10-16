@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     images: ['https://severincleaners.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://severincleaners.com/piano-removal-san-diego/',
+    canonical: 'https://severincleaners.com/piano-removal-san-diego',
   },
   robots: {
     index: true,

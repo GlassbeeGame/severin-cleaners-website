@@ -18,6 +18,9 @@ export const metadata: Metadata = {
     description: "Transparent junk removal cost San Diego with free quotes! Compare our affordable prices. Licensed & insured. Call (619) 750-0114!",
     images: ['https://severincleaners.com/og-image.jpg'],
   },
+  alternates: {
+    canonical: "https://severincleaners.com/junk-removal-cost-san-diego",
+  },
 };
 
 export default function JunkRemovalCostPage() {

@@ -87,6 +87,20 @@ export function generateServiceSchema({
       "name": provider.name,
       "telephone": provider.telephone,
       "url": provider.url,
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "8900 Grossmont Blvd",
+        "addressLocality": "La Mesa",
+        "addressRegion": "CA",
+        "postalCode": "91941",
+        "addressCountry": "US",
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "32.7781",
+        "longitude": "-117.0229",
+      },
+      "priceRange": "$$",
     },
     "areaServed": areaServedData,
   };
@@ -113,6 +127,20 @@ export function generateLocationServiceSchema({
       "name": "Severin Cleaners",
       "telephone": "+1-619-750-0114",
       "url": "https://severincleaners.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "8900 Grossmont Blvd",
+        "addressLocality": "La Mesa",
+        "addressRegion": "CA",
+        "postalCode": "91941",
+        "addressCountry": "US",
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "32.7781",
+        "longitude": "-117.0229",
+      },
+      "priceRange": "$$",
     },
     "areaServed": {
       "@type": "City",

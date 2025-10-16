@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     description: "Emergency junk removal San Diego today! Same-day, weekend & immediate dispatch urgent trash removal. Call (619) 750-0114 for immediate service!",
     images: ['https://severincleaners.com/og-image.jpg'],
   },
+  alternates: {
+    canonical: "https://severincleaners.com/emergency-junk-removal-san-diego",
+  },
 };
 
 export default function EmergencyJunkRemovalPage() {

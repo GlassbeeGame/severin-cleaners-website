@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     images: ['https://severincleaners.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://severincleaners.com/commercial-junk-removal-san-diego/',
+    canonical: 'https://severincleaners.com/commercial-junk-removal-san-diego',
   },
   robots: {
     index: true,

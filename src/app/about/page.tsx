@@ -13,6 +13,9 @@ export const metadata: Metadata = {
     description: "Locally owned and trusted by 200+ San Diego clients. Same-day junk removal with transparent pricing and professional service.",
     url: "https://severincleaners.com/about",
   },
+  alternates: {
+    canonical: "https://severincleaners.com/about",
+  },
 };
 
 export default function AboutPage() {

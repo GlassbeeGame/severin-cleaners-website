@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Junk Removal Services San Diego | Same Day Hauling & Disposal | Severin Cleaners",
   description: "Complete junk removal services in San Diego. Same-day service, furniture removal, appliance disposal, estate cleanouts, construction debris removal. Licensed & insured. Call (619) 750-0114!",
   keywords: "junk removal services San Diego, furniture removal, appliance removal, estate cleanouts, construction debris removal, commercial junk removal, same day junk removal, hoarding cleanup",
+  alternates: {
+    canonical: "https://severincleaners.com/services",
+  },
 };
 
 export default function ServicesPage() {

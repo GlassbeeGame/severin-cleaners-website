@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     type: 'website',
   },
   alternates: {
-    canonical: 'https://severincleaners.com/hot-tub-removal-san-diego/',
+    canonical: 'https://severincleaners.com/hot-tub-removal-san-diego',
   },
 };
 
