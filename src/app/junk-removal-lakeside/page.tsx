@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import LakesideFAQSection from "./LakesideFAQSection";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -49,7 +51,7 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd = {
+const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
@@ -97,13 +99,29 @@ const jsonLd = {
 };
 
 export default function JunkremovallakesidePage() {
+  const serviceSchema = generateLocationServiceSchema({
+    locationName: "Lakeside",
+    serviceName: "Junk Removal",
+    description: "Professional Lakeside junk removal for large properties, ranches, Riverview, Winter Gardens. East County rural specialists with yard debris removal.",
+    url: "https://severincleaners.com/junk-removal-lakeside",
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
+    { name: "Lakeside Junk Removal", url: "https://severincleaners.com/junk-removal-lakeside" },
+  ]);
+
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema]
+  };
+
   return (
-    <div className={`${inter.variable} font-sans antialiased`}>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <Header />
+    <>
+      <SchemaMarkup schema={combinedSchema} />
+      <div className={`${inter.variable} font-sans antialiased`}>
+        <Header />
       <main>
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
@@ -298,7 +316,8 @@ export default function JunkremovallakesidePage() {
         </div>
       </section>
       </main>
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </>
   );
 }

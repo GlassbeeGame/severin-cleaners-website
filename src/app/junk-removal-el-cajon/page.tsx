@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ElCajonFAQSection from "./ElCajonFAQSection";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -49,7 +51,7 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd = {
+const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
@@ -97,13 +99,29 @@ const jsonLd = {
 };
 
 export default function JunkremovalelcajonPage() {
+  const serviceSchema = generateLocationServiceSchema({
+    locationName: "El Cajon",
+    serviceName: "Junk Removal",
+    description: "Professional El Cajon junk removal for Fletcher Hills, Rancho San Diego, Granite Hills. East County family specialists with same-day service. Call (619) 750-0114.",
+    url: "https://severincleaners.com/junk-removal-el-cajon",
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
+    { name: "El Cajon Junk Removal", url: "https://severincleaners.com/junk-removal-el-cajon" },
+  ]);
+
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [faqSchema, serviceSchema, breadcrumbSchema],
+  };
+
   return (
-    <div className={`${inter.variable} font-sans antialiased`}>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <Header />
+    <>
+      <SchemaMarkup schema={combinedSchema} />
+      <div className={`${inter.variable} font-sans antialiased`}>
+        <Header />
       <main>
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
@@ -440,7 +458,8 @@ export default function JunkremovalelcajonPage() {
         </div>
       </section>
       </main>
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </>
   );
 }

@@ -2,6 +2,8 @@ import { Metadata } from 'next';
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import VistaFAQSection from "./VistaFAQSection";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Vista Junk Removal | Same-Day Hauling | Licensed & Insured",
@@ -14,7 +16,7 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd = {
+const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
@@ -62,13 +64,29 @@ const jsonLd = {
 };
 
 export default function JunkRemovalVistaPage() {
+  const serviceSchema = generateLocationServiceSchema({
+    locationName: "Vista",
+    serviceName: "Junk Removal",
+    description: "Professional Vista junk removal for families, apartments & businesses. Same-day junk hauling Vista, eco-friendly disposal. Serving Shadowridge, Downtown Vista Village, Rancho Buena Vista, Buena Creek.",
+    url: "https://severincleaners.com/junk-removal-vista",
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
+    { name: "Vista Junk Removal", url: "https://severincleaners.com/junk-removal-vista" },
+  ]);
+
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema],
+  };
+
   return (
-    <div className="min-h-screen bg-background">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <Header />
+    <>
+      <SchemaMarkup schema={combinedSchema} />
+      <div className="min-h-screen bg-background">
+        <Header />
       <main>
         {/* Hero Section */}
         <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 py-20">
@@ -628,5 +646,6 @@ export default function JunkRemovalVistaPage() {
       </main>
       <Footer />
     </div>
+    </>
   );
 }

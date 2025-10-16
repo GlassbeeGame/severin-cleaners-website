@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import OceansideFAQSection from "./OceansideFAQSection";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -49,7 +51,7 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd = {
+const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
@@ -97,13 +99,29 @@ const jsonLd = {
 };
 
 export default function JunkremovaloceansidePage() {
+  const serviceSchema = generateLocationServiceSchema({
+    locationName: "Oceanside",
+    serviceName: "Junk Removal",
+    description: "Professional Oceanside junk removal for Camp Pendleton, coastal properties, vacation rentals. Military discounts available. North County experts.",
+    url: "https://severincleaners.com/junk-removal-oceanside",
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
+    { name: "Oceanside Junk Removal", url: "https://severincleaners.com/junk-removal-oceanside" },
+  ]);
+
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema],
+  };
+
   return (
-    <div className={`${inter.variable} font-sans antialiased`}>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <Header />
+    <>
+      <SchemaMarkup schema={combinedSchema} />
+      <div className={`${inter.variable} font-sans antialiased`}>
+        <Header />
       <main>
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
@@ -305,5 +323,6 @@ export default function JunkremovaloceansidePage() {
       </main>
       <Footer />
     </div>
+  </>
   );
 }

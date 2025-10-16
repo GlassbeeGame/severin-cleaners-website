@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import LemonGroveFAQSection from "./LemonGroveFAQSection";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -49,7 +51,7 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd = {
+const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
@@ -97,13 +99,29 @@ const jsonLd = {
 };
 
 export default function JunkremovallemongovePage() {
+  const serviceSchema = generateLocationServiceSchema({
+    locationName: "Lemon Grove",
+    serviceName: "Junk Removal",
+    description: "Affordable Lemon Grove junk removal for apartments, family homes, Broadway corridor. Community-focused service with eco-friendly disposal.",
+    url: "https://severincleaners.com/junk-removal-lemon-grove",
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
+    { name: "Lemon Grove Junk Removal", url: "https://severincleaners.com/junk-removal-lemon-grove" },
+  ]);
+
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema]
+  };
+
   return (
-    <div className={`${inter.variable} font-sans antialiased`}>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <Header />
+    <>
+      <SchemaMarkup schema={combinedSchema} />
+      <div className={`${inter.variable} font-sans antialiased`}>
+        <Header />
       <main>
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
@@ -298,7 +316,8 @@ export default function JunkremovallemongovePage() {
         </div>
       </section>
       </main>
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </>
   );
 }

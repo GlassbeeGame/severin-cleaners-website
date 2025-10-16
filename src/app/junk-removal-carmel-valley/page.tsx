@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CarmelValleyFAQSection from "./CarmelValleyFAQSection";
+import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -24,123 +25,146 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WasteRemovalService",
-      "name": "Severin Cleaners - Junk Removal Carmel Valley",
-      "image": "https://severincleaners.com/carmel-valley-junk-removal.jpg",
-      "description": "Professional junk removal services in Carmel Valley, San Diego. Same-day pickup, eco-friendly disposal, and transparent pricing.",
-      "provider": {
-        "@type": "LocalBusiness",
-        "name": "Severin Cleaners",
-        "telephone": "+1-619-750-0114",
-        "url": "https://severincleaners.com"
-      },
-      "areaServed": {
-        "@type": "Place",
-        "name": "Carmel Valley, San Diego, CA",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "San Diego",
-          "addressRegion": "CA",
-          "postalCode": "92130"
-        }
-      },
-      "serviceType": ["Junk Removal", "Furniture Removal", "Appliance Disposal", "Estate Cleanout", "Same-day Pickup"],
-      "offers": {
-        "@type": "Offer",
-        "priceSpecification": [
-          {
-            "@type": "PriceSpecification",
-            "description": "Single Item Pickup",
-            "price": "175",
-            "priceCurrency": "USD"
-          },
-          {
-            "@type": "PriceSpecification",
-            "description": "1/4 Trailer Load",
-            "price": "249",
-            "priceCurrency": "USD"
-          },
-          {
-            "@type": "PriceSpecification",
-            "description": "1/2 Trailer Load",
-            "price": "349",
-            "priceCurrency": "USD"
-          },
-          {
-            "@type": "PriceSpecification",
-            "description": "Full Trailer Load",
-            "price": "495",
-            "priceCurrency": "USD"
-          }
-        ]
+export default function JunkRemovalCarmelValleyPage() {
+  // Service schema for Carmel Valley location
+  const serviceSchema = generateLocationServiceSchema({
+    locationName: "Carmel Valley",
+    serviceName: "Junk Removal",
+    description: "Professional junk removal services in Carmel Valley, San Diego. Same-day pickup, eco-friendly disposal, and transparent pricing.",
+    url: "https://severincleaners.com/junk-removal-carmel-valley",
+  });
+
+  // Breadcrumb schema
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
+    { name: "Carmel Valley Junk Removal", url: "https://severincleaners.com/junk-removal-carmel-valley" },
+  ]);
+
+  // Existing WasteRemovalService and FAQ schemas
+  const wasteRemovalSchema = {
+    "@type": "WasteRemovalService",
+    "name": "Severin Cleaners - Junk Removal Carmel Valley",
+    "image": "https://severincleaners.com/carmel-valley-junk-removal.jpg",
+    "description": "Professional junk removal services in Carmel Valley, San Diego. Same-day pickup, eco-friendly disposal, and transparent pricing.",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Severin Cleaners",
+      "telephone": "+1-619-750-0114",
+      "url": "https://severincleaners.com"
+    },
+    "areaServed": {
+      "@type": "Place",
+      "name": "Carmel Valley, San Diego, CA",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "San Diego",
+        "addressRegion": "CA",
+        "postalCode": "92130"
       }
     },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
+    "serviceType": ["Junk Removal", "Furniture Removal", "Appliance Disposal", "Estate Cleanout", "Same-day Pickup"],
+    "offers": {
+      "@type": "Offer",
+      "priceSpecification": [
         {
-          "@type": "Question",
-          "name": "Do you provide same-day junk removal in Carmel Valley?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, we offer same-day junk pickup throughout Carmel Valley including Torrey Highlands, Del Mar Mesa, and Pacific Highlands Ranch. Call (619) 750-0114 before 2 PM for same-day service availability."
-          }
+          "@type": "PriceSpecification",
+          "description": "Single Item Pickup",
+          "price": "175",
+          "priceCurrency": "USD"
         },
         {
-          "@type": "Question",
-          "name": "What areas of Carmel Valley do you serve?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We serve all neighborhoods in Carmel Valley 92130 including Torrey Highlands, Del Mar Mesa, Pacific Highlands Ranch, Carmel Creek, and Torrey Hills. We also cover surrounding areas like 4S Ranch and Rancho Penasquitos."
-          }
+          "@type": "PriceSpecification",
+          "description": "1/4 Trailer Load",
+          "price": "249",
+          "priceCurrency": "USD"
         },
         {
-          "@type": "Question",
-          "name": "How much does junk removal cost in Carmel Valley?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Our transparent pricing: Single Item Pickup starting at $175, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. Price includes labor, disposal fees, and cleanup. Call for a free quote."
-          }
+          "@type": "PriceSpecification",
+          "description": "1/2 Trailer Load",
+          "price": "349",
+          "priceCurrency": "USD"
         },
         {
-          "@type": "Question",
-          "name": "Do you remove furniture and appliances from Carmel Valley homes?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, we remove all types of furniture, appliances, and household items. This includes sofas, mattresses, refrigerators, washers, dryers, and exercise equipment. We handle both indoor and outdoor removal."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are you licensed and insured for junk removal in San Diego?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, Severin Cleaners is fully licensed and insured for junk removal services throughout San Diego County. We carry comprehensive liability insurance and proper waste hauling permits."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What items cannot be removed during junk hauling?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We cannot remove hazardous materials like paint, chemicals, asbestos, or medical waste. However, we handle electronics, furniture, appliances, yard waste, construction debris, and most household items."
-          }
+          "@type": "PriceSpecification",
+          "description": "Full Trailer Load",
+          "price": "495",
+          "priceCurrency": "USD"
         }
       ]
     }
-  ]
-};
+  };
 
-export default function JunkRemovalCarmelValleyPage() {
+  const faqSchema = {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do you provide same-day junk removal in Carmel Valley?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we offer same-day junk pickup throughout Carmel Valley including Torrey Highlands, Del Mar Mesa, and Pacific Highlands Ranch. Call (619) 750-0114 before 2 PM for same-day service availability."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What areas of Carmel Valley do you serve?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We serve all neighborhoods in Carmel Valley 92130 including Torrey Highlands, Del Mar Mesa, Pacific Highlands Ranch, Carmel Creek, and Torrey Hills. We also cover surrounding areas like 4S Ranch and Rancho Penasquitos."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does junk removal cost in Carmel Valley?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our transparent pricing: Single Item Pickup starting at $175, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. Price includes labor, disposal fees, and cleanup. Call for a free quote."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you remove furniture and appliances from Carmel Valley homes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we remove all types of furniture, appliances, and household items. This includes sofas, mattresses, refrigerators, washers, dryers, and exercise equipment. We handle both indoor and outdoor removal."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are you licensed and insured for junk removal in San Diego?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, Severin Cleaners is fully licensed and insured for junk removal services throughout San Diego County. We carry comprehensive liability insurance and proper waste hauling permits."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What items cannot be removed during junk hauling?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We cannot remove hazardous materials like paint, chemicals, asbestos, or medical waste. However, we handle electronics, furniture, appliances, yard waste, construction debris, and most household items."
+        }
+      }
+    ]
+  };
+
+  // Combine all schemas into @graph
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      serviceSchema,
+      breadcrumbSchema,
+      wasteRemovalSchema,
+      faqSchema,
+    ],
+  };
+
   return (
     <div className={`${inter.variable} font-sans antialiased`}>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(combinedSchema) }}
       />
       <Header />
 

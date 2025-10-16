@@ -2,6 +2,8 @@ import { Metadata } from 'next';
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SpringValleyFAQSection from "./SpringValleyFAQSection";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Spring Valley Junk Removal | Affordable Family & Hillside Specialists | Same-Day Service",
@@ -14,7 +16,7 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd = {
+const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
@@ -62,13 +64,29 @@ const jsonLd = {
 };
 
 export default function JunkRemovalSpringValleyPage() {
+  const serviceSchema = generateLocationServiceSchema({
+    locationName: "Spring Valley",
+    serviceName: "Junk Removal",
+    description: "Professional Spring Valley junk removal for East County families, hillside homes & apartments. Same-day junk hauling Spring Valley, eco-friendly disposal. Serving Dictionary Hill, Casa de Oro.",
+    url: "https://severincleaners.com/junk-removal-spring-valley",
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
+    { name: "Spring Valley Junk Removal", url: "https://severincleaners.com/junk-removal-spring-valley" },
+  ]);
+
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema],
+  };
+
   return (
-    <div className="min-h-screen bg-background">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <Header />
+    <>
+      <SchemaMarkup schema={combinedSchema} />
+      <div className="min-h-screen bg-background">
+        <Header />
       <main>
         {/* Hero Section */}
         <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 py-20">
@@ -424,5 +442,6 @@ export default function JunkRemovalSpringValleyPage() {
       </main>
       <Footer />
     </div>
+    </>
   );
 }

@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PacificBeachFAQSection from "./PacificBeachFAQSection";
+import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -50,8 +51,195 @@ export const metadata: Metadata = {
 };
 
 export default function JunkRemovalPacificBeachPage() {
+  // Service schema for Pacific Beach location
+  const serviceSchema = generateLocationServiceSchema({
+    locationName: "Pacific Beach",
+    serviceName: "Junk Removal",
+    description: "Professional Pacific Beach junk removal from Crystal Pier to Crown Point. Same-day service, transparent pricing, vacation rental experts. Licensed & insured.",
+    url: "https://severincleaners.com/junk-removal-pacific-beach",
+  });
+
+  // Breadcrumb schema
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
+    { name: "Pacific Beach Junk Removal", url: "https://severincleaners.com/junk-removal-pacific-beach" },
+  ]);
+
+  // Existing WasteRemovalService and FAQ schemas
+  const existingSchemas = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WasteRemovalService",
+        "@id": "https://severincleaners.com/junk-removal-pacific-beach#service",
+        "name": "Junk Removal Pacific Beach",
+        "description": "Professional junk removal and hauling services for Pacific Beach, CA (92109)",
+        "areaServed": {
+          "@type": "Place",
+          "name": "Pacific Beach",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Pacific Beach",
+            "addressRegion": "CA",
+            "postalCode": "92109",
+            "addressCountry": "US"
+          }
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Pacific Beach Junk Removal Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Single Item Removal",
+                "description": "Individual furniture and appliance removal"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "priceCurrency": "USD",
+                "price": "95.00",
+                "eligibleQuantity": {
+                  "@type": "QuantitativeValue",
+                  "unitText": "from"
+                }
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Quarter Truck Load",
+                "description": "Small volume junk removal"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "priceCurrency": "USD",
+                "price": "250.00",
+                "eligibleQuantity": {
+                  "@type": "QuantitativeValue",
+                  "unitText": "from"
+                }
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Half Truck Load",
+                "description": "Medium volume junk removal"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "priceCurrency": "USD",
+                "price": "450.00",
+                "eligibleQuantity": {
+                  "@type": "QuantitativeValue",
+                  "unitText": "from"
+                }
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Full Truck Load",
+                "description": "Large volume junk removal and cleanouts"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "priceCurrency": "USD",
+                "price": "700.00",
+                "eligibleQuantity": {
+                  "@type": "QuantitativeValue",
+                  "unitText": "from"
+                }
+              }
+            }
+          ]
+        },
+        "serviceType": [
+          "Vacation Rental Cleanouts",
+          "Beach House Cleanouts",
+          "Student Housing Cleanouts",
+          "Restaurant & Bar Cleanouts",
+          "Same-Day Junk Removal"
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Do you service all of Pacific Beach?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes! We service every street in PB from Tourmaline Surf Beach to Belmont Park, including Crown Point, Bay Park, and all of Garnet Avenue. Our team knows every alley and access point."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you handle vacation rental turnovers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely. We specialize in same-day vacation rental cleanouts throughout Pacific Beach, including Airbnb and VRBO properties. We understand the tight turnaround times required."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you work around PB's Tuesday Farmers Market?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, we're familiar with all PB events including the Tuesday Farmers Market on Bayard Street, Over-the-Line Tournament, and summer concerts. We schedule accordingly."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does junk removal cost in Pacific Beach?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pricing starts from $95 for single items and varies based on volume. Most PB jobs range from $250-$700. We provide upfront quotes from photos with no hidden fees."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you offer same-day or evening pickups?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, we provide same-day service when scheduled before 2 PM and offer evening pickups for urgent situations. Perfect for vacation rental emergencies or move-out deadlines."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you remove heavy items from upstairs apartments?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely. Our team safely removes heavy furniture and appliances from multi-story buildings, including the narrow staircases common in PB apartments. We use proper equipment and protection."
+            }
+          }
+        ]
+      }
+    ]
+  };
+
+  // Combine all schemas into @graph
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      serviceSchema,
+      breadcrumbSchema,
+      ...existingSchemas["@graph"],
+    ],
+  };
+
   return (
     <div className={`${inter.variable} font-sans antialiased`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(combinedSchema) }}
+      />
       <Header />
 
       <main>
@@ -320,169 +508,6 @@ export default function JunkRemovalPacificBeachPage() {
       </main>
 
       <Footer />
-
-      {/* JSON-LD Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@graph": [
-              {
-                "@type": "WasteRemovalService",
-                "@id": "https://severincleaners.com/junk-removal-pacific-beach#service",
-                "name": "Junk Removal Pacific Beach",
-                "description": "Professional junk removal and hauling services for Pacific Beach, CA (92109)",
-                "areaServed": {
-                  "@type": "Place",
-                  "name": "Pacific Beach",
-                  "address": {
-                    "@type": "PostalAddress",
-                    "addressLocality": "Pacific Beach",
-                    "addressRegion": "CA",
-                    "postalCode": "92109",
-                    "addressCountry": "US"
-                  }
-                },
-                "hasOfferCatalog": {
-                  "@type": "OfferCatalog",
-                  "name": "Pacific Beach Junk Removal Services",
-                  "itemListElement": [
-                    {
-                      "@type": "Offer",
-                      "itemOffered": {
-                        "@type": "Service",
-                        "name": "Single Item Removal",
-                        "description": "Individual furniture and appliance removal"
-                      },
-                      "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "priceCurrency": "USD",
-                        "price": "95.00",
-                        "eligibleQuantity": {
-                          "@type": "QuantitativeValue",
-                          "unitText": "from"
-                        }
-                      }
-                    },
-                    {
-                      "@type": "Offer",
-                      "itemOffered": {
-                        "@type": "Service",
-                        "name": "Quarter Truck Load",
-                        "description": "Small volume junk removal"
-                      },
-                      "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "priceCurrency": "USD",
-                        "price": "250.00",
-                        "eligibleQuantity": {
-                          "@type": "QuantitativeValue",
-                          "unitText": "from"
-                        }
-                      }
-                    },
-                    {
-                      "@type": "Offer",
-                      "itemOffered": {
-                        "@type": "Service",
-                        "name": "Half Truck Load",
-                        "description": "Medium volume junk removal"
-                      },
-                      "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "priceCurrency": "USD",
-                        "price": "450.00",
-                        "eligibleQuantity": {
-                          "@type": "QuantitativeValue",
-                          "unitText": "from"
-                        }
-                      }
-                    },
-                    {
-                      "@type": "Offer",
-                      "itemOffered": {
-                        "@type": "Service",
-                        "name": "Full Truck Load",
-                        "description": "Large volume junk removal and cleanouts"
-                      },
-                      "priceSpecification": {
-                        "@type": "PriceSpecification",
-                        "priceCurrency": "USD",
-                        "price": "700.00",
-                        "eligibleQuantity": {
-                          "@type": "QuantitativeValue",
-                          "unitText": "from"
-                        }
-                      }
-                    }
-                  ]
-                },
-                "serviceType": [
-                  "Vacation Rental Cleanouts",
-                  "Beach House Cleanouts",
-                  "Student Housing Cleanouts",
-                  "Restaurant & Bar Cleanouts",
-                  "Same-Day Junk Removal"
-                ]
-              },
-              {
-                "@type": "FAQPage",
-                "mainEntity": [
-                  {
-                    "@type": "Question",
-                    "name": "Do you service all of Pacific Beach?",
-                    "acceptedAnswer": {
-                      "@type": "Answer",
-                      "text": "Yes! We service every street in PB from Tourmaline Surf Beach to Belmont Park, including Crown Point, Bay Park, and all of Garnet Avenue. Our team knows every alley and access point."
-                    }
-                  },
-                  {
-                    "@type": "Question",
-                    "name": "Can you handle vacation rental turnovers?",
-                    "acceptedAnswer": {
-                      "@type": "Answer",
-                      "text": "Absolutely. We specialize in same-day vacation rental cleanouts throughout Pacific Beach, including Airbnb and VRBO properties. We understand the tight turnaround times required."
-                    }
-                  },
-                  {
-                    "@type": "Question",
-                    "name": "Do you work around PB's Tuesday Farmers Market?",
-                    "acceptedAnswer": {
-                      "@type": "Answer",
-                      "text": "Yes, we're familiar with all PB events including the Tuesday Farmers Market on Bayard Street, Over-the-Line Tournament, and summer concerts. We schedule accordingly."
-                    }
-                  },
-                  {
-                    "@type": "Question",
-                    "name": "How much does junk removal cost in Pacific Beach?",
-                    "acceptedAnswer": {
-                      "@type": "Answer",
-                      "text": "Pricing starts from $95 for single items and varies based on volume. Most PB jobs range from $250-$700. We provide upfront quotes from photos with no hidden fees."
-                    }
-                  },
-                  {
-                    "@type": "Question",
-                    "name": "Do you offer same-day or evening pickups?",
-                    "acceptedAnswer": {
-                      "@type": "Answer",
-                      "text": "Yes, we provide same-day service when scheduled before 2 PM and offer evening pickups for urgent situations. Perfect for vacation rental emergencies or move-out deadlines."
-                    }
-                  },
-                  {
-                    "@type": "Question",
-                    "name": "Can you remove heavy items from upstairs apartments?",
-                    "acceptedAnswer": {
-                      "@type": "Answer",
-                      "text": "Absolutely. Our team safely removes heavy furniture and appliances from multi-story buildings, including the narrow staircases common in PB apartments. We use proper equipment and protection."
-                    }
-                  }
-                ]
-              }
-            ]
-          })
-        }}
-      />
     </div>
   );
 }

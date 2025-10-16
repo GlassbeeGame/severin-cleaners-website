@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import DelMarFAQSection from "./DelMarFAQNew";
+import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -24,144 +25,167 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WasteRemovalService",
-      "name": "Severin Cleaners - Junk Removal Del Mar",
-      "description": "Professional junk removal services in Del Mar, San Diego. Same-day pickup, eco-friendly disposal, and transparent pricing for coastal properties.",
-      "provider": {
-        "@type": "LocalBusiness",
-        "name": "Severin Cleaners",
-        "telephone": "+1-619-750-0114",
-        "url": "https://severincleaners.com"
-      },
-      "areaServed": "Del Mar",
-      "postalCode": "92014",
-      "priceRange": "$",
-      "serviceType": ["Coastal & Beach Homes", "Luxury Estate & Whole-Home Cleanouts", "Remodel & Construction Debris", "Vacation Rentals & Guest Turnovers", "HOA/Gated Access"],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Del Mar Junk Removal Pricing",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Single Item Removal"
-            },
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "price": "95",
-              "priceCurrency": "USD",
-              "valueAddedTaxIncluded": true
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Quarter Truck Load"
-            },
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "price": "250",
-              "priceCurrency": "USD",
-              "valueAddedTaxIncluded": true
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Half Truck Load"
-            },
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "price": "450",
-              "priceCurrency": "USD",
-              "valueAddedTaxIncluded": true
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Full Truck Load"
-            },
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "price": "700",
-              "priceCurrency": "USD",
-              "valueAddedTaxIncluded": true
-            }
-          }
-        ]
-      }
+export default function JunkRemovalDelMarPage() {
+  // Service schema for Del Mar location
+  const serviceSchema = generateLocationServiceSchema({
+    locationName: "Del Mar",
+    serviceName: "Junk Removal",
+    description: "Professional junk removal services in Del Mar, San Diego. Same-day pickup, eco-friendly disposal, and transparent pricing for coastal properties.",
+    url: "https://severincleaners.com/junk-removal-del-mar",
+  });
+
+  // Breadcrumb schema
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
+    { name: "Del Mar Junk Removal", url: "https://severincleaners.com/junk-removal-del-mar" },
+  ]);
+
+  // Existing FAQ and WasteRemovalService schema
+  const wasteRemovalSchema = {
+    "@type": "WasteRemovalService",
+    "name": "Severin Cleaners - Junk Removal Del Mar",
+    "description": "Professional junk removal services in Del Mar, San Diego. Same-day pickup, eco-friendly disposal, and transparent pricing for coastal properties.",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Severin Cleaners",
+      "telephone": "+1-619-750-0114",
+      "url": "https://severincleaners.com"
     },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
+    "areaServed": "Del Mar",
+    "postalCode": "92014",
+    "priceRange": "$",
+    "serviceType": ["Coastal & Beach Homes", "Luxury Estate & Whole-Home Cleanouts", "Remodel & Construction Debris", "Vacation Rentals & Guest Turnovers", "HOA/Gated Access"],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Del Mar Junk Removal Pricing",
+      "itemListElement": [
         {
-          "@type": "Question",
-          "name": "Do you cover all of Del Mar 92014?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, we serve all neighborhoods in Del Mar including Del Mar Village, Del Mar Heights, Flower Hill, Beach Colony, Olde Del Mar, and Crest Canyon area. We also cover the north border near Solana Beach and south border near Carmel Valley."
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Single Item Removal"
+          },
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "95",
+            "priceCurrency": "USD",
+            "valueAddedTaxIncluded": true
           }
         },
         {
-          "@type": "Question",
-          "name": "Do you offer same-day junk removal in Del Mar?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, same-day service is available throughout Del Mar. Call (619) 750-0114 before 2 PM for same-day pickup. We work around your schedule and can accommodate urgent requests."
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Quarter Truck Load"
+          },
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "250",
+            "priceCurrency": "USD",
+            "valueAddedTaxIncluded": true
           }
         },
         {
-          "@type": "Question",
-          "name": "What are your pricing ranges and what affects the final quote?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Pricing starts from $95 single item, $250 quarter truck, $450 half truck, $700 full truck. Final quote depends on volume, weight, location accessibility, and disposal requirements. We confirm pricing from photos or quick onsite assessment."
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Half Truck Load"
+          },
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "450",
+            "priceCurrency": "USD",
+            "valueAddedTaxIncluded": true
           }
         },
         {
-          "@type": "Question",
-          "name": "Can you handle heavy or bulky items from upstairs in Del Mar homes?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Absolutely. Our trained team safely removes heavy furniture, appliances, and bulky items from upstairs rooms, condos with elevators, and multi-level homes. We protect your floors and walls during removal."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you donate or recycle items instead of sending everything to landfills?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, we prioritize donation and recycling whenever possible. Usable items go to local charities, metals and electronics are properly recycled, and we follow eco-friendly disposal practices to protect Del Mar's coastal environment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you work with HOAs and provide certificates of insurance?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, we regularly work with Del Mar HOAs and gated communities. We can provide certificates of insurance when required, follow quiet hours and loading zone restrictions, and coordinate with property management as needed."
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Full Truck Load"
+          },
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "700",
+            "priceCurrency": "USD",
+            "valueAddedTaxIncluded": true
           }
         }
       ]
     }
-  ]
-};
+  };
 
-export default function JunkRemovalDelMarPage() {
+  const faqSchema = {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do you cover all of Del Mar 92014?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we serve all neighborhoods in Del Mar including Del Mar Village, Del Mar Heights, Flower Hill, Beach Colony, Olde Del Mar, and Crest Canyon area. We also cover the north border near Solana Beach and south border near Carmel Valley."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you offer same-day junk removal in Del Mar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, same-day service is available throughout Del Mar. Call (619) 750-0114 before 2 PM for same-day pickup. We work around your schedule and can accommodate urgent requests."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are your pricing ranges and what affects the final quote?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pricing starts from $95 single item, $250 quarter truck, $450 half truck, $700 full truck. Final quote depends on volume, weight, location accessibility, and disposal requirements. We confirm pricing from photos or quick onsite assessment."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you handle heavy or bulky items from upstairs in Del Mar homes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absolutely. Our trained team safely removes heavy furniture, appliances, and bulky items from upstairs rooms, condos with elevators, and multi-level homes. We protect your floors and walls during removal."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you donate or recycle items instead of sending everything to landfills?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we prioritize donation and recycling whenever possible. Usable items go to local charities, metals and electronics are properly recycled, and we follow eco-friendly disposal practices to protect Del Mar's coastal environment."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you work with HOAs and provide certificates of insurance?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we regularly work with Del Mar HOAs and gated communities. We can provide certificates of insurance when required, follow quiet hours and loading zone restrictions, and coordinate with property management as needed."
+        }
+      }
+    ]
+  };
+
+  // Combine all schemas into @graph
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      serviceSchema,
+      breadcrumbSchema,
+      wasteRemovalSchema,
+      faqSchema,
+    ],
+  };
+
   return (
     <div className={`${inter.variable} font-sans antialiased`}>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(combinedSchema) }}
       />
       <Header />
 
