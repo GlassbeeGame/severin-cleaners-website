@@ -49,9 +49,60 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does junk removal cost in Santee?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our Santee junk removal pricing is transparent and upfront with no hidden fees. We offer competitive rates for garage cleanouts, family homes, and apartment complexes: Single Item Pickup starting at $175, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. Most garage cleanouts range from $249-$429, while full family home decluttering projects typically run $349-$495. We provide upfront pricing for all East County neighborhoods from Carlton Hills to Sky Ranch."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you handle garage cleanouts and bulky item pickup in Santee?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Our junk hauling Santee service specializes in garage cleanouts and bulky item removal throughout East County. We handle furniture, appliances, exercise equipment, and accumulated household items, helping families reclaim garage space for vehicles and organized storage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you provide same-day junk hauling in Santee?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we offer same-day junk pickup Santee service for urgent needs throughout Carlton Hills, Sky Ranch, and all Santee neighborhoods. Our East County team can respond quickly for family emergencies, property management needs, or time-sensitive home organization projects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you work with Santee property managers and apartment complexes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our trash removal Santee service provides comprehensive support for property managers and apartment complexes throughout East County. We coordinate tenant turnovers, common area cleanouts, and bulk item removal with flexible scheduling and competitive commercial rates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are your junk removal services eco-friendly in East County?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Our Santee San Diego junk removal prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations. We handle all items in accordance with San Diego County and East County regulations, so you don't have to worry about a thing. Our team works with local East County charities for donations, recycles electronics and metals through certified facilities, and ensures eco-friendly practices that protect our suburban community environment and support Santee's commitment to sustainability."
+      }
+    }
+  ]
+};
+
 export default function JunkremovalsanteePage() {
   return (
     <div className={`${inter.variable} font-sans antialiased`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <main>
       {/* Hero Section */}

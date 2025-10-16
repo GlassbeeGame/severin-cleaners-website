@@ -49,9 +49,60 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does junk removal cost in North Park?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our North Park junk removal pricing is transparent and based on trailer volume: Single Item Pickup starting at $175, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. For the most accurate estimate, please call (619) 750-0114 for a custom quote based on your specific needs in North Park."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you remove heavy items like couches and appliances in North Park?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely! Our junk hauling North Park team specializes in removing heavy furniture and appliances from apartments, condos, and Craftsman homes throughout North Park. We safely handle sofas, sectionals, and bulky furniture from University Avenue apartments, refrigerators, washers, dryers, and kitchen appliances, entertainment centers and bookshelves from condos near El Cajon Blvd, hot tubs and outdoor furniture from historic homes, and exercise equipment and home office furniture. Our crew is experienced with North Park's tight parking near 30th Street and University Avenue, narrow staircases in historic Craftsman homes, and multi-story apartment buildings along the nightlife corridor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide same-day junk hauling in North Park?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! We offer same-day junk pickup North Park service when you call before 2 PM. This is especially helpful for apartment cleanouts near University Avenue, restaurant or bar waste removal from the 30th Street nightlife district, and emergency situations throughout the North Park arts community. During busy weekends, we recommend scheduling morning appointments to guarantee same-day service."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of junk do you not remove?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We handle all standard household items, furniture, appliances, construction debris, yard waste, and more in accordance with local regulations. If you're unsure about a specific item, please call us at (619) 750-0114 and we can discuss it — there are various factors that can affect pricing and service options."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are you licensed and insured for junk removal in San Diego?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! Severin Cleaners is fully licensed and insured to provide North Park San Diego junk removal services throughout North Park and all of San Diego County. We carry comprehensive liability insurance to protect your property during removal, and we dispose of all items responsibly at licensed facilities. Our team follows all local regulations for waste handling and environmental compliance."
+      }
+    }
+  ]
+};
+
 export default function JunkremovalnorthparkPage() {
   return (
     <div className={`${inter.variable} font-sans antialiased`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <main>
       {/* Hero Section */}

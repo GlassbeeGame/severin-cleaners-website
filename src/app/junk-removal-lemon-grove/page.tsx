@@ -49,9 +49,60 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does junk removal cost in Lemon Grove?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our Lemon Grove junk removal pricing is transparent and affordable, designed with families and apartment residents in mind. We offer upfront pricing with no hidden fees: Single Item Pickup starting at $175, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. Most apartment cleanouts range from $249-$349, while family home projects typically run $349-$495. Special discounts available for seniors, repeat customers, and multifamily properties. Contact us for a free, no-obligation quote."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer same-day junk pickup in Lemon Grove?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we provide same-day junk pickup Lemon Grove service for urgent needs throughout the community. Whether you're dealing with an apartment move-out deadline or unexpected family situation, our local team can respond quickly with professional, affordable service."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you handle junk hauling for apartments and multifamily housing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Our junk hauling Lemon Grove service specializes in apartment complexes and multifamily housing throughout the community. We coordinate with property managers, respect tenant privacy, and work efficiently to minimize disruption while providing affordable bulk item removal and turnover support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide trash removal services for small businesses in Lemon Grove?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our trash removal Lemon Grove service supports local small businesses along Broadway and throughout the community. We offer flexible scheduling, competitive commercial rates, and regular service options that help small businesses maintain clean, professional spaces without breaking their budgets."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are your junk removal services eco-friendly and affordable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Our Lemon Grove San Diego junk removal combines affordability with environmental responsibility and full regulatory compliance. We handle all items in accordance with San Diego County and local Lemon Grove regulations, so you don't have to worry about a thing. Our team donates usable items to local charities, recycles whenever possible, and ensures proper disposal through certified facilities—all while keeping our prices competitive. Our eco-friendly approach helps protect our community environment while providing maximum value to families and residents."
+      }
+    }
+  ]
+};
+
 export default function JunkremovallemongovePage() {
   return (
     <div className={`${inter.variable} font-sans antialiased`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <main>
       {/* Hero Section */}

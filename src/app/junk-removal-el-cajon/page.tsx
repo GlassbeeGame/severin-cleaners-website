@@ -49,9 +49,60 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does junk removal cost in El Cajon?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our El Cajon junk removal pricing is transparent and volume-based with no hidden fees. We offer comprehensive service to all Fletcher Hills, Rancho San Diego, Granite Hills, and East County neighborhoods with family-focused service: Single Item Pickup starting at $175, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. All prices include labor, hauling, disposal fees, and eco-friendly recycling. Volume discounts available for large East County family properties and multi-generational homes. Call for your free estimate today."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide same-day junk hauling in East County?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we offer same-day junk hauling El Cajon service for urgent needs throughout East County. Whether you're in Fletcher Hills, Rancho San Diego, Granite Hills, Crest, or Downtown El Cajon, our family-owned team can respond quickly for emergency cleanouts, estate situations, and time-sensitive property needs. Same-day availability depends on scheduling and crew availability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What neighborhoods in El Cajon do you cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our East County junk removal covers all El Cajon neighborhoods including Fletcher Hills, Rancho San Diego, Granite Hills, Bostonia, Crest, Mount Helix, Downtown El Cajon, Jamacha-Lomita, Casa de Oro, and the Fletcher Parkway corridor. We serve from Parkway Plaza to the mountain communities, including hillside properties, master-planned communities, and established family neighborhoods throughout East County."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you handle large family properties or multi-generational homes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Our junk pickup El Cajon service specializes in large family properties and multi-generational households common throughout East County. As a family-owned business, we understand the unique needs of family cleanouts, inherited properties, and estate transitions. We provide respectful, compassionate service that preserves important family memories while handling extensive property cleanouts with care and professionalism."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you serve Fletcher Hills and Rancho San Diego?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we provide comprehensive trash removal El Cajon service throughout Fletcher Hills and Rancho San Diego. We specialize in these premier East County neighborhoods, understanding their unique characteristics - from Fletcher Hills' established hillside properties and luxury estates to Rancho San Diego's master-planned communities and HOA requirements. Our team delivers professional service that respects community standards and family values in both areas."
+      }
+    }
+  ]
+};
+
 export default function JunkremovalelcajonPage() {
   return (
     <div className={`${inter.variable} font-sans antialiased`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <main>
       {/* Hero Section */}

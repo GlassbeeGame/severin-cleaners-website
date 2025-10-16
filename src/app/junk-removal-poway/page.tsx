@@ -49,9 +49,60 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does junk removal cost in Poway?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our Poway junk removal pricing is transparent and upfront with no hidden fees. We offer special rates for ranch properties, large estates, and volume discounts for multi-acre cleanouts: Single Item Pickup starting at $175, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. Ranch properties and large estates may qualify for volume discounts. Most family home projects range from $349-$495. Final pricing depends on volume, property accessibility, and disposal requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you handle junk hauling for large ranch or equestrian properties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our junk hauling Poway service specializes in ranch and equestrian properties throughout Poway's rural areas. We handle barn cleanouts, arena maintenance debris, fence removal, and agricultural equipment disposal. Our team is experienced with multi-acre properties and understands the unique needs of horse facilities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you provide same-day junk pickup in Poway?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. We offer same-day junk pickup Poway service for urgent needs throughout all Poway neighborhoods, from Old Poway Village to Green Valley. Our local team can respond quickly for family emergencies, ranch property issues, or time-sensitive business cleanouts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you work with Poway Business Park offices and commercial properties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our trash removal Poway service includes comprehensive commercial support for Poway Business Park and local businesses. We provide office cleanouts, warehouse clearing, retail renovation debris removal, and regular commercial waste management with flexible scheduling to minimize business disruption."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are your junk removal services eco-friendly in Poway?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Our Poway San Diego junk removal prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations. We handle all items in accordance with San Diego County and Poway regulations, so you don't have to worry about a thing. Our team works with local Poway charities for donations, ensures proper handling of ranch and agricultural waste, and maintains eco-friendly practices that protect our community's unique 'City in the Country' rural character and natural environment."
+      }
+    }
+  ]
+};
+
 export default function JunkremovalpowayPage() {
   return (
     <div className={`${inter.variable} font-sans antialiased`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <main>
       {/* Hero Section */}

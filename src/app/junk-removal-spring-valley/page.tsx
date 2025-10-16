@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import { Metadata } from 'next';
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SpringValleyFAQSection from "./SpringValleyFAQSection";
@@ -14,9 +14,60 @@ export const metadata: Metadata = {
   },
 };
 
-export default function SpringValleyJunkRemoval() {
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does junk removal cost in Spring Valley?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our Spring Valley junk removal pricing is transparent and affordable, designed with East County families in mind. We offer upfront pricing with no hidden fees: Single Item Pickup starting at $175, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. Most residential jobs range from $249-$429, with flexible payment options for families. Hillside properties may have additional access coordination. We provide family-friendly rates for apartments, mobile homes, and multi-family properties throughout Dictionary Hill and Casa de Oro."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide hillside junk hauling in Spring Valley?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! We specialize in hillside property junk pickup Spring Valley services, especially in Dictionary Hill and Casa de Oro areas. Our team has specialized equipment and experience handling challenging terrain, steep driveways, and unique access situations. We're experts at safely navigating hillside properties throughout East County."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you offer same-day junk pickup for apartments and mobile homes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely! We provide same-day Spring Valley junk removal service for apartments, mobile home parks, and multi-family properties. Our team works efficiently with property managers and understands the unique requirements of rental properties. We coordinate with building management and respect community guidelines for all trash removal Spring Valley projects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you handle large family cleanouts and estate junk removal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, while we're a professional junk removal Spring Valley company, we excel at large family cleanouts and estate property junk removal. Our core service is hauling away unwanted items, furniture, and debris from inherited homes and multi-generational households. Our compassionate junk hauling Spring Valley team understands the sensitivity required when families are dealing with estate transitions or downsizing situations. We efficiently remove and haul away items while working respectfully with families during difficult times in East County communities. We focus on the junk removal aspect, making the physical cleanout process smooth and stress-free."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are your junk removal services eco-friendly in East County?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Our Spring Valley San Diego junk removal approach prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations. We handle all items in accordance with San Diego County and East County regulations, so you don't have to worry about a thing. Our team recycles metals, electronics, and materials through certified facilities, donates usable furniture to local East County charities, and ensures eco-friendly disposal methods that benefit both your family and the Spring Valley community environment."
+      }
+    }
+  ]
+};
+
+export default function JunkRemovalSpringValleyPage() {
   return (
     <div className="min-h-screen bg-background">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <main>
         {/* Hero Section */}

@@ -49,9 +49,60 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does junk removal cost in Oceanside?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our Oceanside junk removal pricing is transparent and upfront, with special military discounts for active duty families and competitive rates for vacation rental properties: Single Item Pickup starting at $175, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. Active duty military families receive special discounts. Vacation rental turnovers typically range from $249-$349, while most residential projects run $349-$495. Custom quotes available for large coastal properties and commercial cleanouts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide junk removal for Camp Pendleton military housing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our Camp Pendleton junk removal service specializes in military PCS moves and base housing cleanouts. We coordinate with base housing offices, understand inspection requirements, and work within tight military timelines. Active duty families receive special discounts, and we're familiar with all base access procedures."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you handle same-day junk pickup for vacation rentals in Oceanside?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Our junk pickup Oceanside team provides same-day service for vacation rental turnovers throughout coastal Oceanside. We understand the importance of quick turnarounds for maintaining bookings and reviews, offering priority scheduling for property managers and vacation rental owners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer coastal property cleanouts and storm debris removal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, while we're a general junk removal Oceanside company serving all types of properties, we excel at coastal property cleanouts including storm debris removal, salt air damaged furniture disposal, and beach equipment cleanup. Our trash removal Oceanside team responds quickly to weather events affecting coastal properties, handles post-storm cleanup, and provides environmentally responsible disposal that protects Oceanside's beautiful beaches and marine environment. We work with all types of coastal property needs while maintaining our core junk removal expertise."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are your junk removal services eco-friendly in North County?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Our Oceanside San Diego junk removal prioritizes environmental protection through comprehensive recycling, donation programs, and disposal methods that comply with all local coastal regulations. We handle all items in accordance with San Diego County and North County Coastal regulations, so you don't have to worry about a thing. Our team works with local North County charities for donations, protects beach and marine environments through proper disposal practices, and ensures all materials are handled responsibly to minimize environmental impact on Oceanside's beautiful coastal ecosystem."
+      }
+    }
+  ]
+};
+
 export default function JunkremovaloceansidePage() {
   return (
     <div className={`${inter.variable} font-sans antialiased`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <main>
       {/* Hero Section */}

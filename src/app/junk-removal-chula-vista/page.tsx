@@ -49,9 +49,60 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does junk removal cost in Chula Vista?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our Chula Vista junk removal pricing is transparent and volume-based with no hidden fees. We offer comprehensive service to all Eastlake, Otay Ranch, and South Bay neighborhoods with HOA-compliant service: Single Item Pickup starting at $175, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. All prices include labor, hauling, disposal fees, and eco-friendly recycling. Volume discounts available for large Chula Vista cleanouts. Call for your free estimate today."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer bilingual junk removal service in Chula Vista?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, ofrecemos servicio completamente bilingüe. Our junk hauling Chula Vista team includes Spanish-speaking crew members who can communicate effectively with all residents. We provide estimates, scheduling, and service in both English and Spanish to serve our diverse South Bay community."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you provide same-day junk removal in Eastlake or Otay Ranch?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we offer same-day junk pickup Chula Vista service for urgent needs in Eastlake, Otay Ranch, and throughout South Bay. Our team understands HOA requirements and can coordinate emergency cleanouts while maintaining community standards. Same-day availability depends on scheduling and crew availability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are your junk removal services HOA-compliant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Our trash removal Chula Vista service is fully HOA-compliant for all neighborhoods including Eastlake, Otay Ranch, and Rolling Hills Ranch. We coordinate with property management, schedule during approved hours, maintain professional appearance, and provide documentation when required by HOA boards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What areas of South Bay do you serve?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our South Bay junk removal covers all Chula Vista neighborhoods, plus National City, Bonita, Imperial Beach, and San Ysidro. We serve from the bayfront to the hills, including all master-planned communities, established neighborhoods, commercial districts, and border region properties throughout South Bay."
+      }
+    }
+  ]
+};
+
 export default function JunkRemovalChulaVistaPage() {
   return (
     <div className={`${inter.variable} font-sans antialiased`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <main>
       {/* Hero Section */}

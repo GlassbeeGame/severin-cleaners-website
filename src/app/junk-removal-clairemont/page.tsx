@@ -49,9 +49,60 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does junk removal cost in Clairemont?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our Clairemont junk removal pricing is transparent and upfront with no hidden fees. Here's our standard pricing structure: Single Item Pickup starting at $175, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. Final pricing depends on volume, type of items, and access. Call (619) 750-0114 for a free, customized quote tailored to your specific junk hauling Clairemont needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide same-day junk hauling in Clairemont Mesa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely! We offer same-day junk pickup Clairemont Mesa service for urgent residential and commercial needs. Our local team understands Clairemont families' schedules and can respond quickly for emergency cleanouts, moving deadlines, or unexpected situations throughout North Clairemont, South Clairemont, and Clairemont Mesa East."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you handle garage and attic cleanouts in Clairemont?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! Our trash removal Clairemont service specializes in garage cleanouts, attic clearing, and storage area organization. We handle everything from accumulated household items to old furniture, appliances, and boxes. Our team helps Clairemont families reclaim valuable space with efficient, respectful service."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you recycle or donate items collected in Clairemont?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Our Clairemont junk removal approach prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations. We handle all items in accordance with San Diego County regulations, so you don't have to worry about a thing. Our team recycles metals, electronics, and appliances through certified facilities, donates usable furniture and household items to local San Diego charities, and ensures eco-friendly disposal that benefits both Clairemont families and the environment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is commercial junk removal available for Clairemont businesses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we provide comprehensive commercial junk hauling Clairemont for local businesses along Balboa Avenue and throughout Clairemont Mesa. Our services include office cleanouts, retail space clearing, restaurant equipment removal, and small business junk hauling. We offer flexible scheduling and competitive commercial rates to support Clairemont's business community."
+      }
+    }
+  ]
+};
+
 export default function JunkremovalclairemontPage() {
   return (
     <div className={`${inter.variable} font-sans antialiased`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <main>
       {/* Hero Section */}

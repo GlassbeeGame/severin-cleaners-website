@@ -49,9 +49,60 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does junk removal cost in Hillcrest?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Single Item Pickup starting at $175, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. Our Hillcrest junk removal pricing includes labor, hauling, proper disposal, and cleanup. Urban locations may have additional coordination fees for permits, elevator scheduling, or building management requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide junk removal for high-rise condos and apartments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our junk hauling Hillcrest service specializes in high-rise and apartment cleanouts. We coordinate with building management, schedule elevator time, and handle all access logistics. Our team is experienced with condo association requirements and maintains professional standards for upscale properties throughout the urban core."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you handle limited parking and narrow streets in Hillcrest?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Our urban junk removal San Diego team specializes in navigating Hillcrest's narrow streets, limited parking, and time-restricted loading zones. We secure necessary permits, coordinate with city regulations, and use appropriately sized vehicles to access urban properties while minimizing neighborhood disruption."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer same-day junk hauling in Hillcrest and University Heights?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we provide same-day junk pickup Hillcrest and University Heights junk removal for urgent needs. Our urban-focused team can respond quickly throughout the central San Diego area. Same-day availability depends on scheduling and may require coordination with building management for access."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are you experienced with historic homes and older buildings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our trash removal Hillcrest service has extensive experience with historic properties and vintage buildings. We understand preservation requirements, structural considerations, and special handling needs for historic homes. Our team protects architectural features and follows best practices for working in sensitive historic environments."
+      }
+    }
+  ]
+};
+
 export default function JunkremovalhillcrestPage() {
   return (
     <div className={`${inter.variable} font-sans antialiased`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <main>
       {/* Hero Section */}

@@ -49,9 +49,60 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does junk removal cost in La Mesa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our La Mesa junk removal pricing is transparent and upfront with no hidden fees. We offer special rates for family homes and rental property managers throughout East County: Single Item Pickup starting at $175, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. Mount Helix hillside properties and challenging access locations may have additional coordination fees. Final pricing depends on volume, accessibility, and disposal requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide junk hauling for hillside homes in Mount Helix?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our junk hauling La Mesa service specializes in Mount Helix hillside properties with challenging access. Our team is experienced with steep driveways, narrow roads, and scenic property considerations. We use appropriately sized vehicles and coordinate access to protect both property and natural beauty."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you handle same-day junk pickup in La Mesa Village or Fletcher Hills?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. We provide same-day junk pickup La Mesa throughout La Mesa Village, Fletcher Hills, and all East County neighborhoods. Our local team can respond quickly for family emergencies, rental property turnovers, or urgent cleanout needs while maintaining our commitment to professional service."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you work with property managers and rental homes in La Mesa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our trash removal La Mesa service provides specialized support for property managers and rental home turnovers. We offer flexible scheduling, detailed documentation, and reliable service that helps maintain property values and tenant satisfaction throughout East County rental markets."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are your junk removal services eco-friendly in East County?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Our La Mesa San Diego junk removal prioritizes environmental responsibility through donations to local East County charities, comprehensive recycling programs, and eco-friendly disposal methods that exceed local regulations. We handle all items in full compliance with San Diego County and East County environmental regulations, so you don't have to worry about a thing. Our team sorts materials for donation, recycling, and proper disposal—ensuring minimal landfill impact while supporting local East County community organizations. We understand East County families value environmental stewardship and we're committed to protecting our hillside communities and natural spaces."
+      }
+    }
+  ]
+};
+
 export default function JunkremovallamesesPage() {
   return (
     <div className={`${inter.variable} font-sans antialiased`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <main>
       {/* Hero Section */}

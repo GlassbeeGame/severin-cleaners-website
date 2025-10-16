@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import { Metadata } from 'next';
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import VistaFAQSection from "./VistaFAQSection";
@@ -14,9 +14,60 @@ export const metadata: Metadata = {
   },
 };
 
-export default function VistaJunkRemoval() {
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does junk removal cost in Vista?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our Vista junk removal pricing is transparent and upfront with no hidden fees. Here's our standard pricing structure: Single Item Pickup starting at $175, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. Most residential jobs range from $249-$429, while commercial projects vary based on scope. Call (619) 750-0114 for a free, customized quote tailored to your specific junk hauling Vista needs for both homes and businesses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you handle apartment and condo junk hauling in Vista?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! We specialize in apartment and condo junk pickup Vista services, especially in Downtown Vista Village and Shadowridge complexes. Our team navigates stairs, elevators, and tight spaces with care. We coordinate with property managers and respect HOA guidelines for all trash removal Vista projects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you provide same-day junk pickup in Vista?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely! We offer same-day Vista junk removal service 7 days a week. Our local team can often arrive within 2-4 hours of your call for emergency cleanouts. Whether you need urgent help for moving deadlines or unexpected situations, our same-day junk hauling Vista service is ready to help."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you work with Vista businesses and warehouses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we provide comprehensive commercial Vista San Diego junk removal for businesses throughout Vista Business Park, downtown breweries, and warehouse facilities. Our services include office cleanouts, retail space clearing, and industrial equipment removal. We work with contractors, property managers, and business owners on projects of all sizes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are your junk removal services eco-friendly in North County?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Our Vista junk removal approach prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations. We handle all items in accordance with San Diego County and North County regulations, so you don't have to worry about a thing. Our team recycles metals, electronics, and materials through certified facilities, donates usable furniture to local North County charities, and ensures eco-friendly disposal methods that benefit both Vista families and businesses while protecting our community environment."
+      }
+    }
+  ]
+};
+
+export default function JunkRemovalVistaPage() {
   return (
     <div className="min-h-screen bg-background">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <main>
         {/* Hero Section */}

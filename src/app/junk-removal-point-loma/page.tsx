@@ -49,9 +49,60 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do you provide junk removal for military PCS moves in Point Loma?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our Point Loma junk removal service specializes in military PCS moves and base housing transitions. We coordinate with Naval Base San Diego housing offices, work within tight PCS timelines, and provide special military discounts for active duty families. Our team understands base housing regulations and inspection requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does junk removal cost in Point Loma?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Single Item Pickup starting at $175, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. Our junk hauling Point Loma pricing includes labor, hauling, eco-friendly disposal, and cleanup. We offer special military discounts for active duty families and competitive rates for coastal property cleanouts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you handle coastal property cleanouts and storm debris?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Our trash removal Point Loma service specializes in coastal property maintenance including storm debris cleanup, salt air corrosion disposal, and weather damage removal. We understand the unique challenges of Sunset Cliffs and oceanfront properties, providing environmentally responsible disposal methods."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you provide same-day junk hauling in Liberty Station or Sunset Cliffs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we offer same-day junk pickup Point Loma service throughout Liberty Station, Sunset Cliffs, and all Point Loma neighborhoods. Our local team can respond quickly for urgent military moves, storm cleanup, or emergency coastal property needs while maintaining our commitment to quality and environmental responsibility."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are your junk removal services eco-friendly and HOA-compliant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our Point Loma San Diego junk removal prioritizes environmental responsibility and community compliance. We donate usable items, recycle materials, and follow HOA guidelines for Liberty Station and coastal communities. Our service protects Point Loma's beautiful environment while respecting community standards."
+      }
+    }
+  ]
+};
+
 export default function JunkremovalpointlomaPage() {
   return (
     <div className={`${inter.variable} font-sans antialiased`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <main>
       {/* Hero Section */}

@@ -49,9 +49,68 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do you service all areas of Rancho Santa Fe including gated communities?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our Rancho Santa Fe junk removal service covers all areas including The Covenant, Fairbanks Ranch, The Bridges, and other exclusive gated communities. We're pre-approved vendors familiar with gate access procedures and HOA requirements throughout Rancho Santa Fe."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does junk removal cost in Rancho Santa Fe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our Rancho Santa Fe junk removal pricing is transparent and based on trailer volume: Single Item Pickup starting at $175, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. For large estate cleanouts, equestrian facilities, and multi-acre properties, please call (619) 750-0114 for a custom quote tailored to your luxury property needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you remove heavy items like couches, appliances, and large outdoor equipment in Rancho Santa Fe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely! Our junk hauling Rancho Santa Fe team specializes in removing heavy and oversized items from luxury estates and equestrian properties. We safely handle high-end sofas, sectionals, and custom furniture from estate homes, professional-grade kitchen appliances, wine refrigerators, and outdoor kitchens, hot tubs, pool equipment, and outdoor entertainment systems, gym equipment, exercise machines, and home theater components, equestrian equipment, saddles, tack, and barn fixtures, and antiques, valuable furniture, and collectibles with white-glove handling. Our crews are specially trained in white-glove handling of valuable items and understand the unique access challenges of gated estates, multi-acre properties, and equestrian facilities throughout The Covenant and Fairbanks Ranch."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide same-day junk hauling in Rancho Santa Fe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! We offer same-day junk pickup Rancho Santa Fe service when you call before 2 PM. Our team understands the urgency often required for estate management, property staging, last-minute renovations, and HOA compliance issues. We coordinate with gate security, property managers, and household staff to provide discreet, professional service that respects your privacy and your community's standards throughout The Covenant, Fairbanks Ranch, and all Rancho Santa Fe gated communities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of junk do you not remove?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We handle all standard household items, furniture, appliances, construction debris, yard waste, equestrian property materials, and more in accordance with local regulations. If you're unsure about a specific item, please call us at (619) 750-0114 and we can discuss it — there are various factors that can affect pricing and service options for luxury estates and large properties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are you licensed and insured for junk removal in San Diego County?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! Severin Cleaners is fully licensed and insured to provide Rancho Santa Fe San Diego junk removal services throughout all of San Diego County, including exclusive communities like Rancho Santa Fe. We carry comprehensive liability insurance specifically covering luxury estates, valuable property contents, and equestrian facilities. Our trash removal Rancho Santa Fe service is pre-approved by multiple HOAs and provides all necessary documentation for gated community access, property management requirements, and compliance with local disposal regulations."
+      }
+    }
+  ]
+};
+
 export default function JunkremovalranchosantafePage() {
   return (
     <div className={`${inter.variable} font-sans antialiased`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <main>
       {/* Hero Section */}

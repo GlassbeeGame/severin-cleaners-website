@@ -49,9 +49,60 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does junk removal cost in Lakeside?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our Lakeside junk removal pricing is transparent and upfront with no hidden fees. We offer special rates for large properties, ranches, and recurring rural property maintenance: Single Item Pickup starting at $175, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. Large properties and ranch cleanouts may qualify for volume discounts. Final pricing depends on volume, property accessibility, and disposal requirements. Contact us for a free quote tailored to your rural property needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you handle large property and ranch junk hauling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our junk hauling Lakeside service specializes in large properties, ranches, and agricultural facilities. We handle multi-acre cleanouts, ranch equipment disposal, barn cleanouts, and agricultural waste removal. Our team is experienced with the scale and unique requirements of East County's rural properties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you provide same-day junk pickup in Lakeside?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. We provide same-day junk pickup Lakeside for urgent needs throughout East County rural areas. Our team can respond quickly for large property emergencies, seasonal cleanouts, or time-sensitive agricultural operations while respecting working ranch and farm schedules."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you remove yard debris and outdoor storage items?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our trash removal Lakeside includes comprehensive yard debris removal, outdoor storage cleanouts, and landscaping waste disposal. We handle tree trimming debris, seasonal cleanup, garden renovation waste, and outdoor equipment disposal common to Lakeside's rural lifestyle."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are your junk removal services eco-friendly in East County?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Our Lakeside San Diego junk removal prioritizes environmental responsibility through agricultural waste recycling, donation programs with local East County charities, and eco-friendly disposal methods that exceed local regulations. We handle all items in full compliance with San Diego County and East County environmental regulations, so you don't have to worry about a thing. Our team sorts materials for agricultural waste recycling, donation, and proper disposal—ensuring minimal landfill impact while supporting local rural community organizations. We understand East County's rural communities' commitment to environmental stewardship and work to protect our natural spaces and working lands."
+      }
+    }
+  ]
+};
+
 export default function JunkremovallakesidePage() {
   return (
     <div className={`${inter.variable} font-sans antialiased`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <main>
       {/* Hero Section */}
