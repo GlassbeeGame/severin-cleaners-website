@@ -5,8 +5,49 @@ import { useState } from 'react';
 export default function ForeclosureFAQSection() {
   const [openFAQ, setOpenFAQ] = useState<number | null>(null);
 
+  const faqs = [
+    {
+      question: "What are your foreclosure and eviction cleanout prices?",
+      answer: "Our foreclosure junk removal San Diego and eviction junk removal San Diego pricing is based on volume: Single Item Pickup: Starting at $175, 1/4 Trailer Load: $249 (3 cubic yards), 3/8 Trailer Load: $319, 1/2 Trailer Load: $349 (6 cubic yards), 5/8 Trailer Load: $366, 3/4 Trailer Load: $429, 7/8 Trailer Load: $462, Full Trailer Load: $495 (12 cubic yards). All prices include labor, hauling, proper disposal, and cleanup. We provide detailed documentation for banks and property managers when requested."
+    },
+    {
+      question: "How quickly can you clear a foreclosure or eviction property?",
+      answer: "We offer same-day service for urgent property cleanout San Diego situations and typically complete most residential cleanouts within 24-48 hours. Our team works efficiently to meet tight deadlines for banks, landlords, and property managers."
+    },
+    {
+      question: "Can you handle large or multi-unit properties?",
+      answer: "Yes, we have the crew capacity and equipment to handle everything from single-family homes to large apartment complexes and commercial properties. We scale our team size based on project scope for efficient completion."
+    },
+    {
+      question: "Is your foreclosure cleanout service discreet?",
+      answer: "Absolutely. Our teams work with professionalism and respect for all parties involved. We provide unmarked vehicles when requested and ensure all junk hauling work is conducted discreetly to maintain neighborhood relations."
+    },
+    {
+      question: "Do you provide documentation for banks and landlords?",
+      answer: "Yes, we provide comprehensive documentation including detailed invoices, before and after photos, itemized removal lists, and disposal certificates. We understand financial institution requirements and ensure all paperwork meets their standards."
+    }
+  ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
+
   return (
-    <section className="py-16 bg-white">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -188,5 +229,6 @@ export default function ForeclosureFAQSection() {
         </div>
       </div>
     </section>
+    </>
   );
 }

@@ -5,8 +5,49 @@ import { useState } from 'react';
 export default function HotTubFAQSection() {
   const [openFAQ, setOpenFAQ] = useState<number | null>(null);
 
+  const faqs = [
+    {
+      question: "How much does hot tub removal cost in San Diego?",
+      answer: "Hot tub removal San Diego costs range from $299 for portable spas to $1,499+ for built-in Jacuzzi removal. Spa removal San Diego pricing depends on size, type, and access difficulty. Our Jacuzzi removal San Diego service includes disconnection, removal, and disposal with transparent upfront pricing and no hidden fees."
+    },
+    {
+      question: "Do you remove both portable and built-in spas?",
+      answer: "Yes, our spa disposal San Diego service handles all types including portable hot tubs, above-ground spas, built-in Jacuzzis, and custom installations. We have specialized equipment for backyard hot tub demolition San Diego and experience with both simple removals and complex demolition projects."
+    },
+    {
+      question: "Can you disconnect plumbing, gas, and electrical lines?",
+      answer: "Absolutely. Our licensed team safely disconnects all utilities including 220V electrical lines, plumbing connections, and gas lines for heated spas. Professional hot tub disposal includes proper utility disconnection, water draining, and safe capping of all connections to meet local codes."
+    },
+    {
+      question: "What happens to the old hot tub after removal?",
+      answer: "Our eco-friendly spa removal San Diego service recycles materials whenever possible. Fiberglass and acrylic shells are recycled, metal components go to scrap yards, and working equipment may be donated or resold. We ensure responsible disposal at licensed facilities while maximizing material recovery."
+    },
+    {
+      question: "Do you provide same-day hot tub removal?",
+      answer: "Yes, we offer same-day hot tub removal San Diego when you call before 2 PM. Our rapid Jacuzzi removal San Diego service is perfect for emergency situations, property staging, or when you need immediate spa disposal. Same-day service available throughout San Diego County at standard rates."
+    }
+  ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
+
   return (
-    <section className="py-16 bg-white">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -175,5 +216,6 @@ export default function HotTubFAQSection() {
         </div>
       </div>
     </section>
+    </>
   );
 }

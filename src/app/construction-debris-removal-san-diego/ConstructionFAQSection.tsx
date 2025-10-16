@@ -5,8 +5,53 @@ import { useState } from 'react';
 export default function ConstructionFAQSection() {
   const [openFAQ, setOpenFAQ] = useState<number | null>(null);
 
+  const faqs = [
+    {
+      question: "How much does construction debris removal cost in San Diego?",
+      answer: "Pricing starts at $175 for single items and ranges up to $495 for a full trailer load (12 cubic yards). Most small to medium construction projects fall in the $249-$429 range. Large demolition projects requiring multiple loads are quoted on-site. Volume pricing available for ongoing contracts."
+    },
+    {
+      question: "Do you offer same-day service for construction projects?",
+      answer: "Yes. Call before 2 PM and we can usually provide same-day pickup to keep your project moving. We understand construction delays cost money, so we prioritize contractor requests."
+    },
+    {
+      question: "How much does demolition debris removal San Diego cost?",
+      answer: "Demolition debris removal typically requires multiple trailer loads due to volume. Small demolition jobs start around $495 for a full load, while larger projects requiring 2-4 loads range from $1,000-$2,000. Heavy materials like concrete may have additional fees. We provide on-site quotes for demolition projects."
+    },
+    {
+      question: "Can you handle concrete and heavy materials?",
+      answer: "Yes. We have equipment to handle concrete, brick, masonry, and other heavy construction materials. These materials may have additional fees due to weight and disposal requirements. Call for a quote on concrete removal projects."
+    },
+    {
+      question: "Do you provide documentation for permits?",
+      answer: "Yes. We provide disposal receipts and documentation needed for permit compliance, inspections, and project closeout. We comply with San Diego disposal regulations and can coordinate with licensed facilities when required for specific materials."
+    },
+    {
+      question: "Do you offer ongoing service for active job sites?",
+      answer: "Absolutely. We provide scheduled pickups for active construction sites—daily, weekly, or as needed. Volume pricing available for ongoing contracts. This keeps your site clean, safe, and compliant without the hassle of managing debris yourself."
+    }
+  ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
+
   return (
-    <section className="py-16 bg-white">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -201,5 +246,6 @@ export default function ConstructionFAQSection() {
         </div>
       </div>
     </section>
+    </>
   );
 }

@@ -5,8 +5,57 @@ import { useState } from 'react';
 export default function CleanoutFAQSection() {
   const [openFAQ, setOpenFAQ] = useState<number | null>(null);
 
+  const faqs = [
+    {
+      question: "What are your cleanout service prices in San Diego?",
+      answer: "Our cleanout services San Diego pricing is volume-based and completely transparent. Pricing includes: Single Item Pickup starting at $175, 1/4 Trailer Load (3 cubic yards) for $249, 1/2 Trailer Load (6 cubic yards) for $349, and Full Trailer Load (12 cubic yards) for $495. We also offer 3/8 load ($319), 5/8 load ($366), 3/4 load ($429), and 7/8 load ($462) options. All pricing includes labor, hauling, eco-friendly disposal, and recycling or donation coordination. No hidden fees or surprise charges."
+    },
+    {
+      question: "Do you offer shed cleanout San Diego services?",
+      answer: "Yes! Shed cleanout San Diego is one of our specialty services. We handle everything from small tool sheds to large storage buildings, removing years of accumulated tools, equipment, yard waste, and miscellaneous items. Most shed cleanouts take 1-2 hours and range from $200-$400 depending on volume. We can also assist with shed demolition coordination if needed."
+    },
+    {
+      question: "Can you handle large property cleanouts like estates or multi-unit homes?",
+      answer: "Absolutely. Property cleanout San Diego projects are our specialty, including estate cleanouts, multi-unit residential buildings, move-out situations, and properties being prepared for sale or rent. We work with families, realtors, and landlords to completely clear properties of all unwanted items, handling everything from furniture to appliances to personal belongings with care and professionalism."
+    },
+    {
+      question: "What happens to items after you haul them away?",
+      answer: "We prioritize eco-friendly disposal for all our cleanout services San Diego. Items in good condition are donated to local charities, recyclable materials go to San Diego recycling facilities, and only true waste goes to approved landfills. We partner with Goodwill, Salvation Army, and local nonprofits to give items a second life whenever possible."
+    },
+    {
+      question: "How long does a typical cleanout take?",
+      answer: "Cleanout duration varies by project size. Garage cleanout San Diego and attic cleanout San Diego jobs typically take 2-3 hours, storage unit cleanout San Diego takes 1-2 hours, while full property cleanout San Diego or basement cleanout San Diego projects may take 4-8 hours or require multiple visits for large estates."
+    },
+    {
+      question: "Do you offer same-day cleanout service?",
+      answer: "Yes! We offer same-day cleanout services San Diego for urgent situations including emergency move-outs, realtor deadlines, and property turnovers. Call us early in the day for best availability, and we'll do everything possible to accommodate your timeline with professional junk hauling service."
+    },
+    {
+      question: "Do I need to be present during the cleanout?",
+      answer: "Not necessarily. Many property cleanout San Diego clients provide us with access and clear instructions on what to remove, then let us work independently. This is common for landlords, property managers, and busy professionals. We can send before and after photos to document our work."
+    }
+  ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
+
   return (
-    <section className="py-16 bg-white">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -230,5 +279,6 @@ export default function CleanoutFAQSection() {
         </div>
       </div>
     </section>
+    </>
   );
 }

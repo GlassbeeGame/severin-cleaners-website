@@ -5,8 +5,49 @@ import { useState } from 'react';
 export default function CommercialFAQSection() {
   const [openFAQ, setOpenFAQ] = useState<number | null>(null);
 
+  const faqs = [
+    {
+      question: "Do you provide after-hours or weekend commercial junk removal in San Diego?",
+      answer: "Yes, we understand that business operations cannot be disrupted during regular hours. Our commercial junk removal San Diego service includes evening, weekend, and holiday scheduling to minimize impact on your business operations. We work with your schedule to ensure seamless service delivery."
+    },
+    {
+      question: "Can you provide disposal documentation for compliance?",
+      answer: "Absolutely. We provide comprehensive disposal documentation including certificates of disposal, chain of custody records, and environmental compliance reports. Our business junk removal San Diego service includes HIPAA-compliant document destruction and EPA-certified hazardous waste handling with full documentation."
+    },
+    {
+      question: "Do you offer recurring services or contracts for businesses?",
+      answer: "Yes, we offer flexible commercial contracts for recurring office cleanout San Diego services, including monthly warehouse cleanouts, quarterly office reorganizations, and ongoing retail maintenance. We provide volume discounts for qualified business accounts."
+    },
+    {
+      question: "How quickly can you complete a large office or warehouse cleanout?",
+      answer: "Timeline depends on project scope, but we typically complete small office cleanout San Diego projects in 2-4 hours, medium retail cleanouts in 4-8 hours, and large warehouse junk removal San Diego projects in 1-3 days. We provide detailed timelines during our free assessment and can expedite urgent projects."
+    },
+    {
+      question: "What industries do you serve in San Diego?",
+      answer: "We serve all industries including healthcare and medical offices, legal and professional services, technology and startups, manufacturing and warehouses, hospitality and tourism, retail and shopping centers. Our commercial debris removal San Diego team has specialized experience with industry-specific requirements and regulations."
+    }
+  ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
+
   return (
-    <section className="py-16 bg-white">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -175,5 +216,6 @@ export default function CommercialFAQSection() {
         </div>
       </div>
     </section>
+    </>
   );
 }

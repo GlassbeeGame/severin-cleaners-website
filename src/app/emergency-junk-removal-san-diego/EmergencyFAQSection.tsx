@@ -5,8 +5,57 @@ import { useState } from 'react';
 export default function EmergencyFAQSection() {
   const [openFAQ, setOpenFAQ] = useState<number | null>(null);
 
+  const faqs = [
+    {
+      question: "What are your emergency junk removal prices?",
+      answer: "Single Item Pickup: Starting at $175, 1/4 Trailer Load: $249, 3/8 Trailer Load: $319, 1/2 Trailer Load: $349, 5/8 Trailer Load: $366, 3/4 Trailer Load: $429, 7/8 Trailer Load: $462, Full Trailer Load: $495. Prices include labor, hauling, proper disposal, and cleanup. Additional fees may apply for unusually heavy items or special handling."
+    },
+    {
+      question: "Do you offer same day junk removal in San Diego?",
+      answer: "Yes, we specialize in same day junk removal San Diego with emergency crews available throughout the county. Most requests are handled within 2-4 hours of your call, depending on location and current demand."
+    },
+    {
+      question: "Can you come on weekends for emergency junk removal?",
+      answer: "Absolutely. We provide weekend junk removal San Diego Saturday Sunday service with dedicated emergency crews. Weekend availability is one of our specialties for urgent situations."
+    },
+    {
+      question: "How quickly can you arrive for urgent trash removal San Diego?",
+      answer: "For emergency junk removal San Diego today requests, we typically arrive within 2-4 hours. In some cases, we can dispatch crews within 1 hour for true emergencies like foreclosure cleanouts or tenant issues."
+    },
+    {
+      question: "Do you handle bulky or heavy items during emergency calls?",
+      answer: "Yes, our emergency crews are equipped to handle everything from single items like refrigerators and couches to complete property cleanouts. We bring the necessary equipment for heavy lifting and safe removal."
+    },
+    {
+      question: "Is there an extra cost for last minute or emergency service?",
+      answer: "Our pricing remains transparent even for last minute junk removal San Diego requests. While emergency service may include a small urgency fee, we provide upfront pricing with no hidden charges."
+    },
+    {
+      question: "What areas do you cover for emergency junk removal San Diego?",
+      answer: "We provide emergency junk removal service throughout the entire county, from coastal areas like La Jolla and Pacific Beach to inland communities like El Cajon and Santee. Call to confirm immediate availability in your area."
+    }
+  ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
+
   return (
-    <section className="py-16 bg-white">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -239,5 +288,6 @@ export default function EmergencyFAQSection() {
         </div>
       </div>
     </section>
+    </>
   );
 }

@@ -5,8 +5,61 @@ import { useState } from 'react';
 export default function EstateFAQSection() {
   const [openFAQ, setOpenFAQ] = useState<number | null>(null);
 
+  const faqs = [
+    {
+      question: "How much does estate cleanout cost in San Diego?",
+      answer: "Estate cleanout costs depend on how much needs to be hauled away. Most full estates range from $1,500-$3,000 depending on property size and volume of items. Single trailer loads start at $175-$495. We provide written estimates after seeing what needs to be removed."
+    },
+    {
+      question: "Can you help with probate cleanout deadlines in San Diego?",
+      answer: "Yes. Our probate cleanout San Diego service works efficiently to meet court deadlines. We haul away furniture, clear rooms, and remove all items so you can meet legal requirements. We understand the timeline pressure and schedule accordingly."
+    },
+    {
+      question: "Do you handle estate sale cleanout in San Diego?",
+      answer: "Absolutely. Our estate sale cleanout San Diego service removes everything left over after an estate sale. We'll haul away unsold furniture, boxes, and miscellaneous items so you can close out the property."
+    },
+    {
+      question: "What if there are items I want to keep?",
+      answer: "Simply point out what you want to keep and we'll work around it. We only haul away what you tell us to remove. Some families set aside items beforehand, others direct us during the cleanout—either way works."
+    },
+    {
+      question: "Can you help with senior downsizing in San Diego?",
+      answer: "Yes. Our senior downsizing San Diego service removes furniture and items that won't fit in the new place. We work at a comfortable pace and treat seniors with patience and respect. We handle the heavy lifting so transitions go smoothly."
+    },
+    {
+      question: "What happens to the items after you haul them away?",
+      answer: "Usable furniture and items in good condition go to local charities when appropriate. Everything else is disposed of responsibly—we comply with San Diego disposal regulations to ensure proper handling."
+    },
+    {
+      question: "Do you offer estate junk removal services in San Diego?",
+      answer: "Yes. Our estate junk removal San Diego service handles the disposal of unwanted furniture, old belongings, and accumulated items. We remove everything you don't need—from single rooms to entire houses."
+    },
+    {
+      question: "How quickly can you start?",
+      answer: "We can typically start within a few days, depending on your schedule and readiness. For urgent probate situations, we can often begin within 24-48 hours. We work around your timeline—some families need immediate help, others need time. Either way, we're here when you're ready."
+    }
+  ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
+
   return (
-    <section className="py-16 bg-white">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -261,5 +314,6 @@ export default function EstateFAQSection() {
         </div>
       </div>
     </section>
+    </>
   );
 }

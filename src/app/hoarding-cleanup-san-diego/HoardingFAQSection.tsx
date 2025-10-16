@@ -5,8 +5,53 @@ import { useState } from 'react';
 export default function HoardingFAQSection() {
   const [openFAQ, setOpenFAQ] = useState<number | null>(null);
 
+  const faqs = [
+    {
+      question: "How much does hoarding cleanup cost?",
+      answer: "Costs vary based on volume. Single trailer loads range from $175-$495. Most hoarding cleanouts require multiple loads and typically cost $1,500-$5,000+ for complete removal. We provide free confidential consultations and written estimates."
+    },
+    {
+      question: "Do you keep the cleanup confidential?",
+      answer: "Absolutely. We use unmarked trucks and maintain complete discretion. All team members sign confidentiality agreements. We schedule around your needs and use private entrances when possible. Your privacy is our priority."
+    },
+    {
+      question: "Do you handle biohazards, pests, or mold?",
+      answer: "We handle general junk and debris removal following safe handling practices. For severe biohazard issues, extensive pest infestations, or significant mold problems, we coordinate with trusted professionals to ensure the entire cleanup gets done safely and properly."
+    },
+    {
+      question: "How long does hoarding cleanup take?",
+      answer: "Timeline depends on volume and the individual's comfort level. Small jobs (1-2 rooms) typically take 1-2 days. Larger properties can take several days to weeks. We work at a pace that respects emotional needs while making steady progress."
+    },
+    {
+      question: "Is your team judgment-free?",
+      answer: "Yes. Our team is trained in compassionate service and treats every person with dignity and respect. We understand hoarding is complex, and we're here to help without judgment. Many families tell us they appreciate our patient, understanding approach."
+    },
+    {
+      question: "Can families be present during cleanup?",
+      answer: "Yes, absolutely. Many families prefer to be present to help with decisions about what to keep. We work collaboratively and move at a pace that's comfortable. Some families prefer we work independently—either approach is fine."
+    }
+  ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
+
   return (
-    <section className="py-16 bg-white">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -202,5 +247,6 @@ export default function HoardingFAQSection() {
         </div>
       </div>
     </section>
+    </>
   );
 }
