@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import { Inter } from "next/font/google";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ElCajonFAQSection from "./ElCajonFAQSection";
@@ -485,7 +486,16 @@ export default function JunkremovalelcajonPage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Testimonial: Rancho San Diego Appliance Removal</h3>
               <div className="bg-blue-50 p-6 rounded-lg mb-8 border-l-4 border-blue-500">
-                <div className="flex items-start gap-4">
+                <div className="flex flex-col md:flex-row items-start gap-6">
+                  <div className="flex-shrink-0">
+                    <Image
+                      src="/optimized/toiletteam.webp"
+                      alt="Severin Cleaners team providing appliance removal service in El Cajon"
+                      width={200}
+                      height={150}
+                      className="rounded-lg shadow-md"
+                    />
+                  </div>
                   <div className="flex-1">
                     <div className="flex items-center mb-2">
                       <div className="text-yellow-500 text-lg mr-2">⭐⭐⭐⭐⭐</div>

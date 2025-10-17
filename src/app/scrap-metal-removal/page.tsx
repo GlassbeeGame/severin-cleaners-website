@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrapMetalFAQSection from "./ScrapMetalFAQSection";
@@ -323,20 +322,6 @@ export default function ScrapMetalRemovalPage() {
                       <li>Metal roofing and flashing materials</li>
                     </ul>
                   </div>
-                </div>
-
-                <div className="my-8 rounded-lg overflow-hidden shadow-lg">
-                  <Image
-                    src="/optimized/toiletteam.webp"
-                    alt="Professional scrap metal removal team in El Cajon providing appliance hauling service"
-                    width={800}
-                    height={600}
-                    className="w-full h-auto"
-                    priority
-                  />
-                  <p className="text-sm text-gray-600 text-center p-2 bg-gray-100">
-                    Our professional team providing appliance removal service in El Cajon
-                  </p>
                 </div>
 
                 <h3 className="text-2xl font-bold mt-10 mb-4">Copper Recycling San Diego</h3>
