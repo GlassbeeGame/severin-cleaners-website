@@ -13,10 +13,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Hoarding Cleanup San Diego | Compassionate, Judgment-Free Support | Confidential Service",
+  title: "Hoarding Cleanup San Diego",
   description: "Professional hoarding cleanup San Diego with compassion and discretion. Judgment-free hoarding junk removal, confidential service. Licensed & insured. Call (619) 750-0114.",
   openGraph: {
-    title: "Hoarding Cleanup San Diego | Compassionate Professional Service",
+    title: "Hoarding Cleanup San Diego",
     description: "Discreet, compassionate hoarding cleanup services in San Diego. Professional junk removal team trained in sensitivity.",
     url: "https://severincleaners.com/hoarding-cleanup-san-diego",
   },

@@ -13,11 +13,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Point Loma Junk Removal | Military Family & Coastal Property Specialists | Same-Day Service',
+  title: 'Point Loma Junk Removal',
   description: 'Professional Point Loma junk removal for military families, Liberty Station, Sunset Cliffs coastal homes. PCS move specialists with military discounts. Call (619) 750-0114.',
   keywords: 'Point Loma junk removal, junk hauling Point Loma, junk pickup Point Loma, trash removal Point Loma, Point Loma San Diego junk removal, military PCS moves',
   openGraph: {
-    title: 'Point Loma Junk Removal | Military Family & Coastal Property Specialists | Same-Day Service',
+    title: 'Point Loma Junk Removal',
     description: 'Professional Point Loma junk removal for military families, Liberty Station, Sunset Cliffs coastal homes. PCS move specialists with military discounts. Call (619) 750-0114.',
     url: 'https://severincleaners.com/junk-removal-point-loma/',
     siteName: 'Severin Cleaners',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Point Loma Junk Removal | Military Family & Coastal Property Specialists | Same-Day Service',
+    title: 'Point Loma Junk Removal',
     description: 'Professional Point Loma junk removal for military families, Liberty Station, Sunset Cliffs coastal homes. PCS move specialists with military discounts. Call (619) 750-0114.',
     images: ['https://severincleaners.com/og-image.jpg'],
   },

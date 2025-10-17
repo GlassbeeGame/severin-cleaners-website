@@ -13,10 +13,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Appliance Removal San Diego | Refrigerator & Washer Disposal | Severin Cleaners",
+  title: "Appliance Removal San Diego",
   description: "Professional appliance removal in San Diego. We remove refrigerators, washers, dryers, stoves, and all appliance types. Same-day service available. Call (619) 750-0114. Starting at $175.",
   openGraph: {
-    title: "Appliance Removal San Diego | Refrigerator & Washer Disposal | Severin Cleaners",
+    title: "Appliance Removal San Diego",
     description: "Professional appliance removal in San Diego. We remove refrigerators, washers, dryers, stoves, and all appliance types. Same-day service available. Call (619) 750-0114. Starting at $175.",
     url: "https://severincleaners.com/appliance-removal-san-diego",
   },

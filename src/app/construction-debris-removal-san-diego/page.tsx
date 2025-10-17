@@ -13,10 +13,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Construction Debris Removal San Diego | Contractor Hauling & Cleanup",
+  title: "Construction Debris Removal San Diego",
   description: "Professional construction debris removal San Diego. Fast, reliable service for contractors. Same-day available. Licensed & insured. Call (619) 750-0114 for contractor quote.",
   openGraph: {
-    title: "Construction Debris Removal San Diego | Contractor Hauling & Cleanup",
+    title: "Construction Debris Removal San Diego",
     description: "Professional construction debris removal San Diego. Fast, reliable service for contractors. Same-day available. Licensed & insured.",
     url: "https://severincleaners.com/construction-debris-removal-san-diego",
   },

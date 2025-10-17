@@ -13,11 +13,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Kearny Mesa Junk Removal | Commercial & Residential Specialists | Same-Day Service',
+  title: 'Kearny Mesa Junk Removal',
   description: 'Professional Kearny Mesa junk removal for offices, warehouses, industrial parks. Commercial junk hauling experts serving Convoy District, auto businesses. Call (619) 750-0114.',
   keywords: 'Kearny Mesa junk removal, junk hauling Kearny Mesa, junk pickup Kearny Mesa, trash removal Kearny Mesa, commercial junk removal Kearny Mesa, office cleanout Kearny Mesa',
   openGraph: {
-    title: 'Kearny Mesa Junk Removal | Commercial & Residential Specialists | Same-Day Service',
+    title: 'Kearny Mesa Junk Removal',
     description: 'Professional Kearny Mesa junk removal for offices, warehouses, industrial parks. Commercial junk hauling experts serving Convoy District, auto businesses. Call (619) 750-0114.',
     url: 'https://severincleaners.com/junk-removal-kearny-mesa/',
     siteName: 'Severin Cleaners',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Kearny Mesa Junk Removal | Commercial & Residential Specialists | Same-Day Service',
+    title: 'Kearny Mesa Junk Removal',
     description: 'Professional Kearny Mesa junk removal for offices, warehouses, industrial parks. Commercial junk hauling experts serving Convoy District, auto businesses. Call (619) 750-0114.',
     images: ['https://severincleaners.com/og-image.jpg'],
   },

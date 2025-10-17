@@ -13,10 +13,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Same Day Junk Removal San Diego | Today Pickup | Severin Cleaners",
+  title: "Same Day Junk Removal San Diego",
   description: "Need junk removed TODAY? Fast same day junk removal in San Diego. Available 7 days, arrive within hours. Call (619) 750-0114 for immediate pickup. Starting at $175.",
   openGraph: {
-    title: "Same Day Junk Removal San Diego | Today Pickup | Severin Cleaners",
+    title: "Same Day Junk Removal San Diego",
     description: "Need junk removed TODAY? Fast same day junk removal in San Diego. Available 7 days, arrive within hours. Starting at $175.",
     url: "https://severincleaners.com/same-day-junk-removal-san-diego",
   },

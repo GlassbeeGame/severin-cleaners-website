@@ -13,10 +13,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Estate Cleanout San Diego | Respectful Probate Cleanout Services",
+  title: "Estate Cleanout San Diego",
   description: "Compassionate estate cleanout San Diego services. Probate cleanout, senior downsizing, inheritance property cleanout. Licensed, respectful, professional. Call (619) 750-0114.",
   openGraph: {
-    title: "Estate Cleanout San Diego | Respectful Probate & Senior Downsizing",
+    title: "Estate Cleanout San Diego",
     description: "Compassionate, professional estate cleanout services in San Diego. Probate cleanout, estate sales, senior downsizing with dignity and care.",
     url: "https://severincleaners.com/estate-cleanout-san-diego",
   },

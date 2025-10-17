@@ -12,11 +12,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Del Mar Junk Removal | Same-Day Hauling | Licensed & Insured",
+  title: "Del Mar Junk Removal",
   description: "Professional Del Mar junk removal from Del Mar Village to Del Mar Heights. Luxury coastal estates, transparent pricing, same-day service. Licensed & insured. Call (619) 750-0114!",
   keywords: "Del Mar junk removal, junk hauling Del Mar, junk pickup Del Mar, trash removal Del Mar, Del Mar San Diego junk removal, junk removal 92014, Camino Del Mar junk hauling",
   openGraph: {
-    title: "Del Mar Junk Removal | Same-Day Hauling | Licensed & Insured",
+    title: "Del Mar Junk Removal",
     description: "Professional Del Mar junk removal from Del Mar Village to Del Mar Heights. Luxury coastal estates, transparent pricing, same-day service. Licensed & insured. Call (619) 750-0114!",
     url: "https://severincleaners.com/junk-removal-del-mar",
   },

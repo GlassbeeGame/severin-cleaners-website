@@ -6,17 +6,17 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Emergency Junk Removal San Diego - Same Day & Last Minute Service",
+  title: "Emergency Junk Removal San Diego",
   description: "Emergency junk removal San Diego today! Same-day, weekend & immediate dispatch urgent trash removal. Licensed & insured. Call (619) 750-0114 for immediate service!",
   keywords: "emergency junk removal San Diego today, same day junk removal San Diego, urgent trash removal San Diego now, 24 hour junk removal San Diego, weekend junk removal San Diego Saturday Sunday, last minute junk removal San Diego",
   openGraph: {
-    title: "Emergency Junk Removal San Diego - Same Day Service Available",
+    title: "Emergency Junk Removal San Diego",
     description: "Need emergency junk removal San Diego today? Same-day, weekend & immediate dispatch urgent trash removal. Licensed & insured. Call (619) 750-0114 now!",
     url: 'https://severincleaners.com/emergency-junk-removal-san-diego',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Emergency Junk Removal San Diego - Same Day Service",
+    title: "Emergency Junk Removal San Diego",
     description: "Emergency junk removal San Diego today! Same-day, weekend & immediate dispatch urgent trash removal. Call (619) 750-0114 for immediate service!",
     images: ['https://severincleaners.com/og-image.jpg'],
   },

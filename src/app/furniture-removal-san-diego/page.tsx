@@ -13,10 +13,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Furniture Removal San Diego | Couch & Sofa Disposal | Severin Cleaners",
+  title: "Furniture Removal San Diego",
   description: "Professional furniture removal in San Diego. We remove couches, sofas, desks, and all furniture types. Same-day service available. Call (619) 750-0114. Starting at $175.",
   openGraph: {
-    title: "Furniture Removal San Diego | Couch & Sofa Disposal | Severin Cleaners",
+    title: "Furniture Removal San Diego",
     description: "Professional furniture removal in San Diego. We remove couches, sofas, desks, and all furniture types. Same-day service available. Starting at $175.",
     url: "https://severincleaners.com/furniture-removal-san-diego",
   },

@@ -13,11 +13,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Clairemont Junk Removal | Family Home & Garage Cleanout Specialists | Same-Day Service',
+  title: 'Clairemont Junk Removal',
   description: 'Professional Clairemont junk removal for family homes, garage cleanouts, Clairemont Village, Balboa Ave corridor. Residential specialists with eco-friendly service. Call (619) 750-0114.',
   keywords: 'Clairemont junk removal, junk hauling Clairemont, junk pickup Clairemont Mesa, trash removal Clairemont, Clairemont San Diego junk removal, garage cleanouts',
   openGraph: {
-    title: 'Clairemont Junk Removal | Family Home & Garage Cleanout Specialists | Same-Day Service',
+    title: 'Clairemont Junk Removal',
     description: 'Professional Clairemont junk removal for family homes, garage cleanouts, Clairemont Village, Balboa Ave corridor. Residential specialists with eco-friendly service. Call (619) 750-0114.',
     url: 'https://severincleaners.com/junk-removal-clairemont/',
     siteName: 'Severin Cleaners',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Clairemont Junk Removal | Family Home & Garage Cleanout Specialists | Same-Day Service',
+    title: 'Clairemont Junk Removal',
     description: 'Professional Clairemont junk removal for family homes, garage cleanouts, Clairemont Village, Balboa Ave corridor. Residential specialists with eco-friendly service. Call (619) 750-0114.',
     images: ['https://severincleaners.com/og-image.jpg'],
   },

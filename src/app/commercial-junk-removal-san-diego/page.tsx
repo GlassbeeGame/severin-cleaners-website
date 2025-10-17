@@ -13,11 +13,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Commercial Junk Removal San Diego | Office, Retail & Warehouse Cleanouts | Same-Day Service',
+  title: 'Commercial Junk Removal San Diego',
   description: 'Professional commercial junk removal San Diego for offices, retail stores, warehouses. Business cleanouts with disposal documentation, after-hours service. Call (619) 750-0114.',
   keywords: 'commercial junk removal san diego, business junk removal san diego, office cleanout san diego, retail cleanout san diego, warehouse junk removal san diego, commercial debris removal san diego',
   openGraph: {
-    title: 'Commercial Junk Removal San Diego | Office, Retail & Warehouse Cleanouts | Same-Day Service',
+    title: 'Commercial Junk Removal San Diego',
     description: 'Professional commercial junk removal San Diego for offices, retail stores, warehouses. Business cleanouts with disposal documentation, after-hours service. Call (619) 750-0114.',
     url: 'https://severincleaners.com/commercial-junk-removal-san-diego/',
     siteName: 'Severin Cleaners',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Commercial Junk Removal San Diego | Office, Retail & Warehouse Cleanouts | Same-Day Service',
+    title: 'Commercial Junk Removal San Diego',
     description: 'Professional commercial junk removal San Diego for offices, retail stores, warehouses. Business cleanouts with disposal documentation, after-hours service. Call (619) 750-0114.',
     images: ['https://severincleaners.com/og-image.jpg'],
   },

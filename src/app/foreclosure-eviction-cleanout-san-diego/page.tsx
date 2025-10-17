@@ -6,17 +6,17 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Foreclosure & Eviction Cleanout Services San Diego - Fast & Discreet",
+  title: "Foreclosure & Eviction Cleanout San Diego",
   description: "Professional foreclosure & eviction cleanout services in San Diego. Discreet, fast turnaround for banks, landlords & property managers. Call (619) 750-0114!",
   keywords: "foreclosure cleanout San Diego, eviction cleanout San Diego, foreclosure junk removal San Diego, eviction junk removal San Diego, property cleanout San Diego, REO property cleanup, tenant cleanout San Diego, property management cleanouts, bank foreclosure cleanup",
   openGraph: {
-    title: "Foreclosure & Eviction Cleanout Services San Diego - Fast & Discreet",
+    title: "Foreclosure & Eviction Cleanout San Diego",
     description: "Professional foreclosure & eviction cleanout services in San Diego. Discreet, fast turnaround for banks, landlords & property managers.",
     url: 'https://severincleaners.com/foreclosure-eviction-cleanout-san-diego',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Foreclosure & Eviction Cleanout Services San Diego",
+    title: "Foreclosure & Eviction Cleanout San Diego",
     description: "Professional foreclosure & eviction cleanout services in San Diego. Discreet, fast turnaround for banks, landlords & property managers.",
     images: ['https://severincleaners.com/og-image.jpg'],
   },
