@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Allow critical Next.js static assets for proper page rendering
+Allow: /_next/static/css/
+Allow: /_next/static/chunks/
+Allow: /_next/static/media/
+Allow: /_next/image
+
+# Block Next.js data files to save crawl budget
+Disallow: /_next/data/
+
+# Disallow admin and API routes
+Disallow: /admin/
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://severincleaners.com/sitemap.xml
+
+# Crawl delay for better server performance
+Crawl-delay: 1
