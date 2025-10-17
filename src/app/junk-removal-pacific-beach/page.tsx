@@ -12,11 +12,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Pacific Beach Junk Removal',
+  title: 'Pacific Beach Junk Removal | Same-Day Hauling | Licensed & Insured',
   description: 'Professional Pacific Beach junk removal from Crystal Pier to Crown Point. Same-day service, transparent pricing, vacation rental experts. Licensed & insured. Call (619) 750-0114!',
   keywords: 'Pacific Beach junk removal, junk hauling Pacific Beach, junk pickup PB, trash removal Pacific Beach, PB San Diego junk removal, junk removal 92109, Garnet Avenue junk hauling',
   openGraph: {
-    title: 'Pacific Beach Junk Removal',
+    title: 'Pacific Beach Junk Removal | Same-Day Hauling | Licensed & Insured',
     description: 'Professional Pacific Beach junk removal from Crystal Pier to Crown Point. Same-day service, transparent pricing, vacation rental experts. Licensed & insured. Call (619) 750-0114!',
     url: 'https://severincleaners.com/junk-removal-pacific-beach/',
     siteName: 'Severin Cleaners',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pacific Beach Junk Removal',
+    title: 'Pacific Beach Junk Removal | Same-Day Hauling | Licensed & Insured',
     description: 'Professional Pacific Beach junk removal from Crystal Pier to Crown Point. Same-day service, transparent pricing, vacation rental experts. Licensed & insured. Call (619) 750-0114!',
     images: ['https://severincleaners.com/og-image.jpg'],
   },

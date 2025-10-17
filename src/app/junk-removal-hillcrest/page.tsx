@@ -13,11 +13,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Hillcrest Junk Removal',
+  title: 'Hillcrest Junk Removal | Historic Home & Urban Core Specialists | Same-Day Service',
   description: 'Professional Hillcrest junk removal for condos, historic homes, University Heights. Urban core specialists with limited parking solutions. Call (619) 750-0114.',
   keywords: 'Hillcrest junk removal, junk hauling Hillcrest, junk pickup Hillcrest, trash removal Hillcrest, University Heights junk removal, urban junk removal San Diego',
   openGraph: {
-    title: 'Hillcrest Junk Removal',
+    title: 'Hillcrest Junk Removal | Historic Home & Urban Core Specialists | Same-Day Service',
     description: 'Professional Hillcrest junk removal for condos, historic homes, University Heights. Urban core specialists with limited parking solutions. Call (619) 750-0114.',
     url: 'https://severincleaners.com/junk-removal-hillcrest/',
     siteName: 'Severin Cleaners',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Hillcrest Junk Removal',
+    title: 'Hillcrest Junk Removal | Historic Home & Urban Core Specialists | Same-Day Service',
     description: 'Professional Hillcrest junk removal for condos, historic homes, University Heights. Urban core specialists with limited parking solutions. Call (619) 750-0114.',
     images: ['https://severincleaners.com/og-image.jpg'],
   },

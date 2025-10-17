@@ -6,17 +6,17 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Cleanout Services San Diego",
+  title: "Cleanout Services San Diego - Professional Junk Hauling & Property Cleanouts",
   description: "Expert cleanout services San Diego for garages, attics, basements, sheds, storage units & full properties. Same-day junk hauling available. Licensed & insured. Call (619) 750-0114 for free quote!",
   keywords: "cleanout services San Diego, property cleanout San Diego, garage cleanout San Diego, attic cleanout San Diego, basement cleanout San Diego, storage unit cleanout San Diego, shed cleanout San Diego, junk hauling San Diego",
   openGraph: {
-    title: "Cleanout Services San Diego",
+    title: "Cleanout Services San Diego - Professional Junk Hauling & Property Cleanouts",
     description: "Expert cleanout services San Diego for all types of properties. Same-day service, eco-friendly disposal, transparent pricing. Free quotes!",
     url: 'https://severincleaners.com/cleanout-services-san-diego',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Cleanout Services San Diego",
+    title: "Cleanout Services San Diego - Professional Junk Hauling & Property Cleanouts",
     description: "Expert cleanout services San Diego for all types of properties. Same-day service, eco-friendly disposal, transparent pricing.",
     images: ['https://severincleaners.com/og-image.jpg'],
   },

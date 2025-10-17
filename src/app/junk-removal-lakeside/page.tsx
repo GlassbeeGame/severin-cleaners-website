@@ -13,11 +13,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Lakeside Junk Removal',
+  title: 'Lakeside Junk Removal | Large Property & Ranch Specialists | Same-Day Service',
   description: 'Professional Lakeside junk removal for large properties, ranches, Riverview, Winter Gardens. East County rural specialists with yard debris removal. Call (619) 750-0114.',
   keywords: 'Lakeside junk removal, junk hauling Lakeside, junk pickup Lakeside, trash removal Lakeside, Lakeside San Diego junk removal, large property junk removal',
   openGraph: {
-    title: 'Lakeside Junk Removal',
+    title: 'Lakeside Junk Removal | Large Property & Ranch Specialists | Same-Day Service',
     description: 'Professional Lakeside junk removal for large properties, ranches, Riverview, Winter Gardens. East County rural specialists with yard debris removal. Call (619) 750-0114.',
     url: 'https://severincleaners.com/junk-removal-lakeside/',
     siteName: 'Severin Cleaners',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Lakeside Junk Removal',
+    title: 'Lakeside Junk Removal | Large Property & Ranch Specialists | Same-Day Service',
     description: 'Professional Lakeside junk removal for large properties, ranches, Riverview, Winter Gardens. East County rural specialists with yard debris removal. Call (619) 750-0114.',
     images: ['https://severincleaners.com/og-image.jpg'],
   },

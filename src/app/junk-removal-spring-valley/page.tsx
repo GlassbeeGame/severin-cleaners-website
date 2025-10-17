@@ -6,11 +6,11 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Spring Valley Junk Removal",
+  title: "Spring Valley Junk Removal | Affordable Family & Hillside Specialists | Same-Day Service",
   description: "Professional Spring Valley junk removal for East County families, hillside homes & apartments. Same-day junk hauling Spring Valley, eco-friendly disposal. Serving Dictionary Hill, Casa de Oro. Call (619) 750-0114!",
   keywords: "Spring Valley junk removal, junk hauling Spring Valley, junk pickup Spring Valley, trash removal Spring Valley, Spring Valley San Diego junk removal, Dictionary Hill junk removal, Casa de Oro junk hauling, Sweetwater Reservoir junk pickup",
   openGraph: {
-    title: "Spring Valley Junk Removal",
+    title: "Spring Valley Junk Removal | Affordable Family & Hillside Specialists",
     description: "Professional Spring Valley junk removal for East County families, hillside homes & apartments. Same-day junk hauling Spring Valley, eco-friendly disposal.",
     url: "https://severincleaners.com/junk-removal-spring-valley",
   },

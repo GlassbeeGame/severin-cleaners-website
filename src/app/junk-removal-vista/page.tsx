@@ -6,11 +6,11 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Vista Junk Removal",
+  title: "Vista Junk Removal | Same-Day Hauling | Licensed & Insured",
   description: "Professional Vista junk removal for families, apartments & businesses. Same-day junk hauling Vista, eco-friendly disposal. Serving Shadowridge, Downtown Vista Village, Rancho Buena Vista, Buena Creek. Call (619) 750-0114!",
   keywords: "Vista junk removal, junk hauling Vista, junk pickup Vista, trash removal Vista, Vista San Diego junk removal, Shadowridge junk removal, Downtown Vista junk hauling, Vista Business Park cleanout, Rancho Buena Vista junk removal, Buena Creek junk hauling",
   openGraph: {
-    title: "Vista Junk Removal",
+    title: "Vista Junk Removal | Same-Day Hauling | Licensed & Insured",
     description: "Professional Vista junk removal for families, apartments & businesses. Same-day junk hauling Vista, eco-friendly disposal. Serving all Vista neighborhoods including Shadowridge and Rancho Buena Vista.",
     url: "https://severincleaners.com/junk-removal-vista",
   },

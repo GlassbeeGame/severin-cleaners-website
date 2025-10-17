@@ -13,11 +13,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'North Park Junk Removal',
+  title: 'North Park Junk Removal | Same-Day Hauling | Licensed & Insured',
   description: 'Professional North Park junk removal for University Avenue, 30th Street, apartments & historic homes. Same-day service, transparent pricing. Licensed & insured. Call (619) 750-0114!',
   keywords: 'North Park junk removal, junk hauling North Park, junk pickup North Park, trash removal North Park, North Park San Diego junk removal, University Avenue junk hauling, 30th Street junk removal',
   openGraph: {
-    title: 'North Park Junk Removal',
+    title: 'North Park Junk Removal | Same-Day Hauling | Licensed & Insured',
     description: 'Professional North Park junk removal for University Avenue, 30th Street, apartments & historic homes. Same-day service, transparent pricing. Licensed & insured. Call (619) 750-0114!',
     url: 'https://severincleaners.com/junk-removal-north-park/',
     siteName: 'Severin Cleaners',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'North Park Junk Removal',
+    title: 'North Park Junk Removal | Same-Day Hauling | Licensed & Insured',
     description: 'Professional North Park junk removal for University Avenue, 30th Street, apartments & historic homes. Same-day service, transparent pricing. Licensed & insured. Call (619) 750-0114!',
     images: ['https://severincleaners.com/og-image.jpg'],
   },

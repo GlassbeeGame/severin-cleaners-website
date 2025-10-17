@@ -14,11 +14,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Hot Tub Removal San Diego',
+  title: 'Hot Tub Removal San Diego | Spa & Jacuzzi Disposal | Same-Day Service',
   description: 'Professional hot tub removal San Diego - spa removal, Jacuzzi disposal, pool equipment. Licensed specialists for portable & built-in hot tubs. Call (619) 750-0114!',
   keywords: 'hot tub removal San Diego, spa removal San Diego, Jacuzzi removal San Diego, spa disposal San Diego, backyard hot tub demolition San Diego, pool equipment removal, hot tub disposal',
   openGraph: {
-    title: 'Hot Tub Removal San Diego',
+    title: 'Hot Tub Removal San Diego | Spa & Jacuzzi Disposal | Same-Day Service',
     description: 'Professional hot tub removal San Diego - spa removal, Jacuzzi disposal, pool equipment. Licensed specialists for portable & built-in hot tubs.',
     url: 'https://severincleaners.com/hot-tub-removal-san-diego/',
     siteName: 'Severin Cleaners',

@@ -13,11 +13,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Chula Vista Junk Removal',
+  title: 'Chula Vista Junk Removal | Same-Day Junk Hauling | South Bay Specialists',
   description: 'Professional Chula Vista junk removal for Eastlake, Otay Ranch, Millenia. Bilingual junk hauling service, HOA compliant. Same-day pickup. Call (619) 750-0114.',
   keywords: 'Chula Vista junk removal, junk hauling Chula Vista, junk pickup Chula Vista, trash removal Chula Vista, South Bay junk removal, Eastlake junk removal',
   openGraph: {
-    title: 'Chula Vista Junk Removal',
+    title: 'Chula Vista Junk Removal | Same-Day Junk Hauling | South Bay Specialists',
     description: 'Professional Chula Vista junk removal for Eastlake, Otay Ranch, Millenia. Bilingual junk hauling service, HOA compliant. Same-day pickup. Call (619) 750-0114.',
     url: 'https://severincleaners.com/junk-removal-chula-vista/',
     siteName: 'Severin Cleaners',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Chula Vista Junk Removal',
+    title: 'Chula Vista Junk Removal | Same-Day Junk Hauling | South Bay Specialists',
     description: 'Professional Chula Vista junk removal for Eastlake, Otay Ranch, Millenia. Bilingual junk hauling service, HOA compliant. Same-day pickup. Call (619) 750-0114.',
     images: ['https://severincleaners.com/og-image.jpg'],
   },

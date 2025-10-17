@@ -12,11 +12,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Carmel Valley Junk Removal",
+  title: "Junk Removal Carmel Valley | Same-Day Hauling (92130)",
   description: "Professional junk removal in Carmel Valley. Photo quotes, furniture/appliance/estate cleanouts. Eco-friendly disposal. Serving Torrey Highlands, Del Mar Mesa areas.",
   keywords: "junk removal Carmel Valley, Carmel Valley junk hauling, estate cleanout Carmel Valley, furniture removal Carmel Valley, junk removal near me Carmel Valley, same-day junk pickup, Del Mar Mesa junk removal",
   openGraph: {
-    title: "Carmel Valley Junk Removal",
+    title: "Junk Removal Carmel Valley | Professional Hauling Service",
     description: "Reliable junk removal serving all of Carmel Valley from Torrey Highlands to Del Mar Mesa. Upscale residential cleanouts and luxury home services.",
     url: "https://severincleaners.com/junk-removal-carmel-valley",
   },

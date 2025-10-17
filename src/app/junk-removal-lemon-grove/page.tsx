@@ -13,11 +13,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Lemon Grove Junk Removal',
+  title: 'Lemon Grove Junk Removal | Family Homes & Apartment Specialists | Same-Day Service',
   description: 'Affordable Lemon Grove junk removal for apartments, family homes, Broadway corridor. Community-focused service with eco-friendly disposal. Call (619) 750-0114.',
   keywords: 'Lemon Grove junk removal, junk hauling Lemon Grove, junk pickup Lemon Grove, trash removal Lemon Grove, Lemon Grove San Diego junk removal, apartment junk removal',
   openGraph: {
-    title: 'Lemon Grove Junk Removal',
+    title: 'Lemon Grove Junk Removal | Family Homes & Apartment Specialists | Same-Day Service',
     description: 'Affordable Lemon Grove junk removal for apartments, family homes, Broadway corridor. Community-focused service with eco-friendly disposal. Call (619) 750-0114.',
     url: 'https://severincleaners.com/junk-removal-lemon-grove/',
     siteName: 'Severin Cleaners',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Lemon Grove Junk Removal',
+    title: 'Lemon Grove Junk Removal | Family Homes & Apartment Specialists | Same-Day Service',
     description: 'Affordable Lemon Grove junk removal for apartments, family homes, Broadway corridor. Community-focused service with eco-friendly disposal. Call (619) 750-0114.',
     images: ['https://severincleaners.com/og-image.jpg'],
   },

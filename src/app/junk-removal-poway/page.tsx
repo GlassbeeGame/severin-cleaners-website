@@ -13,11 +13,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Poway Junk Removal',
+  title: 'Poway Junk Removal | Ranch & Family Home Specialists | Same-Day Service',
   description: 'Professional Poway junk removal for ranches, equestrian properties, family homes, business parks. Large property specialists with eco-friendly service. Call (619) 750-0114.',
   keywords: 'Poway junk removal, junk hauling Poway, junk pickup Poway, trash removal Poway, Poway San Diego junk removal, ranch junk removal',
   openGraph: {
-    title: 'Poway Junk Removal',
+    title: 'Poway Junk Removal | Ranch & Family Home Specialists | Same-Day Service',
     description: 'Professional Poway junk removal for ranches, equestrian properties, family homes, business parks. Large property specialists with eco-friendly service. Call (619) 750-0114.',
     url: 'https://severincleaners.com/junk-removal-poway/',
     siteName: 'Severin Cleaners',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Poway Junk Removal',
+    title: 'Poway Junk Removal | Ranch & Family Home Specialists | Same-Day Service',
     description: 'Professional Poway junk removal for ranches, equestrian properties, family homes, business parks. Large property specialists with eco-friendly service. Call (619) 750-0114.',
     images: ['https://severincleaners.com/og-image.jpg'],
   },

@@ -13,11 +13,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Santee Junk Removal',
+  title: 'Santee Junk Removal | Family Homes & Garage Cleanout Specialists | Same-Day Service',
   description: 'Professional Santee junk removal for family homes, garage cleanouts, Carlton Hills, Sky Ranch. East County specialists with trolley-accessible service. Call (619) 750-0114.',
   keywords: 'Santee junk removal, junk hauling Santee, junk pickup Santee, trash removal Santee, Santee San Diego junk removal, garage cleanouts',
   openGraph: {
-    title: 'Santee Junk Removal',
+    title: 'Santee Junk Removal | Family Homes & Garage Cleanout Specialists | Same-Day Service',
     description: 'Professional Santee junk removal for family homes, garage cleanouts, Carlton Hills, Sky Ranch. East County specialists with trolley-accessible service. Call (619) 750-0114.',
     url: 'https://severincleaners.com/junk-removal-santee/',
     siteName: 'Severin Cleaners',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Santee Junk Removal',
+    title: 'Santee Junk Removal | Family Homes & Garage Cleanout Specialists | Same-Day Service',
     description: 'Professional Santee junk removal for family homes, garage cleanouts, Carlton Hills, Sky Ranch. East County specialists with trolley-accessible service. Call (619) 750-0114.',
     images: ['https://severincleaners.com/og-image.jpg'],
   },

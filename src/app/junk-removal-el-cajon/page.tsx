@@ -13,11 +13,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'El Cajon Junk Removal',
+  title: 'El Cajon Junk Removal | East County Junk Hauling | Family-Owned Specialists',
   description: 'Professional El Cajon junk removal for Fletcher Hills, Rancho San Diego, Granite Hills. East County family specialists with same-day service. Call (619) 750-0114.',
   keywords: 'El Cajon junk removal, junk hauling El Cajon, trash removal El Cajon, junk pickup El Cajon, East County junk removal, Fletcher Hills junk removal',
   openGraph: {
-    title: 'El Cajon Junk Removal',
+    title: 'El Cajon Junk Removal | East County Junk Hauling | Family-Owned Specialists',
     description: 'Professional El Cajon junk removal for Fletcher Hills, Rancho San Diego, Granite Hills. East County family specialists with same-day service. Call (619) 750-0114.',
     url: 'https://severincleaners.com/junk-removal-el-cajon/',
     siteName: 'Severin Cleaners',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'El Cajon Junk Removal',
+    title: 'El Cajon Junk Removal | East County Junk Hauling | Family-Owned Specialists',
     description: 'Professional El Cajon junk removal for Fletcher Hills, Rancho San Diego, Granite Hills. East County family specialists with same-day service. Call (619) 750-0114.',
     images: ['https://severincleaners.com/og-image.jpg'],
   },

@@ -13,11 +13,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Rancho Santa Fe Junk Removal',
+  title: 'Rancho Santa Fe Junk Removal | Estate Homes & Large Properties | Same-Day Hauling',
   description: 'Professional Rancho Santa Fe junk removal for The Covenant, Fairbanks Ranch & luxury estates. Licensed & insured, HOA-approved, same-day service. Call (619) 750-0114.',
   keywords: 'Rancho Santa Fe junk removal, junk hauling Rancho Santa Fe, junk pickup Rancho Santa Fe, trash removal Rancho Santa Fe, Rancho Santa Fe San Diego junk removal',
   openGraph: {
-    title: 'Rancho Santa Fe Junk Removal',
+    title: 'Rancho Santa Fe Junk Removal | Luxury Estate & Equestrian Specialists | Same-Day Service',
     description: 'Professional Rancho Santa Fe junk removal for luxury estates, equestrian properties, gated communities. HOA-approved with white-glove service. Call (619) 750-0114.',
     url: 'https://severincleaners.com/junk-removal-rancho-santa-fe/',
     siteName: 'Severin Cleaners',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Rancho Santa Fe Junk Removal',
+    title: 'Rancho Santa Fe Junk Removal | Luxury Estate & Equestrian Specialists | Same-Day Service',
     description: 'Professional Rancho Santa Fe junk removal for luxury estates, equestrian properties, gated communities. HOA-approved with white-glove service. Call (619) 750-0114.',
     images: ['https://severincleaners.com/og-image.jpg'],
   },

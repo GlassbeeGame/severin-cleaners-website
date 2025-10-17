@@ -13,11 +13,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'San Diego Junk Removal',
+  title: 'San Diego Junk Removal | Same-Day Hauling | Licensed & Insured County-Wide Service',
   description: 'Professional San Diego junk removal serving all neighborhoods. Family-owned, licensed & insured with transparent pricing $175-$495. Same-day service. Call (619) 750-0114!',
   keywords: 'San Diego junk removal, junk hauling San Diego, junk pickup San Diego, trash removal San Diego, San Diego County junk removal',
   openGraph: {
-    title: 'San Diego Junk Removal',
+    title: 'San Diego Junk Removal | Same-Day Hauling | Licensed & Insured County-Wide Service',
     description: 'Professional San Diego junk removal serving all neighborhoods. Family-owned, licensed & insured with transparent pricing $175-$495. Same-day service. Call (619) 750-0114!',
     url: 'https://severincleaners.com/san-diego-junk-removal/',
     siteName: 'Severin Cleaners',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'San Diego Junk Removal',
+    title: 'San Diego Junk Removal | Same-Day Hauling | Licensed & Insured County-Wide Service',
     description: 'Professional San Diego junk removal serving all neighborhoods. Family-owned, licensed & insured with transparent pricing $175-$495. Same-day service. Call (619) 750-0114!',
     images: ['https://severincleaners.com/og-image.jpg'],
   },

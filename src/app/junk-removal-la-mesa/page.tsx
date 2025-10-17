@@ -13,11 +13,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'La Mesa Junk Removal',
+  title: 'La Mesa Junk Removal | Family Homes & Hillside Specialists | Same-Day Service',
   description: 'Professional La Mesa junk removal for Mount Helix, Fletcher Hills, La Mesa Village. East County family specialists with eco-friendly service. Call (619) 750-0114.',
   keywords: 'La Mesa junk removal, junk hauling La Mesa, junk pickup La Mesa, trash removal La Mesa, La Mesa San Diego junk removal, Mount Helix junk removal',
   openGraph: {
-    title: 'La Mesa Junk Removal',
+    title: 'La Mesa Junk Removal | Family Homes & Hillside Specialists | Same-Day Service',
     description: 'Professional La Mesa junk removal for Mount Helix, Fletcher Hills, La Mesa Village. East County family specialists with eco-friendly service. Call (619) 750-0114.',
     url: 'https://severincleaners.com/junk-removal-la-mesa/',
     siteName: 'Severin Cleaners',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'La Mesa Junk Removal',
+    title: 'La Mesa Junk Removal | Family Homes & Hillside Specialists | Same-Day Service',
     description: 'Professional La Mesa junk removal for Mount Helix, Fletcher Hills, La Mesa Village. East County family specialists with eco-friendly service. Call (619) 750-0114.',
     images: ['https://severincleaners.com/og-image.jpg'],
   },

@@ -4,17 +4,17 @@ import Footer from "@/components/Footer";
 import FAQSection from "./FAQSection";
 
 export const metadata: Metadata = {
-  title: "Junk Removal Cost San Diego",
+  title: "Junk Removal Cost San Diego - Affordable Prices & Free Quotes",
   description: "Transparent junk removal cost San Diego with free quotes! Compare our affordable prices. No hidden fees. Licensed & insured. Call (619) 750-0114 for instant pricing!",
   keywords: "cheap junk removal San Diego, junk removal cost San Diego, junk removal prices San Diego, free junk removal quote San Diego, compare junk removal San Diego, affordable junk hauling",
   openGraph: {
-    title: "Junk Removal Cost San Diego",
+    title: "Junk Removal Cost San Diego - Affordable Prices & Free Quotes",
     description: "Transparent junk removal cost San Diego with free quotes! Compare our affordable prices. No hidden fees. Call (619) 750-0114 for instant pricing!",
     url: 'https://severincleaners.com/junk-removal-cost-san-diego',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Junk Removal Cost San Diego",
+    title: "Junk Removal Cost San Diego - Affordable Prices & Free Quotes",
     description: "Transparent junk removal cost San Diego with free quotes! Compare our affordable prices. Licensed & insured. Call (619) 750-0114!",
     images: ['https://severincleaners.com/og-image.jpg'],
   },
