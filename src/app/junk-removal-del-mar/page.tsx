@@ -50,7 +50,15 @@ export default function JunkRemovalDelMarPage() {
       "@type": "LocalBusiness",
       "name": "Severin Cleaners",
       "telephone": "+1-619-750-0114",
-      "url": "https://severincleaners.com"
+      "url": "https://severincleaners.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "8900 Grossmont Blvd",
+        "addressLocality": "La Mesa",
+        "addressRegion": "CA",
+        "postalCode": "91941",
+        "addressCountry": "US"
+      }
     },
     "areaServed": "Del Mar",
     "postalCode": "92014",
