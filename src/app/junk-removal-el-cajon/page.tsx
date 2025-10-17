@@ -69,7 +69,7 @@ const faqSchema = {
       "name": "Do you provide same-day junk hauling in East County?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, we offer same-day junk hauling El Cajon service for urgent needs throughout East County. Whether you're in Fletcher Hills, Rancho San Diego, Granite Hills, Crest, or Downtown El Cajon, our family-owned team can respond quickly for emergency cleanouts, estate situations, and time-sensitive property needs. Same-day availability depends on scheduling and crew availability."
+        "text": "Yes, we offer same-day junk hauling El Cajon service for urgent needs throughout East County. Whether you're in Fletcher Hills, Rancho San Diego, Granite Hills, Crest, or Downtown El Cajon, our locally owned team can respond quickly for emergency cleanouts, estate situations, and time-sensitive property needs. Same-day availability depends on scheduling and crew availability."
       }
     },
     {
@@ -85,7 +85,7 @@ const faqSchema = {
       "name": "Can you handle large family properties or multi-generational homes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely. Our junk pickup El Cajon service specializes in large family properties and multi-generational households common throughout East County. As a family-owned business, we understand the unique needs of family cleanouts, inherited properties, and estate transitions. We provide respectful, compassionate service that preserves important family memories while handling extensive property cleanouts with care and professionalism."
+        "text": "Absolutely. Our junk pickup El Cajon service specializes in large family properties and multi-generational households common throughout East County. As a locally owned business, we understand the unique needs of family cleanouts, inherited properties, and estate transitions. We provide respectful, compassionate service that preserves important family memories while handling extensive property cleanouts with care and professionalism."
       }
     },
     {
@@ -154,7 +154,7 @@ export default function JunkremovalelcajonPage() {
               El Cajon Scrap Metal Recycling & Junk Hauling
             </h2>
             <div className="text-xl mb-6">
-              ⭐⭐⭐⭐⭐ 5.0 Rating • Family-Owned Service • East County Experts
+              ⭐⭐⭐⭐⭐ 5.0 Rating • Locally Owned Service • East County Experts
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
               <a
@@ -311,12 +311,25 @@ export default function JunkremovalelcajonPage() {
             <div className="prose prose-lg max-w-none">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">East County's Premier El Cajon Junk Removal Service</h2>
 
+              <div className="mb-8 float-right ml-6 mb-6">
+                <Image
+                  src="/optimized/toiletteam.webp"
+                  alt="Severin Cleaners team providing junk removal and appliance hauling service in El Cajon"
+                  width={300}
+                  height={225}
+                  className="rounded-lg shadow-lg"
+                />
+                <p className="text-xs text-gray-600 text-center mt-2 italic">
+                  Our team serving El Cajon families
+                </p>
+              </div>
+
               <p className="text-lg text-gray-700 mb-6">
                 El Cajon junk removal requires understanding the unique character of East County's family-oriented communities. From Fletcher Hills' established hillside neighborhoods to Rancho San Diego's master-planned developments, our junk hauling El Cajon service specializes in serving multi-generational households and family properties throughout East County. We provide professional trash removal El Cajon for all property types, from compact homes near Parkway Plaza to sprawling estates in the hills.
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
-                As a family-owned business, Severin Cleaners provides respectful, reliable East County junk removal that understands the importance of household transitions and property improvements. Whether you need junk pickup El Cajon for a family move, estate cleanout, or trash removal El Cajon for home renovations, we deliver professional service with family values. Our team handles everything from single-item junk hauling El Cajon to complete multi-generational home cleanouts across Fletcher Hills, Rancho San Diego, Granite Hills, and beyond.
+                As a locally owned business, Severin Cleaners provides respectful, reliable East County junk removal that understands the importance of household transitions and property improvements. Whether you need junk pickup El Cajon for a family move, estate cleanout, or trash removal El Cajon for home renovations, we deliver professional service with family values. Our team handles everything from single-item junk hauling El Cajon to complete multi-generational home cleanouts across Fletcher Hills, Rancho San Diego, Granite Hills, and beyond.
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
@@ -378,7 +391,7 @@ export default function JunkremovalelcajonPage() {
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
-                As a family-owned business ourselves, we understand the emotional complexity of clearing inherited properties and transitioning family estates. Our East County junk removal team works with families throughout the process, from initial consultation to final cleanout. Whether you're managing a Fletcher Hills estate, downsizing a Rancho San Diego family home, or clearing a multi-generational property in Granite Hills, our junk hauling El Cajon service provides respectful, professional support that honors family legacies while accomplishing necessary property transitions.
+                As a locally owned business ourselves, we understand the emotional complexity of clearing inherited properties and transitioning family estates. Our East County junk removal team works with families throughout the process, from initial consultation to final cleanout. Whether you're managing a Fletcher Hills estate, downsizing a Rancho San Diego family home, or clearing a multi-generational property in Granite Hills, our junk hauling El Cajon service provides respectful, professional support that honors family legacies while accomplishing necessary property transitions.
               </p>
 
               <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-8">
@@ -415,9 +428,9 @@ export default function JunkremovalelcajonPage() {
                 </div>
               </div>
 
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">East County's Trusted Family Junk Removal Service</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">East County's Trusted Junk Removal Service</h2>
               <p className="text-lg text-gray-700 mb-6">
-                As a family-owned business serving East County for years, we understand the importance of treating your property and belongings with care and respect. Our El Cajon junk removal service combines deep local knowledge with professional standards to deliver the best experience for East County families. From Fletcher Hills to Rancho San Diego, Granite Hills to Downtown El Cajon, we've built our reputation on reliable junk hauling El Cajon that puts family values first.
+                As a locally owned business serving East County for years, we understand the importance of treating your property and belongings with care and respect. Our El Cajon junk removal service combines deep local knowledge with professional standards to deliver the best experience for East County families. From Fletcher Hills to Rancho San Diego, Granite Hills to Downtown El Cajon, we've built our reputation on reliable junk hauling El Cajon that puts family values first.
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
@@ -484,31 +497,18 @@ export default function JunkremovalelcajonPage() {
                 </p>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Testimonial: Rancho San Diego Appliance Removal</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Customer Testimonial: Rancho San Diego</h3>
               <div className="bg-blue-50 p-6 rounded-lg mb-8 border-l-4 border-blue-500">
-                <div className="flex flex-col md:flex-row items-start gap-6">
-                  <div className="flex-shrink-0">
-                    <Image
-                      src="/optimized/toiletteam.webp"
-                      alt="Severin Cleaners team providing appliance removal service in El Cajon"
-                      width={200}
-                      height={150}
-                      className="rounded-lg shadow-md"
-                    />
-                  </div>
-                  <div className="flex-1">
-                    <div className="flex items-center mb-2">
-                      <div className="text-yellow-500 text-lg mr-2">⭐⭐⭐⭐⭐</div>
-                      <p className="font-bold text-gray-900">Tony Murphy</p>
-                    </div>
-                    <p className="text-gray-700 italic mb-2">
-                      "They stopped by to help my grandfather remove his old fridge and install the new one. They were kind, quick to respond, and got everything done in no time. We thought it would be a hassle since the new fridge had to be picked up last minute, but they made it effortless and even took the time to coordinate everything."
-                    </p>
-                    <p className="text-sm text-gray-600">
-                      <strong>Location:</strong> Rancho San Diego, El Cajon • <strong>Service:</strong> Refrigerator removal & installation coordination
-                    </p>
-                  </div>
+                <div className="flex items-center mb-2">
+                  <div className="text-yellow-500 text-lg mr-2">⭐⭐⭐⭐⭐</div>
+                  <p className="font-bold text-gray-900">Tony Murphy</p>
                 </div>
+                <p className="text-gray-700 italic mb-2">
+                  "They stopped by to help my grandfather remove his old fridge and install the new one. They were kind, quick to respond, and got everything done in no time. We thought it would be a hassle since the new fridge had to be picked up last minute, but they made it effortless and even took the time to coordinate everything."
+                </p>
+                <p className="text-sm text-gray-600">
+                  <strong>Location:</strong> Rancho San Diego, El Cajon • <strong>Service:</strong> Refrigerator removal & installation coordination
+                </p>
               </div>
 
               <div className="text-center bg-blue-900 text-white p-8 rounded-lg">

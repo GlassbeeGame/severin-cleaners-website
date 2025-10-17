@@ -105,7 +105,7 @@ export default function ElCajonFAQSection() {
               {openFAQ === 1 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, we offer same-day junk hauling El Cajon service for urgent needs throughout East County. Whether you're in Fletcher Hills, Rancho San Diego, Granite Hills, Crest, or Downtown El Cajon, our family-owned team can respond quickly for emergency cleanouts, estate situations, and time-sensitive property needs. Same-day availability depends on scheduling and crew availability.
+                    Yes, we offer same-day junk hauling El Cajon service for urgent needs throughout East County. Whether you're in Fletcher Hills, Rancho San Diego, Granite Hills, Crest, or Downtown El Cajon, our locally owned team can respond quickly for emergency cleanouts, estate situations, and time-sensitive property needs. Same-day availability depends on scheduling and crew availability.
                   </p>
                 </div>
               )}
@@ -157,7 +157,7 @@ export default function ElCajonFAQSection() {
               {openFAQ === 3 && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-700 leading-relaxed">
-                    Absolutely. Our junk pickup El Cajon service specializes in large family properties and multi-generational households common throughout East County. As a family-owned business, we understand the unique needs of family cleanouts, inherited properties, and estate transitions. We provide respectful, compassionate service that preserves important family memories while handling extensive property cleanouts with care and professionalism.
+                    Absolutely. Our junk pickup El Cajon service specializes in large family properties and multi-generational households common throughout East County. As a locally owned business, we understand the unique needs of family cleanouts, inherited properties, and estate transitions. We provide respectful, compassionate service that preserves important family memories while handling extensive property cleanouts with care and professionalism.
                   </p>
                 </div>
               )}
@@ -248,7 +248,7 @@ export default function ElCajonFAQSection() {
             Still Have Questions About El Cajon Service?
           </h3>
           <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
-            Our family-owned team is ready to answer any questions about our East County junk removal
+            Our locally owned team is ready to answer any questions about our East County junk removal
             services, provide free estimates, or schedule same-day service for your El Cajon property.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
