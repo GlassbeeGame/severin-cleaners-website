@@ -144,7 +144,7 @@ export default function JunkremovalpointlomaPage() {
                 📞 Call (619) 750-0114
               </a>
               <a
-                href="#contact"
+                href="/contact"
                 className="btn btn-secondary text-lg px-8 py-4 hover:bg-orange-600 transition-colors duration-200"
               >
                 Book Your Military or Coastal Junk Pickup – Save 15% Online

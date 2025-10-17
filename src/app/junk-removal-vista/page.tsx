@@ -109,7 +109,7 @@ export default function JunkRemovalVistaPage() {
                   CALL NOW: (619) 750-0114
                 </a>
                 <a
-                  href="#contact"
+                  href="/contact"
                   className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-bold transition-colors"
                 >
                   Get Vista Quote

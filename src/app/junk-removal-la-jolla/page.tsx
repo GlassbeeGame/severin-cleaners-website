@@ -70,7 +70,7 @@ export default function JunkRemovalLaJollaPage() {
                   CALL NOW: (619) 750-0114
                 </a>
                 <a
-                  href="#contact"
+                  href="/contact"
                   className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-bold transition-colors"
                 >
                   Get La Jolla Estate Quote
@@ -337,7 +337,7 @@ export default function JunkRemovalLaJollaPage() {
                       Call Now: (619) 750-0114
                     </a>
                     <a
-                      href="#contact"
+                      href="/contact"
                       className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg text-center font-bold transition-colors"
                     >
                       Get Free La Jolla Quote

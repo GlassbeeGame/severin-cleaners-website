@@ -144,7 +144,7 @@ export default function JunkRemovalChulaVistaPage() {
                 📞 Call (619) 750-0114
               </a>
               <a
-                href="#contact"
+                href="/contact"
                 className="btn btn-secondary text-lg px-8 py-4 hover:bg-orange-600 transition-colors duration-200"
               >
                 Book Your Chula Vista Junk Pickup - Save 15%
@@ -266,7 +266,7 @@ export default function JunkRemovalChulaVistaPage() {
                     📞 Llame para Cotización
                   </a>
                   <a
-                    href="#contact"
+                    href="/contact"
                     className="bg-white text-green-700 border-2 border-green-600 px-6 py-3 rounded-lg font-semibold text-center hover:bg-green-50 transition-colors duration-200"
                   >
                     Schedule Chula Vista Service

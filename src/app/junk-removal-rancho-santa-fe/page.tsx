@@ -152,7 +152,7 @@ export default function JunkremovalranchosantafePage() {
                 📞 Call (619) 750-0114
               </a>
               <a
-                href="#contact"
+                href="/contact"
                 className="btn btn-secondary text-lg px-8 py-4 hover:bg-orange-600 transition-colors duration-200"
               >
                 Get Your Luxury Estate Quote – Save 15%

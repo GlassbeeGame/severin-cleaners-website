@@ -219,7 +219,7 @@ export default function JunkRemovalDelMarPage() {
                   📞 Call Now for Same-Day Junk Removal in Del Mar: (619) 750-0114
                 </a>
                 <a
-                  href="#contact"
+                  href="/contact"
                   className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-bold transition-colors"
                 >
                   Book Your Del Mar Junk Pickup – Save 15% Online

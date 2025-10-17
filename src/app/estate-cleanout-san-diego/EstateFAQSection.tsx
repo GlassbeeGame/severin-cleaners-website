@@ -305,7 +305,7 @@ export default function EstateFAQSection() {
               📞 Call (619) 750-0114 – Speak with an Expert
             </a>
             <a
-              href="#contact"
+              href="/contact"
               className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-colors"
             >
               Get Free Estate Quote

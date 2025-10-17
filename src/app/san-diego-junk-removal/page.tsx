@@ -87,7 +87,7 @@ export default function SanDiegoJunkRemovalPage() {
                 📞 Call Now for Same-Day Junk Removal San Diego: (619) 750-0114
               </a>
               <a
-                href="#contact"
+                href="/contact"
                 className="btn btn-secondary text-lg px-8 py-4 hover:bg-orange-600 transition-colors duration-200"
               >
                 Book Online & Save 15%
