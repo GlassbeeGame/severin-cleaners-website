@@ -13,12 +13,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'El Cajon Junk Removal | East County Junk Hauling | Family-Owned Specialists',
-  description: 'Professional El Cajon junk removal for Fletcher Hills, Rancho San Diego, Granite Hills. East County family specialists with same-day service. Call (619) 750-0114.',
-  keywords: 'El Cajon junk removal, junk hauling El Cajon, trash removal El Cajon, junk pickup El Cajon, East County junk removal, Fletcher Hills junk removal',
+  title: 'Junk Removal El Cajon | Scrap Metal Recycling & Junk Hauling East County',
+  description: 'Professional junk removal and scrap metal recycling in El Cajon CA. We haul appliances, copper, aluminum, steel & all junk. Same-day service East County. Call (619) 750-0114.',
+  keywords: 'junk removal El Cajon, scrap metal removal El Cajon, metal recycling El Cajon, junk hauling El Cajon, trash removal El Cajon, junk pickup El Cajon CA, East County junk removal, scrap metal recycling East County',
   openGraph: {
-    title: 'El Cajon Junk Removal | East County Junk Hauling | Family-Owned Specialists',
-    description: 'Professional El Cajon junk removal for Fletcher Hills, Rancho San Diego, Granite Hills. East County family specialists with same-day service. Call (619) 750-0114.',
+    title: 'Junk Removal El Cajon | Scrap Metal Recycling & Junk Hauling East County',
+    description: 'Professional junk removal and scrap metal recycling in El Cajon CA. We haul appliances, copper, aluminum, steel & all junk. Same-day service East County.',
     url: 'https://severincleaners.com/junk-removal-el-cajon/',
     siteName: 'Severin Cleaners',
     images: [{
@@ -31,8 +31,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'El Cajon Junk Removal | East County Junk Hauling | Family-Owned Specialists',
-    description: 'Professional El Cajon junk removal for Fletcher Hills, Rancho San Diego, Granite Hills. East County family specialists with same-day service. Call (619) 750-0114.',
+    title: 'Junk Removal El Cajon | Scrap Metal Recycling & Junk Hauling East County',
+    description: 'Professional junk removal and scrap metal recycling in El Cajon CA. We haul appliances, copper, aluminum, steel & all junk. Same-day service East County.',
     images: ['https://severincleaners.com/og-image.jpg'],
   },
   alternates: {
@@ -94,6 +94,22 @@ const faqSchema = {
         "@type": "Answer",
         "text": "Yes, we provide comprehensive trash removal El Cajon service throughout Fletcher Hills and Rancho San Diego. We specialize in these premier East County neighborhoods, understanding their unique characteristics - from Fletcher Hills' established hillside properties and luxury estates to Rancho San Diego's master-planned communities and HOA requirements. Our team delivers professional service that respects community standards and family values in both areas."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer scrap metal removal and recycling in El Cajon?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our El Cajon scrap metal removal service accepts all types of metal including appliances, copper wire, aluminum, steel, brass, iron, and more. We provide fair pricing for scrap metal recycling El Cajon and haul to certified recycling facilities in East County. Whether you have old appliances, construction metal, or yard scrap, we offer same-day metal pickup El Cajon CA for residential and commercial properties throughout East County."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of scrap metal do you accept in East County?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our metal recycling El Cajon service accepts: refrigerators, washers, dryers, stoves, water heaters, copper pipes and wire, aluminum siding and gutters, steel beams and rebar, brass fixtures, iron railings and gates, metal furniture, filing cabinets, and more. We handle both ferrous and non-ferrous metals. For large quantities of scrap metal removal East County, we offer competitive pricing and can often provide credits toward your total cost."
+      }
     }
   ]
 };
@@ -130,9 +146,12 @@ export default function JunkremovalelcajonPage() {
             <div className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
               ✓ East County family community with diverse neighborhoods
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              El Cajon Junk Removal
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+              Junk Removal El Cajon
             </h1>
+            <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-blue-100">
+              El Cajon Scrap Metal Recycling & Junk Hauling
+            </h2>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • Family-Owned Service • East County Experts
             </div>
@@ -408,8 +427,82 @@ export default function JunkremovalelcajonPage() {
                 Local expertise matters when navigating East County's diverse terrain and communities. Our junk hauling El Cajon service understands hillside access in Fletcher Hills, HOA requirements in Rancho San Diego, and the unique characteristics of rural Granite Hills properties. We handle trash removal El Cajon efficiently while respecting neighborhood standards and family privacy. Our team knows the Fletcher Parkway corridor, Main Street commercial district, and mountain communities, ensuring prompt, professional junk pickup El Cajon service wherever you're located.
               </p>
 
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Scrap Metal Removal & Recycling in El Cajon</h2>
+              <p className="text-lg text-gray-700 mb-6">
+                Looking for <strong>scrap metal removal El Cajon</strong> services? Our <strong>metal recycling El Cajon</strong> team handles all types of ferrous and non-ferrous metals throughout East County. From single appliance pickup to full commercial metal cleanouts, we provide professional <strong>El Cajon metal pickup</strong> with competitive pricing and eco-friendly disposal at certified recycling facilities.
+              </p>
+
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Metals We Accept for Recycling</h3>
+              <p className="text-lg text-gray-700 mb-4">
+                Our <strong>scrap metal recycling El Cajon CA</strong> service accepts a wide variety of metal materials:
+              </p>
+
+              <div className="grid md:grid-cols-2 gap-6 mb-6">
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h4 className="text-xl font-bold mb-3 text-blue-600">Appliances & Large Items</h4>
+                  <ul className="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Refrigerators and freezers (Freon removal included)</li>
+                    <li>Washers, dryers, and dishwashers</li>
+                    <li>Stoves, ovens, and microwaves</li>
+                    <li>Water heaters and HVAC units</li>
+                    <li>Metal furniture and filing cabinets</li>
+                    <li>Exercise equipment and weight sets</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h4 className="text-xl font-bold mb-3 text-blue-600">Construction & Raw Metals</h4>
+                  <ul className="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Copper pipes, wire, and plumbing fixtures</li>
+                    <li>Aluminum siding, gutters, and window frames</li>
+                    <li>Steel beams, rebar, and construction metal</li>
+                    <li>Brass fixtures and hardware</li>
+                    <li>Iron railings, gates, and fencing</li>
+                    <li>Metal roofing and flashing materials</li>
+                  </ul>
+                </div>
+              </div>
+
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">How Our Metal Recycling Pricing Works</h3>
+              <p className="text-lg text-gray-700 mb-4">
+                For <strong>trash hauling El Cajon</strong> with scrap metal, we offer transparent pricing:
+              </p>
+              <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
+                <li><strong>Standard Hauling Rates</strong> - Our regular volume-based pricing applies (see pricing section above)</li>
+                <li><strong>Scrap Metal Credits</strong> - Large quantities of valuable metals (copper, aluminum, brass) may qualify for pricing credits</li>
+                <li><strong>Mixed Loads Welcome</strong> - Combine junk removal with metal recycling in one efficient pickup</li>
+                <li><strong>Certified Disposal</strong> - We haul to licensed East County recycling facilities ensuring proper environmental handling</li>
+              </ul>
+
+              <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-8">
+                <h4 className="text-xl font-bold mb-3 text-green-900">Where We Take Your Scrap Metal</h4>
+                <p className="text-gray-700 mb-3">
+                  Our <strong>metal removal East County</strong> service partners with certified recycling facilities throughout the region. We ensure all metals are properly sorted, processed, and recycled according to California environmental regulations. Hazardous materials like Freon from appliances are professionally removed before recycling.
+                </p>
+                <p className="text-gray-700">
+                  <strong>Common East County Drop Locations:</strong> Licensed metal recyclers in El Cajon, Santee, and La Mesa areas • California-certified e-waste facilities for appliances • Specialized copper and aluminum processing centers
+                </p>
+              </div>
+
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Testimonial: Rancho San Diego Appliance Removal</h3>
+              <div className="bg-blue-50 p-6 rounded-lg mb-8 border-l-4 border-blue-500">
+                <div className="flex items-start gap-4">
+                  <div className="flex-1">
+                    <div className="flex items-center mb-2">
+                      <div className="text-yellow-500 text-lg mr-2">⭐⭐⭐⭐⭐</div>
+                      <p className="font-bold text-gray-900">Tony Murphy</p>
+                    </div>
+                    <p className="text-gray-700 italic mb-2">
+                      "They stopped by to help my grandfather remove his old fridge and install the new one. They were kind, quick to respond, and got everything done in no time. We thought it would be a hassle since the new fridge had to be picked up last minute, but they made it effortless and even took the time to coordinate everything."
+                    </p>
+                    <p className="text-sm text-gray-600">
+                      <strong>Location:</strong> Rancho San Diego, El Cajon • <strong>Service:</strong> Refrigerator removal & installation coordination
+                    </p>
+                  </div>
+                </div>
+              </div>
+
               <div className="text-center bg-blue-900 text-white p-8 rounded-lg">
-                <h3 className="text-2xl font-bold mb-4">Get El Cajon Junk Removal Quote Today</h3>
+                <h3 className="text-2xl font-bold mb-4">Get El Cajon Junk Removal & Scrap Metal Quote Today</h3>
                 <p className="text-lg mb-6">
                   Serving East County families with care and reliability for years
                 </p>
@@ -442,6 +535,10 @@ export default function JunkremovalelcajonPage() {
         <div className="container mx-auto px-4">
           <h3 className="text-2xl font-bold text-center mb-8">Related East County Services</h3>
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            <a href="/scrap-metal-removal" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+              <h4 className="font-semibold text-lg mb-2 text-blue-600">Scrap Metal Removal & Recycling</h4>
+              <p className="text-gray-600">Professional metal recycling San Diego for copper, aluminum, steel, appliances and all scrap metal types</p>
+            </a>
             <a href="/furniture-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
               <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal for Large East County Properties</h4>
               <p className="text-gray-600">Specialized furniture removal San Diego service for Fletcher Hills estates and multi-generational Rancho San Diego family homes</p>
@@ -449,10 +546,6 @@ export default function JunkremovalelcajonPage() {
             <a href="/estate-cleanout-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
               <h4 className="font-semibold text-lg mb-2 text-blue-600">Estate Cleanouts for Inherited Properties</h4>
               <p className="text-gray-600">Compassionate estate cleanout San Diego service for multi-generational homes and inherited East County properties</p>
-            </a>
-            <a href="/appliance-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
-              <h4 className="font-semibold text-lg mb-2 text-blue-600">Appliance Removal</h4>
-              <p className="text-gray-600">Professional appliance disposal with eco-friendly practices</p>
             </a>
           </div>
         </div>

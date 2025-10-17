@@ -188,6 +188,58 @@ export default function ElCajonFAQSection() {
                 </div>
               )}
             </div>
+
+            <div className="border border-gray-200 rounded-xl overflow-hidden">
+              <button
+                className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
+                onClick={() => setOpenFAQ(openFAQ === 5 ? null : 5)}
+              >
+                <h3 className="font-bold text-gray-900 text-lg">Do you offer scrap metal removal and recycling in El Cajon?</h3>
+                <svg
+                  className={`w-5 h-5 text-gray-500 transition-transform ${
+                    openFAQ === 5 ? 'rotate-180' : ''
+                  }`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </button>
+              {openFAQ === 5 && (
+                <div className="px-6 py-4 bg-white">
+                  <p className="text-gray-700 leading-relaxed">
+                    Yes, our El Cajon scrap metal removal service accepts all types of metal including appliances, copper wire, aluminum, steel, brass, iron, and more. We provide fair pricing for scrap metal recycling El Cajon and haul to certified recycling facilities in East County. Whether you have old appliances, construction metal, or yard scrap, we offer same-day metal pickup El Cajon CA for residential and commercial properties throughout East County.
+                  </p>
+                </div>
+              )}
+            </div>
+
+            <div className="border border-gray-200 rounded-xl overflow-hidden">
+              <button
+                className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
+                onClick={() => setOpenFAQ(openFAQ === 6 ? null : 6)}
+              >
+                <h3 className="font-bold text-gray-900 text-lg">What types of scrap metal do you accept in East County?</h3>
+                <svg
+                  className={`w-5 h-5 text-gray-500 transition-transform ${
+                    openFAQ === 6 ? 'rotate-180' : ''
+                  }`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </button>
+              {openFAQ === 6 && (
+                <div className="px-6 py-4 bg-white">
+                  <p className="text-gray-700 leading-relaxed">
+                    Our metal recycling El Cajon service accepts: refrigerators, washers, dryers, stoves, water heaters, copper pipes and wire, aluminum siding and gutters, steel beams and rebar, brass fixtures, iron railings and gates, metal furniture, filing cabinets, and more. We handle both ferrous and non-ferrous metals. For large quantities of scrap metal removal East County, we offer competitive pricing and can often provide credits toward your total cost.
+                  </p>
+                </div>
+              )}
+            </div>
           </div>
         </div>
 
