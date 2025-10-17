@@ -125,5 +125,6 @@ export default function FurnitureFAQSection() {
         </div>
       </div>
     </section>
+    </>
   );
 }

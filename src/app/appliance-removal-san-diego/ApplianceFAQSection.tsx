@@ -124,5 +124,6 @@ export default function ApplianceFAQSection() {
         </div>
       </div>
     </section>
+    </>
   );
 }
