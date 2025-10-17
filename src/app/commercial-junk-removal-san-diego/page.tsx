@@ -85,7 +85,7 @@ export default function CommercialjunkremovalsandiegoPage() {
               ✓ Commercial and business cleanup specialists
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Commercial Junk Removal San Diego – Business Cleanup Experts
+              Commercial Junk Removal San Diego
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • Business Focused • Commercial Accounts Welcome

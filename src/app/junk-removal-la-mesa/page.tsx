@@ -131,7 +131,7 @@ export default function JunkremovallamesesPage() {
               ✓ East County family community with hillside and suburban homes
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              La Mesa Junk Removal – Serving East County Homes & Hillside Communities
+              La Mesa Junk Removal
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • Family-Owned Service • East County Specialists

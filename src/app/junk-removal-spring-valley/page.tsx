@@ -96,7 +96,7 @@ export default function JunkRemovalSpringValleyPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center text-white">
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Spring Valley Junk Removal – Serving East County Homes & Hillside Properties
+                Spring Valley Junk Removal
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
                 Professional junk hauling for Dictionary Hill, Casa de Oro, and Sweetwater Reservoir neighborhoods

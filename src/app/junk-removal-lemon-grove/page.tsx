@@ -131,7 +131,7 @@ export default function JunkremovallemongovePage() {
               ✓ Family-friendly community with affordable service
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Lemon Grove Junk Removal – Serving Families & Local Communities
+              Lemon Grove Junk Removal
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • Family-Owned Business • Affordable Service

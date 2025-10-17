@@ -198,7 +198,7 @@ export default function JunkRemovalDelMarPage() {
                 ✓ Same-Day Service • Licensed & Insured • Luxury Property Experts
               </div>
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Del Mar Junk Removal – Same-Day Service for Homes & Businesses
+                Del Mar Junk Removal
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
                 ⭐⭐⭐⭐⭐ 5.0 Rating • Del Mar Village to Del Mar Heights • Coastal Estate Specialists

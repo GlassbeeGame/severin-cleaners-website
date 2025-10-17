@@ -131,7 +131,7 @@ export default function JunkremovallakesidePage() {
               ✓ Large properties and rural East County community
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Lakeside Junk Removal – Serving Large Properties & East County Families
+              Lakeside Junk Removal
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • Large Property Specialists • Rural Community Experts

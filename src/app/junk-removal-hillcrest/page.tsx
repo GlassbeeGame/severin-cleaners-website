@@ -131,7 +131,7 @@ export default function JunkremovalhillcrestPage() {
               ✓ Historic urban neighborhood with diverse housing
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Hillcrest Junk Removal – Urban Core & Historic Home Experts
+              Hillcrest Junk Removal
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • Historic Building Specialists • Same-Day Service

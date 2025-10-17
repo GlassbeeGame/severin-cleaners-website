@@ -131,7 +131,7 @@ export default function JunkremovalclairemontPage() {
               ✓ Family-friendly community with convenient Balboa Avenue corridor access
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Clairemont Junk Removal – Serving Residential & Family Neighborhoods
+              Clairemont Junk Removal
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • Garage Cleanout Experts • Family-Owned Service

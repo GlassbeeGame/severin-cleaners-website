@@ -251,7 +251,7 @@ export default function JunkRemovalPacificBeachPage() {
                 ✓ Same-Day Service • Licensed & Insured • Transparent Pricing
               </div>
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Pacific Beach Junk Removal – Same-Day Service for Homes & Businesses
+                Pacific Beach Junk Removal
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
                 ⭐⭐⭐⭐⭐ 5.0 Rating • Crystal Pier to Crown Point • Your Local PB Experts

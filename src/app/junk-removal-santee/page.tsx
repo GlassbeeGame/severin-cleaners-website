@@ -131,7 +131,7 @@ export default function JunkremovalsanteePage() {
               ✓ East County suburban family community with convenient trolley access
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Santee Junk Removal – Serving East County Families & Neighborhoods
+              Santee Junk Removal
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • Garage Cleanout Experts • Family-Owned Service

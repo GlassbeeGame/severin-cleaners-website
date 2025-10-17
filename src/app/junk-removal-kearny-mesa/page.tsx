@@ -131,7 +131,7 @@ export default function JunkRemovalKearnyMesaPage() {
               ✓ Commercial & Industrial Specialists
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Kearny Mesa Junk Removal – Commercial & Residential Specialists
+              Kearny Mesa Junk Removal
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • Industrial & Office Experts • Same-Day Service

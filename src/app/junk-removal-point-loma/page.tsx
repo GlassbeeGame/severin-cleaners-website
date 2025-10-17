@@ -131,7 +131,7 @@ export default function JunkremovalpointlomaPage() {
               ✓ Military community with coastal properties
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Point Loma Junk Removal – Coastal Homes & Military Community Service
+              Point Loma Junk Removal
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • Military Family Support • Coastal Specialists

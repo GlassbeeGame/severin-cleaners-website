@@ -56,8 +56,7 @@ export default function ForeclosureEvictionCleanoutPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center text-white">
               <h1 className="text-5xl font-bold mb-6">
-                Foreclosure & Eviction Cleanout Services
-                <span className="block text-blue-300 mt-2">Professional, Discreet, Compassionate</span>
+                Foreclosure & Eviction Cleanout San Diego
               </h1>
               <p className="text-xl mb-8 leading-relaxed">
                 When you need sensitive property cleanout San Diego services handled with professionalism and discretion, Severin Cleaners provides fast, respectful foreclosure cleanout San Diego and eviction cleanout San Diego services throughout the county. We understand the challenges facing property managers, banks, landlords, and families during difficult transitions, offering reliable foreclosure junk removal San Diego and eviction junk removal San Diego solutions.

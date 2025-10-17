@@ -131,7 +131,7 @@ export default function JunkRemovalChulaVistaPage() {
               🌎 Servicio Bilingüe Disponible
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Chula Vista Junk Removal – Serving All South Bay Communities
+              Chula Vista Junk Removal
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • Familia Local • Servicio en Español

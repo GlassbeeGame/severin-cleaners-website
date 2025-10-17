@@ -84,7 +84,7 @@ export default function PianoremovalsandiegoPage() {
               ✓ Piano and musical instrument removal specialists
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Piano Removal San Diego - Musical Instrument Specialists
+              Piano Removal San Diego
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • Piano Experts • Careful Handling Guaranteed

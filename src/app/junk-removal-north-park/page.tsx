@@ -131,7 +131,7 @@ export default function JunkremovalnorthparkPage() {
               ✓ Same-Day Service • Licensed & Insured • Transparent Pricing
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              North Park Junk Removal – Same-Day Service for Homes & Businesses
+              North Park Junk Removal
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • University Avenue to Morley Field • Local Experts

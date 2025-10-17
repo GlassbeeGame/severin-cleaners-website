@@ -131,7 +131,7 @@ export default function JunkremovaloceansidePage() {
               ✓ Military community and coastal paradise with vacation rentals
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Oceanside Junk Removal – Coastal Homes & Military Relocation Service
+              Oceanside Junk Removal
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • Military Discounts • Coastal Property Experts

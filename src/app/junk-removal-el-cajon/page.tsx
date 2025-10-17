@@ -131,7 +131,7 @@ export default function JunkremovalelcajonPage() {
               ✓ East County family community with diverse neighborhoods
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              El Cajon Junk Removal – East County Family Service Specialists
+              El Cajon Junk Removal
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • Family-Owned Service • East County Experts

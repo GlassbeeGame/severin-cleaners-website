@@ -139,7 +139,7 @@ export default function JunkremovalranchosantafePage() {
               ✓ Luxury estates and equestrian properties with exclusive service
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Rancho Santa Fe Junk Removal – Trusted Service for Estates & Businesses
+              Rancho Santa Fe Junk Removal
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • HOA-Approved • White-Glove Service

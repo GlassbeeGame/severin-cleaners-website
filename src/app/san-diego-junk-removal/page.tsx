@@ -74,7 +74,7 @@ export default function SanDiegoJunkRemovalPage() {
               ✓ Same-Day Service • Licensed & Insured • Transparent Pricing
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              San Diego Junk Removal – County-Wide Professional Service
+              San Diego Junk Removal
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • Family-Owned • Serving All San Diego County
