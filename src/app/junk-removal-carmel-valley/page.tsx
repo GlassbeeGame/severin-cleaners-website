@@ -50,6 +50,7 @@ export default function JunkRemovalCarmelValleyPage() {
     "provider": {
       "@type": "LocalBusiness",
       "name": "Severin Cleaners",
+      "image": "https://severincleaners.com/logo.png",
       "telephone": "+1-619-750-0114",
       "url": "https://severincleaners.com",
       "address": {

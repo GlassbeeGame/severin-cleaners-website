@@ -74,7 +74,22 @@ const junkServices = [
       'Safe disconnection & transport'
     ],
     image: '/webphotos/furniture.jpg',
-    link: '/cleanout-services-san-diego'
+    link: '/furniture-removal-san-diego'
+  },
+  {
+    id: 'mattress-disposal',
+    title: 'Mattress Disposal & Pickup',
+    icon: '🛏️',
+    description: 'Fast, affordable mattress pickup and disposal with responsible recycling when possible. Same-day service available.',
+    features: [
+      'Same-day pickup available',
+      'All mattress types & sizes',
+      'Box springs & bed frames',
+      'Eco-friendly recycling',
+      'Starting at $100'
+    ],
+    image: '/webphotos/furniture.jpg',
+    link: '/san-diego-mattress-disposal'
   },
   {
     id: 'hoarding-cleanup',

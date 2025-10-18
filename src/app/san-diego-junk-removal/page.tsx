@@ -108,15 +108,19 @@ export default function SanDiegoJunkRemovalPage() {
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Professional San Diego Junk Removal – Coastal to East County</h2>
 
               <p className="text-lg text-gray-700 mb-6">
-                <strong>San Diego junk removal</strong> requires local expertise across one of California's most diverse counties. From coastal communities like La Jolla and Del Mar to inland neighborhoods in El Cajon and Poway, our <strong>junk hauling San Diego</strong> service provides professional, licensed, and insured junk removal throughout all of San Diego County. As a family-owned business, we combine transparent pricing with same-day availability and disposal practices that comply with all San Diego County regulations.
+                We provide junk removal across all of San Diego County. From La Jolla to El Cajon, Del Mar to Chula Vista, we serve every neighborhood. Family-owned and locally operated. Licensed, insured, and ready to help.
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
-                Whether you need <strong>junk pickup San Diego</strong> for a downtown high-rise apartment, North County estate home, East County residential cleanout, or South Bay commercial property, our <strong>trash removal San Diego</strong> team understands the unique needs of each San Diego neighborhood. We handle everything from single-item furniture removal to complete property cleanouts, following all local disposal regulations while providing the responsive, professional service San Diego residents and businesses expect.
+                Every San Diego area has unique needs. Downtown apartments need fast service. North County estates require careful handling. East County properties often have more space. South Bay commercial jobs need flexible scheduling. We understand them all.
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
-                San Diego County's geographic diversity—from beach communities to mountain communities—creates unique challenges for <strong>San Diego junk removal</strong> services. Our team navigates coastal access restrictions, hillside properties, gated communities, and urban density with equal proficiency. We schedule our <strong>junk hauling San Diego</strong> services to accommodate your timeline, coordinate with property managers and HOAs when needed, and maintain the professionalism that reflects San Diego's quality of life throughout all communities.
+                Our team handles single items or whole-property cleanouts. We follow all local disposal rules. Transparent pricing with same-day availability. Professional service from start to finish.
+              </p>
+
+              <p className="text-lg text-gray-700 mb-6">
+                San Diego County is diverse. Beach communities, hillside homes, and mountain areas all get our best service. We work with HOAs and property managers. Coastal access, gated communities, and urban density - we handle it all with skill and care.
               </p>
 
               <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
@@ -199,15 +203,15 @@ export default function SanDiegoJunkRemovalPage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">How Junk Removal Pricing Works in San Diego</h3>
               <p className="text-lg text-gray-700 mb-4">
-                Our <strong>San Diego junk hauling</strong> pricing is straightforward and volume-based—you pay for the space your items occupy in our trailer, not by the hour or item count. This transparent approach means you know the cost before we start.
+                Our pricing is straightforward and volume-based. You pay for trailer space, not hours or item counts. This transparent approach gives you the cost upfront. No surprises when we finish.
               </p>
 
               <p className="text-lg text-gray-700 mb-4">
-                Pricing varies based on several factors: the volume of junk, property access (stairs, elevators, parking distance), item weight (concrete and appliances cost more than furniture), and item type (some materials require special handling). Our standard pricing ranges from <strong>$175 for single item pickup</strong> to <strong>$495 for a full trailer load</strong>—all prices include labor, hauling, and proper disposal at licensed San Diego County facilities.
+                Several factors affect pricing. Junk volume is the main one. Property access matters too - stairs, elevators, parking distance. Item weight impacts cost since concrete weighs more than furniture. Some materials need special handling. Standard pricing ranges from $175 for one item to $495 for a full load. All prices include labor, hauling, and proper disposal.
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
-                We guarantee no hidden fees. The quote we provide is the price you pay. If the job takes longer than expected or requires extra effort, the price stays the same. This is why San Diego residents trust us for <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture removal</a>, and all types of <strong>junk removal San Diego</strong> services.
+                We guarantee no hidden fees ever. Our quote is your final price. Jobs taking longer don't cost more. Extra effort doesn't change the rate. This builds trust with San Diego residents. They call us for <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture removal</a>, and all removal needs.
               </p>
 
               {/* Pricing Table */}
@@ -283,7 +287,7 @@ export default function SanDiegoJunkRemovalPage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">When You Need Professional Junk Removal</h3>
               <p className="text-lg text-gray-700 mb-4">
-                Professional <strong>San Diego junk removal</strong> becomes essential in many life situations. Here's when San Diego residents and businesses call us:
+                Professional junk removal helps in many situations. Life changes create removal needs. Here's when residents and businesses call us most often:
               </p>
 
               <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -340,27 +344,27 @@ export default function SanDiegoJunkRemovalPage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">What Happens to Your Junk</h3>
               <p className="text-lg text-gray-700 mb-4">
-                All items we collect receive proper disposal following City of San Diego and San Diego County regulations. We don't just throw everything in a landfill—we follow responsible disposal practices that protect our community and environment.
+                All items get proper disposal. We follow City and County regulations strictly. Landfills aren't our only option. Responsible practices protect our community and environment. This matters to us.
               </p>
 
               <p className="text-lg text-gray-700 mb-4">
-                Every load is processed at licensed disposal facilities throughout San Diego County. Items that can be donated go to local charities. Materials that can be recycled are separated and sent to appropriate recycling centers. We maintain complete documentation of disposal—especially important for <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a> requiring probate documentation or property management companies needing disposal records.
+                Every load goes to licensed facilities. Donations head to local charities. Recyclable materials get separated properly. Recycling centers receive what they can process. Complete documentation is maintained always. This helps with <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a> and probate needs. Property managers appreciate our disposal records too.
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
-                Some items require special handling beyond standard <strong>trash removal San Diego</strong> services. When we encounter such items, we coordinate with trusted professionals to ensure proper handling—because our commitment is making sure you're fully taken care of, even when it requires going beyond our core services. This is the comprehensive approach that makes us San Diego's trusted <strong>junk hauling San Diego</strong> service.
+                Some items need special handling beyond standard service. We coordinate with trusted professionals when needed. Proper handling is guaranteed for everything. Our commitment is taking care of you completely. Going beyond core services when necessary makes the difference. This comprehensive approach builds trust across San Diego.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Comprehensive San Diego Junk Removal Services</h3>
               <p className="text-lg text-gray-700 mb-4">
-                Our <strong>junk pickup San Diego</strong> service handles residential, commercial, and specialty cleanouts throughout San Diego County. We provide professional junk removal for:
+                We handle all cleanout types across the county. Residential, commercial, and specialty projects all get professional service. Here's what we remove:
               </p>
 
               <div className="grid md:grid-cols-2 gap-6 mb-8">
                 <div className="bg-gray-50 rounded-lg p-6">
                   <h4 className="text-xl font-bold mb-3 text-blue-600">Residential Services</h4>
                   <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                    <li><strong><a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Furniture Removal</a>:</strong> Sofas, mattresses, tables, chairs, bedroom sets</li>
+                    <li><strong><a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Furniture Removal</a>:</strong> Sofas, <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">mattresses</a>, tables, chairs, bedroom sets</li>
                     <li><strong><a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Appliance Removal</a>:</strong> Refrigerators, washers, dryers, stoves, dishwashers</li>
                     <li><strong><a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate Cleanouts</a>:</strong> Complete property clearing with sensitive handling</li>
                     <li><strong><a href="/hoarding-cleanup-san-diego" className="text-blue-600 hover:underline">Hoarding Cleanup</a>:</strong> Compassionate service for challenging situations</li>
@@ -383,7 +387,7 @@ export default function SanDiegoJunkRemovalPage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Items We Remove Throughout San Diego County</h3>
               <p className="text-lg text-gray-700 mb-4">
-                We handle all standard items in accordance with San Diego County disposal regulations:
+                All standard items are handled properly. County disposal regulations guide our work. Here's what we commonly remove:
               </p>
 
               <div className="bg-gray-50 rounded-lg p-6 mb-8">
@@ -391,7 +395,7 @@ export default function SanDiegoJunkRemovalPage() {
                   <ul className="list-disc pl-6 space-y-1 text-gray-700">
                     <li><a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Furniture of all types</a></li>
                     <li><a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Appliances & electronics</a></li>
-                    <li>Mattresses & box springs</li>
+                    <li><a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">Mattresses & box springs</a></li>
                     <li><a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">Hot tubs</a> & exercise equipment</li>
                   </ul>
                   <ul className="list-disc pl-6 space-y-1 text-gray-700">
@@ -414,7 +418,7 @@ export default function SanDiegoJunkRemovalPage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Why San Diego Chooses Severin Cleaners</h3>
               <p className="text-lg text-gray-700 mb-4">
-                As a family-owned business serving San Diego County, we provide the reliability, professionalism, and local expertise San Diego residents and businesses expect:
+                We're a family-owned business serving all of San Diego County. Reliability, professionalism, and local expertise define our service. Here's what makes us different:
               </p>
 
               <div className="grid md:grid-cols-2 gap-8 mb-8">

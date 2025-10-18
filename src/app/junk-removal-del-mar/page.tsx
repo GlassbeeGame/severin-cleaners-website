@@ -45,10 +45,12 @@ export default function JunkRemovalDelMarPage() {
   const wasteRemovalSchema = {
     "@type": "WasteRemovalService",
     "name": "Severin Cleaners - Junk Removal Del Mar",
+    "image": "https://severincleaners.com/del-mar-junk-removal.jpg",
     "description": "Professional junk removal services in Del Mar, San Diego. Same-day pickup, eco-friendly disposal, and transparent pricing for coastal properties.",
     "provider": {
       "@type": "LocalBusiness",
       "name": "Severin Cleaners",
+      "image": "https://severincleaners.com/logo.png",
       "telephone": "+1-619-750-0114",
       "url": "https://severincleaners.com",
       "address": {
@@ -60,9 +62,16 @@ export default function JunkRemovalDelMarPage() {
         "addressCountry": "US"
       }
     },
-    "areaServed": "Del Mar",
-    "postalCode": "92014",
-    "priceRange": "$",
+    "areaServed": {
+      "@type": "Place",
+      "name": "Del Mar, San Diego, CA",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "San Diego",
+        "addressRegion": "CA",
+        "postalCode": "92014"
+      }
+    },
     "serviceType": ["Coastal & Beach Homes", "Luxury Estate & Whole-Home Cleanouts", "Remodel & Construction Debris", "Vacation Rentals & Guest Turnovers", "HOA/Gated Access"],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",

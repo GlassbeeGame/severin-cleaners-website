@@ -249,7 +249,7 @@ export default function FurnitureRemovalPage() {
                   <div className="bg-white p-6 rounded-lg shadow-md">
                     <h4 className="font-bold text-xl mb-3 text-blue-600">Bedroom</h4>
                     <ul className="list-disc pl-4 space-y-2 text-gray-700">
-                      <li>Beds, mattresses & box springs</li>
+                      <li>Beds, <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:text-blue-700 underline">mattresses & box springs</a></li>
                       <li>Dressers & nightstands</li>
                       <li>Armoires & wardrobes</li>
                       <li>Mirrors & headboards</li>
@@ -432,6 +432,27 @@ export default function FurnitureRemovalPage() {
 
         {/* FAQ Section */}
         <FurnitureFAQSection />
+
+        {/* Related Services */}
+        <section className="py-12 bg-white">
+          <div className="container mx-auto px-4">
+            <h3 className="text-2xl font-bold text-center mb-8">Related Specialized Services</h3>
+            <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+              <a href="/piano-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Piano Removal</h4>
+                <p className="text-gray-600">Professional piano and musical instrument removal with specialized equipment</p>
+              </a>
+              <a href="/hot-tub-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Hot Tub Removal</h4>
+                <p className="text-gray-600">Complete hot tub and spa removal with dismantling and disposal</p>
+              </a>
+              <a href="/appliance-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Appliance Removal</h4>
+                <p className="text-gray-600">Safe removal and disposal of all household appliances</p>
+              </a>
+            </div>
+          </div>
+        </section>
 
               </div>
             </div>

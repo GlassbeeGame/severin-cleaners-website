@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Areas We Serve | Junk Removal Throughout San Diego County | Severin Cleaners",
+  title: "Areas We Serve | Junk Removal Throughout San Diego County",
   description: "Professional junk removal services throughout San Diego County. Serving all neighborhoods from coastal communities to East County. Same-day service available. Call (619) 750-0114!",
   keywords: "junk removal San Diego County, junk hauling areas served, trash removal locations, El Cajon junk removal, La Mesa junk removal, Chula Vista junk removal, Oceanside junk removal",
   alternates: {

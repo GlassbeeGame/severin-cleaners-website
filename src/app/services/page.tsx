@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Junk Removal Services San Diego | Same Day Hauling & Disposal | Severin Cleaners",
+  title: "Junk Removal Services San Diego | Same Day Hauling & Disposal",
   description: "Complete junk removal services in San Diego. Same-day service, furniture removal, appliance disposal, estate cleanouts, construction debris removal. Licensed & insured. Call (619) 750-0114!",
   keywords: "junk removal services San Diego, furniture removal, appliance removal, estate cleanouts, construction debris removal, commercial junk removal, same day junk removal, hoarding cleanup",
   alternates: {
@@ -26,6 +26,13 @@ export default function ServicesPage() {
       description: "Professional furniture removal for homes, offices, and businesses throughout San Diego.",
       icon: "🛋️",
       features: ["Couches & Sofas", "Beds & Mattresses", "Tables & Chairs", "Office Furniture"]
+    },
+    {
+      title: "Mattress Disposal & Pickup",
+      link: "/san-diego-mattress-disposal",
+      description: "Fast, affordable mattress pickup and disposal with responsible recycling when possible.",
+      icon: "🛏️",
+      features: ["Same-Day Pickup", "All Mattress Types", "Eco-Friendly Recycling", "Box Springs Too"]
     },
     {
       title: "Appliance Removal",
@@ -61,6 +68,13 @@ export default function ServicesPage() {
       description: "Complete hot tub and spa removal including dismantling and eco-friendly disposal.",
       icon: "🛁",
       features: ["Complete Dismantling", "Heavy Equipment", "Deck Restoration", "Eco-Friendly Disposal"]
+    },
+    {
+      title: "Piano Removal",
+      link: "/piano-removal-san-diego",
+      description: "Professional piano and musical instrument removal with specialized equipment and care.",
+      icon: "🎹",
+      features: ["Grand & Upright Pianos", "Specialized Equipment", "Stair Navigation", "Safe Transport"]
     },
     {
       title: "Commercial Junk Removal",
@@ -174,7 +188,7 @@ export default function ServicesPage() {
                       href={service.link}
                       className="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-semibold transition-colors mt-auto"
                     >
-                      Learn More
+                      View {service.title}
                     </a>
                   </div>
                 </div>

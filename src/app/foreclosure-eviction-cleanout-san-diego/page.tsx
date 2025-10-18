@@ -59,7 +59,7 @@ export default function ForeclosureEvictionCleanoutPage() {
                 Foreclosure & Eviction Cleanout San Diego
               </h1>
               <p className="text-xl mb-8 leading-relaxed">
-                When you need sensitive property cleanout San Diego services handled with professionalism and discretion, Severin Cleaners provides fast, respectful foreclosure cleanout San Diego and eviction cleanout San Diego services throughout the county. We understand the challenges facing property managers, banks, landlords, and families during difficult transitions, offering reliable foreclosure junk removal San Diego and eviction junk removal San Diego solutions.
+                Need property cleanout services in San Diego? Severin Cleaners handles foreclosure and eviction cleanouts with care and discretion. We serve property managers, banks, landlords, and families. Fast, respectful service throughout the county.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
@@ -87,7 +87,7 @@ export default function ForeclosureEvictionCleanoutPage() {
                 Discreet Cleanout Services You Can Trust
               </h2>
               <p className="text-xl text-gray-600 mb-12 text-center">
-                We understand that foreclosure cleanout San Diego and eviction cleanout San Diego projects are sensitive situations requiring the utmost professionalism and respect for all parties involved.
+                Foreclosure and eviction cleanouts are sensitive situations. We handle every project with professionalism and respect for all parties involved.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -133,7 +133,7 @@ export default function ForeclosureEvictionCleanoutPage() {
                 Fast Turnaround for Sensitive Timelines
               </h2>
               <p className="text-xl text-gray-600 mb-12 text-center">
-                We understand that foreclosure junk removal San Diego and eviction junk removal San Diego projects often have strict deadlines. Our property cleanout San Diego team is equipped to meet urgent court orders, bank requirements, and landlord timelines with professional junk hauling services.
+                These projects often have strict deadlines. We meet urgent court orders, bank requirements, and landlord timelines. Our team is ready when you need us.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -197,7 +197,7 @@ export default function ForeclosureEvictionCleanoutPage() {
                 Trusted by Property Managers & Realtors
               </h2>
               <p className="text-xl text-gray-600 mb-12 text-center">
-                Our established partnerships with San Diego property management companies and real estate professionals demonstrate our reliability and expertise in tenant turnovers and property preparation.
+                We work with property managers and realtors across San Diego. Our reliable service helps with tenant turnovers and property prep. Fast, professional results every time.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -235,7 +235,7 @@ export default function ForeclosureEvictionCleanoutPage() {
               <div className="mt-12 bg-yellow-50 p-8 rounded-xl">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">🤝 Established Partnerships</h3>
                 <p className="text-gray-700 text-center mb-6">
-                  We&apos;ve built lasting relationships with San Diego&apos;s top property management companies by delivering consistent, professional service that meets tight deadlines and exceeds expectations.
+                  We've built lasting relationships with San Diego property managers. Our consistent service meets tight deadlines. We exceed expectations on every job.
                 </p>
                 <div className="text-center">
                   <a
@@ -258,7 +258,7 @@ export default function ForeclosureEvictionCleanoutPage() {
                 Experience with Banks & REO Properties
               </h2>
               <p className="text-xl text-gray-600 mb-12 text-center">
-                Our specialized experience with foreclosed and bank-owned (REO) properties ensures efficient foreclosure cleanout San Diego services that meet lending institution requirements and prepare properties for resale through professional junk hauling and removal.
+                We have years of experience with foreclosed and bank-owned properties. Our service meets all lending institution requirements. We prepare properties for quick resale.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -618,7 +618,7 @@ export default function ForeclosureEvictionCleanoutPage() {
                 Foreclosure & Eviction Cleanout Service Areas
               </h2>
               <p className="text-xl text-gray-600 mb-8 text-center">
-                We provide professional foreclosure cleanout San Diego and eviction cleanout San Diego services throughout San Diego County, serving property managers, banks, landlords, and families across all neighborhoods with reliable foreclosure junk removal San Diego and eviction junk removal San Diego solutions.
+                We serve property managers, banks, landlords, and families throughout San Diego County. Our cleanout services cover all neighborhoods. Fast, professional service is our standard. We handle both small and large properties. Every client receives the same reliable care and attention.
               </p>
 
               <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-center">
@@ -700,7 +700,7 @@ export default function ForeclosureEvictionCleanoutPage() {
               Call Today for San Diego Foreclosure & Eviction Cleanouts
             </h2>
             <p className="text-xl mb-8 max-w-4xl mx-auto">
-              When you need professional, discreet foreclosure cleanout San Diego and eviction cleanout San Diego services, trust our experienced team to handle the job with compassion and efficiency. Fast turnaround on all property cleanout San Diego projects, transparent pricing for foreclosure junk removal San Diego and eviction junk removal San Diego, and complete discretion guaranteed.
+              Need professional cleanout services in San Diego? Our team handles every job with care and discretion. We work fast to meet your deadlines. Pricing is always transparent with no surprises. Complete privacy is guaranteed on every project. Call us today for immediate service.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <a
