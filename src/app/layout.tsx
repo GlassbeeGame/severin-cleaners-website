@@ -6,9 +6,10 @@ import { GoogleTagManagerHead, GoogleTagManagerBody } from "@/components/GoogleT
 
 const inter = Inter({
   subsets: ["latin"],
-  display: "block",
+  display: "swap",
   variable: "--font-inter",
   preload: true,
+  adjustFontFallback: true,
 });
 
 export const metadata: Metadata = {
