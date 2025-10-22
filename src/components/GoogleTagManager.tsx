@@ -6,10 +6,10 @@ const GA4_ID = 'G-R7HY3CPQ7K'
 export function GoogleTagManagerHead() {
   return (
     <>
-      {/* Google Tag Manager */}
+      {/* Google Tag Manager - Lazy load for better performance */}
       <Script
         id="gtm-script"
-        strategy="afterInteractive"
+        strategy="lazyOnload"
         dangerouslySetInnerHTML={{
           __html: `
 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -21,14 +21,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         }}
       />
 
-      {/* Google Analytics 4 */}
+      {/* Google Analytics 4 - Load after page interactive */}
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`}
-        strategy="afterInteractive"
+        strategy="lazyOnload"
       />
       <Script
         id="ga4-script"
-        strategy="afterInteractive"
+        strategy="lazyOnload"
         dangerouslySetInnerHTML={{
           __html: `
 window.dataLayer = window.dataLayer || [];
