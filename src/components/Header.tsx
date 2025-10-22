@@ -71,6 +71,12 @@ export default function Header() {
               Pricing
             </Link>
             <Link
+              href="/blog"
+              className="text-gray-700 hover:text-blue-500 transition-colors duration-200 font-semibold py-2"
+            >
+              Blog
+            </Link>
+            <Link
               href="/contact"
               className="text-gray-700 hover:text-blue-500 transition-colors duration-200 font-semibold py-2"
             >
@@ -159,6 +165,13 @@ export default function Header() {
                 className="block px-3 py-2 text-base font-semibold text-gray-700 hover:text-blue-500 hover:bg-gray-50 rounded-md transition-colors duration-200"
               >
                 Pricing
+              </Link>
+              <Link
+                href="/blog"
+                onClick={closeMenu}
+                className="block px-3 py-2 text-base font-semibold text-gray-700 hover:text-blue-500 hover:bg-gray-50 rounded-md transition-colors duration-200"
+              >
+                Blog
               </Link>
               <Link
                 href="/contact"
