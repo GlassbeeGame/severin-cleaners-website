@@ -55,8 +55,8 @@ export default function SameDayJunkRemovalGuide() {
         "step": [
           {
             "@type": "HowToStep",
-            "name": "Call Before Noon for Same-Day Service",
-            "text": "Contact us at (619) 750-0114 before 12:00 PM to schedule same-day pickup. Earlier calls increase availability.",
+            "name": "Call Before 2 PM for Same-Day Service",
+            "text": "Contact us at (619) 750-0114 before 2:00 PM to schedule same-day pickup. Earlier calls increase availability.",
             "url": "https://severincleaners.com/blog/same-day-junk-removal-guide#how-to-book"
           },
           {
@@ -94,7 +94,7 @@ export default function SameDayJunkRemovalGuide() {
             "name": "Can you really remove junk the same day I call?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes! If you call before noon, we can typically provide same-day junk removal service in San Diego. We operate 7 days a week and have teams ready for emergency pickups. Most same-day jobs are completed within 3-6 hours of your call. Call (619) 750-0114 for immediate scheduling."
+              "text": "Yes! If you call before 2 PM, we can typically provide same-day junk removal service in San Diego. We operate 7 days a week and have teams ready for emergency pickups. Most same-day jobs are completed within 2-4 hours of your call. Call (619) 750-0114 for immediate scheduling."
             }
           },
           {
@@ -110,7 +110,7 @@ export default function SameDayJunkRemovalGuide() {
             "name": "What time do I need to call for same-day service?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Call before 12:00 PM (noon) for best same-day availability. We accept calls as late as 3:00 PM for evening pickups, but availability is more limited. Earlier calls give us more flexibility to schedule your pickup."
+              "text": "Call before 2:00 PM for guaranteed same-day service. We accept emergency calls throughout the day, but calling earlier gives us more flexibility to schedule your pickup and ensure same-day completion."
             }
           },
           {
@@ -118,7 +118,7 @@ export default function SameDayJunkRemovalGuide() {
             "name": "How quickly will you arrive after I call?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Most same-day junk removal appointments happen within 3-6 hours of your call. We provide a 2-4 hour arrival window based on current schedule. For true emergencies (water damage, evictions, safety hazards), we can often arrive within 1-2 hours."
+              "text": "Most same-day junk removal appointments happen within 2-4 hours of your call. We provide a 2-hour arrival window based on current schedule. For true emergencies (water damage, evictions, safety hazards), we prioritize immediate dispatch and can often arrive within 1-2 hours."
             }
           },
           {
@@ -134,7 +134,7 @@ export default function SameDayJunkRemovalGuide() {
             "name": "Do you offer same-day service on weekends?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes! We operate 7 days a week including Saturdays and Sundays. Weekend same-day service has the same pricing as weekdays - no weekend surcharges. Call before noon on Saturday or Sunday for same-day pickup."
+              "text": "Yes! We operate 7 days a week including Saturdays and Sundays. Weekend same-day service has the same pricing as weekdays - no weekend surcharges. Call before 2 PM on Saturday or Sunday for guaranteed same-day pickup."
             }
           }
         ]
@@ -179,7 +179,7 @@ export default function SameDayJunkRemovalGuide() {
                 <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-8 rounded-r-lg">
                   <h2 className="text-xl font-bold text-gray-900 mb-3">Quick Answer</h2>
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, you can get junk removed the same day you call! <strong>Call before noon</strong> at <a href="tel:+16197500114" className="text-blue-600 hover:text-blue-700 font-bold">(619) 750-0114</a> for same-day pickup. We operate <strong>7 days a week</strong> with <strong>no rush fees</strong>. Same-day service costs the same as scheduling in advance: <strong>$100-$495</strong> based on volume.
+                    Yes, you can get junk removed the same day you call! <strong>Call before 2 PM</strong> at <a href="tel:+16197500114" className="text-blue-600 hover:text-blue-700 font-bold">(619) 750-0114</a> for same-day pickup. We operate <strong>7 days a week</strong> with <strong>no rush fees</strong>. Same-day service costs the same as scheduling in advance: <strong>starting at $100</strong> based on volume.
                   </p>
                 </div>
 
@@ -216,9 +216,9 @@ export default function SameDayJunkRemovalGuide() {
                           1
                         </div>
                         <div className="flex-1">
-                          <h3 className="text-xl font-bold text-gray-900 mb-2">Call Before Noon</h3>
+                          <h3 className="text-xl font-bold text-gray-900 mb-2">Call Before 2 PM</h3>
                           <p className="text-gray-700">
-                            Contact us at <a href="tel:+16197500114" className="text-blue-600 hover:text-blue-700 font-bold">(619) 750-0114</a> before 12:00 PM for best same-day availability. We can often accommodate calls as late as 3:00 PM for evening pickups. The earlier you call, the more scheduling flexibility we have.
+                            Contact us at <a href="tel:+16197500114" className="text-blue-600 hover:text-blue-700 font-bold">(619) 750-0114</a> before 2:00 PM for guaranteed same-day service. We accept emergency calls throughout the day, but calling earlier gives us more flexibility to schedule your pickup and ensure same-day completion.
                           </p>
                         </div>
                       </div>
@@ -246,7 +246,7 @@ export default function SameDayJunkRemovalGuide() {
                         <div className="flex-1">
                           <h3 className="text-xl font-bold text-gray-900 mb-2">Get Your Time Window</h3>
                           <p className="text-gray-700">
-                            We'll provide a 2-4 hour arrival window based on our current schedule. Most same-day jobs are completed within 3-6 hours of your call. For true emergencies (safety hazards, water damage), we can often arrive within 1-2 hours.
+                            We'll provide a 2-hour arrival window based on our current schedule. Most same-day jobs are completed within 2-4 hours of your call. For true emergencies (safety hazards, water damage), we prioritize immediate dispatch and can often arrive within 1-2 hours.
                           </p>
                         </div>
                       </div>
@@ -463,7 +463,7 @@ export default function SameDayJunkRemovalGuide() {
                         "We're moving tomorrow and realized we have way more furniture than we can take. Need a couch, beds, and boxes removed today."
                       </p>
                       <p className="text-gray-700 font-semibold">
-                        ✓ Call before noon. We'll coordinate around your moving schedule and can arrive same-day to clear unwanted items.
+                        ✓ Call before 2 PM. We'll coordinate around your moving schedule and can arrive same-day to clear unwanted items.
                       </p>
                     </div>
 
@@ -527,7 +527,7 @@ export default function SameDayJunkRemovalGuide() {
                       <div className="flex-shrink-0 text-2xl">⚡</div>
                       <div>
                         <h4 className="font-bold text-gray-900 mb-1">Truly Fast Response</h4>
-                        <p className="text-gray-700">Most same-day jobs completed within 3-6 hours. Emergency situations often handled within 1-2 hours.</p>
+                        <p className="text-gray-700">Most same-day jobs completed within 2-4 hours. Emergency situations often handled within 1-2 hours.</p>
                       </div>
                     </div>
 
@@ -575,14 +575,14 @@ export default function SameDayJunkRemovalGuide() {
                   <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Ready for Same-Day Junk Removal?</h2>
 
                   <p className="text-gray-700 leading-relaxed mb-6">
-                    Don't wait days or weeks when you need junk gone TODAY. Call <a href="tel:+16197500114" className="text-blue-600 hover:text-blue-700 font-bold">(619) 750-0114</a> before noon for same-day pickup throughout San Diego County.
+                    Don't wait days or weeks when you need junk gone TODAY. Call <a href="tel:+16197500114" className="text-blue-600 hover:text-blue-700 font-bold">(619) 750-0114</a> before 2 PM for same-day pickup throughout San Diego County.
                   </p>
 
                   <div className="bg-gradient-to-r from-blue-50 to-green-50 border-2 border-blue-200 rounded-xl p-6 mb-8">
                     <h3 className="text-xl font-bold text-gray-900 mb-4">📞 Call Now for Same-Day Service:</h3>
                     <ul className="space-y-2 text-gray-700">
-                      <li>✓ Call before noon for best availability</li>
-                      <li>✓ Arrive within 3-6 hours (often faster)</li>
+                      <li>✓ Call before 2 PM for guaranteed same-day service</li>
+                      <li>✓ Arrive within 2-4 hours (often faster)</li>
                       <li>✓ No rush fees - same pricing as scheduled service</li>
                       <li>✓ All-inclusive: labor, hauling, disposal, cleanup</li>
                       <li>✓ Available 7 days a week including weekends</li>
@@ -607,7 +607,7 @@ export default function SameDayJunkRemovalGuide() {
                       Call (619) 750-0114 NOW
                     </a>
                   </div>
-                  <p className="text-red-100 text-sm mt-4">Call before noon for same-day service</p>
+                  <p className="text-red-100 text-sm mt-4">Call before 2 PM for guaranteed same-day service</p>
                 </div>
 
                 {/* Related Articles */}
