@@ -505,16 +505,16 @@ export default function SameDayJunkRemovalGuide() {
                       </ul>
                       <ul className="space-y-1">
                         <li>• <Link href="/junk-removal-escondido" className="text-blue-600 hover:text-blue-700">Escondido</Link></li>
-                        <li>• <Link href="/junk-removal-carlsbad" className="text-blue-600 hover:text-blue-700">Carlsbad</Link></li>
+                        <li>• Carlsbad</li>
                         <li>• <Link href="/junk-removal-vista" className="text-blue-600 hover:text-blue-700">Vista</Link></li>
                         <li>• <Link href="/junk-removal-santee" className="text-blue-600 hover:text-blue-700">Santee</Link></li>
                         <li>• <Link href="/junk-removal-poway" className="text-blue-600 hover:text-blue-700">Poway</Link></li>
                       </ul>
                       <ul className="space-y-1">
                         <li>• <Link href="/junk-removal-del-mar" className="text-blue-600 hover:text-blue-700">Del Mar</Link></li>
-                        <li>• <Link href="/junk-removal-encinitas" className="text-blue-600 hover:text-blue-700">Encinitas</Link></li>
+                        <li>• Encinitas</li>
                         <li>• National City</li>
-                        <li>• Lemon Grove</li>
+                        <li>• <Link href="/junk-removal-lemon-grove" className="text-blue-600 hover:text-blue-700">Lemon Grove</Link></li>
                         <li>• <Link href="/areas-we-serve" className="text-blue-600 hover:text-blue-700">See all areas →</Link></li>
                       </ul>
                     </div>

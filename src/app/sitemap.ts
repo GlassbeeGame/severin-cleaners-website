@@ -52,6 +52,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'junk-removal-vista',
   ]
 
+  // Blog posts
+  const blogPosts = [
+    'blog',
+    'blog/how-much-does-junk-removal-cost-san-diego',
+    'blog/san-diego-dump-fees-guide',
+    'blog/same-day-junk-removal-guide',
+  ]
+
   return [
     // Homepage
     {
@@ -98,6 +106,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: currentDate,
       changeFrequency: 'monthly' as const,
       priority: 0.9,
+    })),
+    // Blog posts
+    ...blogPosts.map((page) => ({
+      url: `${baseUrl}/${page}`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly' as const,
+      priority: 0.7,
     })),
   ]
 }
