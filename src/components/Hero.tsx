@@ -18,6 +18,7 @@ export default function Hero() {
           quality={75}
           className="object-cover"
           sizes="100vw"
+          fetchPriority="high"
         />
         <div className="gradient-overlay"></div>
       </div>

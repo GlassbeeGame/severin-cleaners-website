@@ -98,16 +98,18 @@ export default function Testimonials() {
               </svg>
             </button>
 
-            <div className="flex gap-2">
+            <div className="flex gap-1">
               {testimonials.map((_, index) => (
                 <button
                   key={index}
                   onClick={() => setCurrentIndex(index)}
-                  className={`w-2 h-2 rounded-full transition-all duration-200 ${
-                    index === currentIndex ? 'w-8 bg-blue-500' : 'bg-gray-300'
-                  }`}
+                  className="min-w-[48px] min-h-[48px] flex items-center justify-center p-3 rounded-lg hover:bg-gray-100 transition-all duration-200"
                   aria-label={`Go to testimonial ${index + 1}`}
-                />
+                >
+                  <span className={`rounded-full transition-all duration-200 ${
+                    index === currentIndex ? 'w-8 h-3 bg-blue-500' : 'w-3 h-3 bg-gray-300'
+                  }`} />
+                </button>
               ))}
             </div>
 

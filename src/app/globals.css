@@ -24,6 +24,9 @@ body {
   color: #1a1a1a;
   background: #ffffff;
   overflow-x: hidden;
+  /* Prevent layout shift from font loading */
+  font-display: swap;
+  text-rendering: optimizeLegibility;
 }
 
 @layer base {
@@ -68,6 +71,11 @@ body {
 
   .gradient-overlay {
     @apply absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70;
+  }
+
+  /* Prevent layout shift in hero section */
+  .relative.z-20 {
+    contain: layout;
   }
 
   .touch-target {
