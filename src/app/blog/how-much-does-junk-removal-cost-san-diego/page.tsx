@@ -18,36 +18,119 @@ export const metadata: Metadata = {
 };
 
 export default function JunkRemovalCostGuide() {
-  const articleSchema = {
+  const combinedSchema = {
     "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": "How Much Does Junk Removal Cost in San Diego? (2025 Complete Guide)",
-    "description": "Complete San Diego junk removal cost guide with transparent pricing, cost factors, and money-saving tips.",
-    "image": "https://severincleaners.com/og-image.jpg",
-    "datePublished": "2025-01-15",
-    "dateModified": "2025-01-15",
-    "author": {
-      "@type": "Organization",
-      "name": "Severin Cleaners",
-      "url": "https://severincleaners.com"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Severin Cleaners",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://severincleaners.com/logo.png"
+    "@graph": [
+      // Article Schema
+      {
+        "@type": "BlogPosting",
+        "headline": "How Much Does Junk Removal Cost in San Diego? (2025 Complete Guide)",
+        "description": "Complete San Diego junk removal cost guide with transparent pricing, cost factors, and money-saving tips.",
+        "image": "https://severincleaners.com/og-image.jpg",
+        "datePublished": "2025-01-15",
+        "dateModified": "2025-01-15",
+        "author": {
+          "@type": "Organization",
+          "name": "Severin Cleaners",
+          "url": "https://severincleaners.com"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Severin Cleaners",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://severincleaners.com/logo.png"
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://severincleaners.com/blog/how-much-does-junk-removal-cost-san-diego"
+        }
+      },
+      // HowTo Schema - How to Save Money
+      {
+        "@type": "HowTo",
+        "name": "How to Save Money on Junk Removal in San Diego",
+        "description": "Learn how to reduce junk removal costs through preparation and smart decisions.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "name": "Pre-Sort Your Items",
+            "text": "Separate items into keep, donate, and dispose categories before the junk removal team arrives. This reduces volume and lowers costs.",
+            "url": "https://severincleaners.com/blog/how-much-does-junk-removal-cost-san-diego#save-money"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Donate Usable Items Yourself",
+            "text": "Take gently used furniture and items to donation centers yourself to reduce the volume that needs to be hauled.",
+            "url": "https://severincleaners.com/blog/how-much-does-junk-removal-cost-san-diego#save-money"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Consolidate Items in One Location",
+            "text": "Gather all junk in a garage or driveway for easy access. This speeds up the process and can reduce costs.",
+            "url": "https://severincleaners.com/blog/how-much-does-junk-removal-cost-san-diego#save-money"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Schedule During Weekdays",
+            "text": "Book services during weekday hours when possible for better availability and potentially lower rates.",
+            "url": "https://severincleaners.com/blog/how-much-does-junk-removal-cost-san-diego#save-money"
+          }
+        ]
+      },
+      // FAQ Schema
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much does junk removal cost in San Diego?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Junk removal in San Diego costs $100 to $495 depending on volume. Single items start at $100, a 1/4 load costs $249, a 1/2 load costs $349, and a full trailer load costs $495. All prices include labor, hauling, disposal fees, and eco-friendly recycling."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's included in the junk removal price?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Junk removal pricing includes full-service labor (all heavy lifting), loading and hauling from any location on your property, San Diego dump fees and disposal costs, eco-friendly recycling and donation coordination, and cleanup after removal. There are no hidden fees."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is junk removal cheaper than renting a dumpster?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Professional junk removal often costs less than DIY dumpster rental when you factor in all costs. Dumpster rental ($300-$600) plus truck rental ($50-$150), gas, dump fees ($70-$100+), and your time (3-5 hours) totals $420-$850+. Junk removal costs $100-$495 all-inclusive with zero time or labor from you."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I save money on junk removal?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Save money by pre-sorting items to reduce volume, donating usable items yourself, consolidating junk in one accessible location, and scheduling during weekdays when possible. The less volume and easier the access, the lower the cost."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you charge extra for stairs or difficult access?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Items on the first floor are included in our base rates. Stairs, narrow hallways, or difficult access situations may require additional coordination, but we provide upfront pricing before starting work. Call (619) 750-0114 for an accurate quote."
+            }
+          }
+        ]
       }
-    },
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://severincleaners.com/blog/how-much-does-junk-removal-cost-san-diego"
-    }
+    ]
   };
 
   return (
     <>
-      <SchemaMarkup schema={articleSchema} />
+      <SchemaMarkup schema={combinedSchema} />
       <div className="min-h-screen bg-background">
         <Header />
         <main>

@@ -18,36 +18,131 @@ export const metadata: Metadata = {
 };
 
 export default function SanDiegoDumpFeesGuide() {
-  const articleSchema = {
+  const combinedSchema = {
     "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": "San Diego Dump Fees Guide 2025: Complete Cost Breakdown & Locations",
-    "description": "Complete guide to San Diego dump fees, transfer station locations, disposal costs, and comparison with professional junk removal services.",
-    "image": "https://severincleaners.com/og-image.jpg",
-    "datePublished": "2025-01-15",
-    "dateModified": "2025-01-15",
-    "author": {
-      "@type": "Organization",
-      "name": "Severin Cleaners",
-      "url": "https://severincleaners.com"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Severin Cleaners",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://severincleaners.com/logo.png"
+    "@graph": [
+      // Article Schema
+      {
+        "@type": "BlogPosting",
+        "headline": "San Diego Dump Fees Guide 2025: Complete Cost Breakdown & Locations",
+        "description": "Complete guide to San Diego dump fees, transfer station locations, disposal costs, and comparison with professional junk removal services.",
+        "image": "https://severincleaners.com/og-image.jpg",
+        "datePublished": "2025-01-15",
+        "dateModified": "2025-01-15",
+        "author": {
+          "@type": "Organization",
+          "name": "Severin Cleaners",
+          "url": "https://severincleaners.com"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Severin Cleaners",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://severincleaners.com/logo.png"
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://severincleaners.com/blog/san-diego-dump-fees-guide"
+        }
+      },
+      // HowTo Schema - How to Calculate DIY Costs
+      {
+        "@type": "HowTo",
+        "name": "How to Calculate the True Cost of a DIY Dump Run in San Diego",
+        "description": "Learn how to calculate all hidden costs when taking junk to the dump yourself.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "name": "Calculate Truck Rental Cost",
+            "text": "Rent a pickup truck from Home Depot or U-Haul. Typical cost: $50-$150 depending on size and rental duration.",
+            "url": "https://severincleaners.com/blog/san-diego-dump-fees-guide#diy-costs"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Factor in Fuel Costs",
+            "text": "Calculate round trip distance to the dump and back. Average gas cost for a loaded truck: $15-$30.",
+            "url": "https://severincleaners.com/blog/san-diego-dump-fees-guide#diy-costs"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Add Landfill Dump Fees",
+            "text": "San Diego landfills charge $38 minimum plus $75-$150 per ton. Typical pickup load: $70-$150.",
+            "url": "https://severincleaners.com/blog/san-diego-dump-fees-guide#diy-costs"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Account for Uncovered Load Penalties",
+            "text": "If your load isn't properly covered, expect a $50+ penalty fee at the dump.",
+            "url": "https://severincleaners.com/blog/san-diego-dump-fees-guide#diy-costs"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Calculate Your Time Value",
+            "text": "Loading, driving, unloading, and returning the truck typically takes 3-5 hours of your time.",
+            "url": "https://severincleaners.com/blog/san-diego-dump-fees-guide#diy-costs"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Total the Costs",
+            "text": "Add all costs together: Truck rental + Gas + Dump fees + Penalties = $185-$330+. Compare with professional junk removal starting at $100.",
+            "url": "https://severincleaners.com/blog/san-diego-dump-fees-guide#comparison"
+          }
+        ]
+      },
+      // FAQ Schema
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much does it cost to dump junk at Miramar Landfill?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Miramar Landfill (Greenery) charges a $38 minimum for loads up to 300 lbs, then $75-$150+ per ton over that. A typical pickup truck load costs $70-$100. Hours are Monday-Saturday 7:00 AM - 4:30 PM. Located at 5180 Convoy St, San Diego, CA 92111. Call (858) 694-7000."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the hours for San Diego landfills?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "All three San Diego County landfills (Miramar, Otay, and Sycamore) are open Monday through Saturday only. Miramar and Otay: 7:00 AM - 4:30 PM. Sycamore: 7:00 AM - 4:00 PM. All are closed on Sundays. Professional junk removal services operate 7 days per week."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it cheaper to take junk to the dump yourself or hire junk removal?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "DIY dump runs often cost more than professional junk removal when you factor in all costs. DIY: Truck rental ($50-$150) + Gas ($15-$30) + Dump fees ($70-$150) + Your time (3-5 hours) = $185-$330+. Professional junk removal: $100-$495 all-inclusive with zero time or labor from you."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What items can't you take to San Diego dumps?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "San Diego landfills prohibit hazardous waste, tires (separate facility required), batteries, electronics (e-waste recycling required), asbestos, medical waste, and liquids of any kind. Professional junk removal services can handle most of these items through proper disposal channels."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where is the closest dump to me in San Diego?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "San Diego has three main landfills: Miramar Landfill (5180 Convoy St - serves central/north SD), Otay Landfill (1700 Maxwell Rd, Chula Vista - serves south county), and Sycamore Landfill (8514 Mast Blvd, Santee - serves east county). All charge similar fees."
+            }
+          }
+        ]
       }
-    },
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://severincleaners.com/blog/san-diego-dump-fees-guide"
-    }
+    ]
   };
 
   return (
     <>
-      <SchemaMarkup schema={articleSchema} />
+      <SchemaMarkup schema={combinedSchema} />
       <div className="min-h-screen bg-background">
         <Header />
         <main>
