@@ -134,7 +134,7 @@ export default function JunkremovallemongovePage() {
               Lemon Grove Junk Removal
             </h1>
             <div className="text-xl mb-6">
-              ⭐⭐⭐⭐⭐ 5.0 Rating • Family-Owned Business • Affordable Service
+              ⭐⭐⭐⭐⭐ 5.0 Rating • locally-owned Business • Affordable Service
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
               <a
@@ -169,7 +169,7 @@ export default function JunkremovallemongovePage() {
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
-                Whether you need <strong>junk pickup Lemon Grove</strong> for apartment turnover, family home decluttering, or small business cleanouts, our <strong>trash removal Lemon Grove</strong> service delivers professional results at affordable prices. As a family-owned business, we understand the importance of value and reliability for Lemon Grove's working families and residents.
+                Whether you need <strong>junk pickup Lemon Grove</strong> for apartment turnover, family home decluttering, or small business cleanouts, our <strong>trash removal Lemon Grove</strong> service delivers professional results at affordable prices. As a locally-owned business, we understand the importance of value and reliability for Lemon Grove's working families and residents.
               </p>
 
               <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
@@ -245,7 +245,7 @@ export default function JunkremovallemongovePage() {
                 <div className="flex items-center justify-between gap-4">
                   <div>
                     <p className="font-semibold">Call Today for Same-Day Junk Removal in Lemon Grove</p>
-                    <p className="text-sm opacity-90">Affordable rates • Family-owned • Community focused</p>
+                    <p className="text-sm opacity-90">Affordable rates • locally-owned • Community focused</p>
                   </div>
                   <a
                     href="tel:6197500114"
@@ -258,7 +258,7 @@ export default function JunkremovallemongovePage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Lemon Grove Families Choose Severin Cleaners</h3>
               <p className="mb-4">
-                As a family-owned business, we understand the importance of affordable, reliable service for working families and apartment residents. Our <strong>Lemon Grove San Diego junk removal</strong> team combines competitive pricing with professional service to deliver the best value for our community neighbors.
+                As a locally-owned business, we understand the importance of affordable, reliable service for working families and apartment residents. Our <strong>Lemon Grove San Diego junk removal</strong> team combines competitive pricing with professional service to deliver the best value for our community neighbors.
               </p>
 
               <p className="mb-6">

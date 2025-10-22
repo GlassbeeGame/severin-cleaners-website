@@ -703,7 +703,7 @@ export default function SanDiegoJunkRemovalPage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Why San Diego Chooses Severin Cleaners</h3>
               <p className="text-lg text-gray-700 mb-4">
-                We're a family-owned business serving all of San Diego County. Reliability, professionalism, and local expertise define our service. Here's what makes us different:
+                We're a locally-owned business serving all of San Diego County. Reliability, professionalism, and local expertise define our service. Here's what makes us different:
               </p>
 
               <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -713,7 +713,7 @@ export default function SanDiegoJunkRemovalPage() {
                     <li><strong>Same-day service:</strong> Available when scheduled before 2 PM throughout San Diego County</li>
                     <li><strong>Licensed & insured:</strong> Comprehensive coverage protecting your property during removal</li>
                     <li><strong>Transparent pricing:</strong> $100-$495 based on volume, no hidden fees</li>
-                    <li><strong>Family-owned:</strong> Local business with community commitment and accountability</li>
+                    <li><strong>locally-owned:</strong> Local business with community commitment and accountability</li>
                     <li><strong>Professional crews:</strong> Trained, uniformed teams with courteous service</li>
                   </ul>
                 </div>

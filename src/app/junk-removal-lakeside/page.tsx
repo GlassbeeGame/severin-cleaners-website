@@ -258,7 +258,7 @@ export default function JunkremovallakesidePage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Lakeside Property Owners Choose Severin Cleaners</h3>
               <p className="mb-4">
-                As a family-owned business with deep appreciation for East County's rural lifestyle, we understand the importance of reliable service that respects large properties and agricultural operations. Our <strong>Lakeside junk removal</strong> service combines rural property expertise with professional standards to deliver efficient solutions for ranches, large family homes, and outdoor facilities throughout East County.
+                As a locally-owned business with deep appreciation for East County's rural lifestyle, we understand the importance of reliable service that respects large properties and agricultural operations. Our <strong>Lakeside junk removal</strong> service combines rural property expertise with professional standards to deliver efficient solutions for ranches, large family homes, and outdoor facilities throughout East County.
               </p>
 
               <p className="mb-6">

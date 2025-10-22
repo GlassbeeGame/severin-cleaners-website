@@ -375,7 +375,7 @@ export default function CommercialjunkremovalsandiegoPage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Why San Diego Businesses Trust Severin Cleaners</h3>
               <p className="mb-4">
-                As a family-owned business serving San Diego's commercial community, we understand the importance of treating your business property and operations with professionalism and care. Our <strong>commercial junk removal San Diego</strong> service combines local market knowledge with professional standards to deliver reliable business solutions.
+                As a locally-owned business serving San Diego's commercial community, we understand the importance of treating your business property and operations with professionalism and care. Our <strong>commercial junk removal San Diego</strong> service combines local market knowledge with professional standards to deliver reliable business solutions.
               </p>
 
               <p className="mb-6">

@@ -255,7 +255,7 @@ export default function JunkremovalpointlomaPage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Military Families & Coastal Residents Choose Severin Cleaners</h3>
               <p className="mb-4">
-                As a family-owned business with deep respect for military service, we understand the unique challenges of both PCS moves and coastal property maintenance. Our <strong>Point Loma junk removal</strong> service combines military precision with coastal property expertise to deliver reliable solutions for Point Loma&apos;s diverse community.
+                As a locally-owned business with deep respect for military service, we understand the unique challenges of both PCS moves and coastal property maintenance. Our <strong>Point Loma junk removal</strong> service combines military precision with coastal property expertise to deliver reliable solutions for Point Loma&apos;s diverse community.
               </p>
 
               <p className="mb-6">

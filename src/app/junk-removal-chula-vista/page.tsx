@@ -399,7 +399,7 @@ export default function JunkRemovalChulaVistaPage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Local Family Values & Bilingual Service</h3>
               <p className="mb-4">
-                Like many Chula Vista families, Severin Cleaners is family-owned and operated. We understand the importance of treating your property and belongings with the same care we'd want for our own families. Our bilingual junk removal Chula Vista team reflects the diversity and values of our South Bay community, delivering professional junk hauling Chula Vista service with genuine care.
+                Like many Chula Vista families, Severin Cleaners is locally-owned and operated. We understand the importance of treating your property and belongings with the same care we'd want for our own families. Our bilingual junk removal Chula Vista team reflects the diversity and values of our South Bay community, delivering professional junk hauling Chula Vista service with genuine care.
               </p>
 
               <p className="mb-4">

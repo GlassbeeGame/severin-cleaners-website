@@ -207,7 +207,7 @@ export default function PianoremovalsandiegoPage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Choose Severin Cleaners</h3>
               <p className="mb-4">
-                As a family-owned business, we understand the importance of treating your property and belongings
+                As a locally-owned business, we understand the importance of treating your property and belongings
                 with care. Our San Diego service combines local knowledge with professional standards
                 to deliver the best junk removal experience possible.
               </p>

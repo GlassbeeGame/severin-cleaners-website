@@ -212,7 +212,7 @@ export function generateLocalBusinessSchema() {
       "@type": "Offer",
       "priceSpecification": {
         "@type": "PriceSpecification",
-        "minPrice": "175",
+        "minPrice": "100",
         "maxPrice": "495",
         "priceCurrency": "USD",
       },

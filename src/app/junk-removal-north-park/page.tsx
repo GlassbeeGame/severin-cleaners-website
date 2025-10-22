@@ -246,7 +246,7 @@ export default function JunkremovalnorthparkPage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Arts District & Eco-Friendly Junk Removal</h3>
               <p className="text-lg text-gray-700 mb-6">
-                North Park's creative community values sustainability. We provide environmentally responsible removal. As a family-owned business, we support local values. Eco-friendly disposal is standard practice. Local charities receive our support. Creative spaces get respectful treatment. We contribute to community sustainability goals. Responsible waste management and material sharing help everyone.
+                North Park's creative community values sustainability. We provide environmentally responsible removal. As a locally-owned business, we support local values. Eco-friendly disposal is standard practice. Local charities receive our support. Creative spaces get respectful treatment. We contribute to community sustainability goals. Responsible waste management and material sharing help everyone.
               </p>
 
               <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -281,7 +281,7 @@ export default function JunkremovalnorthparkPage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Why North Park Residents & Businesses Choose Severin Cleaners</h3>
               <p className="text-lg text-gray-700 mb-4">
-                We're a family-owned business serving North Park. Creative spaces deserve careful treatment. Historic homes need special respect. Local businesses get professional service. Our team knows the neighborhood well. Professional standards guide every job. Environmental responsibility matters to us. Artists, students, families, and business owners all trust our work.
+                We're a locally-owned business serving North Park. Creative spaces deserve careful treatment. Historic homes need special respect. Local businesses get professional service. Our team knows the neighborhood well. Professional standards guide every job. Environmental responsibility matters to us. Artists, students, families, and business owners all trust our work.
               </p>
 
               <div className="bg-gray-50 rounded-lg p-6 mb-6">

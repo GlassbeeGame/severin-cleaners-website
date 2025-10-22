@@ -17,8 +17,8 @@ export default function TrustFactors() {
     },
     {
       icon: "👨‍👩‍👧‍👦",
-      title: "Family-Owned Local Business",
-      description: "Proud San Diego family business serving our community with personalized trash removal San Diego services."
+      title: "Locally-Owned Local Business",
+      description: "Proud San Diego locally-owned business serving our community with personalized trash removal San Diego services."
     },
     {
       icon: "♻️",

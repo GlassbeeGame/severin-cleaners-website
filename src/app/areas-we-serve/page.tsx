@@ -111,7 +111,7 @@ export default function AreasWeServePage() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Local Expertise</h3>
-                <p className="text-gray-600">Family-owned business with deep knowledge of San Diego neighborhoods</p>
+                <p className="text-gray-600">locally-owned business with deep knowledge of San Diego neighborhoods</p>
               </div>
             </div>
           </div>

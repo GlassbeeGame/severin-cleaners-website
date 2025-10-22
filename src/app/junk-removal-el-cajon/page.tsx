@@ -433,7 +433,7 @@ export default function JunkremovalelcajonPage() {
                 <div className="flex items-center justify-between gap-4">
                   <div>
                     <p className="font-semibold">Call Today for Same-Day Junk Removal in El Cajon</p>
-                    <p className="text-sm opacity-90">Free quotes • Family-owned service • East County specialists</p>
+                    <p className="text-sm opacity-90">Free quotes • locally-owned service • East County specialists</p>
                   </div>
                   <a
                     href="tel:6197500114"

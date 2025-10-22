@@ -134,7 +134,7 @@ export default function JunkremovalclairemontPage() {
               Clairemont Junk Removal
             </h1>
             <div className="text-xl mb-6">
-              ⭐⭐⭐⭐⭐ 5.0 Rating • Garage Cleanout Experts • Family-Owned Service
+              ⭐⭐⭐⭐⭐ 5.0 Rating • Garage Cleanout Experts • locally-owned Service
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
               <a
@@ -245,7 +245,7 @@ export default function JunkremovalclairemontPage() {
                 <div className="flex items-center justify-between gap-4">
                   <div>
                     <p className="font-semibold">Call Today for Same-Day Junk Removal in Clairemont</p>
-                    <p className="text-sm opacity-90">Garage cleanout experts • Family-owned • Residential specialists</p>
+                    <p className="text-sm opacity-90">Garage cleanout experts • locally-owned • Residential specialists</p>
                   </div>
                   <a
                     href="tel:6197500114"
@@ -258,7 +258,7 @@ export default function JunkremovalclairemontPage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Clairemont Families Choose Severin Cleaners</h3>
               <p className="mb-4">
-                As a family-owned business with deep respect for San Diego's established communities, we understand the unique character of Clairemont's mid-century neighborhoods and family-focused lifestyle. Our <strong>Clairemont San Diego junk removal</strong> service combines local knowledge with professional efficiency to help families maintain organized homes, support estate transitions, and preserve the community's residential charm.
+                As a locally-owned business with deep respect for San Diego's established communities, we understand the unique character of Clairemont's mid-century neighborhoods and family-focused lifestyle. Our <strong>Clairemont San Diego junk removal</strong> service combines local knowledge with professional efficiency to help families maintain organized homes, support estate transitions, and preserve the community's residential charm.
               </p>
 
               <p className="mb-6">

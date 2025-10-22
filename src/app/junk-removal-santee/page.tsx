@@ -134,7 +134,7 @@ export default function JunkremovalsanteePage() {
               Santee Junk Removal
             </h1>
             <div className="text-xl mb-6">
-              ⭐⭐⭐⭐⭐ 5.0 Rating • Garage Cleanout Experts • Family-Owned Service
+              ⭐⭐⭐⭐⭐ 5.0 Rating • Garage Cleanout Experts • locally-owned Service
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
               <a
@@ -245,7 +245,7 @@ export default function JunkremovalsanteePage() {
                 <div className="flex items-center justify-between gap-4">
                   <div>
                     <p className="font-semibold">Call Today for Same-Day Junk Removal in Santee</p>
-                    <p className="text-sm opacity-90">Garage cleanout experts • Family-owned • East County specialists</p>
+                    <p className="text-sm opacity-90">Garage cleanout experts • locally-owned • East County specialists</p>
                   </div>
                   <a
                     href="tel:6197500114"
@@ -258,7 +258,7 @@ export default function JunkremovalsanteePage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Santee Families Choose Severin Cleaners</h3>
               <p className="mb-4">
-                As a family-owned business serving East County for years, we understand the unique needs of Santee's suburban families and growing communities. Our <strong>Santee San Diego junk removal</strong> service combines local knowledge with professional efficiency to help families maintain organized homes and businesses operate smoothly in this dynamic East County city.
+                As a locally-owned business serving East County for years, we understand the unique needs of Santee's suburban families and growing communities. Our <strong>Santee San Diego junk removal</strong> service combines local knowledge with professional efficiency to help families maintain organized homes and businesses operate smoothly in this dynamic East County city.
               </p>
 
               <p className="mb-6">

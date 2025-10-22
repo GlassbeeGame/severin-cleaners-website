@@ -258,7 +258,7 @@ export default function JunkremovalhillcrestPage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Urban Residents Choose Severin Cleaners</h3>
               <p className="mb-4">
-                As a family-owned business serving San Diego's urban core, we understand the unique challenges of city living. Our <strong>Hillcrest junk removal</strong> service combines urban expertise with professional standards to deliver efficient solutions for condos, apartments, and historic homes.
+                As a locally-owned business serving San Diego's urban core, we understand the unique challenges of city living. Our <strong>Hillcrest junk removal</strong> service combines urban expertise with professional standards to deliver efficient solutions for condos, apartments, and historic homes.
               </p>
 
               <p className="mb-6">

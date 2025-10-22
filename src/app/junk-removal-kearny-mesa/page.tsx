@@ -258,7 +258,7 @@ export default function JunkRemovalKearnyMesaPage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Choose Severin Cleaners for Kearny Mesa Junk Removal</h3>
               <p className="mb-4">
-                As a family-owned business serving San Diego's commercial heart, we understand the unique needs of Kearny Mesa's diverse business community and residential neighborhoods. Our <strong>Kearny Mesa junk removal</strong> service combines commercial expertise with local knowledge to deliver reliable solutions for offices, warehouses, restaurants, and homes.
+                As a locally-owned business serving San Diego's commercial heart, we understand the unique needs of Kearny Mesa's diverse business community and residential neighborhoods. Our <strong>Kearny Mesa junk removal</strong> service combines commercial expertise with local knowledge to deliver reliable solutions for offices, warehouses, restaurants, and homes.
               </p>
 
               <p className="mb-6">

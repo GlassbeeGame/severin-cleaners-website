@@ -345,7 +345,7 @@ export default function JunkremovallamesesPage() {
                 <div className="flex items-center justify-between gap-4">
                   <div>
                     <p className="font-semibold">Call Today for Same-Day Junk Removal in La Mesa</p>
-                    <p className="text-sm opacity-90">Family-owned service • East County specialists • Eco-friendly disposal</p>
+                    <p className="text-sm opacity-90">locally-owned service • East County specialists • Eco-friendly disposal</p>
                   </div>
                   <a
                     href="tel:6197500114"

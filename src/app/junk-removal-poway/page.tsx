@@ -134,7 +134,7 @@ export default function JunkremovalpowayPage() {
               Poway Junk Removal
             </h1>
             <div className="text-xl mb-6">
-              ⭐⭐⭐⭐⭐ 5.0 Rating • Ranch Property Experts • Family-Owned Service
+              ⭐⭐⭐⭐⭐ 5.0 Rating • Ranch Property Experts • locally-owned Service
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
               <a
@@ -245,7 +245,7 @@ export default function JunkremovalpowayPage() {
                 <div className="flex items-center justify-between gap-4">
                   <div>
                     <p className="font-semibold">Call Today for Same-Day Junk Removal in Poway</p>
-                    <p className="text-sm opacity-90">Ranch specialists • Family-owned • Large property experts</p>
+                    <p className="text-sm opacity-90">Ranch specialists • locally-owned • Large property experts</p>
                   </div>
                   <a
                     href="tel:6197500114"
@@ -258,7 +258,7 @@ export default function JunkremovalpowayPage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Poway Families & Ranch Owners Choose Severin Cleaners</h3>
               <p className="mb-4">
-                As a family-owned business with experience in large property management, we understand the unique needs of Poway's diverse community. Our <strong>Poway San Diego junk removal</strong> service combines ranch property expertise with suburban family values to deliver reliable, professional solutions for estates, equestrian facilities, and family homes.
+                As a locally-owned business with experience in large property management, we understand the unique needs of Poway's diverse community. Our <strong>Poway San Diego junk removal</strong> service combines ranch property expertise with suburban family values to deliver reliable, professional solutions for estates, equestrian facilities, and family homes.
               </p>
 
               <p className="mb-6">
@@ -268,7 +268,7 @@ export default function JunkremovalpowayPage() {
               <div className="text-center bg-blue-900 text-white p-8 rounded-lg">
                 <h3 className="text-2xl font-bold mb-4">Get Poway Junk Removal Quote Today</h3>
                 <p className="text-lg mb-6">
-                  Ranch property specialists with family-owned values and guaranteed satisfaction
+                  Ranch property specialists with locally-owned values and guaranteed satisfaction
                 </p>
                 <a
                   href="tel:6197500114"

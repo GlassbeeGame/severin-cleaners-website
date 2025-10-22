@@ -289,7 +289,7 @@ export default function JunkremovalranchosantafePage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Rancho Santa Fe Estate Owners Trust Severin Cleaners</h3>
               <p className="text-lg text-gray-700 mb-4">
-                As a family-owned business with deep understanding of luxury property management, we provide the discretion, professionalism, and expertise that Rancho Santa Fe estates demand. Our <strong>trash removal Rancho Santa Fe</strong> service combines white-glove handling with efficient execution for properties throughout The Covenant, Fairbanks Ranch, Del Dios Highway estates, and Rancho Valencia neighborhoods—from historic Spanish Colonial adobes to modern equestrian facilities and contemporary luxury homes.
+                As a locally-owned business with deep understanding of luxury property management, we provide the discretion, professionalism, and expertise that Rancho Santa Fe estates demand. Our <strong>trash removal Rancho Santa Fe</strong> service combines white-glove handling with efficient execution for properties throughout The Covenant, Fairbanks Ranch, Del Dios Highway estates, and Rancho Valencia neighborhoods—from historic Spanish Colonial adobes to modern equestrian facilities and contemporary luxury homes.
               </p>
 
               <p className="text-lg text-gray-700 mb-6">

@@ -5,7 +5,7 @@ export default function Introduction() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="prose prose-lg mx-auto">
             <p className="text-xl text-gray-700 leading-relaxed mb-8">
-              For reliable <strong>junk removal San Diego</strong> residents trust, Severin Cleaners provides professional <strong>junk hauling San Diego</strong> services with same-day availability, transparent pricing, and eco-friendly disposal. Our family-owned business serves all San Diego County neighborhoods with comprehensive <strong>junk pickup San Diego</strong> solutions.
+              For reliable <strong>junk removal San Diego</strong> residents trust, Severin Cleaners provides professional <strong>junk hauling San Diego</strong> services with same-day availability, transparent pricing, and eco-friendly disposal. Our locally-owned business serves all San Diego County neighborhoods with comprehensive <strong>junk pickup San Diego</strong> solutions.
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed mb-8">

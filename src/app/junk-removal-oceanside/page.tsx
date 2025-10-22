@@ -263,7 +263,7 @@ export default function JunkremovaloceansidePage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Military Families & Coastal Residents Choose Severin Cleaners</h3>
               <p className="mb-4">
-                As a family-owned business with deep respect for military service and coastal living, we understand the unique challenges of both communities. Our <strong>Oceanside junk removal</strong> service combines military precision with beach community expertise to deliver reliable solutions for Camp Pendleton families, coastal property owners, and vacation rental managers.
+                As a locally-owned business with deep respect for military service and coastal living, we understand the unique challenges of both communities. Our <strong>Oceanside junk removal</strong> service combines military precision with beach community expertise to deliver reliable solutions for Camp Pendleton families, coastal property owners, and vacation rental managers.
               </p>
 
               <p className="mb-6">
