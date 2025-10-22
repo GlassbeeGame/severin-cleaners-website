@@ -15,7 +15,7 @@ export default function Hero() {
           alt="San Diego junk removal service background"
           fill
           priority
-          quality={85}
+          quality={75}
           className="object-cover"
           sizes="100vw"
         />
