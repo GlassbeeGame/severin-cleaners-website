@@ -211,33 +211,241 @@ export default function StructuredData() {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Residential Junk Removal",
-                "description": "Home cleanouts, furniture removal, appliance disposal, garage cleanouts"
-              }
+                "name": "Furniture Removal",
+                "description": "Professional furniture removal including couches, sofas, desks, beds, and all furniture types. Same-day service available.",
+                "url": "https://severincleaners.com/furniture-removal-san-diego"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "minPrice": "100",
+                "maxPrice": "495",
+                "priceCurrency": "USD"
+              },
+              "availability": "https://schema.org/InStock"
             },
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Commercial Junk Removal",
-                "description": "Office cleanouts, retail space clearing, warehouse debris removal"
-              }
+                "name": "Couch & Sofa Removal",
+                "description": "Affordable couch removal starting at $100. Same-day sofa disposal, sectionals, loveseats, and recliners.",
+                "url": "https://severincleaners.com/couch-removal-san-diego"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "minPrice": "100",
+                "maxPrice": "495",
+                "priceCurrency": "USD"
+              },
+              "availability": "https://schema.org/InStock"
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Appliance Removal",
+                "description": "Professional appliance removal for refrigerators, washers, dryers, stoves, and all appliance types. Eco-friendly disposal.",
+                "url": "https://severincleaners.com/appliance-removal-san-diego"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "minPrice": "100",
+                "maxPrice": "495",
+                "priceCurrency": "USD"
+              },
+              "availability": "https://schema.org/InStock"
             },
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
                 "name": "Estate Cleanouts",
-                "description": "Complete estate clearing with sorting, donation coordination, and disposal"
-              }
+                "description": "Compassionate estate cleanout services with sorting, donation coordination, and complete property clearing.",
+                "url": "https://severincleaners.com/estate-cleanout-san-diego"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "minPrice": "100",
+                "maxPrice": "495",
+                "priceCurrency": "USD"
+              },
+              "availability": "https://schema.org/InStock"
             },
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
                 "name": "Construction Debris Removal",
-                "description": "Demolition waste, renovation debris, construction material disposal"
-              }
+                "description": "Efficient removal of construction waste, renovation debris, and demolition materials for contractors and homeowners.",
+                "url": "https://severincleaners.com/construction-debris-removal-san-diego"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "minPrice": "100",
+                "maxPrice": "495",
+                "priceCurrency": "USD"
+              },
+              "availability": "https://schema.org/InStock"
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Commercial Junk Removal",
+                "description": "Business-focused junk removal for offices, retail spaces, warehouses, and commercial properties.",
+                "url": "https://severincleaners.com/commercial-junk-removal-san-diego"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "minPrice": "100",
+                "maxPrice": "495",
+                "priceCurrency": "USD"
+              },
+              "availability": "https://schema.org/InStock"
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Hoarding Cleanup",
+                "description": "Compassionate hoarding cleanup services with professional organizing. Judgment-free, confidential service.",
+                "url": "https://severincleaners.com/hoarding-cleanup-san-diego"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "minPrice": "100",
+                "maxPrice": "495",
+                "priceCurrency": "USD"
+              },
+              "availability": "https://schema.org/InStock"
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Same-Day Junk Removal",
+                "description": "Fast same-day junk removal service available 7 days a week. No rush fees or emergency charges.",
+                "url": "https://severincleaners.com/same-day-junk-removal-san-diego"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "minPrice": "100",
+                "maxPrice": "495",
+                "priceCurrency": "USD"
+              },
+              "availability": "https://schema.org/InStock"
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Emergency Junk Removal",
+                "description": "Emergency junk removal service for urgent cleanouts and immediate needs. Available 24/7.",
+                "url": "https://severincleaners.com/emergency-junk-removal-san-diego"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "minPrice": "100",
+                "maxPrice": "495",
+                "priceCurrency": "USD"
+              },
+              "availability": "https://schema.org/InStock"
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Cleanout Services",
+                "description": "Complete property cleanout services for homes, garages, sheds, basements, and storage units.",
+                "url": "https://severincleaners.com/cleanout-services-san-diego"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "minPrice": "100",
+                "maxPrice": "495",
+                "priceCurrency": "USD"
+              },
+              "availability": "https://schema.org/InStock"
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Foreclosure & Eviction Cleanout",
+                "description": "Professional foreclosure and eviction cleanout services for property managers, banks, and real estate agents.",
+                "url": "https://severincleaners.com/foreclosure-eviction-cleanout-san-diego"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "minPrice": "100",
+                "maxPrice": "495",
+                "priceCurrency": "USD"
+              },
+              "availability": "https://schema.org/InStock"
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Hot Tub Removal",
+                "description": "Complete hot tub and spa removal including dismantling, hauling, and eco-friendly disposal.",
+                "url": "https://severincleaners.com/hot-tub-removal-san-diego"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "minPrice": "100",
+                "maxPrice": "495",
+                "priceCurrency": "USD"
+              },
+              "availability": "https://schema.org/InStock"
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Mattress Disposal",
+                "description": "Eco-friendly mattress disposal and recycling services. Same-day pickup available.",
+                "url": "https://severincleaners.com/san-diego-mattress-disposal"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "minPrice": "100",
+                "maxPrice": "495",
+                "priceCurrency": "USD"
+              },
+              "availability": "https://schema.org/InStock"
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Scrap Metal Removal",
+                "description": "Scrap metal removal and recycling for metal debris, appliances, and construction materials.",
+                "url": "https://severincleaners.com/scrap-metal-removal"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "minPrice": "100",
+                "maxPrice": "495",
+                "priceCurrency": "USD"
+              },
+              "availability": "https://schema.org/InStock"
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Piano Removal",
+                "description": "Professional piano removal services for upright, grand, and baby grand pianos. Expert handling and transport.",
+                "url": "https://severincleaners.com/piano-removal-san-diego"
+              },
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "minPrice": "100",
+                "maxPrice": "495",
+                "priceCurrency": "USD"
+              },
+              "availability": "https://schema.org/InStock"
             }
           ]
         }
