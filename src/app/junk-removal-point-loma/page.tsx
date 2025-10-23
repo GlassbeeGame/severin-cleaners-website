@@ -159,9 +159,6 @@ export default function JunkremovalpointlomaPage() {
         </div>
       </section>
 
-      {/* Trust Signals Section */}
-      <TrustSignalsSection locationName="Point Loma" />
-
       {/* Main Content */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
@@ -397,6 +394,9 @@ export default function JunkremovalpointlomaPage() {
         locationName="Point Loma"
         contextParagraph="Military PCS moves, coastal estate cleanouts, and Liberty Station renovations all use the same transparent pricing. Active duty military families receive special discount pricing."
       />
+
+      {/* Trust Signals Section */}
+      <TrustSignalsSection locationName="Point Loma" />
 
       {/* Why Choose Section */}
       <section className="py-16 bg-white">

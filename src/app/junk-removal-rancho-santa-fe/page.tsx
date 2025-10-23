@@ -167,9 +167,6 @@ export default function JunkremovalranchosantafePage() {
         </div>
       </section>
 
-      {/* Trust Signals Section */}
-      <TrustSignalsSection locationName="Rancho Santa Fe" coverageArea="North County Coastal" />
-
       {/* Main Content */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
@@ -566,6 +563,9 @@ export default function JunkremovalranchosantafePage() {
         locationName="Rancho Santa Fe"
         contextParagraph="Estate cleanouts, equestrian facility services, and luxury property renovations throughout The Covenant, Fairbanks Ranch, and all Rancho Santa Fe communities use our transparent pricing. For multi-acre properties and large estate projects, call for custom quotes."
       />
+
+      {/* Trust Signals Section */}
+      <TrustSignalsSection locationName="Rancho Santa Fe" coverageArea="North County Coastal" />
 
       {/* Why Choose Section */}
       <section className="py-16 bg-white">

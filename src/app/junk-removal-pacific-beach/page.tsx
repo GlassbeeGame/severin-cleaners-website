@@ -279,9 +279,6 @@ export default function JunkRemovalPacificBeachPage() {
           </div>
         </section>
 
-        {/* Trust Signals Section */}
-        <TrustSignalsSection locationName="Pacific Beach" />
-
         {/* Main Content */}
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
@@ -727,6 +724,9 @@ export default function JunkRemovalPacificBeachPage() {
           locationName="Pacific Beach"
           contextParagraph="Vacation rental turnovers, beach property cleanouts, and student housing move-outs throughout PB—from Crystal Pier to Crown Point—all use the same transparent pricing. No hidden fees, same-day service available."
         />
+
+        {/* Trust Signals Section */}
+        <TrustSignalsSection locationName="Pacific Beach" />
 
         {/* Why Choose Section */}
         <section className="py-16 bg-white">

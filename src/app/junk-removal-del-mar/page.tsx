@@ -243,9 +243,6 @@ export default function JunkRemovalDelMarPage() {
           </div>
         </section>
 
-        {/* Trust Signals Section */}
-        <TrustSignalsSection locationName="Del Mar" coverageArea="North County Coastal" />
-
         {/* Main Content */}
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
@@ -440,6 +437,9 @@ export default function JunkRemovalDelMarPage() {
           locationName="Del Mar"
           contextParagraph="Estate cleanouts, vacation rental turnovers, and luxury property renovations from Del Mar Village to Del Mar Heights all use transparent, volume-based pricing. Racing season or beach traffic doesn't change our rates."
         />
+
+        {/* Trust Signals Section */}
+        <TrustSignalsSection locationName="Del Mar" coverageArea="North County Coastal" />
 
         {/* Why Choose Section */}
         <section className="py-16 bg-white">

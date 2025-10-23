@@ -440,56 +440,56 @@ src/app/junk-removal-[location]/page-NEW.tsx
    - Keep exact positioning angle
    - Preserve trust signals line
 
-3. ✅ **Pricing Section** (2 min - component)
-   ```tsx
-   <LocationPricingSection
-     locationName="[Location]"
-     contextParagraph="[Optional custom context about pricing for this area]"
-   />
-   ```
-
-4. ✅ **Introduction Content** (10 min)
+3. ✅ **Introduction Content** (10 min)
    - Copy existing intro paragraphs EXACTLY
    - Preserve all keyword placements
    - May add 1-2 sentences if thin
 
-5. ✅ **Complete Neighborhood Coverage** (15 min)
+4. ✅ **Complete Neighborhood Coverage** (15 min)
    - Preserve ALL existing neighborhoods
    - Add any missing neighborhoods from research
    - Use 2-column layout
    - Add descriptions for each (1-2 sentences)
 
-6. ✅ **Major Routes & Streets** (10 min - NEW SECTION)
+5. ✅ **Major Routes & Streets** (10 min - NEW SECTION)
    - Add 14 streets from research
    - Split: Major corridors (6-8) + Residential (8-10)
    - Brief description for each
 
-7. ✅ **Local Landmarks** (10 min - NEW SECTION)
+6. ✅ **Local Landmarks** (10 min - NEW SECTION)
    - Add 12 landmarks from research
    - Type/description for each
 
-8. ✅ **Traffic Patterns** (15 min - NEW SECTION)
+7. ✅ **Traffic Patterns** (15 min - NEW SECTION)
    - Add 4 traffic pattern sections
    - Use colored callout boxes (orange, blue, green, purple)
    - Include timing, challenges, our solutions
 
-9. ✅ **Weather & Coastal/Climate** (15 min - NEW SECTION)
+8. ✅ **Weather & Coastal/Climate** (15 min - NEW SECTION)
    - Add 5 weather/climate conditions
    - Use colored callout boxes
    - Explain impact on service
 
-10. ✅ **Why Choose Us** (10 min)
+9. ✅ **Why Choose Us** (10 min)
     - Preserve existing content
     - Add location-specific reasons
     - Terrain challenges, access, expertise
 
-11. ✅ **Services Section** (5 min)
+10. ✅ **Services Section** (5 min)
     - Preserve existing services list
     - Keep 2-column layout
 
-12. ✅ **Specialty Services** (5 min - if applicable)
+11. ✅ **Specialty Services** (5 min - if applicable)
     - Preserve any existing specialty sections
     - Keep exact content
+
+12. ✅ **Pricing Section** (2 min - component)
+    ```tsx
+    <LocationPricingSection
+      locationName="[Location]"
+      contextParagraph="[Optional custom context about pricing for this area]"
+    />
+    ```
 
 13. ✅ **Trust Signals** (2 min - component)
     ```tsx
