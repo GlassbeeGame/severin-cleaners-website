@@ -313,7 +313,6 @@ export default function JunkRemovalLaMesaPage() {
                 {/* Sidebar - Right Column */}
                 <div className="lg:col-span-1">
                   <LocationSidebarCTA
-                    phoneNumber="(619) 750-0114"
                     locationName="La Mesa"
                     nearbyLocations={nearbyLocations}
                   />

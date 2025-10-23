@@ -296,7 +296,6 @@ export default function JunkRemovalChulaVistaPage() {
                 {/* Sidebar - Right Column */}
                 <div className="lg:col-span-1">
                   <LocationSidebarCTA
-                    phoneNumber="(619) 750-0114"
                     locationName="Chula Vista"
                     nearbyLocations={nearbyLocations}
                   />
