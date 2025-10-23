@@ -73,7 +73,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function EscondidoJunkRemovalPage() {
+export default function JunkRemovalEscondidoPage() {
   const serviceSchema = generateLocationServiceSchema({
     locationName: "Escondido",
     serviceName: "Junk Removal",
@@ -140,6 +140,7 @@ export default function EscondidoJunkRemovalPage() {
                 {/* Main Content - Left Column */}
                 <div className="lg:col-span-2">
                   <div className="bg-white rounded-lg shadow-md p-8">
+
                     {/* Introduction */}
                     <h2 className="text-3xl font-bold mb-6 text-gray-900">
                       Professional Junk Hauling Escondido CA – Hidden Meadows to Downtown
@@ -229,6 +230,7 @@ export default function EscondidoJunkRemovalPage() {
                     <h3 className="text-2xl font-bold mt-8 mb-4">Inland Climate Considerations</h3>
                     <p className="text-gray-700 mb-6">
                       Escondido's inland North County climate impacts junk removal year-round with temperature extremes and fire weather risks that coastal areas don't experience. Summer temperatures regularly exceed 95°F, making outdoor junk accumulation a pest attraction and odor concern—decomposing materials in garages and yards create urgent removal needs faster than in cooler coastal zones. Our crews schedule early morning starts (6-8 AM) during heat waves to complete physical hauling work during cooler hours, protecting both crew safety and preventing heat damage to items being transported. Winter brings Escondido's limited but intense rainfall, with December-February storms causing drainage issues in hillside neighborhoods, flash flooding in low-lying areas near creek beds, and significant landscape debris from wind and water damage. Most critically, Escondido faces elevated wildfire risk during Santa Ana wind events (September-December), when hillside communities like Hidden Meadows and Jesmond Dene require aggressive brush clearance and defensible space maintenance—we prioritize fire season debris removal for properties in high-risk zones, coordinating with Cal Fire guidelines and homeowner HOA requirements.
+                    </p>
 
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Escondido</h3>
@@ -307,6 +309,7 @@ export default function EscondidoJunkRemovalPage() {
                         <span><strong>Licensed & Insured:</strong> Fully licensed California junk removal company with comprehensive liability insurance. We carry proper coverage for challenging property access, including protection for steep driveways, hillside terrain, and properties requiring extended access routes.</span>
                       </li>
                     </ul>
+
                   </div>
                 </div>
 
