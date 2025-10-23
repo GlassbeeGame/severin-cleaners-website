@@ -114,8 +114,8 @@ export default function LocationSidebarCTA({
             <div className="text-xs text-gray-600 mt-1">Happy Customers</div>
           </div>
           <div>
-            <div className="text-3xl font-bold text-blue-600">24/7</div>
-            <div className="text-xs text-gray-600 mt-1">Emergency Service</div>
+            <div className="text-3xl font-bold text-blue-600">Same-Day</div>
+            <div className="text-xs text-gray-600 mt-1">Service Available</div>
           </div>
         </div>
       </div>
