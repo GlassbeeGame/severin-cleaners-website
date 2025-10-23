@@ -6,8 +6,8 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Spring Valley Junk Removal | East County Specialists",
-  description: "Professional Spring Valley junk removal for East County families, hillside homes & apartments. Same-day junk hauling Spring Valley, eco-friendly disposal. Serving Dictionary Hill, Casa de Oro. Call (619) 750-0114!",
+  title: "Spring Valley Junk Removal | Hillside Property Experts | (619) 750-0114",
+  description: "Spring Valley hillside junk removal Dictionary Hill, Casa de Oro. Steep driveways, apartment complexes, family homes. (619) 750-0114",
   keywords: "Spring Valley junk removal, junk hauling Spring Valley, junk pickup Spring Valley, trash removal Spring Valley, Spring Valley San Diego junk removal, Dictionary Hill junk removal, Casa de Oro junk hauling, Sweetwater Reservoir junk pickup",
   openGraph: {
     title: "Spring Valley Junk Removal | Affordable Family & Hillside Specialists",
@@ -44,7 +44,7 @@ const faqSchema = {
       "name": "Can you offer same-day junk pickup for apartments and mobile homes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely! We provide same-day Spring Valley junk removal service for apartments, mobile home parks, and multi-family properties. Our team works efficiently with property managers and understands the unique requirements of rental properties. We coordinate with building management and respect community guidelines for all trash removal Spring Valley projects."
+        "text": "Yes! We provide fast Spring Valley junk removal service, typically offering next-day service with same-day available when you call before 2 PM for apartments, mobile home parks, and multi-family properties. Our team works efficiently with property managers and understands the unique requirements of rental properties. We coordinate with building management and respect community guidelines for all trash removal Spring Valley projects."
       }
     },
     {
@@ -60,7 +60,7 @@ const faqSchema = {
       "name": "Are your junk removal services eco-friendly in East County?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely. Our Spring Valley San Diego junk removal approach prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations. We handle all items in accordance with San Diego County and East County regulations, so you don't have to worry about a thing. Our team recycles metals, electronics, and materials through certified facilities, donates usable furniture to local East County charities, and ensures eco-friendly disposal methods that benefit both your family and the Spring Valley community environment."
+        "text": "Yes. We handle all items in accordance with San Diego County and East County regulations. Our team recycles metals, electronics, and materials through certified facilities, and donates usable furniture to local charities when appropriate."
       }
     }
   ]
@@ -96,7 +96,7 @@ export default function JunkRemovalSpringValleyPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center text-white">
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Spring Valley Junk Removal
+                Spring Valley Junk Removal | Hillside Property Experts
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
                 Professional junk hauling for Dictionary Hill, Casa de Oro, and Sweetwater Reservoir neighborhoods
@@ -141,8 +141,8 @@ export default function JunkRemovalSpringValleyPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold mb-2">Same Day Service</h3>
-                <p className="text-gray-600">Quick response throughout Spring Valley - from Dictionary Hill to Casa de Oro. Same-day pickup available.</p>
+                <h3 className="text-xl font-bold mb-2">Fast Response Service</h3>
+                <p className="text-gray-600">Quick response throughout Spring Valley - from Dictionary Hill to Casa de Oro. <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">Same-day pickup</a> available when you call before 2 PM.</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-lg text-center">
                 <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -165,10 +165,10 @@ export default function JunkRemovalSpringValleyPage() {
                 Affordable Spring Valley San Diego Junk Removal for East County Families
               </h2>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                When East County families need reliable <strong>Spring Valley junk removal</strong> services, Severin Cleaners delivers affordable solutions for hillside homes, apartments, and multi-family properties. Our experienced team provides same-day <strong>junk hauling Spring Valley</strong> with transparent pricing that works for family budgets.
+                When East County families need reliable <strong>Spring Valley junk removal</strong> services, Severin Cleaners delivers affordable solutions for hillside homes, apartments, and multi-family properties. Our experienced team provides fast <strong>junk hauling Spring Valley</strong> (including <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a> when you call before 2 PM) with transparent pricing that works for family budgets.
               </p>
               <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                From Dictionary Hill to Casa de Oro neighborhoods, we specialize in <strong>trash removal Spring Valley</strong> for challenging hillside properties, mobile home parks, and apartment complexes. Our reliable service supports multi-generational households and rental properties throughout East County.
+                From Dictionary Hill to Casa de Oro neighborhoods, we specialize in <strong>trash removal Spring Valley</strong> for challenging hillside properties, mobile home parks, and apartment complexes. Our reliable service supports multi-generational households and rental properties throughout East County. We also serve nearby communities including <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a>, <a href="/junk-removal-lemon-grove" className="text-blue-600 hover:underline">Lemon Grove</a>, and <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>.
               </p>
             </div>
           </div>
@@ -349,7 +349,7 @@ export default function JunkRemovalSpringValleyPage() {
         <section className="py-16 bg-green-50">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
-              Why East County Families Choose Severin Cleaners for Spring Valley Junk Removal
+              Why Spring Valley Residents Choose Us
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -379,7 +379,7 @@ export default function JunkRemovalSpringValleyPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                   </svg>
                 </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-2">Same-Day Service</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-2"><a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">Same-Day Service</a> Available</h3>
                 <p className="text-gray-600 text-sm">Emergency <strong>trash removal Spring Valley</strong> available when you need it</p>
               </div>
 

@@ -13,8 +13,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Lakeside Junk Removal | Ranch & Property Specialists',
-  description: 'Professional Lakeside junk removal for large properties, ranches, Riverview, Winter Gardens. East County rural specialists with yard debris removal. Call (619) 750-0114.',
+  title: 'Lakeside Junk Removal | Rural East County Service | (619) 750-0114',
+  description: 'Lakeside rural junk removal Riverview, Winter Gardens. Large acreage, ranch debris, barn cleanouts, horse properties. (619) 750-0114',
   keywords: 'Lakeside junk removal, junk hauling Lakeside, junk pickup Lakeside, trash removal Lakeside, Lakeside San Diego junk removal, large property junk removal',
   openGraph: {
     title: 'Lakeside Junk Removal | Large Property & Ranch Specialists | Same-Day Service',
@@ -76,7 +76,7 @@ const faqSchema = {
       "name": "Can you provide same-day junk pickup in Lakeside?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely. We provide same-day junk pickup Lakeside for urgent needs throughout East County rural areas. Our team can respond quickly for large property emergencies, seasonal cleanouts, or time-sensitive agricultural operations while respecting working ranch and farm schedules."
+        "text": "Yes! We provide rapid-response junk pickup Lakeside, typically offering next-day service with same-day available when you call before 2 PM for urgent needs throughout East County rural areas. Our team can respond quickly for large property emergencies, seasonal cleanouts, or time-sensitive agricultural operations while respecting working ranch and farm schedules."
       }
     },
     {
@@ -92,7 +92,7 @@ const faqSchema = {
       "name": "Are your junk removal services eco-friendly in East County?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely. Our Lakeside San Diego junk removal prioritizes environmental responsibility through agricultural waste recycling, donation programs with local East County charities, and eco-friendly disposal methods that exceed local regulations. We handle all items in full compliance with San Diego County and East County environmental regulations, so you don't have to worry about a thing. Our team sorts materials for agricultural waste recycling, donation, and proper disposal—ensuring minimal landfill impact while supporting local rural community organizations. We understand East County's rural communities' commitment to environmental stewardship and work to protect our natural spaces and working lands."
+        "text": "Yes. We handle all items in full compliance with San Diego County and East County regulations. Our team sorts materials for agricultural waste recycling, donation, and proper disposal. We work with local rural community organizations for donation programs when appropriate."
       }
     }
   ]
@@ -131,7 +131,7 @@ export default function JunkremovallakesidePage() {
               ✓ Large properties and rural East County community
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Lakeside Junk Removal
+              Lakeside Junk Removal | Rural East County Service
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • Large Property Specialists • Rural Community Experts
@@ -151,7 +151,7 @@ export default function JunkremovallakesidePage() {
               </a>
             </div>
             <p className="text-lg">
-              ✓ Same-Day Service ✓ Licensed & Insured ✓ Large Property Specialists
+              ✓ <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-Day Service</a> Available ✓ Licensed & Insured ✓ Large Property Specialists
             </p>
           </div>
         </div>
@@ -244,7 +244,7 @@ export default function JunkremovallakesidePage() {
               <div className="sticky top-20 bg-gradient-to-r from-blue-600 to-orange-500 text-white p-4 rounded-lg shadow-lg mb-8 z-10">
                 <div className="flex items-center justify-between gap-4">
                   <div>
-                    <p className="font-semibold">Call Today for Same-Day Junk Removal in Lakeside</p>
+                    <p className="font-semibold">Call Today for Fast Junk Removal in Lakeside</p>
                     <p className="text-sm opacity-90">Large property specialists • Rural community experts • Yard debris removal</p>
                   </div>
                   <a
@@ -256,13 +256,13 @@ export default function JunkremovallakesidePage() {
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Lakeside Property Owners Choose Severin Cleaners</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Lakeside Property Owners Choose Us</h3>
               <p className="mb-4">
-                As a locally-owned business with deep appreciation for East County's rural lifestyle, we understand the importance of reliable service that respects large properties and agricultural operations. Our <strong>Lakeside junk removal</strong> service combines rural property expertise with professional standards to deliver efficient solutions for ranches, large family homes, and outdoor facilities throughout East County.
+                Lakeside's rural properties present unique access challenges - unpaved roads, long driveways, equestrian facilities, and properties spanning multiple acres. We have equipment that can navigate dirt roads, handle large agricultural debris loads, and access remote barns and outbuildings. Our team understands working around livestock, respecting farm operations, and scheduling around seasonal agricultural activities.
               </p>
 
               <p className="mb-6">
-                We specialize in working with property owners who maintain large acreage, agricultural operations, and multi-generational rural properties. Our <strong>Lakeside San Diego junk removal</strong> team treats every property with the same care and respect we'd want for our own family ranch, understanding the unique challenges and opportunities of rural property management.
+                Large acreage means significant debris volume - from old fence materials and barn cleanouts to decades of accumulated equipment. Properties off Wildcat Canyon Road and near Lake Jennings require different approaches than suburban homes. We bring appropriate truck sizes, have experience with agricultural waste, and understand the unique disposal needs of working properties and ranches.
               </p>
 
               <div className="text-center bg-blue-900 text-white p-8 rounded-lg">
@@ -284,7 +284,7 @@ export default function JunkremovallakesidePage() {
                   </div>
                 </div>
                 <p className="text-sm mt-4">
-                  Licensed & insured • Same-day service • Large property & rural community specialists
+                  Licensed & insured • <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-day service</a> available • Large property & rural community specialists
                 </p>
               </div>
             </div>

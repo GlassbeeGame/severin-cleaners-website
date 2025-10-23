@@ -14,8 +14,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Junk Removal El Cajon | Scrap Metal Recycling & Junk Hauling East County',
-  description: 'Professional junk removal and scrap metal recycling in El Cajon CA. We haul appliances, copper, aluminum, steel & all junk. Same-day service East County. Call (619) 750-0114.',
+  title: 'Junk Removal El Cajon | East County\'s #1 Rated | (619) 750-0114',
+  description: 'East County junk removal Fletcher Hills, Bostonia. Garage cleanouts, estate hauling, classic car debris. (619) 750-0114',
   keywords: 'junk removal El Cajon, scrap metal removal El Cajon, metal recycling El Cajon, junk hauling El Cajon, trash removal El Cajon, junk pickup El Cajon CA, East County junk removal, scrap metal recycling East County',
   openGraph: {
     title: 'Junk Removal El Cajon | Scrap Metal Recycling & Junk Hauling East County',
@@ -61,7 +61,7 @@ const faqSchema = {
       "name": "How much does junk removal cost in El Cajon?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Our El Cajon junk removal pricing is transparent and volume-based with no hidden fees. We offer comprehensive service to all Fletcher Hills, Rancho San Diego, Granite Hills, and East County neighborhoods with family-focused service: Single Item Pickup starting at $100, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. All prices include labor, hauling, disposal fees, and eco-friendly recycling. Volume discounts available for large East County family properties and multi-generational homes. Call for your free estimate today."
+        "text": "Our El Cajon junk removal pricing is transparent and volume-based with no hidden fees. We offer comprehensive service to all Fletcher Hills, Rancho San Diego, Granite Hills, and East County neighborhoods: Single Item Pickup starting at $100, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. All prices include labor, hauling, and proper disposal. Volume discounts available for large East County properties and multi-generational homes. Call for your free estimate today."
       }
     },
     {
@@ -148,7 +148,7 @@ export default function JunkremovalelcajonPage() {
               ✓ East County family community with diverse neighborhoods
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Junk Removal El Cajon
+              Junk Removal El Cajon | East County's #1 Rated
             </h1>
             <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-blue-100">
               El Cajon Scrap Metal Recycling & Junk Hauling
@@ -171,7 +171,7 @@ export default function JunkremovalelcajonPage() {
               </a>
             </div>
             <p className="text-lg">
-              ✓ Same-Day Service ✓ Licensed & Insured ✓ Local Specialists
+              ✓ <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-Day Service</a> Available ✓ Licensed & Insured ✓ Local Specialists
             </p>
           </div>
         </div>
@@ -432,7 +432,7 @@ export default function JunkremovalelcajonPage() {
               <div className="sticky top-20 bg-gradient-to-r from-blue-600 to-orange-500 text-white p-4 rounded-lg shadow-lg mb-8 z-10">
                 <div className="flex items-center justify-between gap-4">
                   <div>
-                    <p className="font-semibold">Call Today for Same-Day Junk Removal in El Cajon</p>
+                    <p className="font-semibold">Call Today for Fast Junk Removal in El Cajon</p>
                     <p className="text-sm opacity-90">Free quotes • locally-owned service • East County specialists</p>
                   </div>
                   <a
@@ -444,25 +444,25 @@ export default function JunkremovalelcajonPage() {
                 </div>
               </div>
 
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">East County's Trusted Junk Removal Service</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Why East County Residents Choose Us</h2>
               <p className="text-lg text-gray-700 mb-6">
-                We've served East County families for years. Your property and belongings get our full care and respect. Local knowledge makes a difference. We know the neighborhoods, the roads, and the people. That's why families choose us again and again.
+                East County's terrain creates unique challenges. Fletcher Hills properties sit on steep slopes with narrow driveways. Granite Hills homes have long access roads. Crest properties require mountain driving experience. We have the right equipment and skills for every situation - from backing trailers up hillside streets to navigating unpaved roads in rural areas.
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
-                Our team serves all areas from Fletcher Hills to Downtown El Cajon. We work in Rancho San Diego, Granite Hills, and everywhere in between. Family values guide everything we do. We treat your home like it's our own.
+                Rancho San Diego's master-planned communities have strict HOA requirements for truck parking and pickup times. Downtown El Cajon properties face street parking limitations. Casa de Oro's established neighborhoods have mature trees that create overhead clearance issues. We understand these location-specific challenges and plan accordingly.
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
-                Multi-generational households have complex needs. Large property cleanouts need careful planning. Estate transitions require sensitivity and patience. We bring all of this to every job, big or small.
+                Multi-generational households are common in East County. Decades of accumulation means garages, sheds, and storage areas are often completely full. Inherited properties in Fletcher Hills and Bostonia can span 2,000+ square feet with attached structures. We have the crew size and equipment capacity to handle these large-scale cleanouts efficiently.
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
-                East County has diverse terrain and neighborhoods. Hillside properties in Fletcher Hills need special equipment. HOA communities have specific rules we follow. Rural areas like Granite Hills and Crest require different approaches. We handle all situations with skill and professionalism.
+                Temperature extremes matter in East County - summer heat in Jamacha-Lomita reaches over 100°F, requiring early morning scheduling for safety. Winter rains make unpaved Dehesa Road properties inaccessible. We plan jobs around weather and coordinate timing to protect your property and our crew.
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
-                Our trucks serve the entire region. We know Fletcher Parkway, Main Street, and the mountain roads. Urban areas and rural properties both get excellent service. No matter where you live in East County, we're ready to help. Call today for fast, friendly service.
+                From the urban Fletcher Parkway corridor to remote mountain properties, we adapt our approach. The Parkway Plaza area has heavy traffic requiring strategic scheduling. Mount Helix's winding roads need skilled drivers. Each location gets the specific expertise it requires.
               </p>
 
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Scrap Metal Removal & Recycling in El Cajon</h2>
@@ -561,7 +561,7 @@ export default function JunkremovalelcajonPage() {
                   </div>
                 </div>
                 <p className="text-sm mt-4">
-                  Licensed & insured • Same-day service • Local specialists
+                  Licensed & insured • <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-day service</a> available • Local specialists
                 </p>
               </div>
             </div>

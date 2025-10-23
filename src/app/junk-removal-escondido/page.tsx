@@ -5,8 +5,8 @@ import EscondidoFAQSection from "./EscondidoFAQSection";
 import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Junk Removal Escondido CA | Same-Day North County",
-  description: "Professional Escondido junk removal for homes and businesses. Same-day service, affordable pricing, eco-friendly disposal. Serving Downtown, Hidden Meadows, and all North County areas.",
+  title: "Junk Removal Escondido CA | North County's Reliable Choice | (619) 750-0114",
+  description: "North County Escondido junk removal Hidden Meadows, San Pasqual Valley. Large lots, vineyard debris, agricultural. (619) 750-0114",
   keywords: [
     "junk removal escondido ca",
     "escondido junk removal",
@@ -96,7 +96,7 @@ export default function EscondidoJunkRemovalPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center text-white">
               <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-                Junk Removal Escondido CA
+                Junk Removal Escondido CA | North County's Reliable Choice
                 <span className="block text-blue-300 mt-2 text-3xl md:text-4xl">
                   Fast, Reliable, and Local Junk Hauling Throughout Escondido and North County Inland
                 </span>
@@ -525,7 +525,7 @@ export default function EscondidoJunkRemovalPage() {
                       <svg className="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                       </svg>
-                      <span><strong>Locally Owned:</strong> Based in San Diego County, serving Escondido and surrounding areas.</span>
+                      <span><strong>North County Expertise:</strong> We navigate Hidden Meadows hillside roads, San Pasqual Valley agricultural properties, and downtown Escondido with ease.</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -13,8 +13,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'North Park Junk Removal | Same-Day Hauling | Licensed & Insured',
-  description: 'Professional North Park junk removal for University Avenue, 30th Street, apartments & historic homes. Same-day service, transparent pricing. Licensed & insured. Call (619) 750-0114!',
+  title: 'North Park Junk Removal | Urban Neighborhood Experts | (619) 750-0114',
+  description: 'North Park urban junk removal 30th St to University Ave. Craftsman homes, street parking, apartment turnovers. (619) 750-0114',
   keywords: 'North Park junk removal, junk hauling North Park, junk pickup North Park, trash removal North Park, North Park San Diego junk removal, University Avenue junk hauling, 30th Street junk removal',
   openGraph: {
     title: 'North Park Junk Removal | Same-Day Hauling | Licensed & Insured',
@@ -131,7 +131,7 @@ export default function JunkremovalnorthparkPage() {
               ✓ Same-Day Service • Licensed & Insured • Transparent Pricing
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              North Park Junk Removal
+              North Park Junk Removal | Urban Neighborhood Experts
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • University Avenue to Morley Field • Local Experts
@@ -151,7 +151,7 @@ export default function JunkremovalnorthparkPage() {
               </a>
             </div>
             <p className="text-lg">
-              ✓ Same-Day Service ✓ Licensed & Insured ✓ Eco-Friendly Disposal
+              ✓ <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-Day Service</a> Available ✓ Licensed & Insured ✓ Eco-Friendly Disposal
             </p>
           </div>
         </div>
@@ -201,7 +201,7 @@ export default function JunkremovalnorthparkPage() {
                 <div className="flex items-center justify-between gap-4">
                   <div>
                     <p className="font-semibold">Ready for Junk Removal in North Park?</p>
-                    <p className="text-sm opacity-90">Free quotes • Same-day service • Licensed & insured</p>
+                    <p className="text-sm opacity-90">Free quotes • Fast response • Licensed & insured</p>
                   </div>
                   <a
                     href="tel:6197500114"
@@ -244,9 +244,9 @@ export default function JunkremovalnorthparkPage() {
                 Our crews know North Park well. Properties near Morley Field get expert service. Tree-lined streets off Polk Avenue are no challenge. We coordinate with property managers regularly. The right equipment makes furniture disassembly safe. Appliances disconnect without issues. Historic homes need careful transport to protect woodwork. Built-ins and architectural details stay undamaged. Craftsman homes keep their distinctive character.
               </p>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Arts District & Eco-Friendly Junk Removal</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Arts District & Creative Space Junk Removal</h3>
               <p className="text-lg text-gray-700 mb-6">
-                North Park's creative community values sustainability. We provide environmentally responsible removal. As a locally-owned business, we support local values. Eco-friendly disposal is standard practice. Local charities receive our support. Creative spaces get respectful treatment. We contribute to community sustainability goals. Responsible waste management and material sharing help everyone.
+                North Park's arts district has unique needs - artist studios with heavy equipment, galleries with delicate installations, and creative spaces with unconventional layouts. We understand how to protect art on walls, navigate tight stairwells in historic buildings, and work around active creative spaces. University Avenue's mix of businesses and residences requires flexible scheduling and careful coordination with neighboring properties.
               </p>
 
               <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -279,9 +279,9 @@ export default function JunkremovalnorthparkPage() {
                 North Park is always improving. Home projects are constant in this neighborhood. Classic Craftsman and bungalow homes get renovated regularly. We specialize in construction debris removal. Kitchen and bathroom remodels create lots of waste. Room additions and garage conversions need debris hauling. Restoration projects preserve historic character. Contractors need reliable service that won't cause delays. Homeowners appreciate respect for their properties. Old cabinetry, flooring, drywall, lumber, and fixtures all get removed. San Diego disposal regulations are followed completely.
               </p>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why North Park Residents & Businesses Choose Severin Cleaners</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why North Park Residents & Businesses Choose Us</h3>
               <p className="text-lg text-gray-700 mb-4">
-                We're a locally-owned business serving North Park. Creative spaces deserve careful treatment. Historic homes need special respect. Local businesses get professional service. Our team knows the neighborhood well. Professional standards guide every job. Environmental responsibility matters to us. Artists, students, families, and business owners all trust our work.
+                North Park's Craftsman bungalows and historic apartments require specialized care - narrow doorways, original hardwood floors, and architectural details that must be protected. Street parking is challenging on 30th Street and University Avenue, requiring permits and strategic timing. We coordinate with craft breweries' operating hours, navigate Ray Street's arts district logistics, and understand the tight timelines of apartment turnovers in this high-demand rental market.
               </p>
 
               <div className="bg-gray-50 rounded-lg p-6 mb-6">

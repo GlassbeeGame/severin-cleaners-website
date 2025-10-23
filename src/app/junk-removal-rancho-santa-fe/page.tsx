@@ -13,8 +13,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Rancho Santa Fe Junk Removal | Luxury Estate Service',
-  description: 'Professional Rancho Santa Fe junk removal for The Covenant, Fairbanks Ranch & luxury estates. Licensed & insured, HOA-approved, same-day service. Call (619) 750-0114.',
+  title: 'Rancho Santa Fe Junk Removal | Exclusive Estate Service | (619) 750-0114',
+  description: 'Rancho Santa Fe estate junk removal The Covenant, Fairbanks Ranch. Gated equestrian, white-glove luxury. (619) 750-0114',
   keywords: 'Rancho Santa Fe junk removal, junk hauling Rancho Santa Fe, junk pickup Rancho Santa Fe, trash removal Rancho Santa Fe, Rancho Santa Fe San Diego junk removal',
   openGraph: {
     title: 'Rancho Santa Fe Junk Removal | Luxury Estate & Equestrian Specialists | Same-Day Service',
@@ -84,7 +84,7 @@ const faqSchema = {
       "name": "Do you provide same-day junk hauling in Rancho Santa Fe?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes! We offer same-day junk pickup Rancho Santa Fe service when you call before 2 PM. Our team understands the urgency often required for estate management, property staging, last-minute renovations, and HOA compliance issues. We coordinate with gate security, property managers, and household staff to provide discreet, professional service that respects your privacy and your community's standards throughout The Covenant, Fairbanks Ranch, and all Rancho Santa Fe gated communities."
+        "text": "Yes! We offer rapid-response junk pickup Rancho Santa Fe service, typically providing next-day service with same-day available when you call before 2 PM. Our team understands the urgency often required for estate management, property staging, last-minute renovations, and HOA compliance issues. We coordinate with gate security, property managers, and household staff to provide discreet, professional service that respects your privacy and your community's standards throughout The Covenant, Fairbanks Ranch, and all Rancho Santa Fe gated communities."
       }
     },
     {
@@ -139,7 +139,7 @@ export default function JunkremovalranchosantafePage() {
               ✓ Luxury estates and equestrian properties with exclusive service
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Rancho Santa Fe Junk Removal
+              Rancho Santa Fe Junk Removal | Exclusive Estate Service
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • HOA-Approved • White-Glove Service
@@ -159,7 +159,7 @@ export default function JunkremovalranchosantafePage() {
               </a>
             </div>
             <p className="text-lg">
-              ✓ Same-Day Service ✓ Licensed & Insured ✓ Estate Specialists
+              ✓ <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-Day Service</a> Available ✓ Licensed & Insured ✓ Estate Specialists
             </p>
           </div>
         </div>
@@ -205,7 +205,7 @@ export default function JunkremovalranchosantafePage() {
                   </ul>
                 </div>
                 <div className="mt-4 text-center">
-                  <p className="text-blue-700 font-semibold">📞 Call (619) 750-0114 for same-day estate service</p>
+                  <p className="text-blue-700 font-semibold">📞 Call (619) 750-0114 for fast estate service</p>
                 </div>
               </div>
 
@@ -249,7 +249,7 @@ export default function JunkremovalranchosantafePage() {
                 <div>
                   <h4 className="text-xl font-bold mb-3 text-blue-600">Estate & Mansion Service Benefits</h4>
                   <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                    <li><strong>Same-day service:</strong> Available for urgent estate needs, property staging, HOA compliance</li>
+                    <li><strong><a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">Same-day service</a>:</strong> Available when you call before 2 PM for urgent estate needs, property staging, HOA compliance</li>
                     <li><strong>Licensed & insured:</strong> Comprehensive coverage for luxury estates and valuable contents</li>
                     <li><strong>Compliance with San Diego County regulations:</strong> Proper disposal documentation</li>
                     <li><strong>Discreet professional crews:</strong> Uniformed teams trained in luxury property protocols</li>
@@ -275,7 +275,7 @@ export default function JunkremovalranchosantafePage() {
               <div className="sticky top-20 bg-gradient-to-r from-blue-600 to-orange-500 text-white p-4 rounded-lg shadow-lg mb-8 z-10">
                 <div className="flex items-center justify-between gap-4">
                   <div>
-                    <p className="font-semibold">Call Today for Same-Day Luxury Estate Service</p>
+                    <p className="font-semibold">Call Today for Fast Luxury Estate Service</p>
                     <p className="text-sm opacity-90">White-glove service • HOA-approved • Estate specialists</p>
                   </div>
                   <a
@@ -287,17 +287,17 @@ export default function JunkremovalranchosantafePage() {
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Rancho Santa Fe Estate Owners Trust Severin Cleaners</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Rancho Santa Fe Estate Owners Trust Us</h3>
               <p className="text-lg text-gray-700 mb-4">
-                As a locally-owned business with deep understanding of luxury property management, we provide the discretion, professionalism, and expertise that Rancho Santa Fe estates demand. Our <strong>trash removal Rancho Santa Fe</strong> service combines white-glove handling with efficient execution for properties throughout The Covenant, Fairbanks Ranch, Del Dios Highway estates, and Rancho Valencia neighborhoods—from historic Spanish Colonial adobes to modern equestrian facilities and contemporary luxury homes.
+                Rancho Santa Fe's exclusive Covenant estates require specialized expertise - properties spanning 5-20+ acres with long gated driveways, multiple structures, and strict architectural guidelines. We coordinate with household staff, navigate The Covenant's approval processes, and maintain absolute discretion for high-profile residents. Our team understands the security protocols, access requirements, and privacy expectations of Fairbanks Ranch and Rancho Valencia properties.
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
-                We specialize in high-value item handling, sensitive estate transitions, and large-scale property management support. Our <strong>junk pickup Rancho Santa Fe</strong> team understands the unique requirements of multi-acre estates, from coordinating with household staff and property managers to managing discretely sensitive family situations during estate cleanouts. Whether you're a long-time Rancho Santa Fe resident, luxury real estate professional staging a high-end listing, or property manager overseeing multiple estates, you can trust our HOA-approved service to maintain the standards your community expects while providing transparent pricing and reliable same-day service when needed.
+                Multi-million dollar estates demand white-glove service - we protect museum-quality furnishings, coordinate with estate managers during sensitive transitions, and handle valuable items with appropriate insurance coverage. From historic Spanish Colonial haciendas to modern equestrian compounds, we adapt to each property's unique layout, security systems, and operational requirements. Our team navigates Del Dios Highway's winding roads, respects agricultural operations on working ranches, and maintains the professional standards expected in San Diego's most exclusive zip code.
               </p>
 
               <div className="text-center bg-blue-900 text-white p-8 rounded-lg">
-                <h3 className="text-2xl font-bold mb-4">Call Now for Same-Day Junk Removal in Rancho Santa Fe</h3>
+                <h3 className="text-2xl font-bold mb-4">Call Now for Fast Junk Removal in Rancho Santa Fe</h3>
                 <p className="text-lg mb-6">
                   Professional <strong>Rancho Santa Fe junk removal</strong> with white-glove service, HOA approval, and guaranteed discretion for luxury estates
                 </p>
@@ -305,7 +305,7 @@ export default function JunkremovalranchosantafePage() {
                   href="tel:6197500114"
                   className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors duration-200 inline-block mb-6"
                 >
-                  📞 Call Now for Same-Day Estate Service: (619) 750-0114
+                  📞 Call Now for Fast Estate Service: (619) 750-0114
                 </a>
                 <div className="bg-blue-800 rounded-lg p-4">
                   <p className="text-yellow-300 font-semibold mb-2">💰 Transparent Pricing • Book Your Rancho Santa Fe Junk Pickup – Save 15% Online 💰</p>

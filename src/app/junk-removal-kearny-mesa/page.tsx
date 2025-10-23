@@ -13,8 +13,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Kearny Mesa Junk Removal | Commercial Specialists',
-  description: 'Professional Kearny Mesa junk removal for offices, warehouses, industrial parks. Commercial junk hauling experts serving Convoy District, auto businesses. Call (619) 750-0114.',
+  title: 'Kearny Mesa Junk Removal | Commercial District Experts | (619) 750-0114',
+  description: 'Kearny Mesa commercial junk removal Convoy District, warehouses. Office furniture, industrial debris, auto shops. (619) 750-0114',
   keywords: 'Kearny Mesa junk removal, junk hauling Kearny Mesa, junk pickup Kearny Mesa, trash removal Kearny Mesa, commercial junk removal Kearny Mesa, office cleanout Kearny Mesa',
   openGraph: {
     title: 'Kearny Mesa Junk Removal | Commercial & Residential Specialists | Same-Day Service',
@@ -68,7 +68,7 @@ const faqSchema = {
       "name": "Do you provide same-day junk hauling in Kearny Mesa?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely! We offer same-day junk pickup Kearny Mesa service for urgent commercial and residential needs. Our local team understands the fast-paced business environment of Kearny Mesa and can respond quickly for office closures, warehouse cleanouts, or emergency residential situations."
+        "text": "Yes! We offer rapid-response junk pickup Kearny Mesa service, typically providing next-day service with same-day available when you call before 2 PM. Our local team understands the fast-paced business environment of Kearny Mesa and can respond quickly for office closures, warehouse cleanouts, or emergency residential situations."
       }
     },
     {
@@ -84,7 +84,7 @@ const faqSchema = {
       "name": "Do you recycle or donate items collected in Kearny Mesa?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely. Our trash removal Kearny Mesa approach prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations. We handle all items in accordance with San Diego County regulations, so you don't have to worry about a thing. Our team recycles metals, electronics, and office equipment through certified facilities, donates usable furniture and items to local charities, and ensures eco-friendly disposal that benefits both Kearny Mesa businesses and the environment."
+        "text": "Yes. We handle all items in accordance with San Diego County regulations. Our team recycles metals, electronics, and office equipment through certified facilities, and donates usable furniture and items to local charities when appropriate."
       }
     },
     {
@@ -131,10 +131,10 @@ export default function JunkRemovalKearnyMesaPage() {
               ✓ Commercial & Industrial Specialists
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Kearny Mesa Junk Removal
+              Kearny Mesa Junk Removal | Commercial District Experts
             </h1>
             <div className="text-xl mb-6">
-              ⭐⭐⭐⭐⭐ 5.0 Rating • Industrial & Office Experts • Same-Day Service
+              ⭐⭐⭐⭐⭐ 5.0 Rating • Industrial & Office Experts • Fast Response
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
               <a
@@ -151,7 +151,7 @@ export default function JunkRemovalKearnyMesaPage() {
               </a>
             </div>
             <p className="text-lg">
-              ✓ Same-Day Service ✓ Licensed & Insured ✓ Local Specialists
+              ✓ <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-Day Service</a> Available ✓ Licensed & Insured ✓ Local Specialists
             </p>
           </div>
         </div>
@@ -244,7 +244,7 @@ export default function JunkRemovalKearnyMesaPage() {
               <div className="sticky top-20 bg-gradient-to-r from-blue-600 to-orange-500 text-white p-4 rounded-lg shadow-lg mb-8 z-10">
                 <div className="flex items-center justify-between gap-4">
                   <div>
-                    <p className="font-semibold">Call Today for Same-Day Junk Removal in Kearny Mesa</p>
+                    <p className="font-semibold">Call Today for Fast Junk Removal in Kearny Mesa</p>
                     <p className="text-sm opacity-90">Commercial specialists • Residential service • Industrial expertise</p>
                   </div>
                   <a
@@ -256,9 +256,9 @@ export default function JunkRemovalKearnyMesaPage() {
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Choose Severin Cleaners for Kearny Mesa Junk Removal</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Kearny Mesa Businesses Choose Us</h3>
               <p className="mb-4">
-                As a locally-owned business serving San Diego's commercial heart, we understand the unique needs of Kearny Mesa's diverse business community and residential neighborhoods. Our <strong>Kearny Mesa junk removal</strong> service combines commercial expertise with local knowledge to deliver reliable solutions for offices, warehouses, restaurants, and homes.
+                Kearny Mesa's commercial districts have loading dock requirements, business hour restrictions, and property manager coordination needs. We schedule after-hours pickups for active restaurants in Convoy District, coordinate with warehouse managers for large industrial cleanouts, and navigate the busy Balboa Avenue corridor during off-peak hours. Our team understands auto dealership service bay access, office park security protocols, and the unique demands of mixed-use commercial properties.
               </p>
 
               <p className="mb-6">
@@ -284,7 +284,7 @@ export default function JunkRemovalKearnyMesaPage() {
                   </div>
                 </div>
                 <p className="text-sm mt-4">
-                  Licensed & insured • Same-day service • Commercial & residential specialists
+                  Licensed & insured • <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-day service</a> available • Commercial & residential specialists
                 </p>
               </div>
             </div>

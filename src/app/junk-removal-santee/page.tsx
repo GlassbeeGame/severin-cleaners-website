@@ -13,8 +13,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Santee Junk Removal | East County Family Service',
-  description: 'Professional Santee junk removal for family homes, garage cleanouts, Carlton Hills, Sky Ranch. East County specialists with trolley-accessible service. Call (619) 750-0114.',
+  title: 'Santee Junk Removal | East County Family Service | (619) 750-0114',
+  description: 'Santee family junk removal Carlton Hills, Trolley district. Garage cleanouts, RV debris, lake recreation equipment. (619) 750-0114',
   keywords: 'Santee junk removal, junk hauling Santee, junk pickup Santee, trash removal Santee, Santee San Diego junk removal, garage cleanouts',
   openGraph: {
     title: 'Santee Junk Removal | Family Homes & Garage Cleanout Specialists | Same-Day Service',
@@ -76,7 +76,7 @@ const faqSchema = {
       "name": "Can you provide same-day junk hauling in Santee?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, we offer same-day junk pickup Santee service for urgent needs throughout Carlton Hills, Sky Ranch, and all Santee neighborhoods. Our East County team can respond quickly for family emergencies, property management needs, or time-sensitive home organization projects."
+        "text": "Yes, we offer rapid-response junk pickup Santee service, typically providing next-day service with same-day available when you call before 2 PM. Our East County team can respond quickly for family emergencies, property management needs, or time-sensitive home organization projects throughout Carlton Hills, Sky Ranch, and all Santee neighborhoods."
       }
     },
     {
@@ -92,7 +92,7 @@ const faqSchema = {
       "name": "Are your junk removal services eco-friendly in East County?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely. Our Santee San Diego junk removal prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations. We handle all items in accordance with San Diego County and East County regulations, so you don't have to worry about a thing. Our team works with local East County charities for donations, recycles electronics and metals through certified facilities, and ensures eco-friendly practices that protect our suburban community environment and support Santee's commitment to sustainability."
+        "text": "Yes. We handle all items in accordance with San Diego County and East County regulations. Our team works with local charities for donations and recycles electronics and metals through certified facilities."
       }
     }
   ]
@@ -131,7 +131,7 @@ export default function JunkremovalsanteePage() {
               ✓ East County suburban family community with convenient trolley access
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Santee Junk Removal
+              Santee Junk Removal | East County Family Service
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • Garage Cleanout Experts • locally-owned Service
@@ -151,7 +151,7 @@ export default function JunkremovalsanteePage() {
               </a>
             </div>
             <p className="text-lg">
-              ✓ Same-Day Service ✓ Licensed & Insured ✓ East County Specialists
+              ✓ <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-Day Service</a> Available ✓ Licensed & Insured ✓ East County Specialists
             </p>
           </div>
         </div>
@@ -244,7 +244,7 @@ export default function JunkremovalsanteePage() {
               <div className="sticky top-20 bg-gradient-to-r from-blue-600 to-orange-500 text-white p-4 rounded-lg shadow-lg mb-8 z-10">
                 <div className="flex items-center justify-between gap-4">
                   <div>
-                    <p className="font-semibold">Call Today for Same-Day Junk Removal in Santee</p>
+                    <p className="font-semibold">Call Today for Fast Junk Removal in Santee</p>
                     <p className="text-sm opacity-90">Garage cleanout experts • locally-owned • East County specialists</p>
                   </div>
                   <a
@@ -256,13 +256,13 @@ export default function JunkremovalsanteePage() {
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Santee Families Choose Severin Cleaners</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Santee Families Choose Us</h3>
               <p className="mb-4">
-                As a locally-owned business serving East County for years, we understand the unique needs of Santee's suburban families and growing communities. Our <strong>Santee San Diego junk removal</strong> service combines local knowledge with professional efficiency to help families maintain organized homes and businesses operate smoothly in this dynamic East County city.
+                Santee's suburban layout features large two-car garages that accumulate decades of storage - we specialize in garage cleanouts that reclaim parking space. Mission Gorge Road corridor properties have different needs than Fanita Ranch's newer developments or Riverview's hillside homes. Our team navigates Santee's growing traffic patterns, understands Carlton Hills Road access challenges, and knows which neighborhoods require HOA coordination versus direct scheduling.
               </p>
 
               <p className="mb-6">
-                We specialize in working with busy families who need flexible scheduling, property managers coordinating multiple units, and businesses adapting to Santee's growth. Our team respects family properties and community standards while delivering reliable results that help maintain Santee's reputation as a great place to live and work.
+                East County families often have boats, RVs, and outdoor equipment competing for garage space. Santee's warm climate means year-round outdoor projects creating debris. We handle everything from Costco-sized bulk purchases that didn't work out to complete property cleanouts for downsizing families. Our pricing accommodates both small garage organization projects and full estate clearances across Santee's diverse neighborhoods.
               </p>
 
               <div className="text-center bg-blue-900 text-white p-8 rounded-lg">
@@ -284,7 +284,7 @@ export default function JunkremovalsanteePage() {
                   </div>
                 </div>
                 <p className="text-sm mt-4">
-                  Licensed & insured • Same-day service • East County suburban family specialists
+                  Licensed & insured • <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-day service</a> available • East County suburban family specialists
                 </p>
               </div>
             </div>

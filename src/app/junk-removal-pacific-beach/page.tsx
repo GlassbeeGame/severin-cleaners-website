@@ -12,8 +12,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Pacific Beach Junk Removal | Same-Day Hauling | Licensed & Insured',
-  description: 'Professional Pacific Beach junk removal from Crystal Pier to Crown Point. Same-day service, transparent pricing, vacation rental experts. Licensed & insured. Call (619) 750-0114!',
+  title: 'Pacific Beach Junk Removal | Beach House & Rental Experts | (619) 750-0114',
+  description: 'Pacific Beach vacation rental junk removal Crystal Pier to Crown Point. Boardwalk debris, beach furniture. (619) 750-0114',
   keywords: 'Pacific Beach junk removal, junk hauling Pacific Beach, junk pickup PB, trash removal Pacific Beach, PB San Diego junk removal, junk removal 92109, Garnet Avenue junk hauling',
   openGraph: {
     title: 'Pacific Beach Junk Removal | Same-Day Hauling | Licensed & Insured',
@@ -251,7 +251,7 @@ export default function JunkRemovalPacificBeachPage() {
                 ✓ Same-Day Service • Licensed & Insured • Transparent Pricing
               </div>
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Pacific Beach Junk Removal
+                Pacific Beach Junk Removal | Beach House & Rental Experts
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
                 ⭐⭐⭐⭐⭐ 5.0 Rating • Crystal Pier to Crown Point • Your Local PB Experts
@@ -325,21 +325,21 @@ export default function JunkRemovalPacificBeachPage() {
                   </ul>
                 </div>
 
-                <h2 className="text-3xl font-bold mt-8 mb-4">Pacific Beach Landmarks We Cover</h2>
+                <h2 className="text-3xl font-bold mt-8 mb-4">Pacific Beach Landmarks & Neighborhoods We Cover</h2>
                 <div className="grid md:grid-cols-2 gap-4 mb-8">
                   <ul className="list-disc pl-6 space-y-1">
-                    <li>Crystal Pier and surrounding vacation rentals</li>
-                    <li>Kate Sessions Memorial Park</li>
-                    <li>PB Library and Recreation Center</li>
-                    <li>Tourmaline Surf Park</li>
-                    <li>Belmont Park border area</li>
+                    <li>Crystal Pier and surrounding vacation rentals - Same-day junk removal</li>
+                    <li><strong>Kate Sessions Memorial Park area</strong> - Residential junk removal and estate cleanouts</li>
+                    <li>PB Library and Recreation Center vicinity - Furniture and appliance removal</li>
+                    <li>Tourmaline Surf Park neighborhood - Beach house cleanouts</li>
+                    <li>Belmont Park border area - Commercial and residential hauling</li>
                   </ul>
                   <ul className="list-disc pl-6 space-y-1">
-                    <li>Mission Bay Park properties</li>
-                    <li>Fanuel Park neighborhoods</li>
-                    <li>The Promenade shopping center</li>
-                    <li>PB Shore Club luxury condos</li>
-                    <li>Tuesday Farmers Market on Bayard</li>
+                    <li>Mission Bay Park properties - Waterfront home cleanouts</li>
+                    <li>Fanuel Park neighborhoods - Full-service junk removal</li>
+                    <li>The Promenade shopping center - <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">Retail and commercial cleanouts</a></li>
+                    <li>PB Shore Club luxury condos - High-rise junk removal</li>
+                    <li>Tuesday Farmers Market on Bayard - Local business support</li>
                   </ul>
                 </div>
 
@@ -416,7 +416,7 @@ export default function JunkRemovalPacificBeachPage() {
                 <div className="sticky top-20 bg-gradient-to-r from-blue-600 to-orange-500 text-white p-4 rounded-lg shadow-lg mb-8 z-10">
                   <div className="flex items-center justify-between gap-4">
                     <div>
-                      <p className="font-semibold">Call Today for Same-Day Junk Removal in Pacific Beach</p>
+                      <p className="font-semibold">Call Today for Fast Junk Removal in Pacific Beach</p>
                       <p className="text-sm opacity-90">Vacation rental experts • Licensed & insured • Transparent pricing</p>
                     </div>
                     <a
@@ -436,7 +436,7 @@ export default function JunkRemovalPacificBeachPage() {
                   <li><strong>Beach property access</strong> - Experience with Ocean Front Walk boardwalk, narrow alleys, elevator buildings</li>
                   <li><strong>Summer surge readiness</strong> - Extra crews during peak vacation rental and student move-out seasons</li>
                   <li><strong>Licensed and insured</strong> - Full coverage for residential, commercial, and vacation rental properties</li>
-                  <li><strong>Eco-friendly disposal</strong> - Handle all items in accordance with local environmental regulations</li>
+                  <li><strong>Coastal property expertise</strong> - Salt air damage assessment, sand-damaged furniture handling, beach access logistics</li>
                 </ul>
 
                 <h2 className="text-3xl font-bold mt-8 mb-4">Property Types We Service in Pacific Beach</h2>

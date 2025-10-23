@@ -12,8 +12,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Junk Removal Carmel Valley | Same-Day Hauling (92130)",
-  description: "Professional junk removal in Carmel Valley. Photo quotes, furniture/appliance/estate cleanouts. Eco-friendly disposal. Serving Torrey Highlands, Del Mar Mesa areas.",
+  title: "Junk Removal Carmel Valley | North County Premium Service | (619) 750-0114",
+  description: "Carmel Valley junk removal for Torrey Highlands, Pacific Highlands Ranch. Estate cleanouts, luxury furniture. Licensed. (619) 750-0114",
   keywords: "junk removal Carmel Valley, Carmel Valley junk hauling, estate cleanout Carmel Valley, furniture removal Carmel Valley, junk removal near me Carmel Valley, same-day junk pickup, Del Mar Mesa junk removal",
   openGraph: {
     title: "Junk Removal Carmel Valley | Professional Hauling Service",
@@ -183,7 +183,7 @@ export default function JunkRemovalCarmelValleyPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center text-white">
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Carmel Valley Junk Removal
+                Carmel Valley Junk Removal | North County Premium Service
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
                 Professional junk hauling services for Carmel Valley's premier residential community
@@ -237,8 +237,8 @@ export default function JunkRemovalCarmelValleyPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold mb-2">Eco-Friendly Disposal</h3>
-                <p className="text-gray-600">Responsible recycling and donation programs. We divert 70% of items from landfills through proper disposal methods.</p>
+                <h3 className="text-xl font-bold mb-2">Master-Planned Expert</h3>
+                <p className="text-gray-600">We navigate Torrey Highlands gated access, Pacific Highlands Ranch HOA requirements, and Torrey Hills business park logistics seamlessly.</p>
               </div>
             </div>
           </div>
@@ -266,14 +266,14 @@ export default function JunkRemovalCarmelValleyPage() {
                   Our <strong>junk removal Carmel Valley</strong> service covers every area of this prestigious North County community:
                 </p>
                 <ul className="list-disc pl-6 mb-8 space-y-2">
-                  <li><strong>Torrey Highlands</strong> - Luxury homes and gated communities</li>
-                  <li><strong>Del Mar Mesa</strong> - Master-planned neighborhoods and family estates</li>
-                  <li><strong>Pacific Highlands Ranch</strong> - Newer developments and modern homes</li>
+                  <li><strong>Torrey Highlands</strong> - Luxury homes, gated communities, and junk removal services</li>
+                  <li><strong>Del Mar Mesa</strong> - Master-planned neighborhoods and family estate cleanouts</li>
+                  <li><strong>Pacific Highlands Ranch</strong> - Newer developments, modern homes, furniture removal</li>
                   <li><strong>Carmel Creek</strong> - Established neighborhoods with mature landscaping</li>
-                  <li><strong>Torrey Hills</strong> - Premium residential areas near business parks</li>
-                  <li><strong>Village of Fairbanks Ranch</strong> - Exclusive equestrian community</li>
-                  <li><strong>Santaluz</strong> - Golf course community and luxury properties</li>
-                  <li><strong>4S Ranch Border</strong> - Adjacent neighborhoods and connecting areas</li>
+                  <li><strong>Torrey Hills</strong> - Premium residential areas and <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial junk removal for business parks</a></li>
+                  <li><strong>Village of Fairbanks Ranch</strong> - Exclusive equestrian community and luxury estate service</li>
+                  <li><strong>Santaluz</strong> - Golf course community and luxury property cleanouts</li>
+                  <li><strong>4S Ranch Border</strong> - Adjacent neighborhoods and connecting areas, same-day junk hauling</li>
                 </ul>
 
                 <h3 className="text-2xl font-bold mt-8 mb-4">Streets We Service Throughout Carmel Valley</h3>

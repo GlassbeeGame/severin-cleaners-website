@@ -13,8 +13,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'La Mesa Junk Removal & Hauling | East County\'s Trusted Local Service',
-  description: 'Affordable junk removal in La Mesa CA. Same-day hauling, transparent pricing, and a faster alternative to the La Mesa dump. Call (619) 750-0114 for your quote.',
+  title: 'La Mesa Junk Removal | Village Area Specialists | (619) 750-0114',
+  description: 'La Mesa junk removal Grossmont Center to Village. Dump alternative, apartment cleanouts, family homes. (619) 750-0114',
   keywords: 'La Mesa junk removal, junk hauling La Mesa, junk pickup La Mesa, trash removal La Mesa, La Mesa dump, La Mesa CA junk removal, Mount Helix junk removal, Fletcher Hills junk removal, La Mesa Village junk removal, Grossmont junk removal, Lake Murray junk removal, East County junk removal',
   openGraph: {
     title: 'La Mesa Junk Removal & Hauling | East County\'s Trusted Local Service',
@@ -92,7 +92,7 @@ const faqSchema = {
       "name": "How fast can you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Most calls are handled within 24 hours, with same-day availability in central La Mesa and Mount Helix."
+        "text": "Most calls are handled within 24 hours, with same-day pickup available when you call before 2 PM in central La Mesa and Mount Helix areas."
       }
     }
   ]
@@ -174,10 +174,10 @@ export default function JunkremovallamesesPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-8">
             <div className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-              ✓ Same-Day Service • Licensed & Insured • La Mesa Experts
+              ✓ <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-Day Service</a> Available • Licensed & Insured • La Mesa Experts
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              La Mesa Junk Removal & Hauling Services
+              La Mesa Junk Removal | Village Area Specialists
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • Locally Owned Service • East County Specialists
@@ -197,7 +197,7 @@ export default function JunkremovallamesesPage() {
               </a>
             </div>
             <p className="text-lg">
-              ✓ Same-Day Service ✓ Licensed & Insured ✓ Local Specialists
+              ✓ <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-Day Service</a> Available ✓ Licensed & Insured ✓ Local Specialists
             </p>
           </div>
         </div>
@@ -225,11 +225,16 @@ export default function JunkremovallamesesPage() {
                   <li><strong>Spring Street Corridor:</strong> trolley-accessible properties and small businesses</li>
                   <li><strong>Lake Murray Area:</strong> family homes, recreational properties, and storage cleanouts</li>
                 </ul>
-                <p className="text-blue-700 mt-4">Response times vary by area—most <strong>La Mesa junk pickup</strong> calls are completed within 24 hours, and same-day service is often available for Mount Helix and central La Mesa addresses.</p>
+                <p className="text-blue-700 mt-4">Response times vary by area—most <strong>La Mesa junk pickup</strong> calls are completed within 24 hours, with <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a> available when you call before 2 PM for Mount Helix and central La Mesa addresses.</p>
                 <div className="mt-4 text-center">
                   <p className="text-blue-700 font-semibold">📞 Call (619) 750-0114 for immediate service</p>
                 </div>
               </div>
+
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Serving East County Neighborhoods</h3>
+              <p className="text-lg text-gray-700 mb-6">
+                In addition to La Mesa, we proudly serve nearby East County communities including <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon junk removal</a>, <a href="/junk-removal-spring-valley" className="text-blue-600 hover:underline">Spring Valley junk hauling</a>, and <a href="/junk-removal-lemon-grove" className="text-blue-600 hover:underline">Lemon Grove trash removal</a>.
+              </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Driving Directions from Local Landmarks</h3>
               <p className="text-lg text-gray-700 mb-4">
@@ -344,8 +349,8 @@ export default function JunkremovallamesesPage() {
               <div className="sticky top-20 bg-gradient-to-r from-blue-600 to-orange-500 text-white p-4 rounded-lg shadow-lg mb-8 z-10">
                 <div className="flex items-center justify-between gap-4">
                   <div>
-                    <p className="font-semibold">Call Today for Same-Day Junk Removal in La Mesa</p>
-                    <p className="text-sm opacity-90">locally-owned service • East County specialists • Eco-friendly disposal</p>
+                    <p className="font-semibold">Call Today for Fast Junk Removal in La Mesa</p>
+                    <p className="text-sm opacity-90">Mount Helix hillside experts • Village parking specialists • Flexible scheduling</p>
                   </div>
                   <a
                     href="tel:6197500114"
@@ -371,12 +376,12 @@ export default function JunkremovallamesesPage() {
                 <div className="bg-blue-800 rounded-lg p-4">
                   <p className="text-yellow-300 font-semibold mb-2">🏡 La Mesa Special 🏡</p>
                   <div className="text-sm">
-                    <strong>Same-Day Service Available</strong> • <strong>Transparent Pricing</strong><br/>
+                    <strong><a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-Day Service</a> Available</strong> • <strong>Transparent Pricing</strong><br/>
                     <strong>Hillside Property Specialists</strong> • <strong>Eco-Friendly Disposal</strong>
                   </div>
                 </div>
                 <p className="text-sm mt-4">
-                  Licensed & insured • Same-day service • East County's trusted local service
+                  Licensed & insured • <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-day service</a> available • East County's trusted local service
                 </p>
               </div>
             </div>

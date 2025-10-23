@@ -13,8 +13,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Point Loma Junk Removal | Military & Coastal Specialists',
-  description: 'Professional Point Loma junk removal for military families, Liberty Station, Sunset Cliffs coastal homes. PCS move specialists with military discounts. Call (619) 750-0114.',
+  title: 'Point Loma Junk Removal | Peninsula & Naval Service | (619) 750-0114',
+  description: 'Point Loma junk removal Liberty Station, Sunset Cliffs. Military PCS moves, peninsula homes, ocean-view properties. (619) 750-0114',
   keywords: 'Point Loma junk removal, junk hauling Point Loma, junk pickup Point Loma, trash removal Point Loma, Point Loma San Diego junk removal, military PCS moves',
   openGraph: {
     title: 'Point Loma Junk Removal | Military Family & Coastal Property Specialists | Same-Day Service',
@@ -68,7 +68,7 @@ const faqSchema = {
       "name": "How much does junk removal cost in Point Loma?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Single Item Pickup starting at $100, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. Our junk hauling Point Loma pricing includes labor, hauling, eco-friendly disposal, and cleanup. We offer special military discounts for active duty families and competitive rates for coastal property cleanouts."
+        "text": "Single Item Pickup starting at $100, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. Our junk hauling Point Loma pricing includes labor, hauling, proper disposal, and cleanup. We offer special military discounts for active duty families and competitive rates for coastal property cleanouts."
       }
     },
     {
@@ -131,7 +131,7 @@ export default function JunkremovalpointlomaPage() {
               ✓ Military community with coastal properties
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Point Loma Junk Removal
+              Point Loma Junk Removal | Peninsula & Naval Service
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • Military Family Support • Coastal Specialists
@@ -151,7 +151,7 @@ export default function JunkremovalpointlomaPage() {
               </a>
             </div>
             <p className="text-lg">
-              ✓ Same-Day Service ✓ Licensed & Insured ✓ Local Specialists
+              ✓ <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-Day Service</a> Available ✓ Licensed & Insured ✓ Local Specialists
             </p>
           </div>
         </div>
@@ -241,7 +241,7 @@ export default function JunkremovalpointlomaPage() {
               <div className="sticky top-20 bg-gradient-to-r from-blue-600 to-orange-500 text-white p-4 rounded-lg shadow-lg mb-8 z-10">
                 <div className="flex items-center justify-between gap-4">
                   <div>
-                    <p className="font-semibold">Call Today for Same-Day Junk Removal in Point Loma</p>
+                    <p className="font-semibold">Call Today for Fast Junk Removal in Point Loma</p>
                     <p className="text-sm opacity-90">Military discounts • Coastal specialists • PCS move support</p>
                   </div>
                   <a
@@ -253,13 +253,13 @@ export default function JunkremovalpointlomaPage() {
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Military Families & Coastal Residents Choose Severin Cleaners</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Military Families & Coastal Residents Choose Us</h3>
               <p className="mb-4">
-                As a locally-owned business with deep respect for military service, we understand the unique challenges of both PCS moves and coastal property maintenance. Our <strong>Point Loma junk removal</strong> service combines military precision with coastal property expertise to deliver reliable solutions for Point Loma&apos;s diverse community.
+                Point Loma's steep hillside streets and narrow coastal roads require specialized navigation - Catalina Boulevard's winding curves, Rosecrans Street's heavy traffic, and Liberty Station's gated access all demand local expertise. We coordinate with Navy housing clearance inspections, understand base access requirements, and schedule around deployment timelines. Military families face strict move-out deadlines with specific cleanliness standards.
               </p>
 
               <p className="mb-6">
-                We honor our military families with special discounts, flexible scheduling for PCS timelines, and coordination with base housing requirements. For coastal properties, we provide storm debris cleanup, salt air corrosion disposal, and environmentally responsible waste management that protects our beautiful Point Loma coastline.
+                Coastal properties from Sunset Cliffs to Harbor Island face unique challenges - salt corrosion damages furniture faster, ocean-view homes have difficult access, and waterfront properties require specialized handling. We navigate Point Loma's hillside terrain, protect homes during removal on steep driveways, and understand the logistics of high-rise condos along Shelter Island Drive and Harbor Island.
               </p>
 
               <div className="text-center bg-blue-900 text-white p-8 rounded-lg">
@@ -281,7 +281,7 @@ export default function JunkremovalpointlomaPage() {
                   </div>
                 </div>
                 <p className="text-sm mt-4">
-                  Licensed & insured • Same-day service • Military family & coastal property specialists
+                  Licensed & insured • <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-day service</a> available • Military family & coastal property specialists
                 </p>
               </div>
             </div>

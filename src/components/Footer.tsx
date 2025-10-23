@@ -217,11 +217,48 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/san-diego-dump-fees" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
-                  Dump Fees Guide
+                <Link href="/blog" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
+                  Blog & Guides
                 </Link>
               </li>
             </ul>
+          </div>
+        </div>
+
+        {/* Commercial Services - New Section */}
+        <div className="mt-8 pt-8 border-t border-gray-700">
+          <h3 className="text-lg font-semibold mb-4 text-center text-blue-300">Commercial & Specialized Services</h3>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 text-sm text-white/80 text-center">
+            <Link href="/commercial-junk-removal-san-diego" className="hover:text-blue-400 transition-colors duration-200">
+              Medical Office Junk Removal
+            </Link>
+            <Link href="/commercial-junk-removal-san-diego" className="hover:text-blue-400 transition-colors duration-200">
+              Dental Office Cleanout
+            </Link>
+            <Link href="/commercial-junk-removal-san-diego" className="hover:text-blue-400 transition-colors duration-200">
+              Warehouse Junk Removal
+            </Link>
+            <Link href="/commercial-junk-removal-san-diego" className="hover:text-blue-400 transition-colors duration-200">
+              Retail Cleanout
+            </Link>
+            <Link href="/commercial-junk-removal-san-diego" className="hover:text-blue-400 transition-colors duration-200">
+              Restaurant Junk Removal
+            </Link>
+            <Link href="/emergency-junk-removal-san-diego" className="hover:text-blue-400 transition-colors duration-200">
+              Emergency Junk Removal
+            </Link>
+            <Link href="/same-day-junk-removal-san-diego" className="hover:text-blue-400 transition-colors duration-200">
+              Same Day Service
+            </Link>
+            <Link href="/foreclosure-eviction-cleanout-san-diego" className="hover:text-blue-400 transition-colors duration-200">
+              Eviction Cleanout
+            </Link>
+            <Link href="/foreclosure-eviction-cleanout-san-diego" className="hover:text-blue-400 transition-colors duration-200">
+              Foreclosure Cleanout
+            </Link>
+            <Link href="/cleanout-services-san-diego" className="hover:text-blue-400 transition-colors duration-200">
+              Garage Cleanout
+            </Link>
           </div>
         </div>
 

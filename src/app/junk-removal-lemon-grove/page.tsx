@@ -13,8 +13,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Lemon Grove Junk Removal | Affordable Family Service',
-  description: 'Affordable Lemon Grove junk removal for apartments, family homes, Broadway corridor. Community-focused service with eco-friendly disposal. Call (619) 750-0114.',
+  title: 'Lemon Grove Junk Removal | Local Family-Owned Service | (619) 750-0114',
+  description: 'Lemon Grove budget junk removal apartments, Broadway corridor. Affordable multi-family, student rentals. (619) 750-0114',
   keywords: 'Lemon Grove junk removal, junk hauling Lemon Grove, junk pickup Lemon Grove, trash removal Lemon Grove, Lemon Grove San Diego junk removal, apartment junk removal',
   openGraph: {
     title: 'Lemon Grove Junk Removal | Family Homes & Apartment Specialists | Same-Day Service',
@@ -68,7 +68,7 @@ const faqSchema = {
       "name": "Do you offer same-day junk pickup in Lemon Grove?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, we provide same-day junk pickup Lemon Grove service for urgent needs throughout the community. Whether you're dealing with an apartment move-out deadline or unexpected family situation, our local team can respond quickly with professional, affordable service."
+        "text": "Yes, we provide fast junk pickup Lemon Grove service, typically offering next-day service with same-day available when you call before 2 PM for urgent needs throughout the community. Whether you're dealing with an apartment move-out deadline or unexpected family situation, our local team can respond quickly with professional, affordable service."
       }
     },
     {
@@ -92,7 +92,7 @@ const faqSchema = {
       "name": "Are your junk removal services eco-friendly and affordable?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely. Our Lemon Grove San Diego junk removal combines affordability with environmental responsibility and full regulatory compliance. We handle all items in accordance with San Diego County and local Lemon Grove regulations, so you don't have to worry about a thing. Our team donates usable items to local charities, recycles whenever possible, and ensures proper disposal through certified facilities—all while keeping our prices competitive. Our eco-friendly approach helps protect our community environment while providing maximum value to families and residents."
+        "text": "Yes. We handle all items in accordance with San Diego County and local Lemon Grove regulations. Our team donates usable items to local charities, recycles whenever possible, and ensures proper disposal through certified facilities—all while keeping our prices competitive."
       }
     }
   ]
@@ -131,7 +131,7 @@ export default function JunkremovallemongovePage() {
               ✓ Family-friendly community with affordable service
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Lemon Grove Junk Removal
+              Lemon Grove Junk Removal | Local Family-Owned Service
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • locally-owned Business • Affordable Service
@@ -151,7 +151,7 @@ export default function JunkremovallemongovePage() {
               </a>
             </div>
             <p className="text-lg">
-              ✓ Same-Day Service ✓ Licensed & Insured ✓ Community Specialists
+              ✓ <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-Day Service</a> Available ✓ Licensed & Insured ✓ Community Specialists
             </p>
           </div>
         </div>
@@ -169,7 +169,7 @@ export default function JunkremovallemongovePage() {
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
-                Whether you need <strong>junk pickup Lemon Grove</strong> for apartment turnover, family home decluttering, or small business cleanouts, our <strong>trash removal Lemon Grove</strong> service delivers professional results at affordable prices. As a locally-owned business, we understand the importance of value and reliability for Lemon Grove's working families and residents.
+                Whether you need <strong>junk pickup Lemon Grove</strong> for apartment turnover, family home decluttering, or small business cleanouts, our <strong>trash removal Lemon Grove</strong> service delivers professional results at affordable prices. As a locally-owned business, we understand the importance of value and reliability for Lemon Grove's working families and residents. We also proudly serve nearby East County communities including <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a> and <a href="/junk-removal-spring-valley" className="text-blue-600 hover:underline">Spring Valley</a>.
               </p>
 
               <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
@@ -244,7 +244,7 @@ export default function JunkremovallemongovePage() {
               <div className="sticky top-20 bg-gradient-to-r from-blue-600 to-orange-500 text-white p-4 rounded-lg shadow-lg mb-8 z-10">
                 <div className="flex items-center justify-between gap-4">
                   <div>
-                    <p className="font-semibold">Call Today for Same-Day Junk Removal in Lemon Grove</p>
+                    <p className="font-semibold">Call Today for Fast Junk Removal in Lemon Grove</p>
                     <p className="text-sm opacity-90">Affordable rates • locally-owned • Community focused</p>
                   </div>
                   <a
@@ -256,13 +256,13 @@ export default function JunkremovallemongovePage() {
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Lemon Grove Families Choose Severin Cleaners</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Lemon Grove Residents Choose Us</h3>
               <p className="mb-4">
-                As a locally-owned business, we understand the importance of affordable, reliable service for working families and apartment residents. Our <strong>Lemon Grove San Diego junk removal</strong> team combines competitive pricing with professional service to deliver the best value for our community neighbors.
+                Lemon Grove's compact layout and dense housing create unique challenges - narrow streets, limited parking, and close-proximity neighbors. Our team knows how to navigate Broadway's tight residential streets, work efficiently in apartment complexes with limited loading areas, and coordinate around Lemon Grove Avenue traffic. We understand the neighborhood's mix of older homes and multi-unit properties.
               </p>
 
               <p className="mb-6">
-                We're committed to supporting Lemon Grove's diverse community with flexible payment options, senior discounts, and services that respect both your budget and your property. Our team treats every job with the same care and professionalism, whether it's a small apartment cleanout or a complete home decluttering project.
+                Apartment turnovers require quick scheduling, small-scale pricing, and coordination with property managers. Older homes often have accumulated storage from decades of occupancy. We offer flexible appointment times, efficient service for smaller jobs, and understand the budget constraints that matter to working families. Our pricing structure accommodates both single-item pickups and full-home cleanouts.
               </p>
 
               <div className="text-center bg-blue-900 text-white p-8 rounded-lg">
@@ -284,7 +284,7 @@ export default function JunkremovallemongovePage() {
                   </div>
                 </div>
                 <p className="text-sm mt-4">
-                  Licensed & insured • Same-day service • Affordable community-focused junk removal
+                  Licensed & insured • <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-day service</a> available • Affordable community-focused junk removal
                 </p>
               </div>
             </div>

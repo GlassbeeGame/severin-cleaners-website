@@ -13,8 +13,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Hillcrest Junk Removal | Urban Core Specialists',
-  description: 'Professional Hillcrest junk removal for condos, historic homes, University Heights. Urban core specialists with limited parking solutions. Call (619) 750-0114.',
+  title: 'Hillcrest Junk Removal | Urban Core Specialists | (619) 750-0114',
+  description: 'Hillcrest urban junk removal for condos, 5th Ave corridor. Tight parking, historic homes, apartment cleanouts. (619) 750-0114',
   keywords: 'Hillcrest junk removal, junk hauling Hillcrest, junk pickup Hillcrest, trash removal Hillcrest, University Heights junk removal, urban junk removal San Diego',
   openGraph: {
     title: 'Hillcrest Junk Removal | Historic Home & Urban Core Specialists | Same-Day Service',
@@ -131,7 +131,7 @@ export default function JunkremovalhillcrestPage() {
               ✓ Historic urban neighborhood with diverse housing
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Hillcrest Junk Removal
+              Hillcrest Junk Removal | Urban Core Specialists
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • Historic Building Specialists • Same-Day Service
@@ -151,7 +151,7 @@ export default function JunkremovalhillcrestPage() {
               </a>
             </div>
             <p className="text-lg">
-              ✓ Same-Day Service ✓ Licensed & Insured ✓ Local Specialists
+              ✓ <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-Day Service</a> Available ✓ Licensed & Insured ✓ Local Specialists
             </p>
           </div>
         </div>
@@ -244,7 +244,7 @@ export default function JunkremovalhillcrestPage() {
               <div className="sticky top-20 bg-gradient-to-r from-blue-600 to-orange-500 text-white p-4 rounded-lg shadow-lg mb-8 z-10">
                 <div className="flex items-center justify-between gap-4">
                   <div>
-                    <p className="font-semibold">Call Today for Same-Day Junk Removal in Hillcrest</p>
+                    <p className="font-semibold">Call Today for Fast Junk Removal in Hillcrest</p>
                     <p className="text-sm opacity-90">Free quotes • Urban specialists • Historic property experience</p>
                   </div>
                   <a
@@ -256,9 +256,9 @@ export default function JunkremovalhillcrestPage() {
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Urban Residents Choose Severin Cleaners</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Urban Residents Choose Us</h3>
               <p className="mb-4">
-                As a locally-owned business serving San Diego's urban core, we understand the unique challenges of city living. Our <strong>Hillcrest junk removal</strong> service combines urban expertise with professional standards to deliver efficient solutions for condos, apartments, and historic homes.
+                Hillcrest's dense urban environment creates parking nightmares - street parking is limited, loading zones are time-restricted, and alleyways are narrow. We secure necessary permits, coordinate with building management for elevator access, and schedule around time restrictions. Our team knows which streets have 2-hour parking limits, where loading zones exist, and how to navigate Fifth Avenue's traffic patterns efficiently.
               </p>
 
               <p className="mb-6">
@@ -283,7 +283,7 @@ export default function JunkremovalhillcrestPage() {
                   </div>
                 </div>
                 <p className="text-sm mt-4">
-                  Licensed & insured • Same-day service • Local specialists
+                  Licensed & insured • <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-day service</a> available • Local specialists
                 </p>
               </div>
             </div>

@@ -15,7 +15,7 @@ export default function StructuredData() {
         "email": "severincleaners@gmail.com",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "8900 Grossmont Blvd",
+          "streetAddress": "8900 Grossmont Blvd, Suite 1",
           "addressLocality": "La Mesa",
           "addressRegion": "CA",
           "postalCode": "91941",

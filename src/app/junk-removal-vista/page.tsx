@@ -6,8 +6,8 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Vista Junk Removal | Same-Day Hauling | Licensed & Insured",
-  description: "Professional Vista junk removal for families, apartments & businesses. Same-day junk hauling Vista, eco-friendly disposal. Serving Shadowridge, Downtown Vista Village, Rancho Buena Vista, Buena Creek. Call (619) 750-0114!",
+  title: "Vista Junk Removal | North County Reliable Service | (619) 750-0114",
+  description: "Vista junk removal Shadowridge, Rancho Buena Vista. Affordable North County, breweries, business parks, family homes. (619) 750-0114",
   keywords: "Vista junk removal, junk hauling Vista, junk pickup Vista, trash removal Vista, Vista San Diego junk removal, Shadowridge junk removal, Downtown Vista junk hauling, Vista Business Park cleanout, Rancho Buena Vista junk removal, Buena Creek junk hauling",
   openGraph: {
     title: "Vista Junk Removal | Same-Day Hauling | Licensed & Insured",
@@ -44,7 +44,7 @@ const faqSchema = {
       "name": "Can you provide same-day junk pickup in Vista?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely! We offer same-day Vista junk removal service 7 days a week. Our local team can often arrive within 2-4 hours of your call for emergency cleanouts. Whether you need urgent help for moving deadlines or unexpected situations, our same-day junk hauling Vista service is ready to help."
+        "text": "Yes! We offer rapid-response Vista junk removal service 7 days a week. Our local team can often arrive within 2-4 hours of your call for emergency cleanouts. Whether you need urgent help for moving deadlines or unexpected situations, our same-day junk hauling Vista service is ready to help."
       }
     },
     {
@@ -60,7 +60,7 @@ const faqSchema = {
       "name": "Are your junk removal services eco-friendly in North County?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely. Our Vista junk removal approach prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations. We handle all items in accordance with San Diego County and North County regulations, so you don't have to worry about a thing. Our team recycles metals, electronics, and materials through certified facilities, donates usable furniture to local North County charities, and ensures eco-friendly disposal methods that benefit both Vista families and businesses while protecting our community environment."
+        "text": "Yes. We handle all items in accordance with San Diego County and North County regulations. Our team recycles metals, electronics, and materials through certified facilities, and donates usable furniture to local charities when appropriate."
       }
     }
   ]
@@ -96,7 +96,7 @@ export default function JunkRemovalVistaPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center text-white">
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Vista Junk Removal
+                Vista Junk Removal | North County Reliable Service
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
                 Professional junk hauling for Downtown Vista Village, Shadowridge, Rancho Buena Vista, and Buena Creek
@@ -568,7 +568,7 @@ export default function JunkRemovalVistaPage() {
         <section className="py-16 bg-blue-50">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
-              Why Vista Families & Businesses Choose Severin Cleaners
+              Why Vista Families & Businesses Choose Us
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -588,8 +588,8 @@ export default function JunkRemovalVistaPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
                   </svg>
                 </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-2">locally-owned Local</h3>
-                <p className="text-gray-600 text-sm">Vista neighbors serving Vista families with personalized care</p>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">North County Expertise</h3>
+                <p className="text-gray-600 text-sm">Navigate Shadowridge hillsides, Brengle Terrace access, and Vista Village properties</p>
               </div>
 
               <div className="text-center">
@@ -598,7 +598,7 @@ export default function JunkRemovalVistaPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
                   </svg>
                 </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-2">Eco-Friendly Disposal</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Large Property Service</h3>
                 <p className="text-gray-600 text-sm">Responsible recycling and donation programs for North County</p>
               </div>
 

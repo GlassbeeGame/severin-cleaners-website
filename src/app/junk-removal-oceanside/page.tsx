@@ -13,8 +13,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Oceanside Junk Removal | Camp Pendleton & Coastal',
-  description: 'Professional Oceanside junk removal for Camp Pendleton, coastal properties, vacation rentals. Military discounts available. North County experts. Call (619) 750-0114.',
+  title: 'Oceanside Junk Removal | Coastal & Military Friendly | (619) 750-0114',
+  description: 'Oceanside junk removal for Camp Pendleton, beach rentals, pier district. Military discounts, PCS moves. (619) 750-0114',
   keywords: 'Oceanside junk removal, junk hauling Oceanside, junk pickup Oceanside, trash removal Oceanside, Oceanside San Diego junk removal, Camp Pendleton junk removal',
   openGraph: {
     title: 'Oceanside Junk Removal | Camp Pendleton & Coastal Property Specialists | Same-Day Service',
@@ -131,7 +131,7 @@ export default function JunkremovaloceansidePage() {
               ✓ Military community and coastal paradise with vacation rentals
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Oceanside Junk Removal
+              Oceanside Junk Removal | Coastal & Military Friendly
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • Military Discounts • Coastal Property Experts
@@ -151,7 +151,7 @@ export default function JunkremovaloceansidePage() {
               </a>
             </div>
             <p className="text-lg">
-              ✓ Same-Day Service ✓ Licensed & Insured ✓ Military Family Support
+              ✓ <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-Day Service</a> Available ✓ Licensed & Insured ✓ Military Family Support
             </p>
           </div>
         </div>
@@ -249,7 +249,7 @@ export default function JunkremovaloceansidePage() {
               <div className="sticky top-20 bg-gradient-to-r from-blue-600 to-orange-500 text-white p-4 rounded-lg shadow-lg mb-8 z-10">
                 <div className="flex items-center justify-between gap-4">
                   <div>
-                    <p className="font-semibold">Call Today for Same-Day Junk Removal in Oceanside</p>
+                    <p className="font-semibold">Call Today for Fast Junk Removal in Oceanside</p>
                     <p className="text-sm opacity-90">Military discounts • Vacation rental support • Coastal specialists</p>
                   </div>
                   <a
@@ -261,13 +261,13 @@ export default function JunkremovaloceansidePage() {
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Military Families & Coastal Residents Choose Severin Cleaners</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Military Families & Coastal Residents Choose Us</h3>
               <p className="mb-4">
-                As a locally-owned business with deep respect for military service and coastal living, we understand the unique challenges of both communities. Our <strong>Oceanside junk removal</strong> service combines military precision with beach community expertise to deliver reliable solutions for Camp Pendleton families, coastal property owners, and vacation rental managers.
+                Military PCS moves have strict timelines - orders come with 30-day windows, base housing must be cleared to specific standards, and families need rapid service during transition periods. We coordinate with Camp Pendleton housing offices, understand military clearance requirements, and offer flexible scheduling around deployment cycles. Our team knows the difference between on-base and off-base housing needs.
               </p>
 
               <p className="mb-6">
-                We honor our military families with special discounts, flexible PCS scheduling, and coordination with base requirements. For coastal properties, we provide storm response, salt air damage disposal, and environmentally responsible service that protects Oceanside's beautiful beaches and marine environment.
+                Oceanside's coastal properties face salt air corrosion, storm damage debris, and vacation rental turnover demands. Beachfront homes from Harbor to South Oceanside need quick response after winter storms. Vacation rentals require same-day cleanouts between guest stays. We navigate coastal access roads, handle sand-damaged furniture, and coordinate with rental management companies throughout North County's beach communities.
               </p>
 
               <div className="text-center bg-blue-900 text-white p-8 rounded-lg">
@@ -289,7 +289,7 @@ export default function JunkremovaloceansidePage() {
                   </div>
                 </div>
                 <p className="text-sm mt-4">
-                  Licensed & insured • Same-day service • Military family & coastal property specialists
+                  Licensed & insured • <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-day service</a> available • Military family & coastal property specialists
                 </p>
               </div>
             </div>

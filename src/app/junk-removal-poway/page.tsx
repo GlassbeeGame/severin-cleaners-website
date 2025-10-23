@@ -13,8 +13,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Poway Junk Removal | Ranch & Family Home Specialists | Same-Day Service',
-  description: 'Professional Poway junk removal for ranches, equestrian properties, family homes, business parks. Large property specialists with eco-friendly service. Call (619) 750-0114.',
+  title: 'Poway Junk Removal | Ranch Property Specialists | (619) 750-0114',
+  description: 'Poway ranch property junk removal for 4S Ranch, Stone Ridge, equestrian estates. Barn cleanouts, large lots. Call (619) 750-0114',
   keywords: 'Poway junk removal, junk hauling Poway, junk pickup Poway, trash removal Poway, Poway San Diego junk removal, ranch junk removal',
   openGraph: {
     title: 'Poway Junk Removal | Ranch & Family Home Specialists | Same-Day Service',
@@ -76,7 +76,7 @@ const faqSchema = {
       "name": "Can you provide same-day junk pickup in Poway?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely. We offer same-day junk pickup Poway service for urgent needs throughout all Poway neighborhoods, from Old Poway Village to Green Valley. Our local team can respond quickly for family emergencies, ranch property issues, or time-sensitive business cleanouts."
+        "text": "Yes! We offer rapid-response junk pickup Poway service, typically providing next-day service with same-day available when you call before 2 PM for urgent needs throughout all Poway neighborhoods, from Old Poway Village to Green Valley. Our local team can respond quickly for family emergencies, ranch property issues, or time-sensitive business cleanouts."
       }
     },
     {
@@ -92,7 +92,7 @@ const faqSchema = {
       "name": "Are your junk removal services eco-friendly in Poway?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely. Our Poway San Diego junk removal prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations. We handle all items in accordance with San Diego County and Poway regulations, so you don't have to worry about a thing. Our team works with local Poway charities for donations, ensures proper handling of ranch and agricultural waste, and maintains eco-friendly practices that protect our community's unique 'City in the Country' rural character and natural environment."
+        "text": "Yes. We handle all items in accordance with San Diego County and Poway regulations. Our team works with local charities for donations and ensures proper handling of ranch and agricultural waste."
       }
     }
   ]
@@ -131,7 +131,7 @@ export default function JunkremovalpowayPage() {
               ✓ Ranch properties and suburban family community
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Poway Junk Removal
+              Poway Junk Removal | Ranch Property Specialists
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • Ranch Property Experts • locally-owned Service
@@ -151,7 +151,7 @@ export default function JunkremovalpowayPage() {
               </a>
             </div>
             <p className="text-lg">
-              ✓ Same-Day Service ✓ Licensed & Insured ✓ Large Property Specialists
+              ✓ <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-Day Service</a> Available ✓ Licensed & Insured ✓ Large Property Specialists
             </p>
           </div>
         </div>
@@ -244,7 +244,7 @@ export default function JunkremovalpowayPage() {
               <div className="sticky top-20 bg-gradient-to-r from-blue-600 to-orange-500 text-white p-4 rounded-lg shadow-lg mb-8 z-10">
                 <div className="flex items-center justify-between gap-4">
                   <div>
-                    <p className="font-semibold">Call Today for Same-Day Junk Removal in Poway</p>
+                    <p className="font-semibold">Call Today for Fast Junk Removal in Poway</p>
                     <p className="text-sm opacity-90">Ranch specialists • locally-owned • Large property experts</p>
                   </div>
                   <a
@@ -256,13 +256,13 @@ export default function JunkremovalpowayPage() {
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Poway Families & Ranch Owners Choose Severin Cleaners</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Poway Families & Ranch Owners Choose Us</h3>
               <p className="mb-4">
-                As a locally-owned business with experience in large property management, we understand the unique needs of Poway's diverse community. Our <strong>Poway San Diego junk removal</strong> service combines ranch property expertise with suburban family values to deliver reliable, professional solutions for estates, equestrian facilities, and family homes.
+                Poway's ranch properties and large estates require specialized equipment - we handle barn cleanouts with multi-acre access needs, equestrian facility debris from 4S Ranch and Stone Ridge, and properties with long unpaved driveways. Multi-generational homes in Poway often span 3,000+ square feet with attached structures. We bring appropriate truck capacity for these large-volume jobs and understand working around horses and livestock.
               </p>
 
               <p className="mb-6">
-                We respect Poway's "City in the Country" character, providing services that maintain the rural charm while meeting modern suburban needs. From historic Old Poway Village properties to new developments in Green Valley, our team treats every property with the same care and professionalism we'd want for our own family ranch.
+                The "City in the Country" designation means unique challenges - properties off Highland Valley Road have rural access but suburban debris disposal needs. Green Valley's newer developments have HOA requirements. Old Poway properties have historical considerations. We navigate winding hillside roads, respect agricultural operations, and handle everything from residential garage cleanouts to complete ranch estate clearances across Poway's 39 square miles.
               </p>
 
               <div className="text-center bg-blue-900 text-white p-8 rounded-lg">
@@ -284,7 +284,7 @@ export default function JunkremovalpowayPage() {
                   </div>
                 </div>
                 <p className="text-sm mt-4">
-                  Licensed & insured • Same-day service • Ranch property & suburban family specialists
+                  Licensed & insured • <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-day service</a> available • Ranch property & suburban family specialists
                 </p>
               </div>
             </div>

@@ -13,8 +13,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "La Jolla Junk Removal | Luxury Estate Specialists",
-  description: "Premium La Jolla junk removal for estates, luxury homes, Bird Rock, Muirlands. Discreet service with unmarked vehicles. Expert luxury furniture handling. Call (619) 750-0114.",
+  title: "La Jolla Junk Removal | Luxury Estate Service | (619) 750-0114",
+  description: "La Jolla luxury estate junk removal Bird Rock to UTC. White-glove $5M+ properties. Discreet, professional. (619) 750-0114",
   keywords: "La Jolla junk removal, junk hauling La Jolla, trash removal La Jolla, junk pickup La Jolla, estate cleanout La Jolla, La Jolla furniture removal, luxury junk removal",
   openGraph: {
     title: "La Jolla Junk Removal | Estate Cleanouts & Luxury Furniture Disposal | Same-Day Service",
@@ -57,7 +57,7 @@ export default function JunkRemovalLaJollaPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center text-white">
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Junk Removal La Jolla
+                Junk Removal La Jolla | Luxury Estate Service
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
                 Discreet, Luxury Junk Removal Services for La Jolla's Exclusive Homes and Estates
@@ -151,16 +151,17 @@ export default function JunkRemovalLaJollaPage() {
                   <div className="bg-gray-50 rounded-lg p-6">
                     <ul className="space-y-2 text-gray-700">
                       <li><strong>La Jolla Village</strong> – Boutique luxury homes and historic properties near Girard Avenue</li>
-                      <li><strong>Bird Rock</strong> – Oceanfront estates with private access</li>
+                      <li><strong>Bird Rock</strong> – Oceanfront estates with private access, residential junk removal</li>
+                      <li><strong>Windansea</strong> – Coastal homes near the beach, estate cleanouts and furniture removal</li>
                       <li><strong>Muirlands & Hidden Valley</strong> – Family compounds and view homes</li>
-                      <li><strong>Mount Soledad</strong> – Hillside estates and gated communities</li>
+                      <li><strong>Mount Soledad</strong> – Hillside estates and gated communities, luxury junk hauling</li>
                     </ul>
                   </div>
                   <div className="bg-gray-50 rounded-lg p-6">
                     <ul className="space-y-2 text-gray-700">
                       <li><strong>La Jolla Shores & Cove</strong> – Beachfront residences and condos</li>
                       <li><strong>Upper Hermosa</strong> – Canyon-view and hillside properties</li>
-                      <li><strong>UTC / Torrey Pines</strong> – Executive residences and high-end remodels</li>
+                      <li><strong>UTC / Torrey Pines</strong> – Executive residences, high-end remodels, and <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">medical and dental office junk removal</a></li>
                     </ul>
                   </div>
                 </div>

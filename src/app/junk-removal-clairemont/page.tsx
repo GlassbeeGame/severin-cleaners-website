@@ -13,8 +13,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Clairemont Junk Removal | Family Home Specialists',
-  description: 'Professional Clairemont junk removal for family homes, garage cleanouts, Clairemont Village, Balboa Ave corridor. Residential specialists with eco-friendly service. Call (619) 750-0114.',
+  title: 'Clairemont Junk Removal | Central San Diego Specialists | (619) 750-0114',
+  description: 'Clairemont family home junk removal Bay Park to Bay Ho. Garage cleanouts, pool equipment, 1950s-era homes. (619) 750-0114',
   keywords: 'Clairemont junk removal, junk hauling Clairemont, junk pickup Clairemont Mesa, trash removal Clairemont, Clairemont San Diego junk removal, garage cleanouts',
   openGraph: {
     title: 'Clairemont Junk Removal | Family Home & Garage Cleanout Specialists | Same-Day Service',
@@ -68,7 +68,7 @@ const faqSchema = {
       "name": "Do you provide same-day junk hauling in Clairemont Mesa?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely! We offer same-day junk pickup Clairemont Mesa service for urgent residential and commercial needs. Our local team understands Clairemont families' schedules and can respond quickly for emergency cleanouts, moving deadlines, or unexpected situations throughout North Clairemont, South Clairemont, and Clairemont Mesa East."
+        "text": "Yes! We offer fast junk pickup Clairemont Mesa service, typically providing next-day service with same-day available when you call before 2 PM. Our local team understands Clairemont families' schedules and can respond quickly for emergency cleanouts, moving deadlines, or unexpected situations throughout North Clairemont, South Clairemont, and Clairemont Mesa East."
       }
     },
     {
@@ -84,7 +84,7 @@ const faqSchema = {
       "name": "Do you recycle or donate items collected in Clairemont?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely. Our Clairemont junk removal approach prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations. We handle all items in accordance with San Diego County regulations, so you don't have to worry about a thing. Our team recycles metals, electronics, and appliances through certified facilities, donates usable furniture and household items to local San Diego charities, and ensures eco-friendly disposal that benefits both Clairemont families and the environment."
+        "text": "Yes. We handle all items in accordance with San Diego County regulations. Our team recycles metals, electronics, and appliances through certified facilities, and donates usable furniture and household items to local charities when appropriate."
       }
     },
     {
@@ -131,7 +131,7 @@ export default function JunkremovalclairemontPage() {
               ✓ Family-friendly community with convenient Balboa Avenue corridor access
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Clairemont Junk Removal
+              Clairemont Junk Removal | Central San Diego Specialists
             </h1>
             <div className="text-xl mb-6">
               ⭐⭐⭐⭐⭐ 5.0 Rating • Garage Cleanout Experts • locally-owned Service
@@ -151,7 +151,7 @@ export default function JunkremovalclairemontPage() {
               </a>
             </div>
             <p className="text-lg">
-              ✓ Same-Day Service ✓ Licensed & Insured ✓ Residential Specialists
+              ✓ <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-Day Service</a> Available ✓ Licensed & Insured ✓ Residential Specialists
             </p>
           </div>
         </div>
@@ -244,7 +244,7 @@ export default function JunkremovalclairemontPage() {
               <div className="sticky top-20 bg-gradient-to-r from-blue-600 to-orange-500 text-white p-4 rounded-lg shadow-lg mb-8 z-10">
                 <div className="flex items-center justify-between gap-4">
                   <div>
-                    <p className="font-semibold">Call Today for Same-Day Junk Removal in Clairemont</p>
+                    <p className="font-semibold">Call Today for Fast Junk Removal in Clairemont</p>
                     <p className="text-sm opacity-90">Garage cleanout experts • locally-owned • Residential specialists</p>
                   </div>
                   <a
@@ -256,13 +256,13 @@ export default function JunkremovalclairemontPage() {
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Clairemont Families Choose Severin Cleaners</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Clairemont Families Choose Us</h3>
               <p className="mb-4">
-                As a locally-owned business with deep respect for San Diego's established communities, we understand the unique character of Clairemont's mid-century neighborhoods and family-focused lifestyle. Our <strong>Clairemont San Diego junk removal</strong> service combines local knowledge with professional efficiency to help families maintain organized homes, support estate transitions, and preserve the community's residential charm.
+                Clairemont's mid-century homes present unique challenges - attached garages filled with decades of accumulation, attics with limited access, and floor plans that require careful navigation. Our team has extensive experience working in these classic 1950s-1970s properties, protecting original hardwood floors, maneuvering through narrow hallways, and accessing difficult storage spaces without damaging walls or doorframes.
               </p>
 
               <p className="mb-6">
-                We specialize in working with multi-generational families maintaining established homes, busy parents managing active households, and seniors transitioning to new living arrangements. Our team respects Clairemont's family properties and community standards while delivering reliable results that help maintain this neighborhood's reputation as a classic San Diego family community.
+                We understand North Clairemont's hillside access challenges, South Clairemont's proximity to canyons and parks, and the Balboa Avenue corridor's mix of residential and commercial properties. Multi-generational households are common here, and we approach each project with patience and care - whether it's helping families downsize, clearing inherited properties, or simply reclaiming garage space that hasn't been used for parking in years.
               </p>
 
               <div className="text-center bg-blue-900 text-white p-8 rounded-lg">
@@ -284,7 +284,7 @@ export default function JunkremovalclairemontPage() {
                   </div>
                 </div>
                 <p className="text-sm mt-4">
-                  Licensed & insured • Same-day service • Clairemont residential family specialists
+                  Licensed & insured • <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-day service</a> available • Clairemont residential family specialists
                 </p>
               </div>
             </div>

@@ -89,7 +89,7 @@ export function generateServiceSchema({
       "url": provider.url,
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "8900 Grossmont Blvd",
+        "streetAddress": "8900 Grossmont Blvd, Suite 1",
         "addressLocality": "La Mesa",
         "addressRegion": "CA",
         "postalCode": "91941",
@@ -129,7 +129,7 @@ export function generateLocationServiceSchema({
       "url": "https://severincleaners.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "8900 Grossmont Blvd",
+        "streetAddress": "8900 Grossmont Blvd, Suite 1",
         "addressLocality": "La Mesa",
         "addressRegion": "CA",
         "postalCode": "91941",
@@ -173,7 +173,7 @@ export function generateLocalBusinessSchema() {
       "email": "severincleaners@gmail.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "8900 Grossmont Blvd",
+        "streetAddress": "8900 Grossmont Blvd, Suite 1",
         "addressLocality": "La Mesa",
         "addressRegion": "CA",
         "postalCode": "91941",

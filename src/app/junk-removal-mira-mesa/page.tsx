@@ -13,8 +13,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Mira Mesa Junk Removal | Same-Day Pickup & Hauling Service | Call (619) 750-0114",
-  description: "Professional Mira Mesa junk removal for homes and businesses. Same-day service, affordable pricing, eco-friendly disposal. Serving Sorrento Valley to Black Mountain Road. Call (619) 750-0114!",
+  title: "Mira Mesa Junk Removal | Residential & Commercial | (619) 750-0114",
+  description: "Mira Mesa junk removal Scripps Ranch to Sorrento Valley. Tech campuses, apartments, condos, offices. (619) 750-0114",
   keywords: "Mira Mesa junk removal, junk hauling Mira Mesa, trash removal Mira Mesa, junk pickup Mira Mesa, Mira Mesa furniture removal, commercial junk removal Mira Mesa",
   openGraph: {
     title: "Mira Mesa Junk Removal | Same-Day Pickup & Hauling Service",
@@ -68,7 +68,7 @@ export default function JunkRemovalMiraMesaPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center text-white">
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Junk Removal Mira Mesa
+                Junk Removal Mira Mesa | Residential & Commercial
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
                 Reliable, Local Junk Hauling for Mira Mesa Homes and Businesses
@@ -104,8 +104,8 @@ export default function JunkRemovalMiraMesaPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold mb-2">Same-Day & Next-Day Service</h3>
-                <p className="text-gray-600">Book by 2 PM for same-day pickup. Fast, reliable service across all Mira Mesa neighborhoods.</p>
+                <h3 className="text-xl font-bold mb-2">Fast & Next-Day Service</h3>
+                <p className="text-gray-600">Quick response across all Mira Mesa neighborhoods. <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">Same-day pickup</a> available when you call before 2 PM.</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-lg text-center">
                 <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -139,7 +139,7 @@ export default function JunkRemovalMiraMesaPage() {
 
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg mb-6">
-                  Looking for professional, affordable junk removal in Mira Mesa? Severin Cleaners provides same-day pickup, furniture removal, estate cleanouts, and full-service hauling for homes, offices, and commercial properties throughout the Mira Mesa area.
+                  Looking for professional, affordable junk removal in Mira Mesa? Severin Cleaners provides fast pickup (including <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a> when you call before 2 PM), furniture removal, estate cleanouts, and full-service hauling for homes, offices, and commercial properties throughout the Mira Mesa area.
                 </p>
 
                 <p className="text-lg mb-6">
@@ -181,7 +181,7 @@ export default function JunkRemovalMiraMesaPage() {
                 </div>
 
                 <p className="text-lg mb-8">
-                  No matter where you live or work in Mira Mesa, our local team is nearby and ready for same-day junk removal service.
+                  No matter where you live or work in Mira Mesa, our local team is nearby and ready for fast junk removal service, including <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day pickup</a> when needed.
                 </p>
 
                 <h3 className="text-2xl font-bold mt-8 mb-4">How Junk Removal Works in Mira Mesa</h3>
@@ -191,7 +191,7 @@ export default function JunkRemovalMiraMesaPage() {
                   <ol className="space-y-2 text-gray-700 list-decimal pl-6">
                     <li>Call or book online for your free quote.</li>
                     <li>Get upfront pricing based on volume — no hidden fees.</li>
-                    <li>We arrive same-day if you need it gone fast.</li>
+                    <li>We arrive quickly, with <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a> available when you call before 2 PM.</li>
                     <li>We load, clean up, and haul away everything safely.</li>
                     <li>We recycle and donate whenever possible.</li>
                   </ol>
@@ -231,7 +231,7 @@ export default function JunkRemovalMiraMesaPage() {
                     <p className="text-gray-700"><strong>15 minutes from Miramar Base Housing</strong> – Ideal for move-out junk removal</p>
                   </div>
                   <div className="bg-blue-50 rounded-lg p-4">
-                    <p className="text-gray-700"><strong>20 minutes from Black Mountain Road area</strong> – Same-day residential cleanouts</p>
+                    <p className="text-gray-700"><strong>20 minutes from Black Mountain Road area</strong> – Fast residential cleanouts</p>
                   </div>
                   <div className="bg-blue-50 rounded-lg p-4">
                     <p className="text-gray-700"><strong>25 minutes from Los Peñasquitos Canyon</strong> – Larger property debris removal</p>
@@ -239,7 +239,7 @@ export default function JunkRemovalMiraMesaPage() {
                 </div>
 
                 <p className="text-lg mb-8">
-                  Because we operate within San Diego County daily, we can usually offer same-day service in Mira Mesa when booked before 2 PM.
+                  Because we operate within San Diego County daily, we can usually offer <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a> in Mira Mesa when you call before 2 PM.
                 </p>
 
                 <h3 className="text-2xl font-bold mt-8 mb-4">Common Junk Removal Projects in Mira Mesa</h3>
@@ -301,13 +301,13 @@ export default function JunkRemovalMiraMesaPage() {
                       <svg className="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                       </svg>
-                      <span><strong>Same-Day & Next-Day Service:</strong> Book by 2 PM for same-day pickup.</span>
+                      <span><strong>Fast & Next-Day Service:</strong> <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">Same-day pickup</a> available when you call before 2 PM.</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                       </svg>
-                      <span><strong>Locally Owned:</strong> Not a franchise — your money stays in the San Diego community.</span>
+                      <span><strong>Mira Mesa Expertise:</strong> We navigate Sorrento Valley tech campuses, Black Mountain cul-de-sacs, and Miramar Road corridors daily.</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -344,7 +344,7 @@ export default function JunkRemovalMiraMesaPage() {
                     </thead>
                     <tbody>
                       <tr className="border-b border-gray-200">
-                        <td className="p-4 font-medium text-gray-900">Same-Day Service</td>
+                        <td className="p-4 font-medium text-gray-900"><a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">Same-Day Service</a></td>
                         <td className="p-4 text-center">
                           <svg className="w-6 h-6 text-green-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
@@ -478,7 +478,7 @@ export default function JunkRemovalMiraMesaPage() {
             <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
               <a href="/furniture-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
                 <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal</h4>
-                <p className="text-gray-600">Professional furniture and couch removal with same-day service</p>
+                <p className="text-gray-600">Professional furniture and couch removal with fast, flexible scheduling</p>
               </a>
               <a href="/commercial-junk-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
                 <h4 className="font-semibold text-lg mb-2 text-blue-600">Commercial Junk Removal</h4>

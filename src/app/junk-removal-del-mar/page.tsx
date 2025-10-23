@@ -12,8 +12,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Del Mar Junk Removal | Same-Day Hauling | Licensed & Insured",
-  description: "Professional Del Mar junk removal from Del Mar Village to Del Mar Heights. Luxury coastal estates, transparent pricing, same-day service. Licensed & insured. Call (619) 750-0114!",
+  title: "Del Mar Junk Removal | Coastal Luxury Service | (619) 750-0114",
+  description: "Del Mar coastal estate junk removal Village to Heights. Luxury beach homes, patio furniture, discreet service. (619) 750-0114",
   keywords: "Del Mar junk removal, junk hauling Del Mar, junk pickup Del Mar, trash removal Del Mar, Del Mar San Diego junk removal, junk removal 92014, Camino Del Mar junk hauling",
   openGraph: {
     title: "Del Mar Junk Removal | Same-Day Hauling | Licensed & Insured",
@@ -173,7 +173,7 @@ export default function JunkRemovalDelMarPage() {
         "name": "Do you donate or recycle items instead of sending everything to landfills?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, we prioritize donation and recycling whenever possible. Usable items go to local charities, metals and electronics are properly recycled, and we follow eco-friendly disposal practices to protect Del Mar's coastal environment."
+          "text": "Yes. Usable items go to local charities, metals and electronics are properly recycled, and we follow proper disposal practices in accordance with San Diego County regulations."
         }
       },
       {
@@ -215,7 +215,7 @@ export default function JunkRemovalDelMarPage() {
                 ✓ Same-Day Service • Licensed & Insured • Luxury Property Experts
               </div>
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Del Mar Junk Removal
+                Del Mar Junk Removal | Coastal Luxury Service
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
                 ⭐⭐⭐⭐⭐ 5.0 Rating • Del Mar Village to Del Mar Heights • Coastal Estate Specialists
@@ -389,42 +389,42 @@ export default function JunkRemovalDelMarPage() {
                 </ul>
 
                 <div className="bg-gray-50 p-8 rounded-xl mb-8">
-                  <h3 className="text-2xl font-bold mb-6 text-gray-900 text-center">Why Del Mar Residents Choose Severin Cleaners</h3>
+                  <h3 className="text-2xl font-bold mb-6 text-gray-900 text-center">Why Del Mar Residents Choose Us</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <ul className="space-y-3">
                       <li className="flex items-start">
                         <span className="text-green-500 mr-2">✓</span>
-                        <span><strong>Local Expertise:</strong> Deep knowledge of Del Mar neighborhoods and property types</span>
+                        <span><strong>Coastal Access Expertise:</strong> Navigate narrow Village streets, beachfront access, and hillside Heights properties</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 mr-2">✓</span>
-                        <span><strong>Luxury Property Experience:</strong> Professional handling of high-end coastal homes</span>
+                        <span><strong>Luxury Home Experience:</strong> White-glove service for high-value properties, designer furniture, art handling</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 mr-2">✓</span>
-                        <span><strong>Same-Day Service:</strong> Rapid response for urgent cleanout needs</span>
+                        <span><strong>Discreet Operations:</strong> Professional, unmarked vehicles for privacy-conscious coastal estates</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 mr-2">✓</span>
-                        <span><strong>Transparent Pricing:</strong> Upfront quotes with no surprise charges</span>
+                        <span><strong>HOA Coordination:</strong> Work seamlessly with Stratford Court and gated community requirements</span>
                       </li>
                     </ul>
                     <ul className="space-y-3">
                       <li className="flex items-start">
                         <span className="text-green-500 mr-2">✓</span>
-                        <span><strong>Fully Licensed & Insured:</strong> Complete protection for your property</span>
+                        <span><strong>Vacation Rental Ready:</strong> Quick turnovers for short-term rental properties near Fairgrounds</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 mr-2">✓</span>
-                        <span><strong>Eco-Conscious Disposal:</strong> Protecting Del Mar&apos;s coastal environment</span>
+                        <span><strong>Racetrack Scheduling:</strong> Plan around Del Mar Racing season traffic and event schedules</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 mr-2">✓</span>
-                        <span><strong>Property Protection:</strong> Floor and wall protection during removal</span>
+                        <span><strong>Property Protection:</strong> Floor runners, door padding, wall protection for luxury finishes</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 mr-2">✓</span>
-                        <span><strong>Professional Team:</strong> Courteous, uniformed, and experienced staff</span>
+                        <span><strong>Multi-Story Navigation:</strong> Experienced with Del Mar Heights hillside homes and complex layouts</span>
                       </li>
                     </ul>
                   </div>
