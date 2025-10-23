@@ -3,7 +3,9 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import LaMesaFAQSection from "./LaMesaFAQSection";
-import SchemaMarkup from "@/components/SchemaMarkup";
+import LocationSidebarCTA from "@/components/LocationSidebarCTA";
+import TrustSignalsSection from "@/components/TrustSignalsSection";
+import LocationPricingSection from "@/components/LocationPricingSection";
 import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 const inter = Inter({
@@ -51,54 +53,7 @@ export const metadata: Metadata = {
   },
 };
 
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does junk removal cost in La Mesa?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most pickups start around $100 and scale by load size and accessibility. All quotes include hauling, labor, and disposal fees."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you handle hillside homes in Mount Helix?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes—our junk removal La Mesa CA team is equipped for steep driveways and tight access roads."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you serve downtown La Mesa Village?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Absolutely—we offer flexible pickup windows for retail and multi-unit buildings near Spring Street."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are your services eco-friendly?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes—we recycle and donate whenever possible to reduce landfill use at the La Mesa dump."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How fast can you respond?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most calls are handled within 24 hours, with same-day pickup available when you call before 2 PM in central La Mesa and Mount Helix areas."
-      }
-    }
-  ]
-};
-
-export default function JunkremovallamesesPage() {
+export default function JunkRemovalLaMesaPage() {
   const serviceSchema = generateLocationServiceSchema({
     locationName: "La Mesa",
     serviceName: "Junk Removal",
@@ -112,309 +67,298 @@ export default function JunkremovallamesesPage() {
     { name: "La Mesa Junk Removal", url: "https://severincleaners.com/junk-removal-la-mesa" },
   ]);
 
-  // Additional local business schema for La Mesa
-  const localBusinessSchema = {
-    "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/junk-removal-la-mesa#business",
-    "name": "Severin Cleaners - La Mesa Junk Removal",
-    "image": "https://severincleaners.com/og-image.jpg",
-    "telephone": "+1-619-750-0114",
-    "priceRange": "$100-$495",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "La Mesa",
-      "addressRegion": "CA",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 32.7678,
-      "longitude": -117.0231
-    },
-    "areaServed": [
-      {
-        "@type": "City",
-        "name": "La Mesa",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "California"
-        }
-      }
-    ],
-    "serviceArea": {
-      "@type": "GeoCircle",
-      "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": 32.7678,
-        "longitude": -117.0231
-      },
-      "geoRadius": "10000"
-    },
-    "openingHours": "Mo-Su 06:00-20:00",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5.0",
-      "reviewCount": "200"
-    }
-  };
-
-  const combinedSchema = {
-    "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema]
-  };
+  const nearbyLocations = [
+    { name: "El Cajon", slug: "el-cajon" },
+    { name: "Spring Valley", slug: "spring-valley" },
+    { name: "Lemon Grove", slug: "lemon-grove" },
+    { name: "Santee", slug: "santee" },
+  ];
 
   return (
-    <>
-      <SchemaMarkup schema={combinedSchema} />
-      <div className={`${inter.variable} font-sans antialiased`}>
-        <Header />
+    <div className={`${inter.variable} font-sans`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+
+      <Header />
+
       <main>
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-8">
-            <div className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-              ✓ <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-Day Service</a> Available • Licensed & Insured • La Mesa Experts
+        {/* Hero Section */}
+        <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-24">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto text-center">
+              <div className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-6">
+                #1 La Mesa Junk Removal Service
+              </div>
+
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+                La Mesa Junk Removal
+              </h1>
+
+              <p className="text-xl md:text-2xl mb-8 text-blue-100">
+                Mount Helix to La Mesa Village • Faster Than the Dump • Same-Day Service
+              </p>
+
+              <p className="text-lg mb-8">
+                ✓ Hillside Access Experts ✓ Village Area Specialists ✓ Licensed & Insured
+              </p>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              La Mesa Junk Removal | Village Area Specialists
-            </h1>
-            <div className="text-xl mb-6">
-              ⭐⭐⭐⭐⭐ 5.0 Rating • Locally Owned Service • East County Specialists
+          </div>
+        </section>
+
+        {/* Main Content with Sidebar */}
+        <section className="py-12 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <div className="max-w-7xl mx-auto">
+              <div className="grid lg:grid-cols-3 gap-8">
+
+                {/* Main Content - Left Column */}
+                <div className="lg:col-span-2">
+                  <div className="bg-white rounded-lg shadow-md p-8">
+
+                    {/* Introduction */}
+                    <h2 className="text-3xl font-bold mb-6 text-gray-900">
+                      Professional Junk Hauling La Mesa – Your Dump Alternative
+                    </h2>
+
+                    <p className="text-lg mb-4 text-gray-700">
+                      <strong>La Mesa junk removal</strong> serves this vibrant East County community where hillside homes meet family neighborhoods and downtown village charm. From Mount Helix estates to Fletcher Hills properties to La Mesa Village apartments, our <strong>junk hauling La Mesa</strong> team navigates steep driveways, downtown parking restrictions, and East County terrain with expertise. We provide same-day <strong>junk pickup La Mesa</strong> as a faster, easier alternative to the crowded <strong>La Mesa dump</strong>, offering transparent pricing and complete service throughout the 91941 and 91942 areas.
+                    </p>
+
+                    <p className="text-gray-700 mb-6">
+                      Our La Mesa operation is uniquely positioned to serve this diverse East County city. We understand that <strong>La Mesa CA junk removal</strong> requires more than just hauling capacity—it demands experience with hillside access on winding Mount Helix roads, knowledge of downtown Village parking logistics, familiarity with Grossmont area apartment complexes, and the ability to provide service that's more convenient than driving to the dump yourself. Whether you're clearing out a Mount Helix hillside estate, removing furniture from a La Mesa Village condo, or handling a garage cleanout near Lake Murray, our team brings the specialized local experience that makes junk removal easy and stress-free.
+                    </p>
+
+                    {/* Neighborhoods Served */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">La Mesa Neighborhoods We Serve</h3>
+                    <p className="text-gray-700 mb-4">
+                      Our <strong>trash removal La Mesa</strong> service covers every corner of this East County city, from hillside estates to valley neighborhoods to downtown urban properties. We've completed thousands of junk removal jobs throughout La Mesa's diverse areas, each with unique characteristics that inform our service approach:
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-4 mb-6">
+                      <ul className="space-y-2">
+                        <li><strong>Mount Helix:</strong> Hillside estates with steep driveways, panoramic views, and challenging access requiring specialized equipment</li>
+                        <li><strong>Fletcher Hills:</strong> Traditional family homes with multi-car garages and established neighborhoods</li>
+                        <li><strong>La Mesa Village:</strong> Downtown condos, apartments, and retail properties with limited parking access</li>
+                        <li><strong>Grossmont Center Area:</strong> Apartment complexes and commercial offices near the regional mall</li>
+                      </ul>
+                      <ul className="space-y-2">
+                        <li><strong>Lake Murray Area:</strong> Family homes near the reservoir with recreational property needs</li>
+                        <li><strong>Spring Street Corridor:</strong> Trolley-accessible properties and mixed-use buildings</li>
+                        <li><strong>College Area:</strong> Student housing and rental properties near Grossmont College</li>
+                        <li><strong>Baltimore Drive:</strong> Residential neighborhoods connecting to central La Mesa</li>
+                      </ul>
+                    </div>
+
+                    {/* Major Streets */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access Routes</h3>
+                    <p className="text-gray-700 mb-4">
+                      Our <strong>junk hauling La Mesa</strong> team knows every major route and residential street throughout this East County city. This local expertise matters when navigating La Mesa's mix of hillside terrain, downtown congestion, and suburban neighborhoods. We plan each job with detailed access planning:
+                    </p>
+                    <ul className="grid md:grid-cols-2 gap-2 mb-6">
+                      <li>• <strong>La Mesa Boulevard:</strong> Main east-west thoroughfare connecting downtown to residential areas</li>
+                      <li>• <strong>University Avenue:</strong> Central corridor serving La Mesa Village and commercial district</li>
+                      <li>• <strong>Spring Street:</strong> North-south route with trolley access and urban properties</li>
+                      <li>• <strong>Fletcher Parkway:</strong> Eastern boundary connecting to El Cajon neighborhoods</li>
+                      <li>• <strong>Lake Murray Boulevard:</strong> Scenic route serving lakeside residential properties</li>
+                      <li>• <strong>Baltimore Drive:</strong> Residential connector linking north and central La Mesa</li>
+                      <li>• <strong>Grossmont Boulevard:</strong> Commercial corridor serving shopping and medical facilities</li>
+                      <li>• <strong>Mount Helix Drive:</strong> Winding hillside road requiring careful truck navigation</li>
+                    </ul>
+
+                    {/* Local Landmarks */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">La Mesa Landmarks</h3>
+                    <p className="text-gray-700 mb-4">
+                      We provide <strong>junk pickup La Mesa</strong> service near all major landmarks. These familiar reference points help us navigate quickly to your property and provide accurate arrival estimates throughout this diverse East County community:
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-2 mb-6">
+                      <ul className="space-y-1">
+                        <li>• Grossmont Hospital—major medical center</li>
+                        <li>• Grossmont Center—regional shopping mall</li>
+                        <li>• Mount Helix Park—scenic overlook landmark</li>
+                        <li>• La Mesa Village—downtown entertainment district</li>
+                        <li>• Lake Murray—recreational reservoir area</li>
+                        <li>• La Mesa Library—community gathering center</li>
+                      </ul>
+                      <ul className="space-y-1">
+                        <li>• Grossmont College—community college campus</li>
+                        <li>• Helix Charter High School—educational facility</li>
+                        <li>• La Mesa Community Center—recreation hub</li>
+                        <li>• MacArthur Park—neighborhood green space</li>
+                        <li>• Trolley Stations—Spring Street and Grossmont transit</li>
+                        <li>• Peter Pan Junior Theater—cultural venue</li>
+                      </ul>
+                    </div>
+
+                    {/* Traffic & Timing */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Traffic Patterns & Service Timing</h3>
+                    <p className="text-gray-700 mb-4">
+                      La Mesa's East County location and mix of hillside and urban areas create unique traffic patterns that affect <strong>junk removal La Mesa</strong> scheduling. Our dispatch team actively monitors local traffic and coordinates with you to schedule service windows that maximize efficiency:
+                    </p>
+                    <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
+                      <li><strong>Morning commute (6:30-9 AM):</strong> Heavy westbound traffic on La Mesa Boulevard and University Avenue as residents commute to San Diego. We recommend mid-morning (9:30 AM-2 PM) service windows when major corridors clear and residential street access improves significantly.</li>
+                      <li><strong>Afternoon rush (3:30-6 PM):</strong> Eastbound traffic returns through La Mesa on main corridors. We prioritize earlier service windows or coordinate evening appointments after 6:30 PM for clients who prefer post-commute scheduling when parking and street access become easier.</li>
+                      <li><strong>Village area timing:</strong> La Mesa Village parking is limited during business hours and evening dining times. We coordinate early morning (before 9 AM) or mid-afternoon (2-4 PM) service windows for downtown properties to ensure parking access for our trucks near buildings.</li>
+                      <li><strong>Mount Helix access:</strong> Hillside properties with steep, winding driveways require careful timing. We avoid wet weather for hillside work and schedule during cooler parts of the day when temperatures allow safe navigation of steep terrain with heavy loads.</li>
+                    </ul>
+
+                    {/* Weather */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">East County Weather Considerations</h3>
+                    <p className="text-gray-700 mb-6">
+                      La Mesa's inland East County location creates hot, dry summers and mild winters that affect junk removal operations year-round. Summer temperatures (June-September) regularly exceed 90°F in valley areas, with Mount Helix hillside properties often 5-10 degrees cooler due to elevation and breeze. We schedule early morning starts (7-10 AM) during heat waves to protect crews during physical hauling work and prevent heat damage to items being transported. The community experiences less marine layer fog than coastal San Diego neighborhoods, allowing consistent morning scheduling without weather delays. Winter rainy season (December-February) brings occasional heavy rainfall that makes Mount Helix's steep, winding roads more challenging—we monitor weather forecasts and may adjust timing for hillside properties during wet conditions to ensure crew safety. Santa Ana wind conditions occur periodically, bringing extremely dry, warm weather that requires fire safety awareness during outdoor debris removal in hillside areas where vegetation is present.
+                    </p>
+
+                    {/* Dump Alternative */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">La Mesa Dump Alternative – Why Choose Our Service</h3>
+                    <p className="text-gray-700 mb-4">
+                      Many La Mesa residents ask about the <strong>La Mesa dump</strong> when they need to dispose of junk. While the Sycamore Canyon Landfill serves the area, our <strong>La Mesa junk removal</strong> service offers significant advantages over making the trip yourself:
+                    </p>
+                    <div className="bg-blue-50 rounded-lg p-6 mb-6">
+                      <h4 className="font-bold mb-3 text-blue-900">Why We're Better Than the Dump:</h4>
+                      <ul className="space-y-2 text-gray-700">
+                        <li><strong>No driving required:</strong> Skip the 20-minute drive to the landfill and the time spent waiting in line at the dump entrance</li>
+                        <li><strong>No loading work:</strong> We do all the lifting, loading, and hauling—you don't touch a single item</li>
+                        <li><strong>No truck rental needed:</strong> No need to rent a pickup truck or trailer to transport your junk</li>
+                        <li><strong>Faster service:</strong> We arrive at your property and complete removal in under 2 hours—faster than the round trip to the dump</li>
+                        <li><strong>Recycling included:</strong> We sort for donation and recycling, not just dump everything in the landfill</li>
+                        <li><strong>Same-day available:</strong> Call before noon for same-day service—no waiting for dump hours or weekend availability</li>
+                      </ul>
+                    </div>
+
+                    {/* What We Remove */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in La Mesa</h3>
+                    <p className="text-gray-700 mb-4">
+                      Our <strong>La Mesa junk removal</strong> service handles everything from single items to complete property cleanouts. We remove all the items you'd take to the dump—and more—with full-service convenience:
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-4 mb-6">
+                      <div>
+                        <h4 className="font-bold mb-2">Furniture & Household</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Sofas, couches, sectionals from living rooms</li>
+                          <li>• Mattresses, box springs, bed frames</li>
+                          <li>• Tables, chairs, dining sets</li>
+                          <li>• Dressers, desks, cabinets, bookshelves</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h4 className="font-bold mb-2">Appliances & Electronics</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Refrigerators, washers, dryers</li>
+                          <li>• Stoves, dishwashers, microwaves</li>
+                          <li>• TVs, computers, entertainment systems</li>
+                          <li>• Water heaters and HVAC units</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h4 className="font-bold mb-2">Outdoor & Garage</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Patio furniture and outdoor equipment</li>
+                          <li>• Garage cleanouts and storage items</li>
+                          <li>• Yard waste and landscaping debris</li>
+                          <li>• <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">Hot tubs and spas</a> from renovations</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h4 className="font-bold mb-2">Cleanouts & Projects</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Estate cleanouts for inherited properties</li>
+                          <li>• Apartment and condo move-outs</li>
+                          <li>• Storage unit clearing</li>
+                          <li>• <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">Construction debris</a> from remodels</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    {/* How Our Service Works */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">How Our La Mesa Junk Removal Service Works</h3>
+                    <div className="bg-blue-50 rounded-lg p-6 mb-6">
+                      <ol className="space-y-3 text-gray-700">
+                        <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe what you need removed and your La Mesa location. We'll provide estimated pricing based on volume.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for same-day service throughout La Mesa. We coordinate arrival times around your schedule and local traffic patterns.</li>
+                        <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives in clearly marked trucks during your scheduled window. We assess items for removal and provide a final quote before starting work—no hidden fees.</li>
+                        <li><strong>4. We Load & Haul Everything:</strong> Our team does all lifting, loading, and hauling. We protect floors and doorways, navigate stairs and hillside access, and complete removal efficiently. You simply point—we handle everything.</li>
+                        <li><strong>5. Eco-Friendly Disposal:</strong> We sort items for donation, recycling, and responsible disposal. Usable furniture goes to local charities, recyclables to proper facilities, and only true waste to landfill.</li>
+                        <li><strong>6. Clean Sweep & Payment:</strong> We sweep the area clean after removal and collect payment. Most jobs are completed in under two hours from arrival to departure—faster than a dump trip.</li>
+                      </ol>
+                    </div>
+
+                    {/* Why Choose Us */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Cleaners for La Mesa Junk Removal</h3>
+                    <ul className="space-y-3 mb-6">
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>Local La Mesa Expertise:</strong> We navigate La Mesa's unique geography with ease—from Mount Helix's steep, winding hillside roads to La Mesa Village's limited downtown parking to Lake Murray area family neighborhoods. Our crews have completed thousands of La Mesa junk removal jobs and understand the specific access challenges of this diverse East County community.</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>Hillside Access Specialists:</strong> Mount Helix properties require specialized experience with steep driveways and narrow access roads. We bring the right equipment and expertise to safely navigate challenging hillside terrain that makes dump trips particularly difficult for residents.</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>Faster Than the Dump:</strong> Our same-day service means we arrive at your property and complete removal in under 2 hours—faster than loading your vehicle, driving to the dump, waiting in line, unloading, and driving back. We handle everything while you relax or focus on other priorities.</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>Transparent Pricing:</strong> No hidden fees, no surprises. Upfront quotes based on volume with all labor, hauling, and disposal included. Hillside access doesn't change our rates—you pay for volume removed, not location complexity. Most La Mesa jobs range from half-truck to full-truck loads.</span>
+                      </li>
+                    </ul>
+
+                  </div>
+                </div>
+
+                {/* Sidebar - Right Column */}
+                <div className="lg:col-span-1">
+                  <LocationSidebarCTA
+                    phoneNumber="(619) 750-0114"
+                    locationName="La Mesa"
+                    nearbyLocations={nearbyLocations}
+                  />
+                </div>
+
+              </div>
             </div>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
-              <a
-                href="tel:6197500114"
-                className="btn btn-primary text-lg px-8 py-4"
-              >
-                📞 Call (619) 750-0114
+          </div>
+        </section>
+
+        {/* Pricing Section */}
+        <LocationPricingSection
+          locationName="La Mesa"
+          contextParagraph="Hillside estate cleanouts and Village area projects throughout La Mesa—from Mount Helix to Grossmont—all use the same transparent pricing. No hidden fees, faster than the dump."
+        />
+
+        {/* Trust Signals Section */}
+        <TrustSignalsSection locationName="La Mesa" />
+
+        {/* FAQ Section */}
+        <LaMesaFAQSection />
+
+        {/* Related Services */}
+        <section className="py-12 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <h3 className="text-2xl font-bold text-center mb-8">Related East County Services</h3>
+            <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+              <a href="/furniture-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
+                <p className="text-gray-600">Mount Helix estate furniture and family home removal throughout La Mesa</p>
               </a>
-              <a
-                href="/contact"
-                className="btn btn-secondary text-lg px-8 py-4 hover:bg-orange-600 transition-colors duration-200"
-              >
-                Book Your La Mesa Junk Pickup – Save 15% Online
+              <a href="/estate-cleanout-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Estate Cleanouts San Diego</h4>
+                <p className="text-gray-600">Inherited hillside properties and family estate transitions in La Mesa</p>
+              </a>
+              <a href="/construction-debris-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Construction Debris Removal</h4>
+                <p className="text-gray-600">Family home renovations and hillside property improvement projects</p>
               </a>
             </div>
-            <p className="text-lg">
-              ✓ <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-Day Service</a> Available ✓ Licensed & Insured ✓ Local Specialists
-            </p>
           </div>
-        </div>
-      </section>
-
-      {/* Main Content */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Serving the Heart of East County</h2>
-
-              <p className="text-lg text-gray-700 mb-6">
-                La Mesa sits between San Diego's coastal suburbs and the rolling East County foothills, where hillside homes meet family neighborhoods. Our <strong>La Mesa junk removal</strong> team knows every corner—from the winding roads of Mount Helix to the suburban grids of Fletcher Hills and the busy streets near La Mesa Village. Whether you're clearing a garage, prepping a rental, or seeking an easier alternative to the crowded <strong>La Mesa dump</strong>, we provide fast, friendly, and affordable service you can count on.
-              </p>
-
-              <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
-                <h3 className="text-xl font-semibold text-blue-900 mb-2">Our Local Service Areas</h3>
-                <p className="text-blue-800 mb-4">We provide complete <strong>junk removal La Mesa CA</strong> coverage across the city and nearby communities:</p>
-                <ul className="text-blue-800 space-y-2">
-                  <li><strong>Mount Helix:</strong> hillside estates, gated driveways, and narrow road access</li>
-                  <li><strong>Fletcher Hills:</strong> traditional family homes and multi-car garage cleanouts</li>
-                  <li><strong>La Mesa Village:</strong> downtown condos, retail properties, and restaurant turnovers</li>
-                  <li><strong>Grossmont Center:</strong> apartment complexes and commercial offices</li>
-                  <li><strong>Spring Street Corridor:</strong> trolley-accessible properties and small businesses</li>
-                  <li><strong>Lake Murray Area:</strong> family homes, recreational properties, and storage cleanouts</li>
-                </ul>
-                <p className="text-blue-700 mt-4">Response times vary by area—most <strong>La Mesa junk pickup</strong> calls are completed within 24 hours, with <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a> available when you call before 2 PM for Mount Helix and central La Mesa addresses.</p>
-                <div className="mt-4 text-center">
-                  <p className="text-blue-700 font-semibold">📞 Call (619) 750-0114 for immediate service</p>
-                </div>
-              </div>
-
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Serving East County Neighborhoods</h3>
-              <p className="text-lg text-gray-700 mb-6">
-                In addition to La Mesa, we proudly serve nearby East County communities including <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon junk removal</a>, <a href="/junk-removal-spring-valley" className="text-blue-600 hover:underline">Spring Valley junk hauling</a>, and <a href="/junk-removal-lemon-grove" className="text-blue-600 hover:underline">Lemon Grove trash removal</a>.
-              </p>
-
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Driving Directions from Local Landmarks</h3>
-              <p className="text-lg text-gray-700 mb-4">
-                We're centrally located near the Grossmont Center and can reach most jobs in under 20 minutes.
-              </p>
-              <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
-                <li>From <strong>Grossmont Hospital</strong>, head east on Center Dr toward Fletcher Pkwy—our trucks are staged just five minutes away.</li>
-                <li>From <strong>La Mesa Village</strong>, we're a quick 10-minute drive via University Ave and Spring St.</li>
-                <li>From <strong>Lake Murray Boulevard</strong>, take Baltimore Dr south and we'll meet you near Severin Dr.</li>
-              </ul>
-              <p className="text-lg text-gray-700 mb-6">
-                Our close proximity allows flexible scheduling and quicker turnaround than out-of-area haulers who service all of San Diego County.
-              </p>
-
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Local Weather & Terrain Considerations</h3>
-              <p className="text-lg text-gray-700 mb-6">
-                La Mesa's East County climate brings hot, dry summers and seasonal Santa Ana winds, which means more brush clearing, furniture turnover, and outdoor debris removal compared to coastal communities. Our crew operates year-round—even during triple-digit days—using smaller vehicles when hillside roads heat up and larger trucks for flat suburban routes. After seasonal storms, we also assist with green-waste hauling and driveway cleanup for homes around Mount Helix and Lake Murray.
-              </p>
-
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Major Employers & Businesses We Serve</h3>
-              <p className="text-lg text-gray-700 mb-4">
-                We regularly assist commercial clients and property managers tied to La Mesa's biggest employers and institutions, including:
-              </p>
-              <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
-                <li><strong>Sharp Grossmont Hospital</strong> (medical facility cleanouts & office removals)</li>
-                <li><strong>Grossmont Center</strong> retail stores and restaurants</li>
-                <li><strong>Helix Charter High School</strong> facility maintenance support</li>
-                <li><strong>City of La Mesa</strong> public works and community centers</li>
-                <li>Real estate offices along Spring Street and University Avenue</li>
-              </ul>
-              <p className="text-lg text-gray-700 mb-6">
-                Our <strong>junk hauling La Mesa</strong> team provides after-hours pickup options to minimize business disruption.
-              </p>
-
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Neighborhood-Specific Solutions</h3>
-
-              <div className="grid md:grid-cols-3 gap-6 mb-8">
-                <div className="bg-gray-50 p-6 rounded-lg">
-                  <h4 className="text-xl font-bold mb-3 text-blue-600">Hillside Properties (Mount Helix & Dehesa Road)</h4>
-                  <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                    <li>Steep-driveway navigation with smaller trucks</li>
-                    <li>Landscape debris removal & fire-safety brush hauling</li>
-                    <li>Estate cleanouts with respect for property views and terrain</li>
-                  </ul>
-                </div>
-                <div className="bg-gray-50 p-6 rounded-lg">
-                  <h4 className="text-xl font-bold mb-3 text-blue-600">Family Neighborhoods (Fletcher Hills & Lake Murray)</h4>
-                  <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                    <li>Garage & attic decluttering for growing families</li>
-                    <li>Appliance & mattress removal without driveway damage</li>
-                    <li>Yard waste pickup and seasonal cleanup</li>
-                  </ul>
-                </div>
-                <div className="bg-gray-50 p-6 rounded-lg">
-                  <h4 className="text-xl font-bold mb-3 text-blue-600">Downtown & Transit Corridor (La Mesa Village & Spring Street)</h4>
-                  <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                    <li>Apartment & condo move-outs</li>
-                    <li>Office furniture recycling and retail junk pickup</li>
-                    <li>Tight schedule coordination with property managers and HOAs</li>
-                  </ul>
-                </div>
-              </div>
-
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">La Mesa Dump Alternative</h3>
-              <p className="text-lg text-gray-700 mb-6">
-                The city's public dump near Encanto is often busy, with long lines and disposal fees. Our <strong>La Mesa junk removal</strong> service is a faster, cleaner option—no waiting, no lifting, and no hidden charges. We recycle and donate whenever possible through East County facilities, reducing landfill waste and saving you time.
-              </p>
-
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Typical Pricing</h3>
-              <p className="text-lg text-gray-700 mb-4">
-                Transparent, all-inclusive pricing that covers labor, hauling, and disposal:
-              </p>
-              <div className="bg-gray-50 rounded-lg p-6 mb-8">
-                <div className="grid md:grid-cols-2 gap-4">
-                  <div className="flex justify-between items-center py-2 border-b border-gray-300">
-                    <span className="font-semibold text-gray-700">Single Item (starting at $100)</span>
-                    <span className="text-xl font-bold text-blue-600">$100</span>
-                  </div>
-                  <div className="flex justify-between items-center py-2 border-b border-gray-300">
-                    <span className="font-semibold text-gray-700">¼ Load (3 cu yd)</span>
-                    <span className="text-xl font-bold text-blue-600">$249</span>
-                  </div>
-                  <div className="flex justify-between items-center py-2 border-b border-gray-300">
-                    <span className="font-semibold text-gray-700">½ Load (6 cu yd)</span>
-                    <span className="text-xl font-bold text-blue-600">$349</span>
-                  </div>
-                  <div className="flex justify-between items-center py-2 border-b border-gray-300">
-                    <span className="font-semibold text-gray-700">¾ Load (9 cu yd)</span>
-                    <span className="text-xl font-bold text-blue-600">$429</span>
-                  </div>
-                  <div className="flex justify-between items-center py-2 border-b border-gray-300">
-                    <span className="font-semibold text-gray-700">Full Load (12 cu yd)</span>
-                    <span className="text-xl font-bold text-blue-600">$495</span>
-                  </div>
-                </div>
-                <p className="text-gray-700 mt-4 text-center">
-                  Call for a free quote—our team provides exact totals before pickup so there are no surprises.
-                </p>
-              </div>
-
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Local Competitor Comparison</h3>
-              <p className="text-lg text-gray-700 mb-6">
-                Unlike national franchises that route trucks from Mira Mesa or Chula Vista, we're based in East County—meaning shorter drive times, lower fuel costs, and faster response. Competitors often charge extra for hillside access or heavy loads; we include that in our upfront pricing. Every haul is completed by trained local professionals who know La Mesa's roads, HOA rules, and parking restrictions.
-              </p>
-
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Eco-Friendly Disposal Commitment</h3>
-              <p className="text-lg text-gray-700 mb-6">
-                We recycle or donate when we can, working with San Diego County transfer stations and local charities. Metal, wood, and appliances go to licensed recyclers, while reusable furniture is redirected to community donation partners.
-              </p>
-
-              {/* Sticky CTA */}
-              <div className="sticky top-20 bg-gradient-to-r from-blue-600 to-orange-500 text-white p-4 rounded-lg shadow-lg mb-8 z-10">
-                <div className="flex items-center justify-between gap-4">
-                  <div>
-                    <p className="font-semibold">Call Today for Fast Junk Removal in La Mesa</p>
-                    <p className="text-sm opacity-90">Mount Helix hillside experts • Village parking specialists • Flexible scheduling</p>
-                  </div>
-                  <a
-                    href="tel:6197500114"
-                    className="bg-white text-blue-600 px-6 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 whitespace-nowrap"
-                  >
-                    📞 Call Now
-                  </a>
-                </div>
-              </div>
-
-
-              <div className="text-center bg-blue-900 text-white p-8 rounded-lg">
-                <h3 className="text-2xl font-bold mb-4">📞 Call (619) 750-0114 to schedule your La Mesa junk removal today.</h3>
-                <p className="text-lg mb-6">
-                  Skip the dump line—get fast, local pickup from East County's trusted junk hauling team.
-                </p>
-                <a
-                  href="tel:6197500114"
-                  className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors duration-200 inline-block mb-6"
-                >
-                  📞 Call (619) 750-0114 Now
-                </a>
-                <div className="bg-blue-800 rounded-lg p-4">
-                  <p className="text-yellow-300 font-semibold mb-2">🏡 La Mesa Special 🏡</p>
-                  <div className="text-sm">
-                    <strong><a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-Day Service</a> Available</strong> • <strong>Transparent Pricing</strong><br/>
-                    <strong>Hillside Property Specialists</strong> • <strong>Eco-Friendly Disposal</strong>
-                  </div>
-                </div>
-                <p className="text-sm mt-4">
-                  Licensed & insured • <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-day service</a> available • East County's trusted local service
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ Section - Now using dropdown component */}
-      <LaMesaFAQSection />
-
-      {/* Related Services */}
-      <section className="py-12 bg-white">
-        <div className="container mx-auto px-4">
-          <h3 className="text-2xl font-bold text-center mb-8">Related East County Family Services</h3>
-          <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            <a href="/furniture-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
-              <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
-              <p className="text-gray-600">Large family home furniture removal for growing East County households</p>
-            </a>
-            <a href="/estate-cleanout-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
-              <h4 className="font-semibold text-lg mb-2 text-blue-600">Estate Cleanouts San Diego</h4>
-              <p className="text-gray-600">Inherited hillside properties and multi-generational family estate transitions</p>
-            </a>
-            <a href="/construction-debris-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
-              <h4 className="font-semibold text-lg mb-2 text-blue-600">Construction Debris Removal</h4>
-              <p className="text-gray-600">Family home renovations and hillside property improvement projects</p>
-            </a>
-          </div>
-        </div>
-      </section>
+        </section>
       </main>
-        <Footer />
-      </div>
-    </>
+
+      <Footer />
+    </div>
   );
 }

@@ -1,8 +1,18 @@
-import type { Metadata } from "next";
+import { Metadata } from 'next';
+import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import EscondidoFAQSection from "./EscondidoFAQSection";
+import TrustSignalsSection from "@/components/TrustSignalsSection";
+import LocationPricingSection from "@/components/LocationPricingSection";
+import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+});
 
 export const metadata: Metadata = {
   title: "Junk Removal Escondido CA | North County's Reliable Choice | (619) 750-0114",
@@ -63,533 +73,292 @@ export const metadata: Metadata = {
   },
 };
 
-const serviceSchema = generateLocationServiceSchema({
-  locationName: "Escondido",
-  serviceName: "Junk Removal",
-  description: "Professional Escondido junk removal services for residential and commercial properties. Fast, reliable, eco-friendly disposal with same-day service available.",
-  url: "https://severincleaners.com/junk-removal-escondido",
-});
-
-const breadcrumbSchema = generateBreadcrumbSchema([
-  { name: "Home", url: "https://severincleaners.com" },
-  { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-  { name: "Junk Removal Escondido", url: "https://severincleaners.com/junk-removal-escondido" },
-]);
-
 export default function EscondidoJunkRemovalPage() {
+  const serviceSchema = generateLocationServiceSchema({
+    locationName: "Escondido",
+    serviceName: "Junk Removal",
+    description: "Professional Escondido junk removal services for residential and commercial properties. Fast, reliable, eco-friendly disposal with same-day service available.",
+    url: "https://severincleaners.com/junk-removal-escondido",
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
+    { name: "Junk Removal Escondido", url: "https://severincleaners.com/junk-removal-escondido" },
+  ]);
+
+  const nearbyLocations = [
+    { name: "Vista", slug: "vista" },
+    { name: "Poway", slug: "poway" },
+    { name: "Oceanside", slug: "oceanside" },
+    { name: "El Cajon", slug: "el-cajon" },
+  ];
+
   return (
-    <>
+    <div className={`${inter.variable} font-sans`}>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@graph": [serviceSchema, breadcrumbSchema],
-          }),
-        }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
-      <div className="min-h-screen bg-background">
-        <Header />
-        <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+
+      <Header />
+
+      <main>
         {/* Hero Section */}
-        <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 py-20">
+        <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-24">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center text-white">
-              <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-                Junk Removal Escondido CA | North County's Reliable Choice
-                <span className="block text-blue-300 mt-2 text-3xl md:text-4xl">
-                  Fast, Reliable, and Local Junk Hauling Throughout Escondido and North County Inland
-                </span>
+            <div className="max-w-4xl mx-auto text-center">
+              <div className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-6">
+                #1 Escondido Junk Removal Service
+              </div>
+
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+                Junk Removal Escondido CA
               </h1>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href="tel:+16197500114"
-                  className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors"
-                >
-                  📞 Call (619) 750-0114
-                </a>
-                <a
-                  href="/contact"
-                  className="bg-white hover:bg-gray-100 text-blue-700 px-8 py-4 rounded-lg font-bold text-lg transition-colors"
-                >
-                  Request Your Free Quote
-                </a>
-              </div>
+
+              <p className="text-xl md:text-2xl mb-8 text-blue-100">
+                North County's Reliable Choice • Hidden Meadows to Downtown • Same-Day Service
+              </p>
+
+              <p className="text-lg mb-8">
+                ✓ North County Experts ✓ Same-Day Hauling ✓ Licensed & Insured
+              </p>
             </div>
           </div>
         </section>
 
-        {/* Feature Cards */}
-        <section className="py-12 bg-white">
+        {/* Main Content with Sidebar */}
+        <section className="py-12 bg-gray-50">
           <div className="container mx-auto px-4">
-            <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              <div className="text-center p-6 bg-gray-50 rounded-lg shadow-md">
-                <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold mb-2">Same-Day Service</h3>
-                <p className="text-gray-600">Call before 2 PM for guaranteed same-day junk removal in Escondido</p>
-              </div>
+            <div className="max-w-7xl mx-auto">
+              <div className="grid lg:grid-cols-3 gap-8">
 
-              <div className="text-center p-6 bg-gray-50 rounded-lg shadow-md">
-                <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold mb-2">Locally Owned</h3>
-                <p className="text-gray-600">North County based — not a franchise. Your money stays local.</p>
-              </div>
+                {/* Main Content - Left Column */}
+                <div className="lg:col-span-2">
+                  <div className="bg-white rounded-lg shadow-md p-8">
+                    {/* Introduction */}
+                    <h2 className="text-3xl font-bold mb-6 text-gray-900">
+                      Professional Junk Hauling Escondido CA – Hidden Meadows to Downtown
+                    </h2>
 
-              <div className="text-center p-6 bg-gray-50 rounded-lg shadow-md">
-                <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
-                  </svg>
+                    <p className="text-lg mb-4 text-gray-700">
+                      <strong>Junk removal Escondido CA</strong> serves North County's most diverse inland community. From historic downtown bungalows to sprawling Hidden Meadows estates, from San Pasqual Valley vineyard properties to dense apartment complexes along Centre City Parkway, our <strong>Escondido junk removal</strong> team navigates steep hillside driveways, agricultural access roads, and narrow downtown streets with expertise. We provide same-day <strong>junk hauling Escondido</strong> for residential cleanouts, commercial properties, and estate sales throughout the 92025, 92026, and 92027 zip codes with transparent pricing and eco-friendly disposal.
+                    </p>
+
+                    <p className="text-gray-700 mb-6">
+                      Our Escondido operation is uniquely equipped to handle the challenges of North County's largest inland city. We understand that <strong>junk pickup Escondido</strong> requires more than just hauling trucks—it demands local knowledge of hillside terrain, understanding of agricultural property access, familiarity with HOA requirements in planned communities, and the ability to work efficiently across Escondido's dramatic elevation changes and diverse property types. Whether you're clearing out a downtown apartment after tenant turnover, removing construction debris from a Hidden Meadows remodel, or handling a full estate cleanout in the historic core, our team brings the specialized experience Escondido properties demand.
+                    </p>
+
+                    {/* Neighborhoods Served */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Escondido Neighborhoods We Serve</h3>
+                    <p className="text-gray-700 mb-4">
+                      Our <strong>furniture removal Escondido</strong> service covers every corner of North County's largest inland city, from downtown historic districts to hillside communities bordering the Cleveland National Forest. We've completed thousands of <strong>trash removal Escondido</strong> jobs throughout Escondido's diverse neighborhoods, each with unique access challenges and property characteristics that inform our service approach:
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-4 mb-6">
+                      <ul className="space-y-2">
+                        <li><strong>Downtown Escondido:</strong> Historic core with narrow streets, mixed-use buildings, and older apartment complexes requiring careful navigation</li>
+                        <li><strong>Hidden Meadows:</strong> Gated hillside community with steep driveways, custom estates, and long access roads requiring extended service times</li>
+                        <li><strong>San Pasqual Valley:</strong> Rural agricultural properties, vineyards, horse properties with large-lot cleanouts and agricultural debris</li>
+                        <li><strong>Felicita Park Area:</strong> Family neighborhoods with mature landscaping, garage cleanouts, and yard waste removal needs</li>
+                      </ul>
+                      <ul className="space-y-2">
+                        <li><strong>Jesmond Dene:</strong> Semi-rural hillside homes with challenging access and estate-sized property cleanouts</li>
+                        <li><strong>North Broadway Corridor:</strong> Commercial district with business cleanouts and mixed-use property service</li>
+                        <li><strong>Mission Avenue South:</strong> Residential neighborhoods with standard access and consistent service demand</li>
+                        <li><strong>Rancho Bernardo Border:</strong> Planned communities with HOA requirements and standard suburban junk removal needs</li>
+                      </ul>
+                    </div>
+
+                    {/* Major Streets */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access</h3>
+                    <p className="text-gray-700 mb-4">
+                      Our <strong>appliance removal Escondido</strong> team knows every major thoroughfare and neighborhood street in Escondido. This local expertise matters when navigating North County's diverse terrain—steep hillside roads in Hidden Meadows, narrow downtown alleys, agricultural access roads in San Pasqual Valley, and busy commercial corridors. We plan each <strong>estate cleanout Escondido</strong> job with detailed route mapping to ensure our trucks can access your property efficiently:
+                    </p>
+                    <ul className="grid md:grid-cols-2 gap-2 mb-6">
+                      <li>• <strong>Centre City Parkway:</strong> Main commercial spine with peak congestion during rush hours</li>
+                      <li>• <strong>Valley Parkway (Highway 78):</strong> East-west connector requiring morning traffic planning</li>
+                      <li>• <strong>El Norte Parkway:</strong> Northern access with hillside neighborhood connections</li>
+                      <li>• <strong>Escondido Boulevard:</strong> North-south arterial through downtown core</li>
+                      <li>• <strong>Auto Park Way:</strong> Commercial district with business access requirements</li>
+                      <li>• <strong>Bear Valley Parkway:</strong> Eastern corridor to rural properties and vineyards</li>
+                      <li>• <strong>Broadway:</strong> Historic downtown with limited parking and narrow streets</li>
+                      <li>• <strong>Mission Avenue:</strong> Residential corridor with consistent neighborhood access</li>
+                    </ul>
+
+                    {/* Local Landmarks */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Escondido Landmarks</h3>
+                    <p className="text-gray-700 mb-4">
+                      We provide <strong>commercial junk removal Escondido</strong> service near all major landmarks. These familiar reference points help us navigate quickly to your property and provide accurate arrival time estimates throughout this geographically expansive North County city:
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-2 mb-6">
+                      <ul className="space-y-1">
+                        <li>• California Center for the Arts—downtown cultural hub</li>
+                        <li>• Palomar Medical Center—major healthcare facility</li>
+                        <li>• Westfield North County—regional shopping destination</li>
+                        <li>• Stone Brewing World Bistro—craft brewery landmark</li>
+                        <li>• Escondido City Hall—civic center location</li>
+                        <li>• San Diego Zoo Safari Park—eastern boundary landmark</li>
+                      </ul>
+                      <ul className="space-y-1">
+                        <li>• Felicita Park—central recreation area</li>
+                        <li>• Lake Dixon & Daley Ranch—outdoor recreation areas</li>
+                        <li>• San Pasqual Battlefield—historic site reference</li>
+                        <li>• Grape Day Park—downtown historic district</li>
+                        <li>• Hidden Meadows Community Center—hillside hub</li>
+                        <li>• Escondido High School—central educational landmark</li>
+                      </ul>
+                    </div>
+
+                    {/* Traffic & Timing */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Traffic & Service Timing</h3>
+                    <p className="text-gray-700 mb-4">
+                      Escondido's inland location and commuter traffic patterns affect <strong>same day junk removal Escondido</strong> timing significantly. Our dispatch team actively monitors North County traffic patterns and coordinates with you to schedule service windows that minimize wait times and maximize efficiency:
+                    </p>
+                    <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
+                      <li><strong>Morning commute (7-9 AM):</strong> Valley Parkway and Centre City Parkway experience heavy eastbound traffic as commuters head toward inland employment centers. We schedule early morning (6-7 AM) starts or wait until after 9:30 AM for properties requiring these corridor crossings.</li>
+                      <li><strong>Afternoon commute (3:30-6 PM):</strong> Westbound traffic clogs Valley Parkway as workers return from Rancho Bernardo and Poway. Downtown Escondido sees increased congestion around Escondido Boulevard and Broadway. We prioritize mid-morning to early afternoon service windows for optimal access.</li>
+                      <li><strong>Safari Park events:</strong> Special events at San Diego Zoo Safari Park create significant traffic on Via Rancho Parkway and eastbound Valley Parkway, particularly on summer weekends. We coordinate around these events when serving eastern Escondido and San Pasqual Valley properties.</li>
+                      <li><strong>Downtown events:</strong> Friday night Cruisin' Grand car shows (April-September) close portions of downtown Grand Avenue 5-9 PM. We route around downtown core during these popular weekly events or schedule service earlier in the day for nearby properties.</li>
+                    </ul>
+
+                    {/* Weather */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Inland Climate Considerations</h3>
+                    <p className="text-gray-700 mb-6">
+                      Escondido's inland North County climate impacts junk removal year-round with temperature extremes and fire weather risks that coastal areas don't experience. Summer temperatures regularly exceed 95°F, making outdoor junk accumulation a pest attraction and odor concern—decomposing materials in garages and yards create urgent removal needs faster than in cooler coastal zones. Our crews schedule early morning starts (6-8 AM) during heat waves to complete physical hauling work during cooler hours, protecting both crew safety and preventing heat damage to items being transported. Winter brings Escondido's limited but intense rainfall, with December-February storms causing drainage issues in hillside neighborhoods, flash flooding in low-lying areas near creek beds, and significant landscape debris from wind and water damage. Most critically, Escondido faces elevated wildfire risk during Santa Ana wind events (September-December), when hillside communities like Hidden Meadows and Jesmond Dene require aggressive brush clearance and defensible space maintenance—we prioritize fire season debris removal for properties in high-risk zones, coordinating with Cal Fire guidelines and homeowner HOA requirements.
+
+                    {/* What We Remove */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Escondido</h3>
+                    <p className="text-gray-700 mb-4">
+                      Our <strong>junk removal Escondido CA</strong> service handles the unique mix of items common to North County inland living—from fire-season brush and agricultural debris to estate cleanouts and commercial property clearances. We remove everything from single items to complete property cleanouts:
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-4 mb-6">
+                      <div>
+                        <h4 className="font-bold mb-2">Furniture & Household</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Sofas, couches, sectionals for estate sales</li>
+                          <li>• Mattresses, box springs, bed frames from turnovers</li>
+                          <li>• Dressers, tables, chairs from downsizing moves</li>
+                          <li>• Desks, bookshelves, cabinets for garage cleanouts</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h4 className="font-bold mb-2">Appliances & Electronics</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Refrigerators, washers, dryers from rental properties</li>
+                          <li>• Dishwashers, stoves, microwaves needing replacement</li>
+                          <li>• TVs, computers, electronics from tech upgrades</li>
+                          <li>• Air conditioners, heaters, swamp coolers</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h4 className="font-bold mb-2">Outdoor & Yard Items</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Brush, branches, fire clearance debris</li>
+                          <li>• Patio furniture, BBQ grills, outdoor equipment</li>
+                          <li>• <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">Hot tubs and spas</a> for backyard renovations</li>
+                          <li>• Fencing materials, landscaping waste, tree trimmings</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h4 className="font-bold mb-2">Cleanouts & Debris</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Estate & garage cleanouts for entire properties</li>
+                          <li>• Storage unit contents and accumulated items</li>
+                          <li>• <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">Construction debris</a> from home remodels</li>
+                          <li>• Commercial property and business cleanouts</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    {/* How Our Service Works */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">How Our Escondido Junk Removal Service Works</h3>
+                    <div className="bg-blue-50 rounded-lg p-6 mb-6">
+                      <ol className="space-y-3 text-gray-700">
+                        <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe what you need removed and your Escondido location. We'll provide estimated pricing based on volume and schedule your service window.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for same-day <strong>junk pickup Escondido</strong> service throughout North County. We coordinate arrival times around traffic patterns and your schedule preferences.</li>
+                        <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives in clearly marked trucks during your scheduled window. We assess items for removal and provide a final quote before starting work—no hidden fees or surprises.</li>
+                        <li><strong>4. We Load & Haul Everything:</strong> Our team does all lifting, loading, and hauling. We protect floors and doorways, navigate stairs and hillside properties, and complete removal efficiently. You simply point—we handle the rest.</li>
+                        <li><strong>5. Eco-Friendly Disposal:</strong> We sort items for donation, recycling, and responsible disposal. Usable furniture goes to local charities, recyclables to proper facilities, and only true trash to landfill as last resort.</li>
+                        <li><strong>6. Clean Sweep & Payment:</strong> We sweep the area clean after removal and collect payment. Most jobs are completed in under two hours from arrival to departure.</li>
+                      </ol>
+                    </div>
+
+                    {/* Why Choose Us */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Cleaners for Escondido Junk Removal</h3>
+                    <ul className="space-y-3 mb-6">
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>North County Expertise:</strong> We navigate Escondido's challenging terrain with ease—steep hillside driveways in Hidden Meadows, narrow downtown streets, agricultural property access in San Pasqual Valley, and everything in between. Our crews have completed thousands of Escondido junk removal jobs and understand the specific access challenges of North County's diverse property types.</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>Same-Day Service Available:</strong> Call before noon for same-day junk removal throughout Escondido and the 92025, 92026, 92027 zip codes. Our dispatch team actively monitors North County traffic and schedules arrival windows that work around commuter congestion, ensuring reliable service even during busy periods.</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>Transparent Pricing:</strong> No hidden fees, no surprises. Upfront quotes based on volume with all labor, hauling, and disposal included. Hillside access or downtown parking challenges don't change our rates—you pay for volume removed, not time or access difficulty.</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>Licensed & Insured:</strong> Fully licensed California junk removal company with comprehensive liability insurance. We carry proper coverage for challenging property access, including protection for steep driveways, hillside terrain, and properties requiring extended access routes.</span>
+                      </li>
+                    </ul>
+
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-2">Licensed & Insured</h3>
-                <p className="text-gray-600">Full protection for your property and complete peace of mind</p>
+
+                {/* Sidebar - Right Column */}
+                <div className="lg:col-span-1">
+                  <LocationSidebarCTA
+                    locationName="Escondido"
+                    nearbyLocations={nearbyLocations}
+                  />
+                </div>
+
               </div>
             </div>
           </div>
         </section>
 
-        {/* Main Content Section */}
-        <section className="py-16">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <div className="prose prose-lg max-w-none">
-                <h2 className="text-4xl font-bold text-gray-900 mb-6">Trusted Junk Removal Escondido CA Residents Rely On</h2>
+        {/* Pricing Section */}
+        <LocationPricingSection
+          locationName="Escondido"
+          contextParagraph="Estate cleanouts and garage clearances throughout Escondido—from Hidden Meadows hillside homes to downtown properties—all use the same transparent pricing. No hidden fees, same-day service available."
+        />
 
-                <p className="text-lg text-gray-700 mb-6">
-                  Locally owned, licensed, and insured — Escondido's trusted choice for cleanouts, furniture removal, and property-wide junk hauling with transparent pricing and same-day service available.
-                </p>
+        {/* Trust Signals Section */}
+        <TrustSignalsSection locationName="Escondido" />
 
-                <p className="text-lg text-gray-700 mb-6">
-                  From downtown Escondido homes to hillside estates in Hidden Meadows, our Escondido junk removal team provides full-service hauling that's fast, affordable, and handled with care.
-                </p>
-
-                <p className="text-lg mb-6">
-                  We remove everything from old furniture and appliances to renovation debris and yard waste — always disposing responsibly in accordance with San Diego County regulations.
-                </p>
-
-                <p className="text-lg mb-8">
-                  Our crews are known for professionalism and respect for your property. Whether you need a one-item pickup or a full estate cleanout, we make junk removal simple and stress-free.
-                </p>
-
-                <h3 className="text-2xl font-bold mt-8 mb-4">Escondido Service Areas & Neighborhood Coverage</h3>
-                <p className="text-lg mb-4">
-                  We proudly offer junk pickup Escondido services across all neighborhoods, including:
-                </p>
-
-                <div className="grid md:grid-cols-2 gap-4 mb-8 bg-blue-50 rounded-lg p-6">
-                  <ul className="space-y-2">
-                    <li className="flex items-start">
-                      <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                      </svg>
-                      <div>
-                        <strong>Downtown Escondido</strong> – Historic homes, retail, and apartment cleanouts
-                      </div>
-                    </li>
-                    <li className="flex items-start">
-                      <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                      </svg>
-                      <div>
-                        <strong>Midway & Mission Avenue Corridor</strong> – Commercial junk hauling and small business cleanouts
-                      </div>
-                    </li>
-                    <li className="flex items-start">
-                      <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                      </svg>
-                      <div>
-                        <strong>Felicita Park Area</strong> – Family homes and large-lot properties
-                      </div>
-                    </li>
-                    <li className="flex items-start">
-                      <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                      </svg>
-                      <div>
-                        <strong>San Pasqual Valley</strong> – Agricultural and rural debris removal
-                      </div>
-                    </li>
-                  </ul>
-                  <ul className="space-y-2">
-                    <li className="flex items-start">
-                      <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                      </svg>
-                      <div>
-                        <strong>Hidden Meadows & Jesmond Dene</strong> – Hillside access and estate cleanouts
-                      </div>
-                    </li>
-                    <li className="flex items-start">
-                      <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                      </svg>
-                      <div>
-                        <strong>Rancho Bernardo Border</strong> – Suburban developments and HOA neighborhoods
-                      </div>
-                    </li>
-                    <li className="flex items-start">
-                      <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                      </svg>
-                      <div>
-                        <strong>North Broadway & El Norte Parkway</strong> – Garage, yard, and storage unit cleanouts
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-
-                <p className="text-lg mb-8">
-                  No matter where you are in 92025, 92026, or 92027, Severin Cleaners provides same-day junk removal Escondido CA service tailored to your neighborhood's needs.
-                </p>
-
-                <h3 className="text-2xl font-bold mt-8 mb-4">How It Works</h3>
-                <div className="grid md:grid-cols-3 gap-6 mb-8">
-                  <div className="text-center p-4 bg-gray-50 rounded-lg">
-                    <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-3 text-xl font-bold">1</div>
-                    <h4 className="font-bold mb-2">Call or Book Online</h4>
-                    <p className="text-sm text-gray-600">Quick quote over the phone or request service online</p>
-                  </div>
-                  <div className="text-center p-4 bg-gray-50 rounded-lg">
-                    <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-3 text-xl font-bold">2</div>
-                    <h4 className="font-bold mb-2">We Arrive & Quote</h4>
-                    <p className="text-sm text-gray-600">Upfront pricing before we start — no hidden fees</p>
-                  </div>
-                  <div className="text-center p-4 bg-gray-50 rounded-lg">
-                    <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-3 text-xl font-bold">3</div>
-                    <h4 className="font-bold mb-2">We Haul It Away</h4>
-                    <p className="text-sm text-gray-600">Fast, professional removal with responsible disposal</p>
-                  </div>
-                </div>
-
-                <h3 className="text-2xl font-bold mt-8 mb-4">Driving Directions & Response Times</h3>
-                <p className="text-lg mb-4">
-                  We're based right here in North County, allowing for fast, same-day service across Escondido and surrounding communities.
-                </p>
-
-                <div className="bg-gray-50 rounded-lg p-6 mb-6">
-                  <ul className="space-y-2 text-gray-700">
-                    <li className="flex items-start">
-                      <svg className="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span><strong>10 minutes from Downtown Escondido</strong> – Quick response for apartment and office pickups</span>
-                    </li>
-                    <li className="flex items-start">
-                      <svg className="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span><strong>15 minutes from Hidden Meadows and Jesmond Dene</strong> – Larger-lot and estate service</span>
-                    </li>
-                    <li className="flex items-start">
-                      <svg className="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span><strong>20 minutes from Rancho Bernardo</strong> – Residential and commercial cleanouts</span>
-                    </li>
-                    <li className="flex items-start">
-                      <svg className="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span><strong>25 minutes from San Marcos or Valley Center</strong> – Regional coverage for connected communities</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <p className="text-lg mb-8 font-medium text-blue-900">
-                  Call before 2 PM for same-day junk removal in Escondido CA — most jobs are completed the same day you call.
-                </p>
-
-                <h3 className="text-2xl font-bold mt-8 mb-4">Local Weather & Seasonal Junk Removal Challenges</h3>
-                <p className="text-lg mb-4">
-                  Escondido's inland climate brings unique challenges for property maintenance:
-                </p>
-
-                <div className="grid md:grid-cols-2 gap-4 mb-8">
-                  <div className="bg-orange-50 rounded-lg p-4 border border-orange-200">
-                    <h4 className="font-bold mb-2 text-orange-900">☀️ Summer Heat</h4>
-                    <p className="text-gray-700">Outdoor junk piles attract pests; fast pickup prevents issues.</p>
-                  </div>
-                  <div className="bg-blue-50 rounded-lg p-4 border border-blue-200">
-                    <h4 className="font-bold mb-2 text-blue-900">🌧️ Winter Rains</h4>
-                    <p className="text-gray-700">Storm debris and fallen branches increase demand for yard waste hauling.</p>
-                  </div>
-                  <div className="bg-green-50 rounded-lg p-4 border border-green-200">
-                    <h4 className="font-bold mb-2 text-green-900">🌸 Spring Cleaning</h4>
-                    <p className="text-gray-700">Peak season for garage and attic cleanouts.</p>
-                  </div>
-                  <div className="bg-red-50 rounded-lg p-4 border border-red-200">
-                    <h4 className="font-bold mb-2 text-red-900">🔥 Fire Season</h4>
-                    <p className="text-gray-700">Brush clearance and debris removal help maintain defensible space in hillside neighborhoods.</p>
-                  </div>
-                </div>
-
-                <p className="text-lg mb-8">
-                  Our trucks and crews operate year-round — we adjust to local weather to keep your property clear, safe, and compliant.
-                </p>
-
-                <h3 className="text-2xl font-bold mt-8 mb-4">Major Employers & Properties We Serve in Escondido</h3>
-                <p className="text-lg mb-4">
-                  We partner with homeowners, contractors, and property managers — as well as major local institutions, including:
-                </p>
-
-                <div className="bg-gray-50 rounded-lg p-6 mb-6">
-                  <ul className="list-disc pl-6 space-y-1 text-gray-700">
-                    <li>Palomar Medical Center – Facility and staff housing cleanouts</li>
-                    <li>Escondido Union School District – Maintenance and remodeling debris removal</li>
-                    <li>California Center for the Arts – Event cleanup and backstage hauling</li>
-                    <li>Stone Brewing World Bistro & Gardens – Commercial junk hauling and recycling</li>
-                    <li>Local property management companies along East Valley Parkway and Centre City Parkway</li>
-                  </ul>
-                </div>
-
-                <p className="text-lg mb-8">
-                  Our junk hauling Escondido CA crews are trained to work efficiently on both residential and commercial properties — with full insurance coverage and professional safety standards.
-                </p>
-
-                <h3 className="text-2xl font-bold mt-8 mb-4">Common Junk Removal Projects in Escondido</h3>
-
-                <div className="grid md:grid-cols-2 gap-6 mb-8">
-                  <div>
-                    <h4 className="text-xl font-bold mb-3 text-blue-600">Residential Services</h4>
-                    <ul className="list-disc pl-6 space-y-1 text-gray-700">
-                      <li>Furniture and mattress removal</li>
-                      <li>Appliance hauling and recycling</li>
-                      <li>Yard waste, fencing, and storm debris cleanup</li>
-                      <li>Garage and storage unit clearouts</li>
-                      <li>Estate and downsizing cleanouts</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="text-xl font-bold mb-3 text-blue-600">Commercial & Construction Services</h4>
-                    <ul className="list-disc pl-6 space-y-1 text-gray-700">
-                      <li>Office furniture and equipment removal</li>
-                      <li>Contractor and remodel debris hauling</li>
-                      <li>Retail and restaurant cleanouts</li>
-                      <li>Warehouse and industrial property clearing</li>
-                      <li>Tenant move-out and eviction cleanups</li>
-                    </ul>
-                  </div>
-                </div>
-
-                <p className="text-lg mb-8">
-                  Every job is handled responsibly, with an emphasis on recycling and donation wherever possible.
-                </p>
-
-                <h3 className="text-2xl font-bold mt-12 mb-6">Local Competitor Comparison – Why Escondido Chooses Us</h3>
-
-                <div className="overflow-x-auto mb-8">
-                  <table className="w-full border-collapse bg-white shadow-lg rounded-lg overflow-hidden">
-                    <thead>
-                      <tr className="bg-blue-600 text-white">
-                        <th className="p-4 text-left font-semibold">Feature</th>
-                        <th className="p-4 text-center font-semibold">Severin Cleaners</th>
-                        <th className="p-4 text-center font-semibold">National Franchises</th>
-                        <th className="p-4 text-center font-semibold">Independent Haulers</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr className="border-b border-gray-200">
-                        <td className="p-4 font-medium text-gray-900">Same-Day Service</td>
-                        <td className="p-4 text-center">
-                          <svg className="w-6 h-6 text-green-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                          </svg>
-                          <span className="text-sm text-gray-600 block mt-1">Guaranteed</span>
-                        </td>
-                        <td className="p-4 text-center">
-                          <span className="text-gray-500">⚠️ Limited</span>
-                        </td>
-                        <td className="p-4 text-center">
-                          <svg className="w-6 h-6 text-red-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
-                          </svg>
-                          <span className="text-sm text-gray-600 block mt-1">Unreliable</span>
-                        </td>
-                      </tr>
-                      <tr className="border-b border-gray-200 bg-gray-50">
-                        <td className="p-4 font-medium text-gray-900">Local Expertise</td>
-                        <td className="p-4 text-center">
-                          <svg className="w-6 h-6 text-green-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                          </svg>
-                          <span className="text-sm text-gray-600 block mt-1">North County Based</span>
-                        </td>
-                        <td className="p-4 text-center">
-                          <svg className="w-6 h-6 text-red-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
-                          </svg>
-                          <span className="text-sm text-gray-600 block mt-1">Centralized</span>
-                        </td>
-                        <td className="p-4 text-center">
-                          <span className="text-gray-500">⚠️ Varies</span>
-                        </td>
-                      </tr>
-                      <tr className="border-b border-gray-200">
-                        <td className="p-4 font-medium text-gray-900">Transparent Pricing</td>
-                        <td className="p-4 text-center">
-                          <svg className="w-6 h-6 text-green-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                          </svg>
-                          <span className="text-sm text-gray-600 block mt-1">Upfront, Flat Rate</span>
-                        </td>
-                        <td className="p-4 text-center">
-                          <span className="text-gray-500">⚠️ Add-Ons</span>
-                        </td>
-                        <td className="p-4 text-center">
-                          <svg className="w-6 h-6 text-red-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
-                          </svg>
-                          <span className="text-sm text-gray-600 block mt-1">No Guarantee</span>
-                        </td>
-                      </tr>
-                      <tr className="border-b border-gray-200 bg-gray-50">
-                        <td className="p-4 font-medium text-gray-900">Licensed & Insured</td>
-                        <td className="p-4 text-center">
-                          <svg className="w-6 h-6 text-green-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                          </svg>
-                          <span className="text-sm text-gray-600 block mt-1">Yes</span>
-                        </td>
-                        <td className="p-4 text-center">
-                          <svg className="w-6 h-6 text-green-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                          </svg>
-                          <span className="text-sm text-gray-600 block mt-1">Yes</span>
-                        </td>
-                        <td className="p-4 text-center">
-                          <svg className="w-6 h-6 text-red-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
-                          </svg>
-                          <span className="text-sm text-gray-600 block mt-1">Usually Not</span>
-                        </td>
-                      </tr>
-                      <tr className="bg-gray-50">
-                        <td className="p-4 font-medium text-gray-900">Professional Crews</td>
-                        <td className="p-4 text-center">
-                          <svg className="w-6 h-6 text-green-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                          </svg>
-                          <span className="text-sm text-gray-600 block mt-1">Uniformed & Vetted</span>
-                        </td>
-                        <td className="p-4 text-center">
-                          <span className="text-gray-500">⚠️ Inconsistent</span>
-                        </td>
-                        <td className="p-4 text-center">
-                          <svg className="w-6 h-6 text-red-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
-                          </svg>
-                          <span className="text-sm text-gray-600 block mt-1">Unverified</span>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-
-                <p className="text-lg mb-8">
-                  We're not a franchise — we're local, fully insured, and familiar with Escondido's roads, traffic patterns, and city regulations. That means faster service and fewer surprises.
-                </p>
-
-                <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Cleaners for Junk Removal Escondido CA</h3>
-
-                <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 mb-8">
-                  <ul className="space-y-3 text-gray-700">
-                    <li className="flex items-start">
-                      <svg className="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span><strong>Same-Day Pickup Available:</strong> Call before 2 PM for same-day service.</span>
-                    </li>
-                    <li className="flex items-start">
-                      <svg className="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span><strong>Transparent Pricing:</strong> $100–$495 based on load size — no hidden fees.</span>
-                    </li>
-                    <li className="flex items-start">
-                      <svg className="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span><strong>North County Expertise:</strong> We navigate Hidden Meadows hillside roads, San Pasqual Valley agricultural properties, and downtown Escondido with ease.</span>
-                    </li>
-                    <li className="flex items-start">
-                      <svg className="w-6 h-6 text-green-500 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span><strong>Professional Crews:</strong> Friendly, trained, and background-checked staff.</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="bg-blue-50 p-6 rounded-lg mt-8">
-                  <h3 className="text-2xl font-bold mb-4 text-blue-900">Book Your Junk Removal in Escondido CA Today</h3>
-                  <p className="text-lg mb-4">
-                    From hillside estates in Hidden Meadows to businesses along Valley Parkway, Severin Cleaners delivers reliable, professional junk removal Escondido CA residents and business owners trust.
-                  </p>
-                  <div className="flex flex-col sm:flex-row gap-4">
-                    <a
-                      href="tel:+16197500114"
-                      className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg text-center font-bold transition-colors"
-                    >
-                      📞 Call (619) 750-0114
-                    </a>
-                    <a
-                      href="/contact"
-                      className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg text-center font-bold transition-colors"
-                    >
-                      Request Your Free Quote Today
-                    </a>
-                  </div>
-                  <p className="text-sm text-gray-600 mt-3 text-center">
-                    Serving all of Escondido — including Downtown, Felicita Park, Hidden Meadows, and Rancho Bernardo
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
+        {/* FAQ Section */}
         <EscondidoFAQSection />
 
         {/* Related Services */}
-        <section className="py-12 bg-white">
+        <section className="py-12 bg-gray-50">
           <div className="container mx-auto px-4">
-            <h3 className="text-2xl font-bold text-center mb-8">Related San Diego Services</h3>
+            <h3 className="text-2xl font-bold text-center mb-8">Related North County Services</h3>
             <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              <a href="/furniture-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
-                <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal</h4>
-                <p className="text-gray-600">Professional furniture and couch removal with same-day service</p>
+              <a href="/furniture-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
+                <p className="text-gray-600">Sofas, mattresses, and bulky furniture removal throughout Escondido</p>
               </a>
-              <a href="/commercial-junk-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
-                <h4 className="font-semibold text-lg mb-2 text-blue-600">Commercial Junk Removal</h4>
-                <p className="text-gray-600">Office and business cleanouts for North County companies</p>
+              <a href="/appliance-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Appliance Removal San Diego</h4>
+                <p className="text-gray-600">Fridges, washers, dryers, and appliance disposal for North County</p>
               </a>
-              <a href="/appliance-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
-                <h4 className="font-semibold text-lg mb-2 text-blue-600">Appliance Removal</h4>
-                <p className="text-gray-600">Safe removal of refrigerators, washers, and all appliances</p>
+              <a href="/estate-cleanout-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Estate Cleanout San Diego</h4>
+                <p className="text-gray-600">Complete property cleanouts for estates and downsizing moves</p>
               </a>
             </div>
           </div>
         </section>
       </main>
 
-        <Footer />
-      </div>
-    </>
+      <Footer />
+    </div>
   );
 }

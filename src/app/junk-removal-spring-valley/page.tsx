@@ -1,9 +1,18 @@
 import { Metadata } from 'next';
+import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SpringValleyFAQSection from "./SpringValleyFAQSection";
-import SchemaMarkup from "@/components/SchemaMarkup";
+import TrustSignalsSection from "@/components/TrustSignalsSection";
+import LocationPricingSection from "@/components/LocationPricingSection";
+import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+});
 
 export const metadata: Metadata = {
   title: "Spring Valley Junk Removal | Hillside Property Experts | (619) 750-0114",
@@ -13,57 +22,35 @@ export const metadata: Metadata = {
     title: "Spring Valley Junk Removal | Affordable Family & Hillside Specialists",
     description: "Professional Spring Valley junk removal for East County families, hillside homes & apartments. Same-day junk hauling Spring Valley, eco-friendly disposal.",
     url: "https://severincleaners.com/junk-removal-spring-valley",
+    siteName: 'Severin Cleaners',
+    images: [{
+      url: 'https://severincleaners.com/og-image.jpg',
+      width: 1200,
+      height: 630,
+    }],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Spring Valley Junk Removal | Affordable Family & Hillside Specialists",
+    description: "Professional Spring Valley junk removal for East County families, hillside homes & apartments. Same-day junk hauling Spring Valley, eco-friendly disposal.",
+    images: ['https://severincleaners.com/og-image.jpg'],
   },
   alternates: {
     canonical: "https://severincleaners.com/junk-removal-spring-valley",
   },
-};
-
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does junk removal cost in Spring Valley?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our Spring Valley junk removal pricing is transparent and affordable, designed with East County families in mind. We offer upfront pricing with no hidden fees: Single Item Pickup starting at $100, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. Most residential jobs range from $249-$429, with flexible payment options for families. Hillside properties may have additional access coordination. We provide family-friendly rates for apartments, mobile homes, and multi-family properties throughout Dictionary Hill and Casa de Oro."
-      }
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
     },
-    {
-      "@type": "Question",
-      "name": "Do you provide hillside junk hauling in Spring Valley?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes! We specialize in hillside property junk pickup Spring Valley services, especially in Dictionary Hill and Casa de Oro areas. Our team has specialized equipment and experience handling challenging terrain, steep driveways, and unique access situations. We're experts at safely navigating hillside properties throughout East County."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you offer same-day junk pickup for apartments and mobile homes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes! We provide fast Spring Valley junk removal service, typically offering next-day service with same-day available when you call before 2 PM for apartments, mobile home parks, and multi-family properties. Our team works efficiently with property managers and understands the unique requirements of rental properties. We coordinate with building management and respect community guidelines for all trash removal Spring Valley projects."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you handle large family cleanouts and estate junk removal?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, while we're a professional junk removal Spring Valley company, we excel at large family cleanouts and estate property junk removal. Our core service is hauling away unwanted items, furniture, and debris from inherited homes and multi-generational households. Our compassionate junk hauling Spring Valley team understands the sensitivity required when families are dealing with estate transitions or downsizing situations. We efficiently remove and haul away items while working respectfully with families during difficult times in East County communities. We focus on the junk removal aspect, making the physical cleanout process smooth and stress-free."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are your junk removal services eco-friendly in East County?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. We handle all items in accordance with San Diego County and East County regulations. Our team recycles metals, electronics, and materials through certified facilities, and donates usable furniture to local charities when appropriate."
-      }
-    }
-  ]
+  },
 };
 
 export default function JunkRemovalSpringValleyPage() {
@@ -80,371 +67,280 @@ export default function JunkRemovalSpringValleyPage() {
     { name: "Spring Valley Junk Removal", url: "https://severincleaners.com/junk-removal-spring-valley" },
   ]);
 
-  const combinedSchema = {
-    "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema, faqSchema],
-  };
+  const nearbyLocations = [
+    { name: "La Mesa", slug: "la-mesa" },
+    { name: "Lemon Grove", slug: "lemon-grove" },
+    { name: "El Cajon", slug: "el-cajon" },
+    { name: "Chula Vista", slug: "chula-vista" },
+  ];
 
   return (
-    <>
-      <SchemaMarkup schema={combinedSchema} />
-      <div className="min-h-screen bg-background">
-        <Header />
+    <div className={`${inter.variable} font-sans`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+
+      <Header />
+
       <main>
         {/* Hero Section */}
-        <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center text-white">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Spring Valley Junk Removal | Hillside Property Experts
-              </h1>
-              <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                Professional junk hauling for Dictionary Hill, Casa de Oro, and Sweetwater Reservoir neighborhoods
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href="tel:+16197500114"
-                  className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors"
-                >
-                  CALL NOW: (619) 750-0114
-                </a>
-                <a
-                  href="/contact"
-                  className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-bold transition-colors"
-                >
-                  Get Spring Valley Quote
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Service Features */}
-        <section className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
-              Why Spring Valley Residents Choose Severin Cleaners
-            </h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-                <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold mb-2">Affordable Family Pricing</h3>
-                <p className="text-gray-600">Budget-friendly rates designed for East County families and hillside properties.</p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-                <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold mb-2">Fast Response Service</h3>
-                <p className="text-gray-600">Quick response throughout Spring Valley - from Dictionary Hill to Casa de Oro. <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">Same-day pickup</a> available when you call before 2 PM.</p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-                <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2v16z"></path>
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold mb-2">Hillside Property Experts</h3>
-                <p className="text-gray-600">Specialized equipment and experience for challenging terrain and steep driveways.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Detailed Content */}
-        <section className="py-16 bg-white">
+        <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-24">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl font-bold text-gray-900 mb-8">
-                Affordable Spring Valley San Diego Junk Removal for East County Families
-              </h2>
-              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                When East County families need reliable <strong>Spring Valley junk removal</strong> services, Severin Cleaners delivers affordable solutions for hillside homes, apartments, and multi-family properties. Our experienced team provides fast <strong>junk hauling Spring Valley</strong> (including <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a> when you call before 2 PM) with transparent pricing that works for family budgets.
+              <div className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-6">
+                #1 Spring Valley Junk Removal Service
+              </div>
+
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+                Spring Valley Junk Removal
+              </h1>
+
+              <p className="text-xl md:text-2xl mb-8 text-blue-100">
+                Hillside Property Experts • East County Family Service • Same-Day Available
               </p>
-              <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                From Dictionary Hill to Casa de Oro neighborhoods, we specialize in <strong>trash removal Spring Valley</strong> for challenging hillside properties, mobile home parks, and apartment complexes. Our reliable service supports multi-generational households and rental properties throughout East County. We also serve nearby communities including <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a>, <a href="/junk-removal-lemon-grove" className="text-blue-600 hover:underline">Lemon Grove</a>, and <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>.
+
+              <p className="text-lg mb-8">
+                ✓ Hillside Access Specialists ✓ Same-Day Hauling ✓ Licensed & Insured
               </p>
             </div>
           </div>
         </section>
 
-        {/* Local Areas */}
-        <section className="py-16 bg-gray-50">
+        {/* Main Content with Sidebar */}
+        <section className="py-12 bg-gray-50">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
-              Junk Hauling in Spring Valley Hillside Homes & East County Properties
-            </h2>
+            <div className="max-w-7xl mx-auto">
+              <div className="grid lg:grid-cols-3 gap-8">
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-white rounded-xl p-6 shadow-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Dictionary Hill Area</h3>
-                <ul className="text-gray-700 space-y-2 mb-4">
-                  <li>• Hillside homes and steep driveways</li>
-                  <li>• Custom-built properties with unique access</li>
-                  <li>• Multi-level home cleanouts</li>
-                  <li>• Scenic property junk removal</li>
-                </ul>
-                <a href="tel:+16197500114" className="text-green-600 font-semibold hover:text-green-700">
-                  Call for Dictionary Hill Service →
-                </a>
-              </div>
+                {/* Main Content - Left Column */}
+                <div className="lg:col-span-2">
+                  <div className="bg-white rounded-lg shadow-md p-8">
 
-              <div className="bg-white rounded-xl p-6 shadow-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Casa de Oro–Mount Helix</h3>
-                <ul className="text-gray-700 space-y-2 mb-4">
-                  <li>• <a href="/estate-cleanout-san-diego" className="text-green-600 hover:text-green-700">Estate cleanouts</a> for family properties</li>
-                  <li>• Multi-generational household cleanouts</li>
-                  <li>• Inherited home junk removal</li>
-                  <li>• Family downsizing assistance</li>
-                </ul>
-                <a href="tel:+16197500114" className="text-green-600 font-semibold hover:text-green-700">
-                  Call for Casa de Oro Service →
-                </a>
-              </div>
+                    {/* Introduction */}
+                    <h2 className="text-3xl font-bold mb-6 text-gray-900">
+                      Professional Junk Hauling Spring Valley – Dictionary Hill to Casa de Oro
+                    </h2>
 
-              <div className="bg-white rounded-xl p-6 shadow-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Jamacha Boulevard Corridor</h3>
-                <ul className="text-gray-700 space-y-2 mb-4">
-                  <li>• Apartment and condo complexes</li>
-                  <li>• Mobile home park services</li>
-                  <li>• <a href="/furniture-removal-san-diego" className="text-green-600 hover:text-green-700">Furniture removal</a> for rentals</li>
-                  <li>• Retail space cleanouts</li>
-                </ul>
-                <a href="tel:+16197500114" className="text-green-600 font-semibold hover:text-green-700">
-                  Call for Jamacha Boulevard Service →
-                </a>
-              </div>
-            </div>
+                    <p className="text-lg mb-4 text-gray-700">
+                      <strong>Spring Valley junk removal</strong> serves a diverse East County community known for hillside homes, family neighborhoods, and multi-family properties. From panoramic-view homes in Dictionary Hill to established family areas near Casa de Oro, our <strong>junk hauling Spring Valley</strong> team handles the unique access challenges of this varied landscape. We provide same-day <strong>trash removal Spring Valley</strong> for hillside properties, apartments, and family homes throughout the 91977 and 91978 areas with transparent pricing and eco-friendly disposal.
+                    </p>
 
-            <div className="mt-12 bg-green-50 rounded-xl p-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">
-                Sweetwater Reservoir & Surrounding Areas
-              </h3>
-              <p className="text-gray-700 text-center mb-6">
-                Serving all Spring Valley neighborhoods including mobile home communities, apartment complexes, and hillside properties near Sweetwater Reservoir with specialized access solutions.
-              </p>
-              <div className="text-center">
-                <a
-                  href="tel:+16197500114"
-                  className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-bold transition-colors"
-                >
-                  📞 Call for Reservoir Area Service
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
+                    <p className="text-gray-700 mb-6">
+                      Our Spring Valley operation is uniquely equipped to handle properties ranging from steep hillside driveways to multi-family apartment complexes. We understand that <strong>Spring Valley San Diego junk removal</strong> requires specialized knowledge of challenging terrain, narrow street access, and the diverse mix of property types that characterize this East County community. Whether you're clearing accumulated items from a hillside home's garage, removing furniture from an apartment complex near Jamacha Boulevard, or handling estate cleanouts in Casa de Oro, our team brings the expertise and equipment East County's varied properties demand.
+                    </p>
 
-        {/* Services */}
-        <section className="py-16 bg-white">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
-              Apartment & Mobile Home Junk Pickup in Spring Valley
-            </h2>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-              <div className="space-y-6">
-                <h3 className="text-2xl font-bold text-gray-900">Family & Hillside Properties</h3>
-                <div className="space-y-4">
-                  <div className="flex items-start gap-3">
-                    <svg className="w-6 h-6 text-green-500 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                    <div>
-                      <h4 className="font-semibold text-gray-900">Hillside home access solutions</h4>
-                      <p className="text-gray-600 text-sm">Specialized equipment for steep driveways and challenging terrain</p>
+                    {/* Neighborhoods Served */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Spring Valley Neighborhoods We Serve</h3>
+                    <p className="text-gray-700 mb-4">
+                      Our <strong>junk removal Spring Valley</strong> service covers every corner of this extensive East County community. We've completed thousands of junk removal jobs throughout Spring Valley's diverse neighborhoods, each with unique terrain and access characteristics:
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-4 mb-6">
+                      <ul className="space-y-2">
+                        <li><strong>Dictionary Hill:</strong> Hillside community with panoramic views, steep driveways, and challenging property access requiring specialized equipment</li>
+                        <li><strong>Casa de Oro:</strong> Established family neighborhood near Mount Helix with multi-generational homes and estate cleanout needs</li>
+                        <li><strong>Jamacha Boulevard Corridor:</strong> Mixed-use area with apartments, mobile home parks, and commercial properties along main thoroughfare</li>
+                        <li><strong>Sweetwater Reservoir Area:</strong> Properties near recreation area with boat storage, RV equipment, and outdoor gear accumulation</li>
+                      </ul>
+                      <ul className="space-y-2">
+                        <li><strong>Spring Valley Estates:</strong> Mid-century family homes with two-car garages and decades of storage accumulation patterns</li>
+                        <li><strong>Hillsdale:</strong> Hillside neighborhoods with canyon views, winding roads, and unique driveway configurations</li>
+                        <li><strong>Avocado Boulevard Area:</strong> Central corridor with apartment complexes, retail centers, and residential density</li>
+                        <li><strong>Helix/Grossmont Area:</strong> Properties near schools and colleges with student housing and seasonal turnover patterns</li>
+                      </ul>
                     </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <svg className="w-6 h-6 text-green-500 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                    <div>
-                      <h4 className="font-semibold text-gray-900">Multi-generational household cleanouts</h4>
-                      <p className="text-gray-600 text-sm">Sensitive handling of family belongings and heirlooms</p>
+
+                    {/* Major Streets */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access</h3>
+                    <p className="text-gray-700 mb-4">
+                      Our <strong>Spring Valley San Diego junk removal</strong> team knows every street, hillside approach, and access challenge in this geographically diverse area. We plan each <strong>junk pickup Spring Valley</strong> job with detailed routing:
+                    </p>
+                    <ul className="grid md:grid-cols-2 gap-2 mb-6">
+                      <li>• <strong>Jamacha Boulevard:</strong> Main north-south corridor with shopping centers, apartments, and commercial traffic</li>
+                      <li>• <strong>Bancroft Drive:</strong> Central east-west route connecting hillside neighborhoods to valley floor</li>
+                      <li>• <strong>Jamacha Road:</strong> Winding hillside connector with steep grades and canyon properties</li>
+                      <li>• <strong>Sweetwater Road:</strong> Southern boundary with recreational access and reservoir properties</li>
+                      <li>• <strong>Avocado Boulevard:</strong> Northern corridor with residential density and apartment complexes</li>
+                      <li>• <strong>Campo Road:</strong> Eastern connector linking to El Cajon and Rancho San Diego</li>
+                      <li>• <strong>Quarry Road:</strong> Hillside access with challenging terrain and multi-level homes</li>
+                      <li>• <strong>Kenwood Drive:</strong> Residential street network serving established family neighborhoods</li>
+                    </ul>
+
+                    {/* Local Landmarks */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Spring Valley Landmarks</h3>
+                    <p className="text-gray-700 mb-4">
+                      We provide <strong>junk removal Spring Valley</strong> service near all major East County landmarks. These reference points help us navigate efficiently:
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-2 mb-6">
+                      <ul className="space-y-1">
+                        <li>• Sweetwater Reservoir—recreation area and fishing destination</li>
+                        <li>• Grossmont Shopping Center—major retail hub and community anchor</li>
+                        <li>• Mount Helix Park—iconic cross landmark and panoramic viewpoint</li>
+                        <li>• Helix Charter High School—educational center and community facility</li>
+                        <li>• Spring Valley Library—central community gathering space</li>
+                        <li>• Bancroft Plaza—shopping center serving central neighborhoods</li>
+                      </ul>
+                      <ul className="space-y-1">
+                        <li>• Sweetwater Summit Regional Park—wilderness trails and open space</li>
+                        <li>• Jamacha Junction—commercial corridor and retail destination</li>
+                        <li>• Grossmont College—community college campus and student housing area</li>
+                        <li>• Spring Valley Community Center—recreation programs and events</li>
+                        <li>• Dictionary Hill Open Space—hillside preserve and trail access</li>
+                        <li>• Casa de Oro Community Park—family recreation and sports fields</li>
+                      </ul>
                     </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <svg className="w-6 h-6 text-green-500 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                    <div>
-                      <h4 className="font-semibold text-gray-900">Estate and inheritance cleanouts</h4>
-                      <p className="text-gray-600 text-sm">Compassionate service for inherited East County properties</p>
+
+                    {/* Traffic & Timing */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Traffic & Service Timing</h3>
+                    <p className="text-gray-700 mb-4">
+                      Spring Valley's position as an East County residential hub creates traffic patterns that affect <strong>junk hauling Spring Valley</strong> scheduling:
+                    </p>
+                    <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
+                      <li><strong>Weekday commute hours (6:30-8:30 AM, 4-6 PM):</strong> Jamacha Boulevard, Avocado Boulevard, and SR-94 access points experience heavy East County commuter traffic. We schedule mid-morning (9 AM-12 PM) or early afternoon (1-3 PM) windows to avoid peak congestion, particularly for hillside properties where narrow streets compound traffic delays.</li>
+                      <li><strong>Hillside access considerations:</strong> Dictionary Hill and Hillsdale properties often feature steep driveways with limited turnaround space. We coordinate advance notice for hillside jobs and plan extra time for careful navigation. Morning service (7-11 AM) works best for steep terrain before afternoon heat affects crew efficiency and equipment performance.</li>
+                      <li><strong>School schedule impacts:</strong> Grossmont Union High School District and Grossmont College academic calendars create seasonal patterns. May-June semester endings and August-September new semester starts generate apartment turnover and family garage organization surges. Book 2-3 weeks ahead during these transition periods for optimal scheduling.</li>
+                      <li><strong>Weekend recreation traffic:</strong> Sweetwater Reservoir weekend fishing and boating activity creates localized traffic Saturday-Sunday 7 AM-3 PM. Grossmont Center weekend shopping crowds congest surrounding streets 10 AM-6 PM. For properties near these attractions, early Sunday morning or weekday scheduling provides clearest access and fastest completion.</li>
+                    </ul>
+
+                    {/* Weather */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">East County Climate Considerations</h3>
+                    <p className="text-gray-700 mb-6">
+                      Spring Valley's inland East County location brings warmer temperatures than coastal areas. Summer heat (June-September) regularly reaches 85-95°F, making early morning scheduling (7-10 AM) ideal for both crew comfort and client convenience during property assessments. Hillside properties in Dictionary Hill and Hillsdale benefit from elevation cooling but create sun exposure challenges—we plan shaded loading areas when possible. The warm, dry climate accelerates outdoor item deterioration, with patio furniture, storage shed contents, and garage-stored items showing sun damage and heat warping faster than coastal properties, creating regular junk removal needs. Winter rainy season (December-February) brings occasional heavy downpours that make steep hillside driveways temporarily challenging—we maintain schedule flexibility and coordinate closely with clients when weather affects access. Spring Valley's valley floor geography creates occasional temperature inversions and morning fog (November-March) that burn off by 9-10 AM, making mid-morning starts preferable during these months for optimal visibility and safe hillside navigation.
+                    </p>
+
+                    {/* What We Remove */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Spring Valley</h3>
+                    <p className="text-gray-700 mb-4">
+                      Our <strong>Spring Valley junk removal</strong> service handles items common to East County's diverse property types:
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-4 mb-6">
+                      <div>
+                        <h4 className="font-bold mb-2">Furniture & Household</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Sofas, sectionals, recliners from family living spaces</li>
+                          <li>• Mattresses, bed frames, bedroom furniture from upgrades</li>
+                          <li>• Dining sets, tables, chairs from downsizing projects</li>
+                          <li>• Desks, office furniture, bookshelves from home offices</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h4 className="font-bold mb-2">Appliances & Electronics</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Refrigerators, freezers, washers, dryers from remodels</li>
+                          <li>• Dishwashers, stoves, microwaves during kitchen updates</li>
+                          <li>• TVs, computers, electronics from tech refreshes</li>
+                          <li>• Exercise equipment, treadmills, home gym gear</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h4 className="font-bold mb-2">Outdoor & Recreation Items</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Patio furniture, outdoor seating, BBQ grills</li>
+                          <li>• Boats, kayaks, fishing equipment from reservoir recreation</li>
+                          <li>• Bikes, sports equipment, outdoor toys</li>
+                          <li>• <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">Hot tubs and spas</a> from backyard renovations</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h4 className="font-bold mb-2">Cleanouts & Debris</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Estate cleanouts for multi-generational family properties</li>
+                          <li>• Apartment turnovers and mobile home park cleanouts</li>
+                          <li>• Garage organization and storage shed clearances</li>
+                          <li>• Construction debris from hillside home renovations</li>
+                        </ul>
+                      </div>
                     </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <svg className="w-6 h-6 text-green-500 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                    <div>
-                      <h4 className="font-semibold text-gray-900">Garage and storage area clearing</h4>
-                      <p className="text-gray-600 text-sm">Organizing and clearing family storage spaces</p>
+
+                    {/* How Our Service Works */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">How Our Spring Valley Junk Removal Service Works</h3>
+                    <div className="bg-blue-50 rounded-lg p-6 mb-6">
+                      <ol className="space-y-3 text-gray-700">
+                        <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe your items and Spring Valley location. We'll provide volume-based pricing and schedule your service window.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for same-day <strong>junk pickup Spring Valley</strong> service. We coordinate timing around traffic patterns and hillside access requirements.</li>
+                        <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives during your scheduled window. We assess items and provide final pricing before starting—no hidden fees.</li>
+                        <li><strong>4. We Load & Haul Everything:</strong> Our team handles all lifting and loading. We navigate steep driveways, protect property, and complete removal efficiently.</li>
+                        <li><strong>5. Eco-Friendly Disposal:</strong> We sort for donation, recycling, and responsible disposal. Usable items go to East County charities, recyclables to proper facilities.</li>
+                        <li><strong>6. Clean Sweep & Payment:</strong> We sweep clean after removal and collect payment. Most jobs complete in under two hours.</li>
+                      </ol>
                     </div>
+
+                    {/* Why Choose Us */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Cleaners for Spring Valley Junk Removal</h3>
+                    <ul className="space-y-3 mb-6">
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>Hillside Access Specialists:</strong> We excel at Dictionary Hill and Hillsdale terrain challenges. Our team has completed thousands of Spring Valley hillside jobs, navigating steep driveways and narrow streets efficiently. We bring appropriate equipment for challenging access situations and coordinate carefully to ensure safe, damage-free service on properties where typical haulers struggle.</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>Same-Day Service Available:</strong> Call before noon for same-day junk removal throughout Spring Valley and East County. Our dispatch monitors Jamacha Boulevard traffic and coordinates arrival windows that work around commute congestion and hillside access requirements.</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>Transparent Pricing:</strong> No hidden fees. Upfront volume-based quotes with all labor, hauling, and disposal included. Steep hillside access doesn't change our rates—you pay for volume removed. Most Spring Valley jobs range from quarter-truck to half-truck loads with clear pricing before work begins.</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>Licensed & Insured:</strong> Fully licensed California junk removal company with comprehensive liability insurance covering hillside property access, apartment complex coordination, and the diverse East County property types throughout Spring Valley.</span>
+                      </li>
+                    </ul>
+
                   </div>
                 </div>
-              </div>
 
-              <div className="space-y-6">
-                <h3 className="text-2xl font-bold text-gray-900">Apartments & Mobile Homes</h3>
-                <div className="space-y-4">
-                  <div className="flex items-start gap-3">
-                    <svg className="w-6 h-6 text-orange-500 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                    <div>
-                      <h4 className="font-semibold text-gray-900">Apartment turnover cleanouts</h4>
-                      <p className="text-gray-600 text-sm">Quick, efficient service for property managers</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <svg className="w-6 h-6 text-orange-500 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                    <div>
-                      <h4 className="font-semibold text-gray-900">Mobile home park services</h4>
-                      <p className="text-gray-600 text-sm">Respectful service for mobile home communities</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <svg className="w-6 h-6 text-orange-500 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                    <div>
-                      <h4 className="font-semibold text-gray-900">Multi-family property assistance</h4>
-                      <p className="text-gray-600 text-sm">Coordination with landlords and property management</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <svg className="w-6 h-6 text-orange-500 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                    <div>
-                      <h4 className="font-semibold text-gray-900">Tenant move-out support</h4>
-                      <p className="text-gray-600 text-sm">Helping families with affordable moving transitions</p>
-                    </div>
-                  </div>
+                {/* Sidebar - Right Column */}
+                <div className="lg:col-span-1">
+                  <LocationSidebarCTA
+                    locationName="Spring Valley"
+                    nearbyLocations={nearbyLocations}
+                  />
                 </div>
+
               </div>
-            </div>
-
-            <div className="text-center mt-12">
-              <a
-                href="tel:+16197500114"
-                className="bg-orange-500 hover:bg-orange-600 text-white px-10 py-4 rounded-lg font-bold text-xl transition-colors inline-flex items-center"
-              >
-                📞 Call (619) 750-0114 - Affordable Spring Valley Junk Removal
-              </a>
-            </div>
-          </div>
-        </section>
-
-        {/* Why Choose Us */}
-        <section className="py-16 bg-green-50">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
-              Why Spring Valley Residents Choose Us
-            </h2>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                  </svg>
-                </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-2">Affordable Family Pricing</h3>
-                <p className="text-gray-600 text-sm">Budget-friendly <strong>junk pickup Spring Valley</strong> rates for East County families</p>
-              </div>
-
-              <div className="text-center">
-                <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2v16z"></path>
-                  </svg>
-                </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-2">Hillside Property Experts</h3>
-                <p className="text-gray-600 text-sm">Specialized equipment and experience for challenging terrain</p>
-              </div>
-
-              <div className="text-center">
-                <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                  </svg>
-                </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-2"><a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">Same-Day Service</a> Available</h3>
-                <p className="text-gray-600 text-sm">Emergency <strong>trash removal Spring Valley</strong> available when you need it</p>
-              </div>
-
-              <div className="text-center">
-                <div className="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
-                  </svg>
-                </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-2">Community Focused</h3>
-                <p className="text-gray-600 text-sm">Supporting East County families and multi-generational households</p>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-xl p-8 mt-12 text-center">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                Reliable Service for Multi-Generational Households
-              </h3>
-              <p className="text-gray-700 mb-6 max-w-3xl mx-auto">
-                Understanding the unique needs of East County families, we provide respectful, affordable <strong>Spring Valley junk removal</strong> services that work for households with multiple generations, rental properties, and mobile home communities.
-              </p>
-              <a
-                href="tel:+16197500114"
-                className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors"
-              >
-                📞 Call for Family-Friendly Pricing
-              </a>
             </div>
           </div>
         </section>
 
-        {/* FAQ Section - Now using dropdown component */}
+        {/* Pricing Section */}
+        <LocationPricingSection
+          locationName="Spring Valley"
+          contextParagraph="Hillside home and apartment cleanouts throughout Spring Valley—from Dictionary Hill to Casa de Oro—all use the same transparent pricing. No hidden fees, same-day service available."
+        />
+
+        {/* Trust Signals Section */}
+        <TrustSignalsSection locationName="Spring Valley" />
+
+        {/* FAQ Section */}
         <SpringValleyFAQSection />
 
-        {/* Contact CTA */}
-        <section id="quote" className="py-16 bg-gray-900 text-white">
-          <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold mb-8">
-              Get Your Free Spring Valley Junk Removal Quote Today
-            </h2>
-            <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Professional <strong>Spring Valley junk removal</strong> with affordable pricing for East County families, hillside properties, apartments, and mobile home communities throughout Dictionary Hill and Casa de Oro.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <a
-                href="tel:+16197500114"
-                className="bg-orange-500 hover:bg-orange-600 text-white px-10 py-5 rounded-lg font-bold text-xl transition-colors inline-flex items-center justify-center"
-              >
-                📞 Call (619) 750-0114
+        {/* Related Services */}
+        <section className="py-12 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <h3 className="text-2xl font-bold text-center mb-8">Related East County Services</h3>
+            <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+              <a href="/estate-cleanout-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Estate Cleanouts San Diego</h4>
+                <p className="text-gray-600">Multi-generational family homes and inherited property transitions</p>
               </a>
-              <div className="flex flex-col items-center">
-                <span className="text-gray-400 text-sm mb-2">Email Us</span>
-                <a
-                  href="mailto:severincleaners@gmail.com"
-                  className="text-green-400 hover:text-green-300 font-semibold"
-                >
-                  severincleaners@gmail.com
-                </a>
-              </div>
+              <a href="/furniture-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
+                <p className="text-gray-600">Family home and apartment furniture disposal services</p>
+              </a>
+              <a href="/construction-debris-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Construction Debris Removal</h4>
+                <p className="text-gray-600">Hillside home renovations and remodeling cleanup</p>
+              </a>
             </div>
           </div>
         </section>
       </main>
+
       <Footer />
     </div>
-    </>
   );
 }

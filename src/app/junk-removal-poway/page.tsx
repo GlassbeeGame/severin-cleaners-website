@@ -3,7 +3,9 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PowayFAQSection from "./PowayFAQSection";
-import SchemaMarkup from "@/components/SchemaMarkup";
+import TrustSignalsSection from "@/components/TrustSignalsSection";
+import LocationPricingSection from "@/components/LocationPricingSection";
+import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 const inter = Inter({
@@ -18,7 +20,7 @@ export const metadata: Metadata = {
   keywords: 'Poway junk removal, junk hauling Poway, junk pickup Poway, trash removal Poway, Poway San Diego junk removal, ranch junk removal',
   openGraph: {
     title: 'Poway Junk Removal | Ranch & Family Home Specialists | Same-Day Service',
-    description: 'Professional Poway junk removal for ranches, equestrian properties, family homes, business parks. Large property specialists with eco-friendly service. Call (619) 750-0114.',
+    description: 'Professional Poway junk removal for ranches, family homes, business parks. Large property specialists with eco-friendly service. Call (619) 750-0114.',
     url: 'https://severincleaners.com/junk-removal-poway',
     siteName: 'Severin Cleaners',
     images: [{
@@ -32,7 +34,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Poway Junk Removal | Ranch & Family Home Specialists | Same-Day Service',
-    description: 'Professional Poway junk removal for ranches, equestrian properties, family homes, business parks. Large property specialists with eco-friendly service. Call (619) 750-0114.',
+    description: 'Professional Poway junk removal for ranches, family homes, business parks. Large property specialists with eco-friendly service. Call (619) 750-0114.',
     images: ['https://severincleaners.com/og-image.jpg'],
   },
   alternates: {
@@ -51,58 +53,11 @@ export const metadata: Metadata = {
   },
 };
 
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does junk removal cost in Poway?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our Poway junk removal pricing is transparent and upfront with no hidden fees. We offer special rates for ranch properties, large estates, and volume discounts for multi-acre cleanouts: Single Item Pickup starting at $100, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. Ranch properties and large estates may qualify for volume discounts. Most family home projects range from $349-$495. Final pricing depends on volume, property accessibility, and disposal requirements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you handle junk hauling for large ranch or equestrian properties?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, our junk hauling Poway service specializes in ranch and equestrian properties throughout Poway's rural areas. We handle barn cleanouts, arena maintenance debris, fence removal, and agricultural equipment disposal. Our team is experienced with multi-acre properties and understands the unique needs of horse facilities."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you provide same-day junk pickup in Poway?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes! We offer rapid-response junk pickup Poway service, typically providing next-day service with same-day available when you call before 2 PM for urgent needs throughout all Poway neighborhoods, from Old Poway Village to Green Valley. Our local team can respond quickly for family emergencies, ranch property issues, or time-sensitive business cleanouts."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you work with Poway Business Park offices and commercial properties?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, our trash removal Poway service includes comprehensive commercial support for Poway Business Park and local businesses. We provide office cleanouts, warehouse clearing, retail renovation debris removal, and regular commercial waste management with flexible scheduling to minimize business disruption."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are your junk removal services eco-friendly in Poway?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. We handle all items in accordance with San Diego County and Poway regulations. Our team works with local charities for donations and ensures proper handling of ranch and agricultural waste."
-      }
-    }
-  ]
-};
-
-export default function JunkremovalpowayPage() {
+export default function JunkRemovalPowayPage() {
   const serviceSchema = generateLocationServiceSchema({
     locationName: "Poway",
     serviceName: "Junk Removal",
-    description: "Professional Poway junk removal for ranches, equestrian properties, family homes, business parks. Large property specialists with eco-friendly service.",
+    description: "Professional Poway junk removal for ranches, family homes, business parks. Large property specialists with eco-friendly service.",
     url: "https://severincleaners.com/junk-removal-poway",
   });
 
@@ -112,212 +67,280 @@ export default function JunkremovalpowayPage() {
     { name: "Poway Junk Removal", url: "https://severincleaners.com/junk-removal-poway" },
   ]);
 
-  const combinedSchema = {
-    "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema, faqSchema],
-  };
+  const nearbyLocations = [
+    { name: "Rancho Santa Fe", slug: "rancho-santa-fe" },
+    { name: "Escondido", slug: "escondido" },
+    { name: "Carmel Valley", slug: "carmel-valley" },
+    { name: "Mira Mesa", slug: "mira-mesa" },
+  ];
 
   return (
-    <>
-      <SchemaMarkup schema={combinedSchema} />
-      <div className={`${inter.variable} font-sans antialiased`}>
-        <Header />
+    <div className={`${inter.variable} font-sans`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+
+      <Header />
+
       <main>
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-8">
-            <div className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-              ✓ Ranch properties and suburban family community
+        {/* Hero Section */}
+        <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-24">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto text-center">
+              <div className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-6">
+                #1 Poway Junk Removal Service
+              </div>
+
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+                Poway Junk Removal
+              </h1>
+
+              <p className="text-xl md:text-2xl mb-8 text-blue-100">
+                City in the Country • Large Property Experts • Same-Day Service
+              </p>
+
+              <p className="text-lg mb-8">
+                ✓ Ranch Property Specialists ✓ Same-Day Hauling ✓ Licensed & Insured
+              </p>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Poway Junk Removal | Ranch Property Specialists
-            </h1>
-            <div className="text-xl mb-6">
-              ⭐⭐⭐⭐⭐ 5.0 Rating • Ranch Property Experts • locally-owned Service
-            </div>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
-              <a
-                href="tel:6197500114"
-                className="btn btn-primary text-lg px-8 py-4"
-              >
-                📞 Call (619) 750-0114
-              </a>
-              <a
-                href="/contact"
-                className="btn btn-secondary text-lg px-8 py-4 hover:bg-orange-600 transition-colors duration-200"
-              >
-                Book Your Poway Junk Pickup – Save 15% Online
-              </a>
-            </div>
-            <p className="text-lg">
-              ✓ <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-Day Service</a> Available ✓ Licensed & Insured ✓ Large Property Specialists
-            </p>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Main Content */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Poway's Premier Ranch & Family Home Junk Removal Service</h2>
+        {/* Main Content with Sidebar */}
+        <section className="py-12 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <div className="max-w-7xl mx-auto">
+              <div className="grid lg:grid-cols-3 gap-8">
 
-              <p className="text-lg text-gray-700 mb-6">
-                <strong>Poway junk removal</strong> requires specialized expertise in large ranch properties, equestrian facilities, and suburban family homes. Known as "The City in the Country," Poway features diverse properties from historic Old Poway Village to modern estates in Green Valley and Twin Peaks. Our <strong>junk hauling Poway</strong> service understands the unique needs of ranch owners, equestrian enthusiasts, and growing families throughout this distinctive community.
-              </p>
+                {/* Main Content - Left Column */}
+                <div className="lg:col-span-2">
+                  <div className="bg-white rounded-lg shadow-md p-8">
 
-              <p className="text-lg text-gray-700 mb-6">
-                Whether you need <strong>junk pickup Poway</strong> for ranch equipment disposal, equestrian facility maintenance, or family home decluttering, our <strong>trash removal Poway</strong> team delivers professional service that respects both your property and Poway's rural character. From Poway Business Park commercial cleanouts to residential estate clearing, we provide comprehensive solutions for all property types.
-              </p>
+                    {/* Introduction */}
+                    <h2 className="text-3xl font-bold mb-6 text-gray-900">
+                      Professional Junk Hauling Poway – The City in the Country
+                    </h2>
 
-              <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
-                <h3 className="text-xl font-semibold text-blue-900 mb-2">Poway Service Areas</h3>
-                <ul className="text-blue-800">
-                  <li>Old Poway Village and historic downtown areas</li>
-                  <li>Rancho Bernardo and Green Valley neighborhoods</li>
-                  <li>Twin Peaks, Garden Road, and Bridlewood communities</li>
-                  <li>Poway Business Park and commercial zones</li>
-                  <li>Equestrian properties and ranch estates</li>
-                  <li>Family neighborhoods near community centers</li>
-                </ul>
-                <div className="mt-4 text-center">
-                  <p className="text-blue-700 font-semibold">📞 Call (619) 750-0114 for immediate service</p>
-                </div>
-              </div>
+                    <p className="text-lg mb-4 text-gray-700">
+                      <strong>Poway junk removal</strong> serves a unique North County community known as "The City in the Country." From multi-acre ranch properties in 4S Ranch to family neighborhoods near Lake Poway, our <strong>junk hauling Poway</strong> team handles the distinctive challenges of this sprawling 39-square-mile city. We provide same-day <strong>trash removal Poway</strong> for large estates, equestrian facilities, and suburban family homes throughout this diverse community with transparent pricing and eco-friendly disposal.
+                    </p>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Junk Hauling for Poway Ranches and Estates</h3>
-              <p className="text-lg text-gray-700 mb-6">
-                Our <strong>junk hauling Poway</strong> service specializes in large property cleanouts, ranch maintenance, and equestrian facility management. We understand the scale of ranch properties, from multi-acre estates to horse facilities, and provide equipment and expertise to handle any size project. Our <strong>Poway junk removal</strong> team respects the rural lifestyle while delivering efficient, professional service.
-              </p>
+                    <p className="text-gray-700 mb-6">
+                      Our Poway operation is uniquely equipped to handle properties that range from half-acre family lots to multi-acre ranch estates. We understand that <strong>Poway San Diego junk removal</strong> requires specialized equipment for long driveways, gated properties, and rural access situations that typical haulers can't accommodate. Whether you're clearing barn debris from an equestrian property in Stone Ridge, removing accumulated storage from a three-car garage in Green Valley, or handling a complete estate cleanout in Twin Peaks, our team brings the capacity and experience Poway's large properties demand.
+                    </p>
 
-              <div className="grid md:grid-cols-2 gap-8 mb-8">
-                <div>
-                  <h4 className="text-xl font-bold mb-3 text-blue-600">Ranch & Equestrian Services</h4>
-                  <ul className="list-disc pl-6 space-y-1 text-gray-700">
-                    <li>Horse barn cleanouts and stable maintenance</li>
-                    <li>Arena debris removal and fence line clearing</li>
-                    <li>Ranch equipment and machinery disposal</li>
-                    <li>Tack room organization and old gear removal</li>
-                    <li>Pasture cleanup and property boundary maintenance</li>
-                    <li>Agricultural waste and feed storage clearing</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="text-xl font-bold mb-3 text-blue-600">Suburban Family Services</h4>
-                  <ul className="list-disc pl-6 space-y-1 text-gray-700">
-                    <li>Family home garage and attic cleanouts</li>
-                    <li>Pool area and backyard organization</li>
-                    <li>Kids' playroom and toy decluttering</li>
-                    <li>Home renovation debris removal</li>
-                    <li>Estate downsizing and senior transitions</li>
-                    <li>Seasonal cleanup for growing families</li>
-                  </ul>
-                </div>
-              </div>
+                    {/* Neighborhoods Served */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Poway Neighborhoods We Serve</h3>
+                    <p className="text-gray-700 mb-4">
+                      Our <strong>junk removal Poway</strong> service covers every corner of this expansive North County city, from historic Old Poway Village to modern developments bordering Rancho Bernardo. We've completed thousands of junk removal jobs throughout Poway's diverse neighborhoods, each with unique property characteristics that inform our service approach:
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-4 mb-6">
+                      <ul className="space-y-2">
+                        <li><strong>Old Poway Village:</strong> Historic downtown area with vintage homes, antique shops, and community events requiring careful scheduling</li>
+                        <li><strong>Green Valley:</strong> Established family neighborhoods with mature trees, three-car garages, and extensive storage accumulation</li>
+                        <li><strong>Twin Peaks:</strong> Hillside homes with canyon views, challenging driveway access, and multi-level property layouts</li>
+                        <li><strong>4S Ranch:</strong> Newer developments with HOA regulations, modern family homes, and garage organization needs</li>
+                      </ul>
+                      <ul className="space-y-2">
+                        <li><strong>Stone Ridge:</strong> Premium properties on larger lots, equestrian estates, and ranch-style homes with barn structures</li>
+                        <li><strong>Bridlewood:</strong> Family community near Lake Poway with recreational equipment storage and seasonal cleanout needs</li>
+                        <li><strong>Garden Road Area:</strong> Agricultural zone with ranch properties, livestock facilities, and rural junk removal requirements</li>
+                        <li><strong>Poway Business Park:</strong> Commercial corridor requiring after-hours coordination and business cleanout services</li>
+                      </ul>
+                    </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Suburban Family Junk Pickup in Poway</h3>
-              <p className="text-lg text-gray-700 mb-6">
-                Poway's family-friendly neighborhoods from Twin Peaks to Garden Road require reliable <strong>trash removal Poway</strong> services that understand suburban lifestyle needs. Our <strong>junk pickup Poway</strong> team works with busy families, providing flexible scheduling and efficient service that minimizes disruption to your daily routine while helping maintain beautiful, organized homes.
-              </p>
+                    {/* Major Streets */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access</h3>
+                    <p className="text-gray-700 mb-4">
+                      Our <strong>Poway San Diego junk removal</strong> team knows every major road and rural route in this sprawling city. This local expertise matters when navigating Poway's mix of suburban streets and rural roads—winding hillside approaches, long private driveways, equestrian crossings, and properties set back from main roads. We plan each <strong>junk pickup Poway</strong> job with detailed route mapping to ensure our trucks can access your property efficiently:
+                    </p>
+                    <ul className="grid md:grid-cols-2 gap-2 mb-6">
+                      <li>• <strong>Pomerado Road:</strong> Main north-south corridor connecting to I-15 and Rancho Bernardo</li>
+                      <li>• <strong>Poway Road:</strong> Central east-west route through downtown and residential areas</li>
+                      <li>• <strong>Espola Road:</strong> Rural northern route with ranch properties and agricultural access</li>
+                      <li>• <strong>Community Road:</strong> Lake Poway access with recreational equipment and seasonal traffic</li>
+                      <li>• <strong>Highland Valley Road:</strong> Hillside connector with steep grades and canyon properties</li>
+                      <li>• <strong>Garden Road:</strong> Equestrian corridor with horse facilities and barn structures</li>
+                      <li>• <strong>Rancho Bernardo Road:</strong> Southern boundary with mixed residential and commercial</li>
+                      <li>• <strong>Twin Peaks Road:</strong> Hillside neighborhoods with challenging driveway approaches</li>
+                    </ul>
 
-              <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-8">
-                <h4 className="text-xl font-bold mb-3 text-green-900">Poway Business Park & Commercial Services</h4>
-                <div className="grid md:grid-cols-2 gap-4">
-                  <ul className="list-disc pl-6 space-y-1 text-green-800">
-                    <li>Office cleanouts and furniture removal</li>
-                    <li>Retail space renovation debris disposal</li>
-                    <li>Warehouse and storage facility clearing</li>
-                    <li>Tech equipment and e-waste recycling</li>
-                  </ul>
-                  <ul className="list-disc pl-6 space-y-1 text-green-800">
-                    <li>Property management support services</li>
-                    <li>Regular commercial waste management</li>
-                    <li>Construction site cleanup coordination</li>
-                    <li>Eco-friendly business disposal programs</li>
-                  </ul>
-                </div>
-              </div>
+                    {/* Local Landmarks */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Poway Landmarks</h3>
+                    <p className="text-gray-700 mb-4">
+                      We provide <strong>junk removal Poway</strong> service near all major landmarks throughout this extensive city. These familiar reference points help us navigate quickly to your property and provide accurate arrival time estimates. Our crews use local landmarks for efficient routing throughout this sprawling community where properties can be miles apart:
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-2 mb-6">
+                      <ul className="space-y-1">
+                        <li>• Lake Poway Recreation Area—north Poway outdoor recreation hub</li>
+                        <li>• Old Poway Park & Museum—historic downtown landmark and event venue</li>
+                        <li>• Blue Sky Ecological Reserve—wilderness trailhead and open space preserve</li>
+                        <li>• Poway Center for the Performing Arts—central community cultural facility</li>
+                        <li>• Twin Peaks Plaza—shopping center serving hillside neighborhoods</li>
+                        <li>• Lake Poway Sports Complex—athletic fields and recreation facilities</li>
+                      </ul>
+                      <ul className="space-y-1">
+                        <li>• Poway Business Park—commercial district off Pomerado Road</li>
+                        <li>• Stone Brewing World Bistro—craft brewery destination landmark</li>
+                        <li>• Iron Mountain Trailhead—popular hiking access point and parking area</li>
+                        <li>• Poway High School—central community anchor and event location</li>
+                        <li>• Poway Community Park—sports fields and family recreation area</li>
+                        <li>• 4S Commons—newer shopping center serving eastern developments</li>
+                      </ul>
+                    </div>
 
-              {/* Sticky CTA */}
-              <div className="sticky top-20 bg-gradient-to-r from-blue-600 to-orange-500 text-white p-4 rounded-lg shadow-lg mb-8 z-10">
-                <div className="flex items-center justify-between gap-4">
-                  <div>
-                    <p className="font-semibold">Call Today for Fast Junk Removal in Poway</p>
-                    <p className="text-sm opacity-90">Ranch specialists • locally-owned • Large property experts</p>
+                    {/* Traffic & Timing */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Traffic & Service Timing</h3>
+                    <p className="text-gray-700 mb-4">
+                      Poway's suburban layout and I-15 commuter traffic create predictable congestion patterns that affect <strong>junk hauling Poway</strong> timing. Our dispatch team actively monitors traffic conditions and coordinates with you to schedule service windows that work around commute hours and maximize efficiency:
+                    </p>
+                    <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
+                      <li><strong>Weekday commute hours (7-9 AM, 4-6 PM):</strong> Pomerado Road and Rancho Bernardo Road experience heavy I-15 commuter traffic as workers travel to/from San Diego and North County employment centers. We schedule early morning (6 AM start) or mid-day (10 AM-3 PM) service windows to avoid these peak periods, particularly for properties near freeway access points.</li>
+                      <li><strong>Weekend family activity (Sat-Sun 9 AM-5 PM):</strong> Lake Poway, Old Poway Park, and hiking trailheads create recreational traffic on Community Road, Espola Road, and Highland Valley Road. For properties near these attractions, we recommend Sunday evening or weekday scheduling when trail parking lots and park facilities are less congested.</li>
+                      <li><strong>School schedule impacts:</strong> Poway Unified School District operates on traditional calendar with concentrated September start and June finish. Back-to-school and summer transition periods create demand surges for garage organization and storage cleanouts. Book 2-3 weeks ahead during August-September and May-June for best availability.</li>
+                      <li><strong>Rural property access:</strong> Ranch properties off Garden Road, Espola Road, and Highland Valley Road often have private driveways exceeding quarter-mile length. We coordinate advance arrival notifications and plan extra time for rural access. Equestrian properties require special coordination to avoid disturbing horses during feeding times (typically 6-8 AM and 4-6 PM).</li>
+                    </ul>
+
+                    {/* Weather */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Inland Climate Considerations</h3>
+                    <p className="text-gray-700 mb-6">
+                      Poway's inland location creates warmer, drier conditions compared to coastal San Diego neighborhoods. Summer temperatures (June-September) regularly exceed 85-90°F, making early morning or late afternoon scheduling preferable for both crew efficiency and client comfort during property walkthroughs. The warmer climate accelerates deterioration of outdoor storage items—sun-damaged patio furniture, heat-warped plastics, and dried-out wooden structures accumulate faster than in coastal areas, creating regular junk removal needs. Winter months (December-February) bring occasional heavy rainfall that can make unpaved rural driveways temporarily inaccessible, requiring schedule flexibility for ranch properties. Poway's dry heat also creates year-round fire season awareness—we prioritize rapid removal of accumulated brush, dead vegetation, and fire hazard materials to help homeowners maintain defensible space around properties, particularly in hillside and canyon interface areas near Blue Sky Reserve and Iron Mountain.
+                    </p>
+
+                    {/* What We Remove */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Poway</h3>
+                    <p className="text-gray-700 mb-4">
+                      Our <strong>Poway junk removal</strong> service handles the diverse mix of items common to this community's ranch properties, family homes, and equestrian facilities. We remove everything from single furniture pieces to complete multi-acre estate cleanouts:
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-4 mb-6">
+                      <div>
+                        <h4 className="font-bold mb-2">Furniture & Household</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Sofas, sectionals, couches from family room upgrades</li>
+                          <li>• Mattresses, bed frames, bedroom furniture sets</li>
+                          <li>• Dining tables, chairs, china cabinets for downsizing</li>
+                          <li>• Desks, office furniture, home workspace equipment</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h4 className="font-bold mb-2">Appliances & Electronics</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Refrigerators, freezers, washers, dryers from upgrades</li>
+                          <li>• Dishwashers, stoves, microwaves during remodels</li>
+                          <li>• TVs, computers, electronics from tech updates</li>
+                          <li>• Exercise equipment, treadmills, home gym gear</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h4 className="font-bold mb-2">Ranch & Outdoor Items</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Barn equipment, tack, riding supplies no longer needed</li>
+                          <li>• Fencing materials, posts, wire from property updates</li>
+                          <li>• Patio furniture, BBQ grills, outdoor entertaining equipment</li>
+                          <li>• <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">Hot tubs and spas</a> from backyard renovations</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h4 className="font-bold mb-2">Cleanouts & Debris</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Estate cleanouts for multi-generation family properties</li>
+                          <li>• Garage and storage shed complete clearances</li>
+                          <li>• Construction debris from home additions and remodels</li>
+                          <li>• Yard waste, tree trimmings, landscaping materials</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    {/* How Our Service Works */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">How Our Poway Junk Removal Service Works</h3>
+                    <div className="bg-blue-50 rounded-lg p-6 mb-6">
+                      <ol className="space-y-3 text-gray-700">
+                        <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe what you need removed and your Poway location. We'll provide estimated pricing based on volume and schedule your service window.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for same-day <strong>junk pickup Poway</strong> service. We coordinate arrival times around your schedule and property access requirements, including gate codes and livestock considerations for ranch properties.</li>
+                        <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives in clearly marked trucks during your scheduled window. We assess items for removal and provide a final quote before starting work—no hidden fees or surprises.</li>
+                        <li><strong>4. We Load & Haul Everything:</strong> Our team does all lifting, loading, and hauling. We protect floors and doorways, navigate long driveways and multi-level properties, and complete removal efficiently. You simply point—we handle the rest.</li>
+                        <li><strong>5. Eco-Friendly Disposal:</strong> We sort items for donation, recycling, and responsible disposal. Usable furniture goes to local charities, recyclables to proper facilities, and only true trash to landfill as last resort.</li>
+                        <li><strong>6. Clean Sweep & Payment:</strong> We sweep the area clean after removal and collect payment. Most jobs are completed in under two hours from arrival to departure.</li>
+                      </ol>
+                    </div>
+
+                    {/* Why Choose Us */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Cleaners for Poway Junk Removal</h3>
+                    <ul className="space-y-3 mb-6">
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>Large Property Specialists:</strong> We handle Poway's unique property types with specialized equipment and expertise. From multi-acre ranch estates to hillside homes with long driveways, our team has completed thousands of Poway junk removal jobs. We navigate gated properties, coordinate around livestock and horses, and work efficiently on properties where typical haulers struggle with access and capacity.</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>Same-Day Service Available:</strong> Call before noon for same-day junk removal throughout Poway and surrounding North County areas. Our dispatch team coordinates arrival windows that work around your schedule, ensuring reliable service even for urgent ranch maintenance or time-sensitive estate cleanouts.</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>Transparent Pricing:</strong> No hidden fees, no surprises. Upfront quotes based on volume with all labor, hauling, and disposal included. Rural access and long driveways don't change our rates—you pay for volume removed. Most Poway jobs range from half-truck to full-truck loads with clear pricing communicated before work begins.</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>Licensed & Insured:</strong> Fully licensed California junk removal company with comprehensive liability insurance. We carry proper coverage for large property access, including protection for navigating private drives, working around equestrian facilities, and handling the unique requirements of Poway's ranch properties and family estates.</span>
+                      </li>
+                    </ul>
+
                   </div>
-                  <a
-                    href="tel:6197500114"
-                    className="bg-white text-blue-600 px-6 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 whitespace-nowrap"
-                  >
-                    📞 Call Now
-                  </a>
                 </div>
-              </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Poway Families & Ranch Owners Choose Us</h3>
-              <p className="mb-4">
-                Poway's ranch properties and large estates require specialized equipment - we handle barn cleanouts with multi-acre access needs, equestrian facility debris from 4S Ranch and Stone Ridge, and properties with long unpaved driveways. Multi-generational homes in Poway often span 3,000+ square feet with attached structures. We bring appropriate truck capacity for these large-volume jobs and understand working around horses and livestock.
-              </p>
-
-              <p className="mb-6">
-                The "City in the Country" designation means unique challenges - properties off Highland Valley Road have rural access but suburban debris disposal needs. Green Valley's newer developments have HOA requirements. Old Poway properties have historical considerations. We navigate winding hillside roads, respect agricultural operations, and handle everything from residential garage cleanouts to complete ranch estate clearances across Poway's 39 square miles.
-              </p>
-
-              <div className="text-center bg-blue-900 text-white p-8 rounded-lg">
-                <h3 className="text-2xl font-bold mb-4">Get Poway Junk Removal Quote Today</h3>
-                <p className="text-lg mb-6">
-                  Ranch property specialists with locally-owned values and guaranteed satisfaction
-                </p>
-                <a
-                  href="tel:6197500114"
-                  className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors duration-200 inline-block mb-6"
-                >
-                  📞 Call (619) 750-0114 Now
-                </a>
-                <div className="bg-blue-800 rounded-lg p-4">
-                  <p className="text-yellow-300 font-semibold mb-2">🏡 Poway Ranch & Family Special 🏡</p>
-                  <div className="text-sm">
-                    <strong>15% Off Large Property Cleanouts</strong> • <strong>Ranch Property Experts</strong><br/>
-                    <strong>Family Home Specialists</strong> • <strong>Eco-Friendly Service</strong>
-                  </div>
+                {/* Sidebar - Right Column */}
+                <div className="lg:col-span-1">
+                  <LocationSidebarCTA
+                    locationName="Poway"
+                    nearbyLocations={nearbyLocations}
+                  />
                 </div>
-                <p className="text-sm mt-4">
-                  Licensed & insured • <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-day service</a> available • Ranch property & suburban family specialists
-                </p>
+
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* FAQ Section - Now using dropdown component */}
-      <PowayFAQSection />
+        {/* Pricing Section */}
+        <LocationPricingSection
+          locationName="Poway"
+          contextParagraph="Ranch property cleanouts and family home clearances throughout Poway—from 4S Ranch to Old Poway Village—all use the same transparent pricing. No hidden fees, same-day service available."
+        />
 
-      {/* Related Services */}
-      <section className="py-12 bg-white">
-        <div className="container mx-auto px-4">
-          <h3 className="text-2xl font-bold text-center mb-8">Related Ranch & Family Services</h3>
-          <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            <a href="/construction-debris-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
-              <h4 className="font-semibold text-lg mb-2 text-blue-600">Construction Debris Removal</h4>
-              <p className="text-gray-600">Ranch renovations and suburban home remodeling cleanup</p>
-            </a>
-            <a href="/estate-cleanout-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
-              <h4 className="font-semibold text-lg mb-2 text-blue-600">Estate Cleanouts San Diego</h4>
-              <p className="text-gray-600">Multi-generational family homes and inherited ranch properties</p>
-            </a>
-            <a href="/furniture-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
-              <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
-              <p className="text-gray-600">Large family home and ranch house furniture disposal</p>
-            </a>
+        {/* Trust Signals Section */}
+        <TrustSignalsSection locationName="Poway" />
+
+        {/* FAQ Section */}
+        <PowayFAQSection />
+
+        {/* Related Services */}
+        <section className="py-12 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <h3 className="text-2xl font-bold text-center mb-8">Related North County Services</h3>
+            <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+              <a href="/estate-cleanout-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Estate Cleanouts San Diego</h4>
+                <p className="text-gray-600">Multi-generational family homes and ranch property estate transitions</p>
+              </a>
+              <a href="/construction-debris-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Construction Debris Removal</h4>
+                <p className="text-gray-600">Home additions, barn renovations, and property development cleanup</p>
+              </a>
+              <a href="/furniture-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
+                <p className="text-gray-600">Large family home and ranch house furniture disposal services</p>
+              </a>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
       </main>
+
       <Footer />
     </div>
-  </>
   );
 }

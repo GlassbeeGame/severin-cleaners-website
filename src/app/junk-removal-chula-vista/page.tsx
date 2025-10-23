@@ -3,7 +3,9 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ChulaVistaFAQSection from "./ChulaVistaFAQSection";
-import SchemaMarkup from "@/components/SchemaMarkup";
+import LocationSidebarCTA from "@/components/LocationSidebarCTA";
+import TrustSignalsSection from "@/components/TrustSignalsSection";
+import LocationPricingSection from "@/components/LocationPricingSection";
 import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 const inter = Inter({
@@ -51,53 +53,6 @@ export const metadata: Metadata = {
   },
 };
 
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does junk removal cost in Chula Vista?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our Chula Vista junk removal pricing is transparent and volume-based with no hidden fees. We offer comprehensive service to all Eastlake, Otay Ranch, and South Bay neighborhoods with HOA-compliant service: Single Item Pickup starting at $100, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. All prices include labor, hauling, and proper disposal. Volume discounts available for large Chula Vista cleanouts. Call for your free estimate today."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you offer bilingual junk removal service in Chula Vista?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sí, ofrecemos servicio completamente bilingüe. Our junk hauling Chula Vista team includes Spanish-speaking crew members who can communicate effectively with all residents. We provide estimates, scheduling, and service in both English and Spanish to serve our diverse South Bay community."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you provide same-day junk removal in Eastlake or Otay Ranch?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, we offer same-day junk pickup Chula Vista service, typically providing next-day service with same-day available when you call before 2 PM for urgent needs in Eastlake, Otay Ranch, and throughout South Bay. Our team understands HOA requirements and can coordinate emergency cleanouts while maintaining community standards. Same-day availability depends on scheduling and crew availability."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are your junk removal services HOA-compliant?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Absolutely. Our trash removal Chula Vista service is fully HOA-compliant for all neighborhoods including Eastlake, Otay Ranch, and Rolling Hills Ranch. We coordinate with property management, schedule during approved hours, maintain professional appearance, and provide documentation when required by HOA boards."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What areas of South Bay do you serve?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our South Bay junk removal covers all Chula Vista neighborhoods, plus National City, Bonita, Imperial Beach, and San Ysidro. We serve from the bayfront to the hills, including all master-planned communities, established neighborhoods, commercial districts, and border region properties throughout South Bay."
-      }
-    }
-  ]
-};
-
 export default function JunkRemovalChulaVistaPage() {
   const serviceSchema = generateLocationServiceSchema({
     locationName: "Chula Vista",
@@ -112,356 +67,281 @@ export default function JunkRemovalChulaVistaPage() {
     { name: "Chula Vista Junk Removal", url: "https://severincleaners.com/junk-removal-chula-vista" },
   ]);
 
-  const combinedSchema = {
-    "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema, faqSchema],
-  };
+  const nearbyLocations = [
+    { name: "Bonita", slug: "bonita" },
+    { name: "National City", slug: "national-city" },
+    { name: "Imperial Beach", slug: "imperial-beach" },
+    { name: "Spring Valley", slug: "spring-valley" },
+  ];
 
   return (
-    <>
-      <SchemaMarkup schema={combinedSchema} />
-      <div className={`${inter.variable} font-sans antialiased`}>
-        <Header />
+    <div className={`${inter.variable} font-sans`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+
+      <Header />
+
       <main>
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-8">
-            <div className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-              🌎 Servicio Bilingüe Disponible
+        {/* Hero Section */}
+        <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-24">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto text-center">
+              <div className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-6">
+                #1 Chula Vista Junk Removal Service
+              </div>
+
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+                Chula Vista Junk Removal
+              </h1>
+
+              <p className="text-xl md:text-2xl mb-8 text-blue-100">
+                Eastlake to Otay Ranch • Bilingual Service • HOA Compliant
+              </p>
+
+              <p className="text-lg mb-8">
+                ✓ South Bay Specialists ✓ Same-Day Hauling ✓ Licensed & Insured
+              </p>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Chula Vista Junk Removal | South Bay's Most Trusted
-            </h1>
-            <div className="text-xl mb-6">
-              ⭐⭐⭐⭐⭐ 5.0 Rating • Familia Local • Servicio en Español
-            </div>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
-              <a
-                href="tel:6197500114"
-                className="btn btn-primary text-lg px-8 py-4"
-              >
-                📞 Call (619) 750-0114
-              </a>
-              <a
-                href="/contact"
-                className="btn btn-secondary text-lg px-8 py-4 hover:bg-orange-600 transition-colors duration-200"
-              >
-                Book Your Chula Vista Junk Pickup - Save 15%
-              </a>
-            </div>
-            <p className="text-lg">
-              ✓ Large Home Specialists ✓ Bilingual Crews ✓ HOA Compliant Service
-            </p>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Main Content */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="prose prose-lg max-w-none">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">South Bay's Premier Chula Vista Junk Removal Service</h2>
+        {/* Main Content with Sidebar */}
+        <section className="py-12 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <div className="max-w-7xl mx-auto">
+              <div className="grid lg:grid-cols-3 gap-8">
 
-              <p className="text-lg text-gray-700 mb-6">
-                <strong>Chula Vista junk removal</strong> requires understanding our city's diverse communities and unique needs. As San Diego County's second-largest city, Chula Vista spans from the bayfront to rolling hills and master-planned communities. Severin Cleaners provides comprehensive <strong>junk hauling Chula Vista</strong> services with bilingual crews who understand our community's values and HOA requirements.
-              </p>
+                {/* Main Content - Left Column */}
+                <div className="lg:col-span-2">
+                  <div className="bg-white rounded-lg shadow-md p-8">
 
-              <p className="text-lg text-gray-700 mb-6">
-                From Eastlake's luxury homes to historic Third Avenue, from Otay Ranch developments to established neighborhoods, our <strong>South Bay junk removal</strong> service covers every corner of Chula Vista. We specialize in <strong>junk pickup Chula Vista</strong> and <strong>trash removal Chula Vista</strong> for residential and commercial properties throughout the South Bay.
-              </p>
+                    {/* Introduction */}
+                    <h2 className="text-3xl font-bold mb-6 text-gray-900">
+                      Professional Junk Hauling Chula Vista – South Bay's Most Trusted Service
+                    </h2>
 
-              <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
-                <h3 className="text-xl font-semibold text-blue-900 mb-2">Chula Vista Complete Coverage</h3>
-                <ul className="text-blue-800">
-                  <li>Eastlake neighborhoods and master-planned communities</li>
-                  <li>Otay Ranch and Rolling Hills Ranch developments</li>
-                  <li>Millenia and Otay Mesa border areas</li>
-                  <li>Historic Third Avenue downtown district</li>
-                  <li>West Chula Vista established neighborhoods</li>
-                  <li>Rancho del Rey and Sunbow residential areas</li>
-                  <li>Olympic Training Center area and Heritage Road corridor</li>
-                  <li>Chula Vista Marina area and bayfront properties</li>
-                </ul>
-                <div className="mt-4 text-center">
-                  <p className="text-blue-700 font-semibold">📞 Call (619) 750-0114 for immediate service</p>
-                </div>
-              </div>
+                    <p className="text-lg mb-4 text-gray-700">
+                      <strong>Chula Vista junk removal</strong> serves San Diego County's second-largest city, spanning from bayfront properties to rolling hills and master-planned communities. From Eastlake's luxury neighborhoods to Otay Ranch developments to historic Third Avenue, our <strong>junk hauling Chula Vista</strong> team navigates HOA requirements, bilingual service needs, and South Bay's diverse property types with expertise. We provide same-day <strong>junk pickup Chula Vista</strong> for large family homes, multi-generational households, and commercial properties throughout the South Bay with transparent pricing and culturally-aware service.
+                    </p>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Junk Hauling in Eastlake and Otay Ranch</h3>
-              <p className="text-lg text-gray-700 mb-6">
-                Our <strong>junk hauling Chula Vista</strong> service provides specialized attention to the area's premier neighborhoods. Whether you need <strong>junk pickup Chula Vista</strong> for a luxury estate in Eastlake or routine <strong>trash removal Chula Vista</strong> in Otay Ranch, our team delivers professional service that meets HOA standards and community expectations.
-              </p>
+                    <p className="text-gray-700 mb-6">
+                      Our Chula Vista operation is uniquely positioned to serve this vibrant community. We understand that <strong>South Bay junk removal</strong> requires more than just hauling capacity—it demands bilingual crews who communicate effectively with diverse families, knowledge of HOA regulations in master-planned communities, experience handling large family properties common throughout Chula Vista, and the ability to coordinate around South Bay's unique traffic patterns. Whether you're clearing out an Eastlake Woods estate during a family transition, removing furniture from an Otay Ranch townhome after a tenant turnover, or handling a commercial cleanout near the Chula Vista Marina, our team brings the specialized South Bay experience that this community demands.
+                    </p>
 
-              <div className="grid md:grid-cols-2 gap-8 mb-8">
-                <div>
-                  <h4 className="text-xl font-bold mb-3 text-blue-600">Eastlake Communities</h4>
-                  <ul className="list-disc pl-6 space-y-1 text-gray-700">
-                    <li>Eastlake Greens and Eastlake Trails luxury homes</li>
-                    <li>Eastlake Woods and Eastlake Vistas neighborhoods</li>
-                    <li>Olympic Parkway commercial and residential areas</li>
-                    <li>Olympic Training Center district and surroundings</li>
-                    <li>Bonita Road corridor - <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">businesses and office cleanouts</a></li>
-                    <li>Rolling Hills Ranch master-planned community</li>
-                    <li>Salt Creek Golf Club and recreational areas</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="text-xl font-bold mb-3 text-blue-600">Otay Ranch & South Chula Vista</h4>
-                  <ul className="list-disc pl-6 space-y-1 text-gray-700">
-                    <li>Otay Ranch Village developments and townhomes</li>
-                    <li>Millenia and Terra Nova neighborhoods</li>
-                    <li>Otay Mesa border region properties</li>
-                    <li>Main Street and Broadway - <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial district junk removal</a></li>
-                    <li>Rancho del Rey and Sunbow residential areas</li>
-                    <li>Heritage Road and Palomar Street corridors</li>
-                    <li>Chula Vista Marina and bayfront communities</li>
-                  </ul>
-                </div>
-              </div>
-
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Comprehensive Chula Vista Service Areas</h3>
-
-              {/* Sticky CTA */}
-              <div className="sticky top-20 bg-gradient-to-r from-blue-600 to-orange-500 text-white p-4 rounded-lg shadow-lg mb-8 z-10">
-                <div className="flex items-center justify-between gap-4">
-                  <div>
-                    <p className="font-semibold">Call Today for Fast Junk Removal in Chula Vista</p>
-                    <p className="text-sm opacity-90">Free quotes • Bilingual service • HOA compliant</p>
-                  </div>
-                  <a
-                    href="tel:6197500114"
-                    className="bg-white text-blue-600 px-6 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 whitespace-nowrap"
-                  >
-                    📞 Call Now
-                  </a>
-                </div>
-              </div>
-
-              <h4 className="text-xl font-semibold text-gray-900 mb-3">HOA-Compliant Junk Removal Service</h4>
-              <p className="mb-4">
-                Many Chula Vista neighborhoods have strict HOA guidelines for junk removal Chula Vista services. Our professional team ensures all junk hauling Chula Vista operations meet community standards, from scheduling during approved hours to maintaining clean, professional appearance. We work seamlessly with property management companies and HOA boards throughout the South Bay, providing reliable junk pickup Chula Vista that respects community rules.
-              </p>
-
-              <p className="mb-4">
-                Whether you need emergency junk pickup Chula Vista or scheduled trash removal Chula Vista, our team coordinates with your community's requirements. We understand Eastlake's luxury standards, Otay Ranch's family-friendly guidelines, and the unique needs of Millenia's diverse neighborhoods. From the Olympic Training Center area to the Heritage Road corridor, our South Bay junk removal service maintains the highest professional standards.
-              </p>
-
-              <p className="mb-6">
-                Our junk hauling Chula Vista crews are trained to work efficiently in master-planned communities, handling everything from single-item pickups to complete estate cleanouts. Whether you're near the Chula Vista Marina or in Otay Mesa, our trash removal Chula Vista service delivers the same reliable, courteous experience that has made us the trusted choice for South Bay junk removal.
-              </p>
-
-              <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-8">
-                <h3 className="text-xl font-semibold text-green-900 mb-2">Servicio Bilingüe / Bilingual Service</h3>
-                <p className="text-green-800">
-                  Nuestro equipo habla español y entiende las necesidades de la comunidad. Ofrecemos servicio
-                  profesional y respetuoso para todas las familias de Chula Vista.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-3 mt-4">
-                  <a
-                    href="tel:6197500114"
-                    className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold text-center hover:bg-green-700 transition-colors duration-200"
-                  >
-                    📞 Llame para Cotización
-                  </a>
-                  <a
-                    href="/contact"
-                    className="bg-white text-green-700 border-2 border-green-600 px-6 py-3 rounded-lg font-semibold text-center hover:bg-green-50 transition-colors duration-200"
-                  >
-                    Schedule Chula Vista Service
-                  </a>
-                </div>
-              </div>
-
-              {/* Pricing Section - STANDARDIZED */}
-              <section id="pricing" className="my-12">
-                <div className="max-w-5xl mx-auto">
-                  <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center">
-                    Transparent Chula Vista Junk Removal Pricing
-                  </h2>
-                  <p className="text-xl text-gray-600 mb-12 text-center">
-                    Volume-based pricing for all junk removal Chula Vista services. No hidden fees, no surprises - just honest junk hauling Chula Vista rates for all South Bay neighborhoods.
-                  </p>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-                    <div className="bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl shadow-lg p-6 text-white text-center">
-                      <div className="text-4xl font-bold mb-2">$100</div>
-                      <div className="text-blue-100 mb-4">Starting Price</div>
-                      <div className="font-bold text-lg mb-2">Single Item Pickup</div>
-                      <div className="text-blue-100 text-sm">
-                        Perfect for one couch, appliance, mattress, or similar item
-                      </div>
+                    {/* Neighborhoods Served */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Chula Vista Neighborhoods We Serve</h3>
+                    <p className="text-gray-700 mb-4">
+                      Our <strong>trash removal Chula Vista</strong> service covers every corner of this expansive South Bay city, from bayfront marinas to eastern hillside developments. We've completed thousands of junk removal jobs throughout Chula Vista's diverse neighborhoods, each with unique characteristics—from historic downtown to modern master-planned communities—that inform our service approach:
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-4 mb-6">
+                      <ul className="space-y-2">
+                        <li><strong>Eastlake:</strong> Master-planned luxury community with strict HOA guidelines, large family homes, and extensive garage cleanout needs</li>
+                        <li><strong>Otay Ranch:</strong> Modern developments with townhomes, single-family homes, and HOA coordination requirements</li>
+                        <li><strong>Rolling Hills Ranch:</strong> Premium neighborhood with estate properties and upscale service expectations</li>
+                        <li><strong>Rancho del Rey:</strong> Established family community with multi-generational homes and large property cleanouts</li>
+                      </ul>
+                      <ul className="space-y-2">
+                        <li><strong>Millenia:</strong> Newer development near the border with modern housing and commercial mix</li>
+                        <li><strong>Sunbow:</strong> Family-oriented area with standard residential junk removal needs</li>
+                        <li><strong>Downtown/Third Avenue:</strong> Historic district with commercial properties, small businesses, and urban housing</li>
+                        <li><strong>Olympic Training Center Area:</strong> Mixed residential and recreational facilities requiring specialized scheduling</li>
+                      </ul>
                     </div>
 
-                    <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-xl shadow-lg p-6 text-white text-center">
-                      <div className="text-4xl font-bold mb-2">$249</div>
-                      <div className="text-green-100 mb-4">1/4 Load (3 cu yd)</div>
-                      <div className="font-bold text-lg mb-2">Small Cleanout</div>
-                      <div className="text-green-100 text-sm">
-                        Bedroom furniture, small shed, partial garage
-                      </div>
+                    {/* Major Streets */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access Routes</h3>
+                    <p className="text-gray-700 mb-4">
+                      Our <strong>junk hauling Chula Vista</strong> team knows every major corridor and residential street throughout South Bay. This local expertise matters when navigating Chula Vista's spread-out geography, understanding traffic patterns on major thoroughfares, and planning efficient routes through diverse neighborhoods. We plan each <strong>Chula Vista junk removal</strong> job with detailed route mapping to ensure timely service:
+                    </p>
+                    <ul className="grid md:grid-cols-2 gap-2 mb-6">
+                      <li>• <strong>Olympic Parkway:</strong> Major east-west route serving Eastlake and Rolling Hills Ranch communities</li>
+                      <li>• <strong>Bonita Road:</strong> Commercial corridor connecting western Chula Vista to eastern developments</li>
+                      <li>• <strong>Main Street:</strong> Historic downtown thoroughfare with business and residential mix</li>
+                      <li>• <strong>Broadway:</strong> Major commercial street serving central Chula Vista neighborhoods</li>
+                      <li>• <strong>Heritage Road:</strong> Residential corridor serving Otay Ranch and southern communities</li>
+                      <li>• <strong>Otay Lakes Road:</strong> Eastern route serving newer developments and border area</li>
+                      <li>• <strong>Palomar Street:</strong> North-south connector linking central neighborhoods</li>
+                      <li>• <strong>H Street:</strong> Bayfront access serving marina area and western communities</li>
+                    </ul>
+
+                    {/* Local Landmarks */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Chula Vista Landmarks</h3>
+                    <p className="text-gray-700 mb-4">
+                      We provide <strong>junk pickup Chula Vista</strong> service near all major landmarks. These familiar reference points help us navigate quickly to your property and provide accurate arrival time estimates throughout this large South Bay community where neighborhoods span from the bay to the hills:
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-2 mb-6">
+                      <ul className="space-y-1">
+                        <li>• Chula Vista Marina—bayfront recreation and dining</li>
+                        <li>• Olympic Training Center—world-class athletic facility</li>
+                        <li>• Eastlake Village Center—master-planned community hub</li>
+                        <li>• Third Avenue Village—historic downtown district</li>
+                        <li>• Otay Ranch Town Center—major shopping destination</li>
+                        <li>• Aquatica San Diego—aquatic theme park</li>
+                      </ul>
+                      <ul className="space-y-1">
+                        <li>• Southwestern College—community college campus</li>
+                        <li>• Salt Creek Golf Club—Eastlake recreation</li>
+                        <li>• Rolling Hills Plaza—neighborhood shopping center</li>
+                        <li>• Chula Vista Center—regional mall</li>
+                        <li>• Living Coast Discovery Center—bayfront education</li>
+                        <li>• Millenia Plaza—border area shopping</li>
+                      </ul>
                     </div>
 
-                    <div className="bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl shadow-lg p-6 text-white text-center">
-                      <div className="text-4xl font-bold mb-2">$349</div>
-                      <div className="text-orange-100 mb-4">1/2 Load (6 cu yd)</div>
-                      <div className="font-bold text-lg mb-2">Medium Cleanout</div>
-                      <div className="text-orange-100 text-sm">
-                        Full garage, storage unit, attic cleanout
-                      </div>
-                    </div>
+                    {/* Traffic & Timing */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Traffic Patterns & Service Timing</h3>
+                    <p className="text-gray-700 mb-4">
+                      Chula Vista's South Bay location and border proximity create unique traffic patterns that affect <strong>junk removal Chula Vista</strong> scheduling. Our dispatch team actively monitors South Bay traffic and coordinates with you to schedule service windows that minimize wait times and maximize efficiency. We've developed specific timing protocols for different Chula Vista areas:
+                    </p>
+                    <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
+                      <li><strong>Morning rush hours (6-9 AM):</strong> Heavy commuter traffic northbound on I-805 and I-5 creates localized congestion on Olympic Parkway, Bonita Road, and H Street as residents commute to San Diego. We recommend mid-morning (9:30 AM-1 PM) service windows for Eastlake and western neighborhoods when streets clear after morning commute ends.</li>
+                      <li><strong>Evening rush hours (3:30-7 PM):</strong> Southbound freeway traffic creates delays throughout Chula Vista as residents return home. Olympic Parkway and Bonita Road see heavy eastbound traffic. We prioritize earlier service windows or coordinate evening appointments after 7 PM for clients who prefer post-commute scheduling.</li>
+                      <li><strong>Border crossing traffic:</strong> Proximity to international border means Otay Mesa and Heritage Road areas experience unique traffic patterns, particularly on weekends and holidays. We build buffer time into schedules for eastern Chula Vista properties and coordinate alternative routes during peak crossing periods.</li>
+                      <li><strong>Weekend service:</strong> HOA restrictions in Eastlake, Otay Ranch, and Rolling Hills Ranch often limit truck access before 8 AM on weekends. We confirm community-specific rules before scheduling and coordinate with property management for multi-unit buildings that have loading dock restrictions.</li>
+                    </ul>
 
-                    <div className="bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl shadow-lg p-6 text-white text-center">
-                      <div className="text-4xl font-bold mb-2">$495</div>
-                      <div className="text-purple-100 mb-4">Full Load (12 cu yd)</div>
-                      <div className="font-bold text-lg mb-2">Large Cleanout</div>
-                      <div className="text-purple-100 text-sm">
-                        Whole house, estate, multiple rooms
-                      </div>
-                    </div>
-                  </div>
+                    {/* Weather */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">South Bay Weather Considerations</h3>
+                    <p className="text-gray-700 mb-6">
+                      Chula Vista's inland South Bay location creates warmer, drier weather than coastal San Diego neighborhoods, affecting junk removal operations year-round. Summer temperatures (June-September) regularly exceed 85°F inland, with eastern neighborhoods near Otay Lakes experiencing conditions 10-15 degrees warmer than bayfront areas. We schedule early morning starts (6-9 AM) during heat waves to protect crews and prevent heat damage to items being transported in enclosed trailers. The community sees less marine layer fog than coastal neighborhoods, allowing consistent morning scheduling without weather delays. Winter rainy season (December-February) brings occasional heavy rainfall that creates muddy conditions on unpaved construction areas in newer developments—we bring protective floor coverings and take extra care during wet weather to preserve flooring in newer homes. Chula Vista's eastern hills can experience Santa Ana wind conditions that bring extremely dry, warm weather requiring fire safety awareness during outdoor debris removal.
+                    </p>
 
-                  <div className="bg-gray-50 p-6 rounded-lg mb-8">
-                    <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Additional Load Sizes Available</h3>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                    {/* What We Remove */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Chula Vista</h3>
+                    <p className="text-gray-700 mb-4">
+                      Our <strong>Chula Vista junk removal</strong> service handles the unique mix of items common to South Bay living—from large family home furniture to multi-generational household accumulation to commercial property cleanouts. We remove everything from single items to complete house cleanouts:
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
-                        <div className="font-bold text-gray-900">3/8 Load</div>
-                        <div className="text-green-600 font-bold">$319</div>
+                        <h4 className="font-bold mb-2">Furniture & Household</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Large family sofas, sectionals, and living room sets</li>
+                          <li>• Multi-bedroom furniture from family homes</li>
+                          <li>• Dining sets, tables, and chairs for large households</li>
+                          <li>• Bedroom sets, mattresses, and guest room furniture</li>
+                        </ul>
                       </div>
                       <div>
-                        <div className="font-bold text-gray-900">5/8 Load</div>
-                        <div className="text-green-600 font-bold">$366</div>
+                        <h4 className="font-bold mb-2">Appliances & Electronics</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Refrigerators, washers, dryers from large households</li>
+                          <li>• Multiple appliances from multi-generational homes</li>
+                          <li>• Entertainment systems and family room electronics</li>
+                          <li>• Kitchen appliance upgrades and replacements</li>
+                        </ul>
                       </div>
                       <div>
-                        <div className="font-bold text-gray-900">3/4 Load</div>
-                        <div className="text-green-600 font-bold">$429</div>
+                        <h4 className="font-bold mb-2">Outdoor & Garage</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Patio furniture and outdoor dining sets</li>
+                          <li>• Garage storage and accumulated items</li>
+                          <li>• Yard equipment and landscaping materials</li>
+                          <li>• <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">Hot tubs and spas</a> from backyard renovations</li>
+                        </ul>
                       </div>
                       <div>
-                        <div className="font-bold text-gray-900">7/8 Load</div>
-                        <div className="text-green-600 font-bold">$462</div>
+                        <h4 className="font-bold mb-2">Cleanouts & Special Projects</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Estate cleanouts for multi-generational properties</li>
+                          <li>• Large family home complete cleanouts</li>
+                          <li>• <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">Commercial property</a> and retail space clearing</li>
+                          <li>• Tenant turnover cleanouts for rental properties</li>
+                        </ul>
                       </div>
                     </div>
-                  </div>
 
-                  <div className="bg-blue-50 p-6 rounded-lg mb-8">
-                    <h3 className="text-lg font-bold text-gray-900 mb-3">What's Included in Every Price:</h3>
-                    <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                      <li className="flex items-center text-gray-700">
-                        <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                        </svg>
-                        All labor and loading
+                    {/* How Our Service Works */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">How Our Chula Vista Junk Removal Service Works</h3>
+                    <div className="bg-blue-50 rounded-lg p-6 mb-6">
+                      <ol className="space-y-3 text-gray-700">
+                        <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe what you need removed and your Chula Vista location. Our bilingual team provides estimates in English or Spanish based on your preference.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for same-day service throughout South Bay. We coordinate arrival times around traffic patterns and your schedule preferences.</li>
+                        <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives in clearly marked trucks during your scheduled window. We assess items for removal and provide a final quote before starting work—no hidden fees or surprises.</li>
+                        <li><strong>4. We Load & Haul Everything:</strong> Our team does all lifting, loading, and hauling. We protect floors and doorways, navigate stairs and multi-level homes, and complete removal efficiently. You simply point—we handle the rest.</li>
+                        <li><strong>5. Eco-Friendly Disposal:</strong> We sort items for donation, recycling, and responsible disposal. Usable furniture goes to local South Bay charities, recyclables to proper facilities, and only true trash to landfill as last resort.</li>
+                        <li><strong>6. Clean Sweep & Payment:</strong> We sweep the area clean after removal and collect payment. Most jobs are completed in under two hours from arrival to departure.</li>
+                      </ol>
+                    </div>
+
+                    {/* Why Choose Us */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Cleaners for Chula Vista Junk Removal</h3>
+                    <ul className="space-y-3 mb-6">
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>South Bay Community Expertise:</strong> We navigate Chula Vista's diverse neighborhoods, HOA requirements, and large family properties with ease. Our crews have completed thousands of Chula Vista junk removal jobs and understand the specific challenges of Eastlake master-planned communities, Otay Ranch townhomes, and large multi-generational homes common throughout South Bay. We coordinate with HOAs, work efficiently in large properties, and respect community standards.</span>
                       </li>
-                      <li className="flex items-center text-gray-700">
-                        <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                        </svg>
-                        Transportation and hauling
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>Bilingual Service:</strong> Our team includes Spanish-speaking crew members who communicate effectively with Chula Vista's diverse families. We provide estimates, scheduling, and complete service in both English and Spanish, ensuring clear communication and comfortable service for all South Bay residents.</span>
                       </li>
-                      <li className="flex items-center text-gray-700">
-                        <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                        </svg>
-                        Eco-friendly disposal fees
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>Same-Day Service Available:</strong> Call before noon for same-day junk removal throughout Chula Vista and South Bay. Our dispatch team actively monitors South Bay traffic and schedules arrival windows that work around border traffic, commuter patterns, and your schedule, ensuring reliable service even during busy periods.</span>
                       </li>
-                      <li className="flex items-center text-gray-700">
-                        <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                        </svg>
-                        Donation coordination
-                      </li>
-                      <li className="flex items-center text-gray-700">
-                        <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                        </svg>
-                        Recycling services
-                      </li>
-                      <li className="flex items-center text-gray-700">
-                        <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                        </svg>
-                        Cleanup and sweeping
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>Transparent Pricing:</strong> No hidden fees, no surprises. Upfront quotes based on volume with all labor, hauling, and disposal included. Large family home service and multi-generational property cleanouts don't change our rates—you pay for volume removed, not property size. Most Chula Vista jobs range from half-truck to full-truck loads with clear pricing tiers communicated before work begins.</span>
                       </li>
                     </ul>
-                  </div>
 
-                  <div className="text-center">
-                    <a
-                      href="tel:6197500114"
-                      className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors duration-200 inline-block"
-                    >
-                      Get Your Free Chula Vista Quote - Call (619) 750-0114
-                    </a>
                   </div>
                 </div>
-              </section>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why South Bay Residents Choose Us</h3>
-              <p className="mb-4">
-                Chula Vista's unique South Bay geography demands local expertise. From Eastlake's HOA-managed communities to Otay Ranch's master-planned neighborhoods, we understand the specific requirements of your area. Our team knows how to navigate the tight streets in older neighborhoods, coordinate with property managers in new developments, and handle the logistics that come with South Bay's diverse property types.
-              </p>
-
-              <p className="mb-4">
-                Large homes in Rancho del Rey and Rolling Hills Ranch need equipment that can handle significant volumes. Border proximity in Otay Mesa creates unique scheduling needs. The Olympic Training Center area has specific access requirements. Our bilingual crews communicate effectively throughout all neighborhoods, ensuring clear understanding whether you're near the Marina or in the Heritage Road corridor.
-              </p>
-
-              <p className="mb-6">
-                We've built our reputation on understanding Chula Vista's challenges - from dealing with steep driveways in hillside areas to managing bulk pickups in densely populated complexes. Whether you're in a historic Third Avenue property or a brand-new Millenia townhome, we adapt our approach to fit your specific situation and community standards.
-              </p>
-
-              <div className="text-center bg-blue-900 text-white p-8 rounded-lg">
-                <h3 className="text-2xl font-bold mb-4">Get Chula Vista Junk Removal Quote Today</h3>
-                <p className="text-lg mb-6">
-                  Professional South Bay service with local expertise and guaranteed satisfaction
-                </p>
-                <a
-                  href="tel:6197500114"
-                  className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors duration-200 inline-block mb-6"
-                >
-                  📞 Call (619) 750-0114 Now
-                </a>
-                <div className="bg-blue-800 rounded-lg p-4">
-                  <p className="text-yellow-300 font-semibold mb-2">⭐ Chula Vista Special ⭐</p>
-                  <div className="text-sm">
-                    <strong>15% Off Chula Vista Bookings</strong> • <strong>Servicio Bilingüe</strong>
-                  </div>
+                {/* Sidebar - Right Column */}
+                <div className="lg:col-span-1">
+                  <LocationSidebarCTA
+                    phoneNumber="(619) 750-0114"
+                    locationName="Chula Vista"
+                    nearbyLocations={nearbyLocations}
+                  />
                 </div>
-                <p className="text-sm mt-4">
-                  Licensed & insured • <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-day service</a> available • Local specialists
-                </p>
+
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* FAQ Section */}
-      <ChulaVistaFAQSection />
+        {/* Pricing Section */}
+        <LocationPricingSection
+          locationName="Chula Vista"
+          contextParagraph="Large family home cleanouts and estate projects throughout Chula Vista—from Eastlake to Otay Ranch—all use the same transparent pricing. No hidden fees, bilingual service available."
+        />
 
-      {/* Related Services */}
-      <section className="py-12 bg-white">
-        <div className="container mx-auto px-4">
-          <h3 className="text-2xl font-bold text-center mb-8">Related South Bay Services</h3>
-          <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            <a href="/furniture-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
-              <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
-              <p className="text-gray-600">Expert furniture removal San Diego service for large South Bay homes, Eastlake estates, and Otay Ranch properties with same-day pickup available</p>
-            </a>
-            <a href="/estate-cleanout-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
-              <h4 className="font-semibold text-lg mb-2 text-blue-600">Estate Cleanouts San Diego</h4>
-              <p className="text-gray-600">Compassionate estate cleanout services for South Bay families in Chula Vista, with respectful handling throughout all neighborhoods</p>
-            </a>
-            <a href="/appliance-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
-              <h4 className="font-semibold text-lg mb-2 text-blue-600">Appliance Removal San Diego</h4>
-              <p className="text-gray-600">Professional appliance removal San Diego with EPA-compliant disposal for all Chula Vista and South Bay area residents</p>
-            </a>
+        {/* Trust Signals Section */}
+        <TrustSignalsSection locationName="Chula Vista" />
+
+        {/* FAQ Section */}
+        <ChulaVistaFAQSection />
+
+        {/* Related Services */}
+        <section className="py-12 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <h3 className="text-2xl font-bold text-center mb-8">Related South Bay Services</h3>
+            <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+              <a href="/furniture-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
+                <p className="text-gray-600">Large family home furniture removal for Eastlake estates and South Bay properties</p>
+              </a>
+              <a href="/estate-cleanout-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Estate Cleanouts San Diego</h4>
+                <p className="text-gray-600">Compassionate estate services for multi-generational Chula Vista families</p>
+              </a>
+              <a href="/appliance-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Appliance Removal San Diego</h4>
+                <p className="text-gray-600">Professional appliance disposal for South Bay homes and businesses</p>
+              </a>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
       </main>
+
       <Footer />
     </div>
-    </>
   );
 }

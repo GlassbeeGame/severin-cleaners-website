@@ -3,6 +3,9 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CarmelValleyFAQSection from "./CarmelValleyFAQSection";
+import LocationSidebarCTA from "@/components/LocationSidebarCTA";
+import TrustSignalsSection from "@/components/TrustSignalsSection";
+import LocationPricingSection from "@/components/LocationPricingSection";
 import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 const inter = Inter({
@@ -19,14 +22,38 @@ export const metadata: Metadata = {
     title: "Junk Removal Carmel Valley | Professional Hauling Service",
     description: "Reliable junk removal serving all of Carmel Valley from Torrey Highlands to Del Mar Mesa. Upscale residential cleanouts and luxury home services.",
     url: "https://severincleaners.com/junk-removal-carmel-valley",
+    siteName: 'Severin Cleaners',
+    images: [{
+      url: 'https://severincleaners.com/og-image.jpg',
+      width: 1200,
+      height: 630,
+    }],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Junk Removal Carmel Valley | Professional Hauling Service",
+    description: "Reliable junk removal serving all of Carmel Valley from Torrey Highlands to Del Mar Mesa. Upscale residential cleanouts and luxury home services.",
+    images: ['https://severincleaners.com/og-image.jpg'],
   },
   alternates: {
     canonical: "https://severincleaners.com/junk-removal-carmel-valley",
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function JunkRemovalCarmelValleyPage() {
-  // Service schema for Carmel Valley location
   const serviceSchema = generateLocationServiceSchema({
     locationName: "Carmel Valley",
     serviceName: "Junk Removal",
@@ -34,435 +61,284 @@ export default function JunkRemovalCarmelValleyPage() {
     url: "https://severincleaners.com/junk-removal-carmel-valley",
   });
 
-  // Breadcrumb schema
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://severincleaners.com" },
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
     { name: "Carmel Valley Junk Removal", url: "https://severincleaners.com/junk-removal-carmel-valley" },
   ]);
 
-  // Existing WasteRemovalService and FAQ schemas
-  const wasteRemovalSchema = {
-    "@type": "WasteRemovalService",
-    "name": "Severin Cleaners - Junk Removal Carmel Valley",
-    "image": "https://severincleaners.com/carmel-valley-junk-removal.jpg",
-    "description": "Professional junk removal services in Carmel Valley, San Diego. Same-day pickup, eco-friendly disposal, and transparent pricing.",
-    "provider": {
-      "@type": "LocalBusiness",
-      "name": "Severin Cleaners",
-      "image": "https://severincleaners.com/logo.png",
-      "telephone": "+1-619-750-0114",
-      "url": "https://severincleaners.com",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "8900 Grossmont Blvd",
-        "addressLocality": "La Mesa",
-        "addressRegion": "CA",
-        "postalCode": "91941",
-        "addressCountry": "US"
-      }
-    },
-    "areaServed": {
-      "@type": "Place",
-      "name": "Carmel Valley, San Diego, CA",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "San Diego",
-        "addressRegion": "CA",
-        "postalCode": "92130"
-      }
-    },
-    "serviceType": ["Junk Removal", "Furniture Removal", "Appliance Disposal", "Estate Cleanout", "Same-day Pickup"],
-    "offers": {
-      "@type": "Offer",
-      "priceSpecification": [
-        {
-          "@type": "PriceSpecification",
-          "description": "Single Item Pickup",
-          "price": "175",
-          "priceCurrency": "USD"
-        },
-        {
-          "@type": "PriceSpecification",
-          "description": "1/4 Trailer Load",
-          "price": "249",
-          "priceCurrency": "USD"
-        },
-        {
-          "@type": "PriceSpecification",
-          "description": "1/2 Trailer Load",
-          "price": "349",
-          "priceCurrency": "USD"
-        },
-        {
-          "@type": "PriceSpecification",
-          "description": "Full Trailer Load",
-          "price": "495",
-          "priceCurrency": "USD"
-        }
-      ]
-    }
-  };
-
-  const faqSchema = {
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Do you provide same-day junk removal in Carmel Valley?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, we offer same-day junk pickup throughout Carmel Valley including Torrey Highlands, Del Mar Mesa, and Pacific Highlands Ranch. Call (619) 750-0114 before 2 PM for same-day service availability."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What areas of Carmel Valley do you serve?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "We serve all neighborhoods in Carmel Valley 92130 including Torrey Highlands, Del Mar Mesa, Pacific Highlands Ranch, Carmel Creek, and Torrey Hills. We also cover surrounding areas like 4S Ranch and Rancho Penasquitos."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How much does junk removal cost in Carmel Valley?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Our transparent pricing: Single Item Pickup starting at $100, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. Price includes labor, disposal fees, and cleanup. Call for a free quote."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Do you remove furniture and appliances from Carmel Valley homes?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, we remove all types of furniture, appliances, and household items. This includes sofas, mattresses, refrigerators, washers, dryers, and exercise equipment. We handle both indoor and outdoor removal."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Are you licensed and insured for junk removal in San Diego?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, Severin Cleaners is fully licensed and insured for junk removal services throughout San Diego County. We carry comprehensive liability insurance and proper waste hauling permits."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What items cannot be removed during junk hauling?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "We cannot remove hazardous materials like paint, chemicals, asbestos, or medical waste. However, we handle electronics, furniture, appliances, yard waste, construction debris, and most household items."
-        }
-      }
-    ]
-  };
-
-  // Combine all schemas into @graph
-  const combinedSchema = {
-    "@context": "https://schema.org",
-    "@graph": [
-      serviceSchema,
-      breadcrumbSchema,
-      wasteRemovalSchema,
-      faqSchema,
-    ],
-  };
+  const nearbyLocations = [
+    { name: "Del Mar", slug: "del-mar" },
+    { name: "Rancho Santa Fe", slug: "rancho-santa-fe" },
+    { name: "La Jolla", slug: "la-jolla" },
+    { name: "Mira Mesa", slug: "mira-mesa" },
+  ];
 
   return (
-    <div className={`${inter.variable} font-sans antialiased`}>
+    <div className={`${inter.variable} font-sans`}>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(combinedSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+
       <Header />
 
       <main>
         {/* Hero Section */}
-        <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 py-20">
+        <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-24">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center text-white">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Carmel Valley Junk Removal | North County Premium Service
+            <div className="max-w-4xl mx-auto text-center">
+              <div className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-6">
+                #1 Carmel Valley Junk Removal Service
+              </div>
+
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+                Carmel Valley Junk Removal
               </h1>
+
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                Professional junk hauling services for Carmel Valley's premier residential community
+                Torrey Highlands to Del Mar Mesa • Master-Planned Community Experts • Same-Day Service
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href="tel:+16197500114"
-                  className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors"
-                >
-                  CALL NOW: (619) 750-0114
-                </a>
-                <a
-                  href="/contact"
-                  className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-bold transition-colors"
-                >
-                  GET FREE QUOTE
-                </a>
-              </div>
+
+              <p className="text-lg mb-8">
+                ✓ Luxury Home Specialists ✓ HOA Compliant ✓ Licensed & Insured
+              </p>
             </div>
           </div>
         </section>
 
-        {/* Service Features */}
-        <section className="py-16 bg-gray-50">
+        {/* Main Content with Sidebar */}
+        <section className="py-12 bg-gray-50">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
-              Why Carmel Valley Residents Choose Severin Cleaners
-            </h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-                <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold mb-2">Same Day Service</h3>
-                <p className="text-gray-600">Quick response throughout Carmel Valley - from Del Mar Mesa to Torrey Highlands. Same-day pickup available for urgent needs.</p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-                <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold mb-2">Transparent Pricing</h3>
-                <p className="text-gray-600">Upfront quotes with no hidden fees. See exactly what you&apos;ll pay before we start. Photo estimates available via text.</p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-                <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold mb-2">Master-Planned Expert</h3>
-                <p className="text-gray-600">We navigate Torrey Highlands gated access, Pacific Highlands Ranch HOA requirements, and Torrey Hills business park logistics seamlessly.</p>
-              </div>
-            </div>
-          </div>
-        </section>
+            <div className="max-w-7xl mx-auto">
+              <div className="grid lg:grid-cols-3 gap-8">
 
-        {/* Detailed Content */}
-        <section className="py-16">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold mb-8 text-gray-900">
-                Fast, Reliable Junk Removal in Carmel Valley
-              </h2>
+                {/* Main Content - Left Column */}
+                <div className="lg:col-span-2">
+                  <div className="bg-white rounded-lg shadow-md p-8">
 
-              <div className="prose prose-lg max-w-none">
-                <p className="text-lg mb-6">
-                  Our Carmel Valley junk removal team offers same-day service throughout 92130, from Torrey Highlands to Del Mar Mesa. We&apos;re fully licensed and insured, providing upfront quotes based on photos you text or email. No surprises, no hidden fees.
-                </p>
+                    {/* Introduction */}
+                    <h2 className="text-3xl font-bold mb-6 text-gray-900">
+                      Professional Junk Removal Carmel Valley – Master-Planned Community Experts
+                    </h2>
 
-                <p className="text-lg mb-6">
-                  Whether you need furniture removed from your Pacific Highlands Ranch home or estate cleanout services in Torrey Hills, our professional crew handles every job with care and efficiency. We protect your floors, walls, and property during removal.
-                </p>
+                    <p className="text-lg mb-4 text-gray-700">
+                      <strong>Junk removal Carmel Valley</strong> serves one of San Diego's most prestigious North County communities. From Torrey Highlands gated estates to Pacific Highlands Ranch master-planned neighborhoods, our <strong>Carmel Valley junk hauling</strong> team navigates HOA requirements, luxury home standards, and upscale community expectations with professionalism. We provide same-day <strong>junk pickup Carmel Valley</strong> for executive relocations, estate cleanouts, and home staging projects throughout the 92130 area with transparent pricing and white-glove service.
+                    </p>
 
-                <h2 className="text-3xl font-bold mt-8 mb-4">Carmel Valley Neighborhoods We Serve</h2>
-                <p className="text-lg mb-4">
-                  Our <strong>junk removal Carmel Valley</strong> service covers every area of this prestigious North County community:
-                </p>
-                <ul className="list-disc pl-6 mb-8 space-y-2">
-                  <li><strong>Torrey Highlands</strong> - Luxury homes, gated communities, and junk removal services</li>
-                  <li><strong>Del Mar Mesa</strong> - Master-planned neighborhoods and family estate cleanouts</li>
-                  <li><strong>Pacific Highlands Ranch</strong> - Newer developments, modern homes, furniture removal</li>
-                  <li><strong>Carmel Creek</strong> - Established neighborhoods with mature landscaping</li>
-                  <li><strong>Torrey Hills</strong> - Premium residential areas and <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial junk removal for business parks</a></li>
-                  <li><strong>Village of Fairbanks Ranch</strong> - Exclusive equestrian community and luxury estate service</li>
-                  <li><strong>Santaluz</strong> - Golf course community and luxury property cleanouts</li>
-                  <li><strong>4S Ranch Border</strong> - Adjacent neighborhoods and connecting areas, same-day junk hauling</li>
-                </ul>
+                    <p className="text-gray-700 mb-6">
+                      Our Carmel Valley operation is uniquely equipped to handle the challenges of this premier North County neighborhood. We understand that <strong>estate cleanout Carmel Valley</strong> requires more than just hauling trucks—it demands respect for luxury finishes, coordination with property management, adherence to HOA scheduling restrictions, and the ability to work discreetly in exclusive communities. Whether you're clearing out a Torrey Highlands executive estate after a corporate relocation, removing home office furniture from a Del Mar Mesa telecommuter upgrade, or handling a complete garage cleanout near the Carmel Valley Recreation Center, our team brings the specialized experience that upscale properties demand.
+                    </p>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">Streets We Service Throughout Carmel Valley</h3>
-                <p className="text-lg mb-4">
-                  Our <strong>Carmel Valley junk hauling</strong> team knows every street and can navigate the community&apos;s unique layout:
-                </p>
+                    {/* Neighborhoods Served */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Carmel Valley Neighborhoods We Serve</h3>
+                    <p className="text-gray-700 mb-4">
+                      Our <strong>junk removal near me Carmel Valley</strong> service covers every corner of this diverse North County community, from oceanview estates bordering Del Mar to family neighborhoods near the I-15 corridor. We've completed thousands of junk removal jobs throughout Carmel Valley's master-planned developments, each with unique HOA requirements and community characteristics that inform our service approach:
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-4 mb-6">
+                      <ul className="space-y-2">
+                        <li><strong>Torrey Highlands:</strong> Gated luxury estates, executive homes with multi-car garages and pool house cleanout needs</li>
+                        <li><strong>Pacific Highlands Ranch:</strong> Newer master-planned community with strict HOA guidelines and modern family homes</li>
+                        <li><strong>Del Mar Mesa:</strong> Family-oriented neighborhoods with large properties and garage organization projects</li>
+                        <li><strong>Carmel Creek:</strong> Established residential area with mature landscaping and yard waste removal needs</li>
+                      </ul>
+                      <ul className="space-y-2">
+                        <li><strong>Torrey Hills:</strong> Business park proximity with commercial and residential service demands</li>
+                        <li><strong>Village of Fairbanks Ranch:</strong> Ultra-luxury equestrian community requiring specialized estate services</li>
+                        <li><strong>Santaluz:</strong> Golf course community with upscale property standards and staging requirements</li>
+                        <li><strong>Carmel Mountain Ranch:</strong> Family neighborhoods with standard residential junk removal access</li>
+                      </ul>
+                    </div>
 
-                <div className="grid md:grid-cols-2 gap-8 mb-8">
-                  <div>
-                    <h4 className="text-xl font-bold mb-3 text-blue-600">Major Streets & Corridors</h4>
-                    <ul className="list-disc pl-6 space-y-1">
-                      <li>Carmel Valley Road - Main thoroughfare access</li>
-                      <li>Del Mar Heights Road - Coastal connection route</li>
-                      <li>Carmel Mountain Road - North County access</li>
-                      <li>El Camino Real - Primary north-south corridor</li>
-                      <li>Torrey Santa Fe Road - Business district connection</li>
-                      <li>High Bluff Drive - Torrey Pines area access</li>
+                    {/* Major Streets */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access Routes</h3>
+                    <p className="text-gray-700 mb-4">
+                      Our <strong>Carmel Valley junk hauling</strong> team knows every street and can navigate the community's master-planned layout. This local expertise matters when coordinating with security gates, understanding HOA truck restrictions, and planning efficient routes through winding residential streets. We coordinate each job with detailed access planning to ensure smooth service:
+                    </p>
+                    <ul className="grid md:grid-cols-2 gap-2 mb-6">
+                      <li>• <strong>Carmel Valley Road:</strong> Main east-west thoroughfare connecting to I-5 and inland communities</li>
+                      <li>• <strong>Del Mar Heights Road:</strong> Coastal connection with ocean access and upscale properties</li>
+                      <li>• <strong>Carmel Mountain Road:</strong> North County corridor linking to Rancho Penasquitos and Poway</li>
+                      <li>• <strong>El Camino Real:</strong> Primary north-south route with business and residential mix</li>
+                      <li>• <strong>Torrey Santa Fe Road:</strong> Business district access serving Torrey Hills offices</li>
+                      <li>• <strong>High Bluff Drive:</strong> Torrey Pines area connection with corporate park access</li>
+                      <li>• <strong>Pacific Rim Court:</strong> Pacific Highlands Ranch residential streets with HOA coordination</li>
+                      <li>• <strong>Torrey Mesa Way:</strong> Torrey Highlands estates requiring security gate clearance</li>
                     </ul>
-                  </div>
-                  <div>
-                    <h4 className="text-xl font-bold mb-3 text-blue-600">Residential Streets</h4>
-                    <ul className="list-disc pl-6 space-y-1">
-                      <li>Creekstone Circle - Carmel Creek neighborhood</li>
-                      <li>Canyon Point Lane - Del Mar Mesa homes</li>
-                      <li>Torrey Mesa Way - Torrey Highlands estates</li>
-                      <li>Pacific Rim Court - Pacific Highlands Ranch</li>
-                      <li>Vista Del Lago - Fairbanks Ranch area</li>
-                      <li>Country Club Lane - Golf course communities</li>
+
+                    {/* Local Landmarks */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Carmel Valley Landmarks</h3>
+                    <p className="text-gray-700 mb-4">
+                      We provide <strong>furniture removal Carmel Valley</strong> service near all major landmarks. These familiar reference points help us navigate quickly to your property and coordinate with community amenities and local institutions that define daily life in this upscale neighborhood:
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-2 mb-6">
+                      <ul className="space-y-1">
+                        <li>• Torrey Pines High School—premier educational facility</li>
+                        <li>• Del Mar Highlands Town Center—major shopping hub</li>
+                        <li>• Carmel Valley Library—community gathering center</li>
+                        <li>• Torrey Pines Golf Course—world-renowned golf destination</li>
+                        <li>• One Paseo—upscale mixed-use development</li>
+                        <li>• Carmel Valley Recreation Center—sports and activities</li>
+                      </ul>
+                      <ul className="space-y-1">
+                        <li>• Sage Canyon Elementary—family neighborhood school</li>
+                        <li>• Whole Foods Carmel Valley—central shopping location</li>
+                        <li>• Torrey Hills Center—business park and offices</li>
+                        <li>• Pacific Highlands Ranch Community Park—recreation hub</li>
+                        <li>• Carmel Creek Trail System—neighborhood open space</li>
+                        <li>• Del Mar Mesa Preserve—natural area boundary</li>
+                      </ul>
+                    </div>
+
+                    {/* Traffic & Timing */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Traffic Patterns & Service Timing</h3>
+                    <p className="text-gray-700 mb-4">
+                      Carmel Valley's commuter patterns and school traffic affect <strong>junk removal Carmel Valley</strong> scheduling more than many realize. Our dispatch team actively monitors North County traffic and coordinates with you to schedule service windows that respect HOA quiet hours and minimize neighborhood disruption. We've developed specific timing protocols for different Carmel Valley areas:
+                    </p>
+                    <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
+                      <li><strong>Weekday rush hours (7-9 AM, 4-7 PM):</strong> Heavy commuter traffic on Carmel Valley Road, Del Mar Heights Road, and El Camino Real creates delays. We recommend mid-morning (9:30 AM-2 PM) service windows when streets are clear and neighbors are at work. HOA truck restrictions often apply during early morning hours anyway.</li>
+                      <li><strong>School traffic (7:30-8:30 AM, 2-3:30 PM):</strong> Torrey Pines High School and elementary schools create localized congestion in residential neighborhoods. We avoid these windows for nearby properties or coordinate alternative access routes with advance planning.</li>
+                      <li><strong>Weekend service:</strong> Saturday mornings are popular for Carmel Valley junk removal, but many HOAs restrict truck access before 8 AM or 9 AM. We confirm community-specific rules before scheduling and offer flexible Sunday appointments for properties with seven-day access approval.</li>
+                      <li><strong>Executive relocation timing:</strong> Corporate clients often need weekday service during business hours while they're at the office. We coordinate discreet mid-day appointments (10 AM-3 PM) that allow us to work efficiently without homeowner presence, perfect for busy professionals managing moves remotely.</li>
                     </ul>
-                  </div>
-                </div>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">Local Landmarks & Reference Points</h3>
-                <p className="text-lg mb-4">
-                  Our team uses these familiar Carmel Valley landmarks for easy scheduling and directions:
-                </p>
-                <ul className="list-disc pl-6 mb-6">
-                  <li><strong>Torrey Pines High School</strong> - Premier educational facility serving the community</li>
-                  <li><strong>Del Mar Highlands Town Center</strong> - Major shopping and dining destination</li>
-                  <li><strong>Carmel Valley Library</strong> - Community gathering and educational center</li>
-                  <li><strong>Torrey Pines Golf Course</strong> - World-renowned golf destination</li>
-                  <li><strong>One Paseo</strong> - Upscale shopping and entertainment complex</li>
-                  <li><strong>Carmel Valley Recreation Center</strong> - Community sports and activities hub</li>
-                  <li><strong>Sage Canyon Elementary</strong> - Local school serving family neighborhoods</li>
-                  <li><strong>Whole Foods Carmel Valley</strong> - Central shopping and community meeting point</li>
-                </ul>
+                    {/* Weather */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">North County Weather Considerations</h3>
+                    <p className="text-gray-700 mb-6">
+                      Carmel Valley's inland North County location creates distinct weather patterns that affect junk removal operations year-round. Summer temperatures (June-September) regularly exceed 85°F inland from the coast, with Torrey Highlands and Del Mar Mesa areas experiencing warmer conditions than coastal Del Mar just miles away. We schedule early morning starts (7-9 AM) during heat waves to protect crews and prevent heat damage to items being transported. Winter rainy season (December-February) brings occasional heavy rainfall that can create muddy conditions on unpaved driveways in newer construction areas—we bring protective floor coverings and take extra care during wet weather to preserve luxury flooring and carpets. The community's elevation and distance from the ocean means less marine layer fog than coastal areas, allowing consistent year-round scheduling without coastal weather delays.
+                    </p>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">Specialty Junk Removal Services</h3>
-                <p className="text-lg mb-4">
-                  Carmel Valley&apos;s diverse community requires specialized <strong>junk removal</strong> services:
-                </p>
+                    {/* What We Remove */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Carmel Valley</h3>
+                    <p className="text-gray-700 mb-4">
+                      Our <strong>junk removal Carmel Valley</strong> service handles the unique mix of items common to upscale North County living—from executive home office furniture to luxury outdoor equipment to home staging preparation. We remove everything from single items to complete estate cleanouts:
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-4 mb-6">
+                      <div>
+                        <h4 className="font-bold mb-2">Furniture & Household</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Executive office furniture and home office upgrades</li>
+                          <li>• Luxury sofas, sectionals, and designer pieces</li>
+                          <li>• Master bedroom sets and guest room furniture</li>
+                          <li>• Dining room tables, chairs, and formal furniture</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h4 className="font-bold mb-2">Appliances & Electronics</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• High-end refrigerators and wine coolers</li>
+                          <li>• Washer, dryer sets from home renovations</li>
+                          <li>• Home theater systems and entertainment centers</li>
+                          <li>• Exercise equipment and home gym removal</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h4 className="font-bold mb-2">Outdoor & Recreation</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Patio furniture sets and outdoor kitchens</li>
+                          <li>• Pool furniture and cabana equipment</li>
+                          <li>• Playground equipment and sports gear</li>
+                          <li>• <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">Hot tubs and spas</a> from backyard renovations</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h4 className="font-bold mb-2">Cleanouts & Projects</h4>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Estate cleanouts for luxury properties</li>
+                          <li>• Multi-car garage organization and clearing</li>
+                          <li>• Home staging preparation and decluttering</li>
+                          <li>• Relocation cleanouts for corporate moves</li>
+                        </ul>
+                      </div>
+                    </div>
 
-                <div className="grid md:grid-cols-2 gap-8 mb-8">
-                  <div>
-                    <h4 className="text-xl font-bold mb-3 text-blue-600">Residential Specialties</h4>
-                    <ul className="list-disc pl-6 space-y-1">
-                      <li>Luxury home staging and preparation</li>
-                      <li>Executive relocation cleanouts</li>
-                      <li>Multi-generational family cleanouts</li>
-                      <li>Home office and tech equipment removal</li>
-                      <li>Pool house and guest quarters clearing</li>
-                      <li>Three-car garage organization and cleanouts</li>
+                    {/* How Our Service Works */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">How Our Carmel Valley Junk Removal Service Works</h3>
+                    <div className="bg-blue-50 rounded-lg p-6 mb-6">
+                      <ol className="space-y-3 text-gray-700">
+                        <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe what you need removed and your Carmel Valley location. We'll provide estimated pricing based on volume and confirm any HOA requirements for your community.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for same-day service throughout the 92130 area. We coordinate arrival times around your schedule and community access requirements.</li>
+                        <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives in professional vehicles during your scheduled window. We assess items for removal and provide a final quote before starting work—no hidden fees or surprises.</li>
+                        <li><strong>4. We Load & Haul Everything:</strong> Our team does all lifting, loading, and hauling. We protect floors, walls, and doorways in luxury homes, navigate stairs and multi-level properties, and complete removal efficiently. You simply point—we handle the rest.</li>
+                        <li><strong>5. Eco-Friendly Disposal:</strong> We sort items for donation, recycling, and responsible disposal. Luxury furniture goes to appropriate charities, recyclables to proper facilities, and only true waste to landfill as last resort.</li>
+                        <li><strong>6. Clean Sweep & Payment:</strong> We sweep the area clean after removal and collect payment. Most jobs are completed in under two hours from arrival to departure.</li>
+                      </ol>
+                    </div>
+
+                    {/* Why Choose Us */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Cleaners for Carmel Valley Junk Removal</h3>
+                    <ul className="space-y-3 mb-6">
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>Luxury Home Expertise:</strong> We navigate Carmel Valley's gated communities, HOA restrictions, and upscale property standards with professionalism. Our crews have completed thousands of Carmel Valley junk removal jobs and understand the specific requirements of Torrey Highlands estates, Pacific Highlands Ranch master-planned homes, and Del Mar Mesa luxury properties. We coordinate with property management, work around community quiet hours, and maintain the discretion that exclusive neighborhoods expect.</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>Same-Day Service Available:</strong> Call before noon for same-day junk removal throughout Carmel Valley and the 92130 area. Our dispatch team coordinates with HOA access requirements and schedules arrival windows that work for busy professionals, ensuring reliable service even for last-minute executive relocations and urgent estate transitions.</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>Transparent Pricing:</strong> No hidden fees, no surprises. Upfront quotes based on volume with all labor, hauling, and disposal included. Gated community access and luxury home service don't change our rates—you pay for volume removed, not property type. Most Carmel Valley jobs range from half-truck to full-truck loads with clear pricing tiers communicated before work begins.</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3">✓</span>
+                        <span><strong>Licensed & Insured:</strong> Fully licensed California junk removal company with comprehensive liability insurance. We carry proper coverage for luxury property access, including protection for high-end finishes, gated community entry, and upscale homes that require careful navigation of travertine floors, custom millwork, and premium landscaping.</span>
+                      </li>
                     </ul>
-                  </div>
-                  <div>
-                    <h4 className="text-xl font-bold mb-3 text-blue-600">Property-Specific Services</h4>
-                    <ul className="list-disc pl-6 space-y-1">
-                      <li>Estate cleanouts for luxury properties</li>
-                      <li>Downsizing assistance for empty nesters</li>
-                      <li>Student move-out from nearby UCSD</li>
-                      <li>Corporate housing and temporary resident cleanouts</li>
-                      <li>Vacation rental turnover and deep cleaning prep</li>
-                      <li>New construction debris and moving prep</li>
-                    </ul>
+
                   </div>
                 </div>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">Transparent Pricing for Carmel Valley</h3>
-                <div className="bg-blue-50 p-6 rounded-lg mb-8">
-                  <h4 className="text-xl font-bold mb-4 text-blue-900">Our Upfront Pricing Structure</h4>
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div className="bg-white p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-blue-600 mb-2">Starting at $100</div>
-                      <div className="font-semibold mb-1">Single Item Pickup</div>
-                      <div className="text-sm text-gray-600">Perfect for one large item like a sofa, mattress, or appliance</div>
-                    </div>
-                    <div className="bg-white p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-blue-600 mb-2">$249</div>
-                      <div className="font-semibold mb-1">1/4 Trailer Load</div>
-                      <div className="text-sm text-gray-600">Small cleanouts, few boxes, or couple pieces of furniture</div>
-                    </div>
-                    <div className="bg-white p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-blue-600 mb-2">$319</div>
-                      <div className="font-semibold mb-1">3/8 Trailer Load</div>
-                      <div className="text-sm text-gray-600">Medium-sized cleanouts with multiple items</div>
-                    </div>
-                    <div className="bg-white p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-blue-600 mb-2">$349</div>
-                      <div className="font-semibold mb-1">1/2 Trailer Load</div>
-                      <div className="text-sm text-gray-600">Room cleanouts, multiple furniture pieces, or renovation debris</div>
-                    </div>
-                    <div className="bg-white p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-blue-600 mb-2">$366</div>
-                      <div className="font-semibold mb-1">5/8 Trailer Load</div>
-                      <div className="text-sm text-gray-600">Large room or garage cleanouts</div>
-                    </div>
-                    <div className="bg-white p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-blue-600 mb-2">$429</div>
-                      <div className="font-semibold mb-1">3/4 Trailer Load</div>
-                      <div className="text-sm text-gray-600">Multi-room cleanouts or large furniture sets</div>
-                    </div>
-                    <div className="bg-white p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-blue-600 mb-2">$462</div>
-                      <div className="font-semibold mb-1">7/8 Trailer Load</div>
-                      <div className="text-sm text-gray-600">Near-complete house cleanouts</div>
-                    </div>
-                    <div className="bg-white p-4 rounded-lg">
-                      <div className="text-2xl font-bold text-blue-600 mb-2">$495</div>
-                      <div className="font-semibold mb-1">Full Trailer Load</div>
-                      <div className="text-sm text-gray-600">Whole house cleanouts, complete furniture sets, or large projects</div>
-                    </div>
-                  </div>
-                  <p className="text-sm text-gray-700 mt-4 text-center">
-                    Pricing includes labor, disposal fees, and cleanup. Call for a free quote tailored to your specific needs.
-                  </p>
+                {/* Sidebar - Right Column */}
+                <div className="lg:col-span-1">
+                  <LocationSidebarCTA
+                    phoneNumber="(619) 750-0114"
+                    locationName="Carmel Valley"
+                    nearbyLocations={nearbyLocations}
+                  />
                 </div>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">Eco-Friendly Disposal Practices</h3>
-                <p className="text-lg mb-4">
-                  As a environmentally conscious community, Carmel Valley values responsible disposal. Our <strong>junk removal near me Carmel Valley</strong> service prioritizes sustainability:
-                </p>
-                <ul className="list-disc pl-6 mb-6">
-                  <li>Donation partnerships with local San Diego charities and nonprofits</li>
-                  <li>Comprehensive recycling of metals, electronics, and materials</li>
-                  <li>Furniture restoration referrals for antiques and quality pieces</li>
-                  <li>Proper hazardous material handling and disposal</li>
-                  <li>Construction debris recycling and material recovery</li>
-                  <li>Organic waste composting when appropriate</li>
-                </ul>
-
-                <h3 className="text-2xl font-bold mt-8 mb-4">Property Types We Serve</h3>
-                <p className="text-lg mb-4">
-                  Carmel Valley&apos;s diverse real estate market requires expertise with various property types:
-                </p>
-
-                <div className="grid md:grid-cols-3 gap-6 mb-8">
-                  <div className="bg-white p-4 rounded-lg shadow-md">
-                    <h5 className="font-bold text-blue-600 mb-2">Luxury Single-Family Homes</h5>
-                    <p className="text-sm text-gray-600">Custom estates, Mediterranean villas, and contemporary luxury homes with complex layouts and high-end finishes.</p>
-                  </div>
-                  <div className="bg-white p-4 rounded-lg shadow-md">
-                    <h5 className="font-bold text-blue-600 mb-2">Townhomes & Condominiums</h5>
-                    <p className="text-sm text-gray-600">Multi-level townhomes, luxury condos, and planned community properties with HOA considerations.</p>
-                  </div>
-                  <div className="bg-white p-4 rounded-lg shadow-md">
-                    <h5 className="font-bold text-blue-600 mb-2">Gated Communities</h5>
-                    <p className="text-sm text-gray-600">Exclusive neighborhoods with security protocols, guest access procedures, and community standards.</p>
-                  </div>
-                </div>
-
-                <div className="bg-blue-50 p-6 rounded-lg mt-8">
-                  <h3 className="text-2xl font-bold mb-4 text-blue-900">Ready for Professional Junk Removal in Carmel Valley?</h3>
-                  <p className="text-lg mb-4">
-                    From Torrey Highlands luxury estates to Del Mar Mesa family homes, Severin Cleaners provides the reliable <strong>junk removal Carmel Valley</strong> service that meets your community&apos;s high standards.
-                  </p>
-                  <div className="flex flex-col sm:flex-row gap-4">
-                    <a
-                      href="tel:+16197500114"
-                      className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg text-center font-bold transition-colors"
-                    >
-                      Call Now: (619) 750-0114
-                    </a>
-                    <a
-                      href="/contact"
-                      className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-3 rounded-lg text-center font-bold transition-colors"
-                    >
-                      Get Free Carmel Valley Quote
-                    </a>
-                  </div>
-                  <p className="text-sm text-gray-600 mt-3 text-center">
-                    Serving all of Carmel Valley from Pacific Highlands Ranch to Torrey Hills • Same-day service available
-                  </p>
-                </div>
               </div>
             </div>
           </div>
         </section>
 
+        {/* Pricing Section */}
+        <LocationPricingSection
+          locationName="Carmel Valley"
+          contextParagraph="Estate cleanouts and luxury home projects throughout Carmel Valley—from Torrey Highlands to Pacific Highlands Ranch—all use the same transparent pricing. No hidden fees, same-day service available."
+        />
+
+        {/* Trust Signals Section */}
+        <TrustSignalsSection locationName="Carmel Valley" />
+
+        {/* FAQ Section */}
         <CarmelValleyFAQSection />
+
+        {/* Related Services */}
+        <section className="py-12 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <h3 className="text-2xl font-bold text-center mb-8">Related North County Services</h3>
+            <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+              <a href="/furniture-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
+                <p className="text-gray-600">Executive home office and luxury furniture removal throughout Carmel Valley</p>
+              </a>
+              <a href="/estate-cleanout-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Estate Cleanouts San Diego</h4>
+                <p className="text-gray-600">Comprehensive estate services for upscale Torrey Highlands and Del Mar Mesa properties</p>
+              </a>
+              <a href="/construction-debris-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Construction Debris Removal</h4>
+                <p className="text-gray-600">Luxury home renovation and remodel debris cleanup services</p>
+              </a>
+            </div>
+          </div>
+        </section>
       </main>
 
       <Footer />
