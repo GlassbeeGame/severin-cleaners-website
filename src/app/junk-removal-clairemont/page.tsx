@@ -5,6 +5,8 @@ import Footer from "@/components/Footer";
 import ClairemontFAQSection from "./ClairemontFAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
+import LocationPricingSection from "@/components/LocationPricingSection";
+import TrustSignalsSection from "@/components/TrustSignalsSection";
 import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 const inter = Inter({
@@ -373,6 +375,15 @@ export default function JunkremovalclairemontPage() {
               </div>
             </div>
           </section>
+
+          {/* Pricing Section */}
+          <LocationPricingSection
+            locationName="Clairemont"
+            contextParagraph="Transparent pricing for urban Clairemont junk removal—from Bay Ho hillside homes to South Clairemont family neighborhoods. Whether you're clearing a garage or managing an estate cleanout, you'll know the exact cost before we begin."
+          />
+
+          {/* Trust Signals Section */}
+          <TrustSignalsSection locationName="Clairemont" coverageArea="Central San Diego" />
 
           {/* FAQ Section */}
           <ClairemontFAQSection />

@@ -98,12 +98,6 @@ export default function JunkRemovalLaJollaPage() {
             </div>
           </section>
 
-          {/* Pricing Section */}
-          <LocationPricingSection
-            locationName="La Jolla"
-            contextParagraph="Transparent pricing for luxury estates throughout La Jolla—from oceanfront Bird Rock to hillside Muirlands. Whether you're clearing a multi-million dollar estate or updating a Village condo, you'll know the exact cost before we begin."
-          />
-
           {/* Main Content with Sidebar */}
           <section className="py-12 bg-gray-50">
             <div className="container mx-auto px-4">
@@ -456,6 +450,12 @@ export default function JunkRemovalLaJollaPage() {
               </div>
             </div>
           </section>
+
+          {/* Pricing Section */}
+          <LocationPricingSection
+            locationName="La Jolla"
+            contextParagraph="Transparent pricing for luxury estates throughout La Jolla—from oceanfront Bird Rock to hillside Muirlands. Whether you're clearing a multi-million dollar estate or updating a Village condo, you'll know the exact cost before we begin."
+          />
 
           {/* Trust Signals Section */}
           <TrustSignalsSection locationName="La Jolla" coverageArea="Coastal San Diego" />

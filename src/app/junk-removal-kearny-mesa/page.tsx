@@ -5,6 +5,8 @@ import Footer from "@/components/Footer";
 import KearnyMesaFAQSection from "./KearnyMesaFAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
+import LocationPricingSection from "@/components/LocationPricingSection";
+import TrustSignalsSection from "@/components/TrustSignalsSection";
 import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 const inter = Inter({
@@ -373,6 +375,15 @@ export default function JunkRemovalKearnyMesaPage() {
               </div>
             </div>
           </section>
+
+          {/* Pricing Section */}
+          <LocationPricingSection
+            locationName="Kearny Mesa"
+            contextParagraph="Transparent pricing for commercial and residential junk removal throughout Kearny Mesa—from Convoy District restaurants to business park offices. Whether you're clearing a warehouse or managing an office cleanout, you'll know the exact cost before we begin."
+          />
+
+          {/* Trust Signals Section */}
+          <TrustSignalsSection locationName="Kearny Mesa" coverageArea="Central San Diego" />
 
           {/* FAQ Section */}
           <KearnyMesaFAQSection />
