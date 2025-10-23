@@ -114,7 +114,11 @@ export default function JunkRemovalLaJollaPage() {
                   </p>
 
                   <p className="text-lg text-gray-700 mb-6">
-                    Whether you're renovating, preparing for sale, or managing an estate transition, we handle every phase from sorting and hauling to donation and documentation.
+                    Whether you're renovating, preparing for sale, or managing an estate transition, we handle every phase from sorting and hauling to donation and documentation. La Jolla's unique combination of coastal environment, luxury property values, and exclusive community standards requires more than standard junk removal service—it demands white-glove expertise from a team that understands the discrete, professional approach that million-dollar estates expect.
+                  </p>
+
+                  <p className="text-lg text-gray-700 mb-6">
+                    Our <strong>junk hauling La Jolla</strong> operation serves properties throughout the community, from cramped Village apartments steps from boutique shopping to sprawling Mount Soledad estates with panoramic ocean views. We've removed everything from single furniture pieces during interior design updates to complete multi-structure estate cleanouts involving main residences, guest houses, and pool pavilions. Each job receives the same meticulous attention to property protection, item handling, and community standards that La Jolla residents demand.
                   </p>
 
                   <p className="text-lg mb-6 font-semibold text-gray-800 italic">
@@ -460,6 +464,18 @@ export default function JunkRemovalLaJollaPage() {
                     <li>Pool house and guest cottage renovation debris removal</li>
                     <li>View enhancement project coordination and cleanup</li>
                   </ul>
+
+                  <h3 className="text-2xl font-bold mt-8 mb-4">How Our La Jolla Service Works</h3>
+                  <div className="bg-blue-50 rounded-lg p-6 mb-6">
+                    <ol className="space-y-3 text-gray-700">
+                      <li><strong>1. Initial Contact & Consultation:</strong> Call (619) 750-0114 or book online. For large estate projects, we offer on-site consultations to assess scope and provide accurate estimates. Describe your property location (Village, Bird Rock, Muirlands, etc.) and items for removal.</li>
+                      <li><strong>2. Discrete Scheduling & Access Coordination:</strong> We schedule service windows that accommodate your privacy preferences and property access requirements. For gated communities or estates with security, we coordinate clearance in advance.</li>
+                      <li><strong>3. Professional Arrival & Assessment:</strong> Our uniformed crew arrives in clearly marked vehicles (unmarked vehicles available upon request for high-profile properties). We assess items and provide final transparent pricing before beginning work.</li>
+                      <li><strong>4. White-Glove Removal:</strong> We protect floors and doorways, use professional equipment for valuable items, and handle everything from single pieces to complete estate contents. Most La Jolla jobs complete within 2-4 hours depending on scope.</li>
+                      <li><strong>5. Luxury-Grade Disposal:</strong> High-value items can be coordinated with auction houses, consignment services, or appropriate donation partners. Recyclables go to proper facilities, and only true waste reaches landfill as last resort.</li>
+                      <li><strong>6. Final Walkthrough & Payment:</strong> We complete a walkthrough to ensure satisfaction, sweep all areas clean, and process payment. Many La Jolla clients use our service repeatedly for ongoing property needs.</li>
+                    </ol>
+                  </div>
                 </div>
               </div>
             </div>
