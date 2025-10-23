@@ -174,7 +174,7 @@ export default function EstateCleanoutPage() {
 
                 <h3 className="text-2xl font-bold mt-10 mb-4">Probate Cleanout San Diego</h3>
                 <p className="text-lg mb-6">
-                  Dealing with probate? Courts often require the property to be cleared by certain deadlines. Our probate cleanout San Diego service works efficiently to meet those timelines. We haul away furniture, clear rooms, and prepare the property—helping you meet legal requirements without the stress of doing it yourself.
+                  Dealing with probate? Courts often require the property to be cleared by certain deadlines. Our probate cleanout San Diego service works efficiently to meet those timelines. We haul away furniture, clear rooms, and prepare the property—helping you meet legal requirements without the stress of doing it yourself. For bank-owned properties or tenant situations, see our <a href="/foreclosure-eviction-cleanout-san-diego" className="text-blue-600 hover:underline">foreclosure and eviction cleanouts</a>.
                 </p>
 
                 <h3 className="text-2xl font-bold mt-10 mb-4">Estate Sale Cleanout San Diego</h3>
@@ -285,7 +285,7 @@ export default function EstateCleanoutPage() {
 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg mb-8">
                   <p className="text-sm text-gray-700 leading-relaxed">
-                    Note: Most full estate cleanouts require multiple trailer loads. Typical estates range from $1,500-$3,000 depending on property size and amount of items. We provide written estimates after seeing the property. Call <a href="tel:+16197500114" className="text-blue-600 font-bold hover:underline">(619) 750-0114</a> for a free assessment.
+                    Note: Most full estate cleanouts require multiple trailer loads. Typical estates range from $1,500-$3,000 depending on property size and amount of items. We provide written estimates after seeing the property. Call <a href="tel:+16197500114" className="text-blue-600 font-bold hover:underline">(619) 750-0114</a> for a free assessment. For more information about disposal costs, visit our <a href="/blog/san-diego-dump-fees-guide" className="text-blue-600 font-bold hover:underline">San Diego dump fees guide</a>.
                   </p>
                 </div>
 

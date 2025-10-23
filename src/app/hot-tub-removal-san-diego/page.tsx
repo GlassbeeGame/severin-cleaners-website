@@ -225,7 +225,7 @@ export default function HotTubRemovalSanDiegoPage() {
 
                 <h4 className="text-xl font-bold mb-3">Luxury Spa & Custom Jacuzzi Removal</h4>
                 <p className="text-lg mb-4">
-                  San Diego's luxury homes often feature custom-built spas and high-end Jacuzzis requiring specialized removal techniques. Our <strong>Jacuzzi removal San Diego</strong> service includes experience with luxury installations, custom tile work, and integrated landscape features that require careful dismantling.
+                  San Diego's luxury homes in <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a>, and <a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a> often feature custom-built spas and high-end Jacuzzis requiring specialized removal techniques. Our <strong>Jacuzzi removal San Diego</strong> service includes experience with luxury installations, custom tile work, and integrated landscape features that require careful dismantling.
                 </p>
 
                 <h4 className="text-xl font-bold mb-3">Real Estate & Property Management Support</h4>
@@ -261,11 +261,11 @@ export default function HotTubRemovalSanDiegoPage() {
                 </p>
                 <div className="grid md:grid-cols-3 gap-4 mb-6">
                   <ul className="list-disc pl-4">
-                    <li>La Jolla & Bird Rock luxury homes</li>
-                    <li>Del Mar & Solana Beach coastal properties</li>
+                    <li><a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> & Bird Rock luxury homes</li>
+                    <li><a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a> & Solana Beach coastal properties</li>
                     <li>Rancho Santa Fe estate spas</li>
-                    <li>Carmel Valley family homes</li>
-                    <li>Pacific Beach & Mission Beach</li>
+                    <li><a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a> family homes</li>
+                    <li><a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a> & Mission Beach</li>
                   </ul>
                   <ul className="list-disc pl-4">
                     <li>Point Loma & Ocean Beach</li>

@@ -174,7 +174,7 @@ export default function ConstructionDebrisRemovalPage() {
 
                 <h3 className="text-2xl font-bold mt-10 mb-4">Construction Cleanup San Diego</h3>
                 <p className="text-lg mb-6">
-                  Need ongoing cleanup for an active job site? Our construction cleanup San Diego service provides scheduled pickups—daily, weekly, or as needed. Regular debris removal keeps your site safe, improves workflow, and helps you pass inspections without delays.
+                  Need ongoing cleanup for an active job site? Our construction cleanup San Diego service provides scheduled pickups—daily, weekly, or as needed. Regular debris removal keeps your site safe, improves workflow, and helps you pass inspections without delays. For ongoing commercial construction projects, see our <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial junk removal services</a>.
                 </p>
 
                 <h3 className="text-2xl font-bold mt-10 mb-4">Renovation Debris Removal San Diego</h3>
@@ -285,7 +285,7 @@ export default function ConstructionDebrisRemovalPage() {
 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg mb-8">
                   <p className="text-sm text-gray-700 leading-relaxed">
-                    Note: Large construction projects often require multiple loads. Heavy materials like concrete may have additional fees. Call <a href="tel:+16197500114" className="text-blue-600 font-bold hover:underline">(619) 750-0114</a> for an accurate contractor quote.
+                    Note: Large construction projects often require multiple loads. Heavy materials like concrete may have additional fees. Call <a href="tel:+16197500114" className="text-blue-600 font-bold hover:underline">(619) 750-0114</a> for an accurate contractor quote. For information about local disposal costs, see our <a href="/blog/san-diego-dump-fees-guide" className="text-blue-600 font-bold hover:underline">San Diego dump fees guide</a>.
                   </p>
                 </div>
 

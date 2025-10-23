@@ -174,8 +174,11 @@ export default function ServicesPage() {
               <h2 className="text-4xl font-bold text-gray-900 mb-4">
                 Our Junk Removal Services
               </h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-4">
                 From emergency same-day pickups to scheduled commercial cleanouts, we provide comprehensive junk removal solutions for every need.
+              </p>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Serving all of San Diego County including <a href="/junk-removal-poway" className="text-blue-600 hover:underline">Poway</a>, <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, <a href="/junk-removal-spring-valley" className="text-blue-600 hover:underline">Spring Valley</a>, and all surrounding areas.
               </p>
             </div>
 

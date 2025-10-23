@@ -238,7 +238,7 @@ export default function SameDayJunkRemovalPage() {
                 </p>
 
                 <p className="text-lg mb-6">
-                  When you need <strong>same day junk removal San Diego</strong> that actually shows up today, we've got you covered. Our local teams respond fast—usually within 2-4 hours. From La Jolla to Chula Vista, we're there the same day you call.
+                  When you need <strong>same day junk removal San Diego</strong> that actually shows up today, we've got you covered. Our local teams respond fast—usually within 2-4 hours. From <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> to Chula Vista, we're there the same day you call.
                 </p>
 
                 <h3 className="text-2xl font-bold mt-10 mb-4">How Fast Can We Get There?</h3>
@@ -403,8 +403,8 @@ export default function SameDayJunkRemovalPage() {
                     <h4 className="font-bold mb-2 text-blue-600">Central San Diego</h4>
                     <ul className="text-sm space-y-1 text-gray-700">
                       <li>• Downtown & Gaslamp</li>
-                      <li>• La Jolla</li>
-                      <li>• Pacific Beach</li>
+                      <li>• <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a></li>
+                      <li>• <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a></li>
                       <li>• North Park & Hillcrest</li>
                     </ul>
                   </div>

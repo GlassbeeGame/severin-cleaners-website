@@ -141,7 +141,7 @@ export default function ApplianceRemovalPage() {
                 </p>
 
                 <p className="text-lg mb-6">
-                  We remove refrigerators, washers, dryers, stoves, dishwashers—you name it. From La Jolla to Chula Vista, Point Loma to North Park, we help homeowners reclaim their space daily with safe, eco-friendly appliance hauling.
+                  We remove refrigerators, washers, dryers, stoves, dishwashers—you name it. From La Jolla to Chula Vista, Point Loma to North Park, we help homeowners reclaim their space daily with safe, eco-friendly appliance hauling. Also need <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture disposal</a> or <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">mattress removal</a>? We handle it all.
                 </p>
 
                 {/* Pricing Section */}
@@ -282,7 +282,7 @@ export default function ApplianceRemovalPage() {
 
                 <h4 className="text-xl font-bold mt-6 mb-3">Freezer Removal San Diego</h4>
                 <p className="text-lg mb-6">
-                  We remove garage or chest freezers of all sizes—no need to lift a thing. Just empty the contents, and we'll handle the rest.
+                  We remove garage or chest freezers of all sizes—no need to lift a thing. Just empty the contents, and we'll handle the rest. Also removing furniture? Check our <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture removal service</a>.
                 </p>
 
                 <h3 className="text-2xl font-bold mt-8 mb-4">When San Diego Homeowners Call Us</h3>

@@ -309,8 +309,8 @@ export default function HoardingCleanupPage() {
                 <div className="grid md:grid-cols-3 gap-6 mb-8">
                   <ul className="list-disc pl-4 text-gray-700">
                     <li>Downtown & Central San Diego</li>
-                    <li>Pacific Beach & Mission Beach</li>
-                    <li>La Jolla & UTC</li>
+                    <li><a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a> & Mission Beach</li>
+                    <li><a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> & UTC</li>
                     <li>Point Loma & Ocean Beach</li>
                   </ul>
                   <ul className="list-disc pl-4 text-gray-700">
@@ -322,7 +322,7 @@ export default function HoardingCleanupPage() {
                   <ul className="list-disc pl-4 text-gray-700">
                     <li>Escondido & North County</li>
                     <li>Oceanside & Carlsbad</li>
-                    <li>Vista & San Marcos</li>
+                    <li><a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a> & Vista</li>
                     <li>Poway & Scripps Ranch</li>
                   </ul>
                 </div>

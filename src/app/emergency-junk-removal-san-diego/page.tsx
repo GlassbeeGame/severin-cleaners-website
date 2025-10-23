@@ -88,7 +88,7 @@ export default function EmergencyJunkRemovalPage() {
                 Fast & Reliable Junk Removal Available Today
               </h2>
               <p className="text-xl text-gray-600 mb-8 text-center">
-                When you need urgent trash removal San Diego now, Severin Cleaners delivers immediate junk hauling solutions. Our last minute junk removal San Diego service operates 7 days a week, including weekend junk removal San Diego Saturday Sunday availability. No job too big, no timeline too tight.
+                When you need urgent trash removal San Diego now, Severin Cleaners delivers immediate junk hauling solutions. Our last minute junk removal San Diego service operates 7 days a week, including weekend junk removal San Diego Saturday Sunday availability. No job too big, no timeline too tight. Learn more about our <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day junk removal</a> service.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">

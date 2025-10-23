@@ -44,7 +44,7 @@ export default function Hero() {
 
           {/* Tagline */}
           <p className="text-lg md:text-2xl lg:text-3xl text-white font-bold mb-8 md:mb-12 max-w-3xl mx-auto">
-            Same Day Service • Licensed & Insured
+            <a href="/same-day-junk-removal-san-diego" className="text-blue-300 hover:text-blue-200 underline">Same Day Service</a> • Licensed & Insured
           </p>
 
           {/* CTA Buttons - Balanced & Aesthetic */}

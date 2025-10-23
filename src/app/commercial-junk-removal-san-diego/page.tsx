@@ -327,8 +327,8 @@ export default function CommercialjunkremovalsandiegoPage() {
                   <ul className="list-disc pl-6 space-y-1 text-gray-700">
                     <li><strong>Downtown San Diego:</strong> High-rise offices, financial district, Gaslamp Quarter businesses</li>
                     <li><strong>Mission Valley:</strong> Corporate headquarters, shopping centers, medical complexes</li>
-                    <li><strong>UTC/La Jolla:</strong> Tech companies, biotech firms, university research facilities</li>
-                    <li><strong>Kearny Mesa:</strong> Manufacturing, warehouses, automotive businesses</li>
+                    <li><strong>UTC/<a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>:</strong> Tech companies, biotech firms, university research facilities, medical and dental office cleanouts</li>
+                    <li><strong><a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">Kearny Mesa</a>:</strong> Manufacturing, warehouses, automotive businesses, industrial junk removal</li>
                   </ul>
                 </div>
                 <div>
@@ -336,8 +336,8 @@ export default function CommercialjunkremovalsandiegoPage() {
                   <ul className="list-disc pl-6 space-y-1 text-gray-700">
                     <li><strong>Airport Area:</strong> Logistics, cargo facilities, airport-related businesses</li>
                     <li><strong>Harbor District:</strong> Maritime businesses, port operations, shipping companies</li>
-                    <li><strong>Sorrento Valley:</strong> Biotech corridor, research and development facilities</li>
-                    <li><strong>Miramar:</strong> Military contractors, aerospace companies, industrial parks</li>
+                    <li><strong>Sorrento Valley/<a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a>:</strong> Biotech corridor, research facilities, Torrey Hills business parks</li>
+                    <li><strong>Miramar/<a href="/junk-removal-mira-mesa" className="text-blue-600 hover:underline">Mira Mesa</a>:</strong> Military contractors, aerospace companies, industrial parks, distribution centers</li>
                   </ul>
                 </div>
               </div>

@@ -491,29 +491,29 @@ export default function SameDayJunkRemovalGuide() {
                   <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Coverage Areas for Same-Day Service</h2>
 
                   <p className="text-gray-700 leading-relaxed mb-6">
-                    We provide same-day junk removal throughout San Diego County:
+                    We provide same-day junk removal throughout San Diego County including <a href="/junk-removal-poway" className="text-blue-600 hover:underline">Poway</a>, <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, and <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>:
                   </p>
 
                   <div className="bg-white border border-gray-200 rounded-lg p-6 mb-8">
                     <div className="grid md:grid-cols-3 gap-4 text-sm text-gray-700">
                       <ul className="space-y-1">
                         <li>• San Diego (all areas)</li>
+                        <li>• <Link href="/junk-removal-la-jolla" className="text-blue-600 hover:text-blue-700">La Jolla</Link></li>
+                        <li>• <Link href="/junk-removal-pacific-beach" className="text-blue-600 hover:text-blue-700">Pacific Beach</Link></li>
+                        <li>• <Link href="/junk-removal-carmel-valley" className="text-blue-600 hover:text-blue-700">Carmel Valley</Link></li>
                         <li>• <Link href="/junk-removal-el-cajon" className="text-blue-600 hover:text-blue-700">El Cajon</Link></li>
+                      </ul>
+                      <ul className="space-y-1">
                         <li>• <Link href="/junk-removal-la-mesa" className="text-blue-600 hover:text-blue-700">La Mesa</Link></li>
                         <li>• <Link href="/junk-removal-chula-vista" className="text-blue-600 hover:text-blue-700">Chula Vista</Link></li>
                         <li>• <Link href="/junk-removal-oceanside" className="text-blue-600 hover:text-blue-700">Oceanside</Link></li>
+                        <li>• <Link href="/junk-removal-escondido" className="text-blue-600 hover:text-blue-700">Escondido</Link></li>
+                        <li>• <Link href="/junk-removal-vista" className="text-blue-600 hover:text-blue-700">Vista</Link></li>
                       </ul>
                       <ul className="space-y-1">
-                        <li>• <Link href="/junk-removal-escondido" className="text-blue-600 hover:text-blue-700">Escondido</Link></li>
-                        <li>• Carlsbad</li>
-                        <li>• <Link href="/junk-removal-vista" className="text-blue-600 hover:text-blue-700">Vista</Link></li>
                         <li>• <Link href="/junk-removal-santee" className="text-blue-600 hover:text-blue-700">Santee</Link></li>
                         <li>• <Link href="/junk-removal-poway" className="text-blue-600 hover:text-blue-700">Poway</Link></li>
-                      </ul>
-                      <ul className="space-y-1">
                         <li>• <Link href="/junk-removal-del-mar" className="text-blue-600 hover:text-blue-700">Del Mar</Link></li>
-                        <li>• Encinitas</li>
-                        <li>• National City</li>
                         <li>• <Link href="/junk-removal-lemon-grove" className="text-blue-600 hover:text-blue-700">Lemon Grove</Link></li>
                         <li>• <Link href="/areas-we-serve" className="text-blue-600 hover:text-blue-700">See all areas →</Link></li>
                       </ul>

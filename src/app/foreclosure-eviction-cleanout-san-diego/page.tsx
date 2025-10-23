@@ -197,7 +197,7 @@ export default function ForeclosureEvictionCleanoutPage() {
                 Trusted by Property Managers & Realtors
               </h2>
               <p className="text-xl text-gray-600 mb-12 text-center">
-                We work with property managers and realtors across San Diego. Our reliable service helps with tenant turnovers and property prep. Fast, professional results every time.
+                We work with property managers and realtors across San Diego. Our reliable service helps with tenant turnovers and property prep. Fast, professional results every time. For probate and estate situations, visit our <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanout services</a>.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

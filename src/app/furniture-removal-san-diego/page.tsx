@@ -226,7 +226,7 @@ export default function FurnitureRemovalPage() {
                 </p>
 
                 <p className="text-lg mb-6">
-                  Whatever the reason, our <strong>furniture removal San Diego</strong> service makes it easy. We handle <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline font-semibold">couches and sofa pickup</a>, desks, mattresses, dressers—anything you need gone. From La Jolla to Chula Vista, we're helping San Diego homeowners and businesses clear out unwanted furniture every day, including <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">couch removal</a> and sectional disposal.
+                  Whatever the reason, our <strong>furniture removal San Diego</strong> service makes it easy. We handle <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline font-semibold">couches and sofa pickup</a>, desks, mattresses, dressers—anything you need gone. From luxury estates in <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> to beach houses in <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a>, we're helping San Diego homeowners and businesses clear out unwanted furniture every day, including <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">couch removal</a> and sectional disposal.
                 </p>
 
                 <h3 className="text-2xl font-bold mt-10 mb-4">What We Remove</h3>
@@ -325,7 +325,7 @@ export default function FurnitureRemovalPage() {
 
                 <h3 className="text-2xl font-bold mt-10 mb-4">Office Furniture Removal</h3>
                 <p className="text-lg mb-6">
-                  Closing an office? Upgrading your workspace? Our <strong>office furniture removal San Diego</strong> service handles corporate cleanouts of all sizes. We remove desks, cubicles, conference tables, and filing cabinets quickly and professionally—with minimal disruption to your business.
+                  Closing an office? Upgrading your workspace? Our <strong>office furniture removal San Diego</strong> service handles corporate cleanouts of all sizes. From executive suites in <a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a> to downtown offices, we remove desks, cubicles, conference tables, and filing cabinets quickly and professionally—with minimal disruption to your business.
                 </p>
 
                 <h3 className="text-2xl font-bold mt-10 mb-4">Desk Removal</h3>

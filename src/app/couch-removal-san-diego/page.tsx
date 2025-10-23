@@ -214,7 +214,7 @@ export default function CouchRemovalPage() {
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
-                We serve all of San Diego County with eco-conscious removal. Whenever possible, we recycle or donate gently used sofas, loveseats, and recliners through local charities to keep furniture out of the landfill.
+                We serve all of San Diego County with eco-conscious removal. Whenever possible, we recycle or donate gently used sofas, loveseats, and recliners through local charities to keep furniture out of the landfill. Need to remove more than just a couch? Our full <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture removal service</a> handles beds, tables, and all household furniture types.
               </p>
 
               <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
