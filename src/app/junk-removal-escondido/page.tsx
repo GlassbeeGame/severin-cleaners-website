@@ -307,7 +307,6 @@ export default function EscondidoJunkRemovalPage() {
                         <span><strong>Licensed & Insured:</strong> Fully licensed California junk removal company with comprehensive liability insurance. We carry proper coverage for challenging property access, including protection for steep driveways, hillside terrain, and properties requiring extended access routes.</span>
                       </li>
                     </ul>
-
                   </div>
                 </div>
 
