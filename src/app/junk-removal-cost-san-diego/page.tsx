@@ -171,51 +171,117 @@ export default function JunkRemovalCostPage() {
                 Here's what you can expect for junk removal San Diego price. Remember, every junk removal quote San Diego is customized to your specific needs.
               </p>
 
-              <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-                <div className="overflow-x-auto">
-                  <table className="w-full">
-                    <thead className="bg-blue-600 text-white">
-                      <tr>
-                        <th className="px-6 py-4 text-left font-bold">Load Size</th>
-                        <th className="px-6 py-4 text-left font-bold">Average Price Range</th>
-                        <th className="px-6 py-4 text-left font-bold">Typical Jobs</th>
-                        <th className="px-6 py-4 text-left font-bold">Items Included</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-gray-200">
-                      <tr className="hover:bg-gray-50">
-                        <td className="px-6 py-4 font-semibold text-gray-900">Single Item (starting at $100)</td>
-                        <td className="px-6 py-4 text-green-600 font-bold">$100</td>
-                        <td className="px-6 py-4 text-gray-600">Quick pickups</td>
-                        <td className="px-6 py-4 text-gray-600">Couch, mattress, refrigerator</td>
-                      </tr>
-                      <tr className="hover:bg-gray-50">
-                        <td className="px-6 py-4 font-semibold text-gray-900">¼ Truck (3 cu yd)</td>
-                        <td className="px-6 py-4 text-green-600 font-bold">$249</td>
-                        <td className="px-6 py-4 text-gray-600">Small cleanouts</td>
-                        <td className="px-6 py-4 text-gray-600">Bedroom furniture, boxes</td>
-                      </tr>
-                      <tr className="hover:bg-gray-50">
-                        <td className="px-6 py-4 font-semibold text-gray-900">½ Truck (6 cu yd)</td>
-                        <td className="px-6 py-4 text-green-600 font-bold">$349</td>
-                        <td className="px-6 py-4 text-gray-600">Garage cleanouts</td>
-                        <td className="px-6 py-4 text-gray-600">Moving leftovers, yard waste</td>
-                      </tr>
-                      <tr className="hover:bg-gray-50">
-                        <td className="px-6 py-4 font-semibold text-gray-900">¾ Truck (9 cu yd)</td>
-                        <td className="px-6 py-4 text-green-600 font-bold">$429</td>
-                        <td className="px-6 py-4 text-gray-600">Full room cleanouts</td>
-                        <td className="px-6 py-4 text-gray-600">Furniture + debris</td>
-                      </tr>
-                      <tr className="hover:bg-gray-50">
-                        <td className="px-6 py-4 font-semibold text-gray-900">Full Truck (12 cu yd)</td>
-                        <td className="px-6 py-4 text-green-600 font-bold">$495</td>
-                        <td className="px-6 py-4 text-gray-600">Complete cleanouts</td>
-                        <td className="px-6 py-4 text-gray-600">Estate or renovation debris</td>
-                      </tr>
-                    </tbody>
-                  </table>
+              <div className="mb-12">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                  <div className="bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl shadow-lg p-6 text-white text-center">
+                    <div className="text-4xl font-bold mb-2">$100</div>
+                    <div className="text-blue-100 mb-4">Single Item</div>
+                    <div className="font-bold text-lg mb-2">Quick Pickup</div>
+                    <div className="text-blue-100 text-sm">
+                      One large item, couch, appliance, mattress
+                    </div>
+                  </div>
+
+                  <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-xl shadow-lg p-6 text-white text-center">
+                    <div className="text-4xl font-bold mb-2">$249</div>
+                    <div className="text-green-100 mb-4">1/4 Load (3 cu yd)</div>
+                    <div className="font-bold text-lg mb-2">Small Cleanout</div>
+                    <div className="text-green-100 text-sm">
+                      Bedroom furniture, small shed, partial garage
+                    </div>
+                  </div>
+
+                  <div className="bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl shadow-lg p-6 text-white text-center">
+                    <div className="text-4xl font-bold mb-2">$349</div>
+                    <div className="text-orange-100 mb-4">1/2 Load (6 cu yd)</div>
+                    <div className="font-bold text-lg mb-2">Medium Cleanout</div>
+                    <div className="text-orange-100 text-sm">
+                      Full garage, storage unit, attic cleanout
+                    </div>
+                  </div>
+
+                  <div className="bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl shadow-lg p-6 text-white text-center">
+                    <div className="text-4xl font-bold mb-2">$495</div>
+                    <div className="text-purple-100 mb-4">Full Load (12 cu yd)</div>
+                    <div className="font-bold text-lg mb-2">Large Cleanout</div>
+                    <div className="text-purple-100 text-sm">
+                      Whole house, estate, multiple rooms
+                    </div>
+                  </div>
                 </div>
+
+                <div className="bg-gray-100 p-6 rounded-lg mb-8">
+                  <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Additional Load Sizes Available</h3>
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                    <div>
+                      <div className="font-bold text-gray-900">3/8 Load</div>
+                      <div className="text-green-600 font-bold">$319</div>
+                    </div>
+                    <div>
+                      <div className="font-bold text-gray-900">5/8 Load</div>
+                      <div className="text-green-600 font-bold">$366</div>
+                    </div>
+                    <div>
+                      <div className="font-bold text-gray-900">3/4 Load</div>
+                      <div className="text-green-600 font-bold">$429</div>
+                    </div>
+                    <div>
+                      <div className="font-bold text-gray-900">7/8 Load</div>
+                      <div className="text-green-600 font-bold">$462</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-blue-50 p-6 rounded-lg">
+                  <h3 className="text-lg font-bold text-gray-900 mb-3">What's Included in Every Price:</h3>
+                  <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    <li className="flex items-center text-gray-700">
+                      <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                      </svg>
+                      All labor and loading
+                    </li>
+                    <li className="flex items-center text-gray-700">
+                      <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                      </svg>
+                      Transportation and hauling
+                    </li>
+                    <li className="flex items-center text-gray-700">
+                      <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                      </svg>
+                      Eco-friendly disposal fees
+                    </li>
+                    <li className="flex items-center text-gray-700">
+                      <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                      </svg>
+                      Donation coordination
+                    </li>
+                    <li className="flex items-center text-gray-700">
+                      <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                      </svg>
+                      Recycling services
+                    </li>
+                    <li className="flex items-center text-gray-700">
+                      <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                      </svg>
+                      Same-day service available
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="text-center">
+                <a
+                  href="tel:6197500114"
+                  className="inline-block bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors duration-200"
+                >
+                  📞 Get Your Free San Diego Quote - Call (619) 750-0114
+                </a>
               </div>
 
               <div className="mt-8 bg-blue-50 p-6 rounded-lg">
