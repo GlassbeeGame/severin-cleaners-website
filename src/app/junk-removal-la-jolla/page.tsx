@@ -37,9 +37,9 @@ const breadcrumbSchema = generateBreadcrumbSchema([
 export default function JunkRemovalLaJollaPage() {
   const nearbyLocations = [
     { name: "Pacific Beach", slug: "pacific-beach" },
-    { name: "Bird Rock", slug: "bird-rock" },
-    { name: "University City", slug: "university-city" },
     { name: "Del Mar", slug: "del-mar" },
+    { name: "Clairemont", slug: "clairemont" },
+    { name: "Carmel Valley", slug: "carmel-valley" },
   ];
 
   return (

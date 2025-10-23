@@ -37,9 +37,9 @@ const breadcrumbSchema = generateBreadcrumbSchema([
 export default function JunkRemovalNorthParkPage() {
   const nearbyLocations = [
     { name: "Hillcrest", slug: "hillcrest" },
-    { name: "University Heights", slug: "university-heights" },
-    { name: "Normal Heights", slug: "normal-heights" },
-    { name: "City Heights", slug: "city-heights" },
+    { name: "Kearny Mesa", slug: "kearny-mesa" },
+    { name: "Clairemont", slug: "clairemont" },
+    { name: "El Cajon", slug: "el-cajon" },
   ];
 
   return (

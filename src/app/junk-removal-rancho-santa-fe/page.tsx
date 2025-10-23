@@ -69,9 +69,9 @@ export default function JunkRemovalRanchoSantaFePage() {
 
   const nearbyLocations = [
     { name: "Del Mar", slug: "del-mar" },
-    { name: "Solana Beach", slug: "solana-beach" },
-    { name: "Encinitas", slug: "encinitas" },
     { name: "Escondido", slug: "escondido" },
+    { name: "Poway", slug: "poway" },
+    { name: "Vista", slug: "vista" },
   ];
 
   return (

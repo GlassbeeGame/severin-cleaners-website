@@ -363,10 +363,10 @@ export default function JunkremovalclairemontPage() {
                     <LocationSidebarCTA
                       locationName="Clairemont"
                       nearbyLocations={[
-                        { name: "Bay Park", slug: "bay-park" },
                         { name: "Kearny Mesa", slug: "kearny-mesa" },
-                        { name: "Linda Vista", slug: "linda-vista" },
-                        { name: "Mission Bay", slug: "mission-bay" },
+                        { name: "Pacific Beach", slug: "pacific-beach" },
+                        { name: "North Park", slug: "north-park" },
+                        { name: "Hillcrest", slug: "hillcrest" },
                       ]}
                     />
                   </div>

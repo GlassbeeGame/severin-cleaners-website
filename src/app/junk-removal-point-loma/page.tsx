@@ -68,10 +68,10 @@ export default function JunkRemovalPointLomaPage() {
   ]);
 
   const nearbyLocations = [
-    { name: "Ocean Beach", slug: "ocean-beach" },
     { name: "Pacific Beach", slug: "pacific-beach" },
-    { name: "Mission Beach", slug: "mission-beach" },
-    { name: "Downtown San Diego", slug: "downtown-san-diego" },
+    { name: "La Jolla", slug: "la-jolla" },
+    { name: "Clairemont", slug: "clairemont" },
+    { name: "Hillcrest", slug: "hillcrest" },
   ];
 
   return (

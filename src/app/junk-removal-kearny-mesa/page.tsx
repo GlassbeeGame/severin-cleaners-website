@@ -364,9 +364,9 @@ export default function JunkRemovalKearnyMesaPage() {
                       locationName="Kearny Mesa"
                       nearbyLocations={[
                         { name: "Clairemont", slug: "clairemont" },
-                        { name: "Serra Mesa", slug: "serra-mesa" },
-                        { name: "Mission Valley", slug: "mission-valley" },
-                        { name: "Tierrasanta", slug: "tierrasanta" },
+                        { name: "North Park", slug: "north-park" },
+                        { name: "Hillcrest", slug: "hillcrest" },
+                        { name: "Mira Mesa", slug: "mira-mesa" },
                       ]}
                     />
                   </div>

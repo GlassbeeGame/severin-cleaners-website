@@ -69,9 +69,9 @@ export default function JunkRemovalPacificBeachPage() {
 
   const nearbyLocations = [
     { name: "La Jolla", slug: "la-jolla" },
-    { name: "Ocean Beach", slug: "ocean-beach" },
     { name: "Point Loma", slug: "point-loma" },
-    { name: "Mission Beach", slug: "mission-beach" },
+    { name: "Clairemont", slug: "clairemont" },
+    { name: "Del Mar", slug: "del-mar" },
   ];
 
   return (

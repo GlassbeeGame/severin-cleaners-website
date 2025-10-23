@@ -68,10 +68,10 @@ export default function JunkRemovalDelMarPage() {
   ]);
 
   const nearbyLocations = [
-    { name: "Solana Beach", slug: "solana-beach" },
     { name: "Rancho Santa Fe", slug: "rancho-santa-fe" },
     { name: "Carmel Valley", slug: "carmel-valley" },
-    { name: "Encinitas", slug: "encinitas" },
+    { name: "Escondido", slug: "escondido" },
+    { name: "La Jolla", slug: "la-jolla" },
   ];
 
   return (
