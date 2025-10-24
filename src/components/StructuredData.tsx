@@ -451,43 +451,6 @@ export default function StructuredData() {
         }
       },
       {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "How quickly can you remove junk in El Cajon?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "We offer same-day junk removal service in El Cajon and surrounding areas. Call us at (619) 750-0114 for immediate assistance."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What types of junk do you remove?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "We remove furniture, appliances, electronics, yard waste, construction debris, and general household junk. We handle everything except hazardous materials."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How much does junk removal cost in San Diego?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Our junk removal prices vary based on volume and type of items. We offer free estimates and transparent pricing with no hidden fees."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Are you licensed and insured?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, Severin Cleaners is fully licensed and insured for all junk removal services in San Diego County."
-            }
-          }
-        ]
-      },
-      {
         "@type": "BreadcrumbList",
         "itemListElement": [
           {

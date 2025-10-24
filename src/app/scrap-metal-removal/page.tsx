@@ -92,6 +92,11 @@ export default function ScrapMetalRemovalPage() {
 
   const reviewSchema = {
     "@type": "Review",
+    "itemReviewed": {
+      "@type": "LocalBusiness",
+      "@id": "https://severincleaners.com/#business",
+      "name": "Severin Cleaners"
+    },
     "author": {
       "@type": "Person",
       "name": "Tony Murphy"
