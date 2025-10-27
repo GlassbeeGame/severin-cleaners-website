@@ -157,7 +157,7 @@ export default function JunkremovalclairemontPage() {
                     href="/contact"
                     className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-bold transition-colors"
                   >
-                    Book Your Clairemont Junk Pickup
+                    Get Free Quote
                   </a>
                 </div>
 
@@ -409,7 +409,7 @@ export default function JunkremovalclairemontPage() {
                     href="/contact"
                     className="bg-white hover:bg-gray-100 text-blue-700 px-8 py-4 rounded-lg text-lg font-bold transition-colors"
                   >
-                    Request Your Free Quote Now
+                    Get Free Quote
                   </a>
                 </div>
                 <p className="text-blue-200 text-lg">

@@ -95,7 +95,7 @@ export default function EscondidoFAQSection() {
                 href="/contact"
                 className="bg-white hover:bg-gray-50 text-blue-600 border-2 border-blue-600 px-8 py-3 rounded-lg font-bold transition-colors inline-block"
               >
-                Request Free Quote
+                Get Free Quote
               </a>
             </div>
           </div>

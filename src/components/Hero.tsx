@@ -62,7 +62,7 @@ export default function Hero() {
               href="/contact"
               className="btn btn-outline text-base md:text-lg px-8 md:px-10 py-4 font-black uppercase flex items-center justify-center flex-1 min-w-0 sm:min-w-[240px]"
             >
-              Get A Quote
+              Get Free Quote
             </a>
           </div>
 

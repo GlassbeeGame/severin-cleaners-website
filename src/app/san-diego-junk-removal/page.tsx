@@ -195,7 +195,7 @@ export default function SanDiegoJunkRemovalPage() {
                 href="/contact"
                 className="btn btn-secondary text-lg px-8 py-4 hover:bg-orange-600 transition-colors duration-200"
               >
-                Book Online & Save 15%
+                Get Free Quote
               </a>
             </div>
             <p className="text-lg">
@@ -741,7 +741,7 @@ export default function SanDiegoJunkRemovalPage() {
                   📞 Call Now for Same-Day Service: (619) 750-0114
                 </a>
                 <div className="bg-blue-800 rounded-lg p-4">
-                  <p className="text-yellow-300 font-semibold mb-2">💰 Transparent Pricing • Book Online & Save 15% 💰</p>
+                  <p className="text-yellow-300 font-semibold mb-2">💰 Transparent Pricing • Get Free Quote 💰</p>
                   <div className="text-sm">
                     <strong>$100-$495 Standard Pricing</strong> • <strong>Same-Day Service Available</strong><br/>
                     <strong>Licensed & Insured</strong> • <strong>County-Wide Coverage</strong>

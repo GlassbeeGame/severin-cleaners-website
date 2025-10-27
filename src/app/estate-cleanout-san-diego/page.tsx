@@ -73,7 +73,7 @@ export default function EstateCleanoutPage() {
                   href="/contact"
                   className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-bold transition-colors"
                 >
-                  Get Estate Cleanout Quote
+                  Get Free Quote
                 </a>
               </div>
               <p className="mt-6 text-sm text-blue-100">

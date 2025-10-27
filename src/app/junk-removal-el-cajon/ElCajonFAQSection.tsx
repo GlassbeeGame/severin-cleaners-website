@@ -262,7 +262,7 @@ export default function ElCajonFAQSection() {
               href="/contact"
               className="bg-orange-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-orange-700 transition-colors"
             >
-              Get Your Free El Cajon Quote
+              Get Free Quote
             </a>
           </div>
         </div>

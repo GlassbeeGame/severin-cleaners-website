@@ -170,7 +170,7 @@ export default function LaMesaFAQSection() {
               href="/contact"
               className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-colors"
             >
-              Get Free La Mesa Quote
+              Get Free Quote
             </a>
           </div>
         </div>

@@ -18,7 +18,7 @@ export default function Contact() {
               href="/contact"
               className="btn bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-500 text-base md:text-lg px-8 md:px-10 py-4 font-black uppercase flex items-center justify-center flex-1 min-w-0 sm:min-w-[240px]"
             >
-              Get A Quote
+              Get Free Quote
             </a>
           </div>
         </div>

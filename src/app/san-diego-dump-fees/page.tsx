@@ -286,7 +286,7 @@ export default function SanDiegoDumpFeesPage() {
                   href="/contact"
                   className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-bold transition-colors"
                 >
-                  Skip the Dump—Get Quote
+                  Get Free Quote
                 </a>
               </div>
               <p className="mt-6 text-sm text-blue-100">
@@ -768,7 +768,7 @@ export default function SanDiegoDumpFeesPage() {
                     href="/contact"
                     className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-colors"
                   >
-                    Book Online & Save 15%
+                    Get Free Quote
                   </a>
                 </div>
               </div>
@@ -914,7 +914,7 @@ export default function SanDiegoDumpFeesPage() {
                   href="/contact"
                   className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-bold transition-colors"
                 >
-                  Book Online & Save 15%
+                  Get Free Quote
                 </a>
               </div>
               <p className="mt-6 text-sm text-blue-200">

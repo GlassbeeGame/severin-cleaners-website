@@ -100,7 +100,7 @@ export default function PianoremovalsandiegoPage() {
                 href="/contact"
                 className="btn btn-secondary text-lg px-8 py-4 hover:bg-orange-600 transition-colors duration-200"
               >
-                Get Free San Diego Quote - Save 15%
+                Get Free Quote
               </a>
             </div>
             <p className="text-lg">

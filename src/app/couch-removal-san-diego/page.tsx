@@ -192,7 +192,7 @@ export default function CouchRemovalPage() {
                 href="/contact"
                 className="btn btn-secondary text-lg px-8 py-4 hover:bg-orange-600 transition-colors duration-200"
               >
-                Book Your Couch Removal Online
+                Get Free Quote
               </a>
             </div>
             <p className="text-lg">

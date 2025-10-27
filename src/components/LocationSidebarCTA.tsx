@@ -33,7 +33,7 @@ export default function LocationSidebarCTA({
             href="/contact"
             className="block w-full bg-white hover:bg-gray-50 text-orange-600 text-center py-3 px-6 rounded-lg font-semibold border-2 border-orange-500 transition-colors duration-200"
           >
-            Get Free Quote Online
+            Get Free Quote
           </Link>
 
           <p className="text-center text-sm text-gray-600 mt-2">
