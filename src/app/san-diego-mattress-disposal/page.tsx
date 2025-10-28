@@ -30,10 +30,10 @@ export const metadata: Metadata = {
 
 export default function MattressDisposalPage() {
   const relatedServices = [
-    { name: "Furniture Removal", href: "/furniture-removal-san-diego" },
-    { name: "Couch Removal", href: "/couch-removal-san-diego" },
-    { name: "Same-Day Junk Removal", href: "/same-day-junk-removal-san-diego" },
-    { name: "Estate Cleanouts", href: "/estate-cleanout-san-diego" },
+    { name: "Furniture Removal", slug: "furniture-removal-san-diego" },
+    { name: "Couch Removal", slug: "couch-removal-san-diego" },
+    { name: "Same-Day Junk Removal", slug: "same-day-junk-removal-san-diego" },
+    { name: "Estate Cleanouts", slug: "estate-cleanout-san-diego" },
   ];
 
   const serviceSchema = generateServiceSchema({
