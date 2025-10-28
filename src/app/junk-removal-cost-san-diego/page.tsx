@@ -235,41 +235,23 @@ export default function JunkRemovalCostPage() {
                 <div className="bg-blue-50 p-6 rounded-lg">
                   <h3 className="text-lg font-bold text-gray-900 mb-3">What's Included in Every Price:</h3>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                    <li className="flex items-center text-gray-700">
-                      <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      All labor and loading
+                    <li className="text-gray-700">
+                      • All labor and loading
                     </li>
-                    <li className="flex items-center text-gray-700">
-                      <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      Transportation and hauling
+                    <li className="text-gray-700">
+                      • Transportation and hauling
                     </li>
-                    <li className="flex items-center text-gray-700">
-                      <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      Eco-friendly disposal fees
+                    <li className="text-gray-700">
+                      • Eco-friendly disposal fees
                     </li>
-                    <li className="flex items-center text-gray-700">
-                      <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      Donation coordination
+                    <li className="text-gray-700">
+                      • Donation coordination
                     </li>
-                    <li className="flex items-center text-gray-700">
-                      <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      Recycling services
+                    <li className="text-gray-700">
+                      • Recycling services
                     </li>
-                    <li className="flex items-center text-gray-700">
-                      <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      Same-day service available
+                    <li className="text-gray-700">
+                      • Same-day service available
                     </li>
                   </ul>
                 </div>
