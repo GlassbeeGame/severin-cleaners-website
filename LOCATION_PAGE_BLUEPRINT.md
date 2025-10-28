@@ -1,5 +1,75 @@
 # Location Page Blueprint Template
-## Severin Cleaners - Standardized Location Page Structure
+## Severin Cleaners - Complete Location Page Configuration
+
+---
+
+## 📋 **PAGE ARCHITECTURE OVERVIEW**
+
+Every location page follows this exact structure:
+
+### **Visual Page Flow:**
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│ HEADER (Component)                                          │
+└─────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────┐
+│ HERO SECTION (Blue gradient, badge, H1, subheadline)       │
+└─────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────┬──────────────────────────┐
+│ LEFT COLUMN (2/3 width)          │ RIGHT COLUMN (1/3 width) │
+│ ┌──────────────────────────────┐ │ ┌──────────────────────┐ │
+│ │ White Content Box            │ │ │ SIDEBAR (Sticky)     │ │
+│ │ • Introduction (2 ¶s)        │ │ │ • Call CTA           │ │
+│ │ • Neighborhoods (8+)         │ │ │ • Get Quote CTA      │ │
+│ │ • Streets (8+)               │ │ │ • What We Remove     │ │
+│ │ • Landmarks (12+)            │ │ │ • Nearby Locations   │ │
+│ │ • Traffic Patterns           │ │ │ • Trust Badges       │ │
+│ │ • Weather                    │ │ │ • Quick Stats        │ │
+│ │ • What We Remove             │ │ └──────────────────────┘ │
+│ │ • Specialty (optional)       │ │                          │
+│ │ • How It Works               │ │                          │
+│ │ • Why Choose Us              │ │                          │
+│ └──────────────────────────────┘ │                          │
+└──────────────────────────────────┴──────────────────────────┘
+┌─────────────────────────────────────────────────────────────┐
+│ PRICING SECTION (Component)                                 │
+│ 4 gradient cards + additional sizes + what's included      │
+└─────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────┐
+│ TRUST SIGNALS (Component)                                   │
+│ 4-stat grid with icons                                      │
+└─────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────┐
+│ FAQ SECTION (Custom Component per location)                │
+│ • FAQ heading + intro                                       │
+│ • 6-8 accordion Q&As                                        │
+│ • Blue CTA box: "Ready for Same-Day..." + 2 buttons        │
+└─────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────┐
+│ RELATED SERVICES                                            │
+│ 3 service cards in grid                                     │
+└─────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────┐
+│ FOOTER (Component)                                          │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### **Code Structure:**
+
+1. **Imports & Metadata** (Lines 1-54)
+2. **Schema Generation** (Lines 57-75)
+3. **Page Component Structure**:
+   - Header (imported component)
+   - Hero Section (custom per location)
+   - **Main Content Area with 2-Column Grid** (lg:grid-cols-3):
+     - **Left Column (lg:col-span-2)**: Main content sections
+     - **Right Column (lg:col-span-1)**: `<LocationSidebarCTA />` sticky sidebar
+   - `<LocationPricingSection />` component
+   - `<TrustSignalsSection />` component
+   - FAQ Section (custom component per location - **includes built-in CTA box**)
+   - Related Services Section (custom per location)
+   - Footer (imported component)
 
 ---
 
@@ -14,15 +84,38 @@ Positioning Angle: _______________ (luxury, family-oriented, beach, master-plann
 Unique Local Challenge: _______________ (hillside access, HOA requirements, etc.)
 Primary Service Area: _______________
 Zip Codes: _______________
+Nearby Locations (4): _______________ (for sidebar)
 ```
 
 ---
 
-## 🏗️ **SECTION-BY-SECTION BLUEPRINT**
+## 🏗️ **COMPLETE PAGE STRUCTURE**
 
 ---
 
-### **SECTION 1: METADATA & SCHEMA**
+### **SECTION 1: IMPORTS & SETUP**
+
+```typescript
+import { Metadata } from 'next';
+import { Inter } from "next/font/google";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import [Location]FAQSection from "./[Location]FAQSection"; // Custom per location
+import LocationSidebarCTA from "@/components/LocationSidebarCTA"; // Reusable
+import TrustSignalsSection from "@/components/TrustSignalsSection"; // Reusable
+import LocationPricingSection from "@/components/LocationPricingSection"; // Reusable
+import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+});
+```
+
+---
+
+### **SECTION 2: METADATA**
 
 ```typescript
 export const metadata: Metadata = {
@@ -41,45 +134,89 @@ export const metadata: Metadata = {
 
 ---
 
-### **SECTION 2: HERO SECTION**
+### **SECTION 3: SCHEMA GENERATION**
+
+```typescript
+export default function JunkRemoval[Location]Page() {
+  const serviceSchema = generateLocationServiceSchema({
+    locationName: "[Location]",
+    serviceName: "Junk Removal",
+    description: "[Full service description with neighborhoods and key features]",
+    url: "https://severincleaners.com/junk-removal-[location-slug]",
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
+    { name: "[Location] Junk Removal", url: "https://severincleaners.com/junk-removal-[location-slug]" },
+  ]);
+
+  const nearbyLocations = [
+    { name: "[Nearby 1]", slug: "[nearby-1-slug]" },
+    { name: "[Nearby 2]", slug: "[nearby-2-slug]" },
+    { name: "[Nearby 3]", slug: "[nearby-3-slug]" },
+    { name: "[Nearby 4]", slug: "[nearby-4-slug]" },
+  ];
+```
+
+**CONTENT TO EXTRACT:**
+- [ ] Service description (2-3 sentences with key neighborhoods)
+- [ ] 4 nearby locations with slugs
+
+---
+
+### **SECTION 4: PAGE RETURN & SCHEMA INJECTION**
+
+```typescript
+  return (
+    <div className={`${inter.variable} font-sans`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+
+      <Header />
+
+      <main>
+        {/* All page sections go here */}
+      </main>
+
+      <Footer />
+    </div>
+  );
+}
+```
+
+---
+
+### **SECTION 5: HERO SECTION**
 
 ```tsx
-<section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
+<section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-24">
   <div className="container mx-auto px-4">
-    <div className="text-center mb-8">
+    <div className="max-w-4xl mx-auto text-center">
       {/* BADGE */}
-      <div className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-        ✓ [LOCAL UNIQUE BADGE TEXT]
+      <div className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-6">
+        #1 [Location] Junk Removal Service
       </div>
 
       {/* H1 HEADLINE */}
-      <h1 className="text-4xl md:text-5xl font-bold mb-4">
-        Junk Removal [LOCATION] | [POSITIONING]
+      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+        [Location] Junk Removal
       </h1>
 
-      {/* H2 SUBHEADLINE */}
-      <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-blue-100">
-        [DESCRIPTIVE SUBHEADLINE WITH LOCAL CONTEXT]
-      </h2>
-
-      {/* TRUST SIGNALS */}
-      <div className="text-xl mb-6">
-        ⭐⭐⭐⭐⭐ 5.0 Rating • [TRUST SIGNAL] • [TRUST SIGNAL]
-      </div>
-
-      {/* CTAs */}
-      <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
-        <a href="tel:6197500114" className="btn btn-primary text-lg px-8 py-4">
-          📞 Call (619) 750-0114
-        </a>
-        <a href="/contact" className="btn btn-secondary text-lg px-8 py-4">
-          [CTA TEXT WITH 15% OFF]
-        </a>
-      </div>
+      {/* SUBHEADLINE (p tag, not h2) */}
+      <p className="text-xl md:text-2xl mb-8 text-blue-100">
+        [Neighborhood 1] to [Neighborhood 2] • [Key Feature] • Same-Day Service
+      </p>
 
       {/* BOTTOM TRUST LINE */}
-      <p className="text-lg">
-        ✓ Same-Day Service Available ✓ Licensed & Insured ✓ [LOCAL SPECIALIST]
+      <p className="text-lg mb-8">
+        ✓ [Local Specialist] ✓ [Key Feature] ✓ Licensed & Insured
       </p>
     </div>
   </div>
@@ -88,489 +225,665 @@ export const metadata: Metadata = {
 
 **CONTENT TO EXTRACT FROM EXISTING PAGE:**
 - [ ] Badge text (local community descriptor)
-- [ ] Main positioning (luxury, family, beach, etc.)
-- [ ] Subheadline
-- [ ] Trust signals (2-3)
-- [ ] CTA button text
-- [ ] Bottom trust line elements
+- [ ] Main headline (usually just "[Location] Junk Removal")
+- [ ] Subheadline (neighborhood range, positioning, features)
+- [ ] 3 trust signals for bottom line
 
 ---
 
-### **SECTION 3: PRICING SECTION** (Condensed - Option A)
+### **SECTION 6: MAIN CONTENT AREA - 2-COLUMN GRID**
 
 ```tsx
-<section className="py-16 bg-gray-50">
+<section className="py-12 bg-gray-50">
   <div className="container mx-auto px-4">
-    <div className="max-w-6xl mx-auto">
-      <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold text-gray-900 mb-4">
-          Transparent [LOCATION] Junk Removal Pricing
-        </h2>
-        <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          [LOCAL PRICING CONTEXT - mention neighborhoods served]
-        </p>
-      </div>
+    <div className="max-w-7xl mx-auto">
+      <div className="grid lg:grid-cols-3 gap-8">
 
-      <div className="mb-12">
-        {/* 4 GRADIENT CARDS */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-          {/* Card 1: Single Item - $100 */}
-          {/* Card 2: 1/4 Load - $249 */}
-          {/* Card 3: 1/2 Load - $349 */}
-          {/* Card 4: Full Load - $495 */}
+        {/* LEFT COLUMN - Main Content (lg:col-span-2) */}
+        <div className="lg:col-span-2">
+          <div className="bg-white rounded-lg shadow-md p-8">
+            {/* All main content sections go here */}
+          </div>
         </div>
 
-        {/* ADDITIONAL SIZES */}
-        <div className="bg-gray-100 p-6 rounded-lg mb-8">
-          <h3>Additional Load Sizes Available</h3>
-          {/* 3/8: $319, 5/8: $366, 3/4: $429, 7/8: $462 */}
+        {/* RIGHT COLUMN - Sidebar (lg:col-span-1) */}
+        <div className="lg:col-span-1">
+          <LocationSidebarCTA
+            locationName="[Location]"
+            nearbyLocations={nearbyLocations}
+          />
         </div>
 
-        {/* WHAT'S INCLUDED */}
-        <div className="bg-blue-50 p-6 rounded-lg">
-          <h3>What's Included in Every Price:</h3>
-          <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            {/* 6 checkmark items */}
-          </ul>
-        </div>
-      </div>
-
-      {/* CTA + LINK TO FULL PRICING */}
-      <div className="text-center">
-        <a href="tel:6197500114" className="btn btn-primary">
-          📞 Get Your Free [LOCATION] Quote
-        </a>
-        <p className="mt-4">
-          <a href="/junk-removal-cost-san-diego">
-            → See Complete Pricing Guide & All Load Sizes
-          </a>
-        </p>
       </div>
     </div>
   </div>
 </section>
 ```
 
-**CONTENT TO EXTRACT:**
-- [ ] Local pricing context paragraph (mentions neighborhoods)
-- [ ] Any pricing variations or notes
+**GRID CONFIGURATION:**
+- Total grid: `lg:grid-cols-3` (3 columns on large screens)
+- Left column: `lg:col-span-2` (takes 2/3 width) - Main content
+- Right column: `lg:col-span-1` (takes 1/3 width) - Sticky sidebar
 
 ---
 
-### **SECTION 4: INTRODUCTION PARAGRAPHS** (2-4 paragraphs)
+### **SECTION 7: SIDEBAR COMPONENT - LocationSidebarCTA**
+
+**Component:** `<LocationSidebarCTA />` (Reusable, imported from `@/components/LocationSidebarCTA`)
+
+**Props Required:**
+```typescript
+{
+  locationName: string;  // e.g., "El Cajon"
+  nearbyLocations: Array<{ name: string; slug: string }>;  // 4 nearby locations
+}
+```
+
+**Component Contents (STANDARDIZED - DO NOT CUSTOMIZE):**
+1. **Main CTA Card** (`lg:sticky lg:top-24`):
+   - Header: "GET IMMEDIATE HELP" (gradient blue background)
+   - **Call Now Button**: `📞 CALL NOW: (619) 750-0114` (orange, bold)
+   - **Get Free Quote Button**: Links to `/contact` (white/outlined)
+   - "⚡ Same-Day Service Available" text
+
+2. **"What We Remove" Checklist**:
+   - Furniture & Mattresses ✓
+   - Appliances & Electronics ✓
+   - Estate & Garage Cleanouts ✓
+   - Construction Debris ✓
+   - Hot Tubs & Large Items ✓
+
+3. **"Nearby Areas We Serve"**:
+   - Lists 4 nearby locations passed via props
+   - Each links to `/junk-removal-{slug}`
+   - "See All Locations Served" button → `/areas-we-serve`
+
+4. **Trust Badge Footer**:
+   - "✓ Licensed & Insured • ✓ Eco-Friendly"
+
+5. **Quick Stats Card**:
+   - "200+ Happy Customers"
+   - "Same-Day Service Available"
+
+**CONTENT TO EXTRACT:**
+- [ ] 4 nearby location names and slugs (already collected in Section 3)
+
+---
+
+### **SECTION 8: LEFT COLUMN CONTENT - INTRODUCTION SECTION**
+
+**Location:** Inside left column's white card (`<div className="bg-white rounded-lg shadow-md p-8">`)
 
 ```tsx
-<section className="py-16">
-  <div className="container mx-auto px-4">
-    <div className="max-w-4xl mx-auto">
-      <div className="prose prose-lg max-w-none">
-        <h2>[LOCATION]'s Premier Junk Removal Service</h2>
+{/* Introduction */}
+<h2 className="text-3xl font-bold mb-6 text-gray-900">
+  Professional Junk Removal [Location] – [POSITIONING TAGLINE]
+</h2>
 
-        {/* PARAGRAPH 1: Service overview + key neighborhoods */}
-        <p>
-          [Opening sentence about service]. We serve [3-5 KEY NEIGHBORHOODS].
-          [Service features: same-day, professional, etc.]
-        </p>
+<p className="text-lg mb-4 text-gray-700">
+  <strong>Junk removal [Location]</strong> serves [AREA DESCRIPTION].
+  Our <strong>junk hauling [Location]</strong> team [KEY DIFFERENTIATORS].
+  We provide same-day <strong>junk pickup [Location] CA</strong> for [SERVICE TYPES].
+</p>
 
-        {/* PARAGRAPH 2: Trust & local expertise */}
-        <p>
-          [Local ownership/expertise angle]. [Types of properties served].
-          [Service quality statements].
-        </p>
-
-        {/* PARAGRAPH 3: Community values (optional) */}
-        <p>
-          [Community-specific messaging]. [Service approach].
-        </p>
-
-        {/* OPTIONAL: Image float-right here */}
-      </div>
-    </div>
-  </div>
-</section>
+<p className="text-gray-700 mb-6">
+  [SECOND PARAGRAPH - Local expertise, unique challenges, specialized experience]
+</p>
 ```
 
 **CONTENT TO EXTRACT:**
-- [ ] Opening introduction (2-4 paragraphs)
-- [ ] Key neighborhoods mentioned
-- [ ] Local expertise points
-- [ ] Community values messaging
-- [ ] Image (if exists) - note placement
+- [ ] H2 positioning tagline (e.g., "East County Family Property Specialists")
+- [ ] Opening paragraph (2-3 sentences with service overview + keywords)
+- [ ] Second paragraph (local expertise and specialization)
 
 ---
 
-### **SECTION 5: COMPLETE NEIGHBORHOOD COVERAGE**
+### **SECTION 9: LEFT COLUMN - NEIGHBORHOODS SERVED**
 
 ```tsx
-<div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
-  <h3>[LOCATION] Neighborhoods We Serve</h3>
-
-  <div className="grid md:grid-cols-2 gap-8 mb-8">
-    {/* COLUMN 1: North/West Areas */}
-    <div>
-      <h3 className="text-xl font-bold mb-3 text-blue-600">
-        [GEOGRAPHIC SECTION 1 NAME]
-      </h3>
-      <ul className="list-disc pl-6 space-y-2 text-gray-700">
-        <li><strong>[Neighborhood 1]</strong> - [Description]</li>
-        <li><strong>[Neighborhood 2]</strong> - [Description]</li>
-        <li><strong>[Neighborhood 3]</strong> - [Description]</li>
-        {/* 5-8 neighborhoods per column */}
-      </ul>
-    </div>
-
-    {/* COLUMN 2: South/East Areas */}
-    <div>
-      <h3 className="text-xl font-bold mb-3 text-blue-600">
-        [GEOGRAPHIC SECTION 2 NAME]
-      </h3>
-      <ul className="list-disc pl-6 space-y-2 text-gray-700">
-        <li><strong>[Neighborhood 4]</strong> - [Description]</li>
-        <li><strong>[Neighborhood 5]</strong> - [Description]</li>
-        <li><strong>[Neighborhood 6]</strong> - [Description]</li>
-        {/* 5-8 neighborhoods per column */}
-      </ul>
-    </div>
-  </div>
-
-  <div className="mt-4 text-center">
-    <p>📞 Call (619) 750-0114 for immediate service</p>
-  </div>
-</div>
-```
-
-**CONTENT TO EXTRACT:**
-- [ ] All neighborhoods mentioned (aim for 10-15+)
-- [ ] Neighborhood descriptions (1-2 sentences each)
-- [ ] Geographic grouping logic (North/South, East/West, etc.)
-
----
-
-### **SECTION 6: STREETS & ROUTES COVERAGE**
-
-```tsx
-<h2>Major Routes & Streets We Cover</h2>
-
-<div className="grid md:grid-cols-2 gap-8 mb-8">
-  {/* COLUMN 1: Major Corridors */}
-  <div>
-    <h3 className="text-xl font-bold mb-3 text-blue-600">Major Streets & Corridors</h3>
-    <ul className="list-disc pl-6 space-y-2">
-      <li>[Street Name] - [Description/Type]</li>
-      <li>[Highway/Freeway] - [Access point]</li>
-      {/* 5-8 major routes */}
-    </ul>
-  </div>
-
-  {/* COLUMN 2: Residential Streets */}
-  <div>
-    <h3 className="text-xl font-bold mb-3 text-blue-600">Key Residential Streets</h3>
-    <ul className="list-disc pl-6 space-y-2">
-      <li>[Street Name] - [Neighborhood context]</li>
-      <li>[Street Name] - [Property type]</li>
-      {/* 8-12 streets */}
-    </ul>
-  </div>
-</div>
-```
-
-**CONTENT TO EXTRACT:**
-- [ ] Major highways/corridors (5-8)
-- [ ] Key residential streets (8-12)
-- [ ] Street descriptions/context
-
----
-
-### **SECTION 7: LOCAL LANDMARKS & REFERENCE POINTS**
-
-```tsx
-<h3>Local Landmarks & Reference Points</h3>
-<p>[INTRO TEXT]</p>
-
-<ul className="list-disc pl-6 mb-6">
-  <li><strong>[Landmark 1]</strong> - [Type/Description]</li>
-  <li><strong>[Landmark 2]</strong> - [Type/Description]</li>
-  <li><strong>[Landmark 3]</strong> - [Type/Description]</li>
-  {/* 8-12 landmarks */}
-</ul>
-```
-
-**CONTENT TO EXTRACT:**
-- [ ] Schools (elementary, high schools)
-- [ ] Shopping centers/malls
-- [ ] Parks & recreation centers
-- [ ] Major employers/institutions
-- [ ] Community landmarks (8-12 total)
-
----
-
-### **SECTION 8: WHY [LOCATION] RESIDENTS CHOOSE US**
-
-```tsx
-<h2>Why [LOCATION] Residents Choose Us</h2>
-
-{/* 4-6 PARAGRAPHS covering: */}
-<p>[TERRAIN/GEOGRAPHY CHALLENGES specific to location]</p>
-<p>[ACCESS/PARKING/HOA CHALLENGES specific to location]</p>
-<p>[PROPERTY TYPES/DEMOGRAPHICS specific to location]</p>
-<p>[WEATHER/CLIMATE considerations specific to location]</p>
-<p>[ROUTING/TRAFFIC/LOGISTICS specific to location]</p>
-```
-
-**CONTENT TO EXTRACT:**
-- [ ] Geographic/terrain challenges
-- [ ] HOA/community requirements
-- [ ] Property type considerations
-- [ ] Weather/seasonal factors
-- [ ] Traffic/routing expertise
-- [ ] Any unique local factors
-
----
-
-### **SECTION 9: SPECIALTY SERVICES** (If applicable)
-
-```tsx
-<h2>[SPECIALTY SERVICE HEADLINE]</h2>
-
-{/* EXAMPLES: */}
-{/* - Scrap Metal Removal (El Cajon) */}
-{/* - Luxury Estate Cleanouts (La Jolla, Rancho Santa Fe) */}
-{/* - Vacation Rental Turnovers (Pacific Beach) */}
-{/* - Equestrian Properties (Rancho Santa Fe) */}
-
-<div className="bg-gray-50 p-6 rounded-lg mb-8">
-  <h4>[Specialty Service 1]</h4>
-  <p>[Description]</p>
-  <ul className="list-disc pl-6 space-y-2">
-    <li>[Detail 1]</li>
-    <li>[Detail 2]</li>
+{/* Neighborhoods Served */}
+<h3 className="text-2xl font-bold mt-8 mb-4">[Location] Neighborhoods We Serve</h3>
+<p className="text-gray-700 mb-4">
+  Our <strong>trash removal [Location]</strong> service covers [INTRO PARAGRAPH].
+</p>
+<div className="grid md:grid-cols-2 gap-4 mb-6">
+  <ul className="space-y-2">
+    <li><strong>[Neighborhood 1]:</strong> [Description]</li>
+    <li><strong>[Neighborhood 2]:</strong> [Description]</li>
+    <li><strong>[Neighborhood 3]:</strong> [Description]</li>
+    <li><strong>[Neighborhood 4]:</strong> [Description]</li>
+  </ul>
+  <ul className="space-y-2">
+    <li><strong>[Neighborhood 5]:</strong> [Description]</li>
+    <li><strong>[Neighborhood 6]:</strong> [Description]</li>
+    <li><strong>[Neighborhood 7]:</strong> [Description]</li>
+    <li><strong>[Neighborhood 8]:</strong> [Description]</li>
   </ul>
 </div>
 ```
 
 **CONTENT TO EXTRACT:**
-- [ ] Does location have specialty service angle?
-- [ ] Specialty service name/type
-- [ ] Service description
-- [ ] Key features/details
-- [ ] Pricing considerations
+- [ ] Intro paragraph describing coverage
+- [ ] 8+ neighborhoods with detailed descriptions (1-2 sentences each)
+- [ ] Split into 2 columns (4 per side recommended)
 
 ---
 
-### **SECTION 10: STICKY CTA BAR** (Mid-page)
+### **SECTION 10: LEFT COLUMN - KEY STREETS & ACCESS ROUTES**
 
 ```tsx
-<div className="sticky top-20 bg-gradient-to-r from-blue-600 to-orange-500 text-white p-4 rounded-lg shadow-lg mb-8 z-10">
-  <div className="flex items-center justify-between gap-4">
-    <div>
-      <p className="font-semibold">[CTA HEADLINE]</p>
-      <p className="text-sm opacity-90">[TRUST SIGNALS]</p>
-    </div>
-    <a href="tel:6197500114" className="bg-white text-blue-600 px-6 py-2 rounded-lg font-semibold">
-      📞 Call Now
-    </a>
-  </div>
+{/* Major Streets */}
+<h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access Routes</h3>
+<p className="text-gray-700 mb-4">
+  Our <strong>junk hauling [Location]</strong> team knows [LOCAL EXPERTISE INTRO].
+</p>
+<ul className="grid md:grid-cols-2 gap-2 mb-6">
+  <li>• <strong>[Street 1]:</strong> [Description/Type]</li>
+  <li>• <strong>[Street 2]:</strong> [Description/Type]</li>
+  <li>• <strong>[Street 3]:</strong> [Description/Type]</li>
+  <li>• <strong>[Street 4]:</strong> [Description/Type]</li>
+  <li>• <strong>[Street 5]:</strong> [Description/Type]</li>
+  <li>• <strong>[Street 6]:</strong> [Description/Type]</li>
+  <li>• <strong>[Street 7]:</strong> [Description/Type]</li>
+  <li>• <strong>[Street 8]:</strong> [Description/Type]</li>
+</ul>
+```
+
+**CONTENT TO EXTRACT:**
+- [ ] Intro paragraph about local route knowledge
+- [ ] 8+ major streets/highways with descriptions
+- [ ] Mix of commercial corridors and residential routes
+
+---
+
+### **SECTION 11: LEFT COLUMN - LOCAL LANDMARKS**
+
+```tsx
+{/* Local Landmarks */}
+<h3 className="text-2xl font-bold mt-8 mb-4">[Location] Landmarks</h3>
+<p className="text-gray-700 mb-4">
+  We provide <strong>junk pickup [Location] CA</strong> service near all major landmarks.
+  [INTRO ABOUT LANDMARKS HELPING NAVIGATION]
+</p>
+<div className="grid md:grid-cols-2 gap-2 mb-6">
+  <ul className="space-y-1">
+    <li>• [Landmark 1]—[Type]</li>
+    <li>• [Landmark 2]—[Type]</li>
+    <li>• [Landmark 3]—[Type]</li>
+    <li>• [Landmark 4]—[Type]</li>
+    <li>• [Landmark 5]—[Type]</li>
+    <li>• [Landmark 6]—[Type]</li>
+  </ul>
+  <ul className="space-y-1">
+    <li>• [Landmark 7]—[Type]</li>
+    <li>• [Landmark 8]—[Type]</li>
+    <li>• [Landmark 9]—[Type]</li>
+    <li>• [Landmark 10]—[Type]</li>
+    <li>• [Landmark 11]—[Type]</li>
+    <li>• [Landmark 12]—[Type]</li>
+  </ul>
 </div>
 ```
 
 **CONTENT TO EXTRACT:**
-- [ ] CTA headline
-- [ ] Trust signals for sticky bar
+- [ ] Intro about landmarks for navigation
+- [ ] 12+ landmarks (schools, parks, shopping, community centers)
+- [ ] Split into 2 columns (6 per side)
 
 ---
 
-### **SECTION 11: SERVICES WE PROVIDE**
+### **SECTION 12: LEFT COLUMN - TRAFFIC PATTERNS & TIMING**
 
 ```tsx
-<h2>Services We Provide in [LOCATION]</h2>
+{/* Traffic & Timing */}
+<h3 className="text-2xl font-bold mt-8 mb-4">Traffic Patterns & Service Timing</h3>
+<p className="text-gray-700 mb-4">
+  [Location]'s [TRAFFIC CONTEXT] create specific traffic challenges...
+</p>
+<ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
+  <li><strong>Morning rush hours (X-X AM):</strong> [Description + recommendation]</li>
+  <li><strong>Afternoon rush hours (X-X PM):</strong> [Description + scheduling]</li>
+  <li><strong>[Location-specific timing consideration]:</strong> [Details]</li>
+  <li><strong>Weekend availability:</strong> [Weekend scheduling info]</li>
+</ul>
+```
 
-<div className="grid md:grid-cols-2 gap-6 mb-8">
+**CONTENT TO EXTRACT:**
+- [ ] Traffic patterns description
+- [ ] 4 timing considerations with recommendations
+
+---
+
+### **SECTION 13: LEFT COLUMN - WEATHER CONSIDERATIONS**
+
+```tsx
+{/* Weather */}
+<h3 className="text-2xl font-bold mt-8 mb-4">[Area Name] Weather Considerations</h3>
+<p className="text-gray-700 mb-6">
+  [Full paragraph about climate, seasonal considerations, how weather affects operations]
+</p>
+```
+
+**CONTENT TO EXTRACT:**
+- [ ] 1 comprehensive paragraph about climate/weather impacts
+
+---
+
+### **SECTION 14: LEFT COLUMN - WHAT WE REMOVE**
+
+```tsx
+{/* What We Remove */}
+<h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in [Location]</h3>
+<p className="text-gray-700 mb-4">
+  Our <strong>[Location] junk removal</strong> service handles [DESCRIPTION].
+</p>
+<div className="grid md:grid-cols-2 gap-4 mb-6">
   <div>
-    <h4 className="text-xl font-bold mb-3 text-blue-600">[Category 1]</h4>
-    <ul className="list-disc pl-6 space-y-1 text-gray-700">
-      <li>[Service 1]</li>
-      <li>[Service 2]</li>
-      {/* 4-6 services */}
+    <h4 className="font-bold mb-2">Furniture & Household</h4>
+    <ul className="space-y-1 text-gray-700">
+      <li>• [Item 1]</li>
+      <li>• [Item 2]</li>
+      <li>• [Item 3]</li>
+      <li>• [Item 4]</li>
     </ul>
   </div>
-
   <div>
-    <h4 className="text-xl font-bold mb-3 text-blue-600">[Category 2]</h4>
-    <ul className="list-disc pl-6 space-y-1 text-gray-700">
-      <li>[Service 3]</li>
-      <li>[Service 4]</li>
-      {/* 4-6 services */}
+    <h4 className="font-bold mb-2">Appliances & Scrap Metal</h4>
+    <ul className="space-y-1 text-gray-700">
+      <li>• [Item 1]</li>
+      <li>• [Item 2]</li>
+      <li>• [Item 3]</li>
+      <li>• [Item 4]</li>
+    </ul>
+  </div>
+  <div>
+    <h4 className="font-bold mb-2">Garage & Outdoor</h4>
+    <ul className="space-y-1 text-gray-700">
+      <li>• [Item 1]</li>
+      <li>• [Item 2]</li>
+      <li>• [Item 3]</li>
+      <li>• [Item 4]</li>
+    </ul>
+  </div>
+  <div>
+    <h4 className="font-bold mb-2">[Category 4]</h4>
+    <ul className="space-y-1 text-gray-700">
+      <li>• [Item 1]</li>
+      <li>• [Item 2]</li>
+      <li>• [Item 3]</li>
+      <li>• [Item 4]</li>
     </ul>
   </div>
 </div>
 ```
 
 **CONTENT TO EXTRACT:**
-- [ ] Service categories (usually 2: Residential, Commercial/Specialized)
-- [ ] List of 8-12 services
-- [ ] Any location-specific services
+- [ ] 4 categories of items
+- [ ] 16 items total (4 per category)
+- [ ] Any links to specialty service pages
 
 ---
 
-### **SECTION 12: TESTIMONIAL** (If available)
+### **SECTION 15: LEFT COLUMN - SPECIALTY SERVICE** (Optional)
 
 ```tsx
-<h3>Customer Testimonial: [Neighborhood]</h3>
-<div className="bg-blue-50 p-6 rounded-lg mb-8 border-l-4 border-blue-500">
-  <div className="flex items-center mb-2">
-    <div className="text-yellow-500 text-lg mr-2">⭐⭐⭐⭐⭐</div>
-    <p className="font-bold text-gray-900">[Customer Name]</p>
+{/* Specialty Service Section - Only if location has one */}
+<h3 className="text-2xl font-bold mt-8 mb-4">[Specialty Service Name]</h3>
+<p className="text-gray-700 mb-4">
+  [Intro paragraph about specialty service]
+</p>
+<div className="grid md:grid-cols-2 gap-4 mb-6">
+  <div className="bg-gray-50 p-4 rounded-lg">
+    <h4 className="font-bold mb-2 text-blue-600">[Sub-category 1]</h4>
+    <ul className="list-disc pl-6 space-y-1 text-gray-700">
+      <li>[Detail 1]</li>
+      <li>[Detail 2]</li>
+      <li>[Detail 3]</li>
+      <li>[Detail 4]</li>
+    </ul>
   </div>
-  <p className="text-gray-700 italic mb-2">
-    "[TESTIMONIAL TEXT]"
-  </p>
-  <p className="text-sm text-gray-600">
-    <strong>Location:</strong> [Neighborhood] • <strong>Service:</strong> [Service Type]
-  </p>
+  <div className="bg-gray-50 p-4 rounded-lg">
+    <h4 className="font-bold mb-2 text-blue-600">[Sub-category 2]</h4>
+    <ul className="list-disc pl-6 space-y-1 text-gray-700">
+      <li>[Detail 1]</li>
+      <li>[Detail 2]</li>
+      <li>[Detail 3]</li>
+      <li>[Detail 4]</li>
+    </ul>
+  </div>
 </div>
 ```
 
 **CONTENT TO EXTRACT:**
-- [ ] Customer name
-- [ ] Testimonial quote
-- [ ] Neighborhood/location
-- [ ] Service provided
+- [ ] Does this location have a specialty service? (e.g., Scrap Metal for El Cajon)
+- [ ] Specialty service name and description
+- [ ] 2 sub-categories with 4 details each
 
 ---
 
-### **SECTION 13: FINAL CTA SECTION**
+### **SECTION 16: LEFT COLUMN - HOW OUR SERVICE WORKS**
 
 ```tsx
-<div className="text-center bg-blue-900 text-white p-8 rounded-lg">
-  <h3>Get [LOCATION] Junk Removal Quote Today</h3>
-  <p>[CLOSING PARAGRAPH with local context]</p>
-
-  <a href="tel:6197500114" className="btn btn-primary">
-    📞 Call (619) 750-0114 Now
-  </a>
-
-  <div className="bg-blue-800 rounded-lg p-4">
-    <p className="text-yellow-300 font-semibold mb-2">⭐ [LOCATION] Special ⭐</p>
-    <div className="text-sm">
-      <strong>15% Off [LOCATION] Bookings</strong> • <strong>[SPECIAL FEATURE]</strong>
-    </div>
-  </div>
-
-  <p className="text-sm mt-4">
-    [TRUST SIGNALS LINE]
-  </p>
+{/* How Our Service Works */}
+<h3 className="text-2xl font-bold mt-8 mb-4">How Our [Location] Junk Removal Service Works</h3>
+<div className="bg-blue-50 rounded-lg p-6 mb-6">
+  <ol className="space-y-3 text-gray-700">
+    <li><strong>1. Contact Us:</strong> [Step description]</li>
+    <li><strong>2. Same-Day Scheduling Available:</strong> [Step description]</li>
+    <li><strong>3. We Arrive & Assess:</strong> [Step description]</li>
+    <li><strong>4. We Load & Haul Everything:</strong> [Step description]</li>
+    <li><strong>5. Eco-Friendly Disposal & Recycling:</strong> [Step description]</li>
+    <li><strong>6. Clean Sweep & Payment:</strong> [Step description]</li>
+  </ol>
 </div>
 ```
 
 **CONTENT TO EXTRACT:**
-- [ ] Final CTA headline
-- [ ] Closing paragraph
-- [ ] Special offer text
-- [ ] Trust signals
+- [ ] 6 step descriptions (usually standardized with minor location tweaks)
 
 ---
 
-### **SECTION 14: FAQ SECTION**
+### **SECTION 17: LEFT COLUMN - WHY CHOOSE US**
 
 ```tsx
-<LocationFAQSection />
+{/* Why Choose Us */}
+<h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Cleaners for [Location] Junk Removal</h3>
+<ul className="space-y-3 mb-6">
+  <li className="flex items-start">
+    <span className="text-green-500 text-xl mr-3">✓</span>
+    <span><strong>[Benefit 1 Title]:</strong> [Description]</span>
+  </li>
+  <li className="flex items-start">
+    <span className="text-green-500 text-xl mr-3">✓</span>
+    <span><strong>[Benefit 2 Title]:</strong> [Description]</span>
+  </li>
+  <li className="flex items-start">
+    <span className="text-green-500 text-xl mr-3">✓</span>
+    <span><strong>[Benefit 3 Title]:</strong> [Description]</span>
+  </li>
+  <li className="flex items-start">
+    <span className="text-green-500 text-xl mr-3">✓</span>
+    <span><strong>[Benefit 4 Title]:</strong> [Description]</span>
+  </li>
+</ul>
 ```
 
 **CONTENT TO EXTRACT:**
-- [ ] Note: FAQ component already exists - just import it
+- [ ] 4 location-specific benefits with detailed descriptions
+- [ ] Each should address unique local challenges/expertise
+
+**NOTE:** This closes the `</div>` for the left column white card and `</div>` for lg:col-span-2
 
 ---
 
-### **SECTION 15: TRUST SIGNALS SECTION** (Standardized)
+### **SECTION 18: PRICING COMPONENT - LocationPricingSection**
+
+**Component:** `<LocationPricingSection />` (Reusable, imported from `@/components/LocationPricingSection`)
+
+**Location:** After main content grid closes, outside the 2-column layout
+
+**Props Required:**
+```typescript
+{
+  locationName: string;  // e.g., "El Cajon"
+  contextParagraph?: string;  // Optional custom pricing context
+}
+```
+
+**Usage Example:**
+```tsx
+<LocationPricingSection
+  locationName="El Cajon"
+  contextParagraph="Estate cleanouts and family property projects throughout El Cajon—from Fletcher Hills to Rancho San Diego—all use the same transparent pricing. No hidden fees, same-day service available."
+/>
+```
+
+**Component Contents (STANDARDIZED - DO NOT CUSTOMIZE):**
+1. **Section Header**:
+   - H2: "Transparent {locationName} Junk Removal Pricing"
+   - Context paragraph (custom or default)
+
+2. **4 Gradient Pricing Cards**:
+   - **Single Item** - $100 (blue gradient)
+   - **1/4 Load (3 cu yd)** - $249 (green gradient)
+   - **1/2 Load (6 cu yd)** - $349 (orange gradient)
+   - **Full Load (12 cu yd)** - $495 (purple gradient)
+
+3. **Additional Load Sizes** (gray box):
+   - 3/8 Load - $319
+   - 5/8 Load - $366
+   - 3/4 Load - $429
+   - 7/8 Load - $462
+
+4. **What's Included** (blue box with checkmarks):
+   - All labor and loading
+   - Transportation and hauling
+   - Eco-friendly disposal fees
+   - Donation coordination
+   - Recycling services
+   - Same-day service available
+
+5. **CTA + Link**:
+   - Orange button: "Get Your Free {locationName} Quote - Call (619) 750-0114"
+   - Link to `/junk-removal-cost-san-diego` for complete pricing guide
+
+**CONTENT TO EXTRACT:**
+- [ ] Custom contextParagraph (optional - mentions local neighborhoods/areas)
+
+---
+
+### **SECTION 19: TRUST SIGNALS COMPONENT - TrustSignalsSection**
+
+**Component:** `<TrustSignalsSection />` (Reusable, imported from `@/components/TrustSignalsSection`)
+
+**Props Required:**
+```typescript
+{
+  locationName: string;  // e.g., "El Cajon"
+  coverageArea?: string;  // Optional, defaults to "San Diego County"
+}
+```
+
+**Usage Example:**
+```tsx
+<TrustSignalsSection locationName="El Cajon" />
+```
+
+**Component Contents (STANDARDIZED - DO NOT CUSTOMIZE):**
+- H2: "Trusted {locationName} Junk Removal Service"
+- **4-stat grid** with colored circle icons:
+  1. **200+** Customers Served (blue icon)
+  2. **Licensed** & Insured (green shield icon)
+  3. **Same-Day** Service Available (orange clock icon)
+  4. **All of** {coverageArea} (purple location icon)
+
+**CONTENT TO EXTRACT:**
+- [ ] Optional coverageArea override (e.g., "East County", "North County", etc.)
+
+---
+
+### **SECTION 20: FAQ COMPONENT**
+
+**Component:** `<[Location]FAQSection />` (Custom per location, local import)
+
+**File Location:** `./[Location]FAQSection.tsx` (in same directory as page.tsx)
+
+**Usage Example:**
+```tsx
+import PacificBeachFAQSection from "./PacificBeachFAQSection";
+
+// In page:
+<PacificBeachFAQSection />
+```
+
+**Component Structure:**
 
 ```tsx
-<section className="py-16 bg-gray-50">
-  <div className="container mx-auto px-4">
-    <div className="max-w-5xl mx-auto">
-      <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-        Trusted [LOCATION] Junk Removal Service
-      </h2>
+'use client';
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        {/* STAT 1: Customers Served */}
-        <div className="text-center">
-          <div className="w-20 h-20 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-            <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-            </svg>
-          </div>
-          <h3 className="text-2xl font-bold text-gray-900 mb-2">200+</h3>
-          <p className="text-gray-600 font-semibold">Customers Served</p>
+import { useState } from 'react';
+
+export default function [Location]FAQSection() {
+  const [openFAQ, setOpenFAQ] = useState<number | null>(null);
+
+  return (
+    <section className="py-16 bg-white">
+      <div className="container mx-auto px-4">
+        {/* FAQ HEADER */}
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+            Frequently Asked Questions - [Location] Junk Removal
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Get answers to common questions about our <strong>[Location] junk removal</strong> services,
+            [location-specific context].
+          </p>
         </div>
 
-        {/* STAT 2: Licensed & Insured */}
-        <div className="text-center">
-          <div className="w-20 h-20 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
-            <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
-            </svg>
+        {/* FAQ ACCORDION ITEMS */}
+        <div className="max-w-4xl mx-auto">
+          <div className="space-y-4">
+            {/* FAQ ITEM 1-8 */}
+            <div className="border border-gray-200 rounded-xl overflow-hidden">
+              <button
+                className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
+                onClick={() => setOpenFAQ(openFAQ === 0 ? null : 0)}
+              >
+                <h3 className="font-bold text-gray-900 text-lg">[Question Text]</h3>
+                <svg
+                  className={`w-5 h-5 text-gray-500 transition-transform ${
+                    openFAQ === 0 ? 'rotate-180' : ''
+                  }`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </button>
+              {openFAQ === 0 && (
+                <div className="px-6 py-4 bg-white">
+                  <p className="text-gray-700 leading-relaxed">
+                    [Answer text with location-specific details]
+                  </p>
+                </div>
+              )}
+            </div>
+            {/* Repeat for 6-8 total FAQ items */}
           </div>
-          <h3 className="text-2xl font-bold text-gray-900 mb-2">Licensed</h3>
-          <p className="text-gray-600 font-semibold">& Insured</p>
         </div>
 
-        {/* STAT 3: Same-Day Service */}
-        <div className="text-center">
-          <div className="w-20 h-20 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
-            <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-            </svg>
+        {/* CTA BOX - "Ready for Same-Day..." */}
+        <div className="bg-blue-50 rounded-xl p-8 mt-12 text-center">
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">
+            Ready for Same-Day Junk Removal in [Location]?
+          </h3>
+          <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
+            Whether you're [local scenario 1], [local scenario 2], or [local scenario 3], we're your local <strong>[Location] junk removal</strong> experts.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="tel:+16197500114"
+              className="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition-colors"
+            >
+              📞 Call (619) 750-0114 – [Location Abbrev] Service
+            </a>
+            <a
+              href="/contact"
+              className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-colors"
+            >
+              Get Free Quote
+            </a>
           </div>
-          <h3 className="text-2xl font-bold text-gray-900 mb-2">Same-Day</h3>
-          <p className="text-gray-600 font-semibold">Service Available</p>
-        </div>
-
-        {/* STAT 4: Coverage Area */}
-        <div className="text-center">
-          <div className="w-20 h-20 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
-            <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-            </svg>
-          </div>
-          <h3 className="text-2xl font-bold text-gray-900 mb-2">All of</h3>
-          <p className="text-gray-600 font-semibold">[COVERAGE AREA]</p>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
+  );
+}
 ```
 
-**CONTENT TO CUSTOMIZE:**
-- [ ] Location name in heading
-- [ ] Coverage area text (last stat): "San Diego County", "East County", "[Location] Area", etc.
+**Section Styling Reference:**
 
-**NOTE:** This section is **standardized across all pages** - only the location name and coverage area text change
+| Element | Classes |
+|---------|---------|
+| **Outer Section** | `py-16 bg-white` |
+| **FAQ Header H2** | `text-4xl font-bold text-gray-900 mb-4` |
+| **FAQ Intro Text** | `text-xl text-gray-600 max-w-3xl mx-auto` |
+| **FAQ Container** | `max-w-4xl mx-auto` |
+| **FAQ Items Wrapper** | `space-y-4` |
+| **FAQ Item Border** | `border border-gray-200 rounded-xl overflow-hidden` |
+| **FAQ Button** | `w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between` |
+| **FAQ Question** | `font-bold text-gray-900 text-lg` |
+| **FAQ Answer Container** | `px-6 py-4 bg-white` |
+| **FAQ Answer Text** | `text-gray-700 leading-relaxed` |
+| **CTA Box** | `bg-blue-50 rounded-xl p-8 mt-12 text-center` |
+| **CTA H3** | `text-2xl font-bold text-gray-900 mb-4` |
+| **CTA Paragraph** | `text-gray-700 mb-6 max-w-2xl mx-auto` |
+| **CTA Buttons Container** | `flex flex-col sm:flex-row gap-4 justify-center` |
+| **Call Button** | `bg-blue-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition-colors` |
+| **Quote Button** | `bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-colors` |
+
+**Content Structure for CTA Box:**
+
+1. **H3 Heading Pattern:**
+   - Format: "Ready for Same-Day Junk Removal in [Location]?"
+   - Always includes "Same-Day" and location name
+   - Ends with question mark
+
+2. **Paragraph Pattern:**
+   - Starts with "Whether you're..."
+   - Lists 3 local scenarios specific to the location
+   - Examples from Pacific Beach:
+     - "managing a vacation rental on Ocean Front Walk"
+     - "clearing out a beach cottage near Crystal Pier"
+     - "handling a student move-out on Garnet Avenue"
+   - Ends with "we're your local **[Location] junk removal** experts."
+
+3. **Button Configuration:**
+   - **Left button (dark blue):**
+     - Icon: 📞
+     - Text: "Call (619) 750-0114 – [Abbrev] Service"
+     - Abbreviation examples: "PB Service", "El Cajon Service", etc.
+     - Link: `tel:+16197500114`
+   - **Right button (white/outlined):**
+     - Text: "Get Free Quote" (standardized)
+     - Link: `/contact`
+
+**CONTENT TO EXTRACT:**
+
+- [ ] FAQ section heading intro paragraph
+- [ ] 6-8 FAQ questions (location-specific)
+- [ ] 6-8 FAQ answers (with local details, keywords, pricing if applicable)
+- [ ] CTA box paragraph with 3 local scenarios
+- [ ] Location abbreviation for phone button (e.g., "PB", "El Cajon", "La Jolla")
+
+**NOTE:** FAQ accordion uses React useState hook. Each FAQ item has unique index for open/close state management.
 
 ---
 
-### **SECTION 16: RELATED SERVICES**
+### **SECTION 21: RELATED SERVICES**
+
+**Location:** After FAQ, before Footer
 
 ```tsx
-<section className="py-12 bg-white">
+<section className="py-12 bg-gray-50">
   <div className="container mx-auto px-4">
-    <h3 className="text-2xl font-bold text-center mb-8">Related [LOCATION/TYPE] Services</h3>
+    <h3 className="text-2xl font-bold text-center mb-8">Related [Area] Services</h3>
     <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
       {/* SERVICE CARD 1 */}
-      <a href="[SERVICE_URL_1]" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+      <a href="[SERVICE_URL_1]" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
         <h4 className="font-semibold text-lg mb-2 text-blue-600">[Service 1 Title]</h4>
         <p className="text-gray-600">[Service 1 Description]</p>
       </a>
 
       {/* SERVICE CARD 2 */}
-      <a href="[SERVICE_URL_2]" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+      <a href="[SERVICE_URL_2]" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
         <h4 className="font-semibold text-lg mb-2 text-blue-600">[Service 2 Title]</h4>
         <p className="text-gray-600">[Service 2 Description]</p>
       </a>
 
       {/* SERVICE CARD 3 */}
-      <a href="[SERVICE_URL_3]" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+      <a href="[SERVICE_URL_3]" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
         <h4 className="font-semibold text-lg mb-2 text-blue-600">[Service 3 Title]</h4>
         <p className="text-gray-600">[Service 3 Description]</p>
       </a>
@@ -579,51 +892,67 @@ export const metadata: Metadata = {
 </section>
 ```
 
+**Styling (STANDARDIZED):**
+- Card styling: `bg-white rounded-lg shadow hover:shadow-lg transition-shadow`
+- 3-column grid on desktop
+- Blue text for titles, gray for descriptions
+
 **CONTENT TO EXTRACT:**
+- [ ] Section heading (e.g., "Related East County Services")
 - [ ] 3 related service URLs
 - [ ] 3 related service titles
-- [ ] 3 related service descriptions
-
-**NOTE:** Card styling is **standardized** - `bg-gray-50 rounded-lg shadow hover:shadow-lg`
+- [ ] 3 related service descriptions (1-2 sentences each)
 
 ---
 
-## 📊 **CONTENT EXTRACTION CHECKLIST**
+## 📊 **COMPLETE CONTENT EXTRACTION CHECKLIST**
 
-For each existing location page, extract:
+Use this master checklist when migrating an existing location page:
 
-### **Hero/Header Content:**
+### **Metadata & Setup:**
+- [ ] Page title
+- [ ] Meta description
+- [ ] Keywords
+- [ ] OpenGraph tags
+- [ ] Service schema description
+- [ ] 4 nearby locations (name + slug)
+
+### **Hero Section:**
 - [ ] Badge text
-- [ ] H1 title
-- [ ] H2 subtitle
-- [ ] Trust signals
-- [ ] CTA button text
+- [ ] H1 headline
+- [ ] Subheadline with neighborhoods
+- [ ] 3 trust signals
 
-### **Local Information:**
-- [ ] 10-15+ neighborhood names + descriptions
-- [ ] 5-8 major streets/highways
-- [ ] 8-12 residential streets
-- [ ] 8-12 local landmarks
-- [ ] Geographic grouping logic
+### **Introduction:**
+- [ ] H2 positioning tagline
+- [ ] 2 opening paragraphs
 
-### **Why Choose Us:**
-- [ ] Terrain/geography challenges
-- [ ] HOA/access requirements
-- [ ] Property type considerations
-- [ ] Weather/climate factors
-- [ ] Traffic/routing expertise
+### **Local Coverage:**
+- [ ] 8+ neighborhoods with descriptions
+- [ ] 8+ major streets with descriptions
+- [ ] 12+ local landmarks
+
+### **Operational Details:**
+- [ ] Traffic patterns paragraph + 4 timing points
+- [ ] Weather considerations paragraph
 
 ### **Services:**
-- [ ] Service categories (2)
-- [ ] 8-12 specific services
-- [ ] Specialty services (if any)
+- [ ] "What We Remove" intro + 16 items in 4 categories
+- [ ] Specialty service section (if applicable)
+- [ ] 6 "How It Works" steps
+- [ ] 4 "Why Choose Us" benefits
 
-### **Other Content:**
-- [ ] Introduction paragraphs (2-4)
-- [ ] Pricing context paragraph
-- [ ] Testimonial (if exists)
-- [ ] Final CTA messaging
-- [ ] Related services (3)
+### **Components:**
+- [ ] Pricing context paragraph (optional)
+- [ ] Coverage area override (optional)
+- [ ] FAQ component created with:
+  - [ ] FAQ intro paragraph
+  - [ ] 6-8 FAQ Q&As
+  - [ ] CTA box paragraph (3 local scenarios)
+  - [ ] Location abbreviation for phone button
+
+### **Related Services:**
+- [ ] 3 service titles, URLs, and descriptions
 
 ---
 
@@ -631,39 +960,37 @@ For each existing location page, extract:
 
 ### **Step 1: Content Extraction**
 1. Open existing location page
-2. Fill out content extraction checklist
-3. Copy content into organized notes/spreadsheet
+2. Fill out complete content extraction checklist above
+3. Copy all content into organized document
 
-### **Step 2: Categorization**
-1. Identify location positioning (luxury/family/beach/urban)
-2. Determine specialty services angle
-3. Note unique local challenges
+### **Step 2: File Setup**
+1. Create new page.tsx file in correct directory
+2. Copy imports from Section 1
+3. Set up metadata from Section 2
+4. Create FAQ component file
 
-### **Step 3: Template Population**
-1. Copy blueprint template
-2. Replace all `[PLACEHOLDER]` markers with extracted content
-3. Maintain exact formatting/structure
+### **Step 3: Build Page Structure**
+1. Copy complete page structure (Sections 3-4)
+2. Add hero section (Section 5)
+3. Set up 2-column grid (Section 6)
+4. Add sidebar component (Section 7)
 
-### **Step 4: Review & Enhance**
-1. Fill any gaps (missing neighborhoods, streets, etc.)
-2. Ensure 10-15+ neighborhoods listed
-3. Verify all sections present
-4. Add local landmarks if missing
+### **Step 4: Populate Left Column**
+1. Add all 10 left column sections (Sections 8-17)
+2. Replace all `[PLACEHOLDER]` text with extracted content
+3. Ensure all keywords are bolded properly
 
----
+### **Step 5: Add Components**
+1. Add LocationPricingSection (Section 18)
+2. Add TrustSignalsSection (Section 19)
+3. Add FAQ component (Section 20)
+4. Add Related Services (Section 21)
 
-## 🎯 **POSITIONING GUIDE**
-
-Match location to positioning category:
-
-| Category | Locations | Key Angles |
-|----------|-----------|------------|
-| **Luxury** | La Jolla, Rancho Santa Fe, Del Mar | White-glove, estate, discretion |
-| **Family** | El Cajon, Clairemont, Santee | Multi-generational, community, respectful |
-| **Beach** | Pacific Beach, Ocean Beach | Vacation rental, salt damage, turnover speed |
-| **Master-Planned** | Carmel Valley, 4S Ranch | HOA-compliant, gated access, organized |
-| **Urban** | Hillcrest, North Park | Quick/efficient, parking, multi-story |
-| **North County** | Escondido, Oceanside, Vista | Regional, agricultural, large lots |
+### **Step 6: Review**
+1. Verify all placeholders replaced
+2. Check all links work
+3. Ensure nearby locations array populated
+4. Confirm schema URLs correct
 
 ---
 
@@ -671,28 +998,53 @@ Match location to positioning category:
 
 Before marking a page "complete":
 
-- [ ] All 15 sections present
-- [ ] 10-15+ neighborhoods mentioned
-- [ ] 5-8 major streets listed
-- [ ] 8-12 local landmarks included
-- [ ] Pricing section included (condensed)
-- [ ] Specialty service angle (if applicable)
-- [ ] "Why Choose Us" has local specifics
-- [ ] FAQ component imported
-- [ ] Related services (3) linked
+- [ ] All 21 sections present and populated
+- [ ] No `[PLACEHOLDER]` text remaining
+- [ ] 8+ neighborhoods with descriptions
+- [ ] 8+ streets with descriptions
+- [ ] 12+ landmarks listed
+- [ ] Traffic, weather sections complete
+- [ ] "What We Remove" has 16 items
+- [ ] "Why Choose Us" has 4 benefits
+- [ ] Pricing context customized
+- [ ] 4 nearby locations configured
+- [ ] FAQ component created and imported
+- [ ] 3 related services linked
+- [ ] All keywords properly bolded
+- [ ] Schema URLs correct
 - [ ] Metadata complete
-- [ ] Schema markup included
 
 ---
 
-## 📝 **NEXT STEPS**
+## 📝 **COMPONENT PROP REFERENCE**
 
-1. **Review this blueprint** - make sure it captures everything
-2. **Extract content from El Cajon page** (reference model)
-3. **Create first migrated page** using template
-4. **Refine template** based on learnings
-5. **Batch migrate remaining pages**
+Quick reference for all component props:
+
+```typescript
+// LocationSidebarCTA
+<LocationSidebarCTA
+  locationName="El Cajon"
+  nearbyLocations={[
+    { name: "La Mesa", slug: "la-mesa" },
+    { name: "Santee", slug: "santee" },
+    { name: "Lakeside", slug: "lakeside" },
+    { name: "Spring Valley", slug: "spring-valley" },
+  ]}
+/>
+
+// LocationPricingSection
+<LocationPricingSection
+  locationName="El Cajon"
+  contextParagraph="Optional custom pricing context..."
+/>
+
+// TrustSignalsSection
+<TrustSignalsSection
+  locationName="El Cajon"
+  coverageArea="East County"  // Optional, defaults to "San Diego County"
+/>
+```
 
 ---
 
-**Ready to start migration?** Let me know and I'll help extract content from the first page!
+**Blueprint Complete!** This document now represents the complete, accurate configuration for all location pages.
