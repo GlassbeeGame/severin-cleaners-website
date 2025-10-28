@@ -5,9 +5,6 @@ import Footer from "@/components/Footer";
 import EstateFAQSection from "./EstateFAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
-import LocationSidebarCTA from "@/components/LocationSidebarCTA";
-import TrustSignalsSection from "@/components/TrustSignalsSection";
-import LocationPricingSection from "@/components/LocationPricingSection";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -48,13 +45,6 @@ export default function EstateCleanoutPage() {
     "@graph": [serviceSchema, breadcrumbSchema]
   };
 
-  const relatedServices = [
-    { name: "Foreclosure & Eviction Cleanout", slug: "foreclosure-eviction-cleanout-san-diego" },
-    { name: "Hoarding Cleanup", slug: "hoarding-cleanup-san-diego" },
-    { name: "Furniture Removal", slug: "furniture-removal-san-diego" },
-    { name: "Appliance Removal", slug: "appliance-removal-san-diego" },
-  ];
-
   return (
     <>
       <SchemaMarkup schema={combinedSchema} />
@@ -93,15 +83,54 @@ export default function EstateCleanoutPage() {
           </div>
         </section>
 
-        {/* Main Content with Sidebar - 2-COLUMN LAYOUT */}
-        <section className="py-12 bg-gray-50">
+        {/* Service Features */}
+        <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
-            <div className="max-w-7xl mx-auto">
-              <div className="grid lg:grid-cols-3 gap-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
+              Junk Hauling That Makes a Difficult Time Easier
+            </h2>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+                <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                  </svg>
+                </div>
+                <h3 className="text-xl font-bold mb-2">Compassionate & Respectful</h3>
+                <p className="text-gray-600">
+                  We understand this is emotional. Our team handles every item with care and treats your family with dignity.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+                <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                  </svg>
+                </div>
+                <h3 className="text-xl font-bold mb-2">We Do All the Work</h3>
+                <p className="text-gray-600">
+                  You don't lift anything. We haul away furniture, boxes, appliances—everything you need gone.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+                <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                  </svg>
+                </div>
+                <h3 className="text-xl font-bold mb-2">Flexible & Understanding</h3>
+                <p className="text-gray-600">
+                  Work at your own pace. We schedule around your timeline and emotional readiness.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-                {/* LEFT COLUMN - Main Content (lg:col-span-2) */}
-                <div className="lg:col-span-2">
-                  <div className="bg-white rounded-lg shadow-md p-8">
+        {/* Content Section */}
+        <section className="py-16">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-bold mb-8 text-gray-900">
                 Estate Junk Removal When You Need It Most
               </h2>
@@ -196,6 +225,70 @@ export default function EstateCleanoutPage() {
                   </div>
                 </div>
 
+                <h3 className="text-2xl font-bold mt-10 mb-4">Transparent Pricing</h3>
+                <p className="text-lg mb-6">
+                  Estate cleanout costs vary based on how much needs to be removed. We provide upfront quotes with no hidden fees. All prices include hauling and proper disposal.
+                </p>
+
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                  <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl border-2 border-blue-200">
+                    <div className="text-center">
+                      <p className="text-sm font-semibold text-blue-600 mb-2">SINGLE ITEM PICKUP</p>
+                      <p className="text-4xl font-bold text-blue-900 mb-1">$100</p>
+                      <p className="text-sm text-blue-700">Starting at</p>
+                    </div>
+                  </div>
+                  <div className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-xl border-2 border-green-200">
+                    <div className="text-center">
+                      <p className="text-sm font-semibold text-green-600 mb-2">1/4 TRAILER LOAD</p>
+                      <p className="text-4xl font-bold text-green-900 mb-1">$249</p>
+                      <p className="text-sm text-green-700">3 cubic yards</p>
+                    </div>
+                  </div>
+                  <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-xl border-2 border-purple-200">
+                    <div className="text-center">
+                      <p className="text-sm font-semibold text-purple-600 mb-2">1/2 TRAILER LOAD</p>
+                      <p className="text-4xl font-bold text-purple-900 mb-1">$349</p>
+                      <p className="text-sm text-purple-700">6 cubic yards</p>
+                    </div>
+                  </div>
+                  <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-xl border-2 border-orange-200">
+                    <div className="text-center">
+                      <p className="text-sm font-semibold text-orange-600 mb-2">FULL TRAILER LOAD</p>
+                      <p className="text-4xl font-bold text-orange-900 mb-1">$495</p>
+                      <p className="text-sm text-orange-700">12 cubic yards</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-gray-100 rounded-xl p-6 mb-8">
+                  <h4 className="font-bold text-lg mb-4 text-gray-900">Additional Load Sizes:</h4>
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                      <span className="font-semibold text-gray-700">3/8 Trailer Load (4.5 cubic yards)</span>
+                      <span className="text-xl font-bold text-gray-900">$319</span>
+                    </div>
+                    <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                      <span className="font-semibold text-gray-700">5/8 Trailer Load (7.5 cubic yards)</span>
+                      <span className="text-xl font-bold text-gray-900">$366</span>
+                    </div>
+                    <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                      <span className="font-semibold text-gray-700">3/4 Trailer Load (9 cubic yards)</span>
+                      <span className="text-xl font-bold text-gray-900">$429</span>
+                    </div>
+                    <div className="flex justify-between items-center py-2 border-b border-gray-300">
+                      <span className="font-semibold text-gray-700">7/8 Trailer Load (10.5 cubic yards)</span>
+                      <span className="text-xl font-bold text-gray-900">$462</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg mb-8">
+                  <p className="text-sm text-gray-700 leading-relaxed">
+                    Note: Most full estate cleanouts require multiple trailer loads. Typical estates range from $1,500-$3,000 depending on property size and amount of items. We provide written estimates after seeing the property. Call <a href="tel:+16197500114" className="text-blue-600 font-bold hover:underline">(619) 750-0114</a> for a free assessment. For more information about disposal costs, visit our <a href="/blog/san-diego-dump-fees-guide" className="text-blue-600 font-bold hover:underline">San Diego dump fees guide</a>.
+                  </p>
+                </div>
+
                 <h3 className="text-2xl font-bold mt-10 mb-4">What Happens to the Items?</h3>
                 <p className="text-lg mb-6">
                   Usable furniture and items in good condition go to local charities when appropriate. Everything else is disposed of responsibly—we comply with San Diego disposal regulations to ensure proper handling.
@@ -239,30 +332,30 @@ export default function EstateCleanoutPage() {
                   </div>
                 </div>
 
-                {/* RIGHT COLUMN - Sidebar (lg:col-span-1) */}
-                <div className="lg:col-span-1">
-                  <LocationSidebarCTA
-                    locationName="Estate Cleanout"
-                    nearbyLocations={relatedServices}
-                  />
-                </div>
+        {/* FAQ Section */}
+        <EstateFAQSection />
 
+                {/* Trust Signals */}
+                <div className="mt-12 pt-8 border-t border-gray-200">
+                  <div className="grid md:grid-cols-3 gap-4 text-center">
+                    <div>
+                      <p className="text-3xl font-bold text-blue-600">200+</p>
+                      <p className="text-sm text-gray-600">Estate Cleanouts Completed</p>
+                    </div>
+                    <div>
+                      <p className="text-3xl font-bold text-blue-600">Licensed</p>
+                      <p className="text-sm text-gray-600">Bonded & Insured</p>
+                    </div>
+                    <div>
+                      <p className="text-3xl font-bold text-blue-600">Respectful</p>
+                      <p className="text-sm text-gray-600">Compassionate Service</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </section>
-
-        {/* Pricing Section */}
-        <LocationPricingSection
-          locationName="Estate Cleanout"
-          contextParagraph="Compassionate estate cleanout service with transparent pricing. From single rooms to full property cleanouts, our pricing is based on volume with all labor, hauling, and proper disposal included."
-        />
-
-        {/* Trust Signals Section */}
-        <TrustSignalsSection locationName="Estate Cleanout" />
-
-        {/* FAQ Section */}
-        <EstateFAQSection />
       </main>
 
       <Footer />
