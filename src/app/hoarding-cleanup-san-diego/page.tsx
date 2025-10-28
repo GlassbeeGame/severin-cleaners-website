@@ -234,17 +234,18 @@ export default function HoardingCleanupPage() {
                   </ul>
                 </div>
               </div>
-            </div>
+                  </div>
+                </div>
 
-            {/* RIGHT COLUMN - Sidebar (lg:col-span-1) */}
-            <div className="lg:col-span-1">
-              <LocationSidebarCTA
-                locationName="Hoarding Cleanup"
-                nearbyLocations={relatedServices}
-              />
-            </div>
+                {/* RIGHT COLUMN - Sidebar (lg:col-span-1) */}
+                <div className="lg:col-span-1">
+                  <LocationSidebarCTA
+                    locationName="Hoarding Cleanup"
+                    nearbyLocations={relatedServices}
+                  />
+                </div>
 
-          </div>
+              </div>
             </div>
           </div>
         </section>
