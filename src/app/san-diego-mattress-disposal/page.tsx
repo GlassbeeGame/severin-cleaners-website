@@ -353,7 +353,7 @@ export default function MattressDisposalPage() {
 
         {/* Pricing Section */}
         <LocationPricingSection
-          serviceName="Mattress Disposal"
+          locationName="Mattress Disposal"
           contextParagraph="Mattress pickup typically starts around $100, depending on location, access, and total load size. We can handle multiple items in one trip including box springs, bed frames, and other furniture. Every price includes hauling, labor, and responsible disposal."
         />
 

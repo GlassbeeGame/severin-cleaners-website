@@ -374,7 +374,7 @@ export default function FurnitureRemovalPage() {
 
         {/* Pricing Section */}
         <LocationPricingSection
-          serviceName="Furniture Removal"
+          locationName="Furniture Removal"
           contextParagraph="Know what you'll pay before we arrive. All prices include labor, hauling, and proper disposal. Prices shown are for standard furniture removal. Heavy items like pianos or items requiring special handling may have additional fees."
         />
 

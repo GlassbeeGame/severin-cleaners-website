@@ -395,7 +395,7 @@ export default function CouchRemovalPage() {
 
       {/* Pricing Section */}
       <LocationPricingSection
-        serviceName="Couch Removal"
+        locationName="Couch Removal"
         contextParagraph="Our pricing includes labor, hauling, and disposal fees. Perfect for a living room set. Call us for an exact quote—prices are always upfront and based on volume and access."
       />
 
