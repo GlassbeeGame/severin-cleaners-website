@@ -139,9 +139,6 @@ export default function EmergencyJunkRemovalPage() {
                   <p className="text-gray-600">Saturday and Sunday crews ready for urgent weekend cleanouts</p>
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
 
                       {/* What's Included Section */}
                       <div className="mt-12">
@@ -417,6 +414,8 @@ export default function EmergencyJunkRemovalPage() {
                 <p className="text-gray-600">
                   If you're in San Diego County and need emergency junk removal, we can get to you today. Call us to confirm availability in your specific neighborhood.
                 </p>
+              </div>
+            </div>
               </div>
 
                     </div>
