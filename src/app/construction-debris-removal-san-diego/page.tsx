@@ -239,15 +239,15 @@ export default function ConstructionDebrisRemovalPage() {
                   </div>
                 </div>
 
-                {/* RIGHT COLUMN - Sidebar (lg:col-span-1) */}
-                <div className="lg:col-span-1">
-                  <LocationSidebarCTA
-                    locationName="Construction Debris Removal"
-                    nearbyLocations={relatedServices}
-                  />
-                </div>
+            {/* RIGHT COLUMN - Sidebar (lg:col-span-1) */}
+            <div className="lg:col-span-1">
+              <LocationSidebarCTA
+                locationName="Construction Debris Removal"
+                nearbyLocations={relatedServices}
+              />
+            </div>
 
-              </div>
+          </div>
             </div>
           </div>
         </section>

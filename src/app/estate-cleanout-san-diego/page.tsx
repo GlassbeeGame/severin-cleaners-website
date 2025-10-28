@@ -239,15 +239,15 @@ export default function EstateCleanoutPage() {
                   </div>
                 </div>
 
-                {/* RIGHT COLUMN - Sidebar (lg:col-span-1) */}
-                <div className="lg:col-span-1">
-                  <LocationSidebarCTA
-                    locationName="Estate Cleanout"
-                    nearbyLocations={relatedServices}
-                  />
-                </div>
+            {/* RIGHT COLUMN - Sidebar (lg:col-span-1) */}
+            <div className="lg:col-span-1">
+              <LocationSidebarCTA
+                locationName="Estate Cleanout"
+                nearbyLocations={relatedServices}
+              />
+            </div>
 
-              </div>
+          </div>
             </div>
           </div>
         </section>
