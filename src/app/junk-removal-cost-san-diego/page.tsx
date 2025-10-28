@@ -76,7 +76,7 @@ export default function JunkRemovalCostPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v6a2 2 0 002 2h2m5 0h2a2 2 0 002-2V7a2 2 0 00-2-2h-2m-5 4h5"></path>
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">✅ Free Quotes</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Free Quotes</h3>
                   <p className="text-gray-600">No-obligation estimates — instant by phone or in-person.</p>
                 </div>
 
@@ -86,7 +86,7 @@ export default function JunkRemovalCostPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">✅ Flat Rates</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Flat Rates</h3>
                   <p className="text-gray-600">What we quote is what you pay — never more.</p>
                 </div>
 
@@ -96,7 +96,7 @@ export default function JunkRemovalCostPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">✅ Same-Day Service</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Same-Day Service</h3>
                   <p className="text-gray-600">Fast response when you need us most.</p>
                 </div>
               </div>
