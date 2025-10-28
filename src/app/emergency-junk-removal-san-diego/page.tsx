@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import EmergencyFAQSection from "./EmergencyFAQSection";
-import SchemaMarkup from "@/components/SchemaMarkup";
-import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Emergency Junk Removal San Diego - Same Day & Last Minute Service",
@@ -52,7 +52,7 @@ export default function EmergencyJunkRemovalPage() {
     { name: "Same Day Junk Removal", slug: "same-day-junk-removal-san-diego" },
     { name: "Furniture Removal", slug: "furniture-removal-san-diego" },
     { name: "Appliance Removal", slug: "appliance-removal-san-diego" },
-    { name: "Construction Debris Removal", slug: "construction-debris-removal-san-diego" },
+    { name: "Hot Tub Removal", slug: "hot-tub-removal-san-diego" },
   ];
 
   return (
@@ -90,342 +90,333 @@ export default function EmergencyJunkRemovalPage() {
           </div>
         </section>
 
-        {/* Fast & Reliable Section - NEW 2-COLUMN LAYOUT */}
+        {/* Main Content with Sidebar - 2-COLUMN LAYOUT */}
         <section className="py-12 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="max-w-7xl mx-auto">
               <div className="grid lg:grid-cols-3 gap-8">
 
-                {/* LEFT COLUMN - Main Content (lg:col-span-2) */}
+                {/* LEFT COLUMN - Main Content */}
                 <div className="lg:col-span-2">
                   <div className="bg-white rounded-lg shadow-md p-8">
-                    <div className="prose prose-lg max-w-none">
 
-                      <h2 className="text-4xl font-bold text-gray-900 mb-6 text-center">
-                        Fast & Reliable Junk Removal Available Today
-                      </h2>
-                      <p className="text-xl text-gray-600 mb-8 text-center">
-                        When you need urgent trash removal San Diego now, Severin Cleaners delivers immediate junk hauling solutions. Our last minute junk removal San Diego service operates 7 days a week, including weekend junk removal San Diego Saturday Sunday availability. No job too big, no timeline too tight. Learn more about our <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day junk removal</a> service.
-                      </p>
+                    {/* Fast & Reliable Section */}
+                    <h2 className="text-4xl font-bold text-gray-900 mb-6">
+                      Fast & Reliable Junk Removal Available Today
+                    </h2>
+                    <p className="text-xl text-gray-600 mb-8">
+                      When you need urgent trash removal San Diego now, Severin Cleaners delivers immediate junk hauling solutions. Our last minute junk removal San Diego service operates 7 days a week, including weekend junk removal San Diego Saturday Sunday availability. No job too big, no timeline too tight. Learn more about our <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day junk removal</a> service.
+                    </p>
 
-                      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-                <div className="text-center">
-                  <div className="w-20 h-20 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                    </svg>
-                  </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Same-Day Service</h3>
-                  <p className="text-gray-600">Emergency crews dispatched within hours for immediate junk removal</p>
-                </div>
-
-                <div className="text-center">
-                  <div className="w-20 h-20 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
-                    </svg>
-                  </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Immediate Response</h3>
-                  <p className="text-gray-600">Fast response for emergency service - extended hours</p>
-                </div>
-
-                <div className="text-center">
-                  <div className="w-20 h-20 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                    </svg>
-                  </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Weekend Service</h3>
-                  <p className="text-gray-600">Saturday and Sunday crews ready for urgent weekend cleanouts</p>
-                </div>
-              </div>
-
-                      {/* What's Included Section */}
-                      <div className="mt-12">
-              <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center">
-                What's Included in Our Emergency Junk Removal
-              </h2>
-              <p className="text-xl text-gray-600 mb-8 text-center">
-                Our same day junk removal San Diego service handles everything from single items to complete property cleanouts with immediate pickup and eco-friendly disposal.
-              </p>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Household Items</h3>
-                  <ul className="space-y-2">
-                    <li className="flex items-center gap-3">
-                      <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span>Furniture (sofas, mattresses, tables, chairs)</span>
-                    </li>
-                    <li className="flex items-center gap-3">
-                      <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span>Appliances (refrigerators, washers, dryers, stoves)</span>
-                    </li>
-                    <li className="flex items-center gap-3">
-                      <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span>Electronics & e-waste disposal</span>
-                    </li>
-                    <li className="flex items-center gap-3">
-                      <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span>Hot tubs and exercise equipment</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Commercial & Construction</h3>
-                  <ul className="space-y-2">
-                    <li className="flex items-center gap-3">
-                      <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span>Construction debris & renovation waste</span>
-                    </li>
-                    <li className="flex items-center gap-3">
-                      <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span>Yard waste & landscaping debris</span>
-                    </li>
-                    <li className="flex items-center gap-3">
-                      <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span>Office furniture and equipment</span>
-                    </li>
-                    <li className="flex items-center gap-3">
-                      <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      <span>Full property cleanouts & move-out hauling</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-                      {/* Common Situations Section */}
-                      <div className="mt-12">
-              <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center">
-                Common Emergency Situations We Solve
-              </h2>
-              <p className="text-xl text-gray-600 mb-8 text-center">
-                When life throws unexpected challenges your way, our urgent trash removal San Diego now service provides immediate solutions for these time-sensitive situations:
-              </p>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-lg font-bold text-gray-900 mb-3">🏠 Tenant Turnover</h3>
-                  <p className="text-gray-600">Last minute apartment cleanouts when tenants leave behind furniture and belongings</p>
-                </div>
-                <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-lg font-bold text-gray-900 mb-3">🔍 Landlord Inspections</h3>
-                  <p className="text-gray-600">Urgent property cleanup before scheduled inspections or showings</p>
-                </div>
-                <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-lg font-bold text-gray-900 mb-3">🏦 Foreclosure Cleanouts</h3>
-                  <p className="text-gray-600">Bank-ordered emergency cleanouts with tight deadlines</p>
-                </div>
-                <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-lg font-bold text-gray-900 mb-3">📦 Moving Deadlines</h3>
-                  <p className="text-gray-600">Last minute junk removal before moving trucks arrive</p>
-                </div>
-                <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-lg font-bold text-gray-900 mb-3">🎉 Post-Event Cleanup</h3>
-                  <p className="text-gray-600">Immediate trash removal after parties, events, or gatherings</p>
-                </div>
-                <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-lg font-bold text-gray-900 mb-3">👥 Unexpected Guests</h3>
-                  <p className="text-gray-600">Quick home decluttering when family or guests arrive unexpectedly</p>
-                </div>
-              </div>
-
-                      {/* Process Section */}
-                      <div id="process" className="mt-12">
-              <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center">
-                Our Same-Day Emergency Process
-              </h2>
-              <p className="text-xl text-gray-600 mb-12 text-center">
-                From your call to completion, our same-day junk removal San Diego service follows this streamlined emergency response process:
-              </p>
-
-              <div className="space-y-8">
-                <div className="flex items-start gap-6">
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-xl">1</div>
-                  <div>
-                    <h3 className="text-2xl font-bold text-gray-900 mb-2">Call Now - Immediate Response</h3>
-                    <p className="text-gray-600">Speak directly with our local San Diego emergency dispatch team. No phone trees or callbacks - immediate human support for urgent situations.</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-6">
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-xl">2</div>
-                  <div>
-                    <h3 className="text-2xl font-bold text-gray-900 mb-2">Instant Estimate Over the Phone</h3>
-                    <p className="text-gray-600">Clear, upfront pricing with no hidden emergency fees. We provide transparent estimates even for last minute junk removal San Diego requests.</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-6">
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-xl">3</div>
-                  <div>
-                    <h3 className="text-2xl font-bold text-gray-900 mb-2">Same-Day Crew Dispatch</h3>
-                    <p className="text-gray-600">Professional crews dispatched within hours, often arriving the same day for emergency junk removal San Diego today service.</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-6">
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-xl">4</div>
-                  <div>
-                    <h3 className="text-2xl font-bold text-gray-900 mb-2">Quick & Careful Removal</h3>
-                    <p className="text-gray-600">Fast but professional service that protects your property while meeting urgent deadlines. Licensed and insured crews handle everything safely.</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-6">
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-xl">5</div>
-                  <div>
-                    <h3 className="text-2xl font-bold text-gray-900 mb-2">Eco-Friendly Emergency Disposal</h3>
-                    <p className="text-gray-600">Even in urgent situations, we prioritize recycling and donations whenever possible. Responsible disposal that meets emergency timelines.</p>
-                  </div>
-                </div>
-              </div>
-
-                      {/* Why Choose Us Section */}
-                      <div className="mt-12">
-              <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center">
-                Why Choose Our San Diego Emergency Junk Removal?
-              </h2>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-                <div className="flex items-start gap-4">
-                  <svg className="w-8 h-8 text-green-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
-                  </svg>
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">Licensed, Insured & Locally Trusted</h3>
-                    <p className="text-gray-600">Fully licensed San Diego business with comprehensive insurance coverage for emergency situations</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <svg className="w-8 h-8 text-orange-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                  </svg>
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">Real Same-Day Emergency Coverage</h3>
-                    <p className="text-gray-600">Real emergency response with crews available 7 days a week for urgent San Diego cleanouts</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <svg className="w-8 h-8 text-blue-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3a4 4 0 118 0v4m-4 12v-4"></path>
-                  </svg>
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">Weekend Junk Removal - Saturday & Sunday</h3>
-                    <p className="text-gray-600">Weekend junk removal San Diego Saturday Sunday availability when other companies are closed</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <svg className="w-8 h-8 text-green-600 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                  </svg>
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">Transparent Emergency Pricing</h3>
-                    <p className="text-gray-600">No hidden fees or emergency surcharges - honest upfront pricing even for urgent requests</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <svg className="w-8 h-8 text-green-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
-                  </svg>
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">Eco-Friendly Emergency Practices</h3>
-                    <p className="text-gray-600">Responsible disposal with recycling and donation programs, even during rushed emergency cleanouts</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <svg className="w-8 h-8 text-yellow-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
-                  </svg>
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">5-Star Emergency Service Record</h3>
-                    <p className="text-gray-600">Proven track record of handling emergency situations with professionalism and speed</p>
-                  </div>
-                </div>
-              </div>
-
-                      {/* Emergency Availability Section */}
-                      <div className="mt-12 bg-blue-50 p-8 rounded-lg">
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Emergency & Weekend Availability
-              </h2>
-              <p className="text-xl text-gray-600 mb-8">
-                When you need urgent trash removal San Diego now, we're ready to respond immediately. Our emergency junk removal San Diego today service includes same-day availability with specialized weekend crews standing by for Saturday and Sunday emergencies. Unlike other companies, we maintain active crews throughout San Diego County ready for same-day response and last minute junk removal San Diego requests.
-              </p>
-
-              <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-blue-700 mb-4">🚨 EMERGENCY HOTLINE</h3>
-                <p className="text-lg text-gray-700 mb-6">
-                  Call for same-day emergency dispatch. Weekend crews available Saturday and Sunday. Weekend junk removal San Diego Saturday Sunday crews available for urgent cleanouts when you need them most.
-                </p>
-                <a
-                  href="tel:+16197500114"
-                  className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-bold text-xl transition-colors"
-                >
-                  📞 EMERGENCY LINE: (619) 750-0114
-                </a>
-              </div>
-
-                      {/* Service Areas Section */}
-                      <div className="mt-12">
-              <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center">
-                Emergency Service Areas Across San Diego
-              </h2>
-              <p className="text-xl text-gray-600 mb-8 text-center">
-                Our same day junk removal San Diego service covers all major neighborhoods with emergency crews strategically positioned for rapid response times throughout San Diego County.
-              </p>
-
-              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-center">
-                {[
-                  "Downtown San Diego", "North Park", "Hillcrest", "La Jolla", "Pacific Beach", "Mission Valley",
-                  "Chula Vista", "Clairemont", "Point Loma", "University City", "Del Mar", "Encinitas",
-                  "El Cajon", "La Mesa", "Santee", "Poway", "Escondido", "Oceanside",
-                  "National City", "Imperial Beach", "Coronado", "Lemon Grove", "Spring Valley", "Bonita"
-                ].map((area, index) => (
-                  <div key={index} className="bg-gray-50 p-3 rounded-lg">
-                    <span className="text-sm font-semibold text-gray-700">{area}</span>
-                  </div>
-                ))}
-              </div>
-
-              <div className="mt-8 text-center">
-                <p className="text-gray-600">
-                  If you're in San Diego County and need emergency junk removal, we can get to you today. Call us to confirm availability in your specific neighborhood.
-                </p>
-              </div>
-                      </div>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                      <div className="text-center">
+                        <div className="w-20 h-20 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                          <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                          </svg>
+                        </div>
+                        <h3 className="text-xl font-bold text-gray-900 mb-2">Same-Day Service</h3>
+                        <p className="text-gray-600">Emergency crews dispatched within hours for immediate junk removal</p>
                       </div>
 
+                      <div className="text-center">
+                        <div className="w-20 h-20 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                          <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                          </svg>
+                        </div>
+                        <h3 className="text-xl font-bold text-gray-900 mb-2">Immediate Response</h3>
+                        <p className="text-gray-600">Fast response for emergency service - extended hours</p>
+                      </div>
+
+                      <div className="text-center">
+                        <div className="w-20 h-20 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                          <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                          </svg>
+                        </div>
+                        <h3 className="text-xl font-bold text-gray-900 mb-2">Weekend Service</h3>
+                        <p className="text-gray-600">Saturday and Sunday crews ready for urgent weekend cleanouts</p>
+                      </div>
                     </div>
+
+                    {/* What's Included Section */}
+                    <h2 className="text-4xl font-bold text-gray-900 mb-8">
+                      What's Included in Our Emergency Junk Removal
+                    </h2>
+                    <p className="text-xl text-gray-600 mb-8">
+                      Our same day junk removal San Diego service handles everything from single items to complete property cleanouts with immediate pickup and eco-friendly disposal.
+                    </p>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                      <div>
+                        <h3 className="text-2xl font-bold text-gray-900 mb-4">Household Items</h3>
+                        <ul className="space-y-2">
+                          <li className="flex items-center gap-3">
+                            <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Furniture (sofas, mattresses, tables, chairs)</span>
+                          </li>
+                          <li className="flex items-center gap-3">
+                            <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Appliances (refrigerators, washers, dryers, stoves)</span>
+                          </li>
+                          <li className="flex items-center gap-3">
+                            <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Electronics & e-waste disposal</span>
+                          </li>
+                          <li className="flex items-center gap-3">
+                            <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Hot tubs and exercise equipment</span>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div>
+                        <h3 className="text-2xl font-bold text-gray-900 mb-4">Commercial & Construction</h3>
+                        <ul className="space-y-2">
+                          <li className="flex items-center gap-3">
+                            <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Construction debris & renovation waste</span>
+                          </li>
+                          <li className="flex items-center gap-3">
+                            <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Yard waste & landscaping debris</span>
+                          </li>
+                          <li className="flex items-center gap-3">
+                            <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Office furniture and equipment</span>
+                          </li>
+                          <li className="flex items-center gap-3">
+                            <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Full property cleanouts & move-out hauling</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    {/* Common Situations Section */}
+                    <h2 className="text-4xl font-bold text-gray-900 mb-8">
+                      Common Emergency Situations We Solve
+                    </h2>
+                    <p className="text-xl text-gray-600 mb-8">
+                      When life throws unexpected challenges your way, our urgent trash removal San Diego now service provides immediate solutions for these time-sensitive situations:
+                    </p>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+                      <div className="bg-gray-50 p-6 rounded-lg">
+                        <h3 className="text-lg font-bold text-gray-900 mb-3">🏠 Tenant Turnover</h3>
+                        <p className="text-gray-600">Last minute apartment cleanouts when tenants leave behind furniture and belongings</p>
+                      </div>
+                      <div className="bg-gray-50 p-6 rounded-lg">
+                        <h3 className="text-lg font-bold text-gray-900 mb-3">🔍 Landlord Inspections</h3>
+                        <p className="text-gray-600">Urgent property cleanup before scheduled inspections or showings</p>
+                      </div>
+                      <div className="bg-gray-50 p-6 rounded-lg">
+                        <h3 className="text-lg font-bold text-gray-900 mb-3">🏦 Foreclosure Cleanouts</h3>
+                        <p className="text-gray-600">Bank-ordered emergency cleanouts with tight deadlines</p>
+                      </div>
+                      <div className="bg-gray-50 p-6 rounded-lg">
+                        <h3 className="text-lg font-bold text-gray-900 mb-3">📦 Moving Deadlines</h3>
+                        <p className="text-gray-600">Last minute junk removal before moving trucks arrive</p>
+                      </div>
+                      <div className="bg-gray-50 p-6 rounded-lg">
+                        <h3 className="text-lg font-bold text-gray-900 mb-3">🎉 Post-Event Cleanup</h3>
+                        <p className="text-gray-600">Immediate trash removal after parties, events, or gatherings</p>
+                      </div>
+                      <div className="bg-gray-50 p-6 rounded-lg">
+                        <h3 className="text-lg font-bold text-gray-900 mb-3">👥 Unexpected Guests</h3>
+                        <p className="text-gray-600">Quick home decluttering when family or guests arrive unexpectedly</p>
+                      </div>
+                    </div>
+
+                    {/* Process Section */}
+                    <h2 id="process" className="text-4xl font-bold text-gray-900 mb-8">
+                      Our Same-Day Emergency Process
+                    </h2>
+                    <p className="text-xl text-gray-600 mb-12">
+                      From your call to completion, our same-day junk removal San Diego service follows this streamlined emergency response process:
+                    </p>
+
+                    <div className="space-y-8 mb-12">
+                      <div className="flex items-start gap-6">
+                        <div className="flex-shrink-0 w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-xl">1</div>
+                        <div>
+                          <h3 className="text-2xl font-bold text-gray-900 mb-2">Call Now - Immediate Response</h3>
+                          <p className="text-gray-600">Speak directly with our local San Diego emergency dispatch team. No phone trees or callbacks - immediate human support for urgent situations.</p>
+                        </div>
+                      </div>
+
+                      <div className="flex items-start gap-6">
+                        <div className="flex-shrink-0 w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-xl">2</div>
+                        <div>
+                          <h3 className="text-2xl font-bold text-gray-900 mb-2">Instant Estimate Over the Phone</h3>
+                          <p className="text-gray-600">Clear, upfront pricing with no hidden emergency fees. We provide transparent estimates even for last minute junk removal San Diego requests.</p>
+                        </div>
+                      </div>
+
+                      <div className="flex items-start gap-6">
+                        <div className="flex-shrink-0 w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-xl">3</div>
+                        <div>
+                          <h3 className="text-2xl font-bold text-gray-900 mb-2">Same-Day Crew Dispatch</h3>
+                          <p className="text-gray-600">Professional crews dispatched within hours, often arriving the same day for emergency junk removal San Diego today service.</p>
+                        </div>
+                      </div>
+
+                      <div className="flex items-start gap-6">
+                        <div className="flex-shrink-0 w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-xl">4</div>
+                        <div>
+                          <h3 className="text-2xl font-bold text-gray-900 mb-2">Quick & Careful Removal</h3>
+                          <p className="text-gray-600">Fast but professional service that protects your property while meeting urgent deadlines. Licensed and insured crews handle everything safely.</p>
+                        </div>
+                      </div>
+
+                      <div className="flex items-start gap-6">
+                        <div className="flex-shrink-0 w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-xl">5</div>
+                        <div>
+                          <h3 className="text-2xl font-bold text-gray-900 mb-2">Eco-Friendly Emergency Disposal</h3>
+                          <p className="text-gray-600">Even in urgent situations, we prioritize recycling and donations whenever possible. Responsible disposal that meets emergency timelines.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Why Choose Us Section */}
+                    <h2 className="text-4xl font-bold text-gray-900 mb-8">
+                      Why Choose Our San Diego Emergency Junk Removal?
+                    </h2>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                      <div className="flex items-start gap-4">
+                        <svg className="w-8 h-8 text-green-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                        </svg>
+                        <div>
+                          <h3 className="text-xl font-bold text-gray-900 mb-2">Licensed, Insured & Locally Trusted</h3>
+                          <p className="text-gray-600">Fully licensed San Diego business with comprehensive insurance coverage for emergency situations</p>
+                        </div>
+                      </div>
+
+                      <div className="flex items-start gap-4">
+                        <svg className="w-8 h-8 text-orange-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <div>
+                          <h3 className="text-xl font-bold text-gray-900 mb-2">Real Same-Day Emergency Coverage</h3>
+                          <p className="text-gray-600">Real emergency response with crews available 7 days a week for urgent San Diego cleanouts</p>
+                        </div>
+                      </div>
+
+                      <div className="flex items-start gap-4">
+                        <svg className="w-8 h-8 text-blue-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3a4 4 0 118 0v4m-4 12v-4"></path>
+                        </svg>
+                        <div>
+                          <h3 className="text-xl font-bold text-gray-900 mb-2">Weekend Junk Removal - Saturday & Sunday</h3>
+                          <p className="text-gray-600">Weekend junk removal San Diego Saturday Sunday availability when other companies are closed</p>
+                        </div>
+                      </div>
+
+                      <div className="flex items-start gap-4">
+                        <svg className="w-8 h-8 text-green-600 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <div>
+                          <h3 className="text-xl font-bold text-gray-900 mb-2">Transparent Emergency Pricing</h3>
+                          <p className="text-gray-600">No hidden fees or emergency surcharges - honest upfront pricing even for urgent requests</p>
+                        </div>
+                      </div>
+
+                      <div className="flex items-start gap-4">
+                        <svg className="w-8 h-8 text-green-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                        </svg>
+                        <div>
+                          <h3 className="text-xl font-bold text-gray-900 mb-2">Eco-Friendly Emergency Practices</h3>
+                          <p className="text-gray-600">Responsible disposal with recycling and donation programs, even during rushed emergency cleanouts</p>
+                        </div>
+                      </div>
+
+                      <div className="flex items-start gap-4">
+                        <svg className="w-8 h-8 text-yellow-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
+                        </svg>
+                        <div>
+                          <h3 className="text-xl font-bold text-gray-900 mb-2">5-Star Emergency Service Record</h3>
+                          <p className="text-gray-600">Proven track record of handling emergency situations with professionalism and speed</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Emergency Availability Section */}
+                    <h2 className="text-4xl font-bold text-gray-900 mb-6">
+                      Emergency & Weekend Availability
+                    </h2>
+                    <p className="text-xl text-gray-600 mb-8">
+                      When you need urgent trash removal San Diego now, we're ready to respond immediately. Our emergency junk removal San Diego today service includes same-day availability with specialized weekend crews standing by for Saturday and Sunday emergencies. Unlike other companies, we maintain active crews throughout San Diego County ready for same-day response and last minute junk removal San Diego requests.
+                    </p>
+
+                    <div className="bg-blue-50 p-8 rounded-xl shadow-lg mb-12">
+                      <h3 className="text-2xl font-bold text-blue-700 mb-4">🚨 EMERGENCY HOTLINE</h3>
+                      <p className="text-lg text-gray-700 mb-6">
+                        Call for same-day emergency dispatch. Weekend crews available Saturday and Sunday. Weekend junk removal San Diego Saturday Sunday crews available for urgent cleanouts when you need them most.
+                      </p>
+                      <a
+                        href="tel:+16197500114"
+                        className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-bold text-xl transition-colors"
+                      >
+                        📞 EMERGENCY LINE: (619) 750-0114
+                      </a>
+                    </div>
+
+                    {/* Service Areas Section */}
+                    <h2 className="text-4xl font-bold text-gray-900 mb-8">
+                      Emergency Service Areas Across San Diego
+                    </h2>
+                    <p className="text-xl text-gray-600 mb-8">
+                      Our same day junk removal San Diego service covers all major neighborhoods with emergency crews strategically positioned for rapid response times throughout San Diego County.
+                    </p>
+
+                    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-center">
+                      {[
+                        "Downtown San Diego", "North Park", "Hillcrest", "La Jolla", "Pacific Beach", "Mission Valley",
+                        "Chula Vista", "Clairemont", "Point Loma", "University City", "Del Mar", "Encinitas",
+                        "El Cajon", "La Mesa", "Santee", "Poway", "Escondido", "Oceanside",
+                        "National City", "Imperial Beach", "Coronado", "Lemon Grove", "Spring Valley", "Bonita"
+                      ].map((area, index) => (
+                        <div key={index} className="bg-gray-50 p-3 rounded-lg">
+                          <span className="text-sm font-semibold text-gray-700">{area}</span>
+                        </div>
+                      ))}
+                    </div>
+
+                    <div className="mt-8">
+                      <p className="text-gray-600">
+                        If you're in San Diego County and need emergency junk removal, we can get to you today. Call us to confirm availability in your specific neighborhood.
+                      </p>
+                    </div>
+
                   </div>
                 </div>
 
-                {/* RIGHT COLUMN - Sidebar (lg:col-span-1) */}
+                {/* RIGHT COLUMN - Sidebar */}
                 <div className="lg:col-span-1">
                   <LocationSidebarCTA
-                    locationName="Emergency Junk Removal"
+                    locationName="Emergency Service"
                     nearbyLocations={relatedServices}
                   />
                 </div>
@@ -438,7 +429,7 @@ export default function EmergencyJunkRemovalPage() {
         {/* Pricing Section */}
         <LocationPricingSection
           locationName="Emergency Junk Removal"
-          contextParagraph="Emergency junk removal with no rush fees or emergency surcharges. Same transparent volume-based pricing whether you need service today or next week, with same-day availability throughout San Diego County."
+          contextParagraph="Emergency service with no rush fees. Whether you need junk removed today or next week, our pricing stays the same—transparent and based on volume with all labor, hauling, and disposal included."
         />
 
         {/* Trust Signals Section */}
