@@ -212,24 +212,24 @@ export default function CleanoutServicesPage() {
 
                 {/* RIGHT COLUMN - Sidebar */}
                 <div className="lg:col-span-1">
-                  <div className="space-y-8 lg:sticky lg:top-24">
-                    <LocationSidebarCTA
-                      locationName="Cleanout Services"
-                      nearbyLocations={relatedServices}
-                    />
-                    <LocationPricingSection
-                      locationName="Cleanout Services"
-                    />
-                    <TrustSignalsSection
-                      locationName="Cleanout Services"
-                    />
-                  </div>
+                  <LocationSidebarCTA
+                    locationName="Cleanout Services"
+                    nearbyLocations={relatedServices}
+                  />
                 </div>
 
               </div>
             </div>
           </div>
         </section>
+
+        {/* Pricing Section */}
+        <LocationPricingSection
+          locationName="Cleanout Services"
+        />
+
+        {/* Trust Signals Section */}
+        <TrustSignalsSection locationName="Cleanout Services" />
 
         {/* FAQ Section */}
         <CleanoutFAQSection />

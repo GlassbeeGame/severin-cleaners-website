@@ -320,24 +320,24 @@ export default function ScrapMetalRemovalPage() {
 
                 {/* RIGHT COLUMN - Sidebar */}
                 <div className="lg:col-span-1">
-                  <div className="space-y-8 lg:sticky lg:top-24">
-                    <LocationSidebarCTA
-                      locationName="Scrap Metal Removal"
-                      nearbyLocations={relatedServices}
-                    />
-                    <LocationPricingSection
-                      locationName="Scrap Metal Removal"
-                    />
-                    <TrustSignalsSection
-                      locationName="Scrap Metal Removal"
-                    />
-                  </div>
+                  <LocationSidebarCTA
+                    locationName="Scrap Metal Removal"
+                    nearbyLocations={relatedServices}
+                  />
                 </div>
 
               </div>
             </div>
           </div>
         </section>
+
+        {/* Pricing Section */}
+        <LocationPricingSection
+          locationName="Scrap Metal Removal"
+        />
+
+        {/* Trust Signals Section */}
+        <TrustSignalsSection locationName="Scrap Metal Removal" />
 
         {/* FAQ Section */}
         <ScrapMetalFAQSection />

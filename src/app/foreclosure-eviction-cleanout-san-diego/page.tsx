@@ -323,24 +323,24 @@ export default function ForeclosureEvictionCleanoutPage() {
 
                 {/* RIGHT COLUMN - Sidebar */}
                 <div className="lg:col-span-1">
-                  <div className="space-y-8 lg:sticky lg:top-24">
-                    <LocationSidebarCTA
-                      locationName="Foreclosure & Eviction Cleanout"
-                      nearbyLocations={relatedServices}
-                    />
-                    <LocationPricingSection
-                      locationName="Foreclosure & Eviction Cleanout"
-                    />
-                    <TrustSignalsSection
-                      locationName="Foreclosure & Eviction Cleanout"
-                    />
-                  </div>
+                  <LocationSidebarCTA
+                    locationName="Foreclosure & Eviction Cleanout"
+                    nearbyLocations={relatedServices}
+                  />
                 </div>
 
               </div>
             </div>
           </div>
         </section>
+
+        {/* Pricing Section */}
+        <LocationPricingSection
+          locationName="Foreclosure & Eviction Cleanout"
+        />
+
+        {/* Trust Signals Section */}
+        <TrustSignalsSection locationName="Foreclosure & Eviction Cleanout" />
 
         {/* FAQ Section */}
         <ForeclosureFAQSection />
