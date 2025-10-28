@@ -185,12 +185,7 @@ export function generateLocalBusinessSchema() {
         "longitude": "-117.0229",
       },
       "priceRange": "$$",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5.0",
-        "reviewCount": "18",
-        "bestRating": "5",
-      },
+      "aggregateRating": generateAggregateRatingSchema(),
     },
     "areaServed": {
       "@type": "State",
