@@ -390,34 +390,6 @@ export default function FurnitureRemovalPage() {
           </div>
         </section>
 
-        {/* Still Have Questions CTA */}
-        <section className="py-12 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8">
-              <h3 className="text-2xl font-bold text-center mb-4 text-gray-900">
-                Still Have Questions About Furniture Removal?
-              </h3>
-              <p className="text-center text-gray-600 mb-6">
-                Our team is ready to help you with your furniture removal needs. Get a free quote today!
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href="tel:+16197500114"
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors text-center"
-                >
-                  Call (619) 750-0114
-                </a>
-                <a
-                  href="/contact"
-                  className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors text-center"
-                >
-                  Get Free Quote
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Related Services */}
         <section className="py-12 bg-white">
           <div className="container mx-auto px-4">

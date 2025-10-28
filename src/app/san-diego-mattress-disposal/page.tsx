@@ -363,32 +363,6 @@ export default function MattressDisposalPage() {
         {/* FAQ Section */}
         <MattressDisposalFAQSection />
 
-        {/* Still Have Questions CTA */}
-        <section className="py-16 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="max-w-3xl mx-auto bg-gradient-to-br from-blue-900 to-blue-700 rounded-2xl p-12 text-center text-white shadow-xl">
-              <h2 className="text-3xl font-bold mb-4">Still Have Questions?</h2>
-              <p className="text-xl mb-8 text-blue-100">
-                Our team is here to help. Call us today for a free quote and fast, friendly service.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href="tel:+16197500114"
-                  className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors inline-block"
-                >
-                  Call (619) 750-0114
-                </a>
-                <a
-                  href="/contact"
-                  className="bg-white hover:bg-gray-100 text-blue-700 px-8 py-4 rounded-lg font-bold text-lg transition-colors inline-block"
-                >
-                  Get Free Quote
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Service Areas Section */}
         <section className="py-16 bg-blue-50">
           <div className="container mx-auto px-4">
