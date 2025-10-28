@@ -379,7 +379,7 @@ export default function FurnitureRemovalPage() {
         />
 
         {/* Trust Signals */}
-        <TrustSignalsSection />
+        <TrustSignalsSection locationName="Furniture Removal" />
 
         {/* FAQ Section */}
         <section className="py-16 bg-white">

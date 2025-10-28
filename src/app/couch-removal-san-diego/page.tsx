@@ -400,7 +400,7 @@ export default function CouchRemovalPage() {
       />
 
       {/* Trust Signals */}
-      <TrustSignalsSection />
+      <TrustSignalsSection locationName="Couch Removal" />
 
       {/* FAQ Section */}
       <section className="py-16 bg-white">

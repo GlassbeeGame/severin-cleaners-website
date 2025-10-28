@@ -358,7 +358,7 @@ export default function MattressDisposalPage() {
         />
 
         {/* Trust Signals Section */}
-        <TrustSignalsSection />
+        <TrustSignalsSection locationName="Mattress Disposal" />
 
         {/* FAQ Section */}
         <MattressDisposalFAQSection />
