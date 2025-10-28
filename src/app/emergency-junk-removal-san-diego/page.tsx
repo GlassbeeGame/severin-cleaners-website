@@ -415,8 +415,8 @@ export default function EmergencyJunkRemovalPage() {
                   If you're in San Diego County and need emergency junk removal, we can get to you today. Call us to confirm availability in your specific neighborhood.
                 </p>
               </div>
-            </div>
-              </div>
+                      </div>
+                      </div>
 
                     </div>
                   </div>
