@@ -101,6 +101,7 @@ export function generateServiceSchema({
         "longitude": "-117.0229",
       },
       "priceRange": "$$",
+      "aggregateRating": generateAggregateRatingSchema(),
     },
     "areaServed": areaServedData,
   };
@@ -141,6 +142,7 @@ export function generateLocationServiceSchema({
         "longitude": "-117.0229",
       },
       "priceRange": "$$",
+      "aggregateRating": generateAggregateRatingSchema(),
     },
     "areaServed": {
       "@type": "City",
