@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CouchFAQSection from "./CouchFAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
-import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { generateServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
@@ -160,11 +160,7 @@ export default function CouchRemovalPage() {
       "geoRadius": "50000"
     },
     "openingHours": "Mo-Su 06:00-20:00",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5.0",
-      "reviewCount": "200"
-    }
+    "aggregateRating": generateAggregateRatingSchema()
   };
 
   const combinedSchema = {

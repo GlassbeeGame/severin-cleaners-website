@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SanDiegoFAQSection from "./SanDiegoFAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
-import { generateServiceSchema, combineSchemas } from "@/lib/schema";
+import { generateServiceSchema, combineSchemas, generateAggregateRatingSchema } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -99,11 +99,7 @@ export default function SanDiegoJunkRemovalPage() {
       "geoRadius": "50000"
     },
     "openingHours": "Mo-Su 06:00-20:00",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5.0",
-      "reviewCount": "200"
-    },
+    "aggregateRating": generateAggregateRatingSchema(),
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Junk Removal Services",

@@ -13,10 +13,13 @@ export const REVIEW_CONFIG = {
   totalReviews: 20,
 
   // Average rating (4.8 stars) - MUST MATCH GOOGLE EXACTLY
-  ratingValue: "4.8",
+  ratingValue: 4.8,
 
   // Best possible rating
-  bestRating: "5",
+  bestRating: 5,
+
+  // Worst possible rating (required by Schema.org)
+  worstRating: 1,
 
   // Google Business Profile URLs
   googleBusinessUrl: "https://g.page/r/CbxDDPSHK9sjEAE",

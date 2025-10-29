@@ -1,4 +1,5 @@
 import { REVIEW_CONFIG, FEATURED_TESTIMONIALS } from '@/config/reviews';
+import { generateAggregateRatingSchema } from '@/lib/schema';
 
 export default function StructuredData() {
   const structuredData = {
@@ -137,12 +138,7 @@ export default function StructuredData() {
         "currenciesAccepted": "USD",
         "slogan": "From Junk to Shine, We Handle Every Grime",
         "keywords": "best junk removal san diego, junk removal near me, professional junk removal, top rated junk removal, licensed junk removal, local junk removal, full service junk removal",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": REVIEW_CONFIG.ratingValue,
-          "reviewCount": REVIEW_CONFIG.totalReviews.toString(),
-          "bestRating": REVIEW_CONFIG.bestRating
-        },
+        "aggregateRating": generateAggregateRatingSchema(),
         "hasCredential": [
           {
             "@type": "EducationalOccupationalCredential",

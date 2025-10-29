@@ -335,13 +335,15 @@ export function generateReviewsSchema(testimonials: Testimonial[]) {
 
 /**
  * Generate AggregateRating schema with consistent review data
+ * Uses numeric values as required by Schema.org and Google
  */
 export function generateAggregateRatingSchema() {
   return {
     "@type": "AggregateRating",
     "ratingValue": REVIEW_CONFIG.ratingValue,
-    "reviewCount": REVIEW_CONFIG.totalReviews.toString(),
-    "bestRating": REVIEW_CONFIG.bestRating
+    "reviewCount": REVIEW_CONFIG.totalReviews,
+    "bestRating": REVIEW_CONFIG.bestRating,
+    "worstRating": REVIEW_CONFIG.worstRating
   };
 }
 
