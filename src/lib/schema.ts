@@ -87,6 +87,12 @@ export function generateServiceSchema({
       "name": provider.name,
       "telephone": provider.telephone,
       "url": provider.url,
+      "image": [
+        "https://severincleaners.com/optimized/couchwithlogo.jpg",
+        "https://severincleaners.com/optimized/tableteam.jpg",
+        "https://severincleaners.com/optimized/toiletteam.jpg",
+      ],
+      "logo": "https://severincleaners.com/logo.png",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "8900 Grossmont Blvd, Suite 1",
@@ -128,6 +134,12 @@ export function generateLocationServiceSchema({
       "name": "Severin Cleaners",
       "telephone": "+1-619-750-0114",
       "url": "https://severincleaners.com",
+      "image": [
+        "https://severincleaners.com/optimized/couchwithlogo.jpg",
+        "https://severincleaners.com/optimized/tableteam.jpg",
+        "https://severincleaners.com/optimized/toiletteam.jpg",
+      ],
+      "logo": "https://severincleaners.com/logo.png",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "8900 Grossmont Blvd, Suite 1",
@@ -173,6 +185,14 @@ export function generateLocalBusinessSchema() {
       "name": "Severin Cleaners",
       "telephone": "+1-619-750-0114",
       "email": "severincleaners@gmail.com",
+      "image": [
+        "https://severincleaners.com/optimized/couchwithlogo.jpg",
+        "https://severincleaners.com/optimized/tableteam.jpg",
+        "https://severincleaners.com/optimized/toiletteam.jpg",
+        "https://severincleaners.com/optimized/commercial.jpg",
+        "https://severincleaners.com/optimized/debris.jpg",
+      ],
+      "logo": "https://severincleaners.com/logo.png",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "8900 Grossmont Blvd, Suite 1",
