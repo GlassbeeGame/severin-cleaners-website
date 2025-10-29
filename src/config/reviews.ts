@@ -141,7 +141,7 @@ export function getReviewCount(): number {
  * Helper function to get rating
  * Use this instead of hardcoding rating values
  */
-export function getRating(): string {
+export function getRating(): number {
   return REVIEW_CONFIG.ratingValue;
 }
 
