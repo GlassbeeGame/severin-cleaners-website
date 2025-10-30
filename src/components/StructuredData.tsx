@@ -27,6 +27,7 @@ export default function StructuredData() {
           "latitude": "32.7781",
           "longitude": "-117.0229"
         },
+        "hasMap": "https://www.google.com/maps?q=32.7781,-117.0229",
         "areaServed": [
           {
             "@type": "City",
@@ -138,6 +139,26 @@ export default function StructuredData() {
         "currenciesAccepted": "USD",
         "slogan": "From Junk to Shine, We Handle Every Grime",
         "keywords": "best junk removal san diego, junk removal near me, professional junk removal, top rated junk removal, licensed junk removal, local junk removal, full service junk removal",
+        "knowsAbout": [
+          "Junk Removal",
+          "Furniture Removal",
+          "Appliance Disposal",
+          "Estate Cleanouts",
+          "Construction Debris Removal",
+          "Hoarding Cleanup",
+          "Commercial Junk Removal",
+          "Hot Tub Removal",
+          "Mattress Disposal",
+          "Foreclosure Cleanouts",
+          "Emergency Junk Removal",
+          "Same-Day Service",
+          "Eco-Friendly Disposal",
+          "Property Cleanouts",
+          "Residential Junk Hauling",
+          "Couch Removal",
+          "Piano Removal",
+          "Scrap Metal Recycling"
+        ],
         "aggregateRating": generateAggregateRatingSchema(),
         "hasCredential": [
           {
@@ -151,12 +172,48 @@ export default function StructuredData() {
             "name": "Insured Junk Removal Business"
           }
         ],
+        "amenityFeature": [
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Same-Day Service Available",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Eco-Friendly Disposal & Recycling",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Licensed & Insured Business",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Free On-Site Estimates",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Bilingual Service (English/Spanish)",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Full-Service Hauling (We Do All The Work)",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "Donation Coordination",
+            "value": true
+          }
+        ],
         "image": [
           "https://severincleaners.com/optimized/couchwithlogo.jpg",
-          "https://severincleaners.com/optimized/tableteam.jpg",
           "https://severincleaners.com/optimized/toiletteam.jpg",
           "https://severincleaners.com/optimized/commercial.jpg",
-          "https://severincleaners.com/optimized/debris.jpg",
+          "https://severincleaners.com/optimized/construction.jpg",
           "https://severincleaners.com/optimized/before.jpg",
           "https://severincleaners.com/optimized/after.jpg"
         ],
@@ -468,6 +525,63 @@ export default function StructuredData() {
             "item": "https://severincleaners.com/#contact"
           }
         ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://severincleaners.com/#organization",
+        "name": "Severin Cleaners",
+        "url": "https://severincleaners.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://severincleaners.com/logo.png",
+          "width": 500,
+          "height": 500
+        },
+        "image": [
+          "https://severincleaners.com/optimized/couchwithlogo.jpg",
+          "https://severincleaners.com/optimized/toiletteam.jpg",
+          "https://severincleaners.com/optimized/commercial.jpg",
+          "https://severincleaners.com/optimized/construction.jpg",
+          "https://severincleaners.com/optimized/before.jpg"
+        ],
+        "telephone": "+1-619-750-0114",
+        "email": "severincleaners@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "8900 Grossmont Blvd, Suite 1",
+          "addressLocality": "La Mesa",
+          "addressRegion": "CA",
+          "postalCode": "91941",
+          "addressCountry": "US"
+        },
+        "sameAs": REVIEW_CONFIG.socialProfiles,
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1-619-750-0114",
+          "contactType": "customer service",
+          "areaServed": "US-CA",
+          "availableLanguage": ["en", "es"],
+          "email": "severincleaners@gmail.com"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://severincleaners.com/#website",
+        "url": "https://severincleaners.com",
+        "name": "Severin Cleaners - Best Junk Removal San Diego",
+        "description": "San Diego's best junk removal service. Professional, licensed & insured full-service junk hauling. Same-day service for estate cleanouts, furniture removal, construction debris.",
+        "publisher": {
+          "@id": "https://severincleaners.com/#organization"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://www.google.com/search?q={search_term_string}+site:severincleaners.com"
+          },
+          "query-input": "required name=search_term_string"
+        },
+        "inLanguage": "en-US"
       }
     ]
   };

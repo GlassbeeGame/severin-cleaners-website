@@ -89,8 +89,8 @@ export function generateServiceSchema({
       "url": provider.url,
       "image": [
         "https://severincleaners.com/optimized/couchwithlogo.jpg",
-        "https://severincleaners.com/optimized/tableteam.jpg",
         "https://severincleaners.com/optimized/toiletteam.jpg",
+        "https://severincleaners.com/optimized/commercial.jpg",
       ],
       "logo": "https://severincleaners.com/logo.png",
       "address": {
@@ -136,8 +136,8 @@ export function generateLocationServiceSchema({
       "url": "https://severincleaners.com",
       "image": [
         "https://severincleaners.com/optimized/couchwithlogo.jpg",
-        "https://severincleaners.com/optimized/tableteam.jpg",
         "https://severincleaners.com/optimized/toiletteam.jpg",
+        "https://severincleaners.com/optimized/commercial.jpg",
       ],
       "logo": "https://severincleaners.com/logo.png",
       "address": {
@@ -187,10 +187,10 @@ export function generateLocalBusinessSchema() {
       "email": "severincleaners@gmail.com",
       "image": [
         "https://severincleaners.com/optimized/couchwithlogo.jpg",
-        "https://severincleaners.com/optimized/tableteam.jpg",
         "https://severincleaners.com/optimized/toiletteam.jpg",
         "https://severincleaners.com/optimized/commercial.jpg",
-        "https://severincleaners.com/optimized/debris.jpg",
+        "https://severincleaners.com/optimized/construction.jpg",
+        "https://severincleaners.com/optimized/before.jpg",
       ],
       "logo": "https://severincleaners.com/logo.png",
       "address": {
