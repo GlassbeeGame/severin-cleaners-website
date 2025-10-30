@@ -338,7 +338,15 @@ export function generateReviewSchema(testimonial: Testimonial) {
     "itemReviewed": {
       "@type": "LocalBusiness",
       "@id": "https://severincleaners.com/#business",
-      "name": "Severin Cleaners"
+      "name": "Severin Cleaners",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "8900 Grossmont Blvd, Suite 1",
+        "addressLocality": "La Mesa",
+        "addressRegion": "CA",
+        "postalCode": "91941",
+        "addressCountry": "US"
+      }
     },
     "publisher": {
       "@type": "Organization",
