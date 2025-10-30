@@ -278,23 +278,23 @@ export default function SameDayJunkRemovalPage() {
                       <ul className="space-y-1 text-gray-700">
                         <li>• <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a></li>
                         <li>• <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a></li>
-                        <li>• Downtown San Diego</li>
-                        <li>• North Park</li>
-                        <li>• Hillcrest</li>
+                        <li>• <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a></li>
+                        <li>• <a href="/junk-removal-north-park" className="text-blue-600 hover:underline">North Park</a></li>
+                        <li>• <a href="/junk-removal-hillcrest" className="text-blue-600 hover:underline">Hillcrest</a></li>
                       </ul>
                       <ul className="space-y-1 text-gray-700">
                         <li>• <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a></li>
-                        <li>• La Mesa</li>
-                        <li>• Santee</li>
-                        <li>• Lakeside</li>
-                        <li>• Poway</li>
+                        <li>• <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a></li>
+                        <li>• <a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee</a></li>
+                        <li>• <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a></li>
+                        <li>• <a href="/junk-removal-poway" className="text-blue-600 hover:underline">Poway</a></li>
                       </ul>
                       <ul className="space-y-1 text-gray-700">
-                        <li>• Chula Vista</li>
-                        <li>• Oceanside</li>
-                        <li>• Carlsbad</li>
-                        <li>• Encinitas</li>
-                        <li>• All North County</li>
+                        <li>• <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a></li>
+                        <li>• <a href="/junk-removal-escondido" className="text-blue-600 hover:underline">Escondido</a></li>
+                        <li>• <a href="/junk-removal-vista" className="text-blue-600 hover:underline">Vista</a></li>
+                        <li>• <a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a></li>
+                        <li>• <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a></li>
                       </ul>
                     </div>
 
