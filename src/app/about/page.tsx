@@ -3,6 +3,8 @@ import Image from 'next/image';
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BeforeAfter from "@/components/BeforeAfter";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateOrganizationSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "About Us | Severin Cleaners | Locally Owned San Diego Junk Removal",
@@ -57,9 +59,22 @@ export const metadata: Metadata = {
 };
 
 export default function AboutPage() {
+  const organizationSchema = generateOrganizationSchema();
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "About Us", url: "https://severincleaners.com/about" }
+  ]);
+
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [organizationSchema, breadcrumbSchema]
+  };
+
   return (
-    <div className="min-h-screen bg-background">
-      <Header />
+    <>
+      <SchemaMarkup schema={combinedSchema} />
+      <div className="min-h-screen bg-background">
+        <Header />
       <main>
         {/* Hero Section with Logo */}
         <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 py-16">
@@ -532,6 +547,7 @@ export default function AboutPage() {
         </section>
       </main>
       <Footer />
-    </div>
+      </div>
+    </>
   );
 }

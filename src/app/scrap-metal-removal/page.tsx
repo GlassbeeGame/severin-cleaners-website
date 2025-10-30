@@ -365,6 +365,7 @@ export default function ScrapMetalRemovalPage() {
                   <LocationSidebarCTA
                     locationName="Scrap Metal Removal"
                     nearbyLocations={relatedServices}
+                    nearbyHeading="Services We Provide"
                   />
                 </div>
 

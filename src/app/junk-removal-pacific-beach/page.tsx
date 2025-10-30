@@ -121,10 +121,10 @@ export default function JunkRemovalPacificBeachPage() {
   const faqSchema = generateFAQSchema(pacificBeachFAQs);
 
   const nearbyLocations = [
-    { name: "La Jolla", slug: "la-jolla" },
-    { name: "Point Loma", slug: "point-loma" },
-    { name: "Clairemont", slug: "clairemont" },
-    { name: "Del Mar", slug: "del-mar" },
+    { name: "La Jolla", slug: "junk-removal-la-jolla" },
+    { name: "Point Loma", slug: "junk-removal-point-loma" },
+    { name: "Clairemont", slug: "junk-removal-clairemont" },
+    { name: "Del Mar", slug: "junk-removal-del-mar" },
   ];
 
   return (

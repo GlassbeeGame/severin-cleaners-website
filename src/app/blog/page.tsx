@@ -3,6 +3,8 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Image from "next/image";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateBlogPageSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Junk Removal Blog | Tips, Guides & Cost Savings | Severin Cleaners",
@@ -88,9 +90,22 @@ const blogPosts = [
 ];
 
 export default function BlogPage() {
+  const blogSchema = generateBlogPageSchema();
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Blog", url: "https://severincleaners.com/blog" }
+  ]);
+
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [blogSchema, breadcrumbSchema]
+  };
+
   return (
-    <div className="min-h-screen bg-background">
-      <Header />
+    <>
+      <SchemaMarkup schema={combinedSchema} />
+      <div className="min-h-screen bg-background">
+        <Header />
       <main>
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 py-16">
@@ -214,6 +229,7 @@ export default function BlogPage() {
         </section>
       </main>
       <Footer />
-    </div>
+      </div>
+    </>
   );
 }

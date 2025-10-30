@@ -118,7 +118,7 @@ export default function CleanoutServicesPage() {
   };
 
   const relatedServices = [
-    { name: "Garage Cleanout", slug: "/garage-cleanout-san-diego" },
+    { name: "Same-Day Junk Removal", slug: "/same-day-junk-removal-san-diego" },
     { name: "Estate Cleanout", slug: "/estate-cleanout-san-diego" },
     { name: "Foreclosure Cleanout", slug: "/foreclosure-eviction-cleanout-san-diego" },
     { name: "Furniture Removal", slug: "/furniture-removal-san-diego" }
@@ -284,6 +284,7 @@ export default function CleanoutServicesPage() {
                   <LocationSidebarCTA
                     locationName="Cleanout Services"
                     nearbyLocations={relatedServices}
+                    nearbyHeading="Services We Provide"
                   />
                 </div>
 

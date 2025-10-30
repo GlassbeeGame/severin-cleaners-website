@@ -487,6 +487,7 @@ export default function EmergencyJunkRemovalPage() {
                   <LocationSidebarCTA
                     locationName="Emergency Service"
                     nearbyLocations={relatedServices}
+                    nearbyHeading="Services We Provide"
                   />
                 </div>
 

@@ -411,6 +411,7 @@ export default function HotTubRemovalSanDiegoPage() {
                   <LocationSidebarCTA
                     locationName="Hot Tub Removal"
                     nearbyLocations={relatedServices}
+                    nearbyHeading="Services We Provide"
                   />
                 </div>
 

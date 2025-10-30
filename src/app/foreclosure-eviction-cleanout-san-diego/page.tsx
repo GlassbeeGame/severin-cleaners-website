@@ -388,6 +388,7 @@ export default function ForeclosureEvictionCleanoutPage() {
                   <LocationSidebarCTA
                     locationName="Foreclosure & Eviction Cleanout"
                     nearbyLocations={relatedServices}
+                    nearbyHeading="Services We Provide"
                   />
                 </div>
 

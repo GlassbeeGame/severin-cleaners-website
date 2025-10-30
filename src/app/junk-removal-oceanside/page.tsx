@@ -108,10 +108,10 @@ export default function JunkRemovalOceansidePage() {
   const faqSchema = generateFAQSchema(oceansideFAQs);
 
   const nearbyLocations = [
-    { name: "Vista", slug: "vista" },
-    { name: "Escondido", slug: "escondido" },
-    { name: "Rancho Santa Fe", slug: "rancho-santa-fe" },
-    { name: "Poway", slug: "poway" },
+    { name: "Vista", slug: "junk-removal-vista" },
+    { name: "Escondido", slug: "junk-removal-escondido" },
+    { name: "Rancho Santa Fe", slug: "junk-removal-rancho-santa-fe" },
+    { name: "Poway", slug: "junk-removal-poway" },
   ];
 
   return (

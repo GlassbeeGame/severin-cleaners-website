@@ -108,10 +108,10 @@ export default function JunkRemovalMiraMesaPage() {
   const faqSchema = generateFAQSchema(miraMesaFAQs);
 
   const nearbyLocations = [
-    { name: "Poway", slug: "poway" },
-    { name: "Kearny Mesa", slug: "kearny-mesa" },
-    { name: "Rancho Santa Fe", slug: "rancho-santa-fe" },
-    { name: "Escondido", slug: "escondido" },
+    { name: "Poway", slug: "junk-removal-poway" },
+    { name: "Kearny Mesa", slug: "junk-removal-kearny-mesa" },
+    { name: "Rancho Santa Fe", slug: "junk-removal-rancho-santa-fe" },
+    { name: "Escondido", slug: "junk-removal-escondido" },
   ];
 
   return (

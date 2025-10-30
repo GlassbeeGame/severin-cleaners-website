@@ -321,6 +321,7 @@ export default function ConstructionDebrisRemovalPage() {
             <LocationSidebarCTA
               locationName="Construction Debris Removal"
               nearbyLocations={relatedServices}
+              nearbyHeading="Services We Provide"
             />
           </div>
 

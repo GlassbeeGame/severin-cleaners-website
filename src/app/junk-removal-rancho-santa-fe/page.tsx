@@ -111,10 +111,10 @@ export default function JunkRemovalRanchoSantaFePage() {
   const faqSchema = generateFAQSchema(ranchoSantaFeFAQs);
 
   const nearbyLocations = [
-    { name: "Del Mar", slug: "del-mar" },
-    { name: "Escondido", slug: "escondido" },
-    { name: "Poway", slug: "poway" },
-    { name: "Vista", slug: "vista" },
+    { name: "Del Mar", slug: "junk-removal-del-mar" },
+    { name: "Escondido", slug: "junk-removal-escondido" },
+    { name: "Poway", slug: "junk-removal-poway" },
+    { name: "Vista", slug: "junk-removal-vista" },
   ];
 
   return (

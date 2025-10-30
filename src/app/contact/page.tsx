@@ -1,5 +1,7 @@
 import { Metadata } from 'next';
 import ContactPageClient from './ContactPageClient';
+import SchemaMarkup from '@/components/SchemaMarkup';
+import { generateContactPageSchema, generateBreadcrumbSchema } from '@/lib/schema';
 
 export const metadata: Metadata = {
   title: 'Contact Severin Cleaners | Same-Day Junk Removal San Diego | (619) 750-0114',
@@ -53,5 +55,21 @@ export const metadata: Metadata = {
 };
 
 export default function ContactPage() {
-  return <ContactPageClient />;
+  const contactSchema = generateContactPageSchema();
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Contact", url: "https://severincleaners.com/contact" }
+  ]);
+
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [contactSchema, breadcrumbSchema]
+  };
+
+  return (
+    <>
+      <SchemaMarkup schema={combinedSchema} />
+      <ContactPageClient />
+    </>
+  );
 }

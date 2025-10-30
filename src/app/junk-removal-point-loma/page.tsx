@@ -108,10 +108,10 @@ export default function JunkRemovalPointLomaPage() {
   const faqSchema = generateFAQSchema(pointLomaFAQs);
 
   const nearbyLocations = [
-    { name: "Pacific Beach", slug: "pacific-beach" },
-    { name: "La Jolla", slug: "la-jolla" },
-    { name: "Clairemont", slug: "clairemont" },
-    { name: "Hillcrest", slug: "hillcrest" },
+    { name: "Pacific Beach", slug: "junk-removal-pacific-beach" },
+    { name: "La Jolla", slug: "junk-removal-la-jolla" },
+    { name: "Clairemont", slug: "junk-removal-clairemont" },
+    { name: "Hillcrest", slug: "junk-removal-hillcrest" },
   ];
 
   return (

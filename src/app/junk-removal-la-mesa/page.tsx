@@ -114,10 +114,10 @@ export default function JunkRemovalLaMesaPage() {
   const faqSchema = generateFAQSchema(laMesaFAQs);
 
   const nearbyLocations = [
-    { name: "El Cajon", slug: "el-cajon" },
-    { name: "Spring Valley", slug: "spring-valley" },
-    { name: "Lemon Grove", slug: "lemon-grove" },
-    { name: "Santee", slug: "santee" },
+    { name: "El Cajon", slug: "junk-removal-el-cajon" },
+    { name: "Spring Valley", slug: "junk-removal-spring-valley" },
+    { name: "Lemon Grove", slug: "junk-removal-lemon-grove" },
+    { name: "Santee", slug: "junk-removal-santee" },
   ];
 
   return (

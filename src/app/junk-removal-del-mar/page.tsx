@@ -113,10 +113,10 @@ export default function JunkRemovalDelMarPage() {
   const faqSchema = generateFAQSchema(delMarFAQs);
 
   const nearbyLocations = [
-    { name: "Rancho Santa Fe", slug: "rancho-santa-fe" },
-    { name: "Carmel Valley", slug: "carmel-valley" },
-    { name: "Escondido", slug: "escondido" },
-    { name: "La Jolla", slug: "la-jolla" },
+    { name: "Rancho Santa Fe", slug: "junk-removal-rancho-santa-fe" },
+    { name: "Carmel Valley", slug: "junk-removal-carmel-valley" },
+    { name: "Escondido", slug: "junk-removal-escondido" },
+    { name: "La Jolla", slug: "junk-removal-la-jolla" },
   ];
 
   return (

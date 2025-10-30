@@ -235,6 +235,7 @@ export default function MattressDisposalPage() {
                 <LocationSidebarCTA
                   locationName="Mattress Disposal"
                   nearbyLocations={relatedServices}
+                  nearbyHeading="Services We Provide"
                 />
               </div>
             </div>

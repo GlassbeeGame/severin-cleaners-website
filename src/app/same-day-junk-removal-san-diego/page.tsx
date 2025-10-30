@@ -3,11 +3,11 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
-import { generateFAQSchema } from "@/lib/schema";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateFAQSchema, generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
-import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -126,6 +126,11 @@ export default function SameDayJunkRemovalPage() {
 
   const faqSchema = generateFAQSchema(sameDayFAQs);
 
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema]
+  };
+
   const relatedServices = [
     { name: "Emergency Junk Removal", slug: "emergency-junk-removal-san-diego" },
     { name: "Furniture Removal", slug: "furniture-removal-san-diego" },
@@ -134,17 +139,10 @@ export default function SameDayJunkRemovalPage() {
   ];
 
   return (
-    <div className={`${inter.variable} font-sans`}>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-      />
-
-      <Header />
+    <>
+      <SchemaMarkup schema={combinedSchema} />
+      <div className={`${inter.variable} font-sans`}>
+        <Header />
 
       <main>
         {/* Hero Section */}
@@ -344,6 +342,7 @@ export default function SameDayJunkRemovalPage() {
                   <LocationSidebarCTA
                     locationName="Same-Day Service"
                     nearbyLocations={relatedServices}
+                    nearbyHeading="Services We Provide"
                   />
                 </div>
 
@@ -393,7 +392,8 @@ export default function SameDayJunkRemovalPage() {
         </section>
       </main>
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </>
   );
 }

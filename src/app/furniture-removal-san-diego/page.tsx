@@ -448,6 +448,7 @@ export default function FurnitureRemovalPage() {
                 <LocationSidebarCTA
                   locationName="Furniture Removal"
                   nearbyLocations={relatedServices}
+                  nearbyHeading="Services We Provide"
                 />
               </div>
             </div>

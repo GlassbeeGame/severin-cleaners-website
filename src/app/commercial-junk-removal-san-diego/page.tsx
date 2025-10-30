@@ -376,6 +376,7 @@ export default function CommercialjunkremovalsandiegoPage() {
                 <LocationSidebarCTA
                   locationName="Commercial Junk Removal"
                   nearbyLocations={relatedServices}
+                  nearbyHeading="Services We Provide"
                 />
               </div>
 

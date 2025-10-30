@@ -5,11 +5,14 @@ interface LocationSidebarCTAProps {
   locationName: string;
   /** Array of nearby/similar location objects with name and slug */
   nearbyLocations: Array<{ name: string; slug: string }>;
+  /** Optional: Custom heading for the nearby locations section (defaults to "Nearby Areas We Serve") */
+  nearbyHeading?: string;
 }
 
 export default function LocationSidebarCTA({
   locationName,
   nearbyLocations,
+  nearbyHeading = "Nearby Areas We Serve",
 }: LocationSidebarCTAProps) {
   return (
     <aside className="lg:sticky lg:top-24 space-y-6">
@@ -73,7 +76,7 @@ export default function LocationSidebarCTA({
         {/* Nearby Locations */}
         <div className="bg-gray-50 px-6 py-5 border-t border-gray-200">
           <h4 className="font-bold text-gray-900 mb-3 text-sm uppercase tracking-wide">
-            Nearby Areas We Serve
+            {nearbyHeading}
           </h4>
           <ul className="space-y-2 text-sm mb-4">
             {nearbyLocations.map((location) => (

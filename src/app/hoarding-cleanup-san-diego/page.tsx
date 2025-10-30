@@ -316,6 +316,7 @@ export default function HoardingCleanupPage() {
                   <LocationSidebarCTA
                     locationName="Hoarding Cleanup"
                     nearbyLocations={relatedServices}
+                    nearbyHeading="Services We Provide"
                   />
                 </div>
 

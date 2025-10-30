@@ -113,10 +113,10 @@ export default function JunkRemovalCarmelValleyPage() {
   const faqSchema = generateFAQSchema(carmelValleyFAQs);
 
   const nearbyLocations = [
-    { name: "Del Mar", slug: "del-mar" },
-    { name: "Rancho Santa Fe", slug: "rancho-santa-fe" },
-    { name: "La Jolla", slug: "la-jolla" },
-    { name: "Mira Mesa", slug: "mira-mesa" },
+    { name: "Del Mar", slug: "junk-removal-del-mar" },
+    { name: "Rancho Santa Fe", slug: "junk-removal-rancho-santa-fe" },
+    { name: "La Jolla", slug: "junk-removal-la-jolla" },
+    { name: "Mira Mesa", slug: "junk-removal-mira-mesa" },
   ];
 
   return (

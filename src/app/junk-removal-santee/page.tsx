@@ -108,10 +108,10 @@ export default function JunkRemovalSanteePage() {
   const faqSchema = generateFAQSchema(santeeFAQs);
 
   const nearbyLocations = [
-    { name: "El Cajon", slug: "el-cajon" },
-    { name: "La Mesa", slug: "la-mesa" },
-    { name: "Lakeside", slug: "lakeside" },
-    { name: "Spring Valley", slug: "spring-valley" },
+    { name: "El Cajon", slug: "junk-removal-el-cajon" },
+    { name: "La Mesa", slug: "junk-removal-la-mesa" },
+    { name: "Lakeside", slug: "junk-removal-lakeside" },
+    { name: "Spring Valley", slug: "junk-removal-spring-valley" },
   ];
 
   return (

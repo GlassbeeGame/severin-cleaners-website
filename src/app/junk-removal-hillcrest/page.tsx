@@ -101,10 +101,10 @@ const faqSchema = generateFAQSchema(hillcrestFAQs);
 
 export default function JunkRemovalHillcrestPage() {
   const nearbyLocations = [
-    { name: "North Park", slug: "north-park" },
-    { name: "Point Loma", slug: "point-loma" },
-    { name: "Clairemont", slug: "clairemont" },
-    { name: "Kearny Mesa", slug: "kearny-mesa" },
+    { name: "North Park", slug: "junk-removal-north-park" },
+    { name: "Point Loma", slug: "junk-removal-point-loma" },
+    { name: "Clairemont", slug: "junk-removal-clairemont" },
+    { name: "Kearny Mesa", slug: "junk-removal-kearny-mesa" },
   ];
 
   return (

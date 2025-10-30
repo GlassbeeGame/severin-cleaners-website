@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateServicesListSchema, generateBreadcrumbSchema, type ServiceListItem } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Junk Removal Services San Diego | Same Day Hauling & Disposal",
@@ -63,13 +65,6 @@ export default function ServicesPage() {
       title: "Same Day Junk Removal",
       link: "/same-day-junk-removal-san-diego",
       description: "Emergency junk removal service for urgent cleanouts and immediate needs.",
-      icon: "⚡",
-      features: ["Emergency Service", "Same-Day Pickup", "Urgent Cleanouts", "Fast Response Time"]
-    },
-    {
-      title: "Furniture Removal",
-      link: "/furniture-removal-san-diego",
-      description: "Professional furniture removal for homes, offices, and businesses throughout San Diego.",
       icon: "🛋️",
       features: ["Couches & Sofas", "Beds & Mattresses", "Tables & Chairs", "Office Furniture"]
     },
@@ -180,9 +175,28 @@ export default function ServicesPage() {
     }
   ];
 
+  const serviceSchemaList: ServiceListItem[] = services.map(service => ({
+    name: service.title,
+    url: `https://severincleaners.com${service.link}`,
+    description: service.description
+  }));
+
+  const servicesListSchema = generateServicesListSchema(serviceSchemaList);
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Services", url: "https://severincleaners.com/services" }
+  ]);
+
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [servicesListSchema, breadcrumbSchema]
+  };
+
   return (
-    <div className="min-h-screen bg-background">
-      <Header />
+    <>
+      <SchemaMarkup schema={combinedSchema} />
+      <div className="min-h-screen bg-background">
+        <Header />
       <main>
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-blue-900 to-blue-700 py-20">
@@ -347,6 +361,7 @@ export default function ServicesPage() {
         </section>
       </main>
       <Footer />
-    </div>
+      </div>
+    </>
   );
 }

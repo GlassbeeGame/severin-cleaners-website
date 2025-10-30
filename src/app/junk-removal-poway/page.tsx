@@ -108,10 +108,10 @@ export default function JunkRemovalPowayPage() {
   const faqSchema = generateFAQSchema(powayFAQs);
 
   const nearbyLocations = [
-    { name: "Rancho Santa Fe", slug: "rancho-santa-fe" },
-    { name: "Escondido", slug: "escondido" },
-    { name: "Carmel Valley", slug: "carmel-valley" },
-    { name: "Mira Mesa", slug: "mira-mesa" },
+    { name: "Rancho Santa Fe", slug: "junk-removal-rancho-santa-fe" },
+    { name: "Escondido", slug: "junk-removal-escondido" },
+    { name: "Carmel Valley", slug: "junk-removal-carmel-valley" },
+    { name: "Mira Mesa", slug: "junk-removal-mira-mesa" },
   ];
 
   return (

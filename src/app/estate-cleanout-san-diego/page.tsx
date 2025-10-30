@@ -329,6 +329,7 @@ export default function EstateCleanoutPage() {
             <LocationSidebarCTA
               locationName="Estate Cleanout"
               nearbyLocations={relatedServices}
+              nearbyHeading="Services We Provide"
             />
           </div>
 

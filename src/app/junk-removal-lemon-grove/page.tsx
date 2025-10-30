@@ -108,10 +108,10 @@ export default function JunkRemovalLemonGrovePage() {
   const faqSchema = generateFAQSchema(lemonGroveFAQs);
 
   const nearbyLocations = [
-    { name: "La Mesa", slug: "la-mesa" },
-    { name: "Spring Valley", slug: "spring-valley" },
-    { name: "El Cajon", slug: "el-cajon" },
-    { name: "Chula Vista", slug: "chula-vista" },
+    { name: "La Mesa", slug: "junk-removal-la-mesa" },
+    { name: "Spring Valley", slug: "junk-removal-spring-valley" },
+    { name: "El Cajon", slug: "junk-removal-el-cajon" },
+    { name: "Chula Vista", slug: "junk-removal-chula-vista" },
   ];
 
   return (

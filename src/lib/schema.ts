@@ -472,3 +472,185 @@ export function generateFAQSchema(faqs: FAQ[]) {
     }))
   };
 }
+
+/**
+ * Generate Organization schema for About page
+ */
+export function generateOrganizationSchema() {
+  return {
+    "@type": "Organization",
+    "@id": "https://severincleaners.com/#organization",
+    "name": "Severin Cleaners",
+    "url": "https://severincleaners.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://severincleaners.com/logo.png"
+    },
+    "description": "Professional junk removal and cleanout services serving San Diego County. Residential and commercial hauling, same-day service, eco-friendly disposal.",
+    "telephone": "+1-619-750-0114",
+    "email": "contact@severincleaners.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "8900 Grossmont Blvd, Suite 1",
+      "addressLocality": "La Mesa",
+      "addressRegion": "CA",
+      "postalCode": "91941",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "32.7678",
+      "longitude": "-117.0231"
+    },
+    "areaServed": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": "32.7157",
+        "longitude": "-117.1611"
+      },
+      "geoRadius": "50000"
+    },
+    "slogan": "San Diego's Premier Junk Removal Service",
+    "priceRange": "$$"
+  };
+}
+
+/**
+ * Generate ContactPage schema with ContactPoint
+ */
+export function generateContactPageSchema() {
+  return {
+    "@type": "LocalBusiness",
+    "@id": "https://severincleaners.com/#business",
+    "name": "Severin Cleaners",
+    "image": [
+      "https://severincleaners.com/optimized/couchwithlogo.jpg",
+      "https://severincleaners.com/optimized/toiletteam.jpg",
+      "https://severincleaners.com/optimized/commercial.jpg"
+    ],
+    "telephone": "+1-619-750-0114",
+    "email": "contact@severincleaners.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "8900 Grossmont Blvd, Suite 1",
+      "addressLocality": "La Mesa",
+      "addressRegion": "CA",
+      "postalCode": "91941",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "32.7678",
+      "longitude": "-117.0231"
+    },
+    "url": "https://severincleaners.com",
+    "priceRange": "$$",
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday", "Tuesday", "Wednesday", "Thursday",
+        "Friday", "Saturday", "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1-619-750-0114",
+      "contactType": "customer service",
+      "areaServed": "US-CA",
+      "availableLanguage": ["English", "Spanish"]
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": REVIEW_CONFIG.ratingValue,
+      "reviewCount": REVIEW_CONFIG.totalReviews,
+      "bestRating": REVIEW_CONFIG.bestRating,
+      "worstRating": REVIEW_CONFIG.worstRating
+    }
+  };
+}
+
+/**
+ * Generate ItemList schema for services directory
+ */
+export interface ServiceListItem {
+  name: string;
+  url: string;
+  description: string;
+}
+
+export function generateServicesListSchema(services: ServiceListItem[]) {
+  return {
+    "@type": "ItemList",
+    "name": "Junk Removal Services in San Diego",
+    "description": "Complete list of professional junk removal and cleanout services offered by Severin Cleaners",
+    "itemListElement": services.map((service, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "item": {
+        "@type": "Service",
+        "name": service.name,
+        "url": service.url,
+        "description": service.description,
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Severin Cleaners",
+          "telephone": "+1-619-750-0114"
+        }
+      }
+    }))
+  };
+}
+
+/**
+ * Generate ItemList schema for areas served directory
+ */
+export interface AreaListItem {
+  name: string;
+  url: string;
+}
+
+export function generateAreasListSchema(areas: AreaListItem[]) {
+  return {
+    "@type": "ItemList",
+    "name": "San Diego Areas Served",
+    "description": "Complete list of San Diego County neighborhoods and cities where Severin Cleaners provides junk removal services",
+    "itemListElement": areas.map((area, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "item": {
+        "@type": "Place",
+        "name": area.name,
+        "url": area.url,
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": area.name,
+          "addressRegion": "CA",
+          "addressCountry": "US"
+        }
+      }
+    }))
+  };
+}
+
+/**
+ * Generate Blog schema for blog homepage
+ */
+export function generateBlogPageSchema() {
+  return {
+    "@type": "Blog",
+    "name": "Severin Cleaners Blog",
+    "description": "Junk removal tips, guides, and industry insights from San Diego's premier cleanout service",
+    "url": "https://severincleaners.com/blog",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Severin Cleaners",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://severincleaners.com/logo.png"
+      }
+    }
+  };
+}

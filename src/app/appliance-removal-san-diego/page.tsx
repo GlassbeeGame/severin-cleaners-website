@@ -365,6 +365,7 @@ export default function ApplianceRemovalPage() {
             <LocationSidebarCTA
               locationName="Appliance Removal"
               nearbyLocations={relatedServices}
+              nearbyHeading="Services We Provide"
             />
           </div>
 

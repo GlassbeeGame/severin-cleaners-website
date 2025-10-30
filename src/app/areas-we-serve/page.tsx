@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import { generateAreasListSchema, generateBreadcrumbSchema, type AreaListItem } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Areas We Serve | Junk Removal Throughout San Diego County",
@@ -82,9 +84,27 @@ export default function AreasWeServePage() {
     { name: "Vista", link: "/junk-removal-vista", description: "Family neighborhoods and business" }
   ];
 
+  const areaSchemaList: AreaListItem[] = areas.map(area => ({
+    name: area.name,
+    url: `https://severincleaners.com${area.link}`
+  }));
+
+  const areasListSchema = generateAreasListSchema(areaSchemaList);
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" }
+  ]);
+
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [areasListSchema, breadcrumbSchema]
+  };
+
   return (
-    <div className="min-h-screen bg-background">
-      <Header />
+    <>
+      <SchemaMarkup schema={combinedSchema} />
+      <div className="min-h-screen bg-background">
+        <Header />
       <main>
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-blue-900 to-blue-700 py-20">
@@ -264,6 +284,7 @@ export default function AreasWeServePage() {
         </section>
       </main>
       <Footer />
-    </div>
+      </div>
+    </>
   );
 }

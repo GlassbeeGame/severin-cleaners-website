@@ -237,6 +237,7 @@ export default function PianoremovalsandiegoPage() {
                 <LocationSidebarCTA
                   locationName="Piano Removal"
                   nearbyLocations={relatedServices}
+                  nearbyHeading="Services We Provide"
                 />
               </div>
 
