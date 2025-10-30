@@ -237,8 +237,8 @@ export default function JunkRemovalSpringValleyPage() {
                       <div>
                         <h4 className="font-bold mb-2">Furniture & Household</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Sofas, sectionals, recliners from family living spaces</li>
-                          <li>• Mattresses, bed frames, bedroom furniture from upgrades</li>
+                          <li>• <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Sofas, sectionals, recliners</a> from family living spaces</li>
+                          <li>• <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">Mattresses</a>, bed frames, bedroom furniture from upgrades</li>
                           <li>• Dining sets, tables, chairs from downsizing projects</li>
                           <li>• Desks, office furniture, bookshelves from home offices</li>
                         </ul>
@@ -246,7 +246,7 @@ export default function JunkRemovalSpringValleyPage() {
                       <div>
                         <h4 className="font-bold mb-2">Appliances & Electronics</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Refrigerators, freezers, washers, dryers from remodels</li>
+                          <li>• <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Refrigerators, freezers, washers, dryers</a> from remodels</li>
                           <li>• Dishwashers, stoves, microwaves during kitchen updates</li>
                           <li>• TVs, computers, electronics from tech refreshes</li>
                           <li>• Exercise equipment, treadmills, home gym gear</li>
@@ -264,9 +264,9 @@ export default function JunkRemovalSpringValleyPage() {
                       <div>
                         <h4 className="font-bold mb-2">Cleanouts & Debris</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Estate cleanouts for multi-generational family properties</li>
+                          <li>• <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate cleanouts</a> for multi-generational family properties</li>
                           <li>• Apartment turnovers and mobile home park cleanouts</li>
-                          <li>• Garage organization and storage shed clearances</li>
+                          <li>• Garage organization and <a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">storage shed clearances</a></li>
                           <li>• Construction debris from hillside home renovations</li>
                         </ul>
                       </div>
@@ -277,7 +277,7 @@ export default function JunkRemovalSpringValleyPage() {
                     <div className="bg-blue-50 rounded-lg p-6 mb-6">
                       <ol className="space-y-3 text-gray-700">
                         <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe your items and Spring Valley location. We'll provide volume-based pricing and schedule your service window.</li>
-                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for same-day <strong>junk pickup Spring Valley</strong> service. We coordinate timing around traffic patterns and hillside access requirements.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> <strong>junk pickup Spring Valley</strong> service. We coordinate timing around traffic patterns and hillside access requirements.</li>
                         <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives during your scheduled window. We assess items and provide final pricing before starting—no hidden fees.</li>
                         <li><strong>4. We Load & Haul Everything:</strong> Our team handles all lifting and loading. We navigate steep driveways, protect property, and complete removal efficiently.</li>
                         <li><strong>5. Eco-Friendly Disposal:</strong> We sort for donation, recycling, and responsible disposal. Usable items go to East County charities, recyclables to proper facilities.</li>

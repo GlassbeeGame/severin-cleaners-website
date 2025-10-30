@@ -235,8 +235,8 @@ export default function JunkRemovalSanteePage() {
                       <div>
                         <h4 className="font-bold mb-2">Furniture & Household</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Sofas, sectionals, recliners from family room upgrades</li>
-                          <li>• Mattresses, bed frames, bedroom sets from growing families</li>
+                          <li>• <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Sofas, sectionals, recliners</a> from family room upgrades</li>
+                          <li>• <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">Mattresses</a>, bed frames, bedroom sets from growing families</li>
                           <li>• Dining tables, chairs, kitchen furniture for downsizing</li>
                           <li>• Desks, bookshelves, home office equipment from remote work transitions</li>
                         </ul>
@@ -244,7 +244,7 @@ export default function JunkRemovalSanteePage() {
                       <div>
                         <h4 className="font-bold mb-2">Appliances & Electronics</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Refrigerators, freezers, washers, dryers from kitchen remodels</li>
+                          <li>• <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Refrigerators, freezers, washers, dryers</a> from kitchen remodels</li>
                           <li>• Dishwashers, stoves, microwaves during appliance upgrades</li>
                           <li>• TVs, computers, gaming systems from tech refreshes</li>
                           <li>• Exercise equipment, treadmills, ellipticals from home gym changes</li>
@@ -262,9 +262,9 @@ export default function JunkRemovalSanteePage() {
                       <div>
                         <h4 className="font-bold mb-2">Cleanouts & Debris</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Garage cleanouts for two-car and three-car storage spaces</li>
+                          <li>• Garage <a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">cleanouts</a> for two-car and three-car storage spaces</li>
                           <li>• Apartment complex turnovers and tenant move-out debris</li>
-                          <li>• Estate cleanouts for family property transitions</li>
+                          <li>• <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate cleanouts</a> for family property transitions</li>
                           <li>• Construction debris from home additions and remodeling projects</li>
                         </ul>
                       </div>
@@ -275,7 +275,7 @@ export default function JunkRemovalSanteePage() {
                     <div className="bg-blue-50 rounded-lg p-6 mb-6">
                       <ol className="space-y-3 text-gray-700">
                         <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe what you need removed and your Santee location. We'll provide estimated pricing based on volume and schedule your service window.</li>
-                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for same-day <strong>junk pickup Santee</strong> service throughout East County. We coordinate arrival times around your schedule and Santee's traffic patterns for reliable, on-time service.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> <strong>junk pickup Santee</strong> service throughout East County. We coordinate arrival times around your schedule and Santee's traffic patterns for reliable, on-time service.</li>
                         <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives in clearly marked trucks during your scheduled window. We assess items for removal and provide a final quote before starting work—no hidden fees or surprises.</li>
                         <li><strong>4. We Load & Haul Everything:</strong> Our team does all lifting, loading, and hauling. We protect floors and doorways, navigate garage spaces and family homes efficiently, and complete removal quickly. You simply point—we handle the rest.</li>
                         <li><strong>5. Eco-Friendly Disposal:</strong> We sort items for donation, recycling, and responsible disposal. Usable furniture goes to local East County charities, recyclables to proper facilities, and only true trash to landfill as last resort.</li>

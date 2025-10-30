@@ -237,18 +237,18 @@ export default function JunkRemovalElCajonPage() {
                       <div>
                         <h4 className="font-bold mb-2">Furniture & Household</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Multi-generational furniture from inherited homes</li>
-                          <li>• Large family sofas, sectionals, and living room sets</li>
-                          <li>• Bedroom sets, mattresses, and guest room furniture</li>
+                          <li>• Multi-generational <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture removal</a> from inherited homes</li>
+                          <li>• Large family <a href="/couch-removal-san-diego" className="text-blue-600 hover:underline">sofas, sectionals, and couches</a> from living rooms</li>
+                          <li>• Bedroom sets, <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">mattresses</a>, and guest room furniture</li>
                           <li>• Dining sets and household items from estate transitions</li>
                         </ul>
                       </div>
                       <div>
                         <h4 className="font-bold mb-2">Appliances & Scrap Metal</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Old appliances and scrap metal recycling</li>
+                          <li>• Old <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliances and scrap metal recycling</a></li>
                           <li>• Washers, dryers, refrigerators from home upgrades</li>
-                          <li>• Copper, aluminum, and steel scrap removal</li>
+                          <li>• <a href="/scrap-metal-removal" className="text-blue-600 hover:underline">Copper, aluminum, and steel scrap removal</a></li>
                           <li>• Water heaters, HVAC units, and metal equipment</li>
                         </ul>
                       </div>
@@ -264,8 +264,8 @@ export default function JunkRemovalElCajonPage() {
                       <div>
                         <h4 className="font-bold mb-2">Estate & Family Cleanouts</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Complete estate cleanouts for inherited properties</li>
-                          <li>• Multi-generational home downsizing</li>
+                          <li>• Complete <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a> for inherited properties</li>
+                          <li>• Multi-generational home downsizing with <a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">professional cleanout services</a></li>
                           <li>• Large property clearance for family transitions</li>
                           <li>• Respectful handling of family belongings and memories</li>
                         </ul>
@@ -303,7 +303,7 @@ export default function JunkRemovalElCajonPage() {
                     <div className="bg-blue-50 rounded-lg p-6 mb-6">
                       <ol className="space-y-3 text-gray-700">
                         <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe what you need removed and your El Cajon location. We'll provide estimated pricing based on volume and coordinate any special access requirements for hillside properties.</li>
-                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for same-day service throughout East County. We coordinate arrival times around your schedule and traffic patterns for reliable service.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a> throughout East County. We coordinate arrival times around your schedule and traffic patterns for reliable service.</li>
                         <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives in clearly marked trucks during your scheduled window. We assess items for removal and provide a final quote before starting work—no hidden fees or surprises.</li>
                         <li><strong>4. We Load & Haul Everything:</strong> Our team does all lifting, loading, and hauling. We protect floors and doorways, navigate stairs and hillside access, and complete removal efficiently. You simply point—we handle the rest.</li>
                         <li><strong>5. Eco-Friendly Disposal & Recycling:</strong> We sort items for donation, scrap metal recycling, and responsible disposal. Usable furniture goes to local charities, metals to certified recycling facilities, and only true waste to landfill as last resort.</li>

@@ -228,14 +228,14 @@ export default function JunkRemovalRanchoSantaFePage() {
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove from Rancho Santa Fe Estates</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Rancho Santa Fe junk removal</strong> service handles the sophisticated mix of items found in luxury estate environments. From designer furniture and high-end appliances to pool equipment and renovation debris, we remove everything with the care and professionalism that valuable estate property demands:
+                      Our <strong>Rancho Santa Fe junk removal</strong> service handles the sophisticated mix of items found in luxury estate environments. From <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">designer furniture removal</a> and <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">high-end appliance disposal</a> to pool equipment and renovation debris, we remove everything with the care and professionalism that valuable estate property demands. <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate cleanout services</a> and <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day removal</a> available:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
                         <h4 className="font-bold mb-2">Estate Furniture</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Designer sofas, sectionals from main residences</li>
-                          <li>• Antique furniture, pianos requiring specialized handling</li>
+                          <li>• <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Designer sofas, sectionals</a> from main residences</li>
+                          <li>• <a href="/piano-removal-san-diego" className="text-blue-600 hover:underline">Antique furniture, grand pianos</a> requiring specialized handling</li>
                           <li>• Bedroom sets, armoires from guest house cleanouts</li>
                           <li>• Office furniture, libraries from home office renovations</li>
                         </ul>
@@ -243,7 +243,7 @@ export default function JunkRemovalRanchoSantaFePage() {
                       <div>
                         <h4 className="font-bold mb-2">Appliances & Equipment</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Sub-Zero refrigerators and luxury kitchen appliances</li>
+                          <li>• <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Sub-Zero refrigerators</a> and luxury kitchen appliances</li>
                           <li>• Wine cellars, coolers from estate renovations</li>
                           <li>• Commercial-grade appliances from chef kitchens</li>
                           <li>• HVAC units, water heaters, whole-house systems</li>

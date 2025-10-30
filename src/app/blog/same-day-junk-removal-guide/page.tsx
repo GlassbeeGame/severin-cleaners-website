@@ -377,7 +377,7 @@ export default function SameDayJunkRemovalGuide() {
 
                   <div className="grid md:grid-cols-2 gap-6 mb-8">
                     <div className="bg-white border border-gray-200 rounded-lg p-6">
-                      <h3 className="text-lg font-bold text-gray-900 mb-3">✓ Furniture</h3>
+                      <h3 className="text-lg font-bold text-gray-900 mb-3">✓ <Link href="/furniture-removal-san-diego" className="text-blue-600 hover:text-blue-700">Furniture</Link></h3>
                       <ul className="text-sm text-gray-700 space-y-1">
                         <li>• Couches, sofas, sectionals</li>
                         <li>• Beds, mattresses, box springs</li>
@@ -407,7 +407,7 @@ export default function SameDayJunkRemovalGuide() {
                     </div>
 
                     <div className="bg-white border border-gray-200 rounded-lg p-6">
-                      <h3 className="text-lg font-bold text-gray-900 mb-3">✓ Construction Debris</h3>
+                      <h3 className="text-lg font-bold text-gray-900 mb-3">✓ <Link href="/construction-debris-removal-san-diego" className="text-blue-600 hover:text-blue-700">Construction Debris</Link></h3>
                       <ul className="text-sm text-gray-700 space-y-1">
                         <li>• Drywall, lumber, flooring</li>
                         <li>• Cabinets, countertops</li>
@@ -417,12 +417,13 @@ export default function SameDayJunkRemovalGuide() {
                     </div>
 
                     <div className="bg-white border border-gray-200 rounded-lg p-6">
-                      <h3 className="text-lg font-bold text-gray-900 mb-3">✓ Yard Waste</h3>
+                      <h3 className="text-lg font-bold text-gray-900 mb-3">✓ Yard Waste & Outdoor Items</h3>
                       <ul className="text-sm text-gray-700 space-y-1">
                         <li>• Branches, tree limbs</li>
                         <li>• Green waste</li>
                         <li>• Soil, rocks, dirt</li>
                         <li>• Old sheds, playsets</li>
+                        <li>• <Link href="/hot-tub-removal-san-diego" className="text-blue-600 hover:text-blue-700">Hot tubs & spas</Link></li>
                       </ul>
                     </div>
 
@@ -430,6 +431,7 @@ export default function SameDayJunkRemovalGuide() {
                       <h3 className="text-lg font-bold text-gray-900 mb-3">✓ Complete Cleanouts</h3>
                       <ul className="text-sm text-gray-700 space-y-1">
                         <li>• Garage cleanouts</li>
+                        <li>• <Link href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:text-blue-700">Commercial & office cleanouts</Link></li>
                         <li>• Basement cleanouts</li>
                         <li>• Storage unit cleanouts</li>
                         <li>• <Link href="/foreclosure-eviction-cleanout-san-diego" className="text-blue-600 hover:text-blue-700 font-semibold">Foreclosure cleanouts</Link></li>
@@ -532,7 +534,7 @@ export default function SameDayJunkRemovalGuide() {
                   <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Coverage Areas for Same-Day Service</h2>
 
                   <p className="text-gray-700 leading-relaxed mb-6">
-                    We provide same-day junk removal throughout San Diego County including <a href="/junk-removal-poway" className="text-blue-600 hover:underline">Poway</a>, <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, and <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>:
+                    We provide same-day junk removal throughout San Diego County including <Link href="/junk-removal-la-jolla" className="text-blue-600 hover:text-blue-700">La Jolla</Link>, <Link href="/junk-removal-pacific-beach" className="text-blue-600 hover:text-blue-700">Pacific Beach</Link>, <Link href="/junk-removal-del-mar" className="text-blue-600 hover:text-blue-700">Del Mar</Link>, <a href="/junk-removal-poway" className="text-blue-600 hover:underline">Poway</a>, <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, <Link href="/junk-removal-oceanside" className="text-blue-600 hover:text-blue-700">Oceanside</Link>, and <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>:
                   </p>
 
                   <div className="bg-white border border-gray-200 rounded-lg p-6 mb-8">

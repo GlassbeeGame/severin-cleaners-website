@@ -235,8 +235,8 @@ export default function JunkRemovalMiraMesaPage() {
                       <div>
                         <h4 className="font-bold mb-2">Residential & Household Items</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Furniture, sofas, mattresses from apartment turnovers</li>
-                          <li>• Appliances, refrigerators, washers, dryers from home upgrades</li>
+                          <li>• <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Furniture</a>, sofas, <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">mattresses</a> from apartment turnovers</li>
+                          <li>• <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Appliances</a>, refrigerators, washers, dryers from home upgrades</li>
                           <li>• Garage cleanouts with tools, equipment, storage items</li>
                           <li>• Yard debris, patio furniture, outdoor equipment</li>
                         </ul>
@@ -244,7 +244,7 @@ export default function JunkRemovalMiraMesaPage() {
                       <div>
                         <h4 className="font-bold mb-2">Office & Commercial Items</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Office furniture, desks, cubicles, conference tables</li>
+                          <li>• <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">Office furniture</a>, desks, cubicles, conference tables</li>
                           <li>• Electronics, computers, servers, networking equipment</li>
                           <li>• Filing cabinets, storage units, shelving systems</li>
                           <li>• Lab equipment, biotech materials, research facility items</li>
@@ -256,6 +256,7 @@ export default function JunkRemovalMiraMesaPage() {
                           <li>• Warehouse racking, shelving, storage equipment</li>
                           <li>• Pallets, packaging materials, shipping supplies</li>
                           <li>• Manufacturing equipment, machinery, industrial tools</li>
+                          <li>• <a href="/scrap-metal-removal" className="text-blue-600 hover:underline">Scrap metal</a> from industrial operations</li>
                           <li>• <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">Construction debris</a> from tenant improvements and renovations</li>
                         </ul>
                       </div>
@@ -275,7 +276,7 @@ export default function JunkRemovalMiraMesaPage() {
                     <div className="bg-blue-50 rounded-lg p-6 mb-6">
                       <ol className="space-y-3 text-gray-700">
                         <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe what you need removed and your Mira Mesa location. For commercial properties, provide building access details and any security requirements. We'll provide estimated pricing based on volume and schedule your service window.</li>
-                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for same-day <strong>junk pickup Mira Mesa</strong> service throughout residential and commercial areas. We coordinate with building management, security offices, and property owners to ensure smooth access and efficient service timing.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> <strong>junk pickup Mira Mesa</strong> service throughout residential and commercial areas. We coordinate with building management, security offices, and property owners to ensure smooth access and efficient service timing.</li>
                         <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives in clearly marked trucks during your scheduled window. We assess items for removal and provide a final quote before starting work—no hidden fees or surprises. For commercial jobs, we coordinate with facility managers and security personnel as needed.</li>
                         <li><strong>4. We Load & Haul Everything:</strong> Our team does all lifting, loading, and hauling. We protect floors and doorways, navigate office hallways and loading docks, and complete removal efficiently. You simply point—we handle the rest, including coordination with building management for elevator reservations and loading zone access.</li>
                         <li><strong>5. Eco-Friendly Disposal:</strong> We sort items for donation, recycling, and responsible disposal. Office furniture goes to local charities and resale facilities, electronics to certified e-waste recyclers, and construction materials to appropriate processors. Only true trash goes to landfill as last resort.</li>

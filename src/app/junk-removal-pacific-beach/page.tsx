@@ -236,8 +236,8 @@ export default function JunkRemovalPacificBeachPage() {
                       <div>
                         <h4 className="font-bold mb-2">Furniture & Household</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Sofas, couches, sectionals damaged by salt air</li>
-                          <li>• Mattresses, box springs, bed frames from turnovers</li>
+                          <li>• <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Sofas, couches, sectionals</a> damaged by salt air</li>
+                          <li>• <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">Mattresses</a>, box springs, bed frames from turnovers</li>
                           <li>• Dressers, tables, chairs from student housing</li>
                           <li>• Desks, bookshelves, cabinets for garage cleanouts</li>
                         </ul>
@@ -245,7 +245,7 @@ export default function JunkRemovalPacificBeachPage() {
                       <div>
                         <h4 className="font-bold mb-2">Appliances & Electronics</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Refrigerators, washers, dryers from rental properties</li>
+                          <li>• <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Refrigerators, washers, dryers</a> from rental properties</li>
                           <li>• Dishwashers, stoves, microwaves needing replacement</li>
                           <li>• TVs, computers, electronics from tech upgrades</li>
                           <li>• Air conditioners, heaters, dehumidifiers</li>
@@ -257,6 +257,7 @@ export default function JunkRemovalPacificBeachPage() {
                           <li>• Surfboards, paddleboards, kayaks no longer used</li>
                           <li>• Beach cruisers, bicycles damaged by salt corrosion</li>
                           <li>• Patio furniture, BBQ grills with rust damage</li>
+                          <li>• Old <a href="/couch-removal-san-diego" className="text-blue-600 hover:underline">couches and sectionals</a> from beach rentals</li>
                           <li>• <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">Hot tubs and spas</a> for backyard renovations</li>
                         </ul>
                       </div>
@@ -276,7 +277,7 @@ export default function JunkRemovalPacificBeachPage() {
                     <div className="bg-blue-50 rounded-lg p-6 mb-6">
                       <ol className="space-y-3 text-gray-700">
                         <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe what you need removed and your Pacific Beach location. We'll provide estimated pricing based on volume and schedule your service window.</li>
-                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for same-day <strong>junk pickup PB</strong> service throughout the 92109 area. We coordinate arrival times around beach traffic patterns and your schedule preferences.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> <strong>junk pickup PB</strong> service throughout the 92109 area. We coordinate arrival times around beach traffic patterns and your schedule preferences.</li>
                         <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives in clearly marked trucks during your scheduled window. We assess items for removal and provide a final quote before starting work—no hidden fees or surprises.</li>
                         <li><strong>4. We Load & Haul Everything:</strong> Our team does all lifting, loading, and hauling. We protect floors and doorways, navigate stairs and tight beach house hallways, and complete removal efficiently. You simply point—we handle the rest.</li>
                         <li><strong>5. Eco-Friendly Disposal:</strong> We sort items for donation, recycling, and responsible disposal. Usable furniture goes to local charities, recyclables to proper facilities, and only true trash to landfill as last resort.</li>

@@ -229,22 +229,22 @@ export default function JunkRemovalChulaVistaPage() {
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Chula Vista</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Chula Vista junk removal</strong> service handles the unique mix of items common to South Bay living—from large family home furniture to multi-generational household accumulation to commercial property cleanouts. We remove everything from single items to complete house cleanouts:
+                      Our <strong>Chula Vista junk removal</strong> service handles the unique mix of items common to South Bay living—from large family home <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture removal</a> to multi-generational household accumulation to commercial property cleanouts. We offer <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliance removal</a>, <a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">garage cleanout services</a>, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">mattress disposal</a>, and <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a>:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
                         <h4 className="font-bold mb-2">Furniture & Household</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Large family sofas, sectionals, and living room sets</li>
+                          <li>• <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Large family sofas, sectionals</a>, and living room sets</li>
                           <li>• Multi-bedroom furniture from family homes</li>
                           <li>• Dining sets, tables, and chairs for large households</li>
-                          <li>• Bedroom sets, mattresses, and guest room furniture</li>
+                          <li>• <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">Bedroom sets, mattresses</a>, and guest room furniture</li>
                         </ul>
                       </div>
                       <div>
                         <h4 className="font-bold mb-2">Appliances & Electronics</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Refrigerators, washers, dryers from large households</li>
+                          <li>• <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Refrigerators, washers, dryers</a> from large households</li>
                           <li>• Multiple appliances from multi-generational homes</li>
                           <li>• Entertainment systems and family room electronics</li>
                           <li>• Kitchen appliance upgrades and replacements</li>
@@ -254,7 +254,7 @@ export default function JunkRemovalChulaVistaPage() {
                         <h4 className="font-bold mb-2">Outdoor & Garage</h4>
                         <ul className="space-y-1 text-gray-700">
                           <li>• Patio furniture and outdoor dining sets</li>
-                          <li>• Garage storage and accumulated items</li>
+                          <li>• <a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">Garage storage and cleanouts</a></li>
                           <li>• Yard equipment and landscaping materials</li>
                           <li>• <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">Hot tubs and spas</a> from backyard renovations</li>
                         </ul>
@@ -262,7 +262,7 @@ export default function JunkRemovalChulaVistaPage() {
                       <div>
                         <h4 className="font-bold mb-2">Cleanouts & Special Projects</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Estate cleanouts for multi-generational properties</li>
+                          <li>• <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate cleanouts</a> for multi-generational properties</li>
                           <li>• Large family home complete cleanouts</li>
                           <li>• <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">Commercial property</a> and retail space clearing</li>
                           <li>• Tenant turnover cleanouts for rental properties</li>

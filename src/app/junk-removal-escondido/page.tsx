@@ -241,8 +241,8 @@ export default function JunkRemovalEscondidoPage() {
                       <div>
                         <h4 className="font-bold mb-2">Furniture & Household</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Sofas, couches, sectionals for estate sales</li>
-                          <li>• Mattresses, box springs, bed frames from turnovers</li>
+                          <li>• <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Sofas, couches, sectionals</a> for estate sales</li>
+                          <li>• <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">Mattresses</a>, box springs, bed frames from turnovers</li>
                           <li>• Dressers, tables, chairs from downsizing moves</li>
                           <li>• Desks, bookshelves, cabinets for garage cleanouts</li>
                         </ul>
@@ -250,7 +250,7 @@ export default function JunkRemovalEscondidoPage() {
                       <div>
                         <h4 className="font-bold mb-2">Appliances & Electronics</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Refrigerators, washers, dryers from rental properties</li>
+                          <li>• <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Refrigerators, washers, dryers</a> from rental properties</li>
                           <li>• Dishwashers, stoves, microwaves needing replacement</li>
                           <li>• TVs, computers, electronics from tech upgrades</li>
                           <li>• Air conditioners, heaters, swamp coolers</li>
@@ -268,10 +268,11 @@ export default function JunkRemovalEscondidoPage() {
                       <div>
                         <h4 className="font-bold mb-2">Cleanouts & Debris</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Estate & garage cleanouts for entire properties</li>
+                          <li>• <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate</a> & garage cleanouts for entire properties</li>
                           <li>• Storage unit contents and accumulated items</li>
                           <li>• <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">Construction debris</a> from home remodels</li>
-                          <li>• Commercial property and business cleanouts</li>
+                          <li>• <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">Commercial property</a> and business cleanouts</li>
+                          <li>• <a href="/scrap-metal-removal" className="text-blue-600 hover:underline">Scrap metal recycling</a> and removal</li>
                         </ul>
                       </div>
                     </div>

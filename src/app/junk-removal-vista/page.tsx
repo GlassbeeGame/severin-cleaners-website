@@ -239,8 +239,8 @@ export default function JunkRemovalVistaPage() {
                       <div>
                         <h4 className="font-bold mb-2">Furniture & Household</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Sofas, sectionals, recliners from family room updates</li>
-                          <li>• Mattresses, bed frames, bedroom furniture from moves</li>
+                          <li>• <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Sofas, sectionals, recliners</a> from family room updates</li>
+                          <li>• <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">Mattresses</a>, bed frames, bedroom furniture from moves</li>
                           <li>• Dining tables, chairs, kitchen sets from downsizing</li>
                           <li>• Desks, office furniture, bookshelves from home offices</li>
                         </ul>
@@ -248,7 +248,7 @@ export default function JunkRemovalVistaPage() {
                       <div>
                         <h4 className="font-bold mb-2">Appliances & Electronics</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Refrigerators, freezers, washers, dryers from remodels</li>
+                          <li>• <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Refrigerators, freezers, washers, dryers</a> from remodels</li>
                           <li>• Dishwashers, stoves, microwaves during kitchen upgrades</li>
                           <li>• TVs, computers, electronics from tech refreshes</li>
                           <li>• Exercise equipment, treadmills, home gym gear</li>
@@ -257,7 +257,7 @@ export default function JunkRemovalVistaPage() {
                       <div>
                         <h4 className="font-bold mb-2">Commercial & Business Items</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Office furniture, cubicles, conference tables</li>
+                          <li>• <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">Office furniture</a>, cubicles, conference tables</li>
                           <li>• Brewery equipment, restaurant fixtures, retail displays</li>
                           <li>• Warehouse inventory, industrial shelving, storage racks</li>
                           <li>• <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">Construction debris</a> from commercial renovations</li>
@@ -266,10 +266,11 @@ export default function JunkRemovalVistaPage() {
                       <div>
                         <h4 className="font-bold mb-2">Cleanouts & Debris</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Estate cleanouts for family property transitions</li>
+                          <li>• <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate cleanouts</a> for family property transitions</li>
                           <li>• Apartment complex turnovers and tenant move-outs</li>
-                          <li>• Garage and storage unit complete clearances</li>
+                          <li>• <a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">Garage and storage unit</a> complete clearances</li>
                           <li>• <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">Hot tubs and spas</a> from backyard renovations</li>
+                          <li>• <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">Same-day service</a> throughout North County Vista</li>
                         </ul>
                       </div>
                     </div>

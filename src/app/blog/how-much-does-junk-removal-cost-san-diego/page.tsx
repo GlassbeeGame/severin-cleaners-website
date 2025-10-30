@@ -234,13 +234,13 @@ export default function JunkRemovalCostGuide() {
                           <td className="px-6 py-4 font-semibold text-gray-900">Single Item</td>
                           <td className="px-6 py-4 text-gray-700">1-2 items</td>
                           <td className="px-6 py-4 text-green-600 font-bold">$100</td>
-                          <td className="px-6 py-4 text-gray-600 text-sm">Couch, mattress, appliance</td>
+                          <td className="px-6 py-4 text-gray-600 text-sm">Couch, <Link href="/san-diego-mattress-disposal" className="text-blue-600 hover:text-blue-700">mattress</Link>, appliance</td>
                         </tr>
                         <tr>
                           <td className="px-6 py-4 font-semibold text-gray-900">1/4 Load</td>
                           <td className="px-6 py-4 text-gray-700">3 cubic yards</td>
                           <td className="px-6 py-4 text-green-600 font-bold">$249</td>
-                          <td className="px-6 py-4 text-gray-600 text-sm">Few furniture pieces, boxes</td>
+                          <td className="px-6 py-4 text-gray-600 text-sm">Few <Link href="/furniture-removal-san-diego" className="text-blue-600 hover:text-blue-700">furniture</Link> pieces, boxes</td>
                         </tr>
                         <tr>
                           <td className="px-6 py-4 font-semibold text-gray-900">1/2 Load</td>
@@ -395,7 +395,7 @@ export default function JunkRemovalCostGuide() {
                   <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Common Junk Removal Costs in San Diego</h2>
 
                 <p className="text-lg text-gray-700 mb-6">
-                  Our transparent pricing applies throughout San Diego County, including <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, <a href="/junk-removal-spring-valley" className="text-blue-600 hover:underline">Spring Valley</a>, <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a>, and all surrounding areas.
+                  Our transparent pricing applies throughout San Diego County, including <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, <a href="/junk-removal-spring-valley" className="text-blue-600 hover:underline">Spring Valley</a>, <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a>, <Link href="/junk-removal-la-jolla" className="text-blue-600 hover:text-blue-700">La Jolla</Link>, <Link href="/junk-removal-pacific-beach" className="text-blue-600 hover:text-blue-700">Pacific Beach</Link>, <Link href="/junk-removal-del-mar" className="text-blue-600 hover:text-blue-700">Del Mar</Link>, <Link href="/junk-removal-chula-vista" className="text-blue-600 hover:text-blue-700">Chula Vista</Link>, <Link href="/junk-removal-oceanside" className="text-blue-600 hover:text-blue-700">Oceanside</Link>, <Link href="/junk-removal-carlsbad" className="text-blue-600 hover:text-blue-700">Carlsbad</Link>, <Link href="/junk-removal-encinitas" className="text-blue-600 hover:text-blue-700">Encinitas</Link>, <Link href="/junk-removal-poway" className="text-blue-600 hover:text-blue-700">Poway</Link>, <Link href="/junk-removal-santee" className="text-blue-600 hover:text-blue-700">Santee</Link>, <Link href="/junk-removal-escondido" className="text-blue-600 hover:text-blue-700">Escondido</Link>, <Link href="/junk-removal-vista" className="text-blue-600 hover:text-blue-700">Vista</Link>, <Link href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:text-blue-700">Rancho Santa Fe</Link>, <Link href="/junk-removal-carmel-valley" className="text-blue-600 hover:text-blue-700">Carmel Valley</Link>, <Link href="/junk-removal-point-loma" className="text-blue-600 hover:text-blue-700">Point Loma</Link>, <Link href="/junk-removal-north-park" className="text-blue-600 hover:text-blue-700">North Park</Link>, <Link href="/junk-removal-hillcrest" className="text-blue-600 hover:text-blue-700">Hillcrest</Link>, <Link href="/junk-removal-mira-mesa" className="text-blue-600 hover:text-blue-700">Mira Mesa</Link>, <Link href="/junk-removal-kearny-mesa" className="text-blue-600 hover:text-blue-700">Kearny Mesa</Link>, and <Link href="/junk-removal-clairemont" className="text-blue-600 hover:text-blue-700">Clairemont</Link>.
                 </p>
 
                   <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -412,12 +412,12 @@ export default function JunkRemovalCostGuide() {
                     <div className="bg-white border border-gray-200 rounded-lg p-6">
                       <h3 className="text-lg font-bold text-gray-900 mb-3">Garage Cleanout</h3>
                       <p className="text-3xl font-bold text-green-600 mb-2">$249-$349</p>
-                      <p className="text-sm text-gray-600">Typical single-car garage cleanout</p>
+                      <p className="text-sm text-gray-600">Typical single-car <Link href="/cleanout-services-san-diego" className="text-blue-600 hover:text-blue-700">garage cleanout</Link></p>
                     </div>
                     <div className="bg-white border border-gray-200 rounded-lg p-6">
                       <h3 className="text-lg font-bold text-gray-900 mb-3">Full House Cleanout</h3>
                       <p className="text-3xl font-bold text-green-600 mb-2">$495+</p>
-                      <p className="text-sm text-gray-600">Complete property cleanout, may need multiple loads</p>
+                      <p className="text-sm text-gray-600">Complete <Link href="/cleanout-services-san-diego" className="text-blue-600 hover:text-blue-700">property cleanout</Link>, may need multiple loads</p>
                     </div>
                   </div>
 
@@ -431,7 +431,7 @@ export default function JunkRemovalCostGuide() {
                 <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-8 mt-12 text-white text-center">
                   <h3 className="text-2xl font-bold mb-4">Ready to Remove Your Junk?</h3>
                   <p className="text-blue-100 mb-6 text-lg">
-                    Get a free quote for same-day junk removal in San Diego
+                    Get a free quote for <Link href="/same-day-junk-removal-san-diego" className="text-white hover:text-blue-200 underline font-semibold">same-day junk removal</Link> in San Diego
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a

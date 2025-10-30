@@ -155,7 +155,7 @@ export default function CommercialjunkremovalsandiegoPage() {
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
-                From downtown high-rises to industrial complexes in Kearny Mesa, our <strong>commercial debris removal San Diego</strong> service handles everything with minimal disruption to your operations. We specialize in <strong>office cleanout San Diego</strong>, <strong>retail cleanout San Diego</strong>, and <strong>warehouse junk removal San Diego</strong> projects of all sizes.
+                From downtown high-rises to industrial complexes, our <strong>commercial debris removal San Diego</strong> service handles everything with minimal disruption to your operations. We provide <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">commercial junk removal in Kearny Mesa</a> business districts, <a href="/junk-removal-mira-mesa" className="text-blue-600 hover:underline">Mira Mesa</a> industrial parks, and throughout the region. We specialize in <strong>office cleanout San Diego</strong>, <strong>retail cleanout San Diego</strong>, and <strong>warehouse junk removal San Diego</strong> projects of all sizes. We also provide <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">commercial construction cleanup</a>, <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">office furniture removal</a>, <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">commercial equipment disposal</a>, and <a href="/emergency-junk-removal-san-diego" className="text-blue-600 hover:underline">emergency commercial cleanup</a>.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Comprehensive Business Junk Removal Services</h3>
@@ -164,7 +164,7 @@ export default function CommercialjunkremovalsandiegoPage() {
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
-                Whether you need urgent <strong>retail junk removal</strong> for a store renovation or comprehensive <strong>warehouse cleanouts San Diego</strong> for industrial facilities, our team provides professional service with liability insurance, disposal documentation, and confidential handling of sensitive materials.
+                Whether you need urgent <strong>retail junk removal</strong> in <a href="/junk-removal-north-park" className="text-blue-600 hover:underline">North Park</a> retail corridors or comprehensive <strong>warehouse cleanouts San Diego</strong> for <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a> industrial facilities, our team provides professional service with liability insurance, disposal documentation, and confidential handling of sensitive materials. We serve businesses throughout <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>, and <a href="/junk-removal-escondido" className="text-blue-600 hover:underline">Escondido</a>.
               </p>
 
               <div className="grid md:grid-cols-2 gap-8 mb-8">

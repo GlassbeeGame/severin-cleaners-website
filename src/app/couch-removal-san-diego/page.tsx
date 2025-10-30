@@ -73,8 +73,8 @@ export const metadata: Metadata = {
 const relatedServices = [
   { name: "Furniture Removal", slug: "furniture-removal-san-diego" },
   { name: "Mattress Disposal", slug: "san-diego-mattress-disposal" },
-  { name: "Estate Cleanouts", slug: "estate-cleanout-san-diego" },
   { name: "Same-Day Junk Removal", slug: "same-day-junk-removal-san-diego" },
+  { name: "Estate Cleanouts", slug: "estate-cleanout-san-diego" },
 ];
 
 const faqSchema = {
@@ -235,11 +235,11 @@ export default function CouchRemovalPage() {
                   <h2 className="text-3xl font-bold text-gray-900 mb-6">Your San Diego Couch Removal Experts</h2>
 
                   <p className="text-lg text-gray-700 mb-6">
-                    Need an old couch gone fast? Our locally owned <strong>San Diego couch removal</strong> team makes it easy. We handle everything—lifting, hauling, and proper disposal—so you don't have to drag your sofa to the curb or deal with dump lines. Whether it's a single sectional or a full living room set, we offer same-day <strong>couch disposal San Diego</strong> residents rely on for quick, professional service.
+                    Need an old couch gone fast? Our locally owned <strong>San Diego couch removal</strong> team makes it easy. We handle everything—lifting, hauling, and proper disposal—so you don't have to drag your sofa to the curb or deal with dump lines. From <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> designer couches to <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a> sectionals and <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a> furniture, we offer same-day <strong>couch disposal San Diego</strong> residents rely on for quick, professional service.
                   </p>
 
                   <p className="text-lg text-gray-700 mb-6">
-                    We serve all of San Diego County with eco-conscious removal. Whenever possible, we recycle or donate gently used sofas, loveseats, and recliners through local charities to keep furniture out of the landfill. Need to remove more than just a couch? Our full <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture removal service</a> handles beds, tables, and all household furniture types.
+                    We serve all of San Diego County with eco-conscious removal in <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, <a href="/junk-removal-north-park" className="text-blue-600 hover:underline">North Park</a>, <a href="/junk-removal-hillcrest" className="text-blue-600 hover:underline">Hillcrest</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, and <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>. Whenever possible, we recycle or donate gently used sofas, loveseats, and recliners through local charities to keep furniture out of the landfill. Need to remove more than just a couch? Our full <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">complete furniture removal services</a> handles beds, tables, and all household furniture types, including <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">mattress and bed removal</a>. Need it gone today? Check out our <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day couch pickup</a> service.
                   </p>
 
                   <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">

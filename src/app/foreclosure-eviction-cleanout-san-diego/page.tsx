@@ -219,7 +219,7 @@ export default function ForeclosureEvictionCleanoutPage() {
 
                     <h3 className="text-2xl font-bold mt-8 mb-4">Trusted by Property Managers & Realtors</h3>
                     <p className="text-gray-700 mb-4">
-                      We work with property managers and realtors across San Diego. Our reliable service helps with tenant turnovers and property prep. Fast, professional results every time. For probate and estate situations, visit our <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanout services</a>.
+                      We work with property managers and realtors across San Diego. Our reliable service helps with tenant turnovers and property prep. Fast, professional results every time. For probate and estate situations, visit our <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanout services</a>. We also offer <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial property cleanouts</a> and full <a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">property cleanout</a> services.
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -336,7 +336,7 @@ export default function ForeclosureEvictionCleanoutPage() {
 
                     <h3 className="text-2xl font-bold mt-8 mb-4">Service Areas Throughout San Diego County</h3>
                     <p className="text-gray-700 mb-4">
-                      We serve property managers, banks, landlords, and families throughout San Diego County. Our cleanout services cover all neighborhoods. Fast, professional service is our standard. We handle both small and large properties. Every client receives the same reliable care and attention.
+                      We serve property managers, banks, landlords, and families throughout San Diego County including <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a>, <a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee</a>, <a href="/junk-removal-spring-valley" className="text-blue-600 hover:underline">Spring Valley</a>, <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>, <a href="/junk-removal-escondido" className="text-blue-600 hover:underline">Escondido</a>, and <a href="/junk-removal-lakeside" className="text-blue-600 hover:underline">Lakeside</a>. Our cleanout services cover all neighborhoods. Fast, professional service is our standard. We handle both small and large properties. Every client receives the same reliable care and attention.
                     </p>
 
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mb-6 text-sm text-gray-700">

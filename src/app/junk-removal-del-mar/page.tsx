@@ -228,22 +228,22 @@ export default function JunkRemovalDelMarPage() {
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Del Mar</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Del Mar junk removal</strong> service handles the sophisticated mix of items found in upscale coastal properties. From designer furniture that no longer suits updated interiors to salt-damaged outdoor equipment, construction debris from luxury remodels to complete estate cleanouts, we remove everything efficiently:
+                      Our <strong>Del Mar junk removal</strong> service handles the sophisticated mix of items found in upscale coastal properties. From <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">designer furniture removal</a> that no longer suits updated interiors to salt-damaged outdoor equipment, construction debris from luxury remodels to complete <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, we remove everything efficiently with <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a> available:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
                         <h4 className="font-bold mb-2">Furniture & Household</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Designer sofas, sectionals from interior updates</li>
+                          <li>• <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Designer sofas, sectionals</a> from interior updates</li>
                           <li>• Bedroom sets, mattresses during estate transitions</li>
                           <li>• Dining tables, chairs from downsizing moves</li>
-                          <li>• Office furniture, desks from home office renovations</li>
+                          <li>• <a href="/piano-removal-san-diego" className="text-blue-600 hover:underline">Grand pianos and specialty instruments</a></li>
                         </ul>
                       </div>
                       <div>
                         <h4 className="font-bold mb-2">Appliances & Electronics</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Refrigerators, wine coolers from kitchen remodels</li>
+                          <li>• <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Refrigerators, wine coolers</a> from kitchen remodels</li>
                           <li>• Washers, dryers, dishwashers needing replacement</li>
                           <li>• TVs, electronics, computers from tech upgrades</li>
                           <li>• HVAC units, water heaters, tankless conversions</li>
@@ -261,7 +261,7 @@ export default function JunkRemovalDelMarPage() {
                       <div>
                         <h4 className="font-bold mb-2">Cleanouts & Debris</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Estate & garage cleanouts for entire properties</li>
+                          <li>• <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate & garage cleanouts</a> for entire properties</li>
                           <li>• Construction debris, remodels from luxury upgrades</li>
                           <li>• Yard waste, landscaping from drought-tolerant conversions</li>
                           <li>• Storage unit contents and accumulated items</li>

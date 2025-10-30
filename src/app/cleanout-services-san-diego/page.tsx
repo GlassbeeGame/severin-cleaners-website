@@ -185,13 +185,13 @@ export default function CleanoutServicesPage() {
 
                     <h3 className="text-2xl font-bold mt-8 mb-4">Property Cleanout San Diego - Complete Estate & Multi-Unit Clearing</h3>
                     <p className="text-gray-700 mb-4">
-                      We handle complete property cleanouts. Entire homes, estates, multi-unit buildings, and commercial spaces all receive professional service. Families settling estates trust us. Landlords use us for tenant turnovers. Realtors prepare homes for sale with our help.
+                      We handle complete property cleanouts in <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> property cleanouts, <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a>, <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, <a href="/junk-removal-poway" className="text-blue-600 hover:underline">Poway</a>, <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>, <a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee</a>, and <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a>. Entire homes, estates, multi-unit buildings, and commercial spaces all receive professional service. Families settling estates trust us. Landlords use us for tenant turnovers. Realtors prepare homes for sale with our help.
                     </p>
                     <p className="text-gray-700 mb-4">
                       Project scope varies widely. Single-family homes typically take 4-8 hours. Estate cleanouts may need multiple days. We work room by room systematically. Personal items receive careful handling.
                     </p>
                     <p className="text-gray-700 mb-6">
-                      Estate cleanouts require sensitivity and care. These situations are often emotional and stressful. Our crews work respectfully every time. Items of value or sentiment get set aside. Discretion is maintained throughout the entire process.
+                      Estate cleanouts require sensitivity and care. These situations are often emotional and stressful. Our crews work respectfully every time. Items of value or sentiment get set aside. Discretion is maintained throughout the entire process. For specialized services, visit our <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanout services</a>, <a href="/hoarding-cleanup-san-diego" className="text-blue-600 hover:underline">hoarding cleanout</a>, and <a href="/foreclosure-eviction-cleanout-san-diego" className="text-blue-600 hover:underline">property cleanout</a> pages.
                     </p>
 
                     <h3 className="text-2xl font-bold mt-8 mb-4">Eco-Friendly Disposal & Donation Services</h3>

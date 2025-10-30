@@ -607,15 +607,72 @@ export default function JunkRemovalCostPage() {
               </p>
 
               <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-center">
-                {[
-                  "Downtown", "North Park", "Hillcrest", "La Jolla", "Pacific Beach", "Mission Valley",
-                  "Chula Vista", "Clairemont", "Point Loma", "University City", "Del Mar", "Encinitas",
-                  "El Cajon", "La Mesa", "Santee", "Poway", "Escondido", "Oceanside"
-                ].map((area, index) => (
-                  <div key={index} className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
-                    <span className="text-sm font-semibold text-gray-700">{area}</span>
-                  </div>
-                ))}
+                <a href="/junk-removal-la-jolla" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
+                  <span className="text-sm font-semibold text-gray-700">La Jolla</span>
+                </a>
+                <a href="/junk-removal-pacific-beach" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
+                  <span className="text-sm font-semibold text-gray-700">Pacific Beach</span>
+                </a>
+                <a href="/junk-removal-del-mar" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
+                  <span className="text-sm font-semibold text-gray-700">Del Mar</span>
+                </a>
+                <a href="/junk-removal-rancho-santa-fe" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
+                  <span className="text-sm font-semibold text-gray-700">Rancho Santa Fe</span>
+                </a>
+                <a href="/junk-removal-point-loma" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
+                  <span className="text-sm font-semibold text-gray-700">Point Loma</span>
+                </a>
+                <a href="/junk-removal-carmel-valley" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
+                  <span className="text-sm font-semibold text-gray-700">Carmel Valley</span>
+                </a>
+                <a href="/junk-removal-chula-vista" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
+                  <span className="text-sm font-semibold text-gray-700">Chula Vista</span>
+                </a>
+                <a href="/junk-removal-el-cajon" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
+                  <span className="text-sm font-semibold text-gray-700">El Cajon</span>
+                </a>
+                <a href="/junk-removal-la-mesa" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
+                  <span className="text-sm font-semibold text-gray-700">La Mesa</span>
+                </a>
+                <a href="/junk-removal-santee" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
+                  <span className="text-sm font-semibold text-gray-700">Santee</span>
+                </a>
+                <a href="/junk-removal-lakeside" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
+                  <span className="text-sm font-semibold text-gray-700">Lakeside</span>
+                </a>
+                <a href="/junk-removal-spring-valley" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
+                  <span className="text-sm font-semibold text-gray-700">Spring Valley</span>
+                </a>
+                <a href="/junk-removal-lemon-grove" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
+                  <span className="text-sm font-semibold text-gray-700">Lemon Grove</span>
+                </a>
+                <a href="/junk-removal-oceanside" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
+                  <span className="text-sm font-semibold text-gray-700">Oceanside</span>
+                </a>
+                <a href="/junk-removal-escondido" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
+                  <span className="text-sm font-semibold text-gray-700">Escondido</span>
+                </a>
+                <a href="/junk-removal-poway" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
+                  <span className="text-sm font-semibold text-gray-700">Poway</span>
+                </a>
+                <a href="/junk-removal-vista" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
+                  <span className="text-sm font-semibold text-gray-700">Vista</span>
+                </a>
+                <a href="/junk-removal-north-park" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
+                  <span className="text-sm font-semibold text-gray-700">North Park</span>
+                </a>
+                <a href="/junk-removal-hillcrest" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
+                  <span className="text-sm font-semibold text-gray-700">Hillcrest</span>
+                </a>
+                <a href="/junk-removal-clairemont" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
+                  <span className="text-sm font-semibold text-gray-700">Clairemont</span>
+                </a>
+                <a href="/junk-removal-kearny-mesa" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
+                  <span className="text-sm font-semibold text-gray-700">Kearny Mesa</span>
+                </a>
+                <a href="/junk-removal-mira-mesa" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
+                  <span className="text-sm font-semibold text-gray-700">Mira Mesa</span>
+                </a>
               </div>
               <p className="text-center mt-8 text-gray-700">
                 All items are disposed of responsibly at licensed San Diego County facilities like Miramar Landfill — ensuring compliance with city recycling and waste policies.

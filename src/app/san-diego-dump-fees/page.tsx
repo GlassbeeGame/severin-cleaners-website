@@ -306,7 +306,7 @@ export default function SanDiegoDumpFeesPage() {
 
               <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
                 <p className="text-lg mb-6">
-                  If you're searching for <strong>San Diego landfill dump fees</strong> or comparing <strong>San Diego dump prices</strong> before you load up the truck, this guide summarizes the current 2025 fee ranges, policies, and programs at Miramar, Otay, Sycamore, and the Ramona Transfer Station. You'll see typical per-load and per-ton pricing, what's accepted, what's prohibited, and when hiring a hauler actually costs less than a DIY dump run.
+                  If you're searching for <strong>San Diego landfill dump fees</strong> or comparing <strong>San Diego dump prices</strong> before you load up the truck, this guide summarizes the current 2025 fee ranges, policies, and programs at Miramar, Otay, Sycamore, and the Ramona Transfer Station. Whether you're in <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a>, <a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee</a>, <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>, <a href="/junk-removal-escondido" className="text-blue-600 hover:underline">Escondido</a>, <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, or <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a>, you'll see typical per-load and per-ton pricing, what's accepted, what's prohibited, and when hiring a hauler actually costs less than a DIY dump run.
                 </p>
 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg">
@@ -793,7 +793,7 @@ export default function SanDiegoDumpFeesPage() {
                   <h3 className="font-bold text-xl mb-3 text-blue-600">Central/Coastal</h3>
                   <p className="text-gray-700 mb-2"><strong>Miramar</strong> off Convoy</p>
                   <p className="text-sm text-gray-600">20 min from Downtown outside rush hour</p>
-                  <p className="text-sm text-gray-500 mt-2">Best for: La Jolla, Pacific Beach, Clairemont, Kearny Mesa</p>
+                  <p className="text-sm text-gray-500 mt-2">Best for: <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a>, Clairemont, Kearny Mesa</p>
                 </div>
 
                 <div className="bg-gray-50 rounded-lg p-6">

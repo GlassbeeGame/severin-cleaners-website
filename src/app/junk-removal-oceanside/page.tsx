@@ -235,7 +235,7 @@ export default function JunkRemovalOceansidePage() {
                       <div>
                         <h4 className="font-bold mb-2">Military Housing & PCS Items</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Furniture, appliances too large for military moving allowances</li>
+                          <li>• <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Furniture</a>, <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliances</a> too large for military moving allowances</li>
                           <li>• Storage unit contents from deployment periods</li>
                           <li>• Base housing cleanout debris for inspection preparation</li>
                           <li>• Items left behind by previous tenants in base housing</li>
@@ -254,6 +254,7 @@ export default function JunkRemovalOceansidePage() {
                         <h4 className="font-bold mb-2">Vacation Rental Items</h4>
                         <ul className="space-y-1 text-gray-700">
                           <li>• Guest-damaged furniture requiring immediate replacement</li>
+                          <li>• <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">Mattresses</a> from vacation rental turnovers</li>
                           <li>• Seasonal furniture rotation and storage clearing</li>
                           <li>• Property renovation debris between booking seasons</li>
                           <li>• Abandoned items left by vacation renters</li>
@@ -265,7 +266,8 @@ export default function JunkRemovalOceansidePage() {
                           <li>• <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate cleanouts</a> for North County family properties</li>
                           <li>• Garage and shed cleanouts from family homes</li>
                           <li>• Downsizing projects for retirees and military families</li>
-                          <li>• Construction debris from coastal home renovations</li>
+                          <li>• <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">Construction debris</a> from coastal home renovations</li>
+                          <li>• <a href="/foreclosure-eviction-cleanout-san-diego" className="text-blue-600 hover:underline">Foreclosure cleanouts</a> and property transitions</li>
                         </ul>
                       </div>
                     </div>
@@ -275,7 +277,7 @@ export default function JunkRemovalOceansidePage() {
                     <div className="bg-blue-50 rounded-lg p-6 mb-6">
                       <ol className="space-y-3 text-gray-700">
                         <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe what you need removed and your Oceanside location. For Camp Pendleton properties, provide base access details and housing office contact. For vacation rentals, note any property manager coordination needs. We'll provide estimated pricing based on volume and schedule your service window.</li>
-                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for same-day <strong>junk pickup Oceanside</strong> service throughout North County. We coordinate with base housing offices for military properties and property managers for vacation rentals, ensuring efficient service that meets your timeline requirements.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> <strong>junk pickup Oceanside</strong> service throughout North County. We coordinate with base housing offices for military properties and property managers for vacation rentals, ensuring efficient service that meets your timeline requirements.</li>
                         <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives in clearly marked trucks during your scheduled window. For base housing, we handle all security check-in procedures. We assess items for removal and provide a final quote before starting work—no hidden fees or surprises. Active duty families receive special military discount pricing.</li>
                         <li><strong>4. We Load & Haul Everything:</strong> Our team does all lifting, loading, and hauling. We protect floors and doorways, navigate base housing protocols and vacation rental property requirements, and complete removal efficiently. You simply point—we handle the rest, including coordination around inspection schedules and guest check-in times.</li>
                         <li><strong>5. Eco-Friendly Disposal:</strong> We sort items for donation, recycling, and responsible disposal. Military families often donate usable furniture to base family support programs. Coastal properties' recyclable materials go to proper facilities, and only true trash goes to landfill as last resort. We protect Oceanside's beaches and marine environment through responsible disposal practices.</li>

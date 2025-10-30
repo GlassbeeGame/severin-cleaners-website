@@ -301,7 +301,7 @@ export default function JunkremovalclairemontPage() {
                         <div>
                           <h4 className="text-lg font-bold mb-3 text-blue-600">Residential Family Services</h4>
                           <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                            <li>Garage cleanouts and organization for mid-century homes with decades of accumulation</li>
+                            <li><a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">Garage cleanouts</a> and organization for mid-century homes with decades of accumulation</li>
                             <li>Attic and storage area clearing for established properties with limited access</li>
                             <li>Backyard and patio furniture disposal near canyons and recreational areas</li>
                             <li>Home office setup and paper clutter removal for remote work transitions</li>

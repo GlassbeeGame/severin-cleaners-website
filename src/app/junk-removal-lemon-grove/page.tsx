@@ -235,8 +235,8 @@ export default function JunkRemovalLemonGrovePage() {
                       <div>
                         <h4 className="font-bold mb-2">Furniture & Household Items</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Sofas, couches, sectionals from apartment turnovers</li>
-                          <li>• Mattresses, box springs, bed frames from family homes</li>
+                          <li>• <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Sofas, couches, sectionals</a> from apartment turnovers</li>
+                          <li>• <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">Mattresses</a>, box springs, bed frames from family homes</li>
                           <li>• Dining tables, chairs, kitchen furniture</li>
                           <li>• Dressers, nightstands, bedroom sets from downsizing</li>
                         </ul>
@@ -244,7 +244,7 @@ export default function JunkRemovalLemonGrovePage() {
                       <div>
                         <h4 className="font-bold mb-2">Appliances & Electronics</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Refrigerators, washers, dryers from apartment upgrades</li>
+                          <li>• <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Refrigerators, washers, dryers</a> from apartment upgrades</li>
                           <li>• Dishwashers, stoves, microwaves for kitchen renovations</li>
                           <li>• TVs, computers, outdated electronics disposal</li>
                           <li>• Window AC units, portable heaters, fans</li>
@@ -253,7 +253,7 @@ export default function JunkRemovalLemonGrovePage() {
                       <div>
                         <h4 className="font-bold mb-2">Family Home & Garage Items</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Garage cleanouts with tools, equipment, storage items</li>
+                          <li>• <a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">Garage cleanouts</a> with tools, equipment, storage items</li>
                           <li>• Kids' toys, play equipment, outgrown furniture</li>
                           <li>• Exercise equipment, weights, home gym items</li>
                           <li>• Holiday decorations and seasonal storage clearance</li>
@@ -275,7 +275,7 @@ export default function JunkRemovalLemonGrovePage() {
                     <div className="bg-blue-50 rounded-lg p-6 mb-6">
                       <ol className="space-y-3 text-gray-700">
                         <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe what you need removed and your Lemon Grove location. For apartments, let us know about parking restrictions or elevator access. We'll provide estimated pricing based on volume and schedule your service window.</li>
-                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for same-day <strong>junk pickup Lemon Grove</strong> service throughout the community. We coordinate with apartment property managers for access and schedule around your availability for residential properties.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> <strong>junk pickup Lemon Grove</strong> service throughout the community. We coordinate with apartment property managers for access and schedule around your availability for residential properties.</li>
                         <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives in clearly marked trucks during your scheduled window. We assess items for removal and provide a final quote before starting work—no hidden fees or surprises. For apartment complexes, we coordinate with management offices as needed.</li>
                         <li><strong>4. We Load & Haul Everything:</strong> Our team does all lifting, loading, and hauling. We protect floors and doorways, navigate apartment hallways and elevators, and complete removal efficiently. You simply point—we handle the rest, including proper disposal coordination.</li>
                         <li><strong>5. Eco-Friendly Disposal:</strong> We sort items for donation, recycling, and responsible disposal. Usable furniture goes to local East County charities, recyclables to proper facilities, and only true trash to landfill as last resort. We support Lemon Grove's community organizations whenever possible.</li>

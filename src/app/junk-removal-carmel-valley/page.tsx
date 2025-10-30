@@ -230,22 +230,22 @@ export default function JunkRemovalCarmelValleyPage() {
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Carmel Valley</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>junk removal Carmel Valley</strong> service handles the unique mix of items common to upscale North County living—from executive home office furniture to luxury outdoor equipment to home staging preparation. We remove everything from single items to complete estate cleanouts:
+                      Our <strong>junk removal Carmel Valley</strong> service handles the unique mix of items common to upscale North County living—from executive home office <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture removal</a> to luxury outdoor equipment to home staging preparation. We provide <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliance removal</a>, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, and <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a>:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
                         <h4 className="font-bold mb-2">Furniture & Household</h4>
                         <ul className="space-y-1 text-gray-700">
                           <li>• Executive office furniture and home office upgrades</li>
-                          <li>• Luxury sofas, sectionals, and designer pieces</li>
+                          <li>• <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Luxury sofas, sectionals</a>, and designer pieces</li>
                           <li>• Master bedroom sets and guest room furniture</li>
-                          <li>• Dining room tables, chairs, and formal furniture</li>
+                          <li>• <a href="/piano-removal-san-diego" className="text-blue-600 hover:underline">Pianos</a>, dining tables, and formal furniture</li>
                         </ul>
                       </div>
                       <div>
                         <h4 className="font-bold mb-2">Appliances & Electronics</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• High-end refrigerators and wine coolers</li>
+                          <li>• <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">High-end refrigerators</a> and wine coolers</li>
                           <li>• Washer, dryer sets from home renovations</li>
                           <li>• Home theater systems and entertainment centers</li>
                           <li>• Exercise equipment and home gym removal</li>

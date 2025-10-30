@@ -301,9 +301,10 @@ export default function JunkRemovalKearnyMesaPage() {
                         <div>
                           <h4 className="text-lg font-bold mb-3 text-blue-600">Commercial & Industrial Services</h4>
                           <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                            <li><a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">Office cleanouts</a> including cubicles, desks, electronics, filing cabinets</li>
+                            <li><a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">Office cleanouts</a> including cubicles, desks, electronics, filing cabinets</li>
                             <li>Warehouse junk removal with pallets, shelving, equipment, industrial debris</li>
-                            <li><a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">Construction debris removal</a> for commercial fit-outs and renovations</li>
+                            <li><a href="/scrap-metal-removal" className="text-blue-600 hover:underline">Scrap metal removal</a> from industrial facilities and warehouses</li>
+                            <li><a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">Construction debris removal</a> for commercial fit-outs and renovations</li>
                             <li>Restaurant equipment removal including kitchen appliances, furniture, commercial gear</li>
                             <li>Auto dealership and repair shop cleanouts with tools, parts, equipment</li>
                             <li>Retail space clearing for store closures, renovations, inventory purges</li>
@@ -313,8 +314,9 @@ export default function JunkRemovalKearnyMesaPage() {
                           <h4 className="text-lg font-bold mb-3 text-blue-600">Residential Services</h4>
                           <ul className="list-disc pl-6 space-y-2 text-gray-700">
                             <li>Apartment and condo cleanouts in residential pockets throughout Kearny Mesa</li>
-                            <li><a href="/furniture-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">Furniture removal</a> including couches, beds, dining sets, office furniture</li>
-                            <li><a href="/appliance-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">Appliance disposal</a> for refrigerators, washers, dryers, HVAC units</li>
+                            <li><a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Furniture removal</a> including couches, beds, dining sets, office furniture</li>
+                            <li><a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Appliance disposal</a> for refrigerators, washers, dryers, HVAC units</li>
+                            <li><a href="/emergency-junk-removal-san-diego" className="text-blue-600 hover:underline">Emergency junk removal</a> for urgent commercial and business situations</li>
                             <li>Garage and storage area clearing for residential properties</li>
                             <li><a href="/estate-cleanout-san-diego" className="text-blue-600 hover:text-blue-700 underline">Estate cleanouts</a> and downsizing assistance</li>
                             <li>HOA compliant service for apartment complexes and condos</li>

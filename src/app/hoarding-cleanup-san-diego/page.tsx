@@ -156,7 +156,7 @@ export default function HoardingCleanupPage() {
                 </p>
 
                 <p className="text-lg mb-6">
-                  Our hoarding cleanup San Diego team provides compassionate junk removal for individuals and families dealing with hoarding situations. We're not counselors or therapists—we're a professional hauling company that specializes in discreet, respectful removal of accumulated items while treating everyone involved with dignity and understanding.
+                  Our hoarding cleanup San Diego team provides compassionate junk removal for individuals and families dealing with hoarding situations. We're not counselors or therapists—we're a professional hauling company that specializes in discreet, respectful removal of accumulated items while treating everyone involved with dignity and understanding. We also offer <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanout services</a>, <a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">property cleanout services</a>, and <a href="/foreclosure-eviction-cleanout-san-diego" className="text-blue-600 hover:underline">property cleanout</a> for challenging situations.
                 </p>
 
                 <h3 className="text-2xl font-bold mt-10 mb-4">Understanding Hoarding Situations</h3>
@@ -265,14 +265,14 @@ export default function HoardingCleanupPage() {
                     <li>Point Loma & Ocean Beach</li>
                   </ul>
                   <ul className="list-disc pl-4 text-gray-700">
-                    <li>Chula Vista & South Bay</li>
-                    <li>El Cajon & East County</li>
-                    <li>La Mesa & Santee</li>
+                    <li><a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a> & South Bay</li>
+                    <li><a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a> & East County</li>
+                    <li><a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a> & Santee</li>
                     <li>Spring Valley & Lemon Grove</li>
                   </ul>
                   <ul className="list-disc pl-4 text-gray-700">
                     <li>Escondido & North County</li>
-                    <li>Oceanside & Carlsbad</li>
+                    <li><a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a> & Carlsbad</li>
                     <li><a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a> & Vista</li>
                     <li>Poway & Scripps Ranch</li>
                   </ul>

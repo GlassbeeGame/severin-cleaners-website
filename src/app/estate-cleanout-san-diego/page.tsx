@@ -152,11 +152,11 @@ export default function EstateCleanoutPage() {
 
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg mb-4">
-                  Clearing a loved one's home is never easy. There's <a href="/furniture-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">furniture to move</a>, including <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">old furniture and sofa removal services</a>, boxes to haul, appliances to dispose of—and you're dealing with it all while grieving or managing family logistics.
+                  Clearing a loved one's home is never easy. There's <a href="/furniture-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">furniture to move</a>, including <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">old furniture and sofa removal services</a>, boxes to haul, <a href="/appliance-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">appliances to dispose of</a>—and you're dealing with it all while grieving or managing family logistics.
                 </p>
 
                 <p className="text-lg mb-6">
-                  Our estate cleanout San Diego service takes the physical burden off your shoulders. We're a junk hauling company that specializes in estate situations. We remove everything you need gone—respectfully, efficiently, and with compassion for what you're going through.
+                  Our estate cleanout San Diego service takes the physical burden off your shoulders. Whether you're handling an <a href="/junk-removal-escondido" className="text-blue-600 hover:text-blue-700">Escondido estate property</a> or an <a href="/junk-removal-oceanside" className="text-blue-600 hover:text-blue-700">Oceanside family home</a>, we're a junk hauling company that specializes in estate situations. We remove everything you need gone—respectfully, efficiently, and with compassion for what you're going through.
                 </p>
 
                 <h3 className="text-2xl font-bold mt-10 mb-4">What We Remove</h3>
@@ -247,38 +247,38 @@ export default function EstateCleanoutPage() {
 
                 <h3 className="text-2xl font-bold mt-10 mb-4">Serving All San Diego County</h3>
                 <p className="text-lg mb-4">
-                  From La Jolla to Chula Vista, we provide estate cleanout services countywide. Our team serves families in all San Diego neighborhoods with the same care and professionalism.
+                  From <a href="/junk-removal-la-jolla" className="text-blue-600 hover:text-blue-700 underline">La Jolla estate cleanout services</a> to <a href="/junk-removal-chula-vista" className="text-blue-600 hover:text-blue-700 underline">Chula Vista property clearing</a>, we provide estate cleanout services countywide. Our team serves families in all San Diego neighborhoods with the same care and professionalism, including <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:text-blue-700 underline">Rancho Santa Fe estate services</a> and <a href="/junk-removal-del-mar" className="text-blue-600 hover:text-blue-700 underline">Del Mar luxury estate cleanouts</a>.
                 </p>
 
                 <div className="grid md:grid-cols-3 gap-6 mb-8">
                   <div className="bg-white p-4 rounded-lg shadow">
                     <h4 className="font-bold mb-2 text-blue-600">Coastal Areas</h4>
                     <ul className="text-sm space-y-1 text-gray-700">
-                      <li>• La Jolla</li>
-                      <li>• Del Mar</li>
-                      <li>• Pacific Beach</li>
-                      <li>• Point Loma</li>
-                      <li>• Coronado</li>
+                      <li>• <a href="/junk-removal-la-jolla" className="text-blue-600 hover:text-blue-700">La Jolla</a></li>
+                      <li>• <a href="/junk-removal-del-mar" className="text-blue-600 hover:text-blue-700">Del Mar</a></li>
+                      <li>• <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:text-blue-700">Pacific Beach</a></li>
+                      <li>• <a href="/junk-removal-point-loma" className="text-blue-600 hover:text-blue-700">Point Loma</a></li>
+                      <li>• <a href="/junk-removal-carmel-valley" className="text-blue-600 hover:text-blue-700">Carmel Valley</a></li>
                     </ul>
                   </div>
                   <div className="bg-white p-4 rounded-lg shadow">
                     <h4 className="font-bold mb-2 text-blue-600">Central San Diego</h4>
                     <ul className="text-sm space-y-1 text-gray-700">
-                      <li>• Downtown</li>
-                      <li>• Hillcrest</li>
-                      <li>• North Park</li>
-                      <li>• Mission Valley</li>
-                      <li>• Kensington</li>
+                      <li>• <a href="/junk-removal-hillcrest" className="text-blue-600 hover:text-blue-700">Hillcrest</a></li>
+                      <li>• <a href="/junk-removal-north-park" className="text-blue-600 hover:text-blue-700">North Park</a></li>
+                      <li>• <a href="/junk-removal-clairemont" className="text-blue-600 hover:text-blue-700">Clairemont</a></li>
+                      <li>• <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:text-blue-700">Kearny Mesa</a></li>
+                      <li>• <a href="/junk-removal-mira-mesa" className="text-blue-600 hover:text-blue-700">Mira Mesa</a></li>
                     </ul>
                   </div>
                   <div className="bg-white p-4 rounded-lg shadow">
                     <h4 className="font-bold mb-2 text-blue-600">East & South County</h4>
                     <ul className="text-sm space-y-1 text-gray-700">
-                      <li>• El Cajon</li>
-                      <li>• La Mesa</li>
-                      <li>• Chula Vista</li>
-                      <li>• Santee</li>
-                      <li>• Poway</li>
+                      <li>• <a href="/junk-removal-el-cajon" className="text-blue-600 hover:text-blue-700">El Cajon</a></li>
+                      <li>• <a href="/junk-removal-la-mesa" className="text-blue-600 hover:text-blue-700">La Mesa</a></li>
+                      <li>• <a href="/junk-removal-chula-vista" className="text-blue-600 hover:text-blue-700">Chula Vista</a></li>
+                      <li>• <a href="/junk-removal-santee" className="text-blue-600 hover:text-blue-700">Santee</a></li>
+                      <li>• <a href="/junk-removal-poway" className="text-blue-600 hover:text-blue-700">Poway</a></li>
                     </ul>
                   </div>
                 </div>

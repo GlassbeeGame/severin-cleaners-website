@@ -234,22 +234,22 @@ export default function JunkRemovalPointLomaPage() {
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Point Loma</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Point Loma junk removal</strong> service handles the diverse mix of items found in this unique peninsula community—from military household goods during PCS moves to salt-damaged coastal property items, Liberty Station loft renovations to complete estate cleanouts:
+                      Our <strong>Point Loma junk removal</strong> service handles the diverse mix of items found in this unique peninsula community—from military household goods during PCS moves to salt-damaged coastal property items, Liberty Station loft renovations to complete <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>. We offer <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture removal</a>, <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliance disposal</a>, and <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a>:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
                         <h4 className="font-bold mb-2">Furniture & Household</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Sofas, sectionals, recliners from family homes and PCS moves</li>
+                          <li>• <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Sofas, sectionals, recliners</a> from family homes and PCS moves</li>
                           <li>• Mattresses, bed frames during military relocations</li>
                           <li>• Tables, chairs, dressers from estate cleanouts</li>
-                          <li>• Desks, bookshelves, cabinets from garage clearances</li>
+                          <li>• <a href="/piano-removal-san-diego" className="text-blue-600 hover:underline">Pianos</a>, desks, bookshelves, cabinets</li>
                         </ul>
                       </div>
                       <div>
                         <h4 className="font-bold mb-2">Appliances & Electronics</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Refrigerators, washers, dryers from property turnovers</li>
+                          <li>• <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Refrigerators, washers, dryers</a> from property turnovers</li>
                           <li>• Stoves, dishwashers, microwaves needing replacement</li>
                           <li>• TVs, computers, electronics from tech upgrades</li>
                           <li>• AC units, water heaters, HVAC systems</li>

@@ -152,15 +152,15 @@ export default function SameDayJunkRemovalPage() {
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      <strong>Same day junk removal San Diego</strong> means exactly that—service the same day you call. Our <strong>same day junk pickup San Diego</strong> team responds within 2-4 hours when you call before 2 PM. We provide <strong>junk removal San Diego today</strong> for homeowners and businesses throughout the county.
+                      <strong>Same day junk removal San Diego</strong> means exactly that—service the same day you call. Our <strong>same day junk pickup San Diego</strong> team responds within 2-4 hours when you call before 2 PM. We provide <strong>junk removal San Diego today</strong> for homeowners and businesses in <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a>, <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a>, and throughout the county.
                     </p>
 
                     <p className="text-gray-700 mb-6">
-                      When you need <strong>fast junk removal San Diego</strong> that actually shows up today, we've got you covered. Unlike national chains that book you out days or weeks, we're local teams positioned throughout San Diego County. That means <strong>rapid junk removal San Diego</strong> without the wait—we dispatch immediately and arrive the same afternoon.
+                      When you need <strong>fast junk removal San Diego</strong> that actually shows up today, we've got you covered. Unlike national chains that book you out days or weeks, we're local teams positioned throughout San Diego County. We serve <a href="/junk-removal-north-park" className="text-blue-600 hover:underline">North Park</a>, <a href="/junk-removal-hillcrest" className="text-blue-600 hover:underline">Hillcrest</a>, and <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>. That means <strong>rapid junk removal San Diego</strong> without the wait—we dispatch immediately and arrive the same afternoon.
                     </p>
 
                     <p className="text-gray-700 mb-6">
-                      Our <strong>immediate junk removal San Diego</strong> service handles urgent situations where every hour counts. Contractor coming tomorrow? New furniture arriving this afternoon? Landlord inspection in hours? We provide <strong>instant junk removal San Diego</strong> when you need it most.
+                      Our <strong>immediate junk removal San Diego</strong> service handles urgent situations where every hour counts in <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>, <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">Kearny Mesa</a>, and <a href="/junk-removal-clairemont" className="text-blue-600 hover:underline">Clairemont</a>. Contractor coming tomorrow? New furniture arriving this afternoon? Landlord inspection in hours? We provide <strong>instant junk removal San Diego</strong> when you need it most.
                     </p>
 
                     {/* How Fast Can We Get There */}
@@ -272,7 +272,7 @@ export default function SameDayJunkRemovalPage() {
                     {/* Service Areas */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Same-Day Service Throughout San Diego County</h3>
                     <p className="text-gray-700 mb-4">
-                      We provide same-day junk removal service throughout San Diego County. Local teams mean faster response wherever you're located.
+                      We provide same-day junk removal service throughout San Diego County. Local teams mean faster response wherever you're located. Services include <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture removal</a>, <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliance removal</a>, <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">hot tub removal</a>, <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial junk removal</a>, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanout</a>, and <a href="/emergency-junk-removal-san-diego" className="text-blue-600 hover:underline">emergency service</a>.
                     </p>
                     <div className="grid md:grid-cols-3 gap-4 mb-6">
                       <ul className="space-y-1 text-gray-700">

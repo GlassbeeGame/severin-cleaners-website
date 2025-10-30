@@ -235,7 +235,7 @@ export default function JunkRemovalLakesidePage() {
                       <div>
                         <h4 className="font-bold mb-2">Furniture & Household Items</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Large family home furniture and bedroom sets</li>
+                          <li>• Large family home <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture</a> and bedroom sets</li>
                           <li>• Outdoor patio furniture and weather-damaged pieces</li>
                           <li>• Garage storage units, workbenches, tool cabinets</li>
                           <li>• Estate cleanout contents from multi-generational homes</li>
@@ -244,7 +244,7 @@ export default function JunkRemovalLakesidePage() {
                       <div>
                         <h4 className="font-bold mb-2">Appliances & Equipment</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Refrigerators, freezers, washers, dryers from home renovations</li>
+                          <li>• <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Refrigerators, freezers, washers, dryers</a> from home renovations</li>
                           <li>• Workshop equipment, power tools, machinery</li>
                           <li>• RV appliances, boat equipment, recreational gear</li>
                           <li>• Water heaters, HVAC units, well pumps</li>
@@ -265,7 +265,7 @@ export default function JunkRemovalLakesidePage() {
                           <li>• Tree trimming debris and brush clearing materials</li>
                           <li>• Fire safety defensible space vegetation removal</li>
                           <li>• Landscaping waste from multi-acre property maintenance</li>
-                          <li>• Shed cleanouts and outdoor storage building contents</li>
+                          <li>• Shed <a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">cleanouts</a> and outdoor storage building contents</li>
                         </ul>
                       </div>
                     </div>
@@ -275,7 +275,7 @@ export default function JunkRemovalLakesidePage() {
                     <div className="bg-blue-50 rounded-lg p-6 mb-6">
                       <ol className="space-y-3 text-gray-700">
                         <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe what you need removed and your Lakeside location. For rural properties, provide access details like gate codes or dirt road conditions. We'll provide estimated pricing based on volume and schedule your service window.</li>
-                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for same-day <strong>junk pickup Lakeside</strong> service throughout East County rural areas. For remote properties or large ranch cleanouts, we recommend scheduling 24-48 hours ahead to coordinate access and ensure appropriate equipment.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> <strong>junk pickup Lakeside</strong> service throughout East County rural areas. For remote properties or large ranch cleanouts, we recommend scheduling 24-48 hours ahead to coordinate access and ensure appropriate equipment.</li>
                         <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives in clearly marked trucks during your scheduled window. We assess items for removal and provide a final quote before starting work—no hidden fees or surprises. For large properties, we walk the entire site to understand full scope.</li>
                         <li><strong>4. We Load & Haul Everything:</strong> Our team does all lifting, loading, and hauling. We protect floors and doorways, navigate barn access and ranch property challenges, and complete removal efficiently. You simply point—we handle the rest, including coordination around livestock and farm operations.</li>
                         <li><strong>5. Eco-Friendly Disposal:</strong> We sort items for donation, recycling, and responsible disposal. Usable furniture goes to local charities, agricultural materials to proper facilities, and recyclables to appropriate centers. Only true trash to landfill as last resort.</li>

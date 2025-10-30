@@ -258,8 +258,8 @@ export default function JunkRemovalLaMesaPage() {
                       <div>
                         <h4 className="font-bold mb-2">Furniture & Household</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Sofas, couches, sectionals from living rooms</li>
-                          <li>• Mattresses, box springs, bed frames</li>
+                          <li>• <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Sofas, couches, sectionals</a> from living rooms</li>
+                          <li>• <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">Mattresses</a>, box springs, bed frames</li>
                           <li>• Tables, chairs, dining sets</li>
                           <li>• Dressers, desks, cabinets, bookshelves</li>
                         </ul>
@@ -267,7 +267,7 @@ export default function JunkRemovalLaMesaPage() {
                       <div>
                         <h4 className="font-bold mb-2">Appliances & Electronics</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Refrigerators, washers, dryers</li>
+                          <li>• <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Refrigerators, washers, dryers</a></li>
                           <li>• Stoves, dishwashers, microwaves</li>
                           <li>• TVs, computers, entertainment systems</li>
                           <li>• Water heaters and HVAC units</li>
@@ -285,8 +285,8 @@ export default function JunkRemovalLaMesaPage() {
                       <div>
                         <h4 className="font-bold mb-2">Cleanouts & Projects</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Estate cleanouts for inherited properties</li>
-                          <li>• Apartment and condo move-outs</li>
+                          <li>• <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate cleanouts</a> for inherited properties</li>
+                          <li>• Apartment and condo move-outs with <a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">professional cleanout services</a></li>
                           <li>• Storage unit clearing</li>
                           <li>• <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">Construction debris</a> from remodels</li>
                         </ul>
@@ -298,7 +298,7 @@ export default function JunkRemovalLaMesaPage() {
                     <div className="bg-blue-50 rounded-lg p-6 mb-6">
                       <ol className="space-y-3 text-gray-700">
                         <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe what you need removed and your La Mesa location. We'll provide estimated pricing based on volume.</li>
-                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for same-day service throughout La Mesa. We coordinate arrival times around your schedule and local traffic patterns.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a> throughout La Mesa. We coordinate arrival times around your schedule and local traffic patterns.</li>
                         <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives in clearly marked trucks during your scheduled window. We assess items for removal and provide a final quote before starting work—no hidden fees.</li>
                         <li><strong>4. We Load & Haul Everything:</strong> Our team does all lifting, loading, and hauling. We protect floors and doorways, navigate stairs and hillside access, and complete removal efficiently. You simply point—we handle everything.</li>
                         <li><strong>5. Eco-Friendly Disposal:</strong> We sort items for donation, recycling, and responsible disposal. Usable furniture goes to local charities, recyclables to proper facilities, and only true waste to landfill.</li>

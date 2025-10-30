@@ -289,24 +289,26 @@ export default function JunkRemovalHillcrestPage() {
                         <div>
                           <h3 className="text-xl font-bold mb-3 text-green-600">Residential & Historic Items</h3>
                           <ul className="space-y-2 text-gray-700">
-                            <li><strong>High-rise furniture:</strong> Sofas, beds, dining sets from Robinson Avenue and Fifth Avenue condo towers</li>
+                            <li><strong>High-rise <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture</a>:</strong> Sofas, beds, dining sets from Robinson Avenue and Fifth Avenue condo towers</li>
                             <li><strong>Historic home items:</strong> Victorian furniture, antique fixtures, built-ins from First-Fourth Avenue homes</li>
                             <li><strong>Apartment turnovers:</strong> Complete cleanouts from Hillcrest's many multi-story apartment buildings</li>
-                            <li><strong>Appliances:</strong> Refrigerators, washers, dryers from condos and older homes</li>
+                            <li><strong><a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Appliances</a>:</strong> Refrigerators, washers, dryers from condos and older homes</li>
                             <li><strong>Exercise equipment:</strong> Treadmills, bikes, weight benches from urban apartments</li>
                             <li><strong>Electronics:</strong> TVs, computers, stereo equipment for eco-friendly disposal</li>
-                            <li><strong>Mattresses:</strong> Box springs and frames from frequent apartment moves</li>
+                            <li><strong><a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">Mattresses</a>:</strong> Box springs and frames from frequent apartment moves</li>
+                            <li><strong>Old <a href="/couch-removal-san-diego" className="text-blue-600 hover:underline">couches</a>:</strong> From condo renovations and apartment updates</li>
                           </ul>
                         </div>
                         <div>
                           <h3 className="text-xl font-bold mb-3 text-green-600">Medical & Commercial Items</h3>
                           <ul className="space-y-2 text-gray-700">
                             <li><strong>Medical office furniture:</strong> Waiting room chairs, desks, filing cabinets from physician offices</li>
-                            <li><strong>Restaurant equipment:</strong> Kitchen items, furniture from Fifth Avenue dining establishments</li>
+                            <li><strong>Restaurant equipment:</strong> Kitchen items, furniture from Fifth Avenue dining establishments with <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial junk removal</a></li>
                             <li><strong>Retail fixtures:</strong> Displays, shelving, signage from University Avenue businesses</li>
                             <li><strong>Professional office items:</strong> Cubicles, desks, chairs from medical district buildings</li>
                             <li><strong>Renovation debris:</strong> Construction materials from historic home restorations and condo updates</li>
-                            <li><strong>Estate items:</strong> Full-home cleanouts from Victorian and Craftsman properties</li>
+                            <li><strong><a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate items</a>:</strong> Full-home cleanouts from Victorian and Craftsman properties</li>
+                            <li><strong><a href="/emergency-junk-removal-san-diego" className="text-blue-600 hover:underline">Emergency service</a>:</strong> Rapid response for urgent medical district and business needs</li>
                             <li><strong>Community organization materials:</strong> Furniture and equipment from LGBTQ+ center cleanouts</li>
                           </ul>
                         </div>

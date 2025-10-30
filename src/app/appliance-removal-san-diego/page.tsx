@@ -152,11 +152,11 @@ export default function ApplianceRemovalPage() {
 
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg mb-4">
-                  Whether you just upgraded your kitchen or have a broken washer collecting dust, we make appliance removal in San Diego easy.
+                  Whether you just upgraded your kitchen or have a broken washer collecting dust, we make appliance removal in San Diego easy. From <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla high-end appliance removal</a> to <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach appliance disposal</a>, we're the trusted choice for homeowners and businesses.
                 </p>
 
                 <p className="text-lg mb-6">
-                  We remove refrigerators, washers, dryers, stoves, dishwashers—you name it. From La Jolla to Chula Vista, Point Loma to North Park, we help homeowners reclaim their space daily with safe, eco-friendly appliance hauling. Also need <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture disposal</a> or <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">mattress removal</a>? We handle it all.
+                  We remove refrigerators, washers, dryers, stoves, dishwashers—you name it. Our service covers <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista appliance hauling</a> to Point Loma, North Park to <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon refrigerator removal</a>, helping homeowners reclaim their space daily with safe, eco-friendly appliance disposal. Also need <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture disposal</a> or <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">mattress removal</a>? We handle it all.
                 </p>
 
                 <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove</h3>
@@ -218,12 +218,12 @@ export default function ApplianceRemovalPage() {
 
                 <h4 className="text-xl font-bold mt-6 mb-3">Refrigerator Removal San Diego</h4>
                 <p className="text-lg mb-6">
-                  Our refrigerator removal specialists handle units from garages, condos, or upstairs kitchens. We safely navigate tight spaces and recycle Freon-compliant units responsibly.
+                  Our refrigerator removal specialists handle units from garages, condos, or upstairs kitchens. Whether it's <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">commercial appliance removal in Kearny Mesa</a> or residential service in <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa washer and dryer removal</a>, we safely navigate tight spaces and recycle Freon-compliant units responsibly.
                 </p>
 
                 <h4 className="text-xl font-bold mt-6 mb-3">Washer & Dryer Removal San Diego</h4>
                 <p className="text-lg mb-6">
-                  We disconnect, remove, and haul both units together—perfect for laundry upgrades or new appliance deliveries.
+                  We disconnect, remove, and haul both units together—perfect for laundry upgrades or new appliance deliveries. Our team provides efficient service from <a href="/junk-removal-mira-mesa" className="text-blue-600 hover:underline">Mira Mesa appliance recycling</a> to <a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee appliance pickup</a>.
                 </p>
 
                 <h4 className="text-xl font-bold mt-6 mb-3">Stove & Dishwasher Removal San Diego</h4>
@@ -307,7 +307,7 @@ export default function ApplianceRemovalPage() {
 
                 <h3 className="text-2xl font-bold mt-8 mb-4">Serving All of San Diego County</h3>
                 <p className="text-lg mb-4">
-                  We provide appliance removal San Diego and appliance disposal services everywhere:
+                  We provide appliance removal San Diego and appliance disposal services everywhere, including <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside appliance disposal services</a> and <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar luxury appliance removal</a>.
                 </p>
 
                 <p className="text-lg mb-6 text-gray-700">

@@ -410,25 +410,29 @@ export default function JunkRemovalLaJollaPage() {
                           Premium Junk Removal Services in La Jolla
                         </h2>
 
+                        <p className="text-lg text-gray-700 mb-6">
+                          Our La Jolla junk removal services include specialized offerings for luxury estates and high-end properties. From <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline font-semibold">estate cleanouts</a> to <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline font-semibold">designer furniture removal</a>, we handle every detail with white-glove care. Need <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline font-semibold">same-day service</a> for your luxury property? We're available throughout La Jolla's exclusive communities.
+                        </p>
+
                         <div className="grid md:grid-cols-2 gap-8 mb-8">
                           <div>
                             <h3 className="text-xl font-bold mb-4 text-blue-600">Luxury Estate Services</h3>
                             <ul className="space-y-2 text-gray-700">
-                              <li><strong>Luxury Estate Cleanouts</strong> — Trust properties, inheritances, and estate transitions</li>
-                              <li><strong>High-End Furniture Removal</strong> — Antiques, designer pieces, fine art coordination</li>
+                              <li><a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline"><strong>Luxury Estate Cleanouts</strong></a> — Trust properties, inheritances, and estate transitions</li>
+                              <li><a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline"><strong>High-End Furniture Removal</strong></a> — Antiques, designer pieces, fine art coordination</li>
+                              <li><a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline"><strong>Hot Tub & Spa Removal</strong></a> — Backyard luxury amenity disposal and demolition</li>
+                              <li><a href="/piano-removal-san-diego" className="text-blue-600 hover:underline"><strong>Piano Removal</strong></a> — Grand pianos, baby grands, specialty instruments</li>
                               <li><strong>Property Sale Preparation</strong> — Decluttering and staging for $5M+ listings</li>
-                              <li><strong>Eco-Luxury Disposal</strong> — Donation, recycling, consignment partnerships</li>
-                              <li><strong>White-Glove Service</strong> — Floor protection, careful handling, discrete removal</li>
                             </ul>
                           </div>
                           <div>
                             <h3 className="text-xl font-bold mb-4 text-blue-600">Specialized La Jolla Services</h3>
                             <ul className="space-y-2 text-gray-700">
+                              <li><a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline"><strong>High-End Appliance Removal</strong></a> — Sub-Zero, Viking, luxury appliances</li>
+                              <li><a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline"><strong>Same-Day Junk Removal</strong></a> — Urgent service for luxury properties</li>
                               <li><strong>Renovation Debris Removal</strong> — Discreet cleanup for luxury remodels</li>
                               <li><strong>Coastal Property Maintenance</strong> — Salt-damaged item removal</li>
                               <li><strong>Executive Relocations</strong> — Corporate housing transitions</li>
-                              <li><strong>Vacation Home Management</strong> — Seasonal cleanouts, rental turnovers</li>
-                              <li><strong>UCSD Faculty Services</strong> — Academic community support</li>
                             </ul>
                           </div>
                         </div>

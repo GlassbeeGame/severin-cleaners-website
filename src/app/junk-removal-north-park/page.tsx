@@ -292,19 +292,20 @@ export default function JunkRemovalNorthParkPage() {
                         <div>
                           <h3 className="text-xl font-bold mb-3 text-green-600">Residential Items</h3>
                           <ul className="space-y-2 text-gray-700">
-                            <li><strong>Apartment furniture:</strong> Sofas, beds, dining sets from University Avenue and 30th Street multi-story buildings</li>
+                            <li><strong>Apartment <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture</a>:</strong> Sofas, beds, dining sets from University Avenue and 30th Street multi-story buildings</li>
                             <li><strong>Craftsman home items:</strong> Built-in furniture, vintage fixtures, renovation debris from historic properties</li>
-                            <li><strong>Appliances:</strong> Refrigerators, washers, dryers, dishwashers from older homes and apartment complexes</li>
+                            <li><strong><a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Appliances</a>:</strong> Refrigerators, washers, dryers, dishwashers from older homes and apartment complexes</li>
                             <li><strong>Exercise equipment:</strong> Treadmills, weight benches, home gym equipment from urban condos</li>
                             <li><strong>Electronics:</strong> TVs, computers, stereo equipment for eco-friendly recycling</li>
-                            <li><strong>Mattresses & box springs:</strong> From apartment turnovers and bedroom updates</li>
+                            <li><strong><a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">Mattresses</a> & box springs:</strong> From apartment turnovers and bedroom updates</li>
+                            <li><strong>Old <a href="/couch-removal-san-diego" className="text-blue-600 hover:underline">couches</a>:</strong> From bungalows and apartment updates</li>
                             <li><strong>Yard waste:</strong> Tree trimmings, plant debris, landscaping materials from residential properties</li>
                           </ul>
                         </div>
                         <div>
                           <h3 className="text-xl font-bold mb-3 text-green-600">Commercial & Creative Items</h3>
                           <ul className="space-y-2 text-gray-700">
-                            <li><strong>Restaurant equipment:</strong> Kitchen appliances, tables, chairs from 30th Street dining establishments</li>
+                            <li><strong>Restaurant equipment:</strong> Kitchen appliances, tables, chairs from 30th Street dining establishments with <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial junk removal</a></li>
                             <li><strong>Bar fixtures:</strong> Glassware, furniture, equipment from nightlife venues</li>
                             <li><strong>Retail displays:</strong> Shelving, fixtures, signage from University Avenue shops</li>
                             <li><strong>Office furniture:</strong> Desks, chairs, filing cabinets from mixed-use buildings</li>

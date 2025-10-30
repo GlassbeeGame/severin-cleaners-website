@@ -235,8 +235,8 @@ export default function JunkRemovalPowayPage() {
                       <div>
                         <h4 className="font-bold mb-2">Furniture & Household</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Sofas, sectionals, couches from family room upgrades</li>
-                          <li>• Mattresses, bed frames, bedroom furniture sets</li>
+                          <li>• <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Sofas, sectionals, couches</a> from family room upgrades</li>
+                          <li>• <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">Mattresses</a>, bed frames, bedroom furniture sets</li>
                           <li>• Dining tables, chairs, china cabinets for downsizing</li>
                           <li>• Desks, office furniture, home workspace equipment</li>
                         </ul>
@@ -244,7 +244,7 @@ export default function JunkRemovalPowayPage() {
                       <div>
                         <h4 className="font-bold mb-2">Appliances & Electronics</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Refrigerators, freezers, washers, dryers from upgrades</li>
+                          <li>• <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Refrigerators, freezers, washers, dryers</a> from upgrades</li>
                           <li>• Dishwashers, stoves, microwaves during remodels</li>
                           <li>• TVs, computers, electronics from tech updates</li>
                           <li>• Exercise equipment, treadmills, home gym gear</li>
@@ -257,14 +257,15 @@ export default function JunkRemovalPowayPage() {
                           <li>• Fencing materials, posts, wire from property updates</li>
                           <li>• Patio furniture, BBQ grills, outdoor entertaining equipment</li>
                           <li>• <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">Hot tubs and spas</a> from backyard renovations</li>
+                          <li>• <a href="/piano-removal-san-diego" className="text-blue-600 hover:underline">Pianos and heavy instruments</a> from estate sales</li>
                         </ul>
                       </div>
                       <div>
                         <h4 className="font-bold mb-2">Cleanouts & Debris</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Estate cleanouts for multi-generation family properties</li>
+                          <li>• <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate cleanouts</a> for multi-generation family properties</li>
                           <li>• Garage and storage shed complete clearances</li>
-                          <li>• Construction debris from home additions and remodels</li>
+                          <li>• <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">Construction debris</a> from home additions and remodels</li>
                           <li>• Yard waste, tree trimmings, landscaping materials</li>
                         </ul>
                       </div>

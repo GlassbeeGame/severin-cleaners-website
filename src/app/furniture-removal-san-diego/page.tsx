@@ -75,7 +75,7 @@ export const metadata: Metadata = {
 const relatedServices = [
   { name: "Couch Removal", slug: "couch-removal-san-diego" },
   { name: "Mattress Disposal", slug: "san-diego-mattress-disposal" },
-  { name: "Appliance Removal", slug: "appliance-removal-san-diego" },
+  { name: "Piano Removal", slug: "piano-removal-san-diego" },
   { name: "Same-Day Junk Removal", slug: "same-day-junk-removal-san-diego" },
 ];
 
@@ -198,7 +198,7 @@ export default function FurnitureRemovalPage() {
                     </p>
 
                     <p className="text-lg mb-6">
-                      Whatever the reason, our <strong>furniture removal San Diego</strong> service makes it easy. We handle <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline font-semibold">couches and sofa pickup</a>, desks, mattresses, dressers—anything you need gone. From luxury estates in <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> to beach houses in <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a>, we're helping San Diego homeowners and businesses clear out unwanted furniture every day, including <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">couch removal</a> and sectional disposal.
+                      Whatever the reason, our <strong>furniture removal San Diego</strong> service makes it easy. We handle <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline font-semibold">specialized couch removal service</a>, desks, <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:text-blue-700 underline font-semibold">mattress disposal and recycling</a>, dressers—anything you need gone. Need <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">same-day furniture pickup</a>? We've got you covered. From <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">luxury furniture removal in La Jolla</a> to <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach furniture pickup</a>, <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar estate furniture removal</a> to <a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley residential furniture hauling</a>, we're helping San Diego homeowners and businesses clear out unwanted furniture every day.
                     </p>
 
                     <h3 className="text-2xl font-bold mt-10 mb-4">What We Remove</h3>
@@ -248,7 +248,7 @@ export default function FurnitureRemovalPage() {
                           <li>Dining tables & chairs</li>
                           <li>Patio furniture</li>
                           <li>Exercise equipment</li>
-                          <li>Pianos</li>
+                          <li><a href="/piano-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">Pianos</a> (expert piano removal services)</li>
                           <li>Pool tables</li>
                         </ul>
                       </div>
@@ -287,17 +287,17 @@ export default function FurnitureRemovalPage() {
 
                     <h3 className="text-2xl font-bold mt-10 mb-4">Couch Removal</h3>
                     <p className="text-lg mb-6">
-                      Old couches are bulky, heavy, and a pain to move. Our <strong>couch removal San Diego</strong> service takes care of everything. Whether it's a sectional that won't fit through the door or a sleeper sofa weighing 300 pounds, we've got the equipment and expertise to get it out safely—even from upstairs apartments.
+                      Old couches are bulky, heavy, and a pain to move. Our <strong>couch removal San Diego</strong> service takes care of everything. Whether it's a sectional that won't fit through the door or a sleeper sofa weighing 300 pounds, we provide service from <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a> to <a href="/junk-removal-point-loma" className="text-blue-600 hover:underline">Point Loma furniture disposal</a>. We've got the equipment and expertise to get it out safely—even from upstairs apartments.
                     </p>
 
                     <h3 className="text-2xl font-bold mt-10 mb-4">Sofa Removal</h3>
                     <p className="text-lg mb-6">
-                      Need a <strong>sofa removal San Diego</strong> team that shows up on time and does the job right? That's us. We handle loveseats, futons, and modular seating. Just point us to what needs to go, and we'll handle the rest.
+                      Need a <strong>sofa removal San Diego</strong> team that shows up on time and does the job right? That's us. We handle loveseats, futons, and modular seating from <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe luxury furniture services</a> to <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside furniture hauling services</a>. Just point us to what needs to go, and we'll handle the rest.
                     </p>
 
                     <h3 className="text-2xl font-bold mt-10 mb-4">Office Furniture Removal</h3>
                     <p className="text-lg mb-6">
-                      Closing an office? Upgrading your workspace? Our <strong>office furniture removal San Diego</strong> service handles corporate cleanouts of all sizes. From executive suites in <a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a> to downtown offices, we remove desks, cubicles, conference tables, and filing cabinets quickly and professionally—with minimal disruption to your business.
+                      Closing an office? Upgrading your workspace? Our <strong>office furniture removal San Diego</strong> service handles corporate cleanouts of all sizes. From executive suites in Carmel Valley to downtown offices, we remove desks, cubicles, conference tables, and filing cabinets quickly and professionally—with minimal disruption to your business.
                     </p>
 
                     <h3 className="text-2xl font-bold mt-10 mb-4">Desk Removal</h3>
@@ -438,7 +438,7 @@ export default function FurnitureRemovalPage() {
         <section className="py-12 bg-white">
           <div className="container mx-auto px-4">
             <h3 className="text-2xl font-bold text-center mb-8">Related Specialized Services</h3>
-            <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            <div className="grid md:grid-cols-4 gap-6 max-w-6xl mx-auto">
               <a href="/couch-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
                 <h4 className="font-semibold text-lg mb-2 text-blue-600">Couch Removal</h4>
                 <p className="text-gray-600">Fast sofa and sectional pickup throughout San Diego</p>
@@ -447,9 +447,13 @@ export default function FurnitureRemovalPage() {
                 <h4 className="font-semibold text-lg mb-2 text-blue-600">Mattress Disposal</h4>
                 <p className="text-gray-600">Eco-friendly mattress and box spring removal</p>
               </a>
-              <a href="/appliance-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
-                <h4 className="font-semibold text-lg mb-2 text-blue-600">Appliance Removal</h4>
-                <p className="text-gray-600">Safe removal and disposal of all household appliances</p>
+              <a href="/piano-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Piano Removal</h4>
+                <p className="text-gray-600">Expert piano removal services with careful handling</p>
+              </a>
+              <a href="/same-day-junk-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">Same-Day Service</h4>
+                <p className="text-gray-600">Fast same-day furniture pickup when you need it</p>
               </a>
             </div>
           </div>

@@ -275,7 +275,7 @@ export default function SanDiegoDumpFeesGuide() {
                           <span className="font-bold text-gray-900">$75-$150+</span>
                         </li>
                         <li className="flex justify-between">
-                          <span className="text-gray-700">Construction debris (per ton)</span>
+                          <span className="text-gray-700"><Link href="/construction-debris-removal-san-diego" className="text-blue-600 hover:text-blue-700">Construction debris</Link> (per ton)</span>
                           <span className="font-bold text-gray-900">$100-$175</span>
                         </li>
                       </ul>
@@ -307,7 +307,7 @@ export default function SanDiegoDumpFeesGuide() {
                   <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 mb-8 rounded-r-lg">
                     <p className="text-gray-700 font-semibold mb-2">⚠️ Important Notes:</p>
                     <ul className="space-y-2 text-gray-700">
-                      <li>• Fees increase for construction debris, appliances, and special waste</li>
+                      <li>• Fees increase for <Link href="/construction-debris-removal-san-diego" className="text-blue-600 hover:text-blue-700">construction debris</Link>, <Link href="/appliance-removal-san-diego" className="text-blue-600 hover:text-blue-700">appliances</Link>, and special waste</li>
                       <li>• Uncovered loads may incur $50+ penalty fees</li>
                       <li>• Some materials (tires, batteries, electronics) have separate fees or restrictions</li>
                       <li>• Fees are subject to change - call ahead to confirm current rates</li>
@@ -443,7 +443,7 @@ export default function SanDiegoDumpFeesGuide() {
                       <h3 className="text-xl font-bold text-gray-900 mb-4">✓ Junk Removal Makes Sense If:</h3>
                       <ul className="space-y-2 text-gray-700">
                         <li>• You value your time</li>
-                        <li>• Multiple heavy items</li>
+                        <li>• Multiple heavy items (like <Link href="/san-diego-mattress-disposal" className="text-blue-600 hover:text-blue-700">mattresses</Link> or <Link href="/scrap-metal-removal" className="text-blue-600 hover:text-blue-700">scrap metal</Link>)</li>
                         <li>• No truck available</li>
                         <li>• Need it done quickly</li>
                         <li>• Want eco-friendly disposal</li>
@@ -514,7 +514,7 @@ export default function SanDiegoDumpFeesGuide() {
                   </p>
 
                   <p className="text-gray-700 leading-relaxed mb-6">
-                    Call <a href="tel:+16197500114" className="text-blue-600 hover:text-blue-700 font-bold">(619) 750-0114</a> for a free quote. Same-day service available throughout San Diego County.
+                    Call <a href="tel:+16197500114" className="text-blue-600 hover:text-blue-700 font-bold">(619) 750-0114</a> for a free quote. <Link href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:text-blue-700 font-semibold">Same-day service</Link> available throughout San Diego County including <Link href="/junk-removal-chula-vista" className="text-blue-600 hover:text-blue-700">Chula Vista</Link>, <Link href="/junk-removal-el-cajon" className="text-blue-600 hover:text-blue-700">El Cajon</Link>, <Link href="/junk-removal-la-mesa" className="text-blue-600 hover:text-blue-700">La Mesa</Link>, <Link href="/junk-removal-santee" className="text-blue-600 hover:text-blue-700">Santee</Link>, and <Link href="/junk-removal-oceanside" className="text-blue-600 hover:text-blue-700">Oceanside</Link>.
                   </p>
                 </div>
 
