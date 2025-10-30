@@ -285,27 +285,27 @@ export default function FurnitureRemovalPage() {
                       </div>
                     </div>
 
-                    <h3 className="text-2xl font-bold mt-10 mb-4">Couch Removal</h3>
+                    <h2 className="text-3xl font-bold mt-10 mb-4">Couch Removal</h2>
                     <p className="text-lg mb-6">
                       Old couches are bulky, heavy, and a pain to move. Our <strong>couch removal San Diego</strong> service takes care of everything. Whether it's a sectional that won't fit through the door or a sleeper sofa weighing 300 pounds, we provide service from <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a> to <a href="/junk-removal-point-loma" className="text-blue-600 hover:underline">Point Loma furniture disposal</a>. We've got the equipment and expertise to get it out safely—even from upstairs apartments.
                     </p>
 
-                    <h3 className="text-2xl font-bold mt-10 mb-4">Sofa Removal</h3>
+                    <h2 className="text-3xl font-bold mt-10 mb-4">Sofa Removal</h2>
                     <p className="text-lg mb-6">
                       Need a <strong>sofa removal San Diego</strong> team that shows up on time and does the job right? That's us. We handle loveseats, futons, and modular seating from <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe luxury furniture services</a> to <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside furniture hauling services</a>. Just point us to what needs to go, and we'll handle the rest.
                     </p>
 
-                    <h3 className="text-2xl font-bold mt-10 mb-4">Office Furniture Removal</h3>
+                    <h2 className="text-3xl font-bold mt-10 mb-4">Office Furniture Removal</h2>
                     <p className="text-lg mb-6">
                       Closing an office? Upgrading your workspace? Our <strong>office furniture removal San Diego</strong> service handles corporate cleanouts of all sizes. From executive suites in Carmel Valley to downtown offices, we remove desks, cubicles, conference tables, and filing cabinets quickly and professionally—with minimal disruption to your business.
                     </p>
 
-                    <h3 className="text-2xl font-bold mt-10 mb-4">Desk Removal</h3>
+                    <h2 className="text-3xl font-bold mt-10 mb-4">Desk Removal</h2>
                     <p className="text-lg mb-6">
                       Those big executive desks can be surprisingly heavy. Our <strong>desk removal San Diego</strong> team has the tools to disassemble and remove desks of any size—from home office setups to industrial metal desks weighing hundreds of pounds.
                     </p>
 
-                    <h3 className="text-2xl font-bold mt-10 mb-4">Old Furniture Disposal</h3>
+                    <h2 className="text-3xl font-bold mt-10 mb-4">Old Furniture Disposal</h2>
                     <p className="text-lg mb-6">
                       When it comes to <strong>old furniture removal San Diego</strong>, we've seen it all. Worn-out recliners, broken bed frames, outdated dining sets—if it's furniture and you need it gone, we'll haul it away and dispose of it properly according to local San Diego regulations.
                     </p>

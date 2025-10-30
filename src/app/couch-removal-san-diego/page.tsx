@@ -292,7 +292,7 @@ export default function CouchRemovalPage() {
                     We provide flexible pickup times for business hours, tenant turnovers, and hotel refreshes.
                   </p>
 
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Neighborhood-Specific Solutions</h3>
+                  <h2 className="text-3xl font-bold text-gray-900 mb-4">Neighborhood-Specific Solutions</h2>
 
                   <div className="grid md:grid-cols-3 gap-6 mb-8">
                     <div className="bg-gray-50 p-6 rounded-lg">
@@ -321,12 +321,12 @@ export default function CouchRemovalPage() {
                     </div>
                   </div>
 
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Couch Disposal vs. the San Diego Dump</h3>
+                  <h2 className="text-3xl font-bold text-gray-900 mb-4">Couch Disposal vs. the San Diego Dump</h2>
                   <p className="text-lg text-gray-700 mb-6">
                     Dragging a couch to the Miramar Landfill or city dump can take hours, require a permit, and cost more than you think. Our <strong>couch removal San Diego</strong> service is faster, cleaner, and fully handled by professionals. We load, haul, and dispose responsibly—no appointments, no dump lines, and no lifting.
                   </p>
 
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Transparent Load-Based Pricing</h3>
+                  <h2 className="text-3xl font-bold text-gray-900 mb-4">Pricing & Service Options</h2>
                   <p className="text-lg text-gray-700 mb-4">
                     Our pricing includes labor, hauling, and disposal fees.
                   </p>
@@ -363,7 +363,7 @@ export default function CouchRemovalPage() {
                     Unlike national junk franchises, we're San Diego-based, which means faster arrival and lower fuel costs. Competitors often charge surcharges for stairs, tight access, or late pickups—our quotes already include those. We also recycle and donate when possible, while many competitors haul straight to the dump.
                   </p>
 
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Eco-Friendly Furniture Recycling</h3>
+                  <h2 className="text-3xl font-bold text-gray-900 mb-4">Eco-Friendly Furniture Recycling</h2>
                   <p className="text-lg text-gray-700 mb-6">
                     When couches are in good shape, we work with local charities like the San Diego Rescue Mission and Habitat for Humanity ReStore to give them a second life. Damaged or non-recyclable pieces are disposed of responsibly through licensed facilities. Our goal is to reduce landfill waste while keeping your removal quick and affordable.
                   </p>

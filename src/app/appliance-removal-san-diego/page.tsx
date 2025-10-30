@@ -214,24 +214,24 @@ export default function ApplianceRemovalPage() {
                   </div>
                 </div>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">Specialized Appliance Removal Services</h3>
+                <h2 className="text-3xl font-bold mt-8 mb-4">Specialized Appliance Removal Services</h2>
 
-                <h4 className="text-xl font-bold mt-6 mb-3">Refrigerator Removal San Diego</h4>
+                <h3 className="text-2xl font-bold mt-6 mb-3">Refrigerator Removal San Diego</h3>
                 <p className="text-lg mb-6">
                   Our refrigerator removal specialists handle units from garages, condos, or upstairs kitchens. Whether it's <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">commercial appliance removal in Kearny Mesa</a> or residential service in <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa washer and dryer removal</a>, we safely navigate tight spaces and recycle Freon-compliant units responsibly.
                 </p>
 
-                <h4 className="text-xl font-bold mt-6 mb-3">Washer & Dryer Removal San Diego</h4>
+                <h3 className="text-2xl font-bold mt-6 mb-3">Washer & Dryer Removal San Diego</h3>
                 <p className="text-lg mb-6">
                   We disconnect, remove, and haul both units together—perfect for laundry upgrades or new appliance deliveries. Our team provides efficient service from <a href="/junk-removal-mira-mesa" className="text-blue-600 hover:underline">Mira Mesa appliance recycling</a> to <a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee appliance pickup</a>.
                 </p>
 
-                <h4 className="text-xl font-bold mt-6 mb-3">Stove & Dishwasher Removal San Diego</h4>
+                <h3 className="text-2xl font-bold mt-6 mb-3">Stove & Dishwasher Removal San Diego</h3>
                 <p className="text-lg mb-6">
                   From gas ranges to built-in dishwashers, our stove removal San Diego team handles careful extraction without damaging cabinetry.
                 </p>
 
-                <h4 className="text-xl font-bold mt-6 mb-3">Freezer Removal San Diego</h4>
+                <h3 className="text-2xl font-bold mt-6 mb-3">Freezer Removal San Diego</h3>
                 <p className="text-lg mb-6">
                   We remove garage or chest freezers of all sizes—no need to lift a thing. Just empty the contents, and we'll handle the rest. Also removing furniture? Check our <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture removal service</a>.
                 </p>
