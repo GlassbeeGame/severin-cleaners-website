@@ -449,3 +449,26 @@ export function combineSchemas(...schemas: object[]) {
     "@graph": schemas,
   };
 }
+
+/**
+ * Generate FAQ schema from FAQ data array
+ */
+export interface FAQ {
+  question: string;
+  answer: string;
+}
+
+export function generateFAQSchema(faqs: FAQ[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer.replace(/<[^>]*>/g, '')
+      }
+    }))
+  };
+}

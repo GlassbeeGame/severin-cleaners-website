@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
+import FAQSection from "@/components/FAQSection";
+import { generateFAQSchema } from "@/lib/schema";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateBreadcrumbSchema, generateLocalBusinessSchema } from "@/lib/schema";
 

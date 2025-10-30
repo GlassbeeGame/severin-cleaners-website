@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
+import FAQSection from "@/components/FAQSection";
+import { generateFAQSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";

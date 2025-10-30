@@ -1,11 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-
-export interface FAQ {
-  question: string;
-  answer: string;
-}
+import type { FAQ } from '@/lib/schema';
 
 interface FAQSectionProps {
   title: string;
@@ -120,19 +116,4 @@ export default function FAQSection({
       </section>
     </>
   );
-}
-
-export function generateFAQSchema(faqs: FAQ[]) {
-  return {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": faqs.map(faq => ({
-      "@type": "Question",
-      "name": faq.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": faq.answer.replace(/<[^>]*>/g, '')
-      }
-    }))
-  };
 }

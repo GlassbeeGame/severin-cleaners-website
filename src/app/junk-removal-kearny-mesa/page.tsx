@@ -2,7 +2,8 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
+import FAQSection from "@/components/FAQSection";
+import { generateFAQSchema } from "@/lib/schema";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import LocationPricingSection from "@/components/LocationPricingSection";
@@ -68,53 +69,6 @@ export const metadata: Metadata = {
   },
 };
 
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does junk removal cost in Kearny Mesa?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our Kearny Mesa junk removal pricing is transparent and upfront with no hidden fees. Here's our standard pricing structure: Single Item Pickup starting at $100, 1/4 Trailer Load $249, 3/8 Trailer Load $319, 1/2 Trailer Load $349, 5/8 Trailer Load $366, 3/4 Trailer Load $429, 7/8 Trailer Load $462, Full Trailer Load $495. Volume discounts and business account pricing available for commercial clients. Call (619) 750-0114 for a free, customized quote tailored to your specific junk hauling Kearny Mesa needs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you provide same-day junk hauling in Kearny Mesa?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes! We offer rapid-response junk pickup Kearny Mesa service, typically providing next-day service with same-day available when you call before 2 PM. Our local team understands the fast-paced business environment of Kearny Mesa and can respond quickly for office closures, warehouse cleanouts, or emergency residential situations."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you handle office and warehouse junk removal in Kearny Mesa?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes! Our commercial junk removal Kearny Mesa service specializes in office cleanouts, warehouse junk hauling, and industrial equipment removal. We handle cubicles, filing cabinets, pallets, shelving, electronics, and construction debris. We offer flexible scheduling including after-hours and weekend service to minimize business disruption."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you recycle or donate items collected in Kearny Mesa?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. We handle all items in accordance with San Diego County regulations. Our team recycles metals, electronics, and office equipment through certified facilities, and donates usable furniture and items to local charities when appropriate."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is commercial junk removal available for Kearny Mesa businesses?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, we provide comprehensive commercial junk removal Kearny Mesa for businesses throughout the area including office parks, industrial complexes, auto dealerships, restaurants in Convoy District, and warehouse facilities. We offer business account pricing, flexible scheduling, and recurring service options tailored to your operational needs."
-      }
-    }
-  ]
-};
-
 const kearnyMesaFAQs = [
   {
     question: "How much does junk removal cost in Kearny Mesa?",
@@ -156,7 +110,7 @@ export default function JunkRemovalKearnyMesaPage() {
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema, faqSchema, faqSchema]
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   return (

@@ -2,7 +2,8 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
+import FAQSection from "@/components/FAQSection";
+import { generateFAQSchema } from "@/lib/schema";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -76,53 +77,6 @@ const relatedServices = [
   { name: "Same-Day Junk Removal", slug: "same-day-junk-removal-san-diego" },
   { name: "Estate Cleanouts", slug: "estate-cleanout-san-diego" },
 ];
-
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does couch removal cost in San Diego?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most pickups start at $100 for a single couch, with final pricing based on access and size."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you offer same-day couch disposal?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, we provide same-day or next-day San Diego couch disposal across most neighborhoods."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you remove sectionals or oversized sofas?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Absolutely. We handle large and heavy furniture, including sectionals, recliners, and sleeper sofas."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you recycle couches?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We recycle or donate when possible, coordinating with local San Diego facilities and charities."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you serve apartments or high-rises downtown?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, we specialize in sofa removal San Diego apartments with stair or elevator access limitations."
-      }
-    }
-  ]
-};
 
 const couchFAQs = [
   {
@@ -206,7 +160,7 @@ export default function CouchRemovalPage() {
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, faqSchema]
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema]
   };
 
   return (
