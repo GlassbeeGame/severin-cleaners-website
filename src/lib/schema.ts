@@ -108,6 +108,20 @@ export function generateServiceSchema({
       },
       "priceRange": "$$",
       "aggregateRating": generateAggregateRatingSchema(),
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
     },
     "areaServed": areaServedData,
   };
@@ -155,6 +169,20 @@ export function generateLocationServiceSchema({
       },
       "priceRange": "$$",
       "aggregateRating": generateAggregateRatingSchema(),
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
     },
     "areaServed": {
       "@type": "City",
@@ -208,6 +236,20 @@ export function generateLocalBusinessSchema() {
       },
       "priceRange": "$$",
       "aggregateRating": generateAggregateRatingSchema(),
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
     },
     "areaServed": {
       "@type": "State",
@@ -353,7 +395,21 @@ export function generateReviewSchema(testimonial: Testimonial) {
         "https://severincleaners.com/optimized/couchwithlogo.jpg",
         "https://severincleaners.com/optimized/toiletteam.jpg",
         "https://severincleaners.com/optimized/commercial.jpg"
-      ]
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
     },
     "publisher": {
       "@type": "Organization",
