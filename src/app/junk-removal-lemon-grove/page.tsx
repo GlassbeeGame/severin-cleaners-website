@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import LemonGroveFAQSection from "./LemonGroveFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -67,6 +67,29 @@ export const metadata: Metadata = {
   },
 };
 
+const lemonGroveFAQs = [
+  {
+    question: "How much does junk removal cost in Lemon Grove?",
+    answer: "Our <strong>Lemon Grove junk removal</strong> pricing is transparent and affordable, designed with families and apartment residents in mind. We offer upfront pricing with no hidden fees:"
+  },
+  {
+    question: "Do you offer same-day junk pickup in Lemon Grove?",
+    answer: "Yes, we provide same-day <strong>junk pickup Lemon Grove</strong> service for urgent needs throughout the community. Whether you're dealing with an apartment move-out deadline or unexpected family situation, our local team can respond quickly with professional, affordable service."
+  },
+  {
+    question: "Can you handle junk hauling for apartments and multifamily housing?",
+    answer: "Absolutely. Our <strong>junk hauling Lemon Grove</strong> service specializes in apartment complexes and multifamily housing throughout the community. We coordinate with property managers, respect tenant privacy, and work efficiently to minimize disruption while providing affordable bulk item removal and turnover support."
+  },
+  {
+    question: "Do you provide trash removal services for small businesses in Lemon Grove?",
+    answer: "Yes, our <strong>trash removal Lemon Grove</strong> service supports local small businesses along Broadway and throughout the community. We offer flexible scheduling, competitive commercial rates, and regular service options that help small businesses maintain clean, professional spaces without breaking their budgets."
+  },
+  {
+    question: "Are your junk removal services eco-friendly and affordable?",
+    answer: "Absolutely. Our <strong>Lemon Grove San Diego junk removal</strong> combines affordability with environmental responsibility and full regulatory compliance."
+  }
+];
+
 export default function JunkRemovalLemonGrovePage() {
   const serviceSchema = generateLocationServiceSchema({
     locationName: "Lemon Grove",
@@ -80,6 +103,8 @@ export default function JunkRemovalLemonGrovePage() {
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
     { name: "Lemon Grove Junk Removal", url: "https://severincleaners.com/junk-removal-lemon-grove" },
   ]);
+
+  const faqSchema = generateFAQSchema(lemonGroveFAQs);
 
   const nearbyLocations = [
     { name: "La Mesa", slug: "la-mesa" },
@@ -330,7 +355,14 @@ export default function JunkRemovalLemonGrovePage() {
         <TrustSignalsSection locationName="Lemon Grove" />
 
         {/* FAQ Section */}
-        <LemonGroveFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Junk Removal Lemon Grove"
+          description="Get answers to common questions about our <strong>junk removal Lemon Grove</strong> services, pricing, and same-day availability."
+          faqs={lemonGroveFAQs}
+          ctaTitle="Still Have Questions About Lemon Grove Junk Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Lemon Grove</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
 
         {/* Related Services */}
         <section className="py-12 bg-gray-50">

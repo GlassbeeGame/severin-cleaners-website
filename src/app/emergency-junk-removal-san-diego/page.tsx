@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import EmergencyFAQSection from "./EmergencyFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
@@ -63,6 +63,37 @@ export const metadata: Metadata = {
   },
 };
 
+const emergencyFAQs = [
+    {
+      question: "What are your emergency junk removal prices?",
+      answer: "Single Item Pickup: Starting at $100, 1/4 Trailer Load: $249, 3/8 Trailer Load: $319, 1/2 Trailer Load: $349, 5/8 Trailer Load: $366, 3/4 Trailer Load: $429, 7/8 Trailer Load: $462, Full Trailer Load: $495. Prices include labor, hauling, proper disposal, and cleanup. Additional fees may apply for unusually heavy items or special handling."
+    },
+    {
+      question: "Do you offer same day junk removal in San Diego?",
+      answer: "Yes, we specialize in same day junk removal San Diego with emergency crews available throughout the county. Most requests are handled within 2-4 hours of your call, depending on location and current demand."
+    },
+    {
+      question: "Can you come on weekends for emergency junk removal?",
+      answer: "Absolutely. We provide weekend junk removal San Diego Saturday Sunday service with dedicated emergency crews. Weekend availability is one of our specialties for urgent situations."
+    },
+    {
+      question: "How quickly can you arrive for urgent trash removal San Diego?",
+      answer: "For emergency junk removal San Diego today requests, we typically arrive within 2-4 hours. In some cases, we can dispatch crews within 1 hour for true emergencies like foreclosure cleanouts or tenant issues."
+    },
+    {
+      question: "Do you handle bulky or heavy items during emergency calls?",
+      answer: "Yes, our emergency crews are equipped to handle everything from single items like refrigerators and couches to complete property cleanouts. We bring the necessary equipment for heavy lifting and safe removal."
+    },
+    {
+      question: "Is there an extra cost for last minute or emergency service?",
+      answer: "Our pricing remains transparent even for last minute junk removal San Diego requests. While emergency service may include a small urgency fee, we provide upfront pricing with no hidden charges."
+    },
+    {
+      question: "What areas do you cover for emergency junk removal San Diego?",
+      answer: "We provide emergency junk removal service throughout the entire county, from coastal areas like La Jolla and Pacific Beach to inland communities like El Cajon and Santee. Call to confirm immediate availability in your area."
+    }
+  ];
+
 export default function EmergencyJunkRemovalPage() {
   const serviceSchema = generateServiceSchema({
     name: "Emergency Junk Removal San Diego",
@@ -78,9 +109,11 @@ export default function EmergencyJunkRemovalPage() {
     { name: "Emergency Junk Removal", url: "https://severincleaners.com/emergency-junk-removal-san-diego" },
   ]);
 
+  const faqSchema = generateFAQSchema(emergencyFAQs);
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema]
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const relatedServices = [
@@ -471,7 +504,14 @@ export default function EmergencyJunkRemovalPage() {
         <TrustSignalsSection locationName="Emergency Junk Removal" />
 
         {/* FAQ Section */}
-        <EmergencyFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Emergency Junk Removal"
+          description="Get answers to common questions about our <strong>emergency junk removal San Diego</strong> services, response times, and 24/7 availability."
+          faqs={emergencyFAQs}
+          ctaTitle="Need Emergency Junk Removal Now?"
+          ctaDescription="Our 24/7 <strong>emergency junk removal San Diego</strong> team is standing by. Call us now for immediate response and same-day service."
+          includeSchema={false}
+        />
 
         {/* Final CTA Section */}
         <section className="py-16 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white">

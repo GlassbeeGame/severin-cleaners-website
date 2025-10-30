@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ChulaVistaFAQSection from "./ChulaVistaFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
@@ -67,6 +67,29 @@ export const metadata: Metadata = {
   },
 };
 
+const chulaVistaFAQs = [
+  {
+    question: "How much does junk removal cost in Chula Vista?",
+    answer: "Our <strong>Chula Vista junk removal</strong> pricing is transparent and volume-based with no hidden fees. We offer comprehensive service to all Eastlake, Otay Ranch, and South Bay neighborhoods with HOA-compliant service:"
+  },
+  {
+    question: "Do you offer bilingual junk removal service in Chula Vista?",
+    answer: "Sí, ofrecemos servicio completamente bilingüe. Our <strong>junk hauling Chula Vista</strong> team includes Spanish-speaking crew members who can communicate effectively with all residents. We provide estimates, scheduling, and service in both English and Spanish to serve our diverse South Bay community."
+  },
+  {
+    question: "Can you provide same-day junk removal in Eastlake or Otay Ranch?",
+    answer: "Yes, we offer same-day <strong>junk pickup Chula Vista</strong> service for urgent needs in Eastlake, Otay Ranch, and throughout South Bay. Our team understands HOA requirements and can coordinate emergency cleanouts while maintaining community standards. Same-day availability depends on scheduling and crew availability."
+  },
+  {
+    question: "Are your junk removal services HOA-compliant?",
+    answer: "Absolutely. Our <strong>trash removal Chula Vista</strong> service is fully HOA-compliant for all neighborhoods including Eastlake, Otay Ranch, and Rolling Hills Ranch. We coordinate with property management, schedule during approved hours, maintain professional appearance, and provide documentation when required by HOA boards."
+  },
+  {
+    question: "What areas of South Bay do you serve?",
+    answer: "Our <strong>South Bay junk removal</strong> covers all Chula Vista neighborhoods, plus National City, Bonita, Imperial Beach, and San Ysidro. We serve from the bayfront to the hills, including all master-planned communities, established neighborhoods, commercial districts, and border region properties throughout South Bay."
+  }
+];
+
 export default function JunkRemovalChulaVistaPage() {
   const serviceSchema = generateLocationServiceSchema({
     locationName: "Chula Vista",
@@ -80,6 +103,8 @@ export default function JunkRemovalChulaVistaPage() {
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
     { name: "Chula Vista Junk Removal", url: "https://severincleaners.com/junk-removal-chula-vista" },
   ]);
+
+  const faqSchema = generateFAQSchema(chulaVistaFAQs);
 
   const nearbyLocations = [
     { name: "Bonita", slug: "bonita" },
@@ -330,7 +355,14 @@ export default function JunkRemovalChulaVistaPage() {
         <TrustSignalsSection locationName="Chula Vista" />
 
         {/* FAQ Section */}
-        <ChulaVistaFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Junk Removal Chula Vista"
+          description="Get answers to common questions about our <strong>junk removal Chula Vista</strong> services, pricing, and same-day availability."
+          faqs={chulaVistaFAQs}
+          ctaTitle="Still Have Questions About Chula Vista Junk Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Chula Vista</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
 
         {/* Related Services */}
         <section className="py-12 bg-gray-50">

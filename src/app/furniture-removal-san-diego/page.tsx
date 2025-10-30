@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import FurnitureFAQSection from "./FurnitureFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -79,6 +79,41 @@ const relatedServices = [
   { name: "Same-Day Junk Removal", slug: "same-day-junk-removal-san-diego" },
 ];
 
+const furnitureFAQs = [
+    {
+      question: "How much does furniture removal cost in San Diego?",
+      answer: "Furniture removal San Diego pricing starts at $100 for single items and ranges up to $495 for a full trailer load. Couch removal San Diego typically costs $100-$319 depending on size, while bedroom furniture runs $249-$429. All prices include labor, transportation, and proper disposal with no hidden fees. Call (619) 750-0114 for a free quote on your specific furniture."
+    },
+    {
+      question: "Do you remove heavy furniture like pianos or safes?",
+      answer: "Yes! Our furniture hauling San Diego team specializes in heavy and oversized items including pianos, pool tables, safes, and commercial furniture. We bring specialized equipment like piano dollies, furniture straps, and protective blankets. Our professional crew is trained in safe removal techniques for heavy items from any floor or location in San Diego."
+    },
+    {
+      question: "Can you remove furniture from upstairs or apartments?",
+      answer: "Absolutely. Our furniture removal San Diego service handles multi-story homes, apartments, condos, and buildings with elevators or stairs. We navigate tight hallways, narrow staircases, and challenging doorways while protecting your walls and floors. There's no need to move furniture yourself – we handle all the heavy lifting regardless of location."
+    },
+    {
+      question: "Do I need to move furniture to the curb?",
+      answer: "No! With our full-service furniture disposal San Diego, you don't lift a finger. We come inside your home, office, or building to remove furniture from wherever it's located. Our team handles all the heavy lifting, maneuvering, and loading. Just show us what goes, and we'll take care of everything from there."
+    },
+    {
+      question: "What happens to the furniture after removal?",
+      answer: "We handle old furniture removal San Diego professionally and responsibly. Our furniture removal service works to ensure items are disposed of according to local San Diego regulations and requirements. When possible, usable furniture in good condition is directed to appropriate facilities rather than landfills. We're committed to proper furniture disposal methods throughout San Diego County, ensuring all items are handled in compliance with local disposal requirements."
+    },
+    {
+      question: "Do you offer same-day furniture removal?",
+      answer: "Yes, we provide same-day furniture removal San Diego when you call before 2 PM. Our flexible scheduling includes evenings and weekends at no extra charge. Whether you need urgent couch removal San Diego for a new delivery or last-minute space clearing, we can typically arrive within hours. Call (619) 750-0114 to check today's availability."
+    },
+    {
+      question: "Can you remove office furniture from commercial buildings?",
+      answer: "Absolutely. Our office furniture removal San Diego service handles commercial properties including office buildings, retail spaces, and warehouses. We remove desks, cubicles, conference tables, filing cabinets, and all office equipment. Our team works efficiently to minimize disruption to your business operations and can schedule after-hours or weekend service throughout San Diego."
+    },
+    {
+      question: "Do you disassemble furniture before removal?",
+      answer: "Yes, when necessary. Our furniture hauling San Diego team disassembles bed frames, large tables, sectional sofas, and other furniture that won't fit through doorways intact. We bring all necessary tools and handle disassembly carefully to avoid property damage. This is included in our service at no extra charge for standard San Diego furniture removal jobs."
+    }
+  ];
+
 export default function FurnitureRemovalPage() {
   const serviceSchema = generateServiceSchema({
     name: "Furniture Removal San Diego",
@@ -94,9 +129,11 @@ export default function FurnitureRemovalPage() {
     { name: "Furniture Removal", url: "https://severincleaners.com/furniture-removal-san-diego" },
   ]);
 
+  const faqSchema = generateFAQSchema(furnitureFAQs);
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema]
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   return (
@@ -429,7 +466,14 @@ export default function FurnitureRemovalPage() {
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <FurnitureFAQSection />
+              <FAQSection
+          title="Frequently Asked Questions - Furniture Removal San Diego"
+          description="Get answers to common questions about our <strong>furniture removal San Diego</strong> service, pricing, and same-day pickup options."
+          faqs={furnitureFAQs}
+          ctaTitle="Still Have Questions About Furniture Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>furniture removal San Diego</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
             </div>
           </div>
         </section>

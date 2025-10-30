@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import NorthParkFAQSection from "./NorthParkFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -74,6 +74,31 @@ const breadcrumbSchema = generateBreadcrumbSchema([
   { name: "North Park Junk Removal", url: "https://severincleaners.com/junk-removal-north-park" },
 ]);
 
+const northParkFAQs = [
+  {
+    question: "How much does junk removal cost in North Park?",
+    answer: "Our <strong>North Park junk removal</strong> pricing is transparent and based on trailer volume:"
+  },
+  {
+    question: "Can you remove heavy items like couches and appliances in North Park?",
+    answer: "Absolutely! Our <strong>junk hauling North Park</strong> team specializes in removing heavy furniture and appliances from apartments, condos, and Craftsman homes throughout North Park. We safely handle:"
+  },
+  {
+    question: "Do you provide same-day junk hauling in North Park?",
+    answer: "Yes! We offer same-day <strong>junk pickup North Park</strong> service when you call before 2 PM. This is especially helpful for apartment cleanouts near University Avenue, restaurant or bar waste removal from the 30th Street nightlife district, and emergency situations throughout the North Park arts community. During busy weekends, we recommend scheduling morning appointments to guarantee same-day service."
+  },
+  {
+    question: "What types of junk do you not remove?",
+    answer: "We handle all standard household items, furniture, appliances, construction debris, yard waste, and more in accordance with local regulations. If you're unsure about a specific item, please call us at <a href="tel:6197500114" className="text-blue-600 hover:underline">(619) 750-0114</a> and we can discuss it — there are various factors that can affect pricing and service options."
+  },
+  {
+    question: "Are you licensed and insured for junk removal in San Diego?",
+    answer: "Yes! Severin Cleaners is fully licensed and insured to provide <strong>North Park San Diego junk removal</strong> services throughout North Park and all of San Diego County. We carry comprehensive liability insurance to protect your property during removal, and we dispose of all items responsibly at licensed facilities. Our team follows all local regulations for waste handling and environmental compliance."
+  }
+];
+
+const faqSchema = generateFAQSchema(northParkFAQs);
+
 export default function JunkRemovalNorthParkPage() {
   const nearbyLocations = [
     { name: "Hillcrest", slug: "hillcrest" },
@@ -89,7 +114,7 @@ export default function JunkRemovalNorthParkPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@graph": [serviceSchema, breadcrumbSchema],
+            "@graph": [serviceSchema, breadcrumbSchema, faqSchema],
           }),
         }}
       />
@@ -378,7 +403,14 @@ export default function JunkRemovalNorthParkPage() {
           <TrustSignalsSection locationName="North Park" coverageArea="Urban San Diego" />
 
           {/* FAQ Section */}
-          <NorthParkFAQSection />
+          <FAQSection
+          title="Frequently Asked Questions - Junk Removal North Park"
+          description="Get answers to common questions about our <strong>junk removal North Park</strong> services, pricing, and same-day availability."
+          faqs={northParkFAQs}
+          ctaTitle="Still Have Questions About North Park Junk Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal North Park</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
 
           {/* Final CTA Section */}
           <section className="py-16 bg-gradient-to-br from-blue-900 to-blue-700 text-white">

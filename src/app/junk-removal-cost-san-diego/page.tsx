@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import FAQSection from "./FAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 
 export const metadata: Metadata = {
   title: "Junk Removal Cost San Diego - Affordable Prices & Free Quotes",
@@ -57,6 +57,35 @@ export const metadata: Metadata = {
     'ICBM': '32.7678, -117.0231',
   },
 };
+
+const costFAQs = [
+    {
+      question: "How much does junk removal cost in San Diego?",
+      answer: "Junk removal cost San Diego typically ranges from $75 for single items to $750+ for full truckloads. Our volume-based pricing means you only pay for the space your items take up. Most residential jobs fall between $200-$400 for half-truck loads, making us competitive for cheap junk removal San Diego with transparent pricing."
+    },
+    {
+      question: "Do you provide free junk removal quotes in San Diego?",
+      answer: "Yes! Every free junk removal quote San Diego is completely no-obligation. We provide instant estimates over the phone for most jobs, or can visit your property for larger cleanouts. There's never a charge for quotes or estimates, and we pride ourselves on transparent pricing without hidden fees."
+    },
+    {
+      question: "What's the cheapest way to remove junk in San Diego?",
+      answer: "The most affordable approach for cheap junk removal San Diego is hiring a professional service like ours. DIY removal seems cheaper but includes hidden costs: truck rental, gas, disposal fees, and your valuable time. We handle everything efficiently at competitive rates with transparent junk removal prices San Diego."
+    },
+    {
+      question: "How do your junk removal prices compare to other San Diego companies?",
+      answer: "When you compare junk removal San Diego options, you'll find our transparent pricing beats competitors who use hidden fees. We provide upfront costs, include eco-friendly disposal, and never surprise you with additional charges after the work is done. Our junk removal prices San Diego are consistently fair and honest."
+    },
+    {
+      question: "Are there extra charges for heavy or bulky items?",
+      answer: "Some exceptionally heavy items (like pianos, hot tubs, or concrete) may have additional disposal fees due to special handling requirements. However, we always discuss these potential costs during your free junk removal quote San Diego so there are no surprises with your final junk removal cost San Diego."
+    },
+    {
+      question: "Do you offer discounts for large jobs or repeat customers?",
+      answer: "Yes! Larger volume jobs naturally get better per-cubic-yard pricing, making our cheap junk removal San Diego even more affordable. We also offer discounts for property managers, real estate agents, and repeat customers. Ask about our loyalty program when you call for your free quote."
+    }
+  ];
+
+const faqSchema = generateFAQSchema(costFAQs);
 
 export default function JunkRemovalCostPage() {
 
@@ -682,7 +711,14 @@ export default function JunkRemovalCostPage() {
         </section>
 
         {/* FAQ Section */}
-        <FAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Junk Removal Cost"
+          description="Get answers to common questions about our <strong>junk removal Cost</strong> services, pricing, and same-day availability."
+          faqs={costFAQs}
+          ctaTitle="Still Have Questions About Cost Junk Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Cost</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
 
         {/* Related Services */}
         <section className="py-12 bg-white">

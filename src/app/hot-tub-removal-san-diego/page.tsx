@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
-import HotTubFAQSection from "./HotTubFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -70,6 +70,29 @@ export const metadata: Metadata = {
   },
 };
 
+const hotTubFAQs = [
+    {
+      question: "How much does hot tub removal cost in San Diego?",
+      answer: "Hot tub removal San Diego costs range from $299 for portable spas to $1,499+ for built-in Jacuzzi removal. Spa removal San Diego pricing depends on size, type, and access difficulty. Our Jacuzzi removal San Diego service includes disconnection, removal, and disposal with transparent upfront pricing and no hidden fees."
+    },
+    {
+      question: "Do you remove both portable and built-in spas?",
+      answer: "Yes, our spa disposal San Diego service handles all types including portable hot tubs, above-ground spas, built-in Jacuzzis, and custom installations. We have specialized equipment for backyard hot tub demolition San Diego and experience with both simple removals and complex demolition projects."
+    },
+    {
+      question: "Can you disconnect plumbing, gas, and electrical lines?",
+      answer: "Absolutely. Our licensed team safely disconnects all utilities including 220V electrical lines, plumbing connections, and gas lines for heated spas. Professional hot tub disposal includes proper utility disconnection, water draining, and safe capping of all connections to meet local codes."
+    },
+    {
+      question: "What happens to the old hot tub after removal?",
+      answer: "Our eco-friendly spa removal San Diego service recycles materials whenever possible. Fiberglass and acrylic shells are recycled, metal components go to scrap yards, and working equipment may be donated or resold. We ensure responsible disposal at licensed facilities while maximizing material recovery."
+    },
+    {
+      question: "Do you provide same-day hot tub removal?",
+      answer: "Yes, we offer same-day hot tub removal San Diego when you call before 2 PM. Our rapid Jacuzzi removal San Diego service is perfect for emergency situations, property staging, or when you need immediate spa disposal. Same-day service available throughout San Diego County at standard rates."
+    }
+  ];
+
 export default function HotTubRemovalSanDiegoPage() {
   const serviceSchema = generateServiceSchema({
     name: "Hot Tub Removal San Diego",
@@ -85,9 +108,11 @@ export default function HotTubRemovalSanDiegoPage() {
     { name: "Hot Tub Removal", url: "https://severincleaners.com/hot-tub-removal-san-diego" },
   ]);
 
+  const faqSchema = generateFAQSchema(hotTubFAQs);
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema]
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const relatedServices = [
@@ -403,7 +428,14 @@ export default function HotTubRemovalSanDiegoPage() {
         <TrustSignalsSection locationName="Hot Tub Removal" />
 
         {/* FAQ Section */}
-        <HotTubFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Hot Tub Removal San Diego"
+          description="Get answers to common questions about our <strong>hot tub removal San Diego</strong> service, pricing, and spa disposal process."
+          faqs={hotTubFAQs}
+          ctaTitle="Still Have Questions About Hot Tub Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>hot tub removal San Diego</strong> services, provide detailed quotes, or schedule your removal."
+          includeSchema={false}
+        />
       </main>
         <Footer />
       </div>

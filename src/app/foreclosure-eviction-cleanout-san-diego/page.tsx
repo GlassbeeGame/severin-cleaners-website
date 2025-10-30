@@ -1,7 +1,7 @@
 import type { Metadata} from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ForeclosureFAQSection from "./ForeclosureFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -64,6 +64,29 @@ export const metadata: Metadata = {
   },
 };
 
+const foreclosureFAQs = [
+    {
+      question: "What are your foreclosure and eviction cleanout prices?",
+      answer: "Our foreclosure junk removal San Diego and eviction junk removal San Diego pricing is based on volume: Single Item Pickup: Starting at $100, 1/4 Trailer Load: $249 (3 cubic yards), 3/8 Trailer Load: $319, 1/2 Trailer Load: $349 (6 cubic yards), 5/8 Trailer Load: $366, 3/4 Trailer Load: $429, 7/8 Trailer Load: $462, Full Trailer Load: $495 (12 cubic yards). All prices include labor, hauling, proper disposal, and cleanup. We provide detailed documentation for banks and property managers when requested."
+    },
+    {
+      question: "How quickly can you clear a foreclosure or eviction property?",
+      answer: "We offer same-day service for urgent property cleanout San Diego situations and typically complete most residential cleanouts within 24-48 hours. Our team works efficiently to meet tight deadlines for banks, landlords, and property managers."
+    },
+    {
+      question: "Can you handle large or multi-unit properties?",
+      answer: "Yes, we have the crew capacity and equipment to handle everything from single-family homes to large apartment complexes and commercial properties. We scale our team size based on project scope for efficient completion."
+    },
+    {
+      question: "Is your foreclosure cleanout service discreet?",
+      answer: "Absolutely. Our teams work with professionalism and respect for all parties involved. We provide unmarked vehicles when requested and ensure all junk hauling work is conducted discreetly to maintain neighborhood relations."
+    },
+    {
+      question: "Do you provide documentation for banks and landlords?",
+      answer: "Yes, we provide comprehensive documentation including detailed invoices, before and after photos, itemized removal lists, and disposal certificates. We understand financial institution requirements and ensure all paperwork meets their standards."
+    }
+  ];
+
 export default function ForeclosureEvictionCleanoutPage() {
   const serviceSchema = generateServiceSchema({
     name: "Foreclosure & Eviction Cleanout San Diego",
@@ -79,9 +102,11 @@ export default function ForeclosureEvictionCleanoutPage() {
     { name: "Foreclosure & Eviction Cleanout", url: "https://severincleaners.com/foreclosure-eviction-cleanout-san-diego" },
   ]);
 
+  const faqSchema = generateFAQSchema(foreclosureFAQs);
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema]
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const relatedServices = [
@@ -379,7 +404,14 @@ export default function ForeclosureEvictionCleanoutPage() {
         <TrustSignalsSection locationName="Foreclosure & Eviction Cleanout" />
 
         {/* FAQ Section */}
-        <ForeclosureFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Foreclosure & Eviction Cleanout"
+          description="Get answers to common questions about our <strong>foreclosure cleanout San Diego</strong> and <strong>eviction cleanout San Diego</strong> services."
+          faqs={foreclosureFAQs}
+          ctaTitle="Need Fast Foreclosure or Eviction Cleanout?"
+          ctaDescription="Our professional team is ready to help with <strong>foreclosure cleanout San Diego</strong> and <strong>eviction cleanout San Diego</strong> services. Fast, discreet, and thorough."
+          includeSchema={false}
+        />
       </main>
       <Footer />
       </div>

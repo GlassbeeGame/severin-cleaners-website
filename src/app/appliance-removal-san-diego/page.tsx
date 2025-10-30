@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ApplianceFAQSection from "./ApplianceFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -72,6 +72,41 @@ export const metadata: Metadata = {
   },
 };
 
+const applianceFAQs = [
+  {
+    question: "How much does appliance removal cost in San Diego?",
+    answer: "Our appliance removal San Diego pricing starts at $100 for a single appliance. Two appliances (like a washer and dryer set) cost $249, while 3-4 appliances cost $319. For larger jobs with 5-6 appliances, pricing is $349, and a full kitchen with 7+ appliances is $495. All prices include removal from anywhere on your property, loading, hauling, and proper disposal. Call (619) 750-0114 for an accurate quote based on your specific needs."
+  },
+  {
+    question: "Do you disconnect appliances before removal?",
+    answer: "For basic disconnection of already-accessible appliances (unplugging, unhooking water lines), this is typically included in our standard appliance removal San Diego pricing. However, built-in appliances or items requiring special disconnection (gas lines, hardwired electrical, complex installations) may have additional fees. We'll provide a clear quote upfront so you know exactly what to expect."
+  },
+  {
+    question: "Can you remove built-in appliances?",
+    answer: "Yes, we handle appliance disposal San Diego for built-in units including dishwashers, microwaves, ovens, and more. Built-in appliances often require additional labor to safely disconnect and extract without damaging cabinetry or countertops. We'll assess the situation and provide an accurate quote that includes any necessary additional work."
+  },
+  {
+    question: "Do I need to empty the refrigerator before removal?",
+    answer: "Yes, please empty all food and liquids from refrigerators and freezers before our refrigerator removal San Diego team arrives. This prevents spills during transport and ensures safe handling. Remove all shelves and drawers if they're loose, or let us know if you'd like us to secure them for transport."
+  },
+  {
+    question: "Can you remove appliances from upstairs?",
+    answer: "Absolutely! Our professional team handles washer dryer removal San Diego from any floor, including upstairs units, basements, and tight spaces. We have the specialized equipment and experience to safely navigate stairs and doorways. We take care to protect your walls, floors, and railings during the removal process."
+  },
+  {
+    question: "What happens to old appliances after pickup?",
+    answer: "After appliance disposal San Diego, all items are professionally disposed of according to local San Diego regulations and requirements. We work to ensure appliances are handled in compliance with local disposal standards. Our team ensures all items are processed at appropriate facilities according to San Diego County disposal requirements."
+  },
+  {
+    question: "Do you offer same-day appliance removal?",
+    answer: "Yes! Same-day appliance removal San Diego is available throughout San Diego when you call early. We offer flexible scheduling including evenings and weekends at no extra charge. Same-day service is perfect for kitchen remodels, emergency removals, or when your new appliances are being delivered and you need the old ones hauled away immediately."
+  },
+  {
+    question: "Can you remove multiple appliances at once?",
+    answer: "Yes! We specialize in removing multiple appliances in a single trip. Whether you're doing a complete kitchen remodel, clearing out a rental property, or handling an estate cleanout, we can remove all your appliances at once. Our pricing structure offers better value for multiple items - for example, 3-4 appliances cost $319 total, which is more economical than individual removal. Call (619) 750-0114 for a quote on your specific project."
+  }
+];
+
 export default function ApplianceRemovalPage() {
   const serviceSchema = generateServiceSchema({
     name: "Appliance Removal San Diego",
@@ -87,9 +122,11 @@ export default function ApplianceRemovalPage() {
     { name: "Appliance Removal", url: "https://severincleaners.com/appliance-removal-san-diego" },
   ]);
 
+  const faqSchema = generateFAQSchema(applianceFAQs);
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema]
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const relatedServices = [
@@ -345,7 +382,14 @@ export default function ApplianceRemovalPage() {
         <TrustSignalsSection locationName="Appliance Removal" />
 
         {/* FAQ Section */}
-        <ApplianceFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Appliance Removal San Diego"
+          description="Get answers to common questions about our professional <strong>appliance removal San Diego</strong> service and pricing."
+          faqs={applianceFAQs}
+          ctaTitle="Still Have Questions About Appliance Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>appliance removal San Diego</strong> services, provide detailed quotes, or schedule your same-day service."
+          includeSchema={false}
+        />
       </main>
 
         <Footer />

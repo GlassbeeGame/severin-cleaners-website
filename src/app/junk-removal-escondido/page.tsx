@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import EscondidoFAQSection from "./EscondidoFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -73,6 +73,29 @@ export const metadata: Metadata = {
   },
 };
 
+const escondidoFAQs = [
+    {
+      question: "How much does junk removal cost in Escondido?",
+      answer: "Most jobs range from $100 for single items to $495 for full-load cleanouts. Quotes are always upfront and include labor and disposal."
+    },
+    {
+      question: "Do you offer same-day service in Escondido?",
+      answer: "Yes — we provide same-day and next-day junk hauling when booked before 2 PM."
+    },
+    {
+      question: "Do you serve rural or hillside properties?",
+      answer: "Absolutely. We handle hard-to-access areas like Hidden Meadows and Jesmond Dene with the right vehicles and crew size."
+    },
+    {
+      question: "Do you recycle or donate items?",
+      answer: "Yes. We partner with North County charities and recycling centers to minimize landfill use."
+    },
+    {
+      question: "Are you licensed and insured?",
+      answer: "Yes — we're fully licensed, insured, and compliant with San Diego County waste regulations."
+    }
+  ];
+
 export default function JunkRemovalEscondidoPage() {
   const serviceSchema = generateLocationServiceSchema({
     locationName: "Escondido",
@@ -86,6 +109,8 @@ export default function JunkRemovalEscondidoPage() {
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
     { name: "Junk Removal Escondido", url: "https://severincleaners.com/junk-removal-escondido" },
   ]);
+
+  const faqSchema = generateFAQSchema(escondidoFAQs);
 
   const nearbyLocations = [
     { name: "Vista", slug: "vista" },
@@ -337,7 +362,14 @@ export default function JunkRemovalEscondidoPage() {
         <TrustSignalsSection locationName="Escondido" />
 
         {/* FAQ Section */}
-        <EscondidoFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Junk Removal Escondido"
+          description="Get answers to common questions about our <strong>junk removal Escondido</strong> services, pricing, and same-day availability."
+          faqs={escondidoFAQs}
+          ctaTitle="Still Have Questions About Escondido Junk Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Escondido</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
 
         {/* Related Services */}
         <section className="py-12 bg-gray-50">

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import LaMesaFAQSection from "./LaMesaFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
@@ -73,6 +73,29 @@ export const metadata: Metadata = {
   },
 };
 
+const laMesaFAQs = [
+  {
+    question: "How much does junk removal cost in La Mesa?",
+    answer: "Most pickups start around $100 and scale by load size and accessibility. All quotes include hauling, labor, and disposal fees."
+  },
+  {
+    question: "Can you handle hillside homes in Mount Helix?",
+    answer: "Yes—our <strong>junk removal La Mesa CA</strong> team is equipped for steep driveways and tight access roads."
+  },
+  {
+    question: "Do you serve downtown La Mesa Village?",
+    answer: "Absolutely—we offer flexible pickup windows for retail and multi-unit buildings near Spring Street."
+  },
+  {
+    question: "Are your services eco-friendly?",
+    answer: "Yes—we recycle and donate whenever possible to reduce landfill use at the <strong>La Mesa dump</strong>."
+  },
+  {
+    question: "How fast can you respond?",
+    answer: "Most calls are handled within 24 hours, with same-day availability in central La Mesa and Mount Helix."
+  }
+];
+
 export default function JunkRemovalLaMesaPage() {
   const serviceSchema = generateLocationServiceSchema({
     locationName: "La Mesa",
@@ -86,6 +109,8 @@ export default function JunkRemovalLaMesaPage() {
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
     { name: "La Mesa Junk Removal", url: "https://severincleaners.com/junk-removal-la-mesa" },
   ]);
+
+  const faqSchema = generateFAQSchema(laMesaFAQs);
 
   const nearbyLocations = [
     { name: "El Cajon", slug: "el-cajon" },
@@ -353,7 +378,14 @@ export default function JunkRemovalLaMesaPage() {
         <TrustSignalsSection locationName="La Mesa" />
 
         {/* FAQ Section */}
-        <LaMesaFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Junk Removal La Mesa"
+          description="Get answers to common questions about our <strong>junk removal La Mesa</strong> services, pricing, and same-day availability."
+          faqs={laMesaFAQs}
+          ctaTitle="Still Have Questions About La Mesa Junk Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal La Mesa</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
 
         {/* Related Services */}
         <section className="py-12 bg-gray-50">

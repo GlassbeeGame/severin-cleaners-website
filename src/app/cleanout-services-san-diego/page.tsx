@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import CleanoutFAQSection from "./CleanoutFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -63,6 +63,37 @@ export const metadata: Metadata = {
   },
 };
 
+const cleanoutFAQs = [
+  {
+    question: "What are your cleanout service prices in San Diego?",
+    answer: "Our cleanout services San Diego pricing is volume-based and completely transparent. Pricing includes: Single Item Pickup starting at $100, 1/4 Trailer Load (3 cubic yards) for $249, 1/2 Trailer Load (6 cubic yards) for $349, and Full Trailer Load (12 cubic yards) for $495. We also offer 3/8 load ($319), 5/8 load ($366), 3/4 load ($429), and 7/8 load ($462) options. All pricing includes labor, hauling, eco-friendly disposal, and recycling or donation coordination. No hidden fees or surprise charges."
+  },
+  {
+    question: "Do you offer shed cleanout San Diego services?",
+    answer: "Yes! Shed cleanout San Diego is one of our specialty services. We handle everything from small tool sheds to large storage buildings, removing years of accumulated tools, equipment, yard waste, and miscellaneous items. Most shed cleanouts take 1-2 hours and range from $200-$400 depending on volume. We can also assist with shed demolition coordination if needed."
+  },
+  {
+    question: "Can you handle large property cleanouts like estates or multi-unit homes?",
+    answer: "Absolutely. Property cleanout San Diego projects are our specialty, including estate cleanouts, multi-unit residential buildings, move-out situations, and properties being prepared for sale or rent. We work with families, realtors, and landlords to completely clear properties of all unwanted items, handling everything from furniture to appliances to personal belongings with care and professionalism."
+  },
+  {
+    question: "What happens to items after you haul them away?",
+    answer: "We prioritize eco-friendly disposal for all our cleanout services San Diego. Items in good condition are donated to local charities, recyclable materials go to San Diego recycling facilities, and only true waste goes to approved landfills. We partner with Goodwill, Salvation Army, and local nonprofits to give items a second life whenever possible."
+  },
+  {
+    question: "How long does a typical cleanout take?",
+    answer: "Cleanout duration varies by project size. Garage cleanout San Diego and attic cleanout San Diego jobs typically take 2-3 hours, storage unit cleanout San Diego takes 1-2 hours, while full property cleanout San Diego or basement cleanout San Diego projects may take 4-8 hours or require multiple visits for large estates."
+  },
+  {
+    question: "Do you offer same-day cleanout service?",
+    answer: "Yes! We offer same-day cleanout services San Diego for urgent situations including emergency move-outs, realtor deadlines, and property turnovers. Call us early in the day for best availability, and we'll do everything possible to accommodate your timeline with professional junk hauling service."
+  },
+  {
+    question: "Do I need to be present during the cleanout?",
+    answer: "Not necessarily. Many property cleanout San Diego clients provide us with access and clear instructions on what to remove, then let us work independently. This is common for landlords, property managers, and busy professionals. We can send before and after photos to document our work."
+  }
+];
+
 export default function CleanoutServicesPage() {
   const serviceSchema = generateServiceSchema({
     name: "Cleanout Services San Diego",
@@ -78,9 +109,11 @@ export default function CleanoutServicesPage() {
     { name: "Cleanout Services", url: "https://severincleaners.com/cleanout-services-san-diego" },
   ]);
 
+  const faqSchema = generateFAQSchema(cleanoutFAQs);
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema]
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const relatedServices = [
@@ -267,7 +300,14 @@ export default function CleanoutServicesPage() {
         <TrustSignalsSection locationName="Cleanout Services" />
 
         {/* FAQ Section */}
-        <CleanoutFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions About Cleanout Services"
+          description="Get answers to common questions about our cleanout services San Diego, pricing, and what to expect when you hire our professional junk hauling team."
+          faqs={cleanoutFAQs}
+          ctaTitle="Still Have Questions About Our Cleanout Services?"
+          ctaDescription="Our experienced team is ready to provide your free cleanout quote and answer any questions about garage cleanout San Diego, attic cleanout San Diego, or any other junk hauling needs."
+          includeSchema={false}
+        />
       </main>
       <Footer />
       </div>

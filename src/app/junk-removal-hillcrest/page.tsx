@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import HillcrestFAQSection from "./HillcrestFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -73,6 +73,31 @@ const breadcrumbSchema = generateBreadcrumbSchema([
   { name: "Hillcrest Junk Removal", url: "https://severincleaners.com/junk-removal-hillcrest" },
 ]);
 
+const hillcrestFAQs = [
+  {
+    question: "How much does junk removal cost in Hillcrest?",
+    answer: "<strong>Single Item Pickup:</strong> Starting at $100<br /> <strong>1/4 Trailer Load:</strong> $249<br /> <strong>3/8 Trailer Load:</strong> $319<br /> <strong>1/2 Trailer Load:</strong> $349<br /> <strong>5/8 Trailer Load:</strong> $366<br /> <strong>3/4 Trailer Load:</strong> $429<br /> <strong>7/8 Trailer Load:</strong> $462<br /> <strong>Full Trailer Load:</strong> $495"
+  },
+  {
+    question: "Do you provide junk removal for high-rise condos and apartments?",
+    answer: "Yes, our <strong>junk hauling Hillcrest</strong> service specializes in high-rise and apartment cleanouts. We coordinate with building management, schedule elevator time, and handle all access logistics. Our team is experienced with condo association requirements and maintains professional standards for upscale properties throughout the urban core."
+  },
+  {
+    question: "Can you handle limited parking and narrow streets in Hillcrest?",
+    answer: "Absolutely. Our <strong>urban junk removal San Diego</strong> team specializes in navigating Hillcrest's narrow streets, limited parking, and time-restricted loading zones. We secure necessary permits, coordinate with city regulations, and use appropriately sized vehicles to access urban properties while minimizing neighborhood disruption."
+  },
+  {
+    question: "Do you offer same-day junk hauling in Hillcrest and University Heights?",
+    answer: "Yes, we provide same-day <strong>junk pickup Hillcrest</strong> and <strong>University Heights junk removal</strong> for urgent needs. Our urban-focused team can respond quickly throughout the central San Diego area. Same-day availability depends on scheduling and may require coordination with building management for access."
+  },
+  {
+    question: "Are you experienced with historic homes and older buildings?",
+    answer: "Yes, our <strong>trash removal Hillcrest</strong> service has extensive experience with historic properties and vintage buildings. We understand preservation requirements, structural considerations, and special handling needs for historic homes. Our team protects architectural features and follows best practices for working in sensitive historic environments."
+  }
+];
+
+const faqSchema = generateFAQSchema(hillcrestFAQs);
+
 export default function JunkRemovalHillcrestPage() {
   const nearbyLocations = [
     { name: "North Park", slug: "north-park" },
@@ -88,7 +113,7 @@ export default function JunkRemovalHillcrestPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@graph": [serviceSchema, breadcrumbSchema],
+            "@graph": [serviceSchema, breadcrumbSchema, faqSchema],
           }),
         }}
       />
@@ -376,7 +401,14 @@ export default function JunkRemovalHillcrestPage() {
           <TrustSignalsSection locationName="Hillcrest" coverageArea="Urban Core San Diego" />
 
           {/* FAQ Section */}
-          <HillcrestFAQSection />
+          <FAQSection
+          title="Frequently Asked Questions - Junk Removal Hillcrest"
+          description="Get answers to common questions about our <strong>junk removal Hillcrest</strong> services, pricing, and same-day availability."
+          faqs={hillcrestFAQs}
+          ctaTitle="Still Have Questions About Hillcrest Junk Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Hillcrest</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
 
           {/* Final CTA Section */}
           <section className="py-16 bg-gradient-to-br from-blue-900 to-blue-700 text-white">

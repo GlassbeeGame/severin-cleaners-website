@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import DelMarFAQSection from "./DelMarFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -68,6 +68,33 @@ export const metadata: Metadata = {
   },
 };
 
+const delMarFAQs = [
+  {
+    question: "Do you provide same-day junk removal in Del Mar?",
+    answer: "Yes, we offer same-day junk pickup throughout Del Mar including Del Mar Village, Del Mar Heights, and Carmel Valley border areas. Call (619) 750-0114 before 2 PM for same-day service availability."
+  },
+  {
+    question: "What areas of Del Mar do you serve for junk removal?",
+    answer: "We serve all neighborhoods in Del Mar 92014 including Del Mar Village, Del Mar Heights, Flower Hill, and the border areas with Carmel Valley and Solana Beach. Our service extends to coastal properties and inland estates."
+  },
+  {
+    question: "How much does junk removal cost in Del Mar?",
+    answer: "Our transparent pricing: $95 single item, $250 quarter truck, $450 half truck, $700 full truck. All prices include labor, disposal fees, and cleanup. No hidden charges or surprise fees for Del Mar residents."
+  },
+  {
+    question: "Do you handle luxury home cleanouts in Del Mar?",
+    answer: "Yes, we specialize in luxury property cleanouts throughout Del Mar. Our team understands the unique requirements of high-end coastal homes and provides discreet, professional service with proper handling of valuable items."
+  },
+  {
+    question: "Are you licensed and insured for junk removal in San Diego County?",
+    answer: "Yes, Severin Cleaners is fully licensed and insured for junk removal services throughout San Diego County including Del Mar. We carry comprehensive liability insurance and proper waste hauling permits."
+  },
+  {
+    question: "Can you remove items from Del Mar vacation rentals and beach houses?",
+    answer: "Absolutely. We provide specialized vacation rental cleanout services for Del Mar beach houses and short-term rentals. We work around guest schedules and provide quick turnaround for property managers and owners."
+  }
+];
+
 export default function JunkRemovalDelMarPage() {
   const serviceSchema = generateLocationServiceSchema({
     locationName: "Del Mar",
@@ -81,6 +108,8 @@ export default function JunkRemovalDelMarPage() {
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
     { name: "Del Mar Junk Removal", url: "https://severincleaners.com/junk-removal-del-mar" },
   ]);
+
+  const faqSchema = generateFAQSchema(delMarFAQs);
 
   const nearbyLocations = [
     { name: "Rancho Santa Fe", slug: "rancho-santa-fe" },
@@ -329,7 +358,14 @@ export default function JunkRemovalDelMarPage() {
         <TrustSignalsSection locationName="Del Mar" coverageArea="North County Coastal" />
 
         {/* FAQ Section */}
-        <DelMarFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Junk Removal Del Mar"
+          description="Get answers to common questions about our <strong>junk removal Del Mar</strong> services, pricing, and same-day availability."
+          faqs={delMarFAQs}
+          ctaTitle="Still Have Questions About Del Mar Junk Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Del Mar</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
 
         {/* Related Services */}
         <section className="py-12 bg-gray-50">

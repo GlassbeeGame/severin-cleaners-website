@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import EstateFAQSection from "./EstateFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -72,6 +72,41 @@ export const metadata: Metadata = {
   },
 };
 
+const estateFAQs = [
+    {
+      question: "How much does estate cleanout cost in San Diego?",
+      answer: "Estate cleanout costs depend on how much needs to be hauled away. Most full estates range from $1,500-$3,000 depending on property size and volume of items. Single trailer loads start at $100-$495. We provide written estimates after seeing what needs to be removed."
+    },
+    {
+      question: "Can you help with probate cleanout deadlines in San Diego?",
+      answer: "Yes. Our probate cleanout San Diego service works efficiently to meet court deadlines. We haul away furniture, clear rooms, and remove all items so you can meet legal requirements. We understand the timeline pressure and schedule accordingly."
+    },
+    {
+      question: "Do you handle estate sale cleanout in San Diego?",
+      answer: "Absolutely. Our estate sale cleanout San Diego service removes everything left over after an estate sale. We'll haul away unsold furniture, boxes, and miscellaneous items so you can close out the property."
+    },
+    {
+      question: "What if there are items I want to keep?",
+      answer: "Simply point out what you want to keep and we'll work around it. We only haul away what you tell us to remove. Some families set aside items beforehand, others direct us during the cleanout—either way works."
+    },
+    {
+      question: "Can you help with senior downsizing in San Diego?",
+      answer: "Yes. Our senior downsizing San Diego service removes furniture and items that won't fit in the new place. We work at a comfortable pace and treat seniors with patience and respect. We handle the heavy lifting so transitions go smoothly."
+    },
+    {
+      question: "What happens to the items after you haul them away?",
+      answer: "Usable furniture and items in good condition go to local charities when appropriate. Everything else is disposed of responsibly—we comply with San Diego disposal regulations to ensure proper handling."
+    },
+    {
+      question: "Do you offer estate junk removal services in San Diego?",
+      answer: "Yes. Our estate junk removal San Diego service handles the disposal of unwanted furniture, old belongings, and accumulated items. We remove everything you don't need—from single rooms to entire houses."
+    },
+    {
+      question: "How quickly can you start?",
+      answer: "We can typically start within a few days, depending on your schedule and readiness. For urgent probate situations, we can often begin within 24-48 hours. We work around your timeline—some families need immediate help, others need time. Either way, we're here when you're ready."
+    }
+  ];
+
 export default function EstateCleanoutPage() {
   const serviceSchema = generateServiceSchema({
     name: "Estate Cleanout San Diego",
@@ -87,9 +122,11 @@ export default function EstateCleanoutPage() {
     { name: "Estate Cleanout", url: "https://severincleaners.com/estate-cleanout-san-diego" },
   ]);
 
+  const faqSchema = generateFAQSchema(estateFAQs);
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema]
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const relatedServices = [
@@ -309,7 +346,14 @@ export default function EstateCleanoutPage() {
         <TrustSignalsSection locationName="Estate Cleanout" />
 
         {/* FAQ Section */}
-        <EstateFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Estate Cleanout San Diego"
+          description="Get answers to common questions about our <strong>estate cleanout San Diego</strong> services, compassionate handling, and complete property clearing."
+          faqs={estateFAQs}
+          ctaTitle="Still Have Questions About Estate Cleanout Services?"
+          ctaDescription="Our compassionate team is ready to help with your <strong>estate cleanout San Diego</strong> needs, provide detailed quotes, or answer any questions during this difficult time."
+          includeSchema={false}
+        />
       </main>
 
       <Footer />

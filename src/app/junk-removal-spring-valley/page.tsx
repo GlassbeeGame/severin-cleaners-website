@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import SpringValleyFAQSection from "./SpringValleyFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -69,6 +69,29 @@ export const metadata: Metadata = {
   },
 };
 
+const springValleyFAQs = [
+  {
+    question: "How much does junk removal cost in Spring Valley?",
+    answer: "Our <strong>Spring Valley junk removal</strong> pricing is transparent and affordable, designed with East County families in mind. We offer upfront pricing with no hidden fees:"
+  },
+  {
+    question: "Do you provide hillside junk hauling in Spring Valley?",
+    answer: "Yes! We specialize in hillside property <strong>junk pickup Spring Valley</strong> services, especially in Dictionary Hill and Casa de Oro areas. Our team has specialized equipment and experience handling challenging terrain, steep driveways, and unique access situations. We're experts at safely navigating hillside properties throughout East County."
+  },
+  {
+    question: "Can you offer same-day junk pickup for apartments and mobile homes?",
+    answer: "Absolutely! We provide same-day <strong>Spring Valley junk removal</strong> service for apartments, mobile home parks, and multi-family properties. Our team works efficiently with property managers and understands the unique requirements of rental properties. We coordinate with building management and respect community guidelines for all <strong>trash removal Spring Valley</strong> projects."
+  },
+  {
+    question: "Do you handle large family cleanouts and estate junk removal?",
+    answer: "Yes, while we're a professional <strong>junk removal Spring Valley</strong> company, we excel at large family cleanouts and estate property junk removal. Our core service is hauling away unwanted items, furniture, and debris from inherited homes and multi-generational households."
+  },
+  {
+    question: "Are your junk removal services eco-friendly in East County?",
+    answer: "Absolutely. Our <strong>Spring Valley San Diego junk removal</strong> approach prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations."
+  }
+];
+
 export default function JunkRemovalSpringValleyPage() {
   const serviceSchema = generateLocationServiceSchema({
     locationName: "Spring Valley",
@@ -82,6 +105,8 @@ export default function JunkRemovalSpringValleyPage() {
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
     { name: "Spring Valley Junk Removal", url: "https://severincleaners.com/junk-removal-spring-valley" },
   ]);
+
+  const faqSchema = generateFAQSchema(springValleyFAQs);
 
   const nearbyLocations = [
     { name: "La Mesa", slug: "la-mesa" },
@@ -332,7 +357,14 @@ export default function JunkRemovalSpringValleyPage() {
         <TrustSignalsSection locationName="Spring Valley" />
 
         {/* FAQ Section */}
-        <SpringValleyFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Junk Removal Spring Valley"
+          description="Get answers to common questions about our <strong>junk removal Spring Valley</strong> services, pricing, and same-day availability."
+          faqs={springValleyFAQs}
+          ctaTitle="Still Have Questions About Spring Valley Junk Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Spring Valley</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
 
         {/* Related Services */}
         <section className="py-12 bg-gray-50">

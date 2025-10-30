@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import PowayFAQSection from "./PowayFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -67,6 +67,29 @@ export const metadata: Metadata = {
   },
 };
 
+const powayFAQs = [
+  {
+    question: "How much does junk removal cost in Poway?",
+    answer: "Our <strong>Poway junk removal</strong> pricing is transparent and upfront with no hidden fees. We offer special rates for ranch properties, large estates, and volume discounts for multi-acre cleanouts:"
+  },
+  {
+    question: "Do you handle junk hauling for large ranch or equestrian properties?",
+    answer: "Yes, our <strong>junk hauling Poway</strong> service specializes in ranch and equestrian properties throughout Poway's rural areas. We handle barn cleanouts, arena maintenance debris, fence removal, and agricultural equipment disposal. Our team is experienced with multi-acre properties and understands the unique needs of horse facilities."
+  },
+  {
+    question: "Can you provide same-day junk pickup in Poway?",
+    answer: "Absolutely. We offer same-day <strong>junk pickup Poway</strong> service for urgent needs throughout all Poway neighborhoods, from Old Poway Village to Green Valley. Our local team can respond quickly for family emergencies, ranch property issues, or time-sensitive business cleanouts."
+  },
+  {
+    question: "Do you work with Poway Business Park offices and commercial properties?",
+    answer: "Yes, our <strong>trash removal Poway</strong> service includes comprehensive commercial support for Poway Business Park and local businesses. We provide office cleanouts, warehouse clearing, retail renovation debris removal, and regular commercial waste management with flexible scheduling to minimize business disruption."
+  },
+  {
+    question: "Are your junk removal services eco-friendly in Poway?",
+    answer: "Absolutely. Our <strong>Poway San Diego junk removal</strong> prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations."
+  }
+];
+
 export default function JunkRemovalPowayPage() {
   const serviceSchema = generateLocationServiceSchema({
     locationName: "Poway",
@@ -80,6 +103,8 @@ export default function JunkRemovalPowayPage() {
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
     { name: "Poway Junk Removal", url: "https://severincleaners.com/junk-removal-poway" },
   ]);
+
+  const faqSchema = generateFAQSchema(powayFAQs);
 
   const nearbyLocations = [
     { name: "Rancho Santa Fe", slug: "rancho-santa-fe" },
@@ -331,7 +356,14 @@ export default function JunkRemovalPowayPage() {
         <TrustSignalsSection locationName="Poway" />
 
         {/* FAQ Section */}
-        <PowayFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Junk Removal Poway"
+          description="Get answers to common questions about our <strong>junk removal Poway</strong> services, pricing, and same-day availability."
+          faqs={powayFAQs}
+          ctaTitle="Still Have Questions About Poway Junk Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Poway</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
 
         {/* Related Services */}
         <section className="py-12 bg-gray-50">

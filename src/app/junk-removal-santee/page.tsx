@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import SanteeFAQSection from "./SanteeFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -67,6 +67,29 @@ export const metadata: Metadata = {
   },
 };
 
+const santeeFAQs = [
+  {
+    question: "How much does junk removal cost in Santee?",
+    answer: "Our <strong>Santee junk removal</strong> pricing is transparent and upfront with no hidden fees. We offer competitive rates for garage cleanouts, family homes, and apartment complexes:"
+  },
+  {
+    question: "Do you handle garage cleanouts and bulky item pickup in Santee?",
+    answer: "Absolutely. Our <strong>junk hauling Santee</strong> service specializes in garage cleanouts and bulky item removal throughout East County. We handle furniture, appliances, exercise equipment, and accumulated household items, helping families reclaim garage space for vehicles and organized storage."
+  },
+  {
+    question: "Can you provide same-day junk hauling in Santee?",
+    answer: "Yes, we offer same-day <strong>junk pickup Santee</strong> service for urgent needs throughout Carlton Hills, Sky Ranch, and all Santee neighborhoods. Our East County team can respond quickly for family emergencies, property management needs, or time-sensitive home organization projects."
+  },
+  {
+    question: "Do you work with Santee property managers and apartment complexes?",
+    answer: "Yes, our <strong>trash removal Santee</strong> service provides comprehensive support for property managers and apartment complexes throughout East County. We coordinate tenant turnovers, common area cleanouts, and bulk item removal with flexible scheduling and competitive commercial rates."
+  },
+  {
+    question: "Are your junk removal services eco-friendly in East County?",
+    answer: "Absolutely. Our <strong>Santee San Diego junk removal</strong> prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations."
+  }
+];
+
 export default function JunkRemovalSanteePage() {
   const serviceSchema = generateLocationServiceSchema({
     locationName: "Santee",
@@ -80,6 +103,8 @@ export default function JunkRemovalSanteePage() {
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
     { name: "Santee Junk Removal", url: "https://severincleaners.com/junk-removal-santee" },
   ]);
+
+  const faqSchema = generateFAQSchema(santeeFAQs);
 
   const nearbyLocations = [
     { name: "El Cajon", slug: "el-cajon" },
@@ -330,7 +355,14 @@ export default function JunkRemovalSanteePage() {
         <TrustSignalsSection locationName="Santee" />
 
         {/* FAQ Section */}
-        <SanteeFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Junk Removal Santee"
+          description="Get answers to common questions about our <strong>junk removal Santee</strong> services, pricing, and same-day availability."
+          faqs={santeeFAQs}
+          ctaTitle="Still Have Questions About Santee Junk Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Santee</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
 
         {/* Related Services */}
         <section className="py-12 bg-gray-50">

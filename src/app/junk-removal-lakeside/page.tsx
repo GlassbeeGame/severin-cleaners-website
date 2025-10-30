@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import LakesideFAQSection from "./LakesideFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -67,6 +67,29 @@ export const metadata: Metadata = {
   },
 };
 
+const lakesideFAQs = [
+  {
+    question: "How much does junk removal cost in Lakeside?",
+    answer: "Our <strong>Lakeside junk removal</strong> pricing is transparent and upfront with no hidden fees. We offer special rates for large properties, ranches, and recurring rural property maintenance:"
+  },
+  {
+    question: "Do you handle large property and ranch junk hauling?",
+    answer: "Yes, our <strong>junk hauling Lakeside</strong> service specializes in large properties, ranches, and agricultural facilities. We handle multi-acre cleanouts, ranch equipment disposal, barn cleanouts, and agricultural waste removal. Our team is experienced with the scale and unique requirements of East County's rural properties."
+  },
+  {
+    question: "Can you provide same-day junk pickup in Lakeside?",
+    answer: "Absolutely. We provide same-day <strong>junk pickup Lakeside</strong> for urgent needs throughout East County rural areas. Our team can respond quickly for large property emergencies, seasonal cleanouts, or time-sensitive agricultural operations while respecting working ranch and farm schedules."
+  },
+  {
+    question: "Do you remove yard debris and outdoor storage items?",
+    answer: "Yes, our <strong>trash removal Lakeside</strong> includes comprehensive yard debris removal, outdoor storage cleanouts, and landscaping waste disposal. We handle tree trimming debris, seasonal cleanup, garden renovation waste, and outdoor equipment disposal common to Lakeside's rural lifestyle."
+  },
+  {
+    question: "Are your junk removal services eco-friendly in East County?",
+    answer: "Absolutely. Our <strong>Lakeside San Diego junk removal</strong> prioritizes environmental responsibility through agricultural waste recycling, donation programs with local East County charities, and eco-friendly disposal methods that exceed local regulations."
+  }
+];
+
 export default function JunkRemovalLakesidePage() {
   const serviceSchema = generateLocationServiceSchema({
     locationName: "Lakeside",
@@ -80,6 +103,8 @@ export default function JunkRemovalLakesidePage() {
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
     { name: "Lakeside Junk Removal", url: "https://severincleaners.com/junk-removal-lakeside" },
   ]);
+
+  const faqSchema = generateFAQSchema(lakesideFAQs);
 
   const nearbyLocations = [
     { name: "El Cajon", slug: "el-cajon" },
@@ -330,7 +355,14 @@ export default function JunkRemovalLakesidePage() {
         <TrustSignalsSection locationName="Lakeside" />
 
         {/* FAQ Section */}
-        <LakesideFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Junk Removal Lakeside"
+          description="Get answers to common questions about our <strong>junk removal Lakeside</strong> services, pricing, and same-day availability."
+          faqs={lakesideFAQs}
+          ctaTitle="Still Have Questions About Lakeside Junk Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Lakeside</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
 
         {/* Related Services */}
         <section className="py-12 bg-gray-50">

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import KearnyMesaFAQSection from "./KearnyMesaFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import LocationPricingSection from "@/components/LocationPricingSection";
@@ -115,6 +115,29 @@ const faqSchema = {
   ]
 };
 
+const kearnyMesaFAQs = [
+  {
+    question: "How much does junk removal cost in Kearny Mesa?",
+    answer: "Our <strong>Kearny Mesa junk removal</strong> pricing is transparent and upfront with no hidden fees. Here's our standard pricing structure:"
+  },
+  {
+    question: "Do you provide same-day junk hauling in Kearny Mesa?",
+    answer: "Absolutely! We offer same-day <strong>junk pickup Kearny Mesa</strong> service for urgent commercial and residential needs. Our local team understands the fast-paced business environment of Kearny Mesa and can respond quickly for office closures, warehouse cleanouts, or emergency residential situations."
+  },
+  {
+    question: "Can you handle office and warehouse junk removal in Kearny Mesa?",
+    answer: "Yes! Our <strong>commercial junk removal Kearny Mesa</strong> service specializes in office cleanouts, warehouse junk hauling, and industrial equipment removal. We handle cubicles, filing cabinets, pallets, shelving, electronics, and construction debris. We offer flexible scheduling including after-hours and weekend service to minimize business disruption."
+  },
+  {
+    question: "Do you recycle or donate items collected in Kearny Mesa?",
+    answer: "Absolutely. Our <strong>trash removal Kearny Mesa</strong> approach prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations."
+  },
+  {
+    question: "Is commercial junk removal available for Kearny Mesa businesses?",
+    answer: "Yes, we provide comprehensive <strong>commercial junk removal Kearny Mesa</strong> for businesses throughout the area including office parks, industrial complexes, auto dealerships, restaurants in Convoy District, and warehouse facilities. We offer business account pricing, flexible scheduling, and recurring service options tailored to your operational needs."
+  }
+];
+
 export default function JunkRemovalKearnyMesaPage() {
   const serviceSchema = generateLocationServiceSchema({
     locationName: "Kearny Mesa",
@@ -129,9 +152,11 @@ export default function JunkRemovalKearnyMesaPage() {
     { name: "Kearny Mesa Junk Removal", url: "https://severincleaners.com/junk-removal-kearny-mesa" },
   ]);
 
+  const faqSchema = generateFAQSchema(kearnyMesaFAQs);
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema, faqSchema]
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema, faqSchema]
   };
 
   return (
@@ -402,7 +427,14 @@ export default function JunkRemovalKearnyMesaPage() {
           <TrustSignalsSection locationName="Kearny Mesa" coverageArea="Central San Diego" />
 
           {/* FAQ Section */}
-          <KearnyMesaFAQSection />
+          <FAQSection
+          title="Frequently Asked Questions - Junk Removal Kearny Mesa"
+          description="Get answers to common questions about our <strong>junk removal Kearny Mesa</strong> services, pricing, and same-day availability."
+          faqs={kearnyMesaFAQs}
+          ctaTitle="Still Have Questions About Kearny Mesa Junk Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Kearny Mesa</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
 
           {/* Final CTA Section */}
           <section className="py-16 bg-gradient-to-br from-blue-900 to-blue-700 text-white">

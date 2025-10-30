@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import CouchFAQSection from "./CouchFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -124,6 +124,29 @@ const faqSchema = {
   ]
 };
 
+const couchFAQs = [
+  {
+    question: "How much does couch removal cost in San Diego?",
+    answer: "Most pickups start around $100 for a single couch, with final pricing based on access and size."
+  },
+  {
+    question: "Do you offer same-day couch disposal?",
+    answer: "Yes, we provide same-day or next-day <strong>San Diego couch disposal</strong> across most neighborhoods."
+  },
+  {
+    question: "Can you remove sectionals or oversized sofas?",
+    answer: "Absolutely. We handle large and heavy furniture, including sectionals, recliners, and sleeper sofas."
+  },
+  {
+    question: "Do you recycle couches?",
+    answer: "We recycle or donate when possible, coordinating with local San Diego facilities and charities."
+  },
+  {
+    question: "Do you serve apartments or high-rises downtown?",
+    answer: "Yes, we specialize in <strong>sofa removal San Diego</strong> apartments with stair or elevator access limitations."
+  }
+];
+
 export default function CouchRemovalPage() {
   const serviceSchema = generateServiceSchema({
     name: "Couch Removal San Diego",
@@ -179,9 +202,11 @@ export default function CouchRemovalPage() {
     "aggregateRating": generateAggregateRatingSchema()
   };
 
+  const faqSchema = generateFAQSchema(couchFAQs);
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema]
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, faqSchema]
   };
 
   return (
@@ -418,7 +443,14 @@ export default function CouchRemovalPage() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <CouchFAQSection />
+            <FAQSection
+          title="Frequently Asked Questions - Couch Removal San Diego"
+          description="Get answers to common questions about our <strong>couch removal San Diego</strong> service, pricing, and same-day pickup options."
+          faqs={couchFAQs}
+          ctaTitle="Still Have Questions About Couch Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>couch removal San Diego</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
           </div>
         </div>
       </section>

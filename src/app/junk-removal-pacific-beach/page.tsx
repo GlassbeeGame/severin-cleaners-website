@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import PacificBeachFAQSection from "./PacificBeachFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -68,6 +68,41 @@ export const metadata: Metadata = {
   },
 };
 
+const pacificBeachFAQs = [
+  {
+    question: "Do you service all of Pacific Beach?",
+    answer: "Yes! We service every street in PB from Tourmaline Surf Beach to Belmont Park, including Crown Point, Bay Park, and all of Garnet Avenue. Our team knows every alley and access point."
+  },
+  {
+    question: "Do you work around PB's Tuesday Farmers Market?",
+    answer: "Yes, we're familiar with all PB events including the Tuesday Farmers Market on Bayard Street, Over-the-Line Tournament, and summer concerts. We schedule accordingly."
+  },
+  {
+    question: "How much does junk removal cost in Pacific Beach?",
+    answer: "Our <strong>Pacific Beach junk removal</strong> pricing is transparent and based on trailer volume:"
+  },
+  {
+    question: "Do you offer same-day or evening pickups?",
+    answer: "Yes, we provide same-day service when scheduled before 2 PM and offer evening pickups for urgent situations. Perfect for vacation rental emergencies or move-out deadlines."
+  },
+  {
+    question: "Can you remove heavy items like couches and appliances in PB?",
+    answer: "Absolutely! Our <strong>junk hauling Pacific Beach</strong> team specializes in removing heavy furniture and appliances from Ocean Front Walk condos, Garnet Avenue apartments, and Crown Point homes. We safely handle:"
+  },
+  {
+    question: "Do you provide same-day junk hauling in Pacific Beach?",
+    answer: "Yes! We offer same-day <strong>junk pickup PB</strong> service when you call before 2 PM. This is especially helpful for vacation rental turnovers on Ocean Front Walk, student move-outs near Garnet Avenue, and emergency cleanouts near Tourmaline Surf Park. During peak summer season, we recommend scheduling morning appointments to guarantee same-day service throughout the 92109 area."
+  },
+  {
+    question: "What types of junk do you not remove?",
+    answer: "We handle all standard household items, furniture, appliances, construction debris, yard waste, and beach-damaged items in accordance with local regulations. If you're unsure about a specific item, please call us at <a href="tel:6197500114" className="text-blue-600 hover:underline">(619) 750-0114</a> and we can discuss it - there are various factors that can affect pricing and service options."
+  },
+  {
+    question: "Are you licensed and insured for junk removal in San Diego?",
+    answer: "Yes! Severin Cleaners is fully licensed and insured to provide <strong>PB San Diego junk removal</strong> services throughout Pacific Beach and all of San Diego County. We carry comprehensive liability insurance to protect your property during removal, and we dispose of all items responsibly at licensed facilities. Our team follows all local regulations for waste handling and environmental compliance."
+  }
+];
+
 export default function JunkRemovalPacificBeachPage() {
   const serviceSchema = generateLocationServiceSchema({
     locationName: "Pacific Beach",
@@ -81,6 +116,8 @@ export default function JunkRemovalPacificBeachPage() {
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
     { name: "Pacific Beach Junk Removal", url: "https://severincleaners.com/junk-removal-pacific-beach" },
   ]);
+
+  const faqSchema = generateFAQSchema(pacificBeachFAQs);
 
   const nearbyLocations = [
     { name: "La Jolla", slug: "la-jolla" },
@@ -332,7 +369,14 @@ export default function JunkRemovalPacificBeachPage() {
         <TrustSignalsSection locationName="Pacific Beach" />
 
         {/* FAQ Section */}
-        <PacificBeachFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Junk Removal Pacific Beach"
+          description="Get answers to common questions about our <strong>junk removal Pacific Beach</strong> services, pricing, and same-day availability."
+          faqs={pacificBeachFAQs}
+          ctaTitle="Still Have Questions About Pacific Beach Junk Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Pacific Beach</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
 
         {/* Related Services */}
         <section className="py-12 bg-gray-50">

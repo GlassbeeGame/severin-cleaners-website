@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import OceansideFAQSection from "./OceansideFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -67,6 +67,29 @@ export const metadata: Metadata = {
   },
 };
 
+const oceansideFAQs = [
+  {
+    question: "How much does junk removal cost in Oceanside?",
+    answer: "Our <strong>Oceanside junk removal</strong> pricing is transparent and upfront, with special military discounts for active duty families and competitive rates for vacation rental properties:"
+  },
+  {
+    question: "Do you provide junk removal for Camp Pendleton military housing?",
+    answer: "Yes, our <strong>Camp Pendleton junk removal</strong> service specializes in military PCS moves and base housing cleanouts. We coordinate with base housing offices, understand inspection requirements, and work within tight military timelines. Active duty families receive special discounts, and we're familiar with all base access procedures."
+  },
+  {
+    question: "Can you handle same-day junk pickup for vacation rentals in Oceanside?",
+    answer: "Absolutely. Our <strong>junk pickup Oceanside</strong> team provides same-day service for vacation rental turnovers throughout coastal Oceanside. We understand the importance of quick turnarounds for maintaining bookings and reviews, offering priority scheduling for property managers and vacation rental owners."
+  },
+  {
+    question: "Do you offer coastal property cleanouts and storm debris removal?",
+    answer: "Yes, while we're a general <strong>junk removal Oceanside</strong> company serving all types of properties, we excel at coastal property cleanouts including storm debris removal, salt air damaged furniture disposal, and beach equipment cleanup."
+  },
+  {
+    question: "Are your junk removal services eco-friendly in North County?",
+    answer: "Absolutely. Our <strong>Oceanside San Diego junk removal</strong> prioritizes environmental protection through comprehensive recycling, donation programs, and disposal methods that comply with all local coastal regulations."
+  }
+];
+
 export default function JunkRemovalOceansidePage() {
   const serviceSchema = generateLocationServiceSchema({
     locationName: "Oceanside",
@@ -80,6 +103,8 @@ export default function JunkRemovalOceansidePage() {
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
     { name: "Oceanside Junk Removal", url: "https://severincleaners.com/junk-removal-oceanside" },
   ]);
+
+  const faqSchema = generateFAQSchema(oceansideFAQs);
 
   const nearbyLocations = [
     { name: "Vista", slug: "vista" },
@@ -332,7 +357,14 @@ export default function JunkRemovalOceansidePage() {
         <TrustSignalsSection locationName="Oceanside" />
 
         {/* FAQ Section */}
-        <OceansideFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Junk Removal Oceanside"
+          description="Get answers to common questions about our <strong>junk removal Oceanside</strong> services, pricing, and same-day availability."
+          faqs={oceansideFAQs}
+          ctaTitle="Still Have Questions About Oceanside Junk Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Oceanside</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
 
         {/* Related Services */}
         <section className="py-12 bg-gray-50">

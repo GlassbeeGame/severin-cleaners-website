@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ElCajonFAQSection from "./ElCajonFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
@@ -69,6 +69,37 @@ export const metadata: Metadata = {
   },
 };
 
+const elCajonFAQs = [
+  {
+    question: "How much does junk removal cost in El Cajon?",
+    answer: "Our El Cajon junk removal pricing is transparent and volume-based with no hidden fees. We offer comprehensive service to all Fletcher Hills, Rancho San Diego, Granite Hills, and East County neighborhoods with family-focused service:"
+  },
+  {
+    question: "Do you provide same-day junk hauling in East County?",
+    answer: "Yes, we offer same-day junk hauling El Cajon service for urgent needs throughout East County. Whether you're in Fletcher Hills, Rancho San Diego, Granite Hills, Crest, or Downtown El Cajon, our locally owned team can respond quickly for emergency cleanouts, estate situations, and time-sensitive property needs. Same-day availability depends on scheduling and crew availability."
+  },
+  {
+    question: "What neighborhoods in El Cajon do you cover?",
+    answer: "Our East County junk removal covers all El Cajon neighborhoods including Fletcher Hills, Rancho San Diego, Granite Hills, Bostonia, Crest, Mount Helix, Downtown El Cajon, Jamacha-Lomita, Casa de Oro, and the Fletcher Parkway corridor. We serve from Parkway Plaza to the mountain communities, including hillside properties, master-planned communities, and established family neighborhoods throughout East County."
+  },
+  {
+    question: "Can you handle large family properties or multi-generational homes?",
+    answer: "Absolutely. Our junk pickup El Cajon service specializes in large family properties and multi-generational households common throughout East County. As a locally owned business, we understand the unique needs of family cleanouts, inherited properties, and estate transitions. We provide respectful, compassionate service that preserves important family memories while handling extensive property cleanouts with care and professionalism."
+  },
+  {
+    question: "Do you serve Fletcher Hills and Rancho San Diego?",
+    answer: "Yes, we provide comprehensive trash removal El Cajon service throughout Fletcher Hills and Rancho San Diego. We specialize in these premier East County neighborhoods, understanding their unique characteristics - from Fletcher Hills' established hillside properties and luxury estates to Rancho San Diego's master-planned communities and HOA requirements. Our team delivers professional service that respects community standards and family values in both areas."
+  },
+  {
+    question: "Do you offer scrap metal removal and recycling in El Cajon?",
+    answer: "Yes, our El Cajon scrap metal removal service accepts all types of metal including appliances, copper wire, aluminum, steel, brass, iron, and more. We provide fair pricing for scrap metal recycling El Cajon and haul to certified recycling facilities in East County. Whether you have old appliances, construction metal, or yard scrap, we offer same-day metal pickup El Cajon CA for residential and commercial properties throughout East County."
+  },
+  {
+    question: "What types of scrap metal do you accept in East County?",
+    answer: "Our metal recycling El Cajon service accepts: refrigerators, washers, dryers, stoves, water heaters, copper pipes and wire, aluminum siding and gutters, steel beams and rebar, brass fixtures, iron railings and gates, metal furniture, filing cabinets, and more. We handle both ferrous and non-ferrous metals. For large quantities of scrap metal removal East County, we offer competitive pricing and can often provide credits toward your total cost."
+  }
+];
+
 export default function JunkRemovalElCajonPage() {
   const serviceSchema = generateLocationServiceSchema({
     locationName: "El Cajon",
@@ -82,6 +113,8 @@ export default function JunkRemovalElCajonPage() {
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
     { name: "El Cajon Junk Removal", url: "https://severincleaners.com/junk-removal-el-cajon" },
   ]);
+
+  const faqSchema = generateFAQSchema(elCajonFAQs);
 
   const nearbyLocations = [
     { name: "La Mesa", slug: "la-mesa" },
@@ -358,7 +391,14 @@ export default function JunkRemovalElCajonPage() {
         <TrustSignalsSection locationName="El Cajon" />
 
         {/* FAQ Section */}
-        <ElCajonFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Junk Removal El Cajon"
+          description="Get answers to common questions about our <strong>junk removal El Cajon</strong> services, pricing, and same-day availability."
+          faqs={elCajonFAQs}
+          ctaTitle="Still Have Questions About El Cajon Junk Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal El Cajon</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
 
         {/* Related Services */}
         <section className="py-12 bg-gray-50">

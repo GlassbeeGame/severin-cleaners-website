@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import HoardingFAQSection from "./HoardingFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -72,6 +72,33 @@ export const metadata: Metadata = {
   },
 };
 
+const hoardingFAQs = [
+    {
+      question: "How much does hoarding cleanup cost?",
+      answer: "Costs vary based on volume. Single trailer loads range from $100-$495. Most hoarding cleanouts require multiple loads and typically cost $1,500-$5,000+ for complete removal. We provide free confidential consultations and written estimates."
+    },
+    {
+      question: "Do you keep the cleanup confidential?",
+      answer: "Absolutely. We use unmarked trucks and maintain complete discretion. All team members sign confidentiality agreements. We schedule around your needs and use private entrances when possible. Your privacy is our priority."
+    },
+    {
+      question: "Do you handle biohazards, pests, or mold?",
+      answer: "We handle general junk and debris removal following safe handling practices. For severe biohazard issues, extensive pest infestations, or significant mold problems, we coordinate with trusted professionals to ensure the entire cleanup gets done safely and properly."
+    },
+    {
+      question: "How long does hoarding cleanup take?",
+      answer: "Timeline depends on volume and the individual's comfort level. Small jobs (1-2 rooms) typically take 1-2 days. Larger properties can take several days to weeks. We work at a pace that respects emotional needs while making steady progress."
+    },
+    {
+      question: "Is your team judgment-free?",
+      answer: "Yes. Our team is trained in compassionate service and treats every person with dignity and respect. We understand hoarding is complex, and we're here to help without judgment. Many families tell us they appreciate our patient, understanding approach."
+    },
+    {
+      question: "Can families be present during cleanup?",
+      answer: "Yes, absolutely. Many families prefer to be present to help with decisions about what to keep. We work collaboratively and move at a pace that's comfortable. Some families prefer we work independently—either approach is fine."
+    }
+  ];
+
 export default function HoardingCleanupPage() {
   const serviceSchema = generateServiceSchema({
     name: "Hoarding Cleanup San Diego",
@@ -87,9 +114,11 @@ export default function HoardingCleanupPage() {
     { name: "Hoarding Cleanup", url: "https://severincleaners.com/hoarding-cleanup-san-diego" },
   ]);
 
+  const faqSchema = generateFAQSchema(hoardingFAQs);
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema]
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const relatedServices = [
@@ -304,7 +333,14 @@ export default function HoardingCleanupPage() {
         <TrustSignalsSection locationName="Hoarding Cleanup" />
 
         {/* FAQ Section */}
-        <HoardingFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Hoarding Cleanup San Diego"
+          description="Get answers to common questions about our compassionate <strong>hoarding cleanup San Diego</strong> services and specialized support."
+          faqs={hoardingFAQs}
+          ctaTitle="Need Compassionate Hoarding Cleanup Help?"
+          ctaDescription="Our experienced, non-judgmental team is ready to help with <strong>hoarding cleanup San Diego</strong> services. Confidential, respectful, and thorough."
+          includeSchema={false}
+        />
       </main>
 
         <Footer />

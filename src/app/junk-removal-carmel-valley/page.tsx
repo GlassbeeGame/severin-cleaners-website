@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import CarmelValleyFAQSection from "./CarmelValleyFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
@@ -68,6 +68,33 @@ export const metadata: Metadata = {
   },
 };
 
+const carmelValleyFAQs = [
+  {
+    question: "Do you provide same-day junk removal in Carmel Valley?",
+    answer: "Yes, we offer same-day junk pickup throughout Carmel Valley including Torrey Highlands, Del Mar Mesa, and Pacific Highlands Ranch. Call (619) 750-0114 before 2 PM for same-day service availability."
+  },
+  {
+    question: "What areas of Carmel Valley do you serve?",
+    answer: "We serve all neighborhoods in Carmel Valley 92130 including Torrey Highlands, Del Mar Mesa, Pacific Highlands Ranch, Carmel Creek, and Torrey Hills. We also cover surrounding areas like 4S Ranch and Rancho Penasquitos."
+  },
+  {
+    question: "How much does junk removal cost in Carmel Valley?",
+    answer: "Our <strong>Carmel Valley junk removal</strong> pricing is transparent and upfront with no hidden fees:"
+  },
+  {
+    question: "Do you remove furniture and appliances from Carmel Valley homes?",
+    answer: "Yes, we remove all types of furniture, appliances, and household items. This includes sofas, mattresses, refrigerators, washers, dryers, and exercise equipment. We handle both indoor and outdoor removal."
+  },
+  {
+    question: "Are you licensed and insured for junk removal in San Diego?",
+    answer: "Yes, Severin Cleaners is fully licensed and insured for junk removal services throughout San Diego County. We carry comprehensive liability insurance and proper waste hauling permits."
+  },
+  {
+    question: "What items cannot be removed during junk hauling?",
+    answer: "We cannot remove hazardous materials like paint, chemicals, asbestos, or medical waste. However, we handle electronics, furniture, appliances, yard waste, construction debris, and most household items."
+  }
+];
+
 export default function JunkRemovalCarmelValleyPage() {
   const serviceSchema = generateLocationServiceSchema({
     locationName: "Carmel Valley",
@@ -81,6 +108,8 @@ export default function JunkRemovalCarmelValleyPage() {
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
     { name: "Carmel Valley Junk Removal", url: "https://severincleaners.com/junk-removal-carmel-valley" },
   ]);
+
+  const faqSchema = generateFAQSchema(carmelValleyFAQs);
 
   const nearbyLocations = [
     { name: "Del Mar", slug: "del-mar" },
@@ -331,7 +360,14 @@ export default function JunkRemovalCarmelValleyPage() {
         <TrustSignalsSection locationName="Carmel Valley" />
 
         {/* FAQ Section */}
-        <CarmelValleyFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Junk Removal Carmel Valley"
+          description="Get answers to common questions about our <strong>junk removal Carmel Valley</strong> services, pricing, and same-day availability."
+          faqs={carmelValleyFAQs}
+          ctaTitle="Still Have Questions About Carmel Valley Junk Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Carmel Valley</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
 
         {/* Related Services */}
         <section className="py-12 bg-gray-50">

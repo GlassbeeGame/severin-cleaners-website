@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import VistaFAQSection from "./VistaFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -71,6 +71,29 @@ export const metadata: Metadata = {
   },
 };
 
+const vistaFAQs = [
+  {
+    question: "How much does junk removal cost in Vista?",
+    answer: "Our <strong>Vista junk removal</strong> pricing is transparent and upfront with no hidden fees. Here's our standard pricing structure:"
+  },
+  {
+    question: "Do you handle apartment and condo junk hauling in Vista?",
+    answer: "Yes! We specialize in apartment and condo <strong>junk pickup Vista</strong> services, especially in Downtown Vista Village and Shadowridge complexes. Our team navigates stairs, elevators, and tight spaces with care. We coordinate with property managers and respect HOA guidelines for all <strong>trash removal Vista</strong> projects."
+  },
+  {
+    question: "Can you provide same-day junk pickup in Vista?",
+    answer: "Absolutely! We offer same-day <strong>Vista junk removal</strong> service 7 days a week. Our local team can often arrive within 2-4 hours of your call for emergency cleanouts. Whether you need urgent help for moving deadlines or unexpected situations, our same-day <strong>junk hauling Vista</strong> service is ready to help."
+  },
+  {
+    question: "Do you work with Vista businesses and warehouses?",
+    answer: "Yes, we provide comprehensive commercial <strong>Vista San Diego junk removal</strong> for businesses throughout Vista Business Park, downtown breweries, and warehouse facilities. Our services include office cleanouts, retail space clearing, and industrial equipment removal. We work with contractors, property managers, and business owners on projects of all sizes."
+  },
+  {
+    question: "Are your junk removal services eco-friendly in North County?",
+    answer: "Absolutely. Our <strong>Vista junk removal</strong> approach prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations."
+  }
+];
+
 export default function JunkRemovalVistaPage() {
   const serviceSchema = generateLocationServiceSchema({
     locationName: "Vista",
@@ -84,6 +107,8 @@ export default function JunkRemovalVistaPage() {
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
     { name: "Vista Junk Removal", url: "https://severincleaners.com/junk-removal-vista" },
   ]);
+
+  const faqSchema = generateFAQSchema(vistaFAQs);
 
   const nearbyLocations = [
     { name: "Oceanside", slug: "oceanside" },
@@ -335,7 +360,14 @@ export default function JunkRemovalVistaPage() {
         <TrustSignalsSection locationName="Vista" />
 
         {/* FAQ Section */}
-        <VistaFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Junk Removal Vista"
+          description="Get answers to common questions about our <strong>junk removal Vista</strong> services, pricing, and same-day availability."
+          faqs={vistaFAQs}
+          ctaTitle="Still Have Questions About Vista Junk Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Vista</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
 
         {/* Related Services */}
         <section className="py-12 bg-gray-50">

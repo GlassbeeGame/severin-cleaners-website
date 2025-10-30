@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import CommercialFAQSection from "./CommercialFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -70,6 +70,29 @@ export const metadata: Metadata = {
   },
 };
 
+const commercialFAQs = [
+  {
+    question: "Do you provide after-hours or weekend commercial junk removal in San Diego?",
+    answer: "Yes, we understand that business operations cannot be disrupted during regular hours. Our <strong>commercial junk removal San Diego</strong> service includes evening, weekend, and holiday scheduling to minimize impact on your business operations. We work with your schedule to ensure seamless service delivery."
+  },
+  {
+    question: "Can you provide disposal documentation for compliance?",
+    answer: "Absolutely. We provide comprehensive disposal documentation including certificates of disposal, chain of custody records, and environmental compliance reports. Our <strong>business junk removal San Diego</strong> service includes HIPAA-compliant document destruction and EPA-certified hazardous waste handling with full documentation."
+  },
+  {
+    question: "Do you offer recurring services or contracts for businesses?",
+    answer: "Yes, we offer flexible commercial contracts for recurring <strong>office cleanout San Diego</strong> services, including monthly warehouse cleanouts, quarterly office reorganizations, and ongoing retail maintenance. We provide volume discounts for qualified business accounts."
+  },
+  {
+    question: "How quickly can you complete a large office or warehouse cleanout?",
+    answer: "Timeline depends on project scope, but we typically complete small <strong>office cleanout San Diego</strong> projects in 2-4 hours, medium retail cleanouts in 4-8 hours, and large <strong>warehouse junk removal San Diego</strong> projects in 1-3 days. We provide detailed timelines during our free assessment and can expedite urgent projects."
+  },
+  {
+    question: "What industries do you serve in San Diego?",
+    answer: "We serve all industries including healthcare and medical offices, legal and professional services, technology and startups, manufacturing and warehouses, hospitality and tourism, retail and shopping centers. Our <strong>commercial debris removal San Diego</strong> team has specialized experience with industry-specific requirements and regulations."
+  }
+];
+
 export default function CommercialjunkremovalsandiegoPage() {
   const serviceSchema = generateServiceSchema({
     name: "Commercial Junk Removal San Diego",
@@ -85,9 +108,11 @@ export default function CommercialjunkremovalsandiegoPage() {
     { name: "Commercial Junk Removal", url: "https://severincleaners.com/commercial-junk-removal-san-diego" },
   ]);
 
+  const faqSchema = generateFAQSchema(commercialFAQs);
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema]
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const relatedServices = [
@@ -368,7 +393,13 @@ export default function CommercialjunkremovalsandiegoPage() {
       <TrustSignalsSection locationName="Commercial Junk Removal" />
 
       {/* FAQ Section */}
-      <CommercialFAQSection />
+      <FAQSection
+        title="Frequently Asked Questions - Commercial Junk Removal San Diego"
+        description="Get answers to common questions about our <strong>commercial junk removal San Diego</strong> services, business scheduling, and professional cleanout process."
+        faqs={commercialFAQs}
+        ctaTitle="Still Have Questions About Commercial Junk Removal?"
+        ctaDescription="Our experienced team is ready to answer any questions about our <strong>commercial junk removal San Diego</strong> services, provide detailed quotes, or schedule your business cleanout."
+      />
 
       {/* Related Services */}
       <section className="py-12 bg-white">

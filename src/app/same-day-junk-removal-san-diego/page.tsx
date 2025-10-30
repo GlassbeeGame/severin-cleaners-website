@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import SameDayFAQSection from "./SameDayFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
@@ -73,6 +73,41 @@ export const metadata: Metadata = {
   },
 };
 
+const sameDayFAQs = [
+    {
+      question: "How quickly can you arrive for same day junk removal?",
+      answer: "We typically arrive within 2-4 hours for same day junk pickup San Diego requests. For immediate junk removal San Diego situations, call (619) 750-0114 and speak directly to our dispatch team. Book in the morning, and we can often arrive the same afternoon. Our local San Diego teams respond faster than national chains because we're right here in your community."
+    },
+    {
+      question: "What items can be removed on a same day basis?",
+      answer: "Our fast junk removal San Diego service handles virtually everything same-day: furniture, appliances, mattresses, construction debris, yard waste, electronics, and general household junk. We can remove single items or full truckloads today. The only items requiring advance scheduling are hazardous materials that need special permits. Everything else? We'll haul it today."
+    },
+    {
+      question: "Do you offer same day service on weekends?",
+      answer: "Yes! Our today junk removal San Diego service operates 7 days a week, including weekends and most holidays. Saturday and Sunday are our busiest days, so we recommend calling as early as possible for same-day weekend pickup. No extra fees for weekend service – same transparent pricing every day of the week."
+    },
+    {
+      question: "Is same day junk removal more expensive?",
+      answer: "No! We don't charge emergency fees or rush charges for immediate junk removal San Diego. Same day service costs exactly the same as scheduling for next week. Our pricing starts at $100 for single items and goes up to $495 for a full trailer load. Unlike some competitors, we believe in transparent pricing without penalizing customers who need urgent service."
+    },
+    {
+      question: "What areas in San Diego qualify for same day service?",
+      answer: "We provide quick junk removal San Diego county-wide! Priority same-day service zones include La Jolla, Pacific Beach, Chula Vista, El Cajon, Oceanside, and all central San Diego neighborhoods. Even North County and South Bay areas get same-day service when you call before 2 PM. Being locally based means faster response than national franchises operating from outside the county."
+    },
+    {
+      question: "What's the latest I can call for same day pickup?",
+      answer: "For guaranteed same day junk pickup San Diego, call before 2 PM. However, we often accommodate later calls depending on crew availability and location. It never hurts to call – even if it's 4 PM, we'll do everything possible to get there today. Our goal is to solve your junk problem NOW, not make you wait until tomorrow."
+    },
+    {
+      question: "Can you handle emergency cleanouts the same day?",
+      answer: "Absolutely. Our rapid junk removal San Diego team specializes in emergency situations: last-minute move-outs, property inspection deadlines, HOA violations, and urgent estate cleanouts. We bring extra crew members for large same-day projects to ensure completion within hours. Don't wait days – we'll handle your emergency cleanout TODAY."
+    },
+    {
+      question: "Do I need to sort items for same day removal?",
+      answer: "No sorting required! Our instant junk removal San Diego service handles everything as-is. Just point to what goes, and we'll load it up. We understand same-day situations are often urgent – you don't have time to organize. That's why our full-service approach includes all the heavy lifting, sorting during disposal, and complete cleanup. You relax while we work."
+    }
+  ];
+
 export default function SameDayJunkRemovalPage() {
   const serviceSchema = generateServiceSchema({
     name: "Same Day Junk Removal San Diego",
@@ -87,6 +122,8 @@ export default function SameDayJunkRemovalPage() {
     { name: "Services", url: "https://severincleaners.com/services" },
     { name: "Same Day Junk Removal", url: "https://severincleaners.com/same-day-junk-removal-san-diego" },
   ]);
+
+  const faqSchema = generateFAQSchema(sameDayFAQs);
 
   const relatedServices = [
     { name: "Emergency Junk Removal", slug: "emergency-junk-removal-san-diego" },
@@ -324,7 +361,14 @@ export default function SameDayJunkRemovalPage() {
         <TrustSignalsSection locationName="Same-Day Junk Removal" />
 
         {/* FAQ Section */}
-        <SameDayFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Same Day Junk Removal"
+          description="Get answers to common questions about our <strong>same-day junk removal San Diego</strong> service and urgent pickup options."
+          faqs={sameDayFAQs}
+          ctaTitle="Need Same-Day Junk Removal Now?"
+          ctaDescription="Our <strong>same-day junk removal San Diego</strong> team is ready to help. Call now for immediate service and fast response times."
+          includeSchema={false}
+        />
 
         {/* Related Services */}
         <section className="py-12 bg-gray-50">

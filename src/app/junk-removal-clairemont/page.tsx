@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ClairemontFAQSection from "./ClairemontFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import LocationPricingSection from "@/components/LocationPricingSection";
@@ -115,6 +115,29 @@ const faqSchema = {
   ]
 };
 
+const clairemontFAQs = [
+  {
+    question: "How much does junk removal cost in Clairemont?",
+    answer: "Our <strong>Clairemont junk removal</strong> pricing is transparent and upfront with no hidden fees. Here's our standard pricing structure:"
+  },
+  {
+    question: "Do you provide same-day junk hauling in Clairemont Mesa?",
+    answer: "Absolutely! We offer same-day <strong>junk pickup Clairemont Mesa</strong> service for urgent residential and commercial needs. Our local team understands Clairemont families' schedules and can respond quickly for emergency cleanouts, moving deadlines, or unexpected situations throughout North Clairemont, South Clairemont, and Clairemont Mesa East."
+  },
+  {
+    question: "Can you handle garage and attic cleanouts in Clairemont?",
+    answer: "Yes! Our <strong>trash removal Clairemont</strong> service specializes in garage cleanouts, attic clearing, and storage area organization. We handle everything from accumulated household items to old furniture, appliances, and boxes. Our team helps Clairemont families reclaim valuable space with efficient, respectful service."
+  },
+  {
+    question: "Do you recycle or donate items collected in Clairemont?",
+    answer: "Absolutely. Our <strong>Clairemont junk removal</strong> approach prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations."
+  },
+  {
+    question: "Is commercial junk removal available for Clairemont businesses?",
+    answer: "Yes, we provide comprehensive commercial <strong>junk hauling Clairemont</strong> for local businesses along Balboa Avenue and throughout Clairemont Mesa. Our services include office cleanouts, retail space clearing, restaurant equipment removal, and small business junk hauling. We offer flexible scheduling and competitive commercial rates to support Clairemont's business community."
+  }
+];
+
 export default function JunkremovalclairemontPage() {
   const serviceSchema = generateLocationServiceSchema({
     locationName: "Clairemont",
@@ -129,9 +152,11 @@ export default function JunkremovalclairemontPage() {
     { name: "Clairemont Junk Removal", url: "https://severincleaners.com/junk-removal-clairemont" },
   ]);
 
+  const faqSchema = generateFAQSchema(clairemontFAQs);
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [faqSchema, serviceSchema, breadcrumbSchema],
+    "@graph": [faqSchema, serviceSchema, breadcrumbSchema, faqSchema],
   };
 
   return (
@@ -400,7 +425,14 @@ export default function JunkremovalclairemontPage() {
           <TrustSignalsSection locationName="Clairemont" coverageArea="Central San Diego" />
 
           {/* FAQ Section */}
-          <ClairemontFAQSection />
+          <FAQSection
+          title="Frequently Asked Questions - Junk Removal Clairemont"
+          description="Get answers to common questions about our <strong>junk removal Clairemont</strong> services, pricing, and same-day availability."
+          faqs={clairemontFAQs}
+          ctaTitle="Still Have Questions About Clairemont Junk Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Clairemont</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
 
           {/* Final CTA Section */}
           <section className="py-16 bg-gradient-to-br from-blue-900 to-blue-700 text-white">

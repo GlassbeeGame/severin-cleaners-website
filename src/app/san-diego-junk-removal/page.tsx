@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import SanDiegoFAQSection from "./SanDiegoFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateServiceSchema, combineSchemas, generateAggregateRatingSchema } from "@/lib/schema";
 
@@ -69,6 +69,36 @@ export const metadata: Metadata = {
     'ICBM': '32.7157, -117.1611',
   },
 };
+
+const sanDiegoFAQs = [
+  {
+    question: "How much does junk removal cost in San Diego?",
+    answer: `San Diego junk removal prices typically range from $100 for a single item pickup to $495 for a full trailer load. Costs vary based on several factors:
+
+• Volume: The amount of space your junk takes up in our trailer
+• Access: Stairs, elevators, parking distance from your property
+• Weight: Heavier materials like concrete cost more than furniture
+• Material type: Some items require special handling or disposal
+
+Our transparent pricing includes all labor, hauling, and proper eco-friendly disposal—no hidden fees ever. Call (619) 750-0114 for an accurate upfront quote based on your specific needs.`
+  },
+  {
+    question: "Do you offer same-day junk removal in San Diego?",
+    answer: "Yes! We provide same-day and next-day junk removal across all San Diego neighborhoods when you call before 2 PM. Our locally-based team serves coastal areas (La Jolla, Pacific Beach, Del Mar), central urban (Downtown, North Park, Hillcrest), East County (El Cajon, La Mesa, Santee), North County (Oceanside, Poway, Rancho Santa Fe), and South Bay (Chula Vista, National City). Same-day availability depends on our schedule, so contact us early for the fastest service."
+  },
+  {
+    question: "Where does the junk go after pickup?",
+    answer: "We prioritize eco-friendly disposal through recycling and donation whenever possible. Usable furniture and items in good condition go to local San Diego charities like the San Diego Rescue Mission and Habitat for Humanity ReStore. Metal, wood, electronics, and appliances are sent to licensed recycling facilities. Only non-recyclable waste goes to approved disposal sites. We handle everything in full compliance with San Diego County environmental regulations, so you can trust your junk is disposed of responsibly."
+  },
+  {
+    question: "Is your company licensed and insured for San Diego County?",
+    answer: "Yes—Severin Cleaners is fully licensed and insured to operate throughout all of San Diego County. We carry comprehensive liability insurance to protect your property during removal and follow all local waste handling regulations. Our team is trained in safe lifting techniques, proper material handling, and San Diego County disposal compliance. You're working with legitimate, professional junk haulers who take responsibility seriously."
+  },
+  {
+    question: "What areas do you serve in San Diego?",
+    answer: "We serve all of San Diego County including coastal areas (La Jolla, Del Mar, Pacific Beach, Point Loma), central urban neighborhoods (Downtown, Gaslamp, North Park, Hillcrest, Mission Valley), East County (El Cajon, La Mesa, Santee, Lakeside), North County coastal and inland (Oceanside, Carlsbad, Poway, Rancho Santa Fe, Vista), and South Bay (Chula Vista, National City, Otay Ranch). Our central location allows fast response times—typically 15-30 minutes to most areas. We handle everything from beachfront condos to hillside estates to suburban family homes."
+  }
+];
 
 export default function SanDiegoJunkRemovalPage() {
   const serviceSchema = generateServiceSchema({
@@ -175,9 +205,11 @@ export default function SanDiegoJunkRemovalPage() {
     }
   };
 
+  const faqSchema = generateFAQSchema(sanDiegoFAQs);
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, localBusinessSchema]
+    "@graph": [serviceSchema, localBusinessSchema, faqSchema]
   };
 
   return (
@@ -810,7 +842,14 @@ export default function SanDiegoJunkRemovalPage() {
       </section>
 
       {/* FAQ Section */}
-      <SanDiegoFAQSection />
+      <FAQSection
+          title="Frequently Asked Questions - San Diego Junk Removal"
+          description="Get answers to common questions about our <strong>San Diego junk removal</strong> services, pricing, and same-day availability."
+          faqs={sanDiegoFAQs}
+          ctaTitle="Still Have Questions About Junk Removal?"
+          ctaDescription="Our experienced <strong>San Diego junk removal</strong> team is ready to answer your questions, provide detailed quotes, or schedule your pickup."
+          includeSchema={false}
+        />
 
       {/* Service Pages Grid */}
       <section className="py-12 bg-gray-50">

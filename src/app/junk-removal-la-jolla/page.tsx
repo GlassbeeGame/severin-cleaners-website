@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import LaJollaFAQSection from "./LaJollaFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -76,7 +76,32 @@ const breadcrumbSchema = generateBreadcrumbSchema([
   { name: "La Jolla Junk Removal", url: "https://severincleaners.com/junk-removal-la-jolla" },
 ]);
 
+const laJollaFAQs = [
+  {
+    question: "How much does junk removal cost in La Jolla?",
+    answer: "Pricing varies by load size, access, and materials handled. We provide upfront, itemized quotes before work begins."
+  },
+  {
+    question: "Do you provide discreet junk removal with unmarked vehicles?",
+    answer: "Yes — all La Jolla jobs are handled with privacy and professionalism using unmarked trucks."
+  },
+  {
+    question: "Can you handle valuable or luxury furniture?",
+    answer: "Absolutely. We specialize in high-end furnishings, antiques, and fine art removal."
+  },
+  {
+    question: "Do you offer estate cleanout services in La Jolla?",
+    answer: "Yes — we provide comprehensive estate cleanouts for large properties, families, and trustees."
+  },
+  {
+    question: "What eco-friendly disposal options do you offer?",
+    answer: "We recycle, donate, and partner with luxury consignment services whenever possible to minimize waste."
+  }
+];
+
 export default function JunkRemovalLaJollaPage() {
+  const faqSchema = generateFAQSchema(laJollaFAQs);
+
   const nearbyLocations = [
     { name: "Pacific Beach", slug: "pacific-beach" },
     { name: "Del Mar", slug: "del-mar" },
@@ -91,7 +116,7 @@ export default function JunkRemovalLaJollaPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@graph": [serviceSchema, breadcrumbSchema],
+            "@graph": [serviceSchema, breadcrumbSchema, faqSchema],
           }),
         }}
       />
@@ -507,7 +532,14 @@ export default function JunkRemovalLaJollaPage() {
           <TrustSignalsSection locationName="La Jolla" coverageArea="Coastal San Diego" />
 
           {/* FAQ Section */}
-          <LaJollaFAQSection />
+          <FAQSection
+          title="Frequently Asked Questions - Junk Removal La Jolla"
+          description="Get answers to common questions about our <strong>junk removal La Jolla</strong> services, pricing, and same-day availability."
+          faqs={laJollaFAQs}
+          ctaTitle="Still Have Questions About La Jolla Junk Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal La Jolla</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
 
           {/* Final CTA Section */}
           <section className="py-16 bg-gradient-to-br from-blue-900 to-blue-700 text-white">

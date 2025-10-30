@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ScrapMetalFAQSection from "./ScrapMetalFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -69,6 +69,33 @@ export const metadata: Metadata = {
     'ICBM': '32.7678, -117.0231',
   },
 };
+
+const scrapMetalFAQs = [
+  {
+    question: "What types of scrap metal do you accept?",
+    answer: "We accept all ferrous and non-ferrous metals including:"
+  },
+  {
+    question: "How much does scrap metal removal cost in San Diego?",
+    answer: "Our scrap metal removal pricing is volume-based and transparent:"
+  },
+  {
+    question: "Do you remove refrigerators and appliances with Freon?",
+    answer: "Yes, we safely remove all appliances including refrigerators, freezers, air conditioners, and other Freon-containing units. We follow EPA regulations and California environmental standards for proper Freon removal and disposal before recycling the metal components. All hazardous materials are handled by certified technicians at licensed facilities."
+  },
+  {
+    question: "Where do you take scrap metal for recycling?",
+    answer: "We partner with licensed, certified metal recycling facilities throughout San Diego County. All metals are properly sorted, processed, and recycled according to California environmental regulations. Copper, aluminum, and brass are sent to specialized processors, while ferrous metals go to steel recycling centers. Appliances are processed at e-waste facilities where Freon and other hazardous materials are properly handled before metal recovery."
+  },
+  {
+    question: "Do you offer same-day scrap metal pickup in San Diego?",
+    answer: "Yes, we offer same-day scrap metal removal throughout San Diego County including El Cajon, La Mesa, Santee, Chula Vista, and all surrounding areas. Call before 2 PM for same-day service availability. We serve both residential and commercial properties with fast, professional metal pickup and hauling services."
+  },
+  {
+    question: "Can I get paid for my scrap metal?",
+    answer: "For large quantities of valuable metals like copper, aluminum, and brass, we offer pricing credits that can offset or eliminate your removal cost. Small amounts of mixed scrap metal typically don't generate payment but help reduce your overall hauling fees. Call us at (619) 750-0114 to discuss your specific situation and get a custom quote based on the type and quantity of metal you have."
+  }
+];
 
 export default function ScrapMetalRemovalPage() {
   const serviceSchema = generateServiceSchema({
@@ -163,9 +190,11 @@ export default function ScrapMetalRemovalPage() {
     }
   };
 
+  const faqSchema = generateFAQSchema(scrapMetalFAQs);
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema, faqSchema, reviewSchema]
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema, reviewSchema, faqSchema]
   };
 
   const relatedServices = [
@@ -390,7 +419,14 @@ export default function ScrapMetalRemovalPage() {
         <TrustSignalsSection locationName="Scrap Metal Removal" />
 
         {/* FAQ Section */}
-        <ScrapMetalFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Scrap Metal Removal San Diego"
+          description="Get answers to common questions about our <strong>scrap metal removal San Diego</strong> service, pricing, and same-day pickup options."
+          faqs={scrapMetalFAQs}
+          ctaTitle="Still Have Questions About Scrap Metal Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>scrap metal removal San Diego</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
       </main>
 
         <Footer />

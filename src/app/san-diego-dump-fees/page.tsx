@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import DumpFeesFAQSection from "./DumpFeesFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateBreadcrumbSchema, generateLocalBusinessSchema } from "@/lib/schema";
 
@@ -78,6 +78,33 @@ export const metadata: Metadata = {
     'ICBM': '32.7157, -117.1611',
   },
 };
+
+const dumpFeesFAQs = [
+    {
+      question: "How much are San Diego landfill dump fees right now?",
+      answer: "Small loads are typically $70–$100. Weighed general trash is about $97–$103 per ton at the City site and ~$100+/ton at private landfills."
+    },
+    {
+      question: "Which San Diego landfill is cheapest?",
+      answer: "Miramar's posted rates are transparent and competitive. Private sites can be similar per ton but some cities offer resident passes (e.g., Santee, Chula Vista) that make certain trips free up to 1 ton."
+    },
+    {
+      question: "Is green waste cheaper than regular trash?",
+      answer: "Yes. Separated green waste and clean wood are discounted. Keep loads clean to qualify for lower rates."
+    },
+    {
+      question: "Are mattresses free to dump?",
+      answer: "At select sites, yes—San Diego participates in the state mattress recycling program. Keep items dry/unsoiled and use designated drop areas and hours."
+    },
+    {
+      question: "What's the uncovered load fee?",
+      answer: "Plan on about $50 extra at City facilities if your load isn't tarped. Private sites require covered loads too and may charge or refuse entry."
+    },
+    {
+      question: "Do landfills take cash?",
+      answer: "Miramar does not; it accepts card or check only. Private sites commonly accept cash—always confirm before you go."
+    }
+  ];
 
 export default function SanDiegoDumpFeesPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
@@ -253,9 +280,11 @@ export default function SanDiegoDumpFeesPage() {
     ]
   };
 
+  const faqSchema = generateFAQSchema(dumpFeesFAQs);
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [faqArticleSchema, breadcrumbSchema, localBusinessSchema, landfillsSchema]
+    "@graph": [faqArticleSchema, breadcrumbSchema, localBusinessSchema, landfillsSchema, faqSchema]
   };
 
   return (
@@ -858,7 +887,14 @@ export default function SanDiegoDumpFeesPage() {
         </section>
 
         {/* FAQ Section */}
-        <DumpFeesFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - San Diego Dump Fees"
+          description="Get answers to common questions about <strong>San Diego dump fees</strong>, disposal costs, and waste management regulations."
+          faqs={dumpFeesFAQs}
+          ctaTitle="Have Questions About San Diego Dump Fees?"
+          ctaDescription="Let us handle the dump fees and disposal for you. Our transparent pricing includes all <strong>San Diego dump fees</strong> and disposal costs."
+          includeSchema={false}
+        />
 
         {/* Related Services */}
         <section className="py-16 bg-gray-50">

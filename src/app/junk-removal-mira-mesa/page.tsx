@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import MiraMesaFAQSection from "./MiraMesaFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -67,6 +67,29 @@ export const metadata: Metadata = {
   },
 };
 
+const miraMesaFAQs = [
+  {
+    question: "How much does junk removal cost in Mira Mesa?",
+    answer: "Prices start around $100 for single items and range up to $495 for full trailer loads, including labor and disposal."
+  },
+  {
+    question: "Do you offer same-day junk removal in Mira Mesa?",
+    answer: "Yes — same-day service is available in most areas when booked before 2 PM."
+  },
+  {
+    question: "What types of junk can you remove?",
+    answer: "Furniture, appliances, yard debris, construction waste, office equipment, and more."
+  },
+  {
+    question: "Do you handle commercial junk hauling?",
+    answer: "Absolutely — we work with offices, contractors, and property managers throughout Mira Mesa and Sorrento Valley."
+  },
+  {
+    question: "Are you licensed and insured?",
+    answer: "Yes — fully licensed and insured for residential and commercial hauling in San Diego County."
+  }
+];
+
 export default function JunkRemovalMiraMesaPage() {
   const serviceSchema = generateLocationServiceSchema({
     locationName: "Mira Mesa",
@@ -80,6 +103,8 @@ export default function JunkRemovalMiraMesaPage() {
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
     { name: "Mira Mesa Junk Removal", url: "https://severincleaners.com/junk-removal-mira-mesa" },
   ]);
+
+  const faqSchema = generateFAQSchema(miraMesaFAQs);
 
   const nearbyLocations = [
     { name: "Poway", slug: "poway" },
@@ -331,7 +356,14 @@ export default function JunkRemovalMiraMesaPage() {
         <TrustSignalsSection locationName="Mira Mesa" />
 
         {/* FAQ Section */}
-        <MiraMesaFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Junk Removal Mira Mesa"
+          description="Get answers to common questions about our <strong>junk removal Mira Mesa</strong> services, pricing, and same-day availability."
+          faqs={miraMesaFAQs}
+          ctaTitle="Still Have Questions About Mira Mesa Junk Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Mira Mesa</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
 
         {/* Related Services */}
         <section className="py-12 bg-gray-50">

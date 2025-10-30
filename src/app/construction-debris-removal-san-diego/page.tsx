@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ConstructionFAQSection from "./ConstructionFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -72,6 +72,33 @@ export const metadata: Metadata = {
   },
 };
 
+const constructionFAQs = [
+    {
+      question: "How much does construction debris removal cost in San Diego?",
+      answer: "Pricing starts at $100 for single items and ranges up to $495 for a full trailer load (12 cubic yards). Most small to medium construction projects fall in the $249-$429 range. Large demolition projects requiring multiple loads are quoted on-site. Volume pricing available for ongoing contracts."
+    },
+    {
+      question: "Do you offer same-day service for construction projects?",
+      answer: "Yes. Call before 2 PM and we can usually provide same-day pickup to keep your project moving. We understand construction delays cost money, so we prioritize contractor requests."
+    },
+    {
+      question: "How much does demolition debris removal San Diego cost?",
+      answer: "Demolition debris removal typically requires multiple trailer loads due to volume. Small demolition jobs start around $495 for a full load, while larger projects requiring 2-4 loads range from $1,000-$2,000. Heavy materials like concrete may have additional fees. We provide on-site quotes for demolition projects."
+    },
+    {
+      question: "Can you handle concrete and heavy materials?",
+      answer: "Yes. We have equipment to handle concrete, brick, masonry, and other heavy construction materials. These materials may have additional fees due to weight and disposal requirements. Call for a quote on concrete removal projects."
+    },
+    {
+      question: "Do you provide documentation for permits?",
+      answer: "Yes. We provide disposal receipts and documentation needed for permit compliance, inspections, and project closeout. We comply with San Diego disposal regulations and can coordinate with licensed facilities when required for specific materials."
+    },
+    {
+      question: "Do you offer ongoing service for active job sites?",
+      answer: "Absolutely. We provide scheduled pickups for active construction sites—daily, weekly, or as needed. Volume pricing available for ongoing contracts. This keeps your site clean, safe, and compliant without the hassle of managing debris yourself."
+    }
+  ];
+
 export default function ConstructionDebrisRemovalPage() {
   const serviceSchema = generateServiceSchema({
     name: "Construction Debris Removal San Diego",
@@ -87,9 +114,11 @@ export default function ConstructionDebrisRemovalPage() {
     { name: "Construction Debris Removal", url: "https://severincleaners.com/construction-debris-removal-san-diego" },
   ]);
 
+  const faqSchema = generateFAQSchema(constructionFAQs);
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema]
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const relatedServices = [
@@ -309,7 +338,14 @@ export default function ConstructionDebrisRemovalPage() {
         <TrustSignalsSection locationName="Construction Debris Removal" />
 
         {/* FAQ Section */}
-        <ConstructionFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Construction Debris Removal San Diego"
+          description="Get answers to common questions about our <strong>construction debris removal San Diego</strong> services, contractor pricing, and job site cleanup process."
+          faqs={constructionFAQs}
+          ctaTitle="Still Have Questions About Construction Debris Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>construction debris removal San Diego</strong> services, provide detailed quotes, or schedule your job site cleanup."
+          includeSchema={false}
+        />
       </main>
 
         <Footer />

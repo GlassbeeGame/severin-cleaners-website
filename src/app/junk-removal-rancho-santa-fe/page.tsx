@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import RanchoSantaFeFAQSection from "./RanchoSantaFeFAQSection";
+import FAQSection, { generateFAQSchema } from "@/components/FAQSection";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -66,6 +66,33 @@ export const metadata: Metadata = {
   },
 };
 
+const ranchoSantaFeFAQs = [
+  {
+    question: "Do you service all areas of Rancho Santa Fe including gated communities?",
+    answer: "Yes, our <strong>Rancho Santa Fe junk removal</strong> service covers all areas including The Covenant, Fairbanks Ranch, The Bridges, and other exclusive gated communities. We're pre-approved vendors familiar with gate access procedures and HOA requirements throughout Rancho Santa Fe."
+  },
+  {
+    question: "How much does junk removal cost in Rancho Santa Fe?",
+    answer: "Our <strong>Rancho Santa Fe junk removal</strong> pricing is transparent and based on trailer volume:"
+  },
+  {
+    question: "Can you remove heavy items like couches, appliances, and large outdoor equipment in Rancho Santa Fe?",
+    answer: "Absolutely! Our <strong>junk hauling Rancho Santa Fe</strong> team specializes in removing heavy and oversized items from luxury estates and equestrian properties. We safely handle:"
+  },
+  {
+    question: "Do you provide same-day junk hauling in Rancho Santa Fe?",
+    answer: "Yes! We offer same-day <strong>junk pickup Rancho Santa Fe</strong> service when you call before 2 PM. Our team understands the urgency often required for estate management, property staging, last-minute renovations, and HOA compliance issues. We coordinate with gate security, property managers, and household staff to provide discreet, professional service that respects your privacy and your community's standards throughout The Covenant, Fairbanks Ranch, and all Rancho Santa Fe gated communities."
+  },
+  {
+    question: "What types of junk do you not remove?",
+    answer: "We handle all standard household items, furniture, appliances, construction debris, yard waste, equestrian property materials, and more in accordance with local regulations. If you're unsure about a specific item, please call us at <a href="tel:6197500114" className="text-blue-600 hover:underline">(619) 750-0114</a> and we can discuss it — there are various factors that can affect pricing and service options for luxury estates and large properties."
+  },
+  {
+    question: "Are you licensed and insured for junk removal in San Diego County?",
+    answer: "Yes! Severin Cleaners is fully licensed and insured to provide <strong>Rancho Santa Fe San Diego junk removal</strong> services throughout all of San Diego County, including exclusive communities like Rancho Santa Fe. We carry comprehensive liability insurance specifically covering luxury estates, valuable property contents, and equestrian facilities. Our <strong>trash removal Rancho Santa Fe</strong> service is pre-approved by multiple HOAs and provides all necessary documentation for gated community access, property management requirements, and compliance with local disposal regulations."
+  }
+];
+
 export default function JunkRemovalRanchoSantaFePage() {
   const serviceSchema = generateLocationServiceSchema({
     locationName: "Rancho Santa Fe",
@@ -79,6 +106,8 @@ export default function JunkRemovalRanchoSantaFePage() {
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
     { name: "Rancho Santa Fe Junk Removal", url: "https://severincleaners.com/junk-removal-rancho-santa-fe" },
   ]);
+
+  const faqSchema = generateFAQSchema(ranchoSantaFeFAQs);
 
   const nearbyLocations = [
     { name: "Del Mar", slug: "del-mar" },
@@ -329,7 +358,14 @@ export default function JunkRemovalRanchoSantaFePage() {
         <TrustSignalsSection locationName="Rancho Santa Fe" coverageArea="North County Coastal" />
 
         {/* FAQ Section */}
-        <RanchoSantaFeFAQSection />
+        <FAQSection
+          title="Frequently Asked Questions - Junk Removal Rancho Santa Fe"
+          description="Get answers to common questions about our <strong>junk removal Rancho Santa Fe</strong> services, pricing, and same-day availability."
+          faqs={ranchoSantaFeFAQs}
+          ctaTitle="Still Have Questions About Rancho Santa Fe Junk Removal?"
+          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Rancho Santa Fe</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          includeSchema={false}
+        />
 
         {/* Related Services */}
         <section className="py-12 bg-gray-50">
