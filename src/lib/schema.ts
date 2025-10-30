@@ -497,11 +497,6 @@ export function generateOrganizationSchema() {
       "postalCode": "91941",
       "addressCountry": "US"
     },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "32.7678",
-      "longitude": "-117.0231"
-    },
     "areaServed": {
       "@type": "GeoCircle",
       "geoMidpoint": {
@@ -511,8 +506,7 @@ export function generateOrganizationSchema() {
       },
       "geoRadius": "50000"
     },
-    "slogan": "San Diego's Premier Junk Removal Service",
-    "priceRange": "$$"
+    "slogan": "San Diego's Premier Junk Removal Service"
   };
 }
 
@@ -594,11 +588,7 @@ export function generateServicesListSchema(services: ServiceListItem[]) {
         "name": service.name,
         "url": service.url,
         "description": service.description,
-        "provider": {
-          "@type": "LocalBusiness",
-          "name": "Severin Cleaners",
-          "telephone": "+1-619-750-0114"
-        }
+        "provider": "Severin Cleaners"
       }
     }))
   };
