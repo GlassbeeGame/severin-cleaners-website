@@ -239,6 +239,7 @@ export default function StructuredData() {
           "@type": "LocalBusiness",
           "@id": "https://severincleaners.com/#business",
           "name": "Severin Cleaners",
+          "telephone": "+1-619-750-0114",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "8900 Grossmont Blvd, Suite 1",
@@ -246,7 +247,13 @@ export default function StructuredData() {
             "addressRegion": "CA",
             "postalCode": "91941",
             "addressCountry": "US"
-          }
+          },
+          "priceRange": "$$",
+          "image": [
+            "https://severincleaners.com/optimized/couchwithlogo.jpg",
+            "https://severincleaners.com/optimized/toiletteam.jpg",
+            "https://severincleaners.com/optimized/commercial.jpg"
+          ]
         },
         "publisher": {
           "@type": "Organization",
