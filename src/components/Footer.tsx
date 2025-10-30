@@ -109,7 +109,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="text-white/90 hover:text-blue-400 transition-colors duration-200"
                 >
-                  8900 Grossmont Blvd, La Mesa, CA 91941
+                  8900 Grossmont Blvd, Suite 1, La Mesa, CA 91941
                 </a>
               </div>
             </div>

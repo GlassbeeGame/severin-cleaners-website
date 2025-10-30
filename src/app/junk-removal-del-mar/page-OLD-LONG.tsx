@@ -57,7 +57,7 @@ export default function JunkRemovalDelMarPage() {
       "url": "https://severincleaners.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "8900 Grossmont Blvd",
+        "streetAddress": "8900 Grossmont Blvd, Suite 1",
         "addressLocality": "La Mesa",
         "addressRegion": "CA",
         "postalCode": "91941",
