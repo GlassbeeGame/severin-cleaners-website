@@ -79,7 +79,7 @@ export default function LocationSidebarCTA({
             {nearbyLocations.map((location) => (
               <li key={location.slug}>
                 <Link
-                  href={`/junk-removal-${location.slug}`}
+                  href={location.slug.startsWith('/') ? location.slug : `/junk-removal-${location.slug}`}
                   className="text-blue-600 hover:text-blue-800 hover:underline flex items-center"
                 >
                   <span className="text-blue-400 mr-2">→</span>
