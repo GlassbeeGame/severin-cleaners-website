@@ -112,44 +112,6 @@ export default function ScrapMetalRemovalPage() {
     { name: "Scrap Metal Removal", url: "https://severincleaners.com/scrap-metal-removal" },
   ]);
 
-  const faqSchema = {
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What types of scrap metal do you accept?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "We accept all ferrous and non-ferrous metals including appliances (refrigerators, washers, dryers, stoves, water heaters), copper (pipes, wire, plumbing fixtures), aluminum (siding, gutters, window frames), steel and iron (beams, rebar, railings, gates), brass fixtures, and metal furniture throughout San Diego County."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How much does scrap metal removal cost in San Diego?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Scrap metal removal pricing is volume-based: Single Appliance starting at $100, 1/4 Trailer Load $249, 1/2 Trailer Load $349, Full Trailer Load $495. Large quantities of valuable metals (copper, aluminum, brass) may qualify for pricing credits. All prices include labor, transportation, and proper recycling disposal."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Do you remove refrigerators and appliances with Freon?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, we safely remove all appliances including refrigerators, freezers, air conditioners, and other Freon-containing units. We follow EPA regulations and California environmental standards for proper Freon removal and disposal before recycling the metal components."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Do you offer same-day scrap metal pickup in San Diego?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, we offer same-day scrap metal removal throughout San Diego County including El Cajon, La Mesa, Santee, Chula Vista, and all surrounding areas. Call before 2 PM for same-day service availability."
-        }
-      }
-    ]
-  };
-
   const reviewSchema = {
     "@type": "Review",
     "itemReviewed": {
@@ -194,7 +156,7 @@ export default function ScrapMetalRemovalPage() {
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema, faqSchema, reviewSchema, faqSchema]
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema, reviewSchema]
   };
 
   const relatedServices = [
