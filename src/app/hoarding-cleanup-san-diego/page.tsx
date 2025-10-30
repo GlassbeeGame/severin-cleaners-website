@@ -259,22 +259,22 @@ export default function HoardingCleanupPage() {
 
                 <div className="grid md:grid-cols-3 gap-6 mb-8">
                   <ul className="list-disc pl-4 text-gray-700">
-                    <li>Downtown & Central San Diego</li>
-                    <li><a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a> & Mission Beach</li>
-                    <li><a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> & UTC</li>
-                    <li>Point Loma & Ocean Beach</li>
+                    <li><a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a></li>
+                    <li><a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a></li>
+                    <li><a href="/junk-removal-point-loma" className="text-blue-600 hover:underline">Point Loma</a></li>
+                    <li><a href="/junk-removal-north-park" className="text-blue-600 hover:underline">North Park</a></li>
                   </ul>
                   <ul className="list-disc pl-4 text-gray-700">
-                    <li><a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a> & South Bay</li>
-                    <li><a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a> & East County</li>
-                    <li><a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a> & Santee</li>
-                    <li>Spring Valley & Lemon Grove</li>
+                    <li><a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a></li>
+                    <li><a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a></li>
+                    <li><a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a></li>
+                    <li><a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee</a></li>
                   </ul>
                   <ul className="list-disc pl-4 text-gray-700">
-                    <li>Escondido & North County</li>
-                    <li><a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a> & Carlsbad</li>
-                    <li><a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a> & Vista</li>
-                    <li>Poway & Scripps Ranch</li>
+                    <li><a href="/junk-removal-escondido" className="text-blue-600 hover:underline">Escondido</a></li>
+                    <li><a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a></li>
+                    <li><a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a></li>
+                    <li><a href="/junk-removal-poway" className="text-blue-600 hover:underline">Poway</a></li>
                   </ul>
                 </div>
               </div>

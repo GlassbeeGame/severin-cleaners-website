@@ -197,7 +197,7 @@ export default function HotTubRemovalSanDiegoPage() {
                 </p>
 
                 <p className="text-lg mb-6">
-                  Our <strong>spa removal San Diego</strong> service covers everything from small portable spas to large built-in Jacuzzis, including proper disconnection of plumbing, gas, and electrical systems. Whether you're renovating your backyard, selling your home, or dealing with a broken hot tub, we provide complete spa disposal San Diego that's safe, fast, and environmentally responsible. We also offer <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">deck removal and debris</a>, <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">outdoor furniture removal</a>, and <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial spa removal</a>.
+                  Our <strong>spa removal San Diego</strong> service covers everything from small portable spas to large built-in Jacuzzis, including proper disconnection of plumbing, gas, and electrical systems. Whether you're renovating your backyard, selling your home, or dealing with a broken hot tub, we provide complete spa disposal San Diego that's safe, fast, and environmentally responsible. We also offer <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">deck removal and debris</a>, <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">outdoor furniture removal</a>, and <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial spa services</a>.
                 </p>
 
                 <h3 className="text-2xl font-bold mt-8 mb-4">Complete Jacuzzi Removal San Diego Services</h3>
@@ -314,25 +314,25 @@ export default function HotTubRemovalSanDiegoPage() {
                 </p>
                 <div className="grid md:grid-cols-3 gap-4 mb-6">
                   <ul className="list-disc pl-4">
-                    <li><a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> & Bird Rock luxury homes</li>
-                    <li><a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a> & Solana Beach coastal properties</li>
-                    <li>Rancho Santa Fe estate spas</li>
-                    <li><a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a> family homes</li>
-                    <li><a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a> & Mission Beach</li>
+                    <li><a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a></li>
+                    <li><a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a></li>
+                    <li><a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a></li>
+                    <li><a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a></li>
+                    <li><a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a></li>
                   </ul>
                   <ul className="list-disc pl-4">
-                    <li>Point Loma & Ocean Beach</li>
-                    <li>Hillcrest & Bankers Hill</li>
-                    <li>Mission Hills & University Heights</li>
-                    <li>Normal Heights & Kensington</li>
-                    <li>Downtown & Little Italy condos</li>
+                    <li><a href="/junk-removal-point-loma" className="text-blue-600 hover:underline">Point Loma</a></li>
+                    <li><a href="/junk-removal-hillcrest" className="text-blue-600 hover:underline">Hillcrest</a></li>
+                    <li><a href="/junk-removal-north-park" className="text-blue-600 hover:underline">North Park</a></li>
+                    <li><a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a></li>
+                    <li><a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a></li>
                   </ul>
                   <ul className="list-disc pl-4">
-                    <li>Chula Vista & Eastlake</li>
-                    <li>El Cajon & Santee</li>
-                    <li>Poway & Scripps Ranch</li>
-                    <li>Escondido & San Marcos</li>
-                    <li>All San Diego County areas</li>
+                    <li><a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee</a></li>
+                    <li><a href="/junk-removal-poway" className="text-blue-600 hover:underline">Poway</a></li>
+                    <li><a href="/junk-removal-escondido" className="text-blue-600 hover:underline">Escondido</a></li>
+                    <li><a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a></li>
+                    <li><a href="/junk-removal-vista" className="text-blue-600 hover:underline">Vista</a></li>
                   </ul>
                 </div>
 
