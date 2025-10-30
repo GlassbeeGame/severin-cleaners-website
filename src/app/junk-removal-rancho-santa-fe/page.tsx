@@ -85,7 +85,7 @@ const ranchoSantaFeFAQs = [
   },
   {
     question: "What types of junk do you not remove?",
-    answer: "We handle all standard household items, furniture, appliances, construction debris, yard waste, equestrian property materials, and more in accordance with local regulations. If you're unsure about a specific item, please call us at <a href="tel:6197500114" className="text-blue-600 hover:underline">(619) 750-0114</a> and we can discuss it — there are various factors that can affect pricing and service options for luxury estates and large properties."
+    answer: "We handle all standard household items, furniture, appliances, construction debris, yard waste, equestrian property materials, and more in accordance with local regulations. If you're unsure about a specific item, please call us at (619) 750-0114 and we can discuss it — there are various factors that can affect pricing and service options for luxury estates and large properties."
   },
   {
     question: "Are you licensed and insured for junk removal in San Diego County?",
