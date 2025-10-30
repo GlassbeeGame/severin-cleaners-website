@@ -7,13 +7,54 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 export const metadata: Metadata = {
   title: "San Diego Dump Fees Guide 2025 | Transfer Station Costs & Locations",
   description: "Complete guide to San Diego dump fees, transfer station locations, and disposal costs. Learn what you'll pay at Miramar Landfill, Otay Landfill, and why junk removal might cost less.",
+  keywords: [
+    "San Diego dump fees",
+    "Miramar Landfill fees",
+    "Otay Landfill costs",
+    "transfer station San Diego",
+    "dump fees 2025",
+    "San Diego disposal costs",
+    "landfill prices San Diego"
+  ],
   openGraph: {
     title: "San Diego Dump Fees Guide 2025 | Transfer Station Costs",
     description: "Complete guide to San Diego dump fees, locations, and disposal costs. Compare DIY vs professional junk removal.",
     url: "https://severincleaners.com/blog/san-diego-dump-fees-guide",
+    siteName: "Severin Cleaners",
+    type: "article",
+    locale: "en_US",
+    images: [{
+      url: "https://severincleaners.com/og-image.jpg",
+      width: 1200,
+      height: 630,
+      alt: "San Diego Dump Fees Guide 2025 - Severin Cleaners"
+    }]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "San Diego Dump Fees Guide 2025 | Transfer Station Costs",
+    description: "Complete guide to San Diego dump fees, locations, and disposal costs. Compare DIY vs professional junk removal.",
+    images: ["https://severincleaners.com/og-image.jpg"]
   },
   alternates: {
     canonical: "https://severincleaners.com/blog/san-diego-dump-fees-guide",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  other: {
+    "geo.region": "US-CA",
+    "geo.placename": "La Mesa",
+    "geo.position": "32.7678;-117.0231",
+    "ICBM": "32.7678, -117.0231",
   },
 };
 

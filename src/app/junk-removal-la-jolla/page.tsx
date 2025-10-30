@@ -10,14 +10,56 @@ import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/s
 export const metadata: Metadata = {
   title: "La Jolla Junk Removal | Luxury Estate Service | (619) 750-0114",
   description: "La Jolla luxury estate junk removal Bird Rock to UTC. White-glove $5M+ properties. Discreet, professional. (619) 750-0114",
-  keywords: "La Jolla junk removal, junk hauling La Jolla, trash removal La Jolla, junk pickup La Jolla, estate cleanout La Jolla, La Jolla furniture removal, luxury junk removal",
+  keywords: [
+    "La Jolla junk removal",
+    "junk hauling La Jolla",
+    "trash removal La Jolla",
+    "junk pickup La Jolla",
+    "estate cleanout La Jolla",
+    "La Jolla furniture removal",
+    "luxury junk removal",
+    "Bird Rock junk removal",
+    "Muirlands junk removal"
+  ],
   openGraph: {
     title: "La Jolla Junk Removal | Estate Cleanouts & Luxury Furniture Disposal | Same-Day Service",
     description: "Premium La Jolla junk removal for estates, luxury homes, Bird Rock, Muirlands. Discreet service with unmarked vehicles. Expert luxury furniture handling. Call (619) 750-0114.",
     url: "https://severincleaners.com/junk-removal-la-jolla",
+    siteName: 'Severin Cleaners',
+    type: 'website',
+    locale: 'en_US',
+    images: [{
+      url: 'https://severincleaners.com/og-image.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'La Jolla Junk Removal - Severin Cleaners Luxury Estate Service'
+    }]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "La Jolla Junk Removal | Estate Cleanouts & Luxury Furniture Disposal",
+    description: "Premium La Jolla junk removal for estates, luxury homes, Bird Rock, Muirlands. Discreet service with unmarked vehicles. Expert luxury furniture handling.",
+    images: ['https://severincleaners.com/og-image.jpg']
   },
   alternates: {
     canonical: "https://severincleaners.com/junk-removal-la-jolla",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'La Jolla',
+    'geo.position': '32.8328;-117.2713',
+    'ICBM': '32.8328, -117.2713',
   },
 };
 

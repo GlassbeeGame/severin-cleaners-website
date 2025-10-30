@@ -5,9 +5,54 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Areas We Serve | Junk Removal Throughout San Diego County",
   description: "Professional junk removal services throughout San Diego County. Serving all neighborhoods from coastal communities to East County. Same-day service available. Call (619) 750-0114!",
-  keywords: "junk removal San Diego County, junk hauling areas served, trash removal locations, El Cajon junk removal, La Mesa junk removal, Chula Vista junk removal, Oceanside junk removal",
+  keywords: [
+    "junk removal San Diego County",
+    "junk hauling areas served",
+    "trash removal locations",
+    "El Cajon junk removal",
+    "La Mesa junk removal",
+    "Chula Vista junk removal",
+    "Oceanside junk removal"
+  ],
+  openGraph: {
+    title: "Areas We Serve | Junk Removal Throughout San Diego County",
+    description: "Professional junk removal services throughout San Diego County. Serving all neighborhoods from coastal communities to East County. Same-day service available.",
+    url: "https://severincleaners.com/areas-we-serve",
+    siteName: "Severin Cleaners",
+    type: "website",
+    locale: "en_US",
+    images: [{
+      url: "https://severincleaners.com/og-image.jpg",
+      width: 1200,
+      height: 630,
+      alt: "Areas We Serve - San Diego County Junk Removal - Severin Cleaners"
+    }]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Areas We Serve | Junk Removal Throughout San Diego County",
+    description: "Professional junk removal services throughout San Diego County. Serving all neighborhoods from coastal communities to East County. Same-day service available.",
+    images: ["https://severincleaners.com/og-image.jpg"]
+  },
   alternates: {
     canonical: "https://severincleaners.com/areas-we-serve",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  other: {
+    "geo.region": "US-CA",
+    "geo.placename": "La Mesa",
+    "geo.position": "32.7678;-117.0231",
+    "ICBM": "32.7678, -117.0231",
   },
 };
 

@@ -17,7 +17,15 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Pacific Beach Junk Removal | Beach House & Rental Experts | (619) 750-0114',
   description: 'Pacific Beach junk removal Crystal Pier to Crown Point. Boardwalk debris, beach furniture. Same-day service. (619) 750-0114',
-  keywords: 'Pacific Beach junk removal, junk hauling Pacific Beach, junk pickup PB, trash removal Pacific Beach, PB San Diego junk removal, junk removal 92109, Garnet Avenue junk hauling',
+  keywords: [
+    'Pacific Beach junk removal',
+    'junk hauling Pacific Beach',
+    'junk pickup PB',
+    'trash removal Pacific Beach',
+    'PB San Diego junk removal',
+    'junk removal 92109',
+    'Garnet Avenue junk hauling'
+  ],
   openGraph: {
     title: 'Pacific Beach Junk Removal | Same-Day Hauling | Licensed & Insured',
     description: 'Professional Pacific Beach junk removal from Crystal Pier to Crown Point. Same-day service, transparent pricing. Licensed & insured. Call (619) 750-0114!',
@@ -27,6 +35,7 @@ export const metadata: Metadata = {
       url: 'https://severincleaners.com/og-image.jpg',
       width: 1200,
       height: 630,
+      alt: 'Pacific Beach Junk Removal - Severin Cleaners'
     }],
     locale: 'en_US',
     type: 'website',
@@ -50,6 +59,12 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Pacific Beach',
+    'geo.position': '32.7942;-117.2347',
+    'ICBM': '32.7942, -117.2347',
   },
 };
 

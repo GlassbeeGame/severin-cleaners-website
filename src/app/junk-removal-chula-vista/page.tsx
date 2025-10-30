@@ -17,7 +17,14 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Chula Vista Junk Removal | South Bay\'s Most Trusted | (619) 750-0114',
   description: 'South Bay junk removal serving Eastlake, Otay Ranch, Bonita. HOA-compliant townhomes, condos, homes. Call (619) 750-0114',
-  keywords: 'Chula Vista junk removal, junk hauling Chula Vista, junk pickup Chula Vista, trash removal Chula Vista, South Bay junk removal, Eastlake junk removal',
+  keywords: [
+    'Chula Vista junk removal',
+    'junk hauling Chula Vista',
+    'junk pickup Chula Vista',
+    'trash removal Chula Vista',
+    'South Bay junk removal',
+    'Eastlake junk removal'
+  ],
   openGraph: {
     title: 'Chula Vista Junk Removal | Same-Day Junk Hauling | South Bay Specialists',
     description: 'Professional Chula Vista junk removal for Eastlake, Otay Ranch, Millenia. Bilingual junk hauling service, HOA compliant. Same-day pickup. Call (619) 750-0114.',
@@ -27,6 +34,7 @@ export const metadata: Metadata = {
       url: 'https://severincleaners.com/og-image.jpg',
       width: 1200,
       height: 630,
+      alt: 'Chula Vista Junk Removal - Severin Cleaners'
     }],
     locale: 'en_US',
     type: 'website',
@@ -50,6 +58,12 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Chula Vista',
+    'geo.position': '32.6401;-117.0842',
+    'ICBM': '32.6401, -117.0842',
   },
 };
 

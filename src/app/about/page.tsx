@@ -7,14 +7,52 @@ import BeforeAfter from "@/components/BeforeAfter";
 export const metadata: Metadata = {
   title: "About Us | Severin Cleaners | Locally Owned San Diego Junk Removal",
   description: "Learn about Severin Cleaners, a locally owned San Diego junk removal company serving 200+ happy clients. Licensed, insured, and trusted for same-day junk hauling across San Diego County.",
-  keywords: "San Diego junk removal, about Severin Cleaners, junk hauling San Diego, trash removal San Diego, locally owned junk removal",
+  keywords: [
+    "San Diego junk removal",
+    "about Severin Cleaners",
+    "junk hauling San Diego",
+    "trash removal San Diego",
+    "locally owned junk removal"
+  ],
   openGraph: {
     title: "About Severin Cleaners | Locally Owned San Diego Junk Removal",
     description: "Locally owned and trusted by 200+ San Diego clients. Same-day junk removal with transparent pricing and professional service.",
     url: "https://severincleaners.com/about",
+    siteName: "Severin Cleaners",
+    type: "website",
+    locale: "en_US",
+    images: [{
+      url: "https://severincleaners.com/og-image.jpg",
+      width: 1200,
+      height: 630,
+      alt: "About Severin Cleaners - Locally Owned San Diego Junk Removal"
+    }]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Severin Cleaners | Locally Owned San Diego Junk Removal",
+    description: "Locally owned and trusted by 200+ San Diego clients. Same-day junk removal with transparent pricing and professional service.",
+    images: ["https://severincleaners.com/og-image.jpg"]
   },
   alternates: {
     canonical: "https://severincleaners.com/about",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  other: {
+    "geo.region": "US-CA",
+    "geo.placename": "La Mesa",
+    "geo.position": "32.7678;-117.0231",
+    "ICBM": "32.7678, -117.0231",
   },
 };
 

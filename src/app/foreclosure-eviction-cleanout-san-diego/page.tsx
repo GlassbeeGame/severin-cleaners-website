@@ -11,11 +11,30 @@ import TrustSignalsSection from "@/components/TrustSignalsSection";
 export const metadata: Metadata = {
   title: "Foreclosure & Eviction Cleanout Services San Diego - Fast & Discreet",
   description: "Professional foreclosure & eviction cleanout services in San Diego. Discreet, fast turnaround for banks, landlords & property managers. Call (619) 750-0114!",
-  keywords: "foreclosure cleanout San Diego, eviction cleanout San Diego, foreclosure junk removal San Diego, eviction junk removal San Diego, property cleanout San Diego, REO property cleanup, tenant cleanout San Diego, property management cleanouts, bank foreclosure cleanup",
+  keywords: [
+    "foreclosure cleanout San Diego",
+    "eviction cleanout San Diego",
+    "foreclosure junk removal San Diego",
+    "eviction junk removal San Diego",
+    "property cleanout San Diego",
+    "REO property cleanup",
+    "tenant cleanout San Diego",
+    "property management cleanouts",
+    "bank foreclosure cleanup"
+  ],
   openGraph: {
     title: "Foreclosure & Eviction Cleanout Services San Diego - Fast & Discreet",
     description: "Professional foreclosure & eviction cleanout services in San Diego. Discreet, fast turnaround for banks, landlords & property managers.",
     url: 'https://severincleaners.com/foreclosure-eviction-cleanout-san-diego',
+    siteName: 'Severin Cleaners',
+    type: 'website',
+    locale: 'en_US',
+    images: [{
+      url: 'https://severincleaners.com/og-image.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'Foreclosure & Eviction Cleanout San Diego - Severin Cleaners'
+    }]
   },
   twitter: {
     card: 'summary_large_image',
@@ -25,6 +44,23 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://severincleaners.com/foreclosure-eviction-cleanout-san-diego",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'La Mesa',
+    'geo.position': '32.7678;-117.0231',
+    'ICBM': '32.7678, -117.0231',
   },
 };
 

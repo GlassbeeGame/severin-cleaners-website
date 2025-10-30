@@ -18,13 +18,57 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Estate Cleanout San Diego | Respectful Probate Cleanout Services",
   description: "Compassionate estate cleanout San Diego services. Probate cleanout, senior downsizing, inheritance property cleanout. Licensed, respectful, professional. Call (619) 750-0114.",
+  keywords: [
+    "estate cleanout San Diego",
+    "probate cleanout San Diego",
+    "senior downsizing San Diego",
+    "inheritance property cleanout",
+    "estate junk removal San Diego",
+    "estate sale cleanout",
+    "deceased estate cleanout",
+    "family estate cleanout",
+    "compassionate estate services",
+    "respectful estate cleanout"
+  ],
   openGraph: {
     title: "Estate Cleanout San Diego | Respectful Probate & Senior Downsizing",
     description: "Compassionate, professional estate cleanout services in San Diego. Probate cleanout, estate sales, senior downsizing with dignity and care.",
     url: "https://severincleaners.com/estate-cleanout-san-diego",
+    siteName: "Severin Cleaners",
+    type: "website",
+    locale: "en_US",
+    images: [{
+      url: "https://severincleaners.com/og-image.jpg",
+      width: 1200,
+      height: 630,
+      alt: "Estate Cleanout San Diego - Severin Cleaners"
+    }]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Estate Cleanout San Diego | Respectful Probate Services",
+    description: "Compassionate estate cleanout San Diego services. Probate cleanout, senior downsizing, inheritance property cleanout. Call (619) 750-0114.",
+    images: ["https://severincleaners.com/og-image.jpg"]
   },
   alternates: {
     canonical: "https://severincleaners.com/estate-cleanout-san-diego",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'La Mesa',
+    'geo.position': '32.7678;-117.0231',
+    'ICBM': '32.7678, -117.0231',
   },
 };
 

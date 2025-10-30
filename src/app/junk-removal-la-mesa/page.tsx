@@ -17,7 +17,20 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'La Mesa Junk Removal | Village Area Specialists | (619) 750-0114',
   description: 'La Mesa junk removal Grossmont Center to Village. Dump alternative, apartment cleanouts, family homes. (619) 750-0114',
-  keywords: 'La Mesa junk removal, junk hauling La Mesa, junk pickup La Mesa, trash removal La Mesa, La Mesa dump, La Mesa CA junk removal, Mount Helix junk removal, Fletcher Hills junk removal, La Mesa Village junk removal, Grossmont junk removal, Lake Murray junk removal, East County junk removal',
+  keywords: [
+    'La Mesa junk removal',
+    'junk hauling La Mesa',
+    'junk pickup La Mesa',
+    'trash removal La Mesa',
+    'La Mesa dump',
+    'La Mesa CA junk removal',
+    'Mount Helix junk removal',
+    'Fletcher Hills junk removal',
+    'La Mesa Village junk removal',
+    'Grossmont junk removal',
+    'Lake Murray junk removal',
+    'East County junk removal'
+  ],
   openGraph: {
     title: 'La Mesa Junk Removal & Hauling | East County\'s Trusted Local Service',
     description: 'Affordable junk removal in La Mesa CA. Same-day hauling, transparent pricing, and a faster alternative to the La Mesa dump. Call (619) 750-0114 for your quote.',
@@ -27,6 +40,7 @@ export const metadata: Metadata = {
       url: 'https://severincleaners.com/og-image.jpg',
       width: 1200,
       height: 630,
+      alt: 'La Mesa Junk Removal - Severin Cleaners'
     }],
     locale: 'en_US',
     type: 'website',
@@ -50,6 +64,12 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'La Mesa',
+    'geo.position': '32.7678;-117.0231',
+    'ICBM': '32.7678, -117.0231',
   },
 };
 

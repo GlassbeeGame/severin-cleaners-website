@@ -19,16 +19,54 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Hot Tub Removal San Diego | Spa & Jacuzzi Disposal | Same-Day Service',
   description: 'Professional hot tub removal San Diego - spa removal, Jacuzzi disposal, pool equipment. Licensed specialists for portable & built-in hot tubs. Call (619) 750-0114!',
-  keywords: 'hot tub removal San Diego, spa removal San Diego, Jacuzzi removal San Diego, spa disposal San Diego, backyard hot tub demolition San Diego, pool equipment removal, hot tub disposal',
+  keywords: [
+    'hot tub removal San Diego',
+    'spa removal San Diego',
+    'Jacuzzi removal San Diego',
+    'spa disposal San Diego',
+    'backyard hot tub demolition San Diego',
+    'pool equipment removal',
+    'hot tub disposal'
+  ],
   openGraph: {
     title: 'Hot Tub Removal San Diego | Spa & Jacuzzi Disposal | Same-Day Service',
     description: 'Professional hot tub removal San Diego - spa removal, Jacuzzi disposal, pool equipment. Licensed specialists for portable & built-in hot tubs.',
     url: 'https://severincleaners.com/hot-tub-removal-san-diego',
     siteName: 'Severin Cleaners',
     type: 'website',
+    locale: 'en_US',
+    images: [{
+      url: 'https://severincleaners.com/og-image.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'Hot Tub Removal San Diego - Severin Cleaners'
+    }]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Hot Tub Removal San Diego | Spa & Jacuzzi Disposal',
+    description: 'Professional hot tub removal San Diego - spa removal, Jacuzzi disposal, pool equipment. Licensed specialists. Call (619) 750-0114!',
+    images: ['https://severincleaners.com/og-image.jpg']
   },
   alternates: {
     canonical: 'https://severincleaners.com/hot-tub-removal-san-diego',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'La Mesa',
+    'geo.position': '32.7678;-117.0231',
+    'ICBM': '32.7678, -117.0231',
   },
 };
 

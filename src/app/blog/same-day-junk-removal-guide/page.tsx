@@ -7,13 +7,54 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 export const metadata: Metadata = {
   title: "Same Day Junk Removal Guide 2025 | Emergency Pickup in San Diego",
   description: "Need junk removed TODAY? Complete guide to same-day junk removal in San Diego. How it works, what to expect, pricing, and how to prepare for emergency pickup. Available 7 days a week.",
+  keywords: [
+    "same day junk removal",
+    "emergency junk pickup",
+    "same day junk removal San Diego",
+    "emergency junk removal",
+    "same day hauling",
+    "immediate junk removal",
+    "urgent junk pickup"
+  ],
   openGraph: {
     title: "Same Day Junk Removal Guide | Emergency Pickup in San Diego",
     description: "Complete guide to same-day junk removal. Learn how emergency junk pickup works, pricing, and preparation tips.",
     url: "https://severincleaners.com/blog/same-day-junk-removal-guide",
+    siteName: "Severin Cleaners",
+    type: "article",
+    locale: "en_US",
+    images: [{
+      url: "https://severincleaners.com/og-image.jpg",
+      width: 1200,
+      height: 630,
+      alt: "Same Day Junk Removal Guide - Severin Cleaners"
+    }]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Same Day Junk Removal Guide | Emergency Pickup in San Diego",
+    description: "Complete guide to same-day junk removal. Learn how emergency junk pickup works, pricing, and preparation tips.",
+    images: ["https://severincleaners.com/og-image.jpg"]
   },
   alternates: {
     canonical: "https://severincleaners.com/blog/same-day-junk-removal-guide",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  other: {
+    "geo.region": "US-CA",
+    "geo.placename": "La Mesa",
+    "geo.position": "32.7678;-117.0231",
+    "ICBM": "32.7678, -117.0231",
   },
 };
 

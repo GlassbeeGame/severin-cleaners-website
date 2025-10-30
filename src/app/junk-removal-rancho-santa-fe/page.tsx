@@ -17,7 +17,13 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Rancho Santa Fe Junk Removal | Luxury Estate Experts | (619) 750-0114',
   description: 'Rancho Santa Fe junk removal for luxury estates. Discreet, professional service. Licensed & insured. (619) 750-0114',
-  keywords: 'Rancho Santa Fe junk removal, junk hauling Rancho Santa Fe, junk pickup Rancho Santa Fe, trash removal Rancho Santa Fe, Rancho Santa Fe San Diego junk removal',
+  keywords: [
+    'Rancho Santa Fe junk removal',
+    'junk hauling Rancho Santa Fe',
+    'junk pickup Rancho Santa Fe',
+    'trash removal Rancho Santa Fe',
+    'Rancho Santa Fe San Diego junk removal'
+  ],
   openGraph: {
     title: 'Rancho Santa Fe Junk Removal | Luxury Estate Specialists',
     description: 'Professional Rancho Santa Fe junk removal for luxury estates. Discreet service, white-glove handling. Licensed & insured. Call (619) 750-0114!',
@@ -27,6 +33,7 @@ export const metadata: Metadata = {
       url: 'https://severincleaners.com/og-image.jpg',
       width: 1200,
       height: 630,
+      alt: 'Rancho Santa Fe Junk Removal - Severin Cleaners'
     }],
     locale: 'en_US',
     type: 'website',
@@ -50,6 +57,12 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Rancho Santa Fe',
+    'geo.position': '33.0228;-117.2028',
+    'ICBM': '33.0228, -117.2028',
   },
 };
 

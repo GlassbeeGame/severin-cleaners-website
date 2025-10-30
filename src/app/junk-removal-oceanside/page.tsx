@@ -17,7 +17,14 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Oceanside Junk Removal | Coastal & Military Friendly | (619) 750-0114',
   description: 'Oceanside junk removal for Camp Pendleton, beach rentals, pier district. Military discounts, PCS moves. (619) 750-0114',
-  keywords: 'Oceanside junk removal, junk hauling Oceanside, junk pickup Oceanside, trash removal Oceanside, Oceanside San Diego junk removal, Camp Pendleton junk removal',
+  keywords: [
+    'Oceanside junk removal',
+    'junk hauling Oceanside',
+    'junk pickup Oceanside',
+    'trash removal Oceanside',
+    'Oceanside San Diego junk removal',
+    'Camp Pendleton junk removal'
+  ],
   openGraph: {
     title: 'Oceanside Junk Removal | Camp Pendleton & Coastal Property Specialists | Same-Day Service',
     description: 'Professional Oceanside junk removal for Camp Pendleton, coastal properties, vacation rentals. Military discounts available. North County experts. Call (619) 750-0114.',
@@ -27,6 +34,7 @@ export const metadata: Metadata = {
       url: 'https://severincleaners.com/og-image.jpg',
       width: 1200,
       height: 630,
+      alt: 'Oceanside Junk Removal - Severin Cleaners'
     }],
     locale: 'en_US',
     type: 'website',
@@ -50,6 +58,12 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Oceanside',
+    'geo.position': '33.1959;-117.3795',
+    'ICBM': '33.1959, -117.3795',
   },
 };
 

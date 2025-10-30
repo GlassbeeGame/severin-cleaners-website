@@ -17,7 +17,14 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Lemon Grove Junk Removal | Local Family-Owned Service | (619) 750-0114',
   description: 'Lemon Grove budget junk removal apartments, Broadway corridor. Affordable multi-family, student rentals. (619) 750-0114',
-  keywords: 'Lemon Grove junk removal, junk hauling Lemon Grove, junk pickup Lemon Grove, trash removal Lemon Grove, Lemon Grove San Diego junk removal, apartment junk removal',
+  keywords: [
+    'Lemon Grove junk removal',
+    'junk hauling Lemon Grove',
+    'junk pickup Lemon Grove',
+    'trash removal Lemon Grove',
+    'Lemon Grove San Diego junk removal',
+    'apartment junk removal'
+  ],
   openGraph: {
     title: 'Lemon Grove Junk Removal | Family Homes & Apartment Specialists | Same-Day Service',
     description: 'Affordable Lemon Grove junk removal for apartments, family homes, Broadway corridor. Community-focused service with eco-friendly disposal. Call (619) 750-0114.',
@@ -27,6 +34,7 @@ export const metadata: Metadata = {
       url: 'https://severincleaners.com/og-image.jpg',
       width: 1200,
       height: 630,
+      alt: 'Lemon Grove Junk Removal - Severin Cleaners'
     }],
     locale: 'en_US',
     type: 'website',
@@ -50,6 +58,12 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Lemon Grove',
+    'geo.position': '32.7425;-117.0314',
+    'ICBM': '32.7425, -117.0314',
   },
 };
 

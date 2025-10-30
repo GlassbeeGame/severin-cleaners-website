@@ -17,13 +17,59 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Same Day Junk Removal San Diego | Today Pickup | Severin Cleaners',
   description: 'Need junk removed TODAY? Fast same day junk removal in San Diego. Available 7 days, arrive within hours. Call (619) 750-0114 for immediate pickup. Starting at $100.',
+  keywords: [
+    'same day junk removal san diego',
+    'same day junk pickup san diego',
+    'junk removal san diego today',
+    'fast junk removal san diego',
+    'rapid junk removal san diego',
+    'immediate junk removal san diego',
+    'instant junk removal san diego',
+    'quick junk removal san diego',
+    'urgent junk removal san diego',
+    'today junk pickup',
+    'same day hauling san diego',
+    'emergency junk removal san diego'
+  ],
   openGraph: {
     title: 'Same Day Junk Removal San Diego | Today Pickup | Severin Cleaners',
     description: 'Need junk removed TODAY? Fast same day junk removal in San Diego. Available 7 days, arrive within hours. Starting at $100.',
     url: 'https://severincleaners.com/same-day-junk-removal-san-diego',
+    siteName: 'Severin Cleaners',
+    type: 'website',
+    locale: 'en_US',
+    images: [{
+      url: 'https://severincleaners.com/og-image.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'Same Day Junk Removal San Diego - Severin Cleaners'
+    }]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Same Day Junk Removal San Diego | Today Pickup',
+    description: 'Need junk removed TODAY? Available 7 days, arrive within 2-4 hours. No rush fees. Call (619) 750-0114!',
+    images: ['https://severincleaners.com/og-image.jpg']
   },
   alternates: {
     canonical: 'https://severincleaners.com/same-day-junk-removal-san-diego',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'La Mesa',
+    'geo.position': '32.7678;-117.0231',
+    'ICBM': '32.7678, -117.0231',
   },
 };
 

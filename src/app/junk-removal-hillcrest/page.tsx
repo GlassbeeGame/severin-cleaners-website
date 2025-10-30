@@ -10,14 +10,53 @@ import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/s
 export const metadata: Metadata = {
   title: 'Hillcrest Junk Removal | Urban Core Specialists | (619) 750-0114',
   description: 'Hillcrest urban junk removal for condos, 5th Ave corridor. Tight parking, historic homes, apartment cleanouts. (619) 750-0114',
-  keywords: 'Hillcrest junk removal, junk hauling Hillcrest, junk pickup Hillcrest, trash removal Hillcrest, University Heights junk removal, urban junk removal San Diego',
+  keywords: [
+    'Hillcrest junk removal',
+    'junk hauling Hillcrest',
+    'junk pickup Hillcrest',
+    'trash removal Hillcrest',
+    'University Heights junk removal',
+    'urban junk removal San Diego'
+  ],
   openGraph: {
     title: 'Hillcrest Junk Removal | Historic Home & Urban Core Specialists | Same-Day Service',
     description: 'Professional Hillcrest junk removal for condos, historic homes, University Heights. Urban core specialists with limited parking solutions. Call (619) 750-0114.',
     url: 'https://severincleaners.com/junk-removal-hillcrest',
+    siteName: 'Severin Cleaners',
+    type: 'website',
+    locale: 'en_US',
+    images: [{
+      url: 'https://severincleaners.com/og-image.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'Hillcrest Junk Removal - Severin Cleaners'
+    }]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Hillcrest Junk Removal | Historic Home & Urban Core Specialists',
+    description: 'Professional Hillcrest junk removal for condos, historic homes, University Heights. Urban core specialists with limited parking solutions.',
+    images: ['https://severincleaners.com/og-image.jpg']
   },
   alternates: {
     canonical: 'https://severincleaners.com/junk-removal-hillcrest',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Hillcrest',
+    'geo.position': '32.7489;-117.1661',
+    'ICBM': '32.7489, -117.1661',
   },
 };
 

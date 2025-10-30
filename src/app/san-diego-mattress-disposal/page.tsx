@@ -11,11 +11,30 @@ import LocationPricingSection from "@/components/LocationPricingSection";
 export const metadata: Metadata = {
   title: "San Diego Mattress Disposal & Pickup | Locally Owned Service",
   description: "Affordable mattress pickup in San Diego starting at $100. Same-day service, upfront pricing, and compliant disposal. Call (619) 750-0114 today.",
-  keywords: "mattress disposal San Diego, mattress pickup San Diego, mattress removal San Diego, San Diego mattress recycling, box spring removal San Diego, mattress haul away, old mattress removal, cheap mattress disposal San Diego, same day mattress pickup",
+  keywords: [
+    "mattress disposal San Diego",
+    "mattress pickup San Diego",
+    "mattress removal San Diego",
+    "San Diego mattress recycling",
+    "box spring removal San Diego",
+    "mattress haul away",
+    "old mattress removal",
+    "cheap mattress disposal San Diego",
+    "same day mattress pickup"
+  ],
   openGraph: {
     title: "San Diego Mattress Disposal & Pickup | Locally Owned Service",
     description: "Affordable mattress pickup in San Diego starting at $100. Same-day service, upfront pricing, and compliant disposal.",
     url: 'https://severincleaners.com/san-diego-mattress-disposal',
+    siteName: 'Severin Cleaners',
+    type: 'website',
+    locale: 'en_US',
+    images: [{
+      url: 'https://severincleaners.com/og-image.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'San Diego Mattress Disposal - Severin Cleaners'
+    }]
   },
   twitter: {
     card: 'summary_large_image',
@@ -25,6 +44,23 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://severincleaners.com/san-diego-mattress-disposal",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'La Mesa',
+    'geo.position': '32.7678;-117.0231',
+    'ICBM': '32.7678, -117.0231',
   },
 };
 

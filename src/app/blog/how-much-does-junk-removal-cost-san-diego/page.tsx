@@ -7,13 +7,54 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 export const metadata: Metadata = {
   title: "How Much Does Junk Removal Cost in San Diego? (2025 Guide)",
   description: "Complete San Diego junk removal cost guide. Pricing from $100-$495, factors that affect cost, how to save money, and what's included. Free quotes available.",
+  keywords: [
+    "junk removal cost San Diego",
+    "junk removal prices",
+    "how much does junk removal cost",
+    "San Diego junk hauling prices",
+    "junk removal pricing 2025",
+    "affordable junk removal",
+    "junk removal rates"
+  ],
   openGraph: {
     title: "How Much Does Junk Removal Cost in San Diego? (2025 Guide)",
     description: "Complete pricing guide for junk removal in San Diego. Learn costs, save money, and get transparent pricing.",
     url: "https://severincleaners.com/blog/how-much-does-junk-removal-cost-san-diego",
+    siteName: "Severin Cleaners",
+    type: "article",
+    locale: "en_US",
+    images: [{
+      url: "https://severincleaners.com/og-image.jpg",
+      width: 1200,
+      height: 630,
+      alt: "How Much Does Junk Removal Cost in San Diego? - Severin Cleaners"
+    }]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "How Much Does Junk Removal Cost in San Diego? (2025 Guide)",
+    description: "Complete pricing guide for junk removal in San Diego. Learn costs, save money, and get transparent pricing.",
+    images: ["https://severincleaners.com/og-image.jpg"]
   },
   alternates: {
     canonical: "https://severincleaners.com/blog/how-much-does-junk-removal-cost-san-diego",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  other: {
+    "geo.region": "US-CA",
+    "geo.placename": "La Mesa",
+    "geo.position": "32.7678;-117.0231",
+    "ICBM": "32.7678, -117.0231",
   },
 };
 

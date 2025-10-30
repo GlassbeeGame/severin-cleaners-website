@@ -17,7 +17,16 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Junk Removal El Cajon | East County\'s #1 Rated | (619) 750-0114',
   description: 'East County junk removal Fletcher Hills, Bostonia. Garage cleanouts, estate hauling, classic car debris. (619) 750-0114',
-  keywords: 'junk removal El Cajon, scrap metal removal El Cajon, metal recycling El Cajon, junk hauling El Cajon, trash removal El Cajon, junk pickup El Cajon CA, East County junk removal, scrap metal recycling East County',
+  keywords: [
+    'junk removal El Cajon',
+    'scrap metal removal El Cajon',
+    'metal recycling El Cajon',
+    'junk hauling El Cajon',
+    'trash removal El Cajon',
+    'junk pickup El Cajon CA',
+    'East County junk removal',
+    'scrap metal recycling East County'
+  ],
   openGraph: {
     title: 'Junk Removal El Cajon | Scrap Metal Recycling & Junk Hauling East County',
     description: 'Professional junk removal and scrap metal recycling in El Cajon CA. We haul appliances, copper, aluminum, steel & all junk. Same-day service East County.',
@@ -27,6 +36,7 @@ export const metadata: Metadata = {
       url: 'https://severincleaners.com/og-image.jpg',
       width: 1200,
       height: 630,
+      alt: 'El Cajon Junk Removal - Severin Cleaners'
     }],
     locale: 'en_US',
     type: 'website',
@@ -50,6 +60,12 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'El Cajon',
+    'geo.position': '32.7948;-116.9625',
+    'ICBM': '32.7948, -116.9625',
   },
 };
 

@@ -18,7 +18,16 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Couch Removal San Diego | Same-Day Sofa Disposal & Pickup',
   description: 'Affordable couch removal in San Diego starting at $100. Same-day sofa disposal, upfront pricing, and responsible recycling by a local hauling team. Call (619) 750-0114.',
-  keywords: 'couch removal San Diego, sofa disposal San Diego, sectional removal, couch pickup San Diego, San Diego couch disposal, sofa removal San Diego, loveseat removal, recliner removal San Diego',
+  keywords: [
+    'couch removal San Diego',
+    'sofa disposal San Diego',
+    'sectional removal',
+    'couch pickup San Diego',
+    'San Diego couch disposal',
+    'sofa removal San Diego',
+    'loveseat removal',
+    'recliner removal San Diego'
+  ],
   openGraph: {
     title: 'Couch Removal San Diego | Same-Day Sofa Disposal & Pickup',
     description: 'Affordable couch removal in San Diego starting at $100. Same-day sofa disposal, upfront pricing, and responsible recycling by a local hauling team. Call (619) 750-0114.',
@@ -28,6 +37,7 @@ export const metadata: Metadata = {
       url: 'https://severincleaners.com/og-image.jpg',
       width: 1200,
       height: 630,
+      alt: 'Couch Removal San Diego - Severin Cleaners'
     }],
     locale: 'en_US',
     type: 'website',
@@ -51,6 +61,12 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'La Mesa',
+    'geo.position': '32.7678;-117.0231',
+    'ICBM': '32.7678, -117.0231',
   },
 };
 

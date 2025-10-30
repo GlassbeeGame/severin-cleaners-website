@@ -17,7 +17,16 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Spring Valley Junk Removal | Hillside Property Experts | (619) 750-0114",
   description: "Spring Valley hillside junk removal Dictionary Hill, Casa de Oro. Steep driveways, apartment complexes, family homes. (619) 750-0114",
-  keywords: "Spring Valley junk removal, junk hauling Spring Valley, junk pickup Spring Valley, trash removal Spring Valley, Spring Valley San Diego junk removal, Dictionary Hill junk removal, Casa de Oro junk hauling, Sweetwater Reservoir junk pickup",
+  keywords: [
+    "Spring Valley junk removal",
+    "junk hauling Spring Valley",
+    "junk pickup Spring Valley",
+    "trash removal Spring Valley",
+    "Spring Valley San Diego junk removal",
+    "Dictionary Hill junk removal",
+    "Casa de Oro junk hauling",
+    "Sweetwater Reservoir junk pickup"
+  ],
   openGraph: {
     title: "Spring Valley Junk Removal | Affordable Family & Hillside Specialists",
     description: "Professional Spring Valley junk removal for East County families, hillside homes & apartments. Same-day junk hauling Spring Valley, eco-friendly disposal.",
@@ -27,6 +36,7 @@ export const metadata: Metadata = {
       url: 'https://severincleaners.com/og-image.jpg',
       width: 1200,
       height: 630,
+      alt: 'Spring Valley Junk Removal - Severin Cleaners'
     }],
     locale: 'en_US',
     type: 'website',
@@ -50,6 +60,12 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Spring Valley',
+    'geo.position': '32.7447;-116.9989',
+    'ICBM': '32.7447, -116.9989',
   },
 };
 

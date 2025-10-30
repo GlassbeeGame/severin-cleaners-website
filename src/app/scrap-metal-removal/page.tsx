@@ -18,11 +18,35 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Scrap Metal Removal San Diego | Metal Recycling & Appliance Pickup",
   description: "Professional scrap metal removal in San Diego. We recycle copper, aluminum, steel, appliances & all metal types. Same-day pickup. Licensed & eco-friendly. Call (619) 750-0114.",
-  keywords: "scrap metal removal San Diego, metal recycling San Diego, scrap metal pickup, copper recycling, aluminum recycling, appliance removal, scrap metal hauling, metal disposal San Diego",
+  keywords: [
+    "scrap metal removal San Diego",
+    "metal recycling San Diego",
+    "scrap metal pickup",
+    "copper recycling",
+    "aluminum recycling",
+    "appliance removal",
+    "scrap metal hauling",
+    "metal disposal San Diego"
+  ],
   openGraph: {
     title: "Scrap Metal Removal San Diego | Metal Recycling & Appliance Pickup",
     description: "Professional scrap metal removal in San Diego. We recycle copper, aluminum, steel, appliances & all metal types. Same-day pickup available.",
     url: "https://severincleaners.com/scrap-metal-removal",
+    siteName: 'Severin Cleaners',
+    type: 'website',
+    locale: 'en_US',
+    images: [{
+      url: 'https://severincleaners.com/og-image.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'Scrap Metal Removal San Diego - Severin Cleaners'
+    }]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Scrap Metal Removal San Diego | Metal Recycling & Appliance Pickup',
+    description: 'Professional scrap metal removal in San Diego. We recycle copper, aluminum, steel, appliances & all metal types. Same-day pickup available.',
+    images: ['https://severincleaners.com/og-image.jpg']
   },
   alternates: {
     canonical: "https://severincleaners.com/scrap-metal-removal",
@@ -37,6 +61,12 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'La Mesa',
+    'geo.position': '32.7678;-117.0231',
+    'ICBM': '32.7678, -117.0231',
   },
 };
 

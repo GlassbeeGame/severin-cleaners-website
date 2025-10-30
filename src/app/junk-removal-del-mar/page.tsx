@@ -17,7 +17,15 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Del Mar Junk Removal | Coastal Luxury Experts | (619) 750-0114',
   description: 'Del Mar junk removal from Del Mar Village to Del Mar Heights. Coastal property specialists. Licensed & insured. (619) 750-0114',
-  keywords: 'Del Mar junk removal, junk hauling Del Mar, junk pickup Del Mar, trash removal Del Mar, Del Mar San Diego junk removal, junk removal 92014, Camino Del Mar junk hauling',
+  keywords: [
+    'Del Mar junk removal',
+    'junk hauling Del Mar',
+    'junk pickup Del Mar',
+    'trash removal Del Mar',
+    'Del Mar San Diego junk removal',
+    'junk removal 92014',
+    'Camino Del Mar junk hauling'
+  ],
   openGraph: {
     title: 'Del Mar Junk Removal | Coastal Luxury Specialists',
     description: 'Professional Del Mar junk removal from Village to Heights. Expert coastal property service. Licensed & insured. Call (619) 750-0114!',
@@ -27,6 +35,7 @@ export const metadata: Metadata = {
       url: 'https://severincleaners.com/og-image.jpg',
       width: 1200,
       height: 630,
+      alt: 'Del Mar Junk Removal - Severin Cleaners'
     }],
     locale: 'en_US',
     type: 'website',
@@ -50,6 +59,12 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Del Mar',
+    'geo.position': '32.9595;-117.2653',
+    'ICBM': '32.9595, -117.2653',
   },
 };
 

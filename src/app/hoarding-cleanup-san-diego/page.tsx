@@ -18,13 +18,57 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Hoarding Cleanup San Diego | Compassionate Service",
   description: "Professional hoarding cleanup San Diego with compassion and discretion. Judgment-free hoarding junk removal, confidential service. Licensed & insured. Call (619) 750-0114.",
+  keywords: [
+    "hoarding cleanup San Diego",
+    "hoarding junk removal San Diego",
+    "hoarder cleanup San Diego",
+    "compassionate hoarding services",
+    "hoarding cleanout San Diego",
+    "extreme cleaning San Diego",
+    "hoarding disorder cleanup",
+    "discreet hoarding services",
+    "judgment-free hoarding cleanup",
+    "confidential hoarding removal"
+  ],
   openGraph: {
     title: "Hoarding Cleanup San Diego | Compassionate Professional Service",
     description: "Discreet, compassionate hoarding cleanup services in San Diego. Professional junk removal team trained in sensitivity.",
     url: "https://severincleaners.com/hoarding-cleanup-san-diego",
+    siteName: "Severin Cleaners",
+    type: "website",
+    locale: "en_US",
+    images: [{
+      url: "https://severincleaners.com/og-image.jpg",
+      width: 1200,
+      height: 630,
+      alt: "Hoarding Cleanup San Diego - Severin Cleaners"
+    }]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hoarding Cleanup San Diego | Compassionate Service",
+    description: "Professional hoarding cleanup San Diego with compassion and discretion. Judgment-free, confidential service. Call (619) 750-0114.",
+    images: ["https://severincleaners.com/og-image.jpg"]
   },
   alternates: {
     canonical: "https://severincleaners.com/hoarding-cleanup-san-diego",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'La Mesa',
+    'geo.position': '32.7678;-117.0231',
+    'ICBM': '32.7678, -117.0231',
   },
 };
 

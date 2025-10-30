@@ -18,7 +18,16 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Commercial Junk Removal San Diego | Office & Retail',
   description: 'Professional commercial junk removal San Diego for offices, retail stores, warehouses. Business cleanouts with disposal documentation, after-hours service. Call (619) 750-0114.',
-  keywords: 'commercial junk removal san diego, business junk removal san diego, office cleanout san diego, retail cleanout san diego, warehouse junk removal san diego, commercial debris removal san diego',
+  keywords: [
+    'commercial junk removal san diego',
+    'business junk removal san diego',
+    'office cleanout san diego',
+    'retail cleanout san diego',
+    'warehouse junk removal san diego',
+    'commercial debris removal san diego',
+    'business cleanout services',
+    'office junk hauling san diego'
+  ],
   openGraph: {
     title: 'Commercial Junk Removal San Diego | Office, Retail & Warehouse Cleanouts | Same-Day Service',
     description: 'Professional commercial junk removal San Diego for offices, retail stores, warehouses. Business cleanouts with disposal documentation, after-hours service. Call (619) 750-0114.',
@@ -28,6 +37,7 @@ export const metadata: Metadata = {
       url: 'https://severincleaners.com/og-image.jpg',
       width: 1200,
       height: 630,
+      alt: 'Commercial Junk Removal San Diego - Severin Cleaners'
     }],
     locale: 'en_US',
     type: 'website',
@@ -51,6 +61,12 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'La Mesa',
+    'geo.position': '32.7678;-117.0231',
+    'ICBM': '32.7678, -117.0231',
   },
 };
 

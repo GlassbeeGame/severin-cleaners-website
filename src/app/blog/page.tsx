@@ -7,13 +7,53 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Junk Removal Blog | Tips, Guides & Cost Savings | Severin Cleaners",
   description: "Expert junk removal tips, cost guides, and how-to articles for San Diego homeowners and businesses. Learn how to save money and prepare for junk removal services.",
+  keywords: [
+    "junk removal tips",
+    "junk removal cost guide",
+    "San Diego junk removal blog",
+    "junk hauling advice",
+    "dump fees San Diego",
+    "same day junk removal"
+  ],
   openGraph: {
     title: "Junk Removal Blog | Tips & Guides | Severin Cleaners",
     description: "Expert junk removal tips, cost guides, and how-to articles for San Diego homeowners and businesses.",
     url: "https://severincleaners.com/blog",
+    siteName: "Severin Cleaners",
+    type: "website",
+    locale: "en_US",
+    images: [{
+      url: "https://severincleaners.com/og-image.jpg",
+      width: 1200,
+      height: 630,
+      alt: "Junk Removal Blog - Tips & Guides - Severin Cleaners"
+    }]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Junk Removal Blog | Tips & Guides | Severin Cleaners",
+    description: "Expert junk removal tips, cost guides, and how-to articles for San Diego homeowners and businesses.",
+    images: ["https://severincleaners.com/og-image.jpg"]
   },
   alternates: {
     canonical: "https://severincleaners.com/blog",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  other: {
+    "geo.region": "US-CA",
+    "geo.placename": "La Mesa",
+    "geo.position": "32.7678;-117.0231",
+    "ICBM": "32.7678, -117.0231",
   },
 };
 

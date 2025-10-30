@@ -18,7 +18,14 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Clairemont Junk Removal | Central San Diego Specialists | (619) 750-0114',
   description: 'Clairemont family home junk removal Bay Park to Bay Ho. Garage cleanouts, pool equipment, 1950s-era homes. (619) 750-0114',
-  keywords: 'Clairemont junk removal, junk hauling Clairemont, junk pickup Clairemont Mesa, trash removal Clairemont, Clairemont San Diego junk removal, garage cleanouts',
+  keywords: [
+    'Clairemont junk removal',
+    'junk hauling Clairemont',
+    'junk pickup Clairemont Mesa',
+    'trash removal Clairemont',
+    'Clairemont San Diego junk removal',
+    'garage cleanouts'
+  ],
   openGraph: {
     title: 'Clairemont Junk Removal | Family Home & Garage Cleanout Specialists | Same-Day Service',
     description: 'Professional Clairemont junk removal for family homes, garage cleanouts, Clairemont Village, Balboa Ave corridor. Residential specialists with eco-friendly service. Call (619) 750-0114.',
@@ -28,6 +35,7 @@ export const metadata: Metadata = {
       url: 'https://severincleaners.com/og-image.jpg',
       width: 1200,
       height: 630,
+      alt: 'Clairemont Junk Removal - Severin Cleaners'
     }],
     locale: 'en_US',
     type: 'website',
@@ -51,6 +59,12 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Clairemont',
+    'geo.position': '32.8304;-117.2056',
+    'ICBM': '32.8304, -117.2056',
   },
 };
 

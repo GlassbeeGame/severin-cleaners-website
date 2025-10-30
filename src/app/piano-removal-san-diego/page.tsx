@@ -17,7 +17,16 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Piano Removal San Diego | Musical Instrument Specialists',
   description: 'Professional piano removal throughout San Diego - upright pianos, grand pianos, and musical instruments. Careful handling guaranteed. Call (619) 750-0114.',
-  keywords: 'piano removal san diego, piano disposal san diego, musical instrument removal, upright piano removal, grand piano removal',
+  keywords: [
+    'piano removal san diego',
+    'piano disposal san diego',
+    'musical instrument removal',
+    'upright piano removal',
+    'grand piano removal',
+    'piano movers san diego',
+    'piano hauling san diego',
+    'piano removal service'
+  ],
   openGraph: {
     title: 'Piano Removal San Diego | Musical Instrument Specialists',
     description: 'Professional piano removal throughout San Diego - upright pianos, grand pianos, and musical instruments. Careful handling guaranteed. Call (619) 750-0114.',
@@ -27,6 +36,7 @@ export const metadata: Metadata = {
       url: 'https://severincleaners.com/og-image.jpg',
       width: 1200,
       height: 630,
+      alt: 'Piano Removal San Diego - Severin Cleaners'
     }],
     locale: 'en_US',
     type: 'website',
@@ -50,6 +60,12 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'La Mesa',
+    'geo.position': '32.7678;-117.0231',
+    'ICBM': '32.7678, -117.0231',
   },
 };
 

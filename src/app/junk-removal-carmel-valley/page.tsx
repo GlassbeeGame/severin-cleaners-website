@@ -17,7 +17,15 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Junk Removal Carmel Valley | North County Premium Service | (619) 750-0114",
   description: "Carmel Valley junk removal for Torrey Highlands, Pacific Highlands Ranch. Estate cleanouts, luxury furniture. Licensed. (619) 750-0114",
-  keywords: "junk removal Carmel Valley, Carmel Valley junk hauling, estate cleanout Carmel Valley, furniture removal Carmel Valley, junk removal near me Carmel Valley, same-day junk pickup, Del Mar Mesa junk removal",
+  keywords: [
+    "junk removal Carmel Valley",
+    "Carmel Valley junk hauling",
+    "estate cleanout Carmel Valley",
+    "furniture removal Carmel Valley",
+    "junk removal near me Carmel Valley",
+    "same-day junk pickup",
+    "Del Mar Mesa junk removal"
+  ],
   openGraph: {
     title: "Junk Removal Carmel Valley | Professional Hauling Service",
     description: "Reliable junk removal serving all of Carmel Valley from Torrey Highlands to Del Mar Mesa. Upscale residential cleanouts and luxury home services.",
@@ -27,6 +35,7 @@ export const metadata: Metadata = {
       url: 'https://severincleaners.com/og-image.jpg',
       width: 1200,
       height: 630,
+      alt: 'Carmel Valley Junk Removal - Severin Cleaners'
     }],
     locale: 'en_US',
     type: 'website',
@@ -50,6 +59,12 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Carmel Valley',
+    'geo.position': '32.9283;-117.2217',
+    'ICBM': '32.9283, -117.2217',
   },
 };
 

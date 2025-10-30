@@ -10,14 +10,54 @@ import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/s
 export const metadata: Metadata = {
   title: 'North Park Junk Removal | Urban Neighborhood Experts | (619) 750-0114',
   description: 'North Park urban junk removal 30th St to University Ave. Craftsman homes, street parking, apartment turnovers. (619) 750-0114',
-  keywords: 'North Park junk removal, junk hauling North Park, junk pickup North Park, trash removal North Park, North Park San Diego junk removal, University Avenue junk hauling, 30th Street junk removal',
+  keywords: [
+    'North Park junk removal',
+    'junk hauling North Park',
+    'junk pickup North Park',
+    'trash removal North Park',
+    'North Park San Diego junk removal',
+    'University Avenue junk hauling',
+    '30th Street junk removal'
+  ],
   openGraph: {
     title: 'North Park Junk Removal | Same-Day Hauling | Licensed & Insured',
     description: 'Professional North Park junk removal for University Avenue, 30th Street, apartments & historic homes. Same-day service, transparent pricing. Licensed & insured. Call (619) 750-0114!',
     url: 'https://severincleaners.com/junk-removal-north-park',
+    siteName: 'Severin Cleaners',
+    type: 'website',
+    locale: 'en_US',
+    images: [{
+      url: 'https://severincleaners.com/og-image.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'North Park Junk Removal - Severin Cleaners'
+    }]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'North Park Junk Removal | Same-Day Hauling | Licensed & Insured',
+    description: 'Professional North Park junk removal for University Avenue, 30th Street, apartments & historic homes. Same-day service, transparent pricing. Licensed & insured.',
+    images: ['https://severincleaners.com/og-image.jpg']
   },
   alternates: {
     canonical: 'https://severincleaners.com/junk-removal-north-park',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'North Park',
+    'geo.position': '32.7406;-117.1292',
+    'ICBM': '32.7406, -117.1292',
   },
 };
 

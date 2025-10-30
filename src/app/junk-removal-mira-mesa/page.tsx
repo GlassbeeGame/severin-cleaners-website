@@ -17,7 +17,14 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Mira Mesa Junk Removal | Residential & Commercial | (619) 750-0114",
   description: "Mira Mesa junk removal Scripps Ranch to Sorrento Valley. Tech campuses, apartments, condos, offices. (619) 750-0114",
-  keywords: "Mira Mesa junk removal, junk hauling Mira Mesa, trash removal Mira Mesa, junk pickup Mira Mesa, Mira Mesa furniture removal, commercial junk removal Mira Mesa",
+  keywords: [
+    "Mira Mesa junk removal",
+    "junk hauling Mira Mesa",
+    "trash removal Mira Mesa",
+    "junk pickup Mira Mesa",
+    "Mira Mesa furniture removal",
+    "commercial junk removal Mira Mesa"
+  ],
   openGraph: {
     title: "Mira Mesa Junk Removal | Same-Day Pickup & Hauling Service",
     description: "Professional Mira Mesa junk removal for homes and businesses. Same-day service, affordable pricing, eco-friendly disposal. Call (619) 750-0114!",
@@ -27,6 +34,7 @@ export const metadata: Metadata = {
       url: 'https://severincleaners.com/og-image.jpg',
       width: 1200,
       height: 630,
+      alt: 'Mira Mesa Junk Removal - Severin Cleaners'
     }],
     locale: 'en_US',
     type: 'website',
@@ -50,6 +58,12 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Mira Mesa',
+    'geo.position': '32.9153;-117.1439',
+    'ICBM': '32.9153, -117.1439',
   },
 };
 

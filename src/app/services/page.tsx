@@ -5,9 +5,55 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Junk Removal Services San Diego | Same Day Hauling & Disposal",
   description: "Complete junk removal services in San Diego. Same-day service, furniture removal, appliance disposal, estate cleanouts, construction debris removal. Licensed & insured. Call (619) 750-0114!",
-  keywords: "junk removal services San Diego, furniture removal, appliance removal, estate cleanouts, construction debris removal, commercial junk removal, same day junk removal, hoarding cleanup",
+  keywords: [
+    "junk removal services San Diego",
+    "furniture removal",
+    "appliance removal",
+    "estate cleanouts",
+    "construction debris removal",
+    "commercial junk removal",
+    "same day junk removal",
+    "hoarding cleanup"
+  ],
+  openGraph: {
+    title: "Junk Removal Services San Diego | Same Day Hauling & Disposal",
+    description: "Complete junk removal services in San Diego. Same-day service, furniture removal, appliance disposal, estate cleanouts, construction debris removal. Licensed & insured.",
+    url: "https://severincleaners.com/services",
+    siteName: "Severin Cleaners",
+    type: "website",
+    locale: "en_US",
+    images: [{
+      url: "https://severincleaners.com/og-image.jpg",
+      width: 1200,
+      height: 630,
+      alt: "Junk Removal Services San Diego - Severin Cleaners"
+    }]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Junk Removal Services San Diego | Same Day Hauling & Disposal",
+    description: "Complete junk removal services in San Diego. Same-day service, furniture removal, appliance disposal, estate cleanouts, construction debris removal.",
+    images: ["https://severincleaners.com/og-image.jpg"]
+  },
   alternates: {
     canonical: "https://severincleaners.com/services",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  other: {
+    "geo.region": "US-CA",
+    "geo.placename": "La Mesa",
+    "geo.position": "32.7678;-117.0231",
+    "ICBM": "32.7678, -117.0231",
   },
 };
 

@@ -18,13 +18,57 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Appliance Removal San Diego | Fridge & Washer Disposal",
   description: "Professional appliance removal in San Diego. We remove refrigerators, washers, dryers, stoves, and all appliance types. Same-day service available. Call (619) 750-0114. Starting at $100.",
+  keywords: [
+    "appliance removal San Diego",
+    "refrigerator removal San Diego",
+    "washer dryer removal San Diego",
+    "stove removal San Diego",
+    "appliance disposal San Diego",
+    "appliance hauling San Diego",
+    "old appliance removal",
+    "appliance pickup San Diego",
+    "same day appliance removal",
+    "eco-friendly appliance disposal"
+  ],
   openGraph: {
     title: "Appliance Removal San Diego | Refrigerator & Washer Disposal | Severin Cleaners",
     description: "Professional appliance removal in San Diego. We remove refrigerators, washers, dryers, stoves, and all appliance types. Same-day service available. Call (619) 750-0114. Starting at $100.",
     url: "https://severincleaners.com/appliance-removal-san-diego",
+    siteName: "Severin Cleaners",
+    type: "website",
+    locale: "en_US",
+    images: [{
+      url: "https://severincleaners.com/og-image.jpg",
+      width: 1200,
+      height: 630,
+      alt: "Appliance Removal San Diego - Severin Cleaners"
+    }]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Appliance Removal San Diego | Fridge & Washer Disposal",
+    description: "Professional appliance removal in San Diego. We remove refrigerators, washers, dryers, stoves. Same-day service. Call (619) 750-0114!",
+    images: ["https://severincleaners.com/og-image.jpg"]
   },
   alternates: {
     canonical: "https://severincleaners.com/appliance-removal-san-diego",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'La Mesa',
+    'geo.position': '32.7678;-117.0231',
+    'ICBM': '32.7678, -117.0231',
   },
 };
 

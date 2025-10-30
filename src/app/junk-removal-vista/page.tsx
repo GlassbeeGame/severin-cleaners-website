@@ -17,7 +17,18 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Vista Junk Removal | North County Reliable Service | (619) 750-0114",
   description: "Vista junk removal Shadowridge, Rancho Buena Vista. Affordable North County, breweries, business parks, family homes. (619) 750-0114",
-  keywords: "Vista junk removal, junk hauling Vista, junk pickup Vista, trash removal Vista, Vista San Diego junk removal, Shadowridge junk removal, Downtown Vista junk hauling, Vista Business Park cleanout, Rancho Buena Vista junk removal, Buena Creek junk hauling",
+  keywords: [
+    "Vista junk removal",
+    "junk hauling Vista",
+    "junk pickup Vista",
+    "trash removal Vista",
+    "Vista San Diego junk removal",
+    "Shadowridge junk removal",
+    "Downtown Vista junk hauling",
+    "Vista Business Park cleanout",
+    "Rancho Buena Vista junk removal",
+    "Buena Creek junk hauling"
+  ],
   openGraph: {
     title: "Vista Junk Removal | Same-Day Hauling | Licensed & Insured",
     description: "Professional Vista junk removal for families, apartments & businesses. Same-day junk hauling Vista, eco-friendly disposal. Serving all Vista neighborhoods including Shadowridge and Rancho Buena Vista.",
@@ -27,6 +38,7 @@ export const metadata: Metadata = {
       url: 'https://severincleaners.com/og-image.jpg',
       width: 1200,
       height: 630,
+      alt: 'Vista Junk Removal - Severin Cleaners'
     }],
     locale: 'en_US',
     type: 'website',
@@ -50,6 +62,12 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Vista',
+    'geo.position': '33.2000;-117.2425',
+    'ICBM': '33.2000, -117.2425',
   },
 };
 

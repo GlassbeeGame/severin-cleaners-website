@@ -11,11 +11,29 @@ import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Emergency Junk Removal San Diego - Same Day & Last Minute Service",
   description: "Emergency junk removal San Diego today! Same-day, weekend & immediate dispatch urgent trash removal. Licensed & insured. Call (619) 750-0114 for immediate service!",
-  keywords: "emergency junk removal San Diego today, same day junk removal San Diego, urgent trash removal San Diego now, 24 hour junk removal San Diego, weekend junk removal San Diego Saturday Sunday, last minute junk removal San Diego",
+  keywords: [
+    "emergency junk removal San Diego today",
+    "same day junk removal San Diego",
+    "urgent trash removal San Diego now",
+    "24 hour junk removal San Diego",
+    "weekend junk removal San Diego Saturday Sunday",
+    "last minute junk removal San Diego",
+    "urgent junk hauling",
+    "emergency debris removal"
+  ],
   openGraph: {
     title: "Emergency Junk Removal San Diego - Same Day Service Available",
     description: "Need emergency junk removal San Diego today? Same-day, weekend & immediate dispatch urgent trash removal. Licensed & insured. Call (619) 750-0114 now!",
     url: 'https://severincleaners.com/emergency-junk-removal-san-diego',
+    siteName: 'Severin Cleaners',
+    type: 'website',
+    locale: 'en_US',
+    images: [{
+      url: 'https://severincleaners.com/og-image.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'Emergency Junk Removal San Diego - Severin Cleaners'
+    }]
   },
   twitter: {
     card: 'summary_large_image',
@@ -25,6 +43,23 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://severincleaners.com/emergency-junk-removal-san-diego",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'La Mesa',
+    'geo.position': '32.7678;-117.0231',
+    'ICBM': '32.7678, -117.0231',
   },
 };
 

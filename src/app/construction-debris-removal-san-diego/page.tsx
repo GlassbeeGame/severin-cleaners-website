@@ -18,13 +18,57 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Construction Debris Removal San Diego | Contractor Hauling & Cleanup",
   description: "Professional construction debris removal San Diego. Fast, reliable service for contractors. Same-day available. Licensed & insured. Call (619) 750-0114 for contractor quote.",
+  keywords: [
+    "construction debris removal San Diego",
+    "construction waste removal",
+    "contractor hauling San Diego",
+    "renovation debris removal",
+    "demolition debris removal",
+    "construction cleanup San Diego",
+    "c&d waste removal",
+    "drywall removal San Diego",
+    "lumber removal",
+    "contractor junk removal"
+  ],
   openGraph: {
     title: "Construction Debris Removal San Diego | Contractor Hauling & Cleanup",
     description: "Professional construction debris removal San Diego. Fast, reliable service for contractors. Same-day available. Licensed & insured.",
     url: "https://severincleaners.com/construction-debris-removal-san-diego",
+    siteName: "Severin Cleaners",
+    type: "website",
+    locale: "en_US",
+    images: [{
+      url: "https://severincleaners.com/og-image.jpg",
+      width: 1200,
+      height: 630,
+      alt: "Construction Debris Removal San Diego - Severin Cleaners"
+    }]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Construction Debris Removal San Diego | Contractor Services",
+    description: "Professional construction debris removal San Diego. Fast, reliable service for contractors. Same-day available. Call (619) 750-0114!",
+    images: ["https://severincleaners.com/og-image.jpg"]
   },
   alternates: {
     canonical: "https://severincleaners.com/construction-debris-removal-san-diego",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'La Mesa',
+    'geo.position': '32.7678;-117.0231',
+    'ICBM': '32.7678, -117.0231',
   },
 };
 

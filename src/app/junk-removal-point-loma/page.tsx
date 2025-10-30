@@ -17,7 +17,14 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Point Loma Junk Removal | Military & Coastal Experts | (619) 750-0114',
   description: 'Point Loma junk removal from Naval Base to Sunset Cliffs. Military PCS support. Licensed & insured. (619) 750-0114',
-  keywords: 'Point Loma junk removal, junk hauling Point Loma, junk pickup Point Loma, trash removal Point Loma, Point Loma San Diego junk removal, military PCS moves',
+  keywords: [
+    'Point Loma junk removal',
+    'junk hauling Point Loma',
+    'junk pickup Point Loma',
+    'trash removal Point Loma',
+    'Point Loma San Diego junk removal',
+    'military PCS moves'
+  ],
   openGraph: {
     title: 'Point Loma Junk Removal | Military & Coastal Specialists',
     description: 'Professional Point Loma junk removal from Naval Base to Sunset Cliffs. Military PCS support. Licensed & insured. Call (619) 750-0114!',
@@ -27,6 +34,7 @@ export const metadata: Metadata = {
       url: 'https://severincleaners.com/og-image.jpg',
       width: 1200,
       height: 630,
+      alt: 'Point Loma Junk Removal - Severin Cleaners'
     }],
     locale: 'en_US',
     type: 'website',
@@ -50,6 +58,12 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Point Loma',
+    'geo.position': '32.7242;-117.2431',
+    'ICBM': '32.7242, -117.2431',
   },
 };
 

@@ -6,11 +6,29 @@ import FAQSection from "./FAQSection";
 export const metadata: Metadata = {
   title: "Junk Removal Cost San Diego - Affordable Prices & Free Quotes",
   description: "Transparent junk removal cost San Diego with free quotes! Compare our affordable prices. No hidden fees. Licensed & insured. Call (619) 750-0114 for instant pricing!",
-  keywords: "cheap junk removal San Diego, junk removal cost San Diego, junk removal prices San Diego, free junk removal quote San Diego, compare junk removal San Diego, affordable junk hauling",
+  keywords: [
+    "cheap junk removal San Diego",
+    "junk removal cost San Diego",
+    "junk removal prices San Diego",
+    "free junk removal quote San Diego",
+    "compare junk removal San Diego",
+    "affordable junk hauling",
+    "junk removal pricing",
+    "how much junk removal cost"
+  ],
   openGraph: {
     title: "Junk Removal Cost San Diego - Affordable Prices & Free Quotes",
     description: "Transparent junk removal cost San Diego with free quotes! Compare our affordable prices. No hidden fees. Call (619) 750-0114 for instant pricing!",
     url: 'https://severincleaners.com/junk-removal-cost-san-diego',
+    siteName: 'Severin Cleaners',
+    type: 'website',
+    locale: 'en_US',
+    images: [{
+      url: 'https://severincleaners.com/og-image.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'Junk Removal Cost San Diego - Severin Cleaners'
+    }]
   },
   twitter: {
     card: 'summary_large_image',
@@ -20,6 +38,23 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://severincleaners.com/junk-removal-cost-san-diego",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'La Mesa',
+    'geo.position': '32.7678;-117.0231',
+    'ICBM': '32.7678, -117.0231',
   },
 };
 

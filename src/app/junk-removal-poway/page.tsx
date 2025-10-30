@@ -17,7 +17,14 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Poway Junk Removal | Ranch Property Specialists | (619) 750-0114',
   description: 'Poway ranch property junk removal for 4S Ranch, Stone Ridge, equestrian estates. Barn cleanouts, large lots. Call (619) 750-0114',
-  keywords: 'Poway junk removal, junk hauling Poway, junk pickup Poway, trash removal Poway, Poway San Diego junk removal, ranch junk removal',
+  keywords: [
+    'Poway junk removal',
+    'junk hauling Poway',
+    'junk pickup Poway',
+    'trash removal Poway',
+    'Poway San Diego junk removal',
+    'ranch junk removal'
+  ],
   openGraph: {
     title: 'Poway Junk Removal | Ranch & Family Home Specialists | Same-Day Service',
     description: 'Professional Poway junk removal for ranches, family homes, business parks. Large property specialists with eco-friendly service. Call (619) 750-0114.',
@@ -27,6 +34,7 @@ export const metadata: Metadata = {
       url: 'https://severincleaners.com/og-image.jpg',
       width: 1200,
       height: 630,
+      alt: 'Poway Junk Removal - Severin Cleaners'
     }],
     locale: 'en_US',
     type: 'website',
@@ -50,6 +58,12 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Poway',
+    'geo.position': '32.9628;-117.0359',
+    'ICBM': '32.9628, -117.0359',
   },
 };
 

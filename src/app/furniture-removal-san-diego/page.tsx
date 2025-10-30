@@ -18,13 +18,57 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Furniture Removal San Diego | Couch & Sofa Disposal | Severin Cleaners",
   description: "Professional furniture removal in San Diego. We remove couches, sofas, desks, and all furniture types. Same-day service available. Call (619) 750-0114. Starting at $100.",
+  keywords: [
+    "furniture removal San Diego",
+    "furniture disposal San Diego",
+    "couch removal San Diego",
+    "sofa removal San Diego",
+    "desk removal San Diego",
+    "furniture hauling San Diego",
+    "old furniture removal",
+    "furniture pickup San Diego",
+    "same day furniture removal",
+    "furniture junk removal San Diego"
+  ],
   openGraph: {
     title: "Furniture Removal San Diego | Couch & Sofa Disposal | Severin Cleaners",
     description: "Professional furniture removal in San Diego. We remove couches, sofas, desks, and all furniture types. Same-day service available. Starting at $100.",
     url: "https://severincleaners.com/furniture-removal-san-diego",
+    siteName: "Severin Cleaners",
+    type: "website",
+    locale: "en_US",
+    images: [{
+      url: "https://severincleaners.com/og-image.jpg",
+      width: 1200,
+      height: 630,
+      alt: "Furniture Removal San Diego - Severin Cleaners"
+    }]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Furniture Removal San Diego | Couch & Sofa Disposal",
+    description: "Professional furniture removal in San Diego. We remove couches, sofas, desks, and all furniture types. Same-day service available. Call (619) 750-0114!",
+    images: ["https://severincleaners.com/og-image.jpg"]
   },
   alternates: {
     canonical: "https://severincleaners.com/furniture-removal-san-diego",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'La Mesa',
+    'geo.position': '32.7678;-117.0231',
+    'ICBM': '32.7678, -117.0231',
   },
 };
 

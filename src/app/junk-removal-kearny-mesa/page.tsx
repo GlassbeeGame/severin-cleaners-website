@@ -18,7 +18,14 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Kearny Mesa Junk Removal | Commercial District Experts | (619) 750-0114',
   description: 'Kearny Mesa commercial junk removal Convoy District, warehouses. Office furniture, industrial debris, auto shops. (619) 750-0114',
-  keywords: 'Kearny Mesa junk removal, junk hauling Kearny Mesa, junk pickup Kearny Mesa, trash removal Kearny Mesa, commercial junk removal Kearny Mesa, office cleanout Kearny Mesa',
+  keywords: [
+    'Kearny Mesa junk removal',
+    'junk hauling Kearny Mesa',
+    'junk pickup Kearny Mesa',
+    'trash removal Kearny Mesa',
+    'commercial junk removal Kearny Mesa',
+    'office cleanout Kearny Mesa'
+  ],
   openGraph: {
     title: 'Kearny Mesa Junk Removal | Commercial & Residential Specialists | Same-Day Service',
     description: 'Professional Kearny Mesa junk removal for offices, warehouses, industrial parks. Commercial junk hauling experts serving Convoy District, auto businesses. Call (619) 750-0114.',
@@ -27,7 +34,8 @@ export const metadata: Metadata = {
     images: [{
       url: 'https://severincleaners.com/og-image.jpg',
       width: 1200,
-      height: 1630,
+      height: 630,
+      alt: 'Kearny Mesa Junk Removal - Severin Cleaners'
     }],
     locale: 'en_US',
     type: 'website',
@@ -51,6 +59,12 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'Kearny Mesa',
+    'geo.position': '32.8170;-117.1392',
+    'ICBM': '32.8170, -117.1392',
   },
 };
 

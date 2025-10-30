@@ -15,7 +15,19 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Junk Removal San Diego | Same-Day Service & Transparent Pricing',
   description: 'Fast junk removal across San Diego County starting around $100. Same-day pickup, licensed local team, and no-hidden-fee pricing. Call (619) 750-0114 today.',
-  keywords: 'junk removal San Diego, San Diego junk removal, junk hauling San Diego, junk pickup San Diego, trash removal San Diego, San Diego County junk removal, same-day junk removal, junk removal cost San Diego, furniture removal San Diego, couch removal San Diego, appliance removal San Diego',
+  keywords: [
+    'junk removal San Diego',
+    'San Diego junk removal',
+    'junk hauling San Diego',
+    'junk pickup San Diego',
+    'trash removal San Diego',
+    'San Diego County junk removal',
+    'same-day junk removal',
+    'junk removal cost San Diego',
+    'furniture removal San Diego',
+    'couch removal San Diego',
+    'appliance removal San Diego'
+  ],
   openGraph: {
     title: 'Junk Removal San Diego | Same-Day Service & Transparent Pricing',
     description: 'Fast junk removal across San Diego County starting around $100. Same-day pickup, licensed local team, and no-hidden-fee pricing. Call (619) 750-0114 today.',
@@ -25,6 +37,7 @@ export const metadata: Metadata = {
       url: 'https://severincleaners.com/og-image.jpg',
       width: 1200,
       height: 630,
+      alt: 'San Diego Junk Removal - Severin Cleaners'
     }],
     locale: 'en_US',
     type: 'website',
@@ -48,6 +61,12 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  other: {
+    'geo.region': 'US-CA',
+    'geo.placename': 'San Diego',
+    'geo.position': '32.7157;-117.1611',
+    'ICBM': '32.7157, -117.1611',
   },
 };
 
