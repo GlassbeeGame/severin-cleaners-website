@@ -108,10 +108,10 @@ export default function JunkRemovalChulaVistaPage() {
   const faqSchema = generateFAQSchema(chulaVistaFAQs);
 
   const nearbyLocations = [
-    { name: "Bonita", slug: "junk-removal-bonita" },
-    { name: "National City", slug: "junk-removal-national-city" },
-    { name: "Imperial Beach", slug: "junk-removal-imperial-beach" },
     { name: "Spring Valley", slug: "junk-removal-spring-valley" },
+    { name: "La Mesa", slug: "junk-removal-la-mesa" },
+    { name: "El Cajon", slug: "junk-removal-el-cajon" },
+    { name: "Lemon Grove", slug: "junk-removal-lemon-grove" },
   ];
 
   return (

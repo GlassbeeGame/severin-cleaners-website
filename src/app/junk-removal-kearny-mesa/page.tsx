@@ -358,10 +358,10 @@ export default function JunkRemovalKearnyMesaPage() {
                     <LocationSidebarCTA
                       locationName="Kearny Mesa"
                       nearbyLocations={[
-                        { name: "Clairemont", slug: "clairemont" },
-                        { name: "North Park", slug: "north-park" },
-                        { name: "Hillcrest", slug: "hillcrest" },
-                        { name: "Mira Mesa", slug: "mira-mesa" },
+                        { name: "Clairemont", slug: "junk-removal-clairemont" },
+                        { name: "North Park", slug: "junk-removal-north-park" },
+                        { name: "Hillcrest", slug: "junk-removal-hillcrest" },
+                        { name: "Mira Mesa", slug: "junk-removal-mira-mesa" },
                       ]}
                     />
                   </div>
