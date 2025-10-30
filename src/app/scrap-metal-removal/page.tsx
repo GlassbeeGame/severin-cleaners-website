@@ -140,7 +140,12 @@ export default function ScrapMetalRemovalPage() {
       "bestRating": "5"
     },
     "reviewBody": "They stopped by to help my grandfather remove his old fridge and install the new one. They were kind, quick to respond, and got everything done in no time. We thought it would be a hassle since the new fridge had to be picked up last minute, but they made it effortless and even took the time to coordinate everything.",
-    "datePublished": "2025-01-15"
+    "datePublished": "2025-01-15",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Google",
+      "url": "https://www.google.com/maps/place/Severin+Cleaners"
+    }
   };
 
   const combinedSchema = {
