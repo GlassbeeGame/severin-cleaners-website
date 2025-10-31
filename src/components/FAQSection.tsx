@@ -1,6 +1,3 @@
-'use client';
-
-import { useState } from 'react';
 import type { FAQ } from '@/lib/schema';
 
 interface FAQSectionProps {
@@ -20,8 +17,6 @@ export default function FAQSection({
   ctaDescription,
   includeSchema = false,
 }: FAQSectionProps) {
-  const [openFAQ, setOpenFAQ] = useState<number | null>(null);
-
   const faqSchema = includeSchema ? {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -59,32 +54,25 @@ export default function FAQSection({
           <div className="max-w-4xl mx-auto">
             <div className="space-y-4">
               {faqs.map((faq, index) => (
-                <div key={index} className="border border-gray-200 rounded-xl overflow-hidden">
-                  <button
-                    className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
-                    onClick={() => setOpenFAQ(openFAQ === index ? null : index)}
-                  >
+                <details key={index} className="border border-gray-200 rounded-xl overflow-hidden group">
+                  <summary className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between cursor-pointer list-none">
                     <h3 className="font-bold text-gray-900 text-lg">{faq.question}</h3>
                     <svg
-                      className={`w-5 h-5 text-gray-500 transition-transform ${
-                        openFAQ === index ? 'rotate-180' : ''
-                      }`}
+                      className="w-5 h-5 text-gray-500 transition-transform group-open:rotate-180"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
                     </svg>
-                  </button>
-                  {openFAQ === index && (
-                    <div className="px-6 py-4 bg-white">
-                      <p
-                        className="text-gray-700 leading-relaxed"
-                        dangerouslySetInnerHTML={{ __html: faq.answer }}
-                      />
-                    </div>
-                  )}
-                </div>
+                  </summary>
+                  <div className="px-6 py-4 bg-white">
+                    <p
+                      className="text-gray-700 leading-relaxed"
+                      dangerouslySetInnerHTML={{ __html: faq.answer }}
+                    />
+                  </div>
+                </details>
               ))}
             </div>
           </div>

@@ -120,18 +120,25 @@ export default function Footer() {
               </div>
             </div>
 
-            {/* Google Map */}
+            {/* Google Map - Deferred loading for better performance */}
             <div className="mt-6">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.6943877598447!2d-117.02513!3d32.778141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9537b2b43cdbc%3A0x23cb27870cfc43!2s8900%20Grossmont%20Blvd%2C%20La%20Mesa%2C%20CA%2091941!5e0!3m2!1sen!2sus!4v1234567890"
-                width="100%"
-                height="200"
-                style={{ border: 0, borderRadius: '8px' }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Severin Cleaners Location"
-              ></iframe>
+              <a
+                href="https://share.google/OzHkUoiWXUIaJ20K6"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block relative bg-gray-200 rounded-lg overflow-hidden"
+                style={{ height: '200px' }}
+              >
+                <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-blue-500 to-blue-700 text-white">
+                  <div className="text-center">
+                    <svg className="w-12 h-12 mx-auto mb-2" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                    </svg>
+                    <div className="font-semibold">View on Google Maps</div>
+                    <div className="text-sm text-blue-100">8900 Grossmont Blvd, La Mesa</div>
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
 

@@ -9,6 +9,8 @@ const inter = Inter({
   variable: "--font-inter",
   preload: true,
   adjustFontFallback: true,
+  weight: ["400", "600", "700", "900"], // Only load weights we actually use
+  fallback: ["system-ui", "-apple-system", "sans-serif"],
 });
 
 export const metadata: Metadata = {
