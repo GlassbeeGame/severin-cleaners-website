@@ -29,8 +29,8 @@ export function GoogleTagManagerHead() {
     window.addEventListener(event, loadGTM, { once: true, passive: true });
   });
 
-  // Fallback: load after 5 seconds (after TBT measurement window)
-  setTimeout(loadGTM, 5000);
+  // Fallback: load after 8 seconds (well after TBT measurement window)
+  setTimeout(loadGTM, 8000);
 })();
           `,
         }}
@@ -66,8 +66,8 @@ export function GoogleTagManagerHead() {
     window.addEventListener(event, loadGA4, { once: true, passive: true });
   });
 
-  // Fallback: load after 5 seconds (after TBT measurement window)
-  setTimeout(loadGA4, 5000);
+  // Fallback: load after 8 seconds (well after TBT measurement window)
+  setTimeout(loadGA4, 8000);
 })();
           `,
         }}
