@@ -25,6 +25,67 @@ const nextConfig: NextConfig = {
   },
   experimental: {
     optimizePackageImports: ['@/components'],
+    // Optimize client-side bundle
+    optimizeCss: true,
+    // Use lighter React runtime
+    reactCompiler: false,
+  },
+  // Production-only optimizations
+  productionBrowserSourceMaps: false,
+  swcMinify: true,
+  // Aggressive code splitting and tree-shaking for TBT optimization
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      // Minimize bundle size
+      config.optimization = {
+        ...config.optimization,
+        // Aggressive module concatenation
+        concatenateModules: true,
+        // Better tree shaking
+        usedExports: true,
+        sideEffects: false,
+        // Minimize chunk overhead
+        runtimeChunk: 'single',
+        splitChunks: {
+          chunks: 'all',
+          maxInitialRequests: 25,
+          minSize: 20000,
+          cacheGroups: {
+            default: false,
+            vendors: false,
+            // Separate React framework (deferred load)
+            framework: {
+              name: 'framework',
+              chunks: 'all',
+              test: /[\\/]node_modules[\\/](react|react-dom|scheduler)[\\/]/,
+              priority: 40,
+              enforce: true,
+            },
+            // Next.js runtime
+            nextRuntime: {
+              name: 'next-runtime',
+              chunks: 'all',
+              test: /[\\/]node_modules[\\/]next[\\/]/,
+              priority: 39,
+              enforce: true,
+            },
+            // Common code
+            commons: {
+              name: 'commons',
+              minChunks: 2,
+              priority: 20,
+              reuseExistingChunk: true,
+            },
+          },
+        },
+      };
+
+      // Remove source maps in production
+      if (config.mode === 'production') {
+        config.devtool = false;
+      }
+    }
+    return config;
   },
 };
 
