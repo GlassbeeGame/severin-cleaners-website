@@ -1,9 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
   images: {
     formats: ['image/webp', 'image/avif'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920],
@@ -27,12 +24,11 @@ const nextConfig: NextConfig = {
     optimizePackageImports: ['@/components'],
     // Optimize client-side bundle
     optimizeCss: true,
-    // Use lighter React runtime
-    reactCompiler: false,
   },
   // Production-only optimizations
   productionBrowserSourceMaps: false,
-  swcMinify: true,
+  // Acknowledge we're using webpack configuration (silences Turbopack warning)
+  turbopack: {},
   // Aggressive code splitting and tree-shaking for TBT optimization
   webpack: (config, { isServer }) => {
     if (!isServer) {
