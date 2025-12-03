@@ -11,6 +11,7 @@
     "clean": "rm -rf .next"
   },
   "dependencies": {
+    "critters": "^0.0.23",
     "next": "15.5.3",
     "react": "19.1.0",
     "react-dom": "19.1.0"
