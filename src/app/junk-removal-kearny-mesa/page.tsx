@@ -110,7 +110,7 @@ export default function JunkRemovalKearnyMesaPage() {
   return (
     <>
       <SchemaMarkup schema={combinedSchema} />
-      <div className={`${inter.variable} font-sans antialiased`}>
+      <>
         <Header />
         <main>
           {/* Hero Section */}

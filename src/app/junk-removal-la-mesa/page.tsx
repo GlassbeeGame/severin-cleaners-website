@@ -115,7 +115,7 @@ export default function JunkRemovalLaMesaPage() {
   ];
 
   return (
-    <div className={`${inter.variable} font-sans`}>
+    <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
@@ -405,6 +405,7 @@ export default function JunkRemovalLaMesaPage() {
       </main>
 
       <Footer />
-    </div>
+
+    </>
   );
 }
