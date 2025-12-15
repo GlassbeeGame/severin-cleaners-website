@@ -114,7 +114,7 @@ export default function JunkRemovalCarmelValleyPage() {
   ];
 
   return (
-    <div className={`${inter.variable} font-sans`}>
+    <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}

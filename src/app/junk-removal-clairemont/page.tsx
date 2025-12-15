@@ -110,7 +110,7 @@ export default function JunkremovalclairemontPage() {
   return (
     <>
       <SchemaMarkup schema={combinedSchema} />
-      <div className={`${inter.variable} font-sans antialiased`}>
+      <>
         <Header />
         <main>
           {/* Hero Section */}
