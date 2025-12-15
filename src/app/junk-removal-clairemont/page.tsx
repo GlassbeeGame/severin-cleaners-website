@@ -9,7 +9,6 @@ import LocationPricingSection from "@/components/LocationPricingSection";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import OptimizedGradientHero from "@/components/OptimizedGradientHero";
-});
 
 export const metadata: Metadata = {
   title: 'Clairemont Junk Removal | Central San Diego Specialists | (619) 750-0114',
