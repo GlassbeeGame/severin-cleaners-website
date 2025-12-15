@@ -396,6 +396,6 @@ export default function JunkRemovalPacificBeachPage() {
       </main>
 
       <Footer />
-    </div>
+    </>
   );
 }

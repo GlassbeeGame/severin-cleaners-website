@@ -387,6 +387,6 @@ export default function JunkRemovalPointLomaPage() {
       </main>
 
       <Footer />
-    </div>
+    </>
   );
 }

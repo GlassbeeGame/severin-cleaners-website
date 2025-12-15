@@ -387,6 +387,6 @@ export default function JunkRemovalVistaPage() {
       </main>
 
       <Footer />
-    </div>
+    </>
   );
 }

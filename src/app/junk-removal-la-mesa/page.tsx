@@ -405,6 +405,6 @@ export default function JunkRemovalLaMesaPage() {
       </main>
 
       <Footer />
-    </div>
+    </>
   );
 }

@@ -384,6 +384,6 @@ export default function JunkRemovalSpringValleyPage() {
       </main>
 
       <Footer />
-    </div>
+    </>
   );
 }

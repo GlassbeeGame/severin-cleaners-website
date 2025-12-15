@@ -382,6 +382,6 @@ export default function JunkRemovalSanteePage() {
       </main>
 
       <Footer />
-    </div>
+    </>
   );
 }

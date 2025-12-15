@@ -382,6 +382,6 @@ export default function JunkRemovalLemonGrovePage() {
       </main>
 
       <Footer />
-    </div>
+    </>
   );
 }

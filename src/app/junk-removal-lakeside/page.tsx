@@ -382,6 +382,6 @@ export default function JunkRemovalLakesidePage() {
       </main>
 
       <Footer />
-    </div>
+    </>
   );
 }

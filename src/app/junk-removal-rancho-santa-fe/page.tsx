@@ -385,6 +385,6 @@ export default function JunkRemovalRanchoSantaFePage() {
       </main>
 
       <Footer />
-    </div>
+    </>
   );
 }

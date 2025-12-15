@@ -383,6 +383,6 @@ export default function JunkRemovalMiraMesaPage() {
       </main>
 
       <Footer />
-    </div>
+    </>
   );
 }

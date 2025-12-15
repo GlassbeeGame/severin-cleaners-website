@@ -383,6 +383,6 @@ export default function JunkRemovalPowayPage() {
       </main>
 
       <Footer />
-    </div>
+    </>
   );
 }

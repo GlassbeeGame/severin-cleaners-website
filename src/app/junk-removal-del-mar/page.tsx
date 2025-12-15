@@ -385,6 +385,6 @@ export default function JunkRemovalDelMarPage() {
       </main>
 
       <Footer />
-    </div>
+    </>
   );
 }
