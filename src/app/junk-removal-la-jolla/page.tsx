@@ -121,11 +121,6 @@ export default function JunkRemovalLaJollaPage() {
     { name: "Carmel Valley", slug: "junk-removal-carmel-valley" },
   ];
 
-  const combinedSchema = {
-    "@context": "https://schema.org",
-    "@graph": [serviceSchemaWithoutContext, breadcrumbSchemaWithoutContext, faqSchemaWithoutContext],
-  };
-
   return (
     <>
       <SchemaMarkup schema={combinedSchema} />

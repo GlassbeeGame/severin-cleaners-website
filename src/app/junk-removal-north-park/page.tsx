@@ -99,7 +99,8 @@ const northParkFAQs = [
   }
 ];
 
-const faqSchema = generateFAQSchema(northParkFAQs);
+export default function JunkRemovalNorthParkPage() {
+  const faqSchema = generateFAQSchema(northParkFAQs);
 
   // Remove @context from individual schemas since they'll be in @graph
   const { "@context": _serviceContext, ...serviceSchemaWithoutContext } = serviceSchema;
@@ -111,18 +112,12 @@ const faqSchema = generateFAQSchema(northParkFAQs);
     "@graph": [serviceSchemaWithoutContext, breadcrumbSchemaWithoutContext, faqSchemaWithoutContext],
   };
 
-export default function JunkRemovalNorthParkPage() {
   const nearbyLocations = [
     { name: "Hillcrest", slug: "junk-removal-hillcrest" },
     { name: "Kearny Mesa", slug: "junk-removal-kearny-mesa" },
     { name: "Clairemont", slug: "junk-removal-clairemont" },
     { name: "El Cajon", slug: "junk-removal-el-cajon" },
   ];
-
-  const combinedSchema = {
-    "@context": "https://schema.org",
-    "@graph": [serviceSchemaWithoutContext, breadcrumbSchemaWithoutContext, faqSchemaWithoutContext],
-  };
 
   return (
     <>
