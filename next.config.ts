@@ -29,27 +29,28 @@ const nextConfig: NextConfig = {
   productionBrowserSourceMaps: false,
   // Acknowledge we're using webpack configuration (silences Turbopack warning)
   turbopack: {},
-  // Aggressive code splitting and tree-shaking for TBT optimization
+  // Optimized code splitting for SEO and Googlebot crawlability
   webpack: (config, { isServer }) => {
     if (!isServer) {
-      // Minimize bundle size
+      // Balance bundle optimization with crawlability
       config.optimization = {
         ...config.optimization,
-        // Aggressive module concatenation
+        // Module concatenation for smaller bundles
         concatenateModules: true,
-        // Better tree shaking
+        // Tree shaking for dead code elimination
         usedExports: true,
         sideEffects: false,
-        // Minimize chunk overhead
+        // Single runtime chunk
         runtimeChunk: 'single',
         splitChunks: {
           chunks: 'all',
-          maxInitialRequests: 25,
+          // Reduced from 25 to 12 for better Googlebot compatibility
+          maxInitialRequests: 12,
           minSize: 20000,
           cacheGroups: {
             default: false,
             vendors: false,
-            // Separate React framework (deferred load)
+            // React framework bundle
             framework: {
               name: 'framework',
               chunks: 'all',
@@ -57,7 +58,7 @@ const nextConfig: NextConfig = {
               priority: 40,
               enforce: true,
             },
-            // Next.js runtime
+            // Next.js runtime bundle
             nextRuntime: {
               name: 'next-runtime',
               chunks: 'all',
@@ -65,7 +66,7 @@ const nextConfig: NextConfig = {
               priority: 39,
               enforce: true,
             },
-            // Common code
+            // Common shared code
             commons: {
               name: 'commons',
               minChunks: 2,

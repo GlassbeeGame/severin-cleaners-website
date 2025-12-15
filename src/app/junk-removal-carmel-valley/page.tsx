@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
@@ -8,12 +7,7 @@ import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
-
-const inter = Inter({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-inter",
-});
+import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
   title: "Junk Removal Carmel Valley | North County Premium Service | (619) 750-0114",

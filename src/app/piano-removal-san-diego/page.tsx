@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SchemaMarkup from "@/components/SchemaMarkup";
@@ -7,12 +6,7 @@ import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
-
-const inter = Inter({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-inter",
-});
+import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
   title: 'Piano Removal San Diego | Musical Instrument Specialists',
@@ -99,42 +93,13 @@ export default function PianoremovalsandiegoPage() {
   return (
     <>
       <SchemaMarkup schema={combinedSchema} />
-      <div className={`${inter.variable} font-sans antialiased`}>
-        <Header />
-        <main>
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-8">
-            <div className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-              ✓ Piano and musical instrument removal specialists
-            </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Piano Removal San Diego
-            </h1>
-            <div className="text-xl mb-6">
-              ⭐⭐⭐⭐⭐ 5.0 Rating • Piano Experts • Careful Handling Guaranteed
-            </div>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
-              <a
-                href="tel:6197500114"
-                className="btn btn-primary text-lg px-8 py-4"
-              >
-                📞 Call (619) 750-0114
-              </a>
-              <a
-                href="/contact"
-                className="btn btn-secondary text-lg px-8 py-4 hover:bg-orange-600 transition-colors duration-200"
-              >
-                Get Free Quote
-              </a>
-            </div>
-            <p className="text-lg">
-              ✓ Same-Day Service ✓ Licensed & Insured ✓ Local Specialists
-            </p>
-          </div>
-        </div>
-      </section>
+      <Header />
+      <main>
+        <OptimizedGradientHero
+          title="Piano Removal San Diego"
+          subtitle="⭐⭐⭐⭐⭐ 5.0 Rating • Piano Experts • Careful Handling Guaranteed"
+          description="✓ Same-Day Service ✓ Licensed & Insured ✓ Local Specialists"
+        />
 
       {/* Main Content - NEW 2-COLUMN LAYOUT */}
       <section className="py-12 bg-gray-50">
@@ -254,9 +219,8 @@ export default function PianoremovalsandiegoPage() {
 
       {/* Trust Signals Section */}
       <TrustSignalsSection locationName="Piano Removal" />
-        </main>
-        <Footer />
-      </div>
+      </main>
+      <Footer />
     </>
   );
 }

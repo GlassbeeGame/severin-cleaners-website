@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
@@ -9,12 +8,7 @@ import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
-
-const inter = Inter({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-inter",
-});
+import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
   title: "Construction Debris Removal San Diego | Contractor Hauling & Cleanup",
@@ -132,40 +126,13 @@ export default function ConstructionDebrisRemovalPage() {
   return (
     <>
       <SchemaMarkup schema={combinedSchema} />
-      <div className={`${inter.variable} font-sans antialiased`}>
-        <Header />
-
+      <Header />
       <main>
-        {/* Hero Section */}
-        <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center text-white">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Construction Debris Removal San Diego
-              </h1>
-              <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                Fast, Reliable Service for Contractors • Same-Day Available • Licensed & Insured
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href="tel:+16197500114"
-                  className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors"
-                >
-                  Call Now: (619) 750-0114
-                </a>
-                <a
-                  href="/contact"
-                  className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-bold transition-colors"
-                >
-                  Get Free Quote
-                </a>
-              </div>
-              <p className="mt-6 text-sm text-blue-100">
-                Keep Your Project on Schedule • Licensed & Insured • Professional Service
-              </p>
-            </div>
-          </div>
-        </section>
+        <OptimizedGradientHero
+          title="Construction Debris Removal San Diego"
+          subtitle="Fast, Reliable Service for Contractors • Same-Day Available • Licensed & Insured"
+          description="Keep Your Project on Schedule • Professional Crews • All Debris Types"
+        />
 
         {/* Main Content with Sidebar - 2-COLUMN LAYOUT */}
         <section className="py-12 bg-gray-50">
@@ -349,9 +316,7 @@ export default function ConstructionDebrisRemovalPage() {
           includeSchema={false}
         />
       </main>
-
-        <Footer />
-      </div>
+      <Footer />
     </>
   );
 }

@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
 import { generateFAQSchema } from "@/lib/schema";
+import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
   title: "Junk Removal Cost San Diego - Affordable Prices & Free Quotes",
@@ -91,37 +92,14 @@ const faqSchema = generateFAQSchema(costFAQs);
 export default function JunkRemovalCostPage() {
 
   return (
-    <div className="min-h-screen bg-background">
+    <>
       <Header />
       <main>
-        {/* Hero Section */}
-        <section className="bg-gradient-to-br from-blue-900 to-blue-700 py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center text-white">
-              <h1 className="text-5xl font-bold mb-6">
-                Junk Removal Cost San Diego
-                <span className="block text-blue-300 mt-2">Affordable Prices, Free Quotes & Transparent Service</span>
-              </h1>
-              <p className="text-xl mb-8 leading-relaxed">
-                No hidden fees, no surprise costs — just transparent, upfront pricing for all junk removal services.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href="tel:+16197500114"
-                  className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors"
-                >
-                  📞 Call (619) 750-0114 – Get a Free Estimate Today
-                </a>
-                <a
-                  href="#pricing"
-                  className="bg-white hover:bg-gray-100 text-blue-700 px-8 py-4 rounded-lg font-bold text-lg transition-colors"
-                >
-                  View Pricing Guide
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
+        <OptimizedGradientHero
+          title="Junk Removal Cost San Diego"
+          subtitle="Affordable Prices, Free Quotes & Transparent Service"
+          description="No hidden fees • Starting at $100 • Licensed & Insured"
+        />
 
         {/* Transparent Pricing Overview */}
         <section className="py-16 bg-white">
@@ -772,7 +750,7 @@ export default function JunkRemovalCostPage() {
         </section>
       </main>
       <Footer />
-    </div>
+    </>
   );
 }
 

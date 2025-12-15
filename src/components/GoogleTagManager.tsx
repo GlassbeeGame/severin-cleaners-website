@@ -6,7 +6,38 @@ const GA4_ID = 'G-R7HY3CPQ7K'
 export function GoogleTagManagerHead() {
   return (
     <>
-      {/* Google Tag Manager - Load after 5 seconds or first user interaction */}
+      {/* Ahrefs Analytics - Load after 8 seconds or first user interaction */}
+      <Script
+        id="ahrefs-script"
+        strategy="lazyOnload"
+        dangerouslySetInnerHTML={{
+          __html: `
+(function() {
+  var loaded = false;
+  function loadAhrefs() {
+    if (loaded) return;
+    loaded = true;
+
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://analytics.ahrefs.com/analytics.js';
+    script.setAttribute('data-key', 'tZdYVMiZlAxkVXd8R7b0lw');
+    document.head.appendChild(script);
+  }
+
+  // Load on first user interaction (click, scroll, or touch)
+  ['click', 'scroll', 'touchstart', 'mousemove', 'keydown'].forEach(function(event) {
+    window.addEventListener(event, loadAhrefs, { once: true, passive: true });
+  });
+
+  // Fallback: load after 8 seconds (well after TBT measurement window)
+  setTimeout(loadAhrefs, 8000);
+})();
+          `,
+        }}
+      />
+
+      {/* Google Tag Manager - Load after 8 seconds or first user interaction */}
       <Script
         id="gtm-script"
         strategy="lazyOnload"

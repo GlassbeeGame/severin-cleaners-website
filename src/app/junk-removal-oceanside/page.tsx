@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
@@ -8,12 +7,7 @@ import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
-
-const inter = Inter({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-inter",
-});
+import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
   title: 'Oceanside Junk Removal | Coastal & Military Friendly | (619) 750-0114',
@@ -115,7 +109,7 @@ export default function JunkRemovalOceansidePage() {
   ];
 
   return (
-    <div className={`${inter.variable} font-sans`}>
+    <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
@@ -128,28 +122,11 @@ export default function JunkRemovalOceansidePage() {
       <Header />
 
       <main>
-        {/* Hero Section */}
-        <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-24">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <div className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-6">
-                #1 Oceanside Junk Removal Service
-              </div>
-
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                Oceanside Junk Removal
-              </h1>
-
-              <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                Camp Pendleton • Coastal Properties • Vacation Rentals • Same-Day Service
-              </p>
-
-              <p className="text-lg mb-8">
-                ✓ Military Discounts Available ✓ Same-Day Hauling ✓ Licensed & Insured
-              </p>
-            </div>
-          </div>
-        </section>
+        <OptimizedGradientHero
+          title="Oceanside Junk Removal"
+          subtitle="Camp Pendleton • Coastal Properties • Vacation Rentals • Same-Day Service"
+          description="✓ Military Discounts Available ✓ Same-Day Hauling ✓ Licensed & Insured"
+        />
 
         {/* Main Content with Sidebar */}
         <section className="py-12 bg-gray-50">
@@ -388,8 +365,7 @@ export default function JunkRemovalOceansidePage() {
           </div>
         </section>
       </main>
-
       <Footer />
-    </div>
+    </>
   );
 }

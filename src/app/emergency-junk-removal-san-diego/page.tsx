@@ -8,6 +8,7 @@ import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
   title: "Emergency Junk Removal San Diego - Same Day & Last Minute Service",
@@ -127,37 +128,13 @@ export default function EmergencyJunkRemovalPage() {
   return (
     <>
       <SchemaMarkup schema={combinedSchema} />
-      <div className="min-h-screen bg-background">
-        <Header />
+      <Header />
       <main>
-        {/* Hero Section */}
-        <section className="bg-gradient-to-br from-blue-900 to-blue-700 py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center text-white">
-              <h1 className="text-5xl font-bold mb-6">
-                Emergency Junk Removal San Diego
-                <span className="block text-blue-300 mt-2">Same Day, Last Minute & Immediate Dispatch Service</span>
-              </h1>
-              <p className="text-xl mb-8 leading-relaxed">
-                Need urgent trash removal San Diego now? We provide <a href="/same-day-junk-removal-san-diego" className="text-blue-200 hover:text-white underline">same-day service</a> with immediate dispatch for emergency junk removal San Diego today! Emergency services include <a href="/commercial-junk-removal-san-diego" className="text-blue-200 hover:text-white underline">commercial junk removal</a>, <a href="/hoarding-cleanup-san-diego" className="text-blue-200 hover:text-white underline">hoarding cleanup</a>, <a href="/foreclosure-eviction-cleanout-san-diego" className="text-blue-200 hover:text-white underline">foreclosure/eviction cleanout</a>, and <a href="/construction-debris-removal-san-diego" className="text-blue-200 hover:text-white underline">construction debris</a> removal throughout San Diego County with immediate dispatch and professional crews.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href="tel:+16197500114"
-                  className="bg-yellow-500 hover:bg-yellow-600 text-black px-8 py-4 rounded-lg font-bold text-lg transition-colors"
-                >
-                  🚨 CALL NOW (619) 750-0114 - EMERGENCY SERVICE
-                </a>
-                <a
-                  href="#process"
-                  className="bg-white hover:bg-gray-100 text-blue-700 px-8 py-4 rounded-lg font-bold text-lg transition-colors"
-                >
-                  How It Works
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
+        <OptimizedGradientHero
+          title="Emergency Junk Removal San Diego"
+          subtitle="Same Day, Last Minute & Immediate Dispatch Service Available Now"
+          description="🚨 Urgent Service • Weekend Available • Licensed & Insured"
+        />
 
         {/* Main Content with Sidebar - 2-COLUMN LAYOUT */}
         <section className="py-12 bg-gray-50">
@@ -545,7 +522,6 @@ export default function EmergencyJunkRemovalPage() {
         </section>
       </main>
       <Footer />
-      </div>
     </>
   );
 }

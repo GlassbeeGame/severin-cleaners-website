@@ -1,5 +1,3 @@
-'use client';
-
 import Image from 'next/image';
 import { getReviewCount, getRating } from '@/config/reviews';
 
@@ -15,10 +13,12 @@ export default function Hero() {
           alt="San Diego junk removal service background"
           fill
           priority
-          quality={75}
+          quality={60}
           className="object-cover"
-          sizes="100vw"
+          sizes="(max-width: 640px) 640px, (max-width: 1024px) 1024px, 1920px"
           fetchPriority="high"
+          placeholder="blur"
+          blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCwAB//2Q=="
         />
         <div className="gradient-overlay"></div>
       </div>
@@ -28,7 +28,7 @@ export default function Hero() {
 
           {/* Reviews */}
           <div className="flex items-center justify-center gap-2 mb-6 md:mb-8">
-            <div className="flex text-yellow-400 text-lg md:text-xl lg:text-2xl">
+            <div className="flex text-yellow-400 text-lg md:text-xl lg:text-2xl" aria-label={`${rating} star rating`}>
               {'★'.repeat(5)}
             </div>
             <span className="text-white text-sm md:text-base lg:text-lg font-medium">{rating} • {reviewCount} Reviews on Google</span>

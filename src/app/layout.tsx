@@ -86,9 +86,6 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://analytics.ahrefs.com" />
 
-        {/* Ahrefs Analytics */}
-        <script src="https://analytics.ahrefs.com/analytics.js" data-key="tZdYVMiZlAxkVXd8R7b0lw" async></script>
-
         {/* Favicons */}
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/svg+xml" href="/icon.svg" />

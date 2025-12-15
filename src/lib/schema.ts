@@ -488,7 +488,7 @@ export function generateOrganizationSchema() {
     },
     "description": "Professional junk removal and cleanout services serving San Diego County. Residential and commercial hauling, same-day service, eco-friendly disposal.",
     "telephone": "+1-619-750-0114",
-    "email": "contact@severincleaners.com",
+    "email": "severincleaners@gmail.com",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "8900 Grossmont Blvd, Suite 1",
@@ -524,7 +524,7 @@ export function generateContactPageSchema() {
       "https://severincleaners.com/optimized/commercial.jpg"
     ],
     "telephone": "+1-619-750-0114",
-    "email": "contact@severincleaners.com",
+    "email": "severincleaners@gmail.com",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "8900 Grossmont Blvd, Suite 1",

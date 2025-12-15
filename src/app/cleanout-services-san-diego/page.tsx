@@ -8,6 +8,7 @@ import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
+import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
   title: "Cleanout Services San Diego | Property & Garage",
@@ -127,37 +128,13 @@ export default function CleanoutServicesPage() {
   return (
     <>
       <SchemaMarkup schema={combinedSchema} />
-      <div className="min-h-screen bg-background">
-        <Header />
+      <Header />
       <main>
-        {/* Hero Section */}
-        <section className="bg-gradient-to-br from-blue-900 to-blue-700 py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center text-white">
-              <h1 className="text-5xl font-bold mb-6">
-                Cleanout Services San Diego
-                <span className="block text-blue-300 mt-2">Professional Junk Hauling for Every Space</span>
-              </h1>
-              <p className="text-xl mb-8 leading-relaxed">
-                We handle all types of cleanout projects in San Diego. Garages, attics, basements, storage units, and full properties. Same-day service available with transparent pricing. Trusted by homeowners, landlords, and real estate pros.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href="tel:+16197500114"
-                  className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors"
-                >
-                  📞 Call (619) 750-0114 - Free Quote
-                </a>
-                <a
-                  href="#pricing"
-                  className="bg-white hover:bg-gray-100 text-blue-700 px-8 py-4 rounded-lg font-bold text-lg transition-colors"
-                >
-                  View Pricing
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
+        <OptimizedGradientHero
+          title="Cleanout Services San Diego"
+          subtitle="Professional Junk Hauling for Every Space • Garages • Attics • Basements • Storage"
+          description="Same-Day Available • Transparent Pricing • Licensed & Insured"
+        />
 
         {/* Main Content with Sidebar - 2-COLUMN LAYOUT */}
         <section className="py-12 bg-gray-50">
@@ -312,7 +289,6 @@ export default function CleanoutServicesPage() {
         />
       </main>
       <Footer />
-      </div>
     </>
   );
 }

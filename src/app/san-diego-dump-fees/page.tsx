@@ -1,17 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
 import { generateFAQSchema } from "@/lib/schema";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateBreadcrumbSchema, generateLocalBusinessSchema } from "@/lib/schema";
-
-const inter = Inter({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-inter",
-});
+import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
   title: "San Diego Dump Fees 2025 | Landfill Prices & Free Drop-Off Guide",
@@ -291,40 +285,13 @@ export default function SanDiegoDumpFeesPage() {
   return (
     <>
       <SchemaMarkup schema={combinedSchema} />
-      <div className={`${inter.variable} font-sans antialiased`}>
-        <Header />
-
+      <Header />
       <main>
-        {/* Hero Section */}
-        <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center text-white">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                San Diego Landfill Dump Fees & Dump Prices (2025 Guide)
-              </h1>
-              <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                Current costs, what each site takes, and how to avoid surprise charges.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href="tel:+16197500114"
-                  className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors"
-                >
-                  Call Now: (619) 750-0114
-                </a>
-                <a
-                  href="/contact"
-                  className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-bold transition-colors"
-                >
-                  Get Free Quote
-                </a>
-              </div>
-              <p className="mt-6 text-sm text-blue-100">
-                We Handle Loading, Hauling & Disposal • Same-Day Available • Licensed & Insured
-              </p>
-            </div>
-          </div>
-        </section>
+        <OptimizedGradientHero
+          title="San Diego Landfill Dump Fees & Dump Prices (2025 Guide)"
+          subtitle="Current costs, what each site takes, and how to avoid surprise charges."
+          description="We Handle Loading, Hauling & Disposal • Same-Day Available • Licensed & Insured"
+        />
 
         {/* Quick Snapshot */}
         <section className="py-16 bg-gray-50">
@@ -961,9 +928,7 @@ export default function SanDiegoDumpFeesPage() {
           </div>
         </section>
       </main>
-
-        <Footer />
-      </div>
+      <Footer />
     </>
   );
 }
