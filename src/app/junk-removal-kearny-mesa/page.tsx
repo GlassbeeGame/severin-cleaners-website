@@ -110,8 +110,7 @@ export default function JunkRemovalKearnyMesaPage() {
   return (
     <>
       <SchemaMarkup schema={combinedSchema} />
-      <>
-        <Header />
+      <Header />
         <main>
           {/* Hero Section */}
           <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
@@ -436,9 +435,8 @@ export default function JunkRemovalKearnyMesaPage() {
             </div>
           </section>
 
-        </main>
-        <Footer />
-      </div>
+      </main>
+      <Footer />
     </>
   );
 }

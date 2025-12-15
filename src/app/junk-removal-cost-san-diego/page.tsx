@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
 import { generateFAQSchema } from "@/lib/schema";
+import SchemaMarkup from "@/components/SchemaMarkup";
 import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
@@ -88,6 +89,11 @@ const costFAQs = [
   ];
 
 const faqSchema = generateFAQSchema(costFAQs);
+
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema],
+  };
 
 export default function JunkRemovalCostPage() {
 

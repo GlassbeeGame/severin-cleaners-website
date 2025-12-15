@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
 import { generateFAQSchema } from "@/lib/schema";
+import SchemaMarkup from "@/components/SchemaMarkup";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -105,6 +106,11 @@ export default function JunkRemovalVistaPage() {
 
   const faqSchema = generateFAQSchema(vistaFAQs);
 
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema],
+  };
+
   const nearbyLocations = [
     { name: "Oceanside", slug: "junk-removal-oceanside" },
     { name: "Escondido", slug: "junk-removal-escondido" },
@@ -114,14 +120,7 @@ export default function JunkRemovalVistaPage() {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-      />
+      <SchemaMarkup schema={combinedSchema} />
 
       <Header />
 

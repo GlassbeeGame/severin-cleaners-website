@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
 import { generateFAQSchema } from "@/lib/schema";
+import SchemaMarkup from "@/components/SchemaMarkup";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
@@ -106,6 +107,11 @@ export default function JunkRemovalCarmelValleyPage() {
 
   const faqSchema = generateFAQSchema(carmelValleyFAQs);
 
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema],
+  };
+
   const nearbyLocations = [
     { name: "Del Mar", slug: "junk-removal-del-mar" },
     { name: "Rancho Santa Fe", slug: "junk-removal-rancho-santa-fe" },
@@ -115,14 +121,7 @@ export default function JunkRemovalCarmelValleyPage() {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-      />
+      <SchemaMarkup schema={combinedSchema} />
 
       <Header />
 

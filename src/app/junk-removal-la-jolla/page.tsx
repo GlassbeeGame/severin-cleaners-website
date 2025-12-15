@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
 import { generateFAQSchema } from "@/lib/schema";
+import SchemaMarkup from "@/components/SchemaMarkup";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
@@ -103,6 +104,11 @@ const laJollaFAQs = [
 export default function JunkRemovalLaJollaPage() {
   const faqSchema = generateFAQSchema(laJollaFAQs);
 
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema],
+  };
+
   const nearbyLocations = [
     { name: "Pacific Beach", slug: "junk-removal-pacific-beach" },
     { name: "Del Mar", slug: "junk-removal-del-mar" },
@@ -110,19 +116,16 @@ export default function JunkRemovalLaJollaPage() {
     { name: "Carmel Valley", slug: "junk-removal-carmel-valley" },
   ];
 
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema],
+  };
+
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@graph": [serviceSchema, breadcrumbSchema, faqSchema],
-          }),
-        }}
-      />
-      <div className="min-h-screen bg-background">
-        <Header />
+      <SchemaMarkup schema={combinedSchema} />
+
+      <Header />
         <main>
           {/* Hero Section */}
           <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 py-20">
@@ -596,7 +599,6 @@ export default function JunkRemovalLaJollaPage() {
         </main>
 
         <Footer />
-      </div>
     </>
   );
 }

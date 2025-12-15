@@ -110,7 +110,7 @@ export default function JunkremovalclairemontPage() {
   return (
     <>
       <SchemaMarkup schema={combinedSchema} />
-      <>
+
         <Header />
         <main>
           {/* Hero Section */}
@@ -436,7 +436,7 @@ export default function JunkremovalclairemontPage() {
 
         </main>
         <Footer />
-      </div>
+
     </>
   );
 }
