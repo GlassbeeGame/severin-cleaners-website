@@ -387,6 +387,6 @@ export default function JunkRemovalCarmelValleyPage() {
       </main>
 
       <Footer />
-    </div>
+    </>
   );
 }
