@@ -104,9 +104,14 @@ const laJollaFAQs = [
 export default function JunkRemovalLaJollaPage() {
   const faqSchema = generateFAQSchema(laJollaFAQs);
 
+  // Remove @context from individual schemas since they'll be in @graph
+  const { "@context": _serviceContext, ...serviceSchemaWithoutContext } = serviceSchema;
+  const { "@context": _breadcrumbContext, ...breadcrumbSchemaWithoutContext } = breadcrumbSchema;
+  const { "@context": _faqContext, ...faqSchemaWithoutContext } = faqSchema;
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema, faqSchema],
+    "@graph": [serviceSchemaWithoutContext, breadcrumbSchemaWithoutContext, faqSchemaWithoutContext],
   };
 
   const nearbyLocations = [
@@ -118,7 +123,7 @@ export default function JunkRemovalLaJollaPage() {
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema, faqSchema],
+    "@graph": [serviceSchemaWithoutContext, breadcrumbSchemaWithoutContext, faqSchemaWithoutContext],
   };
 
   return (

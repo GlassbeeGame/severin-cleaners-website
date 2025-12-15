@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
-import { generateFAQSchema } from "@/lib/schema";
+import { generateFAQSchema, generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
@@ -88,17 +88,36 @@ const costFAQs = [
     }
   ];
 
-const faqSchema = generateFAQSchema(costFAQs);
+export default function JunkRemovalCostPage() {
+  const serviceSchema = generateLocationServiceSchema({
+    locationName: "San Diego",
+    serviceName: "Junk Removal",
+    description: "Transparent junk removal cost San Diego with free quotes! Compare our affordable prices. Licensed & insured.",
+    url: "https://severincleaners.com/junk-removal-cost-san-diego",
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Services", url: "https://severincleaners.com/services" },
+    { name: "Junk Removal Cost", url: "https://severincleaners.com/junk-removal-cost-san-diego" },
+  ]);
+
+  const faqSchema = generateFAQSchema(costFAQs);
+
+  // Remove @context from individual schemas since they'll be in @graph
+  const { "@context": _serviceContext, ...serviceSchemaWithoutContext } = serviceSchema;
+  const { "@context": _breadcrumbContext, ...breadcrumbSchemaWithoutContext } = breadcrumbSchema;
+  const { "@context": _faqContext, ...faqSchemaWithoutContext } = faqSchema;
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema, faqSchema],
+    "@graph": [serviceSchemaWithoutContext, breadcrumbSchemaWithoutContext, faqSchemaWithoutContext],
   };
-
-export default function JunkRemovalCostPage() {
 
   return (
     <>
+      <SchemaMarkup schema={combinedSchema} />
+
       <Header />
       <main>
         <OptimizedGradientHero

@@ -107,9 +107,14 @@ export default function JunkRemovalCarmelValleyPage() {
 
   const faqSchema = generateFAQSchema(carmelValleyFAQs);
 
+  // Remove @context from individual schemas since they'll be in @graph
+  const { "@context": _serviceContext, ...serviceSchemaWithoutContext } = serviceSchema;
+  const { "@context": _breadcrumbContext, ...breadcrumbSchemaWithoutContext } = breadcrumbSchema;
+  const { "@context": _faqContext, ...faqSchemaWithoutContext } = faqSchema;
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema, faqSchema],
+    "@graph": [serviceSchemaWithoutContext, breadcrumbSchemaWithoutContext, faqSchemaWithoutContext],
   };
 
   const nearbyLocations = [
