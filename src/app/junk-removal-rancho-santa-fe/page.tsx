@@ -112,7 +112,7 @@ export default function JunkRemovalRanchoSantaFePage() {
   ];
 
   return (
-    <>
+    <div className={`${inter.variable} font-sans`}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
@@ -385,6 +385,6 @@ export default function JunkRemovalRanchoSantaFePage() {
       </main>
 
       <Footer />
-    </>
+    </div>
   );
 }

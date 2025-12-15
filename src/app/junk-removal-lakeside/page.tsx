@@ -109,7 +109,7 @@ export default function JunkRemovalLakesidePage() {
   ];
 
   return (
-    <>
+    <div className={`${inter.variable} font-sans`}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
@@ -382,6 +382,6 @@ export default function JunkRemovalLakesidePage() {
       </main>
 
       <Footer />
-    </>
+    </div>
   );
 }

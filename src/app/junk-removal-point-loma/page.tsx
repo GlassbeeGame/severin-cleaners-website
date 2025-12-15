@@ -109,7 +109,7 @@ export default function JunkRemovalPointLomaPage() {
   ];
 
   return (
-    <>
+    <div className={`${inter.variable} font-sans`}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
@@ -387,6 +387,6 @@ export default function JunkRemovalPointLomaPage() {
       </main>
 
       <Footer />
-    </>
+    </div>
   );
 }
