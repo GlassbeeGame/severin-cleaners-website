@@ -89,12 +89,16 @@ const oceansideFAQs = [
 ];
 
 export default function JunkRemovalOceansidePage() {
-  const serviceSchema = generateLocationServiceSchema({
-    locationName: "Oceanside",
-    serviceName: "Junk Removal",
-    description: "Professional Oceanside junk removal for Camp Pendleton, coastal properties, vacation rentals. Military discounts available. North County experts.",
-    url: "https://severincleaners.com/junk-removal-oceanside",
-  });
+  const serviceSchema = {
+    "@type": "Service",
+    "name": "Junk Removal in Oceanside",
+    "description": "Professional Oceanside junk removal for Camp Pendleton, coastal properties, vacation rentals. Military discounts available. North County experts.",
+    "url": "https://severincleaners.com/junk-removal-oceanside",
+    "serviceType": "Junk Removal",
+    "provider": {
+      "@id": "https://severincleaners.com/junk-removal-oceanside#business"
+    }
+  };
 
   // Enhanced LocalBusiness schema for Oceanside
   const localBusinessSchema = {
@@ -191,7 +195,13 @@ export default function JunkRemovalOceansidePage() {
           }
         }
       ]
-    }
+    },
+    "sameAs": [
+      "https://www.facebook.com/severinhauling",
+      "https://www.instagram.com/severinhauling/",
+      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
+    ]
   };
 
   const breadcrumbSchema = generateBreadcrumbSchema([
@@ -204,7 +214,7 @@ export default function JunkRemovalOceansidePage() {
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, localBusinessSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const nearbyLocations = [
