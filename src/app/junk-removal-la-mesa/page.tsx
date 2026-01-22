@@ -97,13 +97,6 @@ const laMesaFAQs = [
 ];
 
 export default function JunkRemovalLaMesaPage() {
-  const serviceSchema = generateLocationServiceSchema({
-    locationName: "La Mesa",
-    serviceName: "Junk Removal",
-    description: "Affordable junk removal in La Mesa CA. Same-day hauling, transparent pricing, and a faster alternative to the La Mesa dump. Serving Mount Helix, Fletcher Hills, La Mesa Village, Grossmont Center, and all East County neighborhoods.",
-    url: "https://severincleaners.com/junk-removal-la-mesa",
-  });
-
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://severincleaners.com" },
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
@@ -111,6 +104,17 @@ export default function JunkRemovalLaMesaPage() {
   ]);
 
   const faqSchema = generateFAQSchema(laMesaFAQs);
+
+  const serviceSchema = {
+    "@type": "Service",
+    "name": "Junk Removal in La Mesa",
+    "description": "Affordable junk removal in La Mesa CA. Same-day hauling, transparent pricing, and a faster alternative to the La Mesa dump. Serving Mount Helix, Fletcher Hills, La Mesa Village, Grossmont Center, and all East County neighborhoods.",
+    "url": "https://severincleaners.com/junk-removal-la-mesa",
+    "serviceType": "Junk Removal",
+    "provider": {
+      "@id": "https://severincleaners.com/junk-removal-la-mesa#business"
+    }
+  };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
@@ -179,7 +183,7 @@ export default function JunkRemovalLaMesaPage() {
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, localBusinessSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const nearbyLocations = [

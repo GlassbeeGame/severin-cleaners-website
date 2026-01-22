@@ -11,23 +11,17 @@ import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/s
 import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
-  title: "Vista Junk Removal | North County Reliable Service | (619) 750-0114",
-  description: "Vista junk removal Shadowridge, Rancho Buena Vista. Affordable North County, breweries, business parks, family homes. (619) 750-0114",
+  title: "Junk Removal Vista | Same-Day Service | (619) 750-0114",
+  description: "Professional junk removal vista service for Shadowridge, Downtown Vista, and Rancho Buena Vista. Expert junk hauling vista ca team serving all North County. Same-day service, licensed & insured. Call (619) 750-0114",
   keywords: [
-    "Vista junk removal",
-    "junk hauling Vista",
-    "junk pickup Vista",
-    "trash removal Vista",
-    "Vista San Diego junk removal",
-    "Shadowridge junk removal",
-    "Downtown Vista junk hauling",
-    "Vista Business Park cleanout",
-    "Rancho Buena Vista junk removal",
-    "Buena Creek junk hauling"
+    "junk removal vista",
+    "junk hauling vista ca",
+    "vista junk removal",
+    "same day junk removal vista"
   ],
   openGraph: {
-    title: "Vista Junk Removal | Same-Day Hauling | Licensed & Insured",
-    description: "Professional Vista junk removal for families, apartments & businesses. Same-day junk hauling Vista, eco-friendly disposal. Serving all Vista neighborhoods including Shadowridge and Rancho Buena Vista.",
+    title: "Junk Removal Vista | Same-Day Hauling | North County Experts",
+    description: "Professional junk removal vista service for families, apartments & businesses. Expert junk hauling vista ca team serving Shadowridge, Downtown Vista, Rancho Buena Vista. Same-day service. Call (619) 750-0114",
     url: "https://severincleaners.com/junk-removal-vista",
     siteName: 'Severin Cleaners',
     images: [{
@@ -41,8 +35,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Vista Junk Removal | Same-Day Hauling | Licensed & Insured",
-    description: "Professional Vista junk removal for families, apartments & businesses. Same-day junk hauling Vista, eco-friendly disposal. Serving all Vista neighborhoods including Shadowridge and Rancho Buena Vista.",
+    title: "Junk Removal Vista | Same-Day Hauling | North County Experts",
+    description: "Professional junk removal vista service for families, apartments & businesses. Expert junk hauling vista ca team serving Shadowridge, Downtown Vista, Rancho Buena Vista. Same-day service. Call (619) 750-0114",
     images: ['https://severincleaners.com/og-image.jpg'],
   },
   alternates: {
@@ -69,35 +63,40 @@ export const metadata: Metadata = {
 
 const vistaFAQs = [
   {
-    question: "How much does junk removal cost in Vista?",
-    answer: "Our Vista junk removal pricing is transparent and upfront with no hidden fees. Here's our standard pricing structure:"
+    question: "How much does junk removal Vista cost?",
+    answer: "Our junk removal vista pricing is transparent and volume-based with no hidden fees. Single item removal starts at $100, perfect for one couch, mattress, or appliance disposal. Quarter-load service costs $249 for small cleanouts like a closet, bathroom, or partial garage corner. Half-load runs $349 for bedroom furniture sets, garage sections, or apartment move-out cleanouts. Three-quarter load is $429 for larger projects like full garage cleanouts or multi-room furniture removal. Full-load service tops out at $495 for complete estate cleanouts, business liquidations, or whole-home junk removal throughout Vista neighborhoods. All prices include labor, hauling, disposal fees, and eco-friendly sorting with no surcharges for downtown access, Shadowridge hillside properties, or Business Park after-hours service. We provide free estimates over the phone and confirm final pricing on-site before starting work. Our North County location means faster response times and competitive pricing compared to companies traveling from central San Diego or coastal areas."
   },
   {
     question: "Do you handle apartment and condo junk hauling in Vista?",
-    answer: "Yes! We specialize in apartment and condo junk pickup Vista services, especially in Downtown Vista Village and Shadowridge complexes. Our team navigates stairs, elevators, and tight spaces with care. We coordinate with property managers and respect HOA guidelines for all trash removal Vista projects."
+    answer: "Yes, our junk hauling vista ca team specializes in apartment and condo services throughout Downtown Vista Village, Shadowridge complexes, and all North County multi-family properties. We navigate narrow hallways, tight staircases, and elevator coordination with professional care, protecting walls, doors, and common areas throughout the removal process. Our crew coordinates with property managers to schedule around move-in/move-out timelines, respects HOA guidelines for designated dumpster areas and noise restrictions, and works efficiently to minimize disruption to other residents. Vista's mix of vintage downtown walk-ups near the brewery district and modern elevator buildings in Shadowridge requires different approaches, and our team has experience with both. We handle tenant turnovers, estate transitions, and personal downsizing projects in apartments and condos of all sizes throughout the 92081, 92083, and 92084 zip codes. Whether you're in a compact downtown studio or a spacious Shadowridge townhome, our junk removal vista service adapts to your property's unique access requirements."
   },
   {
-    question: "Can you provide same-day junk pickup in Vista?",
-    answer: "Absolutely! We offer same-day Vista junk removal service 7 days a week. Our local team can often arrive within 2-4 hours of your call for emergency cleanouts. Whether you need urgent help for moving deadlines or unexpected situations, our same-day junk hauling Vista service is ready to help."
+    question: "Can you provide same-day junk removal Vista service?",
+    answer: "Absolutely, our junk removal vista team offers same-day service 7 days a week throughout North County when you call before noon. Our local dispatch can often arrive within 2-4 hours of your call for emergency cleanouts, moving deadlines, rental property turnovers, or unexpected situations requiring immediate junk removal. Same-day junk hauling vista ca service is especially valuable for time-sensitive needs like real estate closing cleanouts with tight escrow deadlines, rental property compliance issues with HOA or landlord deadlines, estate sale aftermath requiring immediate property clearing, or business closures needing rapid space turnover for new tenants. We monitor Vista Village Drive and SR-78 traffic conditions to provide accurate arrival windows and coordinate scheduling around North County commute patterns. Even during busy weekends when many Vista families tackle home projects, our expanded crew capacity ensures same-day availability throughout Shadowridge, Rancho Buena Vista, Downtown Vista, and all surrounding neighborhoods. Call (619) 750-0114 before noon for same-day service."
   },
   {
     question: "Do you work with Vista businesses and warehouses?",
-    answer: "Yes, we provide comprehensive commercial Vista San Diego junk removal for businesses throughout Vista Business Park, downtown breweries, and warehouse facilities. Our services include office cleanouts, retail space clearing, and industrial equipment removal. We work with contractors, property managers, and business owners on projects of all sizes."
+    answer: "Yes, we provide comprehensive commercial junk hauling vista ca services for businesses throughout Vista Business Park, downtown brewery district, retail centers, and warehouse facilities across all North County commercial zones. Our services include office furniture and cubicle removal during relocations or downsizing, brewery and restaurant equipment disposal including industrial appliances and fixtures, retail space clearing for tenant improvements and remodeling projects, warehouse inventory liquidation and obsolete storage rack removal, and construction debris removal from commercial renovation projects. We work flexible schedules to minimize disruption—offering after-hours service (evenings and weekends) for active businesses, early morning service before business hours for downtown retail properties, and coordinated scheduling around production timelines for warehouse and industrial facilities. Our team understands Vista's commercial landscape, from compact downtown brewery spaces with limited loading access to expansive Business Park warehouses with dock access and forklift coordination. We're licensed, insured, and experienced in commercial junk removal throughout North County's diverse business environment."
   },
   {
-    question: "Are your junk removal services eco-friendly in North County?",
-    answer: "Absolutely. Our Vista junk removal approach prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations."
+    question: "Are your junk removal Vista services eco-friendly?",
+    answer: "Yes, eco-friendly disposal is central to our junk removal vista approach throughout North County. We sort every load to maximize recycling and donation opportunities, significantly reducing what goes to local landfills or transfer stations. Usable furniture, working appliances, and household goods in good condition are donated to North County charities including Goodwill, Salvation Army, local churches, and family resource centers serving Vista residents. Metal items—appliances, bed frames, scrap metal—go to San Diego recycling facilities that process materials responsibly and recover valuable metals. Mattresses and box springs are taken to specialized recycling centers that break them down into foam, fabric, and metal components rather than landfilling them whole. Electronics receive certified e-waste recycling with proper handling of hazardous materials including batteries, mercury, and circuit boards per California regulations. Wood debris and yard waste go to composting facilities when possible, and construction materials are sorted for recycling or proper disposal. As a San Diego County service provider, we're committed to responsible disposal practices that benefit Vista's North County community and reduce environmental impact throughout the region."
+  },
+  {
+    question: "What areas of Vista do you serve?",
+    answer: "Our junk removal vista service covers all neighborhoods throughout Vista and surrounding North County communities. We serve Downtown Vista Village along Main Street and Broadway with its historic buildings, craft breweries, and mixed-use properties; Shadowridge hillside community with golf course estates and modern family homes; Rancho Buena Vista with established family neighborhoods and larger lot properties; Buena Creek northern residential area near schools and parks; Vista Business Park commercial and industrial corridor off Sycamore Avenue; Vista Village Drive central corridor with retail centers and apartments; Brengle Terrace park area and surrounding established neighborhoods; and North Vista newer developments near the Oceanside boundary. We also serve all three Vista zip codes—92081 (central Vista including downtown and Business Park), 92083 (eastern Vista including Shadowridge), and 92084 (western and southern Vista areas)—with the same reliable, professional junk hauling vista ca service regardless of neighborhood or property type. Our North County positioning allows us to efficiently serve Vista along with neighboring communities like Oceanside, Escondido, San Marcos, and Carlsbad as natural extensions of our service area."
+  },
+  {
+    question: "Do you offer free estimates for Vista junk removal?",
+    answer: "Yes, we provide free, no-obligation estimates for all junk removal vista jobs throughout North County. You can get an initial estimate over the phone by describing what needs to be removed—we'll provide a price range based on estimated volume using our standard quarter-load, half-load, three-quarter, and full-load pricing structure. For larger or complex projects like complete estate cleanouts, multi-unit apartment property turnovers, warehouse liquidations, or commercial building clearances, we offer free on-site estimates where our team visits your Vista property to assess items, evaluate access challenges, and provide exact pricing. On-site estimates are especially helpful for Shadowridge hillside properties with access considerations, downtown brewery or retail spaces requiring after-hours coordination, Business Park warehouses with specialized equipment or materials, or accumulations spread across multiple rooms, floors, or storage areas. During same-day service calls, we provide final pricing upon arrival before starting any work—you approve the quote before we touch anything. Our transparent volume-based pricing includes all labor, hauling, disposal fees, and eco-friendly sorting with no hidden charges for stairs, elevators, downtown access, hillside properties, or distance. Call (619) 750-0114 for your free estimate."
+  },
+  {
+    question: "Can you remove furniture and appliances in Vista?",
+    answer: "Yes, furniture and appliance removal is one of our primary junk hauling vista ca services throughout North County. We handle all types of furniture including sofas, couches, sectionals, recliners, loveseats, dining room tables and chairs, bedroom furniture sets, mattresses and box springs, dressers and armoires, office desks and filing cabinets, entertainment centers and TV stands, patio furniture and outdoor equipment, and specialized items like pianos, pool tables, and exercise equipment. For appliances, we remove refrigerators, freezers, stand-alone freezers, washers, dryers, dishwashers, stoves, ovens, ranges, microwaves, water heaters, air conditioning units, and commercial-grade appliances with proper handling of refrigerants and hazardous materials per California environmental regulations. Vista's diverse property types—from compact downtown apartments to spacious Shadowridge family homes to Business Park commercial spaces—create varied furniture and appliance removal needs, and we handle them all with equal professionalism. We navigate narrow apartment building hallways and staircases downtown, manage Shadowridge hillside home access with winding streets, coordinate elevator reservations for multi-story buildings, and handle commercial dock access at Business Park warehouses. All furniture in good condition is donated to North County charities, and appliances go to certified recycling facilities for environmentally responsible disposal."
   }
 ];
 
 export default function JunkRemovalVistaPage() {
-  const serviceSchema = generateLocationServiceSchema({
-    locationName: "Vista",
-    serviceName: "Junk Removal",
-    description: "Professional Vista junk removal for families, apartments & businesses. Same-day junk hauling Vista, eco-friendly disposal. Serving Shadowridge, Downtown Vista Village, Rancho Buena Vista, Buena Creek.",
-    url: "https://severincleaners.com/junk-removal-vista",
-  });
-
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://severincleaners.com" },
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
@@ -105,6 +104,17 @@ export default function JunkRemovalVistaPage() {
   ]);
 
   const faqSchema = generateFAQSchema(vistaFAQs);
+
+  const serviceSchema = {
+    "@type": "Service",
+    "name": "Junk Removal in Vista",
+    "description": "Professional junk removal vista service for families, apartments & businesses. Same-day junk hauling vista ca, eco-friendly disposal. Serving Shadowridge, Downtown Vista Village, Rancho Buena Vista, Buena Creek.",
+    "url": "https://severincleaners.com/junk-removal-vista",
+    "serviceType": "Junk Removal",
+    "provider": {
+      "@id": "https://severincleaners.com/junk-removal-vista#business"
+    }
+  };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
@@ -162,12 +172,18 @@ export default function JunkRemovalVistaPage() {
       "reviewCount": "27",
       "bestRating": "5",
       "worstRating": "1"
-    }
+    },
+    "sameAs": [
+      "https://www.facebook.com/severinhauling",
+      "https://www.instagram.com/severinhauling/",
+      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
+    ]
   };
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, localBusinessSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const nearbyLocations = [
@@ -193,7 +209,7 @@ export default function JunkRemovalVistaPage() {
               </div>
 
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                Vista Junk Removal
+                Junk Removal Vista
               </h1>
 
               <p className="text-xl md:text-2xl mb-8 text-blue-100">

@@ -101,12 +101,16 @@ const escondidoFAQs = [
   ];
 
 export default function JunkRemovalEscondidoPage() {
-  const serviceSchema = generateLocationServiceSchema({
-    locationName: "Escondido",
-    serviceName: "Junk Removal",
-    description: "Professional Escondido junk removal services for residential and commercial properties. Fast, reliable, eco-friendly disposal with same-day service available.",
-    url: "https://severincleaners.com/junk-removal-escondido",
-  });
+  const serviceSchema = {
+    "@type": "Service",
+    "name": "Junk Removal in Escondido",
+    "description": "Professional Escondido junk removal services for residential and commercial properties. Fast, reliable, eco-friendly disposal with same-day service available.",
+    "url": "https://severincleaners.com/junk-removal-escondido",
+    "serviceType": "Junk Removal",
+    "provider": {
+      "@id": "https://severincleaners.com/junk-removal-escondido#business"
+    }
+  };
 
   // Enhanced LocalBusiness schema for Escondido
   const localBusinessSchema = {
@@ -184,7 +188,7 @@ export default function JunkRemovalEscondidoPage() {
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, localBusinessSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const nearbyLocations = [

@@ -97,13 +97,6 @@ const chulaVistaFAQs = [
 ];
 
 export default function JunkRemovalChulaVistaPage() {
-  const serviceSchema = generateLocationServiceSchema({
-    locationName: "Chula Vista",
-    serviceName: "Junk Removal",
-    description: "Professional Chula Vista junk removal for Eastlake, Otay Ranch, Millenia. Bilingual junk hauling service, HOA compliant. Same-day pickup.",
-    url: "https://severincleaners.com/junk-removal-chula-vista",
-  });
-
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://severincleaners.com" },
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
@@ -111,6 +104,17 @@ export default function JunkRemovalChulaVistaPage() {
   ]);
 
   const faqSchema = generateFAQSchema(chulaVistaFAQs);
+
+  const serviceSchema = {
+    "@type": "Service",
+    "name": "Junk Removal in Chula Vista",
+    "description": "Professional Chula Vista junk removal for Eastlake, Otay Ranch, Millenia. Bilingual junk hauling service, HOA compliant. Same-day pickup.",
+    "url": "https://severincleaners.com/junk-removal-chula-vista",
+    "serviceType": "Junk Removal",
+    "provider": {
+      "@id": "https://severincleaners.com/junk-removal-chula-vista#business"
+    }
+  };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
@@ -179,7 +183,7 @@ export default function JunkRemovalChulaVistaPage() {
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, localBusinessSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const nearbyLocations = [
