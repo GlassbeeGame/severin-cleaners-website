@@ -11,23 +11,19 @@ import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/s
 import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
-  title: "Junk Removal Escondido CA | North County's Reliable Choice | (619) 750-0114",
-  description: "North County Escondido junk removal Hidden Meadows, San Pasqual Valley. Large lots, vineyard debris, agricultural. (619) 750-0114",
+  title: "Junk Removal Escondido | Same-Day Service | (619) 750-0114",
+  description: "Professional junk removal Escondido services for homes and businesses. Expert junk removal Escondido CA team serving Hidden Meadows, San Pasqual Valley. Same-day hauling, licensed & insured.",
   keywords: [
+    "junk removal escondido",
     "junk removal escondido ca",
     "escondido junk removal",
     "junk hauling escondido",
     "junk pickup escondido",
-    "furniture removal escondido",
-    "trash removal escondido",
-    "appliance removal escondido",
-    "estate cleanout escondido",
-    "commercial junk removal escondido",
     "same day junk removal escondido"
   ],
   openGraph: {
-    title: "Junk Removal Escondido CA | Same-Day Pickup & Hauling Service",
-    description: "Professional Escondido junk removal for homes and businesses. Same-day service, affordable pricing, eco-friendly disposal.",
+    title: "Junk Removal Escondido | Same-Day Pickup & Hauling Service",
+    description: "Professional junk removal Escondido services for homes and businesses. Expert junk removal Escondido CA team. Same-day service, licensed & insured.",
     url: "https://severincleaners.com/junk-removal-escondido",
     siteName: "Severin Cleaners",
     locale: "en_US",
@@ -43,8 +39,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Junk Removal Escondido CA | Same-Day Pickup & Hauling Service",
-    description: "Professional Escondido junk removal for homes and businesses. Same-day service, affordable pricing, eco-friendly disposal.",
+    title: "Junk Removal Escondido | Same-Day Pickup & Hauling Service",
+    description: "Professional junk removal Escondido services for homes and businesses. Expert junk removal Escondido CA team. Same-day service, licensed & insured.",
     images: ["https://severincleaners.com/images/junk-removal-escondido.jpg"],
   },
   alternates: {
@@ -71,8 +67,8 @@ export const metadata: Metadata = {
 
 const escondidoFAQs = [
     {
-      question: "How much does junk removal cost in Escondido?",
-      answer: "Most jobs range from $100 for single items to $495 for full-load cleanouts. Quotes are always upfront and include labor and disposal."
+      question: "How much does junk removal Escondido cost?",
+      answer: "Our junk removal Escondido CA pricing is transparent and upfront. Most jobs range from $100 for single items to $495 for full-load cleanouts. All quotes include labor, hauling, and disposal fees with no hidden charges."
     },
     {
       question: "Do you offer same-day service in Escondido?",
@@ -170,9 +166,9 @@ export default function JunkRemovalEscondidoPage() {
 
       <main>
         <OptimizedGradientHero
-          title="Junk Removal Escondido CA"
-          subtitle="North County's Reliable Choice • Hidden Meadows to Downtown • Same-Day Service"
-          description="✓ Large Property Experts ✓ Licensed & Insured ✓ North County Specialists"
+          title="Junk Removal Escondido"
+          subtitle="North County's #1 Choice • Hidden Meadows to Downtown • Same-Day Available"
+          description="✓ Large Property Experts ✓ Licensed & Insured ✓ Serving All of Escondido CA"
         />
 
         {/* Main Content with Sidebar */}
@@ -187,11 +183,11 @@ export default function JunkRemovalEscondidoPage() {
 
                     {/* Introduction */}
                     <h2 className="text-3xl font-bold mb-6 text-gray-900">
-                      Professional Junk Hauling Escondido CA – Hidden Meadows to Downtown
+                      Professional Junk Removal Escondido – Hidden Meadows to Downtown
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      Junk removal Escondido CA serves North County's most diverse inland community. From historic downtown bungalows to sprawling Hidden Meadows estates, from San Pasqual Valley vineyard properties to dense apartment complexes along Centre City Parkway, our Escondido junk removal team navigates steep hillside driveways, agricultural access roads, and narrow downtown streets with expertise. We provide same-day junk hauling Escondido for residential cleanouts, commercial properties, and estate sales throughout the 92025, 92026, and 92027 zip codes with transparent pricing and eco-friendly disposal.
+                      Looking for reliable junk removal Escondido services? Our expert junk removal Escondido CA team serves North County's most diverse inland community with same-day hauling available. From historic downtown bungalows to sprawling Hidden Meadows estates, from San Pasqual Valley vineyard properties to dense apartment complexes along Centre City Parkway, we navigate steep hillside driveways, agricultural access roads, and narrow downtown streets with expertise. We provide professional junk removal throughout Escondido's 92025, 92026, and 92027 zip codes with transparent pricing and eco-friendly disposal.
                     </p>
 
                     <p className="text-gray-700 mb-6">
