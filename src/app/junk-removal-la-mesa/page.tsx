@@ -11,25 +11,17 @@ import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/s
 import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
-  title: 'La Mesa Junk Removal | Village Area Specialists | (619) 750-0114',
-  description: 'La Mesa junk removal Grossmont Center to Village. Dump alternative, apartment cleanouts, family homes. (619) 750-0114',
+  title: 'Junk Removal La Mesa CA | Same-Day Service | (619) 750-0114',
+  description: 'Professional junk removal La Mesa CA service for Mount Helix, Fletcher Hills, and La Mesa Village. Expert la mesa junk removal team serving all East County. Same-day hauling, licensed & insured. Call (619) 750-0114',
   keywords: [
-    'La Mesa junk removal',
-    'junk hauling La Mesa',
-    'junk pickup La Mesa',
-    'trash removal La Mesa',
-    'La Mesa dump',
-    'La Mesa CA junk removal',
-    'Mount Helix junk removal',
-    'Fletcher Hills junk removal',
-    'La Mesa Village junk removal',
-    'Grossmont junk removal',
-    'Lake Murray junk removal',
-    'East County junk removal'
+    'junk removal la mesa ca',
+    'la mesa junk removal',
+    'junk removal la mesa',
+    'same day junk removal la mesa'
   ],
   openGraph: {
-    title: 'La Mesa Junk Removal & Hauling | East County\'s Trusted Local Service',
-    description: 'Affordable junk removal in La Mesa CA. Same-day hauling, transparent pricing, and a faster alternative to the La Mesa dump. Call (619) 750-0114 for your quote.',
+    title: 'Junk Removal La Mesa CA | Same-Day Hauling | East County Specialists',
+    description: 'Professional junk removal La Mesa CA service for Mount Helix, Fletcher Hills, Village. La mesa junk removal team serving all East County. Call (619) 750-0114',
     url: 'https://severincleaners.com/junk-removal-la-mesa',
     siteName: 'Severin Cleaners',
     images: [{
@@ -43,8 +35,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'La Mesa Junk Removal & Hauling | East County\'s Trusted Local Service',
-    description: 'Affordable junk removal in La Mesa CA. Same-day hauling, transparent pricing, and a faster alternative to the La Mesa dump. Call (619) 750-0114 for your quote.',
+    title: 'Junk Removal La Mesa CA | Same-Day Hauling | East County Specialists',
+    description: 'Professional junk removal La Mesa CA service for Mount Helix, Fletcher Hills, Village. La mesa junk removal team serving all East County. Call (619) 750-0114',
     images: ['https://severincleaners.com/og-image.jpg'],
   },
   alternates: {
@@ -71,24 +63,36 @@ export const metadata: Metadata = {
 
 const laMesaFAQs = [
   {
-    question: "How much does junk removal cost in La Mesa?",
-    answer: "Most pickups start around $100 and scale by load size and accessibility. All quotes include hauling, labor, and disposal fees."
+    question: "How much does junk removal La Mesa CA cost?",
+    answer: "Our junk removal La Mesa CA pricing is transparent and volume-based with no hidden fees. Single item removal starts at $100, perfect for one couch, mattress, or appliance. Quarter-load service costs $249 for small cleanouts like a closet or bathroom. Half-load runs $349 for garage corners or bedroom furniture sets. Three-quarter load is $429 for larger projects like full garage sections. Full-load service tops out at $495 for complete garage, estate, or commercial property cleanouts. All prices include labor, hauling, and disposal fees with no surcharges for hillside access in Mount Helix or downtown La Mesa Village parking challenges. We provide free estimates over the phone and confirm final pricing on-site before starting work. Our local La Mesa location means lower travel costs and faster response times compared to companies coming from North County or downtown San Diego."
   },
   {
-    question: "Can you handle hillside homes in Mount Helix?",
-    answer: "Yes—our junk removal La Mesa CA team is equipped for steep driveways and tight access roads."
+    question: "Can you handle hillside homes in Mount Helix and Fletcher Hills?",
+    answer: "Yes, our la mesa junk removal team specializes in hillside properties throughout Mount Helix, Fletcher Hills, and surrounding East County hills. We navigate steep driveways, winding access roads, and elevation changes regularly—these challenging properties are our specialty as a locally-based La Mesa service. Our trucks are appropriately sized for narrow hillside streets, and our crews plan routes in advance to handle tight turns and steep grades safely. Mount Helix properties often require extended carries from house to truck due to limited driveway access, and we bring the right equipment and crew size for these situations. We've serviced hundreds of hillside homes in the 91941, 91942, and 91944 zip codes, from modest hillside cottages to large estates with panoramic views. No driveway is too steep, no access too narrow, and no elevation too challenging for our experienced East County junk removal team."
   },
   {
-    question: "Do you serve downtown La Mesa Village?",
-    answer: "Absolutely—we offer flexible pickup windows for retail and multi-unit buildings near Spring Street."
+    question: "Do you serve downtown La Mesa Village and Grossmont Center area?",
+    answer: "Absolutely. We provide comprehensive junk removal La Mesa CA service throughout downtown La Mesa Village, Grossmont Center commercial district, and all surrounding neighborhoods. Downtown La Mesa presents unique challenges—limited street parking on Spring Street and La Mesa Boulevard, tight alley access for rear-entry buildings, and coordinated timing around business hours and customer traffic. Our team coordinates parking permits when needed, schedules during off-peak hours to minimize disruption, and works efficiently to complete removals quickly in high-traffic areas. We serve retail businesses near Grossmont Center, multi-unit apartment buildings in the Village core, mixed-use properties along Spring Street, and historic homes in the surrounding residential blocks. Whether you're a La Mesa Village retailer clearing old inventory, an apartment manager handling unit turnovers, or a homeowner in the adjacent neighborhoods, our flexible scheduling and downtown experience ensure smooth, professional service."
   },
   {
-    question: "Are your services eco-friendly?",
-    answer: "Yes—we recycle and donate whenever possible to reduce landfill use at the La Mesa dump."
+    question: "Are your junk removal services eco-friendly in La Mesa?",
+    answer: "Yes, eco-friendly disposal is central to our junk removal La Mesa CA service. We sort every load to maximize recycling and donation opportunities, minimizing what goes to local transfer stations or the Miramar Landfill. Usable furniture, working appliances, and household goods in good condition are donated to East County charities including Goodwill on Fletcher Parkway, local churches, and family resource centers serving La Mesa residents. Metal items—appliances, bed frames, scrap metal—go to San Diego recycling facilities that process materials responsibly. Mattresses and box springs are taken to specialized recycling centers that break them down into foam, fabric, and metal components rather than landfilling them. Electronics receive certified e-waste recycling with proper hazardous material handling. Wood debris and yard waste go to composting facilities when possible. As a La Mesa-based company headquartered at 8900 Grossmont Boulevard, we're committed to responsible disposal that benefits our own community and reduces environmental impact throughout East County."
   },
   {
-    question: "How fast can you respond?",
-    answer: "Most calls are handled within 24 hours, with same-day availability in central La Mesa and Mount Helix."
+    question: "How fast can you respond for junk removal in La Mesa?",
+    answer: "Most la mesa junk removal calls receive same-day or next-day service when you contact us before noon. Our local La Mesa headquarters at Grossmont Boulevard means minimal travel time to any neighborhood—we can often arrive within 1-2 hours for urgent situations throughout the 91941, 91942, and 91944 zip codes. Same-day service is especially valuable for time-sensitive needs like rental property turnovers with tight deadlines, real estate closing cleanouts, HOA violation notices requiring immediate compliance, or emergency situations after unexpected events. We coordinate scheduling around La Mesa's traffic patterns—avoiding Fletcher Parkway congestion during commute hours and planning routes that minimize response time. Whether you're in Mount Helix, downtown Village, Grossmont area, Fletcher Hills, or anywhere in La Mesa, our local presence ensures faster response than companies based in other cities. Even during busy weekends and peak moving season, our expanded crew capacity and proximity to all La Mesa neighborhoods keeps response times minimal."
+  },
+  {
+    question: "What areas of La Mesa do you serve?",
+    answer: "Our junk removal La Mesa CA service covers all neighborhoods throughout the city and surrounding East County areas. We serve Mount Helix with its hillside estates and panoramic view properties, Fletcher Hills with family homes and challenging hillside access, downtown La Mesa Village along Spring Street and La Mesa Boulevard, the Grossmont Center commercial district and surrounding apartments, College Area near Grossmont College and San Diego State satellite campus, Lake Murray neighborhoods around the lake and recreation area, Rolando Village and Allied Gardens border areas, and all residential streets between Fletcher Parkway and Interstate 8. We also serve neighboring communities including El Cajon, Spring Valley, Lemon Grove, and Santee as natural extensions of our East County service area. All three La Mesa zip codes—91941 (central La Mesa and Mount Helix), 91942 (northern La Mesa and College area), and 91944 (southern and eastern areas)—receive the same reliable, professional service with transparent pricing regardless of neighborhood or property type."
+  },
+  {
+    question: "Do you offer free estimates for La Mesa junk removal?",
+    answer: "Yes, we provide free, no-obligation estimates for all junk removal La Mesa CA jobs. You can get an initial estimate over the phone by describing what needs to be removed—we'll provide a price range based on estimated volume. For larger or complex projects like full estate cleanouts, multi-unit property turnovers, or commercial building clearances, we offer free on-site estimates where our team visits your La Mesa property to assess items and provide exact pricing. On-site estimates are especially helpful for Mount Helix hillside properties with access challenges, downtown Village properties requiring parking coordination, or accumulations spread across multiple rooms or storage areas. During same-day service calls, we provide final pricing upon arrival before starting any work—you approve the quote before we touch anything. Our volume-based pricing includes all labor, hauling, disposal fees, and coordination with no hidden charges for stairs, hillside access, downtown parking, or distance. Whether you're in a hillside home or downtown apartment, free estimates ensure you know costs upfront with no pressure."
+  },
+  {
+    question: "Can you remove furniture and appliances in La Mesa CA?",
+    answer: "Yes, furniture and appliance removal is one of our primary la mesa junk removal services. We handle all types of furniture including sofas, couches, sectionals, recliners, dining sets, bedroom furniture, mattresses, box springs, dressers, entertainment centers, office desks, patio furniture, and outdoor equipment. For appliances, we remove refrigerators, freezers, washers, dryers, dishwashers, stoves, ovens, microwaves, water heaters, and air conditioning units with proper handling of refrigerants and hazardous materials per California regulations. La Mesa's mix of property types—from compact Village apartments to spacious Mount Helix estates—creates diverse furniture removal needs, and we handle them all with equal professionalism. We navigate narrow apartment building hallways and staircases downtown, manage steep hillside home access in Mount Helix and Fletcher Hills, and coordinate elevator reservations for multi-story buildings near Grossmont Center. All removed furniture in good condition is donated to East County charities. Appliances go to certified recycling facilities. Professional, careful removal protects your property throughout the entire process."
   }
 ];
 
@@ -164,7 +168,13 @@ export default function JunkRemovalLaMesaPage() {
       "reviewCount": "27",
       "bestRating": "5",
       "worstRating": "1"
-    }
+    },
+    "sameAs": [
+      "https://www.facebook.com/severinhauling",
+      "https://www.instagram.com/severinhauling/",
+      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
+    ]
   };
 
   const combinedSchema = {
@@ -195,7 +205,7 @@ export default function JunkRemovalLaMesaPage() {
               </div>
 
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                La Mesa Junk Removal
+                Junk Removal La Mesa CA
               </h1>
 
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
