@@ -186,11 +186,11 @@ export default function ScrapMetalRemovalPage() {
                       Professional Scrap Metal Recycling in San Diego
                     </h2>
                     <p className="text-lg mb-4 text-gray-700">
-                      Looking for reliable <strong>scrap metal removal San Diego</strong> services? Our professional team handles all types of ferrous and non-ferrous metals throughout San Diego County from <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">Kearny Mesa</a> industrial areas, <a href="/junk-removal-mira-mesa" className="text-blue-600 hover:underline">Mira Mesa</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a> auto shops, <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, <a href="/junk-removal-escondido" className="text-blue-600 hover:underline">Escondido</a>, and <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>. From single appliance pickup to large commercial metal cleanouts, we provide eco-friendly <strong>metal recycling San Diego</strong> with transparent pricing and same-day service available.
+                      Looking for reliable scrap metal removal San Diego services? Our professional team handles all types of ferrous and non-ferrous metals throughout San Diego County from <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">Kearny Mesa</a> industrial areas, <a href="/junk-removal-mira-mesa" className="text-blue-600 hover:underline">Mira Mesa</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a> auto shops, <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, <a href="/junk-removal-escondido" className="text-blue-600 hover:underline">Escondido</a>, and <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>. From single appliance pickup to large commercial metal cleanouts, we provide eco-friendly <strong>metal recycling San Diego</strong> with transparent pricing and same-day service available.
                     </p>
 
                     <p className="text-gray-700 mb-6">
-                      Whether you're a contractor with construction debris, a homeowner with old appliances, or a business clearing out metal equipment, our <strong>scrap metal hauling</strong> service makes disposal easy. We handle all the heavy lifting, proper transportation, and ensure your metals are recycled at certified facilities throughout San Diego County.
+                      Whether you're a contractor with construction debris, a homeowner with old appliances, or a business clearing out metal equipment, our scrap metal hauling service makes disposal easy. We handle all the heavy lifting, proper transportation, and ensure your metals are recycled at certified facilities throughout San Diego County.
                     </p>
 
                     <h3 className="text-2xl font-bold mt-8 mb-4">Types of Scrap Metal We Accept</h3>
@@ -240,12 +240,12 @@ export default function ScrapMetalRemovalPage() {
 
                 <h3 className="text-2xl font-bold mt-10 mb-4">Appliance Removal with Freon Disposal</h3>
                 <p className="text-lg mb-6">
-                  Need <strong>refrigerator removal</strong> or other appliance disposal? We safely remove all appliances containing Freon, following EPA regulations for proper hazardous material handling. Our certified partners ensure refrigerant is recovered before metal recycling, protecting the environment and meeting California standards.
+                  Need refrigerator removal or other appliance disposal? We safely remove all appliances containing Freon, following EPA regulations for proper hazardous material handling. Our certified partners ensure refrigerant is recovered before metal recycling, protecting the environment and meeting California standards.
                 </p>
 
                 <h3 className="text-2xl font-bold mt-10 mb-4">Where We Recycle Your Scrap Metal</h3>
                 <p className="text-lg mb-4">
-                  Transparency matters. Our <strong>metal disposal San Diego</strong> service partners with licensed recycling facilities throughout the region:
+                  Transparency matters. Our metal disposal San Diego service partners with licensed recycling facilities throughout the region:
                 </p>
 
                 <ul className="list-disc pl-6 mb-6 space-y-2">
@@ -262,7 +262,7 @@ export default function ScrapMetalRemovalPage() {
 
                 <h3 className="text-2xl font-bold mt-10 mb-4">Residential Metal Removal</h3>
                 <p className="text-lg mb-6">
-                  Homeowners choose our <strong>residential scrap metal pickup</strong> for appliance disposal, garage cleanouts, renovation debris, and more. We make it easy – just call for a quote, schedule your pickup, and we handle everything from there. No need to transport heavy metals yourself.
+                  Homeowners choose our residential scrap metal pickup for appliance disposal, garage cleanouts, renovation debris, and more. We make it easy – just call for a quote, schedule your pickup, and we handle everything from there. No need to transport heavy metals yourself.
                 </p>
 
                 <div className="bg-green-50 border-l-4 border-green-500 p-6 my-8 rounded-lg">
@@ -278,7 +278,7 @@ export default function ScrapMetalRemovalPage() {
 
                 <h3 className="text-2xl font-bold mt-10 mb-4">Serving All San Diego County</h3>
                 <p className="text-lg mb-4">
-                  Our <strong>scrap metal removal San Diego</strong> service covers the entire county. We also provide <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliance metal recycling</a>, <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">construction metal disposal</a>, and <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial scrap metal</a> services:
+                  Our scrap metal removal San Diego service covers the entire county. We also provide <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliance metal recycling</a>, <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">construction metal disposal</a>, and <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial scrap metal</a> services:
                 </p>
 
                 <div className="grid md:grid-cols-3 gap-6 mb-8">
@@ -352,10 +352,10 @@ export default function ScrapMetalRemovalPage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Scrap Metal Removal San Diego"
-          description="Get answers to common questions about our <strong>scrap metal removal San Diego</strong> service, pricing, and same-day pickup options."
+          description="Get answers to common questions about our scrap metal removal San Diego service, pricing, and same-day pickup options."
           faqs={scrapMetalFAQs}
           ctaTitle="Still Have Questions About Scrap Metal Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>scrap metal removal San Diego</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our scrap metal removal San Diego services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
       </main>

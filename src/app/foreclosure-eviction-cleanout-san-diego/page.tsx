@@ -386,10 +386,10 @@ export default function ForeclosureEvictionCleanoutPage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Foreclosure & Eviction Cleanout"
-          description="Get answers to common questions about our <strong>foreclosure cleanout San Diego</strong> and <strong>eviction cleanout San Diego</strong> services."
+          description="Get answers to common questions about our foreclosure cleanout San Diego and eviction cleanout San Diego services."
           faqs={foreclosureFAQs}
           ctaTitle="Need Fast Foreclosure or Eviction Cleanout?"
-          ctaDescription="Our professional team is ready to help with <strong>foreclosure cleanout San Diego</strong> and <strong>eviction cleanout San Diego</strong> services. Fast, discreet, and thorough."
+          ctaDescription="Our professional team is ready to help with foreclosure cleanout San Diego and eviction cleanout San Diego services. Fast, discreet, and thorough."
           includeSchema={false}
         />
       </main>

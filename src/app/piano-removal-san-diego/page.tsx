@@ -115,12 +115,12 @@ export default function PianoremovalsandiegoPage() {
                     <h2 className="text-3xl font-bold text-gray-900 mb-6">San Diego Piano Removal Specialists</h2>
 
               <p className="text-lg text-gray-700 mb-6">
-                Piano removal requires specialized knowledge and equipment to handle these valuable, heavy instruments safely. Severin Cleaners provides expert <strong>piano removal San Diego</strong> services throughout <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a>, <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a>, <a href="/junk-removal-point-loma" className="text-blue-600 hover:underline">Point Loma</a>, <a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a>, and <a href="/junk-removal-poway" className="text-blue-600 hover:underline">Poway</a>, whether you&apos;re relocating, downsizing, or dealing with an inherited instrument that needs professional disposal. We also specialize in <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture removal</a>, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, and are <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">heavy item specialists</a>.
+                Piano removal requires specialized knowledge and equipment to handle these valuable, heavy instruments safely. Severin Cleaners provides expert piano removal San Diego services throughout <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a>, <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a>, <a href="/junk-removal-point-loma" className="text-blue-600 hover:underline">Point Loma</a>, <a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a>, and <a href="/junk-removal-poway" className="text-blue-600 hover:underline">Poway</a>, whether you&apos;re relocating, downsizing, or dealing with an inherited instrument that needs professional disposal. We also specialize in <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture removal</a>, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, and are <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">heavy item specialists</a>.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Specialized Piano Removal Services</h3>
               <p className="text-lg text-gray-700 mb-4">
-                Our <strong>piano disposal San Diego</strong> service handles all types of pianos and musical instruments with the care and expertise they deserve. From apartment upright pianos to concert grand pianos, we have the specialized equipment and trained professionals to ensure safe removal without damage to your property.
+                Our piano disposal San Diego service handles all types of pianos and musical instruments with the care and expertise they deserve. From apartment upright pianos to concert grand pianos, we have the specialized equipment and trained professionals to ensure safe removal without damage to your property.
               </p>
 
               <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -150,7 +150,7 @@ export default function PianoremovalsandiegoPage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Piano Removal Requires Expertise</h3>
               <p className="text-lg text-gray-700 mb-4">
-                <strong>Musical instrument removal</strong> is not like typical junk removal. Pianos are incredibly heavy (200-1,200 pounds), delicately balanced, and often located in challenging spaces. Our trained team understands piano construction, weight distribution, and proper lifting techniques to ensure safe removal.
+                Musical instrument removal is not like typical junk removal. Pianos are incredibly heavy (200-1,200 pounds), delicately balanced, and often located in challenging spaces. Our trained team understands piano construction, weight distribution, and proper lifting techniques to ensure safe removal.
               </p>
 
               <div className="bg-gray-50 p-6 rounded-lg mb-8">

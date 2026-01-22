@@ -485,10 +485,10 @@ export default function EmergencyJunkRemovalPage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Emergency Junk Removal"
-          description="Get answers to common questions about our <strong>emergency junk removal San Diego</strong> services, response times, and 24/7 availability."
+          description="Get answers to common questions about our emergency junk removal San Diego services, response times, and 24/7 availability."
           faqs={emergencyFAQs}
           ctaTitle="Need Emergency Junk Removal Now?"
-          ctaDescription="Our 24/7 <strong>emergency junk removal San Diego</strong> team is standing by. Call us now for immediate response and same-day service."
+          ctaDescription="Our 24/7 emergency junk removal San Diego team is standing by. Call us now for immediate response and same-day service."
           includeSchema={false}
         />
 

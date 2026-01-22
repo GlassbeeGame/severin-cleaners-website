@@ -225,16 +225,16 @@ export default function ConcreteDisposalSanDiegoPage() {
                     <h2 className="text-3xl font-bold text-gray-900 mb-6">Professional Concrete Disposal San Diego</h2>
 
               <p className="text-lg text-gray-700 mb-6">
-                San Diego contractors, property managers, and commercial facilities need reliable <strong>concrete disposal San Diego</strong> services for demolition projects, parking lot repairs, and facility renovations. Severin Cleaners provides professional broken concrete removal San Diego with same-day service, commercial account options, and proper disposal documentation for compliance. As part of our comprehensive <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial junk removal San Diego</a> services, we handle heavy materials that require specialized equipment and expertise.
+                San Diego contractors, property managers, and commercial facilities need reliable concrete disposal San Diego services for demolition projects, parking lot repairs, and facility renovations. Severin Cleaners provides professional broken concrete removal San Diego with same-day service, commercial account options, and proper disposal documentation for compliance. As part of our comprehensive <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial junk removal San Diego</a> services, we handle heavy materials that require specialized equipment and expertise.
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
-                From <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">Kearny Mesa</a> industrial facilities to downtown San Diego construction projects, our <strong>concrete disposal</strong> service handles broken concrete, asphalt, pavement, masonry, and demolition debris throughout San Diego County. We're positioned near Miramar Landfill for efficient disposal, which keeps costs low and turnaround times fast. Whether you need <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">construction debris removal</a> for a major project or single-load concrete disposal for a small renovation, we provide transparent all-inclusive pricing with no hidden fees.
+                From <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">Kearny Mesa</a> industrial facilities to downtown San Diego construction projects, our concrete disposal service handles broken concrete, asphalt, pavement, masonry, and demolition debris throughout San Diego County. We're positioned near Miramar Landfill for efficient disposal, which keeps costs low and turnaround times fast. Whether you need <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">construction debris removal</a> for a major project or single-load concrete disposal for a small renovation, we provide transparent all-inclusive pricing with no hidden fees.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Types of Concrete & Heavy Materials We Handle</h3>
               <p className="text-lg text-gray-700 mb-4">
-                Our <strong>concrete disposal San Diego</strong> service accepts all types of heavy construction materials common to San Diego demolition and renovation projects. We handle everything from small residential driveway removal to large-scale commercial parking lot demolition.
+                Our concrete disposal San Diego service accepts all types of heavy construction materials common to San Diego demolition and renovation projects. We handle everything from small residential driveway removal to large-scale commercial parking lot demolition.
               </p>
 
               <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -252,7 +252,7 @@ export default function ConcreteDisposalSanDiegoPage() {
                 <div>
                   <h4 className="text-xl font-bold mb-3 text-blue-600">Asphalt & Pavement Materials</h4>
                   <ul className="list-disc pl-6 space-y-1 text-gray-700">
-                    <li><strong>Asphalt disposal San Diego</strong> for parking lot repairs</li>
+                    <li>Asphalt disposal San Diego for parking lot repairs</li>
                     <li>Blacktop and paved surface removal</li>
                     <li>Driveway asphalt chunks and debris</li>
                     <li>Road and alley pavement materials</li>
@@ -289,14 +289,14 @@ export default function ConcreteDisposalSanDiegoPage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">How Our San Diego Concrete Disposal Process Works</h3>
               <p className="text-lg text-gray-700 mb-4">
-                We've streamlined <strong>concrete disposal San Diego</strong> for contractors and businesses who need fast, reliable service without the hassle of DIY trips to Miramar Landfill. Here's how our process works from first contact to final disposal:
+                We've streamlined concrete disposal San Diego for contractors and businesses who need fast, reliable service without the hassle of DIY trips to Miramar Landfill. Here's how our process works from first contact to final disposal:
               </p>
 
               <div className="bg-blue-50 rounded-lg p-6 mb-8">
                 <ol className="space-y-3 text-gray-700">
                   <li><strong>1. Call for Free Quote:</strong> Contact us at <a href="tel:6197500114" className="text-blue-600 hover:underline font-semibold">(619) 750-0114</a> and describe your concrete removal project. Let us know the approximate volume (cubic yards), location, accessibility, and whether materials are reinforced. We provide upfront pricing estimates over the phone.</li>
                   <li><strong>2. Weight & Volume Assessment:</strong> For larger projects, we can conduct on-site assessments to provide exact pricing. Concrete pricing considers both volume (space it takes up) and weight (tonnage for disposal fees). We explain all costs upfront with no hidden charges.</li>
-                  <li><strong>3. Same-Day Scheduling Available:</strong> Call before 2 PM for same-day <strong>concrete disposal</strong> throughout San Diego County. We coordinate around your project timeline and can schedule during off-hours to avoid disrupting active construction sites.</li>
+                  <li><strong>3. Same-Day Scheduling Available:</strong> Call before 2 PM for same-day concrete disposal throughout San Diego County. We coordinate around your project timeline and can schedule during off-hours to avoid disrupting active construction sites.</li>
                   <li><strong>4. We Load & Haul Everything:</strong> Our crew brings appropriate equipment for heavy concrete materials. We handle all loading, protecting your property during removal. You don't lift a finger—we do all the heavy work.</li>
                   <li><strong>5. Miramar Landfill or Recycling Facility:</strong> We transport materials directly to Miramar Landfill or concrete recycling facilities depending on material type and condition. Clean concrete is recycled when possible to support environmental sustainability.</li>
                   <li><strong>6. Documentation Provided:</strong> We provide disposal documentation and certificates for your records, compliance requirements, or LEED project documentation. This is especially important for commercial contractors and property managers.</li>
@@ -305,7 +305,7 @@ export default function ConcreteDisposalSanDiegoPage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">San Diego Construction Zones We Serve</h3>
               <p className="text-lg text-gray-700 mb-4">
-                Our <strong>concrete disposal San Diego</strong> service covers all major construction, industrial, and commercial zones throughout San Diego County. We understand the unique challenges of different areas and provide tailored service for each location's specific needs.
+                Our concrete disposal San Diego service covers all major construction, industrial, and commercial zones throughout San Diego County. We understand the unique challenges of different areas and provide tailored service for each location's specific needs.
               </p>
 
               <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -344,11 +344,11 @@ export default function ConcreteDisposalSanDiegoPage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Concrete Disposal Pricing & Weight Considerations</h3>
               <p className="text-lg text-gray-700 mb-4">
-                Understanding <strong>concrete disposal</strong> pricing helps contractors and businesses budget accurately. Unlike lighter junk removal, concrete is extremely heavy—approximately 4,000 pounds per cubic yard—which affects both hauling equipment requirements and landfill disposal fees.
+                Understanding concrete disposal pricing helps contractors and businesses budget accurately. Unlike lighter junk removal, concrete is extremely heavy—approximately 4,000 pounds per cubic yard—which affects both hauling equipment requirements and landfill disposal fees.
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
-                Our all-inclusive pricing ($100-$495 based on volume) includes all labor, specialized equipment for heavy materials, hauling and transportation, Miramar Landfill dump fees (tonnage-based), and disposal documentation. For context, DIY disposal at Miramar typically costs $70-$200+ in dump fees alone (depending on weight), plus truck rental ($75-$150), fuel, and your time. When you factor in the true cost of DIY, professional <strong>concrete disposal San Diego</strong> service often costs the same or less—with zero work required from you. See our <a href="/blog/san-diego-dump-fees-guide" className="text-blue-600 hover:underline">complete San Diego dump fees guide</a> for detailed cost comparisons.
+                Our all-inclusive pricing ($100-$495 based on volume) includes all labor, specialized equipment for heavy materials, hauling and transportation, Miramar Landfill dump fees (tonnage-based), and disposal documentation. For context, DIY disposal at Miramar typically costs $70-$200+ in dump fees alone (depending on weight), plus truck rental ($75-$150), fuel, and your time. When you factor in the true cost of DIY, professional concrete disposal San Diego service often costs the same or less—with zero work required from you. See our <a href="/blog/san-diego-dump-fees-guide" className="text-blue-600 hover:underline">complete San Diego dump fees guide</a> for detailed cost comparisons.
               </p>
 
               <div className="bg-gray-50 p-6 rounded-lg mb-8">
@@ -371,11 +371,11 @@ export default function ConcreteDisposalSanDiegoPage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Why San Diego Contractors Choose Severin Cleaners</h3>
               <p className="mb-4">
-                San Diego's construction industry requires reliable partners who understand project timelines, compliance requirements, and cost control. Our <strong>concrete disposal San Diego</strong> service combines industry expertise with professional standards to deliver dependable solutions for contractors and businesses.
+                San Diego's construction industry requires reliable partners who understand project timelines, compliance requirements, and cost control. Our concrete disposal San Diego service combines industry expertise with professional standards to deliver dependable solutions for contractors and businesses.
               </p>
 
               <p className="mb-6">
-                We specialize in working around active construction schedules, providing <strong>concrete disposal</strong> during off-hours when needed to avoid disrupting your project timeline. Our team coordinates with general contractors, property managers, and facilities teams to ensure seamless service delivery with full liability insurance coverage and proper documentation.
+                We specialize in working around active construction schedules, providing concrete disposal during off-hours when needed to avoid disrupting your project timeline. Our team coordinates with general contractors, property managers, and facilities teams to ensure seamless service delivery with full liability insurance coverage and proper documentation.
               </p>
 
               <ul className="space-y-3 mb-6">
@@ -443,7 +443,7 @@ export default function ConcreteDisposalSanDiegoPage() {
       {/* FAQ Section */}
       <FAQSection
         title="Frequently Asked Questions - Concrete Disposal San Diego"
-        description="Get answers to common questions about our <strong>concrete disposal San Diego</strong> services, pricing, materials accepted, and contractor accounts."
+        description="Get answers to common questions about our concrete disposal San Diego services, pricing, materials accepted, and contractor accounts."
         faqs={concreteFAQs}
         ctaTitle="Ready for Professional Concrete Disposal?"
         ctaDescription="Our experienced team handles all types of concrete, asphalt, and heavy demolition materials. Call for a free quote and same-day service throughout San Diego County."

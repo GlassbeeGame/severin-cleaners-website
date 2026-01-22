@@ -355,10 +355,10 @@ export default function ApplianceRemovalPage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Appliance Removal San Diego"
-          description="Get answers to common questions about our professional <strong>appliance removal San Diego</strong> service and pricing."
+          description="Get answers to common questions about our professional appliance removal San Diego service and pricing."
           faqs={applianceFAQs}
           ctaTitle="Still Have Questions About Appliance Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>appliance removal San Diego</strong> services, provide detailed quotes, or schedule your same-day service."
+          ctaDescription="Our experienced team is ready to answer any questions about our appliance removal San Diego services, provide detailed quotes, or schedule your same-day service."
           includeSchema={false}
         />
       </main>

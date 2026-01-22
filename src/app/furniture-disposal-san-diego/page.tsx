@@ -201,11 +201,11 @@ export default function FurnitureDisposalPage() {
 
                   <div className="prose prose-lg max-w-none">
                     <p className="text-lg mb-4">
-                      When you need to get rid of old furniture in San Diego, you want it done right. Our <strong>furniture disposal San Diego</strong> service combines fast removal with eco-friendly practices—recycling and donating whenever possible instead of sending everything to the landfill.
+                      When you need to get rid of old furniture in San Diego, you want it done right. Our furniture disposal San Diego service combines fast removal with eco-friendly practices—recycling and donating whenever possible instead of sending everything to the landfill.
                     </p>
 
                     <p className="text-lg mb-6">
-                      We handle all types of <strong>furniture removal San Diego</strong> needs: <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">couches and sofas</a>, desks, <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:text-blue-700 underline">mattresses</a>, dressers, and everything in between. Our <strong>furniture recycling San Diego</strong> program ensures usable items find new homes through donation partners, while materials like metal and wood get properly recycled. From <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> to <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, we're helping San Diego stay green while keeping your space clutter-free. Need <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">same-day service</a>? Call before 2 PM.
+                      We handle all types of furniture removal San Diego needs: <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">couches and sofas</a>, desks, <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:text-blue-700 underline">mattresses</a>, dressers, and everything in between. Our furniture recycling San Diego program ensures usable items find new homes through donation partners, while materials like metal and wood get properly recycled. From <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> to <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, we're helping San Diego stay green while keeping your space clutter-free. Need <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">same-day service</a>? Call before 2 PM.
                     </p>
 
                     <h3 className="text-2xl font-bold mt-10 mb-4">What We Remove</h3>
@@ -306,13 +306,13 @@ export default function FurnitureDisposalPage() {
 
                     <h3 className="text-2xl font-semibold mt-6 mb-3">What Happens to Your Old Furniture?</h3>
                     <p className="text-lg mb-6">
-                      When you choose our <strong>furniture disposal San Diego</strong> service, you're choosing responsible disposal. Usable furniture gets donated to local charities. Broken items are recycled when possible—metal frames, wood components, and fabric materials all get sorted properly. Only true waste reaches the landfill as a last resort. We follow all local San Diego disposal regulations and work with recycling partners throughout the county to minimize environmental impact.
+                      When you choose our furniture disposal San Diego service, you're choosing responsible disposal. Usable furniture gets donated to local charities. Broken items are recycled when possible—metal frames, wood components, and fabric materials all get sorted properly. Only true waste reaches the landfill as a last resort. We follow all local San Diego disposal regulations and work with recycling partners throughout the county to minimize environmental impact.
                     </p>
 
                     {/* Local Neighborhoods Section - NEW */}
                     <h2 className="text-3xl font-bold mt-12 mb-6">San Diego Neighborhoods We Serve</h2>
                     <p className="text-lg mb-6">
-                      Our <strong>furniture disposal San Diego</strong> service covers every neighborhood across San Diego County. From coastal communities to inland suburbs, we provide fast, professional furniture removal wherever you are:
+                      Our furniture disposal San Diego service covers every neighborhood across San Diego County. From coastal communities to inland suburbs, we provide fast, professional furniture removal wherever you are:
                     </p>
 
                     <div className="bg-gradient-to-br from-blue-50 to-blue-100 border-l-4 border-blue-600 p-8 mb-8 rounded-lg">
@@ -407,7 +407,7 @@ export default function FurnitureDisposalPage() {
 
                     <h3 className="text-2xl font-bold mt-10 mb-4">When You Might Need Us</h3>
                     <p className="text-lg mb-4">
-                      San Diego homeowners and businesses call us for <strong>furniture disposal San Diego</strong> in all kinds of situations:
+                      San Diego homeowners and businesses call us for furniture disposal San Diego in all kinds of situations:
                     </p>
 
                     <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -492,10 +492,10 @@ export default function FurnitureDisposalPage() {
             <div className="max-w-4xl mx-auto">
               <FAQSection
           title="Frequently Asked Questions - Furniture Disposal San Diego"
-          description="Get answers to common questions about our <strong>furniture disposal San Diego</strong> service, eco-friendly recycling, pricing, and same-day pickup options."
+          description="Get answers to common questions about our furniture disposal San Diego service, eco-friendly recycling, pricing, and same-day pickup options."
           faqs={furnitureFAQs}
           ctaTitle="Still Have Questions About Furniture Disposal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>furniture disposal San Diego</strong> and recycling services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our furniture disposal San Diego and recycling services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
             </div>

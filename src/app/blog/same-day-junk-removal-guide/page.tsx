@@ -242,7 +242,7 @@ export default function SameDayJunkRemovalGuide() {
                       <li>• <strong>Emergency situations</strong> - Water damage, fire damage, safety hazards</li>
                       <li>• <strong>Last-minute moves</strong> - Unexpected relocation or move-out dates</li>
                       <li>• <strong>Property sales</strong> - Quick closings or final walkthrough deadlines</li>
-                      <li>• <strong>Eviction cleanouts</strong> - Tenant left items, need property ready ASAP</li>
+                      <li>• Eviction cleanouts - Tenant left items, need property ready ASAP</li>
                       <li>• <strong>Estate situations</strong> - Time-sensitive <Link href="/estate-cleanout-san-diego" className="text-blue-600 hover:text-blue-700 font-semibold">estate cleanouts</Link></li>
                       <li>• <strong>Rental turnovers</strong> - Need property ready for next tenant immediately</li>
                     </ul>

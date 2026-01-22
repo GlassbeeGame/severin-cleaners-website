@@ -79,7 +79,7 @@ const couchFAQs = [
   },
   {
     question: "Do you offer same-day couch disposal?",
-    answer: "Yes, we provide same-day or next-day <strong>San Diego couch disposal</strong> across most neighborhoods."
+    answer: "Yes, we provide same-day or next-day San Diego couch disposal across most neighborhoods."
   },
   {
     question: "Can you remove sectionals or oversized sofas?",
@@ -91,7 +91,7 @@ const couchFAQs = [
   },
   {
     question: "Do you serve apartments or high-rises downtown?",
-    answer: "Yes, we specialize in <strong>sofa removal San Diego</strong> apartments with stair or elevator access limitations."
+    answer: "Yes, we specialize in sofa removal San Diego apartments with stair or elevator access limitations."
   }
 ];
 
@@ -180,7 +180,7 @@ export default function CouchRemovalPage() {
                   <h2 className="text-3xl font-bold text-gray-900 mb-6">Your San Diego Couch Removal Experts</h2>
 
                   <p className="text-lg text-gray-700 mb-6">
-                    Need an old couch gone fast? Our locally owned <strong>San Diego couch removal</strong> team makes it easy. We handle everything—lifting, hauling, and proper disposal—so you don't have to drag your sofa to the curb or deal with dump lines. From <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> designer couches to <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a> sectionals and <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a> furniture, we offer same-day <strong>couch disposal San Diego</strong> residents rely on for quick, professional service.
+                    Need an old couch gone fast? Our locally owned San Diego couch removal team makes it easy. We handle everything—lifting, hauling, and proper disposal—so you don't have to drag your sofa to the curb or deal with dump lines. From <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> designer couches to <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a> sectionals and <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a> furniture, we offer same-day couch disposal San Diego residents rely on for quick, professional service.
                   </p>
 
                   <p className="text-lg text-gray-700 mb-6">
@@ -189,7 +189,7 @@ export default function CouchRemovalPage() {
 
                   <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
                     <h3 className="text-xl font-semibold text-blue-900 mb-2">Local Service Areas</h3>
-                    <p className="text-blue-800 mb-4">We provide full <strong>sofa removal San Diego</strong> coverage across the county, including:</p>
+                    <p className="text-blue-800 mb-4">We provide full sofa removal San Diego coverage across the county, including:</p>
                     <ul className="text-blue-800 space-y-2">
                       <li><strong>Downtown & Gaslamp Quarter</strong> – Apartment pickups and office furniture removal</li>
                       <li><strong>North Park & Hillcrest</strong> – Urban homes with limited parking or stair access</li>
@@ -219,7 +219,7 @@ export default function CouchRemovalPage() {
 
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Weather & Traffic Challenges We Handle</h3>
                   <p className="text-lg text-gray-700 mb-6">
-                    San Diego's mild climate is great for living—but not for hauling. Parking restrictions, beach traffic, and narrow driveways can make <strong>couch removal</strong> tricky. Our drivers plan around rush-hour congestion, coastal parking limits, and multi-level buildings. During rainy winter weeks, we provide covered hauling to protect furniture during transport, especially in La Jolla, Pacific Beach, and the South Bay.
+                    San Diego's mild climate is great for living—but not for hauling. Parking restrictions, beach traffic, and narrow driveways can make couch removal tricky. Our drivers plan around rush-hour congestion, coastal parking limits, and multi-level buildings. During rainy winter weeks, we provide covered hauling to protect furniture during transport, especially in La Jolla, Pacific Beach, and the South Bay.
                   </p>
 
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Major Employers & Businesses We Serve</h3>
@@ -268,7 +268,7 @@ export default function CouchRemovalPage() {
 
                   <h2 className="text-3xl font-bold text-gray-900 mb-4">Couch Disposal vs. the San Diego Dump</h2>
                   <p className="text-lg text-gray-700 mb-6">
-                    Dragging a couch to the Miramar Landfill or city dump can take hours, require a permit, and cost more than you think. Our <strong>couch removal San Diego</strong> service is faster, cleaner, and fully handled by professionals. We load, haul, and dispose responsibly—no appointments, no dump lines, and no lifting.
+                    Dragging a couch to the Miramar Landfill or city dump can take hours, require a permit, and cost more than you think. Our couch removal San Diego service is faster, cleaner, and fully handled by professionals. We load, haul, and dispose responsibly—no appointments, no dump lines, and no lifting.
                   </p>
 
                   <h2 className="text-3xl font-bold text-gray-900 mb-4">Pricing & Service Options</h2>
@@ -366,10 +366,10 @@ export default function CouchRemovalPage() {
           <div className="max-w-4xl mx-auto">
             <FAQSection
           title="Frequently Asked Questions - Couch Removal San Diego"
-          description="Get answers to common questions about our <strong>couch removal San Diego</strong> service, pricing, and same-day pickup options."
+          description="Get answers to common questions about our couch removal San Diego service, pricing, and same-day pickup options."
           faqs={couchFAQs}
           ctaTitle="Still Have Questions About Couch Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>couch removal San Diego</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our couch removal San Diego services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
           </div>

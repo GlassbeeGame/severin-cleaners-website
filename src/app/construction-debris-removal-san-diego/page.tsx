@@ -309,10 +309,10 @@ export default function ConstructionDebrisRemovalPage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Construction Debris Removal San Diego"
-          description="Get answers to common questions about our <strong>construction debris removal San Diego</strong> services, contractor pricing, and job site cleanup process."
+          description="Get answers to common questions about our construction debris removal San Diego services, contractor pricing, and job site cleanup process."
           faqs={constructionFAQs}
           ctaTitle="Still Have Questions About Construction Debris Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>construction debris removal San Diego</strong> services, provide detailed quotes, or schedule your job site cleanup."
+          ctaDescription="Our experienced team is ready to answer any questions about our construction debris removal San Diego services, provide detailed quotes, or schedule your job site cleanup."
           includeSchema={false}
         />
       </main>

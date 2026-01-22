@@ -319,10 +319,10 @@ export default function EstateCleanoutPage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Estate Cleanout San Diego"
-          description="Get answers to common questions about our <strong>estate cleanout San Diego</strong> services, compassionate handling, and complete property clearing."
+          description="Get answers to common questions about our estate cleanout San Diego services, compassionate handling, and complete property clearing."
           faqs={estateFAQs}
           ctaTitle="Still Have Questions About Estate Cleanout Services?"
-          ctaDescription="Our compassionate team is ready to help with your <strong>estate cleanout San Diego</strong> needs, provide detailed quotes, or answer any questions during this difficult time."
+          ctaDescription="Our compassionate team is ready to help with your estate cleanout San Diego needs, provide detailed quotes, or answer any questions during this difficult time."
           includeSchema={false}
         />
       </main>

@@ -159,21 +159,21 @@ export default function SameDayJunkRemovalPage() {
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      <strong>Same day junk removal San Diego</strong> means exactly that—service the same day you call. Our <strong>same day junk pickup San Diego</strong> team responds within 2-4 hours when you call before 2 PM. We provide <strong>junk removal San Diego today</strong> for homeowners and businesses in <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a>, <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a>, and throughout the county.
+                      Same day junk removal San Diego means exactly that—service the same day you call. Our same day junk pickup San Diego team responds within 2-4 hours when you call before 2 PM. We provide junk removal San Diego today for homeowners and businesses in <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a>, <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a>, and throughout the county.
                     </p>
 
                     <p className="text-gray-700 mb-6">
-                      When you need <strong>fast junk removal San Diego</strong> that actually shows up today, we've got you covered. Unlike national chains that book you out days or weeks, we're local teams positioned throughout San Diego County. We serve <a href="/junk-removal-north-park" className="text-blue-600 hover:underline">North Park</a>, <a href="/junk-removal-hillcrest" className="text-blue-600 hover:underline">Hillcrest</a>, and <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>. That means <strong>rapid junk removal San Diego</strong> without the wait—we dispatch immediately and arrive the same afternoon.
+                      When you need fast junk removal San Diego that actually shows up today, we've got you covered. Unlike national chains that book you out days or weeks, we're local teams positioned throughout San Diego County. We serve <a href="/junk-removal-north-park" className="text-blue-600 hover:underline">North Park</a>, <a href="/junk-removal-hillcrest" className="text-blue-600 hover:underline">Hillcrest</a>, and <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>. That means rapid junk removal San Diego without the wait—we dispatch immediately and arrive the same afternoon.
                     </p>
 
                     <p className="text-gray-700 mb-6">
-                      Our <strong>immediate junk removal San Diego</strong> service handles urgent situations where every hour counts in <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>, <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">Kearny Mesa</a>, and <a href="/junk-removal-clairemont" className="text-blue-600 hover:underline">Clairemont</a>. Contractor coming tomorrow? New furniture arriving this afternoon? Landlord inspection in hours? We provide <strong>instant junk removal San Diego</strong> when you need it most.
+                      Our immediate junk removal San Diego service handles urgent situations where every hour counts in <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>, <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">Kearny Mesa</a>, and <a href="/junk-removal-clairemont" className="text-blue-600 hover:underline">Clairemont</a>. Contractor coming tomorrow? New furniture arriving this afternoon? Landlord inspection in hours? We provide instant junk removal San Diego when you need it most.
                     </p>
 
                     {/* How Fast Can We Get There */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">How Fast Can We Get There?</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>quick junk removal San Diego</strong> service is built around speed and responsiveness.
+                      Our quick junk removal San Diego service is built around speed and responsiveness.
                     </p>
                     <div className="bg-blue-50 p-6 rounded-lg mb-6">
                       <ul className="space-y-3">
@@ -334,10 +334,10 @@ export default function SameDayJunkRemovalPage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Same Day Junk Removal"
-          description="Get answers to common questions about our <strong>same-day junk removal San Diego</strong> service and urgent pickup options."
+          description="Get answers to common questions about our same-day junk removal San Diego service and urgent pickup options."
           faqs={sameDayFAQs}
           ctaTitle="Need Same-Day Junk Removal Now?"
-          ctaDescription="Our <strong>same-day junk removal San Diego</strong> team is ready to help. Call now for immediate service and fast response times."
+          ctaDescription="Our same-day junk removal San Diego team is ready to help. Call now for immediate service and fast response times."
           includeSchema={false}
         />
 

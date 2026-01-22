@@ -188,16 +188,16 @@ export default function HotTubRemovalSanDiegoPage() {
                         Professional Hot Tub Removal San Diego - Complete Spa Disposal Services
                       </h2>
                 <p className="text-lg mb-6">
-                  When your hot tub has reached the end of its life or you're ready for a backyard makeover, Severin Cleaners provides professional <strong>hot tub removal San Diego</strong> services that handle every aspect of spa disposal safely and efficiently. Our experienced team specializes in removing all types of hot tubs, spas, and pool equipment throughout San Diego County with same-day service available.
+                  When your hot tub has reached the end of its life or you're ready for a backyard makeover, Severin Cleaners provides professional hot tub removal San Diego services that handle every aspect of spa disposal safely and efficiently. Our experienced team specializes in removing all types of hot tubs, spas, and pool equipment throughout San Diego County with same-day service available.
                 </p>
 
                 <p className="text-lg mb-6">
-                  Our <strong>spa removal San Diego</strong> service covers everything from small portable spas to large built-in Jacuzzis, including proper disconnection of plumbing, gas, and electrical systems. Whether you're renovating your backyard, selling your home, or dealing with a broken hot tub, we provide complete spa disposal San Diego that's safe, fast, and environmentally responsible. We also offer <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">deck removal and debris</a>, <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">outdoor furniture removal</a>, and <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial spa services</a>.
+                  Our spa removal San Diego service covers everything from small portable spas to large built-in Jacuzzis, including proper disconnection of plumbing, gas, and electrical systems. Whether you're renovating your backyard, selling your home, or dealing with a broken hot tub, we provide complete spa disposal San Diego that's safe, fast, and environmentally responsible. We also offer <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">deck removal and debris</a>, <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">outdoor furniture removal</a>, and <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial spa services</a>.
                 </p>
 
                 <h3 className="text-2xl font-bold mt-8 mb-4">Complete Jacuzzi Removal San Diego Services</h3>
                 <p className="text-lg mb-4">
-                  Severin Cleaners offers comprehensive <strong>hot tub removal San Diego</strong> services for all types of spas and backyard water features:
+                  Severin Cleaners offers comprehensive hot tub removal San Diego services for all types of spas and backyard water features:
                 </p>
 
                 <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -215,7 +215,7 @@ export default function HotTubRemovalSanDiegoPage() {
                   <div>
                     <h4 className="text-xl font-bold mb-3 text-blue-600">Built-In Spa & Jacuzzi Removal</h4>
                     <ul className="list-disc pl-6 space-y-2">
-                      <li><strong>Jacuzzi removal San Diego</strong> including demolition</li>
+                      <li>Jacuzzi removal San Diego including demolition</li>
                       <li>In-ground spa excavation and removal</li>
                       <li>Custom-built hot tub dismantling</li>
                       <li>Concrete spa breaking and disposal</li>
@@ -252,7 +252,7 @@ export default function HotTubRemovalSanDiegoPage() {
 
                 <h3 className="text-2xl font-bold mt-8 mb-4">Our Professional Hot Tub Disposal Process</h3>
                 <p className="text-lg mb-4">
-                  When you choose our <strong>spa removal San Diego</strong> service, here's our comprehensive process for safe and efficient hot tub removal:
+                  When you choose our spa removal San Diego service, here's our comprehensive process for safe and efficient hot tub removal:
                 </p>
                 <ol className="list-decimal pl-6 mb-6 space-y-2">
                   <li><strong>Free Assessment & Quote:</strong> Professional evaluation of your hot tub type, access requirements, and utility connections for accurate pricing</li>
@@ -268,12 +268,12 @@ export default function HotTubRemovalSanDiegoPage() {
 
                 <h4 className="text-xl font-bold mb-3">Emergency Hot Tub Removal</h4>
                 <p className="text-lg mb-4">
-                  When hot tubs leak, malfunction, or need immediate removal due to property damage, our emergency <strong>hot tub removal San Diego</strong> service provides rapid response. We handle emergency situations including storm damage, electrical problems, and structural issues that require immediate spa removal for safety.
+                  When hot tubs leak, malfunction, or need immediate removal due to property damage, our emergency hot tub removal San Diego service provides rapid response. We handle emergency situations including storm damage, electrical problems, and structural issues that require immediate spa removal for safety.
                 </p>
 
                 <h4 className="text-xl font-bold mb-3">Luxury Spa & Custom Jacuzzi Removal</h4>
                 <p className="text-lg mb-4">
-                  San Diego's luxury homes in <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a>, and <a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a> often feature custom-built spas and high-end Jacuzzis requiring specialized removal techniques. Our <strong>Jacuzzi removal San Diego</strong> service includes experience with luxury installations, custom tile work, and integrated landscape features that require careful dismantling.
+                  San Diego's luxury homes in <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a>, and <a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a> often feature custom-built spas and high-end Jacuzzis requiring specialized removal techniques. Our Jacuzzi removal San Diego service includes experience with luxury installations, custom tile work, and integrated landscape features that require careful dismantling.
                 </p>
 
                 <h4 className="text-xl font-bold mb-3">Real Estate & Property Management Support</h4>
@@ -283,7 +283,7 @@ export default function HotTubRemovalSanDiegoPage() {
 
                 <h3 className="text-2xl font-bold mt-8 mb-4">Safety & Utility Disconnection Services</h3>
                 <p className="text-lg mb-4">
-                  Professional <strong>hot tub disposal</strong> requires safe disconnection of utilities that can pose safety hazards if handled improperly:
+                  Professional hot tub disposal requires safe disconnection of utilities that can pose safety hazards if handled improperly:
                 </p>
                 <ul className="list-disc pl-6 mb-6 space-y-2">
                   <li><strong>Electrical Disconnection:</strong> Safe disconnection of 220V electrical lines, GFCI systems, and control panels</li>
@@ -305,7 +305,7 @@ export default function HotTubRemovalSanDiegoPage() {
 
                 <h3 className="text-2xl font-bold mt-8 mb-4">San Diego Areas We Serve for Spa Removal</h3>
                 <p className="text-lg mb-4">
-                  Our <strong>hot tub removal San Diego</strong> service covers all major neighborhoods with same-day availability:
+                  Our hot tub removal San Diego service covers all major neighborhoods with same-day availability:
                 </p>
                 <div className="grid md:grid-cols-3 gap-4 mb-6">
                   <ul className="list-disc pl-4">
@@ -333,7 +333,7 @@ export default function HotTubRemovalSanDiegoPage() {
 
                 <h3 className="text-2xl font-bold mt-8 mb-4">Environmental Responsibility in Spa Disposal</h3>
                 <p className="text-lg mb-4">
-                  Severin Cleaners prioritizes environmentally responsible <strong>spa disposal San Diego</strong> practices:
+                  Severin Cleaners prioritizes environmentally responsible spa disposal San Diego practices:
                 </p>
                 <ul className="list-disc pl-6 mb-6 space-y-2">
                   <li><strong>Material Recycling:</strong> Fiberglass, acrylic, and metal components recycled through specialized facilities</li>
@@ -350,7 +350,7 @@ export default function HotTubRemovalSanDiegoPage() {
                     🏊‍♂️ Ready for Professional Hot Tub Removal?
                   </h3>
                   <p className="text-lg mb-4 text-gray-800">
-                    Transform your backyard with professional <strong>hot tub removal San Diego</strong> service. Same-day spa removal available throughout San Diego County. Book this week and save 15% on your spa disposal project!
+                    Transform your backyard with professional hot tub removal San Diego service. Same-day spa removal available throughout San Diego County. Book this week and save 15% on your spa disposal project!
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <a
@@ -401,10 +401,10 @@ export default function HotTubRemovalSanDiegoPage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Hot Tub Removal San Diego"
-          description="Get answers to common questions about our <strong>hot tub removal San Diego</strong> service, pricing, and spa disposal process."
+          description="Get answers to common questions about our hot tub removal San Diego service, pricing, and spa disposal process."
           faqs={hotTubFAQs}
           ctaTitle="Still Have Questions About Hot Tub Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>hot tub removal San Diego</strong> services, provide detailed quotes, or schedule your removal."
+          ctaDescription="Our experienced team is ready to answer any questions about our hot tub removal San Diego services, provide detailed quotes, or schedule your removal."
           includeSchema={false}
         />
       </main>
