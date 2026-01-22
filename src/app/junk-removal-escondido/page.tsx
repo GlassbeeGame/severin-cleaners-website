@@ -30,10 +30,10 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://severincleaners.com/images/junk-removal-escondido.jpg",
+        url: "https://severincleaners.com/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Junk Removal Escondido CA - Severin Cleaners",
+        alt: "Junk Removal Escondido - Severin Cleaners",
       },
     ],
   },
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Junk Removal Escondido | Same-Day Pickup & Hauling Service",
     description: "Professional junk removal Escondido services for homes and businesses. Expert junk removal Escondido CA team. Same-day service, licensed & insured.",
-    images: ["https://severincleaners.com/images/junk-removal-escondido.jpg"],
+    images: ["https://severincleaners.com/og-image.jpg"],
   },
   alternates: {
     canonical: "https://severincleaners.com/junk-removal-escondido",
@@ -68,23 +68,35 @@ export const metadata: Metadata = {
 const escondidoFAQs = [
     {
       question: "How much does junk removal Escondido cost?",
-      answer: "Our junk removal Escondido CA pricing is transparent and upfront. Most jobs range from $100 for single items to $495 for full-load cleanouts. All quotes include labor, hauling, and disposal fees with no hidden charges."
+      answer: "Our junk removal Escondido CA pricing is transparent and upfront with no hidden fees. Single item pickup starts at $100, perfect for removing one couch or appliance. Quarter-load service costs $249, ideal for small cleanouts like a closet or bathroom. Half-load runs $349 for garage corners or bedroom furniture. Three-quarter load is $429 for larger projects, and full-load service tops out at $495 for complete garage, estate, or commercial cleanouts. All prices include labor, hauling, disposal fees, and cleanup. Properties in Hidden Meadows, San Pasqual Valley, or downtown Escondido all receive the same transparent pricing—no surcharges for hillside access or narrow streets. We provide free estimates over the phone and confirm final pricing on-site before starting work, ensuring you know exactly what you'll pay."
     },
     {
       question: "Do you offer same-day service in Escondido?",
-      answer: "Yes — we provide same-day and next-day junk hauling when booked before 2 PM."
+      answer: "Yes, we provide same-day junk removal Escondido service when you call before noon. Our local North County team can often arrive within 2-4 hours for urgent situations throughout the 92025, 92026, and 92027 zip codes. Same-day service is especially valuable for time-sensitive needs like rental property turnovers, real estate closing deadlines, or emergency cleanouts after unexpected events. We coordinate scheduling around Escondido's traffic patterns—avoiding Valley Parkway congestion during morning and afternoon commutes—to ensure reliable arrival times. Even during busy weekends or peak moving season (May-September), our expanded crew capacity keeps same-day appointments available. Whether you're in downtown Escondido, hillside Hidden Meadows, or rural San Pasqual Valley, same-day junk hauling helps you meet deadlines without delay. Next-day service is available for all areas with flexible scheduling to match your availability."
     },
     {
-      question: "Do you serve rural or hillside properties?",
-      answer: "Absolutely. We handle hard-to-access areas like Hidden Meadows and Jesmond Dene with the right vehicles and crew size."
+      question: "What areas of Escondido do you serve?",
+      answer: "We provide junk removal throughout all of Escondido and surrounding North County areas. Our service covers downtown Escondido's historic core with its narrow streets and vintage apartments, hillside communities like Hidden Meadows and Jesmond Dene with steep driveways and gated access, the semi-rural San Pasqual Valley agricultural area with vineyard properties and horse facilities, established neighborhoods around Felicita Park, the commercial corridor along Centre City Parkway and Broadway, and newer developments near the Rancho Bernardo border. We regularly serve all three Escondido zip codes: 92025 (central Escondido), 92026 (northeastern areas), and 92027 (southern and western neighborhoods). Our trucks navigate everything from tight downtown alleys to long private driveways on multi-acre estates. We also serve nearby Vista, Poway, San Marcos, and Valley Center with the same reliable service and transparent pricing Escondido residents expect."
     },
     {
-      question: "Do you recycle or donate items?",
-      answer: "Yes. We partner with North County charities and recycling centers to minimize landfill use."
+      question: "Do you serve rural or hillside properties in Escondido?",
+      answer: "Absolutely. We specialize in challenging property access throughout Escondido's diverse terrain. Hidden Meadows hillside estates with steep, winding driveways are a regular part of our service area—we use appropriately sized trucks and plan routes in advance to handle elevation changes and narrow access roads. San Pasqual Valley agricultural properties with long driveways, vineyard debris, and farm equipment removal are well within our capabilities. Jesmond Dene's semi-rural hillside homes with limited street access and large-lot cleanouts receive the same professional service as downtown properties. Our crew brings extra equipment for properties requiring extended carries from house to truck, and we coordinate gate access codes and timing for gated communities. Rural Escondido properties often accumulate more outdoor debris—brush piles, old fencing, agricultural waste—and we handle these specialized removals with proper disposal at North County facilities. No property is too remote or difficult to access within Escondido and surrounding North County areas."
     },
     {
-      question: "Are you licensed and insured?",
-      answer: "Yes — we're fully licensed, insured, and compliant with San Diego County waste regulations."
+      question: "Do you recycle or donate items in Escondido?",
+      answer: "Yes, eco-friendly disposal is central to our junk removal Escondido service. We sort every load to maximize recycling and donation opportunities, minimizing what goes to landfills. Usable furniture, working appliances, and household goods in good condition go to North County charities including Goodwill, Salvation Army, and local family resource centers serving Escondido residents. Metal items—appliances, scrap metal, bed frames—are delivered to recycling facilities that process materials responsibly. Mattresses and box springs are taken to specialized recycling centers that break them down into foam, fabric, and metal components rather than sending them to landfills. Electronics go to certified e-waste recyclers who handle hazardous materials safely. Wood debris, yard waste, and organic materials are sent to composting facilities when possible. We're familiar with North County disposal regulations and use licensed facilities for construction debris, concrete, and other specialty materials, ensuring environmental compliance throughout the entire junk removal process."
+    },
+    {
+      question: "Are you licensed and insured for junk removal in Escondido?",
+      answer: "Yes, Severin Cleaners is fully licensed and insured to provide junk removal services throughout Escondido and all of San Diego County. We carry comprehensive general liability insurance that protects your property during the removal process—if our crew accidentally damages walls, floors, or landscaping while hauling items, our insurance covers repairs. Our licensing ensures compliance with California waste hauling regulations, San Diego County disposal requirements, and local Escondido ordinances. We use only licensed disposal facilities and transfer stations, providing documentation when needed for commercial clients or property management companies. Our team follows OSHA safety protocols for heavy lifting and hazardous material handling, protecting both crew and clients. For HOA-governed communities like Hidden Meadows, we provide proof of insurance upon request to meet community requirements. Business clients and property managers receive certificates of insurance for their records. Our licensing and insurance give you peace of mind that junk removal is handled professionally, legally, and safely throughout every Escondido neighborhood."
+    },
+    {
+      question: "Do you offer free estimates for Escondido junk removal?",
+      answer: "Yes, we provide free, no-obligation estimates for all junk removal Escondido jobs. You can get an initial estimate over the phone by describing what you need removed—we'll give you a price range based on estimated volume. For larger or complex jobs like full estate cleanouts, garage clearances, or commercial property removals, we offer free on-site estimates where our team visits your Escondido property to assess items and provide exact pricing. On-site estimates are especially helpful for Hidden Meadows properties with challenging access, San Pasqual Valley agricultural cleanouts with mixed debris types, or multi-unit apartment turnovers requiring coordination. During same-day service calls, we provide final pricing on arrival before starting work—you approve the quote before we touch anything. Our volume-based pricing is transparent and includes all labor, hauling, and disposal fees with no hidden charges for stairs, distance, or difficulty. Whether you're in downtown Escondido or rural areas, our free estimates ensure you know costs upfront without surprises."
+    },
+    {
+      question: "Can you remove construction debris in Escondido?",
+      answer: "Yes, we handle construction debris removal for Escondido residential and commercial projects of all sizes. Our service covers renovation debris from kitchen and bathroom remodels, demolition waste from room additions and structural changes, roofing materials like shingles and underlayment, drywall and lumber scraps from framing work, flooring removal including tile, hardwood, and carpet, window and door replacement materials, and general contractor cleanup after project completion. Escondido's active construction market—from downtown mixed-use developments to Hidden Meadows custom home builds to San Pasqual Valley barn renovations—creates consistent debris removal needs. We coordinate with contractors on timing, often providing same-day or next-day service to keep job sites clear and projects on schedule. For larger commercial projects along Centre City Parkway or new residential developments, we arrange multiple pickups as needed. All construction debris goes to licensed facilities that sort materials for recycling when possible. We handle permits and documentation required for commercial construction waste in Escondido, making contractor partnerships simple and compliant."
     }
   ];
 
@@ -126,6 +138,24 @@ export default function JunkRemovalEscondidoPage() {
           "@type": "State",
           "name": "California"
         }
+      },
+      {
+        "@type": "PostalCode",
+        "postalCode": "92025",
+        "addressLocality": "Escondido",
+        "addressRegion": "CA"
+      },
+      {
+        "@type": "PostalCode",
+        "postalCode": "92026",
+        "addressLocality": "Escondido",
+        "addressRegion": "CA"
+      },
+      {
+        "@type": "PostalCode",
+        "postalCode": "92027",
+        "addressLocality": "Escondido",
+        "addressRegion": "CA"
       }
     ],
     "openingHours": "Mo-Su 06:00-20:00",
@@ -135,7 +165,13 @@ export default function JunkRemovalEscondidoPage() {
       "reviewCount": "27",
       "bestRating": "5",
       "worstRating": "1"
-    }
+    },
+    "sameAs": [
+      "https://www.facebook.com/severinhauling",
+      "https://www.instagram.com/severinhauling/",
+      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
+    ]
   };
 
   const breadcrumbSchema = generateBreadcrumbSchema([
