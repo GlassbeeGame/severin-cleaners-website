@@ -218,10 +218,10 @@ export default function JunkRemovalOceansidePage() {
   };
 
   const nearbyLocations = [
+    { name: "Carlsbad", slug: "junk-removal-carlsbad" },
     { name: "Vista", slug: "junk-removal-vista" },
     { name: "Escondido", slug: "junk-removal-escondido" },
     { name: "Rancho Santa Fe", slug: "junk-removal-rancho-santa-fe" },
-    { name: "Poway", slug: "junk-removal-poway" },
   ];
 
   return (

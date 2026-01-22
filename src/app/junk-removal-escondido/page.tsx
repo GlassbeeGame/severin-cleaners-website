@@ -192,10 +192,10 @@ export default function JunkRemovalEscondidoPage() {
   };
 
   const nearbyLocations = [
+    { name: "Carlsbad", slug: "junk-removal-carlsbad" },
     { name: "Vista", slug: "junk-removal-vista" },
     { name: "Poway", slug: "junk-removal-poway" },
     { name: "Oceanside", slug: "junk-removal-oceanside" },
-    { name: "El Cajon", slug: "junk-removal-el-cajon" },
   ];
 
   return (

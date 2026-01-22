@@ -170,9 +170,9 @@ export default function JunkRemovalDelMarPage() {
   };
 
   const nearbyLocations = [
+    { name: "Carlsbad", slug: "junk-removal-carlsbad" },
     { name: "Rancho Santa Fe", slug: "junk-removal-rancho-santa-fe" },
     { name: "Carmel Valley", slug: "junk-removal-carmel-valley" },
-    { name: "Escondido", slug: "junk-removal-escondido" },
     { name: "La Jolla", slug: "junk-removal-la-jolla" },
   ];
 
