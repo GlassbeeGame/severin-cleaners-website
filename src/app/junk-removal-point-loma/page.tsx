@@ -66,23 +66,23 @@ export const metadata: Metadata = {
 const pointLomaFAQs = [
   {
     question: "Do you provide junk removal for military PCS moves in Point Loma?",
-    answer: "Yes, our <strong>Point Loma junk removal</strong> service specializes in military PCS moves and base housing transitions. We coordinate with Naval Base San Diego housing offices, work within tight PCS timelines, and provide special military discounts for active duty families. Our team understands base housing regulations and inspection requirements."
+    answer: "Yes, our Point Loma junk removal service specializes in military PCS moves and base housing transitions. We coordinate with Naval Base San Diego housing offices, work within tight PCS timelines, and provide special military discounts for active duty families. Our team understands base housing regulations and inspection requirements."
   },
   {
     question: "How much does junk removal cost in Point Loma?",
-    answer: "<strong>Single Item Pickup:</strong> Starting at $100<br /> <strong>1/4 Trailer Load:</strong> $249<br /> <strong>3/8 Trailer Load:</strong> $319<br /> <strong>1/2 Trailer Load:</strong> $349<br /> <strong>5/8 Trailer Load:</strong> $366<br /> <strong>3/4 Trailer Load:</strong> $429<br /> <strong>7/8 Trailer Load:</strong> $462<br /> <strong>Full Trailer Load:</strong> $495"
+    answer: "Single Item Pickup: Starting at $100<br /> <strong>1/4 Trailer Load:</strong> $249<br /> <strong>3/8 Trailer Load:</strong> $319<br /> <strong>1/2 Trailer Load:</strong> $349<br /> <strong>5/8 Trailer Load:</strong> $366<br /> <strong>3/4 Trailer Load:</strong> $429<br /> <strong>7/8 Trailer Load:</strong> $462<br /> <strong>Full Trailer Load:</strong> $495"
   },
   {
     question: "Do you handle coastal property cleanouts and storm debris?",
-    answer: "Absolutely. Our <strong>trash removal Point Loma</strong> service specializes in coastal property maintenance including storm debris cleanup, salt air corrosion disposal, and weather damage removal. We understand the unique challenges of Sunset Cliffs and oceanfront properties, providing environmentally responsible disposal methods."
+    answer: "Absolutely. Our trash removal Point Loma service specializes in coastal property maintenance including storm debris cleanup, salt air corrosion disposal, and weather damage removal. We understand the unique challenges of Sunset Cliffs and oceanfront properties, providing environmentally responsible disposal methods."
   },
   {
     question: "Can you provide same-day junk hauling in Liberty Station or Sunset Cliffs?",
-    answer: "Yes, we offer same-day <strong>junk pickup Point Loma</strong> service throughout Liberty Station, Sunset Cliffs, and all Point Loma neighborhoods. Our local team can respond quickly for urgent military moves, storm cleanup, or emergency coastal property needs while maintaining our commitment to quality and environmental responsibility."
+    answer: "Yes, we offer same-day junk pickup Point Loma service throughout Liberty Station, Sunset Cliffs, and all Point Loma neighborhoods. Our local team can respond quickly for urgent military moves, storm cleanup, or emergency coastal property needs while maintaining our commitment to quality and environmental responsibility."
   },
   {
     question: "Are your junk removal services eco-friendly and HOA-compliant?",
-    answer: "Yes, our <strong>Point Loma San Diego junk removal</strong> prioritizes environmental responsibility and community compliance. We donate usable items, recycle materials, and follow HOA guidelines for Liberty Station and coastal communities. Our service protects Point Loma's beautiful environment while respecting community standards."
+    answer: "Yes, our Point Loma San Diego junk removal prioritizes environmental responsibility and community compliance. We donate usable items, recycle materials, and follow HOA guidelines for Liberty Station and coastal communities. Our service protects Point Loma's beautiful environment while respecting community standards."
   }
 ];
 
@@ -165,17 +165,17 @@ export default function JunkRemovalPointLomaPage() {
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      <strong>Point Loma junk removal</strong> serves one of San Diego's most unique peninsulas, combining military base housing, historic coastal neighborhoods, and waterfront properties. Our <strong>junk hauling Point Loma</strong> team navigates Naval Base San Diego access protocols, Liberty Station's historic district, and Sunset Cliffs' narrow coastal streets with expertise. We provide same-day <strong>trash removal Point Loma</strong> with special support for military PCS moves, transparent pricing, and eco-friendly disposal throughout the Point Loma peninsula.
+                      Point Loma junk removal serves one of San Diego's most unique peninsulas, combining military base housing, historic coastal neighborhoods, and waterfront properties. Our junk hauling Point Loma team navigates Naval Base San Diego access protocols, Liberty Station's historic district, and Sunset Cliffs' narrow coastal streets with expertise. We provide same-day trash removal Point Loma with special support for military PCS moves, transparent pricing, and eco-friendly disposal throughout the Point Loma peninsula.
                     </p>
 
                     <p className="text-gray-700 mb-6">
-                      Point Loma's geography creates specific challenges for junk removal operations. The peninsula's narrow shape means most properties are within a mile of either the Pacific Ocean or San Diego Bay, exposing outdoor items to constant salt air that accelerates deterioration. Our <strong>Point Loma San Diego junk removal</strong> service has developed specialized expertise in this unique environment—we understand the base housing requirements that military families face during PCS moves, the access challenges of Sunset Cliffs' narrow coastal streets, and the historic property considerations at Liberty Station's converted Naval Training Center. Whether you're clearing base housing before transfer, renovating a Sunset Cliffs home, or managing a Liberty Station property, our team brings the specialized local experience that Point Loma's diverse neighborhoods require.
+                      Point Loma's geography creates specific challenges for junk removal operations. The peninsula's narrow shape means most properties are within a mile of either the Pacific Ocean or San Diego Bay, exposing outdoor items to constant salt air that accelerates deterioration. Our Point Loma San Diego junk removal service has developed specialized expertise in this unique environment—we understand the base housing requirements that military families face during PCS moves, the access challenges of Sunset Cliffs' narrow coastal streets, and the historic property considerations at Liberty Station's converted Naval Training Center. Whether you're clearing base housing before transfer, renovating a Sunset Cliffs home, or managing a Liberty Station property, our team brings the specialized local experience that Point Loma's diverse neighborhoods require.
                     </p>
 
                     {/* Neighborhoods Served */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Point Loma Neighborhoods We Serve</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>junk pickup Point Loma</strong> service covers the entire peninsula, from Naval Base housing to Cabrillo National Monument at the southern tip. Each Point Loma neighborhood presents unique characteristics—base housing requires security clearance coordination, Sunset Cliffs properties need careful coastal access navigation, and Liberty Station combines historic preservation considerations with modern mixed-use development:
+                      Our junk pickup Point Loma service covers the entire peninsula, from Naval Base housing to Cabrillo National Monument at the southern tip. Each Point Loma neighborhood presents unique characteristics—base housing requires security clearance coordination, Sunset Cliffs properties need careful coastal access navigation, and Liberty Station combines historic preservation considerations with modern mixed-use development:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <ul className="space-y-2">
@@ -196,7 +196,7 @@ export default function JunkRemovalPointLomaPage() {
                     {/* Major Streets */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Base Access</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Point Loma San Diego junk removal</strong> team knows all access routes throughout this peninsula community. Point Loma's unique geography—a narrow strip of land between Pacific and bay—creates limited through-routes, and our local knowledge ensures efficient navigation regardless of your property location:
+                      Our Point Loma San Diego junk removal team knows all access routes throughout this peninsula community. Point Loma's unique geography—a narrow strip of land between Pacific and bay—creates limited through-routes, and our local knowledge ensures efficient navigation regardless of your property location:
                     </p>
                     <ul className="grid md:grid-cols-2 gap-2 mb-6">
                       <li>• <strong>Rosecrans Street (CA-209):</strong> Main corridor running peninsula length with peak military commute traffic</li>
@@ -218,7 +218,7 @@ export default function JunkRemovalPointLomaPage() {
                     {/* Local Landmarks */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Point Loma Landmarks</h3>
                     <p className="text-gray-700 mb-4">
-                      We provide <strong>junk pickup Point Loma</strong> service near all community landmarks. These familiar locations help our crews navigate efficiently throughout the peninsula, where local knowledge of neighborhoods and landmark reference points ensures accurate routing and arrival estimates:
+                      We provide junk pickup Point Loma service near all community landmarks. These familiar locations help our crews navigate efficiently throughout the peninsula, where local knowledge of neighborhoods and landmark reference points ensures accurate routing and arrival estimates:
                     </p>
                     <div className="grid md:grid-cols-2 gap-2 mb-6">
                       <ul className="space-y-1">
@@ -240,7 +240,7 @@ export default function JunkRemovalPointLomaPage() {
                     {/* Traffic & Timing */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Traffic & Service Timing</h3>
                     <p className="text-gray-700 mb-4">
-                      Point Loma's unique geography creates specific traffic patterns that affect <strong>junk hauling Point Loma</strong> scheduling. The peninsula's limited access points and large military base generate predictable congestion that our dispatch team actively works around:
+                      Point Loma's unique geography creates specific traffic patterns that affect junk hauling Point Loma scheduling. The peninsula's limited access points and large military base generate predictable congestion that our dispatch team actively works around:
                     </p>
                     <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
                       <li><strong>Military Base Commute (6:30-8:30 AM, 3:30-5:30 PM):</strong> Rosecrans Street and Nimitz Boulevard experience heavy base traffic during shift changes as thousands of military and civilian personnel access Naval Base San Diego. We schedule residential junk removal outside these windows, typically arriving 9 AM-3 PM or after 6 PM to ensure efficient access throughout Point Loma neighborhoods without fighting base commute congestion.</li>
@@ -252,13 +252,13 @@ export default function JunkRemovalPointLomaPage() {
                     {/* Weather */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Coastal Climate Considerations</h3>
                     <p className="text-gray-700 mb-6">
-                      Point Loma's coastal position brings persistent marine layer May-August (cool, foggy mornings creating ideal working conditions) and mild year-round temperatures perfect for junk removal operations. However, the peninsula's exposure to both Pacific Ocean and San Diego Bay means double the salt air impact compared to single-coast locations. This accelerates rust on outdoor furniture, corrodes patio equipment, and deteriorates stored items faster than inland neighborhoods experience. We protect sensitive items during transport and schedule around winter storms that occasionally impact Sunset Cliffs coastal access roads. Our <strong>trash removal Point Loma</strong> service frequently handles salt-damaged outdoor items—from corroded patio furniture and rusted BBQ grills to weathered beach equipment that the harsh marine environment has rendered unusable. Many Point Loma residents schedule regular junk removal to clear deteriorating outdoor items before rust and corrosion spread to nearby property elements. The peninsula's wind exposure, particularly along Sunset Cliffs and Cabrillo Point, also means outdoor items take more abuse than sheltered inland locations, creating ongoing junk removal needs for coastal property owners.
+                      Point Loma's coastal position brings persistent marine layer May-August (cool, foggy mornings creating ideal working conditions) and mild year-round temperatures perfect for junk removal operations. However, the peninsula's exposure to both Pacific Ocean and San Diego Bay means double the salt air impact compared to single-coast locations. This accelerates rust on outdoor furniture, corrodes patio equipment, and deteriorates stored items faster than inland neighborhoods experience. We protect sensitive items during transport and schedule around winter storms that occasionally impact Sunset Cliffs coastal access roads. Our trash removal Point Loma service frequently handles salt-damaged outdoor items—from corroded patio furniture and rusted BBQ grills to weathered beach equipment that the harsh marine environment has rendered unusable. Many Point Loma residents schedule regular junk removal to clear deteriorating outdoor items before rust and corrosion spread to nearby property elements. The peninsula's wind exposure, particularly along Sunset Cliffs and Cabrillo Point, also means outdoor items take more abuse than sheltered inland locations, creating ongoing junk removal needs for coastal property owners.
                     </p>
 
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Point Loma</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Point Loma junk removal</strong> service handles the diverse mix of items found in this unique peninsula community—from military household goods during PCS moves to salt-damaged coastal property items, Liberty Station loft renovations to complete <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>. We offer <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture removal</a>, <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliance disposal</a>, and <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a>:
+                      Our Point Loma junk removal service handles the diverse mix of items found in this unique peninsula community—from military household goods during PCS moves to salt-damaged coastal property items, Liberty Station loft renovations to complete <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>. We offer <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture removal</a>, <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliance disposal</a>, and <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a>:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
@@ -361,10 +361,10 @@ export default function JunkRemovalPointLomaPage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Junk Removal Point Loma"
-          description="Get answers to common questions about our <strong>junk removal Point Loma</strong> services, pricing, and same-day availability."
+          description="Get answers to common questions about our junk removal Point Loma services, pricing, and same-day availability."
           faqs={pointLomaFAQs}
           ctaTitle="Still Have Questions About Point Loma Junk Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Point Loma</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our junk removal Point Loma services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
 

@@ -198,7 +198,7 @@ export default function JunkRemovalLaJollaPage() {
                         </p>
 
                         <p className="text-lg text-gray-700 mb-6">
-                          Our <strong>junk hauling La Jolla</strong> operation serves properties throughout the community, from cramped Village apartments steps from boutique shopping to sprawling Mount Soledad estates with panoramic ocean views. We've removed everything from single furniture pieces during interior design updates to complete multi-structure estate cleanouts involving main residences, guest houses, and pool pavilions. Each job receives the same meticulous attention to property protection, item handling, and community standards that La Jolla residents demand.
+                          Our junk hauling La Jolla operation serves properties throughout the community, from cramped Village apartments steps from boutique shopping to sprawling Mount Soledad estates with panoramic ocean views. We've removed everything from single furniture pieces during interior design updates to complete multi-structure estate cleanouts involving main residences, guest houses, and pool pavilions. Each job receives the same meticulous attention to property protection, item handling, and community standards that La Jolla residents demand.
                         </p>
 
                         <p className="text-lg mb-6 font-semibold text-gray-800 italic">
@@ -310,7 +310,7 @@ export default function JunkRemovalLaJollaPage() {
                           Navigating La Jolla's Unique Traffic Patterns
                         </h2>
                         <p className="text-lg text-gray-700 mb-6">
-                          Our <strong>junk hauling La Jolla</strong> crews understand the community's challenging coastal traffic patterns and navigate them expertly to ensure on-time arrivals at your luxury property:
+                          Our junk hauling La Jolla crews understand the community's challenging coastal traffic patterns and navigate them expertly to ensure on-time arrivals at your luxury property:
                         </p>
 
                         <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -350,7 +350,7 @@ export default function JunkRemovalLaJollaPage() {
                           La Jolla Weather & Coastal Environmental Factors
                         </h2>
                         <p className="text-lg text-gray-700 mb-6">
-                          La Jolla's unique microclimate and coastal location create specific challenges for <strong>trash removal La Jolla</strong> services. Our luxury-focused team adapts to these conditions:
+                          La Jolla's unique microclimate and coastal location create specific challenges for trash removal La Jolla services. Our luxury-focused team adapts to these conditions:
                         </p>
 
                         <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -375,7 +375,7 @@ export default function JunkRemovalLaJollaPage() {
                         <div className="bg-blue-100 p-6 rounded-lg mb-8">
                           <h3 className="text-xl font-bold mb-3 text-blue-900">Salt Air & Coastal Corrosion Protection</h3>
                           <p className="text-gray-700">
-                            Oceanfront and coastal properties from Bird Rock to La Jolla Farms experience constant salt air exposure that accelerates deterioration of stored items. Our <strong>junk pickup La Jolla</strong> service helps luxury homeowners maintain pristine coastal properties by removing salt-damaged furniture, corroded appliances, and weather-exposed outdoor items before they cause property damage.
+                            Oceanfront and coastal properties from Bird Rock to La Jolla Farms experience constant salt air exposure that accelerates deterioration of stored items. Our junk pickup La Jolla service helps luxury homeowners maintain pristine coastal properties by removing salt-damaged furniture, corroded appliances, and weather-exposed outdoor items before they cause property damage.
                           </p>
                         </div>
 
@@ -415,7 +415,7 @@ export default function JunkRemovalLaJollaPage() {
                         <div className="bg-green-50 p-6 rounded-lg mb-6">
                           <h3 className="text-xl font-bold mb-3 text-green-900">Luxury Item Handling Expertise</h3>
                           <p className="text-gray-700 mb-3">
-                            La Jolla estates feature museum-quality furnishings, priceless antiques, and designer pieces that require white-glove handling expertise. Our specialized <strong>La Jolla furniture removal</strong> team receives training in proper techniques for valuable items:
+                            La Jolla estates feature museum-quality furnishings, priceless antiques, and designer pieces that require white-glove handling expertise. Our specialized La Jolla furniture removal team receives training in proper techniques for valuable items:
                           </p>
                           <ul className="list-disc pl-6 space-y-1 text-gray-700">
                             <li>Custom Italian leather furniture and designer piece expertise</li>
@@ -430,7 +430,7 @@ export default function JunkRemovalLaJollaPage() {
                         <div className="bg-yellow-50 p-6 rounded-lg mb-8">
                           <h3 className="text-xl font-bold mb-3 text-yellow-900">Understanding Coastal Environmental Priorities</h3>
                           <p className="text-gray-700">
-                            La Jolla residents are passionate about protecting their pristine coastal environment. Our <strong>trash removal La Jolla</strong> service reflects these values with premium eco-luxury practices that exceed California coastal environmental standards while maintaining the discrete, professional service luxury estates demand.
+                            La Jolla residents are passionate about protecting their pristine coastal environment. Our trash removal La Jolla service reflects these values with premium eco-luxury practices that exceed California coastal environmental standards while maintaining the discrete, professional service luxury estates demand.
                           </p>
                         </div>
 
@@ -486,7 +486,7 @@ export default function JunkRemovalLaJollaPage() {
 
                         <h3 className="text-2xl font-bold mt-8 mb-4">Luxury Home Renovation Support</h3>
                         <p className="text-lg text-gray-700 mb-4">
-                          La Jolla's luxury properties frequently undergo multi-million dollar renovations to enhance ocean views, update historic details, or modernize for contemporary living. Our premium <strong>junk hauling La Jolla</strong> service provides construction debris removal and renovation support that maintains project timelines while preserving the neighborhood's ultra-exclusive character.
+                          La Jolla's luxury properties frequently undergo multi-million dollar renovations to enhance ocean views, update historic details, or modernize for contemporary living. Our premium junk hauling La Jolla service provides construction debris removal and renovation support that maintains project timelines while preserving the neighborhood's ultra-exclusive character.
                         </p>
                         <ul className="list-disc pl-6 mb-6 text-gray-700">
                           <li>High-end kitchen and bathroom remodel debris coordination</li>
@@ -538,10 +538,10 @@ export default function JunkRemovalLaJollaPage() {
           {/* FAQ Section */}
           <FAQSection
           title="Frequently Asked Questions - Junk Removal La Jolla"
-          description="Get answers to common questions about our <strong>junk removal La Jolla</strong> services, pricing, and same-day availability."
+          description="Get answers to common questions about our junk removal La Jolla services, pricing, and same-day availability."
           faqs={laJollaFAQs}
           ctaTitle="Still Have Questions About La Jolla Junk Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal La Jolla</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our junk removal La Jolla services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
 

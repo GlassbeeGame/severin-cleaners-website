@@ -717,10 +717,10 @@ export default function JunkRemovalCostPage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Junk Removal Cost"
-          description="Get answers to common questions about our <strong>junk removal Cost</strong> services, pricing, and same-day availability."
+          description="Get answers to common questions about our junk removal Cost services, pricing, and same-day availability."
           faqs={costFAQs}
           ctaTitle="Still Have Questions About Cost Junk Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Cost</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our junk removal Cost services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
 

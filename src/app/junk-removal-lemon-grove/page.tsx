@@ -66,23 +66,23 @@ export const metadata: Metadata = {
 const lemonGroveFAQs = [
   {
     question: "How much does junk removal cost in Lemon Grove?",
-    answer: "Our <strong>Lemon Grove junk removal</strong> pricing is transparent and affordable, designed with families and apartment residents in mind. We offer upfront pricing with no hidden fees:"
+    answer: "Our Lemon Grove junk removal pricing is transparent and affordable, designed with families and apartment residents in mind. We offer upfront pricing with no hidden fees:"
   },
   {
     question: "Do you offer same-day junk pickup in Lemon Grove?",
-    answer: "Yes, we provide same-day <strong>junk pickup Lemon Grove</strong> service for urgent needs throughout the community. Whether you're dealing with an apartment move-out deadline or unexpected family situation, our local team can respond quickly with professional, affordable service."
+    answer: "Yes, we provide same-day junk pickup Lemon Grove service for urgent needs throughout the community. Whether you're dealing with an apartment move-out deadline or unexpected family situation, our local team can respond quickly with professional, affordable service."
   },
   {
     question: "Can you handle junk hauling for apartments and multifamily housing?",
-    answer: "Absolutely. Our <strong>junk hauling Lemon Grove</strong> service specializes in apartment complexes and multifamily housing throughout the community. We coordinate with property managers, respect tenant privacy, and work efficiently to minimize disruption while providing affordable bulk item removal and turnover support."
+    answer: "Absolutely. Our junk hauling Lemon Grove service specializes in apartment complexes and multifamily housing throughout the community. We coordinate with property managers, respect tenant privacy, and work efficiently to minimize disruption while providing affordable bulk item removal and turnover support."
   },
   {
     question: "Do you provide trash removal services for small businesses in Lemon Grove?",
-    answer: "Yes, our <strong>trash removal Lemon Grove</strong> service supports local small businesses along Broadway and throughout the community. We offer flexible scheduling, competitive commercial rates, and regular service options that help small businesses maintain clean, professional spaces without breaking their budgets."
+    answer: "Yes, our trash removal Lemon Grove service supports local small businesses along Broadway and throughout the community. We offer flexible scheduling, competitive commercial rates, and regular service options that help small businesses maintain clean, professional spaces without breaking their budgets."
   },
   {
     question: "Are your junk removal services eco-friendly and affordable?",
-    answer: "Absolutely. Our <strong>Lemon Grove San Diego junk removal</strong> combines affordability with environmental responsibility and full regulatory compliance."
+    answer: "Absolutely. Our Lemon Grove San Diego junk removal combines affordability with environmental responsibility and full regulatory compliance."
   }
 ];
 
@@ -165,17 +165,17 @@ export default function JunkRemovalLemonGrovePage() {
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      <strong>Lemon Grove junk removal</strong> serves one of East County's most tight-knit family communities. From Broadway's diverse commercial corridor to Berry Street Park's residential neighborhoods, our <strong>junk hauling Lemon Grove</strong> team navigates compact streets, apartment complexes, and family homes with efficiency and care. We provide same-day <strong>trash removal Lemon Grove</strong> for apartment turnovers, family cleanouts, and small business needs throughout the 91945 area with transparent pricing and community-focused service.
+                      Lemon Grove junk removal serves one of East County's most tight-knit family communities. From Broadway's diverse commercial corridor to Berry Street Park's residential neighborhoods, our junk hauling Lemon Grove team navigates compact streets, apartment complexes, and family homes with efficiency and care. We provide same-day trash removal Lemon Grove for apartment turnovers, family cleanouts, and small business needs throughout the 91945 area with transparent pricing and community-focused service.
                     </p>
 
                     <p className="text-gray-700 mb-6">
-                      Our Lemon Grove operation is uniquely equipped to serve this diverse, family-oriented community. We understand that <strong>Lemon Grove San Diego junk removal</strong> requires more than just hauling equipment—it demands respect for working families, affordable pricing structures, coordination with apartment property managers, and the ability to work efficiently in one of East County's most densely populated areas. Whether you're clearing out a Broadway apartment after tenant move-out, removing accumulated storage from a family home near Lemon Grove Avenue, or handling a small business cleanout in the civic center area, our team brings the community understanding and affordable service Lemon Grove residents deserve.
+                      Our Lemon Grove operation is uniquely equipped to serve this diverse, family-oriented community. We understand that Lemon Grove San Diego junk removal requires more than just hauling equipment—it demands respect for working families, affordable pricing structures, coordination with apartment property managers, and the ability to work efficiently in one of East County's most densely populated areas. Whether you're clearing out a Broadway apartment after tenant move-out, removing accumulated storage from a family home near Lemon Grove Avenue, or handling a small business cleanout in the civic center area, our team brings the community understanding and affordable service Lemon Grove residents deserve.
                     </p>
 
                     {/* Neighborhoods Served */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Lemon Grove Neighborhoods We Serve</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>apartment junk removal</strong> service covers every corner of Lemon Grove's compact community, from historic downtown properties to newer residential developments. We've completed thousands of junk removal jobs throughout Lemon Grove's diverse neighborhoods, each with unique access challenges and community characteristics that inform our service approach:
+                      Our apartment junk removal service covers every corner of Lemon Grove's compact community, from historic downtown properties to newer residential developments. We've completed thousands of junk removal jobs throughout Lemon Grove's diverse neighborhoods, each with unique access challenges and community characteristics that inform our service approach:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <ul className="space-y-2">
@@ -195,7 +195,7 @@ export default function JunkRemovalLemonGrovePage() {
                     {/* Major Streets */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access Points</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Lemon Grove San Diego junk removal</strong> team knows every street and alley in this compact East County community. This local expertise matters when navigating the area's challenging infrastructure—narrow residential streets, limited street parking, apartment complex parking restrictions, and shared commercial loading zones. We plan each <strong>junk pickup Lemon Grove</strong> job with detailed access coordination to ensure efficient service:
+                      Our Lemon Grove San Diego junk removal team knows every street and alley in this compact East County community. This local expertise matters when navigating the area's challenging infrastructure—narrow residential streets, limited street parking, apartment complex parking restrictions, and shared commercial loading zones. We plan each junk pickup Lemon Grove job with detailed access coordination to ensure efficient service:
                     </p>
                     <ul className="grid md:grid-cols-2 gap-2 mb-6">
                       <li>• <strong>Broadway:</strong> Main east-west commercial artery with mixed-use buildings and peak congestion periods</li>
@@ -211,7 +211,7 @@ export default function JunkRemovalLemonGrovePage() {
                     {/* Local Landmarks */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Lemon Grove Landmarks & Reference Points</h3>
                     <p className="text-gray-700 mb-4">
-                      We provide <strong>junk removal Lemon Grove</strong> service near all major community landmarks. These familiar reference points help us navigate quickly to your property and provide accurate arrival time estimates. Our crews use local landmarks for efficient routing throughout this close-knit community where neighbors know each other by name:
+                      We provide junk removal Lemon Grove service near all major community landmarks. These familiar reference points help us navigate quickly to your property and provide accurate arrival time estimates. Our crews use local landmarks for efficient routing throughout this close-knit community where neighbors know each other by name:
                     </p>
                     <div className="grid md:grid-cols-2 gap-2 mb-6">
                       <ul className="space-y-1">
@@ -235,7 +235,7 @@ export default function JunkRemovalLemonGrovePage() {
                     {/* Traffic & Timing */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Traffic Patterns & Service Timing</h3>
                     <p className="text-gray-700 mb-4">
-                      Lemon Grove's compact layout and commuter traffic affect <strong>trash removal Lemon Grove</strong> timing throughout the day. Our dispatch team actively monitors local traffic patterns and coordinates with you to schedule service windows that minimize disruption while maximizing efficiency. We've developed specific timing protocols for different Lemon Grove areas and property types:
+                      Lemon Grove's compact layout and commuter traffic affect trash removal Lemon Grove timing throughout the day. Our dispatch team actively monitors local traffic patterns and coordinates with you to schedule service windows that minimize disruption while maximizing efficiency. We've developed specific timing protocols for different Lemon Grove areas and property types:
                     </p>
                     <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
                       <li><strong>Weekday morning rush (7-9 AM):</strong> Broadway and Massachusetts Avenue experience heavy commuter traffic as residents head to I-94 and Route 94. School zones around Berry Street and Mt. Vernon Elementary require careful navigation. We recommend mid-morning (9 AM-12 PM) service windows when streets clear and parking becomes available near apartment complexes and residential properties.</li>
@@ -253,7 +253,7 @@ export default function JunkRemovalLemonGrovePage() {
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Lemon Grove</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Lemon Grove junk removal</strong> service handles the diverse mix of items common to family homes and apartment living—from furniture to appliances to accumulated household items. We remove everything from single pieces to complete apartment and home cleanouts:
+                      Our Lemon Grove junk removal service handles the diverse mix of items common to family homes and apartment living—from furniture to appliances to accumulated household items. We remove everything from single pieces to complete apartment and home cleanouts:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
@@ -299,7 +299,7 @@ export default function JunkRemovalLemonGrovePage() {
                     <div className="bg-blue-50 rounded-lg p-6 mb-6">
                       <ol className="space-y-3 text-gray-700">
                         <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe what you need removed and your Lemon Grove location. For apartments, let us know about parking restrictions or elevator access. We'll provide estimated pricing based on volume and schedule your service window.</li>
-                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> <strong>junk pickup Lemon Grove</strong> service throughout the community. We coordinate with apartment property managers for access and schedule around your availability for residential properties.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> junk pickup Lemon Grove service throughout the community. We coordinate with apartment property managers for access and schedule around your availability for residential properties.</li>
                         <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives in clearly marked trucks during your scheduled window. We assess items for removal and provide a final quote before starting work—no hidden fees or surprises. For apartment complexes, we coordinate with management offices as needed.</li>
                         <li><strong>4. We Load & Haul Everything:</strong> Our team does all lifting, loading, and hauling. We protect floors and doorways, navigate apartment hallways and elevators, and complete removal efficiently. You simply point—we handle the rest, including proper disposal coordination.</li>
                         <li><strong>5. Eco-Friendly Disposal:</strong> We sort items for donation, recycling, and responsible disposal. Usable furniture goes to local East County charities, recyclables to proper facilities, and only true trash to landfill as last resort. We support Lemon Grove's community organizations whenever possible.</li>
@@ -356,10 +356,10 @@ export default function JunkRemovalLemonGrovePage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Junk Removal Lemon Grove"
-          description="Get answers to common questions about our <strong>junk removal Lemon Grove</strong> services, pricing, and same-day availability."
+          description="Get answers to common questions about our junk removal Lemon Grove services, pricing, and same-day availability."
           faqs={lemonGroveFAQs}
           ctaTitle="Still Have Questions About Lemon Grove Junk Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Lemon Grove</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our junk removal Lemon Grove services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
 

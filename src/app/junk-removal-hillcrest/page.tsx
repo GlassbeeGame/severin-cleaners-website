@@ -78,23 +78,23 @@ const breadcrumbSchema = generateBreadcrumbSchema([
 const hillcrestFAQs = [
   {
     question: "How much does junk removal cost in Hillcrest?",
-    answer: "<strong>Single Item Pickup:</strong> Starting at $100<br /> <strong>1/4 Trailer Load:</strong> $249<br /> <strong>3/8 Trailer Load:</strong> $319<br /> <strong>1/2 Trailer Load:</strong> $349<br /> <strong>5/8 Trailer Load:</strong> $366<br /> <strong>3/4 Trailer Load:</strong> $429<br /> <strong>7/8 Trailer Load:</strong> $462<br /> <strong>Full Trailer Load:</strong> $495"
+    answer: "Single Item Pickup: Starting at $100<br /> <strong>1/4 Trailer Load:</strong> $249<br /> <strong>3/8 Trailer Load:</strong> $319<br /> <strong>1/2 Trailer Load:</strong> $349<br /> <strong>5/8 Trailer Load:</strong> $366<br /> <strong>3/4 Trailer Load:</strong> $429<br /> <strong>7/8 Trailer Load:</strong> $462<br /> <strong>Full Trailer Load:</strong> $495"
   },
   {
     question: "Do you provide junk removal for high-rise condos and apartments?",
-    answer: "Yes, our <strong>junk hauling Hillcrest</strong> service specializes in high-rise and apartment cleanouts. We coordinate with building management, schedule elevator time, and handle all access logistics. Our team is experienced with condo association requirements and maintains professional standards for upscale properties throughout the urban core."
+    answer: "Yes, our junk hauling Hillcrest service specializes in high-rise and apartment cleanouts. We coordinate with building management, schedule elevator time, and handle all access logistics. Our team is experienced with condo association requirements and maintains professional standards for upscale properties throughout the urban core."
   },
   {
     question: "Can you handle limited parking and narrow streets in Hillcrest?",
-    answer: "Absolutely. Our <strong>urban junk removal San Diego</strong> team specializes in navigating Hillcrest's narrow streets, limited parking, and time-restricted loading zones. We secure necessary permits, coordinate with city regulations, and use appropriately sized vehicles to access urban properties while minimizing neighborhood disruption."
+    answer: "Absolutely. Our urban junk removal San Diego team specializes in navigating Hillcrest's narrow streets, limited parking, and time-restricted loading zones. We secure necessary permits, coordinate with city regulations, and use appropriately sized vehicles to access urban properties while minimizing neighborhood disruption."
   },
   {
     question: "Do you offer same-day junk hauling in Hillcrest and University Heights?",
-    answer: "Yes, we provide same-day <strong>junk pickup Hillcrest</strong> and <strong>University Heights junk removal</strong> for urgent needs. Our urban-focused team can respond quickly throughout the central San Diego area. Same-day availability depends on scheduling and may require coordination with building management for access."
+    answer: "Yes, we provide same-day junk pickup Hillcrest and University Heights junk removal for urgent needs. Our urban-focused team can respond quickly throughout the central San Diego area. Same-day availability depends on scheduling and may require coordination with building management for access."
   },
   {
     question: "Are you experienced with historic homes and older buildings?",
-    answer: "Yes, our <strong>trash removal Hillcrest</strong> service has extensive experience with historic properties and vintage buildings. We understand preservation requirements, structural considerations, and special handling needs for historic homes. Our team protects architectural features and follows best practices for working in sensitive historic environments."
+    answer: "Yes, our trash removal Hillcrest service has extensive experience with historic properties and vintage buildings. We understand preservation requirements, structural considerations, and special handling needs for historic homes. Our team protects architectural features and follows best practices for working in sensitive historic environments."
   }
 ];
 
@@ -179,15 +179,15 @@ export default function JunkRemovalHillcrestPage() {
                       </h2>
 
                       <p className="text-lg text-gray-700 mb-6">
-                        Hillcrest junk removal demands specialized understanding of San Diego's historic urban core. From hillside bungalows with narrow street access to modern high-rise condos requiring building coordination, our <strong>junk hauling Hillcrest</strong> service navigates this neighborhood's unique challenges with expertise. We understand limited parking on Fifth Avenue, steep hillside driveways, elevator scheduling for Robinson Avenue towers, and the historic property care that century-old homes require throughout the 92103 zip code.
+                        Hillcrest junk removal demands specialized understanding of San Diego's historic urban core. From hillside bungalows with narrow street access to modern high-rise condos requiring building coordination, our junk hauling Hillcrest service navigates this neighborhood's unique challenges with expertise. We understand limited parking on Fifth Avenue, steep hillside driveways, elevator scheduling for Robinson Avenue towers, and the historic property care that century-old homes require throughout the 92103 zip code.
                       </p>
 
                       <p className="text-lg text-gray-700 mb-6">
-                        Whether you need <strong>junk pickup Hillcrest</strong> for a medical district condo cleanout near UCSD Hillcrest or Mercy Hospital, furniture removal from a Victorian home on Fourth Avenue, or apartment turnover in one of the neighborhood's many multi-story buildings, our team provides efficient service. From Washington Street's commercial corridor to the residential streets climbing toward Balboa Park, we deliver same-day <strong>trash removal Hillcrest</strong> that urban core residents depend on.
+                        Whether you need junk pickup Hillcrest for a medical district condo cleanout near UCSD Hillcrest or Mercy Hospital, furniture removal from a Victorian home on Fourth Avenue, or apartment turnover in one of the neighborhood's many multi-story buildings, our team provides efficient service. From Washington Street's commercial corridor to the residential streets climbing toward Balboa Park, we deliver same-day trash removal Hillcrest that urban core residents depend on.
                       </p>
 
                       <p className="text-lg text-gray-700 mb-6">
-                        Our <strong>urban junk removal San Diego</strong> operation serves one of the city's most densely populated and diverse communities. Hillcrest's mix of historic homes, modern condos, medical facilities, and active LGBTQ+ community creates distinct service requirements—parking permits, building access coordination, and timing around the neighborhood's vibrant street life. We've handled everything from single furniture pieces in walk-up apartments to complete estate cleanouts in multi-level Victorian homes, always respecting Hillcrest's inclusive community character.
+                        Our urban junk removal San Diego operation serves one of the city's most densely populated and diverse communities. Hillcrest's mix of historic homes, modern condos, medical facilities, and active LGBTQ+ community creates distinct service requirements—parking permits, building access coordination, and timing around the neighborhood's vibrant street life. We've handled everything from single furniture pieces in walk-up apartments to complete estate cleanouts in multi-level Victorian homes, always respecting Hillcrest's inclusive community character.
                       </p>
 
                       <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12">
@@ -195,7 +195,7 @@ export default function JunkRemovalHillcrestPage() {
                       </h2>
 
                       <p className="text-lg text-gray-700 mb-6">
-                        Our comprehensive <strong>junk hauling Hillcrest</strong> coverage extends throughout all distinct areas of this historic urban neighborhood:
+                        Our comprehensive junk hauling Hillcrest coverage extends throughout all distinct areas of this historic urban neighborhood:
                       </p>
 
                       <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
@@ -311,7 +311,7 @@ export default function JunkRemovalHillcrestPage() {
                       </h2>
 
                       <p className="text-lg text-gray-700 mb-6">
-                        Our comprehensive <strong>trash removal Hillcrest</strong> service handles urban residential, medical district, and historic property needs:
+                        Our comprehensive trash removal Hillcrest service handles urban residential, medical district, and historic property needs:
                       </p>
 
                       <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -348,7 +348,7 @@ export default function JunkRemovalHillcrestPage() {
                       </h2>
 
                       <p className="text-lg text-gray-700 mb-6">
-                        Our streamlined process makes <strong>junk hauling Hillcrest</strong> simple for urban residents and businesses:
+                        Our streamlined process makes junk hauling Hillcrest simple for urban residents and businesses:
                       </p>
 
                       <div className="bg-blue-50 rounded-lg p-6 mb-8">
@@ -367,7 +367,7 @@ export default function JunkRemovalHillcrestPage() {
                       </h2>
 
                       <p className="text-lg text-gray-700 mb-6">
-                        Hillcrest's dense urban environment and historic character demand specialized expertise. Our <strong>Hillcrest junk removal</strong> team provides:
+                        Hillcrest's dense urban environment and historic character demand specialized expertise. Our Hillcrest junk removal team provides:
                       </p>
 
                       <div className="bg-gray-50 rounded-lg p-6 mb-8">
@@ -407,10 +407,10 @@ export default function JunkRemovalHillcrestPage() {
           {/* FAQ Section */}
           <FAQSection
           title="Frequently Asked Questions - Junk Removal Hillcrest"
-          description="Get answers to common questions about our <strong>junk removal Hillcrest</strong> services, pricing, and same-day availability."
+          description="Get answers to common questions about our junk removal Hillcrest services, pricing, and same-day availability."
           faqs={hillcrestFAQs}
           ctaTitle="Still Have Questions About Hillcrest Junk Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Hillcrest</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our junk removal Hillcrest services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
 

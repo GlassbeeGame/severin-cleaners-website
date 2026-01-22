@@ -66,23 +66,23 @@ export const metadata: Metadata = {
 const kearnyMesaFAQs = [
   {
     question: "How much does junk removal cost in Kearny Mesa?",
-    answer: "Our <strong>Kearny Mesa junk removal</strong> pricing is transparent and upfront with no hidden fees. Here's our standard pricing structure:"
+    answer: "Our Kearny Mesa junk removal pricing is transparent and upfront with no hidden fees. Here's our standard pricing structure:"
   },
   {
     question: "Do you provide same-day junk hauling in Kearny Mesa?",
-    answer: "Absolutely! We offer same-day <strong>junk pickup Kearny Mesa</strong> service for urgent commercial and residential needs. Our local team understands the fast-paced business environment of Kearny Mesa and can respond quickly for office closures, warehouse cleanouts, or emergency residential situations."
+    answer: "Absolutely! We offer same-day junk pickup Kearny Mesa service for urgent commercial and residential needs. Our local team understands the fast-paced business environment of Kearny Mesa and can respond quickly for office closures, warehouse cleanouts, or emergency residential situations."
   },
   {
     question: "Can you handle office and warehouse junk removal in Kearny Mesa?",
-    answer: "Yes! Our <strong>commercial junk removal Kearny Mesa</strong> service specializes in office cleanouts, warehouse junk hauling, and industrial equipment removal. We handle cubicles, filing cabinets, pallets, shelving, electronics, and construction debris. We offer flexible scheduling including after-hours and weekend service to minimize business disruption."
+    answer: "Yes! Our commercial junk removal Kearny Mesa service specializes in office cleanouts, warehouse junk hauling, and industrial equipment removal. We handle cubicles, filing cabinets, pallets, shelving, electronics, and construction debris. We offer flexible scheduling including after-hours and weekend service to minimize business disruption."
   },
   {
     question: "Do you recycle or donate items collected in Kearny Mesa?",
-    answer: "Absolutely. Our <strong>trash removal Kearny Mesa</strong> approach prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations."
+    answer: "Absolutely. Our trash removal Kearny Mesa approach prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations."
   },
   {
     question: "Is commercial junk removal available for Kearny Mesa businesses?",
-    answer: "Yes, we provide comprehensive <strong>commercial junk removal Kearny Mesa</strong> for businesses throughout the area including office parks, industrial complexes, auto dealerships, restaurants in Convoy District, and warehouse facilities. We offer business account pricing, flexible scheduling, and recurring service options tailored to your operational needs."
+    answer: "Yes, we provide comprehensive commercial junk removal Kearny Mesa for businesses throughout the area including office parks, industrial complexes, auto dealerships, restaurants in Convoy District, and warehouse facilities. We offer business account pricing, flexible scheduling, and recurring service options tailored to your operational needs."
   }
 ];
 
@@ -175,17 +175,17 @@ export default function JunkRemovalKearnyMesaPage() {
                       </h2>
 
                       <p className="text-lg mb-4 text-gray-700">
-                        <strong>Kearny Mesa junk removal</strong> serves San Diego's premier commercial and industrial hub, from the vibrant Convoy District restaurant scene to sprawling warehouse complexes and auto dealerships. Our <strong>junk hauling Kearny Mesa</strong> service specializes in both commercial operations—office cleanouts, warehouse debris removal, retail space clearing—and residential properties scattered throughout this business-focused community. We understand the fast-paced environment that makes Kearny Mesa essential to San Diego's economy.
+                        Kearny Mesa junk removal serves San Diego's premier commercial and industrial hub, from the vibrant Convoy District restaurant scene to sprawling warehouse complexes and auto dealerships. Our junk hauling Kearny Mesa service specializes in both commercial operations—office cleanouts, warehouse debris removal, retail space clearing—and residential properties scattered throughout this business-focused community. We understand the fast-paced environment that makes Kearny Mesa essential to San Diego's economy.
                       </p>
 
                       <p className="text-lg mb-6 text-gray-700">
-                        Whether you need <strong>commercial junk removal Kearny Mesa</strong> for an office renovation, warehouse cleanout, or restaurant equipment removal in Convoy District, our <strong>trash removal Kearny Mesa</strong> team provides flexible scheduling, competitive pricing, and expertise with industrial-scale projects. We serve businesses and residents throughout this diverse area, from I-805 industrial corridors to residential pockets near Serra Mesa, delivering professional solutions that keep Kearny Mesa moving.
+                        Whether you need commercial junk removal Kearny Mesa for an office renovation, warehouse cleanout, or restaurant equipment removal in Convoy District, our trash removal Kearny Mesa team provides flexible scheduling, competitive pricing, and expertise with industrial-scale projects. We serve businesses and residents throughout this diverse area, from I-805 industrial corridors to residential pockets near Serra Mesa, delivering professional solutions that keep Kearny Mesa moving.
                       </p>
 
                       {/* Neighborhoods/Districts */}
                       <h3 className="text-2xl font-bold mt-8 mb-4">Kearny Mesa Districts & Areas We Serve</h3>
                       <p className="text-gray-700 mb-4">
-                        Our <strong>junk pickup Kearny Mesa</strong> service covers the entire commercial district and surrounding residential areas. We've completed hundreds of projects throughout Kearny Mesa's unique zones, each requiring specialized expertise:
+                        Our junk pickup Kearny Mesa service covers the entire commercial district and surrounding residential areas. We've completed hundreds of projects throughout Kearny Mesa's unique zones, each requiring specialized expertise:
                       </p>
 
                       <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -208,7 +208,7 @@ export default function JunkRemovalKearnyMesaPage() {
                       {/* Major Streets */}
                       <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Commercial Corridors</h3>
                       <p className="text-gray-700 mb-4">
-                        Our <strong>junk hauling Kearny Mesa</strong> team navigates this commercial district's complex street network expertly. Understanding loading dock access, business hour restrictions, and truck routing regulations ensures efficient service:
+                        Our junk hauling Kearny Mesa team navigates this commercial district's complex street network expertly. Understanding loading dock access, business hour restrictions, and truck routing regulations ensures efficient service:
                       </p>
 
                       <ul className="grid md:grid-cols-2 gap-2 mb-6 text-gray-700">
@@ -246,7 +246,7 @@ export default function JunkRemovalKearnyMesaPage() {
                       {/* Traffic Patterns */}
                       <h3 className="text-2xl font-bold mt-8 mb-4">Navigating Kearny Mesa's Commercial Traffic</h3>
                       <p className="text-gray-700 mb-4">
-                        Our <strong>trash removal Kearny Mesa</strong> crews understand the business district's unique traffic patterns and schedule service to minimize disruption:
+                        Our trash removal Kearny Mesa crews understand the business district's unique traffic patterns and schedule service to minimize disruption:
                       </p>
 
                       <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -271,7 +271,7 @@ export default function JunkRemovalKearnyMesaPage() {
                       {/* Services */}
                       <h3 className="text-2xl font-bold mt-8 mb-4">Commercial & Residential Junk Removal Services</h3>
                       <p className="text-gray-700 mb-4">
-                        Our <strong>commercial junk removal Kearny Mesa</strong> service handles the full spectrum of business and residential needs throughout this diverse district. From small office cleanouts to large warehouse projects, we deliver professional solutions:
+                        Our commercial junk removal Kearny Mesa service handles the full spectrum of business and residential needs throughout this diverse district. From small office cleanouts to large warehouse projects, we deliver professional solutions:
                       </p>
 
                       <div className="grid md:grid-cols-2 gap-6 mb-6">
@@ -381,10 +381,10 @@ export default function JunkRemovalKearnyMesaPage() {
           {/* FAQ Section */}
           <FAQSection
           title="Frequently Asked Questions - Junk Removal Kearny Mesa"
-          description="Get answers to common questions about our <strong>junk removal Kearny Mesa</strong> services, pricing, and same-day availability."
+          description="Get answers to common questions about our junk removal Kearny Mesa services, pricing, and same-day availability."
           faqs={kearnyMesaFAQs}
           ctaTitle="Still Have Questions About Kearny Mesa Junk Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Kearny Mesa</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our junk removal Kearny Mesa services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
 

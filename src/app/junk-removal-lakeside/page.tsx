@@ -66,23 +66,23 @@ export const metadata: Metadata = {
 const lakesideFAQs = [
   {
     question: "How much does junk removal cost in Lakeside?",
-    answer: "Our <strong>Lakeside junk removal</strong> pricing is transparent and upfront with no hidden fees. We offer special rates for large properties, ranches, and recurring rural property maintenance:"
+    answer: "Our Lakeside junk removal pricing is transparent and upfront with no hidden fees. We offer special rates for large properties, ranches, and recurring rural property maintenance:"
   },
   {
     question: "Do you handle large property and ranch junk hauling?",
-    answer: "Yes, our <strong>junk hauling Lakeside</strong> service specializes in large properties, ranches, and agricultural facilities. We handle multi-acre cleanouts, ranch equipment disposal, barn cleanouts, and agricultural waste removal. Our team is experienced with the scale and unique requirements of East County's rural properties."
+    answer: "Yes, our junk hauling Lakeside service specializes in large properties, ranches, and agricultural facilities. We handle multi-acre cleanouts, ranch equipment disposal, barn cleanouts, and agricultural waste removal. Our team is experienced with the scale and unique requirements of East County's rural properties."
   },
   {
     question: "Can you provide same-day junk pickup in Lakeside?",
-    answer: "Absolutely. We provide same-day <strong>junk pickup Lakeside</strong> for urgent needs throughout East County rural areas. Our team can respond quickly for large property emergencies, seasonal cleanouts, or time-sensitive agricultural operations while respecting working ranch and farm schedules."
+    answer: "Absolutely. We provide same-day junk pickup Lakeside for urgent needs throughout East County rural areas. Our team can respond quickly for large property emergencies, seasonal cleanouts, or time-sensitive agricultural operations while respecting working ranch and farm schedules."
   },
   {
     question: "Do you remove yard debris and outdoor storage items?",
-    answer: "Yes, our <strong>trash removal Lakeside</strong> includes comprehensive yard debris removal, outdoor storage cleanouts, and landscaping waste disposal. We handle tree trimming debris, seasonal cleanup, garden renovation waste, and outdoor equipment disposal common to Lakeside's rural lifestyle."
+    answer: "Yes, our trash removal Lakeside includes comprehensive yard debris removal, outdoor storage cleanouts, and landscaping waste disposal. We handle tree trimming debris, seasonal cleanup, garden renovation waste, and outdoor equipment disposal common to Lakeside's rural lifestyle."
   },
   {
     question: "Are your junk removal services eco-friendly in East County?",
-    answer: "Absolutely. Our <strong>Lakeside San Diego junk removal</strong> prioritizes environmental responsibility through agricultural waste recycling, donation programs with local East County charities, and eco-friendly disposal methods that exceed local regulations."
+    answer: "Absolutely. Our Lakeside San Diego junk removal prioritizes environmental responsibility through agricultural waste recycling, donation programs with local East County charities, and eco-friendly disposal methods that exceed local regulations."
   }
 ];
 
@@ -165,17 +165,17 @@ export default function JunkRemovalLakesidePage() {
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      <strong>Lakeside junk removal</strong> serves one of East County's most spacious rural communities. From Riverview's large family homes to Eucalyptus Hills' multi-acre ranch properties, our <strong>junk hauling Lakeside</strong> team navigates unpaved roads, long driveways, and expansive properties with specialized equipment and expertise. We provide same-day <strong>trash removal Lakeside</strong> for ranch cleanouts, barn debris, and large property maintenance throughout the 92040 area with transparent pricing and eco-friendly disposal.
+                      Lakeside junk removal serves one of East County's most spacious rural communities. From Riverview's large family homes to Eucalyptus Hills' multi-acre ranch properties, our junk hauling Lakeside team navigates unpaved roads, long driveways, and expansive properties with specialized equipment and expertise. We provide same-day trash removal Lakeside for ranch cleanouts, barn debris, and large property maintenance throughout the 92040 area with transparent pricing and eco-friendly disposal.
                     </p>
 
                     <p className="text-gray-700 mb-6">
-                      Our Lakeside operation is uniquely equipped to handle the challenges of East County's rural lifestyle. We understand that <strong>Lakeside San Diego junk removal</strong> requires more than standard hauling trucks—it demands experience with agricultural properties, barn access, livestock coordination, and the ability to work efficiently on multi-acre estates where driveways can stretch a quarter-mile from the road. Whether you're clearing decades of accumulated equipment from a Willowbrook Estates property, removing old fencing materials from a working ranch, or handling a complete barn cleanout near Lake Jennings, our team brings the specialized rural property experience Lakeside demands.
+                      Our Lakeside operation is uniquely equipped to handle the challenges of East County's rural lifestyle. We understand that Lakeside San Diego junk removal requires more than standard hauling trucks—it demands experience with agricultural properties, barn access, livestock coordination, and the ability to work efficiently on multi-acre estates where driveways can stretch a quarter-mile from the road. Whether you're clearing decades of accumulated equipment from a Willowbrook Estates property, removing old fencing materials from a working ranch, or handling a complete barn cleanout near Lake Jennings, our team brings the specialized rural property experience Lakeside demands.
                     </p>
 
                     {/* Neighborhoods Served */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Lakeside Neighborhoods We Serve</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>large property junk removal</strong> service covers every corner of Lakeside's rural and suburban neighborhoods, from waterfront homes along Lake Jennings to hillside ranch estates in the backcountry. We've completed thousands of junk removal jobs throughout Lakeside's diverse areas, each with unique access challenges and property characteristics that inform our service approach:
+                      Our large property junk removal service covers every corner of Lakeside's rural and suburban neighborhoods, from waterfront homes along Lake Jennings to hillside ranch estates in the backcountry. We've completed thousands of junk removal jobs throughout Lakeside's diverse areas, each with unique access challenges and property characteristics that inform our service approach:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <ul className="space-y-2">
@@ -195,7 +195,7 @@ export default function JunkRemovalLakesidePage() {
                     {/* Major Streets */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access Routes</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Lakeside San Diego junk removal</strong> team knows every major road and private drive in East County's rural areas. This local expertise matters when navigating the region's challenging infrastructure—unpaved private roads, narrow ranch driveways, steep hillside access, and properties requiring four-wheel drive approach. We plan each <strong>junk pickup Lakeside</strong> job with detailed route assessment to ensure our trucks can reach remote properties efficiently:
+                      Our Lakeside San Diego junk removal team knows every major road and private drive in East County's rural areas. This local expertise matters when navigating the region's challenging infrastructure—unpaved private roads, narrow ranch driveways, steep hillside access, and properties requiring four-wheel drive approach. We plan each junk pickup Lakeside job with detailed route assessment to ensure our trucks can reach remote properties efficiently:
                     </p>
                     <ul className="grid md:grid-cols-2 gap-2 mb-6">
                       <li>• <strong>Woodside Avenue:</strong> Main north-south corridor through central Lakeside with standard residential access</li>
@@ -211,7 +211,7 @@ export default function JunkRemovalLakesidePage() {
                     {/* Local Landmarks */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Lakeside Landmarks & Reference Points</h3>
                     <p className="text-gray-700 mb-4">
-                      We provide <strong>junk removal Lakeside</strong> service near all major East County landmarks. These familiar reference points help us navigate quickly to your property and provide accurate arrival time estimates. Our crews use local landmarks for efficient routing throughout this expansive rural community where GPS coordinates often matter more than street addresses:
+                      We provide junk removal Lakeside service near all major East County landmarks. These familiar reference points help us navigate quickly to your property and provide accurate arrival time estimates. Our crews use local landmarks for efficient routing throughout this expansive rural community where GPS coordinates often matter more than street addresses:
                     </p>
                     <div className="grid md:grid-cols-2 gap-2 mb-6">
                       <ul className="space-y-1">
@@ -235,7 +235,7 @@ export default function JunkRemovalLakesidePage() {
                     {/* Traffic & Timing */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Traffic Patterns & Service Timing</h3>
                     <p className="text-gray-700 mb-4">
-                      Lakeside's rural character and I-8 commuter traffic affect <strong>trash removal Lakeside</strong> timing differently than urban areas. Our dispatch team actively monitors East County traffic patterns and coordinates with you to schedule service windows that minimize travel time while respecting ranch and farm operations. We've developed specific timing protocols for different Lakeside areas and property types:
+                      Lakeside's rural character and I-8 commuter traffic affect trash removal Lakeside timing differently than urban areas. Our dispatch team actively monitors East County traffic patterns and coordinates with you to schedule service windows that minimize travel time while respecting ranch and farm operations. We've developed specific timing protocols for different Lakeside areas and property types:
                     </p>
                     <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
                       <li><strong>Weekday commute hours (7-9 AM, 4-6 PM):</strong> I-8 freeway congestion affects our arrival times from central San Diego. Mapleview Street and Woodside Avenue experience school traffic morning and afternoon. For time-sensitive jobs, we recommend mid-morning (9 AM-12 PM) or early afternoon (1-3 PM) windows when roads are clear and we can navigate efficiently to rural properties.</li>
@@ -253,7 +253,7 @@ export default function JunkRemovalLakesidePage() {
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Lakeside</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Lakeside junk removal</strong> service handles the unique mix of items common to rural property living—from agricultural equipment to multi-acre yard debris to ranch building cleanouts. We remove everything from single items to complete multi-structure estate cleanouts:
+                      Our Lakeside junk removal service handles the unique mix of items common to rural property living—from agricultural equipment to multi-acre yard debris to ranch building cleanouts. We remove everything from single items to complete multi-structure estate cleanouts:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
@@ -299,7 +299,7 @@ export default function JunkRemovalLakesidePage() {
                     <div className="bg-blue-50 rounded-lg p-6 mb-6">
                       <ol className="space-y-3 text-gray-700">
                         <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe what you need removed and your Lakeside location. For rural properties, provide access details like gate codes or dirt road conditions. We'll provide estimated pricing based on volume and schedule your service window.</li>
-                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> <strong>junk pickup Lakeside</strong> service throughout East County rural areas. For remote properties or large ranch cleanouts, we recommend scheduling 24-48 hours ahead to coordinate access and ensure appropriate equipment.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> junk pickup Lakeside service throughout East County rural areas. For remote properties or large ranch cleanouts, we recommend scheduling 24-48 hours ahead to coordinate access and ensure appropriate equipment.</li>
                         <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives in clearly marked trucks during your scheduled window. We assess items for removal and provide a final quote before starting work—no hidden fees or surprises. For large properties, we walk the entire site to understand full scope.</li>
                         <li><strong>4. We Load & Haul Everything:</strong> Our team does all lifting, loading, and hauling. We protect floors and doorways, navigate barn access and ranch property challenges, and complete removal efficiently. You simply point—we handle the rest, including coordination around livestock and farm operations.</li>
                         <li><strong>5. Eco-Friendly Disposal:</strong> We sort items for donation, recycling, and responsible disposal. Usable furniture goes to local charities, agricultural materials to proper facilities, and recyclables to appropriate centers. Only true trash to landfill as last resort.</li>
@@ -356,10 +356,10 @@ export default function JunkRemovalLakesidePage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Junk Removal Lakeside"
-          description="Get answers to common questions about our <strong>junk removal Lakeside</strong> services, pricing, and same-day availability."
+          description="Get answers to common questions about our junk removal Lakeside services, pricing, and same-day availability."
           faqs={lakesideFAQs}
           ctaTitle="Still Have Questions About Lakeside Junk Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Lakeside</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our junk removal Lakeside services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
 

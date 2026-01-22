@@ -76,7 +76,7 @@ const laMesaFAQs = [
   },
   {
     question: "Can you handle hillside homes in Mount Helix?",
-    answer: "Yes—our <strong>junk removal La Mesa CA</strong> team is equipped for steep driveways and tight access roads."
+    answer: "Yes—our junk removal La Mesa CA team is equipped for steep driveways and tight access roads."
   },
   {
     question: "Do you serve downtown La Mesa Village?",
@@ -84,7 +84,7 @@ const laMesaFAQs = [
   },
   {
     question: "Are your services eco-friendly?",
-    answer: "Yes—we recycle and donate whenever possible to reduce landfill use at the <strong>La Mesa dump</strong>."
+    answer: "Yes—we recycle and donate whenever possible to reduce landfill use at the La Mesa dump."
   },
   {
     question: "How fast can you respond?",
@@ -171,17 +171,17 @@ export default function JunkRemovalLaMesaPage() {
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      <strong>La Mesa junk removal</strong> serves this vibrant East County community where hillside homes meet family neighborhoods and downtown village charm. From Mount Helix estates to Fletcher Hills properties to La Mesa Village apartments, our <strong>junk hauling La Mesa</strong> team navigates steep driveways, downtown parking restrictions, and East County terrain with expertise. We provide same-day <strong>junk pickup La Mesa</strong> as a faster, easier alternative to the crowded <strong>La Mesa dump</strong>, offering transparent pricing and complete service throughout the 91941 and 91942 areas.
+                      La Mesa junk removal serves this vibrant East County community where hillside homes meet family neighborhoods and downtown village charm. From Mount Helix estates to Fletcher Hills properties to La Mesa Village apartments, our junk hauling La Mesa team navigates steep driveways, downtown parking restrictions, and East County terrain with expertise. We provide same-day junk pickup La Mesa as a faster, easier alternative to the crowded <strong>La Mesa dump</strong>, offering transparent pricing and complete service throughout the 91941 and 91942 areas.
                     </p>
 
                     <p className="text-gray-700 mb-6">
-                      Our La Mesa operation is uniquely positioned to serve this diverse East County city. We understand that <strong>La Mesa CA junk removal</strong> requires more than just hauling capacity—it demands experience with hillside access on winding Mount Helix roads, knowledge of downtown Village parking logistics, familiarity with Grossmont area apartment complexes, and the ability to provide service that's more convenient than driving to the dump yourself. Whether you're clearing out a Mount Helix hillside estate, removing furniture from a La Mesa Village condo, or handling a garage cleanout near Lake Murray, our team brings the specialized local experience that makes junk removal easy and stress-free.
+                      Our La Mesa operation is uniquely positioned to serve this diverse East County city. We understand that La Mesa CA junk removal requires more than just hauling capacity—it demands experience with hillside access on winding Mount Helix roads, knowledge of downtown Village parking logistics, familiarity with Grossmont area apartment complexes, and the ability to provide service that's more convenient than driving to the dump yourself. Whether you're clearing out a Mount Helix hillside estate, removing furniture from a La Mesa Village condo, or handling a garage cleanout near Lake Murray, our team brings the specialized local experience that makes junk removal easy and stress-free.
                     </p>
 
                     {/* Neighborhoods Served */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">La Mesa Neighborhoods We Serve</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>trash removal La Mesa</strong> service covers every corner of this East County city, from hillside estates to valley neighborhoods to downtown urban properties. We've completed thousands of junk removal jobs throughout La Mesa's diverse areas, each with unique characteristics that inform our service approach:
+                      Our trash removal La Mesa service covers every corner of this East County city, from hillside estates to valley neighborhoods to downtown urban properties. We've completed thousands of junk removal jobs throughout La Mesa's diverse areas, each with unique characteristics that inform our service approach:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <ul className="space-y-2">
@@ -201,7 +201,7 @@ export default function JunkRemovalLaMesaPage() {
                     {/* Major Streets */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access Routes</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>junk hauling La Mesa</strong> team knows every major route and residential street throughout this East County city. This local expertise matters when navigating La Mesa's mix of hillside terrain, downtown congestion, and suburban neighborhoods. We plan each job with detailed access planning:
+                      Our junk hauling La Mesa team knows every major route and residential street throughout this East County city. This local expertise matters when navigating La Mesa's mix of hillside terrain, downtown congestion, and suburban neighborhoods. We plan each job with detailed access planning:
                     </p>
                     <ul className="grid md:grid-cols-2 gap-2 mb-6">
                       <li>• <strong>La Mesa Boulevard:</strong> Main east-west thoroughfare connecting downtown to residential areas</li>
@@ -217,7 +217,7 @@ export default function JunkRemovalLaMesaPage() {
                     {/* Local Landmarks */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">La Mesa Landmarks</h3>
                     <p className="text-gray-700 mb-4">
-                      We provide <strong>junk pickup La Mesa</strong> service near all major landmarks. These familiar reference points help us navigate quickly to your property and provide accurate arrival estimates throughout this diverse East County community:
+                      We provide junk pickup La Mesa service near all major landmarks. These familiar reference points help us navigate quickly to your property and provide accurate arrival estimates throughout this diverse East County community:
                     </p>
                     <div className="grid md:grid-cols-2 gap-2 mb-6">
                       <ul className="space-y-1">
@@ -241,7 +241,7 @@ export default function JunkRemovalLaMesaPage() {
                     {/* Traffic & Timing */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Traffic Patterns & Service Timing</h3>
                     <p className="text-gray-700 mb-4">
-                      La Mesa's East County location and mix of hillside and urban areas create unique traffic patterns that affect <strong>junk removal La Mesa</strong> scheduling. Our dispatch team actively monitors local traffic and coordinates with you to schedule service windows that maximize efficiency:
+                      La Mesa's East County location and mix of hillside and urban areas create unique traffic patterns that affect junk removal La Mesa scheduling. Our dispatch team actively monitors local traffic and coordinates with you to schedule service windows that maximize efficiency:
                     </p>
                     <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
                       <li><strong>Morning commute (6:30-9 AM):</strong> Heavy westbound traffic on La Mesa Boulevard and University Avenue as residents commute to San Diego. We recommend mid-morning (9:30 AM-2 PM) service windows when major corridors clear and residential street access improves significantly.</li>
@@ -259,7 +259,7 @@ export default function JunkRemovalLaMesaPage() {
                     {/* Dump Alternative */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">La Mesa Dump Alternative – Why Choose Our Service</h3>
                     <p className="text-gray-700 mb-4">
-                      Many La Mesa residents ask about the <strong>La Mesa dump</strong> when they need to dispose of junk. While the Sycamore Canyon Landfill serves the area, our <strong>La Mesa junk removal</strong> service offers significant advantages over making the trip yourself:
+                      Many La Mesa residents ask about the <strong>La Mesa dump</strong> when they need to dispose of junk. While the Sycamore Canyon Landfill serves the area, our La Mesa junk removal service offers significant advantages over making the trip yourself:
                     </p>
                     <div className="bg-blue-50 rounded-lg p-6 mb-6">
                       <h4 className="font-bold mb-3 text-blue-900">Why We're Better Than the Dump:</h4>
@@ -276,7 +276,7 @@ export default function JunkRemovalLaMesaPage() {
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in La Mesa</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>La Mesa junk removal</strong> service handles everything from single items to complete property cleanouts. We remove all the items you'd take to the dump—and more—with full-service convenience:
+                      Our La Mesa junk removal service handles everything from single items to complete property cleanouts. We remove all the items you'd take to the dump—and more—with full-service convenience:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
@@ -379,10 +379,10 @@ export default function JunkRemovalLaMesaPage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Junk Removal La Mesa"
-          description="Get answers to common questions about our <strong>junk removal La Mesa</strong> services, pricing, and same-day availability."
+          description="Get answers to common questions about our junk removal La Mesa services, pricing, and same-day availability."
           faqs={laMesaFAQs}
           ctaTitle="Still Have Questions About La Mesa Junk Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal La Mesa</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our junk removal La Mesa services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
 

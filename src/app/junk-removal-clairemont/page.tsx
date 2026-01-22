@@ -66,23 +66,23 @@ export const metadata: Metadata = {
 const clairemontFAQs = [
   {
     question: "How much does junk removal cost in Clairemont?",
-    answer: "Our <strong>Clairemont junk removal</strong> pricing is transparent and upfront with no hidden fees. Here's our standard pricing structure:"
+    answer: "Our Clairemont junk removal pricing is transparent and upfront with no hidden fees. Here's our standard pricing structure:"
   },
   {
     question: "Do you provide same-day junk hauling in Clairemont Mesa?",
-    answer: "Absolutely! We offer same-day <strong>junk pickup Clairemont Mesa</strong> service for urgent residential and commercial needs. Our local team understands Clairemont families' schedules and can respond quickly for emergency cleanouts, moving deadlines, or unexpected situations throughout North Clairemont, South Clairemont, and Clairemont Mesa East."
+    answer: "Absolutely! We offer same-day junk pickup Clairemont Mesa service for urgent residential and commercial needs. Our local team understands Clairemont families' schedules and can respond quickly for emergency cleanouts, moving deadlines, or unexpected situations throughout North Clairemont, South Clairemont, and Clairemont Mesa East."
   },
   {
     question: "Can you handle garage and attic cleanouts in Clairemont?",
-    answer: "Yes! Our <strong>trash removal Clairemont</strong> service specializes in garage cleanouts, attic clearing, and storage area organization. We handle everything from accumulated household items to old furniture, appliances, and boxes. Our team helps Clairemont families reclaim valuable space with efficient, respectful service."
+    answer: "Yes! Our trash removal Clairemont service specializes in garage cleanouts, attic clearing, and storage area organization. We handle everything from accumulated household items to old furniture, appliances, and boxes. Our team helps Clairemont families reclaim valuable space with efficient, respectful service."
   },
   {
     question: "Do you recycle or donate items collected in Clairemont?",
-    answer: "Absolutely. Our <strong>Clairemont junk removal</strong> approach prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations."
+    answer: "Absolutely. Our Clairemont junk removal approach prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations."
   },
   {
     question: "Is commercial junk removal available for Clairemont businesses?",
-    answer: "Yes, we provide comprehensive commercial <strong>junk hauling Clairemont</strong> for local businesses along Balboa Avenue and throughout Clairemont Mesa. Our services include office cleanouts, retail space clearing, restaurant equipment removal, and small business junk hauling. We offer flexible scheduling and competitive commercial rates to support Clairemont's business community."
+    answer: "Yes, we provide comprehensive commercial junk hauling Clairemont for local businesses along Balboa Avenue and throughout Clairemont Mesa. Our services include office cleanouts, retail space clearing, restaurant equipment removal, and small business junk hauling. We offer flexible scheduling and competitive commercial rates to support Clairemont's business community."
   }
 ];
 
@@ -176,17 +176,17 @@ export default function JunkremovalclairemontPage() {
                       </h2>
 
                       <p className="text-lg mb-4 text-gray-700">
-                        <strong>Clairemont junk removal</strong> requires understanding one of San Diego's most established family communities, from historic Clairemont Village to bustling Balboa Avenue corridor neighborhoods. Known for its mid-century homes, family-friendly parks, and convenient central location, Clairemont features diverse residential properties from North Clairemont hillside homes to South Clairemont bay-area communities. Our <strong>junk hauling Clairemont</strong> service specializes in garage cleanouts, family home decluttering, and residential property maintenance throughout this classic San Diego neighborhood.
+                        Clairemont junk removal requires understanding one of San Diego's most established family communities, from historic Clairemont Village to bustling Balboa Avenue corridor neighborhoods. Known for its mid-century homes, family-friendly parks, and convenient central location, Clairemont features diverse residential properties from North Clairemont hillside homes to South Clairemont bay-area communities. Our junk hauling Clairemont service specializes in garage cleanouts, family home decluttering, and residential property maintenance throughout this classic San Diego neighborhood.
                       </p>
 
                       <p className="text-lg mb-6 text-gray-700">
-                        Whether you need <strong>junk pickup Clairemont Mesa</strong> for a garage renovation project, family home organization, or estate cleanout support, our <strong>trash removal Clairemont</strong> team provides reliable service that respects the character of this established community. From Bay Park boundaries to Tecolote Canyon natural areas, we deliver professional solutions throughout all Clairemont neighborhoods while honoring the area's family-focused values and mid-century architectural heritage.
+                        Whether you need junk pickup Clairemont Mesa for a garage renovation project, family home organization, or estate cleanout support, our trash removal Clairemont team provides reliable service that respects the character of this established community. From Bay Park boundaries to Tecolote Canyon natural areas, we deliver professional solutions throughout all Clairemont neighborhoods while honoring the area's family-focused values and mid-century architectural heritage.
                       </p>
 
                       {/* Neighborhoods */}
                       <h3 className="text-2xl font-bold mt-8 mb-4">Clairemont Neighborhoods We Serve</h3>
                       <p className="text-gray-700 mb-4">
-                        Our <strong>Clairemont San Diego junk removal</strong> service covers every corner of this diverse community, from residential family neighborhoods to commercial corridors. We've completed thousands of projects throughout Clairemont's unique sub-districts, each with distinct characteristics that inform our service approach:
+                        Our Clairemont San Diego junk removal service covers every corner of this diverse community, from residential family neighborhoods to commercial corridors. We've completed thousands of projects throughout Clairemont's unique sub-districts, each with distinct characteristics that inform our service approach:
                       </p>
 
                       <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -209,7 +209,7 @@ export default function JunkremovalclairemontPage() {
                       {/* Major Streets */}
                       <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access Routes</h3>
                       <p className="text-gray-700 mb-4">
-                        Our <strong>junk hauling Clairemont</strong> team knows every street in this sprawling community. This local expertise matters when navigating Clairemont's grid-pattern streets, canyon interruptions, and freeway crossings. We plan each route efficiently to serve your property without unnecessary delays:
+                        Our junk hauling Clairemont team knows every street in this sprawling community. This local expertise matters when navigating Clairemont's grid-pattern streets, canyon interruptions, and freeway crossings. We plan each route efficiently to serve your property without unnecessary delays:
                       </p>
 
                       <ul className="grid md:grid-cols-2 gap-2 mb-6 text-gray-700">
@@ -247,7 +247,7 @@ export default function JunkremovalclairemontPage() {
                       {/* Traffic Patterns */}
                       <h3 className="text-2xl font-bold mt-8 mb-4">Navigating Clairemont's Traffic Patterns</h3>
                       <p className="text-gray-700 mb-4">
-                        Our <strong>trash removal Clairemont</strong> crews understand the neighborhood's traffic patterns and navigate them expertly to ensure on-time arrivals:
+                        Our trash removal Clairemont crews understand the neighborhood's traffic patterns and navigate them expertly to ensure on-time arrivals:
                       </p>
 
                       <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -272,7 +272,7 @@ export default function JunkremovalclairemontPage() {
                       {/* Services */}
                       <h3 className="text-2xl font-bold mt-8 mb-4">Junk Removal Services for Clairemont Families</h3>
                       <p className="text-gray-700 mb-4">
-                        Our <strong>junk pickup Clairemont Mesa</strong> service provides specialized attention to the area's classic mid-century family homes, many featuring attached garages, spacious yards, and decades of accumulated household items. We understand the unique needs of Clairemont families maintaining older homes and deliver solutions that help preserve these beloved family properties:
+                        Our junk pickup Clairemont Mesa service provides specialized attention to the area's classic mid-century family homes, many featuring attached garages, spacious yards, and decades of accumulated household items. We understand the unique needs of Clairemont families maintaining older homes and deliver solutions that help preserve these beloved family properties:
                       </p>
 
                       <div className="grid md:grid-cols-2 gap-6 mb-6">
@@ -380,10 +380,10 @@ export default function JunkremovalclairemontPage() {
           {/* FAQ Section */}
           <FAQSection
           title="Frequently Asked Questions - Junk Removal Clairemont"
-          description="Get answers to common questions about our <strong>junk removal Clairemont</strong> services, pricing, and same-day availability."
+          description="Get answers to common questions about our junk removal Clairemont services, pricing, and same-day availability."
           faqs={clairemontFAQs}
           ctaTitle="Still Have Questions About Clairemont Junk Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Clairemont</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our junk removal Clairemont services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
 

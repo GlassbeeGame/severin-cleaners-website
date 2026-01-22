@@ -70,23 +70,23 @@ export const metadata: Metadata = {
 const vistaFAQs = [
   {
     question: "How much does junk removal cost in Vista?",
-    answer: "Our <strong>Vista junk removal</strong> pricing is transparent and upfront with no hidden fees. Here's our standard pricing structure:"
+    answer: "Our Vista junk removal pricing is transparent and upfront with no hidden fees. Here's our standard pricing structure:"
   },
   {
     question: "Do you handle apartment and condo junk hauling in Vista?",
-    answer: "Yes! We specialize in apartment and condo <strong>junk pickup Vista</strong> services, especially in Downtown Vista Village and Shadowridge complexes. Our team navigates stairs, elevators, and tight spaces with care. We coordinate with property managers and respect HOA guidelines for all <strong>trash removal Vista</strong> projects."
+    answer: "Yes! We specialize in apartment and condo junk pickup Vista services, especially in Downtown Vista Village and Shadowridge complexes. Our team navigates stairs, elevators, and tight spaces with care. We coordinate with property managers and respect HOA guidelines for all trash removal Vista projects."
   },
   {
     question: "Can you provide same-day junk pickup in Vista?",
-    answer: "Absolutely! We offer same-day <strong>Vista junk removal</strong> service 7 days a week. Our local team can often arrive within 2-4 hours of your call for emergency cleanouts. Whether you need urgent help for moving deadlines or unexpected situations, our same-day <strong>junk hauling Vista</strong> service is ready to help."
+    answer: "Absolutely! We offer same-day Vista junk removal service 7 days a week. Our local team can often arrive within 2-4 hours of your call for emergency cleanouts. Whether you need urgent help for moving deadlines or unexpected situations, our same-day junk hauling Vista service is ready to help."
   },
   {
     question: "Do you work with Vista businesses and warehouses?",
-    answer: "Yes, we provide comprehensive commercial <strong>Vista San Diego junk removal</strong> for businesses throughout Vista Business Park, downtown breweries, and warehouse facilities. Our services include office cleanouts, retail space clearing, and industrial equipment removal. We work with contractors, property managers, and business owners on projects of all sizes."
+    answer: "Yes, we provide comprehensive commercial Vista San Diego junk removal for businesses throughout Vista Business Park, downtown breweries, and warehouse facilities. Our services include office cleanouts, retail space clearing, and industrial equipment removal. We work with contractors, property managers, and business owners on projects of all sizes."
   },
   {
     question: "Are your junk removal services eco-friendly in North County?",
-    answer: "Absolutely. Our <strong>Vista junk removal</strong> approach prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations."
+    answer: "Absolutely. Our Vista junk removal approach prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations."
   }
 ];
 
@@ -169,17 +169,17 @@ export default function JunkRemovalVistaPage() {
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      <strong>Vista junk removal</strong> serves one of North County's most dynamic cities, blending historic downtown character with modern suburban development. From the craft brewery district in Downtown Vista Village to hillside homes in Shadowridge, our <strong>junk hauling Vista</strong> team handles the diverse needs of this 19-square-mile North County community. We provide same-day <strong>trash removal Vista</strong> for family homes, apartments, and business properties throughout the 92081, 92083, and 92084 areas with transparent pricing and eco-friendly disposal.
+                      Vista junk removal serves one of North County's most dynamic cities, blending historic downtown character with modern suburban development. From the craft brewery district in Downtown Vista Village to hillside homes in Shadowridge, our junk hauling Vista team handles the diverse needs of this 19-square-mile North County community. We provide same-day trash removal Vista for family homes, apartments, and business properties throughout the 92081, 92083, and 92084 areas with transparent pricing and eco-friendly disposal.
                     </p>
 
                     <p className="text-gray-700 mb-6">
-                      Our Vista operation is strategically positioned to serve North County's varied property landscape. We understand that <strong>Vista San Diego junk removal</strong> requires knowledge of everything from compact downtown apartments near the Civic Center to expansive family homes in Rancho Buena Vista, from brewery cleanouts on Main Street to warehouse clearances in Vista Business Park. Whether you're removing furniture from a downtown condo, clearing garage storage from a Shadowridge family home, or handling commercial debris from a Buena Creek business, our team brings the versatility and local expertise North County properties demand.
+                      Our Vista operation is strategically positioned to serve North County's varied property landscape. We understand that Vista San Diego junk removal requires knowledge of everything from compact downtown apartments near the Civic Center to expansive family homes in Rancho Buena Vista, from brewery cleanouts on Main Street to warehouse clearances in Vista Business Park. Whether you're removing furniture from a downtown condo, clearing garage storage from a Shadowridge family home, or handling commercial debris from a Buena Creek business, our team brings the versatility and local expertise North County properties demand.
                     </p>
 
                     {/* Neighborhoods Served */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Vista Neighborhoods We Serve</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>junk removal Vista</strong> service covers every corner of this diverse North County city. We've completed thousands of jobs throughout Vista's varied neighborhoods, each with unique characteristics:
+                      Our junk removal Vista service covers every corner of this diverse North County city. We've completed thousands of jobs throughout Vista's varied neighborhoods, each with unique characteristics:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <ul className="space-y-2">
@@ -199,7 +199,7 @@ export default function JunkRemovalVistaPage() {
                     {/* Major Streets */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Vista San Diego junk removal</strong> team navigates every major route and neighborhood street in this sprawling North County city. We plan each <strong>junk pickup Vista</strong> job with detailed routing:
+                      Our Vista San Diego junk removal team navigates every major route and neighborhood street in this sprawling North County city. We plan each junk pickup Vista job with detailed routing:
                     </p>
                     <ul className="grid md:grid-cols-2 gap-2 mb-6">
                       <li>• <strong>Vista Village Drive:</strong> Main east-west corridor connecting downtown to eastern developments</li>
@@ -215,7 +215,7 @@ export default function JunkRemovalVistaPage() {
                     {/* Local Landmarks */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Vista Landmarks</h3>
                     <p className="text-gray-700 mb-4">
-                      We provide <strong>junk removal Vista</strong> service near all major North County landmarks:
+                      We provide junk removal Vista service near all major North County landmarks:
                     </p>
                     <div className="grid md:grid-cols-2 gap-2 mb-6">
                       <ul className="space-y-1">
@@ -239,7 +239,7 @@ export default function JunkRemovalVistaPage() {
                     {/* Traffic & Timing */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Traffic & Service Timing</h3>
                     <p className="text-gray-700 mb-4">
-                      Vista's role as a North County employment and residential center creates traffic patterns affecting <strong>junk hauling Vista</strong> timing:
+                      Vista's role as a North County employment and residential center creates traffic patterns affecting junk hauling Vista timing:
                     </p>
                     <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
                       <li><strong>Weekday commute hours (6:30-8:30 AM, 4-6 PM):</strong> Vista Village Drive, Sycamore Avenue, and SR-78 connections experience heavy commuter traffic as workers travel to/from coastal employment centers and inland destinations. We schedule mid-morning (9 AM-12 PM) or early afternoon (1-3 PM) service windows to avoid these peak periods, particularly for properties near major thoroughfares.</li>
@@ -257,7 +257,7 @@ export default function JunkRemovalVistaPage() {
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Vista</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Vista junk removal</strong> service handles diverse items reflecting North County's mixed residential and commercial character:
+                      Our Vista junk removal service handles diverse items reflecting North County's mixed residential and commercial character:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
@@ -304,7 +304,7 @@ export default function JunkRemovalVistaPage() {
                     <div className="bg-blue-50 rounded-lg p-6 mb-6">
                       <ol className="space-y-3 text-gray-700">
                         <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe your items and Vista location. We'll provide volume-based pricing and schedule your service window.</li>
-                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for same-day <strong>junk pickup Vista</strong> service throughout North County. We coordinate timing around traffic patterns and your schedule preferences.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for same-day junk pickup Vista service throughout North County. We coordinate timing around traffic patterns and your schedule preferences.</li>
                         <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives in clearly marked trucks during your scheduled window. We assess items and provide final pricing before starting—no hidden fees.</li>
                         <li><strong>4. We Load & Haul Everything:</strong> Our team handles all lifting and loading. We protect property, navigate tight spaces, and complete removal efficiently. You simply point—we handle the rest.</li>
                         <li><strong>5. Eco-Friendly Disposal:</strong> We sort for donation, recycling, and responsible disposal. Usable items go to North County charities, recyclables to proper facilities.</li>
@@ -361,10 +361,10 @@ export default function JunkRemovalVistaPage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Junk Removal Vista"
-          description="Get answers to common questions about our <strong>junk removal Vista</strong> services, pricing, and same-day availability."
+          description="Get answers to common questions about our junk removal Vista services, pricing, and same-day availability."
           faqs={vistaFAQs}
           ctaTitle="Still Have Questions About Vista Junk Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Vista</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our junk removal Vista services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
 

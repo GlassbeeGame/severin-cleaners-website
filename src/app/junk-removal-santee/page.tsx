@@ -66,23 +66,23 @@ export const metadata: Metadata = {
 const santeeFAQs = [
   {
     question: "How much does junk removal cost in Santee?",
-    answer: "Our <strong>Santee junk removal</strong> pricing is transparent and upfront with no hidden fees. We offer competitive rates for garage cleanouts, family homes, and apartment complexes:"
+    answer: "Our Santee junk removal pricing is transparent and upfront with no hidden fees. We offer competitive rates for garage cleanouts, family homes, and apartment complexes:"
   },
   {
     question: "Do you handle garage cleanouts and bulky item pickup in Santee?",
-    answer: "Absolutely. Our <strong>junk hauling Santee</strong> service specializes in garage cleanouts and bulky item removal throughout East County. We handle furniture, appliances, exercise equipment, and accumulated household items, helping families reclaim garage space for vehicles and organized storage."
+    answer: "Absolutely. Our junk hauling Santee service specializes in garage cleanouts and bulky item removal throughout East County. We handle furniture, appliances, exercise equipment, and accumulated household items, helping families reclaim garage space for vehicles and organized storage."
   },
   {
     question: "Can you provide same-day junk hauling in Santee?",
-    answer: "Yes, we offer same-day <strong>junk pickup Santee</strong> service for urgent needs throughout Carlton Hills, Sky Ranch, and all Santee neighborhoods. Our East County team can respond quickly for family emergencies, property management needs, or time-sensitive home organization projects."
+    answer: "Yes, we offer same-day junk pickup Santee service for urgent needs throughout Carlton Hills, Sky Ranch, and all Santee neighborhoods. Our East County team can respond quickly for family emergencies, property management needs, or time-sensitive home organization projects."
   },
   {
     question: "Do you work with Santee property managers and apartment complexes?",
-    answer: "Yes, our <strong>trash removal Santee</strong> service provides comprehensive support for property managers and apartment complexes throughout East County. We coordinate tenant turnovers, common area cleanouts, and bulk item removal with flexible scheduling and competitive commercial rates."
+    answer: "Yes, our trash removal Santee service provides comprehensive support for property managers and apartment complexes throughout East County. We coordinate tenant turnovers, common area cleanouts, and bulk item removal with flexible scheduling and competitive commercial rates."
   },
   {
     question: "Are your junk removal services eco-friendly in East County?",
-    answer: "Absolutely. Our <strong>Santee San Diego junk removal</strong> prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations."
+    answer: "Absolutely. Our Santee San Diego junk removal prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations."
   }
 ];
 
@@ -165,17 +165,17 @@ export default function JunkRemovalSanteePage() {
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      <strong>Santee junk removal</strong> serves one of East County's most dynamic family-oriented communities. From established neighborhoods in Carlton Hills to newer developments in Sky Ranch, our <strong>junk hauling Santee</strong> team handles the unique challenges of this diverse suburban city. We provide same-day <strong>trash removal Santee</strong> for family homes, apartment complexes, and garage cleanouts throughout the 92071 area with transparent pricing and eco-friendly disposal.
+                      Santee junk removal serves one of East County's most dynamic family-oriented communities. From established neighborhoods in Carlton Hills to newer developments in Sky Ranch, our junk hauling Santee team handles the unique challenges of this diverse suburban city. We provide same-day trash removal Santee for family homes, apartment complexes, and garage cleanouts throughout the 92071 area with transparent pricing and eco-friendly disposal.
                     </p>
 
                     <p className="text-gray-700 mb-6">
-                      Our Santee operation is strategically positioned to serve East County's growing suburban landscape. We understand that <strong>Santee San Diego junk removal</strong> requires knowledge of family neighborhoods with two-car garages that accumulate years of storage, multi-family properties near the Trolley corridor, and hillside homes in Carlton Hills with unique access considerations. Whether you're clearing a garage packed with RV equipment and recreational gear, removing furniture from a family home upgrade, or handling apartment turnover near Santee Trolley Square, our team brings the local expertise East County properties demand.
+                      Our Santee operation is strategically positioned to serve East County's growing suburban landscape. We understand that Santee San Diego junk removal requires knowledge of family neighborhoods with two-car garages that accumulate years of storage, multi-family properties near the Trolley corridor, and hillside homes in Carlton Hills with unique access considerations. Whether you're clearing a garage packed with RV equipment and recreational gear, removing furniture from a family home upgrade, or handling apartment turnover near Santee Trolley Square, our team brings the local expertise East County properties demand.
                     </p>
 
                     {/* Neighborhoods Served */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Santee Neighborhoods We Serve</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>junk removal Santee</strong> service covers every corner of this East County community, from trolley-accessible developments to hillside family neighborhoods. We've completed thousands of junk removal jobs throughout Santee's diverse areas, each with unique characteristics that inform our service approach:
+                      Our junk removal Santee service covers every corner of this East County community, from trolley-accessible developments to hillside family neighborhoods. We've completed thousands of junk removal jobs throughout Santee's diverse areas, each with unique characteristics that inform our service approach:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <ul className="space-y-2">
@@ -195,7 +195,7 @@ export default function JunkRemovalSanteePage() {
                     {/* Major Streets */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Santee San Diego junk removal</strong> team knows every street and access point in this sprawling East County city. This local expertise matters when navigating Santee's mix of suburban subdivisions, hillside roads, and commercial corridors. We plan each <strong>junk pickup Santee</strong> job with detailed routing to ensure efficient access:
+                      Our Santee San Diego junk removal team knows every street and access point in this sprawling East County city. This local expertise matters when navigating Santee's mix of suburban subdivisions, hillside roads, and commercial corridors. We plan each junk pickup Santee job with detailed routing to ensure efficient access:
                     </p>
                     <ul className="grid md:grid-cols-2 gap-2 mb-6">
                       <li>• <strong>Mission Gorge Road:</strong> Main east-west corridor with shopping centers and business district traffic</li>
@@ -211,7 +211,7 @@ export default function JunkRemovalSanteePage() {
                     {/* Local Landmarks */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Santee Landmarks</h3>
                     <p className="text-gray-700 mb-4">
-                      We provide <strong>junk removal Santee</strong> service near all major East County landmarks. These familiar reference points help us navigate quickly to your property and provide accurate arrival time estimates. Our crews use local landmarks for efficient routing throughout this family-friendly community:
+                      We provide junk removal Santee service near all major East County landmarks. These familiar reference points help us navigate quickly to your property and provide accurate arrival time estimates. Our crews use local landmarks for efficient routing throughout this family-friendly community:
                     </p>
                     <div className="grid md:grid-cols-2 gap-2 mb-6">
                       <ul className="space-y-1">
@@ -235,7 +235,7 @@ export default function JunkRemovalSanteePage() {
                     {/* Traffic & Timing */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Traffic & Service Timing</h3>
                     <p className="text-gray-700 mb-4">
-                      Santee's position as an East County commuter hub creates predictable traffic patterns that affect <strong>junk hauling Santee</strong> scheduling. Our dispatch team actively monitors conditions and coordinates with you to schedule service windows that maximize efficiency:
+                      Santee's position as an East County commuter hub creates predictable traffic patterns that affect junk hauling Santee scheduling. Our dispatch team actively monitors conditions and coordinates with you to schedule service windows that maximize efficiency:
                     </p>
                     <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
                       <li><strong>Weekday commute hours (6:30-8:30 AM, 4-6 PM):</strong> Mission Gorge Road and SR-52 access points experience heavy traffic as East County residents commute to downtown San Diego and central employment centers. We schedule mid-morning (9 AM-12 PM) or early afternoon (1-3 PM) service windows to avoid these peak congestion periods, particularly for properties near freeway corridors.</li>
@@ -253,7 +253,7 @@ export default function JunkRemovalSanteePage() {
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Santee</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Santee junk removal</strong> service handles the diverse mix of items common to East County family living—from garage storage overflow to RV equipment to family home upgrades. We remove everything from single items to complete house cleanouts:
+                      Our Santee junk removal service handles the diverse mix of items common to East County family living—from garage storage overflow to RV equipment to family home upgrades. We remove everything from single items to complete house cleanouts:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
@@ -299,7 +299,7 @@ export default function JunkRemovalSanteePage() {
                     <div className="bg-blue-50 rounded-lg p-6 mb-6">
                       <ol className="space-y-3 text-gray-700">
                         <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe what you need removed and your Santee location. We'll provide estimated pricing based on volume and schedule your service window.</li>
-                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> <strong>junk pickup Santee</strong> service throughout East County. We coordinate arrival times around your schedule and Santee's traffic patterns for reliable, on-time service.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> junk pickup Santee service throughout East County. We coordinate arrival times around your schedule and Santee's traffic patterns for reliable, on-time service.</li>
                         <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives in clearly marked trucks during your scheduled window. We assess items for removal and provide a final quote before starting work—no hidden fees or surprises.</li>
                         <li><strong>4. We Load & Haul Everything:</strong> Our team does all lifting, loading, and hauling. We protect floors and doorways, navigate garage spaces and family homes efficiently, and complete removal quickly. You simply point—we handle the rest.</li>
                         <li><strong>5. Eco-Friendly Disposal:</strong> We sort items for donation, recycling, and responsible disposal. Usable furniture goes to local East County charities, recyclables to proper facilities, and only true trash to landfill as last resort.</li>
@@ -356,10 +356,10 @@ export default function JunkRemovalSanteePage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Junk Removal Santee"
-          description="Get answers to common questions about our <strong>junk removal Santee</strong> services, pricing, and same-day availability."
+          description="Get answers to common questions about our junk removal Santee services, pricing, and same-day availability."
           faqs={santeeFAQs}
           ctaTitle="Still Have Questions About Santee Junk Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Santee</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our junk removal Santee services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
 

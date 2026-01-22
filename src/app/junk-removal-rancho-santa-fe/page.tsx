@@ -65,19 +65,19 @@ export const metadata: Metadata = {
 const ranchoSantaFeFAQs = [
   {
     question: "Do you service all areas of Rancho Santa Fe including gated communities?",
-    answer: "Yes, our <strong>Rancho Santa Fe junk removal</strong> service covers all areas including The Covenant, Fairbanks Ranch, The Bridges, and other exclusive gated communities. We're pre-approved vendors familiar with gate access procedures and HOA requirements throughout Rancho Santa Fe."
+    answer: "Yes, our Rancho Santa Fe junk removal service covers all areas including The Covenant, Fairbanks Ranch, The Bridges, and other exclusive gated communities. We're pre-approved vendors familiar with gate access procedures and HOA requirements throughout Rancho Santa Fe."
   },
   {
     question: "How much does junk removal cost in Rancho Santa Fe?",
-    answer: "Our <strong>Rancho Santa Fe junk removal</strong> pricing is transparent and based on trailer volume:"
+    answer: "Our Rancho Santa Fe junk removal pricing is transparent and based on trailer volume:"
   },
   {
     question: "Can you remove heavy items like couches, appliances, and large outdoor equipment in Rancho Santa Fe?",
-    answer: "Absolutely! Our <strong>junk hauling Rancho Santa Fe</strong> team specializes in removing heavy and oversized items from luxury estates and equestrian properties. We safely handle:"
+    answer: "Absolutely! Our junk hauling Rancho Santa Fe team specializes in removing heavy and oversized items from luxury estates and equestrian properties. We safely handle:"
   },
   {
     question: "Do you provide same-day junk hauling in Rancho Santa Fe?",
-    answer: "Yes! We offer same-day <strong>junk pickup Rancho Santa Fe</strong> service when you call before 2 PM. Our team understands the urgency often required for estate management, property staging, last-minute renovations, and HOA compliance issues. We coordinate with gate security, property managers, and household staff to provide discreet, professional service that respects your privacy and your community's standards throughout The Covenant, Fairbanks Ranch, and all Rancho Santa Fe gated communities."
+    answer: "Yes! We offer same-day junk pickup Rancho Santa Fe service when you call before 2 PM. Our team understands the urgency often required for estate management, property staging, last-minute renovations, and HOA compliance issues. We coordinate with gate security, property managers, and household staff to provide discreet, professional service that respects your privacy and your community's standards throughout The Covenant, Fairbanks Ranch, and all Rancho Santa Fe gated communities."
   },
   {
     question: "What types of junk do you not remove?",
@@ -85,7 +85,7 @@ const ranchoSantaFeFAQs = [
   },
   {
     question: "Are you licensed and insured for junk removal in San Diego County?",
-    answer: "Yes! Severin Cleaners is fully licensed and insured to provide <strong>Rancho Santa Fe San Diego junk removal</strong> services throughout all of San Diego County, including exclusive communities like Rancho Santa Fe. We carry comprehensive liability insurance specifically covering luxury estates, valuable property contents, and equestrian facilities. Our <strong>trash removal Rancho Santa Fe</strong> service is pre-approved by multiple HOAs and provides all necessary documentation for gated community access, property management requirements, and compliance with local disposal regulations."
+    answer: "Yes! Severin Cleaners is fully licensed and insured to provide Rancho Santa Fe San Diego junk removal services throughout all of San Diego County, including exclusive communities like Rancho Santa Fe. We carry comprehensive liability insurance specifically covering luxury estates, valuable property contents, and equestrian facilities. Our trash removal Rancho Santa Fe service is pre-approved by multiple HOAs and provides all necessary documentation for gated community access, property management requirements, and compliance with local disposal regulations."
   }
 ];
 
@@ -168,17 +168,17 @@ export default function JunkRemovalRanchoSantaFePage() {
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      <strong>Rancho Santa Fe junk removal</strong> serves one of Southern California's most exclusive communities. Our <strong>junk hauling Rancho Santa Fe</strong> team provides discreet, professional service for luxury estates, gated properties, and multi-acre compounds throughout The Covenant, Fairbanks Ranch, and surrounding areas. We understand the unique requirements of high-end properties and deliver white-glove <strong>trash removal Rancho Santa Fe</strong> with complete respect for privacy and property.
+                      Rancho Santa Fe junk removal serves one of Southern California's most exclusive communities. Our junk hauling Rancho Santa Fe team provides discreet, professional service for luxury estates, gated properties, and multi-acre compounds throughout The Covenant, Fairbanks Ranch, and surrounding areas. We understand the unique requirements of high-end properties and deliver white-glove trash removal Rancho Santa Fe with complete respect for privacy and property.
                     </p>
 
                     <p className="text-gray-700 mb-6">
-                      Rancho Santa Fe's 6,200-acre Covenant community represents one of the nation's premier luxury residential areas, where estate properties regularly span 2-10 acres and homes valued at $3-50 million require specialized junk removal services. Our <strong>Rancho Santa Fe San Diego junk removal</strong> operation is specifically structured to meet the exacting standards of this affluent community. We coordinate with private gate security, respect rigorous HOA requirements, and maintain the level of professionalism that Rancho Santa Fe property owners expect from service providers accessing their exclusive estates.
+                      Rancho Santa Fe's 6,200-acre Covenant community represents one of the nation's premier luxury residential areas, where estate properties regularly span 2-10 acres and homes valued at $3-50 million require specialized junk removal services. Our Rancho Santa Fe San Diego junk removal operation is specifically structured to meet the exacting standards of this affluent community. We coordinate with private gate security, respect rigorous HOA requirements, and maintain the level of professionalism that Rancho Santa Fe property owners expect from service providers accessing their exclusive estates.
                     </p>
 
                     {/* Neighborhoods Served */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Rancho Santa Fe Communities We Serve</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>junk pickup Rancho Santa Fe</strong> service covers all of RSF's distinct communities. Each neighborhood presents unique characteristics—from sprawling Covenant estates with separate guest houses and pool complexes to gated Fairbanks Ranch properties with strict architectural review standards. We've successfully completed junk removal projects throughout every Rancho Santa Fe enclave:
+                      Our junk pickup Rancho Santa Fe service covers all of RSF's distinct communities. Each neighborhood presents unique characteristics—from sprawling Covenant estates with separate guest houses and pool complexes to gated Fairbanks Ranch properties with strict architectural review standards. We've successfully completed junk removal projects throughout every Rancho Santa Fe enclave:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <ul className="space-y-2">
@@ -198,7 +198,7 @@ export default function JunkRemovalRanchoSantaFePage() {
                     {/* Major Streets */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Key Roads & Access</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Rancho Santa Fe San Diego junk removal</strong> team navigates all major routes throughout this sprawling community. Unlike urban neighborhoods with grid patterns, Rancho Santa Fe features winding roads, private drives, and gated access points that require local knowledge and advance planning for efficient junk removal service:
+                      Our Rancho Santa Fe San Diego junk removal team navigates all major routes throughout this sprawling community. Unlike urban neighborhoods with grid patterns, Rancho Santa Fe features winding roads, private drives, and gated access points that require local knowledge and advance planning for efficient junk removal service:
                     </p>
                     <ul className="grid md:grid-cols-2 gap-2 mb-6">
                       <li>• <strong>Del Dios Highway (S6):</strong> Main west access from I-5 corridor, primary commercial truck route</li>
@@ -214,7 +214,7 @@ export default function JunkRemovalRanchoSantaFePage() {
                     {/* Local Landmarks */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Rancho Santa Fe Landmarks</h3>
                     <p className="text-gray-700 mb-4">
-                      We provide <strong>junk pickup Rancho Santa Fe</strong> service near all community landmarks. These reference points help our crews navigate efficiently to multi-acre estates where street addresses and GPS coordinates often lead only to gated entrances, not actual service locations:
+                      We provide junk pickup Rancho Santa Fe service near all community landmarks. These reference points help our crews navigate efficiently to multi-acre estates where street addresses and GPS coordinates often lead only to gated entrances, not actual service locations:
                     </p>
                     <div className="grid md:grid-cols-2 gap-2 mb-6">
                       <ul className="space-y-1">
@@ -238,7 +238,7 @@ export default function JunkRemovalRanchoSantaFePage() {
                     {/* Traffic & Timing */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Service Timing & Scheduling</h3>
                     <p className="text-gray-700 mb-4">
-                      Rancho Santa Fe's low-traffic environment allows flexible scheduling, but specific timing considerations ensure our <strong>junk hauling Rancho Santa Fe</strong> service integrates seamlessly with your estate operations and community protocols:
+                      Rancho Santa Fe's low-traffic environment allows flexible scheduling, but specific timing considerations ensure our junk hauling Rancho Santa Fe service integrates seamlessly with your estate operations and community protocols:
                     </p>
                     <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
                       <li><strong>School hours (7:30-8:30 AM, 2:30-3:30 PM):</strong> We coordinate around Roger Rowe and Country Day School traffic on Paseo Delicias to avoid drop-off and pickup congestion. Many estate owners prefer mid-morning (9 AM-12 PM) service windows when roads are clear and household staff can coordinate access efficiently.</li>
@@ -250,13 +250,13 @@ export default function JunkRemovalRanchoSantaFePage() {
                     {/* Weather */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Climate Considerations</h3>
                     <p className="text-gray-700 mb-6">
-                      Rancho Santa Fe's Mediterranean climate means hot, dry summers (85-95°F) and mild winters with minimal rainfall. Santa Ana wind events (October-February) create fire-hazard conditions requiring defensible space clearance around estate structures. We schedule large estate cleanouts during cooler morning hours (6-10 AM) in summer months when temperatures are more comfortable for physical work, and help property owners maintain brush clearance requirements year-round to comply with San Diego County fire safety regulations. Our <strong>trash removal Rancho Santa Fe</strong> service includes proper disposal of brush, landscaping debris, and flammable materials that must be cleared from defensible space zones during fire season. Winter rainfall, though limited to 10-12 inches annually, occasionally impacts dirt access roads on larger estates, requiring advance weather monitoring and flexible rescheduling capabilities for remote property access.
+                      Rancho Santa Fe's Mediterranean climate means hot, dry summers (85-95°F) and mild winters with minimal rainfall. Santa Ana wind events (October-February) create fire-hazard conditions requiring defensible space clearance around estate structures. We schedule large estate cleanouts during cooler morning hours (6-10 AM) in summer months when temperatures are more comfortable for physical work, and help property owners maintain brush clearance requirements year-round to comply with San Diego County fire safety regulations. Our trash removal Rancho Santa Fe service includes proper disposal of brush, landscaping debris, and flammable materials that must be cleared from defensible space zones during fire season. Winter rainfall, though limited to 10-12 inches annually, occasionally impacts dirt access roads on larger estates, requiring advance weather monitoring and flexible rescheduling capabilities for remote property access.
                     </p>
 
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove from Rancho Santa Fe Estates</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Rancho Santa Fe junk removal</strong> service handles the sophisticated mix of items found in luxury estate environments. From <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">designer furniture removal</a> and <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">high-end appliance disposal</a> to pool equipment and renovation debris, we remove everything with the care and professionalism that valuable estate property demands. <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate cleanout services</a> and <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day removal</a> available:
+                      Our Rancho Santa Fe junk removal service handles the sophisticated mix of items found in luxury estate environments. From <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">designer furniture removal</a> and <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">high-end appliance disposal</a> to pool equipment and renovation debris, we remove everything with the care and professionalism that valuable estate property demands. <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate cleanout services</a> and <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day removal</a> available:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
@@ -359,10 +359,10 @@ export default function JunkRemovalRanchoSantaFePage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Junk Removal Rancho Santa Fe"
-          description="Get answers to common questions about our <strong>junk removal Rancho Santa Fe</strong> services, pricing, and same-day availability."
+          description="Get answers to common questions about our junk removal Rancho Santa Fe services, pricing, and same-day availability."
           faqs={ranchoSantaFeFAQs}
           ctaTitle="Still Have Questions About Rancho Santa Fe Junk Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Rancho Santa Fe</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our junk removal Rancho Santa Fe services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
 

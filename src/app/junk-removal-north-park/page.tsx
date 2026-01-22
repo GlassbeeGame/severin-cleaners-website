@@ -79,15 +79,15 @@ const breadcrumbSchema = generateBreadcrumbSchema([
 const northParkFAQs = [
   {
     question: "How much does junk removal cost in North Park?",
-    answer: "Our <strong>North Park junk removal</strong> pricing is transparent and based on trailer volume:"
+    answer: "Our North Park junk removal pricing is transparent and based on trailer volume:"
   },
   {
     question: "Can you remove heavy items like couches and appliances in North Park?",
-    answer: "Absolutely! Our <strong>junk hauling North Park</strong> team specializes in removing heavy furniture and appliances from apartments, condos, and Craftsman homes throughout North Park. We safely handle:"
+    answer: "Absolutely! Our junk hauling North Park team specializes in removing heavy furniture and appliances from apartments, condos, and Craftsman homes throughout North Park. We safely handle:"
   },
   {
     question: "Do you provide same-day junk hauling in North Park?",
-    answer: "Yes! We offer same-day <strong>junk pickup North Park</strong> service when you call before 2 PM. This is especially helpful for apartment cleanouts near University Avenue, restaurant or bar waste removal from the 30th Street nightlife district, and emergency situations throughout the North Park arts community. During busy weekends, we recommend scheduling morning appointments to guarantee same-day service."
+    answer: "Yes! We offer same-day junk pickup North Park service when you call before 2 PM. This is especially helpful for apartment cleanouts near University Avenue, restaurant or bar waste removal from the 30th Street nightlife district, and emergency situations throughout the North Park arts community. During busy weekends, we recommend scheduling morning appointments to guarantee same-day service."
   },
   {
     question: "What types of junk do you not remove?",
@@ -95,7 +95,7 @@ const northParkFAQs = [
   },
   {
     question: "Are you licensed and insured for junk removal in San Diego?",
-    answer: "Yes! Severin Cleaners is fully licensed and insured to provide <strong>North Park San Diego junk removal</strong> services throughout North Park and all of San Diego County. We carry comprehensive liability insurance to protect your property during removal, and we dispose of all items responsibly at licensed facilities. Our team follows all local regulations for waste handling and environmental compliance."
+    answer: "Yes! Severin Cleaners is fully licensed and insured to provide North Park San Diego junk removal services throughout North Park and all of San Diego County. We carry comprehensive liability insurance to protect your property during removal, and we dispose of all items responsibly at licensed facilities. Our team follows all local regulations for waste handling and environmental compliance."
   }
 ];
 
@@ -180,15 +180,15 @@ export default function JunkRemovalNorthParkPage() {
                       </h2>
 
                       <p className="text-lg text-gray-700 mb-6">
-                        North Park junk removal requires specialized knowledge of San Diego's most vibrant urban neighborhood. From historic Craftsman bungalows along tree-lined streets to modern apartment complexes near the University Avenue corridor, our <strong>junk hauling North Park</strong> service navigates the unique challenges of this densely populated arts district with expertise. We understand tight street parking near 30th Street's nightlife scene, narrow driveways off Idaho and Utah Streets, and the coordination needed for multi-story apartment cleanouts throughout the 92104 zip code.
+                        North Park junk removal requires specialized knowledge of San Diego's most vibrant urban neighborhood. From historic Craftsman bungalows along tree-lined streets to modern apartment complexes near the University Avenue corridor, our junk hauling North Park service navigates the unique challenges of this densely populated arts district with expertise. We understand tight street parking near 30th Street's nightlife scene, narrow driveways off Idaho and Utah Streets, and the coordination needed for multi-story apartment cleanouts throughout the 92104 zip code.
                       </p>
 
                       <p className="text-lg text-gray-700 mb-6">
-                        Whether you need <strong>junk pickup North Park</strong> for an apartment turnover near the craft brewery district, furniture removal from a century-old Craftsman home, or commercial cleanout along the bustling restaurant corridor, our team delivers efficient service that respects this neighborhood's unique character. From Balboa Park's eastern edge to El Cajon Boulevard's commercial zone, we provide same-day <strong>trash removal North Park</strong> that urban residents and business owners depend on.
+                        Whether you need junk pickup North Park for an apartment turnover near the craft brewery district, furniture removal from a century-old Craftsman home, or commercial cleanout along the bustling restaurant corridor, our team delivers efficient service that respects this neighborhood's unique character. From Balboa Park's eastern edge to El Cajon Boulevard's commercial zone, we provide same-day trash removal North Park that urban residents and business owners depend on.
                       </p>
 
                       <p className="text-lg text-gray-700 mb-6">
-                        Our <strong>North Park San Diego junk removal</strong> operation serves one of the city's most walkable, bikeable, and transit-connected communities. The neighborhood's mix of historic homes, modern condos, and active street life creates distinct challenges—limited parking zones, narrow stairwells in older buildings, and timing coordination around the area's busy nightlife schedule. We've removed everything from single furniture pieces during apartment moves to complete estate cleanouts in multi-generational Craftsman homes, always maintaining the professional, community-focused approach that North Park residents expect.
+                        Our North Park San Diego junk removal operation serves one of the city's most walkable, bikeable, and transit-connected communities. The neighborhood's mix of historic homes, modern condos, and active street life creates distinct challenges—limited parking zones, narrow stairwells in older buildings, and timing coordination around the area's busy nightlife schedule. We've removed everything from single furniture pieces during apartment moves to complete estate cleanouts in multi-generational Craftsman homes, always maintaining the professional, community-focused approach that North Park residents expect.
                       </p>
 
                       <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12">
@@ -196,7 +196,7 @@ export default function JunkRemovalNorthParkPage() {
                       </h2>
 
                       <p className="text-lg text-gray-700 mb-6">
-                        Our comprehensive <strong>junk hauling North Park</strong> coverage extends throughout all distinct sub-neighborhoods of this diverse urban community:
+                        Our comprehensive junk hauling North Park coverage extends throughout all distinct sub-neighborhoods of this diverse urban community:
                       </p>
 
                       <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
@@ -277,7 +277,7 @@ export default function JunkRemovalNorthParkPage() {
                       </h2>
 
                       <p className="text-lg text-gray-700 mb-6">
-                        Urban North Park experiences distinct traffic patterns that inform our <strong>junk pickup North Park</strong> scheduling:
+                        Urban North Park experiences distinct traffic patterns that inform our junk pickup North Park scheduling:
                       </p>
 
                       <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 mb-8">
@@ -314,7 +314,7 @@ export default function JunkRemovalNorthParkPage() {
                       </h2>
 
                       <p className="text-lg text-gray-700 mb-6">
-                        Our comprehensive <strong>trash removal North Park</strong> service handles the unique mix of urban residential and commercial junk:
+                        Our comprehensive trash removal North Park service handles the unique mix of urban residential and commercial junk:
                       </p>
 
                       <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -350,7 +350,7 @@ export default function JunkRemovalNorthParkPage() {
                       </h2>
 
                       <p className="text-lg text-gray-700 mb-6">
-                        Our streamlined process makes <strong>junk hauling North Park</strong> simple and stress-free:
+                        Our streamlined process makes junk hauling North Park simple and stress-free:
                       </p>
 
                       <div className="bg-blue-50 rounded-lg p-6 mb-8">
@@ -369,7 +369,7 @@ export default function JunkRemovalNorthParkPage() {
                       </h2>
 
                       <p className="text-lg text-gray-700 mb-6">
-                        North Park's unique urban character demands specialized expertise. Our <strong>North Park San Diego junk removal</strong> team delivers:
+                        North Park's unique urban character demands specialized expertise. Our North Park San Diego junk removal team delivers:
                       </p>
 
                       <div className="bg-gray-50 rounded-lg p-6 mb-8">
@@ -379,7 +379,7 @@ export default function JunkRemovalNorthParkPage() {
                           <li><strong>Historic Property Care:</strong> Careful handling of Craftsman homes' original hardwood floors, architectural details, and narrow doorways prevents damage to century-old properties.</li>
                           <li><strong>Flexible Timing:</strong> We schedule around North Park's active nightlife, working with restaurant and bar owners on timing that doesn't disrupt business operations.</li>
                           <li><strong>Community Connection:</strong> As local San Diego professionals, we support North Park's arts scene through material donations to galleries and studios, furniture donations to community organizations, and eco-friendly practices.</li>
-                          <li><strong>Same-Day Response:</strong> Urban needs often require fast service. We provide same-day <strong>junk pickup North Park</strong> for apartment turnovers, business emergencies, and time-sensitive situations.</li>
+                          <li><strong>Same-Day Response:</strong> Urban needs often require fast service. We provide same-day junk pickup North Park for apartment turnovers, business emergencies, and time-sensitive situations.</li>
                         </ul>
                       </div>
                     </div>
@@ -409,10 +409,10 @@ export default function JunkRemovalNorthParkPage() {
           {/* FAQ Section */}
           <FAQSection
           title="Frequently Asked Questions - Junk Removal North Park"
-          description="Get answers to common questions about our <strong>junk removal North Park</strong> services, pricing, and same-day availability."
+          description="Get answers to common questions about our junk removal North Park services, pricing, and same-day availability."
           faqs={northParkFAQs}
           ctaTitle="Still Have Questions About North Park Junk Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal North Park</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our junk removal North Park services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
 

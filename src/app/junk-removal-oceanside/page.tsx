@@ -66,23 +66,23 @@ export const metadata: Metadata = {
 const oceansideFAQs = [
   {
     question: "How much does junk removal cost in Oceanside?",
-    answer: "Our <strong>Oceanside junk removal</strong> pricing is transparent and upfront, with special military discounts for active duty families and competitive rates for vacation rental properties:"
+    answer: "Our Oceanside junk removal pricing is transparent and upfront, with special military discounts for active duty families and competitive rates for vacation rental properties:"
   },
   {
     question: "Do you provide junk removal for Camp Pendleton military housing?",
-    answer: "Yes, our <strong>Camp Pendleton junk removal</strong> service specializes in military PCS moves and base housing cleanouts. We coordinate with base housing offices, understand inspection requirements, and work within tight military timelines. Active duty families receive special discounts, and we're familiar with all base access procedures."
+    answer: "Yes, our Camp Pendleton junk removal service specializes in military PCS moves and base housing cleanouts. We coordinate with base housing offices, understand inspection requirements, and work within tight military timelines. Active duty families receive special discounts, and we're familiar with all base access procedures."
   },
   {
     question: "Can you handle same-day junk pickup for vacation rentals in Oceanside?",
-    answer: "Absolutely. Our <strong>junk pickup Oceanside</strong> team provides same-day service for vacation rental turnovers throughout coastal Oceanside. We understand the importance of quick turnarounds for maintaining bookings and reviews, offering priority scheduling for property managers and vacation rental owners."
+    answer: "Absolutely. Our junk pickup Oceanside team provides same-day service for vacation rental turnovers throughout coastal Oceanside. We understand the importance of quick turnarounds for maintaining bookings and reviews, offering priority scheduling for property managers and vacation rental owners."
   },
   {
     question: "Do you offer coastal property cleanouts and storm debris removal?",
-    answer: "Yes, while we're a general <strong>junk removal Oceanside</strong> company serving all types of properties, we excel at coastal property cleanouts including storm debris removal, salt air damaged furniture disposal, and beach equipment cleanup."
+    answer: "Yes, while we're a general junk removal Oceanside company serving all types of properties, we excel at coastal property cleanouts including storm debris removal, salt air damaged furniture disposal, and beach equipment cleanup."
   },
   {
     question: "Are your junk removal services eco-friendly in North County?",
-    answer: "Absolutely. Our <strong>Oceanside San Diego junk removal</strong> prioritizes environmental protection through comprehensive recycling, donation programs, and disposal methods that comply with all local coastal regulations."
+    answer: "Absolutely. Our Oceanside San Diego junk removal prioritizes environmental protection through comprehensive recycling, donation programs, and disposal methods that comply with all local coastal regulations."
   }
 ];
 
@@ -148,17 +148,17 @@ export default function JunkRemovalOceansidePage() {
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      <strong>Oceanside junk removal</strong> serves North County's largest coastal city and home to Camp Pendleton. From military housing near the base to beachfront vacation rentals along the pier, our <strong>junk hauling Oceanside</strong> team navigates military access protocols, coastal property challenges, and vacation rental schedules with precision and care. We provide same-day <strong>trash removal Oceanside</strong> for PCS moves, vacation property turnovers, and residential cleanouts throughout the 92054, 92056, and 92057 areas with transparent pricing and military-friendly service.
+                      Oceanside junk removal serves North County's largest coastal city and home to Camp Pendleton. From military housing near the base to beachfront vacation rentals along the pier, our junk hauling Oceanside team navigates military access protocols, coastal property challenges, and vacation rental schedules with precision and care. We provide same-day trash removal Oceanside for PCS moves, vacation property turnovers, and residential cleanouts throughout the 92054, 92056, and 92057 areas with transparent pricing and military-friendly service.
                     </p>
 
                     <p className="text-gray-700 mb-6">
-                      Our Oceanside operation is uniquely equipped to serve this diverse military and coastal community. We understand that <strong>Oceanside San Diego junk removal</strong> requires more than standard hauling services—it demands experience with Camp Pendleton base access procedures, knowledge of strict PCS move timelines, coordination with vacation rental managers, and the ability to work efficiently in one of North County's most dynamic areas. Whether you're clearing out base housing before inspection, removing furniture from a harbor-front vacation rental between guests, or handling a complete estate cleanout in Fire Mountain, our team brings the specialized military and coastal property experience Oceanside demands.
+                      Our Oceanside operation is uniquely equipped to serve this diverse military and coastal community. We understand that Oceanside San Diego junk removal requires more than standard hauling services—it demands experience with Camp Pendleton base access procedures, knowledge of strict PCS move timelines, coordination with vacation rental managers, and the ability to work efficiently in one of North County's most dynamic areas. Whether you're clearing out base housing before inspection, removing furniture from a harbor-front vacation rental between guests, or handling a complete estate cleanout in Fire Mountain, our team brings the specialized military and coastal property experience Oceanside demands.
                     </p>
 
                     {/* Neighborhoods Served */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Oceanside Neighborhoods We Serve</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Camp Pendleton junk removal</strong> service covers every corner of Oceanside's diverse community, from military housing on base to coastal vacation rentals downtown. We've completed thousands of junk removal jobs throughout Oceanside's varied neighborhoods, each with unique access challenges and community characteristics:
+                      Our Camp Pendleton junk removal service covers every corner of Oceanside's diverse community, from military housing on base to coastal vacation rentals downtown. We've completed thousands of junk removal jobs throughout Oceanside's varied neighborhoods, each with unique access challenges and community characteristics:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <ul className="space-y-2">
@@ -178,7 +178,7 @@ export default function JunkRemovalOceansidePage() {
                     {/* Major Streets */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Coastal Access Routes</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Oceanside San Diego junk removal</strong> team knows every major street and access route in North County's coastal hub. This local expertise matters when navigating the area's complex infrastructure—I-5 freeway congestion, beach district parking restrictions, military base access protocols, and vacation rental property coordination. We plan each <strong>junk pickup Oceanside</strong> job with detailed route assessment:
+                      Our Oceanside San Diego junk removal team knows every major street and access route in North County's coastal hub. This local expertise matters when navigating the area's complex infrastructure—I-5 freeway congestion, beach district parking restrictions, military base access protocols, and vacation rental property coordination. We plan each junk pickup Oceanside job with detailed route assessment:
                     </p>
                     <ul className="grid md:grid-cols-2 gap-2 mb-6">
                       <li>• <strong>Coast Highway (PCH):</strong> Scenic coastal route with beach traffic and vacation rental property access</li>
@@ -194,7 +194,7 @@ export default function JunkRemovalOceansidePage() {
                     {/* Local Landmarks */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Oceanside Landmarks & Military References</h3>
                     <p className="text-gray-700 mb-4">
-                      We provide <strong>junk removal Oceanside</strong> service near all major landmarks and military facilities. These familiar reference points help us navigate quickly to your property and provide accurate arrival time estimates. Our crews use local landmarks for efficient routing throughout this military and beach community:
+                      We provide junk removal Oceanside service near all major landmarks and military facilities. These familiar reference points help us navigate quickly to your property and provide accurate arrival time estimates. Our crews use local landmarks for efficient routing throughout this military and beach community:
                     </p>
                     <div className="grid md:grid-cols-2 gap-2 mb-6">
                       <ul className="space-y-1">
@@ -218,7 +218,7 @@ export default function JunkRemovalOceansidePage() {
                     {/* Traffic & Timing */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Traffic Patterns & Military Scheduling</h3>
                     <p className="text-gray-700 mb-4">
-                      Oceanside's military traffic and coastal tourism affect <strong>trash removal Oceanside</strong> timing year-round. Our dispatch team actively monitors I-5 freeway conditions, Camp Pendleton gate traffic, and beach area congestion, coordinating service windows that respect military schedules while maximizing efficiency. We've developed specific protocols for different property types:
+                      Oceanside's military traffic and coastal tourism affect trash removal Oceanside timing year-round. Our dispatch team actively monitors I-5 freeway conditions, Camp Pendleton gate traffic, and beach area congestion, coordinating service windows that respect military schedules while maximizing efficiency. We've developed specific protocols for different property types:
                     </p>
                     <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
                       <li><strong>Weekday morning rush (6-8 AM):</strong> Camp Pendleton gate traffic creates massive backups as military personnel report for morning formation. I-5 freeway northbound and southbound experience heavy commuter loads. Mission Avenue and Vista Way become congested with local traffic. We recommend mid-morning (9 AM-12 PM) service windows after military rush clears and before lunch hour traffic begins for optimal access to both base and civilian properties.</li>
@@ -236,7 +236,7 @@ export default function JunkRemovalOceansidePage() {
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Oceanside</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Oceanside junk removal</strong> service handles the unique mix of items common to military and coastal living—from PCS move leftovers to salt-damaged beach furniture to vacation rental turnover debris. We remove everything from single items to complete property cleanouts:
+                      Our Oceanside junk removal service handles the unique mix of items common to military and coastal living—from PCS move leftovers to salt-damaged beach furniture to vacation rental turnover debris. We remove everything from single items to complete property cleanouts:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
@@ -284,7 +284,7 @@ export default function JunkRemovalOceansidePage() {
                     <div className="bg-blue-50 rounded-lg p-6 mb-6">
                       <ol className="space-y-3 text-gray-700">
                         <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe what you need removed and your Oceanside location. For Camp Pendleton properties, provide base access details and housing office contact. For vacation rentals, note any property manager coordination needs. We'll provide estimated pricing based on volume and schedule your service window.</li>
-                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> <strong>junk pickup Oceanside</strong> service throughout North County. We coordinate with base housing offices for military properties and property managers for vacation rentals, ensuring efficient service that meets your timeline requirements.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> junk pickup Oceanside service throughout North County. We coordinate with base housing offices for military properties and property managers for vacation rentals, ensuring efficient service that meets your timeline requirements.</li>
                         <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives in clearly marked trucks during your scheduled window. For base housing, we handle all security check-in procedures. We assess items for removal and provide a final quote before starting work—no hidden fees or surprises. Active duty families receive special military discount pricing.</li>
                         <li><strong>4. We Load & Haul Everything:</strong> Our team does all lifting, loading, and hauling. We protect floors and doorways, navigate base housing protocols and vacation rental property requirements, and complete removal efficiently. You simply point—we handle the rest, including coordination around inspection schedules and guest check-in times.</li>
                         <li><strong>5. Eco-Friendly Disposal:</strong> We sort items for donation, recycling, and responsible disposal. Military families often donate usable furniture to base family support programs. Coastal properties' recyclable materials go to proper facilities, and only true trash goes to landfill as last resort. We protect Oceanside's beaches and marine environment through responsible disposal practices.</li>
@@ -341,10 +341,10 @@ export default function JunkRemovalOceansidePage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Junk Removal Oceanside"
-          description="Get answers to common questions about our <strong>junk removal Oceanside</strong> services, pricing, and same-day availability."
+          description="Get answers to common questions about our junk removal Oceanside services, pricing, and same-day availability."
           faqs={oceansideFAQs}
           ctaTitle="Still Have Questions About Oceanside Junk Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Oceanside</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our junk removal Oceanside services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
 

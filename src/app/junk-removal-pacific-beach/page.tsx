@@ -75,7 +75,7 @@ const pacificBeachFAQs = [
   },
   {
     question: "How much does junk removal cost in Pacific Beach?",
-    answer: "Our <strong>Pacific Beach junk removal</strong> pricing is transparent and based on trailer volume:"
+    answer: "Our Pacific Beach junk removal pricing is transparent and based on trailer volume:"
   },
   {
     question: "Do you offer same-day or evening pickups?",
@@ -83,11 +83,11 @@ const pacificBeachFAQs = [
   },
   {
     question: "Can you remove heavy items like couches and appliances in PB?",
-    answer: "Absolutely! Our <strong>junk hauling Pacific Beach</strong> team specializes in removing heavy furniture and appliances from Ocean Front Walk condos, Garnet Avenue apartments, and Crown Point homes. We safely handle:"
+    answer: "Absolutely! Our junk hauling Pacific Beach team specializes in removing heavy furniture and appliances from Ocean Front Walk condos, Garnet Avenue apartments, and Crown Point homes. We safely handle:"
   },
   {
     question: "Do you provide same-day junk hauling in Pacific Beach?",
-    answer: "Yes! We offer same-day <strong>junk pickup PB</strong> service when you call before 2 PM. This is especially helpful for vacation rental turnovers on Ocean Front Walk, student move-outs near Garnet Avenue, and emergency cleanouts near Tourmaline Surf Park. During peak summer season, we recommend scheduling morning appointments to guarantee same-day service throughout the 92109 area."
+    answer: "Yes! We offer same-day junk pickup PB service when you call before 2 PM. This is especially helpful for vacation rental turnovers on Ocean Front Walk, student move-outs near Garnet Avenue, and emergency cleanouts near Tourmaline Surf Park. During peak summer season, we recommend scheduling morning appointments to guarantee same-day service throughout the 92109 area."
   },
   {
     question: "What types of junk do you not remove?",
@@ -95,7 +95,7 @@ const pacificBeachFAQs = [
   },
   {
     question: "Are you licensed and insured for junk removal in San Diego?",
-    answer: "Yes! Severin Cleaners is fully licensed and insured to provide <strong>PB San Diego junk removal</strong> services throughout Pacific Beach and all of San Diego County. We carry comprehensive liability insurance to protect your property during removal, and we dispose of all items responsibly at licensed facilities. Our team follows all local regulations for waste handling and environmental compliance."
+    answer: "Yes! Severin Cleaners is fully licensed and insured to provide PB San Diego junk removal services throughout Pacific Beach and all of San Diego County. We carry comprehensive liability insurance to protect your property during removal, and we dispose of all items responsibly at licensed facilities. Our team follows all local regulations for waste handling and environmental compliance."
   }
 ];
 
@@ -178,17 +178,17 @@ export default function JunkRemovalPacificBeachPage() {
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      <strong>Pacific Beach junk removal</strong> serves one of San Diego's most vibrant beach communities. From Crystal Pier boardwalk apartments to Crown Point bay-front homes, our <strong>junk hauling Pacific Beach</strong> team navigates narrow beach streets, shared alley access, and dense summer crowds with expertise. We provide same-day <strong>trash removal Pacific Beach</strong> for beach houses, student housing, and garage cleanouts throughout the 92109 area with transparent pricing and eco-friendly disposal.
+                      Pacific Beach junk removal serves one of San Diego's most vibrant beach communities. From Crystal Pier boardwalk apartments to Crown Point bay-front homes, our junk hauling Pacific Beach team navigates narrow beach streets, shared alley access, and dense summer crowds with expertise. We provide same-day trash removal Pacific Beach for beach houses, student housing, and garage cleanouts throughout the 92109 area with transparent pricing and eco-friendly disposal.
                     </p>
 
                     <p className="text-gray-700 mb-6">
-                      Our Pacific Beach operation is uniquely equipped to handle the challenges of this iconic beach neighborhood. We understand that <strong>PB San Diego junk removal</strong> requires more than just hauling trucks—it demands local knowledge of parking restrictions, alley access protocols, beach community etiquette, and the ability to work efficiently in one of San Diego's most congested beach areas. Whether you're clearing out a boardwalk apartment after tenant turnover, removing salt-damaged patio furniture from a Crown Point bay house, or handling a full garage cleanout near Kate Sessions Park, our team brings the specialized experience Pacific Beach properties demand.
+                      Our Pacific Beach operation is uniquely equipped to handle the challenges of this iconic beach neighborhood. We understand that PB San Diego junk removal requires more than just hauling trucks—it demands local knowledge of parking restrictions, alley access protocols, beach community etiquette, and the ability to work efficiently in one of San Diego's most congested beach areas. Whether you're clearing out a boardwalk apartment after tenant turnover, removing salt-damaged patio furniture from a Crown Point bay house, or handling a full garage cleanout near Kate Sessions Park, our team brings the specialized experience Pacific Beach properties demand.
                     </p>
 
                     {/* Neighborhoods Served */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Pacific Beach Neighborhoods We Serve</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>junk removal 92109</strong> service covers every corner of Pacific Beach, from oceanfront boardwalk properties to residential streets bordering Clairemont. We've completed thousands of junk removal jobs throughout PB's diverse neighborhoods, each with unique access challenges and community characteristics that inform our service approach:
+                      Our junk removal 92109 service covers every corner of Pacific Beach, from oceanfront boardwalk properties to residential streets bordering Clairemont. We've completed thousands of junk removal jobs throughout PB's diverse neighborhoods, each with unique access challenges and community characteristics that inform our service approach:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <ul className="space-y-2">
@@ -208,7 +208,7 @@ export default function JunkRemovalPacificBeachPage() {
                     {/* Major Streets */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>PB San Diego junk removal</strong> team knows every street and alley in Pacific Beach. This local expertise matters when navigating the neighborhood's challenging infrastructure—narrow one-way streets, shared alleys behind boardwalk apartments, residential permit parking zones, and limited commercial loading areas. We plan each <strong>Garnet Avenue junk hauling</strong> job with detailed route mapping to ensure our trucks can access your property efficiently without blocking traffic or frustrating neighbors:
+                      Our PB San Diego junk removal team knows every street and alley in Pacific Beach. This local expertise matters when navigating the neighborhood's challenging infrastructure—narrow one-way streets, shared alleys behind boardwalk apartments, residential permit parking zones, and limited commercial loading areas. We plan each Garnet Avenue junk hauling job with detailed route mapping to ensure our trucks can access your property efficiently without blocking traffic or frustrating neighbors:
                     </p>
                     <ul className="grid md:grid-cols-2 gap-2 mb-6">
                       <li>• <strong>Garnet Avenue:</strong> Main commercial corridor with metered parking and peak congestion challenges</li>
@@ -224,7 +224,7 @@ export default function JunkRemovalPacificBeachPage() {
                     {/* Local Landmarks */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Pacific Beach Landmarks</h3>
                     <p className="text-gray-700 mb-4">
-                      We provide <strong>junk removal 92109</strong> service near all major PB landmarks. These familiar reference points help us navigate quickly to your property and provide accurate arrival time estimates. Our crews use local landmarks for efficient routing throughout this densely-packed beach community where street addresses alone don't always tell the complete access story:
+                      We provide junk removal 92109 service near all major PB landmarks. These familiar reference points help us navigate quickly to your property and provide accurate arrival time estimates. Our crews use local landmarks for efficient routing throughout this densely-packed beach community where street addresses alone don't always tell the complete access story:
                     </p>
                     <div className="grid md:grid-cols-2 gap-2 mb-6">
                       <ul className="space-y-1">
@@ -248,13 +248,13 @@ export default function JunkRemovalPacificBeachPage() {
                     {/* Traffic & Timing */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Traffic & Service Timing</h3>
                     <p className="text-gray-700 mb-4">
-                      Pacific Beach's beach traffic and student population affect <strong>Garnet Avenue junk hauling</strong> timing more dramatically than most San Diego neighborhoods. Our dispatch team actively monitors PB traffic patterns and coordinates with you to schedule service windows that minimize wait times and maximize efficiency. We've developed specific timing protocols for different PB areas and seasons:
+                      Pacific Beach's beach traffic and student population affect Garnet Avenue junk hauling timing more dramatically than most San Diego neighborhoods. Our dispatch team actively monitors PB traffic patterns and coordinates with you to schedule service windows that minimize wait times and maximize efficiency. We've developed specific timing protocols for different PB areas and seasons:
                     </p>
                     <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
                       <li><strong>Summer weekends (June-Sept):</strong> Heavy beach traffic 10 AM-6 PM clogs Mission Boulevard, Garnet Avenue, and all beach approach streets. We offer early morning (6-9 AM) or evening (after 6 PM) service windows to avoid these peak congestion hours. Many PB residents prefer Saturday morning 7 AM starts to complete junk removal before beach crowds arrive.</li>
                       <li><strong>Student move-outs (May, Aug):</strong> SDSU and UCSD students create massive demand surges during finals weeks and summer transition periods. Lamont Street, Fanuel Street, and areas near campus see U-Haul traffic and moving trucks blocking alleys. Book 2-3 weeks ahead during these periods or expect longer arrival windows as we navigate congested student housing areas.</li>
                       <li><strong>Tuesday Farmers Market:</strong> Bayard Street closes 12-8 PM every Tuesday year-round for PB's popular farmers market. We route via Grand Avenue or schedule Wednesday-Monday for nearby properties. This weekly closure affects central PB access and requires advance planning for properties within two blocks of the market location.</li>
-                      <li><strong>Garnet nightlife (Fri-Sat):</strong> Bar district parking disappears 5 PM-2 AM Friday-Saturday as nightlife crowds arrive. Restaurant and bar dumpster areas become inaccessible. We prioritize Sunday morning (6-10 AM) for commercial <strong>trash removal Pacific Beach</strong> in the Garnet corridor, when streets are clear and business dumpsters are accessible for disposal coordination.</li>
+                      <li><strong>Garnet nightlife (Fri-Sat):</strong> Bar district parking disappears 5 PM-2 AM Friday-Saturday as nightlife crowds arrive. Restaurant and bar dumpster areas become inaccessible. We prioritize Sunday morning (6-10 AM) for commercial trash removal Pacific Beach in the Garnet corridor, when streets are clear and business dumpsters are accessible for disposal coordination.</li>
                     </ul>
 
                     {/* Weather */}
@@ -266,7 +266,7 @@ export default function JunkRemovalPacificBeachPage() {
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Pacific Beach</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Pacific Beach junk removal</strong> service handles the unique mix of items common to beach community living—from salt-damaged outdoor furniture to student housing leftovers to beach recreation equipment that's reached end-of-life. We remove everything from single items to complete house cleanouts:
+                      Our Pacific Beach junk removal service handles the unique mix of items common to beach community living—from salt-damaged outdoor furniture to student housing leftovers to beach recreation equipment that's reached end-of-life. We remove everything from single items to complete house cleanouts:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
@@ -313,7 +313,7 @@ export default function JunkRemovalPacificBeachPage() {
                     <div className="bg-blue-50 rounded-lg p-6 mb-6">
                       <ol className="space-y-3 text-gray-700">
                         <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe what you need removed and your Pacific Beach location. We'll provide estimated pricing based on volume and schedule your service window.</li>
-                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> <strong>junk pickup PB</strong> service throughout the 92109 area. We coordinate arrival times around beach traffic patterns and your schedule preferences.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> junk pickup PB service throughout the 92109 area. We coordinate arrival times around beach traffic patterns and your schedule preferences.</li>
                         <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives in clearly marked trucks during your scheduled window. We assess items for removal and provide a final quote before starting work—no hidden fees or surprises.</li>
                         <li><strong>4. We Load & Haul Everything:</strong> Our team does all lifting, loading, and hauling. We protect floors and doorways, navigate stairs and tight beach house hallways, and complete removal efficiently. You simply point—we handle the rest.</li>
                         <li><strong>5. Eco-Friendly Disposal:</strong> We sort items for donation, recycling, and responsible disposal. Usable furniture goes to local charities, recyclables to proper facilities, and only true trash to landfill as last resort.</li>
@@ -370,10 +370,10 @@ export default function JunkRemovalPacificBeachPage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Junk Removal Pacific Beach"
-          description="Get answers to common questions about our <strong>junk removal Pacific Beach</strong> services, pricing, and same-day availability."
+          description="Get answers to common questions about our junk removal Pacific Beach services, pricing, and same-day availability."
           faqs={pacificBeachFAQs}
           ctaTitle="Still Have Questions About Pacific Beach Junk Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Pacific Beach</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our junk removal Pacific Beach services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
 

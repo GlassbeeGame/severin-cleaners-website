@@ -68,11 +68,11 @@ export const metadata: Metadata = {
 const elCajonFAQs = [
   {
     question: "How much does junk removal cost in El Cajon?",
-    answer: "Our <strong>junk removal El Cajon</strong> pricing is transparent and volume-based with no hidden fees. Pricing ranges from $100-$150 for a quarter truck load (single item like a couch or appliance), $200-$295 for a half truck load (bedroom set, multiple appliances, or garage cleanout), $350-$425 for a three-quarter truck load (full room clearance or large estate items), and $450-$495 for a full truck load (complete garage, multi-room estate cleanout, or large property projects). All pricing includes labor, loading, hauling, disposal fees, and recycling. We serve all Fletcher Hills, Rancho San Diego, Granite Hills, and East County neighborhoods with the same transparent pricing—no extra charges for hillside access or large properties. For detailed pricing information, see our <a href='/blog/how-much-does-junk-removal-cost-san-diego' className='text-blue-600 hover:underline'>San Diego junk removal cost guide</a>. Call (619) 750-0114 for a free quote specific to your El Cajon project."
+    answer: "Our junk removal El Cajon pricing is transparent and volume-based with no hidden fees. Pricing ranges from $100-$150 for a quarter truck load (single item like a couch or appliance), $200-$295 for a half truck load (bedroom set, multiple appliances, or garage cleanout), $350-$425 for a three-quarter truck load (full room clearance or large estate items), and $450-$495 for a full truck load (complete garage, multi-room estate cleanout, or large property projects). All pricing includes labor, loading, hauling, disposal fees, and recycling. We serve all Fletcher Hills, Rancho San Diego, Granite Hills, and East County neighborhoods with the same transparent pricing—no extra charges for hillside access or large properties. For detailed pricing information, see our <a href='/blog/how-much-does-junk-removal-cost-san-diego' className='text-blue-600 hover:underline'>San Diego junk removal cost guide</a>. Call (619) 750-0114 for a free quote specific to your El Cajon project."
   },
   {
     question: "Do you provide same-day junk hauling in East County?",
-    answer: "Yes, we offer <strong>same-day junk hauling El Cajon</strong> service for urgent needs throughout East County. Whether you're in Fletcher Hills, Rancho San Diego, Granite Hills, Crest, or Downtown El Cajon, our locally owned team can respond quickly for emergency cleanouts, estate situations, and time-sensitive property needs. Our <a href='/same-day-junk-removal-san-diego' className='text-blue-600 hover:underline'>same-day junk removal</a> service covers all of San Diego County with priority scheduling for East County clients. Call before 2 PM for same-day service availability. For urgent commercial or contractor needs, we also offer <a href='/emergency-junk-removal-san-diego' className='text-blue-600 hover:underline'>emergency junk removal</a> with rapid response. Same-day availability depends on scheduling and crew availability, but we prioritize family emergencies and estate situations."
+    answer: "Yes, we offer same-day junk hauling El Cajon service for urgent needs throughout East County. Whether you're in Fletcher Hills, Rancho San Diego, Granite Hills, Crest, or Downtown El Cajon, our locally owned team can respond quickly for emergency cleanouts, estate situations, and time-sensitive property needs. Our <a href='/same-day-junk-removal-san-diego' className='text-blue-600 hover:underline'>same-day junk removal</a> service covers all of San Diego County with priority scheduling for East County clients. Call before 2 PM for same-day service availability. For urgent commercial or contractor needs, we also offer <a href='/emergency-junk-removal-san-diego' className='text-blue-600 hover:underline'>emergency junk removal</a> with rapid response. Same-day availability depends on scheduling and crew availability, but we prioritize family emergencies and estate situations."
   },
   {
     question: "What neighborhoods in El Cajon do you cover?",
@@ -80,7 +80,7 @@ const elCajonFAQs = [
   },
   {
     question: "Can you handle large family properties or multi-generational homes?",
-    answer: "Absolutely. Our <strong>junk pickup El Cajon</strong> service specializes in large family properties and multi-generational households common throughout East County. As a locally owned business, we understand the unique needs of family cleanouts, inherited properties, and estate transitions. We provide respectful, compassionate service that preserves important family memories while handling extensive property cleanouts with care and professionalism. Our <a href='/estate-cleanout-san-diego' className='text-blue-600 hover:underline'>estate cleanout services</a> are specifically designed for inherited homes and family transitions, with crews experienced in sorting, organizing, and respectfully handling family belongings. For large-scale projects involving entire properties, our <a href='/cleanout-services-san-diego' className='text-blue-600 hover:underline'>complete cleanout services</a> can handle multi-room, multi-generation accumulations efficiently. We work at your pace and coordinate with family members as needed throughout the process."
+    answer: "Absolutely. Our junk pickup El Cajon service specializes in large family properties and multi-generational households common throughout East County. As a locally owned business, we understand the unique needs of family cleanouts, inherited properties, and estate transitions. We provide respectful, compassionate service that preserves important family memories while handling extensive property cleanouts with care and professionalism. Our <a href='/estate-cleanout-san-diego' className='text-blue-600 hover:underline'>estate cleanout services</a> are specifically designed for inherited homes and family transitions, with crews experienced in sorting, organizing, and respectfully handling family belongings. For large-scale projects involving entire properties, our <a href='/cleanout-services-san-diego' className='text-blue-600 hover:underline'>complete cleanout services</a> can handle multi-room, multi-generation accumulations efficiently. We work at your pace and coordinate with family members as needed throughout the process."
   },
   {
     question: "Do you serve Fletcher Hills and Rancho San Diego?",
@@ -224,17 +224,17 @@ export default function JunkRemovalElCajonPage() {
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      <strong>Junk removal El Cajon</strong> serves East County's diverse family community, from Fletcher Hills luxury estates to Rancho San Diego master-planned neighborhoods to Granite Hills rural properties. Our <strong>junk hauling El Cajon</strong> team navigates hillside access challenges, large multi-generational properties, and East County's unique terrain with expertise. We provide <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> <strong>junk pickup El Cajon CA</strong> for family homes, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, and garage organization projects throughout East County with <a href="/blog/how-much-does-junk-removal-cost-san-diego" className="text-blue-600 hover:underline">transparent pricing</a> and respectful, compassionate service.
+                      Junk removal El Cajon serves East County's diverse family community, from Fletcher Hills luxury estates to Rancho San Diego master-planned neighborhoods to Granite Hills rural properties. Our junk hauling El Cajon team navigates hillside access challenges, large multi-generational properties, and East County's unique terrain with expertise. We provide <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> junk pickup El Cajon CA for family homes, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, and garage organization projects throughout East County with <a href="/blog/how-much-does-junk-removal-cost-san-diego" className="text-blue-600 hover:underline">transparent pricing</a> and respectful, compassionate service.
                     </p>
 
                     <p className="text-gray-700 mb-6">
-                      Our El Cajon operation is uniquely equipped to handle the challenges of East County properties. We understand that <strong>East County junk removal</strong> requires more than just hauling trucks—it demands experience with steep hillside driveways, knowledge of multi-generational family dynamics, capacity to handle large property cleanouts that span decades of accumulation, and the ability to work sensitively during estate transitions and family cleanouts. Whether you're clearing out a Fletcher Hills inherited estate, removing garage storage from a Rancho San Diego family home, or handling a complete property cleanout in Granite Hills, our team brings the specialized East County experience that family properties demand. We also serve nearby <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a>, <a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee</a>, <a href="/junk-removal-lakeside" className="text-blue-600 hover:underline">Lakeside</a>, and <a href="/junk-removal-spring-valley" className="text-blue-600 hover:underline">Spring Valley</a> communities.
+                      Our El Cajon operation is uniquely equipped to handle the challenges of East County properties. We understand that East County junk removal requires more than just hauling trucks—it demands experience with steep hillside driveways, knowledge of multi-generational family dynamics, capacity to handle large property cleanouts that span decades of accumulation, and the ability to work sensitively during estate transitions and family cleanouts. Whether you're clearing out a Fletcher Hills inherited estate, removing garage storage from a Rancho San Diego family home, or handling a complete property cleanout in Granite Hills, our team brings the specialized East County experience that family properties demand. We also serve nearby <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a>, <a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee</a>, <a href="/junk-removal-lakeside" className="text-blue-600 hover:underline">Lakeside</a>, and <a href="/junk-removal-spring-valley" className="text-blue-600 hover:underline">Spring Valley</a> communities.
                     </p>
 
                     {/* Neighborhoods Served */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">El Cajon Neighborhoods We Serve</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>trash removal El Cajon</strong> service covers every corner of East County, from hillside estates to valley neighborhoods. We've completed thousands of junk removal jobs throughout El Cajon's diverse areas, each with unique characteristics—from established family neighborhoods to newer developments—that inform our service approach:
+                      Our trash removal El Cajon service covers every corner of East County, from hillside estates to valley neighborhoods. We've completed thousands of junk removal jobs throughout El Cajon's diverse areas, each with unique characteristics—from established family neighborhoods to newer developments—that inform our service approach:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <ul className="space-y-2">
@@ -254,7 +254,7 @@ export default function JunkRemovalElCajonPage() {
                     {/* Major Streets */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access Routes</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>junk hauling El Cajon</strong> team knows every major route and residential street throughout East County. This local expertise matters when navigating El Cajon's hillside terrain, understanding access challenges in established neighborhoods, and planning efficient routes through diverse property types. We plan each job with detailed route mapping:
+                      Our junk hauling El Cajon team knows every major route and residential street throughout East County. This local expertise matters when navigating El Cajon's hillside terrain, understanding access challenges in established neighborhoods, and planning efficient routes through diverse property types. We plan each job with detailed route mapping:
                     </p>
                     <ul className="grid md:grid-cols-2 gap-2 mb-6">
                       <li>• <strong>Fletcher Parkway:</strong> Major east-west commercial corridor serving central El Cajon neighborhoods</li>
@@ -270,7 +270,7 @@ export default function JunkRemovalElCajonPage() {
                     {/* Local Landmarks */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">El Cajon Landmarks</h3>
                     <p className="text-gray-700 mb-4">
-                      We provide <strong>junk pickup El Cajon CA</strong> service near all major landmarks. These familiar reference points help us navigate quickly to your property and provide accurate arrival estimates throughout East County's diverse terrain:
+                      We provide junk pickup El Cajon CA service near all major landmarks. These familiar reference points help us navigate quickly to your property and provide accurate arrival estimates throughout East County's diverse terrain:
                     </p>
                     <div className="grid md:grid-cols-2 gap-2 mb-6">
                       <ul className="space-y-1">
@@ -294,7 +294,7 @@ export default function JunkRemovalElCajonPage() {
                     {/* Traffic & Timing */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Traffic Patterns & Service Timing</h3>
                     <p className="text-gray-700 mb-4">
-                      El Cajon's East County location and commuter patterns create specific traffic challenges that affect <strong>junk removal El Cajon</strong> scheduling. Our dispatch team actively monitors East County traffic and coordinates with you to schedule service windows that work around commute times and maximize efficiency:
+                      El Cajon's East County location and commuter patterns create specific traffic challenges that affect junk removal El Cajon scheduling. Our dispatch team actively monitors East County traffic and coordinates with you to schedule service windows that work around commute times and maximize efficiency:
                     </p>
                     <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
                       <li><strong>Morning rush hours (6-9 AM):</strong> Heavy westbound traffic on I-8 and Fletcher Parkway as East County residents commute to San Diego. We recommend mid-morning (9:30 AM-2 PM) service windows when major corridors clear and residential streets become accessible without traffic delays.</li>
@@ -312,7 +312,7 @@ export default function JunkRemovalElCajonPage() {
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in El Cajon</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>El Cajon junk removal</strong> service handles the unique mix of items common to East County family properties—from multi-generational household accumulation to garage storage to estate transition clearance. We remove everything from single items to complete property cleanouts:
+                      Our El Cajon junk removal service handles the unique mix of items common to East County family properties—from multi-generational household accumulation to garage storage to estate transition clearance. We remove everything from single items to complete property cleanouts:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
@@ -356,7 +356,7 @@ export default function JunkRemovalElCajonPage() {
                     {/* Scrap Metal Section */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Scrap Metal Removal & Recycling in El Cajon</h3>
                     <p className="text-gray-700 mb-4">
-                      East County properties often accumulate scrap metal from years of home maintenance, automotive work, and property improvements. Our <strong>scrap metal removal El Cajon</strong> service handles all types of <a href="/scrap-metal-removal" className="text-blue-600 hover:underline">metal recycling</a>, from <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliances</a> to construction materials to copper and aluminum scrap:
+                      East County properties often accumulate scrap metal from years of home maintenance, automotive work, and property improvements. Our scrap metal removal El Cajon service handles all types of <a href="/scrap-metal-removal" className="text-blue-600 hover:underline">metal recycling</a>, from <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliances</a> to construction materials to copper and aluminum scrap:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div className="bg-gray-50 p-4 rounded-lg">
@@ -441,10 +441,10 @@ export default function JunkRemovalElCajonPage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Junk Removal El Cajon"
-          description="Get answers to common questions about our <strong>junk removal El Cajon</strong> services, pricing, and same-day availability."
+          description="Get answers to common questions about our junk removal El Cajon services, pricing, and same-day availability."
           faqs={elCajonFAQs}
           ctaTitle="Still Have Questions About El Cajon Junk Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal El Cajon</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our junk removal El Cajon services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
 

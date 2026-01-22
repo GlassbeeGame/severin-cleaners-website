@@ -68,23 +68,23 @@ export const metadata: Metadata = {
 const springValleyFAQs = [
   {
     question: "How much does junk removal cost in Spring Valley?",
-    answer: "Our <strong>Spring Valley junk removal</strong> pricing is transparent and affordable, designed with East County families in mind. We offer upfront pricing with no hidden fees:"
+    answer: "Our Spring Valley junk removal pricing is transparent and affordable, designed with East County families in mind. We offer upfront pricing with no hidden fees:"
   },
   {
     question: "Do you provide hillside junk hauling in Spring Valley?",
-    answer: "Yes! We specialize in hillside property <strong>junk pickup Spring Valley</strong> services, especially in Dictionary Hill and Casa de Oro areas. Our team has specialized equipment and experience handling challenging terrain, steep driveways, and unique access situations. We're experts at safely navigating hillside properties throughout East County."
+    answer: "Yes! We specialize in hillside property junk pickup Spring Valley services, especially in Dictionary Hill and Casa de Oro areas. Our team has specialized equipment and experience handling challenging terrain, steep driveways, and unique access situations. We're experts at safely navigating hillside properties throughout East County."
   },
   {
     question: "Can you offer same-day junk pickup for apartments and mobile homes?",
-    answer: "Absolutely! We provide same-day <strong>Spring Valley junk removal</strong> service for apartments, mobile home parks, and multi-family properties. Our team works efficiently with property managers and understands the unique requirements of rental properties. We coordinate with building management and respect community guidelines for all <strong>trash removal Spring Valley</strong> projects."
+    answer: "Absolutely! We provide same-day Spring Valley junk removal service for apartments, mobile home parks, and multi-family properties. Our team works efficiently with property managers and understands the unique requirements of rental properties. We coordinate with building management and respect community guidelines for all trash removal Spring Valley projects."
   },
   {
     question: "Do you handle large family cleanouts and estate junk removal?",
-    answer: "Yes, while we're a professional <strong>junk removal Spring Valley</strong> company, we excel at large family cleanouts and estate property junk removal. Our core service is hauling away unwanted items, furniture, and debris from inherited homes and multi-generational households."
+    answer: "Yes, while we're a professional junk removal Spring Valley company, we excel at large family cleanouts and estate property junk removal. Our core service is hauling away unwanted items, furniture, and debris from inherited homes and multi-generational households."
   },
   {
     question: "Are your junk removal services eco-friendly in East County?",
-    answer: "Absolutely. Our <strong>Spring Valley San Diego junk removal</strong> approach prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations."
+    answer: "Absolutely. Our Spring Valley San Diego junk removal approach prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations."
   }
 ];
 
@@ -167,17 +167,17 @@ export default function JunkRemovalSpringValleyPage() {
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      <strong>Spring Valley junk removal</strong> serves a diverse East County community known for hillside homes, family neighborhoods, and multi-family properties. From panoramic-view homes in Dictionary Hill to established family areas near Casa de Oro, our <strong>junk hauling Spring Valley</strong> team handles the unique access challenges of this varied landscape. We provide same-day <strong>trash removal Spring Valley</strong> for hillside properties, apartments, and family homes throughout the 91977 and 91978 areas with transparent pricing and eco-friendly disposal.
+                      Spring Valley junk removal serves a diverse East County community known for hillside homes, family neighborhoods, and multi-family properties. From panoramic-view homes in Dictionary Hill to established family areas near Casa de Oro, our junk hauling Spring Valley team handles the unique access challenges of this varied landscape. We provide same-day trash removal Spring Valley for hillside properties, apartments, and family homes throughout the 91977 and 91978 areas with transparent pricing and eco-friendly disposal.
                     </p>
 
                     <p className="text-gray-700 mb-6">
-                      Our Spring Valley operation is uniquely equipped to handle properties ranging from steep hillside driveways to multi-family apartment complexes. We understand that <strong>Spring Valley San Diego junk removal</strong> requires specialized knowledge of challenging terrain, narrow street access, and the diverse mix of property types that characterize this East County community. Whether you're clearing accumulated items from a hillside home's garage, removing furniture from an apartment complex near Jamacha Boulevard, or handling estate cleanouts in Casa de Oro, our team brings the expertise and equipment East County's varied properties demand.
+                      Our Spring Valley operation is uniquely equipped to handle properties ranging from steep hillside driveways to multi-family apartment complexes. We understand that Spring Valley San Diego junk removal requires specialized knowledge of challenging terrain, narrow street access, and the diverse mix of property types that characterize this East County community. Whether you're clearing accumulated items from a hillside home's garage, removing furniture from an apartment complex near Jamacha Boulevard, or handling estate cleanouts in Casa de Oro, our team brings the expertise and equipment East County's varied properties demand.
                     </p>
 
                     {/* Neighborhoods Served */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Spring Valley Neighborhoods We Serve</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>junk removal Spring Valley</strong> service covers every corner of this extensive East County community. We've completed thousands of junk removal jobs throughout Spring Valley's diverse neighborhoods, each with unique terrain and access characteristics:
+                      Our junk removal Spring Valley service covers every corner of this extensive East County community. We've completed thousands of junk removal jobs throughout Spring Valley's diverse neighborhoods, each with unique terrain and access characteristics:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <ul className="space-y-2">
@@ -197,7 +197,7 @@ export default function JunkRemovalSpringValleyPage() {
                     {/* Major Streets */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Spring Valley San Diego junk removal</strong> team knows every street, hillside approach, and access challenge in this geographically diverse area. We plan each <strong>junk pickup Spring Valley</strong> job with detailed routing:
+                      Our Spring Valley San Diego junk removal team knows every street, hillside approach, and access challenge in this geographically diverse area. We plan each junk pickup Spring Valley job with detailed routing:
                     </p>
                     <ul className="grid md:grid-cols-2 gap-2 mb-6">
                       <li>• <strong>Jamacha Boulevard:</strong> Main north-south corridor with shopping centers, apartments, and commercial traffic</li>
@@ -213,7 +213,7 @@ export default function JunkRemovalSpringValleyPage() {
                     {/* Local Landmarks */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Spring Valley Landmarks</h3>
                     <p className="text-gray-700 mb-4">
-                      We provide <strong>junk removal Spring Valley</strong> service near all major East County landmarks. These reference points help us navigate efficiently:
+                      We provide junk removal Spring Valley service near all major East County landmarks. These reference points help us navigate efficiently:
                     </p>
                     <div className="grid md:grid-cols-2 gap-2 mb-6">
                       <ul className="space-y-1">
@@ -237,7 +237,7 @@ export default function JunkRemovalSpringValleyPage() {
                     {/* Traffic & Timing */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Traffic & Service Timing</h3>
                     <p className="text-gray-700 mb-4">
-                      Spring Valley's position as an East County residential hub creates traffic patterns that affect <strong>junk hauling Spring Valley</strong> scheduling:
+                      Spring Valley's position as an East County residential hub creates traffic patterns that affect junk hauling Spring Valley scheduling:
                     </p>
                     <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
                       <li><strong>Weekday commute hours (6:30-8:30 AM, 4-6 PM):</strong> Jamacha Boulevard, Avocado Boulevard, and SR-94 access points experience heavy East County commuter traffic. We schedule mid-morning (9 AM-12 PM) or early afternoon (1-3 PM) windows to avoid peak congestion, particularly for hillside properties where narrow streets compound traffic delays.</li>
@@ -255,7 +255,7 @@ export default function JunkRemovalSpringValleyPage() {
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Spring Valley</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Spring Valley junk removal</strong> service handles items common to East County's diverse property types:
+                      Our Spring Valley junk removal service handles items common to East County's diverse property types:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
@@ -301,7 +301,7 @@ export default function JunkRemovalSpringValleyPage() {
                     <div className="bg-blue-50 rounded-lg p-6 mb-6">
                       <ol className="space-y-3 text-gray-700">
                         <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe your items and Spring Valley location. We'll provide volume-based pricing and schedule your service window.</li>
-                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> <strong>junk pickup Spring Valley</strong> service. We coordinate timing around traffic patterns and hillside access requirements.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> junk pickup Spring Valley service. We coordinate timing around traffic patterns and hillside access requirements.</li>
                         <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives during your scheduled window. We assess items and provide final pricing before starting—no hidden fees.</li>
                         <li><strong>4. We Load & Haul Everything:</strong> Our team handles all lifting and loading. We navigate steep driveways, protect property, and complete removal efficiently.</li>
                         <li><strong>5. Eco-Friendly Disposal:</strong> We sort for donation, recycling, and responsible disposal. Usable items go to East County charities, recyclables to proper facilities.</li>
@@ -358,10 +358,10 @@ export default function JunkRemovalSpringValleyPage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Junk Removal Spring Valley"
-          description="Get answers to common questions about our <strong>junk removal Spring Valley</strong> services, pricing, and same-day availability."
+          description="Get answers to common questions about our junk removal Spring Valley services, pricing, and same-day availability."
           faqs={springValleyFAQs}
           ctaTitle="Still Have Questions About Spring Valley Junk Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Spring Valley</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our junk removal Spring Valley services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
 

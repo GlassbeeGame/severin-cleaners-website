@@ -154,17 +154,17 @@ export default function JunkRemovalEscondidoPage() {
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      <strong>Junk removal Escondido CA</strong> serves North County's most diverse inland community. From historic downtown bungalows to sprawling Hidden Meadows estates, from San Pasqual Valley vineyard properties to dense apartment complexes along Centre City Parkway, our <strong>Escondido junk removal</strong> team navigates steep hillside driveways, agricultural access roads, and narrow downtown streets with expertise. We provide same-day <strong>junk hauling Escondido</strong> for residential cleanouts, commercial properties, and estate sales throughout the 92025, 92026, and 92027 zip codes with transparent pricing and eco-friendly disposal.
+                      Junk removal Escondido CA serves North County's most diverse inland community. From historic downtown bungalows to sprawling Hidden Meadows estates, from San Pasqual Valley vineyard properties to dense apartment complexes along Centre City Parkway, our Escondido junk removal team navigates steep hillside driveways, agricultural access roads, and narrow downtown streets with expertise. We provide same-day junk hauling Escondido for residential cleanouts, commercial properties, and estate sales throughout the 92025, 92026, and 92027 zip codes with transparent pricing and eco-friendly disposal.
                     </p>
 
                     <p className="text-gray-700 mb-6">
-                      Our Escondido operation is uniquely equipped to handle the challenges of North County's largest inland city. We understand that <strong>junk pickup Escondido</strong> requires more than just hauling trucks—it demands local knowledge of hillside terrain, understanding of agricultural property access, familiarity with HOA requirements in planned communities, and the ability to work efficiently across Escondido's dramatic elevation changes and diverse property types. Whether you're clearing out a downtown apartment after tenant turnover, removing construction debris from a Hidden Meadows remodel, or handling a full estate cleanout in the historic core, our team brings the specialized experience Escondido properties demand.
+                      Our Escondido operation is uniquely equipped to handle the challenges of North County's largest inland city. We understand that junk pickup Escondido requires more than just hauling trucks—it demands local knowledge of hillside terrain, understanding of agricultural property access, familiarity with HOA requirements in planned communities, and the ability to work efficiently across Escondido's dramatic elevation changes and diverse property types. Whether you're clearing out a downtown apartment after tenant turnover, removing construction debris from a Hidden Meadows remodel, or handling a full estate cleanout in the historic core, our team brings the specialized experience Escondido properties demand.
                     </p>
 
                     {/* Neighborhoods Served */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Escondido Neighborhoods We Serve</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>furniture removal Escondido</strong> service covers every corner of North County's largest inland city, from downtown historic districts to hillside communities bordering the Cleveland National Forest. We've completed thousands of <strong>trash removal Escondido</strong> jobs throughout Escondido's diverse neighborhoods, each with unique access challenges and property characteristics that inform our service approach:
+                      Our furniture removal Escondido service covers every corner of North County's largest inland city, from downtown historic districts to hillside communities bordering the Cleveland National Forest. We've completed thousands of trash removal Escondido jobs throughout Escondido's diverse neighborhoods, each with unique access challenges and property characteristics that inform our service approach:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <ul className="space-y-2">
@@ -184,7 +184,7 @@ export default function JunkRemovalEscondidoPage() {
                     {/* Major Streets */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>appliance removal Escondido</strong> team knows every major thoroughfare and neighborhood street in Escondido. This local expertise matters when navigating North County's diverse terrain—steep hillside roads in Hidden Meadows, narrow downtown alleys, agricultural access roads in San Pasqual Valley, and busy commercial corridors. We plan each <strong>estate cleanout Escondido</strong> job with detailed route mapping to ensure our trucks can access your property efficiently:
+                      Our appliance removal Escondido team knows every major thoroughfare and neighborhood street in Escondido. This local expertise matters when navigating North County's diverse terrain—steep hillside roads in Hidden Meadows, narrow downtown alleys, agricultural access roads in San Pasqual Valley, and busy commercial corridors. We plan each <strong>estate cleanout Escondido</strong> job with detailed route mapping to ensure our trucks can access your property efficiently:
                     </p>
                     <ul className="grid md:grid-cols-2 gap-2 mb-6">
                       <li>• <strong>Centre City Parkway:</strong> Main commercial spine with peak congestion during rush hours</li>
@@ -200,7 +200,7 @@ export default function JunkRemovalEscondidoPage() {
                     {/* Local Landmarks */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Escondido Landmarks</h3>
                     <p className="text-gray-700 mb-4">
-                      We provide <strong>commercial junk removal Escondido</strong> service near all major landmarks. These familiar reference points help us navigate quickly to your property and provide accurate arrival time estimates throughout this geographically expansive North County city:
+                      We provide commercial junk removal Escondido service near all major landmarks. These familiar reference points help us navigate quickly to your property and provide accurate arrival time estimates throughout this geographically expansive North County city:
                     </p>
                     <div className="grid md:grid-cols-2 gap-2 mb-6">
                       <ul className="space-y-1">
@@ -224,7 +224,7 @@ export default function JunkRemovalEscondidoPage() {
                     {/* Traffic & Timing */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Traffic & Service Timing</h3>
                     <p className="text-gray-700 mb-4">
-                      Escondido's inland location and commuter traffic patterns affect <strong>same day junk removal Escondido</strong> timing significantly. Our dispatch team actively monitors North County traffic patterns and coordinates with you to schedule service windows that minimize wait times and maximize efficiency:
+                      Escondido's inland location and commuter traffic patterns affect same day junk removal Escondido timing significantly. Our dispatch team actively monitors North County traffic patterns and coordinates with you to schedule service windows that minimize wait times and maximize efficiency:
                     </p>
                     <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
                       <li><strong>Morning commute (7-9 AM):</strong> Valley Parkway and Centre City Parkway experience heavy eastbound traffic as commuters head toward inland employment centers. We schedule early morning (6-7 AM) starts or wait until after 9:30 AM for properties requiring these corridor crossings.</li>
@@ -242,7 +242,7 @@ export default function JunkRemovalEscondidoPage() {
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Escondido</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>junk removal Escondido CA</strong> service handles the unique mix of items common to North County inland living—from fire-season brush and agricultural debris to estate cleanouts and commercial property clearances. We remove everything from single items to complete property cleanouts:
+                      Our junk removal Escondido CA service handles the unique mix of items common to North County inland living—from fire-season brush and agricultural debris to estate cleanouts and commercial property clearances. We remove everything from single items to complete property cleanouts:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
@@ -289,7 +289,7 @@ export default function JunkRemovalEscondidoPage() {
                     <div className="bg-blue-50 rounded-lg p-6 mb-6">
                       <ol className="space-y-3 text-gray-700">
                         <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe what you need removed and your Escondido location. We'll provide estimated pricing based on volume and schedule your service window.</li>
-                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for same-day <strong>junk pickup Escondido</strong> service throughout North County. We coordinate arrival times around traffic patterns and your schedule preferences.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for same-day junk pickup Escondido service throughout North County. We coordinate arrival times around traffic patterns and your schedule preferences.</li>
                         <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives in clearly marked trucks during your scheduled window. We assess items for removal and provide a final quote before starting work—no hidden fees or surprises.</li>
                         <li><strong>4. We Load & Haul Everything:</strong> Our team does all lifting, loading, and hauling. We protect floors and doorways, navigate stairs and hillside properties, and complete removal efficiently. You simply point—we handle the rest.</li>
                         <li><strong>5. Eco-Friendly Disposal:</strong> We sort items for donation, recycling, and responsible disposal. Usable furniture goes to local charities, recyclables to proper facilities, and only true trash to landfill as last resort.</li>
@@ -346,10 +346,10 @@ export default function JunkRemovalEscondidoPage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Junk Removal Escondido"
-          description="Get answers to common questions about our <strong>junk removal Escondido</strong> services, pricing, and same-day availability."
+          description="Get answers to common questions about our junk removal Escondido services, pricing, and same-day availability."
           faqs={escondidoFAQs}
           ctaTitle="Still Have Questions About Escondido Junk Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Escondido</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our junk removal Escondido services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
 

@@ -170,17 +170,17 @@ export default function JunkRemovalDelMarPage() {
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      <strong>Del Mar junk removal</strong> serves one of San Diego's most exclusive coastal communities. From oceanfront homes near Powerhouse Park to Del Mar Heights estates overlooking the Pacific, our <strong>junk hauling Del Mar</strong> team delivers premium service with discretion and professionalism. We're fully licensed and insured, providing same-day <strong>trash removal Del Mar</strong> throughout the 92014 area with transparent pricing and eco-friendly disposal practices.
+                      Del Mar junk removal serves one of San Diego's most exclusive coastal communities. From oceanfront homes near Powerhouse Park to Del Mar Heights estates overlooking the Pacific, our junk hauling Del Mar team delivers premium service with discretion and professionalism. We're fully licensed and insured, providing same-day trash removal Del Mar throughout the 92014 area with transparent pricing and eco-friendly disposal practices.
                     </p>
 
                     <p className="text-gray-700 mb-6">
-                      Del Mar's unique character as both a charming coastal village and an upscale residential community creates specific junk removal challenges. Our <strong>Del Mar San Diego junk removal</strong> crews understand the narrow Village streets where historic homes sit steps from boutique shopping, the winding hillside roads of Del Mar Heights where luxury estates command panoramic ocean views, and the seasonal traffic patterns driven by the world-famous Del Mar Racetrack. We've been providing expert <strong>Camino Del Mar junk hauling</strong> service for years, developing the local expertise that efficient coastal property service demands.
+                      Del Mar's unique character as both a charming coastal village and an upscale residential community creates specific junk removal challenges. Our Del Mar San Diego junk removal crews understand the narrow Village streets where historic homes sit steps from boutique shopping, the winding hillside roads of Del Mar Heights where luxury estates command panoramic ocean views, and the seasonal traffic patterns driven by the world-famous Del Mar Racetrack. We've been providing expert Camino Del Mar junk hauling service for years, developing the local expertise that efficient coastal property service demands.
                     </p>
 
                     {/* Neighborhoods Served */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Del Mar Neighborhoods We Serve</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>junk removal 92014</strong> service covers every Del Mar neighborhood, from beach-level Village properties to hillside Heights estates. Each area presents distinct characteristics that inform our junk removal approach—Village homes often have limited street parking and shared access considerations, while Heights properties may involve steep driveways and panoramic settings that require careful equipment positioning:
+                      Our junk removal 92014 service covers every Del Mar neighborhood, from beach-level Village properties to hillside Heights estates. Each area presents distinct characteristics that inform our junk removal approach—Village homes often have limited street parking and shared access considerations, while Heights properties may involve steep driveways and panoramic settings that require careful equipment positioning:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <ul className="space-y-2">
@@ -200,7 +200,7 @@ export default function JunkRemovalDelMarPage() {
                     {/* Major Streets */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Del Mar San Diego junk removal</strong> team navigates all major routes throughout this compact coastal community. Del Mar's geography creates unique access challenges—the Village's grid of narrow streets, the winding hillside roads climbing to the Heights, and the seasonal congestion around the Racetrack all require local knowledge for efficient junk removal routing:
+                      Our Del Mar San Diego junk removal team navigates all major routes throughout this compact coastal community. Del Mar's geography creates unique access challenges—the Village's grid of narrow streets, the winding hillside roads climbing to the Heights, and the seasonal congestion around the Racetrack all require local knowledge for efficient junk removal routing:
                     </p>
                     <ul className="grid md:grid-cols-2 gap-2 mb-6">
                       <li>• <strong>Camino Del Mar:</strong> Main coastal road with two-lane limitations and peak traffic</li>
@@ -216,7 +216,7 @@ export default function JunkRemovalDelMarPage() {
                     {/* Local Landmarks */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Del Mar Landmarks</h3>
                     <p className="text-gray-700 mb-4">
-                      We provide <strong>junk removal 92014</strong> service near all Del Mar landmarks. These well-known locations help our crews navigate efficiently and provide accurate arrival estimates in this relatively small coastal city where local knowledge of landmarks matters more than GPS coordinates alone:
+                      We provide junk removal 92014 service near all Del Mar landmarks. These well-known locations help our crews navigate efficiently and provide accurate arrival estimates in this relatively small coastal city where local knowledge of landmarks matters more than GPS coordinates alone:
                     </p>
                     <div className="grid md:grid-cols-2 gap-2 mb-6">
                       <ul className="space-y-1">
@@ -238,7 +238,7 @@ export default function JunkRemovalDelMarPage() {
                     {/* Traffic & Timing */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Traffic & Service Timing</h3>
                     <p className="text-gray-700 mb-4">
-                      Del Mar's seasonal traffic patterns affect <strong>Camino Del Mar junk hauling</strong> scheduling more dramatically than most North County communities. The world-famous Del Mar Racetrack drives massive seasonal congestion, while summer beach traffic and the Village's narrow streets create year-round timing considerations for efficient junk removal:
+                      Del Mar's seasonal traffic patterns affect Camino Del Mar junk hauling scheduling more dramatically than most North County communities. The world-famous Del Mar Racetrack drives massive seasonal congestion, while summer beach traffic and the Village's narrow streets create year-round timing considerations for efficient junk removal:
                     </p>
                     <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
                       <li><strong>Racing Season (July-Sept, November):</strong> Via de la Valle and Jimmy Durante experience heavy traffic on race days (Wednesday-Sunday during meets). Afternoon post-racing traffic (5-7 PM) creates significant delays. We schedule residential service early mornings (6-9 AM) or Monday-Tuesday non-race days during summer and fall racing seasons to ensure efficient access throughout Del Mar.</li>
@@ -250,13 +250,13 @@ export default function JunkRemovalDelMarPage() {
                     {/* Weather */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Coastal Climate Considerations</h3>
                     <p className="text-gray-700 mb-6">
-                      Del Mar's coastal microclimate brings May-August marine layer (cool, foggy mornings ideal for physical work) and year-round mild temperatures averaging 60-75°F. This comfortable climate makes Del Mar one of California's most desirable coastal communities, but salt air accelerates corrosion on outdoor furniture and appliances stored near the ocean. We protect electronics during transport and schedule around winter storm systems that occasionally cause street flooding in low-lying Village areas near the beach. Our <strong>trash removal Del Mar</strong> service includes proper handling of salt-damaged items—we've removed countless pieces of patio furniture, outdoor grills, and beach equipment that coastal exposure has rendered unusable. The marine layer's moisture content, while creating comfortable working conditions, also contributes to mold and mildew in stored items, particularly in garage and storage areas without climate control. We help Del Mar residents maintain healthy properties by efficiently removing moisture-damaged items before conditions worsen.
+                      Del Mar's coastal microclimate brings May-August marine layer (cool, foggy mornings ideal for physical work) and year-round mild temperatures averaging 60-75°F. This comfortable climate makes Del Mar one of California's most desirable coastal communities, but salt air accelerates corrosion on outdoor furniture and appliances stored near the ocean. We protect electronics during transport and schedule around winter storm systems that occasionally cause street flooding in low-lying Village areas near the beach. Our trash removal Del Mar service includes proper handling of salt-damaged items—we've removed countless pieces of patio furniture, outdoor grills, and beach equipment that coastal exposure has rendered unusable. The marine layer's moisture content, while creating comfortable working conditions, also contributes to mold and mildew in stored items, particularly in garage and storage areas without climate control. We help Del Mar residents maintain healthy properties by efficiently removing moisture-damaged items before conditions worsen.
                     </p>
 
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Del Mar</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Del Mar junk removal</strong> service handles the sophisticated mix of items found in upscale coastal properties. From <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">designer furniture removal</a> that no longer suits updated interiors to salt-damaged outdoor equipment, construction debris from luxury remodels to complete <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, we remove everything efficiently with <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a> available:
+                      Our Del Mar junk removal service handles the sophisticated mix of items found in upscale coastal properties. From <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">designer furniture removal</a> that no longer suits updated interiors to salt-damaged outdoor equipment, construction debris from luxury remodels to complete <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, we remove everything efficiently with <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a> available:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
@@ -359,10 +359,10 @@ export default function JunkRemovalDelMarPage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Junk Removal Del Mar"
-          description="Get answers to common questions about our <strong>junk removal Del Mar</strong> services, pricing, and same-day availability."
+          description="Get answers to common questions about our junk removal Del Mar services, pricing, and same-day availability."
           faqs={delMarFAQs}
           ctaTitle="Still Have Questions About Del Mar Junk Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Del Mar</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our junk removal Del Mar services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
 

@@ -165,17 +165,17 @@ export default function JunkRemovalMiraMesaPage() {
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      <strong>Mira Mesa junk removal</strong> serves one of San Diego's most diverse communities. From Sorrento Valley tech campuses to Black Mountain family neighborhoods, our <strong>junk hauling Mira Mesa</strong> team navigates business parks, apartment complexes, and residential streets with expertise and efficiency. We provide same-day <strong>trash removal Mira Mesa</strong> for office cleanouts, apartment turnovers, and family home projects throughout the 92126 and 92145 areas with transparent pricing and eco-friendly disposal.
+                      Mira Mesa junk removal serves one of San Diego's most diverse communities. From Sorrento Valley tech campuses to Black Mountain family neighborhoods, our junk hauling Mira Mesa team navigates business parks, apartment complexes, and residential streets with expertise and efficiency. We provide same-day trash removal Mira Mesa for office cleanouts, apartment turnovers, and family home projects throughout the 92126 and 92145 areas with transparent pricing and eco-friendly disposal.
                     </p>
 
                     <p className="text-gray-700 mb-6">
-                      Our Mira Mesa operation is uniquely equipped to handle the challenges of this dynamic community. We understand that <strong>Mira Mesa San Diego junk removal</strong> requires more than standard hauling services—it demands experience with tech company office moves, military housing near MCAS Miramar, commercial warehouse cleanouts, and the ability to work efficiently in one of San Diego's most economically diverse areas. Whether you're clearing out a Sorrento Valley office after downsizing, removing furniture from an apartment complex along Mira Mesa Boulevard, or handling a complete garage cleanout near Los Penasquitos Canyon, our team brings the specialized local knowledge Mira Mesa properties demand.
+                      Our Mira Mesa operation is uniquely equipped to handle the challenges of this dynamic community. We understand that Mira Mesa San Diego junk removal requires more than standard hauling services—it demands experience with tech company office moves, military housing near MCAS Miramar, commercial warehouse cleanouts, and the ability to work efficiently in one of San Diego's most economically diverse areas. Whether you're clearing out a Sorrento Valley office after downsizing, removing furniture from an apartment complex along Mira Mesa Boulevard, or handling a complete garage cleanout near Los Penasquitos Canyon, our team brings the specialized local knowledge Mira Mesa properties demand.
                     </p>
 
                     {/* Neighborhoods Served */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Mira Mesa Neighborhoods We Serve</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>commercial junk removal Mira Mesa</strong> service covers every corner of this sprawling community, from industrial parks along Camino Santa Fe to residential cul-de-sacs in East Mira Mesa. We've completed thousands of junk removal jobs throughout Mira Mesa's diverse neighborhoods, each with unique access challenges and property characteristics:
+                      Our commercial junk removal Mira Mesa service covers every corner of this sprawling community, from industrial parks along Camino Santa Fe to residential cul-de-sacs in East Mira Mesa. We've completed thousands of junk removal jobs throughout Mira Mesa's diverse neighborhoods, each with unique access challenges and property characteristics:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <ul className="space-y-2">
@@ -195,7 +195,7 @@ export default function JunkRemovalMiraMesaPage() {
                     {/* Major Streets */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Commercial Corridors</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Mira Mesa San Diego junk removal</strong> team knows every major street and business park in this expansive community. This local expertise matters when navigating the area's complex infrastructure—busy commercial corridors, apartment complex parking restrictions, business park security protocols, and residential HOA requirements. We plan each <strong>junk pickup Mira Mesa</strong> job with detailed route coordination:
+                      Our Mira Mesa San Diego junk removal team knows every major street and business park in this expansive community. This local expertise matters when navigating the area's complex infrastructure—busy commercial corridors, apartment complex parking restrictions, business park security protocols, and residential HOA requirements. We plan each junk pickup Mira Mesa job with detailed route coordination:
                     </p>
                     <ul className="grid md:grid-cols-2 gap-2 mb-6">
                       <li>• <strong>Mira Mesa Boulevard:</strong> Main east-west artery with retail, apartments, and peak congestion during rush hours</li>
@@ -211,7 +211,7 @@ export default function JunkRemovalMiraMesaPage() {
                     {/* Local Landmarks */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Mira Mesa Landmarks & Business Districts</h3>
                     <p className="text-gray-700 mb-4">
-                      We provide <strong>junk removal Mira Mesa</strong> service near all major landmarks and commercial districts. These familiar reference points help us navigate quickly to your property and provide accurate arrival time estimates. Our crews use local landmarks for efficient routing throughout this diverse community:
+                      We provide junk removal Mira Mesa service near all major landmarks and commercial districts. These familiar reference points help us navigate quickly to your property and provide accurate arrival time estimates. Our crews use local landmarks for efficient routing throughout this diverse community:
                     </p>
                     <div className="grid md:grid-cols-2 gap-2 mb-6">
                       <ul className="space-y-1">
@@ -235,7 +235,7 @@ export default function JunkRemovalMiraMesaPage() {
                     {/* Traffic & Timing */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Traffic Patterns & Commercial Scheduling</h3>
                     <p className="text-gray-700 mb-4">
-                      Mira Mesa's tech corridor traffic and residential congestion affect <strong>trash removal Mira Mesa</strong> timing throughout the week. Our dispatch team actively monitors both I-15 freeway conditions and local street traffic, coordinating service windows that maximize efficiency while minimizing disruption. We've developed specific protocols for different property types:
+                      Mira Mesa's tech corridor traffic and residential congestion affect trash removal Mira Mesa timing throughout the week. Our dispatch team actively monitors both I-15 freeway conditions and local street traffic, coordinating service windows that maximize efficiency while minimizing disruption. We've developed specific protocols for different property types:
                     </p>
                     <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
                       <li><strong>Weekday rush hours (7-9 AM, 4-6 PM):</strong> Mira Mesa Boulevard and Miramar Road experience heavy commuter traffic as tech workers head to Sorrento Valley and military personnel access MCAS Miramar. I-15 freeway congestion backs up onto local streets. We recommend mid-morning (9 AM-12 PM) or early afternoon (1-3 PM) windows when traffic clears and commercial parking becomes available for efficient truck access and loading.</li>
@@ -253,7 +253,7 @@ export default function JunkRemovalMiraMesaPage() {
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Mira Mesa</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Mira Mesa junk removal</strong> service handles the diverse mix of items common to both residential and commercial properties—from office equipment to household furniture to industrial materials. We remove everything from single items to complete building cleanouts:
+                      Our Mira Mesa junk removal service handles the diverse mix of items common to both residential and commercial properties—from office equipment to household furniture to industrial materials. We remove everything from single items to complete building cleanouts:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
@@ -300,7 +300,7 @@ export default function JunkRemovalMiraMesaPage() {
                     <div className="bg-blue-50 rounded-lg p-6 mb-6">
                       <ol className="space-y-3 text-gray-700">
                         <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe what you need removed and your Mira Mesa location. For commercial properties, provide building access details and any security requirements. We'll provide estimated pricing based on volume and schedule your service window.</li>
-                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> <strong>junk pickup Mira Mesa</strong> service throughout residential and commercial areas. We coordinate with building management, security offices, and property owners to ensure smooth access and efficient service timing.</li>
+                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> junk pickup Mira Mesa service throughout residential and commercial areas. We coordinate with building management, security offices, and property owners to ensure smooth access and efficient service timing.</li>
                         <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives in clearly marked trucks during your scheduled window. We assess items for removal and provide a final quote before starting work—no hidden fees or surprises. For commercial jobs, we coordinate with facility managers and security personnel as needed.</li>
                         <li><strong>4. We Load & Haul Everything:</strong> Our team does all lifting, loading, and hauling. We protect floors and doorways, navigate office hallways and loading docks, and complete removal efficiently. You simply point—we handle the rest, including coordination with building management for elevator reservations and loading zone access.</li>
                         <li><strong>5. Eco-Friendly Disposal:</strong> We sort items for donation, recycling, and responsible disposal. Office furniture goes to local charities and resale facilities, electronics to certified e-waste recyclers, and construction materials to appropriate processors. Only true trash goes to landfill as last resort.</li>
@@ -357,10 +357,10 @@ export default function JunkRemovalMiraMesaPage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Junk Removal Mira Mesa"
-          description="Get answers to common questions about our <strong>junk removal Mira Mesa</strong> services, pricing, and same-day availability."
+          description="Get answers to common questions about our junk removal Mira Mesa services, pricing, and same-day availability."
           faqs={miraMesaFAQs}
           ctaTitle="Still Have Questions About Mira Mesa Junk Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Mira Mesa</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our junk removal Mira Mesa services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
 

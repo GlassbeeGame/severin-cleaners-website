@@ -75,7 +75,7 @@ const carmelValleyFAQs = [
   },
   {
     question: "How much does junk removal cost in Carmel Valley?",
-    answer: "Our <strong>Carmel Valley junk removal</strong> pricing is transparent and upfront with no hidden fees:"
+    answer: "Our Carmel Valley junk removal pricing is transparent and upfront with no hidden fees:"
   },
   {
     question: "Do you remove furniture and appliances from Carmel Valley homes?",
@@ -170,7 +170,7 @@ export default function JunkRemovalCarmelValleyPage() {
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      <strong>Junk removal Carmel Valley</strong> serves one of San Diego's most prestigious North County communities. From Torrey Highlands gated estates to Pacific Highlands Ranch master-planned neighborhoods, our <strong>Carmel Valley junk hauling</strong> team navigates HOA requirements, luxury home standards, and upscale community expectations with professionalism. We provide same-day <strong>junk pickup Carmel Valley</strong> for executive relocations, estate cleanouts, and home staging projects throughout the 92130 area with transparent pricing and white-glove service.
+                      Junk removal Carmel Valley serves one of San Diego's most prestigious North County communities. From Torrey Highlands gated estates to Pacific Highlands Ranch master-planned neighborhoods, our Carmel Valley junk hauling team navigates HOA requirements, luxury home standards, and upscale community expectations with professionalism. We provide same-day junk pickup Carmel Valley for executive relocations, estate cleanouts, and home staging projects throughout the 92130 area with transparent pricing and white-glove service.
                     </p>
 
                     <p className="text-gray-700 mb-6">
@@ -180,7 +180,7 @@ export default function JunkRemovalCarmelValleyPage() {
                     {/* Neighborhoods Served */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Carmel Valley Neighborhoods We Serve</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>junk removal near me Carmel Valley</strong> service covers every corner of this diverse North County community, from oceanview estates bordering Del Mar to family neighborhoods near the I-15 corridor. We've completed thousands of junk removal jobs throughout Carmel Valley's master-planned developments, each with unique HOA requirements and community characteristics that inform our service approach:
+                      Our junk removal near me Carmel Valley service covers every corner of this diverse North County community, from oceanview estates bordering Del Mar to family neighborhoods near the I-15 corridor. We've completed thousands of junk removal jobs throughout Carmel Valley's master-planned developments, each with unique HOA requirements and community characteristics that inform our service approach:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <ul className="space-y-2">
@@ -200,7 +200,7 @@ export default function JunkRemovalCarmelValleyPage() {
                     {/* Major Streets */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access Routes</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Carmel Valley junk hauling</strong> team knows every street and can navigate the community's master-planned layout. This local expertise matters when coordinating with security gates, understanding HOA truck restrictions, and planning efficient routes through winding residential streets. We coordinate each job with detailed access planning to ensure smooth service:
+                      Our Carmel Valley junk hauling team knows every street and can navigate the community's master-planned layout. This local expertise matters when coordinating with security gates, understanding HOA truck restrictions, and planning efficient routes through winding residential streets. We coordinate each job with detailed access planning to ensure smooth service:
                     </p>
                     <ul className="grid md:grid-cols-2 gap-2 mb-6">
                       <li>• <strong>Carmel Valley Road:</strong> Main east-west thoroughfare connecting to I-5 and inland communities</li>
@@ -216,7 +216,7 @@ export default function JunkRemovalCarmelValleyPage() {
                     {/* Local Landmarks */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Carmel Valley Landmarks</h3>
                     <p className="text-gray-700 mb-4">
-                      We provide <strong>furniture removal Carmel Valley</strong> service near all major landmarks. These familiar reference points help us navigate quickly to your property and coordinate with community amenities and local institutions that define daily life in this upscale neighborhood:
+                      We provide furniture removal Carmel Valley service near all major landmarks. These familiar reference points help us navigate quickly to your property and coordinate with community amenities and local institutions that define daily life in this upscale neighborhood:
                     </p>
                     <div className="grid md:grid-cols-2 gap-2 mb-6">
                       <ul className="space-y-1">
@@ -240,7 +240,7 @@ export default function JunkRemovalCarmelValleyPage() {
                     {/* Traffic & Timing */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Traffic Patterns & Service Timing</h3>
                     <p className="text-gray-700 mb-4">
-                      Carmel Valley's commuter patterns and school traffic affect <strong>junk removal Carmel Valley</strong> scheduling more than many realize. Our dispatch team actively monitors North County traffic and coordinates with you to schedule service windows that respect HOA quiet hours and minimize neighborhood disruption. We've developed specific timing protocols for different Carmel Valley areas:
+                      Carmel Valley's commuter patterns and school traffic affect junk removal Carmel Valley scheduling more than many realize. Our dispatch team actively monitors North County traffic and coordinates with you to schedule service windows that respect HOA quiet hours and minimize neighborhood disruption. We've developed specific timing protocols for different Carmel Valley areas:
                     </p>
                     <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
                       <li><strong>Weekday rush hours (7-9 AM, 4-7 PM):</strong> Heavy commuter traffic on Carmel Valley Road, Del Mar Heights Road, and El Camino Real creates delays. We recommend mid-morning (9:30 AM-2 PM) service windows when streets are clear and neighbors are at work. HOA truck restrictions often apply during early morning hours anyway.</li>
@@ -258,7 +258,7 @@ export default function JunkRemovalCarmelValleyPage() {
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Carmel Valley</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>junk removal Carmel Valley</strong> service handles the unique mix of items common to upscale North County living—from executive home office <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture removal</a> to luxury outdoor equipment to home staging preparation. We provide <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliance removal</a>, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, and <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a>:
+                      Our junk removal Carmel Valley service handles the unique mix of items common to upscale North County living—from executive home office <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture removal</a> to luxury outdoor equipment to home staging preparation. We provide <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliance removal</a>, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, and <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a>:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
@@ -361,10 +361,10 @@ export default function JunkRemovalCarmelValleyPage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Junk Removal Carmel Valley"
-          description="Get answers to common questions about our <strong>junk removal Carmel Valley</strong> services, pricing, and same-day availability."
+          description="Get answers to common questions about our junk removal Carmel Valley services, pricing, and same-day availability."
           faqs={carmelValleyFAQs}
           ctaTitle="Still Have Questions About Carmel Valley Junk Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>junk removal Carmel Valley</strong> services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our junk removal Carmel Valley services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
 
