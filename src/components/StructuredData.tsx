@@ -282,7 +282,7 @@ export default function StructuredData() {
                 "@type": "Service",
                 "name": "Furniture Removal",
                 "description": "Professional furniture removal including couches, sofas, desks, beds, and all furniture types. Same-day service available.",
-                "url": "https://severincleaners.com/furniture-removal-san-diego"
+                "url": "https://severincleaners.com/furniture-disposal-san-diego"
               },
               "priceSpecification": {
                 "@type": "PriceSpecification",

@@ -263,7 +263,7 @@ export default function JunkRemovalVistaPage() {
                       <div>
                         <h4 className="font-bold mb-2">Furniture & Household</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Sofas, sectionals, recliners</a> from family room updates</li>
+                          <li>• <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">Sofas, sectionals, recliners</a> from family room updates</li>
                           <li>• <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">Mattresses</a>, bed frames, bedroom furniture from moves</li>
                           <li>• Dining tables, chairs, kitchen sets from downsizing</li>
                           <li>• Desks, office furniture, bookshelves from home offices</li>
@@ -377,7 +377,7 @@ export default function JunkRemovalVistaPage() {
                 <h4 className="font-semibold text-lg mb-2 text-blue-600">Commercial Junk Removal</h4>
                 <p className="text-gray-600">Vista Business Park and brewery district commercial cleanouts</p>
               </a>
-              <a href="/furniture-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+              <a href="/furniture-disposal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
                 <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
                 <p className="text-gray-600">Family home and apartment furniture disposal services</p>
               </a>

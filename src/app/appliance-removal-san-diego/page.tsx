@@ -125,7 +125,7 @@ export default function ApplianceRemovalPage() {
   };
 
   const relatedServices = [
-    { name: "Furniture Removal", slug: "furniture-removal-san-diego" },
+    { name: "Furniture Removal", slug: "furniture-disposal-san-diego" },
     { name: "Hot Tub Removal", slug: "hot-tub-removal-san-diego" },
     { name: "Mattress Disposal", slug: "san-diego-mattress-disposal" },
     { name: "Same Day Junk Removal", slug: "same-day-junk-removal-san-diego" },
@@ -163,7 +163,7 @@ export default function ApplianceRemovalPage() {
                 </p>
 
                 <p className="text-lg mb-6">
-                  We remove refrigerators, washers, dryers, stoves, dishwashers—you name it. Our service covers <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista appliance hauling</a> to Point Loma, North Park to <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon refrigerator removal</a>, helping homeowners reclaim their space daily with safe, eco-friendly appliance disposal. Also need <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture disposal</a> or <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">mattress removal</a>? We handle it all.
+                  We remove refrigerators, washers, dryers, stoves, dishwashers—you name it. Our service covers <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista appliance hauling</a> to Point Loma, North Park to <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon refrigerator removal</a>, helping homeowners reclaim their space daily with safe, eco-friendly appliance disposal. Also need <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture disposal</a> or <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">mattress removal</a>? We handle it all.
                 </p>
 
                 <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove</h3>
@@ -240,7 +240,7 @@ export default function ApplianceRemovalPage() {
 
                 <h3 className="text-2xl font-bold mt-6 mb-3">Freezer Removal San Diego</h3>
                 <p className="text-lg mb-6">
-                  We remove garage or chest freezers of all sizes—no need to lift a thing. Just empty the contents, and we'll handle the rest. Also removing furniture? Check our <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture removal service</a>.
+                  We remove garage or chest freezers of all sizes—no need to lift a thing. Just empty the contents, and we'll handle the rest. Also removing furniture? Check our <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture removal service</a>.
                 </p>
 
                 <h3 className="text-2xl font-bold mt-8 mb-4">When San Diego Homeowners Call Us</h3>

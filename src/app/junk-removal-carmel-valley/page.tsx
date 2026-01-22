@@ -258,14 +258,14 @@ export default function JunkRemovalCarmelValleyPage() {
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Carmel Valley</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>junk removal Carmel Valley</strong> service handles the unique mix of items common to upscale North County living—from executive home office <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture removal</a> to luxury outdoor equipment to home staging preparation. We provide <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliance removal</a>, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, and <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a>:
+                      Our <strong>junk removal Carmel Valley</strong> service handles the unique mix of items common to upscale North County living—from executive home office <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture removal</a> to luxury outdoor equipment to home staging preparation. We provide <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliance removal</a>, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, and <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a>:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
                         <h4 className="font-bold mb-2">Furniture & Household</h4>
                         <ul className="space-y-1 text-gray-700">
                           <li>• Executive office furniture and home office upgrades</li>
-                          <li>• <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Luxury sofas, sectionals</a>, and designer pieces</li>
+                          <li>• <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">Luxury sofas, sectionals</a>, and designer pieces</li>
                           <li>• Master bedroom sets and guest room furniture</li>
                           <li>• <a href="/piano-removal-san-diego" className="text-blue-600 hover:underline">Pianos</a>, dining tables, and formal furniture</li>
                         </ul>
@@ -373,7 +373,7 @@ export default function JunkRemovalCarmelValleyPage() {
           <div className="container mx-auto px-4">
             <h3 className="text-2xl font-bold text-center mb-8">Related North County Services</h3>
             <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              <a href="/furniture-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+              <a href="/furniture-disposal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
                 <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
                 <p className="text-gray-600">Executive home office and luxury furniture removal throughout Carmel Valley</p>
               </a>

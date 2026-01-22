@@ -294,7 +294,7 @@ export default function JunkremovalclairemontPage() {
                             <li>Senior living transitions and organization for established residents</li>
                             <li>Property management coordination for rental properties and tenant turnovers</li>
                             <li>Home renovation debris and remodeling cleanup for family updates</li>
-                            <li><a href="/furniture-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">Mid-century furniture removal</a> including vintage pieces and antiques</li>
+                            <li><a href="/furniture-disposal-san-diego" className="text-blue-600 hover:text-blue-700 underline">Mid-century furniture removal</a> including vintage pieces and antiques</li>
                             <li>Seasonal cleanup for family properties and holiday decorations</li>
                           </ul>
                         </div>
@@ -423,7 +423,7 @@ export default function JunkremovalclairemontPage() {
             <div className="container mx-auto px-4">
               <h3 className="text-2xl font-bold text-center mb-8">Related Residential & Family Services</h3>
               <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-                <a href="/furniture-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+                <a href="/furniture-disposal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
                   <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
                   <p className="text-gray-600">Family home furniture disposal and mid-century home cleanouts</p>
                 </a>

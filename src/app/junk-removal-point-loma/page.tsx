@@ -258,13 +258,13 @@ export default function JunkRemovalPointLomaPage() {
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Point Loma</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Point Loma junk removal</strong> service handles the diverse mix of items found in this unique peninsula community—from military household goods during PCS moves to salt-damaged coastal property items, Liberty Station loft renovations to complete <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>. We offer <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture removal</a>, <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliance disposal</a>, and <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a>:
+                      Our <strong>Point Loma junk removal</strong> service handles the diverse mix of items found in this unique peninsula community—from military household goods during PCS moves to salt-damaged coastal property items, Liberty Station loft renovations to complete <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>. We offer <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture removal</a>, <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliance disposal</a>, and <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a>:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
                         <h4 className="font-bold mb-2">Furniture & Household</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Sofas, sectionals, recliners</a> from family homes and PCS moves</li>
+                          <li>• <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">Sofas, sectionals, recliners</a> from family homes and PCS moves</li>
                           <li>• Mattresses, bed frames during military relocations</li>
                           <li>• Tables, chairs, dressers from estate cleanouts</li>
                           <li>• <a href="/piano-removal-san-diego" className="text-blue-600 hover:underline">Pianos</a>, desks, bookshelves, cabinets</li>
@@ -373,7 +373,7 @@ export default function JunkRemovalPointLomaPage() {
           <div className="container mx-auto px-4">
             <h3 className="text-2xl font-bold text-center mb-8">Related Point Loma Services</h3>
             <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              <a href="/furniture-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+              <a href="/furniture-disposal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
                 <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
                 <p className="text-gray-600">Military PCS and household furniture removal for Point Loma</p>
               </a>

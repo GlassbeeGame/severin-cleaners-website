@@ -256,13 +256,13 @@ export default function JunkRemovalRanchoSantaFePage() {
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove from Rancho Santa Fe Estates</h3>
                     <p className="text-gray-700 mb-4">
-                      Our <strong>Rancho Santa Fe junk removal</strong> service handles the sophisticated mix of items found in luxury estate environments. From <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">designer furniture removal</a> and <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">high-end appliance disposal</a> to pool equipment and renovation debris, we remove everything with the care and professionalism that valuable estate property demands. <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate cleanout services</a> and <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day removal</a> available:
+                      Our <strong>Rancho Santa Fe junk removal</strong> service handles the sophisticated mix of items found in luxury estate environments. From <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">designer furniture removal</a> and <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">high-end appliance disposal</a> to pool equipment and renovation debris, we remove everything with the care and professionalism that valuable estate property demands. <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate cleanout services</a> and <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day removal</a> available:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
                         <h4 className="font-bold mb-2">Estate Furniture</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Designer sofas, sectionals</a> from main residences</li>
+                          <li>• <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">Designer sofas, sectionals</a> from main residences</li>
                           <li>• <a href="/piano-removal-san-diego" className="text-blue-600 hover:underline">Antique furniture, grand pianos</a> requiring specialized handling</li>
                           <li>• Bedroom sets, armoires from guest house cleanouts</li>
                           <li>• Office furniture, libraries from home office renovations</li>
@@ -371,7 +371,7 @@ export default function JunkRemovalRanchoSantaFePage() {
           <div className="container mx-auto px-4">
             <h3 className="text-2xl font-bold text-center mb-8">Related North County Services</h3>
             <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              <a href="/furniture-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+              <a href="/furniture-disposal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
                 <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
                 <p className="text-gray-600">Designer furniture and antique removal for luxury estates</p>
               </a>

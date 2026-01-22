@@ -248,7 +248,7 @@ export default function JunkRemovalEscondidoPage() {
                       <div>
                         <h4 className="font-bold mb-2">Furniture & Household</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Sofas, couches, sectionals</a> for estate sales</li>
+                          <li>• <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">Sofas, couches, sectionals</a> for estate sales</li>
                           <li>• <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">Mattresses</a>, box springs, bed frames from turnovers</li>
                           <li>• Dressers, tables, chairs from downsizing moves</li>
                           <li>• Desks, bookshelves, cabinets for garage cleanouts</li>
@@ -358,7 +358,7 @@ export default function JunkRemovalEscondidoPage() {
           <div className="container mx-auto px-4">
             <h3 className="text-2xl font-bold text-center mb-8">Related North County Services</h3>
             <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              <a href="/furniture-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+              <a href="/furniture-disposal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
                 <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
                 <p className="text-gray-600">Sofas, mattresses, and bulky furniture removal throughout Escondido</p>
               </a>

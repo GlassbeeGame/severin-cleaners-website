@@ -16,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'emergency-junk-removal-san-diego',
     'estate-cleanout-san-diego',
     'foreclosure-eviction-cleanout-san-diego',
-    'furniture-removal-san-diego',
+    'furniture-disposal-san-diego',
     'hoarding-cleanup-san-diego',
     'hot-tub-removal-san-diego',
     'piano-removal-san-diego',

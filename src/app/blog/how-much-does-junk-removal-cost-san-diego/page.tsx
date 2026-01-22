@@ -240,7 +240,7 @@ export default function JunkRemovalCostGuide() {
                           <td className="px-6 py-4 font-semibold text-gray-900">1/4 Load</td>
                           <td className="px-6 py-4 text-gray-700">3 cubic yards</td>
                           <td className="px-6 py-4 text-green-600 font-bold">$249</td>
-                          <td className="px-6 py-4 text-gray-600 text-sm">Few <Link href="/furniture-removal-san-diego" className="text-blue-600 hover:text-blue-700">furniture</Link> pieces, boxes</td>
+                          <td className="px-6 py-4 text-gray-600 text-sm">Few <Link href="/furniture-disposal-san-diego" className="text-blue-600 hover:text-blue-700">furniture</Link> pieces, boxes</td>
                         </tr>
                         <tr>
                           <td className="px-6 py-4 font-semibold text-gray-900">1/2 Load</td>

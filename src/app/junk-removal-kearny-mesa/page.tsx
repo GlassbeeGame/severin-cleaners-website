@@ -291,7 +291,7 @@ export default function JunkRemovalKearnyMesaPage() {
                           <h4 className="text-lg font-bold mb-3 text-blue-600">Residential Services</h4>
                           <ul className="list-disc pl-6 space-y-2 text-gray-700">
                             <li>Apartment and condo cleanouts in residential pockets throughout Kearny Mesa</li>
-                            <li><a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Furniture removal</a> including couches, beds, dining sets, office furniture</li>
+                            <li><a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">Furniture removal</a> including couches, beds, dining sets, office furniture</li>
                             <li><a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Appliance disposal</a> for refrigerators, washers, dryers, HVAC units</li>
                             <li><a href="/emergency-junk-removal-san-diego" className="text-blue-600 hover:underline">Emergency junk removal</a> for urgent commercial and business situations</li>
                             <li>Garage and storage area clearing for residential properties</li>
@@ -432,7 +432,7 @@ export default function JunkRemovalKearnyMesaPage() {
                   <h4 className="font-semibold text-lg mb-2 text-blue-600">Construction Debris Removal</h4>
                   <p className="text-gray-600">Commercial renovation and fit-out debris hauling</p>
                 </a>
-                <a href="/furniture-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+                <a href="/furniture-disposal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
                   <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
                   <p className="text-gray-600">Residential and commercial furniture disposal</p>
                 </a>

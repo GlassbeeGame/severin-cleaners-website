@@ -84,7 +84,7 @@ export default function PianoremovalsandiegoPage() {
   };
 
   const relatedServices = [
-    { name: "Furniture Removal", slug: "furniture-removal-san-diego" },
+    { name: "Furniture Removal", slug: "furniture-disposal-san-diego" },
     { name: "Appliance Removal", slug: "appliance-removal-san-diego" },
     { name: "Estate Cleanout", slug: "estate-cleanout-san-diego" },
     { name: "Same Day Junk Removal", slug: "same-day-junk-removal-san-diego" },
@@ -115,7 +115,7 @@ export default function PianoremovalsandiegoPage() {
                     <h2 className="text-3xl font-bold text-gray-900 mb-6">San Diego Piano Removal Specialists</h2>
 
               <p className="text-lg text-gray-700 mb-6">
-                Piano removal requires specialized knowledge and equipment to handle these valuable, heavy instruments safely. Severin Cleaners provides expert <strong>piano removal San Diego</strong> services throughout <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a>, <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a>, <a href="/junk-removal-point-loma" className="text-blue-600 hover:underline">Point Loma</a>, <a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a>, and <a href="/junk-removal-poway" className="text-blue-600 hover:underline">Poway</a>, whether you&apos;re relocating, downsizing, or dealing with an inherited instrument that needs professional disposal. We also specialize in <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture removal</a>, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, and are <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">heavy item specialists</a>.
+                Piano removal requires specialized knowledge and equipment to handle these valuable, heavy instruments safely. Severin Cleaners provides expert <strong>piano removal San Diego</strong> services throughout <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a>, <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a>, <a href="/junk-removal-point-loma" className="text-blue-600 hover:underline">Point Loma</a>, <a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a>, and <a href="/junk-removal-poway" className="text-blue-600 hover:underline">Poway</a>, whether you&apos;re relocating, downsizing, or dealing with an inherited instrument that needs professional disposal. We also specialize in <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture removal</a>, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, and are <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">heavy item specialists</a>.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Specialized Piano Removal Services</h3>

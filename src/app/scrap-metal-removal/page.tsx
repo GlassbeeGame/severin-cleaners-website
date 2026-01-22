@@ -156,7 +156,7 @@ export default function ScrapMetalRemovalPage() {
 
   const relatedServices = [
     { name: "Appliance Removal", slug: "/appliance-removal-san-diego" },
-    { name: "Furniture Removal", slug: "/furniture-removal-san-diego" },
+    { name: "Furniture Removal", slug: "/furniture-disposal-san-diego" },
     { name: "Construction Debris", slug: "/construction-debris-removal-san-diego" },
     { name: "Commercial Junk Removal", slug: "/commercial-junk-removal-san-diego" }
   ];

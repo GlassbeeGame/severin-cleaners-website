@@ -127,7 +127,7 @@ export default function SameDayJunkRemovalPage() {
 
   const relatedServices = [
     { name: "Emergency Junk Removal", slug: "emergency-junk-removal-san-diego" },
-    { name: "Furniture Removal", slug: "furniture-removal-san-diego" },
+    { name: "Furniture Removal", slug: "furniture-disposal-san-diego" },
     { name: "Appliance Removal", slug: "appliance-removal-san-diego" },
     { name: "Hot Tub Removal", slug: "hot-tub-removal-san-diego" },
   ];
@@ -279,7 +279,7 @@ export default function SameDayJunkRemovalPage() {
                     {/* Service Areas */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Same-Day Service Throughout San Diego County</h3>
                     <p className="text-gray-700 mb-4">
-                      We provide same-day junk removal service throughout San Diego County. Local teams mean faster response wherever you're located. Services include <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture removal</a>, <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliance removal</a>, <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">hot tub removal</a>, <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial junk removal</a>, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanout</a>, and <a href="/emergency-junk-removal-san-diego" className="text-blue-600 hover:underline">emergency service</a>.
+                      We provide same-day junk removal service throughout San Diego County. Local teams mean faster response wherever you're located. Services include <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture removal</a>, <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliance removal</a>, <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">hot tub removal</a>, <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial junk removal</a>, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanout</a>, and <a href="/emergency-junk-removal-san-diego" className="text-blue-600 hover:underline">emergency service</a>.
                     </p>
                     <div className="grid md:grid-cols-3 gap-4 mb-6">
                       <ul className="space-y-1 text-gray-700">

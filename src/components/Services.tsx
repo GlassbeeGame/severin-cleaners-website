@@ -74,7 +74,7 @@ const junkServices = [
       'Safe disconnection & transport'
     ],
     image: '/optimized/toiletteam.jpg',
-    link: '/furniture-removal-san-diego'
+    link: '/furniture-disposal-san-diego'
   },
   {
     id: 'hoarding-cleanup',
@@ -116,7 +116,7 @@ export default function Services() {
               Professional Junk Removal Services
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-4">
-              El Cajon's trusted junk hauling experts. We handle everything from single items to complete property cleanouts. Need <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline font-semibold">furniture removal</a> or <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline font-semibold">mattress disposal</a>? We've got you covered with <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline font-semibold">same-day service</a>.
+              El Cajon's trusted junk hauling experts. We handle everything from single items to complete property cleanouts. Need <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline font-semibold">furniture removal</a> or <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline font-semibold">mattress disposal</a>? We've got you covered with <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline font-semibold">same-day service</a>.
             </p>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Proudly serving <a href="/junk-removal-poway" className="text-blue-600 hover:underline">Poway</a>, <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, <a href="/junk-removal-spring-valley" className="text-blue-600 hover:underline">Spring Valley</a>, and all of San Diego County.

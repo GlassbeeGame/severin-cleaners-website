@@ -112,7 +112,7 @@ export default function HotTubRemovalSanDiegoPage() {
 
   const relatedServices = [
     { name: "Pool Equipment Removal", slug: "appliance-removal-san-diego" },
-    { name: "Furniture Removal", slug: "furniture-removal-san-diego" },
+    { name: "Furniture Removal", slug: "furniture-disposal-san-diego" },
     { name: "Construction Debris Removal", slug: "construction-debris-removal-san-diego" },
     { name: "Same Day Junk Removal", slug: "same-day-junk-removal-san-diego" },
   ];
@@ -192,7 +192,7 @@ export default function HotTubRemovalSanDiegoPage() {
                 </p>
 
                 <p className="text-lg mb-6">
-                  Our <strong>spa removal San Diego</strong> service covers everything from small portable spas to large built-in Jacuzzis, including proper disconnection of plumbing, gas, and electrical systems. Whether you're renovating your backyard, selling your home, or dealing with a broken hot tub, we provide complete spa disposal San Diego that's safe, fast, and environmentally responsible. We also offer <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">deck removal and debris</a>, <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">outdoor furniture removal</a>, and <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial spa services</a>.
+                  Our <strong>spa removal San Diego</strong> service covers everything from small portable spas to large built-in Jacuzzis, including proper disconnection of plumbing, gas, and electrical systems. Whether you're renovating your backyard, selling your home, or dealing with a broken hot tub, we provide complete spa disposal San Diego that's safe, fast, and environmentally responsible. We also offer <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">deck removal and debris</a>, <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">outdoor furniture removal</a>, and <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial spa services</a>.
                 </p>
 
                 <h3 className="text-2xl font-bold mt-8 mb-4">Complete Jacuzzi Removal San Diego Services</h3>
@@ -299,7 +299,7 @@ export default function HotTubRemovalSanDiegoPage() {
                     🏡 Complete Backyard Renovation?
                   </p>
                   <p className="text-yellow-700 mt-2">
-                    If your hot tub removal is part of a larger backyard project, we also provide <Link href="/furniture-removal-san-diego" className="text-blue-600 underline">outdoor furniture removal services</Link> and coordinate with <Link href="/construction-debris-removal-san-diego" className="text-blue-600 underline">construction debris removal</Link> for complete renovation support.
+                    If your hot tub removal is part of a larger backyard project, we also provide <Link href="/furniture-disposal-san-diego" className="text-blue-600 underline">outdoor furniture removal services</Link> and coordinate with <Link href="/construction-debris-removal-san-diego" className="text-blue-600 underline">construction debris removal</Link> for complete renovation support.
                   </p>
                 </div>
 

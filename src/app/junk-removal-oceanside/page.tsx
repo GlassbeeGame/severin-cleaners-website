@@ -242,7 +242,7 @@ export default function JunkRemovalOceansidePage() {
                       <div>
                         <h4 className="font-bold mb-2">Military Housing & PCS Items</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Furniture</a>, <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliances</a> too large for military moving allowances</li>
+                          <li>• <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">Furniture</a>, <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliances</a> too large for military moving allowances</li>
                           <li>• Storage unit contents from deployment periods</li>
                           <li>• Base housing cleanout debris for inspection preparation</li>
                           <li>• Items left behind by previous tenants in base housing</li>
@@ -361,7 +361,7 @@ export default function JunkRemovalOceansidePage() {
                 <h4 className="font-semibold text-lg mb-2 text-blue-600">Commercial Junk Removal</h4>
                 <p className="text-gray-600">Vacation rental and property management cleanout specialists for Oceanside</p>
               </a>
-              <a href="/furniture-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+              <a href="/furniture-disposal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
                 <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
                 <p className="text-gray-600">Military PCS furniture disposal and coastal property furnishing removal services</p>
               </a>

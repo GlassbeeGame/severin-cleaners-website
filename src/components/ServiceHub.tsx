@@ -3,7 +3,7 @@ export default function ServiceHub() {
     {
       title: "Furniture Removal San Diego",
       description: "Professional furniture removal San Diego services for couches, beds, tables, and all household furniture.",
-      link: "/furniture-removal-san-diego",
+      link: "/furniture-disposal-san-diego",
       icon: "🛋️"
     },
     {

@@ -122,7 +122,7 @@ export default function CleanoutServicesPage() {
     { name: "Same-Day Junk Removal", slug: "/same-day-junk-removal-san-diego" },
     { name: "Estate Cleanout", slug: "/estate-cleanout-san-diego" },
     { name: "Foreclosure Cleanout", slug: "/foreclosure-eviction-cleanout-san-diego" },
-    { name: "Furniture Removal", slug: "/furniture-removal-san-diego" }
+    { name: "Furniture Removal", slug: "/furniture-disposal-san-diego" }
   ];
 
   return (

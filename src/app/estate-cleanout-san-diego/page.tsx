@@ -127,7 +127,7 @@ export default function EstateCleanoutPage() {
   const relatedServices = [
     { name: "Foreclosure & Eviction Cleanout", slug: "foreclosure-eviction-cleanout-san-diego" },
     { name: "Hoarding Cleanup", slug: "hoarding-cleanup-san-diego" },
-    { name: "Furniture Removal", slug: "furniture-removal-san-diego" },
+    { name: "Furniture Removal", slug: "furniture-disposal-san-diego" },
     { name: "Appliance Removal", slug: "appliance-removal-san-diego" },
   ];
 
@@ -159,7 +159,7 @@ export default function EstateCleanoutPage() {
 
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg mb-4">
-                  Clearing a loved one's home is never easy. There's <a href="/furniture-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">furniture to move</a>, including <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">old furniture and sofa removal services</a>, boxes to haul, <a href="/appliance-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">appliances to dispose of</a>—and you're dealing with it all while grieving or managing family logistics.
+                  Clearing a loved one's home is never easy. There's <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:text-blue-700 underline">furniture to move</a>, including <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">old furniture and sofa removal services</a>, boxes to haul, <a href="/appliance-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">appliances to dispose of</a>—and you're dealing with it all while grieving or managing family logistics.
                 </p>
 
                 <p className="text-lg mb-6">

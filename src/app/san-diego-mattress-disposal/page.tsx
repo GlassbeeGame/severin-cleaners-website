@@ -99,7 +99,7 @@ const mattressFAQs = [
 
 export default function MattressDisposalPage() {
   const relatedServices = [
-    { name: "Furniture Removal", slug: "furniture-removal-san-diego" },
+    { name: "Furniture Removal", slug: "furniture-disposal-san-diego" },
     { name: "Couch Removal", slug: "couch-removal-san-diego" },
     { name: "Same-Day Junk Removal", slug: "same-day-junk-removal-san-diego" },
     { name: "Estate Cleanouts", slug: "estate-cleanout-san-diego" },
@@ -151,7 +151,7 @@ export default function MattressDisposalPage() {
                     Fast, affordable, and responsible mattress removal from a team that cares about our community. We serve <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a> rental turnover, <a href="/junk-removal-north-park" className="text-blue-600 hover:underline">North Park</a>, <a href="/junk-removal-hillcrest" className="text-blue-600 hover:underline">Hillcrest</a>, <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>, and <a href="/junk-removal-clairemont" className="text-blue-600 hover:underline">Clairemont</a>.
                   </p>
                   <p className="text-lg text-gray-700 mb-12 leading-relaxed">
-                    Need to get rid of an old mattress? Our locally owned <a href="/san-diego-junk-removal" className="text-blue-600 hover:text-blue-700 underline">San Diego junk removal</a> team makes it fast, easy, and affordable to dispose of mattresses the right way. We handle the heavy lifting, hauling, and proper disposal — whether you&apos;re cleaning out a guest room, upgrading your bed, or clearing a <a href="/foreclosure-eviction-cleanout-san-diego" className="text-blue-600 hover:text-blue-700 underline">rental property</a>. We also provide <a href="/furniture-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">full furniture hauling</a>, <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">couch disposal services</a>, and <a href="/cleanout-services-san-diego" className="text-blue-600 hover:text-blue-700 underline">bedroom cleanouts</a>.
+                    Need to get rid of an old mattress? Our locally owned <a href="/san-diego-junk-removal" className="text-blue-600 hover:text-blue-700 underline">San Diego junk removal</a> team makes it fast, easy, and affordable to dispose of mattresses the right way. We handle the heavy lifting, hauling, and proper disposal — whether you&apos;re cleaning out a guest room, upgrading your bed, or clearing a <a href="/foreclosure-eviction-cleanout-san-diego" className="text-blue-600 hover:text-blue-700 underline">rental property</a>. We also provide <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:text-blue-700 underline">full furniture hauling</a>, <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">couch disposal services</a>, and <a href="/cleanout-services-san-diego" className="text-blue-600 hover:text-blue-700 underline">bedroom cleanouts</a>.
                   </p>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -299,7 +299,7 @@ export default function MattressDisposalPage() {
                       <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                       </svg>
-                      <span className="text-gray-700">Headboards and <a href="/furniture-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">bedroom furniture</a></span>
+                      <span className="text-gray-700">Headboards and <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:text-blue-700 underline">bedroom furniture</a></span>
                     </li>
                   </ul>
                 </div>
@@ -311,7 +311,7 @@ export default function MattressDisposalPage() {
                   Mattresses in good condition may be donated to local charities whenever possible. All items are disposed of in full compliance with City of San Diego waste management regulations.
                 </p>
                 <p className="text-gray-700 text-center">
-                  We also provide quick and affordable mattress haul away in San Diego, perfect for removing old or damaged mattresses that you just want gone. Need other items removed too? Check out our <a href="/furniture-removal-san-diego" className="text-blue-600 hover:text-blue-700 font-semibold underline">furniture removal services</a> or full <a href="/san-diego-junk-removal" className="text-blue-600 hover:text-blue-700 font-semibold underline">junk removal in San Diego</a>.
+                  We also provide quick and affordable mattress haul away in San Diego, perfect for removing old or damaged mattresses that you just want gone. Need other items removed too? Check out our <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:text-blue-700 font-semibold underline">furniture removal services</a> or full <a href="/san-diego-junk-removal" className="text-blue-600 hover:text-blue-700 font-semibold underline">junk removal in San Diego</a>.
                 </p>
               </div>
             </div>

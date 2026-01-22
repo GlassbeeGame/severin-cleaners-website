@@ -111,7 +111,7 @@ export default function CommercialjunkremovalsandiegoPage() {
   };
 
   const relatedServices = [
-    { name: "Office Furniture Removal", slug: "furniture-removal-san-diego" },
+    { name: "Office Furniture Removal", slug: "furniture-disposal-san-diego" },
     { name: "Construction Debris Removal", slug: "construction-debris-removal-san-diego" },
     { name: "Appliance Removal", slug: "appliance-removal-san-diego" },
     { name: "Same Day Junk Removal", slug: "same-day-junk-removal-san-diego" },
@@ -146,7 +146,7 @@ export default function CommercialjunkremovalsandiegoPage() {
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
-                From downtown high-rises to industrial complexes, our <strong>commercial debris removal San Diego</strong> service handles everything with minimal disruption to your operations. We provide <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">commercial junk removal in Kearny Mesa</a> business districts, <a href="/junk-removal-mira-mesa" className="text-blue-600 hover:underline">Mira Mesa</a> industrial parks, and throughout the region. We specialize in <strong>office cleanout San Diego</strong>, <strong>retail cleanout San Diego</strong>, and <strong>warehouse junk removal San Diego</strong> projects of all sizes. We also provide <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">commercial construction cleanup</a>, <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">office furniture removal</a>, <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">commercial equipment disposal</a>, and <a href="/emergency-junk-removal-san-diego" className="text-blue-600 hover:underline">emergency commercial cleanup</a>.
+                From downtown high-rises to industrial complexes, our <strong>commercial debris removal San Diego</strong> service handles everything with minimal disruption to your operations. We provide <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">commercial junk removal in Kearny Mesa</a> business districts, <a href="/junk-removal-mira-mesa" className="text-blue-600 hover:underline">Mira Mesa</a> industrial parks, and throughout the region. We specialize in <strong>office cleanout San Diego</strong>, <strong>retail cleanout San Diego</strong>, and <strong>warehouse junk removal San Diego</strong> projects of all sizes. We also provide <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">commercial construction cleanup</a>, <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">office furniture removal</a>, <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">commercial equipment disposal</a>, and <a href="/emergency-junk-removal-san-diego" className="text-blue-600 hover:underline">emergency commercial cleanup</a>.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Comprehensive Business Junk Removal Services</h3>
@@ -381,7 +381,7 @@ export default function CommercialjunkremovalsandiegoPage() {
               <h4 className="font-semibold text-lg mb-2 text-blue-600">Commercial Appliance Removal</h4>
               <p className="text-gray-600">Office and restaurant equipment removal with EPA compliance</p>
             </a>
-            <a href="/furniture-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+            <a href="/furniture-disposal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
               <h4 className="font-semibold text-lg mb-2 text-blue-600">Office Furniture Removal</h4>
               <p className="text-gray-600">Complete office furniture and workstation dismantling services</p>
             </a>

@@ -8,39 +8,42 @@ import { generateServiceSchema, combineSchemas, generateAggregateRatingSchema } 
 import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
-  title: 'Junk Removal San Diego | Same-Day Service & Transparent Pricing',
-  description: 'Fast junk removal across San Diego County starting around $100. Same-day pickup, licensed local team, and no-hidden-fee pricing. Call (619) 750-0114 today.',
+  title: 'Junk Removal San Diego | Licensed Local Team • Same-Day Service',
+  description: 'Professional San Diego junk removal. Same-day service, transparent pricing $100-$495, licensed & insured. Serving all county neighborhoods. Call (619) 750-0114.',
   keywords: [
-    'junk removal San Diego',
-    'San Diego junk removal',
-    'junk hauling San Diego',
+    'junk removal san diego',
+    'san diego junk removal',
+    'san diego junk hauling',
+    'junk removal san diego prices',
     'junk pickup San Diego',
     'trash removal San Diego',
     'San Diego County junk removal',
     'same-day junk removal',
     'junk removal cost San Diego',
     'furniture removal San Diego',
-    'couch removal San Diego',
-    'appliance removal San Diego'
+    'appliance removal San Diego',
+    'estate cleanout san diego',
+    'commercial junk removal san diego',
+    'free junk removal san diego'
   ],
   openGraph: {
-    title: 'Junk Removal San Diego | Same-Day Service & Transparent Pricing',
-    description: 'Fast junk removal across San Diego County starting around $100. Same-day pickup, licensed local team, and no-hidden-fee pricing. Call (619) 750-0114 today.',
+    title: 'Junk Removal San Diego | Licensed Local Team • Same-Day Service',
+    description: 'Professional San Diego junk removal. Same-day service, transparent pricing $100-$495, licensed & insured. Serving all county neighborhoods.',
     url: 'https://severincleaners.com/san-diego-junk-removal',
     siteName: 'Severin Cleaners',
     images: [{
       url: 'https://severincleaners.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'San Diego Junk Removal - Severin Cleaners'
+      alt: 'Junk Removal San Diego - Severin Cleaners'
     }],
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Junk Removal San Diego | Same-Day Service & Transparent Pricing',
-    description: 'Fast junk removal across San Diego County starting around $100. Same-day pickup, licensed local team, and no-hidden-fee pricing. Call (619) 750-0114 today.',
+    title: 'Junk Removal San Diego | Licensed Local Team • Same-Day Service',
+    description: 'Professional San Diego junk removal. Same-day service, transparent pricing $100-$495, licensed & insured.',
     images: ['https://severincleaners.com/og-image.jpg'],
   },
   alternates: {
@@ -90,15 +93,19 @@ Our transparent pricing includes all labor, hauling, and proper eco-friendly dis
     answer: "Yes—Severin Cleaners is fully licensed and insured to operate throughout all of San Diego County. We carry comprehensive liability insurance to protect your property during removal and follow all local waste handling regulations. Our team is trained in safe lifting techniques, proper material handling, and San Diego County disposal compliance. You're working with legitimate, professional junk haulers who take responsibility seriously."
   },
   {
-    question: "What areas do you serve in San Diego?",
-    answer: "We serve all of San Diego County including coastal areas (La Jolla, Del Mar, Pacific Beach, Point Loma), central urban neighborhoods (Downtown, Gaslamp, North Park, Hillcrest, Mission Valley), East County (El Cajon, La Mesa, Santee, Lakeside), North County coastal and inland (Oceanside, Carlsbad, Poway, Rancho Santa Fe, Vista), and South Bay (Chula Vista, National City, Otay Ranch). Our central location allows fast response times—typically 15-30 minutes to most areas. We handle everything from beachfront condos to hillside estates to suburban family homes."
+    question: "What are junk removal San Diego prices?",
+    answer: "Junk removal San Diego prices start at $100 for single-item pickups and range up to $495 for full trailer loads. Our volume-based pricing is transparent and all-inclusive: 1/4 trailer ($249), 3/8 trailer ($319), 1/2 trailer ($349), 5/8 trailer ($366), 3/4 trailer ($429), 7/8 trailer ($462), and full load ($495). Every quote includes labor, hauling, disposal fees, and eco-friendly recycling—no hidden charges. Call (619) 750-0114 for a free, accurate quote based on your specific items and volume."
+  },
+  {
+    question: "Does Severin offer free junk removal in San Diego?",
+    answer: "We don't offer free junk removal service in San Diego. Professional junk removal requires trained crews, proper equipment, licensed disposal, insurance, and eco-friendly recycling—all of which have real costs. Our transparent pricing starts at $100 and includes all labor, hauling, and responsible disposal. Many San Diegans find our service costs less than DIY options when factoring in truck rental ($75-150), disposal fees ($50-200+), time, and injury risk. Some items with scrap value (like certain metals) may offset costs, but we're upfront about pricing from the start. Call (619) 750-0114 for an honest quote—no surprises, just professional service at fair prices."
   }
 ];
 
 export default function SanDiegoJunkRemovalPage() {
   const serviceSchema = generateServiceSchema({
     name: "San Diego Junk Removal",
-    description: "Professional junk removal serving all San Diego County. Same-day service available for furniture removal, appliance disposal, estate cleanouts, construction debris removal, and more.",
+    description: "Professional junk removal serving all San Diego County. Same-day service available for furniture removal, appliance disposal, estate cleanouts, construction debris removal, and comprehensive junk hauling services.",
     url: "https://severincleaners.com/san-diego-junk-removal",
     serviceType: "Junk Removal Service",
     areaServed: "San Diego County, CA",
@@ -152,16 +159,8 @@ export default function SanDiegoJunkRemovalPage() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Couch Removal San Diego",
-            "url": "https://severincleaners.com/couch-removal-san-diego"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Furniture Removal San Diego",
-            "url": "https://severincleaners.com/furniture-removal-san-diego"
+            "name": "Furniture Disposal San Diego",
+            "url": "https://severincleaners.com/furniture-disposal-san-diego"
           }
         },
         {
@@ -195,6 +194,22 @@ export default function SanDiegoJunkRemovalPage() {
             "name": "Commercial Junk Removal San Diego",
             "url": "https://severincleaners.com/commercial-junk-removal-san-diego"
           }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Construction Debris Removal San Diego",
+            "url": "https://severincleaners.com/construction-debris-removal-san-diego"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Same Day Junk Removal San Diego",
+            "url": "https://severincleaners.com/same-day-junk-removal-san-diego"
+          }
         }
       ]
     }
@@ -213,9 +228,9 @@ export default function SanDiegoJunkRemovalPage() {
       <Header />
       <main>
         <OptimizedGradientHero
-          title="San Diego Junk Removal & Same-Day Hauling Experts"
-          subtitle="⭐⭐⭐⭐⭐ 5.0 Rating • Transparent Pricing Starting at $100"
-          description="✓ Same-Day Service ✓ Licensed & Insured ✓ All San Diego County"
+          title="Professional Junk Removal San Diego Trusts"
+          subtitle="⭐⭐⭐⭐⭐ 5.0 Rating • Licensed & Insured • Same-Day Service Available"
+          description="✓ Transparent Pricing $100-$495 ✓ All San Diego County ✓ Eco-Friendly Disposal"
         />
 
       {/* Main Content */}
@@ -223,184 +238,131 @@ export default function SanDiegoJunkRemovalPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="prose prose-lg max-w-none">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Professional Junk Removal San Diego Trusts</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Complete Junk Removal San Diego Services</h2>
 
               <p className="text-lg text-gray-700 mb-6">
-                Looking for <strong>junk removal San Diego</strong> residents rely on? Our locally owned team provides same-day hauling across all of San Diego County with transparent <strong>pricing starting at $100</strong>. From single-item pickups to complete property cleanouts, we handle everything—no hidden fees, no hassle. Licensed, insured, and ready to serve your neighborhood today.
+                When you need reliable <strong>junk removal San Diego</strong> can count on, Severin Cleaners delivers professional hauling services throughout San Diego County. Our locally owned team provides same-day service with transparent pricing starting at just $100. From single-item pickups to complete property cleanouts, we handle every job with the same commitment to quality, efficiency, and customer satisfaction. No hidden fees, no surprises, just honest service from licensed and insured professionals who understand San Diego neighborhoods.
               </p>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Driving Directions & Local Access</h3>
+              <p className="text-lg text-gray-700 mb-6">
+                We've built our reputation on reliability and local expertise. Whether you're clearing out a garage in <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, removing office furniture in downtown, handling an <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanout</a> in <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a>, or managing a renovation project in <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, our team brings the experience and equipment to get the job done right. We're not just haulers—we're your partners in reclaiming your space and maintaining San Diego's beauty through responsible disposal practices.
+              </p>
+
+              <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
+                <p className="text-gray-800 font-semibold mb-2">📞 Ready to Clear Your Space?</p>
+                <p className="text-gray-700">
+                  Call <a href="tel:6197500114" className="text-blue-600 font-bold hover:underline">(619) 750-0114</a> before 2 PM for same-day <strong>junk removal San Diego</strong> service. Free quotes, transparent pricing, and professional service guaranteed.
+                </p>
+              </div>
+
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Why Choose Our San Diego Junk Removal Service</h3>
+
               <p className="text-lg text-gray-700 mb-4">
-                Our central San Diego location allows us to reach most areas quickly:
-              </p>
-              <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
-                <li>From <strong>Petco Park</strong> (Downtown) → Take 10th Ave to I-8 West → <strong>15 minutes to Mission Valley</strong></li>
-                <li>From <strong>Miramar Landfill</strong> (Miramar Rd) → Head south on Miramar Way to I-15 → <strong>10 minutes to Kearny Mesa</strong></li>
-              </ul>
-              <p className="text-lg text-gray-700 mb-6">
-                This proximity means faster response times than out-of-county haulers routing trucks from Riverside or Orange County.
+                The difference between good service and great service comes down to details. We focus on what matters most to San Diego residents and businesses: speed, transparency, and professionalism. Here's what sets our <strong>San Diego junk removal</strong> service apart from national chains and other local haulers.
               </p>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Neighborhood-Specific Junk Removal Expertise</h3>
-
-              <div className="space-y-6 mb-8">
-                <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-blue-500">
-                  <h4 className="text-xl font-bold text-blue-900 mb-3">🌊 Coastal Corridor</h4>
-                  <p className="text-gray-700 mb-2">
-                    <strong>Areas:</strong> <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a>, <a href="/junk-removal-pacific-beach" className="hover:underline text-blue-600">Pacific Beach</a>
-                  </p>
-                  <p className="text-gray-700">
-                    Beach traffic and coastal parking restrictions require strategic scheduling. We navigate limited street access, seasonal tourism congestion, and coastal permit requirements. Expect slightly longer arrival windows during summer weekends, but we always coordinate pickup times around your schedule and local parking enforcement hours.
+              <div className="grid md:grid-cols-2 gap-8 mb-8">
+                <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-500">
+                  <h4 className="text-xl font-bold mb-3 text-blue-600">Same-Day Service Throughout San Diego County</h4>
+                  <p className="text-gray-700 mb-3">
+                    We understand that timing matters. Whether you're facing an HOA deadline, preparing for a quick property sale, or simply need your space back today, our same-day service responds to your urgency. Call before 2 PM and we'll typically arrive the same day across all San Diego County neighborhoods. From coastal <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a> to inland <a href="/junk-removal-poway" className="text-blue-600 hover:underline">Poway</a>, we're positioned to reach you quickly.
                   </p>
                 </div>
 
-                <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-green-500">
-                  <h4 className="text-xl font-bold text-green-900 mb-3">🏙️ Central Urban</h4>
-                  <p className="text-gray-700 mb-2">
-                    <strong>Areas:</strong> <a href="/junk-removal-north-park" className="text-blue-600 hover:underline">North Park</a>, <a href="/junk-removal-hillcrest" className="text-blue-600 hover:underline">Hillcrest</a>, Downtown, Gaslamp Quarter
-                  </p>
-                  <p className="text-gray-700">
-                    Multi-story apartments, narrow stairwells, and tight elevator access define urban junk removal challenges. Our team specializes in navigating these spaces—coordinating with building management, reserving freight elevators, and handling complex logistics for high-rise pickups. We're experienced with downtown parking meters, loading zone permits, and quick turnarounds to minimize disruption.
+                <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-green-500">
+                  <h4 className="text-xl font-bold mb-3 text-green-600">Transparent Pricing, No Hidden Fees</h4>
+                  <p className="text-gray-700 mb-3">
+                    Our pricing is straightforward: $100 to $495 based on volume, not time. The quote we give you is the price you pay. No hourly rates that balloon if traffic is bad. No fuel surcharges. No surprise fees for stairs or parking. We assess your items, provide an honest quote, and stick to it. This transparency has made us the trusted choice for <strong>San Diego junk hauling</strong> that residents recommend to friends and family.
                   </p>
                 </div>
 
-                <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-orange-500">
-                  <h4 className="text-xl font-bold text-orange-900 mb-3">🏔️ East County</h4>
-                  <p className="text-gray-700 mb-2">
-                    <strong>Areas:</strong> <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a>, <a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee</a>
-                  </p>
-                  <p className="text-gray-700">
-                    Hillside terrain and East County heat (often 10-15°F warmer than the coast) affect scheduling and crew safety. We plan pickups earlier in the day during summer months and bring extra equipment for steep driveways. Properties here often have larger yards and more accumulated debris—we adjust trailer capacity accordingly and provide accurate quotes based on actual volume needs.
+                <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-purple-500">
+                  <h4 className="text-xl font-bold mb-3 text-purple-600">Licensed, Insured & Locally Owned</h4>
+                  <p className="text-gray-700 mb-3">
+                    We're fully licensed and insured to operate throughout San Diego County, with comprehensive liability coverage protecting your property during every job. Unlike national franchises that route calls to different contractors, we're a local family business invested in our reputation. When you call Severin Cleaners, you're working with San Diego neighbors who take pride in serving our community properly.
                   </p>
                 </div>
 
-                <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-purple-500">
-                  <h4 className="text-xl font-bold text-purple-900 mb-3">🏡 North County</h4>
-                  <p className="text-gray-700 mb-2">
-                    <strong>Areas:</strong> <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>, Carlsbad, <a href="/junk-removal-poway" className="text-blue-600 hover:underline">Poway</a>, <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a>
-                  </p>
-                  <p className="text-gray-700">
-                    Longer-range pickups and strict HOA regulations require advance planning. We coordinate with property management for gate codes, follow community guidelines for truck placement, and schedule around HOA-approved service hours. Gated communities and estate properties often have specific vendor requirements—we're familiar with them all and ensure compliant, hassle-free service.
-                  </p>
-                </div>
-
-                <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-red-500">
-                  <h4 className="text-xl font-bold text-red-900 mb-3">🏘️ South Bay</h4>
-                  <p className="text-gray-700 mb-2">
-                    <strong>Areas:</strong> <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, National City, Otay Ranch
-                  </p>
-                  <p className="text-gray-700">
-                    Family homes and growing commercial hubs near Otay Ranch require flexible scheduling for busy working families. We offer evening and weekend appointments, handle multi-family property cleanouts, and work with landlords managing tenant turnovers. South Bay's mix of residential and light industrial areas means we see everything from garage cleanouts to small warehouse clearances—all handled with the same professional care.
+                <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-orange-500">
+                  <h4 className="text-xl font-bold mb-3 text-orange-600">Eco-Friendly Disposal & Recycling</h4>
+                  <p className="text-gray-700 mb-3">
+                    Everything doesn't belong in the landfill. We prioritize donation and recycling whenever possible, partnering with local San Diego charities, recycling facilities, and responsible disposal sites. Usable furniture goes to families in need. Metals get recycled. Electronics are properly processed. Only true waste reaches the landfill. This commitment to environmental responsibility reflects San Diego's values and protects our coastal community.
                   </p>
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Weather & Seasonal Considerations</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Complete Range of Junk Removal Services</h3>
+
               <p className="text-lg text-gray-700 mb-4">
-                San Diego's climate affects junk removal in ways most people don't consider:
+                Our <strong>junk removal San Diego</strong> service covers every type of hauling need across residential, commercial, and specialty situations. We've developed expertise in handling unique challenges that come with San Diego's diverse properties—from beachfront condos with limited access to hillside estates with steep driveways to downtown high-rises requiring elevator coordination.
               </p>
-              <div className="bg-blue-50 p-6 rounded-lg mb-6">
-                <ul className="space-y-3 text-gray-700">
-                  <li><strong>🌊 Coastal Humidity:</strong> Salt air and moisture can make furniture heavier and require protective covering during transport from beach neighborhoods.</li>
-                  <li><strong>☀️ East County Heat:</strong> Summer temperatures exceeding 100°F in El Cajon and Santee mean we schedule intensive jobs earlier in the day for crew safety and efficiency.</li>
-                  <li><strong>🌧️ Post-Storm Debris:</strong> After winter rains, we assist with water-damaged items, yard waste, and driveway cleanup—especially in hillside areas prone to runoff.</li>
-                  <li><strong>🔥 Wildfire Season:</strong> During Santa Ana wind events (typically fall), we provide brush removal and fire-safety clearance services in East County and North County backcountry areas.</li>
-                  <li><strong>🌬️ Santa Ana Winds:</strong> High winds require extra securing of loads and careful handling of lightweight debris that could blow during transport.</li>
+
+              <div className="bg-gray-50 rounded-lg p-6 mb-6">
+                <h4 className="text-xl font-bold mb-4 text-gray-900">Residential Junk Removal</h4>
+                <p className="text-gray-700 mb-4">
+                  Home cleanouts form the core of what we do. Whether you're downsizing, moving, decluttering, or handling a life transition, we make the process simple. Our team arrives on schedule, handles all the heavy lifting, and leaves your property clean. No need to sort, organize, or drag items to the curb—just point to what goes, and we take care of everything else.
+                </p>
+                <div className="grid md:grid-cols-2 gap-4">
+                  <ul className="list-disc pl-6 space-y-2 text-gray-700">
+                    <li><a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline"><strong>Furniture removal</strong></a> including sofas, beds, tables, chairs, dressers</li>
+                    <li><a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline"><strong>Appliance disposal</strong></a> for refrigerators, washers, dryers, stoves</li>
+                    <li><a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline"><strong>Mattress & box spring pickup</strong></a> with recycling when possible</li>
+                    <li><strong>Electronics removal</strong> including TVs, computers, stereos, printers</li>
+                  </ul>
+                  <ul className="list-disc pl-6 space-y-2 text-gray-700">
+                    <li><a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline"><strong>Garage & basement cleanouts</strong></a> clearing accumulated storage</li>
+                    <li><strong>Yard waste removal</strong> for landscaping debris, tree trimmings</li>
+                    <li><a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline"><strong>Hot tub & spa removal</strong></a> with proper dismantling</li>
+                    <li><strong>General household junk</strong> from any room or storage space</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 rounded-lg p-6 mb-6">
+                <h4 className="text-xl font-bold mb-4 text-gray-900">Commercial Junk Removal</h4>
+                <p className="text-gray-700 mb-4">
+                  Businesses throughout San Diego County rely on our <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial junk removal</a> services for office cleanouts, retail space clearing, and ongoing waste management. We work around your business hours, coordinate with building management, and maintain the professionalism your workplace demands. From Sorrento Valley tech offices to downtown corporate spaces to Otay Ranch retail locations, we understand commercial requirements.
+                </p>
+                <ul className="list-disc pl-6 space-y-2 text-gray-700">
+                  <li><strong>Office furniture removal</strong> including desks, cubicles, filing cabinets, conference tables</li>
+                  <li><strong>Electronics & IT equipment disposal</strong> with secure data destruction options</li>
+                  <li><strong>Retail fixtures & displays</strong> during store remodels or closures</li>
+                  <li><strong>Warehouse cleanouts</strong> including pallets, equipment, excess inventory</li>
+                  <li><strong>Restaurant equipment removal</strong> for commercial kitchens and dining areas</li>
+                  <li><a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline"><strong>Construction & renovation debris</strong></a> from remodeling projects</li>
                 </ul>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Major Employers & Industries We Serve</h3>
-              <p className="text-lg text-gray-700 mb-4">
-                We regularly partner with San Diego's major employers and institutions for ongoing junk removal needs:
-              </p>
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-500">
-                  <h4 className="font-bold text-lg mb-3 text-blue-600">🎓 Education & Healthcare</h4>
-                  <ul className="space-y-2 text-gray-700">
-                    <li><strong>UC San Diego</strong> – Student housing turnovers, dormitory cleanouts, campus facility management</li>
-                    <li><strong>Sharp Healthcare & Scripps Clinics</strong> – Medical office furniture recycling, equipment disposal, facility upgrades</li>
-                  </ul>
-                </div>
-                <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-green-500">
-                  <h4 className="font-bold text-lg mb-3 text-green-600">💼 Corporate & Tech</h4>
-                  <ul className="space-y-2 text-gray-700">
-                    <li><strong>Qualcomm Campus & Tech Firms</strong> – Office equipment disposal, cubicle removal, e-waste recycling</li>
-                    <li><strong>Sorrento Valley Offices</strong> – Corporate relocations, furniture liquidations</li>
-                  </ul>
-                </div>
-                <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-purple-500">
-                  <h4 className="font-bold text-lg mb-3 text-purple-600">⚓ Military & Government</h4>
-                  <ul className="space-y-2 text-gray-700">
-                    <li><strong>Port of San Diego / Naval Base</strong> – Warehouse cleanouts, dock equipment removal, base housing turnovers</li>
-                  </ul>
-                </div>
-                <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-orange-500">
-                  <h4 className="font-bold text-lg mb-3 text-orange-600">🏠 Real Estate</h4>
-                  <ul className="space-y-2 text-gray-700">
-                    <li><strong>Property Managers & Realtors</strong> – Rental turnovers county-wide, estate cleanouts, foreclosure cleanouts</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
-                <h3 className="text-xl font-semibold text-blue-900 mb-2">San Diego County Coverage Areas</h3>
-                <div className="grid md:grid-cols-2 gap-4">
+              <div className="bg-gray-50 rounded-lg p-6 mb-8">
+                <h4 className="text-xl font-bold mb-4 text-gray-900">Specialty Removal Services</h4>
+                <p className="text-gray-700 mb-4">
+                  Some situations require more than standard hauling. We provide specialized services for challenging cleanouts that demand sensitivity, expertise, or special handling. Our team has experience with complex scenarios and brings the right approach to each unique situation.
+                </p>
+                <div className="space-y-4">
                   <div>
-                    <h4 className="font-bold text-blue-800 mb-2">Coastal San Diego</h4>
-                    <ul className="text-blue-800 space-y-1">
-                      <li><a href="/junk-removal-la-jolla" className="hover:underline">La Jolla</a> & <a href="/junk-removal-pacific-beach" className="hover:underline">Pacific Beach</a></li>
-                      <li><a href="/junk-removal-del-mar" className="hover:underline">Del Mar</a> & Solana Beach</li>
-                      <li><a href="/junk-removal-point-loma" className="hover:underline">Point Loma</a> & Ocean Beach</li>
-                      <li>Coronado & Imperial Beach</li>
-                    </ul>
+                    <h5 className="font-bold text-gray-800 mb-2"><a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate Cleanouts</a></h5>
+                    <p className="text-gray-700">
+                      Handling an estate after a loved one passes requires both efficiency and compassion. We work respectfully with family members, coordinate with estate executors, provide documentation for probate, and ensure valuables are set aside while clearing unwanted items. Our team understands this is more than just a cleanout—it's helping families through a difficult transition.
+                    </p>
                   </div>
                   <div>
-                    <h4 className="font-bold text-blue-800 mb-2">Central San Diego</h4>
-                    <ul className="text-blue-800 space-y-1">
-                      <li>Downtown & Gaslamp Quarter</li>
-                      <li><a href="/junk-removal-north-park" className="hover:underline">North Park</a> & <a href="/junk-removal-hillcrest" className="hover:underline">Hillcrest</a></li>
-                      <li>Mission Valley & <a href="/junk-removal-kearny-mesa" className="hover:underline">Kearny Mesa</a></li>
-                      <li><a href="/junk-removal-clairemont" className="hover:underline">Clairemont</a> & Linda Vista</li>
-                    </ul>
+                    <h5 className="font-bold text-gray-800 mb-2"><a href="/hoarding-cleanup-san-diego" className="text-blue-600 hover:underline">Hoarding Cleanup</a></h5>
+                    <p className="text-gray-700">
+                      Hoarding situations require special care and understanding. Our team approaches these cleanouts with compassion and discretion, working at a pace that respects the individual's feelings while making real progress. We coordinate with family members and mental health professionals when appropriate, ensuring the process supports recovery rather than causing additional stress.
+                    </p>
                   </div>
                   <div>
-                    <h4 className="font-bold text-blue-800 mb-2">East County</h4>
-                    <ul className="text-blue-800 space-y-1">
-                      <li><a href="/junk-removal-el-cajon" className="hover:underline">El Cajon</a> & <a href="/junk-removal-la-mesa" className="hover:underline">La Mesa</a></li>
-                      <li><a href="/junk-removal-santee" className="hover:underline">Santee</a> & <a href="/junk-removal-lakeside" className="hover:underline">Lakeside</a></li>
-                      <li><a href="/junk-removal-spring-valley" className="hover:underline">Spring Valley</a> & <a href="/junk-removal-lemon-grove" className="hover:underline">Lemon Grove</a></li>
-                      <li>Alpine & Jamul</li>
-                    </ul>
+                    <h5 className="font-bold text-gray-800 mb-2"><a href="/foreclosure-eviction-cleanout-san-diego" className="text-blue-600 hover:underline">Foreclosure & Eviction Cleanouts</a></h5>
+                    <p className="text-gray-700">
+                      Property managers and real estate investors throughout San Diego County count on our fast turnaround for foreclosure and eviction cleanouts. We clear properties quickly and completely, handle abandoned belongings according to legal requirements, and prepare spaces for new tenants or sale. Our service helps you minimize vacancy time and get properties back on the market fast.
+                    </p>
                   </div>
                   <div>
-                    <h4 className="font-bold text-blue-800 mb-2">South Bay</h4>
-                    <ul className="text-blue-800 space-y-1">
-                      <li><a href="/junk-removal-chula-vista" className="hover:underline">Chula Vista</a> & National City</li>
-                      <li>Bonita & Eastlake</li>
-                      <li>Otay Ranch & San Ysidro</li>
-                      <li>Paradise Hills & Skyline</li>
-                    </ul>
+                    <h5 className="font-bold text-gray-800 mb-2"><a href="/emergency-junk-removal-san-diego" className="text-blue-600 hover:underline">Emergency Junk Removal</a></h5>
+                    <p className="text-gray-700">
+                      Sometimes junk removal can't wait. Water damage, fire damage, sudden moves, or urgent deadlines require immediate response. Our emergency service provides rapid junk removal when you need it most, with same-day availability throughout San Diego County. We understand that emergencies don't follow regular business hours, and we're here to help.
+                    </p>
                   </div>
-                  <div>
-                    <h4 className="font-bold text-blue-800 mb-2">North County Coastal</h4>
-                    <ul className="text-blue-800 space-y-1">
-                      <li><a href="/junk-removal-oceanside" className="hover:underline">Oceanside</a> & Carlsbad</li>
-                      <li>Encinitas & Cardiff</li>
-                      <li>Leucadia & Olivenhain</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-blue-800 mb-2">North County Inland</h4>
-                    <ul className="text-blue-800 space-y-1">
-                      <li><a href="/junk-removal-poway" className="hover:underline">Poway</a> & Rancho Bernardo</li>
-                      <li><a href="/junk-removal-rancho-santa-fe" className="hover:underline">Rancho Santa Fe</a> & <a href="/junk-removal-carmel-valley" className="hover:underline">Carmel Valley</a></li>
-                      <li><a href="/junk-removal-vista" className="hover:underline">Vista</a> & San Marcos</li>
-                      <li>Escondido & Valley Center</li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="mt-4 text-center">
-                  <p className="text-blue-700 font-semibold">📞 Call (619) 750-0114 for <a href="/same-day-junk-removal-san-diego" className="hover:underline">same-day service</a> in your area</p>
                 </div>
               </div>
 
@@ -408,7 +370,7 @@ export default function SanDiegoJunkRemovalPage() {
               <div className="sticky top-20 bg-gradient-to-r from-blue-600 to-orange-500 text-white p-4 rounded-lg shadow-lg mb-8 z-10">
                 <div className="flex items-center justify-between gap-4">
                   <div>
-                    <p className="font-semibold">Ready for Junk Removal in San Diego?</p>
+                    <p className="font-semibold">Need Junk Removal in San Diego Today?</p>
                     <p className="text-sm opacity-90">Free quotes • Same-day service • Licensed & insured</p>
                   </div>
                   <a
@@ -420,17 +382,14 @@ export default function SanDiegoJunkRemovalPage() {
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Transparent Junk Removal Pricing</h3>
-              <p className="text-lg text-gray-700 mb-4">
-                <strong>San Diego junk removal prices</strong> typically range from <strong>$100 for a single item pickup to $495 for a full trailer load</strong>. Costs vary by volume, access, and material type—but we always provide upfront, transparent quotes with no hidden fees. See our detailed volume-based pricing below.
-              </p>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">What Are Junk Removal San Diego Prices?</h3>
 
               <p className="text-lg text-gray-700 mb-4">
-                Several factors affect pricing: junk volume is the primary consideration, but property access matters too—stairs, elevators, and parking distance all play a role. Item weight impacts cost since concrete weighs more than furniture. Some materials need special handling. All prices include labor, hauling, and proper eco-friendly disposal.
+                Understanding <strong>junk removal San Diego prices</strong> helps you budget accurately and compare services fairly. Our pricing is volume-based and all-inclusive—the quote we provide includes labor, transportation, disposal fees, and recycling. No hourly rates, no fuel charges, no surprise add-ons. Every customer receives upfront, honest pricing before we start work.
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
-                We guarantee no hidden fees ever. Our quote is your final price. Jobs taking longer don't cost more. Extra effort doesn't change the rate. This builds trust with San Diego residents who call us for <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture removal</a>, <a href="/couch-removal-san-diego" className="text-blue-600 hover:underline">couch removal</a>, and all removal needs. For detailed pricing information, visit our <a href="/junk-removal-cost-san-diego" className="text-blue-600 hover:underline font-semibold">pricing page</a>.
+                Several factors influence final <strong>junk removal cost San Diego</strong> residents pay. Volume matters most—the more space your items take in our trailer, the higher the cost. Item weight plays a role since concrete and dense materials cost more to dispose of than lightweight furniture. Property access affects pricing too; multiple flights of stairs, long carries, or difficult parking add to labor intensity. Despite these variables, we always provide an upfront quote before starting. The price we quote is the price you pay. For comprehensive pricing details, visit our <a href="/junk-removal-cost-san-diego" className="text-blue-600 hover:underline font-semibold">San Diego pricing page</a>.
               </p>
 
               {/* Pricing Table */}
@@ -500,137 +459,226 @@ export default function SanDiegoJunkRemovalPage() {
               <div className="bg-orange-50 border-l-4 border-orange-500 p-6 mb-8">
                 <p className="text-gray-800 font-semibold mb-2">⏰ Same-Day Service Available</p>
                 <p className="text-gray-700">
-                  Call before 2 PM for same-day <strong>junk removal San Diego</strong> service. Same-day slots fill quickly—contact us early at <a href="tel:6197500114" className="text-blue-600 font-bold hover:underline">(619) 750-0114</a> to secure your appointment.
+                  Call before 2 PM for same-day <strong>junk removal San Diego</strong> service throughout the county. Same-day slots fill quickly during peak seasons—contact us early at <a href="tel:6197500114" className="text-blue-600 font-bold hover:underline">(619) 750-0114</a> to secure your preferred appointment time.
                 </p>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Compare Us to Competitors</h3>
-              <p className="text-lg text-gray-700 mb-4">
-                Unlike national franchises charging per hour plus fuel fees, our quotes are flat-rate and include labor, transport, and eco-disposal. Here's how we stack up:
-              </p>
-              <div className="overflow-x-auto mb-8">
-                <table className="w-full bg-white shadow-lg rounded-lg overflow-hidden">
-                  <thead className="bg-gray-100">
-                    <tr>
-                      <th className="px-6 py-4 text-left font-semibold text-gray-700">Feature</th>
-                      <th className="px-6 py-4 text-center font-semibold text-green-700">Severin Cleaners</th>
-                      <th className="px-6 py-4 text-center font-semibold text-gray-700">National Franchises</th>
-                      <th className="px-6 py-4 text-center font-semibold text-gray-700">Miramar Landfill</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-gray-200">
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-medium">Turnaround Time</td>
-                      <td className="px-6 py-4 text-center text-green-600 font-semibold">Same-Day</td>
-                      <td className="px-6 py-4 text-center">2-5 Days</td>
-                      <td className="px-6 py-4 text-center">Self-Haul</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-medium">Cost Transparency</td>
-                      <td className="px-6 py-4 text-center text-green-600 font-semibold">Upfront Flat-Rate</td>
-                      <td className="px-6 py-4 text-center">Hourly + Fees</td>
-                      <td className="px-6 py-4 text-center">Per-Ton Fees</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-medium">Recycling Policy</td>
-                      <td className="px-6 py-4 text-center text-green-600 font-semibold">Eco-Priority</td>
-                      <td className="px-6 py-4 text-center">Varies</td>
-                      <td className="px-6 py-4 text-center">Landfill Only</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-medium">Licensed & Local</td>
-                      <td className="px-6 py-4 text-center text-green-600 font-semibold">✓ San Diego Based</td>
-                      <td className="px-6 py-4 text-center">National Chain</td>
-                      <td className="px-6 py-4 text-center">County Facility</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-medium">Same-Day Availability</td>
-                      <td className="px-6 py-4 text-center text-green-600 font-semibold">✓ Yes</td>
-                      <td className="px-6 py-4 text-center">Limited</td>
-                      <td className="px-6 py-4 text-center">Open Hours Only</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Why Not Just Haul It to the Dump Yourself?</h3>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Skip the Miramar Dump Trip</h3>
               <p className="text-lg text-gray-700 mb-4">
-                Hauling junk to the <strong>Miramar Landfill</strong> yourself means:
+                Many San Diego residents consider hauling junk to the Miramar Landfill themselves to save money. While some search for "<strong>free junk removal San Diego</strong>" options, the reality is that DIY disposal has hidden costs that add up quickly—and often exceed professional <strong>San Diego junk hauling</strong> service pricing. Here's what you're actually facing when you choose the DIY route:
               </p>
+
               <div className="bg-red-50 p-6 rounded-lg mb-6 border-l-4 border-red-500">
+                <h4 className="text-lg font-bold text-red-900 mb-3">The Hidden Costs of DIY Junk Removal</h4>
                 <ul className="space-y-2 text-gray-700">
-                  <li>❌ Renting a truck or trailer ($75-150+ per day)</li>
-                  <li>❌ Loading heavy items yourself (risk of injury)</li>
-                  <li>❌ Driving to Miramar Rd (often 30-60 min each way)</li>
-                  <li>❌ Waiting in dump lines (can take 1-2 hours on weekends)</li>
-                  <li>❌ Paying per-ton disposal fees ($50-200+ depending on weight)</li>
-                  <li>❌ Unloading everything yourself</li>
-                  <li>❌ Returning the rental truck</li>
-                </ul>
-              </div>
-              <div className="bg-green-50 p-6 rounded-lg mb-8 border-l-4 border-green-500">
-                <p className="text-lg font-semibold text-green-900 mb-3">✓ With Severin Cleaners:</p>
-                <ul className="space-y-2 text-gray-700">
-                  <li>✓ We arrive on YOUR schedule</li>
-                  <li>✓ We do ALL the heavy lifting</li>
-                  <li>✓ We load, haul, and dispose of everything</li>
-                  <li>✓ Transparent flat-rate pricing (no hidden fees)</li>
-                  <li>✓ Eco-friendly recycling & donation when possible</li>
-                  <li>✓ Licensed, insured professionals handling everything start to finish</li>
+                  <li><strong>❌ Truck or trailer rental:</strong> $75-$150+ per day from U-Haul or Home Depot, plus fuel costs</li>
+                  <li><strong>❌ Your time and labor:</strong> Loading heavy items yourself risks injury and takes hours</li>
+                  <li><strong>❌ Miramar Landfill drive:</strong> Located at 5180 Convoy St, often 30-60 minutes each way depending on your neighborhood</li>
+                  <li><strong>❌ Long wait times:</strong> Weekend lines at Miramar regularly exceed 1-2 hours during peak times</li>
+                  <li><strong>❌ Disposal fees:</strong> $50-$200+ depending on weight and material type</li>
+                  <li><strong>❌ Unloading everything:</strong> You load, drive, wait, unload, and return the rental—all yourself</li>
+                  <li><strong>❌ Multiple trips:</strong> If your load exceeds rental capacity, you're making several trips</li>
                 </ul>
                 <p className="text-gray-700 mt-4 font-semibold">
-                  Bottom line: Save time, avoid hassle, and often save money too. Call <a href="tel:6197500114" className="text-green-700 hover:underline">(619) 750-0114</a> and skip the dump trip entirely.
+                  Total DIY cost: Often $200-$400+ when you factor in rental fees, fuel, disposal costs, and your valuable time. That's comparable to professional service—but with all the work falling on you. True <strong>free junk removal San Diego</strong> services don't exist without strings attached or hidden costs.
                 </p>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">When You Need Professional Junk Removal</h3>
+              <div className="bg-green-50 p-6 rounded-lg mb-8 border-l-4 border-green-500">
+                <h4 className="text-lg font-bold text-green-900 mb-3">✓ Professional Junk Removal San Diego Service</h4>
+                <ul className="space-y-2 text-gray-700">
+                  <li><strong>✓ We arrive on YOUR schedule</strong> at your home or business</li>
+                  <li><strong>✓ We do ALL the heavy lifting</strong> so you avoid injury risk</li>
+                  <li><strong>✓ We load, haul, and dispose</strong> of everything—start to finish</li>
+                  <li><strong>✓ Transparent flat-rate pricing</strong> with no hidden fees or surprises</li>
+                  <li><strong>✓ Eco-friendly recycling & donation</strong> whenever possible, not just landfill dumping</li>
+                  <li><strong>✓ Licensed, insured professionals</strong> handling everything safely and properly</li>
+                  <li><strong>✓ Same-day service available</strong> throughout San Diego County</li>
+                </ul>
+                <p className="text-gray-700 mt-4 font-semibold">
+                  For $100-$495 depending on volume, you save time, avoid physical strain, eliminate rental hassles, and often spend similar or less than DIY costs. Call <a href="tel:6197500114" className="text-green-700 hover:underline">(619) 750-0114</a> and skip the dump trip entirely.
+                </p>
+              </div>
+
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Serving All San Diego County Neighborhoods</h3>
+
+              <p className="text-lg text-gray-700 mb-6">
+                Our <strong>San Diego junk removal</strong> service covers every neighborhood and community throughout San Diego County. From coastal areas with beach access challenges to hillside properties with steep terrain, from downtown high-rises requiring elevator coordination to suburban homes with ample parking, we've handled it all. Our team understands the unique characteristics of each San Diego neighborhood and adapts our approach accordingly.
+              </p>
+
+              <div className="bg-white rounded-lg shadow-md p-6 mb-8 border border-gray-200">
+                <h4 className="text-xl font-bold mb-4 text-blue-900">San Diego Neighborhoods We Serve</h4>
+
+                <div className="grid md:grid-cols-3 gap-8">
+                  <div>
+                    <h5 className="font-bold text-blue-700 mb-3 text-lg">Coastal Communities</h5>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> – Luxury home cleanouts</li>
+                      <li>• <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a> – Apartment & condo junk removal</li>
+                      <li>• <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a> – Beachfront property service</li>
+                      <li>• <a href="/junk-removal-point-loma" className="text-blue-600 hover:underline">Point Loma</a> – Hillside estate cleanouts</li>
+                      <li>• Ocean Beach – Beach community hauling</li>
+                      <li>• Mission Beach – Vacation rental cleanouts</li>
+                      <li>• Coronado – Island access service</li>
+                      <li>• Sunset Cliffs – Coastal property removal</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h5 className="font-bold text-blue-700 mb-3 text-lg">Central San Diego</h5>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <a href="/junk-removal-north-park" className="text-blue-600 hover:underline">North Park</a> – Urban apartment cleanouts</li>
+                      <li>• <a href="/junk-removal-hillcrest" className="text-blue-600 hover:underline">Hillcrest</a> – Multi-story building service</li>
+                      <li>• Downtown / Gaslamp – High-rise junk removal</li>
+                      <li>• Mission Valley – Commercial & residential</li>
+                      <li>• University Heights – Historic home service</li>
+                      <li>• Normal Heights – Family home cleanouts</li>
+                      <li>• South Park – Neighborhood hauling</li>
+                      <li>• Golden Hill – Property cleanouts</li>
+                      <li>• Bankers Hill – Downtown edge service</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h5 className="font-bold text-blue-700 mb-3 text-lg">North County</h5>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a> – Coastal North County</li>
+                      <li>• Carlsbad – Beach city hauling</li>
+                      <li>• <a href="/junk-removal-escondido" className="text-blue-600 hover:underline">Escondido</a> – Inland community service</li>
+                      <li>• <a href="/junk-removal-vista" className="text-blue-600 hover:underline">Vista</a> – North County residential</li>
+                      <li>• <a href="/junk-removal-poway" className="text-blue-600 hover:underline">Poway</a> – Suburban family homes</li>
+                      <li>• <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a> – Estate properties</li>
+                      <li>• San Marcos – College town service</li>
+                      <li>• Encinitas – Coastal community</li>
+                      <li>• <a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a> – Master-planned neighborhoods</li>
+                      <li>• Rancho Bernardo – HOA community service</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h5 className="font-bold text-blue-700 mb-3 text-lg">East County</h5>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a> – Valley community hauling</li>
+                      <li>• <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a> – Hillside property service</li>
+                      <li>• <a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee</a> – Family neighborhood cleanouts</li>
+                      <li>• <a href="/junk-removal-lakeside" className="text-blue-600 hover:underline">Lakeside</a> – Rural East County</li>
+                      <li>• <a href="/junk-removal-lemon-grove" className="text-blue-600 hover:underline">Lemon Grove</a> – Established neighborhoods</li>
+                      <li>• <a href="/junk-removal-spring-valley" className="text-blue-600 hover:underline">Spring Valley</a> – Residential hauling</li>
+                      <li>• Alpine – Mountain community service</li>
+                      <li>• Jamul – Rural property cleanouts</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h5 className="font-bold text-blue-700 mb-3 text-lg">South Bay</h5>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a> – South County hub</li>
+                      <li>• National City – Multi-family service</li>
+                      <li>• Imperial Beach – Border community hauling</li>
+                      <li>• Bonita – Suburban cleanouts</li>
+                      <li>• Eastlake – Master-planned neighborhoods</li>
+                      <li>• Otay Ranch – New community service</li>
+                      <li>• San Ysidro – Border area properties</li>
+                      <li>• Paradise Hills – Residential hauling</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h5 className="font-bold text-blue-700 mb-3 text-lg">North Central</h5>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <a href="/junk-removal-mira-mesa" className="text-blue-600 hover:underline">Mira Mesa</a> – Suburban neighborhoods</li>
+                      <li>• <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">Kearny Mesa</a> – Commercial district</li>
+                      <li>• <a href="/junk-removal-clairemont" className="text-blue-600 hover:underline">Clairemont</a> – Established community</li>
+                      <li>• Scripps Ranch – Planned community</li>
+                      <li>• Rancho Peñasquitos – Family neighborhoods</li>
+                      <li>• Sabre Springs – Newer developments</li>
+                      <li>• Linda Vista – Diverse neighborhood</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="mt-6 pt-6 border-t border-gray-200 text-center">
+                  <p className="text-gray-700 mb-3">
+                    <strong>Don't see your specific neighborhood listed?</strong> We serve all of San Diego County. Call us to confirm service in your area.
+                  </p>
+                  <a href="tel:6197500114" className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-bold transition-colors">
+                    📞 Call (619) 750-0114 for Your Area
+                  </a>
+                </div>
+              </div>
+
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Understanding San Diego's Disposal & Recycling</h3>
+
               <p className="text-lg text-gray-700 mb-4">
-                Professional junk removal helps in many situations. Life changes create removal needs. Here's when residents and businesses call us most often:
+                Where your junk ends up matters—both legally and environmentally. All <strong>junk removal San Diego</strong> companies must comply with California and San Diego County waste regulations, but not all haulers prioritize eco-friendly disposal. We take our environmental responsibility seriously, partnering with legitimate recycling facilities, donation centers, and licensed disposal sites throughout the county.
+              </p>
+
+              <p className="text-lg text-gray-700 mb-6">
+                Here's how we handle different materials: Usable furniture in good condition goes to local charities like the San Diego Rescue Mission, Father Joe's Villages, and Habitat for Humanity ReStore, where families in need benefit directly. Metal items from appliances to scrap metal get separated and sent to recycling facilities. Electronics require special handling through certified e-waste processors who prevent toxic materials from entering landfills. Wood gets recycled into mulch or biomass fuel when possible. Mattresses go to specialized recycling facilities that separate foam, metal springs, and fabric. Construction debris gets sorted, with recyclable materials diverted from landfills. Only items that truly cannot be recycled or donated reach the landfill—and we maintain complete documentation of where everything goes.
+              </p>
+
+              <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-8">
+                <h4 className="font-bold text-green-900 mb-3">Our Environmental Commitment</h4>
+                <p className="text-gray-700 mb-3">
+                  We divert 60-70% of collected junk from landfills through recycling and donation. This commitment reflects San Diego's environmental values and protects our coastal community, beaches, and natural spaces. When you choose our service, you're not just clearing your space—you're supporting responsible waste management that benefits our entire region.
+                </p>
+              </div>
+
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Common Situations Requiring Junk Removal</h3>
+
+              <p className="text-lg text-gray-700 mb-6">
+                People call us for <strong>San Diego junk removal</strong> service during life transitions and property changes. Understanding when professional hauling makes sense helps you recognize the value we provide. Here are the most common situations where our service proves invaluable:
               </p>
 
               <div className="grid md:grid-cols-2 gap-6 mb-8">
-                <div className="bg-gray-50 rounded-lg p-6">
+                <div className="bg-gray-50 rounded-lg p-6 border-l-4 border-blue-500">
                   <h4 className="text-xl font-bold mb-3 text-blue-600">Moving & Downsizing</h4>
-                  <p className="text-gray-700 mb-3">
-                    Moving to a smaller home in San Diego? Our <a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">cleanout services</a> help you declutter before the move. We handle unwanted furniture, appliances, and boxes of belongings you don't want to take with you—clearing space and reducing moving truck costs.
+                  <p className="text-gray-700">
+                    San Diego's high housing costs make downsizing common. Whether you're moving to a smaller condo, relocating out of state, or simply reducing possessions, we help you purge unwanted items before the move. This reduces moving truck costs, simplifies the process, and lets you start fresh in your new space. Our <a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">cleanout services</a> coordinate with your moving timeline, clearing items on your schedule.
                   </p>
                 </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h4 className="text-xl font-bold mb-3 text-blue-600">Estate Situations</h4>
-                  <p className="text-gray-700 mb-3">
-                    Handling an estate after a loved one passes requires sensitivity and efficiency. Our <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanout San Diego</a> service provides compassionate property clearing with proper documentation for probate requirements and estate settlement.
+
+                <div className="bg-gray-50 rounded-lg p-6 border-l-4 border-green-500">
+                  <h4 className="text-xl font-bold mb-3 text-green-600">Property Sale Preparation</h4>
+                  <p className="text-gray-700">
+                    Real estate agents throughout San Diego recommend us to their clients for pre-sale cleanouts. Empty, decluttered homes show better, photograph better, and sell faster. We clear unwanted furniture, old appliances, garage accumulation, and yard waste—creating the clean slate that attracts buyers and maximizes sale price. Quick turnaround helps you list properties on schedule.
                   </p>
                 </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h4 className="text-xl font-bold mb-3 text-blue-600">Property Sale Preparation</h4>
-                  <p className="text-gray-700 mb-3">
-                    Selling a San Diego property? Buyers want clean, empty spaces. We clear out unwanted items, remove old furniture and appliances, and help you stage properties for maximum sale appeal—whether it's a <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> condo or <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a> home.
+
+                <div className="bg-gray-50 rounded-lg p-6 border-l-4 border-purple-500">
+                  <h4 className="text-xl font-bold mb-3 text-purple-600">Renovation & Remodeling</h4>
+                  <p className="text-gray-700">
+                    Home renovations generate substantial debris. Old cabinets, flooring, drywall, fixtures, and demolished materials need removal before new installation begins. Our <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">construction debris removal</a> keeps your project site clean and safe, allowing contractors to work efficiently. We coordinate pickups around your construction schedule, hauling away demolition debris promptly.
                   </p>
                 </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h4 className="text-xl font-bold mb-3 text-blue-600">HOA Violations</h4>
-                  <p className="text-gray-700 mb-3">
-                    Received an HOA notice about exterior clutter or garage overflow? San Diego HOAs enforce strict property standards. Our <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day junk removal San Diego</a> service helps you meet compliance deadlines quickly.
+
+                <div className="bg-gray-50 rounded-lg p-6 border-l-4 border-orange-500">
+                  <h4 className="text-xl font-bold mb-3 text-orange-600">Estate Settlement</h4>
+                  <p className="text-gray-700">
+                    After losing a loved one, families face the overwhelming task of clearing their property. Our <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanout service</a> provides compassionate assistance during this difficult time. We work respectfully with families, separate valuables from disposal items, provide documentation for probate, and coordinate with estate sales or auctions. The process moves at your pace with the sensitivity the situation demands.
                   </p>
                 </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h4 className="text-xl font-bold mb-3 text-blue-600">Renovation Projects</h4>
-                  <p className="text-gray-700 mb-3">
-                    Remodeling your San Diego home or business? Our <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">construction debris removal</a> handles drywall, flooring, cabinets, and renovation waste—keeping your project site clean and safe.
+
+                <div className="bg-gray-50 rounded-lg p-6 border-l-4 border-red-500">
+                  <h4 className="text-xl font-bold mb-3 text-red-600">HOA Compliance</h4>
+                  <p className="text-gray-700">
+                    San Diego HOAs enforce strict property standards. Notices about garage clutter, yard accumulation, or exterior storage violations require quick action. Our <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day junk removal</a> helps you meet HOA deadlines and avoid fines. We've helped countless homeowners resolve violations quickly and affordably throughout San Diego's many HOA-governed communities.
                   </p>
                 </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h4 className="text-xl font-bold mb-3 text-blue-600">Emergency Situations</h4>
-                  <p className="text-gray-700 mb-3">
-                    Water damage, property damage, or sudden move-out requirements? Our <a href="/emergency-junk-removal-san-diego" className="text-blue-600 hover:underline">emergency junk removal</a> provides rapid response throughout San Diego County when time matters most.
+
+                <div className="bg-gray-50 rounded-lg p-6 border-l-4 border-indigo-500">
+                  <h4 className="text-xl font-bold mb-3 text-indigo-600">Rental Property Turnovers</h4>
+                  <p className="text-gray-700">
+                    Property managers across San Diego County rely on our service for tenant move-out cleanouts. Abandoned furniture, appliances, garage items, and general debris need immediate removal to minimize vacancy time. Our fast turnaround, clear documentation, and reliable service help you get rental properties cleaned, repaired, and back on the market quickly. We understand the rental business and deliver accordingly.
                   </p>
                 </div>
               </div>
 
               <div className="text-center bg-blue-600 text-white p-8 rounded-lg mb-8">
-                <h3 className="text-2xl font-bold mb-4">Get Your Free San Diego Junk Removal Quote</h3>
+                <h3 className="text-2xl font-bold mb-4">Get Your Free Junk Removal Quote Today</h3>
                 <p className="text-lg mb-6">
-                  Transparent pricing • Same-day service • Licensed & insured throughout San Diego County
+                  Professional <strong>junk removal San Diego</strong> service with transparent pricing, same-day availability, and complete peace of mind
                 </p>
                 <a
                   href="tel:6197500114"
@@ -640,129 +688,123 @@ export default function SanDiegoJunkRemovalPage() {
                 </a>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">What Happens to Your Junk</h3>
-              <p className="text-lg text-gray-700 mb-4">
-                All items get proper disposal. We follow City and County regulations strictly. Landfills aren't our only option. Responsible practices protect our community and environment. This matters to us.
-              </p>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">What Makes Professional San Diego Junk Hauling Worth It</h3>
 
               <p className="text-lg text-gray-700 mb-4">
-                Every load goes to licensed facilities. Donations head to local charities. Recyclable materials get separated properly. Recycling centers receive what they can process. Complete documentation is maintained always. This helps with <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a> and probate needs. Property managers appreciate our disposal records too.
-              </p>
-
-              <p className="text-lg text-gray-700 mb-6">
-                Some items need special handling beyond standard service. We coordinate with trusted professionals when needed. Proper handling is guaranteed for everything. Our commitment is taking care of you completely. Going beyond core services when necessary makes the difference. This comprehensive approach builds trust across San Diego.
-              </p>
-
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Comprehensive San Diego Junk Removal Services</h3>
-              <p className="text-lg text-gray-700 mb-4">
-                We handle all cleanout types across the county. Residential, commercial, and specialty projects all get professional service. Here's what we remove:
+                The value of professional <strong>San Diego junk hauling</strong> extends beyond just removal. It's about saving time, avoiding injury, ensuring proper disposal, and reclaiming your space without the stress of doing it yourself. Consider what you're actually getting:
               </p>
 
               <div className="grid md:grid-cols-2 gap-6 mb-8">
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h4 className="text-xl font-bold mb-3 text-blue-600">Residential Services</h4>
-                  <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                    <li><strong><a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Furniture Removal</a>:</strong> Sofas, <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">mattresses</a>, tables, chairs, bedroom sets</li>
-                    <li><strong><a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Appliance Removal</a>:</strong> Refrigerators, washers, dryers, stoves, dishwashers</li>
-                    <li><strong><a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate Cleanouts</a>:</strong> Complete property clearing with sensitive handling</li>
-                    <li><strong><a href="/hoarding-cleanup-san-diego" className="text-blue-600 hover:underline">Hoarding Cleanup</a>:</strong> Compassionate service for challenging situations</li>
-                    <li><strong><a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">Garage & Basement Cleanouts</a>:</strong> Total space reclamation projects</li>
-                    <li><strong>Yard Waste:</strong> Tree trimmings, landscaping debris, outdoor cleanup</li>
-                  </ul>
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <h4 className="font-bold text-lg mb-3 text-blue-600">Time Savings</h4>
+                  <p className="text-gray-700">
+                    Your time has value. Hauling junk yourself requires renting equipment, loading items, driving to disposal sites, waiting in lines, unloading, and returning rentals—often consuming an entire day or weekend. Professional service completes the job in a fraction of the time, letting you focus on more important priorities. For busy professionals, families, and business owners, this time savings alone justifies the service.
+                  </p>
                 </div>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <h4 className="text-xl font-bold mb-3 text-green-600">Commercial Services</h4>
-                  <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                    <li><strong><a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">Office Cleanouts</a>:</strong> Furniture, equipment, and document disposal</li>
-                    <li><strong>Retail Space Clearing:</strong> Fixtures, inventory, and display removal</li>
-                    <li><strong>Restaurant Equipment:</strong> Commercial appliances and kitchen gear</li>
-                    <li><strong><a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">Construction Debris</a>:</strong> Renovation materials, drywall, flooring</li>
-                    <li><strong>Warehouse Clearing:</strong> Pallets, equipment, excess inventory</li>
-                    <li><strong><a href="/foreclosure-eviction-cleanout-san-diego" className="text-blue-600 hover:underline">Property Management</a>:</strong> Tenant cleanouts and turnover services</li>
-                  </ul>
+
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <h4 className="font-bold text-lg mb-3 text-green-600">Injury Prevention</h4>
+                  <p className="text-gray-700">
+                    Heavy lifting causes thousands of injuries annually. Furniture, appliances, and loaded boxes all pose injury risks—especially when navigating stairs, tight spaces, or uneven terrain. Our trained team uses proper techniques, appropriate equipment, and safety protocols to move heavy items safely. The medical costs and recovery time from one back injury far exceed professional junk removal costs.
+                  </p>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <h4 className="font-bold text-lg mb-3 text-purple-600">Proper Disposal</h4>
+                  <p className="text-gray-700">
+                    Many items require special handling beyond standard landfill disposal. Appliances with refrigerants, electronics with toxic components, mattresses that can be recycled, and usable items suitable for donation all need appropriate processing. We know where everything goes, maintain the necessary relationships with facilities, and ensure legal, environmentally responsible disposal of all materials.
+                  </p>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <h4 className="font-bold text-lg mb-3 text-orange-600">Complete Service</h4>
+                  <p className="text-gray-700">
+                    From the moment we arrive until we sweep up afterward, we handle everything. You don't sort, organize, or prepare anything—just point to what goes, and we take care of it. This complete, hassle-free service eliminates the mental burden of planning, organizing, and executing a cleanout. For estate situations, business cleanouts, or overwhelming hoarding cases, this comprehensive approach proves invaluable.
+                  </p>
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Items We Remove Throughout San Diego County</h3>
-              <p className="text-lg text-gray-700 mb-4">
-                All standard items are handled properly. County disposal regulations guide our work. Here's what we commonly remove:
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Comparing Junk Removal Options in San Diego</h3>
+
+              <p className="text-lg text-gray-700 mb-6">
+                San Diego residents have several options for junk disposal. Understanding how professional <strong>junk removal San Diego</strong> service compares to alternatives helps you make the right choice for your situation. Here's an honest comparison:
               </p>
 
-              <div className="bg-gray-50 rounded-lg p-6 mb-8">
-                <div className="grid md:grid-cols-3 gap-4">
-                  <ul className="list-disc pl-6 space-y-1 text-gray-700">
-                    <li><a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Furniture of all types</a></li>
-                    <li><a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Appliances & electronics</a></li>
-                    <li><a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">Mattresses & box springs</a></li>
-                    <li><a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">Hot tubs</a> & exercise equipment</li>
-                  </ul>
-                  <ul className="list-disc pl-6 space-y-1 text-gray-700">
-                    <li><a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">Construction debris</a></li>
-                    <li>Yard waste & landscaping</li>
-                    <li><a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">Office furniture & equipment</a></li>
-                    <li>General household junk</li>
-                  </ul>
-                  <ul className="list-disc pl-6 space-y-1 text-gray-700">
-                    <li>Garage & <a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">basement cleanouts</a></li>
-                    <li>Storage unit cleanouts</li>
-                    <li><a href="/foreclosure-eviction-cleanout-san-diego" className="text-blue-600 hover:underline">Tenant move-out debris</a></li>
-                    <li><a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate sale leftovers</a></li>
-                  </ul>
-                </div>
-                <p className="text-gray-700 mt-4 text-sm italic">
-                  <strong>Note:</strong> We handle all standard household items, furniture, appliances, construction debris, and yard waste in accordance with San Diego County regulations. If you're unsure about a specific item, call us at (619) 750-0114 — some items require special handling, and we'll help coordinate so you're fully taken care of.
-                </p>
-              </div>
-
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why San Diego Chooses Severin Cleaners</h3>
-              <p className="text-lg text-gray-700 mb-4">
-                We're a locally-owned business serving all of San Diego County. Reliability, professionalism, and local expertise define our service. Here's what makes us different:
-              </p>
-
-              <div className="grid md:grid-cols-2 gap-8 mb-8">
-                <div>
-                  <h4 className="text-xl font-bold mb-3 text-blue-600">Service Benefits</h4>
-                  <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                    <li><strong>Same-day service:</strong> Available when scheduled before 2 PM throughout San Diego County</li>
-                    <li><strong>Licensed & insured:</strong> Comprehensive coverage protecting your property during removal</li>
-                    <li><strong>Transparent pricing:</strong> $100-$495 based on volume, no hidden fees</li>
-                    <li><strong>locally-owned:</strong> Local business with community commitment and accountability</li>
-                    <li><strong>Professional crews:</strong> Trained, uniformed teams with courteous service</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="text-xl font-bold mb-3 text-green-600">Regulatory Compliance</h4>
-                  <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                    <li><strong>San Diego County regulations:</strong> All disposal follows local waste handling laws</li>
-                    <li><strong>Proper documentation:</strong> Complete records of item disposal and recycling</li>
-                    <li><strong>Licensed facilities:</strong> Items disposed at authorized San Diego County locations</li>
-                    <li><strong>Environmental standards:</strong> Compliance with California and county requirements</li>
-                    <li><strong>Special item coordination:</strong> Help arranging proper handling when needed</li>
-                  </ul>
-                </div>
+              <div className="overflow-x-auto mb-8">
+                <table className="w-full bg-white shadow-lg rounded-lg overflow-hidden">
+                  <thead className="bg-gray-100">
+                    <tr>
+                      <th className="px-6 py-4 text-left font-semibold text-gray-700">Feature</th>
+                      <th className="px-6 py-4 text-center font-semibold text-green-700">Severin Cleaners</th>
+                      <th className="px-6 py-4 text-center font-semibold text-gray-700">National Franchises</th>
+                      <th className="px-6 py-4 text-center font-semibold text-gray-700">DIY Miramar Landfill</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-200">
+                    <tr className="hover:bg-gray-50">
+                      <td className="px-6 py-4 font-medium">Response Time</td>
+                      <td className="px-6 py-4 text-center text-green-600 font-semibold">Same-Day Available</td>
+                      <td className="px-6 py-4 text-center">2-5 Days Typical</td>
+                      <td className="px-6 py-4 text-center">Anytime (Your Schedule)</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50">
+                      <td className="px-6 py-4 font-medium">Pricing Model</td>
+                      <td className="px-6 py-4 text-center text-green-600 font-semibold">Flat-Rate Volume</td>
+                      <td className="px-6 py-4 text-center">Hourly + Fees</td>
+                      <td className="px-6 py-4 text-center">Rental + Per-Ton</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50">
+                      <td className="px-6 py-4 font-medium">Typical Cost</td>
+                      <td className="px-6 py-4 text-center text-green-600 font-semibold">$100-$495</td>
+                      <td className="px-6 py-4 text-center">$150-$600+</td>
+                      <td className="px-6 py-4 text-center">$125-$400+</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50">
+                      <td className="px-6 py-4 font-medium">Labor</td>
+                      <td className="px-6 py-4 text-center text-green-600 font-semibold">We Do Everything</td>
+                      <td className="px-6 py-4 text-center">They Do Everything</td>
+                      <td className="px-6 py-4 text-center">You Do Everything</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50">
+                      <td className="px-6 py-4 font-medium">Recycling</td>
+                      <td className="px-6 py-4 text-center text-green-600 font-semibold">Priority Focus</td>
+                      <td className="px-6 py-4 text-center">Varies by Franchise</td>
+                      <td className="px-6 py-4 text-center">Landfill Only</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50">
+                      <td className="px-6 py-4 font-medium">Local Knowledge</td>
+                      <td className="px-6 py-4 text-center text-green-600 font-semibold">San Diego Based</td>
+                      <td className="px-6 py-4 text-center">National Corporate</td>
+                      <td className="px-6 py-4 text-center">You Navigate</td>
+                    </tr>
+                    <tr className="hover:bg-gray-50">
+                      <td className="px-6 py-4 font-medium">Hidden Fees</td>
+                      <td className="px-6 py-4 text-center text-green-600 font-semibold">None Ever</td>
+                      <td className="px-6 py-4 text-center">Common (Fuel, Stairs)</td>
+                      <td className="px-6 py-4 text-center">Weight Surprises</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
 
               <div className="text-center bg-blue-900 text-white p-8 rounded-lg">
-                <h3 className="text-2xl font-bold mb-4">Get San Diego Junk Removal Quote</h3>
+                <h3 className="text-2xl font-bold mb-4">Schedule San Diego Junk Removal Service</h3>
                 <p className="text-lg mb-6">
-                  Professional <strong>San Diego junk removal</strong> with transparent pricing, same-day service, and county-wide coverage
+                  Transparent pricing • Same-day availability • Licensed & insured • Eco-friendly disposal
                 </p>
                 <a
                   href="tel:6197500114"
                   className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors duration-200 inline-block mb-6"
                 >
-                  📞 Call Now for Same-Day Service: (619) 750-0114
+                  📞 Call (619) 750-0114 for Free Quote
                 </a>
                 <div className="bg-blue-800 rounded-lg p-4">
-                  <p className="text-yellow-300 font-semibold mb-2">💰 Transparent Pricing • Get Free Quote 💰</p>
+                  <p className="text-yellow-300 font-semibold mb-2">💰 All-Inclusive Pricing • No Hidden Fees 💰</p>
                   <div className="text-sm">
                     <strong>$100-$495 Standard Pricing</strong> • <strong>Same-Day Service Available</strong><br/>
-                    <strong>Licensed & Insured</strong> • <strong>County-Wide Coverage</strong>
+                    <strong>Licensed & Insured</strong> • <strong>Serving All San Diego County</strong>
                   </div>
                 </div>
-                <p className="text-sm mt-4">
-                  Serving Coastal • Central • East County • South Bay • North County • All San Diego neighborhoods
-                </p>
               </div>
             </div>
           </div>
@@ -773,34 +815,34 @@ export default function SanDiegoJunkRemovalPage() {
       <section className="py-12 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h3 className="text-3xl font-bold text-center mb-8 text-gray-900">Related Services in San Diego</h3>
+            <h3 className="text-3xl font-bold text-center mb-8 text-gray-900">Specialized Junk Removal Services</h3>
             <p className="text-center text-gray-700 mb-8 max-w-2xl mx-auto">
-              We offer comprehensive junk removal services throughout San Diego County. Click below to learn more about our specialized services:
+              We offer comprehensive removal services throughout San Diego County. Explore our specialized services below:
             </p>
             <div className="grid md:grid-cols-3 gap-6">
-              <a href="/couch-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow border-l-4 border-blue-500">
-                <h4 className="font-semibold text-lg mb-2 text-blue-600">🛋️ Couch Removal San Diego</h4>
-                <p className="text-gray-600">Same-day sofa and sectional disposal with transparent pricing</p>
+              <a href="/furniture-disposal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow border-l-4 border-blue-500">
+                <h4 className="font-semibold text-lg mb-2 text-blue-600">🪑 Furniture Disposal</h4>
+                <p className="text-gray-600">Complete furniture removal with eco-friendly recycling</p>
               </a>
-              <a href="/san-diego-mattress-disposal" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow border-l-4 border-green-500">
-                <h4 className="font-semibold text-lg mb-2 text-green-600">🛏️ Mattress Disposal & Pickup</h4>
-                <p className="text-gray-600">Eco-friendly mattress recycling and removal services</p>
+              <a href="/appliance-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow border-l-4 border-green-500">
+                <h4 className="font-semibold text-lg mb-2 text-green-600">📦 Appliance Removal</h4>
+                <p className="text-gray-600">Safe disposal of refrigerators, washers, and appliances</p>
               </a>
-              <a href="/furniture-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow border-l-4 border-purple-500">
-                <h4 className="font-semibold text-lg mb-2 text-purple-600">🪑 Furniture Removal</h4>
-                <p className="text-gray-600">Complete furniture hauling for homes and offices</p>
+              <a href="/san-diego-mattress-disposal" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow border-l-4 border-purple-500">
+                <h4 className="font-semibold text-lg mb-2 text-purple-600">🛏️ Mattress Disposal</h4>
+                <p className="text-gray-600">Eco-friendly mattress recycling and removal</p>
               </a>
-              <a href="/appliance-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow border-l-4 border-orange-500">
-                <h4 className="font-semibold text-lg mb-2 text-orange-600">📦 Appliance Removal</h4>
-                <p className="text-gray-600">Refrigerator, washer, dryer, and appliance disposal</p>
-              </a>
-              <a href="/estate-cleanout-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow border-l-4 border-red-500">
-                <h4 className="font-semibold text-lg mb-2 text-red-600">🏠 Estate Cleanouts</h4>
+              <a href="/estate-cleanout-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow border-l-4 border-orange-500">
+                <h4 className="font-semibold text-lg mb-2 text-orange-600">🏠 Estate Cleanouts</h4>
                 <p className="text-gray-600">Compassionate estate and probate property clearing</p>
               </a>
-              <a href="/commercial-junk-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow border-l-4 border-indigo-500">
-                <h4 className="font-semibold text-lg mb-2 text-indigo-600">🏢 Commercial Junk Removal</h4>
+              <a href="/commercial-junk-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow border-l-4 border-red-500">
+                <h4 className="font-semibold text-lg mb-2 text-red-600">🏢 Commercial Removal</h4>
                 <p className="text-gray-600">Business and office cleanout services</p>
+              </a>
+              <a href="/construction-debris-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow border-l-4 border-indigo-500">
+                <h4 className="font-semibold text-lg mb-2 text-indigo-600">🔨 Construction Debris</h4>
+                <p className="text-gray-600">Renovation and construction waste removal</p>
               </a>
             </div>
           </div>
@@ -809,62 +851,62 @@ export default function SanDiegoJunkRemovalPage() {
 
       {/* FAQ Section */}
       <FAQSection
-          title="Frequently Asked Questions - San Diego Junk Removal"
-          description="Get answers to common questions about our <strong>San Diego junk removal</strong> services, pricing, and same-day availability."
+          title="Frequently Asked Questions - Junk Removal San Diego"
+          description="Get answers to common questions about our <strong>junk removal San Diego</strong> services, pricing, and same-day availability."
           faqs={sanDiegoFAQs}
-          ctaTitle="Still Have Questions About Junk Removal?"
-          ctaDescription="Our experienced <strong>San Diego junk removal</strong> team is ready to answer your questions, provide detailed quotes, or schedule your pickup."
+          ctaTitle="Still Have Questions About San Diego Junk Removal?"
+          ctaDescription="Our experienced <strong>San Diego junk removal</strong> team is ready to answer your questions, provide detailed quotes, or schedule your pickup today."
           includeSchema={false}
         />
 
       {/* Service Pages Grid */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h3 className="text-2xl font-bold text-center mb-8">San Diego Junk Removal Services</h3>
+          <h3 className="text-2xl font-bold text-center mb-8">Complete San Diego Junk Removal Solutions</h3>
           <div className="grid md:grid-cols-4 gap-6 max-w-6xl mx-auto">
-            <a href="/furniture-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
-              <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal</h4>
-              <p className="text-gray-600 text-sm">Complete furniture removal from homes and businesses</p>
-            </a>
-            <a href="/appliance-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
-              <h4 className="font-semibold text-lg mb-2 text-blue-600">Appliance Removal</h4>
-              <p className="text-gray-600 text-sm">Safe appliance disposal services</p>
-            </a>
-            <a href="/estate-cleanout-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
-              <h4 className="font-semibold text-lg mb-2 text-blue-600">Estate Cleanouts</h4>
-              <p className="text-gray-600 text-sm">Compassionate full property estate cleanout service</p>
-            </a>
-            <a href="/construction-debris-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
-              <h4 className="font-semibold text-lg mb-2 text-blue-600">Construction Debris</h4>
-              <p className="text-gray-600 text-sm">Renovation and construction waste removal</p>
-            </a>
-            <a href="/hoarding-cleanup-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
-              <h4 className="font-semibold text-lg mb-2 text-blue-600">Hoarding Cleanup</h4>
-              <p className="text-gray-600 text-sm">Sensitive hoarding situation cleanout services</p>
+            <a href="/couch-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+              <h4 className="font-semibold text-lg mb-2 text-blue-600">Couch Removal</h4>
+              <p className="text-gray-600 text-sm">Sofa and sectional disposal service</p>
             </a>
             <a href="/hot-tub-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
               <h4 className="font-semibold text-lg mb-2 text-blue-600">Hot Tub Removal</h4>
-              <p className="text-gray-600 text-sm">Professional hot tub and spa removal service</p>
+              <p className="text-gray-600 text-sm">Professional spa removal and disposal</p>
             </a>
-            <a href="/commercial-junk-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
-              <h4 className="font-semibold text-lg mb-2 text-blue-600">Commercial Junk Removal</h4>
-              <p className="text-gray-600 text-sm">Business and commercial property cleanouts</p>
+            <a href="/hoarding-cleanup-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+              <h4 className="font-semibold text-lg mb-2 text-blue-600">Hoarding Cleanup</h4>
+              <p className="text-gray-600 text-sm">Compassionate hoarding situation service</p>
+            </a>
+            <a href="/foreclosure-eviction-cleanout-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+              <h4 className="font-semibold text-lg mb-2 text-blue-600">Foreclosure Cleanout</h4>
+              <p className="text-gray-600 text-sm">Property manager cleanout services</p>
             </a>
             <a href="/emergency-junk-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
               <h4 className="font-semibold text-lg mb-2 text-blue-600">Emergency Service</h4>
-              <p className="text-gray-600 text-sm">Emergency and same-day junk removal</p>
+              <p className="text-gray-600 text-sm">Urgent and emergency junk removal</p>
             </a>
             <a href="/piano-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
               <h4 className="font-semibold text-lg mb-2 text-blue-600">Piano Removal</h4>
-              <p className="text-gray-600 text-sm">Specialized piano removal services</p>
+              <p className="text-gray-600 text-sm">Specialized piano removal service</p>
             </a>
             <a href="/same-day-junk-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
               <h4 className="font-semibold text-lg mb-2 text-blue-600">Same-Day Service</h4>
               <p className="text-gray-600 text-sm">Fast same-day pickup available</p>
             </a>
+            <a href="/cleanout-services-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+              <h4 className="font-semibold text-lg mb-2 text-blue-600">Property Cleanouts</h4>
+              <p className="text-gray-600 text-sm">Complete property clearing services</p>
+            </a>
             <a href="/junk-removal-cost-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
               <h4 className="font-semibold text-lg mb-2 text-blue-600">Pricing Information</h4>
-              <p className="text-gray-600 text-sm">Transparent junk removal pricing</p>
+              <p className="text-gray-600 text-sm">Transparent pricing and cost details</p>
+            </a>
+            <a href="/san-diego-dump-fees" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+              <h4 className="font-semibold text-lg mb-2 text-blue-600">Dump Fees Guide</h4>
+              <p className="text-gray-600 text-sm">Understanding disposal costs</p>
+            </a>
+            <a href="/scrap-metal-removal" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+              <h4 className="font-semibold text-lg mb-2 text-blue-600">Scrap Metal Removal</h4>
+              <p className="text-gray-600 text-sm">Metal recycling and disposal</p>
             </a>
             <a href="/services" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
               <h4 className="font-semibold text-lg mb-2 text-blue-600">All Services</h4>
@@ -873,13 +915,13 @@ export default function SanDiegoJunkRemovalPage() {
           </div>
           <div className="text-center mt-8">
             <p className="text-gray-700 mb-4">
-              Need a specific service? We handle all types of <strong>San Diego junk removal</strong> projects throughout the county.
+              Looking for a specific service? We handle all types of <strong>junk removal San Diego</strong> projects.
             </p>
             <a
               href="tel:6197500114"
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-bold transition-colors inline-block"
             >
-              📞 Call (619) 750-0114 for Your Custom Quote
+              📞 Call (619) 750-0114 for Custom Quote
             </a>
           </div>
         </div>
@@ -888,7 +930,10 @@ export default function SanDiegoJunkRemovalPage() {
       {/* Neighborhood Pages */}
       <section className="py-12 bg-white">
         <div className="container mx-auto px-4">
-          <h3 className="text-2xl font-bold text-center mb-8">San Diego Neighborhood Junk Removal</h3>
+          <h3 className="text-2xl font-bold text-center mb-8">Local San Diego Neighborhood Service</h3>
+          <p className="text-center text-gray-700 mb-8 max-w-2xl mx-auto">
+            We provide <strong>junk removal San Diego</strong> service in every neighborhood throughout the county. Select your area below for local information:
+          </p>
           <div className="grid md:grid-cols-5 gap-4 max-w-6xl mx-auto">
             <a href="/junk-removal-la-jolla" className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-500 hover:text-white transition-colors text-center">
               <span className="font-medium">La Jolla</span>
@@ -950,16 +995,22 @@ export default function SanDiegoJunkRemovalPage() {
             <a href="/junk-removal-carmel-valley" className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-500 hover:text-white transition-colors text-center">
               <span className="font-medium">Carmel Valley</span>
             </a>
+            <a href="/junk-removal-mira-mesa" className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-500 hover:text-white transition-colors text-center">
+              <span className="font-medium">Mira Mesa</span>
+            </a>
+            <a href="/junk-removal-escondido" className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-500 hover:text-white transition-colors text-center">
+              <span className="font-medium">Escondido</span>
+            </a>
           </div>
           <p className="text-center mt-8">
-            <span className="text-gray-600">Don't see your San Diego neighborhood? </span>
+            <span className="text-gray-600">Don't see your neighborhood? </span>
             <a href="tel:+16197500114" className="text-blue-500 font-bold hover:underline">
-              Call (619) 750-0114 for service in your area
+              Call (619) 750-0114 for service availability
             </a>
           </p>
           <div className="text-center mt-6">
             <a href="/areas-we-serve" className="text-blue-600 font-semibold hover:underline text-lg">
-              View All Service Areas →
+              View All San Diego Service Areas →
             </a>
           </div>
         </div>

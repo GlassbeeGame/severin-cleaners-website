@@ -318,7 +318,7 @@ export default function JunkRemovalHillcrestPage() {
                         <div>
                           <h3 className="text-xl font-bold mb-3 text-green-600">Residential & Historic Items</h3>
                           <ul className="space-y-2 text-gray-700">
-                            <li><strong>High-rise <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture</a>:</strong> Sofas, beds, dining sets from Robinson Avenue and Fifth Avenue condo towers</li>
+                            <li><strong>High-rise <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture</a>:</strong> Sofas, beds, dining sets from Robinson Avenue and Fifth Avenue condo towers</li>
                             <li><strong>Historic home items:</strong> Victorian furniture, antique fixtures, built-ins from First-Fourth Avenue homes</li>
                             <li><strong>Apartment turnovers:</strong> Complete cleanouts from Hillcrest's many multi-story apartment buildings</li>
                             <li><strong><a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Appliances</a>:</strong> Refrigerators, washers, dryers from condos and older homes</li>
@@ -450,7 +450,7 @@ export default function JunkRemovalHillcrestPage() {
             <div className="container mx-auto px-4">
               <h3 className="text-2xl font-bold text-center mb-8">Related Urban Core Services</h3>
               <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-                <a href="/furniture-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+                <a href="/furniture-disposal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
                   <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
                   <p className="text-gray-600">Apartment and condo furniture removal for urban core properties</p>
                 </a>

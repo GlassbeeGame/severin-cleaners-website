@@ -321,7 +321,7 @@ export default function JunkRemovalNorthParkPage() {
                         <div>
                           <h3 className="text-xl font-bold mb-3 text-green-600">Residential Items</h3>
                           <ul className="space-y-2 text-gray-700">
-                            <li><strong>Apartment <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture</a>:</strong> Sofas, beds, dining sets from University Avenue and 30th Street multi-story buildings</li>
+                            <li><strong>Apartment <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture</a>:</strong> Sofas, beds, dining sets from University Avenue and 30th Street multi-story buildings</li>
                             <li><strong>Craftsman home items:</strong> Built-in furniture, vintage fixtures, renovation debris from historic properties</li>
                             <li><strong><a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Appliances</a>:</strong> Refrigerators, washers, dryers, dishwashers from older homes and apartment complexes</li>
                             <li><strong>Exercise equipment:</strong> Treadmills, weight benches, home gym equipment from urban condos</li>
@@ -452,7 +452,7 @@ export default function JunkRemovalNorthParkPage() {
             <div className="container mx-auto px-4">
               <h3 className="text-2xl font-bold text-center mb-8">Related North Park Services</h3>
               <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-                <a href="/furniture-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+                <a href="/furniture-disposal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
                   <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
                   <p className="text-gray-600">Apartment and historic home furniture removal throughout North Park with eco-friendly donation options</p>
                 </a>

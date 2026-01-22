@@ -259,7 +259,7 @@ export default function JunkRemovalLakesidePage() {
                       <div>
                         <h4 className="font-bold mb-2">Furniture & Household Items</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Large family home <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture</a> and bedroom sets</li>
+                          <li>• Large family home <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture</a> and bedroom sets</li>
                           <li>• Outdoor patio furniture and weather-damaged pieces</li>
                           <li>• Garage storage units, workbenches, tool cabinets</li>
                           <li>• Estate cleanout contents from multi-generational homes</li>
@@ -376,7 +376,7 @@ export default function JunkRemovalLakesidePage() {
                 <h4 className="font-semibold text-lg mb-2 text-blue-600">Estate Cleanouts San Diego</h4>
                 <p className="text-gray-600">Multi-generational rural properties and inherited ranch estate transitions</p>
               </a>
-              <a href="/furniture-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+              <a href="/furniture-disposal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
                 <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
                 <p className="text-gray-600">Large family home and ranch property furniture disposal throughout East County</p>
               </a>

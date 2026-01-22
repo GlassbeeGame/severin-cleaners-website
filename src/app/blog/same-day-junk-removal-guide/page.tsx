@@ -377,7 +377,7 @@ export default function SameDayJunkRemovalGuide() {
 
                   <div className="grid md:grid-cols-2 gap-6 mb-8">
                     <div className="bg-white border border-gray-200 rounded-lg p-6">
-                      <h3 className="text-lg font-bold text-gray-900 mb-3">✓ <Link href="/furniture-removal-san-diego" className="text-blue-600 hover:text-blue-700">Furniture</Link></h3>
+                      <h3 className="text-lg font-bold text-gray-900 mb-3">✓ <Link href="/furniture-disposal-san-diego" className="text-blue-600 hover:text-blue-700">Furniture</Link></h3>
                       <ul className="text-sm text-gray-700 space-y-1">
                         <li>• Couches, sofas, sectionals</li>
                         <li>• Beds, mattresses, box springs</li>

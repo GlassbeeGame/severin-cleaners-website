@@ -119,7 +119,7 @@ export default function HoardingCleanupPage() {
   const relatedServices = [
     { name: "Estate Cleanout", slug: "estate-cleanout-san-diego" },
     { name: "Foreclosure & Eviction Cleanout", slug: "foreclosure-eviction-cleanout-san-diego" },
-    { name: "Furniture Removal", slug: "furniture-removal-san-diego" },
+    { name: "Furniture Removal", slug: "furniture-disposal-san-diego" },
     { name: "Appliance Removal", slug: "appliance-removal-san-diego" },
   ];
 

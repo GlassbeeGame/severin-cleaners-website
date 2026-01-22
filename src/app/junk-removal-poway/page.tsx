@@ -259,7 +259,7 @@ export default function JunkRemovalPowayPage() {
                       <div>
                         <h4 className="font-bold mb-2">Furniture & Household</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">Sofas, sectionals, couches</a> from family room upgrades</li>
+                          <li>• <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">Sofas, sectionals, couches</a> from family room upgrades</li>
                           <li>• <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">Mattresses</a>, bed frames, bedroom furniture sets</li>
                           <li>• Dining tables, chairs, china cabinets for downsizing</li>
                           <li>• Desks, office furniture, home workspace equipment</li>
@@ -377,7 +377,7 @@ export default function JunkRemovalPowayPage() {
                 <h4 className="font-semibold text-lg mb-2 text-blue-600">Construction Debris Removal</h4>
                 <p className="text-gray-600">Home additions, barn renovations, and property development cleanup</p>
               </a>
-              <a href="/furniture-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+              <a href="/furniture-disposal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
                 <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
                 <p className="text-gray-600">Large family home and ranch house furniture disposal services</p>
               </a>

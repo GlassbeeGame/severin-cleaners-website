@@ -869,7 +869,7 @@ export default function SanDiegoDumpFeesPage() {
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center mb-8 text-gray-900">Related Junk Removal Services</h2>
             <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-              <a href="/furniture-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+              <a href="/furniture-disposal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
                 <h3 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal</h3>
                 <p className="text-gray-600 text-sm">Professional furniture and couch removal with same-day service</p>
               </a>

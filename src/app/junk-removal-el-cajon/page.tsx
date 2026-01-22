@@ -252,7 +252,7 @@ export default function JunkRemovalElCajonPage() {
                       <div>
                         <h4 className="font-bold mb-2">Furniture & Household</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• Multi-generational <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture removal</a> from inherited homes</li>
+                          <li>• Multi-generational <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture removal</a> from inherited homes</li>
                           <li>• Large family <a href="/couch-removal-san-diego" className="text-blue-600 hover:underline">sofas, sectionals, and couches</a> from living rooms</li>
                           <li>• Bedroom sets, <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">mattresses</a>, and guest room furniture</li>
                           <li>• Dining sets and household items from estate transitions</li>
@@ -387,7 +387,7 @@ export default function JunkRemovalElCajonPage() {
           <div className="container mx-auto px-4">
             <h3 className="text-2xl font-bold text-center mb-8">Related East County Services</h3>
             <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              <a href="/furniture-removal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+              <a href="/furniture-disposal-san-diego" className="block p-6 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
                 <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
                 <p className="text-gray-600">Large family home furniture removal for Fletcher Hills and East County properties</p>
               </a>

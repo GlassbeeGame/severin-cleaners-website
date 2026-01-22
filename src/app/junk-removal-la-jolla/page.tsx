@@ -440,7 +440,7 @@ export default function JunkRemovalLaJollaPage() {
                         </h2>
 
                         <p className="text-lg text-gray-700 mb-6">
-                          Our La Jolla junk removal services include specialized offerings for luxury estates and high-end properties. From <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline font-semibold">estate cleanouts</a> to <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline font-semibold">designer furniture removal</a>, we handle every detail with white-glove care. Need <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline font-semibold">same-day service</a> for your luxury property? We're available throughout La Jolla's exclusive communities.
+                          Our La Jolla junk removal services include specialized offerings for luxury estates and high-end properties. From <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline font-semibold">estate cleanouts</a> to <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline font-semibold">designer furniture removal</a>, we handle every detail with white-glove care. Need <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline font-semibold">same-day service</a> for your luxury property? We're available throughout La Jolla's exclusive communities.
                         </p>
 
                         <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -448,7 +448,7 @@ export default function JunkRemovalLaJollaPage() {
                             <h3 className="text-xl font-bold mb-4 text-blue-600">Luxury Estate Services</h3>
                             <ul className="space-y-2 text-gray-700">
                               <li><a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline"><strong>Luxury Estate Cleanouts</strong></a> — Trust properties, inheritances, and estate transitions</li>
-                              <li><a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline"><strong>High-End Furniture Removal</strong></a> — Antiques, designer pieces, fine art coordination</li>
+                              <li><a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline"><strong>High-End Furniture Removal</strong></a> — Antiques, designer pieces, fine art coordination</li>
                               <li><a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline"><strong>Hot Tub & Spa Removal</strong></a> — Backyard luxury amenity disposal and demolition</li>
                               <li><a href="/piano-removal-san-diego" className="text-blue-600 hover:underline"><strong>Piano Removal</strong></a> — Grand pianos, baby grands, specialty instruments</li>
                               <li><strong>Property Sale Preparation</strong> — Decluttering and staging for $5M+ listings</li>
@@ -585,7 +585,7 @@ export default function JunkRemovalLaJollaPage() {
                   <h4 className="font-semibold text-lg mb-2 text-blue-600">Estate Cleanouts San Diego</h4>
                   <p className="text-gray-600">Luxury estate cleanouts for inherited properties and high-value family transitions</p>
                 </a>
-                <a href="/furniture-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+                <a href="/furniture-disposal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
                   <h4 className="font-semibold text-lg mb-2 text-blue-600">Luxury Furniture Removal</h4>
                   <p className="text-gray-600">Expert handling of designer furniture, antiques, and museum-quality pieces</p>
                 </a>

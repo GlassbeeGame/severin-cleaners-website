@@ -143,7 +143,7 @@ export default function AreasWeServePage() {
                 Complete San Diego County Coverage
               </h2>
               <p className="text-xl text-gray-600">
-                No matter where you are in San Diego County, we're ready to help with professional junk removal services including <a href="/furniture-removal-san-diego" className="text-blue-600 hover:underline">furniture hauling</a> and <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">mattress disposal</a>. Our local team knows every neighborhood and can navigate any location with <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a>.
+                No matter where you are in San Diego County, we're ready to help with professional junk removal services including <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture hauling</a> and <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">mattress disposal</a>. Our local team knows every neighborhood and can navigate any location with <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a>.
               </p>
             </div>
 

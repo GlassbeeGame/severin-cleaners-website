@@ -152,7 +152,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/furniture-removal-san-diego" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
+                <Link href="/furniture-disposal-san-diego" className="text-white/80 hover:text-blue-400 transition-colors duration-200">
                   Furniture Removal
                 </Link>
               </li>
