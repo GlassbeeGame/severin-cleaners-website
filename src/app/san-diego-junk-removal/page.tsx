@@ -4,6 +4,9 @@ import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
 import { generateFAQSchema } from "@/lib/schema";
 import SchemaMarkup from "@/components/SchemaMarkup";
+import TrustSignalsSection from "@/components/TrustSignalsSection";
+import LocationPricingSection from "@/components/LocationPricingSection";
+import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import { generateServiceSchema, combineSchemas, generateAggregateRatingSchema } from "@/lib/schema";
 import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
@@ -222,6 +225,13 @@ export default function SanDiegoJunkRemovalPage() {
     "@graph": [serviceSchema, localBusinessSchema, faqSchema]
   };
 
+  const nearbyLocations = [
+    { name: "La Jolla", slug: "junk-removal-la-jolla" },
+    { name: "Pacific Beach", slug: "junk-removal-pacific-beach" },
+    { name: "Chula Vista", slug: "junk-removal-chula-vista" },
+    { name: "El Cajon", slug: "junk-removal-el-cajon" },
+  ];
+
   return (
     <>
       <SchemaMarkup schema={combinedSchema} />
@@ -234,10 +244,15 @@ export default function SanDiegoJunkRemovalPage() {
         />
 
       {/* Main Content */}
-      <section className="py-16">
+      <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="prose prose-lg max-w-none">
+          <div className="max-w-7xl mx-auto">
+            <div className="grid lg:grid-cols-3 gap-8">
+
+              {/* Main Content - Left Column */}
+              <div className="lg:col-span-2">
+                <div className="bg-white rounded-lg shadow-md p-8">
+                  <div className="prose prose-lg max-w-none">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Complete Junk Removal San Diego Services</h2>
 
               <p className="text-lg text-gray-700 mb-6">
@@ -261,35 +276,24 @@ export default function SanDiegoJunkRemovalPage() {
                 The difference between good service and great service comes down to details. We focus on what matters most to San Diego residents and businesses: speed, transparency, and professionalism. Here's what sets our <strong>San Diego junk removal</strong> service apart from national chains and other local haulers.
               </p>
 
-              <div className="grid md:grid-cols-2 gap-8 mb-8">
-                <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-500">
-                  <h4 className="text-xl font-bold mb-3 text-blue-600">Same-Day Service Throughout San Diego County</h4>
-                  <p className="text-gray-700 mb-3">
-                    We understand that timing matters. Whether you're facing an HOA deadline, preparing for a quick property sale, or simply need your space back today, our same-day service responds to your urgency. Call before 2 PM and we'll typically arrive the same day across all San Diego County neighborhoods. From coastal <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a> to inland <a href="/junk-removal-poway" className="text-blue-600 hover:underline">Poway</a>, we're positioned to reach you quickly.
-                  </p>
-                </div>
-
-                <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-green-500">
-                  <h4 className="text-xl font-bold mb-3 text-green-600">Transparent Pricing, No Hidden Fees</h4>
-                  <p className="text-gray-700 mb-3">
-                    Our pricing is straightforward: $100 to $495 based on volume, not time. The quote we give you is the price you pay. No hourly rates that balloon if traffic is bad. No fuel surcharges. No surprise fees for stairs or parking. We assess your items, provide an honest quote, and stick to it. This transparency has made us the trusted choice for <strong>San Diego junk hauling</strong> that residents recommend to friends and family.
-                  </p>
-                </div>
-
-                <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-purple-500">
-                  <h4 className="text-xl font-bold mb-3 text-purple-600">Licensed, Insured & Locally Owned</h4>
-                  <p className="text-gray-700 mb-3">
-                    We're fully licensed and insured to operate throughout San Diego County, with comprehensive liability coverage protecting your property during every job. Unlike national franchises that route calls to different contractors, we're a local family business invested in our reputation. When you call Severin Cleaners, you're working with San Diego neighbors who take pride in serving our community properly.
-                  </p>
-                </div>
-
-                <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-orange-500">
-                  <h4 className="text-xl font-bold mb-3 text-orange-600">Eco-Friendly Disposal & Recycling</h4>
-                  <p className="text-gray-700 mb-3">
-                    Everything doesn't belong in the landfill. We prioritize donation and recycling whenever possible, partnering with local San Diego charities, recycling facilities, and responsible disposal sites. Usable furniture goes to families in need. Metals get recycled. Electronics are properly processed. Only true waste reaches the landfill. This commitment to environmental responsibility reflects San Diego's values and protects our coastal community.
-                  </p>
-                </div>
-              </div>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start">
+                  <span className="text-green-500 text-xl mr-3">✓</span>
+                  <span><strong>Same-Day Service Throughout San Diego County:</strong> We understand that timing matters. Whether you're facing an HOA deadline, preparing for a quick property sale, or simply need your space back today, our same-day service responds to your urgency. Call before 2 PM and we'll typically arrive the same day across all San Diego County neighborhoods. From coastal <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a> to inland <a href="/junk-removal-poway" className="text-blue-600 hover:underline">Poway</a>, we're positioned to reach you quickly.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-500 text-xl mr-3">✓</span>
+                  <span><strong>Transparent Pricing, No Hidden Fees:</strong> Our pricing is straightforward: $100 to $495 based on volume, not time. The quote we give you is the price you pay. No hourly rates that balloon if traffic is bad. No fuel surcharges. No surprise fees for stairs or parking. We assess your items, provide an honest quote, and stick to it. This transparency has made us the trusted choice for <strong>San Diego junk hauling</strong> that residents recommend to friends and family.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-500 text-xl mr-3">✓</span>
+                  <span><strong>Licensed, Insured & Locally Owned:</strong> We're fully licensed and insured to operate throughout San Diego County, with comprehensive liability coverage protecting your property during every job. Unlike national franchises that route calls to different contractors, we're a local family business invested in our reputation. When you call Severin Cleaners, you're working with San Diego neighbors who take pride in serving our community properly.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-500 text-xl mr-3">✓</span>
+                  <span><strong>Eco-Friendly Disposal & Recycling:</strong> Everything doesn't belong in the landfill. We prioritize donation and recycling whenever possible, partnering with local San Diego charities, recycling facilities, and responsible disposal sites. Usable furniture goes to families in need. Metals get recycled. Electronics are properly processed. Only true waste reaches the landfill. This commitment to environmental responsibility reflects San Diego's values and protects our coastal community.</span>
+                </li>
+              </ul>
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Complete Range of Junk Removal Services</h3>
 
@@ -382,86 +386,6 @@ export default function SanDiegoJunkRemovalPage() {
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">What Are Junk Removal San Diego Prices?</h3>
-
-              <p className="text-lg text-gray-700 mb-4">
-                Understanding <strong>junk removal San Diego prices</strong> helps you budget accurately and compare services fairly. Our pricing is volume-based and all-inclusive—the quote we provide includes labor, transportation, disposal fees, and recycling. No hourly rates, no fuel charges, no surprise add-ons. Every customer receives upfront, honest pricing before we start work.
-              </p>
-
-              <p className="text-lg text-gray-700 mb-6">
-                Several factors influence final <strong>junk removal cost San Diego</strong> residents pay. Volume matters most—the more space your items take in our trailer, the higher the cost. Item weight plays a role since concrete and dense materials cost more to dispose of than lightweight furniture. Property access affects pricing too; multiple flights of stairs, long carries, or difficult parking add to labor intensity. Despite these variables, we always provide an upfront quote before starting. The price we quote is the price you pay. For comprehensive pricing details, visit our <a href="/junk-removal-cost-san-diego" className="text-blue-600 hover:underline font-semibold">San Diego pricing page</a>.
-              </p>
-
-              {/* Pricing Table */}
-              <div className="overflow-x-auto mb-8">
-                <table className="w-full bg-white shadow-lg rounded-lg overflow-hidden">
-                  <thead className="bg-blue-600 text-white">
-                    <tr>
-                      <th className="px-6 py-4 text-left font-semibold">Service Level</th>
-                      <th className="px-6 py-4 text-left font-semibold">Volume</th>
-                      <th className="px-6 py-4 text-left font-semibold">Price</th>
-                      <th className="px-6 py-4 text-left font-semibold">Best For</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-gray-200">
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-medium">Single Item</td>
-                      <td className="px-6 py-4">1 item</td>
-                      <td className="px-6 py-4 font-bold text-blue-600">$100</td>
-                      <td className="px-6 py-4">Quick pickups</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-medium">1/4 Trailer</td>
-                      <td className="px-6 py-4">5-10 items</td>
-                      <td className="px-6 py-4 font-bold text-blue-600">$249</td>
-                      <td className="px-6 py-4">Small cleanouts</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-medium">3/8 Trailer</td>
-                      <td className="px-6 py-4">Quarter room</td>
-                      <td className="px-6 py-4 font-bold text-blue-600">$319</td>
-                      <td className="px-6 py-4">Garage corners</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-medium">1/2 Trailer</td>
-                      <td className="px-6 py-4">Half trailer</td>
-                      <td className="px-6 py-4 font-bold text-blue-600">$349</td>
-                      <td className="px-6 py-4">Room cleanouts</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-medium">5/8 Trailer</td>
-                      <td className="px-6 py-4">Over half</td>
-                      <td className="px-6 py-4 font-bold text-blue-600">$366</td>
-                      <td className="px-6 py-4">Large rooms</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-medium">3/4 Trailer</td>
-                      <td className="px-6 py-4">Most of trailer</td>
-                      <td className="px-6 py-4 font-bold text-blue-600">$429</td>
-                      <td className="px-6 py-4">Multiple rooms</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-medium">7/8 Trailer</td>
-                      <td className="px-6 py-4">Nearly full</td>
-                      <td className="px-6 py-4 font-bold text-blue-600">$462</td>
-                      <td className="px-6 py-4">Small house</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50 bg-blue-50">
-                      <td className="px-6 py-4 font-medium">Full Load</td>
-                      <td className="px-6 py-4">Full trailer</td>
-                      <td className="px-6 py-4 font-bold text-blue-600">$495</td>
-                      <td className="px-6 py-4">Whole house</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-
-              <div className="bg-orange-50 border-l-4 border-orange-500 p-6 mb-8">
-                <p className="text-gray-800 font-semibold mb-2">⏰ Same-Day Service Available</p>
-                <p className="text-gray-700">
-                  Call before 2 PM for same-day <strong>junk removal San Diego</strong> service throughout the county. Same-day slots fill quickly during peak seasons—contact us early at <a href="tel:6197500114" className="text-blue-600 font-bold hover:underline">(619) 750-0114</a> to secure your preferred appointment time.
-                </p>
-              </div>
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Why Not Just Haul It to the Dump Yourself?</h3>
 
@@ -809,7 +733,28 @@ export default function SanDiegoJunkRemovalPage() {
             </div>
           </div>
         </div>
-      </section>
+
+        {/* Sidebar - Right Column */}
+        <div className="lg:col-span-1">
+          <LocationSidebarCTA
+            locationName="San Diego"
+            nearbyLocations={nearbyLocations}
+          />
+        </div>
+
+      </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Pricing Section */}
+        <LocationPricingSection
+          locationName="San Diego"
+          contextParagraph="Junk removal throughout San Diego County—from downtown high-rises to coastal communities to East County neighborhoods—all use the same transparent pricing. No hidden fees, same-day service available."
+        />
+
+        {/* Trust Signals Section */}
+        <TrustSignalsSection locationName="San Diego" />
 
       {/* Related Services Section */}
       <section className="py-12 bg-white">

@@ -11,8 +11,8 @@ import LocationPricingSection from "@/components/LocationPricingSection";
 import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
-  title: 'Commercial Junk Removal San Diego | Office & Retail',
-  description: 'Professional commercial junk removal San Diego for offices, retail stores, warehouses. Business cleanouts with disposal documentation, after-hours service. Call (619) 750-0114.',
+  title: 'Commercial Junk Removal San Diego | Office, Retail & Warehouse | (619) 750-0114',
+  description: 'Professional commercial junk removal San Diego. Office cleanouts, warehouse disposal, concrete disposal San Diego, retail renovations. Same-day service, licensed & insured. NET-30 terms available.',
   keywords: [
     'commercial junk removal san diego',
     'business junk removal san diego',
@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     'retail cleanout san diego',
     'warehouse junk removal san diego',
     'commercial debris removal san diego',
+    'concrete disposal san diego',
     'business cleanout services',
     'office junk hauling san diego'
   ],
@@ -59,9 +60,9 @@ export const metadata: Metadata = {
   },
   other: {
     'geo.region': 'US-CA',
-    'geo.placename': 'La Mesa',
-    'geo.position': '32.7678;-117.0231',
-    'ICBM': '32.7678, -117.0231',
+    'geo.placename': 'San Diego',
+    'geo.position': '32.7157;-117.1611',
+    'ICBM': '32.7157, -117.1611',
   },
 };
 
@@ -85,17 +86,108 @@ const commercialFAQs = [
   {
     question: "What industries do you serve in San Diego?",
     answer: "We serve all industries including healthcare and medical offices, legal and professional services, technology and startups, manufacturing and warehouses, hospitality and tourism, retail and shopping centers. Our <strong>commercial debris removal San Diego</strong> team has specialized experience with industry-specific requirements and regulations."
+  },
+  {
+    question: "Do you handle concrete disposal and heavy construction materials?",
+    answer: "Yes, our <strong>concrete disposal San Diego</strong> service handles heavy materials including broken concrete, asphalt, brick, tile, and other masonry debris from commercial renovations, warehouse floor demolitions, and facility upgrades. We provide proper disposal of construction materials with full documentation and compliance with San Diego County regulations. This service is ideal for businesses undergoing parking lot repairs, loading dock renovations, or structural improvements."
+  },
+  {
+    question: "What's the difference between commercial and residential junk removal pricing?",
+    answer: "Our <strong>commercial junk removal San Diego</strong> pricing includes volume discounts for businesses, NET-30 payment terms for qualified commercial accounts, and flexible recurring service contracts for ongoing needs. Commercial projects often involve larger volumes, specialized disposal requirements (HIPAA compliance, data destruction, hazardous materials), and after-hours scheduling to minimize business disruption. We provide detailed invoicing with project breakdowns, disposal documentation for compliance, and dedicated account management for commercial clients. Volume-based pricing starts at $100 for single items up to $495 for full loads, with additional discounts available for recurring monthly or quarterly service contracts."
+  },
+  {
+    question: "How do you handle confidential documents and sensitive materials?",
+    answer: "We take confidential material handling seriously for our <strong>business junk removal San Diego</strong> clients. All confidential documents receive secure handling with chain of custody documentation, HIPAA-compliant shredding through certified destruction partners, and certificates of destruction provided for your compliance records. For IT equipment containing sensitive data, we provide data destruction certification and EPA-certified e-waste recycling. Our crews sign confidentiality agreements when handling sensitive materials, and we can coordinate secure handling protocols with your facilities team. This makes us the trusted choice for legal firms, medical offices, financial institutions, and businesses with compliance requirements throughout San Diego County."
+  },
+  {
+    question: "Can you coordinate with our property manager or facilities team?",
+    answer: "Absolutely. Our <strong>office cleanout San Diego</strong> service includes full coordination with property managers, facilities teams, general contractors, and building management. We provide detailed project timelines, coordinate access and scheduling around building operations, communicate directly with your designated contacts, and adapt to your specific requirements including after-hours access, freight elevator reservations, and loading dock scheduling. For multi-location businesses, we assign dedicated account management to ensure consistency across all San Diego properties. We carry comprehensive liability insurance and provide certificates of insurance to property management as needed for building access and compliance."
+  },
+  {
+    question: "Do you offer emergency commercial junk removal for urgent situations?",
+    answer: "Yes, our <strong>commercial junk removal San Diego</strong> team provides emergency response for urgent business situations including same-day emergency service for critical operational needs, after-hours emergency response for flood, fire, or disaster cleanup, rapid deployment for health code violations or unexpected inspections, and urgent tenant turnover for immediate re-occupancy needs. Call <a href='tel:6197500114' className='text-blue-600 hover:underline font-semibold'>(619) 750-0114</a> for emergency service throughout San Diego County. We understand that business interruptions cost money, so we prioritize emergency commercial calls and can typically respond within 2-4 hours for urgent situations. Our <a href='/emergency-junk-removal-san-diego' className='text-blue-600 hover:underline'>emergency junk removal service</a> operates 7 days a week with extended hours to support San Diego businesses."
   }
 ];
 
 export default function CommercialjunkremovalsandiegoPage() {
   const serviceSchema = generateServiceSchema({
     name: "Commercial Junk Removal San Diego",
-    description: "Professional commercial junk removal for offices, retail stores, warehouses. Business cleanouts with disposal documentation and after-hours service.",
+    description: "Professional commercial junk removal San Diego for offices, retail stores, warehouses. Business cleanouts with disposal documentation, concrete disposal San Diego, after-hours service, and commercial accounts.",
     url: "https://severincleaners.com/commercial-junk-removal-san-diego",
     serviceType: "Commercial Junk Removal Service",
     areaServed: "San Diego County, CA",
   });
+
+  // Enhanced LocalBusiness schema for commercial services
+  const localBusinessSchema = {
+    "@type": "LocalBusiness",
+    "@id": "https://severincleaners.com/commercial-junk-removal-san-diego#business",
+    "name": "Severin Cleaners - Commercial Junk Removal San Diego",
+    "image": "https://severincleaners.com/og-image.jpg",
+    "telephone": "+1-619-750-0114",
+    "priceRange": "$100-$495",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Diego",
+      "addressRegion": "CA",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.7157,
+      "longitude": -117.1611
+    },
+    "url": "https://severincleaners.com/commercial-junk-removal-san-diego",
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "San Diego",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "California"
+        }
+      }
+    ],
+    "openingHours": "Mo-Su 06:00-20:00",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Commercial Junk Removal Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Office Cleanout San Diego",
+            "description": "Professional office junk removal and cleanout services"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Warehouse Junk Removal San Diego",
+            "description": "Large-scale warehouse and industrial cleanout services"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Concrete Disposal San Diego",
+            "description": "Commercial concrete and heavy material disposal services"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Retail Cleanout San Diego",
+            "description": "Store closure and retail renovation junk removal"
+          }
+        }
+      ]
+    }
+  };
 
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://severincleaners.com" },
@@ -107,7 +199,7 @@ export default function CommercialjunkremovalsandiegoPage() {
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema, faqSchema]
+    "@graph": [serviceSchema, localBusinessSchema, breadcrumbSchema, faqSchema]
   };
 
   const relatedServices = [
@@ -146,7 +238,7 @@ export default function CommercialjunkremovalsandiegoPage() {
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
-                From downtown high-rises to industrial complexes, our <strong>commercial debris removal San Diego</strong> service handles everything with minimal disruption to your operations. We provide <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">commercial junk removal in Kearny Mesa</a> business districts, <a href="/junk-removal-mira-mesa" className="text-blue-600 hover:underline">Mira Mesa</a> industrial parks, and throughout the region. We specialize in <strong>office cleanout San Diego</strong>, <strong>retail cleanout San Diego</strong>, and <strong>warehouse junk removal San Diego</strong> projects of all sizes. We also provide <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">commercial construction cleanup</a>, <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">office furniture removal</a>, <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">commercial equipment disposal</a>, and <a href="/emergency-junk-removal-san-diego" className="text-blue-600 hover:underline">emergency commercial cleanup</a>.
+                From downtown high-rises to industrial complexes, our <strong>commercial debris removal San Diego</strong> service handles everything with minimal disruption to your operations. We provide <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">commercial junk removal in Kearny Mesa</a> business districts, <a href="/junk-removal-mira-mesa" className="text-blue-600 hover:underline">Mira Mesa</a> industrial parks, and throughout the region. We specialize in <strong>office cleanout San Diego</strong>, <strong>retail cleanout San Diego</strong>, and <strong>warehouse junk removal San Diego</strong> projects of all sizes. We also provide <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">commercial construction cleanup</a>, <strong>concrete disposal San Diego</strong> for renovation projects, <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">office furniture removal</a>, <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">commercial equipment disposal</a>, and <a href="/emergency-junk-removal-san-diego" className="text-blue-600 hover:underline">emergency commercial cleanup</a>.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Comprehensive Business Junk Removal Services</h3>
@@ -155,18 +247,18 @@ export default function CommercialjunkremovalsandiegoPage() {
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
-                Whether you need urgent <strong>retail junk removal</strong> in <a href="/junk-removal-north-park" className="text-blue-600 hover:underline">North Park</a> retail corridors or comprehensive <strong>warehouse cleanouts San Diego</strong> for <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a> industrial facilities, our team provides professional service with liability insurance, disposal documentation, and confidential handling of sensitive materials. We serve businesses throughout <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>, and <a href="/junk-removal-escondido" className="text-blue-600 hover:underline">Escondido</a>.
+                Whether you need urgent <strong>retail junk removal</strong> in <a href="/junk-removal-north-park" className="text-blue-600 hover:underline">North Park</a> retail corridors or comprehensive <strong>warehouse cleanouts San Diego</strong> for <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a> industrial facilities, our team provides professional service with liability insurance, disposal documentation, and confidential handling of sensitive materials. We serve businesses throughout <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>, <a href="/junk-removal-escondido" className="text-blue-600 hover:underline">Escondido</a>, <a href="/junk-removal-poway" className="text-blue-600 hover:underline">Poway</a>, <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a>, <a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee</a>, and <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a>.
               </p>
 
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <div>
                   <h4 className="text-xl font-bold mb-3 text-blue-600">Office Cleanout Services in San Diego</h4>
                   <ul className="list-disc pl-6 space-y-1 text-gray-700">
-                    <li>Complete office furniture removal and workstation dismantling</li>
+                    <li>Complete <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">office furniture removal</a> and workstation dismantling</li>
                     <li>Electronic equipment disposal with data destruction certification</li>
                     <li>Confidential document shredding and secure material handling</li>
                     <li>Conference room and reception area clearing</li>
-                    <li>Break room appliance and furniture removal</li>
+                    <li>Break room <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliance removal</a> and furniture disposal</li>
                     <li>IT equipment recycling with compliance documentation</li>
                   </ul>
                 </div>
@@ -190,6 +282,7 @@ export default function CommercialjunkremovalsandiegoPage() {
                     <li>Large-scale warehouse and distribution center cleanouts</li>
                     <li>Manufacturing equipment removal and scrap metal recycling</li>
                     <li>Industrial debris and machinery disposal</li>
+                    <li><a href="/concrete-disposal-san-diego" className="text-blue-600 hover:underline"><strong>Concrete disposal San Diego</strong></a> for warehouse floors, loading docks, and facility renovations</li>
                     <li>Loading dock and storage area clearing</li>
                     <li>Hazardous material handling with certified disposal</li>
                     <li>Emergency cleanout services for operational continuity</li>
@@ -294,7 +387,7 @@ export default function CommercialjunkremovalsandiegoPage() {
                     <li><strong>Downtown San Diego:</strong> High-rise offices, financial district, Gaslamp Quarter businesses</li>
                     <li><strong>Mission Valley:</strong> Corporate headquarters, shopping centers, medical complexes</li>
                     <li><strong>UTC/<a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>:</strong> Tech companies, biotech firms, university research facilities, medical and dental office cleanouts</li>
-                    <li><strong><a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">Kearny Mesa</a>:</strong> Manufacturing, warehouses, automotive businesses, industrial junk removal</li>
+                    <li><strong><a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">Kearny Mesa</a>:</strong> Manufacturing, warehouses, automotive businesses, industrial junk removal including <a href="/scrap-metal-removal" className="text-blue-600 hover:underline">scrap metal recycling</a></li>
                   </ul>
                 </div>
                 <div>
@@ -325,11 +418,11 @@ export default function CommercialjunkremovalsandiegoPage() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Why San Diego Businesses Trust Severin Cleaners</h3>
               <p className="mb-4">
-                As a locally-owned business serving San Diego's commercial community, we understand the importance of treating your business property and operations with professionalism and care. Our <strong>commercial junk removal San Diego</strong> service combines local market knowledge with professional standards to deliver reliable business solutions.
+                As a locally-owned business serving San Diego's commercial community, we understand the importance of treating your business property and operations with professionalism and care. Our <strong>commercial junk removal San Diego</strong> service combines local market knowledge with professional standards to deliver reliable business solutions. Learn more about our <a href="/blog/how-much-does-junk-removal-cost-san-diego" className="text-blue-600 hover:underline">transparent pricing structure</a> and why businesses choose us over <a href="/blog/dumpster-rental-san-diego-alternatives" className="text-blue-600 hover:underline">dumpster rental alternatives</a>.
               </p>
 
               <p className="mb-6">
-                We specialize in working around your business schedule, providing <strong>office cleanout San Diego</strong> services during off-hours to minimize operational disruption. Our team coordinates with property managers, contractors, and facilities teams to ensure seamless project execution.
+                We specialize in working around your business schedule, providing <strong>office cleanout San Diego</strong> services during off-hours to minimize operational disruption. Our team coordinates with property managers, contractors, and facilities teams to ensure seamless project execution. Understanding <a href="/blog/san-diego-dump-fees-guide" className="text-blue-600 hover:underline">San Diego dump fees</a> helps explain why our all-inclusive pricing saves businesses money compared to DIY disposal.
               </p>
 
                   </div>
@@ -372,10 +465,14 @@ export default function CommercialjunkremovalsandiegoPage() {
       <section className="py-12 bg-white">
         <div className="container mx-auto px-4">
           <h3 className="text-2xl font-bold text-center mb-8">Related Business Services</h3>
-          <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-4 gap-6 max-w-6xl mx-auto">
             <a href="/construction-debris-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
-              <h4 className="font-semibold text-lg mb-2 text-blue-600">Construction Debris Removal San Diego</h4>
+              <h4 className="font-semibold text-lg mb-2 text-blue-600">Construction Debris Removal</h4>
               <p className="text-gray-600">Professional debris removal for renovations and tenant improvements</p>
+            </a>
+            <a href="/concrete-disposal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+              <h4 className="font-semibold text-lg mb-2 text-blue-600">Concrete Disposal San Diego</h4>
+              <p className="text-gray-600">Heavy material disposal for contractors and commercial facilities</p>
             </a>
             <a href="/appliance-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
               <h4 className="font-semibold text-lg mb-2 text-blue-600">Commercial Appliance Removal</h4>

@@ -101,7 +101,14 @@ export default function ServicesPage() {
       link: "/construction-debris-removal-san-diego",
       description: "Efficient removal of construction waste, renovation debris, and demolition materials.",
       icon: "🚧",
-      features: ["Renovation Debris", "Demolition Waste", "Drywall & Lumber", "Concrete Removal"]
+      features: ["Renovation Debris", "Demolition Waste", "Drywall & Lumber", "Mixed Materials"]
+    },
+    {
+      title: "Concrete Disposal San Diego",
+      link: "/concrete-disposal-san-diego",
+      description: "Professional concrete, asphalt, and heavy material disposal for contractors and businesses.",
+      icon: "🏗️",
+      features: ["Broken Concrete", "Asphalt & Pavement", "Commercial Accounts", "Same-Day Service"]
     },
     {
       title: "Hoarding Cleanup",
@@ -272,7 +279,7 @@ export default function ServicesPage() {
                       href={service.link}
                       className="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-semibold transition-colors mt-auto"
                     >
-                      View
+                      View Details
                     </a>
                   </div>
                 </div>

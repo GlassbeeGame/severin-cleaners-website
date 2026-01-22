@@ -61,6 +61,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    title: "Dumpster Rental San Diego: Why Junk Removal Is the Better Alternative",
+    slug: "dumpster-rental-san-diego-alternatives",
+    excerpt: "Considering dumpster rental? Discover why professional junk removal costs less ($100-$495 vs $500-$950+), saves you 8-12 hours of labor, and requires zero work from you. Compare costs for El Cajon, Escondido, La Mesa.",
+    category: "Cost Comparison",
+    date: "2025-01-22",
+    readTime: "10 min read",
+    featured: true,
+  },
+  {
     title: "How Much Does Junk Removal Cost in San Diego? (2025 Complete Guide)",
     slug: "how-much-does-junk-removal-cost-san-diego",
     excerpt: "Discover transparent pricing for junk removal services in San Diego. From single items ($100) to full loads ($495), learn what affects costs and how to save money.",
@@ -76,7 +85,7 @@ const blogPosts = [
     category: "Local Resources",
     date: "2025-01-15",
     readTime: "7 min read",
-    featured: true,
+    featured: false,
   },
   {
     title: "Same Day Junk Removal: Everything You Need to Know",
