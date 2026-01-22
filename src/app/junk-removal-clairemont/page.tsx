@@ -87,13 +87,6 @@ const clairemontFAQs = [
 ];
 
 export default function JunkremovalclairemontPage() {
-  const serviceSchema = generateLocationServiceSchema({
-    locationName: "Clairemont",
-    serviceName: "Junk Removal",
-    description: "Professional Clairemont junk removal for family homes, garage cleanouts, Clairemont Village, Balboa Ave corridor. Residential specialists with eco-friendly service. Call (619) 750-0114.",
-    url: "https://severincleaners.com/junk-removal-clairemont",
-  });
-
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://severincleaners.com" },
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
@@ -101,6 +94,17 @@ export default function JunkremovalclairemontPage() {
   ]);
 
   const faqSchema = generateFAQSchema(clairemontFAQs);
+
+  const serviceSchema = {
+    "@type": "Service",
+    "name": "Junk Removal in Clairemont",
+    "description": "Professional Clairemont junk removal for family homes, garage cleanouts, Clairemont Village, Balboa Ave corridor. Residential specialists with eco-friendly service. Call (619) 750-0114.",
+    "url": "https://severincleaners.com/junk-removal-clairemont",
+    "serviceType": "Junk Removal",
+    "provider": {
+      "@id": "https://severincleaners.com/junk-removal-clairemont#business"
+    }
+  };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
@@ -123,6 +127,12 @@ export default function JunkremovalclairemontPage() {
       "longitude": -117.0231
     },
     "url": "https://severincleaners.com/junk-removal-clairemont",
+    "sameAs": [
+      "https://www.facebook.com/severinhauling",
+      "https://www.instagram.com/severinhauling/",
+      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
+    ],
     "areaServed": [
       {
         "@type": "City",
@@ -151,7 +161,7 @@ export default function JunkremovalclairemontPage() {
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, localBusinessSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   return (

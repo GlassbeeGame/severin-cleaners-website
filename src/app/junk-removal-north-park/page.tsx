@@ -63,19 +63,6 @@ export const metadata: Metadata = {
   },
 };
 
-const serviceSchema = generateLocationServiceSchema({
-  locationName: "North Park",
-  serviceName: "Junk Removal",
-  description: "Professional North Park junk removal for University Avenue, 30th Street, apartments & historic homes. Same-day service, transparent pricing. Licensed & insured.",
-  url: "https://severincleaners.com/junk-removal-north-park",
-});
-
-const breadcrumbSchema = generateBreadcrumbSchema([
-  { name: "Home", url: "https://severincleaners.com" },
-  { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-  { name: "North Park Junk Removal", url: "https://severincleaners.com/junk-removal-north-park" },
-]);
-
 const northParkFAQs = [
   {
     question: "How much does junk removal cost in North Park?",
@@ -100,7 +87,24 @@ const northParkFAQs = [
 ];
 
 export default function JunkRemovalNorthParkPage() {
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
+    { name: "North Park Junk Removal", url: "https://severincleaners.com/junk-removal-north-park" },
+  ]);
+
   const faqSchema = generateFAQSchema(northParkFAQs);
+
+  const serviceSchema = {
+    "@type": "Service",
+    "name": "Junk Removal in North Park",
+    "description": "Professional North Park junk removal for University Avenue, 30th Street, apartments & historic homes. Same-day service, transparent pricing. Licensed & insured.",
+    "url": "https://severincleaners.com/junk-removal-north-park",
+    "serviceType": "Junk Removal",
+    "provider": {
+      "@id": "https://severincleaners.com/junk-removal-north-park#business"
+    }
+  };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
@@ -146,12 +150,18 @@ export default function JunkRemovalNorthParkPage() {
       "reviewCount": "27",
       "bestRating": "5",
       "worstRating": "1"
-    }
+    },
+    "sameAs": [
+      "https://www.facebook.com/severinhauling",
+      "https://www.instagram.com/severinhauling/",
+      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
+    ]
   };
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, localBusinessSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const nearbyLocations = [

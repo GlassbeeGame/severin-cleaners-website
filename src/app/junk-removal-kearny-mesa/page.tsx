@@ -87,13 +87,6 @@ const kearnyMesaFAQs = [
 ];
 
 export default function JunkRemovalKearnyMesaPage() {
-  const serviceSchema = generateLocationServiceSchema({
-    locationName: "Kearny Mesa",
-    serviceName: "Junk Removal",
-    description: "Professional Kearny Mesa junk removal for offices, warehouses, industrial parks. Commercial junk hauling experts serving Convoy District, auto businesses.",
-    url: "https://severincleaners.com/junk-removal-kearny-mesa",
-  });
-
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://severincleaners.com" },
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
@@ -101,6 +94,17 @@ export default function JunkRemovalKearnyMesaPage() {
   ]);
 
   const faqSchema = generateFAQSchema(kearnyMesaFAQs);
+
+  const serviceSchema = {
+    "@type": "Service",
+    "name": "Junk Removal in Kearny Mesa",
+    "description": "Professional Kearny Mesa junk removal for offices, warehouses, industrial parks. Commercial junk hauling experts serving Convoy District, auto businesses.",
+    "url": "https://severincleaners.com/junk-removal-kearny-mesa",
+    "serviceType": "Junk Removal",
+    "provider": {
+      "@id": "https://severincleaners.com/junk-removal-kearny-mesa#business"
+    }
+  };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
@@ -146,12 +150,18 @@ export default function JunkRemovalKearnyMesaPage() {
       "reviewCount": "27",
       "bestRating": "5",
       "worstRating": "1"
-    }
+    },
+    "sameAs": [
+      "https://www.facebook.com/severinhauling",
+      "https://www.instagram.com/severinhauling/",
+      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
+    ]
   };
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, localBusinessSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   return (

@@ -90,13 +90,6 @@ const ranchoSantaFeFAQs = [
 ];
 
 export default function JunkRemovalRanchoSantaFePage() {
-  const serviceSchema = generateLocationServiceSchema({
-    locationName: "Rancho Santa Fe",
-    serviceName: "Junk Removal",
-    description: "Professional Rancho Santa Fe junk removal for luxury estates. Discreet service, white-glove handling. Licensed & insured.",
-    url: "https://severincleaners.com/junk-removal-rancho-santa-fe",
-  });
-
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://severincleaners.com" },
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
@@ -104,6 +97,17 @@ export default function JunkRemovalRanchoSantaFePage() {
   ]);
 
   const faqSchema = generateFAQSchema(ranchoSantaFeFAQs);
+
+  const serviceSchema = {
+    "@type": "Service",
+    "name": "Junk Removal in Rancho Santa Fe",
+    "description": "Professional Rancho Santa Fe junk removal for luxury estates. Discreet service, white-glove handling. Licensed & insured.",
+    "url": "https://severincleaners.com/junk-removal-rancho-santa-fe",
+    "serviceType": "Junk Removal",
+    "provider": {
+      "@id": "https://severincleaners.com/junk-removal-rancho-santa-fe#business"
+    }
+  };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
@@ -155,12 +159,18 @@ export default function JunkRemovalRanchoSantaFePage() {
       "reviewCount": "27",
       "bestRating": "5",
       "worstRating": "1"
-    }
+    },
+    "sameAs": [
+      "https://www.facebook.com/severinhauling",
+      "https://www.instagram.com/severinhauling/",
+      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
+    ]
   };
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, localBusinessSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const nearbyLocations = [

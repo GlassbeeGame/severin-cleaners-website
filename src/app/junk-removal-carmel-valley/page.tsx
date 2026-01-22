@@ -92,13 +92,6 @@ const carmelValleyFAQs = [
 ];
 
 export default function JunkRemovalCarmelValleyPage() {
-  const serviceSchema = generateLocationServiceSchema({
-    locationName: "Carmel Valley",
-    serviceName: "Junk Removal",
-    description: "Professional junk removal services in Carmel Valley, San Diego. Same-day pickup, eco-friendly disposal, and transparent pricing.",
-    url: "https://severincleaners.com/junk-removal-carmel-valley",
-  });
-
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://severincleaners.com" },
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
@@ -106,6 +99,17 @@ export default function JunkRemovalCarmelValleyPage() {
   ]);
 
   const faqSchema = generateFAQSchema(carmelValleyFAQs);
+
+  const serviceSchema = {
+    "@type": "Service",
+    "name": "Junk Removal in Carmel Valley",
+    "description": "Professional junk removal services in Carmel Valley, San Diego. Same-day pickup, eco-friendly disposal, and transparent pricing.",
+    "url": "https://severincleaners.com/junk-removal-carmel-valley",
+    "serviceType": "Junk Removal",
+    "provider": {
+      "@id": "https://severincleaners.com/junk-removal-carmel-valley#business"
+    }
+  };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
@@ -151,12 +155,18 @@ export default function JunkRemovalCarmelValleyPage() {
       "reviewCount": "27",
       "bestRating": "5",
       "worstRating": "1"
-    }
+    },
+    "sameAs": [
+      "https://www.facebook.com/severinhauling",
+      "https://www.instagram.com/severinhauling/",
+      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
+    ]
   };
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, localBusinessSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const nearbyLocations = [

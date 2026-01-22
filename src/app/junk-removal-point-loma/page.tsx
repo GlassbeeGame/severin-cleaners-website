@@ -87,13 +87,6 @@ const pointLomaFAQs = [
 ];
 
 export default function JunkRemovalPointLomaPage() {
-  const serviceSchema = generateLocationServiceSchema({
-    locationName: "Point Loma",
-    serviceName: "Junk Removal",
-    description: "Professional Point Loma junk removal from Naval Base to Sunset Cliffs. Military PCS support. Licensed & insured.",
-    url: "https://severincleaners.com/junk-removal-point-loma",
-  });
-
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://severincleaners.com" },
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
@@ -101,6 +94,17 @@ export default function JunkRemovalPointLomaPage() {
   ]);
 
   const faqSchema = generateFAQSchema(pointLomaFAQs);
+
+  const serviceSchema = {
+    "@type": "Service",
+    "name": "Junk Removal in Point Loma",
+    "description": "Professional Point Loma junk removal from Naval Base to Sunset Cliffs. Military PCS support. Licensed & insured.",
+    "url": "https://severincleaners.com/junk-removal-point-loma",
+    "serviceType": "Junk Removal",
+    "provider": {
+      "@id": "https://severincleaners.com/junk-removal-point-loma#business"
+    }
+  };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
@@ -152,12 +156,18 @@ export default function JunkRemovalPointLomaPage() {
       "reviewCount": "27",
       "bestRating": "5",
       "worstRating": "1"
-    }
+    },
+    "sameAs": [
+      "https://www.facebook.com/severinhauling",
+      "https://www.instagram.com/severinhauling/",
+      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
+    ]
   };
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, localBusinessSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const nearbyLocations = [

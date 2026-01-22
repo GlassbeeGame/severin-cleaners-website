@@ -97,14 +97,25 @@ const elCajonFAQs = [
 ];
 
 export default function JunkRemovalElCajonPage() {
-  const serviceSchema = generateLocationServiceSchema({
-    locationName: "El Cajon",
-    serviceName: "Junk Removal",
-    description: "Professional El Cajon junk removal for Fletcher Hills, Rancho San Diego, Granite Hills. East County family specialists with same-day service. Call (619) 750-0114.",
-    url: "https://severincleaners.com/junk-removal-el-cajon",
-  });
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
+    { name: "El Cajon Junk Removal", url: "https://severincleaners.com/junk-removal-el-cajon" },
+  ]);
 
-  // Enhanced LocalBusiness schema for El Cajon
+  const faqSchema = generateFAQSchema(elCajonFAQs);
+
+  const serviceSchema = {
+    "@type": "Service",
+    "name": "Junk Removal in El Cajon",
+    "description": "Professional El Cajon junk removal for Fletcher Hills, Rancho San Diego, Granite Hills. East County family specialists with same-day service. Call (619) 750-0114.",
+    "url": "https://severincleaners.com/junk-removal-el-cajon",
+    "serviceType": "Junk Removal",
+    "provider": {
+      "@id": "https://severincleaners.com/junk-removal-el-cajon#business"
+    }
+  };
+
   const localBusinessSchema = {
     "@type": "LocalBusiness",
     "@id": "https://severincleaners.com/junk-removal-el-cajon#business",
@@ -144,6 +155,12 @@ export default function JunkRemovalElCajonPage() {
       "bestRating": "5",
       "worstRating": "1"
     },
+    "sameAs": [
+      "https://www.facebook.com/severinhauling",
+      "https://www.instagram.com/severinhauling/",
+      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
+    ],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "El Cajon Junk Removal Services",
@@ -184,17 +201,9 @@ export default function JunkRemovalElCajonPage() {
     }
   };
 
-  const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-    { name: "El Cajon Junk Removal", url: "https://severincleaners.com/junk-removal-el-cajon" },
-  ]);
-
-  const faqSchema = generateFAQSchema(elCajonFAQs);
-
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, localBusinessSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const nearbyLocations = [

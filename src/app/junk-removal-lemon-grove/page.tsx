@@ -87,13 +87,6 @@ const lemonGroveFAQs = [
 ];
 
 export default function JunkRemovalLemonGrovePage() {
-  const serviceSchema = generateLocationServiceSchema({
-    locationName: "Lemon Grove",
-    serviceName: "Junk Removal",
-    description: "Affordable Lemon Grove junk removal for apartments, family homes, Broadway corridor. Community-focused service with eco-friendly disposal.",
-    url: "https://severincleaners.com/junk-removal-lemon-grove",
-  });
-
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://severincleaners.com" },
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
@@ -101,6 +94,17 @@ export default function JunkRemovalLemonGrovePage() {
   ]);
 
   const faqSchema = generateFAQSchema(lemonGroveFAQs);
+
+  const serviceSchema = {
+    "@type": "Service",
+    "name": "Junk Removal in Lemon Grove",
+    "description": "Affordable Lemon Grove junk removal for apartments, family homes, Broadway corridor. Community-focused service with eco-friendly disposal.",
+    "url": "https://severincleaners.com/junk-removal-lemon-grove",
+    "serviceType": "Junk Removal",
+    "provider": {
+      "@id": "https://severincleaners.com/junk-removal-lemon-grove#business"
+    }
+  };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
@@ -152,12 +156,18 @@ export default function JunkRemovalLemonGrovePage() {
       "reviewCount": "27",
       "bestRating": "5",
       "worstRating": "1"
-    }
+    },
+    "sameAs": [
+      "https://www.facebook.com/severinhauling",
+      "https://www.instagram.com/severinhauling/",
+      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
+    ]
   };
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, localBusinessSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const nearbyLocations = [

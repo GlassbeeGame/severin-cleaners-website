@@ -62,19 +62,6 @@ export const metadata: Metadata = {
   },
 };
 
-const serviceSchema = generateLocationServiceSchema({
-  locationName: "Hillcrest",
-  serviceName: "Junk Removal",
-  description: "Professional Hillcrest junk removal for condos, historic homes, University Heights. Urban core specialists with limited parking solutions.",
-  url: "https://severincleaners.com/junk-removal-hillcrest",
-});
-
-const breadcrumbSchema = generateBreadcrumbSchema([
-  { name: "Home", url: "https://severincleaners.com" },
-  { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-  { name: "Hillcrest Junk Removal", url: "https://severincleaners.com/junk-removal-hillcrest" },
-]);
-
 const hillcrestFAQs = [
   {
     question: "How much does junk removal cost in Hillcrest?",
@@ -99,7 +86,24 @@ const hillcrestFAQs = [
 ];
 
 export default function JunkRemovalHillcrestPage() {
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
+    { name: "Hillcrest Junk Removal", url: "https://severincleaners.com/junk-removal-hillcrest" },
+  ]);
+
   const faqSchema = generateFAQSchema(hillcrestFAQs);
+
+  const serviceSchema = {
+    "@type": "Service",
+    "name": "Junk Removal in Hillcrest",
+    "description": "Professional Hillcrest junk removal for condos, historic homes, University Heights. Urban core specialists with limited parking solutions.",
+    "url": "https://severincleaners.com/junk-removal-hillcrest",
+    "serviceType": "Junk Removal",
+    "provider": {
+      "@id": "https://severincleaners.com/junk-removal-hillcrest#business"
+    }
+  };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
@@ -145,12 +149,18 @@ export default function JunkRemovalHillcrestPage() {
       "reviewCount": "27",
       "bestRating": "5",
       "worstRating": "1"
-    }
+    },
+    "sameAs": [
+      "https://www.facebook.com/severinhauling",
+      "https://www.instagram.com/severinhauling/",
+      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
+    ]
   };
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, localBusinessSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const nearbyLocations = [

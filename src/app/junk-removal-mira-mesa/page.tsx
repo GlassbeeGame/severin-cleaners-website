@@ -87,13 +87,6 @@ const miraMesaFAQs = [
 ];
 
 export default function JunkRemovalMiraMesaPage() {
-  const serviceSchema = generateLocationServiceSchema({
-    locationName: "Mira Mesa",
-    serviceName: "Junk Removal",
-    description: "Professional Mira Mesa junk removal for homes and businesses. Same-day service, affordable pricing, eco-friendly disposal from Sorrento Valley to Black Mountain Road.",
-    url: "https://severincleaners.com/junk-removal-mira-mesa",
-  });
-
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://severincleaners.com" },
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
@@ -101,6 +94,17 @@ export default function JunkRemovalMiraMesaPage() {
   ]);
 
   const faqSchema = generateFAQSchema(miraMesaFAQs);
+
+  const serviceSchema = {
+    "@type": "Service",
+    "name": "Junk Removal in Mira Mesa",
+    "description": "Professional Mira Mesa junk removal for homes and businesses. Same-day service, affordable pricing, eco-friendly disposal from Sorrento Valley to Black Mountain Road.",
+    "url": "https://severincleaners.com/junk-removal-mira-mesa",
+    "serviceType": "Junk Removal",
+    "provider": {
+      "@id": "https://severincleaners.com/junk-removal-mira-mesa#business"
+    }
+  };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
@@ -152,12 +156,18 @@ export default function JunkRemovalMiraMesaPage() {
       "reviewCount": "27",
       "bestRating": "5",
       "worstRating": "1"
-    }
+    },
+    "sameAs": [
+      "https://www.facebook.com/severinhauling",
+      "https://www.instagram.com/severinhauling/",
+      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
+    ]
   };
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, localBusinessSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const nearbyLocations = [

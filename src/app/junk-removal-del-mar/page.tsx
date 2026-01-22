@@ -92,13 +92,6 @@ const delMarFAQs = [
 ];
 
 export default function JunkRemovalDelMarPage() {
-  const serviceSchema = generateLocationServiceSchema({
-    locationName: "Del Mar",
-    serviceName: "Junk Removal",
-    description: "Professional Del Mar junk removal from Village to Heights. Expert coastal property service. Licensed & insured.",
-    url: "https://severincleaners.com/junk-removal-del-mar",
-  });
-
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://severincleaners.com" },
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
@@ -106,6 +99,17 @@ export default function JunkRemovalDelMarPage() {
   ]);
 
   const faqSchema = generateFAQSchema(delMarFAQs);
+
+  const serviceSchema = {
+    "@type": "Service",
+    "name": "Junk Removal in Del Mar",
+    "description": "Professional Del Mar junk removal from Village to Heights. Expert coastal property service. Licensed & insured.",
+    "url": "https://severincleaners.com/junk-removal-del-mar",
+    "serviceType": "Junk Removal",
+    "provider": {
+      "@id": "https://severincleaners.com/junk-removal-del-mar#business"
+    }
+  };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
@@ -151,12 +155,18 @@ export default function JunkRemovalDelMarPage() {
       "reviewCount": "27",
       "bestRating": "5",
       "worstRating": "1"
-    }
+    },
+    "sameAs": [
+      "https://www.facebook.com/severinhauling",
+      "https://www.instagram.com/severinhauling/",
+      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
+    ]
   };
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, localBusinessSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const nearbyLocations = [

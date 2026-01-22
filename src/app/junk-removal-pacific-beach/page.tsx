@@ -100,13 +100,6 @@ const pacificBeachFAQs = [
 ];
 
 export default function JunkRemovalPacificBeachPage() {
-  const serviceSchema = generateLocationServiceSchema({
-    locationName: "Pacific Beach",
-    serviceName: "Junk Removal",
-    description: "Professional Pacific Beach junk removal from Crystal Pier to Crown Point. Same-day service, transparent pricing. Licensed & insured.",
-    url: "https://severincleaners.com/junk-removal-pacific-beach",
-  });
-
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://severincleaners.com" },
     { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
@@ -114,6 +107,17 @@ export default function JunkRemovalPacificBeachPage() {
   ]);
 
   const faqSchema = generateFAQSchema(pacificBeachFAQs);
+
+  const serviceSchema = {
+    "@type": "Service",
+    "name": "Junk Removal in Pacific Beach",
+    "description": "Professional Pacific Beach junk removal from Crystal Pier to Crown Point. Same-day service, transparent pricing. Licensed & insured.",
+    "url": "https://severincleaners.com/junk-removal-pacific-beach",
+    "serviceType": "Junk Removal",
+    "provider": {
+      "@id": "https://severincleaners.com/junk-removal-pacific-beach#business"
+    }
+  };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
@@ -159,12 +163,18 @@ export default function JunkRemovalPacificBeachPage() {
       "reviewCount": "27",
       "bestRating": "5",
       "worstRating": "1"
-    }
+    },
+    "sameAs": [
+      "https://www.facebook.com/severinhauling",
+      "https://www.instagram.com/severinhauling/",
+      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
+    ]
   };
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, localBusinessSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
   };
 
   const nearbyLocations = [
