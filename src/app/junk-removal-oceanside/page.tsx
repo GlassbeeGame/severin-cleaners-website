@@ -100,20 +100,22 @@ export default function JunkRemovalOceansidePage() {
   const localBusinessSchema = {
     "@type": "LocalBusiness",
     "@id": "https://severincleaners.com/junk-removal-oceanside#business",
-    "name": "Severin Cleaners - Junk Removal Oceanside",
+    "name": "Severin Cleaners LLC",
     "image": "https://severincleaners.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$100-$495",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Oceanside",
+      "streetAddress": "8900 Grossmont Blvd Ste 1",
+      "addressLocality": "La Mesa",
       "addressRegion": "CA",
+      "postalCode": "91941",
       "addressCountry": "US"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 33.1959,
-      "longitude": -117.3795
+      "latitude": 32.7678,
+      "longitude": -117.0231
     },
     "url": "https://severincleaners.com/junk-removal-oceanside",
     "areaServed": [
@@ -124,9 +126,34 @@ export default function JunkRemovalOceansidePage() {
           "@type": "State",
           "name": "California"
         }
+      },
+      {
+        "@type": "PostalCode",
+        "postalCode": "92054",
+        "addressLocality": "Oceanside",
+        "addressRegion": "CA"
+      },
+      {
+        "@type": "PostalCode",
+        "postalCode": "92056",
+        "addressLocality": "Oceanside",
+        "addressRegion": "CA"
+      },
+      {
+        "@type": "PostalCode",
+        "postalCode": "92057",
+        "addressLocality": "Oceanside",
+        "addressRegion": "CA"
       }
     ],
     "openingHours": "Mo-Su 06:00-20:00",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "27",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Oceanside Junk Removal Services",

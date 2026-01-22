@@ -108,20 +108,22 @@ export default function JunkRemovalElCajonPage() {
   const localBusinessSchema = {
     "@type": "LocalBusiness",
     "@id": "https://severincleaners.com/junk-removal-el-cajon#business",
-    "name": "Severin Cleaners - Junk Removal El Cajon",
+    "name": "Severin Cleaners LLC",
     "image": "https://severincleaners.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$100-$495",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "El Cajon",
+      "streetAddress": "8900 Grossmont Blvd Ste 1",
+      "addressLocality": "La Mesa",
       "addressRegion": "CA",
+      "postalCode": "91941",
       "addressCountry": "US"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 32.7948,
-      "longitude": -116.9625
+      "latitude": 32.7678,
+      "longitude": -117.0231
     },
     "url": "https://severincleaners.com/junk-removal-el-cajon",
     "areaServed": [
@@ -135,6 +137,13 @@ export default function JunkRemovalElCajonPage() {
       }
     ],
     "openingHours": "Mo-Su 06:00-20:00",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "27",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "El Cajon Junk Removal Services",

@@ -102,14 +102,62 @@ export default function JunkRemovalMiraMesaPage() {
 
   const faqSchema = generateFAQSchema(miraMesaFAQs);
 
-  // Remove @context from individual schemas since they'll be in @graph
-  const { "@context": _serviceContext, ...serviceSchemaWithoutContext } = serviceSchema;
-  const { "@context": _breadcrumbContext, ...breadcrumbSchemaWithoutContext } = breadcrumbSchema;
-  const { "@context": _faqContext, ...faqSchemaWithoutContext } = faqSchema;
+  const localBusinessSchema = {
+    "@type": "LocalBusiness",
+    "@id": "https://severincleaners.com/junk-removal-mira-mesa#business",
+    "name": "Severin Cleaners LLC",
+    "image": "https://severincleaners.com/og-image.jpg",
+    "telephone": "+1-619-750-0114",
+    "priceRange": "$100-$495",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "8900 Grossmont Blvd Ste 1",
+      "addressLocality": "La Mesa",
+      "addressRegion": "CA",
+      "postalCode": "91941",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.7678,
+      "longitude": -117.0231
+    },
+    "url": "https://severincleaners.com/junk-removal-mira-mesa",
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Mira Mesa",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "California"
+        }
+      },
+      {
+        "@type": "PostalCode",
+        "postalCode": "92126",
+        "addressLocality": "San Diego",
+        "addressRegion": "CA"
+      },
+      {
+        "@type": "PostalCode",
+        "postalCode": "92121",
+        "addressLocality": "San Diego",
+        "addressRegion": "CA"
+      }
+    ],
+    "openingHours": "Mo-Su 06:00-20:00",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "27",
+      "bestRating": "5",
+      "worstRating": "1"
+    }
+  };
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchemaWithoutContext, breadcrumbSchemaWithoutContext, faqSchemaWithoutContext],
+    "@graph": [serviceSchema, localBusinessSchema, breadcrumbSchema, faqSchema]
   };
 
   const nearbyLocations = [
