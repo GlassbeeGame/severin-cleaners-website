@@ -10,10 +10,10 @@
 
 export const REVIEW_CONFIG = {
   // Total review count from Google Business Profile
-  totalReviews: 20,
+  totalReviews: 27,
 
-  // Average rating (4.8 stars) - MUST MATCH GOOGLE EXACTLY
-  ratingValue: 4.8,
+  // Average rating (4.9 stars) - MUST MATCH GOOGLE EXACTLY
+  ratingValue: 4.9,
 
   // Best possible rating
   bestRating: 5,
