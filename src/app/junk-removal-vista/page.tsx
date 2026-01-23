@@ -188,9 +188,9 @@ export default function JunkRemovalVistaPage() {
 
   const nearbyLocations = [
     { name: "Oceanside", slug: "junk-removal-oceanside" },
+    { name: "San Marcos", slug: "junk-removal-san-marcos" },
     { name: "Carlsbad", slug: "junk-removal-carlsbad" },
     { name: "Escondido", slug: "junk-removal-escondido" },
-    { name: "Rancho Santa Fe", slug: "junk-removal-rancho-santa-fe" },
   ];
 
   return (
