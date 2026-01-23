@@ -11,21 +11,17 @@ import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/s
 import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
-  title: "Spring Valley Junk Removal | Hillside Property Experts | (619) 750-0114",
-  description: "Spring Valley hillside junk removal Dictionary Hill, Casa de Oro. Steep driveways, apartment complexes, family homes. (619) 750-0114",
+  title: "Junk Removal Spring Valley | Same-Day Service | (619) 750-0114",
+  description: "Professional junk removal Spring Valley for hillside homes, apartments, and families in Dictionary Hill, Casa de Oro. Steep driveway specialists. Same-day hauling, licensed & insured.",
   keywords: [
-    "Spring Valley junk removal",
-    "junk hauling Spring Valley",
-    "junk pickup Spring Valley",
-    "trash removal Spring Valley",
-    "Spring Valley San Diego junk removal",
-    "Dictionary Hill junk removal",
-    "Casa de Oro junk hauling",
-    "Sweetwater Reservoir junk pickup"
+    "junk removal spring valley",
+    "spring valley junk removal",
+    "junk hauling spring valley",
+    "same day junk removal spring valley"
   ],
   openGraph: {
-    title: "Spring Valley Junk Removal | Affordable Family & Hillside Specialists",
-    description: "Professional Spring Valley junk removal for East County families, hillside homes & apartments. Same-day junk hauling Spring Valley, eco-friendly disposal.",
+    title: "Junk Removal Spring Valley | East County Hillside Specialists",
+    description: "Professional junk removal Spring Valley for East County families, hillside homes & apartments. Same-day junk hauling, eco-friendly disposal.",
     url: "https://severincleaners.com/junk-removal-spring-valley",
     siteName: 'Severin Cleaners',
     images: [{
@@ -39,8 +35,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Spring Valley Junk Removal | Affordable Family & Hillside Specialists",
-    description: "Professional Spring Valley junk removal for East County families, hillside homes & apartments. Same-day junk hauling Spring Valley, eco-friendly disposal.",
+    title: "Junk Removal Spring Valley | East County Hillside Specialists",
+    description: "Professional junk removal Spring Valley for East County families, hillside homes & apartments. Same-day junk hauling, eco-friendly disposal.",
     images: ['https://severincleaners.com/og-image.jpg'],
   },
   alternates: {
@@ -67,24 +63,36 @@ export const metadata: Metadata = {
 
 const springValleyFAQs = [
   {
-    question: "How much does junk removal cost in Spring Valley?",
-    answer: "Our Spring Valley junk removal pricing is transparent and affordable, designed with East County families in mind. We offer upfront pricing with no hidden fees:"
+    question: "How much does junk removal Spring Valley cost?",
+    answer: "Our junk removal Spring Valley pricing is transparent and upfront with no hidden fees. Single item pickup starts at $100, perfect for removing one couch or appliance from your Spring Valley property. Quarter-load service costs $249, ideal for small cleanouts like a closet or bathroom corner. Half-load runs $349 for garage sections or bedroom furniture removal. Three-quarter load is $429 for larger projects like full garage sections or multiple room cleanouts, and full-load service tops out at $495 for complete garage, apartment, or estate cleanouts. All prices include labor, hauling, disposal fees, and cleanup. Properties throughout Spring Valley—whether you're in Dictionary Hill, Casa de Oro, near Jamacha Boulevard, or Sweetwater Reservoir—all receive the same transparent pricing with no surcharges for steep hillside driveways, challenging terrain, or apartment complex coordination. We provide free estimates over the phone by describing your items, and confirm final pricing on-site before starting work, ensuring you know exactly what you'll pay. Most Spring Valley junk removal jobs range from quarter-truck to half-truck loads, with clear pricing communicated upfront before we touch anything. Hillside properties with difficult access don't pay premium rates—our volume-based pricing remains consistent regardless of terrain challenges, making us the affordable choice for East County families and property owners throughout Spring Valley's diverse neighborhoods."
   },
   {
-    question: "Do you provide hillside junk hauling in Spring Valley?",
-    answer: "Yes! We specialize in hillside property junk pickup Spring Valley services, especially in Dictionary Hill and Casa de Oro areas. Our team has specialized equipment and experience handling challenging terrain, steep driveways, and unique access situations. We're experts at safely navigating hillside properties throughout East County."
+    question: "Do you provide hillside junk removal in Spring Valley?",
+    answer: "Yes, we specialize in hillside junk removal Spring Valley services, especially in Dictionary Hill, Hillsdale, and Casa de Oro areas with challenging terrain. Our team has specialized equipment and extensive experience handling steep driveways, narrow winding roads, and unique access situations that characterize Spring Valley's elevated neighborhoods. We navigate hillside properties with slopes exceeding 15-20 degrees, coordinate turnaround space on limited driveways, and safely handle items on properties with elevation changes and multi-level access. Dictionary Hill homes with panoramic views often feature long, steep driveways requiring careful truck positioning and extended manual carries—we bring appropriate equipment and plan routes in advance to ensure safe, efficient service. Casa de Oro hillside properties near Mount Helix present similar challenges with winding approaches and limited street parking—we coordinate with neighbors, work efficiently to minimize truck presence in narrow residential streets, and complete removals without property damage despite challenging terrain. Our crews pre-plan hillside jobs using satellite imagery and client descriptions to understand driveway grades, turnaround limitations, and any seasonal weather impacts on steep paved or dirt access routes. We schedule hillside properties during optimal conditions—avoiding wet weather when possible, planning morning starts before afternoon heat affects crew efficiency on strenuous terrain work. Most Spring Valley hillside junk removal jobs complete in 1.5-2.5 hours despite access challenges, thanks to our experienced crews and proper planning that typical haulers without hillside expertise can't match."
   },
   {
-    question: "Can you offer same-day junk pickup for apartments and mobile homes?",
-    answer: "Absolutely! We provide same-day Spring Valley junk removal service for apartments, mobile home parks, and multi-family properties. Our team works efficiently with property managers and understands the unique requirements of rental properties. We coordinate with building management and respect community guidelines for all trash removal Spring Valley projects."
+    question: "Can you provide same-day junk removal for apartments and mobile homes in Spring Valley?",
+    answer: "Absolutely. We provide same-day junk removal Spring Valley service for apartments, mobile home parks, and multi-family properties when you call before noon. Our East County team can often arrive within 2-4 hours for urgent situations throughout Spring Valley's 91977 and 91978 zip codes. Same-day service is especially valuable for time-sensitive needs like apartment tenant turnovers near Jamacha Boulevard requiring immediate clearing between move-out and move-in, mobile home park cleanouts with strict timeline requirements, property management emergencies needing rapid response, or family situations requiring immediate debris removal. We coordinate scheduling around Spring Valley's traffic patterns—avoiding Jamacha Boulevard and Avocado Boulevard congestion during morning commute (6:30-8:30 AM) and afternoon rush (4-6 PM) to ensure reliable arrival times throughout Dictionary Hill, Casa de Oro, and all Spring Valley neighborhoods. Property managers appreciate our responsive communication, professional crews that respect tenant privacy and building standards, and transparent pricing that makes budgeting for turnover costs predictable. We work with flexible scheduling to minimize disruption to current tenants, offering after-hours service (evenings and weekends) when needed for multi-family properties with occupied units. Mobile home park regulations and HOA requirements are no problem—we provide certificates of insurance, coordinate with park management, and follow community guidelines for all Spring Valley mobile home and apartment complex junk removal projects. Next-day service is available for all Spring Valley areas with flexible scheduling to match property manager availability and building access requirements."
   },
   {
-    question: "Do you handle large family cleanouts and estate junk removal?",
-    answer: "Yes, while we're a professional junk removal Spring Valley company, we excel at large family cleanouts and estate property junk removal. Our core service is hauling away unwanted items, furniture, and debris from inherited homes and multi-generational households."
+    question: "Do you handle estate cleanouts and family property transitions in Spring Valley?",
+    answer: "Yes, we excel at estate cleanouts and large family property transitions throughout Spring Valley. Our junk removal Spring Valley service handles the emotional and logistical challenges of clearing inherited homes, downsizing multi-generational households, and managing property transitions after family loss or relocation. Casa de Oro and established Spring Valley neighborhoods contain many long-term family homes accumulated over decades—we help families clear these properties with respect, efficiency, and transparent pricing during already difficult times. Estate cleanouts often involve sorting through basement storage, garage accumulation from years of family living, attic contents, and outdoor shed materials that families struggle to process alone—we handle the physical labor while families focus on keeping meaningful items and making decisions about donations vs. disposal. We coordinate with estate executors, family members across multiple states, and real estate agents preparing inherited properties for sale. Spring Valley's multi-family properties and mobile home estates present unique cleanout challenges—we navigate park regulations, coordinate with neighbors in close-proximity settings, and complete removals efficiently to meet property sale timelines or new owner move-in dates. Our team brings appropriate truck capacity for whole-house clearances, works respectfully with family members during emotional transitions, and sorts items carefully for donation to East County charities when families request it. Most Spring Valley estate cleanouts require full-truck to multiple-truck service spread across 1-2 days depending on property size and accumulation levels. We provide detailed quotes after on-site assessment and work within family budgets to make estate transitions manageable during challenging periods."
   },
   {
-    question: "Are your junk removal services eco-friendly in East County?",
-    answer: "Absolutely. Our Spring Valley San Diego junk removal approach prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations."
+    question: "Are you licensed and insured for junk removal in Spring Valley?",
+    answer: "Yes, Severin Cleaners is fully licensed and insured to provide junk removal services throughout Spring Valley and all of San Diego County. We carry comprehensive general liability insurance that protects your property during the removal process—if our crew accidentally damages walls, floors, landscaping, or structures while hauling items, our insurance covers repairs. This protection is especially important for Spring Valley's hillside properties where we navigate steep driveways, tight turns, and challenging terrain that increases operational risk compared to flat-access properties. Our licensing ensures compliance with California waste hauling regulations, San Diego County disposal requirements, and local Spring Valley ordinances governing debris removal and transport. We use only licensed disposal facilities and transfer stations, providing documentation when needed for property management companies, mobile home parks, or estate executors requiring proof of proper disposal. Our team follows OSHA safety protocols for heavy lifting and hazardous material handling, protecting both crew and clients during hillside cleanouts, apartment turnovers, and estate removal projects. For Spring Valley apartment complexes and mobile home parks, we provide certificates of insurance upon request to meet building requirements and property owner insurance obligations. HOA communities receive proof of insurance for contractor access compliance. Our licensing and insurance give you peace of mind that junk removal is handled professionally, legally, and safely throughout every Spring Valley neighborhood—from steep Dictionary Hill properties to valley floor apartments to Casa de Oro family estates. East County residents deserve professional service with proper coverage, and we deliver exactly that with every Spring Valley junk removal job."
+  },
+  {
+    question: "Do you recycle or donate items in Spring Valley?",
+    answer: "Yes, eco-friendly disposal is central to our junk removal Spring Valley service. We sort every load to maximize recycling and donation opportunities, minimizing what goes to landfills. Usable furniture, working appliances, and household goods in good condition go to East County charities including Goodwill, Salvation Army, and local family resource centers serving Spring Valley residents and surrounding communities. Metal items—appliances, scrap metal, bed frames, exercise equipment—are delivered to recycling facilities that process materials responsibly and pay by weight, offsetting disposal costs and supporting our competitive pricing. Mattresses and box springs are taken to specialized recycling centers that break them down into foam, fabric, and metal components rather than sending them to landfills where they consume valuable space. Electronics go to certified e-waste recyclers who handle hazardous materials like batteries, screens, and circuit boards safely according to California environmental regulations. Wood debris, yard waste, and organic materials common around Sweetwater Reservoir recreation properties are sent to composting facilities when possible rather than landfills. We're familiar with East County disposal regulations and use licensed facilities for construction debris, concrete, and other specialty materials removed during Spring Valley home renovations and apartment updates. Our eco-friendly approach isn't just good environmental practice—it's good business. By maximizing donation and recycling, we reduce landfill fees and pass those savings to Spring Valley customers through competitive pricing that East County families appreciate. Estate cleanouts and family property transitions often yield significant donation opportunities—we help families feel good about passing usable items to East County residents who need them rather than filling landfills with functional furniture and household goods."
+  },
+  {
+    question: "What areas of Spring Valley do you serve for junk removal?",
+    answer: "We provide junk removal throughout all of Spring Valley and the entire 91977 and 91978 zip codes. Our service covers Dictionary Hill hillside community with panoramic canyon views, steep driveways requiring specialized navigation, and custom homes with challenging terrain access. Casa de Oro established family neighborhood near Mount Helix with multi-generational homes, decades of accumulated storage, and estate cleanout needs throughout this mature community. Jamacha Boulevard corridor mixed-use area with apartment complexes, mobile home parks, retail centers, and commercial properties along the main north-south thoroughfare. Sweetwater Reservoir area properties near recreation facilities with boat storage, RV equipment, fishing gear, and outdoor accumulation from reservoir recreation activities. Spring Valley Estates mid-century family homes with two-car garages filled with storage from years of family living. Hillsdale hillside neighborhoods with winding canyon roads, unique driveway configurations, and elevation access challenges. Avocado Boulevard area central corridor with apartment density, retail centers, and multi-family property concentration. Helix/Grossmont area properties near educational institutions with student housing, seasonal turnover patterns, and academic calendar-driven demand. We serve the complete Spring Valley area from Mount Helix in the west to Rancho San Diego border in the east, from Sweetwater Reservoir in the south to La Mesa boundary in the north. Our team knows every hillside approach, apartment complex access protocol, and mobile home park requirement throughout Spring Valley's geographically diverse landscape. We also serve nearby La Mesa, Lemon Grove, El Cajon, and Santee with the same reliable service and transparent pricing Spring Valley residents expect from East County's trusted junk removal company."
+  },
+  {
+    question: "Can you remove construction debris in Spring Valley?",
+    answer: "Yes, we handle construction debris removal for Spring Valley residential and commercial renovation projects of all sizes. Our service covers hillside home renovation debris from kitchen and bathroom remodels—cabinets, countertops, tile, fixtures removed during updates to Dictionary Hill and Casa de Oro properties. Demolition waste from room additions and structural changes including drywall, framing lumber, roofing materials, and subflooring from home expansion projects popular in Spring Valley's established neighborhoods. Window and door replacement materials from energy efficiency upgrades East County homeowners pursue to combat inland heat and reduce cooling costs during warm summer months. Flooring removal including tile, hardwood, carpet, and padding from whole-home renovations throughout Spring Valley's mid-century housing stock. Deck and patio demolition debris from outdoor space updates common on hillside properties with panoramic views. Garage conversion debris from families adding home offices, rental units, or additional living space. General contractor cleanup after project completion keeps job sites clear and helps builders maintain schedules on multi-phase projects. Spring Valley's active renovation market—from Dictionary Hill custom home builds to Casa de Oro estate updates to apartment complex renovations along Jamacha Boulevard—creates consistent construction debris removal needs. We coordinate with contractors on timing, often providing same-day or next-day service to keep hillside job sites clear and projects on schedule without debris accumulation that violates safety codes or creates issues with neighbors in densely-built hillside communities. All construction debris goes to licensed facilities that sort materials for recycling when possible—wood, metal, concrete, and clean materials are diverted from landfills to reduce environmental impact and disposal costs for Spring Valley contractors and homeowners."
   }
 ];
 
@@ -100,7 +108,7 @@ export default function JunkRemovalSpringValleyPage() {
   const serviceSchema = {
     "@type": "Service",
     "name": "Junk Removal in Spring Valley",
-    "description": "Professional Spring Valley junk removal for East County families, hillside homes & apartments. Same-day junk hauling Spring Valley, eco-friendly disposal. Serving Dictionary Hill, Casa de Oro.",
+    "description": "Professional junk removal Spring Valley for East County families, hillside homes & apartments. Same-day service, hillside access specialists, eco-friendly disposal. Serving Dictionary Hill, Casa de Oro.",
     "url": "https://severincleaners.com/junk-removal-spring-valley",
     "serviceType": "Junk Removal",
     "provider": {
@@ -195,7 +203,7 @@ export default function JunkRemovalSpringValleyPage() {
               </div>
 
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                Spring Valley Junk Removal
+                Junk Removal Spring Valley
               </h1>
 
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
@@ -225,11 +233,11 @@ export default function JunkRemovalSpringValleyPage() {
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      Spring Valley junk removal serves a diverse East County community known for hillside homes, family neighborhoods, and multi-family properties. From panoramic-view homes in Dictionary Hill to established family areas near Casa de Oro, our junk hauling Spring Valley team handles the unique access challenges of this varied landscape. We provide same-day trash removal Spring Valley for hillside properties, apartments, and family homes throughout the 91977 and 91978 areas with transparent pricing and eco-friendly disposal.
+                      Looking for reliable junk removal Spring Valley services? Our expert team serves a diverse East County community known for hillside homes, family neighborhoods, and multi-family properties with same-day hauling available. From panoramic-view homes in Dictionary Hill to established family areas near Casa de Oro, our Spring Valley junk removal team handles the unique access challenges of this varied landscape. We provide professional junk removal throughout Spring Valley's 91977 and 91978 zip codes for hillside properties, apartments, and family homes with transparent pricing and eco-friendly disposal.
                     </p>
 
                     <p className="text-gray-700 mb-6">
-                      Our Spring Valley operation is uniquely equipped to handle properties ranging from steep hillside driveways to multi-family apartment complexes. We understand that Spring Valley San Diego junk removal requires specialized knowledge of challenging terrain, narrow street access, and the diverse mix of property types that characterize this East County community. Whether you're clearing accumulated items from a hillside home's garage, removing furniture from an apartment complex near Jamacha Boulevard, or handling estate cleanouts in Casa de Oro, our team brings the expertise and equipment East County's varied properties demand.
+                      Our Spring Valley operation is uniquely equipped to handle properties ranging from steep hillside driveways to multi-family apartment complexes. We understand that junk hauling Spring Valley requires specialized knowledge of challenging terrain, narrow street access, and the diverse mix of property types that characterize this East County community. Whether you're clearing accumulated items from a hillside home's <a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">garage cleanout</a>, removing furniture from an apartment complex near Jamacha Boulevard, or handling <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a> in Casa de Oro, our team brings the expertise and equipment East County's varied properties demand.
                     </p>
 
                     {/* Neighborhoods Served */}
@@ -255,7 +263,7 @@ export default function JunkRemovalSpringValleyPage() {
                     {/* Major Streets */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access</h3>
                     <p className="text-gray-700 mb-4">
-                      Our Spring Valley San Diego junk removal team knows every street, hillside approach, and access challenge in this geographically diverse area. We plan each junk pickup Spring Valley job with detailed routing:
+                      Our junk removal Spring Valley team knows every street, hillside approach, and access challenge in this geographically diverse area. We plan each job with detailed routing to ensure efficient service:
                     </p>
                     <ul className="grid md:grid-cols-2 gap-2 mb-6">
                       <li>• <strong>Jamacha Boulevard:</strong> Main north-south corridor with shopping centers, apartments, and commercial traffic</li>
@@ -271,7 +279,7 @@ export default function JunkRemovalSpringValleyPage() {
                     {/* Local Landmarks */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Spring Valley Landmarks</h3>
                     <p className="text-gray-700 mb-4">
-                      We provide junk removal Spring Valley service near all major East County landmarks. These reference points help us navigate efficiently:
+                      We provide <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial</a> and residential junk removal Spring Valley service near all major East County landmarks. These reference points help us navigate efficiently:
                     </p>
                     <div className="grid md:grid-cols-2 gap-2 mb-6">
                       <ul className="space-y-1">
@@ -295,7 +303,7 @@ export default function JunkRemovalSpringValleyPage() {
                     {/* Traffic & Timing */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Traffic & Service Timing</h3>
                     <p className="text-gray-700 mb-4">
-                      Spring Valley's position as an East County residential hub creates traffic patterns that affect junk hauling Spring Valley scheduling:
+                      Spring Valley's position as an East County residential hub creates traffic patterns that affect <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> junk removal scheduling:
                     </p>
                     <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
                       <li><strong>Weekday commute hours (6:30-8:30 AM, 4-6 PM):</strong> Jamacha Boulevard, Avocado Boulevard, and SR-94 access points experience heavy East County commuter traffic. We schedule mid-morning (9 AM-12 PM) or early afternoon (1-3 PM) windows to avoid peak congestion, particularly for hillside properties where narrow streets compound traffic delays.</li>
@@ -313,7 +321,7 @@ export default function JunkRemovalSpringValleyPage() {
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Spring Valley</h3>
                     <p className="text-gray-700 mb-4">
-                      Our Spring Valley junk removal service handles items common to East County's diverse property types:
+                      Our junk removal Spring Valley service handles items common to East County's diverse property types, from single items to complete property cleanouts:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
@@ -349,7 +357,7 @@ export default function JunkRemovalSpringValleyPage() {
                           <li>• <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate cleanouts</a> for multi-generational family properties</li>
                           <li>• Apartment turnovers and mobile home park cleanouts</li>
                           <li>• Garage organization and <a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">storage shed clearances</a></li>
-                          <li>• Construction debris from hillside home renovations</li>
+                          <li>• <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">Construction debris</a> from hillside home renovations</li>
                         </ul>
                       </div>
                     </div>
