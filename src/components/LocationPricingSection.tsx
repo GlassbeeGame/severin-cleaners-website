@@ -25,13 +25,14 @@ export default function LocationPricingSection({
           <div className="mb-12">
             {/* 4 GRADIENT CARDS - Top Pricing Tiers */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-              {/* Single Item - $100 */}
+              {/* Single Item - $69-$100 */}
               <div className="bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl shadow-lg p-6 text-white text-center">
-                <div className="text-4xl font-bold mb-2">$100</div>
+                <div className="text-3xl font-bold mb-2">$69-$100</div>
                 <div className="text-blue-100 mb-4">Single Item</div>
                 <div className="font-bold text-lg mb-2">Quick Pickup</div>
-                <div className="text-blue-100 text-sm">
-                  One large item, couch, appliance, mattress
+                <div className="text-blue-100 text-sm leading-relaxed">
+                  <div className="mb-1"><strong>Small:</strong> Loveseat, chair $69+</div>
+                  <div><strong>Standard:</strong> Couch, appliance $100+</div>
                 </div>
               </div>
 

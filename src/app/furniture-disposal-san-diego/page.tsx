@@ -77,7 +77,7 @@ const relatedServices = [
 const furnitureFAQs = [
     {
       question: "How much does furniture disposal cost in San Diego?",
-      answer: "Furniture disposal San Diego pricing starts at $100 for single items and ranges up to $495 for a full trailer load. Couch disposal typically costs $100-$319 depending on size, while bedroom furniture runs $249-$429. All prices include labor, transportation, eco-friendly disposal, and recycling with no hidden fees. Call (619) 750-0114 for a free quote."
+      answer: "Furniture disposal San Diego pricing starts at $69 for small items like chairs and loveseats. Standard items (couches, dressers, appliances) start at $100. Large loads range up to $495 for a full trailer. Couch disposal costs $69-$199 depending on size. Bedroom furniture runs $249-$429. All prices include labor, transportation, eco-friendly disposal, and recycling with no hidden fees. Call (619) 750-0114 for a free quote."
     },
     {
       question: "Do you remove heavy furniture like pianos or safes?",
@@ -141,7 +141,7 @@ export default function FurnitureDisposalPage() {
         <OptimizedGradientHero
           title="Furniture Disposal San Diego"
           subtitle="Eco-Friendly Removal & Recycling • We Do the Heavy Lifting • Same-Day Available"
-          description="Licensed & Insured • Starting at $100 • Serving All San Diego County"
+          description="Licensed & Insured • Small items $69+ • Standard items $100+ • All San Diego County"
         />
 
         {/* Service Features */}

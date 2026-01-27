@@ -75,7 +75,7 @@ const relatedServices = [
 const couchFAQs = [
   {
     question: "How much does couch removal cost in San Diego?",
-    answer: "Couch removal starts at $69 in San Diego. That's for a standard sofa with easy access. Bigger couches cost more. Sectionals run $99-149. Sleeper sofas are $89-129. Stairs and tight spaces don't change the price. We give you the exact cost over the phone. No surprises. No hidden fees. Call (619) 750-0114 for a free quote."
+    answer: "Couch removal starts at $69 in San Diego. That's for a smaller sofa or loveseat with easy access. Standard couches are $100-129. Sectionals run $129-199. Sleeper sofas are $129-149. Stairs and tight spaces don't change the price. We give you the exact cost over the phone. No surprises. No hidden fees. Call (619) 750-0114 for a free quote."
   },
   {
     question: "Do you offer same-day couch disposal?",
@@ -103,7 +103,7 @@ const couchFAQs = [
   },
   {
     question: "How much does it cost to remove a large couch?",
-    answer: "Here's the breakdown: Regular sofa—$69+. Sectional (L or U shaped)—$99-149. Sleeper sofa—$89-129. Oversized recliner—$79-99. Price depends on size and number of pieces. We quote exact pricing over the phone. Call (619) 750-0114. We'll tell you the cost in 2 minutes."
+    answer: "Here's the breakdown: Small loveseat—$69+. Standard sofa—$100+. Sectional (L or U shaped)—$129-199. Sleeper sofa—$129-149. Oversized recliner—$100-129. Price depends on size and number of pieces. We quote exact pricing over the phone. Call (619) 750-0114. We'll tell you the cost in 2 minutes."
   },
   {
     question: "Will you remove a couch from upstairs?",
@@ -186,7 +186,7 @@ export default function CouchRemovalPage() {
       <OptimizedGradientHero
         title="Couch Removal San Diego & Sofa Disposal Services"
         subtitle="Same-Day Couch Pickup • Licensed & Insured • Honest Pricing • 5.0 Rating"
-        description="Starting at $69 • Serving All of San Diego County"
+        description="Small sofas $69+ • Standard couches $100+ • All of San Diego County"
       />
 
       {/* Main Content with Sidebar */}
@@ -204,11 +204,11 @@ export default function CouchRemovalPage() {
                   </p>
 
                   <p className="text-lg text-gray-700 mb-3">
-                    <strong>Severin Cleaners</strong> removes sofas starting at <strong>$69</strong> in San Diego. We do all the lifting. All the hauling. All the disposal.
+                    <strong>Severin Cleaners</strong> removes sofas in San Diego. Small sofas and loveseats start at <strong>$69</strong>. Standard couches start at <strong>$100</strong>.
                   </p>
 
                   <p className="text-lg text-gray-700 mb-3">
-                    You just point to the couch. We handle the rest.
+                    We do all the lifting. All the hauling. All the disposal. You just point to the couch. We handle the rest.
                   </p>
 
                   <p className="text-lg text-gray-700 mb-3">
@@ -302,7 +302,7 @@ export default function CouchRemovalPage() {
                   </div>
 
                   <p className="text-lg text-gray-700 mb-6 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
-                    <strong>Think about your time.</strong> Renting a truck, driving to the dump, and unloading a heavy couch takes half a day. We do it for $69 while you relax.
+                    <strong>Think about your time.</strong> Renting a truck, driving to the dump, and unloading a heavy couch takes half a day. We do it starting at $69 while you relax.
                   </p>
 
                   <p className="text-lg text-gray-700 mb-6">
@@ -406,38 +406,6 @@ export default function CouchRemovalPage() {
                     We make it simple. One call and we handle everything. No lifting. No driving. No waiting.
                   </p>
 
-                  <h2 className="text-3xl font-bold text-gray-900 mb-4">Pricing & Service Options</h2>
-                  <p className="text-lg text-gray-700 mb-4">
-                    Our pricing includes labor, hauling, and disposal fees. Final price depends on size and access. Call <strong>(619) 750-0114</strong> for an exact quote.
-                  </p>
-                  <div className="bg-gray-50 rounded-lg p-6 mb-8">
-                    <div className="grid md:grid-cols-2 gap-4">
-                      <div className="flex justify-between items-center py-2 border-b border-gray-300">
-                        <span className="font-semibold text-gray-700">Single Couch or Sofa Pickup</span>
-                        <span className="text-xl font-bold text-blue-600">$69+</span>
-                      </div>
-                      <div className="flex justify-between items-center py-2 border-b border-gray-300">
-                        <span className="font-semibold text-gray-700">¼ Truck (3 cu yd)</span>
-                        <span className="text-xl font-bold text-blue-600">$249</span>
-                      </div>
-                      <div className="flex justify-between items-center py-2 border-b border-gray-300">
-                        <span className="font-semibold text-gray-700">½ Truck (6 cu yd)</span>
-                        <span className="text-xl font-bold text-blue-600">$349</span>
-                      </div>
-                      <div className="flex justify-between items-center py-2 border-b border-gray-300">
-                        <span className="font-semibold text-gray-700">¾ Truck (9 cu yd)</span>
-                        <span className="text-xl font-bold text-blue-600">$429</span>
-                      </div>
-                      <div className="flex justify-between items-center py-2 border-b border-gray-300">
-                        <span className="font-semibold text-gray-700">Full Truck (12 cu yd)</span>
-                        <span className="text-xl font-bold text-blue-600">$495</span>
-                      </div>
-                    </div>
-                    <p className="text-gray-700 mt-4 text-center">
-                      <strong>Starting at $69</strong> for a single couch. Final price depends on size and access. Must call <strong>(619) 750-0114</strong> for exact quote. No hidden fees.
-                    </p>
-                  </div>
-
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Choose Us Over Big Franchises</h3>
                   <p className="text-lg text-gray-700 mb-3">
                     <strong>We're local.</strong> That means faster service.
@@ -463,7 +431,7 @@ export default function CouchRemovalPage() {
                   <div className="text-center bg-blue-900 text-white p-8 rounded-lg mt-8">
                     <h3 className="text-2xl font-bold mb-4">Ready to Get Rid of Your Couch?</h3>
                     <p className="text-lg mb-6">
-                      Starting at <strong>$69</strong>. Same-day pickup available. No hidden fees.
+                      Small sofas <strong>$69+</strong> • Standard couches <strong>$100+</strong> • Same-day pickup available • No hidden fees
                     </p>
                     <a
                       href="tel:6197500114"
@@ -472,7 +440,7 @@ export default function CouchRemovalPage() {
                       📞 Call (619) 750-0114 Now
                     </a>
                     <div className="bg-blue-800 rounded-lg p-4">
-                      <p className="text-yellow-300 font-semibold mb-2">🛋️ Couch Removal from $69 🛋️</p>
+                      <p className="text-yellow-300 font-semibold mb-2">🛋️ Couch Removal Starting at $69 🛋️</p>
                       <div className="text-sm">
                         <strong>Same-Day Service</strong> • <strong>No Hidden Fees</strong><br/>
                         <strong>We Donate & Recycle</strong> • <strong>All San Diego</strong>
@@ -501,7 +469,7 @@ export default function CouchRemovalPage() {
       {/* Pricing Section */}
       <LocationPricingSection
         locationName="Couch Removal"
-        contextParagraph="Starting at $69 for a single couch. Final price depends on size and access. Call (619) 750-0114 for exact quote. No hidden fees."
+        contextParagraph="Small sofas and loveseats start at $69. Standard couches are $100+. Final price depends on size and access. Call (619) 750-0114 for exact quote. No hidden fees."
       />
 
       {/* Trust Signals */}
