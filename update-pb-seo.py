@@ -53,8 +53,8 @@ faq_and_services = """
           <div className="max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-center mb-8">Popular Services in Pacific Beach</h3>
             <div className="grid md:grid-cols-5 gap-4 text-center">
-              <a href="/furniture-removal-san-diego/" className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow">
-                <p className="font-semibold text-blue-700">Furniture Removal</p>
+              <a href="/furniture-disposal-san-diego/" className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow">
+                <p className="font-semibold text-blue-700">Furniture Disposal</p>
               </a>
               <a href="/appliance-removal-san-diego/" className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow">
                 <p className="font-semibold text-blue-700">Appliance Removal</p>

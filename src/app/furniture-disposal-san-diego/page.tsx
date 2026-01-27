@@ -322,7 +322,7 @@ export default function FurnitureDisposalPage() {
                           <ul className="space-y-2 text-gray-700">
                             <li>• <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline font-semibold">La Jolla</a> - Luxury furniture disposal</li>
                             <li>• <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline font-semibold">Pacific Beach</a> - Apartment furniture</li>
-                            <li>• <a href="/junk-removal-ocean-beach" className="text-blue-600 hover:underline font-semibold">Ocean Beach</a> - Beach community service</li>
+                            <li>• <a href="/junk-removal-carlsbad" className="text-blue-600 hover:underline font-semibold">Carlsbad</a> - Coastal community service</li>
                             <li>• <a href="/junk-removal-point-loma" className="text-blue-600 hover:underline font-semibold">Point Loma</a> - Waterfront homes</li>
                             <li>• <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline font-semibold">Del Mar</a> - Estate furniture</li>
                             <li>• Mission Beach - Vacation rental cleanouts</li>
@@ -348,10 +348,10 @@ export default function FurnitureDisposalPage() {
                           <h4 className="font-bold text-lg mb-4 text-blue-900">North County</h4>
                           <ul className="space-y-2 text-gray-700">
                             <li>• <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline font-semibold">Oceanside</a> - Beach & inland</li>
-                            <li>• <a href="/junk-removal-carlsbad" className="text-blue-600 hover:underline font-semibold">Carlsbad</a> - Coastal service</li>
+                            <li>• <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline font-semibold">Pacific Beach</a> - Beach town living</li>
                             <li>• <a href="/junk-removal-escondido" className="text-blue-600 hover:underline font-semibold">Escondido</a> - North inland</li>
                             <li>• <a href="/junk-removal-vista" className="text-blue-600 hover:underline font-semibold">Vista</a> - Residential areas</li>
-                            <li>• <a href="/junk-removal-encinitas" className="text-blue-600 hover:underline font-semibold">Encinitas</a> - Surf community</li>
+                            <li>• <a href="/junk-removal-carlsbad" className="text-blue-600 hover:underline font-semibold">Carlsbad</a> - Coastal service</li>
                             <li>• <a href="/junk-removal-san-marcos" className="text-blue-600 hover:underline font-semibold">San Marcos</a> - Family neighborhoods</li>
                             <li>• <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline font-semibold">Rancho Santa Fe</a> - Luxury estates</li>
                           </ul>

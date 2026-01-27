@@ -60,6 +60,7 @@ export const metadata: Metadata = {
 
 export default function AreasWeServePage() {
   const areas = [
+    { name: "Carlsbad", link: "/junk-removal-carlsbad", description: "North County coastal community" },
     { name: "Carmel Valley", link: "/junk-removal-carmel-valley", description: "Upscale planned community" },
     { name: "Chula Vista", link: "/junk-removal-chula-vista", description: "Large suburban city" },
     { name: "Clairemont", link: "/junk-removal-clairemont", description: "Family-friendly mid-century homes" },
@@ -79,6 +80,7 @@ export default function AreasWeServePage() {
     { name: "Point Loma", link: "/junk-removal-point-loma", description: "Harbor views and naval community" },
     { name: "Poway", link: "/junk-removal-poway", description: "City in the country" },
     { name: "Rancho Santa Fe", link: "/junk-removal-rancho-santa-fe", description: "Exclusive equestrian community" },
+    { name: "San Marcos", link: "/junk-removal-san-marcos", description: "North County's fastest-growing community" },
     { name: "Santee", link: "/junk-removal-santee", description: "Growing family community" },
     { name: "Spring Valley", link: "/junk-removal-spring-valley", description: "Hillside homes and apartments" },
     { name: "Vista", link: "/junk-removal-vista", description: "Family neighborhoods and business" }
@@ -155,7 +157,7 @@ export default function AreasWeServePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">23 Communities</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">25 Communities</h3>
                 <p className="text-gray-600">Serving established neighborhoods across San Diego County</p>
               </div>
 
