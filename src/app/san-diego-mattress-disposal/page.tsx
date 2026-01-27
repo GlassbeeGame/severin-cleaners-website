@@ -12,7 +12,7 @@ import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
   title: "Mattress Disposal San Diego | Same-Day Recycling & Removal | (619) 750-0114",
-  description: "Professional mattress disposal San Diego. Same-day mattress recycling, removal & pick up starting at $100. Eco-friendly, licensed & insured. Serving all SD County.",
+  description: "Professional mattress disposal San Diego. Mattress removal $100 (general junk removal from $69). Same-day service, eco-friendly recycling. Call (619) 750-0114.",
   keywords: [
     "mattress disposal san diego",
     "mattress recycling san diego",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Mattress Disposal San Diego | Same-Day Recycling & Removal",
-    description: "Professional mattress disposal San Diego. Same-day mattress recycling, removal & pick up starting at $100. Eco-friendly, licensed & insured.",
+    description: "Professional mattress disposal San Diego. Mattress removal $100 (general junk removal from $69). Same-day service, eco-friendly recycling.",
     url: 'https://severincleaners.com/san-diego-mattress-disposal',
     siteName: 'Severin Cleaners',
     type: 'website',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: "Mattress Disposal San Diego | Same-Day Recycling & Removal",
-    description: "Professional mattress disposal San Diego. Same-day mattress recycling, removal & pick up starting at $100. Eco-friendly, licensed & insured.",
+    description: "Professional mattress disposal San Diego. Mattress removal $100 (general junk removal from $69). Same-day service, eco-friendly recycling.",
     images: ['https://severincleaners.com/og-image.jpg'],
   },
   alternates: {
@@ -196,7 +196,7 @@ export default function MattressDisposalPage() {
         <OptimizedGradientHero
           title="Mattress Disposal San Diego | Recycling & Removal"
           subtitle="⭐ Same-Day Mattress Pick Up • Eco-Friendly Recycling • Licensed & Insured"
-          description="✓ Starting at $100 ✓ All San Diego County ✓ Professional Mattress Removal San Diego"
+          description="✓ Mattress removal $100 ✓ General junk removal from $69 ✓ All San Diego County"
         />
 
         {/* Main Content Section with 2-Column Layout */}
@@ -210,7 +210,7 @@ export default function MattressDisposalPage() {
                     Professional Mattress Disposal San Diego Trusts
                   </h2>
                   <p className="text-xl text-gray-600 mb-6">
-                    When you need reliable <strong>mattress disposal San Diego</strong>, Severin Cleaners delivers fast, affordable, and eco-friendly service throughout San Diego County. Our professional <strong>mattress removal San Diego</strong> team provides same-day <strong>mattress pick up San Diego</strong> service starting at just $100, including all labor, hauling, and responsible <strong>mattress recycling San Diego</strong> or compliant disposal.
+                    When you need reliable <strong>mattress disposal San Diego</strong>, Severin Cleaners delivers fast, affordable, and eco-friendly service throughout San Diego County. Our professional <strong>mattress removal San Diego</strong> team provides same-day <strong>mattress pick up San Diego</strong> service at $100 for mattresses (our general junk removal starts at $69 for small items), including all labor, hauling, and responsible <strong>mattress recycling San Diego</strong> or compliant disposal.
                   </p>
                   <p className="text-lg text-gray-700 mb-8 leading-relaxed">
                     Whether you're upgrading your bedroom, clearing out a rental property in <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a>, handling an estate cleanout in <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, or managing a property turnover in <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, our <strong>mattress disposal San Diego</strong> service handles everything from single mattresses to complete bedroom furniture removal. We serve all San Diego neighborhoods including <a href="/junk-removal-north-park" className="text-blue-600 hover:underline">North Park</a>, <a href="/junk-removal-hillcrest" className="text-blue-600 hover:underline">Hillcrest</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>, and <a href="/junk-removal-clairemont" className="text-blue-600 hover:underline">Clairemont</a>.
@@ -310,7 +310,7 @@ export default function MattressDisposalPage() {
                           </li>
                         </ul>
                         <p className="mt-4 font-semibold text-red-800">
-                          Real DIY cost: $100-200+ in rental, fuel, time, and physical effort
+                          Real DIY cost: $100-200+ in rental, fuel, time, physical effort, and risk
                         </p>
                       </div>
 
@@ -558,7 +558,7 @@ export default function MattressDisposalPage() {
         {/* Pricing Section */}
         <LocationPricingSection
           locationName="Mattress Disposal"
-          contextParagraph="Mattress pickup typically starts around $100, depending on location, access, and total load size. We can handle multiple items in one trip including box springs, bed frames, and other furniture. Every price includes hauling, labor, and responsible disposal."
+          contextParagraph="Mattress removal is $100 (standard-sized items). Our general junk removal pricing starts at $69 for small items like chairs. We can handle multiple items in one trip including box springs, bed frames, and other furniture. Every price includes hauling, labor, and responsible disposal."
         />
 
         {/* Trust Signals Section */}
