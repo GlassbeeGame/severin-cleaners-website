@@ -11,8 +11,8 @@ import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/s
 import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
-  title: 'Junk Removal El Cajon | East County\'s #1 Rated | (619) 750-0114',
-  description: 'Professional junk removal El Cajon serving Fletcher Hills, Rancho San Diego, Granite Hills. Same-day service, estate cleanouts, scrap metal recycling. Licensed & insured. Call (619) 750-0114.',
+  title: 'Junk Removal El Cajon | #1 Rated | (619) 750-0114',
+  description: 'Expert junk removal in El Cajon. Same-day service, transparent pricing, 4.9★ rated. Serving Fletcher Hills & East County. Call (619) 750-0114',
   keywords: [
     'junk removal El Cajon',
     'scrap metal removal El Cajon',
@@ -147,7 +147,7 @@ export default function JunkRemovalElCajonPage() {
         }
       }
     ],
-    "openingHours": "Mo-Su 06:00-20:00",
+    "openingHours": "Mo-Su 00:00-23:59",
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.9",

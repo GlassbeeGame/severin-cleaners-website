@@ -152,7 +152,7 @@ export default function SanDiegoJunkRemovalPage() {
       },
       "geoRadius": "50000"
     },
-    "openingHours": "Mo-Su 06:00-20:00",
+    "openingHours": "Mo-Su 00:00-23:59",
     "aggregateRating": generateAggregateRatingSchema(),
     "hasOfferCatalog": {
       "@type": "OfferCatalog",

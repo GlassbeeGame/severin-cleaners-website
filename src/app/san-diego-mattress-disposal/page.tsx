@@ -142,7 +142,7 @@ export default function MattressDisposalPage() {
         "name": "California"
       }
     },
-    "openingHours": "Mo-Su 06:00-20:00",
+    "openingHours": "Mo-Su 00:00-23:59",
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Mattress Disposal Services",

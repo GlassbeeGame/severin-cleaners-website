@@ -159,7 +159,7 @@ export default function JunkRemovalSpringValleyPage() {
         "addressRegion": "CA"
       }
     ],
-    "openingHours": "Mo-Su 06:00-20:00",
+    "openingHours": "Mo-Su 00:00-23:59",
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.9",

@@ -148,7 +148,7 @@ export default function CommercialjunkremovalsandiegoPage() {
         }
       }
     ],
-    "openingHours": "Mo-Su 06:00-20:00",
+    "openingHours": "Mo-Su 00:00-23:59",
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Commercial Junk Removal Services",

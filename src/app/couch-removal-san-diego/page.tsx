@@ -11,8 +11,8 @@ import LocationPricingSection from "@/components/LocationPricingSection";
 import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
-  title: 'Couch Removal San Diego | Same-Day Sofa Disposal & Pickup',
-  description: 'Affordable couch removal in San Diego starting at $100. Same-day sofa disposal, upfront pricing, and responsible recycling by a local hauling team. Call (619) 750-0114.',
+  title: '$69 Couch Removal San Diego | Same-Day Pickup | Severin Cleaners',
+  description: 'Couch removal in San Diego from $69. Same-day pickup. We lift, haul & dispose. No hidden fees. Call (619) 750-0114 for a free quote.',
   keywords: [
     'couch removal San Diego',
     'sofa disposal San Diego',
@@ -24,8 +24,8 @@ export const metadata: Metadata = {
     'recliner removal San Diego'
   ],
   openGraph: {
-    title: 'Couch Removal San Diego | Same-Day Sofa Disposal & Pickup',
-    description: 'Affordable couch removal in San Diego starting at $100. Same-day sofa disposal, upfront pricing, and responsible recycling by a local hauling team. Call (619) 750-0114.',
+    title: '$69 Couch Removal San Diego | Same-Day Pickup | Severin Cleaners',
+    description: 'Couch removal in San Diego from $69. Same-day pickup. We lift, haul & dispose. No hidden fees. Call (619) 750-0114 for a free quote.',
     url: 'https://severincleaners.com/couch-removal-san-diego',
     siteName: 'Severin Cleaners',
     images: [{
@@ -39,8 +39,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Couch Removal San Diego | Same-Day Sofa Disposal & Pickup',
-    description: 'Affordable couch removal in San Diego starting at $100. Same-day sofa disposal, upfront pricing, and responsible recycling by a local hauling team. Call (619) 750-0114.',
+    title: '$69 Couch Removal San Diego | Same-Day Pickup | Severin Cleaners',
+    description: 'Couch removal in San Diego from $69. Same-day pickup. We lift, haul & dispose. No hidden fees. Call (619) 750-0114 for a free quote.',
     images: ['https://severincleaners.com/og-image.jpg'],
   },
   alternates: {
@@ -75,30 +75,50 @@ const relatedServices = [
 const couchFAQs = [
   {
     question: "How much does couch removal cost in San Diego?",
-    answer: "Most pickups start around $100 for a single couch, with final pricing based on access and size."
+    answer: "Couch removal starts at $69 in San Diego. That's for a standard sofa with easy access. Bigger couches cost more. Sectionals run $99-149. Sleeper sofas are $89-129. Stairs and tight spaces don't change the price. We give you the exact cost over the phone. No surprises. No hidden fees. Call (619) 750-0114 for a free quote."
   },
   {
     question: "Do you offer same-day couch disposal?",
-    answer: "Yes, we provide same-day or next-day San Diego couch disposal across most neighborhoods."
+    answer: "Yes! Call before noon and we can usually come the same day. Same-day works best in central San Diego. Think North Park, Hillcrest, Mission Valley, Downtown. Live in Chula Vista, El Cajon, or Oceanside? Same-day depends on our schedule. But we always offer next-day pickup if today doesn't work. Call us to check: (619) 750-0114."
   },
   {
     question: "Can you remove sectionals or oversized sofas?",
-    answer: "Absolutely. We handle large and heavy furniture, including sectionals, recliners, and sleeper sofas."
+    answer: "Yes. Big couches are our specialty. We remove L-shaped sectionals, U-shaped sectionals, sleeper sofas, and oversized recliners. No couch is too big. Need it taken apart? We'll disassemble it. Tight doorway? Narrow stairs? We've seen it all. Our two-person crews handle heavy furniture every day. We'll get it out safely."
   },
   {
     question: "Do you recycle couches?",
-    answer: "We recycle or donate when possible, coordinating with local San Diego facilities and charities."
+    answer: "Yes. We don't just dump everything at the landfill. Good couches get donated. We work with Habitat for Humanity and San Diego Rescue Mission. Couches that can't be donated get broken down. Wood, metal, and foam go to recycling. Only true junk goes to the landfill. Your old couch gets a second life when possible."
   },
   {
     question: "Do you serve apartments or high-rises downtown?",
-    answer: "Yes, we specialize in sofa removal San Diego apartments with stair or elevator access limitations."
+    answer: "Yes. We remove couches from apartments every day. Downtown, East Village, Little Italy, Gaslamp—we know these buildings. Elevators, stairs, narrow hallways? No problem. We protect your walls and floors during removal. We coordinate with building management if needed. No extra charge for stairs or elevators. You pay based on couch size only."
+  },
+  {
+    question: "How do I dispose of a couch in San Diego?",
+    answer: "You have a few options: Hire a pro—We start at $69. Same-day available. We do all the work. City pickup—Free, but you wait 1-2 weeks. You move it to the curb. Miramar Landfill—$40-60 plus your time. You need a truck. Donate it—Free if it's in good shape. Takes 3-7 days. Most people choose pro removal. It's fast and easy."
+  },
+  {
+    question: "What is the cheapest way to get rid of a couch?",
+    answer: "The cheapest option is the city's free bulky pickup. But there's a catch: you wait 1-2 weeks and move it to the curb yourself. Have a nice couch? Donation pickup is free too. Need it gone fast? Pro removal starts at $69. That's often cheaper than renting a truck and paying dump fees yourself. Time is money. Pick what works for you."
+  },
+  {
+    question: "How much does it cost to remove a large couch?",
+    answer: "Here's the breakdown: Regular sofa—$69+. Sectional (L or U shaped)—$99-149. Sleeper sofa—$89-129. Oversized recliner—$79-99. Price depends on size and number of pieces. We quote exact pricing over the phone. Call (619) 750-0114. We'll tell you the cost in 2 minutes."
+  },
+  {
+    question: "Will you remove a couch from upstairs?",
+    answer: "Yes. Upstairs, downstairs, any floor. We do second-story bedrooms, basement rec rooms, and high-rise apartments. Stairs don't scare us. Our crews handle tight turns and narrow stairwells daily. We protect your walls and railings too. Best part? No extra charge for stairs. Price is based on couch size only."
+  },
+  {
+    question: "Do you take couches with bed bugs or stains?",
+    answer: "Yes. We take couches in any condition. Stained? We'll take it. Torn? We'll take it. Bed bugs? We'll take it. Pet damage? We'll take it. Donation centers and city pickup won't touch these. We will. No judgment. No extra charge. If you need it gone, we'll remove it."
   }
 ];
 
 export default function CouchRemovalPage() {
   const serviceSchema = generateServiceSchema({
     name: "Couch Removal San Diego",
-    description: "Affordable couch removal in San Diego starting at $100. Same-day sofa disposal, upfront pricing, and responsible recycling. We handle sectionals, loveseats, recliners, and all furniture types.",
+    description: "Affordable couch removal in San Diego starting at $69. Same-day sofa disposal, upfront pricing, and responsible recycling. We handle sectionals, loveseats, recliners, and all furniture types.",
     url: "https://severincleaners.com/couch-removal-san-diego",
     serviceType: "Couch and Sofa Removal Service",
     areaServed: "San Diego County, CA",
@@ -117,7 +137,7 @@ export default function CouchRemovalPage() {
     "name": "Severin Cleaners - Couch Removal San Diego",
     "image": "https://severincleaners.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
-    "priceRange": "$100-$495",
+    "priceRange": "$69-$495",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "San Diego",
@@ -146,7 +166,7 @@ export default function CouchRemovalPage() {
       },
       "geoRadius": "50000"
     },
-    "openingHours": "Mo-Su 06:00-20:00",
+    "openingHours": "Mo-Su 00:00-23:59",
     "aggregateRating": generateAggregateRatingSchema()
   };
 
@@ -166,7 +186,7 @@ export default function CouchRemovalPage() {
       <OptimizedGradientHero
         title="Couch Removal San Diego & Sofa Disposal Services"
         subtitle="Same-Day Couch Pickup • Licensed & Insured • Honest Pricing • 5.0 Rating"
-        description="Starting at $100 • Serving All of San Diego County"
+        description="Starting at $69 • Serving All of San Diego County"
       />
 
       {/* Main Content with Sidebar */}
@@ -179,62 +199,171 @@ export default function CouchRemovalPage() {
                 <div className="prose prose-lg max-w-none">
                   <h2 className="text-3xl font-bold text-gray-900 mb-6">Your San Diego Couch Removal Experts</h2>
 
-                  <p className="text-lg text-gray-700 mb-6">
-                    Need an old couch gone fast? Our locally owned San Diego couch removal team makes it easy. We handle everything—lifting, hauling, and proper disposal—so you don't have to drag your sofa to the curb or deal with dump lines. From <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> designer couches to <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a> sectionals and <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a> furniture, we offer same-day couch disposal San Diego residents rely on for quick, professional service.
+                  <p className="text-lg text-gray-700 mb-3">
+                    Need your old couch gone? We make it easy.
+                  </p>
+
+                  <p className="text-lg text-gray-700 mb-3">
+                    <strong>Severin Cleaners</strong> removes sofas starting at <strong>$69</strong> in San Diego. We do all the lifting. All the hauling. All the disposal.
+                  </p>
+
+                  <p className="text-lg text-gray-700 mb-3">
+                    You just point to the couch. We handle the rest.
+                  </p>
+
+                  <p className="text-lg text-gray-700 mb-3">
+                    Same-day pickup available. No dump runs. No heavy lifting.
+                  </p>
+
+                  <p className="text-lg text-gray-700 mb-3">
+                    From <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> sectionals to <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a> apartment couches—we've got you covered.
                   </p>
 
                   <p className="text-lg text-gray-700 mb-6">
-                    We serve all of San Diego County with eco-conscious removal in <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, <a href="/junk-removal-north-park" className="text-blue-600 hover:underline">North Park</a>, <a href="/junk-removal-hillcrest" className="text-blue-600 hover:underline">Hillcrest</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, and <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>. Whenever possible, we recycle or donate gently used sofas, loveseats, and recliners through local charities to keep furniture out of the landfill. Need to remove more than just a couch? Our full <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">complete furniture removal services</a> handles beds, tables, and all household furniture types, including <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">mattress and bed removal</a>. Need it gone today? Check out our <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day couch pickup</a> service.
+                    <strong>Call <a href="tel:6197500114" className="text-blue-600 hover:underline">(619) 750-0114</a> for a free quote.</strong>
+                  </p>
+
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Types of Couches We Remove</h3>
+
+                  <div className="grid md:grid-cols-2 gap-4 mb-8">
+                    <div>
+                      <h4 className="font-bold text-lg mb-2">Sectional Sofas</h4>
+                      <p className="text-gray-700 mb-4">L-shaped, U-shaped, any shape. We take them apart if needed.</p>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-lg mb-2">Sleeper Sofas</h4>
+                      <p className="text-gray-700 mb-4">Pull-out beds are heavy and awkward. We handle them daily.</p>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-lg mb-2">Loveseats</h4>
+                      <p className="text-gray-700 mb-4">Small two-seaters. Quick pickup, often same-day.</p>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-lg mb-2">Recliners</h4>
+                      <p className="text-gray-700 mb-4">Manual or electric. Big La-Z-Boy types too.</p>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-lg mb-2">Leather Couches</h4>
+                      <p className="text-gray-700 mb-4">Nice ones get donated. Damaged ones disposed of properly.</p>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-lg mb-2">Fabric Sofas</h4>
+                      <p className="text-gray-700 mb-4">Any condition. Stained, torn, outdated—we take them all.</p>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-lg mb-2">Futons</h4>
+                      <p className="text-gray-700 mb-4">Common in studios and guest rooms. Easy removal.</p>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-lg mb-2">Patio Furniture</h4>
+                      <p className="text-gray-700 mb-4">Outdoor sofas and wicker sets from yards and balconies.</p>
+                    </div>
+                  </div>
+
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Your Options: DIY vs Pro Removal</h3>
+
+                  <div className="overflow-x-auto mb-6">
+                    <table className="w-full border-collapse border border-gray-300">
+                      <thead>
+                        <tr className="bg-gray-100">
+                          <th className="border border-gray-300 px-4 py-2 text-left">Option</th>
+                          <th className="border border-gray-300 px-4 py-2 text-left">Cost</th>
+                          <th className="border border-gray-300 px-4 py-2 text-left">Your Work</th>
+                          <th className="border border-gray-300 px-4 py-2 text-left">Wait Time</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td className="border border-gray-300 px-4 py-2"><strong>Severin Cleaners</strong></td>
+                          <td className="border border-gray-300 px-4 py-2">$69+</td>
+                          <td className="border border-gray-300 px-4 py-2">None</td>
+                          <td className="border border-gray-300 px-4 py-2">Same day</td>
+                        </tr>
+                        <tr>
+                          <td className="border border-gray-300 px-4 py-2"><strong>Miramar Landfill</strong></td>
+                          <td className="border border-gray-300 px-4 py-2">$40-60</td>
+                          <td className="border border-gray-300 px-4 py-2">You load & haul</td>
+                          <td className="border border-gray-300 px-4 py-2">Half your day</td>
+                        </tr>
+                        <tr>
+                          <td className="border border-gray-300 px-4 py-2"><strong>City Pickup</strong></td>
+                          <td className="border border-gray-300 px-4 py-2">Free</td>
+                          <td className="border border-gray-300 px-4 py-2">Move to curb</td>
+                          <td className="border border-gray-300 px-4 py-2">1-2 weeks</td>
+                        </tr>
+                        <tr>
+                          <td className="border border-gray-300 px-4 py-2"><strong>Donation</strong></td>
+                          <td className="border border-gray-300 px-4 py-2">Free</td>
+                          <td className="border border-gray-300 px-4 py-2">Must be nice condition</td>
+                          <td className="border border-gray-300 px-4 py-2">3-7 days</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <p className="text-lg text-gray-700 mb-6 bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
+                    <strong>Think about your time.</strong> Renting a truck, driving to the dump, and unloading a heavy couch takes half a day. We do it for $69 while you relax.
+                  </p>
+
+                  <p className="text-lg text-gray-700 mb-6">
+                    We serve all of San Diego County. <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, <a href="/junk-removal-north-park" className="text-blue-600 hover:underline">North Park</a>, <a href="/junk-removal-hillcrest" className="text-blue-600 hover:underline">Hillcrest</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, and <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>. Need to remove more than just a couch? Check out our <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture removal services</a> and <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">mattress disposal</a>.
                   </p>
 
                   <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
-                    <h3 className="text-xl font-semibold text-blue-900 mb-2">Local Service Areas</h3>
-                    <p className="text-blue-800 mb-4">We provide full sofa removal San Diego coverage across the county, including:</p>
+                    <h3 className="text-xl font-semibold text-blue-900 mb-2">We Serve All of San Diego County</h3>
+                    <p className="text-blue-800 mb-4">We pick up couches everywhere:</p>
                     <ul className="text-blue-800 space-y-2">
-                      <li><strong>Downtown & Gaslamp Quarter</strong> – Apartment pickups and office furniture removal</li>
-                      <li><strong>North Park & Hillcrest</strong> – Urban homes with limited parking or stair access</li>
-                      <li><strong>Mission Valley & Clairemont</strong> – Condo and townhouse junk removal</li>
-                      <li><strong>La Jolla & Pacific Beach</strong> – Beachfront furniture disposal and large load hauling</li>
-                      <li><strong>Chula Vista & National City</strong> – Family homes and rental turnovers</li>
-                      <li><strong>East County & El Cajon</strong> – Larger property cleanouts and curbside pickup options</li>
+                      <li><strong>Downtown & Gaslamp Quarter</strong> – Apartments and high-rises</li>
+                      <li><strong>North Park & Hillcrest</strong> – Urban homes with tight access</li>
+                      <li><strong>Mission Valley & Clairemont</strong> – Condos and townhouses</li>
+                      <li><strong>La Jolla & Pacific Beach</strong> – Beach homes and large sofas</li>
+                      <li><strong>Chula Vista & National City</strong> – Family homes</li>
+                      <li><strong>East County & El Cajon</strong> – Big properties</li>
                     </ul>
-                    <p className="text-blue-700 mt-4">Most pickups are completed within 24 hours, with same-day availability in central San Diego, North Park, and Mission Valley.</p>
+                    <p className="text-blue-700 mt-4">Most pickups happen within 24 hours.</p>
+                    <p className="text-blue-700">Same-day available in central areas.</p>
                     <div className="mt-4 text-center">
                       <p className="text-blue-700 font-semibold">📞 Call (619) 750-0114 for immediate service</p>
                     </div>
                   </div>
 
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Driving Directions from Local Landmarks</h3>
-                  <p className="text-lg text-gray-700 mb-4">
-                    Our main San Diego route runs between Downtown, Mission Valley, and Clairemont, allowing fast access citywide:
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Fast Response Times</h3>
+                  <p className="text-lg text-gray-700 mb-3">
+                    We're based in San Diego. That means fast pickup.
                   </p>
-                  <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
-                    <li>From <strong>Petco Park</strong>, take 10th Ave north to I-8—our trucks can reach you in about 15 minutes.</li>
-                    <li>From <strong>Balboa Park</strong>, we're only a 10-minute drive via Park Blvd and University Ave.</li>
-                    <li>From <strong>UC San Diego or La Jolla Village</strong>, we're about 20 minutes south down I-5.</li>
+                  <ul className="list-disc pl-6 mb-4 space-y-2 text-gray-700">
+                    <li>From <strong>Petco Park</strong>: 15 minutes</li>
+                    <li>From <strong>Balboa Park</strong>: 10 minutes</li>
+                    <li>From <strong>UC San Diego</strong>: 20 minutes</li>
                   </ul>
                   <p className="text-lg text-gray-700 mb-6">
-                    This proximity ensures faster service times than out-of-county haulers who route trucks from Riverside or Orange County.
+                    We're faster than out-of-town haulers from Riverside or Orange County.
                   </p>
 
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Weather & Traffic Challenges We Handle</h3>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">We Handle Tricky Situations</h3>
+                  <p className="text-lg text-gray-700 mb-3">
+                    Tight parking? We deal with it.
+                  </p>
+                  <p className="text-lg text-gray-700 mb-3">
+                    Beach traffic? We work around it.
+                  </p>
                   <p className="text-lg text-gray-700 mb-6">
-                    San Diego's mild climate is great for living—but not for hauling. Parking restrictions, beach traffic, and narrow driveways can make couch removal tricky. Our drivers plan around rush-hour congestion, coastal parking limits, and multi-level buildings. During rainy winter weeks, we provide covered hauling to protect furniture during transport, especially in La Jolla, Pacific Beach, and the South Bay.
+                    Narrow driveways? We've seen worse. Our drivers know San Diego. We plan routes around traffic and parking limits.
                   </p>
 
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Major Employers & Businesses We Serve</h3>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Business & Property Managers</h3>
                   <p className="text-lg text-gray-700 mb-4">
-                    We partner with local property managers, offices, and residential complexes tied to major San Diego employers, including:
+                    We work with apartments, offices, and hotels:
                   </p>
-                  <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
-                    <li><strong>UC San Diego</strong> housing departments</li>
+                  <ul className="list-disc pl-6 mb-4 space-y-2 text-gray-700">
+                    <li><strong>UC San Diego</strong> housing</li>
                     <li><strong>Sharp Healthcare</strong> facilities</li>
-                    <li><strong>Qualcomm & corporate offices</strong> in Sorrento Valley</li>
-                    <li>Hotel and AirBnB owners near <strong>Mission Beach & Gaslamp</strong></li>
-                    <li>Retail centers like <strong>Fashion Valley and Westfield UTC</strong></li>
+                    <li><strong>Qualcomm</strong> offices in Sorrento Valley</li>
+                    <li>Hotels and AirBnBs near Mission Beach</li>
+                    <li>Retail centers like Fashion Valley</li>
                   </ul>
                   <p className="text-lg text-gray-700 mb-6">
-                    We provide flexible pickup times for business hours, tenant turnovers, and hotel refreshes.
+                    We offer flexible pickup times. Business hours or after hours.
                   </p>
 
                   <h2 className="text-3xl font-bold text-gray-900 mb-4">Neighborhood-Specific Solutions</h2>
@@ -266,20 +395,26 @@ export default function CouchRemovalPage() {
                     </div>
                   </div>
 
-                  <h2 className="text-3xl font-bold text-gray-900 mb-4">Couch Disposal vs. the San Diego Dump</h2>
+                  <h2 className="text-3xl font-bold text-gray-900 mb-4">Skip the Dump</h2>
+                  <p className="text-lg text-gray-700 mb-3">
+                    Going to Miramar Landfill is a hassle.
+                  </p>
+                  <p className="text-lg text-gray-700 mb-3">
+                    You need a truck. You wait in dump lines. You lift the couch yourself.
+                  </p>
                   <p className="text-lg text-gray-700 mb-6">
-                    Dragging a couch to the Miramar Landfill or city dump can take hours, require a permit, and cost more than you think. Our couch removal San Diego service is faster, cleaner, and fully handled by professionals. We load, haul, and dispose responsibly—no appointments, no dump lines, and no lifting.
+                    We make it simple. One call and we handle everything. No lifting. No driving. No waiting.
                   </p>
 
                   <h2 className="text-3xl font-bold text-gray-900 mb-4">Pricing & Service Options</h2>
                   <p className="text-lg text-gray-700 mb-4">
-                    Our pricing includes labor, hauling, and disposal fees.
+                    Our pricing includes labor, hauling, and disposal fees. Final price depends on size and access. Call <strong>(619) 750-0114</strong> for an exact quote.
                   </p>
                   <div className="bg-gray-50 rounded-lg p-6 mb-8">
                     <div className="grid md:grid-cols-2 gap-4">
                       <div className="flex justify-between items-center py-2 border-b border-gray-300">
-                        <span className="font-semibold text-gray-700">Single Couch or Sofa Pickup (starting at $100)</span>
-                        <span className="text-xl font-bold text-blue-600">$100</span>
+                        <span className="font-semibold text-gray-700">Single Couch or Sofa Pickup</span>
+                        <span className="text-xl font-bold text-blue-600">$69+</span>
                       </div>
                       <div className="flex justify-between items-center py-2 border-b border-gray-300">
                         <span className="font-semibold text-gray-700">¼ Truck (3 cu yd)</span>
@@ -299,24 +434,36 @@ export default function CouchRemovalPage() {
                       </div>
                     </div>
                     <p className="text-gray-700 mt-4 text-center">
-                      Perfect for a living room set. Call us for an exact quote—prices are always upfront and based on volume and access.
+                      <strong>Starting at $69</strong> for a single couch. Final price depends on size and access. Must call <strong>(619) 750-0114</strong> for exact quote. No hidden fees.
                     </p>
                   </div>
 
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Local Competitor Comparison</h3>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Choose Us Over Big Franchises</h3>
+                  <p className="text-lg text-gray-700 mb-3">
+                    <strong>We're local.</strong> That means faster service.
+                  </p>
+                  <p className="text-lg text-gray-700 mb-3">
+                    <strong>No hidden fees.</strong> Other companies charge extra for stairs. We don't.
+                  </p>
                   <p className="text-lg text-gray-700 mb-6">
-                    Unlike national junk franchises, we're San Diego-based, which means faster arrival and lower fuel costs. Competitors often charge surcharges for stairs, tight access, or late pickups—our quotes already include those. We also recycle and donate when possible, while many competitors haul straight to the dump.
+                    <strong>We recycle.</strong> Many competitors dump everything. We donate good couches.
                   </p>
 
-                  <h2 className="text-3xl font-bold text-gray-900 mb-4">Eco-Friendly Furniture Recycling</h2>
+                  <h2 className="text-3xl font-bold text-gray-900 mb-4">We Recycle When Possible</h2>
+                  <p className="text-lg text-gray-700 mb-3">
+                    Good couches get donated. We work with San Diego Rescue Mission and Habitat for Humanity.
+                  </p>
+                  <p className="text-lg text-gray-700 mb-3">
+                    Damaged couches get broken down. Wood and metal go to recycling.
+                  </p>
                   <p className="text-lg text-gray-700 mb-6">
-                    When couches are in good shape, we work with local charities like the San Diego Rescue Mission and Habitat for Humanity ReStore to give them a second life. Damaged or non-recyclable pieces are disposed of responsibly through licensed facilities. Our goal is to reduce landfill waste while keeping your removal quick and affordable.
+                    Only true junk goes to the landfill. We keep as much out of dumps as possible.
                   </p>
 
                   <div className="text-center bg-blue-900 text-white p-8 rounded-lg mt-8">
-                    <h3 className="text-2xl font-bold mb-4">📞 Call (619) 750-0114 to schedule your San Diego couch removal today.</h3>
+                    <h3 className="text-2xl font-bold mb-4">Ready to Get Rid of Your Couch?</h3>
                     <p className="text-lg mb-6">
-                      Fast service, transparent pricing, and responsible disposal—locally owned and proud to serve every San Diego neighborhood.
+                      Starting at <strong>$69</strong>. Same-day pickup available. No hidden fees.
                     </p>
                     <a
                       href="tel:6197500114"
@@ -325,14 +472,14 @@ export default function CouchRemovalPage() {
                       📞 Call (619) 750-0114 Now
                     </a>
                     <div className="bg-blue-800 rounded-lg p-4">
-                      <p className="text-yellow-300 font-semibold mb-2">🛋️ Couch Removal Special 🛋️</p>
+                      <p className="text-yellow-300 font-semibold mb-2">🛋️ Couch Removal from $69 🛋️</p>
                       <div className="text-sm">
-                        <strong>Same-Day Service Available</strong> • <strong>Transparent Pricing</strong><br/>
-                        <strong>Eco-Friendly Recycling</strong> • <strong>All San Diego Neighborhoods</strong>
+                        <strong>Same-Day Service</strong> • <strong>No Hidden Fees</strong><br/>
+                        <strong>We Donate & Recycle</strong> • <strong>All San Diego</strong>
                       </div>
                     </div>
                     <p className="text-sm mt-4">
-                      Licensed & insured • Same-day service • Locally owned San Diego couch removal specialists
+                      Licensed & insured • Locally owned • Fast & professional
                     </p>
                   </div>
                 </div>
@@ -354,7 +501,7 @@ export default function CouchRemovalPage() {
       {/* Pricing Section */}
       <LocationPricingSection
         locationName="Couch Removal"
-        contextParagraph="Our pricing includes labor, hauling, and disposal fees. Perfect for a living room set. Call us for an exact quote—prices are always upfront and based on volume and access."
+        contextParagraph="Starting at $69 for a single couch. Final price depends on size and access. Call (619) 750-0114 for exact quote. No hidden fees."
       />
 
       {/* Trust Signals */}
