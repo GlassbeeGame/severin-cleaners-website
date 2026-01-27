@@ -68,7 +68,7 @@ export const metadata: Metadata = {
 const emergencyFAQs = [
     {
       question: "What are your emergency junk removal prices?",
-      answer: "Single Item Pickup: Starting at $100, 1/4 Trailer Load: $249, 3/8 Trailer Load: $319, 1/2 Trailer Load: $349, 5/8 Trailer Load: $366, 3/4 Trailer Load: $429, 7/8 Trailer Load: $462, Full Trailer Load: $495. Prices include labor, hauling, proper disposal, and cleanup. Additional fees may apply for unusually heavy items or special handling."
+      answer: "Small Items: $69+ • Standard Items: $100+, 1/4 Trailer Load: $249, 3/8 Trailer Load: $319, 1/2 Trailer Load: $349, 5/8 Trailer Load: $366, 3/4 Trailer Load: $429, 7/8 Trailer Load: $462, Full Trailer Load: $495. Prices include labor, hauling, proper disposal, and cleanup. Additional fees may apply for unusually heavy items or special handling."
     },
     {
       question: "Do you offer same day junk removal in San Diego?",

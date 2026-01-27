@@ -68,7 +68,7 @@ export const metadata: Metadata = {
 const cleanoutFAQs = [
   {
     question: "What are your cleanout service prices in San Diego?",
-    answer: "Our cleanout services San Diego pricing is volume-based and completely transparent. Pricing includes: Single Item Pickup starting at $100, 1/4 Trailer Load (3 cubic yards) for $249, 1/2 Trailer Load (6 cubic yards) for $349, and Full Trailer Load (12 cubic yards) for $495. We also offer 3/8 load ($319), 5/8 load ($366), 3/4 load ($429), and 7/8 load ($462) options. All pricing includes labor, hauling, eco-friendly disposal, and recycling or donation coordination. No hidden fees or surprise charges."
+    answer: "Our cleanout services San Diego pricing is volume-based and completely transparent. Pricing includes: Small Items starting at $69, Standard Items at $100, 1/4 Trailer Load (3 cubic yards) for $249, 1/2 Trailer Load (6 cubic yards) for $349, and Full Trailer Load (12 cubic yards) for $495. We also offer 3/8 load ($319), 5/8 load ($366), 3/4 load ($429), and 7/8 load ($462) options. All pricing includes labor, hauling, eco-friendly disposal, and recycling or donation coordination. No hidden fees or surprise charges."
   },
   {
     question: "Do you offer shed cleanout San Diego services?",

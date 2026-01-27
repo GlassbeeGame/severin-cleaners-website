@@ -207,7 +207,7 @@ export default function JunkRemovalCostGuide() {
                 <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-8 rounded-r-lg">
                   <h2 className="text-xl font-bold text-gray-900 mb-3">Quick Answer</h2>
                   <p className="text-gray-700 leading-relaxed">
-                    Junk removal in San Diego costs <strong>starting at $100</strong> depending on volume. Single items start at <strong>$100</strong>, while a full trailer load costs <strong>$495</strong>. Pricing includes labor, hauling, disposal fees, and eco-friendly recycling.
+                    Junk removal in San Diego costs <strong>starting at $69</strong> for small items, <strong>$100</strong> for standard items. Small items start at <strong>$69</strong>, standard items at <strong>$100</strong>, while a full trailer load costs <strong>$495</strong>. Pricing includes labor, hauling, disposal fees, and eco-friendly recycling.
                   </p>
                 </div>
 

@@ -64,7 +64,7 @@ export const metadata: Metadata = {
 const laMesaFAQs = [
   {
     question: "How much does junk removal La Mesa CA cost?",
-    answer: "Our junk removal La Mesa CA pricing is transparent and volume-based with no hidden fees. Single item removal starts at $100, perfect for one couch, mattress, or appliance. Quarter-load service costs $249 for small cleanouts like a closet or bathroom. Half-load runs $349 for garage corners or bedroom furniture sets. Three-quarter load is $429 for larger projects like full garage sections. Full-load service tops out at $495 for complete garage, estate, or commercial property cleanouts. All prices include labor, hauling, and disposal fees with no surcharges for hillside access in Mount Helix or downtown La Mesa Village parking challenges. We provide free estimates over the phone and confirm final pricing on-site before starting work. Our local La Mesa location means lower travel costs and faster response times compared to companies coming from North County or downtown San Diego."
+    answer: "Our junk removal La Mesa CA pricing is transparent and volume-based with no hidden fees. Small items start at $69. Standard items (couches, mattresses, appliances) start at $100. Quarter-load service costs $249 for small cleanouts like a closet or bathroom. Half-load runs $349 for garage corners or bedroom furniture sets. Three-quarter load is $429 for larger projects like full garage sections. Full-load service tops out at $495 for complete garage, estate, or commercial property cleanouts. All prices include labor, hauling, and disposal fees with no surcharges for hillside access in Mount Helix or downtown La Mesa Village parking challenges. We provide free estimates over the phone and confirm final pricing on-site before starting work. Our local La Mesa location means lower travel costs and faster response times compared to companies coming from North County or downtown San Diego."
   },
   {
     question: "Can you handle hillside homes in Mount Helix and Fletcher Hills?",
@@ -122,7 +122,7 @@ export default function JunkRemovalLaMesaPage() {
     "name": "Severin Cleaners LLC",
     "image": "https://severincleaners.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
-    "priceRange": "$100-$495",
+    "priceRange": "$69-$495",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "8900 Grossmont Blvd Ste 1",

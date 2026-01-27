@@ -112,7 +112,7 @@ export default function JunkremovalclairemontPage() {
     "name": "Severin Cleaners LLC",
     "image": "https://severincleaners.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
-    "priceRange": "$100-$495",
+    "priceRange": "$69-$495",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "8900 Grossmont Blvd Ste 1",

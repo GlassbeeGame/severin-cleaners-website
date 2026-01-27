@@ -69,7 +69,7 @@ export const metadata: Metadata = {
 const foreclosureFAQs = [
     {
       question: "What are your foreclosure and eviction cleanout prices?",
-      answer: "Our foreclosure junk removal San Diego and eviction junk removal San Diego pricing is based on volume: Single Item Pickup: Starting at $100, 1/4 Trailer Load: $249 (3 cubic yards), 3/8 Trailer Load: $319, 1/2 Trailer Load: $349 (6 cubic yards), 5/8 Trailer Load: $366, 3/4 Trailer Load: $429, 7/8 Trailer Load: $462, Full Trailer Load: $495 (12 cubic yards). All prices include labor, hauling, proper disposal, and cleanup. We provide detailed documentation for banks and property managers when requested."
+      answer: "Our foreclosure junk removal San Diego and eviction junk removal San Diego pricing is based on volume: Small Items: $69+ • Standard Items: $100+, 1/4 Trailer Load: $249 (3 cubic yards), 3/8 Trailer Load: $319, 1/2 Trailer Load: $349 (6 cubic yards), 5/8 Trailer Load: $366, 3/4 Trailer Load: $429, 7/8 Trailer Load: $462, Full Trailer Load: $495 (12 cubic yards). All prices include labor, hauling, proper disposal, and cleanup. We provide detailed documentation for banks and property managers when requested."
     },
     {
       question: "How quickly can you clear a foreclosure or eviction property?",

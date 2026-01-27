@@ -64,7 +64,7 @@ export const metadata: Metadata = {
 const vistaFAQs = [
   {
     question: "How much does junk removal Vista cost?",
-    answer: "Our junk removal vista pricing is transparent and volume-based with no hidden fees. Single item removal starts at $100, perfect for one couch, mattress, or appliance disposal. Quarter-load service costs $249 for small cleanouts like a closet, bathroom, or partial garage corner. Half-load runs $349 for bedroom furniture sets, garage sections, or apartment move-out cleanouts. Three-quarter load is $429 for larger projects like full garage cleanouts or multi-room furniture removal. Full-load service tops out at $495 for complete estate cleanouts, business liquidations, or whole-home junk removal throughout Vista neighborhoods. All prices include labor, hauling, disposal fees, and eco-friendly sorting with no surcharges for downtown access, Shadowridge hillside properties, or Business Park after-hours service. We provide free estimates over the phone and confirm final pricing on-site before starting work. Our North County location means faster response times and competitive pricing compared to companies traveling from central San Diego or coastal areas."
+    answer: "Our junk removal vista pricing is transparent and volume-based with no hidden fees. Small items start at $69. Standard items (couches, mattresses, appliances) start at $100 disposal. Quarter-load service costs $249 for small cleanouts like a closet, bathroom, or partial garage corner. Half-load runs $349 for bedroom furniture sets, garage sections, or apartment move-out cleanouts. Three-quarter load is $429 for larger projects like full garage cleanouts or multi-room furniture removal. Full-load service tops out at $495 for complete estate cleanouts, business liquidations, or whole-home junk removal throughout Vista neighborhoods. All prices include labor, hauling, disposal fees, and eco-friendly sorting with no surcharges for downtown access, Shadowridge hillside properties, or Business Park after-hours service. We provide free estimates over the phone and confirm final pricing on-site before starting work. Our North County location means faster response times and competitive pricing compared to companies traveling from central San Diego or coastal areas."
   },
   {
     question: "Do you handle apartment and condo junk hauling in Vista?",
@@ -122,7 +122,7 @@ export default function JunkRemovalVistaPage() {
     "name": "Severin Cleaners LLC",
     "image": "https://severincleaners.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
-    "priceRange": "$100-$495",
+    "priceRange": "$69-$495",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "8900 Grossmont Blvd Ste 1",

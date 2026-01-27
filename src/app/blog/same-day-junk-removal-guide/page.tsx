@@ -220,7 +220,7 @@ export default function SameDayJunkRemovalGuide() {
                 <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-8 rounded-r-lg">
                   <h2 className="text-xl font-bold text-gray-900 mb-3">Quick Answer</h2>
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, you can get junk removed the same day you call! <strong>Call before 2 PM</strong> at <a href="tel:+16197500114" className="text-blue-600 hover:text-blue-700 font-bold">(619) 750-0114</a> for same-day pickup. We operate <strong>7 days a week</strong> with <strong>no rush fees</strong>. Same-day service costs the same as scheduling in advance: <strong>starting at $100</strong> based on volume.
+                    Yes, you can get junk removed the same day you call! <strong>Call before 2 PM</strong> at <a href="tel:+16197500114" className="text-blue-600 hover:text-blue-700 font-bold">(619) 750-0114</a> for same-day pickup. We operate <strong>7 days a week</strong> with <strong>no rush fees</strong>. Same-day service costs the same as scheduling in advance: <strong>starting at $69</strong> for small items, <strong>$100</strong> for standard items.
                   </p>
                 </div>
 

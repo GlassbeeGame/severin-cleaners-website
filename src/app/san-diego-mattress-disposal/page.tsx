@@ -121,7 +121,7 @@ export default function MattressDisposalPage() {
     "name": "Severin Cleaners - Mattress Disposal San Diego",
     "image": "https://severincleaners.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
-    "priceRange": "$100-$495",
+    "priceRange": "$69-$495",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "San Diego",

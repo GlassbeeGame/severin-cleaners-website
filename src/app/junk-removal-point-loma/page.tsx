@@ -70,7 +70,7 @@ const pointLomaFAQs = [
   },
   {
     question: "How much does junk removal cost in Point Loma?",
-    answer: "Single Item Pickup: Starting at $100<br /> <strong>1/4 Trailer Load:</strong> $249<br /> <strong>3/8 Trailer Load:</strong> $319<br /> <strong>1/2 Trailer Load:</strong> $349<br /> <strong>5/8 Trailer Load:</strong> $366<br /> <strong>3/4 Trailer Load:</strong> $429<br /> <strong>7/8 Trailer Load:</strong> $462<br /> <strong>Full Trailer Load:</strong> $495"
+    answer: "Small Items: $69+ • Standard Items: $100+<br /> <strong>1/4 Trailer Load:</strong> $249<br /> <strong>3/8 Trailer Load:</strong> $319<br /> <strong>1/2 Trailer Load:</strong> $349<br /> <strong>5/8 Trailer Load:</strong> $366<br /> <strong>3/4 Trailer Load:</strong> $429<br /> <strong>7/8 Trailer Load:</strong> $462<br /> <strong>Full Trailer Load:</strong> $495"
   },
   {
     question: "Do you handle coastal property cleanouts and storm debris?",
@@ -112,7 +112,7 @@ export default function JunkRemovalPointLomaPage() {
     "name": "Severin Cleaners LLC",
     "image": "https://severincleaners.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
-    "priceRange": "$100-$495",
+    "priceRange": "$69-$495",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "8900 Grossmont Blvd Ste 1",

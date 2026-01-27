@@ -64,7 +64,7 @@ export const metadata: Metadata = {
 const santeeFAQs = [
   {
     question: "How much does junk removal Santee cost?",
-    answer: "Our junk removal Santee pricing is transparent and upfront with no hidden fees. Single item pickup starts at $100, perfect for removing one couch or appliance from your Santee home. Quarter-load service costs $249, ideal for small cleanouts like a closet or bathroom corner. Half-load runs $349 for garage sections or bedroom furniture removal. Three-quarter load is $429 for larger projects like full garage sections or multiple room cleanouts, and full-load service tops out at $495 for complete garage, apartment, or estate cleanouts. All prices include labor, hauling, disposal fees, and cleanup. Properties throughout Santee—whether you're in Carlton Hills, Sky Ranch, Santee Trolley Square, or Carlton Oaks—all receive the same transparent pricing with no surcharges for hillside access or apartment complex coordination. We provide free estimates over the phone by describing your items, and confirm final pricing on-site before starting work, ensuring you know exactly what you'll pay. Most Santee garage cleanouts range from quarter-truck to half-truck loads, with clear pricing communicated upfront before we touch anything. Family homes with two-car or three-car garages often accumulate storage over years—we handle everything from recreational equipment and seasonal decorations to old furniture and appliance upgrades with efficient, professional service that gets your garage space back for its intended purpose."
+    answer: "Our junk removal Santee pricing is transparent and upfront with no hidden fees. Small items start at $69. Standard items (couches, appliances, mattresses) start at $100 from your Santee home. Quarter-load service costs $249, ideal for small cleanouts like a closet or bathroom corner. Half-load runs $349 for garage sections or bedroom furniture removal. Three-quarter load is $429 for larger projects like full garage sections or multiple room cleanouts, and full-load service tops out at $495 for complete garage, apartment, or estate cleanouts. All prices include labor, hauling, disposal fees, and cleanup. Properties throughout Santee—whether you're in Carlton Hills, Sky Ranch, Santee Trolley Square, or Carlton Oaks—all receive the same transparent pricing with no surcharges for hillside access or apartment complex coordination. We provide free estimates over the phone by describing your items, and confirm final pricing on-site before starting work, ensuring you know exactly what you'll pay. Most Santee garage cleanouts range from quarter-truck to half-truck loads, with clear pricing communicated upfront before we touch anything. Family homes with two-car or three-car garages often accumulate storage over years—we handle everything from recreational equipment and seasonal decorations to old furniture and appliance upgrades with efficient, professional service that gets your garage space back for its intended purpose."
   },
   {
     question: "Do you handle garage cleanouts and bulky item pickup in Santee?",
@@ -122,7 +122,7 @@ export default function JunkRemovalSanteePage() {
     "name": "Severin Cleaners LLC",
     "image": "https://severincleaners.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
-    "priceRange": "$100-$495",
+    "priceRange": "$69-$495",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "8900 Grossmont Blvd Ste 1",

@@ -11,7 +11,7 @@ import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
   title: 'Same Day Junk Removal San Diego | Today Pickup | Severin Cleaners',
-  description: 'Need junk removed TODAY? Fast same day junk removal in San Diego. Available 7 days, arrive within hours. Call (619) 750-0114 for immediate pickup. Starting at $100.',
+  description: 'Need junk removed TODAY? Fast same day junk removal in San Diego. Available 7 days, arrive within hours. Small items $69+, standard $100+. Call (619) 750-0114.',
   keywords: [
     'same day junk removal san diego',
     'same day junk pickup san diego',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Same Day Junk Removal San Diego | Today Pickup | Severin Cleaners',
-    description: 'Need junk removed TODAY? Fast same day junk removal in San Diego. Available 7 days, arrive within hours. Starting at $100.',
+    description: 'Need junk removed TODAY? Fast same day junk removal in San Diego. Available 7 days, arrive within hours. Small items $69+, standard $100+.',
     url: 'https://severincleaners.com/same-day-junk-removal-san-diego',
     siteName: 'Severin Cleaners',
     type: 'website',
@@ -83,7 +83,7 @@ const sameDayFAQs = [
     },
     {
       question: "Is same day junk removal more expensive?",
-      answer: "No! We don't charge emergency fees or rush charges for immediate junk removal San Diego. Same day service costs exactly the same as scheduling for next week. Our pricing starts at $100 for single items and goes up to $495 for a full trailer load. Unlike some competitors, we believe in transparent pricing without penalizing customers who need urgent service."
+      answer: "No! We don't charge emergency fees or rush charges for immediate junk removal San Diego. Same day service costs exactly the same as scheduling for next week. Our pricing starts at $69 for small items and $100 for standard items, up to $495 for a full trailer load. Unlike some competitors, we believe in transparent pricing without penalizing customers who need urgent service."
     },
     {
       question: "What areas in San Diego qualify for same day service?",
@@ -106,7 +106,7 @@ const sameDayFAQs = [
 export default function SameDayJunkRemovalPage() {
   const serviceSchema = generateServiceSchema({
     name: "Same Day Junk Removal San Diego",
-    description: "Fast same day junk removal in San Diego. Available 7 days, arrive within hours. No rush fees. Starting at $100.",
+    description: "Fast same day junk removal in San Diego. Available 7 days, arrive within hours. No rush fees. Small items $69+, standard $100+.",
     url: "https://severincleaners.com/same-day-junk-removal-san-diego",
     serviceType: "Same Day Junk Removal",
     areaServed: "San Diego County, CA",

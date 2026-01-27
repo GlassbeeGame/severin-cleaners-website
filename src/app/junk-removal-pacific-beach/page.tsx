@@ -64,7 +64,7 @@ export const metadata: Metadata = {
 const pacificBeachFAQs = [
   {
     question: "How much does junk removal Pacific Beach cost?",
-    answer: "Our junk removal Pacific Beach pricing is transparent and upfront with no hidden fees. Single item pickup starts at $100, perfect for removing one couch or appliance from your Pacific Beach property. Quarter-load service costs $249, ideal for small cleanouts like a closet or bathroom corner. Half-load runs $349 for garage sections or bedroom furniture removal. Three-quarter load is $429 for larger projects like full garage sections or multiple room cleanouts, and full-load service tops out at $495 for complete garage, apartment, or beach house cleanouts. All prices include labor, hauling, disposal fees, and cleanup. Properties throughout Pacific Beach—whether you're on Ocean Front Walk, Garnet Avenue, Crown Point, or near Kate Sessions Park—all receive the same transparent pricing with no surcharges for challenging beach access, narrow alleys, or summer traffic delays. We provide free estimates over the phone by describing your items, and confirm final pricing on-site before starting work, ensuring you know exactly what you'll pay. Most Pacific Beach junk removal jobs range from quarter-truck to half-truck loads, with clear pricing communicated upfront before we touch anything. Beach house turnovers, student housing cleanouts, and vacation rental debris all receive the same honest pricing structure San Diego beach communities trust."
+    answer: "Our junk removal Pacific Beach pricing is transparent and upfront with no hidden fees. Small items start at $69. Standard items (couches, appliances, mattresses) start at $100 from your Pacific Beach property. Quarter-load service costs $249, ideal for small cleanouts like a closet or bathroom corner. Half-load runs $349 for garage sections or bedroom furniture removal. Three-quarter load is $429 for larger projects like full garage sections or multiple room cleanouts, and full-load service tops out at $495 for complete garage, apartment, or beach house cleanouts. All prices include labor, hauling, disposal fees, and cleanup. Properties throughout Pacific Beach—whether you're on Ocean Front Walk, Garnet Avenue, Crown Point, or near Kate Sessions Park—all receive the same transparent pricing with no surcharges for challenging beach access, narrow alleys, or summer traffic delays. We provide free estimates over the phone by describing your items, and confirm final pricing on-site before starting work, ensuring you know exactly what you'll pay. Most Pacific Beach junk removal jobs range from quarter-truck to half-truck loads, with clear pricing communicated upfront before we touch anything. Beach house turnovers, student housing cleanouts, and vacation rental debris all receive the same honest pricing structure San Diego beach communities trust."
   },
   {
     question: "Do you provide same-day junk removal in Pacific Beach?",
@@ -122,7 +122,7 @@ export default function JunkRemovalPacificBeachPage() {
     "name": "Severin Cleaners LLC",
     "image": "https://severincleaners.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
-    "priceRange": "$100-$495",
+    "priceRange": "$69-$495",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "8900 Grossmont Blvd Ste 1",

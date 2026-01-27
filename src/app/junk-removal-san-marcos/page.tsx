@@ -67,7 +67,7 @@ export const metadata: Metadata = {
 const sanMarcosFAQs = [
   {
     question: "How much does junk removal San Marcos cost?",
-    answer: "Our San Marcos junk removal pricing is transparent and upfront with no hidden fees. Single item pickup starts at $100, perfect for removing one couch or appliance. Quarter-load service costs $249, ideal for small cleanouts like a closet or bathroom. Half-load runs $349 for garage corners or bedroom furniture. Three-quarter load is $429 for larger projects, and full-load service tops out at $495 for complete garage, estate, or commercial cleanouts. All prices include labor, hauling, disposal fees, and cleanup. Properties in San Elijo Hills, Discovery Hills, Lake San Marcos, or downtown San Marcos all receive the same transparent pricing—no surcharges for hillside access or gated communities. We provide free estimates over the phone and confirm final pricing on-site before starting work, ensuring you know exactly what you'll pay."
+    answer: "Our San Marcos junk removal pricing is transparent and upfront with no hidden fees. Small items start at $69. Standard items (couches, appliances, mattresses) start at $100. Quarter-load service costs $249, ideal for small cleanouts like a closet or bathroom. Half-load runs $349 for garage corners or bedroom furniture. Three-quarter load is $429 for larger projects, and full-load service tops out at $495 for complete garage, estate, or commercial cleanouts. All prices include labor, hauling, disposal fees, and cleanup. Properties in San Elijo Hills, Discovery Hills, Lake San Marcos, or downtown San Marcos all receive the same transparent pricing—no surcharges for hillside access or gated communities. We provide free estimates over the phone and confirm final pricing on-site before starting work, ensuring you know exactly what you'll pay."
   },
   {
     question: "Do you offer same-day service in San Marcos?",
@@ -118,7 +118,7 @@ export default function JunkRemovalSanMarcosPage() {
     "name": "Severin Cleaners LLC",
     "image": "https://severincleaners.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
-    "priceRange": "$100-$495",
+    "priceRange": "$69-$495",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "8900 Grossmont Blvd Ste 1",

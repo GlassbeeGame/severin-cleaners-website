@@ -64,7 +64,7 @@ export const metadata: Metadata = {
 const chulaVistaFAQs = [
   {
     question: "How much does junk removal Chula Vista cost?",
-    answer: "Our junk removal Chula Vista pricing is transparent and volume-based with no hidden fees. Single item removal starts at $100, perfect for one couch or appliance. Quarter-load service costs $249 for closet cleanouts or small furniture removal. Half-load runs $349 for garage corners or bedroom sets. Three-quarter load is $429 for larger projects, and full-load service tops out at $495 for complete garage, estate, or commercial property cleanouts. All prices include labor, hauling, and disposal fees with no surcharges for HOA-governed communities. Eastlake, Otay Ranch, Rolling Hills Ranch, and all other Chula Vista neighborhoods receive the same transparent pricing. We provide free estimates over the phone and confirm final pricing on-site before starting work, ensuring you know exactly what you'll pay."
+    answer: "Our junk removal Chula Vista pricing is transparent and volume-based with no hidden fees. Small items start at $69. Standard items (couches, appliances) start at $100. Quarter-load service costs $249 for closet cleanouts or small furniture removal. Half-load runs $349 for garage corners or bedroom sets. Three-quarter load is $429 for larger projects, and full-load service tops out at $495 for complete garage, estate, or commercial property cleanouts. All prices include labor, hauling, and disposal fees with no surcharges for HOA-governed communities. Eastlake, Otay Ranch, Rolling Hills Ranch, and all other Chula Vista neighborhoods receive the same transparent pricing. We provide free estimates over the phone and confirm final pricing on-site before starting work, ensuring you know exactly what you'll pay."
   },
   {
     question: "Do you offer bilingual junk removal service in Chula Vista?",
@@ -122,7 +122,7 @@ export default function JunkRemovalChulaVistaPage() {
     "name": "Severin Cleaners LLC",
     "image": "https://severincleaners.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
-    "priceRange": "$100-$495",
+    "priceRange": "$69-$495",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "8900 Grossmont Blvd Ste 1",

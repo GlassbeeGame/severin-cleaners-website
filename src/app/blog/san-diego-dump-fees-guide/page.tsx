@@ -127,7 +127,7 @@ export default function SanDiegoDumpFeesGuide() {
           {
             "@type": "HowToStep",
             "name": "Total the Costs",
-            "text": "Add all costs together: Truck rental + Gas + Dump fees + Penalties = $185-$330+. Compare with professional junk removal starting at $100.",
+            "text": "Add all costs together: Truck rental + Gas + Dump fees + Penalties = $185-$330+. Compare with professional junk removal starting at $69 (small items) or $100 (standard items).",
             "url": "https://severincleaners.com/blog/san-diego-dump-fees-guide#comparison"
           }
         ]
