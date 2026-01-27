@@ -70,7 +70,7 @@ export const metadata: Metadata = {
 const mattressFAQs = [
     {
       question: "How much does mattress disposal San Diego cost?",
-      answer: "Our mattress disposal San Diego service starts at $100 for standard mattress pick up, including all labor, hauling, and eco-friendly disposal or recycling. Multiple mattresses or additional items like box springs and bed frames can be combined for volume pricing: 1/4 Load ($249), 1/2 Load ($349), Full Load ($495). We provide upfront quotes with no hidden fees. Call (619) 750-0114 for exact pricing based on your needs."
+      answer: "Mattress disposal costs $100 for a standard mattress pick up (mattresses are standard-sized items). Our general junk removal pricing starts at $69 for small items like chairs. Mattress removal includes all labor, hauling, and eco-friendly disposal or recycling. Multiple mattresses or additional items can be combined for volume pricing: 1/4 Load ($249), 1/2 Load ($349), Full Load ($495). We provide upfront quotes with no hidden fees. Call (619) 750-0114 for exact pricing based on your needs."
     },
     {
       question: "Is there free mattress disposal San Diego or free mattress recycling San Diego?",

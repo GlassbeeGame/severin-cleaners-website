@@ -101,7 +101,7 @@ Our transparent pricing includes all labor, hauling, and proper eco-friendly dis
   },
   {
     question: "Does Severin offer free junk removal in San Diego?",
-    answer: "We don't offer free junk removal service in San Diego. Professional junk removal requires trained crews, proper equipment, licensed disposal, insurance, and eco-friendly recycling—all of which have real costs. Our transparent pricing starts at $100 and includes all labor, hauling, and responsible disposal. Many San Diegans find our service costs less than DIY options when factoring in truck rental ($75-150), disposal fees ($50-200+), time, and injury risk. Some items with scrap value (like certain metals) may offset costs, but we're upfront about pricing from the start. Call (619) 750-0114 for an honest quote—no surprises, just professional service at fair prices."
+    answer: "We don't offer free junk removal service in San Diego. Professional junk removal requires trained crews, proper equipment, licensed disposal, insurance, and eco-friendly recycling—all of which have real costs. Our transparent pricing starts at $69 for small items and $100 for standard items, and includes all labor, hauling, and responsible disposal. Many San Diegans find our service costs less than DIY options when factoring in truck rental ($75-150), disposal fees ($50-200+), time, and injury risk. Some items with scrap value (like certain metals) may offset costs, but we're upfront about pricing from the start. Call (619) 750-0114 for an honest quote—no surprises, just professional service at fair prices."
   }
 ];
 

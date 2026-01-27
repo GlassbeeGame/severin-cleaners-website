@@ -70,7 +70,7 @@ export const metadata: Metadata = {
 const estateFAQs = [
     {
       question: "How much does estate cleanout cost in San Diego?",
-      answer: "Estate cleanout costs depend on how much needs to be hauled away. Most full estates range from $1,500-$3,000 depending on property size and volume of items. Single trailer loads start at $100-$495. We provide written estimates after seeing what needs to be removed."
+      answer: "Estate cleanout costs depend on how much needs to be hauled away. Most full estates range from $1,500-$3,000 depending on property size and volume of items. Single trailer loads start at $69 for small items and $100 for standard items, up to $495 for full loads. We provide written estimates after seeing what needs to be removed."
     },
     {
       question: "Can you help with probate cleanout deadlines in San Diego?",

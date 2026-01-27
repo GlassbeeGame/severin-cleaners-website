@@ -64,7 +64,7 @@ export const metadata: Metadata = {
 const costFAQs = [
     {
       question: "How much does junk removal cost in San Diego?",
-      answer: "Junk removal cost San Diego typically ranges from $75 for single items to $750+ for full truckloads. Our volume-based pricing means you only pay for the space your items take up. Most residential jobs fall between $200-$400 for half-truck loads, making us competitive for cheap junk removal San Diego with transparent pricing."
+      answer: "Junk removal cost San Diego starts at $69 for small items (chairs, loveseats, small tables) and $100 for standard items (couches, appliances, mattresses). Volume loads range from $249 (1/4 truck) to $495 (full truck). Our volume-based pricing means you only pay for the space your items take up. Most residential jobs fall between $200-$400 for half-truck loads, making us competitive for cheap junk removal San Diego with transparent pricing."
     },
     {
       question: "Do you provide free junk removal quotes in San Diego?",
@@ -81,6 +81,10 @@ const costFAQs = [
     {
       question: "Are there extra charges for heavy or bulky items?",
       answer: "Some exceptionally heavy items (like pianos, hot tubs, or concrete) may have additional disposal fees due to special handling requirements. However, we always discuss these potential costs during your free junk removal quote San Diego so there are no surprises with your final junk removal cost San Diego."
+    },
+    {
+      question: "What's the difference between small items and standard items?",
+      answer: "Small items ($69+) include loveseats, chairs, small tables, and similar compact furniture. Standard items ($100+) include full-size couches, mattresses, appliances, dressers, and larger furniture pieces. The pricing reflects the size, weight, and disposal requirements. Call (619) 750-0114 and we'll give you an exact quote based on your specific items."
     },
     {
       question: "Do you offer discounts for large jobs or repeat customers?",
@@ -123,7 +127,7 @@ export default function JunkRemovalCostPage() {
         <OptimizedGradientHero
           title="Junk Removal Cost San Diego"
           subtitle="Affordable Prices, Free Quotes & Transparent Service"
-          description="No hidden fees • Starting at $100 • Licensed & Insured"
+          description="No hidden fees • Small items $69+ • Standard items $100+ • Licensed & Insured"
         />
 
         {/* Transparent Pricing Overview */}
@@ -209,7 +213,7 @@ export default function JunkRemovalCostPage() {
                         <strong>DIY hidden costs:</strong> Truck rental ($50-$150) + Fuel + Your time (3-5 hrs) + Dump fee ($70-$100+) + Uncovered load penalty ($50)
                       </p>
                       <p className="text-sm text-green-700 font-semibold">
-                        <strong>Our all-in price:</strong> Starting at $100 - We do ALL the work!
+                        <strong>Our all-in price:</strong> Starting at $69 for small items, $100 for standard - We do ALL the work!
                       </p>
                     </div>
                     <a
@@ -242,11 +246,12 @@ export default function JunkRemovalCostPage() {
               <div className="mb-12">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
                   <div className="bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl shadow-lg p-6 text-white text-center">
-                    <div className="text-4xl font-bold mb-2">$100</div>
+                    <div className="text-3xl font-bold mb-2">$69-$100</div>
                     <div className="text-blue-100 mb-4">Single Item</div>
                     <div className="font-bold text-lg mb-2">Quick Pickup</div>
-                    <div className="text-blue-100 text-sm">
-                      One large item, couch, appliance, mattress
+                    <div className="text-blue-100 text-sm leading-relaxed">
+                      <div className="mb-1"><strong>Small:</strong> Chair, loveseat $69+</div>
+                      <div><strong>Standard:</strong> Couch, appliance $100+</div>
                     </div>
                   </div>
 
@@ -433,8 +438,9 @@ export default function JunkRemovalCostPage() {
                 <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Real Junk Removal Pricing Examples</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="bg-white p-6 rounded-lg shadow">
-                    <h4 className="font-bold text-gray-900 mb-2">🛋️ <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">Single Couch Removal</a> – Mission Valley</h4>
-                    <p className="text-green-600 font-bold text-xl"><a href="/couch-removal-san-diego" className="text-green-600 hover:text-green-700">$100</a></p>
+                    <h4 className="font-bold text-gray-900 mb-2">🛋️ <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">Couch Removal</a> – Mission Valley</h4>
+                    <p className="text-green-600 font-bold text-xl"><a href="/couch-removal-san-diego" className="text-green-600 hover:text-green-700">$69-$129</a></p>
+                    <p className="text-gray-600 text-sm mt-1">Small $69+ • Standard $100+</p>
                   </div>
                   <div className="bg-white p-6 rounded-lg shadow">
                     <h4 className="font-bold text-gray-900 mb-2">🏠 Full Garage Cleanout – Chula Vista</h4>

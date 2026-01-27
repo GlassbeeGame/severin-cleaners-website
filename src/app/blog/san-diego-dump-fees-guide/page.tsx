@@ -218,7 +218,7 @@ export default function SanDiegoDumpFeesGuide() {
                 <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-8 rounded-r-lg">
                   <h2 className="text-xl font-bold text-gray-900 mb-3">Quick Answer</h2>
                   <p className="text-gray-700 leading-relaxed">
-                    San Diego dump fees range from <strong>$70-$150+</strong> depending on load size and material type. Add truck rental ($50-$150), gas, and your time (3-5 hours), and DIY disposal often costs more than professional junk removal <strong>starting at $100</strong>.
+                    San Diego dump fees range from <strong>$70-$150+</strong> depending on load size and material type. Add truck rental ($50-$150), gas, and your time (3-5 hours), and DIY disposal often costs more than professional junk removal <strong>starting at $69 (small items) or $100 (standard items)</strong>.
                   </p>
                 </div>
 
@@ -522,7 +522,7 @@ export default function SanDiegoDumpFeesGuide() {
                 <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-8 mt-12 text-white text-center">
                   <h3 className="text-2xl font-bold mb-4">Skip the Dump - We Handle Everything</h3>
                   <p className="text-blue-100 mb-6 text-lg">
-                    Professional junk removal starting at $100 - often less than DIY when you count all costs
+                    Professional junk removal starting at $69 (small items) or $100 (standard items) - often less than DIY when you count all costs
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a

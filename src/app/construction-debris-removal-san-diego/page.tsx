@@ -70,7 +70,7 @@ export const metadata: Metadata = {
 const constructionFAQs = [
     {
       question: "How much does construction debris removal cost in San Diego?",
-      answer: "Pricing starts at $100 for single items and ranges up to $495 for a full trailer load (12 cubic yards). Most small to medium construction projects fall in the $249-$429 range. Large demolition projects requiring multiple loads are quoted on-site. Volume pricing available for ongoing contracts."
+      answer: "Pricing starts at $69 for small items and $100 for standard items, ranging up to $495 for a full trailer load (12 cubic yards). Most small to medium construction projects fall in the $249-$429 range. Large demolition projects requiring multiple loads are quoted on-site. Volume pricing available for ongoing contracts."
     },
     {
       question: "Do you offer same-day service for construction projects?",

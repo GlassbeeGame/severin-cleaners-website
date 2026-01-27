@@ -93,7 +93,7 @@ const commercialFAQs = [
   },
   {
     question: "What's the difference between commercial and residential junk removal pricing?",
-    answer: "Our commercial junk removal San Diego pricing includes volume discounts for businesses, NET-30 payment terms for qualified commercial accounts, and flexible recurring service contracts for ongoing needs. Commercial projects often involve larger volumes, specialized disposal requirements (HIPAA compliance, data destruction, hazardous materials), and after-hours scheduling to minimize business disruption. We provide detailed invoicing with project breakdowns, disposal documentation for compliance, and dedicated account management for commercial clients. Volume-based pricing starts at $100 for single items up to $495 for full loads, with additional discounts available for recurring monthly or quarterly service contracts."
+    answer: "Our commercial junk removal San Diego pricing includes volume discounts for businesses, NET-30 payment terms for qualified commercial accounts, and flexible recurring service contracts for ongoing needs. Commercial projects often involve larger volumes, specialized disposal requirements (HIPAA compliance, data destruction, hazardous materials), and after-hours scheduling to minimize business disruption. We provide detailed invoicing with project breakdowns, disposal documentation for compliance, and dedicated account management for commercial clients. Volume-based pricing starts at $69 for small items and $100 for standard items, up to $495 for full loads, with additional discounts available for recurring monthly or quarterly service contracts."
   },
   {
     question: "How do you handle confidential documents and sensitive materials?",
