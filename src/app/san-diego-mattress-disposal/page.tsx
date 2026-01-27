@@ -210,21 +210,21 @@ export default function MattressDisposalPage() {
                     Professional Mattress Disposal San Diego Trusts
                   </h2>
                   <p className="text-xl text-gray-600 mb-6 leading-relaxed">
-                    When you need reliable <strong>mattress disposal San Diego</strong>, Severin Cleaners delivers fast, affordable, and eco-friendly service throughout San Diego County. Our professional <strong>mattress removal San Diego</strong> team provides same-day <strong>mattress pick up San Diego</strong> service starting at just $69, including all labor, hauling, and responsible <strong>mattress recycling San Diego</strong> or compliant disposal. The exact price varies based on your mattress size and type, and we provide upfront quotes before we arrive so you know exactly what to expect.
+                    When you need reliable mattress disposal San Diego, Severin Cleaners delivers fast, affordable, and eco-friendly service throughout San Diego County. Our professional mattress removal San Diego team provides same-day mattress pick up San Diego service starting at just $69, including all labor, hauling, and responsible mattress recycling San Diego or compliant disposal. The exact price varies based on your mattress size and type, and we provide upfront quotes before we arrive so you know exactly what to expect.
                   </p>
 
                   <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                    Whether you're upgrading your bedroom furniture, clearing out a rental property in <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a>, handling an estate cleanout in <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, or managing a property turnover in <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, our <strong>mattress disposal San Diego</strong> service handles everything from single mattresses to complete bedroom furniture removal. We serve all San Diego neighborhoods including <a href="/junk-removal-north-park" className="text-blue-600 hover:underline">North Park</a>, <a href="/junk-removal-hillcrest" className="text-blue-600 hover:underline">Hillcrest</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>, <a href="/junk-removal-clairemont" className="text-blue-600 hover:underline">Clairemont</a>, and communities throughout the county.
+                    Whether you're upgrading your bedroom furniture, clearing out a rental property in <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a>, handling an estate cleanout in <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, or managing a property turnover in <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, our mattress disposal San Diego service handles everything from single mattresses to complete bedroom furniture removal. We serve all San Diego neighborhoods including <a href="/junk-removal-north-park" className="text-blue-600 hover:underline">North Park</a>, <a href="/junk-removal-hillcrest" className="text-blue-600 hover:underline">Hillcrest</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>, <a href="/junk-removal-clairemont" className="text-blue-600 hover:underline">Clairemont</a>, and communities throughout the county.
                   </p>
 
                   <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                    Our <strong>mattress recycling San Diego</strong> process prioritizes environmental responsibility while ensuring full compliance with City of San Diego Environmental Services Department regulations. We work with certified recycling facilities that participate in recycling programs to dismantle and recycle up to 80% of mattress materials, keeping thousands of unwanted mattresses out of Miramar Landfill each year. From the moment you call us at (619) 750-0114 to the final pickup, we make mattress disposal as simple and stress-free as possible.
+                    Our mattress recycling San Diego process prioritizes environmental responsibility while ensuring full compliance with City of San Diego Environmental Services Department regulations. We work with certified recycling facilities that participate in recycling programs to dismantle and recycle up to 80% of mattress materials, keeping thousands of unwanted mattresses out of Miramar Landfill each year. From the moment you call us at (619) 750-0114 to the final pickup, we make mattress disposal as simple and stress-free as possible.
                   </p>
 
                   <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
                     <p className="text-gray-800 font-semibold mb-2">📞 Need Same-Day Mattress Pick Up San Diego?</p>
                     <p className="text-gray-700 leading-relaxed">
-                      Call <a href="tel:6197500114" className="text-blue-600 font-bold hover:underline">(619) 750-0114</a> before 2 PM for same-day <strong>mattress removal San Diego</strong> service starting at $69. Get a free quote over the phone with upfront pricing that covers all labor, hauling, and eco-friendly <strong>mattress recycling San Diego</strong>. No hidden fees guaranteed.
+                      Call <a href="tel:6197500114" className="text-blue-600 font-bold hover:underline">(619) 750-0114</a> before 2 PM for same-day mattress removal San Diego service starting at $69. Get a free quote over the phone with upfront pricing that covers all labor, hauling, and eco-friendly mattress recycling San Diego. No hidden fees guaranteed.
                     </p>
                   </div>
 
@@ -286,7 +286,7 @@ export default function MattressDisposalPage() {
                       Free Mattress Disposal San Diego vs. Professional Service
                     </h3>
                     <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                      Many San Diego residents search for <strong>free mattress disposal San Diego</strong> or <strong>free mattress recycling San Diego</strong> options. While the City of San Diego does offer some programs through mattress collection sites and the Bye Bye Mattress program, understanding the full picture helps you make the best choice for your situation.
+                      Many San Diego residents search for free mattress disposal San Diego or free mattress recycling San Diego options. While the City of San Diego does offer some programs through mattress collection sites and the Bye Bye Mattress program, understanding the full picture helps you make the best choice for your situation.
                     </p>
 
                     <div className="grid md:grid-cols-2 gap-6 mb-6">
@@ -309,13 +309,13 @@ export default function MattressDisposalPage() {
                       <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-lg">
                         <h4 className="text-xl font-bold text-green-900 mb-4">Our Professional Mattress Disposal San Diego Service</h4>
                         <p className="text-gray-700 mb-3 leading-relaxed">
-                          Our <strong>mattress disposal San Diego</strong> service starts at $69 for smaller mattresses, with pricing varying based on size and type. We provide upfront quotes over the phone, so you know the exact cost before we arrive. Once we quote you a price, that covers everything with no hidden fees.
+                          Our mattress disposal San Diego service starts at $69 for smaller mattresses, with pricing varying based on size and type. We provide upfront quotes over the phone, so you know the exact cost before we arrive. Once we quote you a price, that covers everything with no hidden fees.
                         </p>
                         <p className="text-gray-700 mb-3 leading-relaxed">
                           We come directly to your location anywhere in San Diego County. Whether you're in a ground-floor apartment or a 20th-floor high-rise, our team handles all the heavy lifting, navigation through tight spaces, and protection of your walls and floors.
                         </p>
                         <p className="text-gray-700 mb-4 leading-relaxed">
-                          Call us before 2 PM for same-day <strong>mattress pick up San Diego</strong> service. The entire process takes just 15-30 minutes from start to finish. You don't lift a finger, and we ensure your mattress goes to certified recycling facilities that participate in proper <strong>mattress recycling San Diego</strong> programs.
+                          Call us before 2 PM for same-day mattress pick up San Diego service. The entire process takes just 15-30 minutes from start to finish. You don't lift a finger, and we ensure your mattress goes to certified recycling facilities that participate in proper mattress recycling San Diego programs.
                         </p>
                         <p className="font-semibold text-green-800">
                           Professional service from $69: Similar or lower cost than DIY, zero hassle, no physical risk
@@ -326,10 +326,10 @@ export default function MattressDisposalPage() {
                     <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
                       <h4 className="text-lg font-bold text-gray-900 mb-3">The Bottom Line</h4>
                       <p className="text-gray-700 mb-4 leading-relaxed">
-                        While <strong>free mattress disposal San Diego</strong> options exist through the Bye Bye Mattress program and mattress collection sites at Miramar Landfill, most people find that our professional service offers better overall value. When you factor in truck rental fees, gas, time off work, physical effort, and the risk of injury, the "free" option often ends up costing more in both money and convenience.
+                        While free mattress disposal San Diego options exist through the Bye Bye Mattress program and mattress collection sites at Miramar Landfill, most people find that our professional service offers better overall value. When you factor in truck rental fees, gas, time off work, physical effort, and the risk of injury, the "free" option often ends up costing more in both money and convenience.
                       </p>
                       <p className="text-gray-700 leading-relaxed">
-                        Call <a href="tel:6197500114" className="text-blue-600 font-bold hover:underline">(619) 750-0114</a> for a free quote on professional <strong>mattress disposal San Diego</strong> service that saves you time, effort, and often money compared to DIY alternatives.
+                        Call <a href="tel:6197500114" className="text-blue-600 font-bold hover:underline">(619) 750-0114</a> for a free quote on professional mattress disposal San Diego service that saves you time, effort, and often money compared to DIY alternatives.
                       </p>
                     </div>
                   </div>
@@ -356,7 +356,7 @@ export default function MattressDisposalPage() {
                 Complete Mattress Removal San Diego Service
               </h2>
               <p className="text-xl text-gray-600 mb-6 text-center leading-relaxed">
-                Our comprehensive <strong>mattress removal San Diego</strong> service handles all mattress types, sizes, and conditions throughout San Diego County. From standard twin mattresses to California king beds, memory foam to innerspring, and everything in between, we remove bulky items like mattresses and box springs with the same care and professionalism. We offer same-day <strong>mattress pick up San Diego</strong> service paired with eco-friendly <strong>mattress recycling San Diego</strong> practices that keep unwanted mattresses out of local landfills.
+                Our comprehensive mattress removal San Diego service handles all mattress types, sizes, and conditions throughout San Diego County. From standard twin mattresses to California king beds, memory foam to innerspring, and everything in between, we remove bulky items like mattresses and box springs with the same care and professionalism. We offer same-day mattress pick up San Diego service paired with eco-friendly mattress recycling San Diego practices that keep unwanted mattresses out of local landfills.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -457,13 +457,13 @@ export default function MattressDisposalPage() {
                 Eco-Friendly Mattress Recycling San Diego
               </h2>
               <p className="text-xl text-gray-600 mb-8 text-center leading-relaxed">
-                Professional <strong>mattress recycling San Diego</strong> service that diverts up to 80% of mattress materials from landfills through certified recycling programs. Our <strong>mattress disposal San Diego</strong> process prioritizes environmental responsibility while ensuring full compliance with City of San Diego Environmental Services Department regulations.
+                Professional mattress recycling San Diego service that diverts up to 80% of mattress materials from landfills through certified recycling programs. Our mattress disposal San Diego process prioritizes environmental responsibility while ensuring full compliance with City of San Diego Environmental Services Department regulations.
               </p>
 
               <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-8">
                 <h3 className="text-2xl font-bold text-green-900 mb-4">Why Choose Eco-Friendly Mattress Recycling San Diego?</h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  San Diego generates thousands of unwanted mattresses annually, and traditional Miramar Landfill disposal wastes valuable materials that could be recycled and reused. Our <strong>mattress recycling San Diego</strong> partnership with certified local facilities ensures that your old mattress is properly dismantled and its components are responsibly recycled through established recycling programs.
+                  San Diego generates thousands of unwanted mattresses annually, and traditional Miramar Landfill disposal wastes valuable materials that could be recycled and reused. Our mattress recycling San Diego partnership with certified local facilities ensures that your old mattress is properly dismantled and its components are responsibly recycled through established recycling programs.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
                   This approach protects San Diego's environment, reduces waste sent to landfills, and supports the local circular economy. Rather than adding more bulky items to already overburdened landfills, we work with facilities that extract and recycle steel, foam, wood, and fabric components from every mattress we collect.
@@ -474,7 +474,7 @@ export default function MattressDisposalPage() {
                 <div className="bg-gray-50 p-8 rounded-xl">
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">♻️ What Gets Recycled in Mattress Recycling San Diego</h3>
                   <p className="text-gray-700 mb-4 leading-relaxed">
-                    Our <strong>mattress recycling San Diego</strong> partners carefully dismantle each mattress and recycle up to 80% of its materials through specialized recycling programs:
+                    Our mattress recycling San Diego partners carefully dismantle each mattress and recycle up to 80% of its materials through specialized recycling programs:
                   </p>
                   <ul className="space-y-3 text-gray-600">
                     <li className="flex items-center gap-3">
@@ -553,10 +553,10 @@ export default function MattressDisposalPage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Mattress Disposal San Diego"
-          description="Get answers to common questions about our <strong>San Diego mattress disposal</strong> service and eco-friendly recycling options."
+          description="Get answers to common questions about our San Diego mattress disposal service and eco-friendly recycling options."
           faqs={mattressFAQs}
           ctaTitle="Still Have Questions About Mattress Disposal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our <strong>San Diego mattress disposal</strong> services, provide detailed quotes, or schedule your pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our San Diego mattress disposal services, provide detailed quotes, or schedule your pickup."
           includeSchema={false}
         />
 
@@ -568,7 +568,7 @@ export default function MattressDisposalPage() {
                 San Diego Neighborhoods Served
               </h2>
               <p className="text-xl text-gray-600 mb-8 text-center leading-relaxed">
-                We provide <strong>mattress pick up San Diego</strong> service throughout all San Diego neighborhoods, from coastal communities like Pacific Beach and La Jolla to East County areas like El Cajon and Santee. Whether you're in North Park, La Mesa, Hillcrest, Downtown San Diego, or any other San Diego County neighborhood, our team delivers the same reliable, professional service.
+                We provide mattress pick up San Diego service throughout all San Diego neighborhoods, from coastal communities like Pacific Beach and La Jolla to East County areas like El Cajon and Santee. Whether you're in North Park, La Mesa, Hillcrest, Downtown San Diego, or any other San Diego County neighborhood, our team delivers the same reliable, professional service.
               </p>
 
               <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-center">
@@ -593,7 +593,7 @@ export default function MattressDisposalPage() {
               Schedule Your Mattress Disposal San Diego Today
             </h2>
             <p className="text-xl mb-8 max-w-4xl mx-auto leading-relaxed">
-              Professional <strong>mattress disposal San Diego</strong> with same-day <strong>mattress pick up San Diego</strong> service starting at $69. Eco-friendly <strong>mattress recycling San Diego</strong> through certified facilities. Licensed and insured with upfront pricing and no hidden fees. Serving all San Diego County neighborhoods. More convenient than Bye Bye Mattress program or <strong>free mattress disposal San Diego</strong> at mattress collection sites because we come directly to you. View all our <a href="/san-diego-junk-removal" className="text-blue-200 hover:text-white underline">San Diego junk removal services</a>.
+              Professional mattress disposal San Diego with same-day mattress pick up San Diego service starting at $69. Eco-friendly mattress recycling San Diego through certified facilities. Licensed and insured with upfront pricing and no hidden fees. Serving all San Diego County neighborhoods. More convenient than Bye Bye Mattress program or free mattress disposal San Diego at mattress collection sites because we come directly to you. View all our <a href="/san-diego-junk-removal" className="text-blue-200 hover:text-white underline">San Diego junk removal services</a>.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <a
