@@ -239,11 +239,26 @@ export default function JunkRemovalLaMesaPage() {
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      La Mesa junk removal serves this vibrant East County community where hillside homes meet family neighborhoods and downtown village charm. From Mount Helix estates to Fletcher Hills properties to La Mesa Village apartments, our junk hauling La Mesa team navigates steep driveways, downtown parking restrictions, and East County terrain with expertise. We provide same-day junk pickup La Mesa as a faster, easier alternative to the crowded <strong>La Mesa dump</strong>, offering transparent pricing and complete service throughout the 91941 and 91942 areas.
+                      Severin Cleaners provides professional La Mesa junk removal for this vibrant East County community where hillside homes meet family neighborhoods and downtown village charm. From Mount Helix estates to Fletcher Hills properties to La Mesa Village apartments, our junk hauling La Mesa team navigates steep driveways, downtown parking restrictions, and East County terrain with expertise. We provide same-day junk pickup La Mesa as a faster, easier alternative to the crowded <strong>La Mesa dump</strong>, offering transparent pricing and complete service throughout the 91941 and 91942 areas.
                     </p>
 
                     <p className="text-gray-700 mb-6">
-                      Our La Mesa operation is uniquely positioned to serve this diverse East County city. We understand that La Mesa CA junk removal requires more than just hauling capacity—it demands experience with hillside access on winding Mount Helix roads, knowledge of downtown Village parking logistics, familiarity with Grossmont area apartment complexes, and the ability to provide service that's more convenient than driving to the dump yourself. Whether you're clearing out a Mount Helix hillside estate, removing furniture from a La Mesa Village condo, or handling a garage cleanout near Lake Murray, our team brings the specialized local experience that makes junk removal easy and stress-free.
+                      <strong>Headquartered right here in La Mesa</strong> at 8900 Grossmont Blvd, we're your true local junk removal team — not an out-of-area company driving in from North County or downtown San Diego. Our crews live and work in East County.
+                    </p>
+
+                    <p className="text-gray-700 mb-4">
+                      Our La Mesa operation is uniquely positioned to serve this diverse East County city. La Mesa junk removal requires more than hauling capacity. It demands:
+                    </p>
+
+                    <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+                      <li>Experience with Mount Helix hillside access</li>
+                      <li>Knowledge of downtown Village parking logistics</li>
+                      <li>Familiarity with Grossmont apartment complexes</li>
+                      <li>Service that beats driving to the dump yourself</li>
+                    </ul>
+
+                    <p className="text-gray-700 mb-6">
+                      Whether you're clearing a Mount Helix estate, removing furniture from a La Mesa Village condo, or handling a garage cleanout near Lake Murray — we bring the local expertise that makes it easy.
                     </p>
 
                     {/* Neighborhoods Served */}
