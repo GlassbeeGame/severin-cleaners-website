@@ -84,7 +84,7 @@ const vistaFAQs = [
   },
   {
     question: "What areas of Vista do you serve?",
-    answer: "Our junk removal vista service covers all neighborhoods throughout Vista and surrounding North County communities. We serve Downtown Vista Village along Main Street and Broadway with its historic buildings, craft breweries, and mixed-use properties; Shadowridge hillside community with golf course estates and modern family homes; Rancho Buena Vista with established family neighborhoods and larger lot properties; Buena Creek northern residential area near schools and parks; Vista Business Park commercial and industrial corridor off Sycamore Avenue; Vista Village Drive central corridor with retail centers and apartments; Brengle Terrace park area and surrounding established neighborhoods; and North Vista newer developments near the Oceanside boundary. We also serve all three Vista zip codes—92081 (central Vista including downtown and Business Park), 92083 (eastern Vista including Shadowridge), and 92084 (western and southern Vista areas)—with the same reliable, professional junk hauling vista ca service regardless of neighborhood or property type. Our North County positioning allows us to efficiently serve Vista along with neighboring communities like Oceanside, Escondido, San Marcos, and Carlsbad as natural extensions of our service area."
+    answer: "Our local junk removal company covers all Vista CA neighborhoods throughout North County San Diego. We serve Downtown Vista Village along Main Street and Broadway with its historic buildings, craft breweries, and mixed-use properties; Shadowridge hillside community with golf course estates and modern family homes; Rancho Buena Vista with established family neighborhoods and larger lot properties; Buena Creek northern residential area near schools and parks; Vista Business Park commercial and industrial corridor off Sycamore Avenue; Vista Village Drive central corridor with retail centers and apartments; Brengle Terrace park area and surrounding established neighborhoods; and North Vista newer developments near the Oceanside boundary. We also serve all three Vista CA zip codes—92081 (central Vista including downtown and Business Park), 92083 (eastern Vista including Shadowridge), and 92084 (western and southern Vista areas)—with the same reliable, professional junk removal services regardless of neighborhood or property type. Our North County San Diego positioning allows us to efficiently serve Vista along with neighboring communities like Oceanside, San Marcos, Carlsbad, and Escondido as natural extensions of our junk removal services area."
   },
   {
     question: "Do you offer free estimates for Vista junk removal?",
@@ -239,11 +239,23 @@ export default function JunkRemovalVistaPage() {
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      Vista junk removal serves one of North County's most dynamic cities, blending historic downtown character with modern suburban development. From the craft brewery district in Downtown Vista Village to hillside homes in Shadowridge, our junk hauling Vista team handles the diverse needs of this 19-square-mile North County community. We provide same-day trash removal Vista for family homes, apartments, and business properties throughout the 92081, 92083, and 92084 areas with transparent pricing and eco-friendly disposal.
+                      Severin Cleaners provides professional local junk removal for Vista CA, one of North County San Diego's most dynamic cities. From the craft brewery district in Downtown Vista Village to hillside homes in Shadowridge, our junk removal company handles the diverse needs of this 19-square-mile North County community. We offer same day junk removal Vista CA for family homes, apartments, and business properties throughout the 92081, 92083, and 92084 areas with transparent pricing and eco-friendly junk removal services.
                     </p>
 
+                    <p className="text-gray-700 mb-4">
+                      Our junk removal team is your complete junk removal solution for North County's varied property landscape. Vista CA junk removal services require expertise with:
+                    </p>
+
+                    <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
+                      <li>Compact downtown apartments near the Civic Center</li>
+                      <li>Expansive family homes in Rancho Buena Vista</li>
+                      <li>Brewery cleanouts on Main Street</li>
+                      <li>Warehouse clearances in Vista Business Park</li>
+                      <li>Commercial junk removal for San Diego businesses</li>
+                    </ul>
+
                     <p className="text-gray-700 mb-6">
-                      Our Vista operation is strategically positioned to serve North County's varied property landscape. We understand that Vista San Diego junk removal requires knowledge of everything from compact downtown apartments near the Civic Center to expansive family homes in Rancho Buena Vista, from brewery cleanouts on Main Street to warehouse clearances in Vista Business Park. Whether you're removing furniture from a downtown condo, clearing garage storage from a Shadowridge family home, or handling commercial debris from a Buena Creek business, our team brings the versatility and local expertise North County properties demand.
+                      Whether you need to remove unwanted items from a downtown condo, clear garage junk removal trash from a Shadowridge family home, or handle construction debris from a Buena Creek business, our junk removal team brings versatility and local expertise. We handle all the heavy lifting so you don't have to.
                     </p>
 
                     {/* Neighborhoods Served */}
@@ -325,36 +337,36 @@ export default function JunkRemovalVistaPage() {
                     </p>
 
                     {/* What We Remove */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Vista</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Vista CA</h3>
                     <p className="text-gray-700 mb-4">
-                      Our Vista junk removal service handles diverse items reflecting North County's mixed residential and commercial character:
+                      Our Vista CA junk removal services handle diverse items reflecting North County San Diego's mixed residential and commercial character. We remove unwanted items of all types with eco-friendly junk removal practices:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
-                        <h4 className="font-bold mb-2">Furniture & Household</h4>
+                        <h4 className="font-bold mb-2">Furniture Removal</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">Sofas, sectionals, recliners</a> from family room updates</li>
-                          <li>• <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">Mattresses</a>, bed frames, bedroom furniture from moves</li>
-                          <li>• Dining tables, chairs, kitchen sets from downsizing</li>
-                          <li>• Desks, office furniture, bookshelves from home offices</li>
+                          <li>• <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">Furniture removal for sofas, sectionals, recliners</a></li>
+                          <li>• <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">Mattresses</a>, bed frames, bedroom sets</li>
+                          <li>• Dining tables, chairs, kitchen sets</li>
+                          <li>• Desks, office furniture, bookshelves</li>
                         </ul>
                       </div>
                       <div>
-                        <h4 className="font-bold mb-2">Appliances & Electronics</h4>
+                        <h4 className="font-bold mb-2">Appliances & Fitness</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Refrigerators, freezers, washers, dryers</a> from remodels</li>
-                          <li>• Dishwashers, stoves, microwaves during kitchen upgrades</li>
-                          <li>• TVs, computers, electronics from tech refreshes</li>
-                          <li>• Exercise equipment, treadmills, home gym gear</li>
+                          <li>• <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Refrigerators, washers, dryers, freezers</a></li>
+                          <li>• Dishwashers, stoves, microwaves, ovens</li>
+                          <li>• TVs, computers, electronics disposal</li>
+                          <li>• Exercise equipment, treadmills, ellipticals, weight benches, home gym gear</li>
                         </ul>
                       </div>
                       <div>
-                        <h4 className="font-bold mb-2">Commercial & Business Items</h4>
+                        <h4 className="font-bold mb-2">Commercial Junk Removal</h4>
                         <ul className="space-y-1 text-gray-700">
-                          <li>• <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">Office furniture</a>, cubicles, conference tables</li>
-                          <li>• Brewery equipment, restaurant fixtures, retail displays</li>
-                          <li>• Warehouse inventory, industrial shelving, storage racks</li>
-                          <li>• <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">Construction debris</a> from commercial renovations</li>
+                          <li>• <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">Commercial junk removal for offices</a>, cubicles, conference tables</li>
+                          <li>• Brewery equipment, restaurant fixtures, displays</li>
+                          <li>• Warehouse inventory, shelving, storage racks</li>
+                          <li>• <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">Construction debris removal</a> from renovations</li>
                         </ul>
                       </div>
                       <div>
@@ -370,36 +382,36 @@ export default function JunkRemovalVistaPage() {
                     </div>
 
                     {/* How Our Service Works */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">How Our Vista Junk Removal Service Works</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">How Our Vista CA Junk Removal Services Work</h3>
                     <div className="bg-blue-50 rounded-lg p-6 mb-6">
                       <ol className="space-y-3 text-gray-700">
-                        <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe your items and Vista location. We'll provide volume-based pricing and schedule your service window.</li>
-                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for same-day junk pickup Vista service throughout North County. We coordinate timing around traffic patterns and your schedule preferences.</li>
-                        <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives in clearly marked trucks during your scheduled window. We assess items and provide final pricing before starting—no hidden fees.</li>
-                        <li><strong>4. We Load & Haul Everything:</strong> Our team handles all lifting and loading. We protect property, navigate tight spaces, and complete removal efficiently. You simply point—we handle the rest.</li>
-                        <li><strong>5. Eco-Friendly Disposal:</strong> We sort for donation, recycling, and responsible disposal. Usable items go to North County charities, recyclables to proper facilities.</li>
-                        <li><strong>6. Clean Sweep & Payment:</strong> We sweep clean after removal and collect payment. Most jobs complete in under two hours.</li>
+                        <li><strong>1. Contact Our Junk Removal Company:</strong> Call (619) 750-0114 or book online. Describe your items and Vista CA location. We'll provide volume-based pricing and schedule your service window for this junk removal solution.</li>
+                        <li><strong>2. We Offer Same Day Service:</strong> Our junk removal team offers same day service throughout North County San Diego when you call before noon. Same-day junk removal trash pickup Vista service available. We coordinate timing around traffic patterns and your schedule preferences.</li>
+                        <li><strong>3. We Arrive & Assess:</strong> Our uniformed junk removal team arrives in clearly marked trucks during your scheduled window. We assess items and provide final pricing before starting—no hidden fees.</li>
+                        <li><strong>4. We Handle All Heavy Lifting:</strong> Our team does all the heavy lifting and loading of your junk removal trash. We protect property, navigate tight spaces, and complete removal efficiently. You simply point—we handle the rest.</li>
+                        <li><strong>5. Eco-Friendly Junk Removal:</strong> We sort for donation, recycling, and responsible disposal with eco-friendly junk removal practices. Usable items go to North County charities, recyclables to proper facilities.</li>
+                        <li><strong>6. Clean Sweep & Payment:</strong> We sweep clean after removing unwanted items and collect payment. Most jobs complete in under two hours.</li>
                       </ol>
                     </div>
 
                     {/* Why Choose Us */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Cleaners for Vista Junk Removal</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Our Local Junk Removal Company for Vista CA</h3>
                     <ul className="space-y-3 mb-6">
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
-                        <span><strong>North County Versatility:</strong> We handle Vista's diverse property mix with equal expertise. From downtown brewery cleanouts to Shadowridge family homes to Business Park warehouse clearances, our team has completed thousands of Vista jobs. We navigate everything from compact downtown apartments to sprawling Rancho Buena Vista estates, understanding the unique requirements of each Vista neighborhood and property type.</span>
+                        <span><strong>North County San Diego Versatility:</strong> Our junk removal team handles Vista CA's diverse property mix with equal expertise. From downtown brewery cleanouts to Shadowridge family homes to Business Park warehouse clearances, we've completed thousands of Vista jobs. We navigate everything from compact downtown apartments to sprawling Rancho Buena Vista estates, understanding the unique requirements of each Vista neighborhood and property type. We also serve nearby San Marcos.</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
-                        <span><strong>Same-Day Service Available:</strong> Call before noon for same-day junk removal throughout Vista and North County. Our dispatch monitors Vista Village Drive and SR-78 traffic conditions, scheduling arrival windows that work around commute congestion and ensure reliable, on-time service even during busy North County periods.</span>
+                        <span><strong>We Offer Same Day Service:</strong> Our junk removal company offers same day service throughout Vista CA and North County San Diego. Call before noon for same-day junk removal services. Our dispatch monitors Vista Village Drive and SR-78 traffic conditions, scheduling arrival windows that work around commute congestion and ensure reliable, on-time service even during busy North County periods.</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
-                        <span><strong>Transparent Pricing:</strong> No hidden fees. Upfront volume-based quotes with all labor, hauling, and disposal included. Downtown access challenges or Shadowridge hillside locations don't change our rates—you pay for volume removed. Most Vista jobs range from quarter-truck to full-truck loads with clear pricing communicated before work begins.</span>
+                        <span><strong>Transparent Pricing - No Heavy Lifting Required:</strong> No hidden fees with our junk removal solution. Upfront volume-based quotes with all labor, heavy lifting, hauling, and disposal included. Downtown access challenges or Shadowridge hillside locations don't change our rates—you pay for volume removed. Most Vista CA jobs range from quarter-truck to full-truck loads with clear pricing communicated before work begins.</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
-                        <span><strong>Licensed & Insured:</strong> Fully licensed California junk removal company with comprehensive liability insurance. We carry proper coverage for residential homes, apartment complexes, and commercial properties throughout Vista's diverse North County landscape—from downtown businesses to hillside family estates.</span>
+                        <span><strong>Licensed & Insured Junk Removal Company:</strong> Fully licensed California local junk removal company with comprehensive liability insurance. We carry proper coverage for residential homes, apartment complexes, and commercial junk removal properties throughout Vista's diverse North County San Diego landscape—from downtown businesses to hillside family estates.</span>
                       </li>
                     </ul>
 
