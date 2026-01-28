@@ -12,7 +12,7 @@ import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
   title: "Furniture Disposal San Diego | Eco-Friendly Removal & Recycling",
-  description: "Professional furniture disposal in San Diego. Eco-friendly removal, recycling & donation services for couches, desks, and all furniture. Same-day available. Call (619) 750-0114.",
+  description: "Professional furniture disposal San Diego starting at $69. Same-day couch removal, desk disposal & recycling. Licensed & insured. Free quote: (619) 750-0114.",
   keywords: [
     "furniture disposal San Diego",
     "furniture removal San Diego",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Furniture Disposal San Diego | Eco-Friendly Removal & Recycling",
-    description: "Professional furniture disposal in San Diego. Eco-friendly removal, recycling & donation for all furniture types. Same-day service available. Call (619) 750-0114.",
+    description: "Professional furniture disposal San Diego starting at $69. Same-day service, eco-friendly recycling & donation. Call (619) 750-0114.",
     url: "https://severincleaners.com/furniture-disposal-san-diego",
     siteName: "Severin Cleaners",
     type: "website",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Furniture Disposal San Diego | Eco-Friendly Removal & Recycling",
-    description: "Professional furniture disposal in San Diego. Eco-friendly removal, recycling & donation services. Same-day available. Call (619) 750-0114!",
+    description: "Professional furniture disposal San Diego starting at $69. Same-day service available. Call (619) 750-0114!",
     images: ["https://severincleaners.com/og-image.jpg"]
   },
   alternates: {
@@ -61,9 +61,9 @@ export const metadata: Metadata = {
   },
   other: {
     'geo.region': 'US-CA',
-    'geo.placename': 'La Mesa',
-    'geo.position': '32.7678;-117.0231',
-    'ICBM': '32.7678, -117.0231',
+    'geo.placename': 'San Diego',
+    'geo.position': '32.7157;-117.1611',
+    'ICBM': '32.7157, -117.1611',
   },
 };
 
@@ -75,48 +75,117 @@ const relatedServices = [
 ];
 
 const furnitureFAQs = [
-    {
-      question: "How much does furniture disposal cost in San Diego?",
-      answer: "Furniture disposal San Diego pricing starts at $69 for small items like chairs and loveseats. Standard items (couches, dressers, appliances) start at $100. Large loads range up to $495 for a full trailer. Couch disposal costs $69-$199 depending on size. Bedroom furniture runs $249-$429. All prices include labor, transportation, eco-friendly disposal, and recycling with no hidden fees. Call (619) 750-0114 for a free quote."
-    },
-    {
-      question: "Do you remove heavy furniture like pianos or safes?",
-      answer: "Yes! Our furniture disposal San Diego team specializes in heavy and oversized items including pianos, pool tables, safes, and commercial furniture. We bring specialized equipment like piano dollies, furniture straps, and protective blankets. Our professional crew is trained in safe removal techniques for heavy items from any floor or location in San Diego."
-    },
-    {
-      question: "Can you remove furniture from upstairs or apartments?",
-      answer: "Absolutely. Our furniture disposal San Diego service handles multi-story homes, apartments, condos, and buildings with elevators or stairs. We navigate tight hallways, narrow staircases, and challenging doorways while protecting your walls and floors. There's no need to move furniture yourself – we handle all the heavy lifting regardless of location."
-    },
-    {
-      question: "Do I need to move furniture to the curb?",
-      answer: "No! With our full-service furniture disposal San Diego, you don't lift a finger. We come inside your home, office, or building to remove furniture from wherever it's located. Our team handles all the heavy lifting, maneuvering, and loading. Just show us what goes, and we'll take care of everything from there."
-    },
-    {
-      question: "Do you recycle furniture in San Diego?",
-      answer: "Yes! Our furniture recycling San Diego program prioritizes eco-friendly disposal. Usable furniture gets donated to local charities. Broken items are disassembled for recycling—metal frames go to scrap recyclers, wood gets repurposed, and fabric materials are sorted properly. We work with San Diego County recycling partners to minimize landfill waste. Only items that can't be donated or recycled are disposed of as a last resort, always following local regulations."
-    },
-    {
-      question: "Do you offer same-day furniture disposal?",
-      answer: "Yes, we provide same-day furniture disposal San Diego when you call before 2 PM. Our flexible scheduling includes evenings and weekends at no extra charge. Whether you need urgent couch disposal for a new delivery or last-minute space clearing, we can typically arrive within hours. Call (619) 750-0114 to check today's availability."
-    },
-    {
-      question: "Can you remove office furniture from commercial buildings?",
-      answer: "Absolutely. Our office furniture disposal San Diego service handles commercial properties including office buildings, retail spaces, and warehouses. We remove desks, cubicles, conference tables, filing cabinets, and all office equipment. Our team works efficiently to minimize disruption to your business operations and can schedule after-hours or weekend service throughout San Diego."
-    },
-    {
-      question: "Do you disassemble furniture before removal?",
-      answer: "Yes, when necessary. Our furniture disposal San Diego team disassembles bed frames, large tables, sectional sofas, and other furniture that won't fit through doorways intact. We bring all necessary tools and handle disassembly carefully to avoid property damage. This is included in our service at no extra charge for standard San Diego furniture disposal jobs."
-    }
-  ];
+  {
+    question: "How much does furniture disposal cost in San Diego?",
+    answer: "Furniture disposal San Diego pricing starts at $69 for small items like chairs and loveseats. Standard items (couches, dressers, appliances) start at $100. Large loads range up to $495 for a full trailer. Couch disposal costs $69-$199 depending on size. Bedroom furniture runs $249-$429. All prices include labor, transportation, eco-friendly disposal, and recycling with no hidden fees. Call (619) 750-0114 for a free quote."
+  },
+  {
+    question: "Is there free furniture disposal in San Diego?",
+    answer: "Yes, the City of San Diego offers free bulky item pickup, but there are significant limitations. You must move furniture to the curb yourself, wait 1-2 weeks for scheduled pickup, and items must meet size/weight restrictions. Many San Diego residents find that renting a truck ($75-150/day) plus their time and physical effort makes 'free' disposal actually cost more than our professional service starting at $69. We come to you, handle all heavy lifting, provide same-day service when you call before 2 PM, and ensure eco-friendly disposal. Most customers find our furniture disposal San Diego service more cost-effective and convenient than DIY free options. Call (619) 750-0114 for a free quote."
+  },
+  {
+    question: "Do you remove heavy furniture like pianos or safes?",
+    answer: "Yes! Our furniture disposal San Diego team specializes in heavy and oversized items including pianos, pool tables, safes, and commercial furniture. We bring specialized equipment like piano dollies, furniture straps, and protective blankets. Our professional crew is trained in safe removal techniques for heavy items from any floor or location in San Diego."
+  },
+  {
+    question: "Can you remove furniture from upstairs or apartments?",
+    answer: "Absolutely. Our furniture disposal San Diego service handles multi-story homes, apartments, condos, and buildings with elevators or stairs. We navigate tight hallways, narrow staircases, and challenging doorways while protecting your walls and floors. There's no need to move furniture yourself – we handle all the heavy lifting regardless of location."
+  },
+  {
+    question: "Do I need to move furniture to the curb?",
+    answer: "No! With our full-service furniture disposal San Diego, you don't lift a finger. We come inside your home, office, or building to remove furniture from wherever it's located. Our team handles all the heavy lifting, maneuvering, and loading. Just show us what goes, and we'll take care of everything from there."
+  },
+  {
+    question: "Do you recycle furniture in San Diego?",
+    answer: "Yes! Our furniture recycling San Diego program prioritizes eco-friendly disposal. Usable furniture gets donated to local charities like Habitat for Humanity and San Diego Rescue Mission. Broken items are disassembled for recycling—metal frames go to scrap recyclers, wood gets repurposed, and fabric materials are sorted properly. We work with San Diego County recycling partners to minimize landfill waste. Only items that can't be donated or recycled are disposed of as a last resort, always following local regulations."
+  },
+  {
+    question: "Do you offer same-day furniture disposal?",
+    answer: "Yes, we provide same-day furniture disposal San Diego when you call before 2 PM. Our flexible scheduling includes evenings and weekends at no extra charge. Whether you need urgent couch disposal for a new delivery or last-minute space clearing, we can typically arrive within hours. Call (619) 750-0114 to check today's availability."
+  },
+  {
+    question: "Can you remove office furniture from commercial buildings?",
+    answer: "Absolutely. Our office furniture disposal San Diego service handles commercial properties including office buildings, retail spaces, and warehouses. We remove desks, cubicles, conference tables, filing cabinets, and all office equipment. Our team works efficiently to minimize disruption to your business operations and can schedule after-hours or weekend service throughout San Diego."
+  },
+  {
+    question: "Do you disassemble furniture before removal?",
+    answer: "Yes, when necessary. Our furniture disposal San Diego team disassembles bed frames, large tables, sectional sofas, and other furniture that won't fit through doorways intact. We bring all necessary tools and handle disassembly carefully to avoid property damage. This is included in our service at no extra charge for standard San Diego furniture disposal jobs."
+  },
+  {
+    question: "What's the cheapest way to dispose of furniture in San Diego?",
+    answer: "The cheapest option depends on your situation. The City of San Diego's free bulky item pickup is technically free but requires you to move furniture to the curb yourself and wait 1-2 weeks. Donation to charities like Habitat for Humanity is free if your furniture is in good shape, but pickup takes 3-7 days to schedule. Taking it to Miramar Landfill yourself costs $40-60 in dump fees plus truck rental ($75-150). Our professional furniture removal San Diego service starts at $69 with same-day availability—we handle all the work so you don't risk injury or spend your entire day. When you factor in your time, physical effort, and convenience, professional furniture disposal San Diego service provides the best overall value for most people."
+  }
+];
 
 export default function FurnitureDisposalPage() {
   const serviceSchema = generateServiceSchema({
     name: "Furniture Disposal San Diego",
-    description: "Professional furniture disposal and recycling in San Diego. Eco-friendly removal services for couches, sofas, desks, beds, and all furniture types. Same-day service available.",
+    description: "Professional furniture disposal and recycling in San Diego. Eco-friendly furniture removal services for couches, sofas, desks, beds, and all furniture types. Same-day service available.",
     url: "https://severincleaners.com/furniture-disposal-san-diego",
     serviceType: "Furniture Disposal and Recycling Service",
     areaServed: "San Diego County, CA",
   });
+
+  // Enhanced LocalBusiness schema for furniture disposal
+  const localBusinessSchema = {
+    "@type": "LocalBusiness",
+    "@id": "https://severincleaners.com/furniture-disposal-san-diego#business",
+    "name": "Severin Cleaners - Furniture Disposal San Diego",
+    "image": "https://severincleaners.com/og-image.jpg",
+    "telephone": "+1-619-750-0114",
+    "priceRange": "$69-$495",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Diego",
+      "addressRegion": "CA",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.7157,
+      "longitude": -117.1611
+    },
+    "url": "https://severincleaners.com/furniture-disposal-san-diego",
+    "areaServed": {
+      "@type": "City",
+      "name": "San Diego",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California"
+      }
+    },
+    "openingHours": "Mo-Su 00:00-23:59",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Furniture Disposal Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Couch Removal San Diego",
+            "description": "Professional couch and sofa disposal service"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Office Furniture Disposal San Diego",
+            "description": "Commercial furniture removal and recycling"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Furniture Recycling San Diego",
+            "description": "Eco-friendly furniture recycling and donation service"
+          }
+        }
+      ]
+    }
+  };
 
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://severincleaners.com" },
@@ -128,7 +197,7 @@ export default function FurnitureDisposalPage() {
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema, faqSchema]
+    "@graph": [serviceSchema, localBusinessSchema, breadcrumbSchema, faqSchema]
   };
 
   return (
@@ -196,7 +265,7 @@ export default function FurnitureDisposalPage() {
               <div className="lg:col-span-2">
                 <div className="bg-white rounded-lg shadow-md p-8">
                   <h2 className="text-3xl md:text-4xl font-bold mb-8 text-gray-900">
-                    Responsible Furniture Disposal in San Diego
+                    Professional Furniture Disposal in San Diego
                   </h2>
 
                   <div className="prose prose-lg max-w-none">
@@ -207,6 +276,56 @@ export default function FurnitureDisposalPage() {
                     <p className="text-lg mb-6">
                       We handle all types of furniture removal San Diego needs: <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">couches and sofas</a>, desks, <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:text-blue-700 underline">mattresses</a>, dressers, and everything in between. Our furniture recycling San Diego program ensures usable items find new homes through donation partners, while materials like metal and wood get properly recycled. From <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> to <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, we're helping San Diego stay green while keeping your space clutter-free. Need <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">same-day service</a>? Call before 2 PM.
                     </p>
+
+                    <h3 className="text-2xl font-bold mt-10 mb-4">Free vs. Professional Furniture Disposal San Diego</h3>
+
+                    <p className="text-lg mb-4">
+                      Many San Diego residents search for free furniture disposal options. While the city does offer free bulky item pickup, understanding the full picture helps you make the best choice.
+                    </p>
+
+                    <div className="grid md:grid-cols-2 gap-6 mb-8">
+                      <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg">
+                        <h4 className="text-xl font-bold text-red-900 mb-4">The Reality of "Free" Disposal</h4>
+                        <p className="text-gray-700 mb-3">
+                          Free city pickup requires you to move heavy furniture to the curb yourself—risking back injury and property damage. You'll wait 1-2 weeks for your scheduled pickup date.
+                        </p>
+                        <p className="text-gray-700 mb-3">
+                          If you take it to Miramar Landfill yourself, you need to rent a truck ($75-150/day), load heavy furniture, drive across town, wait in dump lines, and pay disposal fees ($40-60).
+                        </p>
+                        <p className="text-gray-700 mb-4">
+                          When you add up truck rental, fuel costs, your time, and physical effort, the "free" option often costs just as much or more than professional removal.
+                        </p>
+                        <p className="font-semibold text-red-800">
+                          Typical DIY cost: $100-200+ when factoring in all expenses
+                        </p>
+                      </div>
+
+                      <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-lg">
+                        <h4 className="text-xl font-bold text-green-900 mb-4">Our Professional Service</h4>
+                        <p className="text-gray-700 mb-3">
+                          Our furniture disposal San Diego service starts at $69 for small items, with upfront quotes over the phone. No hidden fees—the price we quote covers everything.
+                        </p>
+                        <p className="text-gray-700 mb-3">
+                          We come directly to your location anywhere in San Diego County. Whether you're in a ground-floor home or a 20th-floor high-rise, our team handles all the heavy lifting and protects your walls and floors.
+                        </p>
+                        <p className="text-gray-700 mb-4">
+                          Call before 2 PM for same-day service. The entire process takes just 15-30 minutes. You don't lift a finger, and we ensure proper recycling or donation.
+                        </p>
+                        <p className="font-semibold text-green-800">
+                          Professional service from $69: Similar cost to DIY, zero hassle, no physical risk
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
+                      <h4 className="text-lg font-bold text-gray-900 mb-3">The Bottom Line</h4>
+                      <p className="text-gray-700 mb-4">
+                        While free furniture disposal San Diego options exist through the city, most people find that our professional service offers better overall value. When you factor in truck rental, time, physical effort, and injury risk, the "free" option often costs more in both money and convenience.
+                      </p>
+                      <p className="text-gray-700">
+                        Call <a href="tel:6197500114" className="text-blue-600 font-bold hover:underline">(619) 750-0114</a> for a free quote that saves you time, effort, and often money compared to DIY alternatives.
+                      </p>
+                    </div>
 
                     <h3 className="text-2xl font-bold mt-10 mb-4">What We Remove</h3>
                     <p className="text-lg mb-4">
@@ -304,12 +423,17 @@ export default function FurnitureDisposalPage() {
                       Closing an office or upgrading your workspace? We remove desks, cubicles, conference tables, and filing cabinets with minimal disruption to your business. From <a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a> executive suites to downtown San Diego offices, we work efficiently and professionally. Need that heavy executive desk disassembled? We've got the tools and know-how.
                     </p>
 
-                    <h3 className="text-2xl font-semibold mt-6 mb-3">What Happens to Your Old Furniture?</h3>
+                    <h3 className="text-2xl font-semibold mt-6 mb-3">Bedroom Furniture</h3>
                     <p className="text-lg mb-6">
-                      When you choose our furniture disposal San Diego service, you're choosing responsible disposal. Usable furniture gets donated to local charities. Broken items are recycled when possible—metal frames, wood components, and fabric materials all get sorted properly. Only true waste reaches the landfill as a last resort. We follow all local San Diego disposal regulations and work with recycling partners throughout the county to minimize environmental impact.
+                      Old beds, broken dressers, outdated armoires—we remove all bedroom furniture throughout San Diego. Our team can disassemble bed frames, navigate narrow hallways, and protect your floors and walls during removal. Moving to a smaller place? Redecorating? We make furniture removal simple.
                     </p>
 
-                    {/* Local Neighborhoods Section - NEW */}
+                    <h3 className="text-2xl font-semibold mt-6 mb-3">What Happens to Your Old Furniture?</h3>
+                    <p className="text-lg mb-6">
+                      When you choose our furniture disposal San Diego service, you're choosing responsible disposal. Usable furniture gets donated to local charities like Habitat for Humanity and San Diego Rescue Mission. Broken items are recycled when possible—metal frames, wood components, and fabric materials all get sorted properly. Only true waste reaches the landfill as a last resort. We follow all local San Diego disposal regulations and work with recycling partners throughout the county to minimize environmental impact.
+                    </p>
+
+                    {/* Local Neighborhoods Section */}
                     <h2 className="text-3xl font-bold mt-12 mb-6">San Diego Neighborhoods We Serve</h2>
                     <p className="text-lg mb-6">
                       Our furniture disposal San Diego service covers every neighborhood across San Diego County. From coastal communities to inland suburbs, we provide fast, professional furniture removal wherever you are:
@@ -348,7 +472,6 @@ export default function FurnitureDisposalPage() {
                           <h4 className="font-bold text-lg mb-4 text-blue-900">North County</h4>
                           <ul className="space-y-2 text-gray-700">
                             <li>• <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline font-semibold">Oceanside</a> - Beach & inland</li>
-                            <li>• <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline font-semibold">Pacific Beach</a> - Beach town living</li>
                             <li>• <a href="/junk-removal-escondido" className="text-blue-600 hover:underline font-semibold">Escondido</a> - North inland</li>
                             <li>• <a href="/junk-removal-vista" className="text-blue-600 hover:underline font-semibold">Vista</a> - Residential areas</li>
                             <li>• <a href="/junk-removal-carlsbad" className="text-blue-600 hover:underline font-semibold">Carlsbad</a> - Coastal service</li>
@@ -400,7 +523,7 @@ export default function FurnitureDisposalPage() {
 
                       <div className="mt-6 text-center">
                         <p className="text-gray-700 font-semibold text-lg">
-                          📞 Don't see your neighborhood? We serve the entire San Diego County area. <a href="tel:+16197500114" className="text-blue-600 hover:underline">Call (619) 750-0114</a> to confirm service in your area!
+                          Don't see your neighborhood? We serve the entire San Diego County area. <a href="tel:+16197500114" className="text-blue-600 hover:underline">Call (619) 750-0114</a> to confirm service in your area!
                         </p>
                       </div>
                     </div>
