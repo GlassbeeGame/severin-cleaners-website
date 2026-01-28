@@ -11,8 +11,8 @@ import LocationPricingSection from "@/components/LocationPricingSection";
 import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
-  title: '$69 Couch Removal San Diego | Same-Day Pickup | Severin Cleaners',
-  description: 'Couch removal in San Diego from $69. Same-day pickup. We lift, haul & dispose. No hidden fees. Call (619) 750-0114 for a free quote.',
+  title: 'Couch Removal & Furniture Disposal San Diego | Starting at $69 | (619) 750-0114',
+  description: 'Professional couch removal and furniture disposal San Diego starting at $69. Same-day sofa removal, transparent pricing, eco-friendly recycling. Call (619) 750-0114.',
   keywords: [
     'couch removal San Diego',
     'sofa disposal San Diego',
@@ -24,8 +24,8 @@ export const metadata: Metadata = {
     'recliner removal San Diego'
   ],
   openGraph: {
-    title: '$69 Couch Removal San Diego | Same-Day Pickup | Severin Cleaners',
-    description: 'Couch removal in San Diego from $69. Same-day pickup. We lift, haul & dispose. No hidden fees. Call (619) 750-0114 for a free quote.',
+    title: 'Couch Removal & Furniture Disposal San Diego | Starting at $69 | (619) 750-0114',
+    description: 'Professional couch removal and furniture disposal San Diego starting at $69. Same-day sofa removal, transparent pricing, eco-friendly recycling. Call (619) 750-0114.',
     url: 'https://severincleaners.com/couch-removal-san-diego',
     siteName: 'Severin Cleaners',
     images: [{
@@ -39,8 +39,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: '$69 Couch Removal San Diego | Same-Day Pickup | Severin Cleaners',
-    description: 'Couch removal in San Diego from $69. Same-day pickup. We lift, haul & dispose. No hidden fees. Call (619) 750-0114 for a free quote.',
+    title: 'Couch Removal & Furniture Disposal San Diego | Starting at $69 | (619) 750-0114',
+    description: 'Professional couch removal and furniture disposal San Diego starting at $69. Same-day sofa removal, transparent pricing, eco-friendly recycling. Call (619) 750-0114.',
     images: ['https://severincleaners.com/og-image.jpg'],
   },
   alternates: {
@@ -75,43 +75,43 @@ const relatedServices = [
 const couchFAQs = [
   {
     question: "How much does couch removal cost in San Diego?",
-    answer: "Couch removal starts at $69 in San Diego. That's for a smaller sofa or loveseat with easy access. Standard couches are $100-129. Sectionals run $129-199. Sleeper sofas are $129-149. Stairs and tight spaces don't change the price. We give you the exact cost over the phone. No surprises. No hidden fees. Call (619) 750-0114 for a free quote."
+    answer: "Couch removal in San Diego starts at $69 and varies based on the size and type of sofa. Small loveseats and compact sofas typically cost $69-89, while standard three-seat couches range from $100-129. Larger sectional sofas cost $129-199 depending on the number of pieces, and sleeper sofas with pull-out beds run $129-149. We provide upfront quotes with transparent pricing over the phone before we arrive. Once we give you a price, it covers everything—all labor, hauling, stairs, tight spaces, and eco-friendly disposal or donation. No hidden fees or surprises. For couch disposal San Diego service, call (619) 750-0114 for your free quote based on your specific furniture."
   },
   {
     question: "Do you offer same-day couch disposal?",
-    answer: "Yes! Call before noon and we can usually come the same day. Same-day works best in central San Diego. Think North Park, Hillcrest, Mission Valley, Downtown. Live in Chula Vista, El Cajon, or Oceanside? Same-day depends on our schedule. But we always offer next-day pickup if today doesn't work. Call us to check: (619) 750-0114."
+    answer: "Yes, we provide same-day couch disposal and sofa removal service when you call before noon in most cases. Same-day pickup works best in central San Diego neighborhoods including North Park, Hillcrest, Mission Valley, Downtown San Diego, and surrounding areas. For outlying communities like Chula Vista, El Cajon, Oceanside, and Carlsbad, same-day availability depends on our current schedule and route, but we can almost always offer next-day pickup if today doesn't work. Our furniture removal team serves all of San Diego County with fast response times. Call (619) 750-0114 to check same-day availability for your specific location and schedule your couch removal."
   },
   {
     question: "Can you remove sectionals or oversized sofas?",
-    answer: "Yes. Big couches are our specialty. We remove L-shaped sectionals, U-shaped sectionals, sleeper sofas, and oversized recliners. No couch is too big. Need it taken apart? We'll disassemble it. Tight doorway? Narrow stairs? We've seen it all. Our two-person crews handle heavy furniture every day. We'll get it out safely."
+    answer: "Absolutely. Large furniture removal is our specialty, and we handle oversized couches regularly throughout San Diego. We remove L-shaped sectionals, U-shaped sectionals, modular sofa systems, sleeper sofas with pull-out beds, and oversized recliners from living rooms, family rooms, and basements. No couch is too big for our experienced crews. If your sectional needs to be disassembled to fit through tight doorways or navigate narrow staircases, we handle that too. Our two-person teams are trained in furniture removal techniques and use proper equipment to protect your walls, floors, and property. Whether you're removing a massive sectional from a Mission Valley home or a tight Pacific Beach apartment, we complete the job safely and efficiently."
   },
   {
     question: "Do you recycle couches?",
-    answer: "Yes. We don't just dump everything at the landfill. Good couches get donated. We work with Habitat for Humanity and San Diego Rescue Mission. Couches that can't be donated get broken down. Wood, metal, and foam go to recycling. Only true junk goes to the landfill. Your old couch gets a second life when possible."
+    answer: "Yes, eco-friendly furniture disposal is a core part of our couch removal San Diego service. We don't simply dump everything at the landfill like many junk removal companies. Couches in good shape get donated to local San Diego charities including Habitat for Humanity and San Diego Rescue Mission, where they can help families in need. Furniture that cannot be donated due to damage, stains, or wear gets responsibly broken down for recycling. Wood frames are sent to recycling facilities, metal springs and hardware are recycled as scrap metal, and foam padding is processed when possible. Only items that truly cannot be reused or recycled go to the landfill. This eco-friendly approach keeps thousands of pounds of furniture out of San Diego landfills each year while supporting our local community."
   },
   {
     question: "Do you serve apartments or high-rises downtown?",
-    answer: "Yes. We remove couches from apartments every day. Downtown, East Village, Little Italy, Gaslamp—we know these buildings. Elevators, stairs, narrow hallways? No problem. We protect your walls and floors during removal. We coordinate with building management if needed. No extra charge for stairs or elevators. You pay based on couch size only."
+    answer: "Yes, our couch removal San Diego team serves apartment buildings and high-rises throughout downtown and all San Diego neighborhoods daily. We're very familiar with downtown buildings in areas like East Village, Little Italy, Gaslamp Quarter, and Marina District. Our crews navigate elevators, stairways, and narrow hallways while protecting your walls and floors during the furniture removal process. We coordinate with building management and follow HOA requirements when needed. Unlike some furniture disposal services, we charge no extra fees for stairs or elevator access—you pay based on couch size only with our transparent pricing model. Whether you're on the ground floor or the 20th floor, we handle all the logistics and heavy lifting for your sofa removal."
   },
   {
     question: "How do I dispose of a couch in San Diego?",
-    answer: "You have a few options: Hire a pro—We start at $69. Same-day available. We do all the work. City pickup—Free, but you wait 1-2 weeks. You move it to the curb. Miramar Landfill—$40-60 plus your time. You need a truck. Donate it—Free if it's in good shape. Takes 3-7 days. Most people choose pro removal. It's fast and easy."
+    answer: "You have several options for couch disposal San Diego. Professional furniture removal services like ours start at $69 with same-day availability—we handle all the work so you don't lift a finger. City of San Diego bulky item pickup is free, but requires a 1-2 week wait and you must move the couch to the curb yourself. Taking it to Miramar Landfill costs $40-60 in dump fees plus your time, and you need access to a truck large enough to haul the sofa. Donation to charities is free if your couch is in good shape with no stains or damage, but pickup typically takes 3-7 days to schedule. Most San Diego residents choose professional couch removal for the convenience, speed, and transparent pricing. It's faster than waiting for city pickup and easier than renting a truck and driving to the dump yourself."
   },
   {
     question: "What is the cheapest way to get rid of a couch?",
-    answer: "The cheapest option is the city's free bulky pickup. But there's a catch: you wait 1-2 weeks and move it to the curb yourself. Have a nice couch? Donation pickup is free too. Need it gone fast? Pro removal starts at $69. That's often cheaper than renting a truck and paying dump fees yourself. Time is money. Pick what works for you."
+    answer: "The cheapest option is the City of San Diego's free bulky item pickup service for couch disposal, but there's a significant catch—you typically wait 1-2 weeks for your scheduled pickup date and must move the couch to the curb yourself, which can be difficult for large or heavy sofas. If you have a nice couch in good shape, donation pickup through organizations like Habitat for Humanity is free as well, though scheduling takes 3-7 days and they may reject stained or damaged furniture. For fast couch removal, professional junk removal services like ours start at $69, which is often comparable to or cheaper than renting a truck (typically $75-150 per day) and paying Miramar Landfill dump fees ($40-60) yourself. When you factor in your time, physical effort, and convenience, professional furniture disposal San Diego service provides the best overall value for most people."
   },
   {
     question: "How much does it cost to remove a large couch?",
-    answer: "Here's the breakdown: Small loveseat—$69+. Standard sofa—$100+. Sectional (L or U shaped)—$129-199. Sleeper sofa—$129-149. Oversized recliner—$100-129. Price depends on size and number of pieces. We quote exact pricing over the phone. Call (619) 750-0114. We'll tell you the cost in 2 minutes."
+    answer: "Large couch removal pricing varies based on the size and configuration of your furniture. Small loveseats start at $69 and up. Standard three-seat sofas range from $100 and up. L-shaped or U-shaped sectional sofas cost $129-199 depending on how many pieces need to be removed. Sleeper sofas with pull-out bed mechanisms run $129-149 due to their added weight. Oversized recliners and large accent chairs typically cost $100-129 for furniture removal. The final price depends on the size, number of pieces, and specific dimensions of your sofa. We provide exact couch disposal pricing over the phone with our transparent pricing approach—just call (619) 750-0114 and describe your furniture. We'll give you an accurate quote in about 2 minutes so you know exactly what to expect before we arrive."
   },
   {
     question: "Will you remove a couch from upstairs?",
-    answer: "Yes. Upstairs, downstairs, any floor. We do second-story bedrooms, basement rec rooms, and high-rise apartments. Stairs don't scare us. Our crews handle tight turns and narrow stairwells daily. We protect your walls and railings too. Best part? No extra charge for stairs. Price is based on couch size only."
+    answer: "Yes, our sofa removal team removes couches from upstairs locations, downstairs areas, and any floor level throughout San Diego properties. We regularly handle second-story living rooms, upstairs bedrooms, basement rec rooms, and high-rise apartment buildings. Stairs don't intimidate our experienced furniture removal crews—they navigate tight turns, narrow stairwells, and challenging angles daily while protecting your walls, railings, and flooring. Unlike many junk removal companies that charge extra stair fees, we include stairway access in our base pricing. You pay based on couch size only with our transparent pricing model, whether your sofa is on the ground floor or three flights up. Many customers highly recommend our stair removal service for this reason."
   },
   {
     question: "Do you take couches with bed bugs or stains?",
-    answer: "Yes. We take couches in any condition. Stained? We'll take it. Torn? We'll take it. Bed bugs? We'll take it. Pet damage? We'll take it. Donation centers and city pickup won't touch these. We will. No judgment. No extra charge. If you need it gone, we'll remove it."
+    answer: "Yes, we accept couches in any condition for furniture disposal San Diego service. Heavily stained sofas, torn upholstery, bed bug infestations, pet damage, smoke odors, water damage—we remove it all. Many donation centers and the city's free bulky pickup service refuse furniture in poor condition, leaving you with limited options. Our couch removal San Diego team handles these difficult situations without judgment and without charging extra fees based on condition. We follow proper disposal protocols for infested furniture to prevent spreading bed bugs. Whether your living room sofa has seen better days or your old couch is beyond salvaging, we'll remove it quickly and dispose of it responsibly. If you need it gone, we'll take it regardless of condition."
   }
 ];
 
@@ -184,9 +184,9 @@ export default function CouchRemovalPage() {
       <main>
       {/* Hero Section - Optimized for Core Web Vitals */}
       <OptimizedGradientHero
-        title="Couch Removal San Diego & Sofa Disposal Services"
-        subtitle="Same-Day Couch Pickup • Licensed & Insured • Honest Pricing • 5.0 Rating"
-        description="Small sofas $69+ • Standard couches $100+ • All of San Diego County"
+        title="Couch Removal & Furniture Disposal San Diego"
+        subtitle="⭐ Same-Day Sofa Removal • Eco-Friendly • Transparent Pricing • Licensed & Insured"
+        description="✓ Small sofas from $69 ✓ Standard couches from $100 ✓ All San Diego County"
       />
 
       {/* Main Content with Sidebar */}
@@ -197,30 +197,18 @@ export default function CouchRemovalPage() {
             <div className="lg:col-span-2">
               <div className="bg-white rounded-lg shadow-md p-8">
                 <div className="prose prose-lg max-w-none">
-                  <h2 className="text-3xl font-bold text-gray-900 mb-6">Your San Diego Couch Removal Experts</h2>
+                  <h2 className="text-4xl font-bold text-gray-900 mb-6">Professional Couch Removal & Furniture Disposal San Diego</h2>
 
-                  <p className="text-lg text-gray-700 mb-3">
-                    Need your old couch gone? We make it easy.
+                  <p className="text-xl text-gray-600 mb-6 leading-relaxed">
+                    When you need reliable couch removal and furniture disposal San Diego, Severin Cleaners delivers fast, affordable, and eco-friendly service throughout San Diego County. Our professional couch disposal San Diego team provides same-day sofa removal service starting at just $69 for small sofas and loveseats, with standard couches from $100. We offer transparent pricing with upfront quotes, and once we give you a price, it covers everything—all labor, hauling, and responsible disposal or recycling.
                   </p>
 
-                  <p className="text-lg text-gray-700 mb-3">
-                    <strong>Severin Cleaners</strong> removes sofas in San Diego. Small sofas and loveseats start at <strong>$69</strong>. Standard couches start at <strong>$100</strong>.
+                  <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                    Whether you're upgrading your living room furniture, clearing out a rental property in <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a>, handling an estate cleanout in <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, or managing a property turnover in <a href="/junk-removal-mission-valley" className="text-blue-600 hover:underline">Mission Valley</a>, our couch removal San Diego service handles everything from single loveseats to large sectional sofas. We serve all San Diego neighborhoods including <a href="/junk-removal-north-park" className="text-blue-600 hover:underline">North Park</a>, <a href="/junk-removal-hillcrest" className="text-blue-600 hover:underline">Hillcrest</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, and communities throughout the county.
                   </p>
 
-                  <p className="text-lg text-gray-700 mb-3">
-                    We do all the lifting. All the hauling. All the disposal. You just point to the couch. We handle the rest.
-                  </p>
-
-                  <p className="text-lg text-gray-700 mb-3">
-                    Same-day pickup available. No dump runs. No heavy lifting.
-                  </p>
-
-                  <p className="text-lg text-gray-700 mb-3">
-                    From <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> sectionals to <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a> apartment couches—we've got you covered.
-                  </p>
-
-                  <p className="text-lg text-gray-700 mb-6">
-                    <strong>Call <a href="tel:6197500114" className="text-blue-600 hover:underline">(619) 750-0114</a> for a free quote.</strong>
+                  <p className="text-lg text-gray-700 mb-8 leading-relaxed">
+                    Our eco-friendly approach prioritizes donation and recycling whenever possible. Couches in good shape get donated to local San Diego charities like Habitat for Humanity and San Diego Rescue Mission. Damaged furniture gets broken down responsibly, with wood and metal components sent to recycling facilities. Our customers highly recommend our transparent pricing, same-day availability, and professional service. From the moment you call us at (619) 750-0114 to the final pickup, we make furniture removal and junk removal as simple and stress-free as possible.
                   </p>
 
                   <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Types of Couches We Remove</h3>
@@ -310,60 +298,29 @@ export default function CouchRemovalPage() {
                   </p>
 
                   <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
-                    <h3 className="text-xl font-semibold text-blue-900 mb-2">We Serve All of San Diego County</h3>
-                    <p className="text-blue-800 mb-4">We pick up couches everywhere:</p>
-                    <ul className="text-blue-800 space-y-2">
-                      <li><strong>Downtown & Gaslamp Quarter</strong> – Apartments and high-rises</li>
-                      <li><strong>North Park & Hillcrest</strong> – Urban homes with tight access</li>
-                      <li><strong>Mission Valley & Clairemont</strong> – Condos and townhouses</li>
-                      <li><strong>La Jolla & Pacific Beach</strong> – Beach homes and large sofas</li>
-                      <li><strong>Chula Vista & National City</strong> – Family homes</li>
-                      <li><strong>East County & El Cajon</strong> – Big properties</li>
-                    </ul>
-                    <p className="text-blue-700 mt-4">Most pickups happen within 24 hours.</p>
-                    <p className="text-blue-700">Same-day available in central areas.</p>
-                    <div className="mt-4 text-center">
-                      <p className="text-blue-700 font-semibold">📞 Call (619) 750-0114 for immediate service</p>
-                    </div>
+                    <h3 className="text-xl font-semibold text-blue-900 mb-3">We Serve All of San Diego County</h3>
+                    <p className="text-blue-800 mb-3 leading-relaxed">
+                      Our couch removal San Diego service covers every neighborhood and community throughout the county. We pick up furniture from downtown high-rises and Gaslamp Quarter apartments, urban homes with tight access in North Park and Hillcrest, condos and townhouses in Mission Valley and Clairemont, beach properties in La Jolla and Pacific Beach, family homes in Chula Vista and National City, and larger properties throughout East County and El Cajon.
+                    </p>
+                    <p className="text-blue-800 mb-3 leading-relaxed">
+                      Most furniture removal pickups happen within 24 hours of your call. Same-day sofa removal is available in central San Diego areas when you contact us before noon. Whether you need furniture disposal for a single loveseat or a complete living room cleanout, we provide fast, reliable service across all of San Diego County.
+                    </p>
+                    <p className="text-blue-700 font-semibold text-center">📞 Call (619) 750-0114 for immediate couch disposal service</p>
                   </div>
 
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Fast Response Times</h3>
-                  <p className="text-lg text-gray-700 mb-3">
-                    We're based in San Diego. That means fast pickup.
-                  </p>
-                  <ul className="list-disc pl-6 mb-4 space-y-2 text-gray-700">
-                    <li>From <strong>Petco Park</strong>: 15 minutes</li>
-                    <li>From <strong>Balboa Park</strong>: 10 minutes</li>
-                    <li>From <strong>UC San Diego</strong>: 20 minutes</li>
-                  </ul>
-                  <p className="text-lg text-gray-700 mb-6">
-                    We're faster than out-of-town haulers from Riverside or Orange County.
+                  <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+                    We're locally based in San Diego, which means fast pickup times for couch removal throughout the county. Our central location allows us to reach most San Diego neighborhoods quickly—typically 15 minutes from Petco Park, 10 minutes from Balboa Park, and 20 minutes from UC San Diego. This local presence makes us significantly faster than out-of-town junk removal companies operating from Riverside or Orange County who may take hours to reach your location.
                   </p>
 
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">We Handle Tricky Situations</h3>
-                  <p className="text-lg text-gray-700 mb-3">
-                    Tight parking? We deal with it.
-                  </p>
-                  <p className="text-lg text-gray-700 mb-3">
-                    Beach traffic? We work around it.
-                  </p>
-                  <p className="text-lg text-gray-700 mb-6">
-                    Narrow driveways? We've seen worse. Our drivers know San Diego. We plan routes around traffic and parking limits.
+                  <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                    San Diego presents unique challenges for furniture removal, and our experienced team navigates them all. Tight parking in downtown areas, heavy beach traffic in coastal neighborhoods, narrow driveways in older communities—we've handled far worse. Our drivers know San Diego streets intimately and plan efficient routes around traffic patterns, parking restrictions, and neighborhood access limitations. Whether removing a sectional from a Pacific Beach apartment with limited street parking or hauling a sleeper sofa from a hillside home in Mission Hills, we make it work.
                   </p>
 
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Business & Property Managers</h3>
-                  <p className="text-lg text-gray-700 mb-4">
-                    We work with apartments, offices, and hotels:
-                  </p>
-                  <ul className="list-disc pl-6 mb-4 space-y-2 text-gray-700">
-                    <li><strong>UC San Diego</strong> housing</li>
-                    <li><strong>Sharp Healthcare</strong> facilities</li>
-                    <li><strong>Qualcomm</strong> offices in Sorrento Valley</li>
-                    <li>Hotels and AirBnBs near Mission Beach</li>
-                    <li>Retail centers like Fashion Valley</li>
-                  </ul>
-                  <p className="text-lg text-gray-700 mb-6">
-                    We offer flexible pickup times. Business hours or after hours.
+                  <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                    We work extensively with commercial properties, property management companies, and businesses throughout San Diego County. Our furniture removal clients include UC San Diego student housing, Sharp Healthcare medical facilities, Qualcomm offices in Sorrento Valley, hotels and vacation rentals near Mission Beach, and retail centers like Fashion Valley. We offer flexible pickup scheduling with both business hours and after-hours service to minimize disruption to your operations. Property managers highly recommend our transparent pricing, reliable scheduling, and professional service for apartment turnovers, office furniture upgrades, and commercial junk removal projects.
                   </p>
 
                   <h2 className="text-3xl font-bold text-gray-900 mb-4">Neighborhood-Specific Solutions</h2>
@@ -371,67 +328,43 @@ export default function CouchRemovalPage() {
                   <div className="grid md:grid-cols-3 gap-6 mb-8">
                     <div className="bg-gray-50 p-6 rounded-lg">
                       <h4 className="text-xl font-bold mb-3 text-blue-600">Urban Apartments & Downtown Properties</h4>
-                      <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                        <li>Tight hallways and elevator navigation</li>
-                        <li>Sectional couch disassembly</li>
-                        <li>Same-day move-out pickups near Gaslamp and East Village</li>
-                      </ul>
+                      <p className="text-gray-700 leading-relaxed">
+                        We specialize in couch removal from downtown San Diego apartments and urban high-rises. Our team navigates tight hallways, operates freight elevators, and disassembles sectional sofas when needed. We provide same-day move-out furniture disposal near Gaslamp Quarter and East Village, perfect for rental turnovers and quick relocations.
+                      </p>
                     </div>
                     <div className="bg-gray-50 p-6 rounded-lg">
                       <h4 className="text-xl font-bold mb-3 text-blue-600">Suburban Homes & Family Properties</h4>
-                      <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                        <li>Driveway-safe loading for larger sofas</li>
-                        <li>Garage, attic, and side-yard furniture removal</li>
-                        <li>Donation coordination for gently used couches</li>
-                      </ul>
+                      <p className="text-gray-700 leading-relaxed">
+                        Our sofa removal service handles suburban family homes throughout San Diego with driveway-safe loading procedures for larger living room furniture. We remove couches from garages, attics, and side yards. For furniture in good shape, we coordinate donation pickups with local charities, helping San Diego families give back.
+                      </p>
                     </div>
                     <div className="bg-gray-50 p-6 rounded-lg">
                       <h4 className="text-xl font-bold mb-3 text-blue-600">Beach & Coastal Neighborhoods</h4>
-                      <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                        <li>Oversized furniture pickup with limited street access</li>
-                        <li>Sand-safe protection for beachfront homes</li>
-                        <li>Quick scheduling around tourism & parking hours</li>
-                      </ul>
+                      <p className="text-gray-700 leading-relaxed">
+                        Coastal furniture removal requires special attention, and we deliver. We handle oversized beachfront sofas with limited street access, provide sand-safe protection for your property, and schedule pickups strategically around tourism patterns and parking restrictions in areas like Pacific Beach and La Jolla.
+                      </p>
                     </div>
                   </div>
 
                   <h2 className="text-3xl font-bold text-gray-900 mb-4">Skip the Dump</h2>
-                  <p className="text-lg text-gray-700 mb-3">
-                    Going to Miramar Landfill is a hassle.
-                  </p>
-                  <p className="text-lg text-gray-700 mb-3">
-                    You need a truck. You wait in dump lines. You lift the couch yourself.
-                  </p>
-                  <p className="text-lg text-gray-700 mb-6">
-                    We make it simple. One call and we handle everything. No lifting. No driving. No waiting.
+                  <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                    Taking furniture to Miramar Landfill yourself is a hassle that consumes half your day. You need access to a truck large enough to haul your couch, which means renting one if you don't own a pickup. Then you wait in long dump lines, unload heavy furniture yourself, and pay $40-60 in disposal fees. Our couch disposal San Diego service makes it simple—one call and we handle everything. No heavy lifting, no driving across town, no waiting in landfill lines. Starting at just $69, we provide convenient furniture removal that saves you time, effort, and often money.
                   </p>
 
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Choose Us Over Big Franchises</h3>
-                  <p className="text-lg text-gray-700 mb-3">
-                    <strong>We're local.</strong> That means faster service.
-                  </p>
-                  <p className="text-lg text-gray-700 mb-3">
-                    <strong>No hidden fees.</strong> Other companies charge extra for stairs. We don't.
-                  </p>
-                  <p className="text-lg text-gray-700 mb-6">
-                    <strong>We recycle.</strong> Many competitors dump everything. We donate good couches.
+                  <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                    As a locally owned furniture removal company, we provide faster service than national franchises operating from outside San Diego. Our transparent pricing model means no hidden fees—unlike other companies that charge extra for stairs, tight spaces, or weekend pickups, we quote one price based on couch size and stick to it. We prioritize eco-friendly disposal, donating furniture in good shape to San Diego charities and recycling materials whenever possible, while many competitors simply dump everything at the landfill regardless of condition. Customers highly recommend our honest approach and reliable service.
                   </p>
 
-                  <h2 className="text-3xl font-bold text-gray-900 mb-4">We Recycle When Possible</h2>
-                  <p className="text-lg text-gray-700 mb-3">
-                    Good couches get donated. We work with San Diego Rescue Mission and Habitat for Humanity.
-                  </p>
-                  <p className="text-lg text-gray-700 mb-3">
-                    Damaged couches get broken down. Wood and metal go to recycling.
-                  </p>
-                  <p className="text-lg text-gray-700 mb-6">
-                    Only true junk goes to the landfill. We keep as much out of dumps as possible.
+                  <h2 className="text-3xl font-bold text-gray-900 mb-4">Eco-Friendly Furniture Disposal</h2>
+                  <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                    Our commitment to eco-friendly couch removal means prioritizing donation and recycling over landfill disposal. Sofas in good shape get donated to San Diego organizations including San Diego Rescue Mission and Habitat for Humanity, where they help families furnish their homes. Damaged furniture that cannot be donated gets responsibly broken down, with wood frames sent to recycling facilities and metal springs processed as scrap metal. Only items that truly cannot be reused or recycled end up in the landfill. This approach keeps thousands of pounds of furniture out of San Diego's waste stream each year while supporting our local community.
                   </p>
 
                   <div className="text-center bg-blue-900 text-white p-8 rounded-lg mt-8">
                     <h3 className="text-2xl font-bold mb-4">Ready to Get Rid of Your Couch?</h3>
-                    <p className="text-lg mb-6">
-                      Small sofas <strong>$69+</strong> • Standard couches <strong>$100+</strong> • Same-day pickup available • No hidden fees
+                    <p className="text-lg mb-6 leading-relaxed">
+                      Professional couch removal and furniture disposal San Diego starting at $69 for small sofas, $100 for standard couches. Same-day sofa removal available. Transparent pricing with no hidden fees. Eco-friendly recycling and donation.
                     </p>
                     <a
                       href="tel:6197500114"
@@ -440,14 +373,13 @@ export default function CouchRemovalPage() {
                       📞 Call (619) 750-0114 Now
                     </a>
                     <div className="bg-blue-800 rounded-lg p-4">
-                      <p className="text-yellow-300 font-semibold mb-2">🛋️ Couch Removal Starting at $69 🛋️</p>
+                      <p className="text-yellow-300 font-semibold mb-2">Couch Disposal San Diego Starting at $69</p>
                       <div className="text-sm">
-                        <strong>Same-Day Service</strong> • <strong>No Hidden Fees</strong><br/>
-                        <strong>We Donate & Recycle</strong> • <strong>All San Diego</strong>
+                        Same-Day Service • Transparent Pricing • Eco-Friendly Disposal • All San Diego County
                       </div>
                     </div>
                     <p className="text-sm mt-4">
-                      Licensed & insured • Locally owned • Fast & professional
+                      Licensed and insured • Locally owned • Fast and professional junk removal service
                     </p>
                   </div>
                 </div>
@@ -469,7 +401,7 @@ export default function CouchRemovalPage() {
       {/* Pricing Section */}
       <LocationPricingSection
         locationName="Couch Removal"
-        contextParagraph="Small sofas and loveseats start at $69. Standard couches are $100+. Final price depends on size and access. Call (619) 750-0114 for exact quote. No hidden fees."
+        contextParagraph="Couch removal in San Diego starts at $69 for small sofas and loveseats, with standard three-seat couches from $100. Sectional sofas range from $129-199, and sleeper sofas cost $129-149. We provide upfront quotes with transparent pricing over the phone before we arrive. Once we give you a price, it covers everything—all labor, hauling, stairs, and eco-friendly disposal or donation to local charities. No hidden fees or surprises. Call (619) 750-0114 for an exact quote based on your furniture."
       />
 
       {/* Trust Signals */}
