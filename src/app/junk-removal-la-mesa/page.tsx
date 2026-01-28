@@ -387,7 +387,7 @@ export default function JunkRemovalLaMesaPage() {
                     </div>
 
                     <p className="text-gray-700 mb-6">
-                      <strong>Recent Mount Helix Estate Example:</strong> We completed a 4,000 sq ft Mount Helix estate cleanout for a family transitioning their parents' 40-year home. The two-day project involved full-house clearing, furniture donation to East County charities, recycling 800+ lbs of metal and appliances, and careful handling of family heirlooms. Our crew navigated the steep driveway with a 20% grade and coordinated with the family's estate attorney throughout the process. This level of service represents our Mount Helix standard.
+                      <strong>Recent Mount Helix Estate Example:</strong> We completed a 4,000 sq ft Mount Helix estate cleanout for a family transitioning their parents' 40-year home. The two-day project involved full-house clearing and furniture donation to East County charities. We recycled 800+ lbs of metal and appliances while carefully handling family heirlooms. Our crew navigated the steep driveway with a 20% grade and coordinated with the family's estate attorney throughout the process. This level of service represents our Mount Helix standard.
                     </p>
 
                     {/* Major Streets */}
