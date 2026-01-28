@@ -11,19 +11,23 @@ import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/s
 import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
-  title: "Junk Removal Escondido | Same-Day Service | (619) 750-0114",
-  description: "Professional junk removal Escondido services for homes and businesses. Expert junk removal Escondido CA team serving Hidden Meadows, San Pasqual Valley. Same-day hauling, licensed & insured.",
+  title: "Junk Removal Escondido | Wine Country • Hillside • Fire Season | (619) 750-0114",
+  description: "Escondido junk removal specialists: Wine country vineyards, hillside estates, wildfire debris. Hidden Meadows to San Pasqual Valley. Same-day service, Cal Fire compliant. (619) 750-0114",
   keywords: [
     "junk removal escondido",
     "junk removal escondido ca",
     "escondido junk removal",
     "junk hauling escondido",
-    "junk pickup escondido",
-    "same day junk removal escondido"
+    "same day junk removal escondido",
+    "hidden meadows junk removal",
+    "san pasqual valley junk removal",
+    "vineyard junk removal",
+    "wildfire debris removal escondido",
+    "defensible space brush clearance"
   ],
   openGraph: {
-    title: "Junk Removal Escondido | Same-Day Pickup & Hauling Service",
-    description: "Professional junk removal Escondido services for homes and businesses. Expert junk removal Escondido CA team. Same-day service, licensed & insured.",
+    title: "Junk Removal Escondido | Wine Country • Hillside • Fire Season",
+    description: "Escondido junk removal specialists: Wine country vineyards, hillside estates, wildfire debris. Hidden Meadows to San Pasqual Valley. Same-day, Cal Fire compliant.",
     url: "https://severincleaners.com/junk-removal-escondido",
     siteName: "Severin Cleaners",
     locale: "en_US",
@@ -39,8 +43,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Junk Removal Escondido | Same-Day Pickup & Hauling Service",
-    description: "Professional junk removal Escondido services for homes and businesses. Expert junk removal Escondido CA team. Same-day service, licensed & insured.",
+    title: "Junk Removal Escondido | Wine Country • Hillside • Fire Season",
+    description: "Escondido junk removal specialists: Wine country vineyards, hillside estates, wildfire debris. Hidden Meadows to San Pasqual Valley. Same-day, Cal Fire compliant.",
     images: ["https://severincleaners.com/og-image.jpg"],
   },
   alternates: {
@@ -134,6 +138,57 @@ export default function JunkRemovalEscondidoPage() {
       "longitude": -117.0231
     },
     "url": "https://severincleaners.com/junk-removal-escondido",
+    "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
+    "acceptsReservations": true,
+    "currenciesAccepted": "USD",
+    "knowsAbout": [
+      "Hillside Property Access and Terrain Challenges",
+      "Wine Country and Agricultural Property Service",
+      "Wildfire Defensible Space Compliance",
+      "Cal Fire Brush Clearance Requirements",
+      "Hidden Meadows Estate Property Management",
+      "San Pasqual Valley Vineyard Operations",
+      "Large Acreage Property Cleanouts",
+      "Inland Climate Debris Management"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Escondido Junk Removal Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Wine Country Vineyard Property Cleanouts",
+            "description": "Specialized junk removal for San Pasqual Valley vineyards, wineries, and agricultural properties"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Wildfire Defensible Space Debris Removal",
+            "description": "Cal Fire compliant brush clearance and fire season debris removal for high-risk hillside zones"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Hidden Meadows Hillside Estate Service",
+            "description": "Large property and steep terrain junk removal for luxury hillside estates with challenging access"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Agricultural Property Large-Lot Cleanouts",
+            "description": "Multi-acre property debris removal and agricultural equipment disposal for rural Escondido properties"
+          }
+        }
+      ]
+    },
     "areaServed": [
       {
         "@type": "City",
@@ -207,8 +262,8 @@ export default function JunkRemovalEscondidoPage() {
       <main>
         <OptimizedGradientHero
           title="Junk Removal Escondido"
-          subtitle="North County's #1 Choice • Hidden Meadows to Downtown • Same-Day Available"
-          description="✓ Large Property Experts ✓ Licensed & Insured ✓ Serving All of Escondido CA"
+          subtitle="Wine Country to Hillside Estates • Fire Season Specialists • Same-Day Available"
+          description="✓ Vineyard & Agricultural Properties ✓ Cal Fire Compliant ✓ Serving All of Escondido CA"
         />
 
         {/* Main Content with Sidebar */}
@@ -233,6 +288,50 @@ export default function JunkRemovalEscondidoPage() {
                     <p className="text-gray-700 mb-6">
                       Our Escondido operation is uniquely equipped to handle the challenges of North County's largest inland city. We understand that junk pickup Escondido requires more than just hauling trucks—it demands local knowledge of hillside terrain, understanding of agricultural property access, familiarity with HOA requirements in planned communities, and the ability to work efficiently across Escondido's dramatic elevation changes and diverse property types. Whether you're clearing out a downtown apartment after tenant turnover, removing construction debris from a Hidden Meadows remodel, or handling a full estate cleanout in the historic core, our team brings the specialized experience Escondido properties demand.
                     </p>
+
+                    {/* Free vs Professional Comparison */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Free vs. Professional Junk Removal in Escondido</h3>
+                    <p className="text-gray-700 mb-4">
+                      Many Escondido residents consider DIY junk removal, especially for large properties where "we can handle it ourselves" seems reasonable. Understanding the true costs and challenges of DIY disposal in Escondido's unique terrain and climate helps you make the best decision.
+                    </p>
+
+                    <div className="grid md:grid-cols-2 gap-6 mb-8">
+                      <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg">
+                        <h4 className="text-xl font-bold text-red-900 mb-4">Reality of "Free" Disposal in Escondido</h4>
+                        <ul className="space-y-2 text-gray-700 text-sm">
+                          <li><strong>City pickup wait:</strong> 1-2 weeks for scheduled curbside service doesn't work with Escondido's hot inland climate where decomposing materials attract pests and create odors within days</li>
+                          <li><strong>Curbside requirement:</strong> Moving heavy furniture to street level is challenging on steep Hidden Meadows hillside driveways and long San Pasqual Valley private roads</li>
+                          <li><strong>DIY hauling costs:</strong> Truck rental $75-150/day, Escondido Transfer Station disposal fees $50-70, fuel for inland location $25-40</li>
+                          <li><strong>Time investment:</strong> 4-6 hours minimum including loading, navigating long driveways on large properties, driving to transfer station, unloading, returning rental</li>
+                          <li><strong>Heat safety risk:</strong> Summer temperatures exceed 95°F making physical hauling work dangerous during peak heat hours (10 AM - 6 PM)</li>
+                          <li><strong>Terrain injury risk:</strong> Steep hillside driveways and heavy items create back strain and fall hazards without proper equipment</li>
+                          <li><strong>Actual total cost:</strong> $140-250+ when combining expenses, time value, and physical risk</li>
+                        </ul>
+                      </div>
+
+                      <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-lg">
+                        <h4 className="text-xl font-bold text-green-900 mb-4">Professional Escondido Service</h4>
+                        <ul className="space-y-2 text-gray-700 text-sm">
+                          <li><strong>Clear pricing:</strong> Starts at $69 for small items with transparent volume-based rates, no hidden charges for hillside access or long driveways</li>
+                          <li><strong>Terrain expertise:</strong> We handle steep Hidden Meadows driveways, multi-acre San Pasqual Valley properties, and agricultural access roads safely</li>
+                          <li><strong>Heat-safe scheduling:</strong> Early morning starts (6-8 AM) during summer complete hauling during cooler hours, protecting crews and preventing pest attraction</li>
+                          <li><strong>Same-day available:</strong> Call before noon for same-day service throughout all Escondido zip codes—no 1-2 week wait</li>
+                          <li><strong>We come to you:</strong> Service anywhere on your property—garage to backyard, hillside to valley floor, any Escondido location</li>
+                          <li><strong>2-hour completion:</strong> Average job done from arrival to departure, protecting your schedule</li>
+                          <li><strong>Licensed & insured:</strong> Full coverage for challenging terrain access, steep driveways, and large property navigation</li>
+                          <li><strong>Fire season priority:</strong> Expedited brush and debris removal during high fire risk periods for defensible space compliance</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
+                      <p className="text-gray-800 mb-3">
+                        <strong>Bottom Line for Escondido Properties:</strong> Large estates and hillside properties make DIY hauling more challenging than it appears. Long driveways add distance, steep terrain creates injury risk, inland heat makes afternoon work dangerous, and pest attraction from delayed removal creates urgency. Professional service delivers comparable cost with significantly better value—zero physical risk, terrain expertise, and proper disposal.
+                      </p>
+                      <p className="text-center text-lg font-semibold text-blue-900">
+                        Call (619) 750-0114 for transparent pricing and heat-safe service scheduling
+                      </p>
+                    </div>
 
                     {/* Neighborhoods Served */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Escondido Neighborhoods We Serve</h3>
@@ -357,6 +456,58 @@ export default function JunkRemovalEscondidoPage() {
                       </div>
                     </div>
 
+                    {/* Wine Country & Agricultural Property Section */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Wine Country & Agricultural Property Specialists</h3>
+                    <p className="text-gray-700 mb-4">
+                      Escondido's San Pasqual Valley positions the city as San Diego County's wine country, with over 50 wineries and vineyards creating specialized junk removal needs that generic hauling companies don't understand. Our team serves vineyard properties, horse estates, and agricultural operations throughout eastern Escondido with expertise in large-lot cleanouts and agricultural debris disposal.
+                    </p>
+
+                    <p className="text-gray-700 mb-2"><strong>Agricultural property challenges we handle:</strong></p>
+                    <ul className="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+                      <li>Vineyard equipment disposal including old wine barrels, fermentation tanks, and winery storage items</li>
+                      <li>Agricultural fencing removal from large-acreage properties and horse paddocks</li>
+                      <li>Horse property cleanouts including stable debris, equipment storage, and equestrian facility clearing</li>
+                      <li>Large-lot accumulated debris on multi-acre properties requiring extended service time</li>
+                      <li>Winery commercial cleanouts for tasting rooms, production facilities, and barrel storage areas</li>
+                      <li>Rural property access requiring long private driveway navigation (500+ feet to 1+ mile)</li>
+                    </ul>
+
+                    <p className="text-gray-700 mb-4">
+                      <strong>Our agricultural expertise:</strong> We understand vineyard property operations and coordinate around harvest schedules (August-October). Horse property service respects equestrian facilities and animal safety. Large acreage cleanouts utilize appropriate truck positioning to minimize property disturbance. Agricultural debris receives proper disposal at licensed facilities that handle organic materials, treated wood, and farm equipment components.
+                    </p>
+
+                    <p className="text-gray-700 mb-6">
+                      San Pasqual Valley wineries, Bear Valley agricultural properties, and eastern Escondido rural estates receive specialized service from crews who understand the unique access challenges and debris types common to wine country and agricultural operations. Call (619) 750-0114 for vineyard and agricultural property expertise.
+                    </p>
+
+                    {/* Wildfire Defensible Space Section */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Wildfire Defensible Space & Fire Season Debris Removal</h3>
+                    <p className="text-gray-700 mb-4">
+                      Escondido faces elevated wildfire risk, particularly in hillside communities bordering Cleveland National Forest. Hidden Meadows, Jesmond Dene, and eastern hillside neighborhoods require defensible space maintenance to comply with Cal Fire regulations, HOA requirements, and homeowner insurance policies. Our fire season debris removal service prioritizes high-risk zone properties during critical periods.
+                    </p>
+
+                    <p className="text-gray-700 mb-2"><strong>Fire risk zones we prioritize:</strong></p>
+                    <ul className="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+                      <li>Hidden Meadows hillside estates in high fire severity zones</li>
+                      <li>Jesmond Dene semi-rural properties with wildland interface</li>
+                      <li>East Valley hillside neighborhoods near open space</li>
+                      <li>Cleveland National Forest border properties with brush accumulation</li>
+                    </ul>
+
+                    <p className="text-gray-700 mb-2"><strong>Defensible space compliance we support:</strong></p>
+                    <ul className="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+                      <li>Zone 0 (0-5 feet from structures): Complete removal of all combustible materials, dead vegetation, and flammable debris</li>
+                      <li>Zone 1 (5-30 feet): Brush thinning, dead wood removal, and vegetation debris clearance</li>
+                      <li>Cal Fire inspection preparation and compliance documentation</li>
+                      <li>HOA defensible space deadline coordination (typically required by May 1st annually)</li>
+                      <li>Homeowner insurance policy compliance for fire risk mitigation</li>
+                      <li>Emergency pre-evacuation property clearance during fire weather warnings</li>
+                    </ul>
+
+                    <p className="text-gray-700 mb-6">
+                      Santa Ana wind season (September-December) creates critical fire weather conditions. We prioritize hillside property brush removal during high fire danger periods and red flag warnings. Properties in high fire severity zones receive expedited scheduling for defensible space compliance. Our crews understand Cal Fire requirements and coordinate with HOA inspection schedules to ensure timely compliance. Call (619) 750-0114 for fire season debris removal and defensible space clearance.
+                    </p>
+
                     {/* How Our Service Works */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">How Our Escondido Junk Removal Service Works</h3>
                     <div className="bg-blue-50 rounded-lg p-6 mb-6">
@@ -375,7 +526,7 @@ export default function JunkRemovalEscondidoPage() {
                     <ul className="space-y-3 mb-6">
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
-                        <span><strong>North County Expertise:</strong> We navigate Escondido's challenging terrain with ease—steep hillside driveways in Hidden Meadows, narrow downtown streets, agricultural property access in San Pasqual Valley, and everything in between. Our crews have completed thousands of Escondido junk removal jobs and understand the specific access challenges of North County's diverse property types.</span>
+                        <span><strong>Specialized Property Expertise:</strong> We navigate Escondido's challenging terrain and diverse property types with specialized experience. Our teams handle steep hillside driveways in Hidden Meadows estates (2-10 acre properties), long private driveways on San Pasqual Valley vineyard properties (500+ feet to 1+ mile), multi-acre cleanouts requiring extended service time, custom luxury homes with gated access, wine country properties with vineyard equipment needs, and downtown narrow streets. Our crews have completed thousands of Escondido jobs and understand the specific access challenges of each property type throughout North County's largest inland city.</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
