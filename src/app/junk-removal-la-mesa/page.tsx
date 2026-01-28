@@ -11,17 +11,25 @@ import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/s
 import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
-  title: 'Junk Removal La Mesa CA | Same-Day Service | (619) 750-0114',
-  description: 'Professional junk removal La Mesa CA service for Mount Helix, Fletcher Hills, and La Mesa Village. Expert la mesa junk removal team serving all East County. Same-day hauling, licensed & insured. Call (619) 750-0114',
+  title: 'Junk Removal La Mesa | Our HQ • Mount Helix Estates | (619) 750-0114',
+  description: 'Junk removal La Mesa CA headquarters: Mount Helix estate specialists, Grossmont medical district, Village urban properties. HQ means fastest response. Same-day service (619) 750-0114',
   keywords: [
     'junk removal la mesa ca',
     'la mesa junk removal',
     'junk removal la mesa',
-    'same day junk removal la mesa'
+    'junk hauling la mesa',
+    'junk removal mount helix',
+    'mount helix junk removal',
+    'grossmont junk removal',
+    'estate cleanout la mesa',
+    'furniture removal la mesa',
+    'same day junk removal la mesa',
+    'la mesa dump alternative',
+    'junk removal grossmont hospital area'
   ],
   openGraph: {
-    title: 'Junk Removal La Mesa CA | Same-Day Hauling | East County Specialists',
-    description: 'Professional junk removal La Mesa CA service for Mount Helix, Fletcher Hills, Village. La mesa junk removal team serving all East County. Call (619) 750-0114',
+    title: 'Junk Removal La Mesa | Our HQ • Mount Helix Estates | (619) 750-0114',
+    description: 'Junk removal La Mesa CA headquarters: Mount Helix estate specialists, Grossmont medical district, Village urban properties. HQ means fastest response.',
     url: 'https://severincleaners.com/junk-removal-la-mesa',
     siteName: 'Severin Cleaners',
     images: [{
@@ -35,8 +43,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Junk Removal La Mesa CA | Same-Day Hauling | East County Specialists',
-    description: 'Professional junk removal La Mesa CA service for Mount Helix, Fletcher Hills, Village. La mesa junk removal team serving all East County. Call (619) 750-0114',
+    title: 'Junk Removal La Mesa | Our HQ • Mount Helix Estates | (619) 750-0114',
+    description: 'Junk removal La Mesa CA headquarters: Mount Helix estate specialists, Grossmont medical district, Village urban properties. HQ means fastest response.',
     images: ['https://severincleaners.com/og-image.jpg'],
   },
   alternates: {
@@ -93,6 +101,10 @@ const laMesaFAQs = [
   {
     question: "Can you remove furniture and appliances in La Mesa CA?",
     answer: "Yes, furniture and appliance removal is one of our primary la mesa junk removal services. We handle all types of furniture including sofas, couches, sectionals, recliners, dining sets, bedroom furniture, mattresses, box springs, dressers, entertainment centers, office desks, patio furniture, and outdoor equipment. For appliances, we remove refrigerators, freezers, washers, dryers, dishwashers, stoves, ovens, microwaves, water heaters, and air conditioning units with proper handling of refrigerants and hazardous materials per California regulations. La Mesa's mix of property types—from compact Village apartments to spacious Mount Helix estates—creates diverse furniture removal needs, and we handle them all with equal professionalism. We navigate narrow apartment building hallways and staircases downtown, manage steep hillside home access in Mount Helix and Fletcher Hills, and coordinate elevator reservations for multi-story buildings near Grossmont Center. All removed furniture in good condition is donated to East County charities. Appliances go to certified recycling facilities. Professional, careful removal protects your property throughout the entire process."
+  },
+  {
+    question: "Why does it matter that Severin Cleaners is headquartered in La Mesa?",
+    answer: "Our La Mesa headquarters at 8900 Grossmont Blvd provides significant advantages for customers throughout East County. Response time is the most immediate benefit—our crews start their day from La Mesa, meaning we can arrive at your property within 1-2 hours rather than the 2-4 hours required by companies driving from North County, Carlsbad, or downtown San Diego. This proximity enables genuine same-day service when you call before noon, not just theoretical same-day availability that depends on schedule gaps. Operating costs are lower because we're not driving 30-40 miles each direction to reach East County properties, and we pass those savings to customers through competitive pricing without travel surcharges. Local knowledge matters significantly in La Mesa—our crews navigate Mount Helix's steep hillside roads daily, understand La Mesa Village parking logistics intimately, and know exactly which streets have width restrictions or access challenges. We're invested in this community as residents and business owners, not an outside company making occasional trips into the area. When you hire Severin Cleaners, you're supporting a true La Mesa local business headquartered in your community."
   }
 ];
 
@@ -137,6 +149,9 @@ export default function JunkRemovalLaMesaPage() {
       "longitude": -117.0231
     },
     "url": "https://severincleaners.com/junk-removal-la-mesa",
+    "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
+    "acceptsReservations": true,
+    "currenciesAccepted": "USD",
     "areaServed": [
       {
         "@type": "City",
@@ -172,6 +187,54 @@ export default function JunkRemovalLaMesaPage() {
       "reviewCount": "27",
       "bestRating": "5",
       "worstRating": "1"
+    },
+    "knowsAbout": [
+      "Mount Helix Hillside Estate Properties",
+      "Grossmont Hospital Medical District Services",
+      "La Mesa Village Urban Property Management",
+      "East County Headquarters Operations",
+      "Fletcher Hills Premium Home Service",
+      "Grossmont College Student Housing Cycles",
+      "Lake Murray Residential Areas",
+      "Trolley-Accessible Property Logistics"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "La Mesa Junk Removal Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Mount Helix Estate Property Cleanouts",
+            "description": "Specialized hillside estate junk removal for Mount Helix's premium properties with challenging access and large-volume needs"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Grossmont Medical District Property Services",
+            "description": "Medical office cleanouts, healthcare facility transitions, and hospital employee housing services"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "La Mesa Village Urban Property Cleanouts",
+            "description": "Downtown retail, restaurant, and multi-unit residential junk removal with coordinated parking logistics"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Student Housing Move-Out Services",
+            "description": "Grossmont College area rental property turnovers and seasonal student move-out cleanouts"
+          }
+        }
+      ]
     },
     "sameAs": [
       "https://www.facebook.com/severinhauling",
@@ -213,7 +276,7 @@ export default function JunkRemovalLaMesaPage() {
               </h1>
 
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                Mount Helix to La Mesa Village • Faster Than the Dump • Same-Day Service
+                Our Headquarters Location • Mount Helix Estates • 1-2 Hour Response Time
               </p>
 
               <p className="text-lg mb-8">
@@ -261,6 +324,27 @@ export default function JunkRemovalLaMesaPage() {
                       Whether you're clearing a Mount Helix estate, removing furniture from a La Mesa Village condo, or handling a garage cleanout near Lake Murray — we bring the local expertise that makes it easy.
                     </p>
 
+                    {/* Why Our HQ Matters */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Our La Mesa Headquarters Matters to You</h3>
+                    <p className="text-gray-700 mb-4">
+                      Severin Cleaners is headquartered at 8900 Grossmont Blvd in La Mesa. This isn't just an address on our website. It's your biggest advantage when you need junk removal la mesa ca service. Our crews start their day from La Mesa headquarters every morning. They park here overnight. They live in East County. This creates tangible benefits you'll notice immediately.
+                    </p>
+
+                    <div className="bg-blue-50 rounded-lg p-6 mb-6">
+                      <h4 className="font-bold mb-3 text-blue-900">What Our La Mesa HQ Means for You:</h4>
+                      <ul className="space-y-2 text-gray-700">
+                        <li><strong>1-2 hour response time throughout East County:</strong> We arrive at your Mount Helix, Fletcher Hills, or Grossmont area property within 1-2 hours on same-day calls. Competitors based in Carlsbad, North County, or downtown San Diego need 2-4 hours to reach La Mesa. Our proximity makes genuine same-day service reliable.</li>
+                        <li><strong>Lower travel costs = competitive pricing:</strong> We don't drive 30-40 miles each direction to reach your property. Our trucks start 5-10 minutes from most La Mesa addresses. Lower fuel and travel time means we pass savings to you without travel surcharges common from distant companies.</li>
+                        <li><strong>Deep local knowledge from daily experience:</strong> Our crews navigate Mount Helix's steep hillside roads every day, not occasionally. We understand La Mesa Village parking restrictions intimately because we coordinate with the city regularly. We know which streets have width limitations, where access is challenging, and how to reach every La Mesa neighborhood efficiently.</li>
+                        <li><strong>Community investment matters:</strong> We're La Mesa residents and business owners. We shop at Grossmont Center. Our families use Mount Helix Park. We support local La Mesa schools and charities. When you hire us, you're supporting a true La Mesa local business, not an outside company making occasional trips into East County.</li>
+                        <li><strong>Fastest same-day availability:</strong> Because our headquarters is in La Mesa, we can often arrive within 1-2 hours when you call before noon. No waiting for crews to finish jobs in other cities. No long drives before reaching your property. We're already here.</li>
+                      </ul>
+                    </div>
+
+                    <p className="text-gray-700 mb-6">
+                      This headquarters advantage drives everything about our service. Response time, pricing, local expertise, and community commitment all stem from our La Mesa location. No other junk removal company can claim genuine La Mesa headquarters like we can.
+                    </p>
+
                     {/* Neighborhoods Served */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">La Mesa Neighborhoods We Serve</h3>
                     <p className="text-gray-700 mb-4">
@@ -281,6 +365,31 @@ export default function JunkRemovalLaMesaPage() {
                       </ul>
                     </div>
 
+                    {/* Mount Helix Estate Specialists */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Mount Helix & Hillside Estate Specialists</h3>
+                    <p className="text-gray-700 mb-4">
+                      Mount Helix represents La Mesa's premium hillside community where $800k-$2M+ estates sit on challenging terrain with panoramic valley views. These properties require specialized junk removal mount helix expertise that goes beyond standard residential service. Our team has completed over 200 Mount Helix property cleanouts, developing specific capabilities for this unique market.
+                    </p>
+
+                    <p className="text-gray-700 mb-4">
+                      Mount Helix hillside properties present distinct challenges. Steep winding driveways with grades up to 25% require careful truck navigation. Narrow access roads limit vehicle size and turning radius. Limited street parking means crews must coordinate loading zones. Extended carries from house to truck due to driveway limitations are standard. These aren't occasional difficulties—they're everyday realities for Mount Helix junk removal service.
+                    </p>
+
+                    <div className="bg-blue-50 rounded-lg p-6 mb-6">
+                      <h4 className="font-bold mb-3 text-blue-900">Why Mount Helix Properties Choose Us:</h4>
+                      <ul className="space-y-2 text-gray-700">
+                        <li><strong>Estate-scale cleanout experience:</strong> Mount Helix properties average 3,000-5,000 sq ft with decades of accumulated belongings. We handle full estate transitions, multi-generational family cleanouts, and property sales requiring complete clearing. Our crews bring proper equipment and capacity for large-volume estate cleanout la mesa projects.</li>
+                        <li><strong>Hillside access expertise:</strong> We navigate Mount Helix Drive and surrounding hillside roads daily. Our trucks are sized appropriately for narrow streets. Our crews plan routes in advance accounting for steep grades and tight turns. We understand which properties require street parking and extended manual carries.</li>
+                        <li><strong>Multi-generational estate transitions:</strong> Many Mount Helix properties have been in families for 30-50+ years. These estate transitions involve sensitive handling of family belongings, coordination with estate executors, and thoughtful sorting for donation versus disposal. We bring the professionalism these situations require.</li>
+                        <li><strong>Insurance and property protection:</strong> $1M+ hillside estates require appropriate insurance coverage and careful handling. We carry full liability insurance and workers compensation. Our crews protect hardwood floors, navigate narrow hallways carefully, and treat high-value properties with appropriate respect.</li>
+                        <li><strong>Large landscaping and outdoor projects:</strong> Hillside properties generate significant yard waste from slope vegetation management. We remove large quantities of brush, tree trimmings, and landscaping debris that accumulate on multi-acre hillside lots.</li>
+                      </ul>
+                    </div>
+
+                    <p className="text-gray-700 mb-6">
+                      <strong>Recent Mount Helix Estate Example:</strong> We completed a 4,000 sq ft Mount Helix estate cleanout for a family transitioning their parents' 40-year home. The two-day project involved full-house clearing, furniture donation to East County charities, recycling 800+ lbs of metal and appliances, and careful handling of family heirlooms. Our crew navigated the steep driveway with a 20% grade and coordinated with the family's estate attorney throughout the process. This level of service represents our Mount Helix standard.
+                    </p>
+
                     {/* Major Streets */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access Routes</h3>
                     <p className="text-gray-700 mb-4">
@@ -296,6 +405,31 @@ export default function JunkRemovalLaMesaPage() {
                       <li>• <strong>Grossmont Boulevard:</strong> Commercial corridor serving shopping and medical facilities</li>
                       <li>• <strong>Mount Helix Drive:</strong> Winding hillside road requiring careful truck navigation</li>
                     </ul>
+
+                    {/* Grossmont Medical District */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Grossmont Hospital Medical District Services</h3>
+                    <p className="text-gray-700 mb-4">
+                      Grossmont Hospital anchors La Mesa's medical district as the largest employer in East County. This specialized district includes the main hospital campus, surrounding medical office buildings, senior living facilities, and healthcare professional housing. Our grossmont junk removal service addresses the unique needs of this medical community with professional, discreet, and reliable service.
+                    </p>
+
+                    <p className="text-gray-700 mb-4">
+                      Medical facilities require specialized junk removal coordination. Healthcare offices undergo regular renovations and equipment upgrades. Medical practices relocate or consolidate offices. Senior living facilities near the hospital need regular furniture and estate transition services. Healthcare professionals working demanding schedules need convenient, reliable junk hauling la mesa service that works around their limited availability.
+                    </p>
+
+                    <div className="bg-blue-50 rounded-lg p-6 mb-6">
+                      <h4 className="font-bold mb-3 text-blue-900">Medical District Services We Provide:</h4>
+                      <ul className="space-y-2 text-gray-700">
+                        <li><strong>Medical office cleanouts:</strong> Furniture, outdated equipment, and fixtures from office renovations or practice closures with professional, discreet service</li>
+                        <li><strong>Healthcare facility coordination:</strong> Scheduling around facility hours, patient privacy requirements, and building access protocols specific to medical environments</li>
+                        <li><strong>Hospital employee services:</strong> Busy healthcare professionals working long shifts appreciate our flexible scheduling and complete-service approach for home cleanouts</li>
+                        <li><strong>Senior facility transitions:</strong> Assisted living and senior housing near Grossmont Hospital regularly need furniture removal and estate transition services</li>
+                        <li><strong>Secure disposal practices:</strong> Understanding of confidentiality requirements when removing office furniture and materials from healthcare settings</li>
+                      </ul>
+                    </div>
+
+                    <p className="text-gray-700 mb-6">
+                      Our La Mesa headquarters position at Grossmont Blvd places us minutes from the entire medical district. We coordinate with facility managers, understand building access requirements, and provide the reliable, professional service healthcare environments demand. Whether you're a medical practice, healthcare facility, or medical professional needing residential service, our proximity and experience serve the Grossmont medical community effectively.
+                    </p>
 
                     {/* Local Landmarks */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">La Mesa Landmarks</h3>
@@ -339,6 +473,47 @@ export default function JunkRemovalLaMesaPage() {
                       La Mesa's inland East County location creates hot, dry summers and mild winters that affect junk removal operations year-round. Summer temperatures (June-September) regularly exceed 90°F in valley areas, with Mount Helix hillside properties often 5-10 degrees cooler due to elevation and breeze. We schedule early morning starts (7-10 AM) during heat waves to protect crews during physical hauling work and prevent heat damage to items being transported. The community experiences less marine layer fog than coastal San Diego neighborhoods, allowing consistent morning scheduling without weather delays. Winter rainy season (December-February) brings occasional heavy rainfall that makes Mount Helix's steep, winding roads more challenging—we monitor weather forecasts and may adjust timing for hillside properties during wet conditions to ensure crew safety. Santa Ana wind conditions occur periodically, bringing extremely dry, warm weather that requires fire safety awareness during outdoor debris removal in hillside areas where vegetation is present.
                     </p>
 
+                    {/* Free vs Professional Comparison */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Free vs. Professional La Mesa Junk Removal: Real Cost Comparison</h3>
+                    <p className="text-gray-700 mb-4">
+                      Many La Mesa residents initially consider the DIY approach for junk removal—renting a truck, loading items yourself, and driving to Sycamore Canyon Landfill. This seems cost-effective until you calculate actual expenses and time investment. Our professional junk removal la mesa ca service often costs less than DIY when you account for all factors.
+                    </p>
+
+                    <div className="grid md:grid-cols-2 gap-6 mb-6">
+                      <div className="bg-red-50 rounded-lg p-6">
+                        <h4 className="font-bold mb-3 text-red-900">DIY Approach Hidden Costs:</h4>
+                        <ul className="space-y-2 text-gray-700">
+                          <li><strong>Truck rental:</strong> $80-150/day from U-Haul or Home Depot plus mileage fees</li>
+                          <li><strong>Dump fees:</strong> $50-120 at Sycamore Canyon depending on load size and material type</li>
+                          <li><strong>Gas costs:</strong> $30-40 for round trips between La Mesa and landfill</li>
+                          <li><strong>Your time:</strong> 4-6 hours loading, driving, waiting in dump line, unloading, returning truck</li>
+                          <li><strong>Physical strain:</strong> Heavy lifting risks injury, especially with furniture and appliances</li>
+                          <li><strong>Multiple trips:</strong> Most household cleanouts require 2-3 truck loads, multiplying all costs</li>
+                          <li><strong>No sorting:</strong> Everything goes to landfill—no donation or recycling</li>
+                        </ul>
+                        <p className="mt-4 font-bold text-red-900">Total DIY Cost: $160-310+ plus your entire day</p>
+                      </div>
+
+                      <div className="bg-green-50 rounded-lg p-6">
+                        <h4 className="font-bold mb-3 text-green-900">Professional Service Value:</h4>
+                        <ul className="space-y-2 text-gray-700">
+                          <li><strong>We arrive at your property:</strong> No driving to rental centers or dumps</li>
+                          <li><strong>We do ALL lifting and loading:</strong> You don't touch a single item</li>
+                          <li><strong>Complete in 1-2 hours:</strong> From arrival to departure, most jobs finish quickly</li>
+                          <li><strong>Proper equipment:</strong> Professional trucks and tools designed for hauling</li>
+                          <li><strong>Liability insurance:</strong> Your property is protected throughout the process</li>
+                          <li><strong>Donation & recycling included:</strong> We sort for charity and recycling centers</li>
+                          <li><strong>Same-day available:</strong> Call before noon for same-day service from our La Mesa headquarters</li>
+                          <li><strong>No physical risk:</strong> Zero lifting, zero injury risk, zero strain</li>
+                        </ul>
+                        <p className="mt-4 font-bold text-green-900">Professional Cost: $249-495 based on volume</p>
+                      </div>
+                    </div>
+
+                    <p className="text-gray-700 mb-6">
+                      <strong>Mount Helix Properties:</strong> DIY junk removal becomes especially challenging on hillside properties. Loading heavy furniture on steep driveways creates significant safety hazards. Our crews navigate Mount Helix properties daily with proper equipment and experience. For hillside estates, professional service isn't just convenient—it's the safe, practical choice.
+                    </p>
+
                     {/* Dump Alternative */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">La Mesa Dump Alternative – Why Choose Our Service</h3>
                     <p className="text-gray-700 mb-4">
@@ -355,6 +530,28 @@ export default function JunkRemovalLaMesaPage() {
                         <li><strong>Same-day available:</strong> Call before noon for same-day service—no waiting for dump hours or weekend availability</li>
                       </ul>
                     </div>
+
+                    {/* La Mesa Village Urban Property */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">La Mesa Village & Urban Property Specialists</h3>
+                    <p className="text-gray-700 mb-4">
+                      La Mesa Village represents downtown La Mesa's entertainment, dining, and retail core along Spring Street and La Mesa Boulevard. This urban district presents unique junk removal la mesa challenges that differ dramatically from suburban neighborhoods or hillside estates. Our experience with downtown logistics, parking coordination, and business-hour scheduling makes us the preferred choice for La Mesa Village properties.
+                    </p>
+
+                    <div className="bg-blue-50 rounded-lg p-6 mb-6">
+                      <h4 className="font-bold mb-3 text-blue-900">Downtown La Mesa Services:</h4>
+                      <ul className="space-y-2 text-gray-700">
+                        <li><strong>Retail business cleanouts:</strong> Store renovations, inventory disposal, fixture removal coordinated around business hours to minimize customer disruption</li>
+                        <li><strong>Restaurant equipment removal:</strong> Commercial kitchen equipment, furniture, and fixtures from restaurant closures or remodels</li>
+                        <li><strong>Multi-unit apartment buildings:</strong> High-density residential properties requiring coordinated scheduling and elevator reservations</li>
+                        <li><strong>Parking logistics coordination:</strong> Limited street parking on Spring Street and La Mesa Blvd requires advance planning and permits when needed</li>
+                        <li><strong>Trolley-accessible properties:</strong> Understanding MTS trolley schedules and station access for properties near Spring Street and Grossmont transit centers</li>
+                        <li><strong>Alley access expertise:</strong> Many downtown buildings require rear-entry access through alleys with width restrictions</li>
+                      </ul>
+                    </div>
+
+                    <p className="text-gray-700 mb-6">
+                      Our La Mesa headquarters provides the flexibility downtown properties need. We schedule during off-peak hours, coordinate parking permits with the city, and complete removals efficiently to minimize disruption in high-traffic areas. Whether you're a Village retailer, restaurant owner, apartment manager, or downtown resident, our local presence and coordination experience ensure smooth, professional service.
+                    </p>
 
                     {/* What We Remove */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in La Mesa</h3>
