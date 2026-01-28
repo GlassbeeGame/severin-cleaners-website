@@ -74,7 +74,7 @@ const chulaVistaFAQs = [
   },
   {
     question: "Do you offer bilingual junk removal service in Chula Vista?",
-    answer: "Sí, ofrecemos servicio bilingüe para junk removal en Chula Vista. Our service manager is fully bilingual and handles all quotes, pricing discussions, and scheduling communication in both English and Spanish—providing comfortable, clear communication for recogida de basura, remoción de muebles, and complete property cleanouts. This matters significantly in Chula Vista where over 60% of residents speak Spanish at home. We ensure clear understanding of pricing, service scope, and timing without language barriers from your first phone call through final job coordination. Our bilingual management extends beyond basic translation—we understand the cultural importance of multi-generational family homes common throughout Chula Vista and respectfully coordinate with multiple family members during estate cleanouts and large property projects. We provide written estimates in Spanish when requested and work with Hispanic-owned South Bay charities for furniture donations that benefit the local community. Whether you prefer to discuss your junk removal needs in English or Spanish, you'll receive the same professional, courteous service with cultural awareness and respect for family dynamics. From initial phone consultation through scheduling and service coordination, bilingual service management ensures every Chula Vista family—whether recent immigrants or established residents—receives clear communication, comfortable interaction, and excellent customer care throughout the entire junk removal process."
+    answer: "Sí, ofrecemos servicio bilingüe para junk removal en Chula Vista. Our service manager is fully bilingual and handles all quotes, pricing discussions, and scheduling communication in both English and Spanish. We provide comfortable, clear communication for recogida de basura, remoción de muebles, and complete property cleanouts. This matters in Chula Vista where over 60% of residents speak Spanish at home. We ensure clear understanding of pricing, service scope, and timing without language barriers. Our bilingual management extends beyond basic translation. We understand the cultural importance of multi-generational family homes common throughout Chula Vista. We respectfully coordinate with multiple family members during estate cleanouts and large property projects. We provide written estimates in Spanish when requested. We work with Hispanic-owned South Bay charities for furniture donations that benefit the local community. Whether you prefer English or Spanish, you'll receive the same professional service with cultural awareness and respect for family dynamics. From initial phone consultation through scheduling and coordination, bilingual service management ensures every Chula Vista family receives clear communication and excellent customer care."
   },
   {
     question: "Can you provide same-day junk removal in Eastlake or Otay Ranch?",
@@ -400,7 +400,7 @@ export default function JunkRemovalChulaVistaPage() {
                       <li><strong>Evening rush hours (3:30-7 PM):</strong> Southbound freeway traffic creates delays throughout Chula Vista as residents return home. Olympic Parkway and Bonita Road see heavy eastbound traffic. We prioritize earlier service windows or coordinate evening appointments after 7 PM for clients who prefer post-commute scheduling.</li>
                       <li><strong>Border crossing traffic:</strong> Proximity to international border means Otay Mesa and Heritage Road areas experience unique traffic patterns, particularly on weekends and holidays. We build buffer time into schedules for eastern Chula Vista properties and coordinate alternative routes during peak crossing periods.</li>
                       <li><strong>Weekend service:</strong> HOA restrictions in Eastlake, Otay Ranch, and Rolling Hills Ranch often limit truck access before 8 AM on weekends. We confirm community-specific rules before scheduling and coordinate with property management for multi-unit buildings that have loading dock restrictions.</li>
-                      <li><strong>Border region considerations:</strong> Chula Vista's location just 7 miles from the international border creates unique service considerations. Weekend traffic to Tijuana border crossings affects Otay Mesa Road, Heritage Road, and eastern Chula Vista neighborhoods, particularly Saturday-Sunday when crossing wait times extend and surface street traffic increases throughout the border region. We build buffer time into schedules for Millenia, southern Otay Ranch, and properties near the 905 freeway during peak border crossing periods. Many Chula Vista families maintain cross-border connections and may coordinate junk removal with relatives visiting from Mexico—we offer flexible scheduling to accommodate family gatherings and holiday timing. Our bilingual service coordination understands the cultural context of border region families and provides respectful service that acknowledges the binational nature of many Chula Vista households. For properties in Millenia and southern neighborhoods, we recommend scheduling during weekday mid-mornings (9 AM - 1 PM) when border traffic is lightest and access to these areas is most efficient.</li>
+                      <li><strong>Border region considerations:</strong> Chula Vista's location just 7 miles from the international border creates unique service considerations. Weekend traffic to Tijuana border crossings affects Otay Mesa Road, Heritage Road, and eastern Chula Vista neighborhoods. Saturday-Sunday crossing wait times extend and surface street traffic increases throughout the border region. We build buffer time into schedules for Millenia, southern Otay Ranch, and properties near the 905 freeway during peak border crossing periods. Many Chula Vista families maintain cross-border connections and may coordinate junk removal with relatives visiting from Mexico. We offer flexible scheduling to accommodate family gatherings and holiday timing. Our bilingual service coordination understands the cultural context of border region families. For properties in Millenia and southern neighborhoods, we recommend scheduling during weekday mid-mornings (9 AM - 1 PM) when border traffic is lightest.</li>
                     </ul>
 
                     {/* Weather */}
@@ -456,25 +456,73 @@ export default function JunkRemovalChulaVistaPage() {
                     {/* Multi-Generational Home Cleanouts */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Multi-Generational Home Junk Removal Specialists</h3>
                     <p className="text-gray-700 mb-4">
-                      Chula Vista has the highest concentration of multi-generational households in San Diego County, with over 25% of homes housing three or more generations under one roof. These large family properties present unique junk removal challenges that generic hauling services don't address—decades of accumulated belongings, multiple family members with different priorities, cultural items requiring respectful handling, and the need for patient coordination across language preferences and family dynamics. Our South Bay team specializes in multi-generational home cleanouts throughout Eastlake, Otay Ranch, Rolling Hills Ranch, and Rancho del Rey.
+                      Chula Vista has the highest concentration of multi-generational households in San Diego County. Over 25% of homes house three or more generations under one roof. These large family properties present unique junk removal challenges that generic hauling services don't address. Our South Bay team specializes in multi-generational home cleanouts throughout Eastlake, Otay Ranch, Rolling Hills Ranch, and Rancho del Rey.
                     </p>
+
+                    <p className="text-gray-700 mb-2"><strong>Unique challenges we navigate in multi-generational Chula Vista homes:</strong></p>
+                    <ul className="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+                      <li>Accumulated items spanning 20-30+ years require methodical sorting rather than wholesale disposal</li>
+                      <li>Multiple family members (grandparents, parents, adult children) each have belongings and emotional attachments</li>
+                      <li>Decision-making involves coordinating with several generations, often across English and Spanish language preferences</li>
+                      <li>Sentimental and cultural items require sensitive handling—we never rush families through keep/donate/dispose decisions</li>
+                      <li>Large volumes from combined households typically fill three-quarter to full truck loads</li>
+                      <li>Flexible scheduling accommodates multiple work schedules and family availability</li>
+                    </ul>
+
+                    <p className="text-gray-700 mb-2"><strong>Our approach to multi-generational family cleanouts:</strong></p>
+                    <ul className="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+                      <li>Bilingual coordination for quotes and scheduling, ensuring comfortable communication across generations</li>
+                      <li>Patient, unhurried sorting with family members present to make decisions together</li>
+                      <li>Separate staging areas for keep, donate, and dispose items so families can review choices</li>
+                      <li>Scheduling flexibility works around multiple family members' availability and work schedules</li>
+                      <li>Respectful handling of cultural items, family heirlooms, and sentimental belongings</li>
+                      <li>Extra time for family consensus without rushing the process</li>
+                    </ul>
+
                     <p className="text-gray-700 mb-4">
-                      <strong>Unique challenges we navigate in multi-generational Chula Vista homes:</strong> Accumulated items spanning 20-30+ years require methodical sorting rather than wholesale disposal. Multiple family members (grandparents, parents, adult children) each have belongings and emotional attachments that demand respectful consultation. Decision-making involves coordinating with several generations, often across English and Spanish language preferences. Sentimental and cultural items require sensitive handling—we never rush families through keep/donate/dispose decisions. Large volumes from combined households mean these projects typically fill three-quarter to full truck loads. Flexible scheduling accommodates multiple work schedules and family availability.
+                      <strong>Common scenarios we handle:</strong> Downsizing when elderly parents move in with adult children. Estate transitions following generational loss. Adult children moving out and clearing accumulated belongings. Garage and storage cleanouts with 20-30 years of family accumulation. Home renovations affecting multiple families sharing the property.
                     </p>
+
                     <p className="text-gray-700 mb-6">
-                      <strong>Our approach to multi-generational family cleanouts:</strong> We provide bilingual coordination for quotes and scheduling, ensuring comfortable communication across generations. Our service includes patient, unhurried sorting with family members present to make decisions together. We offer separate staging areas for keep, donate, and dispose items so families can review choices. Scheduling flexibility works around multiple family members' availability and work schedules. Respectful handling of cultural items, family heirlooms, and sentimental belongings comes standard. We provide extra time for family consensus without rushing the process. Common scenarios include downsizing when elderly parents move in with adult children, estate transitions following generational loss, adult children finally moving out and clearing accumulated belongings, garage and storage cleanouts with 20-30 years of family accumulation, and home renovations affecting multiple families sharing the property. Whether you're navigating a sensitive estate cleanout in an Eastlake family home, helping aging parents downsize in Otay Ranch, or clearing decades of garage accumulation in Rolling Hills Ranch, our team brings cultural awareness, bilingual service coordination, and patient respect for multi-generational family dynamics. Call (619) 750-0114 for compassionate, family-centered junk removal service.
+                      Whether you're navigating a sensitive estate cleanout in an Eastlake family home, helping aging parents downsize in Otay Ranch, or clearing decades of garage accumulation in Rolling Hills Ranch, our team brings cultural awareness and patient respect for multi-generational family dynamics. Call (619) 750-0114 for compassionate, family-centered junk removal service.
                     </p>
 
                     {/* HOA-Compliant Service Details */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">HOA-Compliant Junk Removal for Eastlake, Otay Ranch & Master-Planned Communities</h3>
                     <p className="text-gray-700 mb-4">
-                      Over 50% of Chula Vista homes are governed by homeowners associations, with Eastlake alone representing 30,000+ HOA-governed properties, Otay Ranch adding 20,000+ more, and Rolling Hills Ranch, Rancho del Rey, and Sunbow contributing thousands of additional master-planned community homes. HOA regulations create specific requirements for vendor appearance, service hours, parking locations, and documentation that generic junk removal companies often violate—resulting in fines and violation notices for homeowners. Our Chula Vista team specializes in HOA-compliant service that eliminates violation risk throughout all master-planned communities.
+                      Over 50% of Chula Vista homes are governed by homeowners associations. Eastlake alone represents 30,000+ HOA-governed properties. Otay Ranch adds 20,000+ more. Rolling Hills Ranch, Rancho del Rey, and Sunbow contribute thousands of additional master-planned community homes. HOA regulations create specific requirements for vendor appearance, service hours, parking locations, and documentation. Generic junk removal companies often violate these rules, resulting in fines and violation notices for homeowners. Our Chula Vista team specializes in HOA-compliant service that eliminates violation risk.
                     </p>
+
+                    <p className="text-gray-700 mb-2"><strong>HOA requirements we navigate professionally:</strong></p>
+                    <ul className="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+                      <li>Service hour restrictions (typically 8 AM - 6 PM weekdays, with some communities limiting weekend access)</li>
+                      <li>Parking regulations (no street parking in certain zones, driveway-only access)</li>
+                      <li>Noise ordinances requiring quiet equipment in residential zones</li>
+                      <li>Insurance certificate requirements for board records</li>
+                      <li>Trash container visibility rules (items cannot be left curbside overnight)</li>
+                      <li>Vendor approval processes (we're established in major Chula Vista communities)</li>
+                      <li>Documentation for property management coordination</li>
+                    </ul>
+
+                    <p className="text-gray-700 mb-2"><strong>Our HOA coordination process:</strong></p>
+                    <ul className="list-disc pl-6 mb-4 space-y-1 text-gray-700">
+                      <li>Professional appearance with uniformed crews and clearly marked, maintained trucks</li>
+                      <li>Scheduling during HOA-approved service hours for each specific community</li>
+                      <li>Direct coordination with property management when required for multi-unit buildings</li>
+                      <li>Advance notice to neighbors when requested by community rules</li>
+                      <li>Parking in approved locations only (driveways, designated service zones)</li>
+                      <li>Single-visit completion without multi-day projects that create ongoing disruption</li>
+                      <li>Leave-no-trace service including sweeping walkways and cleaning driveways</li>
+                      <li>Insurance certificates provided upon request for HOA board records</li>
+                      <li>For townhome and condo complexes, we coordinate elevator reservations and provide hallway protection</li>
+                    </ul>
+
                     <p className="text-gray-700 mb-4">
-                      <strong>HOA requirements we navigate professionally:</strong> Service hour restrictions (typically 8 AM - 6 PM weekdays, with some communities limiting weekend access), parking regulations (no street parking in certain zones, driveway-only access), noise ordinances requiring quiet equipment in residential zones, insurance certificate requirements for board records, trash container visibility rules (items cannot be left curbside overnight), vendor approval processes (we're established in major Chula Vista communities), and documentation for property management coordination.
+                      <strong>Master-planned communities we serve:</strong> Eastlake (all subdivisions including Eastlake Woods, Eastlake Greens, Eastlake Trails), Otay Ranch (all phases and developments), Rolling Hills Ranch premium estates, Rancho del Rey family neighborhoods, Sunbow residential areas, and all McMillin-developed master-planned communities throughout Chula Vista.
                     </p>
+
                     <p className="text-gray-700 mb-6">
-                      <strong>Our HOA coordination process:</strong> Professional appearance with uniformed crews and clearly marked, maintained trucks. Scheduling during HOA-approved service hours for each specific community. Direct coordination with property management when required for multi-unit buildings. Advance notice to neighbors when requested by community rules. Parking in approved locations only (driveways, designated service zones). Single-visit completion without multi-day projects that create ongoing disruption. Leave-no-trace service including sweeping walkways and cleaning driveways. Insurance certificates provided upon request for HOA board records. For townhome and condo complexes with limited access, we coordinate elevator reservations and provide hallway protection. We serve Eastlake (all subdivisions including Eastlake Woods, Eastlake Greens, Eastlake Trails), Otay Ranch (all phases and developments), Rolling Hills Ranch premium estates, Rancho del Rey family neighborhoods, Sunbow residential areas, and all McMillin-developed master-planned communities throughout Chula Vista. Our experience with South Bay HOA requirements ensures smooth, compliant junk removal that satisfies both homeowners and community management. Call (619) 750-0114 for HOA-compliant service that eliminates violation risk.
+                      Our experience with South Bay HOA requirements ensures smooth, compliant junk removal that satisfies both homeowners and community management. Call (619) 750-0114 for HOA-compliant service that eliminates violation risk.
                     </p>
 
                     {/* How Our Service Works */}
