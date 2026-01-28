@@ -438,7 +438,7 @@ export default function JunkRemovalCostPage() {
                 <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Real Junk Removal Pricing Examples</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="bg-white p-6 rounded-lg shadow">
-                    <h4 className="font-bold text-gray-900 mb-2">🛋️ <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">Couch Removal</a> – Mission Valley</h4>
+                    <h4 className="font-bold text-gray-900 mb-2">🛋️ <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">Couch Removal</a> – Clairemont</h4>
                     <p className="text-green-600 font-bold text-xl"><a href="/couch-removal-san-diego" className="text-green-600 hover:text-green-700">$69-$129</a></p>
                     <p className="text-gray-600 text-sm mt-1">Small $69+ • Standard $100+</p>
                   </div>
