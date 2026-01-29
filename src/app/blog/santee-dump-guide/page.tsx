@@ -61,6 +61,10 @@ export const metadata: Metadata = {
     "geo.placename": "Santee",
     "geo.position": "32.8384;-116.9739",
     "ICBM": "32.8384, -116.9739",
+    "article:published_time": "2026-01-29T08:00:00-08:00",
+    "article:modified_time": "2026-01-29T08:00:00-08:00",
+    "article:section": "Local Resources",
+    "article:tag": "santee dump, sycamore landfill, dump fees, junk removal, santee"
   },
 };
 
@@ -68,7 +72,31 @@ export default function SanteeDumpGuide() {
   const combinedSchema = {
     "@context": "https://schema.org",
     "@graph": [
-      // Article Schema
+      // BreadcrumbList Schema - Shows navigation path in search results
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://severincleaners.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://severincleaners.com/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Santee Dump Guide",
+            "item": "https://severincleaners.com/blog/santee-dump-guide"
+          }
+        ]
+      },
+      // Enhanced BlogPosting Schema
       {
         "@type": "BlogPosting",
         "headline": "Santee Dump (Sycamore Landfill) 2026: Complete Hours, Fees & Guide",
@@ -76,10 +104,24 @@ export default function SanteeDumpGuide() {
         "image": "https://severincleaners.com/og-image.jpg",
         "datePublished": "2026-01-29",
         "dateModified": "2026-01-29",
+        "wordCount": 2400,
+        "articleSection": "Local Resources",
+        "inLanguage": "en-US",
+        "keywords": ["santee dump", "santee landfill", "sycamore landfill", "santee dump hours", "santee dump fees", "east county dump"],
+        "timeRequired": "PT8M",
         "author": {
           "@type": "Organization",
           "name": "Severin Cleaners",
-          "url": "https://severincleaners.com"
+          "url": "https://severincleaners.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://severincleaners.com/logo.png"
+          },
+          "sameAs": [
+            "https://www.facebook.com/severinhauling",
+            "https://www.instagram.com/severinhauling/",
+            "https://www.yelp.com/biz/severin-cleaners-san-diego"
+          ]
         },
         "publisher": {
           "@type": "Organization",
@@ -87,14 +129,18 @@ export default function SanteeDumpGuide() {
           "logo": {
             "@type": "ImageObject",
             "url": "https://severincleaners.com/logo.png"
-          }
+          },
+          "sameAs": [
+            "https://www.facebook.com/severinhauling",
+            "https://www.instagram.com/severinhauling/"
+          ]
         },
         "mainEntityOfPage": {
           "@type": "WebPage",
           "@id": "https://severincleaners.com/blog/santee-dump-guide"
         }
       },
-      // FAQ Schema
+      // Enhanced FAQ Schema - 13 Questions for Maximum Rich Snippet Coverage
       {
         "@type": "FAQPage",
         "mainEntity": [
@@ -161,14 +207,129 @@ export default function SanteeDumpGuide() {
               "@type": "Answer",
               "text": "Often yes, when you factor in all costs. DIY to Santee dump: truck rental ($75-$150) + gas ($10-$20) + dump fees ($60-$125) + hard hat ($6) + your time (3-5 hours) = $151-$301+. Professional junk removal from Severin Cleaners: $149-$349 all-inclusive with zero work from you. Call (619) 750-0114 for a free quote."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "What payment methods does Santee dump accept?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sycamore Landfill accepts cash, check, and credit cards. Payment is made after weighing your load. Professional junk removal from Severin Cleaners offers flexible payment including cash, credit card, Venmo, Zelle, and Cash App for your convenience."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to dump at Santee landfill?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Expect 30-60 minutes at Sycamore Landfill including wait time, weighing, unloading, and payment. Add 1-2 hours for loading your truck and 1-2 hours for truck rental pickup/return. Total DIY time: 3-5 hours. Professional junk removal from Severin Cleaners takes zero hours of your time with same-day service available."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I dump mattresses at Santee dump?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, Sycamore Landfill accepts mattresses and box springs for disposal as part of general waste ($125/ton). Professional mattress disposal through Severin Cleaners includes pickup from your home, hauling, and eco-friendly recycling when possible. Call (619) 750-0114 for same-day mattress removal in Santee and East County."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where is the Santee dump located exactly?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sycamore Landfill (Santee dump) is located at 8514 Mast Boulevard, Santee, CA 92071. From downtown Santee, take Mission Gorge Rd east to Mast Blvd, turn right. Approximately 8 minutes from Santee Town Center. GPS coordinates: 32.8384, -116.9739. Phone: (619) 562-0530."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need an appointment to go to Santee dump?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No appointment needed for Sycamore Landfill. It operates first-come, first-served during open hours (Mon-Fri 7AM-4:30PM, Sat 7:30AM-3PM, CLOSED Sunday). Wait times vary from 15-45 minutes. Severin Cleaners offers scheduled appointments for junk removal with no wait time. Call (619) 750-0114."
+            }
           }
         ]
       },
-      // Place Schema for Sycamore Landfill
+      // HowTo Schema - Step-by-step guide to visiting dump (positions professional service as alternative)
+      {
+        "@type": "HowTo",
+        "name": "How to Take Junk to Santee Dump (Sycamore Landfill)",
+        "description": "Complete step-by-step process for visiting Sycamore Landfill in Santee, CA including costs, requirements, and time needed",
+        "totalTime": "PT3H30M",
+        "estimatedCost": {
+          "@type": "MonetaryAmount",
+          "currency": "USD",
+          "value": "151"
+        },
+        "tool": [
+          {
+            "@type": "HowToTool",
+            "name": "Pickup truck or rental truck"
+          },
+          {
+            "@type": "HowToTool",
+            "name": "Hard hat (available at entrance for $6)"
+          },
+          {
+            "@type": "HowToTool",
+            "name": "Tarp to cover load"
+          },
+          {
+            "@type": "HowToTool",
+            "name": "Closed-toe shoes (required)"
+          }
+        ],
+        "step": [
+          {
+            "@type": "HowToStep",
+            "name": "Rent a Truck",
+            "text": "Rent a pickup truck from Home Depot or U-Haul. Cost: $75-$150 depending on size and rental duration.",
+            "url": "https://severincleaners.com/blog/santee-dump-guide#cost-comparison"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Load Your Junk",
+            "text": "Load items into truck bed. Secure load with tarp (REQUIRED - uncovered loads incur penalties). Estimated time: 1-2 hours of physical labor.",
+            "url": "https://severincleaners.com/blog/santee-dump-guide#requirements"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Drive to Sycamore Landfill",
+            "text": "Navigate to 8514 Mast Boulevard, Santee, CA 92071. Check hours BEFORE going: Mon-Fri 7AM-4:30PM, Sat 7:30AM-3PM. CLOSED Sundays and holidays.",
+            "url": "https://severincleaners.com/blog/santee-dump-guide#hours"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Purchase Safety Equipment",
+            "text": "Buy hard hat at entrance booth if you don't have one ($6). Wear closed-toe shoes (required). Both are mandatory safety requirements.",
+            "url": "https://severincleaners.com/blog/santee-dump-guide#requirements"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Weigh In and Pay Fees",
+            "text": "Drive to scale for initial weigh-in. Fees: $125/ton general trash, $76/ton green waste. Typical pickup load costs $60-$125. Payment: cash, check, or credit card.",
+            "url": "https://severincleaners.com/blog/santee-dump-guide#fees"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Unload at Designated Area",
+            "text": "Follow staff directions to unloading zone. Unload items yourself (all physical labor required). Estimated time: 30-60 minutes depending on load size.",
+            "url": "https://severincleaners.com/blog/santee-dump-guide"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Return Rental Truck",
+            "text": "Drive back to rental location, return truck. Total time commitment: 3-5 hours. Alternatively, professional junk removal from Severin Cleaners requires zero time and often costs less. Call (619) 750-0114.",
+            "url": "https://severincleaners.com/blog/santee-dump-guide#cost-comparison"
+          }
+        ]
+      },
+      // Enhanced CivicStructure Schema for Sycamore Landfill
       {
         "@type": "CivicStructure",
         "name": "Sycamore Landfill",
         "alternateName": ["Santee Dump", "Santee Landfill"],
+        "description": "County-operated landfill serving Santee and East San Diego County",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "8514 Mast Boulevard",
@@ -176,6 +337,11 @@ export default function SanteeDumpGuide() {
           "addressRegion": "CA",
           "postalCode": "92071",
           "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 32.8384,
+          "longitude": -116.9739
         },
         "telephone": "+1-619-562-0530",
         "openingHoursSpecification": [
@@ -190,6 +356,177 @@ export default function SanteeDumpGuide() {
             "dayOfWeek": "Saturday",
             "opens": "07:30",
             "closes": "15:00"
+          }
+        ],
+        "isAccessibleForFree": false,
+        "publicAccess": true
+      },
+      // LocalBusiness Schema for Severin Cleaners (SERVICE AREA BUSINESS - not storefront)
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://severincleaners.com/#organization",
+        "name": "Severin Cleaners",
+        "description": "Professional junk removal service serving San Diego County. Service area business - we come to you.",
+        "url": "https://severincleaners.com",
+        "telephone": "+1-619-750-0114",
+        "priceRange": "$69-$495",
+        "email": "contact@severincleaners.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "8900 Grossmont Blvd Ste 1",
+          "addressLocality": "La Mesa",
+          "addressRegion": "CA",
+          "postalCode": "91941",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 32.7678,
+          "longitude": -117.0231
+        },
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Santee",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "California"
+            }
+          },
+          {
+            "@type": "City",
+            "name": "El Cajon"
+          },
+          {
+            "@type": "City",
+            "name": "La Mesa"
+          },
+          {
+            "@type": "City",
+            "name": "Lakeside"
+          },
+          {
+            "@type": "City",
+            "name": "Alpine"
+          }
+        ],
+        "openingHours": "Mo-Su 00:00-23:59",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "27",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "sameAs": [
+          "https://www.facebook.com/severinhauling",
+          "https://www.instagram.com/severinhauling/",
+          "https://www.yelp.com/biz/severin-cleaners-san-diego",
+          "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
+        ]
+      },
+      // Service Schema - Junk Removal Alternative to Dump
+      {
+        "@type": "Service",
+        "serviceType": "Junk Removal",
+        "name": "Santee Junk Removal Service",
+        "description": "Professional junk removal service in Santee, CA as a convenient alternative to DIY dump runs at Sycamore Landfill",
+        "provider": {
+          "@id": "https://severincleaners.com/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Santee",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "California"
+            }
+          },
+          {
+            "@type": "PostalCode",
+            "postalCode": "92071",
+            "addressLocality": "Santee"
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "url": "https://severincleaners.com/junk-removal-santee",
+          "priceCurrency": "USD",
+          "price": "69",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "69.00",
+            "priceCurrency": "USD",
+            "minPrice": "69",
+            "maxPrice": "495"
+          },
+          "availability": "https://schema.org/InStock",
+          "availabilityStarts": "2026-01-29",
+          "validFrom": "2026-01-29"
+        },
+        "hoursAvailable": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      },
+      // ItemList Schema for Accepted Materials at Dump
+      {
+        "@type": "ItemList",
+        "name": "Materials Accepted at Santee Dump (Sycamore Landfill)",
+        "description": "Complete list of materials and items accepted for disposal at Sycamore Landfill in Santee, CA",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Municipal solid waste (household junk)"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Construction and demolition debris"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Appliances (with on-site Freon removal)"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Electronics and e-waste"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Tires (automotive)"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Mattresses and box springs"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Carpet and flooring materials"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "Green waste and yard debris"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "Concrete, dirt, and asphalt (base materials)"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Furniture and household items"
           }
         ]
       }
