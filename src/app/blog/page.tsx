@@ -61,6 +61,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    title: "Escondido Dump (Resource Recovery) 2026: Hours, Fees & Complete Guide",
+    slug: "escondido-dump-guide",
+    excerpt: "Complete Escondido dump guide - 2026 hours (open 7 days!), fees, free resident passes (4 tons/year!), and directions. Learn when professional junk removal costs less than DIY to Escondido transfer station.",
+    category: "Local Resources",
+    date: "2026-01-29",
+    readTime: "9 min read",
+    featured: true,
+  },
+  {
     title: "Santee Dump (Sycamore Landfill) 2026: Complete Hours, Fees & Guide",
     slug: "santee-dump-guide",
     excerpt: "Complete guide to Santee Dump (Sycamore Landfill): current hours, fees, resident passes, accepted materials, and directions. Learn why professional junk removal often costs less than DIY dump runs when you factor in truck rental, time, and disposal fees.",
