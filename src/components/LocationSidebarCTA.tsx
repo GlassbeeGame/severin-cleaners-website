@@ -9,6 +9,8 @@ interface LocationSidebarCTAProps {
   nearbyHeading?: string;
   /** Optional: Custom header text for the CTA card (defaults to "GET IMMEDIATE HELP") */
   ctaHeader?: string;
+  /** Optional: Custom service items with links for "What We Remove" section */
+  serviceItems?: Array<{ name: string; slug: string }>;
 }
 
 export default function LocationSidebarCTA({
@@ -16,7 +18,18 @@ export default function LocationSidebarCTA({
   nearbyLocations,
   nearbyHeading = "Nearby Areas We Serve",
   ctaHeader = "GET IMMEDIATE HELP",
+  serviceItems,
 }: LocationSidebarCTAProps) {
+  // Default service items if none provided
+  const defaultServiceItems = [
+    { name: "Furniture & Mattresses", slug: "/furniture-disposal-san-diego" },
+    { name: "Appliances & Electronics", slug: "/appliance-removal-san-diego" },
+    { name: "Estate & Garage Cleanouts", slug: "/estate-cleanout-san-diego" },
+    { name: "Construction Debris", slug: "/construction-debris-removal-san-diego" },
+    { name: "Hot Tubs & Large Items", slug: "/hot-tub-removal-san-diego" },
+  ];
+
+  const items = serviceItems || defaultServiceItems;
   return (
     <aside className="lg:sticky lg:top-24 space-y-6">
       {/* Main CTA Card */}
@@ -53,26 +66,17 @@ export default function LocationSidebarCTA({
             What We Remove
           </h4>
           <ul className="space-y-2 text-sm">
-            <li className="flex items-start">
-              <span className="text-green-500 mr-2 mt-0.5">✓</span>
-              <span>Furniture & Mattresses</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-green-500 mr-2 mt-0.5">✓</span>
-              <span>Appliances & Electronics</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-green-500 mr-2 mt-0.5">✓</span>
-              <span>Estate & Garage Cleanouts</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-green-500 mr-2 mt-0.5">✓</span>
-              <span>Construction Debris</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-green-500 mr-2 mt-0.5">✓</span>
-              <span>Hot Tubs & Large Items</span>
-            </li>
+            {items.map((item) => (
+              <li key={item.slug} className="flex items-start">
+                <span className="text-green-500 mr-2 mt-0.5">✓</span>
+                <Link
+                  href={item.slug}
+                  className="text-gray-700 hover:text-blue-600 hover:underline transition-colors"
+                >
+                  {item.name}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
 

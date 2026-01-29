@@ -540,6 +540,14 @@ export default function SanteeDumpGuide() {
     { name: "Junk Removal Lakeside", slug: "/junk-removal-lakeside" },
   ];
 
+  const serviceItems = [
+    { name: "Furniture Disposal", slug: "/furniture-disposal-san-diego" },
+    { name: "Mattress Disposal", slug: "/san-diego-mattress-disposal" },
+    { name: "Appliance Removal", slug: "/appliance-removal-san-diego" },
+    { name: "Hot Tub Removal", slug: "/hot-tub-removal-san-diego" },
+    { name: "Construction Debris", slug: "/construction-debris-removal-san-diego" }
+  ];
+
   return (
     <>
       <SchemaMarkup schema={combinedSchema} />
@@ -1192,145 +1200,262 @@ export default function SanteeDumpGuide() {
 
                       <div className="space-y-4 mb-12">
                         {/* FAQ 1 */}
-                        <details className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden group">
-                          <summary className="cursor-pointer p-5 font-bold text-gray-900 hover:bg-gray-50 transition-colors flex justify-between items-center">
+                        <details className="border border-gray-200 rounded-xl overflow-hidden group">
+                          <summary className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between cursor-pointer list-none">
+                            <h3 className="font-bold text-gray-900 text-lg">
                             What time does Santee dump open?
-                            <span className="text-blue-600 text-xl group-open:rotate-180 transition-transform">▼</span>
+                            </h3>
+                            <svg
+                              className="w-5 h-5 text-gray-500 transition-transform group-open:rotate-180"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
                           </summary>
-                          <div className="px-5 pb-5 text-gray-700 leading-relaxed border-t border-gray-100 pt-4">
-                            <p>Santee dump (Sycamore Landfill) is open Monday-Friday 7:00 AM to 4:30 PM, and Saturday 7:30 AM to 3:00 PM. The dump is CLOSED on Sundays and major holidays. Professional junk removal services like Severin Cleaners operate 7 days per week including Sundays. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a> for same-day service.</p>
+                          <div className="px-6 py-4 bg-white">
+                            <p className="text-gray-700 leading-relaxed">Santee dump (Sycamore Landfill) is open Monday-Friday 7:00 AM to 4:30 PM, and Saturday 7:30 AM to 3:00 PM. The dump is CLOSED on Sundays and major holidays. Professional junk removal services like Severin Cleaners operate 7 days per week including Sundays. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a> for same-day service.</p>
                           </div>
                         </details>
 
                         {/* FAQ 2 */}
-                        <details className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden group">
-                          <summary className="cursor-pointer p-5 font-bold text-gray-900 hover:bg-gray-50 transition-colors flex justify-between items-center">
+                        <details className="border border-gray-200 rounded-xl overflow-hidden group">
+                          <summary className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between cursor-pointer list-none">
+                            <h3 className="font-bold text-gray-900 text-lg">
                             How much does it cost to dump at Santee?
-                            <span className="text-blue-600 text-xl group-open:rotate-180 transition-transform">▼</span>
+                            </h3>
+                            <svg
+                              className="w-5 h-5 text-gray-500 transition-transform group-open:rotate-180"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
                           </summary>
-                          <div className="px-5 pb-5 text-gray-700 leading-relaxed border-t border-gray-100 pt-4">
-                            <p>Santee dump (Sycamore Landfill) charges $125 per ton for general trash, $76 per ton for green waste and base materials. You'll also need a hard hat ($6 if you don't have one) and must tarp your load. Factor in truck rental ($75-$150), gas ($10-$20), and your time (3-5 hours), and professional junk removal often costs less. Severin Cleaners starts at $69 for small items with all-inclusive pricing.</p>
+                          <div className="px-6 py-4 bg-white">
+                            <p className="text-gray-700 leading-relaxed">Santee dump (Sycamore Landfill) charges $125 per ton for general trash, $76 per ton for green waste and base materials. You'll also need a hard hat ($6 if you don't have one) and must tarp your load. Factor in truck rental ($75-$150), gas ($10-$20), and your time (3-5 hours), and professional junk removal often costs less. Severin Cleaners starts at $69 for small items with all-inclusive pricing.</p>
                           </div>
                         </details>
 
                         {/* FAQ 3 */}
-                        <details className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden group">
-                          <summary className="cursor-pointer p-5 font-bold text-gray-900 hover:bg-gray-50 transition-colors flex justify-between items-center">
+                        <details className="border border-gray-200 rounded-xl overflow-hidden group">
+                          <summary className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between cursor-pointer list-none">
+                            <h3 className="font-bold text-gray-900 text-lg">
                             Is Santee dump open on Sunday?
-                            <span className="text-blue-600 text-xl group-open:rotate-180 transition-transform">▼</span>
+                            </h3>
+                            <svg
+                              className="w-5 h-5 text-gray-500 transition-transform group-open:rotate-180"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
                           </summary>
-                          <div className="px-5 pb-5 text-gray-700 leading-relaxed border-t border-gray-100 pt-4">
-                            <p>No, Santee dump (Sycamore Landfill) is CLOSED on Sundays. The landfill is only open Monday-Saturday. If you need junk removal on Sunday, professional services like Severin Cleaners operate 7 days per week throughout Santee, El Cajon, La Mesa, and East County. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a>.</p>
+                          <div className="px-6 py-4 bg-white">
+                            <p className="text-gray-700 leading-relaxed">No, Santee dump (Sycamore Landfill) is CLOSED on Sundays. The landfill is only open Monday-Saturday. If you need junk removal on Sunday, professional services like Severin Cleaners operate 7 days per week throughout Santee, El Cajon, La Mesa, and East County. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a>.</p>
                           </div>
                         </details>
 
                         {/* FAQ 4 */}
-                        <details className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden group">
-                          <summary className="cursor-pointer p-5 font-bold text-gray-900 hover:bg-gray-50 transition-colors flex justify-between items-center">
+                        <details className="border border-gray-200 rounded-xl overflow-hidden group">
+                          <summary className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between cursor-pointer list-none">
+                            <h3 className="font-bold text-gray-900 text-lg">
                             What's the difference between Santee dump and Sycamore Landfill?
-                            <span className="text-blue-600 text-xl group-open:rotate-180 transition-transform">▼</span>
+                            </h3>
+                            <svg
+                              className="w-5 h-5 text-gray-500 transition-transform group-open:rotate-180"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
                           </summary>
-                          <div className="px-5 pb-5 text-gray-700 leading-relaxed border-t border-gray-100 pt-4">
-                            <p>Santee dump and Sycamore Landfill are the same facility. The official name is Sycamore Landfill, but locals call it Santee dump or Santee landfill. Located at 8514 Mast Boulevard, Santee, CA 92071. Phone: (619) 562-0530.</p>
+                          <div className="px-6 py-4 bg-white">
+                            <p className="text-gray-700 leading-relaxed">Santee dump and Sycamore Landfill are the same facility. The official name is Sycamore Landfill, but locals call it Santee dump or Santee landfill. Located at 8514 Mast Boulevard, Santee, CA 92071. Phone: (619) 562-0530.</p>
                           </div>
                         </details>
 
                         {/* FAQ 5 */}
-                        <details className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden group">
-                          <summary className="cursor-pointer p-5 font-bold text-gray-900 hover:bg-gray-50 transition-colors flex justify-between items-center">
+                        <details className="border border-gray-200 rounded-xl overflow-hidden group">
+                          <summary className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between cursor-pointer list-none">
+                            <h3 className="font-bold text-gray-900 text-lg">
                             Do I need a hard hat at Santee dump?
-                            <span className="text-blue-600 text-xl group-open:rotate-180 transition-transform">▼</span>
+                            </h3>
+                            <svg
+                              className="w-5 h-5 text-gray-500 transition-transform group-open:rotate-180"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
                           </summary>
-                          <div className="px-5 pb-5 text-gray-700 leading-relaxed border-t border-gray-100 pt-4">
-                            <p>Yes, hard hats are REQUIRED at Santee dump (Sycamore Landfill). If you don't have one, you can purchase a hard hat for approximately $6 at the entrance booth. Closed-toe shoes are also required. Professional junk removal services handle everything, so you don't need any safety equipment.</p>
+                          <div className="px-6 py-4 bg-white">
+                            <p className="text-gray-700 leading-relaxed">Yes, hard hats are REQUIRED at Santee dump (Sycamore Landfill). If you don't have one, you can purchase a hard hat for approximately $6 at the entrance booth. Closed-toe shoes are also required. Professional junk removal services handle everything, so you don't need any safety equipment.</p>
                           </div>
                         </details>
 
                         {/* FAQ 6 */}
-                        <details className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden group">
-                          <summary className="cursor-pointer p-5 font-bold text-gray-900 hover:bg-gray-50 transition-colors flex justify-between items-center">
+                        <details className="border border-gray-200 rounded-xl overflow-hidden group">
+                          <summary className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between cursor-pointer list-none">
+                            <h3 className="font-bold text-gray-900 text-lg">
                             Can Santee residents dump for free?
-                            <span className="text-blue-600 text-xl group-open:rotate-180 transition-transform">▼</span>
+                            </h3>
+                            <svg
+                              className="w-5 h-5 text-gray-500 transition-transform group-open:rotate-180"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
                           </summary>
-                          <div className="px-5 pb-5 text-gray-700 leading-relaxed border-t border-gray-100 pt-4">
-                            <p>Santee residents receive TWO free passes per year (per household). Each pass covers up to ONE TON of solid waste, bulky items, or concrete. To obtain passes, visit the landfill office with a valid driver's license AND residential utility bill. Passes expire one year from issuance.</p>
+                          <div className="px-6 py-4 bg-white">
+                            <p className="text-gray-700 leading-relaxed">Santee residents receive TWO free passes per year (per household). Each pass covers up to ONE TON of solid waste, bulky items, or concrete. To obtain passes, visit the landfill office with a valid driver's license AND residential utility bill. Passes expire one year from issuance.</p>
                           </div>
                         </details>
 
                         {/* FAQ 7 */}
-                        <details className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden group">
-                          <summary className="cursor-pointer p-5 font-bold text-gray-900 hover:bg-gray-50 transition-colors flex justify-between items-center">
+                        <details className="border border-gray-200 rounded-xl overflow-hidden group">
+                          <summary className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between cursor-pointer list-none">
+                            <h3 className="font-bold text-gray-900 text-lg">
                             What can't I bring to Santee dump?
-                            <span className="text-blue-600 text-xl group-open:rotate-180 transition-transform">▼</span>
+                            </h3>
+                            <svg
+                              className="w-5 h-5 text-gray-500 transition-transform group-open:rotate-180"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
                           </summary>
-                          <div className="px-5 pb-5 text-gray-700 leading-relaxed border-t border-gray-100 pt-4">
-                            <p>Santee dump restricts hazardous waste, certain chemicals, and liquids. However, they DO accept appliances (with on-site Freon removal), electronics, tires, mattresses, carpet, and large animal remains. Professional junk removal services like Severin Cleaners can handle most restricted items through proper disposal channels. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a>.</p>
+                          <div className="px-6 py-4 bg-white">
+                            <p className="text-gray-700 leading-relaxed">Santee dump restricts hazardous waste, certain chemicals, and liquids. However, they DO accept appliances (with on-site Freon removal), electronics, tires, mattresses, carpet, and large animal remains. Professional junk removal services like Severin Cleaners can handle most restricted items through proper disposal channels. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a>.</p>
                           </div>
                         </details>
 
                         {/* FAQ 8 */}
-                        <details className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden group">
-                          <summary className="cursor-pointer p-5 font-bold text-gray-900 hover:bg-gray-50 transition-colors flex justify-between items-center">
+                        <details className="border border-gray-200 rounded-xl overflow-hidden group">
+                          <summary className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between cursor-pointer list-none">
+                            <h3 className="font-bold text-gray-900 text-lg">
                             Is professional junk removal cheaper than going to Santee dump?
-                            <span className="text-blue-600 text-xl group-open:rotate-180 transition-transform">▼</span>
+                            </h3>
+                            <svg
+                              className="w-5 h-5 text-gray-500 transition-transform group-open:rotate-180"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
                           </summary>
-                          <div className="px-5 pb-5 text-gray-700 leading-relaxed border-t border-gray-100 pt-4">
-                            <p>Often yes, when you factor in all costs. DIY to Santee dump: truck rental ($75-$150) + gas ($10-$20) + dump fees ($60-$125) + hard hat ($6) + your time (3-5 hours) = $151-$301+. Professional junk removal from Severin Cleaners: $149-$349 all-inclusive with zero work from you. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a> for a free quote.</p>
+                          <div className="px-6 py-4 bg-white">
+                            <p className="text-gray-700 leading-relaxed">Often yes, when you factor in all costs. DIY to Santee dump: truck rental ($75-$150) + gas ($10-$20) + dump fees ($60-$125) + hard hat ($6) + your time (3-5 hours) = $151-$301+. Professional junk removal from Severin Cleaners: $149-$349 all-inclusive with zero work from you. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a> for a free quote.</p>
                           </div>
                         </details>
 
                         {/* FAQ 9 */}
-                        <details className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden group">
-                          <summary className="cursor-pointer p-5 font-bold text-gray-900 hover:bg-gray-50 transition-colors flex justify-between items-center">
+                        <details className="border border-gray-200 rounded-xl overflow-hidden group">
+                          <summary className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between cursor-pointer list-none">
+                            <h3 className="font-bold text-gray-900 text-lg">
                             What payment methods does Santee dump accept?
-                            <span className="text-blue-600 text-xl group-open:rotate-180 transition-transform">▼</span>
+                            </h3>
+                            <svg
+                              className="w-5 h-5 text-gray-500 transition-transform group-open:rotate-180"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
                           </summary>
-                          <div className="px-5 pb-5 text-gray-700 leading-relaxed border-t border-gray-100 pt-4">
-                            <p>Sycamore Landfill accepts cash, check, and credit cards. Payment is made after weighing your load. Professional junk removal from Severin Cleaners offers flexible payment including cash, credit card, Venmo, Zelle, and Cash App for your convenience.</p>
+                          <div className="px-6 py-4 bg-white">
+                            <p className="text-gray-700 leading-relaxed">Sycamore Landfill accepts cash, check, and credit cards. Payment is made after weighing your load. Professional junk removal from Severin Cleaners offers flexible payment including cash, credit card, Venmo, Zelle, and Cash App for your convenience.</p>
                           </div>
                         </details>
 
                         {/* FAQ 10 */}
-                        <details className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden group">
-                          <summary className="cursor-pointer p-5 font-bold text-gray-900 hover:bg-gray-50 transition-colors flex justify-between items-center">
+                        <details className="border border-gray-200 rounded-xl overflow-hidden group">
+                          <summary className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between cursor-pointer list-none">
+                            <h3 className="font-bold text-gray-900 text-lg">
                             How long does it take to dump at Santee landfill?
-                            <span className="text-blue-600 text-xl group-open:rotate-180 transition-transform">▼</span>
+                            </h3>
+                            <svg
+                              className="w-5 h-5 text-gray-500 transition-transform group-open:rotate-180"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
                           </summary>
-                          <div className="px-5 pb-5 text-gray-700 leading-relaxed border-t border-gray-100 pt-4">
-                            <p>Expect 30-60 minutes at Sycamore Landfill including wait time, weighing, unloading, and payment. Add 1-2 hours for loading your truck and 1-2 hours for truck rental pickup/return. Total DIY time: 3-5 hours. Professional junk removal from Severin Cleaners takes zero hours of your time with same-day service available.</p>
+                          <div className="px-6 py-4 bg-white">
+                            <p className="text-gray-700 leading-relaxed">Expect 30-60 minutes at Sycamore Landfill including wait time, weighing, unloading, and payment. Add 1-2 hours for loading your truck and 1-2 hours for truck rental pickup/return. Total DIY time: 3-5 hours. Professional junk removal from Severin Cleaners takes zero hours of your time with same-day service available.</p>
                           </div>
                         </details>
 
                         {/* FAQ 11 */}
-                        <details className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden group">
-                          <summary className="cursor-pointer p-5 font-bold text-gray-900 hover:bg-gray-50 transition-colors flex justify-between items-center">
+                        <details className="border border-gray-200 rounded-xl overflow-hidden group">
+                          <summary className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between cursor-pointer list-none">
+                            <h3 className="font-bold text-gray-900 text-lg">
                             Can I dump mattresses at Santee dump?
-                            <span className="text-blue-600 text-xl group-open:rotate-180 transition-transform">▼</span>
+                            </h3>
+                            <svg
+                              className="w-5 h-5 text-gray-500 transition-transform group-open:rotate-180"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
                           </summary>
-                          <div className="px-5 pb-5 text-gray-700 leading-relaxed border-t border-gray-100 pt-4">
-                            <p>Yes, Sycamore Landfill accepts mattresses and box springs for disposal as part of general waste ($125/ton). Professional mattress disposal through Severin Cleaners includes pickup from your home, hauling, and eco-friendly recycling when possible. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a> for same-day mattress removal in Santee and East County.</p>
+                          <div className="px-6 py-4 bg-white">
+                            <p className="text-gray-700 leading-relaxed">Yes, Sycamore Landfill accepts mattresses and box springs for disposal as part of general waste ($125/ton). Professional mattress disposal through Severin Cleaners includes pickup from your home, hauling, and eco-friendly recycling when possible. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a> for same-day mattress removal in Santee and East County.</p>
                           </div>
                         </details>
 
                         {/* FAQ 12 */}
-                        <details className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden group">
-                          <summary className="cursor-pointer p-5 font-bold text-gray-900 hover:bg-gray-50 transition-colors flex justify-between items-center">
+                        <details className="border border-gray-200 rounded-xl overflow-hidden group">
+                          <summary className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between cursor-pointer list-none">
+                            <h3 className="font-bold text-gray-900 text-lg">
                             Where is the Santee dump located exactly?
-                            <span className="text-blue-600 text-xl group-open:rotate-180 transition-transform">▼</span>
+                            </h3>
+                            <svg
+                              className="w-5 h-5 text-gray-500 transition-transform group-open:rotate-180"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
                           </summary>
-                          <div className="px-5 pb-5 text-gray-700 leading-relaxed border-t border-gray-100 pt-4">
-                            <p>Sycamore Landfill (Santee dump) is located at 8514 Mast Boulevard, Santee, CA 92071. From downtown Santee, take Mission Gorge Rd east to Mast Blvd, turn right. Approximately 8 minutes from Santee Town Center. GPS coordinates: 32.8384, -116.9739. Phone: (619) 562-0530.</p>
+                          <div className="px-6 py-4 bg-white">
+                            <p className="text-gray-700 leading-relaxed">Sycamore Landfill (Santee dump) is located at 8514 Mast Boulevard, Santee, CA 92071. From downtown Santee, take Mission Gorge Rd east to Mast Blvd, turn right. Approximately 8 minutes from Santee Town Center. GPS coordinates: 32.8384, -116.9739. Phone: (619) 562-0530.</p>
                           </div>
                         </details>
 
                         {/* FAQ 13 */}
-                        <details className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden group">
-                          <summary className="cursor-pointer p-5 font-bold text-gray-900 hover:bg-gray-50 transition-colors flex justify-between items-center">
+                        <details className="border border-gray-200 rounded-xl overflow-hidden group">
+                          <summary className="w-full px-6 py-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between cursor-pointer list-none">
+                            <h3 className="font-bold text-gray-900 text-lg">
                             Do I need an appointment to go to Santee dump?
-                            <span className="text-blue-600 text-xl group-open:rotate-180 transition-transform">▼</span>
+                            </h3>
+                            <svg
+                              className="w-5 h-5 text-gray-500 transition-transform group-open:rotate-180"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
                           </summary>
-                          <div className="px-5 pb-5 text-gray-700 leading-relaxed border-t border-gray-100 pt-4">
-                            <p>No appointment needed for Sycamore Landfill. It operates first-come, first-served during open hours (Mon-Fri 7AM-4:30PM, Sat 7:30AM-3PM, CLOSED Sunday). Wait times vary from 15-45 minutes. Severin Cleaners offers scheduled appointments for junk removal with no wait time. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a>.</p>
+                          <div className="px-6 py-4 bg-white">
+                            <p className="text-gray-700 leading-relaxed">No appointment needed for Sycamore Landfill. It operates first-come, first-served during open hours (Mon-Fri 7AM-4:30PM, Sat 7:30AM-3PM, CLOSED Sunday). Wait times vary from 15-45 minutes. Severin Cleaners offers scheduled appointments for junk removal with no wait time. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a>.</p>
                           </div>
                         </details>
                       </div>
@@ -1371,6 +1496,7 @@ export default function SanteeDumpGuide() {
                     nearbyLocations={nearbyLocations}
                     nearbyHeading="East County Junk Removal"
                     ctaHeader="SKIP THE DUMP"
+                    serviceItems={serviceItems}
                   />
                 </div>
 
