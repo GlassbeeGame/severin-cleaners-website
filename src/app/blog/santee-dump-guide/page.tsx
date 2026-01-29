@@ -1,0 +1,931 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import SchemaMarkup from "@/components/SchemaMarkup";
+import LocationSidebarCTA from "@/components/LocationSidebarCTA";
+
+export const metadata: Metadata = {
+  title: "Santee Dump (Sycamore Landfill) 2026: Hours, Fees & Complete Guide",
+  description: "Complete guide to Santee dump (Sycamore Landfill) - 2026 hours, fees, accepted items & directions. Plus: when professional junk removal is actually cheaper than DIY.",
+  keywords: [
+    "santee dump",
+    "santee landfill",
+    "sycamore landfill",
+    "santee dump hours",
+    "santee landfill hours",
+    "santee dump fees",
+    "santee landfill fees",
+    "sycamore landfill santee",
+    "santee dump location",
+    "east county dump",
+    "dump near el cajon",
+    "dump near la mesa"
+  ],
+  openGraph: {
+    title: "Santee Dump (Sycamore Landfill) 2026: Hours, Fees & Complete Guide",
+    description: "Complete guide to Santee dump (Sycamore Landfill) - 2026 hours, fees, accepted items. Learn when professional junk removal actually costs less than DIY.",
+    url: "https://severincleaners.com/blog/santee-dump-guide",
+    siteName: "Severin Cleaners",
+    type: "article",
+    locale: "en_US",
+    images: [{
+      url: "https://severincleaners.com/og-image.jpg",
+      width: 1200,
+      height: 630,
+      alt: "Santee Dump Guide 2026 - Severin Cleaners"
+    }]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Santee Dump (Sycamore Landfill) 2026: Hours, Fees & Complete Guide",
+    description: "Complete Santee dump guide: hours, fees, requirements. Learn when professional junk removal saves money vs DIY.",
+    images: ["https://severincleaners.com/og-image.jpg"]
+  },
+  alternates: {
+    canonical: "https://severincleaners.com/blog/santee-dump-guide",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  other: {
+    "geo.region": "US-CA",
+    "geo.placename": "Santee",
+    "geo.position": "32.8384;-116.9739",
+    "ICBM": "32.8384, -116.9739",
+  },
+};
+
+export default function SanteeDumpGuide() {
+  const combinedSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      // Article Schema
+      {
+        "@type": "BlogPosting",
+        "headline": "Santee Dump (Sycamore Landfill) 2026: Complete Hours, Fees & Guide",
+        "description": "Comprehensive guide to Santee dump (Sycamore Landfill) including 2026 hours, current fees, requirements, accepted materials, free passes for residents, and cost comparison with professional junk removal.",
+        "image": "https://severincleaners.com/og-image.jpg",
+        "datePublished": "2026-01-29",
+        "dateModified": "2026-01-29",
+        "author": {
+          "@type": "Organization",
+          "name": "Severin Cleaners",
+          "url": "https://severincleaners.com"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Severin Cleaners",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://severincleaners.com/logo.png"
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://severincleaners.com/blog/santee-dump-guide"
+        }
+      },
+      // FAQ Schema
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What time does Santee dump open?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Santee dump (Sycamore Landfill) is open Monday-Friday 7:00 AM to 4:30 PM, and Saturday 7:30 AM to 3:00 PM. The dump is CLOSED on Sundays and major holidays. Professional junk removal services like Severin Cleaners operate 7 days per week including Sundays. Call (619) 750-0114 for same-day service."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does it cost to dump at Santee?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Santee dump (Sycamore Landfill) charges $125 per ton for general trash, $76 per ton for green waste and base materials. You'll also need a hard hat ($6 if you don't have one) and must tarp your load. Factor in truck rental ($75-$150), gas ($10-$20), and your time (3-5 hours), and professional junk removal often costs less. Severin Cleaners starts at $69 for small items with all-inclusive pricing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Santee dump open on Sunday?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No, Santee dump (Sycamore Landfill) is CLOSED on Sundays. The landfill is only open Monday-Saturday. If you need junk removal on Sunday, professional services like Severin Cleaners operate 7 days per week throughout Santee, El Cajon, La Mesa, and East County. Call (619) 750-0114."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the difference between Santee dump and Sycamore Landfill?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Santee dump and Sycamore Landfill are the same facility. The official name is Sycamore Landfill, but locals call it Santee dump or Santee landfill. Located at 8514 Mast Boulevard, Santee, CA 92071. Phone: (619) 562-0530."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need a hard hat at Santee dump?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, hard hats are REQUIRED at Santee dump (Sycamore Landfill). If you don't have one, you can purchase a hard hat for approximately $6 at the entrance booth. Closed-toe shoes are also required. Professional junk removal services handle everything, so you don't need any safety equipment."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can Santee residents dump for free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Santee residents receive TWO free passes per year (per household). Each pass covers up to ONE TON of solid waste, bulky items, or concrete. To obtain passes, visit the landfill office with a valid driver's license AND residential utility bill. Passes expire one year from issuance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What can't I bring to Santee dump?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Santee dump restricts hazardous waste, certain chemicals, and liquids. However, they DO accept appliances (with on-site Freon removal), electronics, tires, mattresses, carpet, and large animal remains. Professional junk removal services like Severin Cleaners can handle most restricted items through proper disposal channels. Call (619) 750-0114."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is professional junk removal cheaper than going to Santee dump?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Often yes, when you factor in all costs. DIY to Santee dump: truck rental ($75-$150) + gas ($10-$20) + dump fees ($60-$125) + hard hat ($6) + your time (3-5 hours) = $151-$301+. Professional junk removal from Severin Cleaners: $149-$349 all-inclusive with zero work from you. Call (619) 750-0114 for a free quote."
+            }
+          }
+        ]
+      },
+      // Place Schema for Sycamore Landfill
+      {
+        "@type": "CivicStructure",
+        "name": "Sycamore Landfill",
+        "alternateName": ["Santee Dump", "Santee Landfill"],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "8514 Mast Boulevard",
+          "addressLocality": "Santee",
+          "addressRegion": "CA",
+          "postalCode": "92071",
+          "addressCountry": "US"
+        },
+        "telephone": "+1-619-562-0530",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "07:00",
+            "closes": "16:30"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "07:30",
+            "closes": "15:00"
+          }
+        ]
+      }
+    ]
+  };
+
+  const nearbyLocations = [
+    { name: "Junk Removal Santee", slug: "/junk-removal-santee" },
+    { name: "Junk Removal El Cajon", slug: "/junk-removal-el-cajon" },
+    { name: "Junk Removal La Mesa", slug: "/junk-removal-la-mesa" },
+    { name: "Junk Removal Lakeside", slug: "/junk-removal-lakeside" },
+  ];
+
+  return (
+    <>
+      <SchemaMarkup schema={combinedSchema} />
+
+      <Header />
+      <main>
+        {/* Hero Section - Matching Location Pages */}
+        <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-12 md:py-16">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              {/* Breadcrumbs */}
+              <nav className="mb-6 text-sm">
+                <Link href="/" className="text-blue-200 hover:text-white">Home</Link>
+                <span className="mx-2 text-blue-300">→</span>
+                <Link href="/blog" className="text-blue-200 hover:text-white">Blog</Link>
+                <span className="mx-2 text-blue-300">→</span>
+                <span className="text-white">Santee Dump Guide</span>
+              </nav>
+
+              {/* Category Badge */}
+              <span className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                Local Resources
+              </span>
+
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight">
+                Santee Dump (Sycamore Landfill) 2026: Complete Guide
+              </h1>
+
+              <p className="text-lg md:text-xl mb-4 text-blue-100">
+                Hours, Fees, Requirements & When Professional Junk Removal Costs Less
+              </p>
+
+              <div className="flex items-center gap-4 text-sm text-blue-200">
+                <span>Updated January 29, 2026</span>
+                <span>•</span>
+                <span>8 min read</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Main Content with Sidebar */}
+        <section className="py-12 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <div className="max-w-7xl mx-auto">
+              <div className="grid lg:grid-cols-3 gap-8">
+
+                {/* Main Content - Left Column */}
+                <div className="lg:col-span-2">
+                  <div className="bg-white rounded-lg shadow-md p-6 md:p-8">
+
+                    {/* Quick Info Box */}
+                    <div className="bg-blue-50 border-2 border-blue-200 rounded-xl p-6 mb-8">
+                      <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                        <span className="text-3xl mr-3">📍</span>
+                        Santee Dump Quick Info
+                      </h2>
+                      <div className="grid md:grid-cols-2 gap-4">
+                        <div>
+                          <p className="text-sm font-semibold text-gray-600 mb-1">ADDRESS</p>
+                          <p className="text-gray-900">8514 Mast Boulevard<br/>Santee, CA 92071</p>
+                        </div>
+                        <div>
+                          <p className="text-sm font-semibold text-gray-600 mb-1">PHONE</p>
+                          <p className="text-gray-900">(619) 562-0530</p>
+                        </div>
+                        <div>
+                          <p className="text-sm font-semibold text-gray-600 mb-1">HOURS</p>
+                          <p className="text-gray-900">Mon-Fri: 7:00 AM - 4:30 PM<br/>Sat: 7:30 AM - 3:00 PM<br/>Sun: <span className="text-red-600 font-bold">CLOSED</span></p>
+                        </div>
+                        <div>
+                          <p className="text-sm font-semibold text-gray-600 mb-1">FEES</p>
+                          <p className="text-gray-900">General Trash: $125/ton<br/>Green Waste: $76/ton</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Quick Answer Section */}
+                    <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-8 rounded-r-lg">
+                      <h2 className="text-xl font-bold text-gray-900 mb-3">Quick Answer</h2>
+                      <p className="text-gray-700 leading-relaxed">
+                        The <strong>Santee dump</strong> (officially Sycamore Landfill) charges <strong>$125 per ton</strong> for general trash. But when you add truck rental ($75-$150), gas ($10-$20), required hard hat ($6), tarping supplies, and your time (3-5 hours), DIY dump runs often cost <strong>$150-$300+</strong>. Professional junk removal from <Link href="/junk-removal-santee" className="text-blue-600 hover:text-blue-700 font-semibold">Severin Cleaners</Link> starts at $69 (small items) or $100 (standard items) with zero work from you—and we're open Sundays when the dump is closed.
+                      </p>
+                    </div>
+
+                    {/* Main Content */}
+                    <div className="prose prose-lg max-w-none">
+
+                      <p className="text-gray-700 leading-relaxed mb-6">
+                        Planning to haul junk to the <strong>Santee landfill</strong>? This complete 2026 guide covers everything you need to know about <strong>Sycamore Landfill</strong>—hours, fees, requirements, accepted materials, and most importantly, when professional <Link href="/junk-removal-santee" className="text-blue-600 hover:text-blue-700 font-semibold">junk removal in Santee</Link> actually saves you money compared to the DIY dump run.
+                      </p>
+
+                      {/* Hours Section */}
+                      <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6" id="hours">Sycamore Landfill Hours (2026)</h2>
+
+                      <p className="text-gray-700 mb-4">
+                        The <strong>Santee dump hours</strong> are limited compared to professional junk removal services. Here's the current schedule:
+                      </p>
+
+                      <div className="bg-white border-2 border-gray-200 rounded-xl p-6 mb-6">
+                        <h3 className="text-xl font-bold text-gray-900 mb-4">Weekly Schedule</h3>
+                        <table className="w-full">
+                          <tbody className="divide-y divide-gray-200">
+                            <tr>
+                              <td className="py-3 font-semibold text-gray-900">Monday - Friday</td>
+                              <td className="py-3 text-gray-700 text-right">7:00 AM - 4:30 PM</td>
+                            </tr>
+                            <tr>
+                              <td className="py-3 font-semibold text-gray-900">Saturday</td>
+                              <td className="py-3 text-gray-700 text-right">7:30 AM - 3:00 PM <span className="text-orange-600 text-sm">(Shorter hours!)</span></td>
+                            </tr>
+                            <tr>
+                              <td className="py-3 font-semibold text-gray-900">Sunday</td>
+                              <td className="py-3 text-red-600 font-bold text-right">CLOSED</td>
+                            </tr>
+                            <tr>
+                              <td className="py-3 font-semibold text-gray-900">Major Holidays</td>
+                              <td className="py-3 text-red-600 font-bold text-right">CLOSED</td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <div className="mt-4 bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r">
+                          <p className="text-sm text-gray-700">
+                            <strong>Pass Office Hours:</strong> Monday - Friday, 8:00 AM to 3:00 PM (for Santee residents obtaining free passes)
+                          </p>
+                        </div>
+                      </div>
+
+                      <div className="bg-blue-50 rounded-lg p-5 mb-6">
+                        <p className="text-gray-700 mb-2">
+                          <strong>💡 Pro Tip:</strong> The <strong>Santee dump</strong> gets busiest on Saturday mornings and weekday afternoons. Weekday mornings (7:00-9:00 AM) typically have the shortest wait times.
+                        </p>
+                        <p className="text-gray-700">
+                          <strong>Need Sunday service?</strong> <Link href="/junk-removal-santee" className="text-blue-600 hover:text-blue-700 font-semibold">Professional junk removal</Link> operates 7 days per week including Sundays. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a> for same-day service.
+                        </p>
+                      </div>
+
+                      {/* Fees Section */}
+                      <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6" id="fees">Santee Dump Fees (2026)</h2>
+
+                      <p className="text-gray-700 mb-4">
+                        The <strong>Santee landfill fees</strong> are charged by weight. Here's the current pricing structure for <strong>Sycamore Landfill</strong>:
+                      </p>
+
+                      <div className="bg-white border-2 border-gray-200 rounded-xl p-6 mb-6">
+                        <h3 className="text-xl font-bold text-gray-900 mb-4">2026 Disposal Fees</h3>
+                        <table className="w-full">
+                          <thead className="bg-gray-50">
+                            <tr>
+                              <th className="py-3 px-4 text-left font-semibold text-gray-900">Material Type</th>
+                              <th className="py-3 px-4 text-right font-semibold text-gray-900">Fee Per Ton</th>
+                            </tr>
+                          </thead>
+                          <tbody className="divide-y divide-gray-200">
+                            <tr>
+                              <td className="py-3 px-4 text-gray-700">General Trash / Municipal Solid Waste</td>
+                              <td className="py-3 px-4 text-right font-bold text-gray-900">$125</td>
+                            </tr>
+                            <tr>
+                              <td className="py-3 px-4 text-gray-700">Green Waste (yard debris, branches)</td>
+                              <td className="py-3 px-4 text-right font-bold text-gray-900">$76</td>
+                            </tr>
+                            <tr>
+                              <td className="py-3 px-4 text-gray-700">Base Materials (dirt, concrete, asphalt)</td>
+                              <td className="py-3 px-4 text-right font-bold text-gray-900">$76</td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <div className="mt-4 bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r">
+                          <p className="text-sm text-gray-700 mb-2">
+                            <strong>⚠️ Minimum charges may apply</strong> for small loads. Call ahead to confirm current rates: <span className="font-semibold">(619) 562-0530</span>
+                          </p>
+                          <p className="text-sm text-gray-700">
+                            A typical pickup truck load (500-1,000 lbs) costs approximately <strong>$60-$125</strong> in dump fees alone.
+                          </p>
+                        </div>
+                      </div>
+
+                      <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Hidden Costs Most People Forget</h3>
+
+                      <p className="text-gray-700 mb-4">
+                        The <strong>Santee dump fees</strong> are just the start. Here are the additional costs that add up quickly:
+                      </p>
+
+                      <ul className="space-y-3 mb-6">
+                        <li className="flex items-start">
+                          <span className="text-orange-500 font-bold text-xl mr-3">→</span>
+                          <div>
+                            <strong className="text-gray-900">Hard Hat:</strong>
+                            <span className="text-gray-700"> $6 purchase at entrance booth (required, no exceptions)</span>
+                          </div>
+                        </li>
+                        <li className="flex items-start">
+                          <span className="text-orange-500 font-bold text-xl mr-3">→</span>
+                          <div>
+                            <strong className="text-gray-900">Uncovered Load Penalty:</strong>
+                            <span className="text-gray-700"> Potential fines if your load isn't properly tarped</span>
+                          </div>
+                        </li>
+                        <li className="flex items-start">
+                          <span className="text-orange-500 font-bold text-xl mr-3">→</span>
+                          <div>
+                            <strong className="text-gray-900">Payment Methods:</strong>
+                            <span className="text-gray-700"> Cash, check, or credit card accepted</span>
+                          </div>
+                        </li>
+                      </ul>
+
+                      <div className="bg-orange-50 border-l-4 border-orange-500 p-5 rounded-r mb-8">
+                        <p className="text-gray-700">
+                          <strong>These fees add up fast.</strong> See our <Link href="#cost-comparison" className="text-blue-600 hover:text-blue-700 font-semibold">cost comparison below</Link> to understand when professional junk removal actually costs LESS than a DIY dump run to the <strong>Santee landfill</strong>.
+                        </p>
+                      </div>
+
+                      {/* Requirements Section */}
+                      <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6" id="requirements">Requirements Before You Go</h2>
+
+                      <p className="text-gray-700 mb-4">
+                        Before heading to the <strong>Santee dump</strong>, you must meet these mandatory requirements:
+                      </p>
+
+                      <div className="bg-red-50 border-2 border-red-200 rounded-xl p-6 mb-6">
+                        <h3 className="text-xl font-bold text-red-900 mb-4 flex items-center">
+                          <span className="text-2xl mr-2">⚠️</span>
+                          Mandatory Requirements
+                        </h3>
+                        <ul className="space-y-3">
+                          <li className="flex items-start">
+                            <span className="text-red-600 font-bold text-xl mr-3 mt-1">✓</span>
+                            <div>
+                              <strong className="text-gray-900">Hard Hat REQUIRED</strong>
+                              <p className="text-gray-700 text-sm mt-1">Available for purchase (~$6) at entrance booth if you don't have one. This is strictly enforced.</p>
+                            </div>
+                          </li>
+                          <li className="flex items-start">
+                            <span className="text-red-600 font-bold text-xl mr-3 mt-1">✓</span>
+                            <div>
+                              <strong className="text-gray-900">Closed-Toe Shoes REQUIRED</strong>
+                              <p className="text-gray-700 text-sm mt-1">No sandals, flip-flops, or open-toe footwear allowed. Safety regulation.</p>
+                            </div>
+                          </li>
+                          <li className="flex items-start">
+                            <span className="text-red-600 font-bold text-xl mr-3 mt-1">✓</span>
+                            <div>
+                              <strong className="text-gray-900">All Loads MUST Be Tarped</strong>
+                              <p className="text-gray-700 text-sm mt-1">Uncovered loads will be turned away or charged penalties. Bring a tarp and secure it properly.</p>
+                            </div>
+                          </li>
+                          <li className="flex items-start">
+                            <span className="text-red-600 font-bold text-xl mr-3 mt-1">✓</span>
+                            <div>
+                              <strong className="text-gray-900">NO Motorcycles Allowed</strong>
+                              <p className="text-gray-700 text-sm mt-1">Motorcycles are prohibited from entering <strong>Sycamore Landfill</strong> for safety reasons.</p>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div className="bg-green-50 rounded-lg p-5 mb-8">
+                        <p className="text-gray-700">
+                          <strong>Skip the hassle.</strong> Professional <Link href="/junk-removal-santee" className="text-blue-600 hover:text-blue-700 font-semibold">junk removal in Santee</Link> requires ZERO safety equipment from you. We handle everything from loading to disposal. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a>.
+                        </p>
+                      </div>
+
+                      {/* What You Can Bring */}
+                      <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6" id="accepted-items">What You Can Bring to Sycamore Landfill</h2>
+
+                      <p className="text-gray-700 mb-4">
+                        The <strong>Santee dump</strong> accepts a wide range of materials:
+                      </p>
+
+                      <div className="grid md:grid-cols-2 gap-4 mb-6">
+                        <div className="bg-white border-2 border-green-200 rounded-lg p-5">
+                          <h3 className="font-bold text-gray-900 mb-3 flex items-center">
+                            <span className="text-green-500 text-xl mr-2">✓</span>
+                            General Waste
+                          </h3>
+                          <ul className="space-y-2 text-sm text-gray-700">
+                            <li>• Municipal solid waste (household junk)</li>
+                            <li>• Construction & demolition debris</li>
+                            <li>• Furniture and household items</li>
+                            <li>• Carpet and flooring materials</li>
+                          </ul>
+                        </div>
+
+                        <div className="bg-white border-2 border-green-200 rounded-lg p-5">
+                          <h3 className="font-bold text-gray-900 mb-3 flex items-center">
+                            <span className="text-green-500 text-xl mr-2">✓</span>
+                            Specialty Items
+                          </h3>
+                          <ul className="space-y-2 text-sm text-gray-700">
+                            <li>• Appliances (Freon removal on-site)</li>
+                            <li>• Electronics and e-waste</li>
+                            <li>• Tires (automotive)</li>
+                            <li>• Mattresses and box springs</li>
+                          </ul>
+                        </div>
+
+                        <div className="bg-white border-2 border-green-200 rounded-lg p-5">
+                          <h3 className="font-bold text-gray-900 mb-3 flex items-center">
+                            <span className="text-green-500 text-xl mr-2">✓</span>
+                            Yard Waste
+                          </h3>
+                          <ul className="space-y-2 text-sm text-gray-700">
+                            <li>• Green waste (branches, leaves)</li>
+                            <li>• Tree trimmings and brush</li>
+                            <li>• Grass clippings</li>
+                            <li>• Organic yard debris</li>
+                          </ul>
+                        </div>
+
+                        <div className="bg-white border-2 border-green-200 rounded-lg p-5">
+                          <h3 className="font-bold text-gray-900 mb-3 flex items-center">
+                            <span className="text-green-500 text-xl mr-2">✓</span>
+                            Other Materials
+                          </h3>
+                          <ul className="space-y-2 text-sm text-gray-700">
+                            <li>• Concrete, dirt, asphalt</li>
+                            <li>• Base materials</li>
+                            <li>• Large animal remains</li>
+                            <li>• Mixed loads</li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div className="bg-blue-50 border-l-4 border-blue-500 p-5 rounded-r mb-8">
+                        <p className="text-gray-700">
+                          <strong>Good news:</strong> The <strong>Santee landfill</strong> CAN handle appliances with Freon through their on-site removal service. However, this adds extra time to your visit. <Link href="/appliance-removal-san-diego" className="text-blue-600 hover:text-blue-700 font-semibold">Professional appliance removal</Link> handles all of this for you.
+                        </p>
+                      </div>
+
+                      {/* Free Passes for Santee Residents */}
+                      <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6" id="free-passes">Free Passes for Santee Residents</h2>
+
+                      <p className="text-gray-700 mb-4">
+                        If you live in Santee, you qualify for FREE dump passes—a genuinely useful benefit for residents:
+                      </p>
+
+                      <div className="bg-gradient-to-r from-green-50 to-blue-50 border-2 border-green-200 rounded-xl p-6 mb-6">
+                        <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
+                          <span className="text-2xl mr-2">🎫</span>
+                          Santee Resident Free Pass Program
+                        </h3>
+
+                        <div className="space-y-4">
+                          <div className="bg-white rounded-lg p-4">
+                            <p className="font-bold text-gray-900 mb-2">What You Get:</p>
+                            <ul className="space-y-2 text-gray-700">
+                              <li>• <strong>TWO free passes per year</strong> (per household)</li>
+                              <li>• Each pass covers up to <strong>ONE TON</strong> of materials</li>
+                              <li>• Valid for: solid waste, bulky items, OR concrete</li>
+                            </ul>
+                          </div>
+
+                          <div className="bg-white rounded-lg p-4">
+                            <p className="font-bold text-gray-900 mb-2">How to Obtain Passes:</p>
+                            <ul className="space-y-2 text-gray-700">
+                              <li>• Visit the landfill pass office in person</li>
+                              <li>• Bring: Valid driver's license (showing Santee address)</li>
+                              <li>• Bring: Residential utility bill (gas, electric, water)</li>
+                              <li>• Pass Office Hours: Monday-Friday, 8:00 AM - 3:00 PM</li>
+                            </ul>
+                          </div>
+
+                          <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r">
+                            <p className="text-sm text-gray-700">
+                              <strong>Important:</strong> Free passes expire one year from the date of issuance. Plan accordingly!
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <p className="text-gray-700 mb-8">
+                        This free pass program is excellent for Santee residents doing occasional cleanups. However, if you need more than 2 tons per year or want to avoid the time investment, <Link href="/junk-removal-santee" className="text-blue-600 hover:text-blue-700 font-semibold">professional junk removal</Link> offers unlimited service with transparent pricing.
+                      </p>
+
+                      {/* Directions Section */}
+                      <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6" id="directions">Directions to Santee Dump</h2>
+
+                      <p className="text-gray-700 mb-4">
+                        <strong>Sycamore Landfill</strong> is located in East County San Diego, easily accessible from Santee, El Cajon, La Mesa, and Lakeside.
+                      </p>
+
+                      <div className="bg-gray-50 border-2 border-gray-200 rounded-xl p-6 mb-6">
+                        <p className="font-bold text-gray-900 mb-3">📍 Address:</p>
+                        <p className="text-gray-700 text-lg mb-4">8514 Mast Boulevard, Santee, CA 92071</p>
+
+                        <div className="grid md:grid-cols-2 gap-6">
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2">From Downtown Santee:</h4>
+                            <p className="text-gray-700 text-sm mb-2">Take Mission Gorge Rd east, turn right on Mast Blvd. Landfill is on the right.</p>
+                            <p className="text-blue-600 text-sm font-semibold">Drive time: ~8 minutes</p>
+                          </div>
+
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2">From El Cajon:</h4>
+                            <p className="text-gray-700 text-sm mb-2">Take I-8 West to Mission Gorge Rd, turn north then right on Mast Blvd.</p>
+                            <p className="text-blue-600 text-sm font-semibold">Drive time: ~12 minutes</p>
+                          </div>
+
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2">From La Mesa:</h4>
+                            <p className="text-gray-700 text-sm mb-2">Take I-8 East to Mission Gorge Rd exit, turn north then right on Mast Blvd.</p>
+                            <p className="text-blue-600 text-sm font-semibold">Drive time: ~15 minutes</p>
+                          </div>
+
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-2">From Lakeside:</h4>
+                            <p className="text-gray-700 text-sm mb-2">Take Woodside Ave west to Mast Blvd, turn left. Landfill ahead on right.</p>
+                            <p className="text-blue-600 text-sm font-semibold">Drive time: ~10 minutes</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Cost Comparison - THE KEY SECTION */}
+                      <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6" id="cost-comparison">Is a DIY Dump Run Worth It? The Real Cost</h2>
+
+                      <p className="text-gray-700 mb-6">
+                        Most people assume taking junk to the <strong>Santee dump</strong> saves money. Let's break down the <strong>actual costs</strong> for a typical garage cleanout:
+                      </p>
+
+                      <div className="bg-gradient-to-r from-orange-50 to-red-50 border-2 border-orange-200 rounded-xl p-6 mb-8">
+                        <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Half-Garage Cleanout: DIY vs Professional</h3>
+
+                        <div className="overflow-x-auto">
+                          <table className="w-full">
+                            <thead>
+                              <tr className="border-b-2 border-gray-300">
+                                <th className="py-3 px-4 text-left font-bold text-gray-900">Cost Factor</th>
+                                <th className="py-3 px-4 text-right font-bold text-orange-600">DIY Santee Dump</th>
+                                <th className="py-3 px-4 text-right font-bold text-green-600">Professional Removal</th>
+                              </tr>
+                            </thead>
+                            <tbody className="divide-y divide-gray-200">
+                              <tr>
+                                <td className="py-3 px-4 text-gray-700">Truck rental (Home Depot/U-Haul)</td>
+                                <td className="py-3 px-4 text-right text-gray-900">$75-$150</td>
+                                <td className="py-3 px-4 text-right text-green-600 font-semibold">$0</td>
+                              </tr>
+                              <tr>
+                                <td className="py-3 px-4 text-gray-700">Gas (round trip)</td>
+                                <td className="py-3 px-4 text-right text-gray-900">$10-$20</td>
+                                <td className="py-3 px-4 text-right text-green-600 font-semibold">$0</td>
+                              </tr>
+                              <tr>
+                                <td className="py-3 px-4 text-gray-700">Sycamore Landfill fees (~500 lbs)</td>
+                                <td className="py-3 px-4 text-right text-gray-900">$60-$125</td>
+                                <td className="py-3 px-4 text-right text-green-600 font-semibold">$0</td>
+                              </tr>
+                              <tr>
+                                <td className="py-3 px-4 text-gray-700">Hard hat purchase</td>
+                                <td className="py-3 px-4 text-right text-gray-900">$6</td>
+                                <td className="py-3 px-4 text-right text-green-600 font-semibold">$0</td>
+                              </tr>
+                              <tr>
+                                <td className="py-3 px-4 text-gray-700">Your time (loading, driving, waiting)</td>
+                                <td className="py-3 px-4 text-right text-gray-900">3-5 hours</td>
+                                <td className="py-3 px-4 text-right text-green-600 font-semibold">0 hours</td>
+                              </tr>
+                              <tr>
+                                <td className="py-3 px-4 text-gray-700">Physical labor / injury risk</td>
+                                <td className="py-3 px-4 text-right text-gray-900">YOU do it all</td>
+                                <td className="py-3 px-4 text-right text-green-600 font-semibold">None</td>
+                              </tr>
+                              <tr className="bg-gray-100 font-bold">
+                                <td className="py-4 px-4 text-gray-900">TOTAL COST</td>
+                                <td className="py-4 px-4 text-right text-orange-600 text-lg">$151-$301 + time</td>
+                                <td className="py-4 px-4 text-right text-green-600 text-lg">$149-$349 all-in</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+
+                      <div className="bg-green-50 border-2 border-green-500 rounded-xl p-6 mb-8">
+                        <h3 className="text-xl font-bold text-gray-900 mb-3">💡 The Bottom Line</h3>
+                        <p className="text-gray-700 mb-3">
+                          For most loads, <strong>professional junk removal costs THE SAME or LESS</strong> than doing it yourself—and requires <strong>zero work, zero time, and zero risk</strong> from you.
+                        </p>
+                        <p className="text-gray-700">
+                          Plus, we're available <strong>7 days per week</strong> (the Santee dump is closed Sundays), handle items the landfill restricts, and you never need a hard hat or tarp.
+                        </p>
+                      </div>
+
+                      {/* When DIY Makes Sense */}
+                      <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">When DIY to Santee Dump Makes Sense</h2>
+
+                      <p className="text-gray-700 mb-4">
+                        To be fair, there ARE situations where a DIY dump run makes sense:
+                      </p>
+
+                      <ul className="space-y-3 mb-6">
+                        <li className="flex items-start">
+                          <span className="text-green-500 font-bold text-xl mr-3">✓</span>
+                          <span className="text-gray-700"><strong>You already own a truck</strong> and don't need to rent one</span>
+                        </li>
+                        <li className="flex items-start">
+                          <span className="text-green-500 font-bold text-xl mr-3">✓</span>
+                          <span className="text-gray-700"><strong>Just 1-2 small items</strong> that fit in your car trunk</span>
+                        </li>
+                        <li className="flex items-start">
+                          <span className="text-green-500 font-bold text-xl mr-3">✓</span>
+                          <span className="text-gray-700"><strong>You have the free Santee resident pass</strong> and it's still valid</span>
+                        </li>
+                        <li className="flex items-start">
+                          <span className="text-green-500 font-bold text-xl mr-3">✓</span>
+                          <span className="text-gray-700"><strong>You live within 5 minutes</strong> of Sycamore Landfill</span>
+                        </li>
+                        <li className="flex items-start">
+                          <span className="text-green-500 font-bold text-xl mr-3">✓</span>
+                          <span className="text-gray-700"><strong>You enjoy physical work</strong> and have the free time</span>
+                        </li>
+                      </ul>
+
+                      <p className="text-gray-700 mb-8">
+                        If none of these apply, professional junk removal is usually the smarter choice—both financially and for your time.
+                      </p>
+
+                      {/* Service Pitch Section */}
+                      <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Professional Junk Removal in Santee</h2>
+
+                      <p className="text-gray-700 mb-6">
+                        <Link href="/junk-removal-santee" className="text-blue-600 hover:text-blue-700 font-semibold">Severin Cleaners</Link> provides professional <strong>junk removal in Santee</strong>, El Cajon, La Mesa, Lakeside, and throughout East County San Diego. We're the local alternative to DIY dump runs.
+                      </p>
+
+                      <div className="grid md:grid-cols-2 gap-6 mb-8">
+                        <div className="bg-white border-2 border-blue-200 rounded-lg p-6">
+                          <h3 className="font-bold text-gray-900 mb-4 flex items-center text-lg">
+                            <span className="text-blue-600 text-2xl mr-2">✓</span>
+                            Service Areas
+                          </h3>
+                          <ul className="space-y-2 text-gray-700">
+                            <li>• <Link href="/junk-removal-santee" className="text-blue-600 hover:text-blue-700">Santee</Link></li>
+                            <li>• <Link href="/junk-removal-el-cajon" className="text-blue-600 hover:text-blue-700">El Cajon</Link></li>
+                            <li>• <Link href="/junk-removal-la-mesa" className="text-blue-600 hover:text-blue-700">La Mesa</Link></li>
+                            <li>• <Link href="/junk-removal-lakeside" className="text-blue-600 hover:text-blue-700">Lakeside</Link></li>
+                            <li>• Alpine & East County</li>
+                          </ul>
+                        </div>
+
+                        <div className="bg-white border-2 border-blue-200 rounded-lg p-6">
+                          <h3 className="font-bold text-gray-900 mb-4 flex items-center text-lg">
+                            <span className="text-blue-600 text-2xl mr-2">✓</span>
+                            Key Benefits
+                          </h3>
+                          <ul className="space-y-2 text-gray-700">
+                            <li>• Open 7 days/week (dump closed Sundays)</li>
+                            <li>• Same-day service available</li>
+                            <li>• We handle items the dump restricts</li>
+                            <li>• No hard hat, tarp, or closed-toe shoes needed</li>
+                            <li>• Zero physical labor from you</li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      {/* Comparison Table */}
+                      <h3 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Sycamore Landfill vs Professional Junk Removal</h3>
+
+                      <div className="overflow-x-auto mb-8">
+                        <table className="w-full border-2 border-gray-200 rounded-lg">
+                          <thead className="bg-gray-100">
+                            <tr>
+                              <th className="py-3 px-4 text-left font-bold text-gray-900">Feature</th>
+                              <th className="py-3 px-4 text-center font-bold text-gray-900">Sycamore Landfill</th>
+                              <th className="py-3 px-4 text-center font-bold text-gray-900">Severin Cleaners</th>
+                            </tr>
+                          </thead>
+                          <tbody className="divide-y divide-gray-200">
+                            <tr>
+                              <td className="py-3 px-4 text-gray-700 font-semibold">Sunday availability</td>
+                              <td className="py-3 px-4 text-center text-red-600 font-bold">❌ Closed</td>
+                              <td className="py-3 px-4 text-center text-green-600 font-bold">✓ Open</td>
+                            </tr>
+                            <tr className="bg-gray-50">
+                              <td className="py-3 px-4 text-gray-700 font-semibold">You do the lifting</td>
+                              <td className="py-3 px-4 text-center text-red-600">✓ Yes (injury risk)</td>
+                              <td className="py-3 px-4 text-center text-green-600 font-bold">❌ We do it</td>
+                            </tr>
+                            <tr>
+                              <td className="py-3 px-4 text-gray-700 font-semibold">Hard hat required</td>
+                              <td className="py-3 px-4 text-center text-red-600">✓ Yes ($6)</td>
+                              <td className="py-3 px-4 text-center text-green-600 font-bold">❌ No</td>
+                            </tr>
+                            <tr className="bg-gray-50">
+                              <td className="py-3 px-4 text-gray-700 font-semibold">Tarp required</td>
+                              <td className="py-3 px-4 text-center text-red-600">✓ Yes</td>
+                              <td className="py-3 px-4 text-center text-green-600 font-bold">❌ No</td>
+                            </tr>
+                            <tr>
+                              <td className="py-3 px-4 text-gray-700 font-semibold">Wait time</td>
+                              <td className="py-3 px-4 text-center text-gray-700">15-45 min</td>
+                              <td className="py-3 px-4 text-center text-green-600 font-bold">Scheduled appointment</td>
+                            </tr>
+                            <tr className="bg-gray-50">
+                              <td className="py-3 px-4 text-gray-700 font-semibold">Items with Freon</td>
+                              <td className="py-3 px-4 text-center text-gray-700">Hassle</td>
+                              <td className="py-3 px-4 text-center text-green-600 font-bold">✓ We handle it</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+
+                      {/* CTA Box */}
+                      <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-xl p-8 my-12 text-center">
+                        <h3 className="text-3xl font-bold mb-4">Skip the Santee Dump — We Handle Everything</h3>
+                        <p className="text-xl text-blue-100 mb-6">
+                          Same-day junk removal for Santee & East County
+                        </p>
+                        <ul className="text-left max-w-xl mx-auto mb-6 space-y-2">
+                          <li className="flex items-center text-blue-100">
+                            <span className="text-green-400 text-xl mr-3">✓</span>
+                            Open 7 days/week (dump closed Sundays)
+                          </li>
+                          <li className="flex items-center text-blue-100">
+                            <span className="text-green-400 text-xl mr-3">✓</span>
+                            We take items the landfill restricts
+                          </li>
+                          <li className="flex items-center text-blue-100">
+                            <span className="text-green-400 text-xl mr-3">✓</span>
+                            Often CHEAPER than DIY
+                          </li>
+                          <li className="flex items-center text-blue-100">
+                            <span className="text-green-400 text-xl mr-3">✓</span>
+                            No hard hat, no tarp, no truck needed
+                          </li>
+                        </ul>
+                        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                          <a
+                            href="tel:6197500114"
+                            className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-xl font-bold transition-colors inline-block"
+                          >
+                            📞 (619) 750-0114
+                          </a>
+                          <Link
+                            href="/contact"
+                            className="bg-white hover:bg-gray-100 text-blue-700 px-8 py-4 rounded-lg text-xl font-bold transition-colors inline-block"
+                          >
+                            Get Free Quote
+                          </Link>
+                        </div>
+                        <p className="text-blue-200 text-sm mt-4">
+                          Starting at $69 for small items • Same-day service available
+                        </p>
+                      </div>
+
+                      {/* Related Resources */}
+                      <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Related Resources</h2>
+
+                      <div className="grid md:grid-cols-2 gap-4 mb-8">
+                        <Link href="/blog/san-diego-dump-fees-guide" className="block p-5 bg-gray-50 border-2 border-gray-200 hover:border-blue-400 rounded-lg transition-colors">
+                          <h4 className="font-bold text-lg mb-2 text-blue-600">San Diego Dump Fees Guide</h4>
+                          <p className="text-gray-600 text-sm">Complete guide to all San Diego area dumps, fees, and locations</p>
+                        </Link>
+
+                        <Link href="/junk-removal-santee" className="block p-5 bg-gray-50 border-2 border-gray-200 hover:border-blue-400 rounded-lg transition-colors">
+                          <h4 className="font-bold text-lg mb-2 text-blue-600">Junk Removal Santee</h4>
+                          <p className="text-gray-600 text-sm">Professional junk removal throughout Santee and East County</p>
+                        </Link>
+
+                        <Link href="/furniture-disposal-san-diego" className="block p-5 bg-gray-50 border-2 border-gray-200 hover:border-blue-400 rounded-lg transition-colors">
+                          <h4 className="font-bold text-lg mb-2 text-blue-600">Furniture Disposal</h4>
+                          <p className="text-gray-600 text-sm">Professional furniture removal and disposal services</p>
+                        </Link>
+
+                        <Link href="/mattress-disposal-san-diego" className="block p-5 bg-gray-50 border-2 border-gray-200 hover:border-blue-400 rounded-lg transition-colors">
+                          <h4 className="font-bold text-lg mb-2 text-blue-600">Mattress Disposal</h4>
+                          <p className="text-gray-600 text-sm">Eco-friendly mattress removal and recycling</p>
+                        </Link>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                {/* Sidebar - Right Column */}
+                <div className="lg:col-span-1">
+                  <LocationSidebarCTA
+                    locationName="Santee"
+                    nearbyLocations={nearbyLocations}
+                    nearbyHeading="East County Junk Removal"
+                  />
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Final CTA Section */}
+        <section className="py-16 bg-gradient-to-br from-blue-900 to-blue-700 text-white">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto text-center">
+              <h2 className="text-4xl font-bold mb-6">
+                Ready to Skip the Santee Dump?
+              </h2>
+              <p className="text-xl mb-8 leading-relaxed">
+                We serve Santee, El Cajon, La Mesa, Lakeside, and all of East County with professional junk removal that's often cheaper than DIY—and requires zero work from you.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
+                <a
+                  href="tel:+16197500114"
+                  className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors"
+                >
+                  📞 Call (619) 750-0114
+                </a>
+                <Link
+                  href="/contact"
+                  className="bg-white hover:bg-gray-100 text-blue-700 px-8 py-4 rounded-lg text-lg font-bold transition-colors"
+                >
+                  Get Free Quote
+                </Link>
+              </div>
+              <p className="text-blue-200 text-lg">
+                Same-Day Service Available • 7 Days Per Week • Licensed & Insured
+              </p>
+            </div>
+          </div>
+        </section>
+
+      </main>
+      <Footer />
+    </>
+  );
+}
