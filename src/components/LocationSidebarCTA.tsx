@@ -7,12 +7,15 @@ interface LocationSidebarCTAProps {
   nearbyLocations: Array<{ name: string; slug: string }>;
   /** Optional: Custom heading for the nearby locations section (defaults to "Nearby Areas We Serve") */
   nearbyHeading?: string;
+  /** Optional: Custom header text for the CTA card (defaults to "GET IMMEDIATE HELP") */
+  ctaHeader?: string;
 }
 
 export default function LocationSidebarCTA({
   locationName,
   nearbyLocations,
   nearbyHeading = "Nearby Areas We Serve",
+  ctaHeader = "GET IMMEDIATE HELP",
 }: LocationSidebarCTAProps) {
   return (
     <aside className="lg:sticky lg:top-24 space-y-6">
@@ -20,7 +23,7 @@ export default function LocationSidebarCTA({
       <div className="bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden">
         {/* Header */}
         <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white text-center py-4 px-6">
-          <h3 className="text-xl font-bold">GET IMMEDIATE HELP</h3>
+          <h3 className="text-xl font-bold">{ctaHeader}</h3>
         </div>
 
         {/* CTA Buttons */}
