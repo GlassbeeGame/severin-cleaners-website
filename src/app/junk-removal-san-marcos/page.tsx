@@ -8,7 +8,6 @@ import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
-import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
   title: "Junk Removal San Marcos | Same-Day Service | (619) 750-0114",
@@ -204,11 +203,28 @@ export default function JunkRemovalSanMarcosPage() {
       <Header />
 
       <main>
-        <OptimizedGradientHero
-          title="Junk Removal San Marcos"
-          subtitle="North County's #1 Choice • San Elijo Hills to Lake San Marcos • Same-Day Available"
-          description="✓ HOA-Friendly Service ✓ Licensed & Insured ✓ Serving All of San Marcos CA"
-        />
+        {/* Hero Section */}
+        <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-16 md:py-24">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto text-center">
+              <div className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-6">
+                #1 San Marcos Junk Removal Service
+              </div>
+
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+                San Marcos Junk Removal
+              </h1>
+
+              <p className="text-xl md:text-2xl mb-8 text-blue-100">
+                North County's #1 Choice • San Elijo Hills to Lake San Marcos • Same-Day Available
+              </p>
+
+              <p className="text-lg mb-8">
+                ✓ HOA-Friendly Service ✓ Licensed & Insured ✓ Serving All of San Marcos CA
+              </p>
+            </div>
+          </div>
+        </section>
 
         {/* Main Content with Sidebar */}
         <section className="py-12 bg-gray-50">

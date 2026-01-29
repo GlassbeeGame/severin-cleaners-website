@@ -8,7 +8,6 @@ import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
-import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
   title: 'Lakeside Junk Removal | Rural East County Service | (619) 750-0114',
