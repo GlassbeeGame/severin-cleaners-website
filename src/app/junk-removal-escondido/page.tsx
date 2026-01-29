@@ -268,7 +268,7 @@ export default function JunkRemovalEscondidoPage() {
               </div>
 
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                Escondido Junk Removal
+                Junk Removal Escondido
               </h1>
 
               <p className="text-xl md:text-2xl mb-8 text-blue-100">

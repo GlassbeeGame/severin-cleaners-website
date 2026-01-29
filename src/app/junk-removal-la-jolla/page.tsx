@@ -194,7 +194,7 @@ export default function JunkRemovalLaJollaPage() {
                 </div>
 
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                  La Jolla Junk Removal
+                  Junk Removal La Jolla
                 </h1>
 
                 <p className="text-xl md:text-2xl mb-8 text-blue-100">

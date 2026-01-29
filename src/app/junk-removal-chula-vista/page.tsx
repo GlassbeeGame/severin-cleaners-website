@@ -265,7 +265,7 @@ export default function JunkRemovalChulaVistaPage() {
               </div>
 
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                Chula Vista Junk Removal
+                Junk Removal Chula Vista
               </h1>
 
               <p className="text-xl md:text-2xl mb-8 text-blue-100">

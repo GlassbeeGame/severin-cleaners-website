@@ -276,7 +276,7 @@ export default function JunkRemovalCarlsbadPage() {
               </div>
 
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                Carlsbad Junk Removal
+                Junk Removal Carlsbad
               </h1>
 
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
