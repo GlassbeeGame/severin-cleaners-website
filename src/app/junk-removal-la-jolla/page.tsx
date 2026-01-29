@@ -10,8 +10,8 @@ import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "La Jolla Junk Removal | Luxury Estate Service | (619) 750-0114",
-  description: "La Jolla luxury estate junk removal Bird Rock to UTC. White-glove $5M+ properties. Discreet, professional. (619) 750-0114",
+  title: "La Jolla Junk Removal | Professional Estate Service | (619) 750-0114",
+  description: "La Jolla junk removal Bird Rock to UTC (92037). Oceanfront & hillside properties. Same-day available. (619) 750-0114",
   keywords: [
     "La Jolla junk removal",
     "junk hauling La Jolla",
@@ -19,13 +19,15 @@ export const metadata: Metadata = {
     "junk pickup La Jolla",
     "estate cleanout La Jolla",
     "La Jolla furniture removal",
-    "luxury junk removal",
+    "La Jolla 92037 junk removal",
     "Bird Rock junk removal",
-    "Muirlands junk removal"
+    "Muirlands junk removal",
+    "Mount Soledad junk removal",
+    "UTC junk removal"
   ],
   openGraph: {
-    title: "La Jolla Junk Removal | Estate Cleanouts & Luxury Furniture Disposal | Same-Day Service",
-    description: "Premium La Jolla junk removal for estates, luxury homes, Bird Rock, Muirlands. Discreet service with unmarked vehicles. Expert luxury furniture handling. Call (619) 750-0114.",
+    title: "La Jolla Junk Removal | Estate Cleanouts & Furniture Disposal | Same-Day Service",
+    description: "Professional La Jolla junk removal for estates, homes, Bird Rock, Muirlands, and UTC. Discreet service, expert furniture handling. Call (619) 750-0114.",
     url: "https://severincleaners.com/junk-removal-la-jolla",
     siteName: 'Severin Cleaners',
     type: 'website',
@@ -39,8 +41,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "La Jolla Junk Removal | Estate Cleanouts & Luxury Furniture Disposal",
-    description: "Premium La Jolla junk removal for estates, luxury homes, Bird Rock, Muirlands. Discreet service with unmarked vehicles. Expert luxury furniture handling.",
+    title: "La Jolla Junk Removal | Estate Cleanouts & Furniture Disposal",
+    description: "Professional La Jolla junk removal for estates, homes, Bird Rock, Muirlands, and UTC (92037). Discreet service, expert furniture handling.",
     images: ['https://severincleaners.com/og-image.jpg']
   },
   alternates: {
@@ -84,7 +86,27 @@ const laJollaFAQs = [
   },
   {
     question: "What eco-friendly disposal options do you offer?",
-    answer: "We recycle, donate, and partner with luxury consignment services whenever possible to minimize waste."
+    answer: "We recycle, donate, and work with consignment services whenever possible to minimize waste. Usable furniture and appliances go to San Diego charities, recyclables to proper facilities, and we minimize landfill disposal throughout La Jolla's 92037 and 92093 zip codes."
+  },
+  {
+    question: "Do you serve gated communities in La Jolla?",
+    answer: "Yes, we regularly serve gated communities throughout La Jolla including Hidden Valley, Muirlands, and La Jolla Farms. We coordinate security clearance with gate staff in advance, communicate arrival times clearly, and respect all community access protocols. Our crews are experienced working in restricted-access neighborhoods throughout the 92037 area and handle all gate coordination professionally."
+  },
+  {
+    question: "How do you handle Mount Soledad hillside property access?",
+    answer: "Our La Jolla junk removal team has extensive experience navigating Mount Soledad's steep hillside properties with grades up to 15%, switchback driveways, and narrow access roads. We use appropriately sized trucks, plan routes carefully, and coordinate parking to ensure safe access without impacting neighbors. Hillside estates throughout La Jolla receive the same professional service as properties with standard access."
+  },
+  {
+    question: "What's your experience with oceanfront properties in Bird Rock and Windansea?",
+    answer: "We specialize in oceanfront property junk removal throughout Bird Rock, Windansea, La Jolla Shores, and other coastal La Jolla neighborhoods. Our crews understand narrow coastal streets, limited parking zones, salt air exposure challenges, and the coordination needed for beachside property access. We've completed hundreds of oceanfront cleanouts along La Jolla Boulevard and the coastal corridor."
+  },
+  {
+    question: "Do you serve the UTC and UCSD areas?",
+    answer: "Absolutely. We provide comprehensive junk removal service throughout the UTC area, UCSD campus housing, and surrounding executive residential neighborhoods in the 92093 zip code. Whether you're moving out of UCSD student housing, clearing an executive residence near Westfield UTC, or handling a property cleanout in the university area, we deliver efficient same-day service throughout this section of La Jolla."
+  },
+  {
+    question: "What are typical junk removal rates in La Jolla?",
+    answer: "Our La Jolla junk removal pricing is transparent and volume-based. Small items start at $69. Standard items like furniture and appliances start at $100. Quarter-load service costs $249, half-load runs $349, three-quarter load is $429, and full-load service tops out at $495. All pricing includes labor, hauling, and disposal fees. Properties throughout La Jolla's 92037 and 92093 zip codes receive the same transparent pricing with no hidden fees for coastal access or hillside properties."
   }
 ];
 
@@ -115,6 +137,9 @@ export default function JunkRemovalLaJollaPage() {
     "image": "https://severincleaners.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
+    "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
+    "acceptsReservations": true,
+    "currenciesAccepted": "USD",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "8900 Grossmont Blvd Ste 1",
@@ -129,6 +154,54 @@ export default function JunkRemovalLaJollaPage() {
       "longitude": -117.0231
     },
     "url": "https://severincleaners.com/junk-removal-la-jolla",
+    "knowsAbout": [
+      "Oceanfront Property Access and Navigation",
+      "Hillside Terrain and Steep Driveway Access",
+      "Gated Community Security Coordination",
+      "Coastal Environment and Salt Air Conditions",
+      "Mount Soledad Hillside Navigation",
+      "Bird Rock Narrow Street Access",
+      "La Jolla Village Downtown Service",
+      "UTC and UCSD Area Property Service"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "La Jolla Junk Removal Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Oceanfront Property Cleanouts",
+            "description": "Estate cleanout service for Bird Rock, Windansea, and La Jolla Shores oceanfront properties with coastal access expertise"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Mount Soledad Hillside Service",
+            "description": "Specialized junk removal for hillside estates with steep driveways and challenging terrain access"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Gated Community Coordinated Service",
+            "description": "Professional junk removal with security clearance coordination for Muirlands, Hidden Valley, and La Jolla Farms"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "UTC and UCSD Area Service",
+            "description": "Junk removal for executive residences and properties in the UTC corridor and UCSD campus area"
+          }
+        }
+      ]
+    },
     "areaServed": [
       {
         "@type": "City",
@@ -167,9 +240,157 @@ export default function JunkRemovalLaJollaPage() {
     ]
   };
 
+  const neighborhoodSchema = {
+    "@type": "ItemList",
+    "name": "La Jolla San Diego Neighborhoods Served",
+    "description": "Complete junk removal coverage throughout all La Jolla neighborhoods and communities",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Place",
+          "name": "La Jolla Village",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "La Jolla",
+            "addressRegion": "CA",
+            "postalCode": "92037"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Place",
+          "name": "Bird Rock",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "La Jolla",
+            "addressRegion": "CA",
+            "postalCode": "92037"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Place",
+          "name": "Windansea",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "La Jolla",
+            "addressRegion": "CA",
+            "postalCode": "92037"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "Place",
+          "name": "La Jolla Shores",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "La Jolla",
+            "addressRegion": "CA",
+            "postalCode": "92037"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "Place",
+          "name": "Muirlands",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "La Jolla",
+            "addressRegion": "CA",
+            "postalCode": "92037"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "item": {
+          "@type": "Place",
+          "name": "Mount Soledad",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "La Jolla",
+            "addressRegion": "CA",
+            "postalCode": "92037"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "item": {
+          "@type": "Place",
+          "name": "Upper Hermosa",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "La Jolla",
+            "addressRegion": "CA",
+            "postalCode": "92037"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "item": {
+          "@type": "Place",
+          "name": "UTC",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "La Jolla",
+            "addressRegion": "CA",
+            "postalCode": "92093"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "item": {
+          "@type": "Place",
+          "name": "La Jolla Farms",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "La Jolla",
+            "addressRegion": "CA",
+            "postalCode": "92037"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "item": {
+          "@type": "Place",
+          "name": "Hidden Valley",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "La Jolla",
+            "addressRegion": "CA",
+            "postalCode": "92037"
+          }
+        }
+      }
+    ]
+  };
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, neighborhoodSchema]
   };
 
   const nearbyLocations = [
@@ -224,24 +445,32 @@ export default function JunkRemovalLaJollaPage() {
                           Expert Junk Removal La Jolla Homeowners Trust
                         </h2>
 
-                        <p className="text-lg text-gray-700 mb-6">
-                          As one of the top-rated services for junk removal in La Jolla, Severin Cleaners proudly serves homes from the Cove to UTC — offering same-day pickups, white-glove handling, and discreet service trusted by La Jolla's most exclusive neighborhoods.
+                        <p className="text-lg text-gray-700 mb-4">
+                          As one of the top-rated services for junk removal in La Jolla, Severin Cleaners proudly serves homes from the Cove to UTC throughout the 92037 and 92093 zip codes. We offer same-day pickups, professional handling, and discreet service trusted by La Jolla neighborhoods.
                         </p>
 
                         <p className="text-lg text-gray-700 mb-6">
-                          From oceanfront mansions to hillside estates, our La Jolla junk removal specialists handle every detail with care. We provide premium property cleanouts, furniture removal, and eco-conscious disposal — all completed quickly, quietly, and professionally.
+                          Our experienced team understands the unique challenges of serving this coastal community and delivers reliable service whether you're in a Village apartment or on a Mount Soledad hillside estate.
+                        </p>
+
+                        <p className="text-lg text-gray-700 mb-4">
+                          From oceanfront properties to hillside estates, our La Jolla junk removal specialists handle every detail with care. We provide complete property cleanouts, furniture removal, and eco-conscious disposal — all completed quickly, quietly, and professionally.
                         </p>
 
                         <p className="text-lg text-gray-700 mb-6">
-                          Whether you're renovating, preparing for sale, or managing an estate transition, we handle every phase from sorting and hauling to donation and documentation. La Jolla's unique combination of coastal environment, luxury property values, and exclusive community standards requires more than standard junk removal service—it demands white-glove expertise from a team that understands the discrete, professional approach that million-dollar estates expect.
+                          Whether you're renovating, preparing for sale, or managing an estate transition, we handle every phase from sorting and hauling to donation and documentation.
+                        </p>
+
+                        <p className="text-lg text-gray-700 mb-4">
+                          La Jolla's unique combination of coastal environment, diverse property types, and community standards requires more than standard junk removal service. It demands expertise from a team that understands the discreet, professional approach that La Jolla properties throughout 92037 expect.
                         </p>
 
                         <p className="text-lg text-gray-700 mb-6">
-                          Our junk hauling La Jolla operation serves properties throughout the community, from cramped Village apartments steps from boutique shopping to sprawling Mount Soledad estates with panoramic ocean views. We've removed everything from single furniture pieces during interior design updates to complete multi-structure estate cleanouts involving main residences, guest houses, and pool pavilions. Each job receives the same meticulous attention to property protection, item handling, and community standards that La Jolla residents demand.
+                          Our junk hauling La Jolla operation serves properties throughout the community, from Village apartments near Girard Avenue to Mount Soledad estates with panoramic ocean views. We've removed everything from single furniture pieces during updates to complete multi-structure estate cleanouts involving main residences, guest houses, and pool areas.
                         </p>
 
-                        <p className="text-lg mb-6 font-semibold text-gray-800 italic">
-                          "Our before-and-after junk removal results throughout La Jolla show what white-glove service truly means — fast, discreet, and spotless."
+                        <p className="text-lg text-gray-700 mb-6">
+                          Each job receives the same attention to property protection, item handling, and community standards that La Jolla residents demand.
                         </p>
 
                         {/* Complete Neighborhood Coverage */}

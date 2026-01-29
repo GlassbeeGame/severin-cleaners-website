@@ -83,6 +83,26 @@ const northParkFAQs = [
   {
     question: "Are you licensed and insured for junk removal in San Diego?",
     answer: "Yes! Severin Cleaners is fully licensed and insured to provide North Park San Diego junk removal services throughout North Park and all of San Diego County. We carry comprehensive liability insurance to protect your property during removal, and we dispose of all items responsibly at licensed facilities. Our team follows all local regulations for waste handling and environmental compliance."
+  },
+  {
+    question: "Do you handle apartment building junk removal in North Park?",
+    answer: "Yes, we specialize in North Park apartment junk removal throughout the neighborhood's many multi-story buildings along University Avenue, 30th Street, and surrounding residential corridors. We coordinate with building managers and HOAs, schedule elevator use during non-peak hours, and navigate loading zones and street parking restrictions common in North Park's dense urban environment. Our crews are experienced with walk-up apartments, buildings without elevator access, and narrow stairwells in older Craftsman-era buildings. We handle single apartment turnovers, multi-unit property cleanouts, and tenant move-out situations throughout the 92104 zip code."
+  },
+  {
+    question: "Can you remove junk from Craftsman homes in North Park?",
+    answer: "Absolutely. North Park's historic Craftsman bungalows require specialized care during junk removal, and our team is experienced protecting original hardwood floors, narrow hallways, and period architectural details. We use floor protection, careful maneuvering techniques for tight doorways and staircases, and understand the challenges of century-old homes with limited turning radius. Whether you're clearing out built-in furniture, removing renovation debris from a historic remodel, or handling an estate cleanout in an original Craftsman along Idaho Street or Utah Street, we deliver professional service that respects North Park's architectural heritage."
+  },
+  {
+    question: "Do you work around North Park's nightlife and restaurant schedule?",
+    answer: "Yes, we understand that North Park's vibrant 30th Street and University Avenue corridors operate on nightlife schedules, and we coordinate junk removal for bars, restaurants, and entertainment venues around your business hours. We offer early morning service (6-8 AM) before opening time, late afternoon scheduling between lunch and dinner service, and flexible timing that doesn't disrupt your operations. Our crews have removed restaurant equipment, bar fixtures, and commercial debris from dozens of North Park establishments, always working efficiently to minimize business impact."
+  },
+  {
+    question: "What's the best time to schedule junk removal in North Park to avoid parking issues?",
+    answer: "North Park's street parking can be challenging, especially along University Avenue and 30th Street. We recommend scheduling service during mid-morning hours (9 AM - 1 PM) when metered parking is less congested and we can secure loading zones near your property. We handle all parking logistics including metered zones, 2-hour limits, and restricted areas, and our crews arrive with quarters and parking payment apps ready. For evening appointments, we navigate around North Park's nightlife parking demand by scheduling earlier in the day when street access is easier."
+  },
+  {
+    question: "Do you donate items to North Park charities and community organizations?",
+    answer: "Yes, we prioritize donating usable items to North Park and San Diego area charities whenever possible. Furniture in good condition, working appliances, and household goods go to local organizations including Goodwill, Salvation Army, and community resource centers. We're familiar with donation requirements and coordinate drop-offs at North County facilities. For North Park residents who want items to benefit the local community, we make every effort to support charitable organizations serving the 92104 area and broader San Diego region."
   }
 ];
 
@@ -113,6 +133,9 @@ export default function JunkRemovalNorthParkPage() {
     "image": "https://severincleaners.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
+    "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
+    "acceptsReservations": true,
+    "currenciesAccepted": "USD",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "8900 Grossmont Blvd Ste 1",
@@ -127,6 +150,54 @@ export default function JunkRemovalNorthParkPage() {
       "longitude": -117.0231
     },
     "url": "https://severincleaners.com/junk-removal-north-park",
+    "knowsAbout": [
+      "Urban Neighborhood Parking and Access",
+      "Craftsman Home Historic Property Care",
+      "Multi-Story Apartment Building Navigation",
+      "University Avenue Commercial District Service",
+      "30th Street Restaurant and Nightlife Coordination",
+      "North Park Arts District Material Handling",
+      "Dense Urban Property Logistics",
+      "Historic Building Original Hardwood Protection"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "North Park Junk Removal Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "University Avenue Apartment Complex Service",
+            "description": "Multi-story apartment junk removal with elevator scheduling and building coordination for North Park's dense residential corridor"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Craftsman Home Historic Property Cleanouts",
+            "description": "Careful junk removal for North Park's century-old Craftsman homes with hardwood floor and architectural detail protection"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "30th Street Commercial Restaurant Cleanouts",
+            "description": "Flexible scheduling for North Park restaurant and bar equipment removal coordinated around business hours"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Ray Street Arts District Studio Cleanouts",
+            "description": "Art supplies, creative materials, and gallery installation removal for North Park's creative community"
+          }
+        }
+      ]
+    },
     "areaServed": [
       {
         "@type": "City",
@@ -159,9 +230,185 @@ export default function JunkRemovalNorthParkPage() {
     ]
   };
 
+  const neighborhoodSchema = {
+    "@type": "ItemList",
+    "name": "North Park San Diego Neighborhoods Served",
+    "description": "Complete junk removal coverage throughout all North Park sub-neighborhoods and districts",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Place",
+          "name": "University Avenue Arts Corridor",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "North Park",
+            "addressRegion": "CA",
+            "postalCode": "92104"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Place",
+          "name": "30th Street Restaurant District",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "North Park",
+            "addressRegion": "CA",
+            "postalCode": "92104"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Place",
+          "name": "North Park Community Park Area",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "North Park",
+            "addressRegion": "CA",
+            "postalCode": "92104"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "Place",
+          "name": "Morley Field Recreation Area",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "North Park",
+            "addressRegion": "CA",
+            "postalCode": "92104"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "Place",
+          "name": "El Cajon Boulevard Corridor",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "North Park",
+            "addressRegion": "CA",
+            "postalCode": "92104"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "item": {
+          "@type": "Place",
+          "name": "Ray Street Arts District",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "North Park",
+            "addressRegion": "CA",
+            "postalCode": "92104"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "item": {
+          "@type": "Place",
+          "name": "Historic Dryden District",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "North Park",
+            "addressRegion": "CA",
+            "postalCode": "92104"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "item": {
+          "@type": "Place",
+          "name": "Boundary Residential Streets",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "North Park",
+            "addressRegion": "CA",
+            "postalCode": "92104"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "item": {
+          "@type": "Place",
+          "name": "Park Boulevard Gateway",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "North Park",
+            "addressRegion": "CA",
+            "postalCode": "92104"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "item": {
+          "@type": "Place",
+          "name": "Louisiana Purchase Complex Area",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "North Park",
+            "addressRegion": "CA",
+            "postalCode": "92104"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 11,
+        "item": {
+          "@type": "Place",
+          "name": "Polk Avenue Commercial",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "North Park",
+            "addressRegion": "CA",
+            "postalCode": "92104"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 12,
+        "item": {
+          "@type": "Place",
+          "name": "32nd Street Corridor",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "North Park",
+            "addressRegion": "CA",
+            "postalCode": "92104"
+          }
+        }
+      }
+    ]
+  };
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, neighborhoodSchema]
   };
 
   const nearbyLocations = [
@@ -212,16 +459,28 @@ export default function JunkRemovalNorthParkPage() {
                         Expert Junk Removal North Park Residents Trust
                       </h2>
 
-                      <p className="text-lg text-gray-700 mb-6">
-                        North Park junk removal requires specialized knowledge of San Diego's most vibrant urban neighborhood. From historic Craftsman bungalows along tree-lined streets to modern apartment complexes near the University Avenue corridor, our junk hauling North Park service navigates the unique challenges of this densely populated arts district with expertise. We understand tight street parking near 30th Street's nightlife scene, narrow driveways off Idaho and Utah Streets, and the coordination needed for multi-story apartment cleanouts throughout the 92104 zip code.
+                      <p className="text-lg text-gray-700 mb-4">
+                        North Park junk removal requires specialized knowledge of San Diego's most vibrant urban neighborhood. Our junk hauling North Park service navigates historic Craftsman bungalows along tree-lined streets, modern apartment complexes near the University Avenue corridor, and the unique challenges of this densely populated arts district with expertise.
                       </p>
 
                       <p className="text-lg text-gray-700 mb-6">
-                        Whether you need junk pickup North Park for an apartment turnover near the craft brewery district, furniture removal from a century-old Craftsman home, or commercial cleanout along the bustling restaurant corridor, our team delivers efficient service that respects this neighborhood's unique character. From Balboa Park's eastern edge to El Cajon Boulevard's commercial zone, we provide same-day trash removal North Park that urban residents and business owners depend on.
+                        We understand tight street parking near 30th Street's nightlife scene, narrow driveways off Idaho and Utah Streets, and the coordination needed for multi-story apartment cleanouts throughout the 92104 zip code. This local knowledge ensures efficient service whether you're in a walk-up apartment or a century-old bungalow.
+                      </p>
+
+                      <p className="text-lg text-gray-700 mb-4">
+                        Whether you need junk pickup North Park for an apartment turnover near the craft brewery district, furniture removal from a century-old Craftsman home, or commercial cleanout along the bustling restaurant corridor, our team delivers efficient service that respects this neighborhood's unique character.
                       </p>
 
                       <p className="text-lg text-gray-700 mb-6">
-                        Our North Park San Diego junk removal operation serves one of the city's most walkable, bikeable, and transit-connected communities. The neighborhood's mix of historic homes, modern condos, and active street life creates distinct challenges—limited parking zones, narrow stairwells in older buildings, and timing coordination around the area's busy nightlife schedule. We've removed everything from single furniture pieces during apartment moves to complete estate cleanouts in multi-generational Craftsman homes, always maintaining the professional, community-focused approach that North Park residents expect.
+                        From Balboa Park's eastern edge to El Cajon Boulevard's commercial zone, we provide same-day trash removal North Park that urban residents and business owners depend on.
+                      </p>
+
+                      <p className="text-lg text-gray-700 mb-4">
+                        Our North Park San Diego junk removal operation serves one of the city's most walkable, bikeable, and transit-connected communities. The neighborhood's mix of historic homes, modern condos, and active street life creates distinct challenges—limited parking zones, narrow stairwells in older buildings, and timing coordination around the area's busy nightlife schedule.
+                      </p>
+
+                      <p className="text-lg text-gray-700 mb-6">
+                        We've removed everything from single furniture pieces during apartment moves to complete estate cleanouts in multi-generational Craftsman homes, always maintaining the professional, community-focused approach that North Park residents expect.
                       </p>
 
                       <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12">
