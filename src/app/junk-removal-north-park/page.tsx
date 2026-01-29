@@ -8,6 +8,7 @@ import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
   title: 'North Park Junk Removal | Urban Neighborhood Experts | (619) 750-0114',
@@ -177,47 +178,11 @@ export default function JunkRemovalNorthParkPage() {
 
       <Header />
         <main>
-          {/* Hero Section */}
-          <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 py-20">
-            <div className="container mx-auto px-4">
-              <div className="max-w-4xl mx-auto text-center text-white">
-                <div className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                  ✓ Same-Day Service • Licensed & Insured • Transparent Pricing
-                </div>
-
-                <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-                  North Park Junk Removal | Urban Neighborhood Experts
-                </h1>
-
-                <h2 className="text-xl md:text-2xl font-semibold mb-6 text-blue-100">
-                  Professional Junk Hauling for University Avenue, 30th Street & Craftsman Homes
-                </h2>
-
-                <div className="text-xl mb-6">
-                  ⭐⭐⭐⭐⭐ 5.0 Rating • University Avenue to Morley Field • Local Experts
-                </div>
-
-                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
-                  <a
-                    href="tel:6197500114"
-                    className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors"
-                  >
-                    📞 Call (619) 750-0114
-                  </a>
-                  <a
-                    href="/contact"
-                    className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-bold transition-colors"
-                  >
-                    Get Free Quote
-                  </a>
-                </div>
-
-                <p className="text-lg">
-                  ✓ <a href="/same-day-junk-removal-san-diego" className="text-white hover:underline">Same-Day Service</a> Available ✓ Licensed & Insured ✓ Eco-Friendly Disposal
-                </p>
-              </div>
-            </div>
-          </section>
+          <OptimizedGradientHero
+            title="Junk Removal North Park"
+            subtitle="University Avenue • 30th Street • Craftsman Homes"
+            description="✓ Urban Neighborhood Experts ✓ Same-Day Service ✓ Licensed & Insured"
+          />
 
           {/* Main Content with Sidebar */}
           <section className="py-16 bg-white">

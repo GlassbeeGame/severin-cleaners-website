@@ -8,6 +8,7 @@ import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
   title: "La Jolla Junk Removal | Luxury Estate Service | (619) 750-0114",
@@ -185,47 +186,11 @@ export default function JunkRemovalLaJollaPage() {
 
       <Header />
         <main>
-          {/* Hero Section */}
-          <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 py-20">
-            <div className="container mx-auto px-4">
-              <div className="max-w-4xl mx-auto text-center text-white">
-                <div className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                  ✓ Luxury Estate Specialists Serving La Jolla's Exclusive Communities
-                </div>
-
-                <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-                  Junk Removal La Jolla | Luxury Estate Service
-                </h1>
-
-                <h2 className="text-xl md:text-2xl font-semibold mb-6 text-blue-100">
-                  Discreet, Luxury Junk Removal Services for La Jolla's Exclusive Homes and Estates
-                </h2>
-
-                <div className="text-xl mb-6">
-                  ⭐⭐⭐⭐⭐ 5.0 Rating • White-Glove Service • Unmarked Vehicles
-                </div>
-
-                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
-                  <a
-                    href="tel:6197500114"
-                    className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors"
-                  >
-                    📞 Call (619) 750-0114
-                  </a>
-                  <a
-                    href="/contact"
-                    className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-bold transition-colors"
-                  >
-                    Get Free Quote
-                  </a>
-                </div>
-
-                <p className="text-lg">
-                  ✓ Same-Day Service Available ✓ Licensed & Insured ✓ La Jolla Estate Specialists
-                </p>
-              </div>
-            </div>
-          </section>
+          <OptimizedGradientHero
+            title="Junk Removal La Jolla"
+            subtitle="Luxury Estate Specialists • White-Glove Service • Discreet & Professional"
+            description="✓ Exclusive Communities ✓ Bird Rock to UTC ✓ Licensed & Insured"
+          />
 
           {/* Main Content with Sidebar */}
           <section className="py-12 bg-gray-50">
