@@ -70,19 +70,19 @@ export const metadata: Metadata = {
 const laJollaFAQs = [
   {
     question: "How much does junk removal cost in La Jolla?",
-    answer: "Pricing varies by load size, access, and materials handled. We provide upfront, itemized quotes before work begins."
+    answer: "Our La Jolla junk removal pricing is transparent and volume-based. Small items start at $69. Standard items like furniture and appliances start at $100. Quarter-load service costs $249, half-load runs $349, three-quarter load is $429, and full-load service tops out at $495. All pricing includes labor, hauling, and disposal fees. Properties throughout La Jolla's 92037 and 92093 zip codes receive the same transparent pricing with no hidden fees for coastal access, hillside properties, or gated community coordination."
   },
   {
-    question: "Do you provide discreet junk removal with unmarked vehicles?",
-    answer: "Yes — all La Jolla jobs are handled with privacy and professionalism using unmarked trucks."
+    question: "Do you provide discreet junk removal service?",
+    answer: "Yes, we provide discreet, professional junk removal throughout La Jolla with respect for your property and privacy. Our crews arrive in clearly marked vehicles, wear professional uniforms, and maintain a low-profile presence that respects neighborhood standards. For properties in gated communities like Hidden Valley, Muirlands, or La Jolla Farms, we coordinate security clearance in advance and work efficiently to minimize any impact on neighbors throughout the 92037 area."
   },
   {
-    question: "Can you handle valuable or luxury furniture?",
-    answer: "Absolutely. We specialize in high-end furnishings, antiques, and fine art removal."
+    question: "Can you handle valuable furniture and specialty items?",
+    answer: "Absolutely. Our La Jolla junk removal team has extensive experience handling valuable furniture, antiques, designer pieces, and specialty items that require careful attention. We use proper lifting techniques, protective materials, and appropriate equipment to safely remove items from oceanfront properties, hillside estates, and multi-story buildings throughout La Jolla. For high-value items you wish to sell or donate, we can coordinate with consignment services, auction houses, and charitable organizations."
   },
   {
     question: "Do you offer estate cleanout services in La Jolla?",
-    answer: "Yes — we provide comprehensive estate cleanouts for large properties, families, and trustees."
+    answer: "Yes, we provide comprehensive estate cleanout services throughout La Jolla for families, trustees, and property managers handling inherited properties or estate transitions. Our team understands the sensitive nature of estate work and handles every item with respect and care. We serve properties throughout the 92037 and 92093 zip codes, from Bird Rock oceanfront homes to Mount Soledad hillside estates, providing complete cleanout services that include sorting, donation coordination, responsible disposal, and final property preparation for sale or transfer."
   },
   {
     question: "What eco-friendly disposal options do you offer?",
@@ -103,10 +103,6 @@ const laJollaFAQs = [
   {
     question: "Do you serve the UTC and UCSD areas?",
     answer: "Absolutely. We provide comprehensive junk removal service throughout the UTC area, UCSD campus housing, and surrounding executive residential neighborhoods in the 92093 zip code. Whether you're moving out of UCSD student housing, clearing an executive residence near Westfield UTC, or handling a property cleanout in the university area, we deliver efficient same-day service throughout this section of La Jolla."
-  },
-  {
-    question: "What are typical junk removal rates in La Jolla?",
-    answer: "Our La Jolla junk removal pricing is transparent and volume-based. Small items start at $69. Standard items like furniture and appliances start at $100. Quarter-load service costs $249, half-load runs $349, three-quarter load is $429, and full-load service tops out at $495. All pricing includes labor, hauling, and disposal fees. Properties throughout La Jolla's 92037 and 92093 zip codes receive the same transparent pricing with no hidden fees for coastal access or hillside properties."
   }
 ];
 
