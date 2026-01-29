@@ -61,6 +61,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    title: "Santee Dump (Sycamore Landfill) 2026: Complete Hours, Fees & Guide",
+    slug: "santee-dump-guide",
+    excerpt: "Complete guide to Santee Dump (Sycamore Landfill): current hours, fees, resident passes, accepted materials, and directions. Learn why professional junk removal often costs less than DIY dump runs when you factor in truck rental, time, and disposal fees.",
+    category: "Local Resources",
+    date: "2026-01-29",
+    readTime: "8 min read",
+    featured: true,
+  },
+  {
     title: "Dumpster Rental San Diego: Why Junk Removal Is the Better Alternative",
     slug: "dumpster-rental-san-diego-alternatives",
     excerpt: "Considering dumpster rental? Discover why professional junk removal costs less ($100-$495 vs $500-$950+), saves you 8-12 hours of labor, and requires zero work from you. Compare costs for El Cajon, Escondido, La Mesa.",
