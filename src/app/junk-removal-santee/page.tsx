@@ -11,17 +11,25 @@ import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/s
 import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
-  title: 'Junk Removal Santee | Same-Day Service | (619) 750-0114',
-  description: 'Professional junk removal Santee for family homes, garage cleanouts, and apartments in Carlton Hills, Sky Ranch, Trolley district. East County specialists. Same-day service, licensed & insured.',
+  title: 'Junk Removal Santee | Santee Lakes RV • Trolley Square | (619) 750-0114',
+  description: 'Junk removal Santee specialists: Santee Lakes RV equipment, Trolley Square apartments, Carlton Hills garages. Recreation gear, family homes, commercial. Same-day service.',
   keywords: [
     'junk removal santee',
     'santee junk removal',
     'junk hauling santee',
-    'same day junk removal santee'
+    'santee lakes rv equipment removal',
+    'trolley square apartment cleanout',
+    'carlton hills garage cleanout',
+    'sky ranch junk removal',
+    'recreation equipment disposal santee',
+    'family garage cleanout santee',
+    'mission gorge commercial junk removal',
+    'santee family home cleanout',
+    'east county junk hauling'
   ],
   openGraph: {
-    title: 'Junk Removal Santee | East County Family & Garage Specialists',
-    description: 'Professional junk removal Santee for family homes, garage cleanouts, Carlton Hills, Sky Ranch. East County specialists with trolley-accessible service. Call (619) 750-0114.',
+    title: 'Junk Removal Santee | Santee Lakes RV • Trolley Square • Carlton Hills',
+    description: 'Junk removal Santee: Santee Lakes RV equipment, Trolley Square apartments, Carlton Hills family garages. Recreation gear specialists. Call (619) 750-0114.',
     url: 'https://severincleaners.com/junk-removal-santee',
     siteName: 'Severin Cleaners',
     images: [{
@@ -35,8 +43,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Junk Removal Santee | East County Family & Garage Specialists',
-    description: 'Professional junk removal Santee for family homes, garage cleanouts, Carlton Hills, Sky Ranch. East County specialists with trolley-accessible service. Call (619) 750-0114.',
+    title: 'Junk Removal Santee | Santee Lakes RV • Trolley Square • Carlton Hills',
+    description: 'Junk removal Santee: Santee Lakes RV equipment, Trolley Square apartments, Carlton Hills family garages. Recreation gear specialists. Call (619) 750-0114.',
     images: ['https://severincleaners.com/og-image.jpg'],
   },
   alternates: {
@@ -64,19 +72,19 @@ export const metadata: Metadata = {
 const santeeFAQs = [
   {
     question: "How much does junk removal Santee cost?",
-    answer: "Our junk removal Santee pricing is transparent and upfront with no hidden fees. Small items start at $69. Standard items (couches, appliances, mattresses) start at $100 from your Santee home. Quarter-load service costs $249, ideal for small cleanouts like a closet or bathroom corner. Half-load runs $349 for garage sections or bedroom furniture removal. Three-quarter load is $429 for larger projects like full garage sections or multiple room cleanouts, and full-load service tops out at $495 for complete garage, apartment, or estate cleanouts. All prices include labor, hauling, disposal fees, and cleanup. Properties throughout Santee—whether you're in Carlton Hills, Sky Ranch, Santee Trolley Square, or Carlton Oaks—all receive the same transparent pricing with no surcharges for hillside access or apartment complex coordination. We provide free estimates over the phone by describing your items, and confirm final pricing on-site before starting work, ensuring you know exactly what you'll pay. Most Santee garage cleanouts range from quarter-truck to half-truck loads, with clear pricing communicated upfront before we touch anything. Family homes with two-car or three-car garages often accumulate storage over years—we handle everything from recreational equipment and seasonal decorations to old furniture and appliance upgrades with efficient, professional service that gets your garage space back for its intended purpose."
+    answer: "Our junk removal Santee pricing is transparent and upfront with no hidden fees.\n\nPricing Structure:\n• Small items: Starting at $69\n• Standard items (couches, appliances, mattresses): Starting at $100\n• Quarter-load: $249 (ideal for closets or bathroom corners)\n• Half-load: $349 (garage sections or bedroom furniture)\n• Three-quarter load: $429 (larger projects, multiple rooms)\n• Full-load: $495 (complete garage, apartment, or estate cleanouts)\n\nAll prices include labor, hauling, disposal fees, and cleanup.\n\nProperties throughout Santee receive the same transparent pricing. Whether you're in Carlton Hills, Sky Ranch, Trolley Square, or Carlton Oaks, there are no surcharges for hillside access or apartment coordination.\n\nWe provide free estimates over the phone by describing your items. Final pricing is confirmed on-site before we start work. You'll know exactly what you'll pay before we touch anything.\n\nMost Santee garage cleanouts range from quarter-truck to half-truck loads. Family homes with two-car or three-car garages often accumulate storage over years. We handle everything from recreational equipment and seasonal decorations to old furniture and appliance upgrades. Our efficient, professional service gets your garage space back for its intended purpose."
   },
   {
     question: "Do you handle garage cleanouts and bulky item pickup in Santee?",
-    answer: "Absolutely. Our junk removal Santee service specializes in garage cleanouts and bulky item removal throughout East County's family-oriented community. We handle furniture removal including sofas, sectionals, dining sets, and bedroom furniture that no longer fits your family's needs. Appliance disposal covers refrigerators, washers, dryers, dishwashers, and other bulky appliances from kitchen and laundry room updates. Exercise equipment removal includes treadmills, ellipticals, weight benches, and home gym equipment that families upgrade or no longer use. Accumulated household items—boxes of storage, seasonal decorations, children's outgrown toys, and miscellaneous garage accumulation—are all within our removal capabilities. Santee's generous garage spaces in Carlton Hills, Sky Ranch, and West Hills neighborhoods often become long-term storage that builds up over years of family living—we help families reclaim these valuable spaces for vehicle parking and organized storage. RV equipment and recreational gear common to Santee's outdoor-oriented lifestyle—camping equipment, boats, lake recreation gear—receive careful removal and disposal. We bring appropriate truck capacity for two-car and three-car garage clearances, working efficiently to complete most residential garage cleanouts in 1-2 hours. Our team navigates narrow garage spaces, protects walls and flooring during removal, and sweeps clean when finished. Whether you're organizing for a new vehicle purchase, preparing for a home sale, or simply reclaiming space from years of accumulation, our Santee garage cleanout service delivers professional results with transparent pricing and same-day availability when needed."
+    answer: "Absolutely. Our junk removal Santee service specializes in garage cleanouts and bulky item removal.\n\nWhat We Remove:\n• Furniture: Sofas, sectionals, dining sets, bedroom furniture\n• Appliances: Refrigerators, washers, dryers, dishwashers\n• Exercise equipment: Treadmills, ellipticals, weight benches, home gym equipment\n• Household items: Storage boxes, seasonal decorations, children's outgrown toys\n• RV and recreation gear: Camping equipment, boats, lake recreation gear\n\nSantee's generous garage spaces in Carlton Hills, Sky Ranch, and West Hills often become long-term storage. Years of family living create accumulation that fills two-car and three-car garages. We help families reclaim these valuable spaces for vehicle parking and organized storage.\n\nOur team brings appropriate truck capacity for garage clearances. We work efficiently to complete most residential cleanouts in 1-2 hours. We navigate narrow garage spaces carefully. We protect walls and flooring during removal. We sweep clean when finished.\n\nWhether you're organizing for a new vehicle purchase, preparing for a home sale, or reclaiming space from years of accumulation, we deliver professional results. Transparent pricing and same-day availability when needed."
   },
   {
     question: "Can you provide same-day junk removal in Santee?",
-    answer: "Yes, we provide same-day junk removal Santee service when you call before noon. Our local East County team can often arrive within 2-4 hours for urgent situations throughout Santee's 92071 zip code. Same-day service is especially valuable for time-sensitive needs like rental property turnovers when tenants leave unexpected debris, real estate closing deadlines requiring immediate property clearing, family emergencies necessitating rapid cleanout support, or home organization projects with tight timelines. We coordinate scheduling around Santee's traffic patterns—avoiding Mission Gorge Road congestion during morning commute (6:30-8:30 AM) and afternoon rush (4-6 PM) to ensure reliable arrival times throughout Carlton Hills, Sky Ranch, Santee Trolley Square, and all East County neighborhoods. Even during busy weekends when Santee Lakes recreation and Costco shopping create traffic surges, our expanded crew capacity keeps same-day appointments available. Property managers coordinating apartment turnovers near Trolley Square receive priority same-day scheduling for urgent tenant move-out situations. Families facing unexpected cleanout needs—estate transitions, downsizing moves, or storage overflow requiring immediate attention—can count on responsive East County service. Our dispatch team actively monitors conditions and communicates realistic arrival windows, ensuring you can plan your day around our service without extended waiting periods. Next-day service is available for all Santee areas with flexible scheduling to match your availability, including evening and weekend appointments for working families who need junk removal outside traditional business hours."
+    answer: "Yes, we provide same-day junk removal Santee service when you call before noon. Our local team can often arrive within 2-4 hours for urgent situations throughout Santee's 92071 zip code.\n\nSame-Day Service Is Valuable For:\n• Rental property turnovers when tenants leave unexpected debris\n• Real estate closing deadlines requiring immediate property clearing\n• Family emergencies necessitating rapid cleanout support\n• Home organization projects with tight timelines\n\nWe coordinate scheduling around Santee's traffic patterns. We avoid Mission Gorge Road congestion during morning commute (6:30-8:30 AM) and afternoon rush (4-6 PM). This ensures reliable arrival times throughout Carlton Hills, Sky Ranch, and Trolley Square.\n\nEven during busy weekends when Santee Lakes recreation and Costco create traffic surges, our expanded crew capacity keeps same-day appointments available. Property managers coordinating apartment turnovers near Trolley Square receive priority scheduling.\n\nFamilies facing unexpected cleanout needs can count on responsive service. Estate transitions, downsizing moves, or storage overflow requiring immediate attention—we're here to help.\n\nOur dispatch team actively monitors conditions and communicates realistic arrival windows. You can plan your day around our service without extended waiting periods.\n\nNext-day service is available for all Santee areas. We offer flexible scheduling to match your availability, including evening and weekend appointments for working families."
   },
   {
     question: "Do you work with Santee property managers and apartment complexes?",
-    answer: "Yes, our junk removal Santee service provides comprehensive commercial support for property managers and apartment complexes throughout East County. We coordinate tenant turnovers for multi-family properties near Santee Trolley Square, providing rapid cleanout service between tenant move-out and new tenant move-in to minimize vacancy periods and maintain rental income flow. Common area cleanouts help property managers maintain attractive shared spaces—we remove furniture from recreation rooms, dispose of broken equipment from fitness centers, and clear accumulated debris from storage areas and trash enclosures. Bulk item removal handles oversized tenant-left items that standard trash service won't accept—mattresses, furniture, appliances, electronics, and miscellaneous household items abandoned during hasty move-outs. We work with flexible scheduling to minimize disruption to current tenants, offering after-hours service (evenings and weekends) when needed to avoid affecting daily property operations. Property managers appreciate our responsive communication, professional crews that respect tenant privacy and property standards, and transparent pricing that makes budgeting for turnover costs predictable. We provide certificates of insurance for property management companies, meet building access requirements, and coordinate with on-site maintenance teams for efficient service delivery. Santee's mix of family apartments, trolley-accessible developments, and hillside multi-family properties each have unique access considerations—we navigate parking limitations, coordinate elevator usage, and handle stairs efficiently without damage to property. Regular service contracts available for properties with consistent turnover needs, providing priority scheduling and volume discounts that reduce overall property maintenance costs."
+    answer: "Yes, our junk removal Santee service provides comprehensive commercial support for property managers and apartment complexes.\n\nProperty Management Services:\n• Tenant turnovers: Rapid cleanout between move-out and move-in to minimize vacancy periods\n• Common area cleanouts: Remove furniture from recreation rooms and fitness centers\n• Bulk item removal: Handle oversized items standard trash service won't accept\n• After-hours scheduling: Evenings and weekends to avoid disrupting current tenants\n\nWe coordinate tenant turnovers for multi-family properties near Trolley Square. Quick service maintains rental income flow and keeps units ready for new tenants.\n\nProperty managers appreciate our responsive communication and professional crews. We respect tenant privacy and meet property standards. Transparent pricing makes budgeting for turnover costs predictable.\n\nWe provide certificates of insurance for property management companies. We meet building access requirements. We coordinate with on-site maintenance teams for efficient service delivery.\n\nSantee's mix of properties creates unique access considerations:\n• Family apartments: Standard parking and access\n• Trolley-accessible developments: Elevator coordination and limited parking\n• Hillside multi-family properties: Steep access and terrain challenges\n\nWe navigate parking limitations, coordinate elevator usage, and handle stairs efficiently without property damage.\n\nRegular service contracts are available for properties with consistent turnover needs. Benefits include priority scheduling and volume discounts that reduce overall maintenance costs."
   },
   {
     question: "Are you licensed and insured for junk removal in Santee?",
@@ -88,11 +96,11 @@ const santeeFAQs = [
   },
   {
     question: "What areas of Santee do you serve for junk removal?",
-    answer: "We provide junk removal throughout all of Santee and surrounding East County areas. Our service covers Carlton Hills established hillside neighborhoods with panoramic canyon views, challenging driveway access, and family homes with extensive storage accumulation from years of living. Sky Ranch newer family developments with modern homes, HOA communities, and garage organization needs receive regular service for seasonal cleanouts and family transitions. Santee Trolley Square mixed-use development with transit access, apartments, retail properties, and urban density requires specialized coordination for apartment turnovers and limited parking access. West Hills family neighborhoods near schools, parks, and recreation areas with seasonal cleanout patterns driven by school calendar and sports seasons. Carlton Oaks golf course community with upscale family homes, generous garages, and accumulated storage typical of established properties. Edgemoor central residential area with mature trees, established homes from the 1970s-80s, and multi-car garages that have become long-term storage spaces over decades. Mission Gorge commercial corridor with business parks, retail centers, office complexes, and mixed-use properties requiring commercial junk removal coordination. Santee Lakes recreation-oriented neighborhoods with RV storage needs, boat equipment, camping gear, and outdoor recreation debris common to families who use the nearby Santee Lakes Recreation Preserve. We serve the entire 92071 zip code covering all Santee neighborhoods from the hillside properties bordering Mission Trails Regional Park to the trolley-accessible downtown developments. We also serve nearby El Cajon, La Mesa, Lakeside, and Spring Valley with the same reliable service and transparent pricing Santee residents expect from East County's premier junk removal company."
+    answer: "We provide junk removal throughout all of Santee and surrounding East County areas.\n\nSantee Neighborhoods We Serve:\n• Carlton Hills: Hillside neighborhoods with panoramic views, challenging driveway access, and family homes with extensive storage\n• Sky Ranch: Newer family developments with modern homes, HOA communities, and garage organization needs\n• Santee Trolley Square: Mixed-use development with transit access, apartments, retail properties, and urban density\n• West Hills: Family neighborhoods near schools, parks, and recreation areas with seasonal cleanout patterns\n• Carlton Oaks: Golf course community with upscale family homes and accumulated storage\n• Edgemoor: Central residential area with mature trees and established homes from the 1970s-80s\n• Mission Gorge: Commercial corridor with business parks, retail centers, and office complexes\n• Santee Lakes: Recreation-oriented neighborhoods with RV storage, boats, camping gear, and outdoor equipment\n\nWe serve the entire 92071 zip code. This covers all Santee neighborhoods from hillside properties bordering Mission Trails Regional Park to trolley-accessible downtown developments.\n\nNearby Areas We Also Serve:\n• El Cajon\n• La Mesa\n• Lakeside\n• Spring Valley\n\nAll areas receive the same reliable service and transparent pricing Santee residents expect."
   },
   {
     question: "Can you remove construction debris in Santee?",
-    answer: "Yes, we handle construction debris removal for Santee residential and commercial projects of all sizes. Our service covers renovation debris from kitchen and bathroom remodels—cabinets, countertops, tile, fixtures removed during updates to Santee's many established family homes built in the 1970s-1990s. Demolition waste from room additions and structural changes including drywall, framing lumber, roofing materials, and subflooring from home expansion projects popular in Santee neighborhoods with larger lots. Roofing materials like shingles, underlayment, flashing, and gutters from re-roofing projects that East County's inland heat and occasional heavy winter rains make necessary every 15-20 years. Drywall and lumber scraps from framing work, room additions, and garage conversions common in Santee family homes. Flooring removal including tile, hardwood, carpet, and padding from whole-home renovations and room updates. Window and door replacement materials from energy efficiency upgrades Santee homeowners pursue to combat summer heat and reduce cooling costs in the warm East County climate. Garage conversion debris from families adding home offices, gyms, or additional living space by converting underutilized two-car and three-car garages. General contractor cleanup after project completion keeps job sites clear and helps builders maintain schedules on multi-phase renovation projects. Santee's active residential renovation market—from Carlton Hills home updates to Sky Ranch kitchen remodels to Edgemoor whole-home renovations—creates consistent construction debris removal needs. We coordinate with contractors on timing, often providing same-day or next-day service to keep job sites clear and projects on schedule without debris accumulation that creates safety hazards or code violations. All construction debris goes to licensed facilities that sort materials for recycling when possible—wood, metal, concrete, and clean fill are diverted from landfills to reduce environmental impact and disposal costs."
+    answer: "Yes, we handle construction debris removal for Santee residential and commercial projects of all sizes.\n\nConstruction Materials We Remove:\n• Renovation debris: Cabinets, countertops, tile, fixtures from kitchen and bathroom remodels\n• Demolition waste: Drywall, framing lumber, roofing materials, subflooring from room additions\n• Roofing materials: Shingles, underlayment, flashing, gutters from re-roofing projects\n• Drywall and lumber: Scraps from framing work, room additions, garage conversions\n• Flooring removal: Tile, hardwood, carpet, padding from whole-home renovations\n• Windows and doors: Replacement materials from energy efficiency upgrades\n• Garage conversions: Debris from adding home offices, gyms, or living space\n\nSantee's established family homes built in the 1970s-1990s create steady renovation needs. Carlton Hills home updates, Sky Ranch kitchen remodels, and Edgemoor whole-home renovations generate consistent debris removal demand.\n\nWe coordinate with contractors on timing. We often provide same-day or next-day service to keep job sites clear. Projects stay on schedule without debris accumulation that creates safety hazards or code violations.\n\nGeneral contractor cleanup after project completion helps builders maintain schedules on multi-phase renovations.\n\nAll construction debris goes to licensed facilities. Materials are sorted for recycling when possible. Wood, metal, concrete, and clean fill are diverted from landfills. This reduces environmental impact and disposal costs."
   }
 ];
 
@@ -166,7 +174,58 @@ export default function JunkRemovalSanteePage() {
       "https://www.instagram.com/severinhauling/",
       "https://www.yelp.com/biz/severin-cleaners-san-diego",
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
-    ]
+    ],
+    "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
+    "acceptsReservations": true,
+    "currenciesAccepted": "USD",
+    "knowsAbout": [
+      "Santee Lakes Recreation Equipment and RV Disposal",
+      "Trolley Square Mixed-Use Property Management",
+      "Carlton Hills Hillside Estate Access",
+      "Mission Gorge Commercial Corridor Services",
+      "Sky Ranch Family Neighborhood Expertise",
+      "Santee Lakes Camping and Outdoor Recreation Gear",
+      "Transit-Oriented Development Cleanout Logistics",
+      "East County Suburban Family Home Service"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Santee Junk Removal Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Santee Lakes Recreation & RV Equipment Removal",
+            "description": "Specialized removal for camping gear, RV equipment, boats, kayaks, outdoor recreation equipment, and patio furniture serving Santee Lakes Recreation Preserve families and campers"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Trolley Square Mixed-Use Property Cleanouts",
+            "description": "Transit-oriented apartment turnovers, mixed-use property debris removal, elevator access coordination, and limited-parking logistics for Santee Trolley Square developments"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Carlton Hills & Sky Ranch Family Garage Cleanouts",
+            "description": "Two-car and three-car garage clearing, hillside property access, family storage overflow, and recreational equipment disposal for Santee's suburban neighborhoods"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Mission Gorge Commercial Corridor Business Services",
+            "description": "Retail store closures, office furniture disposal, restaurant equipment removal, and business park warehouse cleanouts along Mission Gorge Road commercial district"
+          }
+        }
+      ]
+    }
   };
 
   const combinedSchema = {
@@ -201,7 +260,7 @@ export default function JunkRemovalSanteePage() {
               </h1>
 
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                East County Family Service • Garage Cleanout Experts • Same-Day Available
+                Santee Lakes RV Specialists • Trolley Square Experts • Family Garages
               </p>
 
               <p className="text-lg mb-8">
@@ -233,6 +292,111 @@ export default function JunkRemovalSanteePage() {
                     <p className="text-gray-700 mb-6">
                       Our Santee operation is strategically positioned to serve East County's growing suburban landscape. We understand that junk hauling Santee requires knowledge of family neighborhoods with two-car garages that accumulate years of storage, multi-family properties near the Trolley corridor, and hillside homes in Carlton Hills with unique access considerations. Whether you're clearing a garage packed with RV equipment and recreational gear, removing <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture</a> from a family home upgrade, or handling <a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">apartment turnover</a> near Santee Trolley Square, our team brings the local expertise East County properties demand.
                     </p>
+
+                    {/* Santee Lakes Recreation & RV Equipment Specialists */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Santee Lakes Recreation & RV Equipment Specialists</h3>
+                    <p className="text-gray-700 mb-4">
+                      Santee Lakes Recreation Preserve creates unique junk removal needs that no other San Diego community shares. This 190-acre campground and recreation area serves as East County's premier outdoor destination, attracting RV campers, boat enthusiasts, and recreation-oriented families year-round. Our junk removal Santee service specializes in the outdoor equipment and recreation gear disposal that comes with Santee's outdoor lifestyle.
+                    </p>
+
+                    <div className="bg-blue-50 rounded-lg p-6 mb-6">
+                      <h4 className="font-semibold text-lg mb-3">Santee Lakes Equipment We Remove:</h4>
+                      <ul className="space-y-2 text-gray-700">
+                        <li><strong>RV equipment and accessories:</strong> Awnings, generators, tanks, hitches, slide-out mechanisms, and worn RV furniture from camper upgrades. We coordinate removal from Santee Lakes campsites and storage facilities with care for valuable components that can be recycled or donated.</li>
+                        <li><strong>Camping gear and outdoor equipment:</strong> Tents, sleeping bags, camp furniture, coolers, lanterns, and accumulated camping supplies from years of family outdoor adventures. Santee families with regular Santee Lakes visits accumulate duplicate equipment over time—we help clear the excess.</li>
+                        <li><strong>Boats, kayaks, and water recreation:</strong> Old fishing boats, kayaks, paddle boards, canoes, and lake recreation equipment that families upgrade or no longer use. We handle transport from backyards and garages to proper disposal or donation facilities that serve outdoor recreation communities.</li>
+                        <li><strong>Patio furniture and outdoor entertaining:</strong> BBQ grills, patio sets, fire pits, outdoor umbrellas, and entertaining equipment common to Santee's backyard-oriented lifestyle. The inland heat and outdoor living culture creates regular furniture upgrade cycles.</li>
+                      </ul>
+                    </div>
+
+                    <p className="text-gray-700 mb-6">
+                      <strong>Recent Santee Lakes Example:</strong> We completed an RV equipment cleanout for a Santee family who upgraded from their 25-foot travel trailer to a larger Class A motorhome. We removed the old RV furniture, camping equipment accumulated over 15 years, and outdoor gear stored in their three-car garage. We donated usable camping equipment to local youth programs and recycled metal components. The family reclaimed 400+ square feet of garage space for their new RV accessories. This type of recreation equipment turnover is unique to Santee—no other San Diego community has this combination of camping culture and storage accumulation from Santee Lakes proximity.
+                    </p>
+
+                    {/* Trolley Square Mixed-Use Development Specialists */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Trolley Square Mixed-Use Development Specialists</h3>
+                    <p className="text-gray-700 mb-4">
+                      Santee Trolley Square represents East County's most significant transit-oriented development—a mixed-use community combining apartments, retail, dining, and entertainment around the Green Line trolley station. This urban density creates apartment turnover and property management challenges unique to Santee. Our junk removal Santee service provides specialized support for Trolley Square's property managers and residents.
+                    </p>
+
+                    <div className="bg-blue-50 rounded-lg p-6 mb-6">
+                      <h4 className="font-semibold text-lg mb-3">Trolley Square Services We Provide:</h4>
+                      <ul className="space-y-2 text-gray-700">
+                        <li><strong>Apartment complex turnovers:</strong> Rapid cleanout service between tenant move-out and new tenant move-in to minimize vacancy periods. We coordinate with property managers for same-day or next-day service that keeps rental income flowing without delays.</li>
+                        <li><strong>Elevator access coordination:</strong> We schedule service during off-peak hours to avoid disrupting current residents. Our crews use proper elevator padding and floor protection that meets property management standards for multi-story building access.</li>
+                        <li><strong>Limited parking logistics:</strong> Trolley Square's urban density creates parking challenges. We coordinate with property management for loading zone access and work efficiently to minimize truck time in tight parking areas shared with retail customers and residents.</li>
+                        <li><strong>Transit-accessible service:</strong> Residents without cars appreciate our trolley-accessible scheduling. We coordinate arrival times around Green Line schedules for residents who rely on transit, making junk removal accessible without needing personal vehicle access.</li>
+                      </ul>
+                    </div>
+
+                    <p className="text-gray-700 mb-6">
+                      Trolley Square's 300+ apartments generate consistent turnover—approximately 20-30% annually—creating recurring junk removal needs. Property managers value our understanding of mixed-use property challenges, professional crews that respect shared spaces, and transparent pricing that makes budgeting for turnover costs predictable. We've established partnerships with several Trolley Square property management companies for priority service contracts, ensuring they have reliable cleanout support during peak turnover seasons (June-August, December-January). This transit-oriented expertise is unique to Santee—no other East County city has comparable mixed-use trolley development requiring this specialized coordination.
+                    </p>
+
+                    {/* Carlton Hills & Sky Ranch Family Garage Specialists */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Carlton Hills & Sky Ranch Family Garage Specialists</h3>
+                    <p className="text-gray-700 mb-4">
+                      Santee's suburban family neighborhoods—particularly Carlton Hills hillside estates and Sky Ranch modern developments—feature generous two-car and three-car garages that become long-term storage spaces over years of family living. Our junk removal Santee service specializes in reclaiming these valuable spaces and helping families transition through life changes that create garage overflow.
+                    </p>
+
+                    <div className="bg-blue-50 rounded-lg p-6 mb-6">
+                      <h4 className="font-semibold text-lg mb-3">Family Garage Cleanout Expertise:</h4>
+                      <ul className="space-y-2 text-gray-700">
+                        <li><strong>Two-car and three-car garage accumulation:</strong> Santee's family homes average 1,800-2,400 square feet with generous garage space. Over 10-15 years of family living, these garages fill with storage that pushes vehicles to driveways. We help families reclaim space for their intended purpose—vehicle parking and organized storage.</li>
+                        <li><strong>Family transitions and life changes:</strong> Kids leaving for college, retirement downsizing, divorce situations, and estate transitions all create garage cleanout needs. We handle these sensitive situations with professionalism and understanding, working efficiently while respecting family circumstances.</li>
+                        <li><strong>Recreational equipment storage overflow:</strong> Bikes, scooters, camping gear, sports equipment, and children's outgrown outdoor toys accumulate in Santee garages. Families with multiple children often have 3-4 generations of recreation equipment stored long after kids outgrow it.</li>
+                        <li><strong>Carlton Hills hillside access expertise:</strong> Carlton Hills properties feature steep driveways, limited turnarounds, and canyon-view lots with challenging access. Our crews navigate these hillside conditions safely, protecting landscaping and driveways during furniture and equipment removal.</li>
+                      </ul>
+                    </div>
+
+                    <p className="text-gray-700 mb-6">
+                      <strong>Recent Carlton Hills Example:</strong> We completed a three-car garage cleanout for a Sky Ranch family whose children had left for college. The garage had accumulated 18 years of storage—bicycles from elementary through high school, sports equipment from soccer to lacrosse, camping gear, holiday decorations, and outgrown furniture. We removed two full truckloads, donated usable sporting equipment to local youth programs, recycled metal items, and helped the family organize remaining seasonal items. They now park all three vehicles inside and have organized storage for current needs. This type of family garage reclamation is Santee's core demographic—18,000+ single-family homes with garage space that becomes long-term storage over decades of family living.
+                    </p>
+
+                    {/* Mission Gorge Commercial Corridor Services */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Mission Gorge Commercial Corridor Services</h3>
+                    <p className="text-gray-700 mb-4">
+                      Mission Gorge Road serves as Santee's commercial backbone—a retail and business corridor stretching from Costco to Trolley Square. This commercial density creates consistent B2B junk removal opportunities for retail closures, office relocations, and restaurant turnovers. Our junk removal Santee service provides after-hours commercial support that keeps businesses operational.
+                    </p>
+
+                    <div className="bg-blue-50 rounded-lg p-6 mb-6">
+                      <h4 className="font-semibold text-lg mb-3">Commercial Services We Handle:</h4>
+                      <ul className="space-y-2 text-gray-700">
+                        <li><strong>Retail store closures and inventory liquidation:</strong> When retail locations close or relocate, we remove fixtures, displays, damaged inventory, and equipment. Our crews work efficiently to clear spaces for new tenant buildouts without delays.</li>
+                        <li><strong>Office furniture and equipment disposal:</strong> Business relocations and downsizing create office furniture removal needs. We handle desks, cubicles, filing cabinets, conference tables, and outdated equipment with same-day or next-day service that minimizes business disruption.</li>
+                        <li><strong>Restaurant and commercial kitchen cleanouts:</strong> Restaurant closures, kitchen remodels, and equipment upgrades require specialized removal. We handle commercial refrigeration, ovens, grills, and kitchen fixtures with proper disposal at licensed facilities.</li>
+                        <li><strong>After-hours scheduling for active businesses:</strong> We coordinate service during evenings and weekends to avoid disrupting active business operations, ensuring removal happens without affecting customer access or daily business flow.</li>
+                      </ul>
+                    </div>
+
+                    <p className="text-gray-700 mb-6">
+                      Mission Gorge commercial corridor generates higher-value B2B contracts with recurring needs. Businesses appreciate our commercial insurance coverage, licensed disposal that meets regulatory requirements, and professional service that respects active business environments. We've established relationships with commercial property managers along Mission Gorge for priority service when retail tenants turn over or businesses relocate. This commercial expertise positions us as Santee's go-to service for business-to-business junk removal beyond residential focus.
+                    </p>
+
+                    {/* Why Santee Residents Choose Severin Cleaners */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Santee Residents Choose Severin Cleaners</h3>
+                    <p className="text-gray-700 mb-4">
+                      What sets our junk removal Santee service apart from generic competitors and national franchises? Our specialized expertise in Santee's unique community characteristics—recreation equipment from Santee Lakes proximity, transit-oriented Trolley Square development, family garage accumulation patterns, and commercial Mission Gorge corridor. We're not just a junk removal company serving Santee—we're Santee specialists who understand this community's specific needs.
+                    </p>
+
+                    <ul className="space-y-3 mb-6">
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3 flex-shrink-0">✓</span>
+                        <span className="text-gray-700"><strong>Santee Lakes Recreation Equipment Expertise:</strong> Unlike competitors who treat RV equipment and camping gear as generic junk, we understand Santee's outdoor recreation culture. We know which equipment has resale value, what can be donated to youth programs, and how to handle specialty items like boats and recreation gear properly.</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3 flex-shrink-0">✓</span>
+                        <span className="text-gray-700"><strong>Trolley Square Transit-Oriented Development Experience:</strong> We've completed hundreds of Trolley Square apartment turnovers, understanding the unique logistics of mixed-use properties. Our crews coordinate elevator access, respect shared spaces, and work efficiently in the urban density that requires different approaches than suburban service.</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3 flex-shrink-0">✓</span>
+                        <span className="text-gray-700"><strong>Carlton Hills Hillside Navigation:</strong> Our team navigates Carlton Hills steep driveways, limited turnarounds, and challenging property access safely. We protect landscaping, handle stairs efficiently, and work around the hillside terrain that creates unique removal challenges for canyon-view properties.</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-green-500 text-xl mr-3 flex-shrink-0">✓</span>
+                        <span className="text-gray-700"><strong>Family Garage Cleanout Specialization:</strong> We understand Santee's family demographic—how two-car and three-car garages accumulate storage over years of children growing up, recreation equipment multiplying, and seasonal items building. We help families reclaim space with sensitivity to the memories and transitions involved.</span>
+                      </li>
+                    </ul>
 
                     {/* Neighborhoods Served */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Santee Neighborhoods We Serve</h3>
