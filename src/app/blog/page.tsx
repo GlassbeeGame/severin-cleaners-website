@@ -79,6 +79,15 @@ const blogPosts = [
     featured: true,
   },
   {
+    title: "La Mesa Dump (EDCO Station) 2026: Hours, Fees & Complete Guide",
+    slug: "la-mesa-dump-guide",
+    excerpt: "Complete La Mesa dump guide - 2026 hours, fees, recycling buyback center (get paid for CRV!), and directions. Open 7 days! Learn why junk removal beats DIY dump runs and dumpster rental when you factor in costs and time.",
+    category: "Local Resources",
+    date: "2026-01-29",
+    readTime: "9 min read",
+    featured: true,
+  },
+  {
     title: "Dumpster Rental San Diego: Why Junk Removal Is the Better Alternative",
     slug: "dumpster-rental-san-diego-alternatives",
     excerpt: "Considering dumpster rental? Discover why professional junk removal costs less ($100-$495 vs $500-$950+), saves you 8-12 hours of labor, and requires zero work from you. Compare costs for El Cajon, Escondido, La Mesa.",
