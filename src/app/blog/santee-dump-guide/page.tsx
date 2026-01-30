@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
+import { generateAggregateRatingSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Santee Dump (Sycamore Landfill) 2026: Hours, Fees & Complete Guide",
@@ -411,13 +412,7 @@ export default function SanteeDumpGuide() {
           }
         ],
         "openingHours": "Mo-Su 00:00-23:59",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "27",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
+        "aggregateRating": generateAggregateRatingSchema(),
         "sameAs": [
           "https://www.facebook.com/severinhauling",
           "https://www.instagram.com/severinhauling/",

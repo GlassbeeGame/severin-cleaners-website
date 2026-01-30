@@ -7,7 +7,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
-import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Junk Removal Vista | Brewery District • Business Park | (619) 750-0114",
@@ -172,13 +172,7 @@ export default function JunkRemovalVistaPage() {
       }
     ],
     "openingHours": "Mo-Su 00:00-23:59",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "27",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
+    "aggregateRating": generateAggregateRatingSchema(),
     "knowsAbout": [
       "Craft Brewery Equipment and Restaurant Fixtures",
       "Vista Business Park Industrial Cleanouts",

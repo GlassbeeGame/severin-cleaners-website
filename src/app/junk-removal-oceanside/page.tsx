@@ -7,7 +7,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
-import { generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: 'Junk Removal Oceanside CA | Military & Coastal Specialists | (619) 750-0114',
@@ -165,13 +165,7 @@ export default function JunkRemovalOceansidePage() {
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle"],
     "acceptsReservations": true,
     "currenciesAccepted": "USD",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "27",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
+    "aggregateRating": generateAggregateRatingSchema(),
     "knowsAbout": [
       "Camp Pendleton Base Access Procedures",
       "Military PCS Move Coordination",

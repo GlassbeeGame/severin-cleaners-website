@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SchemaMarkup from "@/components/SchemaMarkup";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
+import { generateAggregateRatingSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Escondido Dump (Resource Recovery) 2026: Hours, Fees & Complete Guide",
@@ -380,13 +381,7 @@ export default function EscondidoDumpGuide() {
             "name": "Poway"
           }
         ],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "312",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
+        "aggregateRating": generateAggregateRatingSchema(),
         "sameAs": [
           "https://www.facebook.com/severinhauling",
           "https://www.instagram.com/severinhauling/",
