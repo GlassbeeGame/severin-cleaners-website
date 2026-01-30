@@ -753,103 +753,73 @@ export default function LaMesaDumpGuide() {
                     </div>
 
                     {/* DIY Cost Comparison */}
-                    <div className="mb-12">
-                      <h2 className="text-3xl font-bold text-gray-900 mb-6">Is a DIY Dump Run to La Mesa Worth It?</h2>
+                    <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6" id="cost-comparison">Is a DIY Dump Run Worth It? The Real Cost</h2>
 
-                      <p className="text-lg text-gray-700 mb-6">
-                        Let's break down the <strong>real cost</strong> of taking junk to the La Mesa dump yourself versus calling a professional junk removal service.
-                      </p>
+                    <p className="text-gray-700 mb-6">
+                      Most people assume taking junk to the <strong>La Mesa dump</strong> saves money. Let's break down the <strong>actual costs</strong> for a typical garage cleanout:
+                    </p>
 
-                      <h3 className="text-2xl font-bold text-gray-900 mb-4">Scenario: Weekend Garage Cleanout (~600 lbs)</h3>
+                    <div className="bg-gradient-to-r from-orange-50 to-red-50 border-2 border-orange-200 rounded-xl p-6 mb-8">
+                      <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Half-Garage Cleanout: DIY vs Professional</h3>
 
-                      <div className="overflow-x-auto mb-8">
-                        <table className="min-w-full bg-white border border-gray-300">
+                      <div className="overflow-x-auto">
+                        <table className="w-full">
                           <thead>
-                            <tr className="bg-gray-100">
-                              <th className="py-3 px-4 text-left font-bold text-gray-900 border-b">Cost Factor</th>
-                              <th className="py-3 px-4 text-center font-bold text-gray-900 border-b">DIY to La Mesa Dump</th>
-                              <th className="py-3 px-4 text-center font-bold text-gray-900 border-b">Professional Junk Removal</th>
+                            <tr className="border-b-2 border-gray-300">
+                              <th className="py-3 px-4 text-left font-bold text-gray-900">Cost Factor</th>
+                              <th className="py-3 px-4 text-right font-bold text-orange-600">DIY La Mesa Dump</th>
+                              <th className="py-3 px-4 text-right font-bold text-green-600">Professional Removal</th>
                             </tr>
                           </thead>
-                          <tbody>
-                            <tr className="border-b">
-                              <td className="py-3 px-4 text-gray-700">Truck rental</td>
-                              <td className="py-3 px-4 text-center text-gray-700">$75-$150</td>
-                              <td className="py-3 px-4 text-center text-green-600 font-bold">$0</td>
-                            </tr>
-                            <tr className="border-b">
-                              <td className="py-3 px-4 text-gray-700">Gas (round trip)</td>
-                              <td className="py-3 px-4 text-center text-gray-700">$10-$15</td>
-                              <td className="py-3 px-4 text-center text-green-600 font-bold">$0</td>
-                            </tr>
-                            <tr className="border-b">
-                              <td className="py-3 px-4 text-gray-700">La Mesa dump fee</td>
-                              <td className="py-3 px-4 text-center text-gray-700">$80</td>
-                              <td className="py-3 px-4 text-center text-green-600 font-bold">$0</td>
-                            </tr>
-                            <tr className="border-b">
-                              <td className="py-3 px-4 text-gray-700">Tarp (if needed)</td>
-                              <td className="py-3 px-4 text-center text-gray-700">$20</td>
-                              <td className="py-3 px-4 text-center text-green-600 font-bold">$0</td>
-                            </tr>
-                            <tr className="border-b">
-                              <td className="py-3 px-4 text-gray-700">Your time</td>
-                              <td className="py-3 px-4 text-center text-gray-700">2-3 hours</td>
-                              <td className="py-3 px-4 text-center text-green-600 font-bold">0 hours</td>
-                            </tr>
-                            <tr className="border-b">
-                              <td className="py-3 px-4 text-gray-700">Physical labor</td>
-                              <td className="py-3 px-4 text-center text-gray-700">All you</td>
-                              <td className="py-3 px-4 text-center text-green-600 font-bold">None</td>
-                            </tr>
-                            <tr className="bg-gray-50">
-                              <td className="py-3 px-4 font-bold text-gray-900">TOTAL</td>
-                              <td className="py-3 px-4 text-center font-bold text-gray-900">$185-$265 + your time</td>
-                              <td className="py-3 px-4 text-center font-bold text-green-600">$149-$349 all-in</td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-
-                      <h3 className="text-2xl font-bold text-gray-900 mb-4">Scenario: Weekday Disposal (Remember: Closes at 2:30 PM!)</h3>
-
-                      <div className="overflow-x-auto mb-6">
-                        <table className="min-w-full bg-white border border-gray-300">
-                          <thead>
-                            <tr className="bg-gray-100">
-                              <th className="py-3 px-4 text-left font-bold text-gray-900 border-b">Challenge</th>
-                              <th className="py-3 px-4 text-center font-bold text-gray-900 border-b">DIY</th>
-                              <th className="py-3 px-4 text-center font-bold text-gray-900 border-b">Professional</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr className="border-b">
-                              <td className="py-3 px-4 text-gray-700">Must arrive before 2:30 PM</td>
-                              <td className="py-3 px-4 text-center text-red-600">✓ Take time off work?</td>
-                              <td className="py-3 px-4 text-center text-green-600 font-bold">We work around YOUR schedule</td>
-                            </tr>
-                            <tr className="border-b">
-                              <td className="py-3 px-4 text-gray-700">Risk of early closure</td>
-                              <td className="py-3 px-4 text-center text-red-600">✓ Wasted trip possible</td>
-                              <td className="py-3 px-4 text-center text-green-600 font-bold">Guaranteed appointment</td>
+                          <tbody className="divide-y divide-gray-200">
+                            <tr>
+                              <td className="py-3 px-4 text-gray-700">Truck rental (Home Depot/U-Haul)</td>
+                              <td className="py-3 px-4 text-right text-gray-900">$75-$150</td>
+                              <td className="py-3 px-4 text-right text-green-600 font-semibold">$0</td>
                             </tr>
                             <tr>
-                              <td className="py-3 px-4 text-gray-700">Weekend availability</td>
-                              <td className="py-3 px-4 text-center text-gray-700">Wait until Saturday/Sunday</td>
-                              <td className="py-3 px-4 text-center text-green-600 font-bold">Available all week</td>
+                              <td className="py-3 px-4 text-gray-700">Gas (round trip)</td>
+                              <td className="py-3 px-4 text-right text-gray-900">$10-$15</td>
+                              <td className="py-3 px-4 text-right text-green-600 font-semibold">$0</td>
+                            </tr>
+                            <tr>
+                              <td className="py-3 px-4 text-gray-700">EDCO La Mesa fees (~500 lbs)</td>
+                              <td className="py-3 px-4 text-right text-gray-900">$80</td>
+                              <td className="py-3 px-4 text-right text-green-600 font-semibold">$0</td>
+                            </tr>
+                            <tr>
+                              <td className="py-3 px-4 text-gray-700">Tarp purchase (if needed)</td>
+                              <td className="py-3 px-4 text-right text-gray-900">$20</td>
+                              <td className="py-3 px-4 text-right text-green-600 font-semibold">$0</td>
+                            </tr>
+                            <tr>
+                              <td className="py-3 px-4 text-gray-700">Your time (loading, driving, waiting)</td>
+                              <td className="py-3 px-4 text-right text-gray-900">2-3 hours</td>
+                              <td className="py-3 px-4 text-right text-green-600 font-semibold">0 hours</td>
+                            </tr>
+                            <tr>
+                              <td className="py-3 px-4 text-gray-700">Physical labor / injury risk</td>
+                              <td className="py-3 px-4 text-right text-gray-900">YOU do it all</td>
+                              <td className="py-3 px-4 text-right text-green-600 font-semibold">None</td>
+                            </tr>
+                            <tr className="bg-gray-100 font-bold">
+                              <td className="py-4 px-4 text-gray-900">TOTAL COST</td>
+                              <td className="py-4 px-4 text-right text-orange-600 text-lg">$185-$265 + time</td>
+                              <td className="py-4 px-4 text-right text-green-600 text-lg">$149-$349 all-in</td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
+                    </div>
 
-                      <div className="bg-green-50 border-l-4 border-green-400 p-6 rounded-r">
-                        <p className="text-gray-700 mb-4">
-                          <strong>The Verdict:</strong> When you factor in truck rental, gas, dump fees, tarp, and especially your TIME, professional junk removal is often the same price or less - with zero work from you.
-                        </p>
-                        <p className="text-gray-700">
-                          <Link href="/junk-removal-la-mesa" className="text-blue-600 hover:underline font-semibold">Severin Cleaners</Link> starts at $69 for small items, $100 for standard furniture. No 2:30 PM cutoff, no early closure risk, no heavy lifting. Call <a href="tel:6197500114" className="text-blue-600 hover:underline font-bold">(619) 750-0114</a> for same-day service.
-                        </p>
-                      </div>
+                    <div className="bg-green-50 border-2 border-green-500 rounded-xl p-6 mb-8">
+                      <h3 className="text-xl font-bold text-gray-900 mb-3">💡 The Bottom Line</h3>
+                      <p className="text-gray-700 mb-3">
+                        For most loads, <strong>professional junk removal costs THE SAME or LESS</strong> than doing it yourself—and requires <strong>zero work, zero time, and zero risk</strong> from you.
+                      </p>
+                      <p className="text-gray-700">
+                        Plus, we're available <strong>7 days per week</strong> (including Sunday when you can use the La Mesa dump!), we don't close early at 2:30 PM on weekdays, and you never need a tarp.
+                      </p>
                     </div>
 
                     {/* Dumpster Rental Section */}
@@ -886,154 +856,73 @@ export default function LaMesaDumpGuide() {
                     </div>
 
                     {/* When DIY Makes Sense */}
-                    <div className="mb-12">
-                      <h2 className="text-3xl font-bold text-gray-900 mb-6">When DIY to La Mesa Dump Makes Sense</h2>
+                    <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">When DIY to La Mesa Dump Makes Sense</h2>
 
-                      <p className="text-gray-700 mb-6">
-                        We believe in being honest with you. Here are scenarios where a DIY dump run to EDCO Station La Mesa might make sense:
-                      </p>
+                    <p className="text-gray-700 mb-4">
+                      To be fair, there ARE situations where a DIY dump run makes sense:
+                    </p>
 
-                      <ul className="list-disc pl-6 space-y-3 text-gray-700 mb-6">
-                        <li><strong>You already own a truck</strong> and just have 1-2 small items</li>
-                        <li><strong>You want to use the buyback center</strong> to get paid for CRV recyclables (unique to La Mesa!)</li>
-                        <li><strong>You're an early bird</strong> and can make the 5 AM weekday opening</li>
-                        <li><strong>You live within 10 minutes</strong> of 8184 Commercial St.</li>
-                        <li><strong>You enjoy the physical work</strong> and have the time</li>
-                      </ul>
+                    <ul className="space-y-3 mb-6">
+                      <li className="flex items-start">
+                        <span className="text-green-500 font-bold text-xl mr-3">✓</span>
+                        <span className="text-gray-700"><strong>You already own a truck</strong> and don't need to rent one</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-green-500 font-bold text-xl mr-3">✓</span>
+                        <span className="text-gray-700"><strong>Just 1-2 small items</strong> that fit in your car trunk</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-green-500 font-bold text-xl mr-3">✓</span>
+                        <span className="text-gray-700"><strong>You want to use the buyback center</strong> to get paid for CRV recyclables (unique to La Mesa!)</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-green-500 font-bold text-xl mr-3">✓</span>
+                        <span className="text-gray-700"><strong>You live within 5 minutes</strong> of EDCO Station La Mesa</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-green-500 font-bold text-xl mr-3">✓</span>
+                        <span className="text-gray-700"><strong>You enjoy physical work</strong> and have the free time</span>
+                      </li>
+                    </ul>
 
-                      <p className="text-gray-700 mb-4">
-                        But for most La Mesa residents, here's why professionals save you time and money:
-                      </p>
+                    <p className="text-gray-700 mb-8">
+                      If none of these apply, professional junk removal is usually the smarter choice—both financially and for your time.
+                    </p>
 
-                      <ul className="list-disc pl-6 space-y-3 text-gray-700">
-                        <li>No 2:30 PM weekday cutoff to rush against</li>
-                        <li>No risk of early closure on busy days</li>
-                        <li>No truck rental costs ($75-$150 saved)</li>
-                        <li>No heavy lifting or physical strain</li>
-                        <li>We handle items restricted to EDCO customers (batteries, sharps)</li>
-                        <li>Often costs LESS when you factor in all DIY costs</li>
-                      </ul>
-                    </div>
+                    {/* Service Pitch Section */}
+                    <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Professional Junk Removal in La Mesa</h2>
 
-                    {/* Junk Removal Services */}
-                    <div className="mb-12">
-                      <h2 className="text-3xl font-bold text-gray-900 mb-6">Junk Removal Services in La Mesa</h2>
+                    <p className="text-gray-700 mb-6">
+                      <Link href="/junk-removal-la-mesa" className="text-blue-600 hover:text-blue-700 font-semibold">Severin Cleaners</Link> provides professional <strong>junk removal in La Mesa</strong>, El Cajon, Santee, Spring Valley, Lemon Grove, and throughout East County San Diego. We're the local alternative to DIY dump runs.
+                    </p>
 
-                      <p className="text-lg text-gray-700 mb-6">
-                        <Link href="/junk-removal-la-mesa" className="text-blue-600 hover:underline font-semibold">Severin Cleaners</Link> provides professional junk removal throughout La Mesa, El Cajon, Santee, Spring Valley, Lemon Grove, and East San Diego County - offering a better alternative to DIY dump runs and dumpster rental.
-                      </p>
-
-                      <h3 className="text-xl font-bold text-gray-900 mb-4">Why Choose Professional Junk Removal:</h3>
-
-                      <div className="grid md:grid-cols-2 gap-6 mb-8">
-                        <div className="bg-green-50 p-5 rounded-lg">
-                          <h4 className="font-bold text-gray-900 mb-3">✓ Convenience</h4>
-                          <ul className="space-y-2 text-gray-700 text-sm">
-                            <li>• No 2:30 PM weekday cutoff</li>
-                            <li>• No early closure risk</li>
-                            <li>• Available 7 days/week</li>
-                            <li>• Same-day service available</li>
-                          </ul>
-                        </div>
-
-                        <div className="bg-blue-50 p-5 rounded-lg">
-                          <h4 className="font-bold text-gray-900 mb-3">✓ Cost Savings</h4>
-                          <ul className="space-y-2 text-gray-700 text-sm">
-                            <li>• Lower minimum ($69 vs $80)</li>
-                            <li>• No truck rental needed</li>
-                            <li>• No gas or tarp costs</li>
-                            <li>• All-inclusive pricing</li>
-                          </ul>
-                        </div>
-
-                        <div className="bg-purple-50 p-5 rounded-lg">
-                          <h4 className="font-bold text-gray-900 mb-3">✓ Zero Work</h4>
-                          <ul className="space-y-2 text-gray-700 text-sm">
-                            <li>• We do all the lifting</li>
-                            <li>• No loading required</li>
-                            <li>• No driving/waiting</li>
-                            <li>• Done in 1-2 hours</li>
-                          </ul>
-                        </div>
-
-                        <div className="bg-orange-50 p-5 rounded-lg">
-                          <h4 className="font-bold text-gray-900 mb-3">✓ More Accepted</h4>
-                          <ul className="space-y-2 text-gray-700 text-sm">
-                            <li>• Batteries (non-EDCO customers)</li>
-                            <li>• Sharps (non-EDCO customers)</li>
-                            <li>• Proper disposal channels</li>
-                            <li>• Licensed & insured</li>
-                          </ul>
-                        </div>
-                      </div>
-
-                      <h3 className="text-2xl font-bold text-gray-900 mb-4">Service Comparison</h3>
-                      <div className="overflow-x-auto mb-8">
-                        <table className="min-w-full bg-white border border-gray-300">
-                          <thead>
-                            <tr className="bg-gray-100">
-                              <th className="py-3 px-4 text-left font-bold text-gray-900 border-b">Feature</th>
-                              <th className="py-3 px-4 text-center font-bold text-gray-900 border-b">EDCO La Mesa</th>
-                              <th className="py-3 px-4 text-center font-bold text-gray-900 border-b">Severin Cleaners</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr className="border-b">
-                              <td className="py-3 px-4 text-gray-700">Minimum cost</td>
-                              <td className="py-3 px-4 text-center text-gray-700">$80</td>
-                              <td className="py-3 px-4 text-center text-green-600 font-bold">$69</td>
-                            </tr>
-                            <tr className="border-b">
-                              <td className="py-3 px-4 text-gray-700">Weekday availability</td>
-                              <td className="py-3 px-4 text-center text-gray-700">Until 2:30 PM only</td>
-                              <td className="py-3 px-4 text-center text-green-600 font-bold">All day</td>
-                            </tr>
-                            <tr className="border-b">
-                              <td className="py-3 px-4 text-gray-700">You do lifting</td>
-                              <td className="py-3 px-4 text-center text-red-600">✓ Yes</td>
-                              <td className="py-3 px-4 text-center text-green-600 font-bold">❌ We do it</td>
-                            </tr>
-                            <tr className="border-b">
-                              <td className="py-3 px-4 text-gray-700">Early closure risk</td>
-                              <td className="py-3 px-4 text-center text-red-600">✓ On busy days</td>
-                              <td className="py-3 px-4 text-center text-green-600 font-bold">❌ Guaranteed appt</td>
-                            </tr>
-                            <tr className="border-b">
-                              <td className="py-3 px-4 text-gray-700">Battery/sharps disposal</td>
-                              <td className="py-3 px-4 text-center text-gray-700">EDCO customers only</td>
-                              <td className="py-3 px-4 text-center text-green-600 font-bold">✓ Anyone</td>
-                            </tr>
-                            <tr>
-                              <td className="py-3 px-4 text-gray-700">Your time</td>
-                              <td className="py-3 px-4 text-center text-gray-700">2-3 hours</td>
-                              <td className="py-3 px-4 text-center text-green-600 font-bold">0 hours</td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-
-                      <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-8 rounded-xl text-center">
-                        <h3 className="text-2xl font-bold mb-4">SKIP THE LA MESA DUMP - WE HANDLE EVERYTHING</h3>
-                        <ul className="space-y-2 mb-6 text-left max-w-2xl mx-auto">
-                          <li>✓ Same-day junk removal for La Mesa & East County</li>
-                          <li>✓ No 2:30 PM cutoff - we work YOUR schedule</li>
-                          <li>✓ Starting at $69 (less than the dump's $80 minimum!)</li>
-                          <li>✓ We take items restricted to EDCO customers</li>
+                    <div className="grid md:grid-cols-2 gap-6 mb-8">
+                      <div className="bg-white border-2 border-blue-200 rounded-lg p-6">
+                        <h3 className="font-bold text-gray-900 mb-4 flex items-center text-lg">
+                          <span className="text-blue-600 text-2xl mr-2">✓</span>
+                          Service Areas
+                        </h3>
+                        <ul className="space-y-2 text-gray-700">
+                          <li>• <Link href="/junk-removal-la-mesa" className="text-blue-600 hover:text-blue-700">La Mesa</Link></li>
+                          <li>• <Link href="/junk-removal-el-cajon" className="text-blue-600 hover:text-blue-700">El Cajon</Link></li>
+                          <li>• <Link href="/junk-removal-santee" className="text-blue-600 hover:text-blue-700">Santee</Link></li>
+                          <li>• <Link href="/junk-removal-spring-valley" className="text-blue-600 hover:text-blue-700">Spring Valley</Link></li>
+                          <li>• <Link href="/junk-removal-lemon-grove" className="text-blue-600 hover:text-blue-700">Lemon Grove</Link> & East County</li>
                         </ul>
-                        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                          <a
-                            href="tel:6197500114"
-                            className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors inline-flex items-center"
-                          >
-                            📞 CALL NOW: (619) 750-0114
-                          </a>
-                          <Link
-                            href="/contact"
-                            className="bg-white hover:bg-gray-100 text-blue-600 px-8 py-4 rounded-lg font-bold text-lg transition-colors"
-                          >
-                            Get Free Quote
-                          </Link>
-                        </div>
+                      </div>
+
+                      <div className="bg-white border-2 border-blue-200 rounded-lg p-6">
+                        <h3 className="font-bold text-gray-900 mb-4 flex items-center text-lg">
+                          <span className="text-blue-600 text-2xl mr-2">✓</span>
+                          Key Benefits
+                        </h3>
+                        <ul className="space-y-2 text-gray-700">
+                          <li>• Open 7 days/week (no early weekday close)</li>
+                          <li>• Same-day service available</li>
+                          <li>• We handle items the dump restricts</li>
+                          <li>• No tarp needed</li>
+                          <li>• Zero physical labor from you</li>
+                        </ul>
                       </div>
                     </div>
 
@@ -1225,63 +1114,30 @@ export default function LaMesaDumpGuide() {
                     </div>
 
                     {/* Related Resources */}
-                    <div className="mb-12">
-                      <h2 className="text-3xl font-bold text-gray-900 mb-6">Related Resources</h2>
+                    <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Related Resources</h2>
 
-                      <div className="grid md:grid-cols-2 gap-4">
-                        <Link href="/blog/san-diego-dump-fees-guide" className="block p-4 border-2 border-gray-200 rounded-lg hover:border-blue-500 transition-colors">
-                          <h3 className="font-bold text-gray-900 mb-2">San Diego Dump Fees Guide</h3>
-                          <p className="text-sm text-gray-600">Complete guide to all San Diego County dump fees and transfer stations</p>
-                        </Link>
+                    <div className="grid md:grid-cols-2 gap-4 mb-8">
+                      <Link href="/blog/san-diego-dump-fees-guide" className="block p-5 bg-gray-50 border-2 border-gray-200 hover:border-blue-400 rounded-lg transition-colors">
+                        <h4 className="font-bold text-lg mb-2 text-blue-600">San Diego Dump Fees Guide</h4>
+                        <p className="text-gray-600 text-sm">Complete guide to all San Diego area dumps, fees, and locations</p>
+                      </Link>
 
-                        <Link href="/blog/santee-dump-guide" className="block p-4 border-2 border-gray-200 rounded-lg hover:border-blue-500 transition-colors">
-                          <h3 className="font-bold text-gray-900 mb-2">Santee Dump Guide</h3>
-                          <p className="text-sm text-gray-600">Hours, fees & guide to Sycamore Landfill in Santee (nearby alternative)</p>
-                        </Link>
+                      <Link href="/junk-removal-la-mesa" className="block p-5 bg-gray-50 border-2 border-gray-200 hover:border-blue-400 rounded-lg transition-colors">
+                        <h4 className="font-bold text-lg mb-2 text-blue-600">Junk Removal La Mesa</h4>
+                        <p className="text-gray-600 text-sm">Professional junk removal throughout La Mesa and East County</p>
+                      </Link>
 
-                        <Link href="/blog/escondido-dump-guide" className="block p-4 border-2 border-gray-200 rounded-lg hover:border-blue-500 transition-colors">
-                          <h3 className="font-bold text-gray-900 mb-2">Escondido Dump Guide</h3>
-                          <p className="text-sm text-gray-600">Complete guide to Escondido Resource Recovery facility</p>
-                        </Link>
+                      <Link href="/furniture-disposal-san-diego" className="block p-5 bg-gray-50 border-2 border-gray-200 hover:border-blue-400 rounded-lg transition-colors">
+                        <h4 className="font-bold text-lg mb-2 text-blue-600">Furniture Disposal</h4>
+                        <p className="text-gray-600 text-sm">Professional furniture removal and disposal services</p>
+                      </Link>
 
-                        <Link href="/blog/dumpster-rental-san-diego-alternatives" className="block p-4 border-2 border-gray-200 rounded-lg hover:border-blue-500 transition-colors">
-                          <h3 className="font-bold text-gray-900 mb-2">Dumpster Rental Alternatives</h3>
-                          <p className="text-sm text-gray-600">Why junk removal is better than dumpster rental in San Diego</p>
-                        </Link>
-
-                        <Link href="/furniture-disposal-san-diego" className="block p-4 border-2 border-gray-200 rounded-lg hover:border-blue-500 transition-colors">
-                          <h3 className="font-bold text-gray-900 mb-2">Furniture Disposal</h3>
-                          <p className="text-sm text-gray-600">Professional furniture removal and disposal in San Diego</p>
-                        </Link>
-
-                        <Link href="/san-diego-mattress-disposal" className="block p-4 border-2 border-gray-200 rounded-lg hover:border-blue-500 transition-colors">
-                          <h3 className="font-bold text-gray-900 mb-2">Mattress Disposal</h3>
-                          <p className="text-sm text-gray-600">Eco-friendly mattress recycling and disposal from $69</p>
-                        </Link>
-                      </div>
+                      <Link href="/san-diego-mattress-disposal" className="block p-5 bg-gray-50 border-2 border-gray-200 hover:border-blue-400 rounded-lg transition-colors">
+                        <h4 className="font-bold text-lg mb-2 text-blue-600">Mattress Disposal</h4>
+                        <p className="text-gray-600 text-sm">Eco-friendly mattress removal and recycling</p>
+                      </Link>
                     </div>
 
-                    {/* Footer CTA */}
-                    <div className="bg-gradient-to-r from-orange-500 to-orange-600 text-white p-8 rounded-xl text-center">
-                      <h2 className="text-3xl font-bold mb-4">Skip the La Mesa Dump - Call Us Instead</h2>
-                      <p className="text-xl mb-6">
-                        Same-day junk removal • No 2:30 PM cutoff • Starting at $69
-                      </p>
-                      <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                        <a
-                          href="tel:6197500114"
-                          className="bg-white hover:bg-gray-100 text-orange-600 px-8 py-4 rounded-lg font-bold text-lg transition-colors inline-flex items-center"
-                        >
-                          📞 (619) 750-0114
-                        </a>
-                        <Link
-                          href="/contact"
-                          className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors"
-                        >
-                          Get Free Quote
-                        </Link>
-                      </div>
-                    </div>
 
                   </div>
 
@@ -1292,13 +1148,45 @@ export default function LaMesaDumpGuide() {
                       nearbyLocations={nearbyLocations}
                       serviceItems={serviceItems}
                       nearbyHeading="East County Junk Removal"
-                      ctaHeader="SKIP THE DUMP - CALL US"
+                      ctaHeader="SKIP THE DUMP"
                     />
                   </div>
                 </div>
               </div>
             </div>
           </section>
+
+          {/* Final CTA Section */}
+          <section className="py-16 bg-gradient-to-br from-blue-900 to-blue-700 text-white">
+            <div className="container mx-auto px-4">
+              <div className="max-w-4xl mx-auto text-center">
+                <h2 className="text-4xl font-bold mb-6">
+                  Ready to Skip the La Mesa Dump?
+                </h2>
+                <p className="text-xl mb-8 leading-relaxed">
+                  We serve La Mesa, El Cajon, Santee, Spring Valley, Lemon Grove, and all of East County with professional junk removal that's often cheaper than DIY—and requires zero work from you.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
+                  <a
+                    href="tel:+16197500114"
+                    className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors"
+                  >
+                    📞 Call (619) 750-0114
+                  </a>
+                  <Link
+                    href="/contact"
+                    className="bg-white hover:bg-gray-100 text-blue-700 px-8 py-4 rounded-lg text-lg font-bold transition-colors"
+                  >
+                    Get Free Quote
+                  </Link>
+                </div>
+                <p className="text-blue-200 text-lg">
+                  Same-Day Service Available • 7 Days Per Week • Licensed & Insured
+                </p>
+              </div>
+            </div>
+          </section>
+
         </main>
         <Footer />
       </div>
