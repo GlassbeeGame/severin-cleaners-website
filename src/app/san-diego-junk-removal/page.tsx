@@ -65,9 +65,6 @@ export const metadata: Metadata = {
   },
   other: {
     'geo.region': 'US-CA',
-    'geo.placename': 'San Diego',
-    'geo.position': '32.7157;-117.1611',
-    'ICBM': '32.7157, -117.1611',
   },
 };
 

@@ -252,11 +252,15 @@ export function generateLocalBusinessSchema() {
       }
     },
     "areaServed": {
-      "@type": "State",
-      "name": "California",
-      "containsPlace": {
-        "@type": "AdministrativeArea",
-        "name": "San Diego County",
+      "@type": "AdministrativeArea",
+      "name": "San Diego County",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California",
+        "containedInPlace": {
+          "@type": "Country",
+          "name": "United States"
+        }
       }
     },
     "availableChannel": {

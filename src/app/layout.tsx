@@ -14,8 +14,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Best Junk Removal San Diego | Same Day Service | Severin Cleaners",
-  description: "San Diego's top rated junk removal service. Professional, licensed & insured. Same day service available. Call (619) 750-0114 for free quote.",
+  title: "Severin Cleaners | Professional Junk Removal Services",
+  description: "Professional junk removal and cleanout services throughout San Diego County. Same-day service, licensed & insured. Call (619) 750-0114 for free quote.",
   keywords: "junk removal San Diego, junk hauling San Diego, trash removal San Diego, junk pickup San Diego, haul away junk San Diego, same day junk removal, emergency junk removal San Diego, furniture removal San Diego, appliance removal San Diego, estate cleanout San Diego, construction debris removal, garage cleanout San Diego, mattress removal San Diego, couch removal San Diego, commercial junk removal, residential junk hauling",
   authors: [{ name: "Severin Cleaners" }],
   robots: {
@@ -33,8 +33,8 @@ export const metadata: Metadata = {
     google: "BeGU1HGiaVVEbiJWNx2yGB-J9dc93sy8wzsZ34McCfg",
   },
   openGraph: {
-    title: "Best Junk Removal San Diego | Same Day Service | Severin Cleaners",
-    description: "San Diego's top rated junk removal service. Professional, licensed & insured. Same day service available. Call (619) 750-0114 for free quote.",
+    title: "Severin Cleaners | Professional Junk Removal Services",
+    description: "Professional junk removal and cleanout services throughout San Diego County. Same-day service, licensed & insured. Call (619) 750-0114 for free quote.",
     type: "website",
     locale: "en_US",
     url: "https://severincleaners.com",
@@ -50,8 +50,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Junk Removal San Diego | Same Day Service | Severin Cleaners",
-    description: "San Diego's top rated junk removal service. Professional, licensed & insured. Same day service available. Call (619) 750-0114 for free quote.",
+    title: "Severin Cleaners | Professional Junk Removal Services",
+    description: "Professional junk removal and cleanout services throughout San Diego County. Same-day service, licensed & insured. Call (619) 750-0114 for free quote.",
     images: ["https://severincleaners.com/og-image.jpg"],
   },
   alternates: {
@@ -59,9 +59,6 @@ export const metadata: Metadata = {
   },
   other: {
     "geo.region": "US-CA",
-    "geo.placename": "La Mesa",
-    "geo.position": "32.7781;-117.0229",
-    "ICBM": "32.7781, -117.0229",
   },
 };
 

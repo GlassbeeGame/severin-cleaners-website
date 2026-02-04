@@ -48,9 +48,6 @@ export const metadata: Metadata = {
   },
   other: {
     'geo.region': 'US-CA',
-    'geo.placename': 'La Mesa',
-    'geo.position': '32.7678;-117.0231',
-    'ICBM': '32.7678, -117.0231',
   },
 };
 
