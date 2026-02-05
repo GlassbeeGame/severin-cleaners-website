@@ -7,7 +7,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
-import { generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/lib/schema";
+import { generateBreadcrumbSchema, generateAggregateRatingSchema, generateHowToSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Junk Removal Carlsbad | La Costa Estates • Coastal Luxury | (619) 750-0114",
@@ -242,9 +242,14 @@ export default function JunkRemovalCarlsbadPage() {
     ]
   };
 
+  const howToSchema = generateHowToSchema({
+    cityName: "Carlsbad",
+    pageUrl: "https://severincleaners.com/junk-removal-carlsbad"
+  });
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, howToSchema]
   };
 
   const nearbyLocations = [

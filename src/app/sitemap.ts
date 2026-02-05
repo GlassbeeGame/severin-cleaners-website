@@ -4,9 +4,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://severincleaners.com'
   const currentDate = new Date().toISOString()
 
+  // Main pillar page (priority 1.0)
+  const pillarPage = 'san-diego-junk-removal'
+
   // Service pages
   const servicePages = [
-    'san-diego-junk-removal',
     'same-day-junk-removal-san-diego',
     'appliance-removal-san-diego',
     'cleanout-services-san-diego',
@@ -61,9 +63,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ]
 
   return [
-    // Homepage
+    // Homepage (navigation hub)
     {
       url: baseUrl,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    // Main pillar page
+    {
+      url: `${baseUrl}/${pillarPage}`,
       lastModified: currentDate,
       changeFrequency: 'weekly',
       priority: 1.0,

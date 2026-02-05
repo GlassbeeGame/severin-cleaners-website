@@ -7,7 +7,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
-import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/lib/schema";
+import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema, generateHowToSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: 'Junk Removal Santee | Santee Lakes RV • Trolley Square | (619) 750-0114',
@@ -221,9 +221,14 @@ export default function JunkRemovalSanteePage() {
     }
   };
 
+  const howToSchema = generateHowToSchema({
+    cityName: "Santee",
+    pageUrl: "https://severincleaners.com/junk-removal-santee"
+  });
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, howToSchema]
   };
 
   const nearbyLocations = [

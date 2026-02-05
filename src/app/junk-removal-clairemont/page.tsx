@@ -7,7 +7,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
-import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/lib/schema";
+import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema, generateHowToSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: 'Clairemont Junk Removal | Central San Diego Specialists | (619) 750-0114',
@@ -152,9 +152,14 @@ export default function JunkremovalclairemontPage() {
     "aggregateRating": generateAggregateRatingSchema()
   };
 
+  const howToSchema = generateHowToSchema({
+    cityName: "Clairemont",
+    pageUrl: "https://severincleaners.com/junk-removal-clairemont"
+  });
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, howToSchema]
   };
 
   return (

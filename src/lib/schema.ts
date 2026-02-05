@@ -121,6 +121,18 @@ export function generateServiceSchema({
         ],
         "opens": "00:00",
         "closes": "23:59"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "San Diego County",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "California",
+          "containedInPlace": {
+            "@type": "Country",
+            "name": "United States"
+          }
+        }
       }
     },
     "areaServed": areaServedData,
@@ -182,6 +194,18 @@ export function generateLocationServiceSchema({
         ],
         "opens": "00:00",
         "closes": "23:59"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "San Diego County",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "California",
+          "containedInPlace": {
+            "@type": "Country",
+            "name": "United States"
+          }
+        }
       }
     },
     "areaServed": {
@@ -413,6 +437,18 @@ export function generateReviewSchema(testimonial: Testimonial) {
         ],
         "opens": "00:00",
         "closes": "23:59"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "San Diego County",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "California",
+          "containedInPlace": {
+            "@type": "Country",
+            "name": "United States"
+          }
+        }
       }
     },
     "publisher": {
@@ -553,6 +589,18 @@ export function generateContactPageSchema() {
       "opens": "00:00",
       "closes": "23:59"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "San Diego County",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California",
+        "containedInPlace": {
+          "@type": "Country",
+          "name": "United States"
+        }
+      }
+    },
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+1-619-750-0114",
@@ -645,6 +693,53 @@ export function generateBlogPageSchema() {
         "@type": "ImageObject",
         "url": "https://severincleaners.com/logo.png"
       }
+    }
+  };
+}
+
+/**
+ * Generate HowTo schema for location and service pages
+ * Shows users the simple 3-step process to book junk removal
+ */
+export interface HowToSchemaProps {
+  cityName: string;
+  pageUrl: string;
+}
+
+export function generateHowToSchema({ cityName, pageUrl }: HowToSchemaProps) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": `How to Book Junk Removal in ${cityName}`,
+    "description": `Simple 3-step process to schedule professional junk removal service in ${cityName}. Same-day and next-day pickup available.`,
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "Call for Free Quote",
+        "text": "Call (619) 750-0114 or text us a photo of the junk you want removed. We'll provide an instant price quote with no obligation.",
+        "url": "tel:+16197500114"
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "name": "Schedule Your Pickup",
+        "text": `Same-day or next-day service available in ${cityName}. Choose a convenient time that works with your schedule.`,
+        "url": pageUrl
+      },
+      {
+        "@type": "HowToStep",
+        "position": 3,
+        "name": "We Handle Everything",
+        "text": "Our professional crew loads, hauls, and disposes of your junk responsibly. We donate usable items and recycle materials whenever possible.",
+        "url": pageUrl
+      }
+    ],
+    "totalTime": "PT2H",
+    "estimatedCost": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": "69-495"
     }
   };
 }

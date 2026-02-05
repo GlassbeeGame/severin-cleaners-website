@@ -7,7 +7,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
-import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/lib/schema";
+import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema, generateHowToSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "La Jolla Junk Removal | Professional Estate Service | (619) 750-0114",
@@ -378,9 +378,14 @@ export default function JunkRemovalLaJollaPage() {
     ]
   };
 
+  const howToSchema = generateHowToSchema({
+    cityName: "La Jolla",
+    pageUrl: "https://severincleaners.com/junk-removal-la-jolla"
+  });
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, neighborhoodSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, neighborhoodSchema, howToSchema]
   };
 
   const nearbyLocations = [

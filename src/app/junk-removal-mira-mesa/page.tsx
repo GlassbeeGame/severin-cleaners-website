@@ -7,7 +7,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
-import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/lib/schema";
+import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema, generateHowToSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Mira Mesa Junk Removal | Residential & Commercial | (619) 750-0114",
@@ -158,9 +158,14 @@ export default function JunkRemovalMiraMesaPage() {
     ]
   };
 
+  const howToSchema = generateHowToSchema({
+    cityName: "Mira Mesa",
+    pageUrl: "https://severincleaners.com/junk-removal-mira-mesa"
+  });
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, howToSchema]
   };
 
   const nearbyLocations = [

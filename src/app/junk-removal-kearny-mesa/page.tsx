@@ -7,7 +7,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
-import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/lib/schema";
+import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema, generateHowToSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: 'Kearny Mesa Junk Removal | Commercial District Experts | (619) 750-0114',
@@ -152,9 +152,14 @@ export default function JunkRemovalKearnyMesaPage() {
     ]
   };
 
+  const howToSchema = generateHowToSchema({
+    cityName: "Kearny Mesa",
+    pageUrl: "https://severincleaners.com/junk-removal-kearny-mesa"
+  });
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, howToSchema]
   };
 
   return (

@@ -274,7 +274,7 @@ export default function FurnitureDisposalPage() {
                     </p>
 
                     <p className="text-lg mb-6">
-                      We handle all types of furniture removal San Diego needs: <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">couches and sofas</a>, desks, <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:text-blue-700 underline">mattresses</a>, dressers, and everything in between. Our furniture recycling San Diego program ensures usable items find new homes through donation partners, while materials like metal and wood get properly recycled. From <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> to <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, we're helping San Diego stay green while keeping your space clutter-free. Need <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">same-day service</a>? Call before 2 PM.
+                      We handle all types of furniture removal San Diego needs: beds, dressers, desks, dining tables, office furniture, bedroom sets, patio furniture, and everything in between. <strong>Specifically removing a couch or sofa?</strong> See our specialized <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline font-semibold">couch removal service</a> for upholstered furniture. We also offer dedicated <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:text-blue-700 underline">mattress disposal</a>. Our furniture recycling San Diego program ensures usable items find new homes through donation partners, while materials like metal and wood get properly recycled. From <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> to <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, we're helping San Diego stay green while keeping your space clutter-free. Need <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">same-day service</a>? Call before 2 PM.
                     </p>
 
                     <h3 className="text-2xl font-bold mt-10 mb-4">Free vs. Professional Furniture Disposal San Diego</h3>
@@ -336,12 +336,12 @@ export default function FurnitureDisposalPage() {
                       <div className="bg-white p-6 rounded-lg shadow-md">
                         <h4 className="font-bold text-xl mb-3 text-blue-600">Living Room</h4>
                         <ul className="list-disc pl-4 space-y-2 text-gray-700">
-                          <li>Couches & sectionals</li>
-                          <li>Sofas & loveseats</li>
-                          <li>Recliners & armchairs</li>
+                          <li><a href="/couch-removal-san-diego" className="text-blue-600 hover:underline">Couches & sectionals →</a></li>
+                          <li><a href="/couch-removal-san-diego" className="text-blue-600 hover:underline">Sofas & loveseats →</a></li>
                           <li>Coffee tables & end tables</li>
-                          <li>Entertainment centers</li>
+                          <li>Entertainment centers & TV stands</li>
                           <li>Bookshelves & cabinets</li>
+                          <li>Accent chairs & ottomans</li>
                         </ul>
                       </div>
                       <div className="bg-white p-6 rounded-lg shadow-md">
@@ -413,9 +413,9 @@ export default function FurnitureDisposalPage() {
 
                     <h2 className="text-3xl font-bold mt-10 mb-4">Common Furniture We Remove</h2>
 
-                    <h3 className="text-2xl font-semibold mt-6 mb-3">Couches, Sofas & Living Room Furniture</h3>
+                    <h3 className="text-2xl font-semibold mt-6 mb-3">Living Room Furniture Beyond Couches</h3>
                     <p className="text-lg mb-6">
-                      Bulky sectionals, heavy sleeper sofas, worn-out recliners—we handle it all. Whether it's a 300-pound sectional that won't fit through the door or a loveseat from a third-floor walkup, our team has the equipment and expertise to remove it safely. We serve everywhere from <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a> to <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>, and we'll haul away any living room furniture you need gone.
+                      We remove coffee tables, entertainment centers, bookshelves, TV stands, and accent chairs throughout San Diego. <strong>Need couch or sofa removal specifically?</strong> Check out our specialized <a href="/couch-removal-san-diego" className="text-blue-600 hover:underline font-semibold">couch removal service</a> dedicated to upholstered seating (sectionals, loveseats, recliners, sleeper sofas). For all other living room furniture, we provide fast, professional removal from <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a> to <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>.
                     </p>
 
                     <h3 className="text-2xl font-semibold mt-6 mb-3">Office Furniture & Desks</h3>

@@ -7,7 +7,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
-import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/lib/schema";
+import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema, generateHowToSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: 'Rancho Santa Fe Junk Removal | Luxury Estate Experts | (619) 750-0114',
@@ -161,9 +161,14 @@ export default function JunkRemovalRanchoSantaFePage() {
     ]
   };
 
+  const howToSchema = generateHowToSchema({
+    cityName: "Rancho Santa Fe",
+    pageUrl: "https://severincleaners.com/junk-removal-rancho-santa-fe"
+  });
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, howToSchema]
   };
 
   const nearbyLocations = [

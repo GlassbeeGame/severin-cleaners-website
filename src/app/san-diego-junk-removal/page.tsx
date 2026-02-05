@@ -7,7 +7,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
-import { generateServiceSchema, combineSchemas, generateAggregateRatingSchema } from "@/lib/schema";
+import { generateServiceSchema, combineSchemas, generateAggregateRatingSchema, generateHowToSchema } from "@/lib/schema";
 import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
@@ -217,9 +217,14 @@ export default function SanDiegoJunkRemovalPage() {
 
   const faqSchema = generateFAQSchema(sanDiegoFAQs);
 
+  const howToSchema = generateHowToSchema({
+    cityName: "San Diego",
+    pageUrl: "https://severincleaners.com/san-diego-junk-removal"
+  });
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, localBusinessSchema, faqSchema]
+    "@graph": [serviceSchema, localBusinessSchema, faqSchema, howToSchema]
   };
 
   const nearbyLocations = [

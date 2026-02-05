@@ -7,7 +7,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
-import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/lib/schema";
+import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema, generateHowToSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: 'Junk Removal El Cajon | Scrap Metal Recycling • Family Property | (619) 750-0114',
@@ -233,9 +233,14 @@ export default function JunkRemovalElCajonPage() {
     }
   };
 
+  const howToSchema = generateHowToSchema({
+    cityName: "El Cajon",
+    pageUrl: "https://severincleaners.com/junk-removal-el-cajon"
+  });
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, howToSchema]
   };
 
   const nearbyLocations = [

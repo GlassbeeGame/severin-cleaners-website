@@ -7,7 +7,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
-import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/lib/schema";
+import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema, generateHowToSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: 'Junk Removal La Mesa | Our HQ • Mount Helix Estates | (619) 750-0114',
@@ -237,9 +237,14 @@ export default function JunkRemovalLaMesaPage() {
     ]
   };
 
+  const howToSchema = generateHowToSchema({
+    cityName: "La Mesa",
+    pageUrl: "https://severincleaners.com/junk-removal-la-mesa"
+  });
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, howToSchema]
   };
 
   const nearbyLocations = [

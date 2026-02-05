@@ -7,7 +7,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
-import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/lib/schema";
+import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema, generateHowToSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: 'Junk Removal Chula Vista | Bilingual • HOA-Compliant | (619) 750-0114',
@@ -231,9 +231,14 @@ export default function JunkRemovalChulaVistaPage() {
     ]
   };
 
+  const howToSchema = generateHowToSchema({
+    cityName: "Chula Vista",
+    pageUrl: "https://severincleaners.com/junk-removal-chula-vista"
+  });
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, howToSchema]
   };
 
   const nearbyLocations = [
