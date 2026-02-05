@@ -33,7 +33,7 @@ export default function Header() {
             </Link>
           </div>
 
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden lg:flex items-center space-x-8">
             <Link
               href="/"
               className="text-gray-700 hover:text-blue-500 transition-colors duration-200 font-semibold py-2"
@@ -81,7 +81,7 @@ export default function Header() {
             </Link>
           </nav>
 
-          <div className="hidden md:flex items-center gap-4">
+          <div className="hidden lg:flex items-center gap-4">
             <a
               href="tel:+16197500114"
               className="btn btn-primary"
@@ -93,7 +93,7 @@ export default function Header() {
             </a>
           </div>
 
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <input type="checkbox" id="mobile-menu-toggle" />
             <label
               htmlFor="mobile-menu-toggle"
@@ -128,7 +128,7 @@ export default function Header() {
               </svg>
             </label>
 
-            <div id="mobile-menu" className="hidden md:hidden border-t border-gray-200 absolute left-0 right-0 bg-white shadow-lg">
+            <div id="mobile-menu" className="hidden lg:hidden border-t border-gray-200 absolute left-0 right-0 bg-white shadow-lg">
               <div className="px-2 pt-2 pb-3 space-y-1">
                 <Link
                   href="/"
@@ -172,6 +172,17 @@ export default function Header() {
                 >
                   Contact
                 </Link>
+                <div className="px-3 pt-2 pb-3">
+                  <a
+                    href="tel:+16197500114"
+                    className="btn btn-primary w-full justify-center"
+                  >
+                    <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                    (619) 750-0114
+                  </a>
+                </div>
               </div>
             </div>
           </div>
