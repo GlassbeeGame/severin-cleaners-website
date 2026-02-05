@@ -71,19 +71,39 @@ export const metadata: Metadata = {
 const laMesaFAQs = [
   {
     question: "How much does junk removal La Mesa CA cost?",
-    answer: "Our pricing is transparent and volume-based with no hidden fees. Small items start at $69. Standard items (couches, mattresses, appliances) start at $100. Quarter-load service costs $249 for small cleanouts like a closet or bathroom. Half-load runs $349 for garage corners or bedroom furniture sets. Three-quarter load is $429 for larger projects like full garage sections. Full-load service tops out at $495 for complete garage, estate, or commercial property cleanouts. All prices include labor, hauling, and disposal fees with no surcharges for hillside access in Mount Helix or downtown Village parking challenges. We provide free estimates over the phone and confirm final pricing on-site before starting work. Our local location means lower travel costs and faster response times compared to companies coming from North County or downtown San Diego."
+    answer: "Our pricing is transparent and volume-based: small items start at $69, standard items at $100, quarter-load $249, half-load $349, three-quarter load $429, and full-load $495. All prices include labor, hauling, and disposal with no surcharges for hillside access or downtown parking. We provide free estimates over the phone and confirm final pricing on-site before starting work."
   },
   {
     question: "Can you handle hillside homes in Mount Helix and Fletcher Hills?",
-    answer: "Yes, our team specializes in hillside properties throughout Mount Helix, Fletcher Hills, and surrounding East County hills. We navigate steep driveways, winding access roads, and elevation changes regularly—these challenging properties are our specialty as a locally-based service. Our trucks are appropriately sized for narrow hillside streets, and our crews plan routes in advance to handle tight turns and steep grades safely. Mount Helix properties often require extended carries from house to truck due to limited driveway access, and we bring the right equipment and crew size for these situations. We've serviced hundreds of hillside homes in the 91941, 91942, and 91944 zip codes, from modest hillside cottages to large estates with panoramic views. No driveway is too steep, no access too narrow, and no elevation too challenging for our experienced East County team."
+    answer: "Yes, hillside properties are our specialty. We navigate steep driveways (up to 25% grades), narrow winding roads, and challenging access daily with appropriately-sized trucks and experienced crews. We've serviced hundreds of hillside homes throughout the 91941, 91942, and 91944 zip codes—no driveway is too steep or access too narrow for our East County team."
   },
   {
     question: "How fast can you respond?",
-    answer: "Most calls receive same-day or next-day service when you contact us before noon. Our local headquarters at Grossmont Boulevard means minimal travel time to any neighborhood—we can often arrive within 1-2 hours for urgent situations throughout the 91941, 91942, and 91944 zip codes. Same-day service is especially valuable for time-sensitive needs like rental property turnovers with tight deadlines, real estate closing cleanouts, HOA violation notices requiring immediate compliance, or emergency situations after unexpected events. We coordinate scheduling around local traffic patterns—avoiding Fletcher Parkway congestion during commute hours and planning routes that minimize response time. Whether you're in Mount Helix, downtown Village, Grossmont area, Fletcher Hills, or anywhere in the area, our local presence ensures faster response than companies based in other cities. Even during busy weekends and peak moving season, our expanded crew capacity and proximity to all neighborhoods keeps response times minimal."
+    answer: "Most calls receive same-day or next-day service when you contact us before noon. Our Grossmont Boulevard headquarters means 1-2 hour response times throughout all La Mesa neighborhoods. Same-day service is especially valuable for time-sensitive needs like rental turnovers, real estate closings, or HOA violation notices."
+  },
+  {
+    question: "Do you serve downtown Village and Grossmont Center area?",
+    answer: "Absolutely. We provide comprehensive service throughout La Mesa Village, Grossmont Center commercial district, and all surrounding neighborhoods. Our team coordinates parking permits when needed, schedules during off-peak hours, and works efficiently in high-traffic downtown areas."
+  },
+  {
+    question: "Are your services eco-friendly?",
+    answer: "Yes, we sort every load to maximize recycling and donations. Usable furniture goes to East County charities like Goodwill on Fletcher Parkway. Metal items go to San Diego recycling facilities, mattresses to specialized recycling centers, and electronics receive certified e-waste recycling with proper hazardous material handling."
+  },
+  {
+    question: "What areas do you serve?",
+    answer: "We serve all La Mesa neighborhoods including Mount Helix, Fletcher Hills, La Mesa Village, Grossmont Center, College Area, Lake Murray, and all residential streets. We also serve neighboring communities including El Cajon, Spring Valley, Lemon Grove, and Santee. All three zip codes (91941, 91942, 91944) receive the same reliable service with transparent pricing."
+  },
+  {
+    question: "Do you offer free estimates?",
+    answer: "Yes, we provide free, no-obligation estimates. Get an initial estimate over the phone or request a free on-site visit for larger projects like estate cleanouts or commercial clearances. On-site estimates are especially helpful for Mount Helix hillside properties or downtown Village properties with access challenges."
+  },
+  {
+    question: "Can you remove furniture and appliances?",
+    answer: "Yes, we handle all types of furniture (sofas, mattresses, dining sets, office furniture, patio furniture) and appliances (refrigerators, washers, dryers, stoves, water heaters, HVAC units) with proper handling of refrigerants per California regulations. All removed furniture in good condition is donated to East County charities, and appliances go to certified recycling facilities."
   },
   {
     question: "Why does it matter that Severin Cleaners is headquartered locally?",
-    answer: "Our local headquarters at 8900 Grossmont Blvd provides significant advantages for customers throughout East County. Response time is the most immediate benefit—our crews start their day from here, meaning we can arrive at your property within 1-2 hours rather than the 2-4 hours required by companies driving from North County, Carlsbad, or downtown San Diego. This proximity enables genuine same-day service when you call before noon, not just theoretical same-day availability that depends on schedule gaps. Operating costs are lower because we're not driving 30-40 miles each direction to reach East County properties, and we pass those savings to customers through competitive pricing without travel surcharges. Local knowledge matters significantly—our crews navigate Mount Helix's steep hillside roads daily, understand Village parking logistics intimately, and know exactly which streets have width restrictions or access challenges. We're invested in this community as residents and business owners, not an outside company making occasional trips into the area. When you hire Severin Cleaners, you're supporting a true local business headquartered in your community."
+    answer: "Our local headquarters at 8900 Grossmont Blvd provides faster response times (1-2 hours vs. 2-4 hours from North County), lower costs without travel surcharges, and deep local knowledge of Mount Helix's hillside roads and Village parking logistics. We're invested in this community as residents and business owners, not an outside company making occasional trips into the area."
   }
 ];
 
