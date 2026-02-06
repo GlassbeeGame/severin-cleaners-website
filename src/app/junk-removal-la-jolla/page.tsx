@@ -70,39 +70,39 @@ export const metadata: Metadata = {
 const laJollaFAQs = [
   {
     question: "How much does junk removal cost in La Jolla?",
-    answer: "Our La Jolla junk removal pricing is transparent and volume-based. Small items start at $69. Standard items like furniture and appliances start at $100. Quarter-load service costs $249, half-load runs $349, three-quarter load is $429, and full-load service tops out at $495. All pricing includes labor, hauling, and disposal fees. Properties throughout La Jolla's 92037 and 92093 zip codes receive the same transparent pricing with no hidden fees for coastal access, hillside properties, or gated community coordination."
+    answer: "Our pricing is transparent and volume-based: small items $69, standard items $100, quarter-load $249, half-load $349, three-quarter load $429, full-load $495. All pricing includes labor, hauling, and disposal with no hidden fees for coastal access, hillside properties, or gated community coordination throughout the 92037 and 92093 areas."
   },
   {
     question: "Do you provide discreet junk removal service?",
-    answer: "Yes, we provide discreet, professional junk removal throughout La Jolla with respect for your property and privacy. Our crews arrive in clearly marked vehicles, wear professional uniforms, and maintain a low-profile presence that respects neighborhood standards. For properties in gated communities like Hidden Valley, Muirlands, or La Jolla Farms, we coordinate security clearance in advance and work efficiently to minimize any impact on neighbors throughout the 92037 area."
+    answer: "Yes, we provide discreet, professional service throughout La Jolla. Our crews wear professional uniforms and maintain a low-profile presence. For gated communities like Hidden Valley, Muirlands, or La Jolla Farms, we coordinate security clearance in advance. Unmarked vehicles available upon request for high-profile properties."
   },
   {
     question: "Can you handle valuable furniture and specialty items?",
-    answer: "Absolutely. Our La Jolla junk removal team has extensive experience handling valuable furniture, antiques, designer pieces, and specialty items that require careful attention. We use proper lifting techniques, protective materials, and appropriate equipment to safely remove items from oceanfront properties, hillside estates, and multi-story buildings throughout La Jolla. For high-value items you wish to sell or donate, we can coordinate with consignment services, auction houses, and charitable organizations."
+    answer: "Absolutely. We have extensive experience with valuable furniture, antiques, designer pieces, and specialty items. We use proper lifting techniques, protective materials, and appropriate equipment for safe removal. For high-value items, we coordinate with consignment services, auction houses (Sotheby's, Christie's), and charitable organizations."
   },
   {
     question: "Do you offer estate cleanout services in La Jolla?",
-    answer: "Yes, we provide comprehensive estate cleanout services throughout La Jolla for families, trustees, and property managers handling inherited properties or estate transitions. Our team understands the sensitive nature of estate work and handles every item with respect and care. We serve properties throughout the 92037 and 92093 zip codes, from Bird Rock oceanfront homes to Mount Soledad hillside estates, providing complete cleanout services that include sorting, donation coordination, responsible disposal, and final property preparation for sale or transfer."
+    answer: "Yes, we provide comprehensive estate cleanout services for families, trustees, and property managers. We handle Bird Rock oceanfront homes to Mount Soledad hillside estates with sensitivity and care. Services include sorting, donation coordination, responsible disposal, and final property preparation for sale or transfer throughout 92037 and 92093."
   },
   {
     question: "What eco-friendly disposal options do you offer?",
-    answer: "We recycle, donate, and work with consignment services whenever possible to minimize waste. Usable furniture and appliances go to San Diego charities, recyclables to proper facilities, and we minimize landfill disposal throughout La Jolla's 92037 and 92093 zip codes."
+    answer: "We recycle, donate, and work with consignment services to minimize waste. Usable furniture and appliances go to San Diego charities, recyclables to proper facilities. We minimize landfill disposal throughout La Jolla."
   },
   {
     question: "Do you serve gated communities in La Jolla?",
-    answer: "Yes, we regularly serve gated communities throughout La Jolla including Hidden Valley, Muirlands, and La Jolla Farms. We coordinate security clearance with gate staff in advance, communicate arrival times clearly, and respect all community access protocols. Our crews are experienced working in restricted-access neighborhoods throughout the 92037 area and handle all gate coordination professionally."
+    answer: "Yes, we regularly serve Hidden Valley, Muirlands, and La Jolla Farms. We coordinate security clearance with gate staff in advance, communicate arrival times clearly, and respect all community access protocols. Our crews are experienced in restricted-access neighborhoods throughout the 92037 area."
   },
   {
     question: "How do you handle Mount Soledad hillside property access?",
-    answer: "Our La Jolla junk removal team has extensive experience navigating Mount Soledad's steep hillside properties with grades up to 15%, switchback driveways, and narrow access roads. We use appropriately sized trucks, plan routes carefully, and coordinate parking to ensure safe access without impacting neighbors. Hillside estates throughout La Jolla receive the same professional service as properties with standard access."
+    answer: "Our team has extensive experience navigating Mount Soledad's steep properties with grades up to 15%, switchback driveways, and narrow access roads. We use appropriately sized trucks, plan routes carefully, and coordinate parking to ensure safe access without impacting neighbors."
   },
   {
     question: "What's your experience with oceanfront properties in Bird Rock and Windansea?",
-    answer: "We specialize in oceanfront property junk removal throughout Bird Rock, Windansea, La Jolla Shores, and other coastal La Jolla neighborhoods. Our crews understand narrow coastal streets, limited parking zones, salt air exposure challenges, and the coordination needed for beachside property access. We've completed hundreds of oceanfront cleanouts along La Jolla Boulevard and the coastal corridor."
+    answer: "We specialize in oceanfront property removal throughout Bird Rock, Windansea, and La Jolla Shores. Our crews understand narrow coastal streets, limited parking zones, salt air exposure challenges, and beachside property access coordination. We've completed hundreds of oceanfront cleanouts along the coastal corridor."
   },
   {
     question: "Do you serve the UTC and UCSD areas?",
-    answer: "Absolutely. We provide comprehensive junk removal service throughout the UTC area, UCSD campus housing, and surrounding executive residential neighborhoods in the 92093 zip code. Whether you're moving out of UCSD student housing, clearing an executive residence near Westfield UTC, or handling a property cleanout in the university area, we deliver efficient same-day service throughout this section of La Jolla."
+    answer: "Absolutely. We serve the UTC area, UCSD campus housing, and executive residential neighborhoods in the 92093 zip code. We handle student housing move-outs, executive residences near Westfield UTC, and property cleanouts with efficient same-day service."
   }
 ];
 
@@ -437,340 +437,75 @@ export default function JunkRemovalLaJollaPage() {
                       {/* Introduction Content */}
                       <div className="prose prose-lg max-w-none">
                         <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                          Expert Junk Removal La Jolla Homeowners Trust
+                          Professional Junk Removal La Jolla – Luxury Estate Specialists
                         </h2>
 
-                        <p className="text-lg text-gray-700 mb-4">
-                          As one of the top-rated services for junk removal in La Jolla, Severin Cleaners proudly serves homes from the Cove to UTC throughout the 92037 and 92093 zip codes. We offer same-day pickups, professional handling, and discreet service trusted by La Jolla neighborhoods.
-                        </p>
-
                         <p className="text-lg text-gray-700 mb-6">
-                          Our experienced team understands the unique challenges of serving this coastal community and delivers reliable service whether you're in a Village apartment or on a Mount Soledad hillside estate.
-                        </p>
-
-                        <p className="text-lg text-gray-700 mb-4">
-                          From oceanfront properties to hillside estates, our La Jolla junk removal specialists handle every detail with care. We provide complete property cleanouts, furniture removal, and eco-conscious disposal — all completed quickly, quietly, and professionally.
-                        </p>
-
-                        <p className="text-lg text-gray-700 mb-6">
-                          Whether you're renovating, preparing for sale, or managing an estate transition, we handle every phase from sorting and hauling to donation and documentation.
-                        </p>
-
-                        <p className="text-lg text-gray-700 mb-4">
-                          La Jolla's unique combination of coastal environment, diverse property types, and community standards requires more than standard junk removal service. It demands expertise from a team that understands the discreet, professional approach that La Jolla properties throughout 92037 expect.
-                        </p>
-
-                        <p className="text-lg text-gray-700 mb-6">
-                          Our junk hauling La Jolla operation serves properties throughout the community, from Village apartments near Girard Avenue to Mount Soledad estates with panoramic ocean views. We've removed everything from single furniture pieces during updates to complete multi-structure estate cleanouts involving main residences, guest houses, and pool areas.
-                        </p>
-
-                        <p className="text-lg text-gray-700 mb-6">
-                          Each job receives the same attention to property protection, item handling, and community standards that La Jolla residents demand.
+                          Looking for junk removal La Jolla residents trust? We serve homes from the Cove to UTC throughout the 92037 and 92093 zip codes, specializing in oceanfront properties (Bird Rock, Windansea, La Jolla Shores), hillside estates (Mount Soledad, Muirlands), and gated communities (Hidden Valley, La Jolla Farms). Our team provides discreet, white-glove service for luxury estates, complete property cleanouts, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, and <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">high-end furniture removal</a>. We navigate steep hillside driveways, narrow coastal roads, and gated community security coordination. Same-day service available. Call (619) 750-0114 for transparent pricing and luxury-grade disposal.
                         </p>
 
                         {/* Complete Neighborhood Coverage */}
-                        <h2 className="text-3xl font-bold text-gray-900 mb-8 mt-12">
+                        <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12">
                           La Jolla Neighborhoods We Serve
                         </h2>
-                        <p className="text-xl text-gray-600 mb-8">
-                          Serving the entire La Jolla region with same-day junk removal service that's as professional as your property.
-                        </p>
-
-                        <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
-                          <div className="grid md:grid-cols-2 gap-8">
-                            {/* Coastal & Village Areas */}
-                            <div>
-                              <h3 className="text-xl font-bold mb-3 text-blue-600">Coastal & Village La Jolla</h3>
-                              <ul className="space-y-2 text-gray-700">
-                                <li><strong>La Jolla Village</strong> — Boutique luxury homes and historic properties near Girard Avenue, downtown shopping district</li>
-                                <li><strong>Bird Rock</strong> — Oceanfront estates with private access, coastal residential junk removal, beachside properties</li>
-                                <li><strong>Windansea</strong> — Coastal homes near the iconic beach, estate cleanouts and furniture removal for surf culture landmarks</li>
-                                <li><strong>La Jolla Shores & Cove</strong> — Beachfront residences, luxury condos, and vacation properties along Camino del Oro</li>
-                                <li><strong>Prospect Street Corridor</strong> — Historic mansions, oceanfront compounds, multi-million dollar estates with panoramic views</li>
-                              </ul>
-                            </div>
-
-                            {/* Hillside & Inland Areas */}
-                            <div>
-                              <h3 className="text-xl font-bold mb-3 text-blue-600">Hillside & Inland La Jolla</h3>
-                              <ul className="space-y-2 text-gray-700">
-                                <li><strong>Muirlands & Hidden Valley</strong> — Family compounds, canyon view homes, gated estate communities</li>
-                                <li><strong>Mount Soledad</strong> — Hillside estates, 360-degree view properties, luxury junk hauling for exclusive addresses</li>
-                                <li><strong>Upper Hermosa</strong> — Canyon-view and hillside properties, challenging terrain requiring specialized access</li>
-                                <li><strong>UTC / Torrey Pines</strong> — Executive residences, high-end remodels, <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">medical and dental office junk removal</a></li>
-                                <li><strong>La Jolla Farms</strong> — Exclusive coastal plateau estates, agricultural heritage properties, private gated community</li>
-                              </ul>
-                            </div>
-                          </div>
-
-                          <div className="mt-4 text-center">
-                            <p className="text-gray-700 font-semibold">📞 Call (619) 750-0114 for immediate service in any La Jolla neighborhood</p>
-                          </div>
-                        </div>
-
-                        {/* Major Routes & Streets Coverage */}
-                        <h2 className="text-3xl font-bold text-gray-900 mb-8 mt-12">
-                          Major Routes & Streets We Cover in La Jolla
-                        </h2>
-
-                        <div className="grid md:grid-cols-2 gap-8 mb-8">
-                          {/* Major Corridors */}
-                          <div>
-                            <h3 className="text-xl font-bold mb-3 text-blue-600">Major Streets & Corridors</h3>
-                            <ul className="space-y-2 text-gray-700">
-                              <li><strong>La Jolla Boulevard</strong> — Main coastal corridor connecting Bird Rock to Windansea, narrow winding road</li>
-                              <li><strong>Torrey Pines Road</strong> — Scenic route to UTC and North County, hillside estates and coastal access</li>
-                              <li><strong>Girard Avenue</strong> — Downtown Village shopping district, historic commercial core</li>
-                              <li><strong>Prospect Street</strong> — Iconic oceanfront mansions, $20M+ estate properties, most exclusive addresses</li>
-                              <li><strong>La Jolla Parkway</strong> — Access to Torrey Pines State Reserve and coastal developments</li>
-                              <li><strong>Soledad Mountain Road</strong> — Winding hillside access to Mount Soledad estates</li>
-                            </ul>
-                          </div>
-
-                          {/* Key Residential Streets */}
-                          <div>
-                            <h3 className="text-xl font-bold mb-3 text-blue-600">Key Residential Streets</h3>
-                            <ul className="space-y-2 text-gray-700">
-                              <li><strong>Camino de la Costa</strong> — Luxury oceanfront estates, challenging coastal access</li>
-                              <li><strong>Camino del Oro</strong> — La Jolla Shores beachfront properties</li>
-                              <li><strong>Waverly Avenue</strong> — Bird Rock residential corridor, mixed housing types</li>
-                              <li><strong>Hidden Valley Road</strong> — Secluded canyon estates, private gated properties</li>
-                              <li><strong>Midway Street</strong> — Upper Hermosa hillside homes</li>
-                              <li><strong>Silverado Street</strong> — Muirlands family estates</li>
-                              <li><strong>Colima Street</strong> — Bird Rock coastal neighborhood</li>
-                              <li><strong>Nautilus Street</strong> — Windansea beach community</li>
-                            </ul>
-                          </div>
-                        </div>
+                        <ul className="list-disc pl-6 mb-6 text-gray-700 columns-2">
+                          <li>La Jolla Village</li>
+                          <li>Bird Rock</li>
+                          <li>Windansea</li>
+                          <li>La Jolla Shores & Cove</li>
+                          <li>Prospect Street</li>
+                          <li>Muirlands & Hidden Valley</li>
+                          <li>Mount Soledad</li>
+                          <li>Upper Hermosa</li>
+                          <li>UTC / Torrey Pines</li>
+                          <li>La Jolla Farms</li>
+                        </ul>
 
                         {/* Local Landmarks & Reference Points */}
                         <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12">
-                          La Jolla Landmarks & Community Reference Points
+                          Major Landmarks
                         </h2>
-                        <p className="text-lg text-gray-700 mb-6">
-                          We know La Jolla's iconic landmarks and use them to navigate efficiently to your luxury property, ensuring discreet and timely service throughout this exclusive coastal community.
-                        </p>
-
-                        <div className="bg-white border border-gray-200 rounded-lg p-6 mb-8">
-                          <ul className="grid md:grid-cols-2 gap-3 text-gray-700">
-                            <li><strong>La Jolla Cove</strong> — World-famous coastal landmark, tourist destination, sea lion habitat</li>
-                            <li><strong>Mount Soledad Memorial</strong> — Iconic 360-degree viewpoint, navigational landmark for hillside estates</li>
-                            <li><strong>Torrey Pines Golf Course</strong> — Prestigious public golf course, adjacent luxury estates</li>
-                            <li><strong>UCSD Campus</strong> — Major employer, research institution, UTC area anchor</li>
-                            <li><strong>Scripps Institution of Oceanography</strong> — World-renowned research facility</li>
-                            <li><strong>Westfield UTC Mall</strong> — Premium shopping, executive residential surroundings</li>
-                            <li><strong>Birch Aquarium</strong> — Educational landmark, Scripps campus</li>
-                            <li><strong>La Jolla Playhouse</strong> — Tony Award-winning theater, UCSD campus</li>
-                            <li><strong>The Windansea Shack</strong> — Historic surf culture landmark</li>
-                            <li><strong>La Jolla Country Day School</strong> — Elite private school, family community hub</li>
-                            <li><strong>Museum of Contemporary Art</strong> — Cultural institution, oceanfront Prospect Street</li>
-                            <li><strong>La Valencia Hotel</strong> — Historic pink palace, Village landmark since 1926</li>
-                          </ul>
-                        </div>
-
-                        {/* Traffic Patterns & Coastal Logistics */}
-                        <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12">
-                          Navigating La Jolla's Unique Traffic Patterns
-                        </h2>
-                        <p className="text-lg text-gray-700 mb-6">
-                          Our junk hauling La Jolla crews understand the community's challenging coastal traffic patterns and navigate them expertly to ensure on-time arrivals at your luxury property:
-                        </p>
-
-                        <div className="grid md:grid-cols-2 gap-6 mb-8">
-                          <div className="bg-orange-50 rounded-lg p-4 border border-orange-200">
-                            <h3 className="font-bold mb-2 text-orange-900">Peak Tourist Season (Summer)</h3>
-                            <p className="text-gray-700 mb-2">Memorial Day through Labor Day brings massive tourist traffic to the Cove, Shores, and Village. We schedule early morning or late afternoon appointments to avoid 10 AM - 6 PM congestion on La Jolla Boulevard and Torrey Pines Road.</p>
-                          </div>
-                          <div className="bg-blue-50 rounded-lg p-4 border border-blue-200">
-                            <h3 className="font-bold mb-2 text-blue-900">UCSD Academic Calendar</h3>
-                            <p className="text-gray-700 mb-2">Quarter start/end weeks create significant UTC and Torrey Pines corridor congestion. We adjust routing through Genesee Avenue and use La Jolla Village Drive alternatives during peak student move periods.</p>
-                          </div>
-                          <div className="bg-green-50 rounded-lg p-4 border border-green-200">
-                            <h3 className="font-bold mb-2 text-green-900">Weekend Beach Traffic</h3>
-                            <p className="text-gray-700 mb-2">La Jolla Shores parking lot fills by 9 AM on summer weekends. Camino del Oro and La Jolla Shores Drive experience heavy beach-goer traffic. We prioritize weekday service or early weekend appointments for coastal properties.</p>
-                          </div>
-                          <div className="bg-purple-50 rounded-lg p-4 border border-purple-200">
-                            <h3 className="font-bold mb-2 text-purple-900">UTC Shopping District</h3>
-                            <p className="text-gray-700 mb-2">Westfield UTC and surrounding retail creates consistent weekday evening and weekend congestion. We use Nobel Drive and Genesee Avenue routing to access executive residences efficiently during peak shopping hours.</p>
-                          </div>
-                        </div>
-
-                        <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 mb-8">
-                          <h3 className="text-xl font-bold mb-3 text-yellow-900">Narrow Coastal Roads & Access Challenges</h3>
-                          <p className="text-gray-700 mb-3">
-                            La Jolla's winding, narrow coastal roads require specialized navigation expertise:
-                          </p>
-                          <ul className="list-disc pl-6 space-y-1 text-gray-700">
-                            <li><strong>La Jolla Boulevard:</strong> Narrow two-lane road with blind curves, limited truck turnaround, requires careful timing</li>
-                            <li><strong>Mount Soledad access roads:</strong> Steep grades up to 15%, tight switchbacks, limited parking zones</li>
-                            <li><strong>Hidden Valley estates:</strong> Private gated communities, single-lane canyon roads, security clearance requirements</li>
-                            <li><strong>Prospect Street mansions:</strong> Limited street parking, permit zones, valet-style positioning for discrete service</li>
-                          </ul>
-                        </div>
-
-                        {/* Weather & Coastal Conditions */}
-                        <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12">
-                          La Jolla Weather & Coastal Environmental Factors
-                        </h2>
-                        <p className="text-lg text-gray-700 mb-6">
-                          La Jolla's unique microclimate and coastal location create specific challenges for trash removal La Jolla services. Our luxury-focused team adapts to these conditions:
-                        </p>
-
-                        <div className="grid md:grid-cols-2 gap-6 mb-8">
-                          <div className="bg-blue-50 rounded-lg p-4 border border-blue-200">
-                            <h3 className="font-bold mb-2 text-blue-900">Marine Layer & June Gloom</h3>
-                            <p className="text-gray-700">May through July brings dense morning fog that burns off by afternoon. Coastal properties experience moisture and reduced visibility until 11 AM. We schedule outdoor estate work for late morning or afternoon when conditions improve.</p>
-                          </div>
-                          <div className="bg-green-50 rounded-lg p-4 border border-green-200">
-                            <h3 className="font-bold mb-2 text-green-900">Consistent Mild Climate</h3>
-                            <p className="text-gray-700">La Jolla averages 70°F year-round with minimal seasonal variation. Perfect conditions for estate projects year-round. Peak comfort March-May and September-November for outdoor cleanout work at luxury properties.</p>
-                          </div>
-                          <div className="bg-orange-50 rounded-lg p-4 border border-orange-200">
-                            <h3 className="font-bold mb-2 text-orange-900">Santa Ana Winds</h3>
-                            <p className="text-gray-700">October through February brings occasional hot, dry Santa Ana wind events from inland deserts. Creates fire hazard conditions on brushy hillside estates. We provide extra debris containment and careful disposal during high wind days.</p>
-                          </div>
-                          <div className="bg-purple-50 rounded-lg p-4 border border-purple-200">
-                            <h3 className="font-bold mb-2 text-purple-900">Winter Rainfall</h3>
-                            <p className="text-gray-700">December through March receives 10-12 inches annual rainfall concentrated in occasional storm systems. Hillside estates may experience temporary access issues. We monitor forecasts and schedule around storm events for client convenience.</p>
-                          </div>
-                        </div>
-
-                        <div className="bg-blue-100 p-6 rounded-lg mb-8">
-                          <h3 className="text-xl font-bold mb-3 text-blue-900">Salt Air & Coastal Corrosion Protection</h3>
-                          <p className="text-gray-700">
-                            Oceanfront and coastal properties from Bird Rock to La Jolla Farms experience constant salt air exposure that accelerates deterioration of stored items. Our junk pickup La Jolla service helps luxury homeowners maintain pristine coastal properties by removing salt-damaged furniture, corroded appliances, and weather-exposed outdoor items before they cause property damage.
-                          </p>
-                        </div>
+                        <ul className="list-disc pl-6 mb-6 text-gray-700 columns-2">
+                          <li>La Jolla Cove</li>
+                          <li>Mount Soledad Memorial</li>
+                          <li>Torrey Pines Golf Course</li>
+                          <li>UCSD Campus</li>
+                          <li>Westfield UTC Mall</li>
+                          <li>La Valencia Hotel</li>
+                        </ul>
 
                         {/* Why Choose Us - La Jolla Specific */}
                         <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12">
                           Why La Jolla Residents Choose Severin Cleaners
                         </h2>
 
-                        <div className="bg-gray-50 p-6 rounded-lg mb-6">
-                          <h3 className="text-xl font-bold mb-3">Discreet Service for Exclusive Properties</h3>
-                          <p className="text-gray-700 mb-3">
-                            Our junk removal La Jolla crews use unmarked vehicles and professional uniforms to ensure complete privacy for homeowners in gated and high-profile neighborhoods. We understand the discretion required when servicing $5-50 million properties where celebrity residents and high-net-worth families expect confidential, low-profile service.
-                          </p>
-                          <ul className="list-disc pl-6 space-y-1 text-gray-700">
-                            <li>Unmarked vehicles maintain estate privacy and property appearance</li>
-                            <li>Professional uniforms without flashy branding or logos</li>
-                            <li>Signed non-disclosure agreements available for celebrity and executive clients</li>
-                            <li>Coordinated security clearance with gate staff and property managers</li>
-                            <li>Flexible scheduling to avoid high-visibility daytime hours when requested</li>
-                          </ul>
-                        </div>
-
-                        <div className="bg-blue-50 p-6 rounded-lg mb-6">
-                          <h3 className="text-xl font-bold mb-3 text-blue-900">Expert Navigation of Challenging Terrain</h3>
-                          <p className="text-gray-700 mb-3">
-                            La Jolla's steep hillside estates, winding coastal roads, and exclusive gated communities require specialized expertise that most junk removal services lack. Our crews receive training specific to La Jolla's challenging topography:
-                          </p>
-                          <ul className="list-disc pl-6 space-y-1 text-gray-700">
-                            <li>Mount Soledad hillside estates with 15% grade driveways and switchback access</li>
-                            <li>Hidden Valley canyon properties with single-lane private roads</li>
-                            <li>Narrow La Jolla Boulevard coastal access requiring precision maneuvering</li>
-                            <li>Tight Bird Rock residential streets with limited parking and turnaround space</li>
-                            <li>Prospect Street mansion access with valet-style positioning for discrete loading</li>
-                          </ul>
-                        </div>
-
-                        <div className="bg-green-50 p-6 rounded-lg mb-6">
-                          <h3 className="text-xl font-bold mb-3 text-green-900">Luxury Item Handling Expertise</h3>
-                          <p className="text-gray-700 mb-3">
-                            La Jolla estates feature museum-quality furnishings, priceless antiques, and designer pieces that require white-glove handling expertise. Our specialized La Jolla furniture removal team receives training in proper techniques for valuable items:
-                          </p>
-                          <ul className="list-disc pl-6 space-y-1 text-gray-700">
-                            <li>Custom Italian leather furniture and designer piece expertise</li>
-                            <li>Antique and heirloom furniture preservation techniques</li>
-                            <li>Fine art and sculpture coordination with certified art handlers</li>
-                            <li>Piano and specialty instrument removal with bonded professionals</li>
-                            <li>Auction house coordination (Sotheby's, Christie's) for high-value items</li>
-                            <li>Insurance documentation and value assessment partnerships</li>
-                          </ul>
-                        </div>
-
-                        <div className="bg-yellow-50 p-6 rounded-lg mb-8">
-                          <h3 className="text-xl font-bold mb-3 text-yellow-900">Understanding Coastal Environmental Priorities</h3>
-                          <p className="text-gray-700">
-                            La Jolla residents are passionate about protecting their pristine coastal environment. Our trash removal La Jolla service reflects these values with premium eco-luxury practices that exceed California coastal environmental standards while maintaining the discrete, professional service luxury estates demand.
-                          </p>
-                        </div>
+                        <ul className="space-y-3 mb-6">
+                          <li className="flex items-start">
+                            <span className="text-green-500 text-xl mr-3">✓</span>
+                            <span><strong>Discreet Luxury Service:</strong> We provide unmarked vehicles and professional uniforms for $5-50M properties. Non-disclosure agreements available for celebrity and executive clients. We coordinate security clearance with gate staff and offer flexible scheduling to avoid high-visibility hours.</span>
+                          </li>
+                          <li className="flex items-start">
+                            <span className="text-green-500 text-xl mr-3">✓</span>
+                            <span><strong>Challenging Terrain Expertise:</strong> Our crews navigate Mount Soledad's 15% grade driveways, Hidden Valley single-lane canyon roads, narrow La Jolla Boulevard coastal access, and Prospect Street mansion valet-style positioning. We handle steep hillsides, winding roads, and gated communities expertly.</span>
+                          </li>
+                          <li className="flex items-start">
+                            <span className="text-green-500 text-xl mr-3">✓</span>
+                            <span><strong>White-Glove Item Handling:</strong> We specialize in museum-quality furnishings, antiques, and designer pieces. Coordination with auction houses (Sotheby's, Christie's), certified art handlers for fine art, bonded piano removal, and insurance documentation for high-value items.</span>
+                          </li>
+                          <li className="flex items-start">
+                            <span className="text-green-500 text-xl mr-3">✓</span>
+                            <span><strong>Coastal Environmental Values:</strong> We exceed California coastal environmental standards with premium eco-luxury practices while maintaining discreet, professional service that luxury estates demand. Salt air damage removal and responsible coastal disposal.</span>
+                          </li>
+                        </ul>
 
                         {/* Premium Services Section */}
                         <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12">
-                          Premium Junk Removal Services in La Jolla
+                          Premium Services for La Jolla Estates
                         </h2>
 
-                        <p className="text-lg text-gray-700 mb-6">
-                          Our La Jolla junk removal services include specialized offerings for luxury estates and high-end properties. From <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline font-semibold">estate cleanouts</a> to <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline font-semibold">designer furniture removal</a>, we handle every detail with white-glove care. Need <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline font-semibold">same-day service</a> for your luxury property? We're available throughout La Jolla's exclusive communities.
-                        </p>
-
-                        <div className="grid md:grid-cols-2 gap-8 mb-8">
-                          <div>
-                            <h3 className="text-xl font-bold mb-4 text-blue-600">Luxury Estate Services</h3>
-                            <ul className="space-y-2 text-gray-700">
-                              <li><a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline"><strong>Luxury Estate Cleanouts</strong></a> — Trust properties, inheritances, and estate transitions</li>
-                              <li><a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline"><strong>High-End Furniture Removal</strong></a> — Antiques, designer pieces, fine art coordination</li>
-                              <li><a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline"><strong>Hot Tub & Spa Removal</strong></a> — Backyard luxury amenity disposal and demolition</li>
-                              <li><a href="/piano-removal-san-diego" className="text-blue-600 hover:underline"><strong>Piano Removal</strong></a> — Grand pianos, baby grands, specialty instruments</li>
-                              <li><strong>Property Sale Preparation</strong> — Decluttering and staging for $5M+ listings</li>
-                            </ul>
-                          </div>
-                          <div>
-                            <h3 className="text-xl font-bold mb-4 text-blue-600">Specialized La Jolla Services</h3>
-                            <ul className="space-y-2 text-gray-700">
-                              <li><a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline"><strong>High-End Appliance Removal</strong></a> — Sub-Zero, Viking, luxury appliances</li>
-                              <li><a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline"><strong>Same-Day Junk Removal</strong></a> — Urgent service for luxury properties</li>
-                              <li><strong>Renovation Debris Removal</strong> — Discreet cleanup for luxury remodels</li>
-                              <li><strong>Coastal Property Maintenance</strong> — Salt-damaged item removal</li>
-                              <li><strong>Executive Relocations</strong> — Corporate housing transitions</li>
-                            </ul>
-                          </div>
-                        </div>
-
-                        {/* Estate Cleanouts Detailed Section */}
-                        <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12">Estate Cleanouts in La Jolla</h2>
                         <p className="text-lg text-gray-700 mb-4">
-                          Our specialized <strong>estate cleanout La Jolla</strong> service handles multi-million dollar estates with the discretion and expertise that high-net-worth families require. From $20M oceanfront compounds to historic Prospect Street mansions, we understand both the emotional sensitivity and substantial financial value involved in luxury estate transitions.
+                          We specialize in <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">luxury estate cleanouts</a> for multi-million dollar properties, <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">high-end furniture removal</a> (antiques, designer pieces), <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">luxury appliance removal</a> (Sub-Zero, Viking), <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">hot tub removal</a>, <a href="/piano-removal-san-diego" className="text-blue-600 hover:underline">piano removal</a>, property sale preparation for $5M+ listings, renovation debris removal, salt-damaged coastal item removal, and executive relocations. We coordinate with auction houses (Sotheby's, Christie's), provide appraisal coordination, and offer <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a> for luxury properties throughout the 92037 and 92093 areas.
                         </p>
-                        <div className="bg-gray-50 p-6 rounded-lg mb-6">
-                          <h3 className="text-lg font-bold mb-3 text-gray-900">Premium Estate Services Include:</h3>
-                          <ul className="list-disc pl-6 space-y-1 text-gray-700">
-                            <li>Expert appraisal coordination for valuable art, antiques, and collectibles</li>
-                            <li>White-glove handling of designer furniture and luxury furnishings</li>
-                            <li>Coordination with Sotheby's, Christie's, and premier auction houses</li>
-                            <li>Confidential service with signed non-disclosure agreements</li>
-                            <li>Secure transportation and storage of high-value items</li>
-                            <li>Insurance coordination for valuable item handling and transport</li>
-                            <li>Estate sale company partnerships and luxury consignment coordination</li>
-                          </ul>
-                        </div>
-
-                        <h3 className="text-2xl font-bold mt-8 mb-4">Luxury Home Renovation Support</h3>
-                        <p className="text-lg text-gray-700 mb-4">
-                          La Jolla's luxury properties frequently undergo multi-million dollar renovations to enhance ocean views, update historic details, or modernize for contemporary living. Our premium junk hauling La Jolla service provides construction debris removal and renovation support that maintains project timelines while preserving the neighborhood's ultra-exclusive character.
-                        </p>
-                        <ul className="list-disc pl-6 mb-6 text-gray-700">
-                          <li>High-end kitchen and bathroom remodel debris coordination</li>
-                          <li>Historic home restoration material handling and disposal</li>
-                          <li>Luxury outdoor living space and landscape renovation cleanup</li>
-                          <li>Home theater and wine cellar installation support</li>
-                          <li>Pool house and guest cottage renovation debris removal</li>
-                          <li>View enhancement project coordination and cleanup</li>
-                        </ul>
-
-                        <h3 className="text-2xl font-bold mt-8 mb-4">How Our La Jolla Service Works</h3>
-                        <div className="bg-blue-50 rounded-lg p-6 mb-6">
-                          <ol className="space-y-3 text-gray-700">
-                            <li><strong>1. Initial Contact & Consultation:</strong> Call (619) 750-0114 or book online. For large estate projects, we offer on-site consultations to assess scope and provide accurate estimates. Describe your property location (Village, Bird Rock, Muirlands, etc.) and items for removal.</li>
-                            <li><strong>2. Discrete Scheduling & Access Coordination:</strong> We schedule service windows that accommodate your privacy preferences and property access requirements. For gated communities or estates with security, we coordinate clearance in advance.</li>
-                            <li><strong>3. Professional Arrival & Assessment:</strong> Our uniformed crew arrives in clearly marked vehicles (unmarked vehicles available upon request for high-profile properties). We assess items and provide final transparent pricing before beginning work.</li>
-                            <li><strong>4. White-Glove Removal:</strong> We protect floors and doorways, use professional equipment for valuable items, and handle everything from single pieces to complete estate contents. Most La Jolla jobs complete within 2-4 hours depending on scope.</li>
-                            <li><strong>5. Luxury-Grade Disposal:</strong> High-value items can be coordinated with auction houses, consignment services, or appropriate donation partners. Recyclables go to proper facilities, and only true waste reaches landfill as last resort.</li>
-                            <li><strong>6. Final Walkthrough & Payment:</strong> We complete a walkthrough to ensure satisfaction, sweep all areas clean, and process payment. Many La Jolla clients use our service repeatedly for ongoing property needs.</li>
-                          </ol>
-                        </div>
 
                       </div>
                     </div>
