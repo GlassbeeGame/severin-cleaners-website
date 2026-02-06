@@ -27,13 +27,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Commercial Junk Removal San Diego | Office, Retail & Warehouse Cleanouts | Same-Day Service',
     description: 'Professional commercial junk removal San Diego for offices, retail stores, warehouses. Business cleanouts with disposal documentation, after-hours service. Call (619) 750-0114.',
-    url: 'https://severincleaners.com/commercial-junk-removal-san-diego',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/commercial-junk-removal-san-diego',
+    siteName: 'Severin Hauling',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Commercial Junk Removal San Diego - Severin Cleaners'
+      alt: 'Commercial Junk Removal San Diego - Severin Hauling'
     }],
     locale: 'en_US',
     type: 'website',
@@ -42,10 +42,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Commercial Junk Removal San Diego | Office, Retail & Warehouse Cleanouts | Same-Day Service',
     description: 'Professional commercial junk removal San Diego for offices, retail stores, warehouses. Business cleanouts with disposal documentation, after-hours service. Call (619) 750-0114.',
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://severincleaners.com/commercial-junk-removal-san-diego',
+    canonical: 'https://www.severinhauling.com/commercial-junk-removal-san-diego',
   },
   robots: {
     index: true,
@@ -110,7 +110,7 @@ export default function CommercialjunkremovalsandiegoPage() {
   const serviceSchema = generateServiceSchema({
     name: "Commercial Junk Removal San Diego",
     description: "Professional commercial junk removal San Diego for offices, retail stores, warehouses. Business cleanouts with disposal documentation, concrete disposal San Diego, after-hours service, and commercial accounts.",
-    url: "https://severincleaners.com/commercial-junk-removal-san-diego",
+    url: "https://www.severinhauling.com/commercial-junk-removal-san-diego",
     serviceType: "Commercial Junk Removal Service",
     areaServed: "San Diego County, CA",
   });
@@ -118,9 +118,9 @@ export default function CommercialjunkremovalsandiegoPage() {
   // Enhanced LocalBusiness schema for commercial services
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/commercial-junk-removal-san-diego#business",
-    "name": "Severin Cleaners - Commercial Junk Removal San Diego",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/commercial-junk-removal-san-diego#business",
+    "name": "Severin Hauling - Commercial Junk Removal San Diego",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -134,7 +134,7 @@ export default function CommercialjunkremovalsandiegoPage() {
       "latitude": 32.7157,
       "longitude": -117.1611
     },
-    "url": "https://severincleaners.com/commercial-junk-removal-san-diego",
+    "url": "https://www.severinhauling.com/commercial-junk-removal-san-diego",
     "areaServed": [
       {
         "@type": "City",
@@ -187,9 +187,9 @@ export default function CommercialjunkremovalsandiegoPage() {
   };
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Services", url: "https://severincleaners.com/services" },
-    { name: "Commercial Junk Removal", url: "https://severincleaners.com/commercial-junk-removal-san-diego" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Services", url: "https://www.severinhauling.com/services" },
+    { name: "Commercial Junk Removal", url: "https://www.severinhauling.com/commercial-junk-removal-san-diego" },
   ]);
 
   const faqSchema = generateFAQSchema(commercialFAQs);
@@ -231,7 +231,7 @@ export default function CommercialjunkremovalsandiegoPage() {
                     <h2 className="text-3xl font-bold text-gray-900 mb-6">San Diego Commercial Junk Removal Experts</h2>
 
               <p className="text-lg text-gray-700 mb-6">
-                San Diego businesses require reliable, professional commercial junk removal San Diego services for office relocations, retail renovations, and ongoing business needs. Severin Cleaners provides comprehensive business junk removal San Diego solutions with flexible scheduling, commercial account options, and deep understanding of business operations requirements.
+                San Diego businesses require reliable, professional commercial junk removal San Diego services for office relocations, retail renovations, and ongoing business needs. Severin Hauling provides comprehensive business junk removal San Diego solutions with flexible scheduling, commercial account options, and deep understanding of business operations requirements.
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
@@ -413,7 +413,7 @@ export default function CommercialjunkremovalsandiegoPage() {
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why San Diego Businesses Trust Severin Cleaners</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why San Diego Businesses Trust Severin Hauling</h3>
               <p className="mb-4">
                 As a locally-owned business serving San Diego's commercial community, we understand the importance of treating your business property and operations with professionalism and care. Our commercial junk removal San Diego service combines local market knowledge with professional standards to deliver reliable business solutions. Learn more about our <a href="/blog/how-much-does-junk-removal-cost-san-diego" className="text-blue-600 hover:underline">transparent pricing structure</a> and why businesses choose us over <a href="/blog/dumpster-rental-san-diego-alternatives" className="text-blue-600 hover:underline">dumpster rental alternatives</a>.
               </p>

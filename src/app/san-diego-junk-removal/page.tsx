@@ -32,13 +32,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Junk Removal San Diego | Licensed Local Team • Same-Day Service',
     description: 'Professional San Diego junk removal. Same-day service, transparent pricing $100-$495, licensed & insured. Serving all county neighborhoods.',
-    url: 'https://severincleaners.com/san-diego-junk-removal',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/san-diego-junk-removal',
+    siteName: 'Severin Hauling',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Junk Removal San Diego - Severin Cleaners'
+      alt: 'Junk Removal San Diego - Severin Hauling'
     }],
     locale: 'en_US',
     type: 'website',
@@ -47,10 +47,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Junk Removal San Diego | Licensed Local Team • Same-Day Service',
     description: 'Professional San Diego junk removal. Same-day service, transparent pricing $100-$495, licensed & insured.',
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://severincleaners.com/san-diego-junk-removal',
+    canonical: 'https://www.severinhauling.com/san-diego-junk-removal',
   },
   robots: {
     index: true,
@@ -90,7 +90,7 @@ Our transparent pricing includes all labor, hauling, and proper eco-friendly dis
   },
   {
     question: "Is your company licensed and insured for San Diego County?",
-    answer: "Yes—Severin Cleaners is fully licensed and insured to operate throughout all of San Diego County. We carry comprehensive liability insurance to protect your property during removal and follow all local waste handling regulations. Our team is trained in safe lifting techniques, proper material handling, and San Diego County disposal compliance. You're working with legitimate, professional junk haulers who take responsibility seriously."
+    answer: "Yes—Severin Hauling is fully licensed and insured to operate throughout all of San Diego County. We carry comprehensive liability insurance to protect your property during removal and follow all local waste handling regulations. Our team is trained in safe lifting techniques, proper material handling, and San Diego County disposal compliance. You're working with legitimate, professional junk haulers who take responsibility seriously."
   },
   {
     question: "What are junk removal San Diego prices?",
@@ -106,7 +106,7 @@ export default function SanDiegoJunkRemovalPage() {
   const serviceSchema = generateServiceSchema({
     name: "San Diego Junk Removal",
     description: "Professional junk removal serving all San Diego County. Same-day service available for furniture removal, appliance disposal, estate cleanouts, construction debris removal, and comprehensive junk hauling services.",
-    url: "https://severincleaners.com/san-diego-junk-removal",
+    url: "https://www.severinhauling.com/san-diego-junk-removal",
     serviceType: "Junk Removal Service",
     areaServed: "San Diego County, CA",
   });
@@ -114,9 +114,9 @@ export default function SanDiegoJunkRemovalPage() {
   // LocalBusiness schema with comprehensive details
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/san-diego-junk-removal#business",
-    "name": "Severin Cleaners - San Diego Junk Removal",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/san-diego-junk-removal#business",
+    "name": "Severin Hauling - San Diego Junk Removal",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -160,7 +160,7 @@ export default function SanDiegoJunkRemovalPage() {
           "itemOffered": {
             "@type": "Service",
             "name": "Furniture Disposal San Diego",
-            "url": "https://severincleaners.com/furniture-disposal-san-diego"
+            "url": "https://www.severinhauling.com/furniture-disposal-san-diego"
           }
         },
         {
@@ -168,7 +168,7 @@ export default function SanDiegoJunkRemovalPage() {
           "itemOffered": {
             "@type": "Service",
             "name": "Appliance Removal San Diego",
-            "url": "https://severincleaners.com/appliance-removal-san-diego"
+            "url": "https://www.severinhauling.com/appliance-removal-san-diego"
           }
         },
         {
@@ -176,7 +176,7 @@ export default function SanDiegoJunkRemovalPage() {
           "itemOffered": {
             "@type": "Service",
             "name": "Mattress Disposal San Diego",
-            "url": "https://severincleaners.com/san-diego-mattress-disposal"
+            "url": "https://www.severinhauling.com/san-diego-mattress-disposal"
           }
         },
         {
@@ -184,7 +184,7 @@ export default function SanDiegoJunkRemovalPage() {
           "itemOffered": {
             "@type": "Service",
             "name": "Estate Cleanout San Diego",
-            "url": "https://severincleaners.com/estate-cleanout-san-diego"
+            "url": "https://www.severinhauling.com/estate-cleanout-san-diego"
           }
         },
         {
@@ -192,7 +192,7 @@ export default function SanDiegoJunkRemovalPage() {
           "itemOffered": {
             "@type": "Service",
             "name": "Commercial Junk Removal San Diego",
-            "url": "https://severincleaners.com/commercial-junk-removal-san-diego"
+            "url": "https://www.severinhauling.com/commercial-junk-removal-san-diego"
           }
         },
         {
@@ -200,7 +200,7 @@ export default function SanDiegoJunkRemovalPage() {
           "itemOffered": {
             "@type": "Service",
             "name": "Construction Debris Removal San Diego",
-            "url": "https://severincleaners.com/construction-debris-removal-san-diego"
+            "url": "https://www.severinhauling.com/construction-debris-removal-san-diego"
           }
         },
         {
@@ -208,7 +208,7 @@ export default function SanDiegoJunkRemovalPage() {
           "itemOffered": {
             "@type": "Service",
             "name": "Same Day Junk Removal San Diego",
-            "url": "https://severincleaners.com/same-day-junk-removal-san-diego"
+            "url": "https://www.severinhauling.com/same-day-junk-removal-san-diego"
           }
         }
       ]
@@ -219,7 +219,7 @@ export default function SanDiegoJunkRemovalPage() {
 
   const howToSchema = generateHowToSchema({
     cityName: "San Diego",
-    pageUrl: "https://severincleaners.com/san-diego-junk-removal"
+    pageUrl: "https://www.severinhauling.com/san-diego-junk-removal"
   });
 
   const combinedSchema = {
@@ -258,7 +258,7 @@ export default function SanDiegoJunkRemovalPage() {
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Complete Junk Removal San Diego Services</h2>
 
               <p className="text-lg text-gray-700 mb-6">
-                When you need reliable <strong>junk removal San Diego</strong> can count on, Severin Cleaners delivers professional hauling services throughout San Diego County. Our locally owned team provides same-day service with transparent pricing starting at just $100. From single-item pickups to complete property cleanouts, we handle every job with the same commitment to quality, efficiency, and customer satisfaction. No hidden fees, no surprises, just honest service from licensed and insured professionals who understand San Diego neighborhoods.
+                When you need reliable <strong>junk removal San Diego</strong> can count on, Severin Hauling delivers professional hauling services throughout San Diego County. Our locally owned team provides same-day service with transparent pricing starting at just $100. From single-item pickups to complete property cleanouts, we handle every job with the same commitment to quality, efficiency, and customer satisfaction. No hidden fees, no surprises, just honest service from licensed and insured professionals who understand San Diego neighborhoods.
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
@@ -289,7 +289,7 @@ export default function SanDiegoJunkRemovalPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 text-xl mr-3">✓</span>
-                  <span><strong>Licensed, Insured & Locally Owned:</strong> We're fully licensed and insured to operate throughout San Diego County, with comprehensive liability coverage protecting your property during every job. Unlike national franchises that route calls to different contractors, we're a local family business invested in our reputation. When you call Severin Cleaners, you're working with San Diego neighbors who take pride in serving our community properly.</span>
+                  <span><strong>Licensed, Insured & Locally Owned:</strong> We're fully licensed and insured to operate throughout San Diego County, with comprehensive liability coverage protecting your property during every job. Unlike national franchises that route calls to different contractors, we're a local family business invested in our reputation. When you call Severin Hauling, you're working with San Diego neighbors who take pride in serving our community properly.</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 text-xl mr-3">✓</span>
@@ -661,7 +661,7 @@ export default function SanDiegoJunkRemovalPage() {
                   <thead className="bg-gray-100">
                     <tr>
                       <th className="px-6 py-4 text-left font-semibold text-gray-700">Feature</th>
-                      <th className="px-6 py-4 text-center font-semibold text-green-700">Severin Cleaners</th>
+                      <th className="px-6 py-4 text-center font-semibold text-green-700">Severin Hauling</th>
                       <th className="px-6 py-4 text-center font-semibold text-gray-700">National Franchises</th>
                       <th className="px-6 py-4 text-center font-semibold text-gray-700">DIY Miramar Landfill</th>
                     </tr>

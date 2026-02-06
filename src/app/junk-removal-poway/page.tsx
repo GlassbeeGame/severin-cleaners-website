@@ -21,13 +21,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Junk Removal Poway CA | Ranch & Family Home Specialists',
     description: 'Professional service for ranches, family homes, business parks. Large property specialists with eco-friendly disposal. Call (619) 750-0114.',
-    url: 'https://severincleaners.com/junk-removal-poway',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/junk-removal-poway',
+    siteName: 'Severin Hauling',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Poway Junk Removal - Severin Cleaners'
+      alt: 'Poway Junk Removal - Severin Hauling'
     }],
     locale: 'en_US',
     type: 'website',
@@ -36,10 +36,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Junk Removal Poway CA | Ranch & Family Home Specialists',
     description: 'Professional service for ranches, family homes, business parks. Large property specialists with eco-friendly disposal. Call (619) 750-0114.',
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://severincleaners.com/junk-removal-poway',
+    canonical: 'https://www.severinhauling.com/junk-removal-poway',
   },
   robots: {
     index: true,
@@ -97,9 +97,9 @@ const powayFAQs = [
 
 export default function JunkRemovalPowayPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-    { name: "Poway Junk Removal", url: "https://severincleaners.com/junk-removal-poway" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Areas We Serve", url: "https://www.severinhauling.com/areas-we-serve" },
+    { name: "Poway Junk Removal", url: "https://www.severinhauling.com/junk-removal-poway" },
   ]);
 
   const faqSchema = generateFAQSchema(powayFAQs);
@@ -108,18 +108,18 @@ export default function JunkRemovalPowayPage() {
     "@type": "Service",
     "name": "Junk Removal in Poway CA",
     "description": "Professional junk removal Poway CA for ranches, family homes, business parks. Large property specialists with same-day service and eco-friendly disposal.",
-    "url": "https://severincleaners.com/junk-removal-poway",
+    "url": "https://www.severinhauling.com/junk-removal-poway",
     "serviceType": "Junk Removal",
     "provider": {
-      "@id": "https://severincleaners.com/junk-removal-poway#business"
+      "@id": "https://www.severinhauling.com/junk-removal-poway#business"
     }
   };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/junk-removal-poway#business",
-    "name": "Severin Cleaners LLC",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/junk-removal-poway#business",
+    "name": "Severin Hauling LLC",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -135,7 +135,7 @@ export default function JunkRemovalPowayPage() {
       "latitude": 32.7678,
       "longitude": -117.0231
     },
-    "url": "https://severincleaners.com/junk-removal-poway",
+    "url": "https://www.severinhauling.com/junk-removal-poway",
     "areaServed": [
       {
         "@type": "City",
@@ -163,14 +163,14 @@ export default function JunkRemovalPowayPage() {
     "sameAs": [
       "https://www.facebook.com/severinhauling",
       "https://www.instagram.com/severinhauling/",
-      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.yelp.com/biz/severin-hauling-san-diego",
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
     ]
   };
 
   const howToSchema = generateHowToSchema({
     cityName: "Poway",
-    pageUrl: "https://severincleaners.com/junk-removal-poway"
+    pageUrl: "https://www.severinhauling.com/junk-removal-poway"
   });
 
   const combinedSchema = {
@@ -307,7 +307,7 @@ export default function JunkRemovalPowayPage() {
                     </div>
 
                     {/* Why Choose Us */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Cleaners</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Hauling</h3>
                     <ul className="space-y-3 mb-6">
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>

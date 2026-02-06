@@ -8,11 +8,11 @@ export default function About() {
           {/* Content */}
           <div>
             <h2 className="text-3xl sm:text-4xl font-bold text-neutral-dark mb-6">
-              About Severin Cleaners
+              About Severin Hauling
             </h2>
             <p className="text-lg text-neutral mb-6 leading-relaxed">
               With years of experience serving the greater San Diego area,
-              Severin Cleaners has built a reputation for reliable, professional cleaning services.
+              Severin Hauling has built a reputation for reliable, professional hauling services.
               We understand that every job is unique, and we&apos;re committed to delivering
               exceptional results that exceed your expectations.
             </p>

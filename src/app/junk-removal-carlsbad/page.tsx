@@ -29,16 +29,16 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Junk Removal Carlsbad | La Costa Estates • Coastal Luxury | (619) 750-0114",
     description: "Junk removal Carlsbad CA: La Costa & Aviara luxury estate specialists, coastal beachfront properties, premium residential cleanouts.",
-    url: "https://severincleaners.com/junk-removal-carlsbad",
-    siteName: "Severin Cleaners",
+    url: "https://www.severinhauling.com/junk-removal-carlsbad",
+    siteName: "Severin Hauling",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://severincleaners.com/og-image.jpg",
+        url: "https://www.severinhauling.com/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Junk Removal Carlsbad - Severin Cleaners",
+        alt: "Junk Removal Carlsbad - Severin Hauling",
       },
     ],
   },
@@ -46,10 +46,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Junk Removal Carlsbad | La Costa Estates • Coastal Luxury | (619) 750-0114",
     description: "Junk removal Carlsbad CA: La Costa & Aviara luxury estate specialists, coastal beachfront properties, premium residential cleanouts.",
-    images: ["https://severincleaners.com/og-image.jpg"],
+    images: ["https://www.severinhauling.com/og-image.jpg"],
   },
   alternates: {
-    canonical: "https://severincleaners.com/junk-removal-carlsbad",
+    canonical: "https://www.severinhauling.com/junk-removal-carlsbad",
   },
   robots: {
     index: true,
@@ -93,7 +93,7 @@ const carlsbadFAQs = [
     },
     {
       question: "Are you licensed and insured for junk removal in Carlsbad?",
-      answer: "Yes, Severin Cleaners is fully licensed and insured to provide junk removal services throughout Carlsbad and all of San Diego County. We carry comprehensive general liability insurance that protects your property during the removal process—particularly important for Carlsbad's luxury homes and resort properties where property values are high and careful handling is essential. If our crew accidentally damages walls, floors, landscaping, or valuable finishes while hauling items, our insurance covers repairs. Our licensing ensures compliance with California waste hauling regulations, San Diego County disposal requirements, and local Carlsbad ordinances. We use only licensed disposal facilities and transfer stations, providing documentation when needed for commercial clients, property management companies, or resort operators. Our team follows OSHA safety protocols for heavy lifting and hazardous material handling. For HOA-governed communities throughout Carlsbad, we provide proof of insurance upon request to meet community requirements. Resort property managers and vacation rental companies receive certificates of insurance for their records. Our licensing and insurance give you peace of mind that junk removal is handled professionally, legally, and safely."
+      answer: "Yes, Severin Hauling is fully licensed and insured to provide junk removal services throughout Carlsbad and all of San Diego County. We carry comprehensive general liability insurance that protects your property during the removal process—particularly important for Carlsbad's luxury homes and resort properties where property values are high and careful handling is essential. If our crew accidentally damages walls, floors, landscaping, or valuable finishes while hauling items, our insurance covers repairs. Our licensing ensures compliance with California waste hauling regulations, San Diego County disposal requirements, and local Carlsbad ordinances. We use only licensed disposal facilities and transfer stations, providing documentation when needed for commercial clients, property management companies, or resort operators. Our team follows OSHA safety protocols for heavy lifting and hazardous material handling. For HOA-governed communities throughout Carlsbad, we provide proof of insurance upon request to meet community requirements. Resort property managers and vacation rental companies receive certificates of insurance for their records. Our licensing and insurance give you peace of mind that junk removal is handled professionally, legally, and safely."
     },
     {
       question: "Do you offer free estimates for Carlsbad junk removal?",
@@ -107,9 +107,9 @@ const carlsbadFAQs = [
 
 export default function JunkRemovalCarlsbadPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-    { name: "Junk Removal Carlsbad", url: "https://severincleaners.com/junk-removal-carlsbad" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Areas We Serve", url: "https://www.severinhauling.com/areas-we-serve" },
+    { name: "Junk Removal Carlsbad", url: "https://www.severinhauling.com/junk-removal-carlsbad" },
   ]);
 
   const faqSchema = generateFAQSchema(carlsbadFAQs);
@@ -118,19 +118,19 @@ export default function JunkRemovalCarlsbadPage() {
     "@type": "Service",
     "name": "Junk Removal in Carlsbad",
     "description": "Professional Carlsbad junk removal services for residential and commercial properties. Fast, reliable, eco-friendly disposal with same-day service available.",
-    "url": "https://severincleaners.com/junk-removal-carlsbad",
+    "url": "https://www.severinhauling.com/junk-removal-carlsbad",
     "serviceType": "Junk Removal",
     "provider": {
-      "@id": "https://severincleaners.com/junk-removal-carlsbad#business"
+      "@id": "https://www.severinhauling.com/junk-removal-carlsbad#business"
     }
   };
 
   // Enhanced LocalBusiness schema for Carlsbad
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/junk-removal-carlsbad#business",
-    "name": "Severin Cleaners LLC",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/junk-removal-carlsbad#business",
+    "name": "Severin Hauling LLC",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -146,7 +146,7 @@ export default function JunkRemovalCarlsbadPage() {
       "latitude": 32.7678,
       "longitude": -117.0231
     },
-    "url": "https://severincleaners.com/junk-removal-carlsbad",
+    "url": "https://www.severinhauling.com/junk-removal-carlsbad",
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
     "acceptsReservations": true,
     "currenciesAccepted": "USD",
@@ -237,14 +237,14 @@ export default function JunkRemovalCarlsbadPage() {
     "sameAs": [
       "https://www.facebook.com/severinhauling",
       "https://www.instagram.com/severinhauling/",
-      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.yelp.com/biz/severin-hauling-san-diego",
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
     ]
   };
 
   const howToSchema = generateHowToSchema({
     cityName: "Carlsbad",
-    pageUrl: "https://severincleaners.com/junk-removal-carlsbad"
+    pageUrl: "https://www.severinhauling.com/junk-removal-carlsbad"
   });
 
   const combinedSchema = {
@@ -577,7 +577,7 @@ export default function JunkRemovalCarlsbadPage() {
                     </div>
 
                     {/* Why Choose Us */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Cleaners for Carlsbad Junk Removal</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Hauling for Carlsbad Junk Removal</h3>
                     <ul className="space-y-3 mb-6">
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>

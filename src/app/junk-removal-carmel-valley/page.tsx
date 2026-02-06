@@ -24,13 +24,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Junk Removal Carmel Valley | Professional Hauling Service",
     description: "Reliable junk removal serving all of Carmel Valley from Torrey Highlands to Del Mar Mesa. Upscale residential cleanouts and luxury home services.",
-    url: "https://severincleaners.com/junk-removal-carmel-valley",
-    siteName: 'Severin Cleaners',
+    url: "https://www.severinhauling.com/junk-removal-carmel-valley",
+    siteName: 'Severin Hauling',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Carmel Valley Junk Removal - Severin Cleaners'
+      alt: 'Carmel Valley Junk Removal - Severin Hauling'
     }],
     locale: 'en_US',
     type: 'website',
@@ -39,10 +39,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "Junk Removal Carmel Valley | Professional Hauling Service",
     description: "Reliable junk removal serving all of Carmel Valley from Torrey Highlands to Del Mar Mesa. Upscale residential cleanouts and luxury home services.",
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: "https://severincleaners.com/junk-removal-carmel-valley",
+    canonical: "https://www.severinhauling.com/junk-removal-carmel-valley",
   },
   robots: {
     index: true,
@@ -82,7 +82,7 @@ const carmelValleyFAQs = [
   },
   {
     question: "Are you licensed and insured for junk removal in San Diego?",
-    answer: "Yes, Severin Cleaners is fully licensed and insured for junk removal services throughout San Diego County. We carry comprehensive liability insurance and proper waste hauling permits."
+    answer: "Yes, Severin Hauling is fully licensed and insured for junk removal services throughout San Diego County. We carry comprehensive liability insurance and proper waste hauling permits."
   },
   {
     question: "What items cannot be removed during junk hauling?",
@@ -92,9 +92,9 @@ const carmelValleyFAQs = [
 
 export default function JunkRemovalCarmelValleyPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-    { name: "Carmel Valley Junk Removal", url: "https://severincleaners.com/junk-removal-carmel-valley" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Areas We Serve", url: "https://www.severinhauling.com/areas-we-serve" },
+    { name: "Carmel Valley Junk Removal", url: "https://www.severinhauling.com/junk-removal-carmel-valley" },
   ]);
 
   const faqSchema = generateFAQSchema(carmelValleyFAQs);
@@ -103,18 +103,18 @@ export default function JunkRemovalCarmelValleyPage() {
     "@type": "Service",
     "name": "Junk Removal in Carmel Valley",
     "description": "Professional junk removal services in Carmel Valley, San Diego. Same-day pickup, eco-friendly disposal, and transparent pricing.",
-    "url": "https://severincleaners.com/junk-removal-carmel-valley",
+    "url": "https://www.severinhauling.com/junk-removal-carmel-valley",
     "serviceType": "Junk Removal",
     "provider": {
-      "@id": "https://severincleaners.com/junk-removal-carmel-valley#business"
+      "@id": "https://www.severinhauling.com/junk-removal-carmel-valley#business"
     }
   };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/junk-removal-carmel-valley#business",
-    "name": "Severin Cleaners LLC",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/junk-removal-carmel-valley#business",
+    "name": "Severin Hauling LLC",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -130,7 +130,7 @@ export default function JunkRemovalCarmelValleyPage() {
       "latitude": 32.7678,
       "longitude": -117.0231
     },
-    "url": "https://severincleaners.com/junk-removal-carmel-valley",
+    "url": "https://www.severinhauling.com/junk-removal-carmel-valley",
     "areaServed": [
       {
         "@type": "City",
@@ -152,14 +152,14 @@ export default function JunkRemovalCarmelValleyPage() {
     "sameAs": [
       "https://www.facebook.com/severinhauling",
       "https://www.instagram.com/severinhauling/",
-      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.yelp.com/biz/severin-hauling-san-diego",
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
     ]
   };
 
   const howToSchema = generateHowToSchema({
     cityName: "Carmel Valley",
-    pageUrl: "https://severincleaners.com/junk-removal-carmel-valley"
+    pageUrl: "https://www.severinhauling.com/junk-removal-carmel-valley"
   });
 
   const combinedSchema = {
@@ -363,7 +363,7 @@ export default function JunkRemovalCarmelValleyPage() {
                     </div>
 
                     {/* Why Choose Us */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Cleaners for Carmel Valley Junk Removal</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Hauling for Carmel Valley Junk Removal</h3>
                     <ul className="space-y-3 mb-6">
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>

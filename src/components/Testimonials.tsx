@@ -41,7 +41,7 @@ export default function Testimonials() {
             What Our Customers Say
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Join hundreds of satisfied customers who trust Severin Cleaners for their junk removal needs
+            Join hundreds of satisfied customers who trust Severin Hauling for their junk removal needs
           </p>
         </div>
 

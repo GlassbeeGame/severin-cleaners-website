@@ -20,25 +20,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Junk Removal Services San Diego | Same Day Hauling & Disposal",
     description: "Complete junk removal services in San Diego. Same-day service, furniture removal, appliance disposal, estate cleanouts, construction debris removal. Licensed & insured.",
-    url: "https://severincleaners.com/services",
-    siteName: "Severin Cleaners",
+    url: "https://www.severinhauling.com/services",
+    siteName: "Severin Hauling",
     type: "website",
     locale: "en_US",
     images: [{
-      url: "https://severincleaners.com/og-image.jpg",
+      url: "https://www.severinhauling.com/og-image.jpg",
       width: 1200,
       height: 630,
-      alt: "Junk Removal Services San Diego - Severin Cleaners"
+      alt: "Junk Removal Services San Diego - Severin Hauling"
     }]
   },
   twitter: {
     card: "summary_large_image",
     title: "Junk Removal Services San Diego | Same Day Hauling & Disposal",
     description: "Complete junk removal services in San Diego. Same-day service, furniture removal, appliance disposal, estate cleanouts, construction debris removal.",
-    images: ["https://severincleaners.com/og-image.jpg"]
+    images: ["https://www.severinhauling.com/og-image.jpg"]
   },
   alternates: {
-    canonical: "https://severincleaners.com/services",
+    canonical: "https://www.severinhauling.com/services",
   },
   robots: {
     index: true,
@@ -181,14 +181,14 @@ export default function ServicesPage() {
 
   const serviceSchemaList: ServiceListItem[] = services.map(service => ({
     name: service.title,
-    url: `https://severincleaners.com${service.link}`,
+    url: `https://www.severinhauling.com${service.link}`,
     description: service.description
   }));
 
   const servicesListSchema = generateServicesListSchema(serviceSchemaList);
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Services", url: "https://severincleaners.com/services" }
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Services", url: "https://www.severinhauling.com/services" }
   ]);
 
   const combinedSchema = {
@@ -290,7 +290,7 @@ export default function ServicesPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-3xl font-bold text-gray-900 mb-8">
-                Why Choose Severin Cleaners for Your Junk Removal Needs?
+                Why Choose Severin Hauling for Your Junk Removal Needs?
               </h2>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

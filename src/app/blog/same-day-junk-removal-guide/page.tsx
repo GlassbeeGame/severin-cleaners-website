@@ -19,25 +19,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Same Day Junk Removal Guide | Emergency Pickup in San Diego",
     description: "Complete guide to same-day junk removal. Learn how emergency junk pickup works, pricing, and preparation tips.",
-    url: "https://severincleaners.com/blog/same-day-junk-removal-guide",
-    siteName: "Severin Cleaners",
+    url: "https://www.severinhauling.com/blog/same-day-junk-removal-guide",
+    siteName: "Severin Hauling",
     type: "article",
     locale: "en_US",
     images: [{
-      url: "https://severincleaners.com/og-image.jpg",
+      url: "https://www.severinhauling.com/og-image.jpg",
       width: 1200,
       height: 630,
-      alt: "Same Day Junk Removal Guide - Severin Cleaners"
+      alt: "Same Day Junk Removal Guide - Severin Hauling"
     }]
   },
   twitter: {
     card: "summary_large_image",
     title: "Same Day Junk Removal Guide | Emergency Pickup in San Diego",
     description: "Complete guide to same-day junk removal. Learn how emergency junk pickup works, pricing, and preparation tips.",
-    images: ["https://severincleaners.com/og-image.jpg"]
+    images: ["https://www.severinhauling.com/og-image.jpg"]
   },
   alternates: {
-    canonical: "https://severincleaners.com/blog/same-day-junk-removal-guide",
+    canonical: "https://www.severinhauling.com/blog/same-day-junk-removal-guide",
   },
   robots: {
     index: true,
@@ -64,25 +64,25 @@ export default function SameDayJunkRemovalGuide() {
         "@type": "BlogPosting",
         "headline": "Same Day Junk Removal: Everything You Need to Know (2025 Guide)",
         "description": "Complete guide to same-day junk removal in San Diego. Learn how emergency junk pickup works, pricing, preparation, and when you can get service.",
-        "image": "https://severincleaners.com/og-image.jpg",
+        "image": "https://www.severinhauling.com/og-image.jpg",
         "datePublished": "2025-01-14",
         "dateModified": "2025-01-14",
         "author": {
           "@type": "Organization",
-          "name": "Severin Cleaners",
-          "url": "https://severincleaners.com"
+          "name": "Severin Hauling",
+          "url": "https://www.severinhauling.com"
         },
         "publisher": {
           "@type": "Organization",
-          "name": "Severin Cleaners",
+          "name": "Severin Hauling",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://severincleaners.com/logo.png"
+            "url": "https://www.severinhauling.com/logo.png"
           }
         },
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://severincleaners.com/blog/same-day-junk-removal-guide"
+          "@id": "https://www.severinhauling.com/blog/same-day-junk-removal-guide"
         }
       },
       // HowTo Schema - How to Book Same-Day Service
@@ -95,31 +95,31 @@ export default function SameDayJunkRemovalGuide() {
             "@type": "HowToStep",
             "name": "Call Before 2 PM for Same-Day Service",
             "text": "Contact us at (619) 750-0114 before 2:00 PM to schedule same-day pickup. Earlier calls increase availability.",
-            "url": "https://severincleaners.com/blog/same-day-junk-removal-guide#how-to-book"
+            "url": "https://www.severinhauling.com/blog/same-day-junk-removal-guide#how-to-book"
           },
           {
             "@type": "HowToStep",
             "name": "Describe Your Items",
             "text": "Tell us what needs to be removed and approximate volume. This helps us send the right-sized truck and crew.",
-            "url": "https://severincleaners.com/blog/same-day-junk-removal-guide#how-to-book"
+            "url": "https://www.severinhauling.com/blog/same-day-junk-removal-guide#how-to-book"
           },
           {
             "@type": "HowToStep",
             "name": "Get Your Time Window",
             "text": "We'll provide a 2-4 hour arrival window based on our current schedule. Most same-day jobs complete within 3-6 hours of your call.",
-            "url": "https://severincleaners.com/blog/same-day-junk-removal-guide#how-to-book"
+            "url": "https://www.severinhauling.com/blog/same-day-junk-removal-guide#how-to-book"
           },
           {
             "@type": "HowToStep",
             "name": "Prepare Your Items (Optional)",
             "text": "If time allows, consolidate items in one location for faster service. Not required - we'll gather items from anywhere on your property.",
-            "url": "https://severincleaners.com/blog/same-day-junk-removal-guide#preparation"
+            "url": "https://www.severinhauling.com/blog/same-day-junk-removal-guide#preparation"
           },
           {
             "@type": "HowToStep",
             "name": "We Arrive and Remove Everything",
             "text": "Our team arrives in your time window, loads all items, cleans up, and provides transparent pricing before we start. No hidden fees.",
-            "url": "https://severincleaners.com/blog/same-day-junk-removal-guide#what-to-expect"
+            "url": "https://www.severinhauling.com/blog/same-day-junk-removal-guide#what-to-expect"
           }
         ]
       },

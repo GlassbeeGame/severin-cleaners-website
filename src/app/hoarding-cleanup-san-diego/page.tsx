@@ -28,25 +28,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Hoarding Cleanup San Diego | Compassionate Professional Service",
     description: "Discreet, compassionate hoarding cleanup services in San Diego. Professional junk removal team trained in sensitivity.",
-    url: "https://severincleaners.com/hoarding-cleanup-san-diego",
-    siteName: "Severin Cleaners",
+    url: "https://www.severinhauling.com/hoarding-cleanup-san-diego",
+    siteName: "Severin Hauling",
     type: "website",
     locale: "en_US",
     images: [{
-      url: "https://severincleaners.com/og-image.jpg",
+      url: "https://www.severinhauling.com/og-image.jpg",
       width: 1200,
       height: 630,
-      alt: "Hoarding Cleanup San Diego - Severin Cleaners"
+      alt: "Hoarding Cleanup San Diego - Severin Hauling"
     }]
   },
   twitter: {
     card: "summary_large_image",
     title: "Hoarding Cleanup San Diego | Compassionate Service",
     description: "Professional hoarding cleanup San Diego with compassion and discretion. Judgment-free, confidential service. Call (619) 750-0114.",
-    images: ["https://severincleaners.com/og-image.jpg"]
+    images: ["https://www.severinhauling.com/og-image.jpg"]
   },
   alternates: {
-    canonical: "https://severincleaners.com/hoarding-cleanup-san-diego",
+    canonical: "https://www.severinhauling.com/hoarding-cleanup-san-diego",
   },
   robots: {
     index: true,
@@ -95,15 +95,15 @@ export default function HoardingCleanupPage() {
   const serviceSchema = generateServiceSchema({
     name: "Hoarding Cleanup San Diego",
     description: "Compassionate hoarding cleanup services with professional organizing. Judgment-free, confidential hoarding junk removal.",
-    url: "https://severincleaners.com/hoarding-cleanup-san-diego",
+    url: "https://www.severinhauling.com/hoarding-cleanup-san-diego",
     serviceType: "Hoarding Cleanup Service",
     areaServed: "San Diego County, CA",
   });
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Services", url: "https://severincleaners.com/services" },
-    { name: "Hoarding Cleanup", url: "https://severincleaners.com/hoarding-cleanup-san-diego" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Services", url: "https://www.severinhauling.com/services" },
+    { name: "Hoarding Cleanup", url: "https://www.severinhauling.com/hoarding-cleanup-san-diego" },
   ]);
 
   const faqSchema = generateFAQSchema(hoardingFAQs);

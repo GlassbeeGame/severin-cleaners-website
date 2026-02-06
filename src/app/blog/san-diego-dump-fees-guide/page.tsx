@@ -19,25 +19,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: "San Diego Dump Fees Guide 2025 | Transfer Station Costs",
     description: "Complete guide to San Diego dump fees, locations, and disposal costs. Compare DIY vs professional junk removal.",
-    url: "https://severincleaners.com/blog/san-diego-dump-fees-guide",
-    siteName: "Severin Cleaners",
+    url: "https://www.severinhauling.com/blog/san-diego-dump-fees-guide",
+    siteName: "Severin Hauling",
     type: "article",
     locale: "en_US",
     images: [{
-      url: "https://severincleaners.com/og-image.jpg",
+      url: "https://www.severinhauling.com/og-image.jpg",
       width: 1200,
       height: 630,
-      alt: "San Diego Dump Fees Guide 2025 - Severin Cleaners"
+      alt: "San Diego Dump Fees Guide 2025 - Severin Hauling"
     }]
   },
   twitter: {
     card: "summary_large_image",
     title: "San Diego Dump Fees Guide 2025 | Transfer Station Costs",
     description: "Complete guide to San Diego dump fees, locations, and disposal costs. Compare DIY vs professional junk removal.",
-    images: ["https://severincleaners.com/og-image.jpg"]
+    images: ["https://www.severinhauling.com/og-image.jpg"]
   },
   alternates: {
-    canonical: "https://severincleaners.com/blog/san-diego-dump-fees-guide",
+    canonical: "https://www.severinhauling.com/blog/san-diego-dump-fees-guide",
   },
   robots: {
     index: true,
@@ -64,25 +64,25 @@ export default function SanDiegoDumpFeesGuide() {
         "@type": "BlogPosting",
         "headline": "San Diego Dump Fees Guide 2025: Complete Cost Breakdown & Locations",
         "description": "Complete guide to San Diego dump fees, transfer station locations, disposal costs, and comparison with professional junk removal services.",
-        "image": "https://severincleaners.com/og-image.jpg",
+        "image": "https://www.severinhauling.com/og-image.jpg",
         "datePublished": "2025-01-15",
         "dateModified": "2025-01-15",
         "author": {
           "@type": "Organization",
-          "name": "Severin Cleaners",
-          "url": "https://severincleaners.com"
+          "name": "Severin Hauling",
+          "url": "https://www.severinhauling.com"
         },
         "publisher": {
           "@type": "Organization",
-          "name": "Severin Cleaners",
+          "name": "Severin Hauling",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://severincleaners.com/logo.png"
+            "url": "https://www.severinhauling.com/logo.png"
           }
         },
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://severincleaners.com/blog/san-diego-dump-fees-guide"
+          "@id": "https://www.severinhauling.com/blog/san-diego-dump-fees-guide"
         }
       },
       // HowTo Schema - How to Calculate DIY Costs
@@ -95,37 +95,37 @@ export default function SanDiegoDumpFeesGuide() {
             "@type": "HowToStep",
             "name": "Calculate Truck Rental Cost",
             "text": "Rent a pickup truck from Home Depot or U-Haul. Typical cost: $50-$150 depending on size and rental duration.",
-            "url": "https://severincleaners.com/blog/san-diego-dump-fees-guide#diy-costs"
+            "url": "https://www.severinhauling.com/blog/san-diego-dump-fees-guide#diy-costs"
           },
           {
             "@type": "HowToStep",
             "name": "Factor in Fuel Costs",
             "text": "Calculate round trip distance to the dump and back. Average gas cost for a loaded truck: $15-$30.",
-            "url": "https://severincleaners.com/blog/san-diego-dump-fees-guide#diy-costs"
+            "url": "https://www.severinhauling.com/blog/san-diego-dump-fees-guide#diy-costs"
           },
           {
             "@type": "HowToStep",
             "name": "Add Landfill Dump Fees",
             "text": "San Diego landfills charge $38 minimum plus $75-$150 per ton. Typical pickup load: $70-$150.",
-            "url": "https://severincleaners.com/blog/san-diego-dump-fees-guide#diy-costs"
+            "url": "https://www.severinhauling.com/blog/san-diego-dump-fees-guide#diy-costs"
           },
           {
             "@type": "HowToStep",
             "name": "Account for Uncovered Load Penalties",
             "text": "If your load isn't properly covered, expect a $50+ penalty fee at the dump.",
-            "url": "https://severincleaners.com/blog/san-diego-dump-fees-guide#diy-costs"
+            "url": "https://www.severinhauling.com/blog/san-diego-dump-fees-guide#diy-costs"
           },
           {
             "@type": "HowToStep",
             "name": "Calculate Your Time Value",
             "text": "Loading, driving, unloading, and returning the truck typically takes 3-5 hours of your time.",
-            "url": "https://severincleaners.com/blog/san-diego-dump-fees-guide#diy-costs"
+            "url": "https://www.severinhauling.com/blog/san-diego-dump-fees-guide#diy-costs"
           },
           {
             "@type": "HowToStep",
             "name": "Total the Costs",
             "text": "Add all costs together: Truck rental + Gas + Dump fees + Penalties = $185-$330+. Compare with professional junk removal starting at $69 (small items) or $100 (standard items).",
-            "url": "https://severincleaners.com/blog/san-diego-dump-fees-guide#comparison"
+            "url": "https://www.severinhauling.com/blog/san-diego-dump-fees-guide#comparison"
           }
         ]
       },

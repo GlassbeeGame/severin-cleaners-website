@@ -27,25 +27,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Foreclosure & Eviction Cleanout Services San Diego - Fast & Discreet",
     description: "Professional foreclosure & eviction cleanout services in San Diego. Discreet, fast turnaround for banks, landlords & property managers.",
-    url: 'https://severincleaners.com/foreclosure-eviction-cleanout-san-diego',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/foreclosure-eviction-cleanout-san-diego',
+    siteName: 'Severin Hauling',
     type: 'website',
     locale: 'en_US',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Foreclosure & Eviction Cleanout San Diego - Severin Cleaners'
+      alt: 'Foreclosure & Eviction Cleanout San Diego - Severin Hauling'
     }]
   },
   twitter: {
     card: 'summary_large_image',
     title: "Foreclosure & Eviction Cleanout Services San Diego",
     description: "Professional foreclosure & eviction cleanout services in San Diego. Discreet, fast turnaround for banks, landlords & property managers.",
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: "https://severincleaners.com/foreclosure-eviction-cleanout-san-diego",
+    canonical: "https://www.severinhauling.com/foreclosure-eviction-cleanout-san-diego",
   },
   robots: {
     index: true,
@@ -90,15 +90,15 @@ export default function ForeclosureEvictionCleanoutPage() {
   const serviceSchema = generateServiceSchema({
     name: "Foreclosure & Eviction Cleanout San Diego",
     description: "Professional foreclosure and eviction cleanout services for banks, landlords, and property managers. Discreet, fast turnaround service.",
-    url: "https://severincleaners.com/foreclosure-eviction-cleanout-san-diego",
+    url: "https://www.severinhauling.com/foreclosure-eviction-cleanout-san-diego",
     serviceType: "Foreclosure Cleanout Service",
     areaServed: "San Diego County, CA",
   });
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Services", url: "https://severincleaners.com/services" },
-    { name: "Foreclosure & Eviction Cleanout", url: "https://severincleaners.com/foreclosure-eviction-cleanout-san-diego" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Services", url: "https://www.severinhauling.com/services" },
+    { name: "Foreclosure & Eviction Cleanout", url: "https://www.severinhauling.com/foreclosure-eviction-cleanout-san-diego" },
   ]);
 
   const faqSchema = generateFAQSchema(foreclosureFAQs);

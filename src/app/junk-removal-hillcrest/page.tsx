@@ -23,25 +23,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Hillcrest Junk Removal | Historic Home & Urban Core Specialists | Same-Day Service',
     description: 'Professional Hillcrest junk removal for condos, historic homes, University Heights. Urban core specialists with limited parking solutions. Call (619) 750-0114.',
-    url: 'https://severincleaners.com/junk-removal-hillcrest',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/junk-removal-hillcrest',
+    siteName: 'Severin Hauling',
     type: 'website',
     locale: 'en_US',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Hillcrest Junk Removal - Severin Cleaners'
+      alt: 'Hillcrest Junk Removal - Severin Hauling'
     }]
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Hillcrest Junk Removal | Historic Home & Urban Core Specialists',
     description: 'Professional Hillcrest junk removal for condos, historic homes, University Heights. Urban core specialists with limited parking solutions.',
-    images: ['https://severincleaners.com/og-image.jpg']
+    images: ['https://www.severinhauling.com/og-image.jpg']
   },
   alternates: {
-    canonical: 'https://severincleaners.com/junk-removal-hillcrest',
+    canonical: 'https://www.severinhauling.com/junk-removal-hillcrest',
   },
   robots: {
     index: true,
@@ -87,9 +87,9 @@ const hillcrestFAQs = [
 
 export default function JunkRemovalHillcrestPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-    { name: "Hillcrest Junk Removal", url: "https://severincleaners.com/junk-removal-hillcrest" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Areas We Serve", url: "https://www.severinhauling.com/areas-we-serve" },
+    { name: "Hillcrest Junk Removal", url: "https://www.severinhauling.com/junk-removal-hillcrest" },
   ]);
 
   const faqSchema = generateFAQSchema(hillcrestFAQs);
@@ -98,18 +98,18 @@ export default function JunkRemovalHillcrestPage() {
     "@type": "Service",
     "name": "Junk Removal in Hillcrest",
     "description": "Professional Hillcrest junk removal for condos, historic homes, University Heights. Urban core specialists with limited parking solutions.",
-    "url": "https://severincleaners.com/junk-removal-hillcrest",
+    "url": "https://www.severinhauling.com/junk-removal-hillcrest",
     "serviceType": "Junk Removal",
     "provider": {
-      "@id": "https://severincleaners.com/junk-removal-hillcrest#business"
+      "@id": "https://www.severinhauling.com/junk-removal-hillcrest#business"
     }
   };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/junk-removal-hillcrest#business",
-    "name": "Severin Cleaners LLC",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/junk-removal-hillcrest#business",
+    "name": "Severin Hauling LLC",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -125,7 +125,7 @@ export default function JunkRemovalHillcrestPage() {
       "latitude": 32.7678,
       "longitude": -117.0231
     },
-    "url": "https://severincleaners.com/junk-removal-hillcrest",
+    "url": "https://www.severinhauling.com/junk-removal-hillcrest",
     "areaServed": [
       {
         "@type": "City",
@@ -147,14 +147,14 @@ export default function JunkRemovalHillcrestPage() {
     "sameAs": [
       "https://www.facebook.com/severinhauling",
       "https://www.instagram.com/severinhauling/",
-      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.yelp.com/biz/severin-hauling-san-diego",
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
     ]
   };
 
   const howToSchema = generateHowToSchema({
     cityName: "Hillcrest",
-    pageUrl: "https://severincleaners.com/junk-removal-hillcrest"
+    pageUrl: "https://www.severinhauling.com/junk-removal-hillcrest"
   });
 
   const combinedSchema = {
@@ -395,7 +395,7 @@ export default function JunkRemovalHillcrestPage() {
                       </div>
 
                       <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12">
-                        Why Hillcrest Residents Choose Severin Cleaners
+                        Why Hillcrest Residents Choose Severin Hauling
                       </h2>
 
                       <p className="text-lg text-gray-700 mb-6">
@@ -454,7 +454,7 @@ export default function JunkRemovalHillcrestPage() {
                   Book Your Hillcrest Junk Removal Today
                 </h2>
                 <p className="text-xl mb-8 leading-relaxed">
-                  Whether you're clearing a Fifth Avenue condo, renovating a historic home, or managing a medical district office cleanout, Severin Cleaners delivers the trusted junk removal Hillcrest residents and professionals depend on.
+                  Whether you're clearing a Fifth Avenue condo, renovating a historic home, or managing a medical district office cleanout, Severin Hauling delivers the trusted junk removal Hillcrest residents and professionals depend on.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
                   <a

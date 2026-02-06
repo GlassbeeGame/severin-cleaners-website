@@ -34,7 +34,7 @@ export default function ContactPageClient() {
         },
         body: JSON.stringify({
           name: formData.name,
-          email: formData.email || 'severincleaners@gmail.com',
+          email: formData.email || 'severinhauling@gmail.com',
           phone: formData.phone,
           service: formData.service,
           message: formData.message,
@@ -65,7 +65,7 @@ export default function ContactPageClient() {
           <div className="absolute inset-0">
             <Image
               src="/optimized/contact.jpg"
-              alt="Contact Severin Cleaners for junk removal"
+              alt="Contact Severin Hauling for junk removal"
               fill
               priority
               quality={85}
@@ -207,7 +207,7 @@ export default function ContactPageClient() {
                 </h1>
 
                 <p className="text-lg md:text-xl lg:text-2xl text-white/90 mb-8 leading-relaxed">
-                  Call Severin Cleaners at <a href="tel:6197500114" className="text-white font-black hover:text-blue-400 transition-colors bg-blue-600 px-3 py-1 rounded whitespace-nowrap inline-block">(619) 750-0114</a>
+                  Call Severin Hauling at <a href="tel:6197500114" className="text-white font-black hover:text-blue-400 transition-colors bg-blue-600 px-3 py-1 rounded whitespace-nowrap inline-block">(619) 750-0114</a>
                   <br />
                   or fill out our service request form.
                 </p>
@@ -232,7 +232,7 @@ export default function ContactPageClient() {
                       <svg className="w-5 h-5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                       </svg>
-                      <a href="mailto:severincleaners@gmail.com" className="hover:text-white transition-colors">severincleaners@gmail.com</a>
+                      <a href="mailto:severinhauling@gmail.com" className="hover:text-white transition-colors">severinhauling@gmail.com</a>
                     </p>
                     <p className="flex items-start">
                       <svg className="w-5 h-5 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -244,7 +244,7 @@ export default function ContactPageClient() {
                 </div>
 
                 <p className="text-base md:text-lg text-white/90">
-                  We're ready to help anywhere in San Diego County, from East County to the Coast. Severin Cleaners is a locally owned junk removal company serving residential and commercial customers throughout the greater San Diego area. We specialize in same-day service, furniture removal, appliance disposal, estate cleanouts, and comprehensive junk hauling solutions. Our licensed and insured team provides transparent pricing with no hidden fees.
+                  We're ready to help anywhere in San Diego County, from East County to the Coast. Severin Hauling is a locally owned junk removal company serving residential and commercial customers throughout the greater San Diego area. We specialize in same-day service, furniture removal, appliance disposal, estate cleanouts, and comprehensive junk hauling solutions. Our licensed and insured team provides transparent pricing with no hidden fees.
                 </p>
               </div>
 

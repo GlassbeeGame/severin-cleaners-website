@@ -29,13 +29,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Junk Removal La Mesa | Our HQ • Mount Helix Estates | (619) 750-0114',
     description: 'Junk removal La Mesa CA headquarters: Mount Helix estate specialists, Grossmont medical district, Village urban properties. HQ means fastest response.',
-    url: 'https://severincleaners.com/junk-removal-la-mesa',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/junk-removal-la-mesa',
+    siteName: 'Severin Hauling',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'La Mesa Junk Removal - Severin Cleaners'
+      alt: 'La Mesa Junk Removal - Severin Hauling'
     }],
     locale: 'en_US',
     type: 'website',
@@ -44,10 +44,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Junk Removal La Mesa | Our HQ • Mount Helix Estates | (619) 750-0114',
     description: 'Junk removal La Mesa CA headquarters: Mount Helix estate specialists, Grossmont medical district, Village urban properties. HQ means fastest response.',
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://severincleaners.com/junk-removal-la-mesa',
+    canonical: 'https://www.severinhauling.com/junk-removal-la-mesa',
   },
   robots: {
     index: true,
@@ -102,16 +102,16 @@ const laMesaFAQs = [
     answer: "Yes, we handle all types of furniture (sofas, mattresses, dining sets, office furniture, patio furniture) and appliances (refrigerators, washers, dryers, stoves, water heaters, HVAC units) with proper handling of refrigerants per California regulations. All removed furniture in good condition is donated to East County charities, and appliances go to certified recycling facilities."
   },
   {
-    question: "Why does it matter that Severin Cleaners is headquartered locally?",
+    question: "Why does it matter that Severin Hauling is headquartered locally?",
     answer: "Our local headquarters at 8900 Grossmont Blvd provides faster response times (1-2 hours vs. 2-4 hours from North County), lower costs without travel surcharges, and deep local knowledge of Mount Helix's hillside roads and Village parking logistics. We're invested in this community as residents and business owners, not an outside company making occasional trips into the area."
   }
 ];
 
 export default function JunkRemovalLaMesaPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-    { name: "La Mesa Junk Removal", url: "https://severincleaners.com/junk-removal-la-mesa" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Areas We Serve", url: "https://www.severinhauling.com/areas-we-serve" },
+    { name: "La Mesa Junk Removal", url: "https://www.severinhauling.com/junk-removal-la-mesa" },
   ]);
 
   const faqSchema = generateFAQSchema(laMesaFAQs);
@@ -120,18 +120,18 @@ export default function JunkRemovalLaMesaPage() {
     "@type": "Service",
     "name": "Junk Removal in La Mesa",
     "description": "Affordable junk removal in La Mesa CA. Same-day hauling, transparent pricing, and a faster alternative to the La Mesa dump. Serving Mount Helix, Fletcher Hills, La Mesa Village, Grossmont Center, and all East County neighborhoods.",
-    "url": "https://severincleaners.com/junk-removal-la-mesa",
+    "url": "https://www.severinhauling.com/junk-removal-la-mesa",
     "serviceType": "Junk Removal",
     "provider": {
-      "@id": "https://severincleaners.com/junk-removal-la-mesa#business"
+      "@id": "https://www.severinhauling.com/junk-removal-la-mesa#business"
     }
   };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/junk-removal-la-mesa#business",
-    "name": "Severin Cleaners LLC",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/junk-removal-la-mesa#business",
+    "name": "Severin Hauling LLC",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -147,7 +147,7 @@ export default function JunkRemovalLaMesaPage() {
       "latitude": 32.7678,
       "longitude": -117.0231
     },
-    "url": "https://severincleaners.com/junk-removal-la-mesa",
+    "url": "https://www.severinhauling.com/junk-removal-la-mesa",
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
     "acceptsReservations": true,
     "currenciesAccepted": "USD",
@@ -232,14 +232,14 @@ export default function JunkRemovalLaMesaPage() {
     "sameAs": [
       "https://www.facebook.com/severinhauling",
       "https://www.instagram.com/severinhauling/",
-      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.yelp.com/biz/severin-hauling-san-diego",
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
     ]
   };
 
   const howToSchema = generateHowToSchema({
     cityName: "La Mesa",
-    pageUrl: "https://severincleaners.com/junk-removal-la-mesa"
+    pageUrl: "https://www.severinhauling.com/junk-removal-la-mesa"
   });
 
   const combinedSchema = {
@@ -300,7 +300,7 @@ export default function JunkRemovalLaMesaPage() {
                     </h2>
 
                     <p className="text-lg mb-6 text-gray-700">
-                      Looking for junk removal La Mesa CA residents can trust? Severin Cleaners operates from our headquarters at 8900 Grossmont Blvd, providing same-day service throughout Mount Helix hillside estates, Fletcher Hills family homes, and La Mesa Village downtown properties. We're your faster, easier alternative to the dump with transparent pricing and professional service across all 91941 and 91942 zip codes.
+                      Looking for junk removal La Mesa CA residents can trust? Severin Hauling operates from our headquarters at 8900 Grossmont Blvd, providing same-day service throughout Mount Helix hillside estates, Fletcher Hills family homes, and La Mesa Village downtown properties. We're your faster, easier alternative to the dump with transparent pricing and professional service across all 91941 and 91942 zip codes.
                     </p>
 
                     {/* Why Our HQ Matters */}
@@ -413,7 +413,7 @@ export default function JunkRemovalLaMesaPage() {
                     </div>
 
                     {/* Why Choose Us */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Cleaners</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Hauling</h3>
                     <ul className="space-y-2 mb-6 text-gray-700">
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>

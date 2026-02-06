@@ -25,13 +25,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Junk Removal Vista | Brewery District • Business Park | (619) 750-0114",
     description: "Junk removal Vista CA: Craft brewery district specialists, Business Park warehouse experts, Shadowridge golf community. Same-day junk hauling vista ca service.",
-    url: "https://severincleaners.com/junk-removal-vista",
-    siteName: 'Severin Cleaners',
+    url: "https://www.severinhauling.com/junk-removal-vista",
+    siteName: 'Severin Hauling',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Vista Junk Removal - Severin Cleaners'
+      alt: 'Vista Junk Removal - Severin Hauling'
     }],
     locale: 'en_US',
     type: 'website',
@@ -40,10 +40,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "Junk Removal Vista | Brewery District • Business Park | (619) 750-0114",
     description: "Junk removal Vista CA: Craft brewery district specialists, Business Park warehouse experts, Shadowridge golf community. Same-day junk hauling vista ca service.",
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: "https://severincleaners.com/junk-removal-vista",
+    canonical: "https://www.severinhauling.com/junk-removal-vista",
   },
   robots: {
     index: true,
@@ -101,9 +101,9 @@ const vistaFAQs = [
 
 export default function JunkRemovalVistaPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-    { name: "Vista Junk Removal", url: "https://severincleaners.com/junk-removal-vista" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Areas We Serve", url: "https://www.severinhauling.com/areas-we-serve" },
+    { name: "Vista Junk Removal", url: "https://www.severinhauling.com/junk-removal-vista" },
   ]);
 
   const faqSchema = generateFAQSchema(vistaFAQs);
@@ -112,18 +112,18 @@ export default function JunkRemovalVistaPage() {
     "@type": "Service",
     "name": "Junk Removal in Vista",
     "description": "Professional junk removal vista service for families, apartments & businesses. Same-day junk hauling vista ca, eco-friendly disposal. Serving Shadowridge, Downtown Vista Village, Rancho Buena Vista, Buena Creek.",
-    "url": "https://severincleaners.com/junk-removal-vista",
+    "url": "https://www.severinhauling.com/junk-removal-vista",
     "serviceType": "Junk Removal",
     "provider": {
-      "@id": "https://severincleaners.com/junk-removal-vista#business"
+      "@id": "https://www.severinhauling.com/junk-removal-vista#business"
     }
   };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/junk-removal-vista#business",
-    "name": "Severin Cleaners LLC",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/junk-removal-vista#business",
+    "name": "Severin Hauling LLC",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -139,7 +139,7 @@ export default function JunkRemovalVistaPage() {
       "latitude": 32.7678,
       "longitude": -117.0231
     },
-    "url": "https://severincleaners.com/junk-removal-vista",
+    "url": "https://www.severinhauling.com/junk-removal-vista",
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
     "acceptsReservations": true,
     "currenciesAccepted": "USD",
@@ -224,14 +224,14 @@ export default function JunkRemovalVistaPage() {
     "sameAs": [
       "https://www.facebook.com/severinhauling",
       "https://www.instagram.com/severinhauling/",
-      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.yelp.com/biz/severin-hauling-san-diego",
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
     ]
   };
 
   const howToSchema = generateHowToSchema({
     cityName: "Vista",
-    pageUrl: "https://severincleaners.com/junk-removal-vista"
+    pageUrl: "https://www.severinhauling.com/junk-removal-vista"
   });
 
   const combinedSchema = {
@@ -292,7 +292,7 @@ export default function JunkRemovalVistaPage() {
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      Severin Cleaners provides professional local junk removal for Vista CA, one of North County San Diego's most dynamic cities. From the craft brewery district in Downtown Vista Village to hillside homes in Shadowridge, our junk removal company handles the diverse needs of this 19-square-mile North County community. We offer same day junk removal Vista CA for family homes, apartments, and business properties throughout the 92081, 92083, and 92084 areas with transparent pricing and eco-friendly junk removal services.
+                      Severin Hauling provides professional local junk removal for Vista CA, one of North County San Diego's most dynamic cities. From the craft brewery district in Downtown Vista Village to hillside homes in Shadowridge, our junk removal company handles the diverse needs of this 19-square-mile North County community. We offer same day junk removal Vista CA for family homes, apartments, and business properties throughout the 92081, 92083, and 92084 areas with transparent pricing and eco-friendly junk removal services.
                     </p>
 
                     <p className="text-gray-700 mb-4">

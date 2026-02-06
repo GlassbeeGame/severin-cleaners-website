@@ -28,25 +28,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Construction Debris Removal San Diego | Contractor Hauling & Cleanup",
     description: "Professional construction debris removal San Diego. Fast, reliable service for contractors. Same-day available. Licensed & insured.",
-    url: "https://severincleaners.com/construction-debris-removal-san-diego",
-    siteName: "Severin Cleaners",
+    url: "https://www.severinhauling.com/construction-debris-removal-san-diego",
+    siteName: "Severin Hauling",
     type: "website",
     locale: "en_US",
     images: [{
-      url: "https://severincleaners.com/og-image.jpg",
+      url: "https://www.severinhauling.com/og-image.jpg",
       width: 1200,
       height: 630,
-      alt: "Construction Debris Removal San Diego - Severin Cleaners"
+      alt: "Construction Debris Removal San Diego - Severin Hauling"
     }]
   },
   twitter: {
     card: "summary_large_image",
     title: "Construction Debris Removal San Diego | Contractor Services",
     description: "Professional construction debris removal San Diego. Fast, reliable service for contractors. Same-day available. Call (619) 750-0114!",
-    images: ["https://severincleaners.com/og-image.jpg"]
+    images: ["https://www.severinhauling.com/og-image.jpg"]
   },
   alternates: {
-    canonical: "https://severincleaners.com/construction-debris-removal-san-diego",
+    canonical: "https://www.severinhauling.com/construction-debris-removal-san-diego",
   },
   robots: {
     index: true,
@@ -95,15 +95,15 @@ export default function ConstructionDebrisRemovalPage() {
   const serviceSchema = generateServiceSchema({
     name: "Construction Debris Removal San Diego",
     description: "Professional construction debris removal for contractors. Fast, reliable service for renovation debris, demolition materials, and construction waste.",
-    url: "https://severincleaners.com/construction-debris-removal-san-diego",
+    url: "https://www.severinhauling.com/construction-debris-removal-san-diego",
     serviceType: "Construction Debris Removal Service",
     areaServed: "San Diego County, CA",
   });
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Services", url: "https://severincleaners.com/services" },
-    { name: "Construction Debris Removal", url: "https://severincleaners.com/construction-debris-removal-san-diego" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Services", url: "https://www.severinhauling.com/services" },
+    { name: "Construction Debris Removal", url: "https://www.severinhauling.com/construction-debris-removal-san-diego" },
   ]);
 
   const faqSchema = generateFAQSchema(constructionFAQs);

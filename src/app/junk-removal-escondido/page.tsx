@@ -27,16 +27,16 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Junk Removal Escondido | Wine Country • Hillside • Fire Season",
     description: "Escondido junk removal specialists: Wine country vineyards, hillside estates, wildfire debris. Hidden Meadows to San Pasqual Valley. Same-day, Cal Fire compliant.",
-    url: "https://severincleaners.com/junk-removal-escondido",
-    siteName: "Severin Cleaners",
+    url: "https://www.severinhauling.com/junk-removal-escondido",
+    siteName: "Severin Hauling",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://severincleaners.com/og-image.jpg",
+        url: "https://www.severinhauling.com/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Junk Removal Escondido - Severin Cleaners",
+        alt: "Junk Removal Escondido - Severin Hauling",
       },
     ],
   },
@@ -44,10 +44,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Junk Removal Escondido | Wine Country • Hillside • Fire Season",
     description: "Escondido junk removal specialists: Wine country vineyards, hillside estates, wildfire debris. Hidden Meadows to San Pasqual Valley. Same-day, Cal Fire compliant.",
-    images: ["https://severincleaners.com/og-image.jpg"],
+    images: ["https://www.severinhauling.com/og-image.jpg"],
   },
   alternates: {
-    canonical: "https://severincleaners.com/junk-removal-escondido",
+    canonical: "https://www.severinhauling.com/junk-removal-escondido",
   },
   robots: {
     index: true,
@@ -91,7 +91,7 @@ const escondidoFAQs = [
     },
     {
       question: "Are you licensed and insured for junk removal in Escondido?",
-      answer: "Yes, Severin Cleaners is fully licensed and insured to provide junk removal services throughout Escondido and all of San Diego County. We carry comprehensive general liability insurance that protects your property during the removal process—if our crew accidentally damages walls, floors, or landscaping while hauling items, our insurance covers repairs. Our licensing ensures compliance with California waste hauling regulations, San Diego County disposal requirements, and local Escondido ordinances. We use only licensed disposal facilities and transfer stations, providing documentation when needed for commercial clients or property management companies. Our team follows OSHA safety protocols for heavy lifting and hazardous material handling, protecting both crew and clients. For HOA-governed communities like Hidden Meadows, we provide proof of insurance upon request to meet community requirements. Business clients and property managers receive certificates of insurance for their records. Our licensing and insurance give you peace of mind that junk removal is handled professionally, legally, and safely throughout every Escondido neighborhood."
+      answer: "Yes, Severin Hauling is fully licensed and insured to provide junk removal services throughout Escondido and all of San Diego County. We carry comprehensive general liability insurance that protects your property during the removal process—if our crew accidentally damages walls, floors, or landscaping while hauling items, our insurance covers repairs. Our licensing ensures compliance with California waste hauling regulations, San Diego County disposal requirements, and local Escondido ordinances. We use only licensed disposal facilities and transfer stations, providing documentation when needed for commercial clients or property management companies. Our team follows OSHA safety protocols for heavy lifting and hazardous material handling, protecting both crew and clients. For HOA-governed communities like Hidden Meadows, we provide proof of insurance upon request to meet community requirements. Business clients and property managers receive certificates of insurance for their records. Our licensing and insurance give you peace of mind that junk removal is handled professionally, legally, and safely throughout every Escondido neighborhood."
     },
     {
       question: "Do you offer free estimates for Escondido junk removal?",
@@ -108,19 +108,19 @@ export default function JunkRemovalEscondidoPage() {
     "@type": "Service",
     "name": "Junk Removal in Escondido",
     "description": "Professional Escondido junk removal services for residential and commercial properties. Fast, reliable, eco-friendly disposal with same-day service available.",
-    "url": "https://severincleaners.com/junk-removal-escondido",
+    "url": "https://www.severinhauling.com/junk-removal-escondido",
     "serviceType": "Junk Removal",
     "provider": {
-      "@id": "https://severincleaners.com/junk-removal-escondido#business"
+      "@id": "https://www.severinhauling.com/junk-removal-escondido#business"
     }
   };
 
   // Enhanced LocalBusiness schema for Escondido
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/junk-removal-escondido#business",
-    "name": "Severin Cleaners LLC",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/junk-removal-escondido#business",
+    "name": "Severin Hauling LLC",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -136,7 +136,7 @@ export default function JunkRemovalEscondidoPage() {
       "latitude": 32.7678,
       "longitude": -117.0231
     },
-    "url": "https://severincleaners.com/junk-removal-escondido",
+    "url": "https://www.severinhauling.com/junk-removal-escondido",
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
     "acceptsReservations": true,
     "currenciesAccepted": "USD",
@@ -221,22 +221,22 @@ export default function JunkRemovalEscondidoPage() {
     "sameAs": [
       "https://www.facebook.com/severinhauling",
       "https://www.instagram.com/severinhauling/",
-      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.yelp.com/biz/severin-hauling-san-diego",
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
     ]
   };
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-    { name: "Junk Removal Escondido", url: "https://severincleaners.com/junk-removal-escondido" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Areas We Serve", url: "https://www.severinhauling.com/areas-we-serve" },
+    { name: "Junk Removal Escondido", url: "https://www.severinhauling.com/junk-removal-escondido" },
   ]);
 
   const faqSchema = generateFAQSchema(escondidoFAQs);
 
   const howToSchema = generateHowToSchema({
     cityName: "Escondido",
-    pageUrl: "https://severincleaners.com/junk-removal-escondido"
+    pageUrl: "https://www.severinhauling.com/junk-removal-escondido"
   });
 
   const combinedSchema = {
@@ -537,7 +537,7 @@ export default function JunkRemovalEscondidoPage() {
                     </div>
 
                     {/* Why Choose Us */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Cleaners for Escondido Junk Removal</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Hauling for Escondido Junk Removal</h3>
                     <ul className="space-y-3 mb-6">
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>

@@ -26,25 +26,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Scrap Metal Removal San Diego | Metal Recycling & Appliance Pickup",
     description: "Professional scrap metal removal in San Diego. We recycle copper, aluminum, steel, appliances & all metal types. Same-day pickup available.",
-    url: "https://severincleaners.com/scrap-metal-removal",
-    siteName: 'Severin Cleaners',
+    url: "https://www.severinhauling.com/scrap-metal-removal",
+    siteName: 'Severin Hauling',
     type: 'website',
     locale: 'en_US',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Scrap Metal Removal San Diego - Severin Cleaners'
+      alt: 'Scrap Metal Removal San Diego - Severin Hauling'
     }]
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Scrap Metal Removal San Diego | Metal Recycling & Appliance Pickup',
     description: 'Professional scrap metal removal in San Diego. We recycle copper, aluminum, steel, appliances & all metal types. Same-day pickup available.',
-    images: ['https://severincleaners.com/og-image.jpg']
+    images: ['https://www.severinhauling.com/og-image.jpg']
   },
   alternates: {
-    canonical: "https://severincleaners.com/scrap-metal-removal",
+    canonical: "https://www.severinhauling.com/scrap-metal-removal",
   },
   robots: {
     index: true,
@@ -93,23 +93,23 @@ export default function ScrapMetalRemovalPage() {
   const serviceSchema = generateServiceSchema({
     name: "Scrap Metal Removal San Diego",
     description: "Professional scrap metal removal and recycling in San Diego. We handle copper, aluminum, steel, appliances, and all metal types with eco-friendly disposal.",
-    url: "https://severincleaners.com/scrap-metal-removal",
+    url: "https://www.severinhauling.com/scrap-metal-removal",
     serviceType: "Scrap Metal Removal & Recycling Service",
     areaServed: "San Diego County, CA",
   });
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Services", url: "https://severincleaners.com/services" },
-    { name: "Scrap Metal Removal", url: "https://severincleaners.com/scrap-metal-removal" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Services", url: "https://www.severinhauling.com/services" },
+    { name: "Scrap Metal Removal", url: "https://www.severinhauling.com/scrap-metal-removal" },
   ]);
 
   const reviewSchema = {
     "@type": "Review",
     "itemReviewed": {
       "@type": "LocalBusiness",
-      "@id": "https://severincleaners.com/#business",
-      "name": "Severin Cleaners",
+      "@id": "https://www.severinhauling.com/#business",
+      "name": "Severin Hauling",
       "telephone": "+1-619-750-0114",
       "address": {
         "@type": "PostalAddress",
@@ -121,9 +121,9 @@ export default function ScrapMetalRemovalPage() {
       },
       "priceRange": "$$",
       "image": [
-        "https://severincleaners.com/optimized/couchwithlogo.jpg",
-        "https://severincleaners.com/optimized/toiletteam.jpg",
-        "https://severincleaners.com/optimized/commercial.jpg"
+        "https://www.severinhauling.com/optimized/couchwithlogo.jpg",
+        "https://www.severinhauling.com/optimized/toiletteam.jpg",
+        "https://www.severinhauling.com/optimized/commercial.jpg"
       ]
     },
     "author": {
@@ -140,7 +140,7 @@ export default function ScrapMetalRemovalPage() {
     "publisher": {
       "@type": "Organization",
       "name": "Google",
-      "url": "https://www.google.com/maps/place/Severin+Cleaners"
+      "url": "https://www.google.com/maps/place/Severin+Hauling"
     }
   };
 

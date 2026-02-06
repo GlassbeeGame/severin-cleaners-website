@@ -23,13 +23,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Clairemont Junk Removal | Family Home & Garage Cleanout Specialists | Same-Day Service',
     description: 'Professional Clairemont junk removal for family homes, garage cleanouts, Clairemont Village, Balboa Ave corridor. Residential specialists with eco-friendly service. Call (619) 750-0114.',
-    url: 'https://severincleaners.com/junk-removal-clairemont',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/junk-removal-clairemont',
+    siteName: 'Severin Hauling',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Clairemont Junk Removal - Severin Cleaners'
+      alt: 'Clairemont Junk Removal - Severin Hauling'
     }],
     locale: 'en_US',
     type: 'website',
@@ -38,10 +38,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Clairemont Junk Removal | Family Home & Garage Cleanout Specialists | Same-Day Service',
     description: 'Professional Clairemont junk removal for family homes, garage cleanouts, Clairemont Village, Balboa Ave corridor. Residential specialists with eco-friendly service. Call (619) 750-0114.',
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://severincleaners.com/junk-removal-clairemont',
+    canonical: 'https://www.severinhauling.com/junk-removal-clairemont',
   },
   robots: {
     index: true,
@@ -87,9 +87,9 @@ const clairemontFAQs = [
 
 export default function JunkremovalclairemontPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-    { name: "Clairemont Junk Removal", url: "https://severincleaners.com/junk-removal-clairemont" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Areas We Serve", url: "https://www.severinhauling.com/areas-we-serve" },
+    { name: "Clairemont Junk Removal", url: "https://www.severinhauling.com/junk-removal-clairemont" },
   ]);
 
   const faqSchema = generateFAQSchema(clairemontFAQs);
@@ -98,18 +98,18 @@ export default function JunkremovalclairemontPage() {
     "@type": "Service",
     "name": "Junk Removal in Clairemont",
     "description": "Professional Clairemont junk removal for family homes, garage cleanouts, Clairemont Village, Balboa Ave corridor. Residential specialists with eco-friendly service. Call (619) 750-0114.",
-    "url": "https://severincleaners.com/junk-removal-clairemont",
+    "url": "https://www.severinhauling.com/junk-removal-clairemont",
     "serviceType": "Junk Removal",
     "provider": {
-      "@id": "https://severincleaners.com/junk-removal-clairemont#business"
+      "@id": "https://www.severinhauling.com/junk-removal-clairemont#business"
     }
   };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/junk-removal-clairemont#business",
-    "name": "Severin Cleaners LLC",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/junk-removal-clairemont#business",
+    "name": "Severin Hauling LLC",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -125,11 +125,11 @@ export default function JunkremovalclairemontPage() {
       "latitude": 32.7678,
       "longitude": -117.0231
     },
-    "url": "https://severincleaners.com/junk-removal-clairemont",
+    "url": "https://www.severinhauling.com/junk-removal-clairemont",
     "sameAs": [
       "https://www.facebook.com/severinhauling",
       "https://www.instagram.com/severinhauling/",
-      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.yelp.com/biz/severin-hauling-san-diego",
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
     ],
     "areaServed": [
@@ -154,7 +154,7 @@ export default function JunkremovalclairemontPage() {
 
   const howToSchema = generateHowToSchema({
     cityName: "Clairemont",
-    pageUrl: "https://severincleaners.com/junk-removal-clairemont"
+    pageUrl: "https://www.severinhauling.com/junk-removal-clairemont"
   });
 
   const combinedSchema = {
@@ -374,7 +374,7 @@ export default function JunkremovalclairemontPage() {
                       </div>
 
                       {/* Why Choose Us */}
-                      <h3 className="text-2xl font-bold mt-8 mb-4">Why Clairemont Families Choose Severin Cleaners</h3>
+                      <h3 className="text-2xl font-bold mt-8 mb-4">Why Clairemont Families Choose Severin Hauling</h3>
 
                       <div className="bg-gray-50 p-6 rounded-lg mb-4">
                         <h4 className="text-lg font-bold mb-3 text-gray-900">Local Community Knowledge</h4>
@@ -445,7 +445,7 @@ export default function JunkremovalclairemontPage() {
                   Book Your Clairemont Junk Removal Today
                 </h2>
                 <p className="text-xl mb-8 leading-relaxed">
-                  Whether you're clearing a garage in Bay Ho, organizing a family home in North Clairemont, or managing an estate transition in Clairemont Mesa, Severin Cleaners delivers the trusted junk removal Clairemont families depend on.
+                  Whether you're clearing a garage in Bay Ho, organizing a family home in North Clairemont, or managing an estate transition in Clairemont Mesa, Severin Hauling delivers the trusted junk removal Clairemont families depend on.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
                   <a

@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Page Not Found (404) | Severin Cleaners",
+  title: "Page Not Found (404) | Severin Hauling",
   description: "The page you're looking for doesn't exist. Explore our San Diego junk removal services or contact us for same-day service.",
   robots: {
     index: false,
@@ -24,7 +24,7 @@ export default function NotFound() {
           <div className="absolute inset-0">
             <Image
               src="/optimized/landingpage.jpg"
-              alt="Severin Cleaners San Diego"
+              alt="Severin Hauling San Diego"
               fill
               priority
               quality={85}

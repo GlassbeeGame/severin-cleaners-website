@@ -37,7 +37,7 @@ export default function TrustFactors() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4">
-            Why Choose Severin Cleaners for Junk Removal San Diego?
+            Why Choose Severin Hauling for Junk Removal San Diego?
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             When you need reliable <strong>junk hauling San Diego</strong> services, choose the
@@ -76,7 +76,7 @@ export default function TrustFactors() {
         <div className="bg-blue-600 rounded-xl p-8 mt-12 text-center">
           <h3 className="text-2xl font-bold mb-4">Ready for Professional Junk Removal San Diego?</h3>
           <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-            Join hundreds of satisfied customers who chose Severin Cleaners for reliable,
+            Join hundreds of satisfied customers who chose Severin Hauling for reliable,
             eco-friendly <strong>junk pickup San Diego</strong> services.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

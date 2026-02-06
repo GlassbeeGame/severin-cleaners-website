@@ -19,25 +19,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Areas We Serve | Junk Removal Throughout San Diego County",
     description: "Professional junk removal services throughout San Diego County. Serving all neighborhoods from coastal communities to East County. Same-day service available.",
-    url: "https://severincleaners.com/areas-we-serve",
-    siteName: "Severin Cleaners",
+    url: "https://www.severinhauling.com/areas-we-serve",
+    siteName: "Severin Hauling",
     type: "website",
     locale: "en_US",
     images: [{
-      url: "https://severincleaners.com/og-image.jpg",
+      url: "https://www.severinhauling.com/og-image.jpg",
       width: 1200,
       height: 630,
-      alt: "Areas We Serve - San Diego County Junk Removal - Severin Cleaners"
+      alt: "Areas We Serve - San Diego County Junk Removal - Severin Hauling"
     }]
   },
   twitter: {
     card: "summary_large_image",
     title: "Areas We Serve | Junk Removal Throughout San Diego County",
     description: "Professional junk removal services throughout San Diego County. Serving all neighborhoods from coastal communities to East County. Same-day service available.",
-    images: ["https://severincleaners.com/og-image.jpg"]
+    images: ["https://www.severinhauling.com/og-image.jpg"]
   },
   alternates: {
-    canonical: "https://severincleaners.com/areas-we-serve",
+    canonical: "https://www.severinhauling.com/areas-we-serve",
   },
   robots: {
     index: true,
@@ -85,13 +85,13 @@ export default function AreasWeServePage() {
 
   const areaSchemaList: AreaListItem[] = areas.map(area => ({
     name: area.name,
-    url: `https://severincleaners.com${area.link}`
+    url: `https://www.severinhauling.com${area.link}`
   }));
 
   const areasListSchema = generateAreasListSchema(areaSchemaList);
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" }
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Areas We Serve", url: "https://www.severinhauling.com/areas-we-serve" }
   ]);
 
   const combinedSchema = {
@@ -245,7 +245,7 @@ export default function AreasWeServePage() {
                     📞 Call (619) 750-0114 to Check
                   </a>
                   <a
-                    href="mailto:severincleaners@gmail.com"
+                    href="mailto:severinhauling@gmail.com"
                     className="bg-gray-600 hover:bg-gray-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors"
                   >
                     ✉️ Email Us Your Location

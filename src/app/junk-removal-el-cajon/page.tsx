@@ -28,13 +28,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Junk Removal El Cajon | Multi-Generational Family Property Specialists',
     description: 'Professional junk removal El Cajon CA for family properties, Fletcher Hills estates, East County homes. Same-day service, licensed & insured. (619) 750-0114',
-    url: 'https://severincleaners.com/junk-removal-el-cajon',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/junk-removal-el-cajon',
+    siteName: 'Severin Hauling',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'El Cajon Junk Removal - Severin Cleaners'
+      alt: 'El Cajon Junk Removal - Severin Hauling'
     }],
     locale: 'en_US',
     type: 'website',
@@ -43,10 +43,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Junk Removal El Cajon | Multi-Generational Family Property Specialists',
     description: 'Professional junk removal El Cajon CA for family properties, Fletcher Hills estates, East County homes. Same-day service, licensed & insured.',
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://severincleaners.com/junk-removal-el-cajon',
+    canonical: 'https://www.severinhauling.com/junk-removal-el-cajon',
   },
   robots: {
     index: true,
@@ -104,9 +104,9 @@ const elCajonFAQs = [
 
 export default function JunkRemovalElCajonPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-    { name: "El Cajon Junk Removal", url: "https://severincleaners.com/junk-removal-el-cajon" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Areas We Serve", url: "https://www.severinhauling.com/areas-we-serve" },
+    { name: "El Cajon Junk Removal", url: "https://www.severinhauling.com/junk-removal-el-cajon" },
   ]);
 
   const faqSchema = generateFAQSchema(elCajonFAQs);
@@ -115,18 +115,18 @@ export default function JunkRemovalElCajonPage() {
     "@type": "Service",
     "name": "Junk Removal in El Cajon",
     "description": "Professional service for Fletcher Hills, Rancho San Diego, Granite Hills. East County family property specialists with same-day availability. Call (619) 750-0114.",
-    "url": "https://severincleaners.com/junk-removal-el-cajon",
+    "url": "https://www.severinhauling.com/junk-removal-el-cajon",
     "serviceType": "Junk Removal",
     "provider": {
-      "@id": "https://severincleaners.com/junk-removal-el-cajon#business"
+      "@id": "https://www.severinhauling.com/junk-removal-el-cajon#business"
     }
   };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/junk-removal-el-cajon#business",
-    "name": "Severin Cleaners LLC",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/junk-removal-el-cajon#business",
+    "name": "Severin Hauling LLC",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -142,7 +142,7 @@ export default function JunkRemovalElCajonPage() {
       "latitude": 32.7678,
       "longitude": -117.0231
     },
-    "url": "https://severincleaners.com/junk-removal-el-cajon",
+    "url": "https://www.severinhauling.com/junk-removal-el-cajon",
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
     "acceptsReservations": true,
     "currenciesAccepted": "USD",
@@ -189,7 +189,7 @@ export default function JunkRemovalElCajonPage() {
     "sameAs": [
       "https://www.facebook.com/severinhauling",
       "https://www.instagram.com/severinhauling/",
-      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.yelp.com/biz/severin-hauling-san-diego",
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
     ],
     "hasOfferCatalog": {
@@ -234,7 +234,7 @@ export default function JunkRemovalElCajonPage() {
 
   const howToSchema = generateHowToSchema({
     cityName: "El Cajon",
-    pageUrl: "https://severincleaners.com/junk-removal-el-cajon"
+    pageUrl: "https://www.severinhauling.com/junk-removal-el-cajon"
   });
 
   const combinedSchema = {
@@ -295,7 +295,7 @@ export default function JunkRemovalElCajonPage() {
                     </h2>
 
                     <p className="text-lg mb-6 text-gray-700">
-                      Looking for junk removal El Cajon CA residents trust? Severin Cleaners specializes in East County family properties—from Fletcher Hills hillside estates to Rancho San Diego master-planned communities. We navigate steep driveways, handle multi-generational home cleanouts, and provide expert <a href="/scrap-metal-removal" className="text-blue-600 hover:underline">scrap metal recycling</a> services throughout the area. Whether you're clearing an inherited estate, organizing decades of garage accumulation, or need <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a>, our locally-based team brings compassionate, professional service to every East County property. We also serve nearby <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a>, <a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee</a>, <a href="/junk-removal-lakeside" className="text-blue-600 hover:underline">Lakeside</a>, and <a href="/junk-removal-spring-valley" className="text-blue-600 hover:underline">Spring Valley</a>.
+                      Looking for junk removal El Cajon CA residents trust? Severin Hauling specializes in East County family properties—from Fletcher Hills hillside estates to Rancho San Diego master-planned communities. We navigate steep driveways, handle multi-generational home cleanouts, and provide expert <a href="/scrap-metal-removal" className="text-blue-600 hover:underline">scrap metal recycling</a> services throughout the area. Whether you're clearing an inherited estate, organizing decades of garage accumulation, or need <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a>, our locally-based team brings compassionate, professional service to every East County property. We also serve nearby <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a>, <a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee</a>, <a href="/junk-removal-lakeside" className="text-blue-600 hover:underline">Lakeside</a>, and <a href="/junk-removal-spring-valley" className="text-blue-600 hover:underline">Spring Valley</a>.
                     </p>
 
                     {/* Neighborhoods Served */}
@@ -387,7 +387,7 @@ export default function JunkRemovalElCajonPage() {
                     </p>
 
                     {/* Why Choose Us */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Cleaners</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Hauling</h3>
                     <ul className="space-y-3 mb-6">
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>

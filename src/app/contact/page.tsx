@@ -4,36 +4,36 @@ import SchemaMarkup from '@/components/SchemaMarkup';
 import { generateContactPageSchema, generateBreadcrumbSchema } from '@/lib/schema';
 
 export const metadata: Metadata = {
-  title: 'Contact Severin Cleaners | Same-Day Junk Removal San Diego | (619) 750-0114',
-  description: 'Contact Severin Cleaners for same-day junk removal in San Diego. Call (619) 750-0114 or fill out our form for a free quote. Serving El Cajon and all San Diego County.',
+  title: 'Contact Severin Hauling | Same-Day Junk Removal San Diego | (619) 750-0114',
+  description: 'Contact Severin Hauling for same-day junk removal in San Diego. Call (619) 750-0114 or fill out our form for a free quote. Serving El Cajon and all San Diego County.',
   keywords: [
     'contact junk removal',
     'San Diego junk removal contact',
-    'Severin Cleaners contact',
+    'Severin Hauling contact',
     'junk removal quote'
   ],
   openGraph: {
-    title: 'Contact Severin Cleaners | Same-Day Junk Removal San Diego',
+    title: 'Contact Severin Hauling | Same-Day Junk Removal San Diego',
     description: 'Contact us for same-day junk removal. Call (619) 750-0114 or request a free quote online.',
-    url: 'https://severincleaners.com/contact',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/contact',
+    siteName: 'Severin Hauling',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Contact Severin Cleaners - San Diego Junk Removal',
+      alt: 'Contact Severin Hauling - San Diego Junk Removal',
     }],
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Contact Severin Cleaners | Same-Day Junk Removal San Diego',
+    title: 'Contact Severin Hauling | Same-Day Junk Removal San Diego',
     description: 'Contact us for same-day junk removal. Call (619) 750-0114 or request a free quote online.',
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://severincleaners.com/contact',
+    canonical: 'https://www.severinhauling.com/contact',
   },
   robots: {
     index: true,
@@ -54,8 +54,8 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   const contactSchema = generateContactPageSchema();
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Contact", url: "https://severincleaners.com/contact" }
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Contact", url: "https://www.severinhauling.com/contact" }
   ]);
 
   const combinedSchema = {

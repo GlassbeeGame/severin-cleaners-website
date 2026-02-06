@@ -5,10 +5,10 @@
       "has": [
         {
           "type": "host",
-          "value": "www.severincleaners.com"
+          "value": "www.severinhauling.com"
         }
       ],
-      "destination": "https://severincleaners.com/:path*",
+      "destination": "https://www.severinhauling.com/:path*",
       "permanent": true
     }
   ],

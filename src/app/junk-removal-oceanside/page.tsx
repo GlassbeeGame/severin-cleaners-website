@@ -25,13 +25,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Oceanside Junk Removal | Camp Pendleton & Coastal Property Specialists | Same-Day Service',
     description: 'Professional Oceanside junk removal for Camp Pendleton, coastal properties, vacation rentals. Military discounts available. North County experts. Call (619) 750-0114.',
-    url: 'https://severincleaners.com/junk-removal-oceanside',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/junk-removal-oceanside',
+    siteName: 'Severin Hauling',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Oceanside Junk Removal - Severin Cleaners'
+      alt: 'Oceanside Junk Removal - Severin Hauling'
     }],
     locale: 'en_US',
     type: 'website',
@@ -40,10 +40,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Oceanside Junk Removal | Camp Pendleton & Coastal Property Specialists | Same-Day Service',
     description: 'Professional Oceanside junk removal for Camp Pendleton, coastal properties, vacation rentals. Military discounts available. North County experts. Call (619) 750-0114.',
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://severincleaners.com/junk-removal-oceanside',
+    canonical: 'https://www.severinhauling.com/junk-removal-oceanside',
   },
   robots: {
     index: true,
@@ -104,19 +104,19 @@ export default function JunkRemovalOceansidePage() {
     "@type": "Service",
     "name": "Junk Removal in Oceanside",
     "description": "Professional Oceanside junk removal for Camp Pendleton, coastal properties, vacation rentals. Military discounts available. North County experts.",
-    "url": "https://severincleaners.com/junk-removal-oceanside",
+    "url": "https://www.severinhauling.com/junk-removal-oceanside",
     "serviceType": "Junk Removal",
     "provider": {
-      "@id": "https://severincleaners.com/junk-removal-oceanside#business"
+      "@id": "https://www.severinhauling.com/junk-removal-oceanside#business"
     }
   };
 
   // Enhanced LocalBusiness schema for Oceanside
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/junk-removal-oceanside#business",
-    "name": "Severin Cleaners LLC",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/junk-removal-oceanside#business",
+    "name": "Severin Hauling LLC",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -132,7 +132,7 @@ export default function JunkRemovalOceansidePage() {
       "latitude": 32.7678,
       "longitude": -117.0231
     },
-    "url": "https://severincleaners.com/junk-removal-oceanside",
+    "url": "https://www.severinhauling.com/junk-removal-oceanside",
     "areaServed": [
       {
         "@type": "City",
@@ -215,22 +215,22 @@ export default function JunkRemovalOceansidePage() {
     "sameAs": [
       "https://www.facebook.com/severinhauling",
       "https://www.instagram.com/severinhauling/",
-      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.yelp.com/biz/severin-hauling-san-diego",
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
     ]
   };
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-    { name: "Oceanside Junk Removal", url: "https://severincleaners.com/junk-removal-oceanside" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Areas We Serve", url: "https://www.severinhauling.com/areas-we-serve" },
+    { name: "Oceanside Junk Removal", url: "https://www.severinhauling.com/junk-removal-oceanside" },
   ]);
 
   const faqSchema = generateFAQSchema(oceansideFAQs);
 
   const howToSchema = generateHowToSchema({
     cityName: "Oceanside",
-    pageUrl: "https://severincleaners.com/junk-removal-oceanside"
+    pageUrl: "https://www.severinhauling.com/junk-removal-oceanside"
   });
 
   const combinedSchema = {
@@ -337,7 +337,7 @@ export default function JunkRemovalOceansidePage() {
                     </p>
 
                     {/* Why Choose Us */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Cleaners for Oceanside Junk Removal</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Hauling for Oceanside Junk Removal</h3>
                     <ul className="space-y-3 mb-6">
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>

@@ -26,27 +26,27 @@ export const metadata: Metadata = {
     "eco-friendly appliance disposal"
   ],
   openGraph: {
-    title: "Appliance Removal San Diego | Refrigerator & Washer Disposal | Severin Cleaners",
+    title: "Appliance Removal San Diego | Refrigerator & Washer Disposal | Severin Hauling",
     description: "Professional appliance removal in San Diego. We remove refrigerators, washers, dryers, stoves, and all appliance types. Same-day service available. Call (619) 750-0114. Starting at $100.",
-    url: "https://severincleaners.com/appliance-removal-san-diego",
-    siteName: "Severin Cleaners",
+    url: "https://www.severinhauling.com/appliance-removal-san-diego",
+    siteName: "Severin Hauling",
     type: "website",
     locale: "en_US",
     images: [{
-      url: "https://severincleaners.com/og-image.jpg",
+      url: "https://www.severinhauling.com/og-image.jpg",
       width: 1200,
       height: 630,
-      alt: "Appliance Removal San Diego - Severin Cleaners"
+      alt: "Appliance Removal San Diego - Severin Hauling"
     }]
   },
   twitter: {
     card: "summary_large_image",
     title: "Appliance Removal San Diego | Fridge & Washer Disposal",
     description: "Professional appliance removal in San Diego. We remove refrigerators, washers, dryers, stoves. Same-day service. Call (619) 750-0114!",
-    images: ["https://severincleaners.com/og-image.jpg"]
+    images: ["https://www.severinhauling.com/og-image.jpg"]
   },
   alternates: {
-    canonical: "https://severincleaners.com/appliance-removal-san-diego",
+    canonical: "https://www.severinhauling.com/appliance-removal-san-diego",
   },
   robots: {
     index: true,
@@ -103,15 +103,15 @@ export default function ApplianceRemovalPage() {
   const serviceSchema = generateServiceSchema({
     name: "Appliance Removal San Diego",
     description: "Professional appliance removal in San Diego. We remove refrigerators, washers, dryers, stoves, and all appliance types. Eco-friendly disposal.",
-    url: "https://severincleaners.com/appliance-removal-san-diego",
+    url: "https://www.severinhauling.com/appliance-removal-san-diego",
     serviceType: "Appliance Removal Service",
     areaServed: "San Diego County, CA",
   });
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Services", url: "https://severincleaners.com/services" },
-    { name: "Appliance Removal", url: "https://severincleaners.com/appliance-removal-san-diego" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Services", url: "https://www.severinhauling.com/services" },
+    { name: "Appliance Removal", url: "https://www.severinhauling.com/appliance-removal-san-diego" },
   ]);
 
   const faqSchema = generateFAQSchema(applianceFAQs);

@@ -4,7 +4,7 @@ export default function Contact() {
       <div className="container">
         <div className="text-center">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-6 md:mb-8">
-            Ready for Same Day Junk Removal?<br />Contact Severin Cleaners Today
+            Ready for Same Day Junk Removal?<br />Contact Severin Hauling Today
           </h2>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-stretch max-w-2xl mx-auto">

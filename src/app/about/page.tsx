@@ -7,37 +7,37 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateOrganizationSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "About Us | Severin Cleaners | Locally Owned San Diego Junk Removal",
-  description: "Learn about Severin Cleaners, a locally owned San Diego junk removal company serving 200+ happy clients. Licensed, insured, and trusted for same-day junk hauling across San Diego County.",
+  title: "About Us | Severin Hauling | Locally Owned San Diego Junk Removal",
+  description: "Learn about Severin Hauling, a locally owned San Diego junk removal company serving 200+ happy clients. Licensed, insured, and trusted for same-day junk hauling across San Diego County.",
   keywords: [
     "San Diego junk removal",
-    "about Severin Cleaners",
+    "about Severin Hauling",
     "junk hauling San Diego",
     "trash removal San Diego",
     "locally owned junk removal"
   ],
   openGraph: {
-    title: "About Severin Cleaners | Locally Owned San Diego Junk Removal",
+    title: "About Severin Hauling | Locally Owned San Diego Junk Removal",
     description: "Locally owned and trusted by 200+ San Diego clients. Same-day junk removal with transparent pricing and professional service.",
-    url: "https://severincleaners.com/about",
-    siteName: "Severin Cleaners",
+    url: "https://www.severinhauling.com/about",
+    siteName: "Severin Hauling",
     type: "website",
     locale: "en_US",
     images: [{
-      url: "https://severincleaners.com/og-image.jpg",
+      url: "https://www.severinhauling.com/og-image.jpg",
       width: 1200,
       height: 630,
-      alt: "About Severin Cleaners - Locally Owned San Diego Junk Removal"
+      alt: "About Severin Hauling - Locally Owned San Diego Junk Removal"
     }]
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Severin Cleaners | Locally Owned San Diego Junk Removal",
+    title: "About Severin Hauling | Locally Owned San Diego Junk Removal",
     description: "Locally owned and trusted by 200+ San Diego clients. Same-day junk removal with transparent pricing and professional service.",
-    images: ["https://severincleaners.com/og-image.jpg"]
+    images: ["https://www.severinhauling.com/og-image.jpg"]
   },
   alternates: {
-    canonical: "https://severincleaners.com/about",
+    canonical: "https://www.severinhauling.com/about",
   },
   robots: {
     index: true,
@@ -58,8 +58,8 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   const organizationSchema = generateOrganizationSchema();
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "About Us", url: "https://severincleaners.com/about" }
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "About Us", url: "https://www.severinhauling.com/about" }
   ]);
 
   const combinedSchema = {
@@ -80,7 +80,7 @@ export default function AboutPage() {
               <div className="mb-6 flex justify-center">
                 <Image
                   src="/logo.png"
-                  alt="Severin Cleaners Logo"
+                  alt="Severin Hauling Logo"
                   width={128}
                   height={128}
                   className="h-32 w-32 object-contain drop-shadow-2xl"
@@ -88,7 +88,7 @@ export default function AboutPage() {
                 />
               </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                About Severin Cleaners
+                About Severin Hauling
               </h1>
               <p className="text-2xl md:text-3xl mb-6 text-blue-100 font-semibold italic">
                 "From Junk to Shine — San Diego's Local Before-and-After Junk Removal Experts."
@@ -141,7 +141,7 @@ export default function AboutPage() {
                 </h2>
                 <div className="max-w-4xl mx-auto mb-8">
                   <p className="text-gray-700 leading-relaxed mb-4 text-lg">
-                    At Severin Cleaners, our mission is simple: <strong>restore, refresh, and reclaim</strong>.
+                    At Severin Hauling, our mission is simple: <strong>restore, refresh, and reclaim</strong>.
                   </p>
                   <p className="text-gray-700 leading-relaxed mb-4">
                     We handle every junk removal job with care — from downtown apartments and coastal estates to commercial properties and backyard transformations throughout San Diego County.
@@ -366,7 +366,7 @@ export default function AboutPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
               <h2 className="text-3xl font-bold mb-4 text-gray-900 text-center">
-                Why San Diego Chooses Severin Cleaners
+                Why San Diego Chooses Severin Hauling
               </h2>
               <p className="text-center text-gray-600 mb-10 max-w-3xl mx-auto">
                 With over <strong>200+ happy customers</strong>, licensed & insured crews, and same-day availability, we're proud to be one of San Diego's most trusted junk removal teams.
@@ -437,7 +437,7 @@ export default function AboutPage() {
                 Serving All of San Diego County
               </h2>
               <p className="text-center text-gray-700 mb-10 max-w-3xl mx-auto">
-                Severin Cleaners proudly serves every part of San Diego County. Wherever you are in San Diego, we handle all your junk removal needs — quickly, safely, and professionally.
+                Severin Hauling proudly serves every part of San Diego County. Wherever you are in San Diego, we handle all your junk removal needs — quickly, safely, and professionally.
               </p>
 
               <div className="grid md:grid-cols-5 gap-4 mb-8">
@@ -518,7 +518,7 @@ export default function AboutPage() {
               "From Junk to Shine — San Diego's Local Before-and-After Junk Removal Experts."
             </p>
             <p className="text-lg text-blue-200 mb-8">
-              Severin Cleaners • Locally Owned • Same-Day Service • From Junk to Shine
+              Severin Hauling • Locally Owned • Same-Day Service • From Junk to Shine
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

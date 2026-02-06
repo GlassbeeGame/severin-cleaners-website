@@ -31,7 +31,7 @@ export const REVIEW_CONFIG = {
     "https://www.instagram.com/severinhauling/",
     "https://www.facebook.com/severinhauling",
     "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888",
-    "https://www.yelp.com/biz/severin-cleaners-san-diego",
+    "https://www.yelp.com/biz/severin-hauling-san-diego",
   ],
 } as const;
 
@@ -67,7 +67,7 @@ export const FEATURED_TESTIMONIALS: Testimonial[] = [
     location: "El Cajon, CA",
     service: "Estate Cleanout",
     rating: 5,
-    text: "Severin Cleaners made a difficult time so much easier. They handled my mother's estate cleanout with compassion and professionalism. Everything was sorted, donated, or disposed of properly. Highly recommend!",
+    text: "Severin Hauling made a difficult time so much easier. They handled my mother's estate cleanout with compassion and professionalism. Everything was sorted, donated, or disposed of properly. Highly recommend!",
     date: "November 2024",
     datePublished: "2024-11-01",
     googleReview: true
@@ -100,7 +100,7 @@ export const FEATURED_TESTIMONIALS: Testimonial[] = [
     location: "Spring Valley, CA",
     service: "Garage Cleanout",
     rating: 5,
-    text: "20 years of accumulated junk gone in one morning! The crew was efficient, friendly, and took care to salvage items for donation. My garage is finally usable again. Thank you Severin Cleaners!",
+    text: "20 years of accumulated junk gone in one morning! The crew was efficient, friendly, and took care to salvage items for donation. My garage is finally usable again. Thank you Severin Hauling!",
     date: "September 2024",
     datePublished: "2024-09-22",
     googleReview: true
@@ -122,7 +122,7 @@ export const FEATURED_TESTIMONIALS: Testimonial[] = [
     location: "San Diego, CA",
     service: "Commercial Junk Removal",
     rating: 5,
-    text: "We needed our office cleared out quickly for new tenants. Severin Cleaners worked around our schedule, completed everything in one day, and left the space spotless. Professional and reliable!",
+    text: "We needed our office cleared out quickly for new tenants. Severin Hauling worked around our schedule, completed everything in one day, and left the space spotless. Professional and reliable!",
     date: "August 2024",
     datePublished: "2024-08-20",
     googleReview: true

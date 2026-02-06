@@ -29,13 +29,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Junk Removal Santee | Santee Lakes RV • Trolley Square • Carlton Hills',
     description: 'Junk removal Santee: Santee Lakes RV equipment, Trolley Square apartments, Carlton Hills family garages. Recreation gear specialists. Call (619) 750-0114.',
-    url: 'https://severincleaners.com/junk-removal-santee',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/junk-removal-santee',
+    siteName: 'Severin Hauling',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Santee Junk Removal - Severin Cleaners'
+      alt: 'Santee Junk Removal - Severin Hauling'
     }],
     locale: 'en_US',
     type: 'website',
@@ -44,10 +44,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Junk Removal Santee | Santee Lakes RV • Trolley Square • Carlton Hills',
     description: 'Junk removal Santee: Santee Lakes RV equipment, Trolley Square apartments, Carlton Hills family garages. Recreation gear specialists. Call (619) 750-0114.',
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://severincleaners.com/junk-removal-santee',
+    canonical: 'https://www.severinhauling.com/junk-removal-santee',
   },
   robots: {
     index: true,
@@ -105,9 +105,9 @@ const santeeFAQs = [
 
 export default function JunkRemovalSanteePage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-    { name: "Santee Junk Removal", url: "https://severincleaners.com/junk-removal-santee" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Areas We Serve", url: "https://www.severinhauling.com/areas-we-serve" },
+    { name: "Santee Junk Removal", url: "https://www.severinhauling.com/junk-removal-santee" },
   ]);
 
   const faqSchema = generateFAQSchema(santeeFAQs);
@@ -116,18 +116,18 @@ export default function JunkRemovalSanteePage() {
     "@type": "Service",
     "name": "Junk Removal in Santee",
     "description": "Professional junk removal Santee for family homes, garage cleanouts, Carlton Hills, Sky Ranch. East County specialists with same-day service and eco-friendly disposal.",
-    "url": "https://severincleaners.com/junk-removal-santee",
+    "url": "https://www.severinhauling.com/junk-removal-santee",
     "serviceType": "Junk Removal",
     "provider": {
-      "@id": "https://severincleaners.com/junk-removal-santee#business"
+      "@id": "https://www.severinhauling.com/junk-removal-santee#business"
     }
   };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/junk-removal-santee#business",
-    "name": "Severin Cleaners LLC",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/junk-removal-santee#business",
+    "name": "Severin Hauling LLC",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -143,7 +143,7 @@ export default function JunkRemovalSanteePage() {
       "latitude": 32.7678,
       "longitude": -117.0231
     },
-    "url": "https://severincleaners.com/junk-removal-santee",
+    "url": "https://www.severinhauling.com/junk-removal-santee",
     "areaServed": [
       {
         "@type": "City",
@@ -165,7 +165,7 @@ export default function JunkRemovalSanteePage() {
     "sameAs": [
       "https://www.facebook.com/severinhauling",
       "https://www.instagram.com/severinhauling/",
-      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.yelp.com/biz/severin-hauling-san-diego",
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
     ],
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
@@ -223,7 +223,7 @@ export default function JunkRemovalSanteePage() {
 
   const howToSchema = generateHowToSchema({
     cityName: "Santee",
-    pageUrl: "https://severincleaners.com/junk-removal-santee"
+    pageUrl: "https://www.severinhauling.com/junk-removal-santee"
   });
 
   const combinedSchema = {

@@ -23,13 +23,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Mira Mesa Junk Removal | Same-Day Pickup & Hauling Service",
     description: "Professional Mira Mesa junk removal for homes and businesses. Same-day service, affordable pricing, eco-friendly disposal. Call (619) 750-0114!",
-    url: "https://severincleaners.com/junk-removal-mira-mesa",
-    siteName: 'Severin Cleaners',
+    url: "https://www.severinhauling.com/junk-removal-mira-mesa",
+    siteName: 'Severin Hauling',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Mira Mesa Junk Removal - Severin Cleaners'
+      alt: 'Mira Mesa Junk Removal - Severin Hauling'
     }],
     locale: 'en_US',
     type: 'website',
@@ -38,10 +38,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "Mira Mesa Junk Removal | Same-Day Pickup & Hauling Service",
     description: "Professional Mira Mesa junk removal for homes and businesses. Same-day service, affordable pricing, eco-friendly disposal. Call (619) 750-0114!",
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: "https://severincleaners.com/junk-removal-mira-mesa",
+    canonical: "https://www.severinhauling.com/junk-removal-mira-mesa",
   },
   robots: {
     index: true,
@@ -87,9 +87,9 @@ const miraMesaFAQs = [
 
 export default function JunkRemovalMiraMesaPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-    { name: "Mira Mesa Junk Removal", url: "https://severincleaners.com/junk-removal-mira-mesa" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Areas We Serve", url: "https://www.severinhauling.com/areas-we-serve" },
+    { name: "Mira Mesa Junk Removal", url: "https://www.severinhauling.com/junk-removal-mira-mesa" },
   ]);
 
   const faqSchema = generateFAQSchema(miraMesaFAQs);
@@ -98,18 +98,18 @@ export default function JunkRemovalMiraMesaPage() {
     "@type": "Service",
     "name": "Junk Removal in Mira Mesa",
     "description": "Professional Mira Mesa junk removal for homes and businesses. Same-day service, affordable pricing, eco-friendly disposal from Sorrento Valley to Black Mountain Road.",
-    "url": "https://severincleaners.com/junk-removal-mira-mesa",
+    "url": "https://www.severinhauling.com/junk-removal-mira-mesa",
     "serviceType": "Junk Removal",
     "provider": {
-      "@id": "https://severincleaners.com/junk-removal-mira-mesa#business"
+      "@id": "https://www.severinhauling.com/junk-removal-mira-mesa#business"
     }
   };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/junk-removal-mira-mesa#business",
-    "name": "Severin Cleaners LLC",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/junk-removal-mira-mesa#business",
+    "name": "Severin Hauling LLC",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -125,7 +125,7 @@ export default function JunkRemovalMiraMesaPage() {
       "latitude": 32.7678,
       "longitude": -117.0231
     },
-    "url": "https://severincleaners.com/junk-removal-mira-mesa",
+    "url": "https://www.severinhauling.com/junk-removal-mira-mesa",
     "areaServed": [
       {
         "@type": "City",
@@ -153,14 +153,14 @@ export default function JunkRemovalMiraMesaPage() {
     "sameAs": [
       "https://www.facebook.com/severinhauling",
       "https://www.instagram.com/severinhauling/",
-      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.yelp.com/biz/severin-hauling-san-diego",
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
     ]
   };
 
   const howToSchema = generateHowToSchema({
     cityName: "Mira Mesa",
-    pageUrl: "https://severincleaners.com/junk-removal-mira-mesa"
+    pageUrl: "https://www.severinhauling.com/junk-removal-mira-mesa"
   });
 
   const combinedSchema = {
@@ -365,7 +365,7 @@ export default function JunkRemovalMiraMesaPage() {
                     </div>
 
                     {/* Why Choose Us */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Cleaners for Mira Mesa Junk Removal</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Hauling for Mira Mesa Junk Removal</h3>
                     <ul className="space-y-3 mb-6">
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>

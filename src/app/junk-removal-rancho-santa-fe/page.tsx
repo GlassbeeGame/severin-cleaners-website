@@ -22,13 +22,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Rancho Santa Fe Junk Removal | Luxury Estate Specialists',
     description: 'Professional Rancho Santa Fe junk removal for luxury estates. Discreet service, white-glove handling. Licensed & insured. Call (619) 750-0114!',
-    url: 'https://severincleaners.com/junk-removal-rancho-santa-fe',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/junk-removal-rancho-santa-fe',
+    siteName: 'Severin Hauling',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Rancho Santa Fe Junk Removal - Severin Cleaners'
+      alt: 'Rancho Santa Fe Junk Removal - Severin Hauling'
     }],
     locale: 'en_US',
     type: 'website',
@@ -37,10 +37,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Rancho Santa Fe Junk Removal | Luxury Estate Specialists',
     description: 'Professional Rancho Santa Fe junk removal for luxury estates. Discreet service, white-glove handling. Licensed & insured. Call (619) 750-0114!',
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://severincleaners.com/junk-removal-rancho-santa-fe',
+    canonical: 'https://www.severinhauling.com/junk-removal-rancho-santa-fe',
   },
   robots: {
     index: true,
@@ -84,15 +84,15 @@ const ranchoSantaFeFAQs = [
   },
   {
     question: "Are you licensed and insured for junk removal in San Diego County?",
-    answer: "Yes! Severin Cleaners is fully licensed and insured to provide Rancho Santa Fe San Diego junk removal services throughout all of San Diego County, including exclusive communities like Rancho Santa Fe. We carry comprehensive liability insurance specifically covering luxury estates, valuable property contents, and equestrian facilities. Our trash removal Rancho Santa Fe service is pre-approved by multiple HOAs and provides all necessary documentation for gated community access, property management requirements, and compliance with local disposal regulations."
+    answer: "Yes! Severin Hauling is fully licensed and insured to provide Rancho Santa Fe San Diego junk removal services throughout all of San Diego County, including exclusive communities like Rancho Santa Fe. We carry comprehensive liability insurance specifically covering luxury estates, valuable property contents, and equestrian facilities. Our trash removal Rancho Santa Fe service is pre-approved by multiple HOAs and provides all necessary documentation for gated community access, property management requirements, and compliance with local disposal regulations."
   }
 ];
 
 export default function JunkRemovalRanchoSantaFePage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-    { name: "Rancho Santa Fe Junk Removal", url: "https://severincleaners.com/junk-removal-rancho-santa-fe" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Areas We Serve", url: "https://www.severinhauling.com/areas-we-serve" },
+    { name: "Rancho Santa Fe Junk Removal", url: "https://www.severinhauling.com/junk-removal-rancho-santa-fe" },
   ]);
 
   const faqSchema = generateFAQSchema(ranchoSantaFeFAQs);
@@ -101,18 +101,18 @@ export default function JunkRemovalRanchoSantaFePage() {
     "@type": "Service",
     "name": "Junk Removal in Rancho Santa Fe",
     "description": "Professional Rancho Santa Fe junk removal for luxury estates. Discreet service, white-glove handling. Licensed & insured.",
-    "url": "https://severincleaners.com/junk-removal-rancho-santa-fe",
+    "url": "https://www.severinhauling.com/junk-removal-rancho-santa-fe",
     "serviceType": "Junk Removal",
     "provider": {
-      "@id": "https://severincleaners.com/junk-removal-rancho-santa-fe#business"
+      "@id": "https://www.severinhauling.com/junk-removal-rancho-santa-fe#business"
     }
   };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/junk-removal-rancho-santa-fe#business",
-    "name": "Severin Cleaners LLC",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/junk-removal-rancho-santa-fe#business",
+    "name": "Severin Hauling LLC",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -128,7 +128,7 @@ export default function JunkRemovalRanchoSantaFePage() {
       "latitude": 32.7678,
       "longitude": -117.0231
     },
-    "url": "https://severincleaners.com/junk-removal-rancho-santa-fe",
+    "url": "https://www.severinhauling.com/junk-removal-rancho-santa-fe",
     "areaServed": [
       {
         "@type": "City",
@@ -156,14 +156,14 @@ export default function JunkRemovalRanchoSantaFePage() {
     "sameAs": [
       "https://www.facebook.com/severinhauling",
       "https://www.instagram.com/severinhauling/",
-      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.yelp.com/biz/severin-hauling-san-diego",
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
     ]
   };
 
   const howToSchema = generateHowToSchema({
     cityName: "Rancho Santa Fe",
-    pageUrl: "https://severincleaners.com/junk-removal-rancho-santa-fe"
+    pageUrl: "https://www.severinhauling.com/junk-removal-rancho-santa-fe"
   });
 
   const combinedSchema = {

@@ -24,25 +24,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Dumpster Rental San Diego: Why Junk Removal Is the Better Alternative",
     description: "Considering dumpster rental San Diego? Learn why professional junk removal costs less, saves time, and requires zero work from you.",
-    url: "https://severincleaners.com/blog/dumpster-rental-san-diego-alternatives",
-    siteName: "Severin Cleaners",
+    url: "https://www.severinhauling.com/blog/dumpster-rental-san-diego-alternatives",
+    siteName: "Severin Hauling",
     type: "article",
     locale: "en_US",
     images: [{
-      url: "https://severincleaners.com/og-image.jpg",
+      url: "https://www.severinhauling.com/og-image.jpg",
       width: 1200,
       height: 630,
-      alt: "Dumpster Rental San Diego Alternative - Severin Cleaners"
+      alt: "Dumpster Rental San Diego Alternative - Severin Hauling"
     }]
   },
   twitter: {
     card: "summary_large_image",
     title: "Dumpster Rental San Diego: Why Junk Removal Is the Better Alternative",
     description: "Considering dumpster rental San Diego? Learn why professional junk removal costs less, saves time, and requires zero work from you.",
-    images: ["https://severincleaners.com/og-image.jpg"]
+    images: ["https://www.severinhauling.com/og-image.jpg"]
   },
   alternates: {
-    canonical: "https://severincleaners.com/blog/dumpster-rental-san-diego-alternatives",
+    canonical: "https://www.severinhauling.com/blog/dumpster-rental-san-diego-alternatives",
   },
   robots: {
     index: true,
@@ -69,25 +69,25 @@ export default function DumpsterRentalAlternative() {
         "@type": "BlogPosting",
         "headline": "Dumpster Rental San Diego: Why Junk Removal Is the Better Alternative (2025 Guide)",
         "description": "Complete comparison of dumpster rental San Diego vs professional junk removal. Discover why junk removal costs less and saves you time, labor, and hassle.",
-        "image": "https://severincleaners.com/og-image.jpg",
+        "image": "https://www.severinhauling.com/og-image.jpg",
         "datePublished": "2025-01-22",
         "dateModified": "2025-01-22",
         "author": {
           "@type": "Organization",
-          "name": "Severin Cleaners",
-          "url": "https://severincleaners.com"
+          "name": "Severin Hauling",
+          "url": "https://www.severinhauling.com"
         },
         "publisher": {
           "@type": "Organization",
-          "name": "Severin Cleaners",
+          "name": "Severin Hauling",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://severincleaners.com/logo.png"
+            "url": "https://www.severinhauling.com/logo.png"
           }
         },
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://severincleaners.com/blog/dumpster-rental-san-diego-alternatives"
+          "@id": "https://www.severinhauling.com/blog/dumpster-rental-san-diego-alternatives"
         }
       },
       // HowTo Schema
@@ -100,25 +100,25 @@ export default function DumpsterRentalAlternative() {
             "@type": "HowToStep",
             "name": "Calculate Total Dumpster Rental Costs",
             "text": "Add up rental fee ($300-600), delivery/pickup charges ($50-100), dump fees ($70-200+), overage fees, and potential permit costs. Factor in truck rental ($75-150) for hauling items to the dumpster.",
-            "url": "https://severincleaners.com/blog/dumpster-rental-san-diego-alternatives#costs"
+            "url": "https://www.severinhauling.com/blog/dumpster-rental-san-diego-alternatives#costs"
           },
           {
             "@type": "HowToStep",
             "name": "Calculate Your Time Investment",
             "text": "Estimate 3-7 days of dumpster occupying your driveway, plus 8-12 hours of physical labor loading the dumpster yourself. Consider the value of your time and physical strain.",
-            "url": "https://severincleaners.com/blog/dumpster-rental-san-diego-alternatives#time"
+            "url": "https://www.severinhauling.com/blog/dumpster-rental-san-diego-alternatives#time"
           },
           {
             "@type": "HowToStep",
             "name": "Compare to Junk Removal Service",
             "text": "Professional junk removal costs $100-$495 all-inclusive with zero labor required from you, same-day service, and no driveway obstruction. We handle everything from lifting to disposal.",
-            "url": "https://severincleaners.com/blog/dumpster-rental-san-diego-alternatives#comparison"
+            "url": "https://www.severinhauling.com/blog/dumpster-rental-san-diego-alternatives#comparison"
           },
           {
             "@type": "HowToStep",
             "name": "Make Your Decision",
             "text": "If costs are similar but junk removal eliminates your labor and time, the choice becomes clear. Call (619) 750-0114 for a free quote to compare exact pricing for your project.",
-            "url": "https://severincleaners.com/blog/dumpster-rental-san-diego-alternatives#decision"
+            "url": "https://www.severinhauling.com/blog/dumpster-rental-san-diego-alternatives#decision"
           }
         ]
       },

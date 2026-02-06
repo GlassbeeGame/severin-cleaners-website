@@ -15,4 +15,4 @@ Disallow: /admin/
 Disallow: /api/
 
 # Sitemap location
-Sitemap: https://severincleaners.com/sitemap.xml
+Sitemap: https://www.severinhauling.com/sitemap.xml

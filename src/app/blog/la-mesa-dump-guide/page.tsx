@@ -27,12 +27,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "La Mesa Dump (EDCO Station) 2026: Hours, Fees & Complete Guide",
     description: "Complete La Mesa dump guide - 2026 hours, fees, recycling buyback. Open weekends! When junk removal costs less than DIY.",
-    url: "https://severincleaners.com/blog/la-mesa-dump-guide",
-    siteName: "Severin Cleaners",
+    url: "https://www.severinhauling.com/blog/la-mesa-dump-guide",
+    siteName: "Severin Hauling",
     type: "article",
     locale: "en_US",
     images: [{
-      url: "https://severincleaners.com/og-image.jpg",
+      url: "https://www.severinhauling.com/og-image.jpg",
       width: 1200,
       height: 630,
       alt: "La Mesa Dump Guide 2026 - EDCO Station"
@@ -42,10 +42,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "La Mesa Dump (EDCO Station) 2026: Complete Guide",
     description: "Complete La Mesa dump guide - hours, fees, recycling buyback. Open weekends! Why junk removal beats DIY.",
-    images: ["https://severincleaners.com/og-image.jpg"]
+    images: ["https://www.severinhauling.com/og-image.jpg"]
   },
   alternates: {
-    canonical: "https://severincleaners.com/blog/la-mesa-dump-guide",
+    canonical: "https://www.severinhauling.com/blog/la-mesa-dump-guide",
   },
   robots: {
     index: true,
@@ -82,19 +82,19 @@ export default function LaMesaDumpGuide() {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://severincleaners.com"
+            "item": "https://www.severinhauling.com"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Blog",
-            "item": "https://severincleaners.com/blog"
+            "item": "https://www.severinhauling.com/blog"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "La Mesa Dump Guide",
-            "item": "https://severincleaners.com/blog/la-mesa-dump-guide"
+            "item": "https://www.severinhauling.com/blog/la-mesa-dump-guide"
           }
         ]
       },
@@ -103,7 +103,7 @@ export default function LaMesaDumpGuide() {
         "@type": "BlogPosting",
         "headline": "La Mesa Dump (EDCO Station) 2026: Hours, Fees & Complete Guide",
         "description": "Comprehensive guide to La Mesa dump (EDCO Station) including 2026 hours, fees, recycling buyback center, accepted materials, and cost comparison with professional junk removal and dumpster rental.",
-        "image": "https://severincleaners.com/og-image.jpg",
+        "image": "https://www.severinhauling.com/og-image.jpg",
         "datePublished": "2026-01-29",
         "dateModified": "2026-01-29",
         "wordCount": 2500,
@@ -113,24 +113,24 @@ export default function LaMesaDumpGuide() {
         "timeRequired": "PT9M",
         "author": {
           "@type": "Organization",
-          "name": "Severin Cleaners",
-          "url": "https://severincleaners.com",
+          "name": "Severin Hauling",
+          "url": "https://www.severinhauling.com",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://severincleaners.com/logo.png"
+            "url": "https://www.severinhauling.com/logo.png"
           }
         },
         "publisher": {
           "@type": "Organization",
-          "name": "Severin Cleaners",
+          "name": "Severin Hauling",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://severincleaners.com/logo.png"
+            "url": "https://www.severinhauling.com/logo.png"
           }
         },
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://severincleaners.com/blog/la-mesa-dump-guide"
+          "@id": "https://www.severinhauling.com/blog/la-mesa-dump-guide"
         }
       },
       // FAQPage Schema
@@ -190,7 +190,7 @@ export default function LaMesaDumpGuide() {
             "name": "Where can I drop off e-waste in La Mesa?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "EDCO Station La Mesa accepts e-waste drop-off open to the public. For batteries and sharps, you must be an EDCO customer - or use a junk removal service like Severin Cleaners that handles these items through proper disposal channels."
+              "text": "EDCO Station La Mesa accepts e-waste drop-off open to the public. For batteries and sharps, you must be an EDCO customer - or use a junk removal service like Severin Hauling that handles these items through proper disposal channels."
             }
           },
           {
@@ -297,21 +297,21 @@ export default function LaMesaDumpGuide() {
           }
         ]
       },
-      // LocalBusiness Schema (Severin Cleaners)
+      // LocalBusiness Schema (Severin Hauling)
       {
         "@type": "LocalBusiness",
-        "@id": "https://severincleaners.com/#business",
-        "name": "Severin Cleaners",
+        "@id": "https://www.severinhauling.com/#business",
+        "name": "Severin Hauling",
         "description": "Professional junk removal serving La Mesa, El Cajon, and East San Diego County. Same-day service available.",
         "image": [
-          "https://severincleaners.com/optimized/couchwithlogo.jpg",
-          "https://severincleaners.com/optimized/toiletteam.jpg",
-          "https://severincleaners.com/optimized/commercial.jpg"
+          "https://www.severinhauling.com/optimized/couchwithlogo.jpg",
+          "https://www.severinhauling.com/optimized/toiletteam.jpg",
+          "https://www.severinhauling.com/optimized/commercial.jpg"
         ],
-        "logo": "https://severincleaners.com/logo.png",
+        "logo": "https://www.severinhauling.com/logo.png",
         "telephone": "+1-619-750-0114",
-        "email": "severincleaners@gmail.com",
-        "url": "https://severincleaners.com",
+        "email": "severinhauling@gmail.com",
+        "url": "https://www.severinhauling.com",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "8900 Grossmont Blvd, Suite 1",
@@ -359,7 +359,7 @@ export default function LaMesaDumpGuide() {
         "description": "Professional junk removal alternative to DIY dump runs and dumpster rental in La Mesa and East County",
         "provider": {
           "@type": "LocalBusiness",
-          "name": "Severin Cleaners"
+          "name": "Severin Hauling"
         },
         "areaServed": {
           "@type": "City",
@@ -393,7 +393,7 @@ export default function LaMesaDumpGuide() {
             "item": {
               "@type": "Article",
               "name": "San Diego Dump Fees Guide",
-              "url": "https://severincleaners.com/blog/san-diego-dump-fees-guide"
+              "url": "https://www.severinhauling.com/blog/san-diego-dump-fees-guide"
             }
           },
           {
@@ -402,7 +402,7 @@ export default function LaMesaDumpGuide() {
             "item": {
               "@type": "Article",
               "name": "Santee Dump Guide",
-              "url": "https://severincleaners.com/blog/santee-dump-guide"
+              "url": "https://www.severinhauling.com/blog/santee-dump-guide"
             }
           },
           {
@@ -411,7 +411,7 @@ export default function LaMesaDumpGuide() {
             "item": {
               "@type": "Article",
               "name": "Dumpster Rental San Diego Alternatives",
-              "url": "https://severincleaners.com/blog/dumpster-rental-san-diego-alternatives"
+              "url": "https://www.severinhauling.com/blog/dumpster-rental-san-diego-alternatives"
             }
           }
         ]
@@ -675,7 +675,7 @@ export default function LaMesaDumpGuide() {
 
                       <div className="mt-6 bg-orange-50 border-l-4 border-orange-400 p-4 rounded-r">
                         <p className="text-sm text-gray-700">
-                          <strong>Not an EDCO customer?</strong> Professional junk removal services like <Link href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">Severin Cleaners</Link> can handle batteries and sharps through proper disposal channels - no EDCO customer status required. Call <a href="tel:6197500114" className="text-blue-600 hover:underline">(619) 750-0114</a>.
+                          <strong>Not an EDCO customer?</strong> Professional junk removal services like <Link href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">Severin Hauling</Link> can handle batteries and sharps through proper disposal channels - no EDCO customer status required. Call <a href="tel:6197500114" className="text-blue-600 hover:underline">(619) 750-0114</a>.
                         </p>
                       </div>
                     </div>
@@ -711,7 +711,7 @@ export default function LaMesaDumpGuide() {
                       </div>
 
                       <p className="text-gray-700 mt-6">
-                        <Link href="/junk-removal-la-mesa" className="text-blue-600 hover:underline font-semibold">Severin Cleaners</Link> can handle most items through proper disposal channels, including items restricted to EDCO customers.
+                        <Link href="/junk-removal-la-mesa" className="text-blue-600 hover:underline font-semibold">Severin Hauling</Link> can handle most items through proper disposal channels, including items restricted to EDCO customers.
                       </p>
                     </div>
 
@@ -893,7 +893,7 @@ export default function LaMesaDumpGuide() {
                     <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Professional Junk Removal in La Mesa</h2>
 
                     <p className="text-gray-700 mb-6">
-                      <Link href="/junk-removal-la-mesa" className="text-blue-600 hover:text-blue-700 font-semibold">Severin Cleaners</Link> provides professional <strong>junk removal in La Mesa</strong>, El Cajon, Santee, Spring Valley, Lemon Grove, and throughout East County San Diego. We're the local alternative to DIY dump runs.
+                      <Link href="/junk-removal-la-mesa" className="text-blue-600 hover:text-blue-700 font-semibold">Severin Hauling</Link> provides professional <strong>junk removal in La Mesa</strong>, El Cajon, Santee, Spring Valley, Lemon Grove, and throughout East County San Diego. We're the local alternative to DIY dump runs.
                     </p>
 
                     <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -1078,7 +1078,7 @@ export default function LaMesaDumpGuide() {
                           </summary>
                           <div className="px-6 py-4 bg-white">
                             <p className="text-gray-700 leading-relaxed">
-                              EDCO Station La Mesa accepts e-waste drop-off open to the public. For batteries and sharps, you must be an EDCO customer - or use a junk removal service like Severin Cleaners that handles these items through proper disposal channels.
+                              EDCO Station La Mesa accepts e-waste drop-off open to the public. For batteries and sharps, you must be an EDCO customer - or use a junk removal service like Severin Hauling that handles these items through proper disposal channels.
                             </p>
                           </div>
                         </details>

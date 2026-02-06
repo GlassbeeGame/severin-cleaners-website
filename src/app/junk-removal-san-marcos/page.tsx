@@ -22,16 +22,16 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Junk Removal San Marcos | Same-Day Pickup & Hauling Service",
     description: "Professional junk removal San Marcos services for homes and businesses. Expert San Marcos junk removal team. Same-day service, licensed & insured.",
-    url: "https://severincleaners.com/junk-removal-san-marcos",
-    siteName: "Severin Cleaners",
+    url: "https://www.severinhauling.com/junk-removal-san-marcos",
+    siteName: "Severin Hauling",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://severincleaners.com/og-image.jpg",
+        url: "https://www.severinhauling.com/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Junk Removal San Marcos - Severin Cleaners",
+        alt: "Junk Removal San Marcos - Severin Hauling",
       },
     ],
   },
@@ -39,10 +39,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Junk Removal San Marcos | Same-Day Pickup & Hauling Service",
     description: "Professional junk removal San Marcos services for homes and businesses. Expert San Marcos junk removal team. Same-day service, licensed & insured.",
-    images: ["https://severincleaners.com/og-image.jpg"],
+    images: ["https://www.severinhauling.com/og-image.jpg"],
   },
   alternates: {
-    canonical: "https://severincleaners.com/junk-removal-san-marcos",
+    canonical: "https://www.severinhauling.com/junk-removal-san-marcos",
   },
   robots: {
     index: true,
@@ -86,7 +86,7 @@ const sanMarcosFAQs = [
   },
   {
     question: "Are you licensed and insured for junk removal in San Marcos?",
-    answer: "Yes, Severin Cleaners is fully licensed and insured to provide junk removal services throughout San Marcos and all of San Diego County. We carry comprehensive general liability insurance that protects your property during the removal process—if our crew accidentally damages walls, floors, or landscaping while hauling items, our insurance covers repairs. Our licensing ensures compliance with California waste hauling regulations, San Diego County disposal requirements, and local San Marcos ordinances. We use only licensed disposal facilities and transfer stations, providing documentation when needed for commercial clients or property management companies. Our team follows OSHA safety protocols for heavy lifting and hazardous material handling, protecting both crew and clients. For HOA-governed communities like San Elijo Hills and Lake San Marcos, we provide certificates of insurance upon request to meet community requirements. Business clients and property managers receive certificates of insurance for their records. Our licensing and insurance give you peace of mind that junk removal is handled professionally, legally, and safely throughout every San Marcos neighborhood."
+    answer: "Yes, Severin Hauling is fully licensed and insured to provide junk removal services throughout San Marcos and all of San Diego County. We carry comprehensive general liability insurance that protects your property during the removal process—if our crew accidentally damages walls, floors, or landscaping while hauling items, our insurance covers repairs. Our licensing ensures compliance with California waste hauling regulations, San Diego County disposal requirements, and local San Marcos ordinances. We use only licensed disposal facilities and transfer stations, providing documentation when needed for commercial clients or property management companies. Our team follows OSHA safety protocols for heavy lifting and hazardous material handling, protecting both crew and clients. For HOA-governed communities like San Elijo Hills and Lake San Marcos, we provide certificates of insurance upon request to meet community requirements. Business clients and property managers receive certificates of insurance for their records. Our licensing and insurance give you peace of mind that junk removal is handled professionally, legally, and safely throughout every San Marcos neighborhood."
   },
   {
     question: "Do you offer free estimates for San Marcos junk removal?",
@@ -103,19 +103,19 @@ export default function JunkRemovalSanMarcosPage() {
     "@type": "Service",
     "name": "Junk Removal in San Marcos",
     "description": "Professional San Marcos junk removal services for residential and commercial properties. Fast, reliable, eco-friendly disposal with same-day service available.",
-    "url": "https://severincleaners.com/junk-removal-san-marcos",
+    "url": "https://www.severinhauling.com/junk-removal-san-marcos",
     "serviceType": "Junk Removal",
     "provider": {
-      "@id": "https://severincleaners.com/junk-removal-san-marcos#business"
+      "@id": "https://www.severinhauling.com/junk-removal-san-marcos#business"
     }
   };
 
   // Enhanced LocalBusiness schema for San Marcos
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/junk-removal-san-marcos#business",
-    "name": "Severin Cleaners LLC",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/junk-removal-san-marcos#business",
+    "name": "Severin Hauling LLC",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -131,7 +131,7 @@ export default function JunkRemovalSanMarcosPage() {
       "latitude": 32.7678,
       "longitude": -117.0231
     },
-    "url": "https://severincleaners.com/junk-removal-san-marcos",
+    "url": "https://www.severinhauling.com/junk-removal-san-marcos",
     "areaServed": [
       {
         "@type": "City",
@@ -165,22 +165,22 @@ export default function JunkRemovalSanMarcosPage() {
     "sameAs": [
       "https://www.facebook.com/severinhauling",
       "https://www.instagram.com/severinhauling/",
-      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.yelp.com/biz/severin-hauling-san-diego",
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
     ]
   };
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-    { name: "Junk Removal San Marcos", url: "https://severincleaners.com/junk-removal-san-marcos" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Areas We Serve", url: "https://www.severinhauling.com/areas-we-serve" },
+    { name: "Junk Removal San Marcos", url: "https://www.severinhauling.com/junk-removal-san-marcos" },
   ]);
 
   const faqSchema = generateFAQSchema(sanMarcosFAQs);
 
   const howToSchema = generateHowToSchema({
     cityName: "San Marcos",
-    pageUrl: "https://severincleaners.com/junk-removal-san-marcos"
+    pageUrl: "https://www.severinhauling.com/junk-removal-san-marcos"
   });
 
   const combinedSchema = {
@@ -384,7 +384,7 @@ export default function JunkRemovalSanMarcosPage() {
                     </div>
 
                     {/* Why Choose Us */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Cleaners for San Marcos Junk Removal</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Hauling for San Marcos Junk Removal</h3>
                     <ul className="space-y-3 mb-6">
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>

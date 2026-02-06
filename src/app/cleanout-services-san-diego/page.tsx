@@ -26,25 +26,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Cleanout Services San Diego - Professional Junk Hauling & Property Cleanouts",
     description: "Expert cleanout services San Diego for all types of properties. Same-day service, eco-friendly disposal, transparent pricing. Free quotes!",
-    url: 'https://severincleaners.com/cleanout-services-san-diego',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/cleanout-services-san-diego',
+    siteName: 'Severin Hauling',
     type: 'website',
     locale: 'en_US',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Cleanout Services San Diego - Severin Cleaners'
+      alt: 'Cleanout Services San Diego - Severin Hauling'
     }]
   },
   twitter: {
     card: 'summary_large_image',
     title: "Cleanout Services San Diego - Professional Junk Hauling & Property Cleanouts",
     description: "Expert cleanout services San Diego for all types of properties. Same-day service, eco-friendly disposal, transparent pricing.",
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: "https://severincleaners.com/cleanout-services-san-diego",
+    canonical: "https://www.severinhauling.com/cleanout-services-san-diego",
   },
   robots: {
     index: true,
@@ -97,15 +97,15 @@ export default function CleanoutServicesPage() {
   const serviceSchema = generateServiceSchema({
     name: "Cleanout Services San Diego",
     description: "Expert cleanout services for garages, attics, basements, sheds, storage units, and full properties. Same-day junk hauling available.",
-    url: "https://severincleaners.com/cleanout-services-san-diego",
+    url: "https://www.severinhauling.com/cleanout-services-san-diego",
     serviceType: "Property Cleanout Service",
     areaServed: "San Diego County, CA",
   });
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Services", url: "https://severincleaners.com/services" },
-    { name: "Cleanout Services", url: "https://severincleaners.com/cleanout-services-san-diego" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Services", url: "https://www.severinhauling.com/services" },
+    { name: "Cleanout Services", url: "https://www.severinhauling.com/cleanout-services-san-diego" },
   ]);
 
   const faqSchema = generateFAQSchema(cleanoutFAQs);

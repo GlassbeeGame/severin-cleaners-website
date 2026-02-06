@@ -11,7 +11,7 @@ export default function Footer() {
             <div className="mb-6">
               <div className="text-2xl font-bold mb-4">
                 <span className="text-white">Severin</span>
-                <span className="text-blue-300"> Cleaners</span>
+                <span className="text-blue-300"> Hauling</span>
               </div>
               <p className="text-blue-400 text-lg font-medium mb-4 italic">
                 &quot;From Junk to Shine, We Handle Every Grime."
@@ -49,7 +49,7 @@ export default function Footer() {
                     </svg>
                   </a>
                   <a
-                    href="https://www.yelp.com/biz/severin-cleaners-san-diego"
+                    href="https://www.yelp.com/biz/severin-hauling-san-diego"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-white/10 hover:bg-red-500 p-2.5 rounded-lg transition-all duration-200 group"
@@ -92,10 +92,10 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                 </svg>
                 <a
-                  href="mailto:severincleaners@gmail.com"
+                  href="mailto:severinhauling@gmail.com"
                   className="text-white hover:text-blue-300 transition-colors duration-200"
                 >
-                  severincleaners@gmail.com
+                  severinhauling@gmail.com
                 </a>
               </div>
               <div className="flex items-center gap-3">
@@ -296,7 +296,7 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-gray-700">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <div className="text-sm text-white/70 text-center sm:text-left">
-              © 2024 Severin Cleaners. All rights reserved.
+              © 2024 Severin Hauling. All rights reserved.
             </div>
 
             <div className="flex flex-wrap items-center justify-center sm:justify-end gap-3 sm:gap-6 text-sm">

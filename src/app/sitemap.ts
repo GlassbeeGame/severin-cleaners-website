@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://severincleaners.com'
+  const baseUrl = 'https://www.severinhauling.com'
   const currentDate = new Date().toISOString()
 
   // Main pillar page (priority 1.0)

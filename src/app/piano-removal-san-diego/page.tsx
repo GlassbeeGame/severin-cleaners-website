@@ -24,13 +24,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Piano Removal San Diego | Musical Instrument Specialists',
     description: 'Professional piano removal throughout San Diego - upright pianos, grand pianos, and musical instruments. Careful handling guaranteed. Call (619) 750-0114.',
-    url: 'https://severincleaners.com/piano-removal-san-diego',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/piano-removal-san-diego',
+    siteName: 'Severin Hauling',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Piano Removal San Diego - Severin Cleaners'
+      alt: 'Piano Removal San Diego - Severin Hauling'
     }],
     locale: 'en_US',
     type: 'website',
@@ -39,10 +39,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Piano Removal San Diego | Musical Instrument Specialists',
     description: 'Professional piano removal throughout San Diego - upright pianos, grand pianos, and musical instruments. Careful handling guaranteed. Call (619) 750-0114.',
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://severincleaners.com/piano-removal-san-diego',
+    canonical: 'https://www.severinhauling.com/piano-removal-san-diego',
   },
   robots: {
     index: true,
@@ -64,15 +64,15 @@ export default function PianoremovalsandiegoPage() {
   const serviceSchema = generateServiceSchema({
     name: "Piano Removal San Diego",
     description: "Professional piano removal for upright pianos, grand pianos, and musical instruments. Careful handling with specialized equipment.",
-    url: "https://severincleaners.com/piano-removal-san-diego",
+    url: "https://www.severinhauling.com/piano-removal-san-diego",
     serviceType: "Piano Removal Service",
     areaServed: "San Diego County, CA",
   });
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Services", url: "https://severincleaners.com/services" },
-    { name: "Piano Removal", url: "https://severincleaners.com/piano-removal-san-diego" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Services", url: "https://www.severinhauling.com/services" },
+    { name: "Piano Removal", url: "https://www.severinhauling.com/piano-removal-san-diego" },
   ]);
 
   const combinedSchema = {
@@ -112,7 +112,7 @@ export default function PianoremovalsandiegoPage() {
                     <h2 className="text-3xl font-bold text-gray-900 mb-6">San Diego Piano Removal Specialists</h2>
 
               <p className="text-lg text-gray-700 mb-6">
-                Piano removal requires specialized knowledge and equipment to handle these valuable, heavy instruments safely. Severin Cleaners provides expert piano removal San Diego services throughout <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a>, <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a>, <a href="/junk-removal-point-loma" className="text-blue-600 hover:underline">Point Loma</a>, <a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a>, and <a href="/junk-removal-poway" className="text-blue-600 hover:underline">Poway</a>, whether you&apos;re relocating, downsizing, or dealing with an inherited instrument that needs professional disposal. We also specialize in <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture removal</a>, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, and are <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">heavy item specialists</a>.
+                Piano removal requires specialized knowledge and equipment to handle these valuable, heavy instruments safely. Severin Hauling provides expert piano removal San Diego services throughout <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a>, <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a>, <a href="/junk-removal-point-loma" className="text-blue-600 hover:underline">Point Loma</a>, <a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a>, and <a href="/junk-removal-poway" className="text-blue-600 hover:underline">Poway</a>, whether you&apos;re relocating, downsizing, or dealing with an inherited instrument that needs professional disposal. We also specialize in <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture removal</a>, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, and are <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">heavy item specialists</a>.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Specialized Piano Removal Services</h3>
@@ -183,7 +183,7 @@ export default function PianoremovalsandiegoPage() {
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Choose Severin Cleaners</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Choose Severin Hauling</h3>
               <p className="mb-4">
                 As a locally-owned business, we understand the importance of treating your property and belongings
                 with care. Our San Diego service combines local knowledge with professional standards

@@ -28,25 +28,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Furniture Disposal San Diego | Eco-Friendly Removal & Recycling",
     description: "Professional furniture disposal San Diego starting at $69. Same-day service, eco-friendly recycling & donation. Call (619) 750-0114.",
-    url: "https://severincleaners.com/furniture-disposal-san-diego",
-    siteName: "Severin Cleaners",
+    url: "https://www.severinhauling.com/furniture-disposal-san-diego",
+    siteName: "Severin Hauling",
     type: "website",
     locale: "en_US",
     images: [{
-      url: "https://severincleaners.com/og-image.jpg",
+      url: "https://www.severinhauling.com/og-image.jpg",
       width: 1200,
       height: 630,
-      alt: "Furniture Disposal San Diego - Severin Cleaners"
+      alt: "Furniture Disposal San Diego - Severin Hauling"
     }]
   },
   twitter: {
     card: "summary_large_image",
     title: "Furniture Disposal San Diego | Eco-Friendly Removal & Recycling",
     description: "Professional furniture disposal San Diego starting at $69. Same-day service available. Call (619) 750-0114!",
-    images: ["https://severincleaners.com/og-image.jpg"]
+    images: ["https://www.severinhauling.com/og-image.jpg"]
   },
   alternates: {
-    canonical: "https://severincleaners.com/furniture-disposal-san-diego",
+    canonical: "https://www.severinhauling.com/furniture-disposal-san-diego",
   },
   robots: {
     index: true,
@@ -121,7 +121,7 @@ export default function FurnitureDisposalPage() {
   const serviceSchema = generateServiceSchema({
     name: "Furniture Disposal San Diego",
     description: "Professional furniture disposal and recycling in San Diego. Eco-friendly furniture removal services for couches, sofas, desks, beds, and all furniture types. Same-day service available.",
-    url: "https://severincleaners.com/furniture-disposal-san-diego",
+    url: "https://www.severinhauling.com/furniture-disposal-san-diego",
     serviceType: "Furniture Disposal and Recycling Service",
     areaServed: "San Diego County, CA",
   });
@@ -129,9 +129,9 @@ export default function FurnitureDisposalPage() {
   // Enhanced LocalBusiness schema for furniture disposal
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/furniture-disposal-san-diego#business",
-    "name": "Severin Cleaners - Furniture Disposal San Diego",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/furniture-disposal-san-diego#business",
+    "name": "Severin Hauling - Furniture Disposal San Diego",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -145,7 +145,7 @@ export default function FurnitureDisposalPage() {
       "latitude": 32.7157,
       "longitude": -117.1611
     },
-    "url": "https://severincleaners.com/furniture-disposal-san-diego",
+    "url": "https://www.severinhauling.com/furniture-disposal-san-diego",
     "areaServed": {
       "@type": "City",
       "name": "San Diego",
@@ -188,9 +188,9 @@ export default function FurnitureDisposalPage() {
   };
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Services", url: "https://severincleaners.com/services" },
-    { name: "Furniture Disposal", url: "https://severincleaners.com/furniture-disposal-san-diego" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Services", url: "https://www.severinhauling.com/services" },
+    { name: "Furniture Disposal", url: "https://www.severinhauling.com/furniture-disposal-san-diego" },
   ]);
 
   const faqSchema = generateFAQSchema(furnitureFAQs);

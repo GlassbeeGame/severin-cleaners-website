@@ -21,25 +21,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Junk Removal Cost San Diego - Affordable Prices & Free Quotes",
     description: "Transparent junk removal cost San Diego with free quotes! Compare our affordable prices. No hidden fees. Call (619) 750-0114 for instant pricing!",
-    url: 'https://severincleaners.com/junk-removal-cost-san-diego',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/junk-removal-cost-san-diego',
+    siteName: 'Severin Hauling',
     type: 'website',
     locale: 'en_US',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Junk Removal Cost San Diego - Severin Cleaners'
+      alt: 'Junk Removal Cost San Diego - Severin Hauling'
     }]
   },
   twitter: {
     card: 'summary_large_image',
     title: "Junk Removal Cost San Diego - Affordable Prices & Free Quotes",
     description: "Transparent junk removal cost San Diego with free quotes! Compare our affordable prices. Licensed & insured. Call (619) 750-0114!",
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: "https://severincleaners.com/junk-removal-cost-san-diego",
+    canonical: "https://www.severinhauling.com/junk-removal-cost-san-diego",
   },
   robots: {
     index: true,
@@ -93,13 +93,13 @@ export default function JunkRemovalCostPage() {
     locationName: "San Diego",
     serviceName: "Junk Removal",
     description: "Transparent junk removal cost San Diego with free quotes! Compare our affordable prices. Licensed & insured.",
-    url: "https://severincleaners.com/junk-removal-cost-san-diego",
+    url: "https://www.severinhauling.com/junk-removal-cost-san-diego",
   });
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Services", url: "https://severincleaners.com/services" },
-    { name: "Junk Removal Cost", url: "https://severincleaners.com/junk-removal-cost-san-diego" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Services", url: "https://www.severinhauling.com/services" },
+    { name: "Junk Removal Cost", url: "https://www.severinhauling.com/junk-removal-cost-san-diego" },
   ]);
 
   const faqSchema = generateFAQSchema(costFAQs);
@@ -544,7 +544,7 @@ export default function JunkRemovalCostPage() {
                   <thead className="bg-blue-600 text-white">
                     <tr>
                       <th className="px-6 py-4 text-left font-bold">Feature</th>
-                      <th className="px-6 py-4 text-center font-bold">Severin Cleaners</th>
+                      <th className="px-6 py-4 text-center font-bold">Severin Hauling</th>
                       <th className="px-6 py-4 text-center font-bold">Other Companies</th>
                     </tr>
                   </thead>
@@ -616,7 +616,7 @@ export default function JunkRemovalCostPage() {
                 Get Your Free Junk Removal Quote San Diego
               </h2>
               <p className="text-xl text-gray-600 mb-8">
-                Experience transparent pricing, eco-friendly disposal, and fast, reliable service. Discover why Severin Cleaners delivers the best junk removal San Diego price every time.
+                Experience transparent pricing, eco-friendly disposal, and fast, reliable service. Discover why Severin Hauling delivers the best junk removal San Diego price every time.
               </p>
 
               <div className="bg-white p-8 rounded-xl shadow-lg">
@@ -629,17 +629,17 @@ export default function JunkRemovalCostPage() {
                     📞 Call (619) 750-0114
                   </a>
                   <a
-                    href="mailto:severincleaners@gmail.com"
+                    href="mailto:severinhauling@gmail.com"
                     className="bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-bold text-xl transition-colors"
                   >
-                    📧 severincleaners@gmail.com
+                    📧 severinhauling@gmail.com
                   </a>
                 </div>
                 <p className="text-gray-600">
                   🕒 <strong>Open 7 Days a Week</strong> • <strong>Same-Day Service Available</strong>
                 </p>
                 <p className="text-gray-600 mt-2">
-                  Severin Cleaners<br />
+                  Severin Hauling<br />
                   "From Junk to Shine — We Handle Every Grime."
                 </p>
               </div>

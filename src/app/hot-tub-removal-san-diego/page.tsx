@@ -26,25 +26,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Hot Tub Removal San Diego | Spa & Jacuzzi Disposal | Same-Day Service',
     description: 'Professional hot tub removal San Diego - spa removal, Jacuzzi disposal, pool equipment. Licensed specialists for portable & built-in hot tubs.',
-    url: 'https://severincleaners.com/hot-tub-removal-san-diego',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/hot-tub-removal-san-diego',
+    siteName: 'Severin Hauling',
     type: 'website',
     locale: 'en_US',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Hot Tub Removal San Diego - Severin Cleaners'
+      alt: 'Hot Tub Removal San Diego - Severin Hauling'
     }]
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Hot Tub Removal San Diego | Spa & Jacuzzi Disposal',
     description: 'Professional hot tub removal San Diego - spa removal, Jacuzzi disposal, pool equipment. Licensed specialists. Call (619) 750-0114!',
-    images: ['https://severincleaners.com/og-image.jpg']
+    images: ['https://www.severinhauling.com/og-image.jpg']
   },
   alternates: {
-    canonical: 'https://severincleaners.com/hot-tub-removal-san-diego',
+    canonical: 'https://www.severinhauling.com/hot-tub-removal-san-diego',
   },
   robots: {
     index: true,
@@ -89,15 +89,15 @@ export default function HotTubRemovalSanDiegoPage() {
   const serviceSchema = generateServiceSchema({
     name: "Hot Tub Removal San Diego",
     description: "Professional hot tub removal for spa removal, Jacuzzi disposal, and pool equipment. Licensed specialists for portable and built-in hot tubs.",
-    url: "https://severincleaners.com/hot-tub-removal-san-diego",
+    url: "https://www.severinhauling.com/hot-tub-removal-san-diego",
     serviceType: "Hot Tub Removal Service",
     areaServed: "San Diego County, CA",
   });
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Services", url: "https://severincleaners.com/services" },
-    { name: "Hot Tub Removal", url: "https://severincleaners.com/hot-tub-removal-san-diego" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Services", url: "https://www.severinhauling.com/services" },
+    { name: "Hot Tub Removal", url: "https://www.severinhauling.com/hot-tub-removal-san-diego" },
   ]);
 
   const faqSchema = generateFAQSchema(hotTubFAQs);
@@ -185,7 +185,7 @@ export default function HotTubRemovalSanDiegoPage() {
                         Professional Hot Tub Removal San Diego - Complete Spa Disposal Services
                       </h2>
                 <p className="text-lg mb-6">
-                  When your hot tub has reached the end of its life or you're ready for a backyard makeover, Severin Cleaners provides professional hot tub removal San Diego services that handle every aspect of spa disposal safely and efficiently. Our experienced team specializes in removing all types of hot tubs, spas, and pool equipment throughout San Diego County with same-day service available.
+                  When your hot tub has reached the end of its life or you're ready for a backyard makeover, Severin Hauling provides professional hot tub removal San Diego services that handle every aspect of spa disposal safely and efficiently. Our experienced team specializes in removing all types of hot tubs, spas, and pool equipment throughout San Diego County with same-day service available.
                 </p>
 
                 <p className="text-lg mb-6">
@@ -194,7 +194,7 @@ export default function HotTubRemovalSanDiegoPage() {
 
                 <h3 className="text-2xl font-bold mt-8 mb-4">Complete Jacuzzi Removal San Diego Services</h3>
                 <p className="text-lg mb-4">
-                  Severin Cleaners offers comprehensive hot tub removal San Diego services for all types of spas and backyard water features:
+                  Severin Hauling offers comprehensive hot tub removal San Diego services for all types of spas and backyard water features:
                 </p>
 
                 <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -330,7 +330,7 @@ export default function HotTubRemovalSanDiegoPage() {
 
                 <h3 className="text-2xl font-bold mt-8 mb-4">Environmental Responsibility in Spa Disposal</h3>
                 <p className="text-lg mb-4">
-                  Severin Cleaners prioritizes environmentally responsible spa disposal San Diego practices:
+                  Severin Hauling prioritizes environmentally responsible spa disposal San Diego practices:
                 </p>
                 <ul className="list-disc pl-6 mb-6 space-y-2">
                   <li><strong>Material Recycling:</strong> Fiberglass, acrylic, and metal components recycled through specialized facilities</li>

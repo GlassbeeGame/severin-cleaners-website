@@ -26,25 +26,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Emergency Junk Removal San Diego - Same Day Service Available",
     description: "Need emergency junk removal San Diego today? Same-day, weekend & immediate dispatch urgent trash removal. Licensed & insured. Call (619) 750-0114 now!",
-    url: 'https://severincleaners.com/emergency-junk-removal-san-diego',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/emergency-junk-removal-san-diego',
+    siteName: 'Severin Hauling',
     type: 'website',
     locale: 'en_US',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Emergency Junk Removal San Diego - Severin Cleaners'
+      alt: 'Emergency Junk Removal San Diego - Severin Hauling'
     }]
   },
   twitter: {
     card: 'summary_large_image',
     title: "Emergency Junk Removal San Diego - Same Day Service",
     description: "Emergency junk removal San Diego today! Same-day, weekend & immediate dispatch urgent trash removal. Call (619) 750-0114 for immediate service!",
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: "https://severincleaners.com/emergency-junk-removal-san-diego",
+    canonical: "https://www.severinhauling.com/emergency-junk-removal-san-diego",
   },
   robots: {
     index: true,
@@ -97,15 +97,15 @@ export default function EmergencyJunkRemovalPage() {
   const serviceSchema = generateServiceSchema({
     name: "Emergency Junk Removal San Diego",
     description: "Emergency junk removal service for urgent situations. Same-day, weekend, and immediate dispatch service available throughout San Diego County.",
-    url: "https://severincleaners.com/emergency-junk-removal-san-diego",
+    url: "https://www.severinhauling.com/emergency-junk-removal-san-diego",
     serviceType: "Emergency Junk Removal Service",
     areaServed: "San Diego County, CA",
   });
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Services", url: "https://severincleaners.com/services" },
-    { name: "Emergency Junk Removal", url: "https://severincleaners.com/emergency-junk-removal-san-diego" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Services", url: "https://www.severinhauling.com/services" },
+    { name: "Emergency Junk Removal", url: "https://www.severinhauling.com/emergency-junk-removal-san-diego" },
   ]);
 
   const faqSchema = generateFAQSchema(emergencyFAQs);
@@ -148,7 +148,7 @@ export default function EmergencyJunkRemovalPage() {
                       Fast & Reliable Junk Removal Available Today
                     </h2>
                     <p className="text-xl text-gray-600 mb-8">
-                      When you need urgent trash removal San Diego now, Severin Cleaners delivers immediate junk hauling solutions in <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a>, <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, and <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">Kearny Mesa</a> commercial areas. Our last minute junk removal San Diego service operates 7 days a week, including weekend junk removal San Diego Saturday Sunday availability in <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a>, <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, and <a href="/junk-removal-hillcrest" className="text-blue-600 hover:underline">Hillcrest</a>. No job too big, no timeline too tight. Learn more about our <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day junk removal</a> service.
+                      When you need urgent trash removal San Diego now, Severin Hauling delivers immediate junk hauling solutions in <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a>, <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, and <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">Kearny Mesa</a> commercial areas. Our last minute junk removal San Diego service operates 7 days a week, including weekend junk removal San Diego Saturday Sunday availability in <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a>, <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, and <a href="/junk-removal-hillcrest" className="text-blue-600 hover:underline">Hillcrest</a>. No job too big, no timeline too tight. Learn more about our <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day junk removal</a> service.
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
@@ -506,7 +506,7 @@ export default function EmergencyJunkRemovalPage() {
                 🚨 EMERGENCY: (619) 750-0114
               </a>
               <a
-                href="mailto:severincleaners@gmail.com"
+                href="mailto:severinhauling@gmail.com"
                 className="bg-white hover:bg-gray-100 text-blue-700 px-12 py-6 rounded-lg font-bold text-2xl transition-colors"
               >
                 📧 Email for Quote

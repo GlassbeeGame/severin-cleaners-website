@@ -24,25 +24,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'North Park Junk Removal | Same-Day Hauling | Licensed & Insured',
     description: 'Professional North Park junk removal for University Avenue, 30th Street, apartments & historic homes. Same-day service, transparent pricing. Licensed & insured. Call (619) 750-0114!',
-    url: 'https://severincleaners.com/junk-removal-north-park',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/junk-removal-north-park',
+    siteName: 'Severin Hauling',
     type: 'website',
     locale: 'en_US',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'North Park Junk Removal - Severin Cleaners'
+      alt: 'North Park Junk Removal - Severin Hauling'
     }]
   },
   twitter: {
     card: 'summary_large_image',
     title: 'North Park Junk Removal | Same-Day Hauling | Licensed & Insured',
     description: 'Professional North Park junk removal for University Avenue, 30th Street, apartments & historic homes. Same-day service, transparent pricing. Licensed & insured.',
-    images: ['https://severincleaners.com/og-image.jpg']
+    images: ['https://www.severinhauling.com/og-image.jpg']
   },
   alternates: {
-    canonical: 'https://severincleaners.com/junk-removal-north-park',
+    canonical: 'https://www.severinhauling.com/junk-removal-north-park',
   },
   robots: {
     index: true,
@@ -82,7 +82,7 @@ const northParkFAQs = [
   },
   {
     question: "Are you licensed and insured for junk removal in San Diego?",
-    answer: "Yes! Severin Cleaners is fully licensed and insured to provide North Park San Diego junk removal services throughout North Park and all of San Diego County. We carry comprehensive liability insurance to protect your property during removal, and we dispose of all items responsibly at licensed facilities. Our team follows all local regulations for waste handling and environmental compliance."
+    answer: "Yes! Severin Hauling is fully licensed and insured to provide North Park San Diego junk removal services throughout North Park and all of San Diego County. We carry comprehensive liability insurance to protect your property during removal, and we dispose of all items responsibly at licensed facilities. Our team follows all local regulations for waste handling and environmental compliance."
   },
   {
     question: "Do you handle apartment building junk removal in North Park?",
@@ -108,9 +108,9 @@ const northParkFAQs = [
 
 export default function JunkRemovalNorthParkPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-    { name: "North Park Junk Removal", url: "https://severincleaners.com/junk-removal-north-park" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Areas We Serve", url: "https://www.severinhauling.com/areas-we-serve" },
+    { name: "North Park Junk Removal", url: "https://www.severinhauling.com/junk-removal-north-park" },
   ]);
 
   const faqSchema = generateFAQSchema(northParkFAQs);
@@ -119,18 +119,18 @@ export default function JunkRemovalNorthParkPage() {
     "@type": "Service",
     "name": "Junk Removal in North Park",
     "description": "Professional North Park junk removal for University Avenue, 30th Street, apartments & historic homes. Same-day service, transparent pricing. Licensed & insured.",
-    "url": "https://severincleaners.com/junk-removal-north-park",
+    "url": "https://www.severinhauling.com/junk-removal-north-park",
     "serviceType": "Junk Removal",
     "provider": {
-      "@id": "https://severincleaners.com/junk-removal-north-park#business"
+      "@id": "https://www.severinhauling.com/junk-removal-north-park#business"
     }
   };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/junk-removal-north-park#business",
-    "name": "Severin Cleaners LLC",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/junk-removal-north-park#business",
+    "name": "Severin Hauling LLC",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
@@ -149,7 +149,7 @@ export default function JunkRemovalNorthParkPage() {
       "latitude": 32.7678,
       "longitude": -117.0231
     },
-    "url": "https://severincleaners.com/junk-removal-north-park",
+    "url": "https://www.severinhauling.com/junk-removal-north-park",
     "knowsAbout": [
       "Urban Neighborhood Parking and Access",
       "Craftsman Home Historic Property Care",
@@ -219,7 +219,7 @@ export default function JunkRemovalNorthParkPage() {
     "sameAs": [
       "https://www.facebook.com/severinhauling",
       "https://www.instagram.com/severinhauling/",
-      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.yelp.com/biz/severin-hauling-san-diego",
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
     ]
   };
@@ -402,7 +402,7 @@ export default function JunkRemovalNorthParkPage() {
 
   const howToSchema = generateHowToSchema({
     cityName: "North Park",
-    pageUrl: "https://severincleaners.com/junk-removal-north-park"
+    pageUrl: "https://www.severinhauling.com/junk-removal-north-park"
   });
 
   const combinedSchema = {
@@ -656,7 +656,7 @@ export default function JunkRemovalNorthParkPage() {
                       </div>
 
                       <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12">
-                        Why North Park Residents Choose Severin Cleaners
+                        Why North Park Residents Choose Severin Hauling
                       </h2>
 
                       <p className="text-lg text-gray-700 mb-6">
@@ -715,7 +715,7 @@ export default function JunkRemovalNorthParkPage() {
                   Book Your North Park Junk Removal Today
                 </h2>
                 <p className="text-xl mb-8 leading-relaxed">
-                  Whether you're clearing out a University Avenue apartment, renovating a Craftsman home, or managing a restaurant cleanout on 30th Street, Severin Cleaners delivers the trusted junk removal North Park residents and businesses depend on.
+                  Whether you're clearing out a University Avenue apartment, renovating a Craftsman home, or managing a restaurant cleanout on 30th Street, Severin Hauling delivers the trusted junk removal North Park residents and businesses depend on.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
                   <a

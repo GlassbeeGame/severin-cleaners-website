@@ -19,7 +19,7 @@ const Contact = dynamic(() => import("@/components/Contact"), {
 export default function Home() {
   const localBusinessSchema = generateLocalBusinessSchema();
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
+    { name: "Home", url: "https://www.severinhauling.com" },
   ]);
 
   const combinedSchema = {

@@ -23,13 +23,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Point Loma Junk Removal | Military & Coastal Specialists',
     description: 'Professional Point Loma junk removal from Naval Base to Sunset Cliffs. Military PCS support. Licensed & insured. Call (619) 750-0114!',
-    url: 'https://severincleaners.com/junk-removal-point-loma',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/junk-removal-point-loma',
+    siteName: 'Severin Hauling',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Point Loma Junk Removal - Severin Cleaners'
+      alt: 'Point Loma Junk Removal - Severin Hauling'
     }],
     locale: 'en_US',
     type: 'website',
@@ -38,10 +38,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Point Loma Junk Removal | Military & Coastal Specialists',
     description: 'Professional Point Loma junk removal from Naval Base to Sunset Cliffs. Military PCS support. Licensed & insured. Call (619) 750-0114!',
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://severincleaners.com/junk-removal-point-loma',
+    canonical: 'https://www.severinhauling.com/junk-removal-point-loma',
   },
   robots: {
     index: true,
@@ -87,9 +87,9 @@ const pointLomaFAQs = [
 
 export default function JunkRemovalPointLomaPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-    { name: "Point Loma Junk Removal", url: "https://severincleaners.com/junk-removal-point-loma" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Areas We Serve", url: "https://www.severinhauling.com/areas-we-serve" },
+    { name: "Point Loma Junk Removal", url: "https://www.severinhauling.com/junk-removal-point-loma" },
   ]);
 
   const faqSchema = generateFAQSchema(pointLomaFAQs);
@@ -98,18 +98,18 @@ export default function JunkRemovalPointLomaPage() {
     "@type": "Service",
     "name": "Junk Removal in Point Loma",
     "description": "Professional Point Loma junk removal from Naval Base to Sunset Cliffs. Military PCS support. Licensed & insured.",
-    "url": "https://severincleaners.com/junk-removal-point-loma",
+    "url": "https://www.severinhauling.com/junk-removal-point-loma",
     "serviceType": "Junk Removal",
     "provider": {
-      "@id": "https://severincleaners.com/junk-removal-point-loma#business"
+      "@id": "https://www.severinhauling.com/junk-removal-point-loma#business"
     }
   };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/junk-removal-point-loma#business",
-    "name": "Severin Cleaners LLC",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/junk-removal-point-loma#business",
+    "name": "Severin Hauling LLC",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -125,7 +125,7 @@ export default function JunkRemovalPointLomaPage() {
       "latitude": 32.7678,
       "longitude": -117.0231
     },
-    "url": "https://severincleaners.com/junk-removal-point-loma",
+    "url": "https://www.severinhauling.com/junk-removal-point-loma",
     "areaServed": [
       {
         "@type": "City",
@@ -153,14 +153,14 @@ export default function JunkRemovalPointLomaPage() {
     "sameAs": [
       "https://www.facebook.com/severinhauling",
       "https://www.instagram.com/severinhauling/",
-      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.yelp.com/biz/severin-hauling-san-diego",
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
     ]
   };
 
   const howToSchema = generateHowToSchema({
     cityName: "Point Loma",
-    pageUrl: "https://severincleaners.com/junk-removal-point-loma"
+    pageUrl: "https://www.severinhauling.com/junk-removal-point-loma"
   });
 
   const combinedSchema = {

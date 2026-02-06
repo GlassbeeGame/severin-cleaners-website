@@ -21,13 +21,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Junk Removal Spring Valley | East County Hillside Specialists",
     description: "Professional junk removal Spring Valley for East County families, hillside homes & apartments. Same-day junk hauling, eco-friendly disposal.",
-    url: "https://severincleaners.com/junk-removal-spring-valley",
-    siteName: 'Severin Cleaners',
+    url: "https://www.severinhauling.com/junk-removal-spring-valley",
+    siteName: 'Severin Hauling',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Spring Valley Junk Removal - Severin Cleaners'
+      alt: 'Spring Valley Junk Removal - Severin Hauling'
     }],
     locale: 'en_US',
     type: 'website',
@@ -36,10 +36,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "Junk Removal Spring Valley | East County Hillside Specialists",
     description: "Professional junk removal Spring Valley for East County families, hillside homes & apartments. Same-day junk hauling, eco-friendly disposal.",
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: "https://severincleaners.com/junk-removal-spring-valley",
+    canonical: "https://www.severinhauling.com/junk-removal-spring-valley",
   },
   robots: {
     index: true,
@@ -79,7 +79,7 @@ const springValleyFAQs = [
   },
   {
     question: "Are you licensed and insured for junk removal in Spring Valley?",
-    answer: "Yes, Severin Cleaners is fully licensed and insured to provide junk removal services throughout Spring Valley and all of San Diego County. We carry comprehensive general liability insurance that protects your property during the removal process—if our crew accidentally damages walls, floors, landscaping, or structures while hauling items, our insurance covers repairs. This protection is especially important for Spring Valley's hillside properties where we navigate steep driveways, tight turns, and challenging terrain that increases operational risk compared to flat-access properties. Our licensing ensures compliance with California waste hauling regulations, San Diego County disposal requirements, and local Spring Valley ordinances governing debris removal and transport. We use only licensed disposal facilities and transfer stations, providing documentation when needed for property management companies, mobile home parks, or estate executors requiring proof of proper disposal. Our team follows OSHA safety protocols for heavy lifting and hazardous material handling, protecting both crew and clients during hillside cleanouts, apartment turnovers, and estate removal projects. For Spring Valley apartment complexes and mobile home parks, we provide certificates of insurance upon request to meet building requirements and property owner insurance obligations. HOA communities receive proof of insurance for contractor access compliance. Our licensing and insurance give you peace of mind that junk removal is handled professionally, legally, and safely throughout every Spring Valley neighborhood—from steep Dictionary Hill properties to valley floor apartments to Casa de Oro family estates. East County residents deserve professional service with proper coverage, and we deliver exactly that with every Spring Valley junk removal job."
+    answer: "Yes, Severin Hauling is fully licensed and insured to provide junk removal services throughout Spring Valley and all of San Diego County. We carry comprehensive general liability insurance that protects your property during the removal process—if our crew accidentally damages walls, floors, landscaping, or structures while hauling items, our insurance covers repairs. This protection is especially important for Spring Valley's hillside properties where we navigate steep driveways, tight turns, and challenging terrain that increases operational risk compared to flat-access properties. Our licensing ensures compliance with California waste hauling regulations, San Diego County disposal requirements, and local Spring Valley ordinances governing debris removal and transport. We use only licensed disposal facilities and transfer stations, providing documentation when needed for property management companies, mobile home parks, or estate executors requiring proof of proper disposal. Our team follows OSHA safety protocols for heavy lifting and hazardous material handling, protecting both crew and clients during hillside cleanouts, apartment turnovers, and estate removal projects. For Spring Valley apartment complexes and mobile home parks, we provide certificates of insurance upon request to meet building requirements and property owner insurance obligations. HOA communities receive proof of insurance for contractor access compliance. Our licensing and insurance give you peace of mind that junk removal is handled professionally, legally, and safely throughout every Spring Valley neighborhood—from steep Dictionary Hill properties to valley floor apartments to Casa de Oro family estates. East County residents deserve professional service with proper coverage, and we deliver exactly that with every Spring Valley junk removal job."
   },
   {
     question: "Do you recycle or donate items in Spring Valley?",
@@ -97,9 +97,9 @@ const springValleyFAQs = [
 
 export default function JunkRemovalSpringValleyPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-    { name: "Spring Valley Junk Removal", url: "https://severincleaners.com/junk-removal-spring-valley" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Areas We Serve", url: "https://www.severinhauling.com/areas-we-serve" },
+    { name: "Spring Valley Junk Removal", url: "https://www.severinhauling.com/junk-removal-spring-valley" },
   ]);
 
   const faqSchema = generateFAQSchema(springValleyFAQs);
@@ -108,18 +108,18 @@ export default function JunkRemovalSpringValleyPage() {
     "@type": "Service",
     "name": "Junk Removal in Spring Valley",
     "description": "Professional junk removal Spring Valley for East County families, hillside homes & apartments. Same-day service, hillside access specialists, eco-friendly disposal. Serving Dictionary Hill, Casa de Oro.",
-    "url": "https://severincleaners.com/junk-removal-spring-valley",
+    "url": "https://www.severinhauling.com/junk-removal-spring-valley",
     "serviceType": "Junk Removal",
     "provider": {
-      "@id": "https://severincleaners.com/junk-removal-spring-valley#business"
+      "@id": "https://www.severinhauling.com/junk-removal-spring-valley#business"
     }
   };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/junk-removal-spring-valley#business",
-    "name": "Severin Cleaners LLC",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/junk-removal-spring-valley#business",
+    "name": "Severin Hauling LLC",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -135,7 +135,7 @@ export default function JunkRemovalSpringValleyPage() {
       "latitude": 32.7678,
       "longitude": -117.0231
     },
-    "url": "https://severincleaners.com/junk-removal-spring-valley",
+    "url": "https://www.severinhauling.com/junk-removal-spring-valley",
     "areaServed": [
       {
         "@type": "City",
@@ -163,14 +163,14 @@ export default function JunkRemovalSpringValleyPage() {
     "sameAs": [
       "https://www.facebook.com/severinhauling",
       "https://www.instagram.com/severinhauling/",
-      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.yelp.com/biz/severin-hauling-san-diego",
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
     ]
   };
 
   const howToSchema = generateHowToSchema({
     cityName: "Spring Valley",
-    pageUrl: "https://severincleaners.com/junk-removal-spring-valley"
+    pageUrl: "https://www.severinhauling.com/junk-removal-spring-valley"
   });
 
   const combinedSchema = {
@@ -374,7 +374,7 @@ export default function JunkRemovalSpringValleyPage() {
                     </div>
 
                     {/* Why Choose Us */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Cleaners for Spring Valley Junk Removal</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Hauling for Spring Valley Junk Removal</h3>
                     <ul className="space-y-3 mb-6">
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>

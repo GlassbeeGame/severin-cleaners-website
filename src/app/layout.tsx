@@ -14,10 +14,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Severin Cleaners | Professional Junk Removal & Hauling Services",
-  description: "Severin Cleaners is your trusted partner for junk removal and property cleanout services throughout San Diego County. Family-owned, licensed & insured. Call (619) 750-0114.",
+  title: "Severin Hauling | Professional Junk Removal & Hauling Services",
+  description: "Severin Hauling is your trusted partner for junk removal and property cleanout services throughout San Diego County. Family-owned, licensed & insured. Call (619) 750-0114.",
   keywords: "junk removal San Diego, junk hauling San Diego, trash removal San Diego, junk pickup San Diego, haul away junk San Diego, same day junk removal, emergency junk removal San Diego, furniture removal San Diego, appliance removal San Diego, estate cleanout San Diego, construction debris removal, garage cleanout San Diego, mattress removal San Diego, couch removal San Diego, commercial junk removal, residential junk hauling",
-  authors: [{ name: "Severin Cleaners" }],
+  authors: [{ name: "Severin Hauling" }],
   robots: {
     index: true,
     follow: true,
@@ -33,29 +33,29 @@ export const metadata: Metadata = {
     google: "BeGU1HGiaVVEbiJWNx2yGB-J9dc93sy8wzsZ34McCfg",
   },
   openGraph: {
-    title: "Severin Cleaners | Professional Junk Removal & Hauling Services",
-    description: "Severin Cleaners is your trusted partner for junk removal and property cleanout services throughout San Diego County. Family-owned, licensed & insured. Call (619) 750-0114.",
+    title: "Severin Hauling | Professional Junk Removal & Hauling Services",
+    description: "Severin Hauling is your trusted partner for junk removal and property cleanout services throughout San Diego County. Family-owned, licensed & insured. Call (619) 750-0114.",
     type: "website",
     locale: "en_US",
-    url: "https://severincleaners.com",
-    siteName: "Severin Cleaners - Junk Removal San Diego",
+    url: "https://www.severinhauling.com",
+    siteName: "Severin Hauling - Junk Removal San Diego",
     images: [
       {
-        url: "https://severincleaners.com/og-image.jpg",
+        url: "https://www.severinhauling.com/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Severin Cleaners - Professional Junk Removal Service El Cajon & San Diego",
+        alt: "Severin Hauling - Professional Junk Removal Service El Cajon & San Diego",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Severin Cleaners | Professional Junk Removal & Hauling Services",
-    description: "Severin Cleaners is your trusted partner for junk removal and property cleanout services throughout San Diego County. Family-owned, licensed & insured. Call (619) 750-0114.",
-    images: ["https://severincleaners.com/og-image.jpg"],
+    title: "Severin Hauling | Professional Junk Removal & Hauling Services",
+    description: "Severin Hauling is your trusted partner for junk removal and property cleanout services throughout San Diego County. Family-owned, licensed & insured. Call (619) 750-0114.",
+    images: ["https://www.severinhauling.com/og-image.jpg"],
   },
   alternates: {
-    canonical: "https://severincleaners.com",
+    canonical: "https://www.severinhauling.com",
   },
   other: {
     "geo.region": "US-CA",

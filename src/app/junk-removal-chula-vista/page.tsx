@@ -27,13 +27,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Junk Removal Chula Vista | Bilingual • HOA-Compliant | South Bay',
     description: 'Bilingual junk removal Chula Vista for Eastlake, Otay Ranch & South Bay. HOA-compliant, multi-generational home specialists. Same-day service. Call (619) 750-0114.',
-    url: 'https://severincleaners.com/junk-removal-chula-vista',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/junk-removal-chula-vista',
+    siteName: 'Severin Hauling',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Chula Vista Junk Removal - Severin Cleaners'
+      alt: 'Chula Vista Junk Removal - Severin Hauling'
     }],
     locale: 'en_US',
     type: 'website',
@@ -42,10 +42,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Junk Removal Chula Vista | Bilingual • HOA-Compliant | South Bay',
     description: 'Bilingual junk removal Chula Vista for Eastlake, Otay Ranch & South Bay. HOA-compliant, multi-generational home specialists. Same-day service. Call (619) 750-0114.',
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://severincleaners.com/junk-removal-chula-vista',
+    canonical: 'https://www.severinhauling.com/junk-removal-chula-vista',
   },
   robots: {
     index: true,
@@ -103,9 +103,9 @@ const chulaVistaFAQs = [
 
 export default function JunkRemovalChulaVistaPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-    { name: "Chula Vista Junk Removal", url: "https://severincleaners.com/junk-removal-chula-vista" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Areas We Serve", url: "https://www.severinhauling.com/areas-we-serve" },
+    { name: "Chula Vista Junk Removal", url: "https://www.severinhauling.com/junk-removal-chula-vista" },
   ]);
 
   const faqSchema = generateFAQSchema(chulaVistaFAQs);
@@ -114,18 +114,18 @@ export default function JunkRemovalChulaVistaPage() {
     "@type": "Service",
     "name": "Junk Removal in Chula Vista",
     "description": "Professional Chula Vista junk removal for Eastlake, Otay Ranch, Millenia. Bilingual junk hauling service, HOA compliant. Same-day pickup.",
-    "url": "https://severincleaners.com/junk-removal-chula-vista",
+    "url": "https://www.severinhauling.com/junk-removal-chula-vista",
     "serviceType": "Junk Removal",
     "provider": {
-      "@id": "https://severincleaners.com/junk-removal-chula-vista#business"
+      "@id": "https://www.severinhauling.com/junk-removal-chula-vista#business"
     }
   };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/junk-removal-chula-vista#business",
-    "name": "Severin Cleaners LLC",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/junk-removal-chula-vista#business",
+    "name": "Severin Hauling LLC",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -141,7 +141,7 @@ export default function JunkRemovalChulaVistaPage() {
       "latitude": 32.7678,
       "longitude": -117.0231
     },
-    "url": "https://severincleaners.com/junk-removal-chula-vista",
+    "url": "https://www.severinhauling.com/junk-removal-chula-vista",
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
     "acceptsReservations": true,
     "currenciesAccepted": "USD",
@@ -226,14 +226,14 @@ export default function JunkRemovalChulaVistaPage() {
     "sameAs": [
       "https://www.facebook.com/severinhauling",
       "https://www.instagram.com/severinhauling/",
-      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.yelp.com/biz/severin-hauling-san-diego",
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
     ]
   };
 
   const howToSchema = generateHowToSchema({
     cityName: "Chula Vista",
-    pageUrl: "https://severincleaners.com/junk-removal-chula-vista"
+    pageUrl: "https://www.severinhauling.com/junk-removal-chula-vista"
   });
 
   const combinedSchema = {
@@ -352,7 +352,7 @@ export default function JunkRemovalChulaVistaPage() {
                     </p>
 
                     {/* Why Choose Us */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Cleaners for Chula Vista Junk Removal</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Hauling for Chula Vista Junk Removal</h3>
                     <ul className="space-y-3 mb-6">
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>

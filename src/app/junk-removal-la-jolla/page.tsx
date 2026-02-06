@@ -28,25 +28,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: "La Jolla Junk Removal | Estate Cleanouts & Furniture Disposal | Same-Day Service",
     description: "Professional La Jolla junk removal for estates, homes, Bird Rock, Muirlands, and UTC. Discreet service, expert furniture handling. Call (619) 750-0114.",
-    url: "https://severincleaners.com/junk-removal-la-jolla",
-    siteName: 'Severin Cleaners',
+    url: "https://www.severinhauling.com/junk-removal-la-jolla",
+    siteName: 'Severin Hauling',
     type: 'website',
     locale: 'en_US',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'La Jolla Junk Removal - Severin Cleaners Luxury Estate Service'
+      alt: 'La Jolla Junk Removal - Severin Hauling Luxury Estate Service'
     }]
   },
   twitter: {
     card: 'summary_large_image',
     title: "La Jolla Junk Removal | Estate Cleanouts & Furniture Disposal",
     description: "Professional La Jolla junk removal for estates, homes, Bird Rock, Muirlands, and UTC (92037). Discreet service, expert furniture handling.",
-    images: ['https://severincleaners.com/og-image.jpg']
+    images: ['https://www.severinhauling.com/og-image.jpg']
   },
   alternates: {
-    canonical: "https://severincleaners.com/junk-removal-la-jolla",
+    canonical: "https://www.severinhauling.com/junk-removal-la-jolla",
   },
   robots: {
     index: true,
@@ -108,9 +108,9 @@ const laJollaFAQs = [
 
 export default function JunkRemovalLaJollaPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-    { name: "La Jolla Junk Removal", url: "https://severincleaners.com/junk-removal-la-jolla" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Areas We Serve", url: "https://www.severinhauling.com/areas-we-serve" },
+    { name: "La Jolla Junk Removal", url: "https://www.severinhauling.com/junk-removal-la-jolla" },
   ]);
 
   const faqSchema = generateFAQSchema(laJollaFAQs);
@@ -119,18 +119,18 @@ export default function JunkRemovalLaJollaPage() {
     "@type": "Service",
     "name": "Junk Removal in La Jolla",
     "description": "Premium La Jolla junk removal for estates, luxury homes, Bird Rock, Muirlands. Discreet service with unmarked vehicles. Expert luxury furniture handling.",
-    "url": "https://severincleaners.com/junk-removal-la-jolla",
+    "url": "https://www.severinhauling.com/junk-removal-la-jolla",
     "serviceType": "Junk Removal",
     "provider": {
-      "@id": "https://severincleaners.com/junk-removal-la-jolla#business"
+      "@id": "https://www.severinhauling.com/junk-removal-la-jolla#business"
     }
   };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/junk-removal-la-jolla#business",
-    "name": "Severin Cleaners LLC",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/junk-removal-la-jolla#business",
+    "name": "Severin Hauling LLC",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
@@ -149,7 +149,7 @@ export default function JunkRemovalLaJollaPage() {
       "latitude": 32.7678,
       "longitude": -117.0231
     },
-    "url": "https://severincleaners.com/junk-removal-la-jolla",
+    "url": "https://www.severinhauling.com/junk-removal-la-jolla",
     "knowsAbout": [
       "Oceanfront Property Access and Navigation",
       "Hillside Terrain and Steep Driveway Access",
@@ -225,7 +225,7 @@ export default function JunkRemovalLaJollaPage() {
     "sameAs": [
       "https://www.facebook.com/severinhauling",
       "https://www.instagram.com/severinhauling/",
-      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.yelp.com/biz/severin-hauling-san-diego",
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
     ]
   };
@@ -380,7 +380,7 @@ export default function JunkRemovalLaJollaPage() {
 
   const howToSchema = generateHowToSchema({
     cityName: "La Jolla",
-    pageUrl: "https://severincleaners.com/junk-removal-la-jolla"
+    pageUrl: "https://www.severinhauling.com/junk-removal-la-jolla"
   });
 
   const combinedSchema = {
@@ -476,7 +476,7 @@ export default function JunkRemovalLaJollaPage() {
 
                         {/* Why Choose Us - La Jolla Specific */}
                         <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12">
-                          Why La Jolla Residents Choose Severin Cleaners
+                          Why La Jolla Residents Choose Severin Hauling
                         </h2>
 
                         <ul className="space-y-3 mb-6">
@@ -551,7 +551,7 @@ export default function JunkRemovalLaJollaPage() {
                   Book Your La Jolla Junk Removal Today
                 </h2>
                 <p className="text-xl mb-8 leading-relaxed">
-                  Whether you're clearing out a Muirlands estate, renovating a Bird Rock home, or updating a La Jolla Shores property, Severin Cleaners delivers the trusted junk removal La Jolla residents depend on. Discreet, professional, white-glove service for La Jolla's most exclusive properties.
+                  Whether you're clearing out a Muirlands estate, renovating a Bird Rock home, or updating a La Jolla Shores property, Severin Hauling delivers the trusted junk removal La Jolla residents depend on. Discreet, professional, white-glove service for La Jolla's most exclusive properties.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
                   <a

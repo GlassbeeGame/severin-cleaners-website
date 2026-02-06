@@ -7,7 +7,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import { generateBlogPageSchema, generateBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Junk Removal Blog | Tips, Guides & Cost Savings | Severin Cleaners",
+  title: "Junk Removal Blog | Tips, Guides & Cost Savings | Severin Hauling",
   description: "Expert junk removal tips, cost guides, and how-to articles for San Diego homeowners and businesses. Learn how to save money and prepare for junk removal services.",
   keywords: [
     "junk removal tips",
@@ -18,27 +18,27 @@ export const metadata: Metadata = {
     "same day junk removal"
   ],
   openGraph: {
-    title: "Junk Removal Blog | Tips & Guides | Severin Cleaners",
+    title: "Junk Removal Blog | Tips & Guides | Severin Hauling",
     description: "Expert junk removal tips, cost guides, and how-to articles for San Diego homeowners and businesses.",
-    url: "https://severincleaners.com/blog",
-    siteName: "Severin Cleaners",
+    url: "https://www.severinhauling.com/blog",
+    siteName: "Severin Hauling",
     type: "website",
     locale: "en_US",
     images: [{
-      url: "https://severincleaners.com/og-image.jpg",
+      url: "https://www.severinhauling.com/og-image.jpg",
       width: 1200,
       height: 630,
-      alt: "Junk Removal Blog - Tips & Guides - Severin Cleaners"
+      alt: "Junk Removal Blog - Tips & Guides - Severin Hauling"
     }]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Junk Removal Blog | Tips & Guides | Severin Cleaners",
+    title: "Junk Removal Blog | Tips & Guides | Severin Hauling",
     description: "Expert junk removal tips, cost guides, and how-to articles for San Diego homeowners and businesses.",
-    images: ["https://severincleaners.com/og-image.jpg"]
+    images: ["https://www.severinhauling.com/og-image.jpg"]
   },
   alternates: {
-    canonical: "https://severincleaners.com/blog",
+    canonical: "https://www.severinhauling.com/blog",
   },
   robots: {
     index: true,
@@ -125,8 +125,8 @@ const blogPosts = [
 export default function BlogPage() {
   const blogSchema = generateBlogPageSchema();
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Blog", url: "https://severincleaners.com/blog" }
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Blog", url: "https://www.severinhauling.com/blog" }
   ]);
 
   const combinedSchema = {

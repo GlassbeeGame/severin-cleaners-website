@@ -28,25 +28,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Estate Cleanout San Diego | Respectful Probate & Senior Downsizing",
     description: "Compassionate, professional estate cleanout services in San Diego. Probate cleanout, estate sales, senior downsizing with dignity and care.",
-    url: "https://severincleaners.com/estate-cleanout-san-diego",
-    siteName: "Severin Cleaners",
+    url: "https://www.severinhauling.com/estate-cleanout-san-diego",
+    siteName: "Severin Hauling",
     type: "website",
     locale: "en_US",
     images: [{
-      url: "https://severincleaners.com/og-image.jpg",
+      url: "https://www.severinhauling.com/og-image.jpg",
       width: 1200,
       height: 630,
-      alt: "Estate Cleanout San Diego - Severin Cleaners"
+      alt: "Estate Cleanout San Diego - Severin Hauling"
     }]
   },
   twitter: {
     card: "summary_large_image",
     title: "Estate Cleanout San Diego | Respectful Probate Services",
     description: "Compassionate estate cleanout San Diego services. Probate cleanout, senior downsizing, inheritance property cleanout. Call (619) 750-0114.",
-    images: ["https://severincleaners.com/og-image.jpg"]
+    images: ["https://www.severinhauling.com/og-image.jpg"]
   },
   alternates: {
-    canonical: "https://severincleaners.com/estate-cleanout-san-diego",
+    canonical: "https://www.severinhauling.com/estate-cleanout-san-diego",
   },
   robots: {
     index: true,
@@ -103,15 +103,15 @@ export default function EstateCleanoutPage() {
   const serviceSchema = generateServiceSchema({
     name: "Estate Cleanout San Diego",
     description: "Compassionate estate cleanout services in San Diego. Professional probate cleanout, senior downsizing, and inheritance property cleanout with dignity and care.",
-    url: "https://severincleaners.com/estate-cleanout-san-diego",
+    url: "https://www.severinhauling.com/estate-cleanout-san-diego",
     serviceType: "Estate Cleanout Service",
     areaServed: "San Diego County, CA",
   });
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Services", url: "https://severincleaners.com/services" },
-    { name: "Estate Cleanout", url: "https://severincleaners.com/estate-cleanout-san-diego" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Services", url: "https://www.severinhauling.com/services" },
+    { name: "Estate Cleanout", url: "https://www.severinhauling.com/estate-cleanout-san-diego" },
   ]);
 
   const faqSchema = generateFAQSchema(estateFAQs);

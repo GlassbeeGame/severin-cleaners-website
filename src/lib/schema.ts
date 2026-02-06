@@ -52,9 +52,9 @@ export function generateServiceSchema({
   serviceType,
   areaServed = "San Diego, CA",
   provider = {
-    name: "Severin Cleaners",
+    name: "Severin Hauling",
     telephone: "+1-619-750-0114",
-    url: "https://severincleaners.com",
+    url: "https://www.severinhauling.com",
   },
 }: ServiceSchemaProps) {
   const areaServedData = Array.isArray(areaServed)
@@ -88,11 +88,11 @@ export function generateServiceSchema({
       "telephone": provider.telephone,
       "url": provider.url,
       "image": [
-        "https://severincleaners.com/optimized/couchwithlogo.jpg",
-        "https://severincleaners.com/optimized/toiletteam.jpg",
-        "https://severincleaners.com/optimized/commercial.jpg",
+        "https://www.severinhauling.com/optimized/couchwithlogo.jpg",
+        "https://www.severinhauling.com/optimized/toiletteam.jpg",
+        "https://www.severinhauling.com/optimized/commercial.jpg",
       ],
-      "logo": "https://severincleaners.com/logo.png",
+      "logo": "https://www.severinhauling.com/logo.png",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "8900 Grossmont Blvd, Suite 1",
@@ -157,15 +157,15 @@ export function generateLocationServiceSchema({
     "serviceType": serviceName,
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Severin Cleaners",
+      "name": "Severin Hauling",
       "telephone": "+1-619-750-0114",
-      "url": "https://severincleaners.com",
+      "url": "https://www.severinhauling.com",
       "image": [
-        "https://severincleaners.com/optimized/couchwithlogo.jpg",
-        "https://severincleaners.com/optimized/toiletteam.jpg",
-        "https://severincleaners.com/optimized/commercial.jpg",
+        "https://www.severinhauling.com/optimized/couchwithlogo.jpg",
+        "https://www.severinhauling.com/optimized/toiletteam.jpg",
+        "https://www.severinhauling.com/optimized/commercial.jpg",
       ],
-      "logo": "https://severincleaners.com/logo.png",
+      "logo": "https://www.severinhauling.com/logo.png",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "8900 Grossmont Blvd, Suite 1",
@@ -228,23 +228,23 @@ export function generateLocalBusinessSchema() {
     "@context": "https://schema.org",
     "@type": "Service",
     "serviceType": "Junk Removal Service",
-    "name": "Severin Cleaners",
+    "name": "Severin Hauling",
     "description": "Professional junk removal and hauling services in San Diego County. Same-day service available for furniture removal, appliance disposal, estate cleanouts, construction debris removal, and more.",
-    "url": "https://severincleaners.com",
+    "url": "https://www.severinhauling.com",
     "slogan": "From Junk to Shine, We Handle Every Grime",
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Severin Cleaners",
+      "name": "Severin Hauling",
       "telephone": "+1-619-750-0114",
-      "email": "severincleaners@gmail.com",
+      "email": "severinhauling@gmail.com",
       "image": [
-        "https://severincleaners.com/optimized/couchwithlogo.jpg",
-        "https://severincleaners.com/optimized/toiletteam.jpg",
-        "https://severincleaners.com/optimized/commercial.jpg",
-        "https://severincleaners.com/optimized/construction.jpg",
-        "https://severincleaners.com/optimized/before.jpg",
+        "https://www.severinhauling.com/optimized/couchwithlogo.jpg",
+        "https://www.severinhauling.com/optimized/toiletteam.jpg",
+        "https://www.severinhauling.com/optimized/commercial.jpg",
+        "https://www.severinhauling.com/optimized/construction.jpg",
+        "https://www.severinhauling.com/optimized/before.jpg",
       ],
-      "logo": "https://severincleaners.com/logo.png",
+      "logo": "https://www.severinhauling.com/logo.png",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "8900 Grossmont Blvd, Suite 1",
@@ -393,7 +393,7 @@ export function generateLocalBusinessSchema() {
 export function generateReviewSchema(testimonial: Testimonial) {
   return {
     "@type": "Review",
-    "@id": `https://severincleaners.com/#review-${testimonial.id}`,
+    "@id": `https://www.severinhauling.com/#review-${testimonial.id}`,
     "author": {
       "@type": "Person",
       "name": testimonial.name
@@ -407,8 +407,8 @@ export function generateReviewSchema(testimonial: Testimonial) {
     "datePublished": testimonial.datePublished,
     "itemReviewed": {
       "@type": "LocalBusiness",
-      "@id": "https://severincleaners.com/#business",
-      "name": "Severin Cleaners",
+      "@id": "https://www.severinhauling.com/#business",
+      "name": "Severin Hauling",
       "telephone": "+1-619-750-0114",
       "address": {
         "@type": "PostalAddress",
@@ -420,9 +420,9 @@ export function generateReviewSchema(testimonial: Testimonial) {
       },
       "priceRange": "$$",
       "image": [
-        "https://severincleaners.com/optimized/couchwithlogo.jpg",
-        "https://severincleaners.com/optimized/toiletteam.jpg",
-        "https://severincleaners.com/optimized/commercial.jpg"
+        "https://www.severinhauling.com/optimized/couchwithlogo.jpg",
+        "https://www.severinhauling.com/optimized/toiletteam.jpg",
+        "https://www.severinhauling.com/optimized/commercial.jpg"
       ],
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
@@ -519,16 +519,16 @@ export function generateFAQSchema(faqs: FAQ[]) {
 export function generateOrganizationSchema() {
   return {
     "@type": "Organization",
-    "@id": "https://severincleaners.com/#organization",
-    "name": "Severin Cleaners",
-    "url": "https://severincleaners.com",
+    "@id": "https://www.severinhauling.com/#organization",
+    "name": "Severin Hauling",
+    "url": "https://www.severinhauling.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://severincleaners.com/logo.png"
+      "url": "https://www.severinhauling.com/logo.png"
     },
     "description": "Professional junk removal and cleanout services serving San Diego County. Residential and commercial hauling, same-day service, eco-friendly disposal.",
     "telephone": "+1-619-750-0114",
-    "email": "severincleaners@gmail.com",
+    "email": "severinhauling@gmail.com",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "8900 Grossmont Blvd, Suite 1",
@@ -556,15 +556,15 @@ export function generateOrganizationSchema() {
 export function generateContactPageSchema() {
   return {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/#business",
-    "name": "Severin Cleaners",
+    "@id": "https://www.severinhauling.com/#business",
+    "name": "Severin Hauling",
     "image": [
-      "https://severincleaners.com/optimized/couchwithlogo.jpg",
-      "https://severincleaners.com/optimized/toiletteam.jpg",
-      "https://severincleaners.com/optimized/commercial.jpg"
+      "https://www.severinhauling.com/optimized/couchwithlogo.jpg",
+      "https://www.severinhauling.com/optimized/toiletteam.jpg",
+      "https://www.severinhauling.com/optimized/commercial.jpg"
     ],
     "telephone": "+1-619-750-0114",
-    "email": "severincleaners@gmail.com",
+    "email": "severinhauling@gmail.com",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "8900 Grossmont Blvd, Suite 1",
@@ -578,7 +578,7 @@ export function generateContactPageSchema() {
       "latitude": "32.7678",
       "longitude": "-117.0231"
     },
-    "url": "https://severincleaners.com",
+    "url": "https://www.severinhauling.com",
     "priceRange": "$$",
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
@@ -631,7 +631,7 @@ export function generateServicesListSchema(services: ServiceListItem[]) {
   return {
     "@type": "ItemList",
     "name": "Junk Removal Services in San Diego",
-    "description": "Complete list of professional junk removal and cleanout services offered by Severin Cleaners",
+    "description": "Complete list of professional junk removal and cleanout services offered by Severin Hauling",
     "itemListElement": services.map((service, index) => ({
       "@type": "ListItem",
       "position": index + 1,
@@ -640,7 +640,7 @@ export function generateServicesListSchema(services: ServiceListItem[]) {
         "name": service.name,
         "url": service.url,
         "description": service.description,
-        "provider": "Severin Cleaners"
+        "provider": "Severin Hauling"
       }
     }))
   };
@@ -658,7 +658,7 @@ export function generateAreasListSchema(areas: AreaListItem[]) {
   return {
     "@type": "ItemList",
     "name": "San Diego Areas Served",
-    "description": "Complete list of San Diego County neighborhoods and cities where Severin Cleaners provides junk removal services",
+    "description": "Complete list of San Diego County neighborhoods and cities where Severin Hauling provides junk removal services",
     "itemListElement": areas.map((area, index) => ({
       "@type": "ListItem",
       "position": index + 1,
@@ -683,15 +683,15 @@ export function generateAreasListSchema(areas: AreaListItem[]) {
 export function generateBlogPageSchema() {
   return {
     "@type": "Blog",
-    "name": "Severin Cleaners Blog",
+    "name": "Severin Hauling Blog",
     "description": "Junk removal tips, guides, and industry insights from San Diego's premier cleanout service",
-    "url": "https://severincleaners.com/blog",
+    "url": "https://www.severinhauling.com/blog",
     "publisher": {
       "@type": "Organization",
-      "name": "Severin Cleaners",
+      "name": "Severin Hauling",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://severincleaners.com/logo.png"
+        "url": "https://www.severinhauling.com/logo.png"
       }
     }
   };

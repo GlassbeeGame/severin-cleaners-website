@@ -20,7 +20,7 @@ export default function Header() {
             <Link href="/" className="flex items-center gap-3">
               <Image
                 src="/logo.png"
-                alt="Severin Cleaners Logo"
+                alt="Severin Hauling Logo"
                 width={48}
                 height={48}
                 className="h-12 w-12 object-contain"
@@ -28,7 +28,7 @@ export default function Header() {
               />
               <div className="text-2xl font-black text-gray-900 uppercase">
                 Severin
-                <span className="text-blue-500"> Cleaners</span>
+                <span className="text-blue-500"> Hauling</span>
               </div>
             </Link>
           </div>

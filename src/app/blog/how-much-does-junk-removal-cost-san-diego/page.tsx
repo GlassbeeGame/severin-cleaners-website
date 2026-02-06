@@ -19,25 +19,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: "How Much Does Junk Removal Cost in San Diego? (2025 Guide)",
     description: "Complete pricing guide for junk removal in San Diego. Learn costs, save money, and get transparent pricing.",
-    url: "https://severincleaners.com/blog/how-much-does-junk-removal-cost-san-diego",
-    siteName: "Severin Cleaners",
+    url: "https://www.severinhauling.com/blog/how-much-does-junk-removal-cost-san-diego",
+    siteName: "Severin Hauling",
     type: "article",
     locale: "en_US",
     images: [{
-      url: "https://severincleaners.com/og-image.jpg",
+      url: "https://www.severinhauling.com/og-image.jpg",
       width: 1200,
       height: 630,
-      alt: "How Much Does Junk Removal Cost in San Diego? - Severin Cleaners"
+      alt: "How Much Does Junk Removal Cost in San Diego? - Severin Hauling"
     }]
   },
   twitter: {
     card: "summary_large_image",
     title: "How Much Does Junk Removal Cost in San Diego? (2025 Guide)",
     description: "Complete pricing guide for junk removal in San Diego. Learn costs, save money, and get transparent pricing.",
-    images: ["https://severincleaners.com/og-image.jpg"]
+    images: ["https://www.severinhauling.com/og-image.jpg"]
   },
   alternates: {
-    canonical: "https://severincleaners.com/blog/how-much-does-junk-removal-cost-san-diego",
+    canonical: "https://www.severinhauling.com/blog/how-much-does-junk-removal-cost-san-diego",
   },
   robots: {
     index: true,
@@ -64,25 +64,25 @@ export default function JunkRemovalCostGuide() {
         "@type": "BlogPosting",
         "headline": "How Much Does Junk Removal Cost in San Diego? (2025 Complete Guide)",
         "description": "Complete San Diego junk removal cost guide with transparent pricing, cost factors, and money-saving tips.",
-        "image": "https://severincleaners.com/og-image.jpg",
+        "image": "https://www.severinhauling.com/og-image.jpg",
         "datePublished": "2025-01-15",
         "dateModified": "2025-01-15",
         "author": {
           "@type": "Organization",
-          "name": "Severin Cleaners",
-          "url": "https://severincleaners.com"
+          "name": "Severin Hauling",
+          "url": "https://www.severinhauling.com"
         },
         "publisher": {
           "@type": "Organization",
-          "name": "Severin Cleaners",
+          "name": "Severin Hauling",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://severincleaners.com/logo.png"
+            "url": "https://www.severinhauling.com/logo.png"
           }
         },
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://severincleaners.com/blog/how-much-does-junk-removal-cost-san-diego"
+          "@id": "https://www.severinhauling.com/blog/how-much-does-junk-removal-cost-san-diego"
         }
       },
       // HowTo Schema - How to Save Money
@@ -95,25 +95,25 @@ export default function JunkRemovalCostGuide() {
             "@type": "HowToStep",
             "name": "Pre-Sort Your Items",
             "text": "Separate items into keep, donate, and dispose categories before the junk removal team arrives. This reduces volume and lowers costs.",
-            "url": "https://severincleaners.com/blog/how-much-does-junk-removal-cost-san-diego#save-money"
+            "url": "https://www.severinhauling.com/blog/how-much-does-junk-removal-cost-san-diego#save-money"
           },
           {
             "@type": "HowToStep",
             "name": "Donate Usable Items Yourself",
             "text": "Take gently used furniture and items to donation centers yourself to reduce the volume that needs to be hauled.",
-            "url": "https://severincleaners.com/blog/how-much-does-junk-removal-cost-san-diego#save-money"
+            "url": "https://www.severinhauling.com/blog/how-much-does-junk-removal-cost-san-diego#save-money"
           },
           {
             "@type": "HowToStep",
             "name": "Consolidate Items in One Location",
             "text": "Gather all junk in a garage or driveway for easy access. This speeds up the process and can reduce costs.",
-            "url": "https://severincleaners.com/blog/how-much-does-junk-removal-cost-san-diego#save-money"
+            "url": "https://www.severinhauling.com/blog/how-much-does-junk-removal-cost-san-diego#save-money"
           },
           {
             "@type": "HowToStep",
             "name": "Schedule During Weekdays",
             "text": "Book services during weekday hours when possible for better availability and potentially lower rates.",
-            "url": "https://severincleaners.com/blog/how-much-does-junk-removal-cost-san-diego#save-money"
+            "url": "https://www.severinhauling.com/blog/how-much-does-junk-removal-cost-san-diego#save-money"
           }
         ]
       },

@@ -26,13 +26,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Couch Removal San Diego | Sofa & Sectional Disposal from $69 | (619) 750-0114',
     description: 'Professional couch and sofa removal San Diego from $69. Same-day sectional disposal, loveseat pickup, recliner removal. Upholstered furniture specialists. Call (619) 750-0114.',
-    url: 'https://severincleaners.com/couch-removal-san-diego',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/couch-removal-san-diego',
+    siteName: 'Severin Hauling',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Couch Removal San Diego - Severin Cleaners'
+      alt: 'Couch Removal San Diego - Severin Hauling'
     }],
     locale: 'en_US',
     type: 'website',
@@ -41,10 +41,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Couch Removal San Diego | Sofa & Sectional Disposal from $69 | (619) 750-0114',
     description: 'Professional couch and sofa removal San Diego from $69. Same-day sectional disposal, loveseat pickup, recliner removal. Upholstered furniture specialists. Call (619) 750-0114.',
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://severincleaners.com/couch-removal-san-diego',
+    canonical: 'https://www.severinhauling.com/couch-removal-san-diego',
   },
   robots: {
     index: true,
@@ -116,23 +116,23 @@ export default function CouchRemovalPage() {
   const serviceSchema = generateServiceSchema({
     name: "Couch Removal San Diego",
     description: "Affordable couch removal in San Diego starting at $69. Same-day sofa disposal, upfront pricing, and responsible recycling. We handle sectionals, loveseats, recliners, and all furniture types.",
-    url: "https://severincleaners.com/couch-removal-san-diego",
+    url: "https://www.severinhauling.com/couch-removal-san-diego",
     serviceType: "Couch and Sofa Removal Service",
     areaServed: "San Diego County, CA",
   });
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Services", url: "https://severincleaners.com/services" },
-    { name: "Couch Removal", url: "https://severincleaners.com/couch-removal-san-diego" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Services", url: "https://www.severinhauling.com/services" },
+    { name: "Couch Removal", url: "https://www.severinhauling.com/couch-removal-san-diego" },
   ]);
 
   // Local business schema for couch removal
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/couch-removal-san-diego#business",
-    "name": "Severin Cleaners - Couch Removal San Diego",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/couch-removal-san-diego#business",
+    "name": "Severin Hauling - Couch Removal San Diego",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -197,7 +197,7 @@ export default function CouchRemovalPage() {
                   <h2 className="text-4xl font-bold text-gray-900 mb-6">Professional Couch & Sofa Removal San Diego</h2>
 
                   <p className="text-xl text-gray-600 mb-6 leading-relaxed">
-                    When you need reliable couch and sofa removal San Diego, Severin Cleaners specializes in upholstered furniture disposal throughout San Diego County. We handle couches, sectionals, loveseats, recliners, and all upholstered seating removal. Our professional team provides same-day service starting at just $69 for small sofas and loveseats, with standard couches from $100 and sectionals from $129. We offer transparent pricing with upfront quotes, and once we give you a price, it covers everything—all labor, hauling, and responsible disposal or recycling. <strong>Need to remove other furniture types like beds, dressers, or desks?</strong> Check out our comprehensive <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline font-semibold">furniture disposal service</a>.
+                    When you need reliable couch and sofa removal San Diego, Severin Hauling specializes in upholstered furniture disposal throughout San Diego County. We handle couches, sectionals, loveseats, recliners, and all upholstered seating removal. Our professional team provides same-day service starting at just $69 for small sofas and loveseats, with standard couches from $100 and sectionals from $129. We offer transparent pricing with upfront quotes, and once we give you a price, it covers everything—all labor, hauling, and responsible disposal or recycling. <strong>Need to remove other furniture types like beds, dressers, or desks?</strong> Check out our comprehensive <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline font-semibold">furniture disposal service</a>.
                   </p>
 
                   <p className="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -259,7 +259,7 @@ export default function CouchRemovalPage() {
                       </thead>
                       <tbody>
                         <tr>
-                          <td className="border border-gray-300 px-4 py-2"><strong>Severin Cleaners</strong></td>
+                          <td className="border border-gray-300 px-4 py-2"><strong>Severin Hauling</strong></td>
                           <td className="border border-gray-300 px-4 py-2">$69+</td>
                           <td className="border border-gray-300 px-4 py-2">None</td>
                           <td className="border border-gray-300 px-4 py-2">Same day</td>

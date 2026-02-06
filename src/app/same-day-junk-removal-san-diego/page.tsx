@@ -10,7 +10,7 @@ import LocationPricingSection from "@/components/LocationPricingSection";
 import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
-  title: 'Same Day Junk Removal San Diego | Today Pickup | Severin Cleaners',
+  title: 'Same Day Junk Removal San Diego | Today Pickup | Severin Hauling',
   description: 'Need junk removed TODAY? Fast same day junk removal in San Diego. Available 7 days, arrive within hours. Small items $69+, standard $100+. Call (619) 750-0114.',
   keywords: [
     'same day junk removal san diego',
@@ -27,27 +27,27 @@ export const metadata: Metadata = {
     'emergency junk removal san diego'
   ],
   openGraph: {
-    title: 'Same Day Junk Removal San Diego | Today Pickup | Severin Cleaners',
+    title: 'Same Day Junk Removal San Diego | Today Pickup | Severin Hauling',
     description: 'Need junk removed TODAY? Fast same day junk removal in San Diego. Available 7 days, arrive within hours. Small items $69+, standard $100+.',
-    url: 'https://severincleaners.com/same-day-junk-removal-san-diego',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/same-day-junk-removal-san-diego',
+    siteName: 'Severin Hauling',
     type: 'website',
     locale: 'en_US',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Same Day Junk Removal San Diego - Severin Cleaners'
+      alt: 'Same Day Junk Removal San Diego - Severin Hauling'
     }]
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Same Day Junk Removal San Diego | Today Pickup',
     description: 'Need junk removed TODAY? Available 7 days, arrive within 2-4 hours. No rush fees. Call (619) 750-0114!',
-    images: ['https://severincleaners.com/og-image.jpg']
+    images: ['https://www.severinhauling.com/og-image.jpg']
   },
   alternates: {
-    canonical: 'https://severincleaners.com/same-day-junk-removal-san-diego',
+    canonical: 'https://www.severinhauling.com/same-day-junk-removal-san-diego',
   },
   robots: {
     index: true,
@@ -104,15 +104,15 @@ export default function SameDayJunkRemovalPage() {
   const serviceSchema = generateServiceSchema({
     name: "Same Day Junk Removal San Diego",
     description: "Fast same day junk removal in San Diego. Available 7 days, arrive within hours. No rush fees. Small items $69+, standard $100+.",
-    url: "https://severincleaners.com/same-day-junk-removal-san-diego",
+    url: "https://www.severinhauling.com/same-day-junk-removal-san-diego",
     serviceType: "Same Day Junk Removal",
     areaServed: "San Diego County, CA",
   });
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Services", url: "https://severincleaners.com/services" },
-    { name: "Same Day Junk Removal", url: "https://severincleaners.com/same-day-junk-removal-san-diego" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Services", url: "https://www.severinhauling.com/services" },
+    { name: "Same Day Junk Removal", url: "https://www.severinhauling.com/same-day-junk-removal-san-diego" },
   ]);
 
   const faqSchema = generateFAQSchema(sameDayFAQs);
@@ -253,7 +253,7 @@ export default function SameDayJunkRemovalPage() {
                     </div>
 
                     {/* Why Choose Us */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Cleaners for Same-Day Service</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Hauling for Same-Day Service</h3>
                     <ul className="space-y-3 mb-6">
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>

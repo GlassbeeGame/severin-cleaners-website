@@ -33,13 +33,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "San Diego Dump Fees 2025 | Landfill Prices & Free Drop-Off Guide",
     description: "See 2025 San Diego dump prices by site and material. Typical fees $70–$100 per load and ~$97–$103/ton. What each landfill accepts, hours, and how to avoid extra charges.",
-    url: "https://severincleaners.com/san-diego-dump-fees",
-    siteName: "Severin Cleaners",
+    url: "https://www.severinhauling.com/san-diego-dump-fees",
+    siteName: "Severin Hauling",
     locale: "en_US",
     type: "article",
     images: [
       {
-        url: "https://severincleaners.com/og-dump-fees.jpg",
+        url: "https://www.severinhauling.com/og-dump-fees.jpg",
         width: 1200,
         height: 630,
         alt: "San Diego Dump Fees 2025 Guide",
@@ -50,10 +50,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "San Diego Dump Fees 2025 | Landfill Prices & Free Drop-Off Guide",
     description: "See 2025 San Diego dump prices by site and material. Typical fees $70–$100 per load and ~$97–$103/ton.",
-    images: ["https://severincleaners.com/og-dump-fees.jpg"],
+    images: ["https://www.severinhauling.com/og-dump-fees.jpg"],
   },
   alternates: {
-    canonical: "https://severincleaners.com/san-diego-dump-fees",
+    canonical: "https://www.severinhauling.com/san-diego-dump-fees",
   },
   robots: {
     index: true,
@@ -100,8 +100,8 @@ const dumpFeesFAQs = [
 
 export default function SanDiegoDumpFeesPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "San Diego Dump Fees", url: "https://severincleaners.com/san-diego-dump-fees" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "San Diego Dump Fees", url: "https://www.severinhauling.com/san-diego-dump-fees" },
   ]);
 
   const localBusinessSchema = generateLocalBusinessSchema();
@@ -115,21 +115,21 @@ export default function SanDiegoDumpFeesPage() {
     "dateModified": "2025-01-20",
     "author": {
       "@type": "Organization",
-      "name": "Severin Cleaners",
-      "url": "https://severincleaners.com"
+      "name": "Severin Hauling",
+      "url": "https://www.severinhauling.com"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Severin Cleaners",
-      "url": "https://severincleaners.com",
+      "name": "Severin Hauling",
+      "url": "https://www.severinhauling.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://severincleaners.com/logo.png"
+        "url": "https://www.severinhauling.com/logo.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://severincleaners.com/san-diego-dump-fees"
+      "@id": "https://www.severinhauling.com/san-diego-dump-fees"
     },
     "about": {
       "@type": "Thing",

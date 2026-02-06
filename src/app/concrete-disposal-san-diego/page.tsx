@@ -26,13 +26,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Concrete Disposal San Diego | Demolition Debris Removal | Same-Day Service',
     description: 'Professional concrete disposal San Diego. Broken concrete, asphalt, pavement, demolition debris. Same-day service, commercial accounts, licensed & insured.',
-    url: 'https://severincleaners.com/concrete-disposal-san-diego',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/concrete-disposal-san-diego',
+    siteName: 'Severin Hauling',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Concrete Disposal San Diego - Severin Cleaners'
+      alt: 'Concrete Disposal San Diego - Severin Hauling'
     }],
     locale: 'en_US',
     type: 'website',
@@ -41,10 +41,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Concrete Disposal San Diego | Demolition Debris Removal | Same-Day Service',
     description: 'Professional concrete disposal San Diego. Broken concrete, asphalt, pavement, demolition debris. Same-day service, commercial accounts, licensed & insured.',
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://severincleaners.com/concrete-disposal-san-diego',
+    canonical: 'https://www.severinhauling.com/concrete-disposal-san-diego',
   },
   robots: {
     index: true,
@@ -101,7 +101,7 @@ export default function ConcreteDisposalSanDiegoPage() {
   const serviceSchema = generateServiceSchema({
     name: "Concrete Disposal San Diego",
     description: "Professional concrete disposal San Diego for contractors and businesses. Broken concrete, asphalt, demolition debris, pavement removal. Same-day service, commercial accounts, licensed & insured.",
-    url: "https://severincleaners.com/concrete-disposal-san-diego",
+    url: "https://www.severinhauling.com/concrete-disposal-san-diego",
     serviceType: "Concrete Removal Service",
     areaServed: "San Diego County, CA",
   });
@@ -109,9 +109,9 @@ export default function ConcreteDisposalSanDiegoPage() {
   // Enhanced LocalBusiness schema for concrete disposal
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/concrete-disposal-san-diego#business",
-    "name": "Severin Cleaners - Concrete Disposal San Diego",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/concrete-disposal-san-diego#business",
+    "name": "Severin Hauling - Concrete Disposal San Diego",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -125,7 +125,7 @@ export default function ConcreteDisposalSanDiegoPage() {
       "latitude": 32.7157,
       "longitude": -117.1611
     },
-    "url": "https://severincleaners.com/concrete-disposal-san-diego",
+    "url": "https://www.severinhauling.com/concrete-disposal-san-diego",
     "areaServed": [
       {
         "@type": "City",
@@ -178,9 +178,9 @@ export default function ConcreteDisposalSanDiegoPage() {
   };
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Services", url: "https://severincleaners.com/services" },
-    { name: "Concrete Disposal", url: "https://severincleaners.com/concrete-disposal-san-diego" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Services", url: "https://www.severinhauling.com/services" },
+    { name: "Concrete Disposal", url: "https://www.severinhauling.com/concrete-disposal-san-diego" },
   ]);
 
   const faqSchema = generateFAQSchema(concreteFAQs);
@@ -222,7 +222,7 @@ export default function ConcreteDisposalSanDiegoPage() {
                     <h2 className="text-3xl font-bold text-gray-900 mb-6">Professional Concrete Disposal San Diego</h2>
 
               <p className="text-lg text-gray-700 mb-6">
-                San Diego contractors, property managers, and commercial facilities need reliable concrete disposal San Diego services for demolition projects, parking lot repairs, and facility renovations. Severin Cleaners provides professional broken concrete removal San Diego with same-day service, commercial account options, and proper disposal documentation for compliance. As part of our comprehensive <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial junk removal San Diego</a> services, we handle heavy materials that require specialized equipment and expertise.
+                San Diego contractors, property managers, and commercial facilities need reliable concrete disposal San Diego services for demolition projects, parking lot repairs, and facility renovations. Severin Hauling provides professional broken concrete removal San Diego with same-day service, commercial account options, and proper disposal documentation for compliance. As part of our comprehensive <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial junk removal San Diego</a> services, we handle heavy materials that require specialized equipment and expertise.
               </p>
 
               <p className="text-lg text-gray-700 mb-6">
@@ -366,7 +366,7 @@ export default function ConcreteDisposalSanDiegoPage() {
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why San Diego Contractors Choose Severin Cleaners</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why San Diego Contractors Choose Severin Hauling</h3>
               <p className="mb-4">
                 San Diego's construction industry requires reliable partners who understand project timelines, compliance requirements, and cost control. Our concrete disposal San Diego service combines industry expertise with professional standards to deliver dependable solutions for contractors and businesses.
               </p>

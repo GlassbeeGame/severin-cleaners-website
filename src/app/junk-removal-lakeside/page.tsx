@@ -23,13 +23,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Lakeside Junk Removal | Large Property & Ranch Specialists | Same-Day Service',
     description: 'Professional Lakeside junk removal for large properties, ranches, Riverview, Winter Gardens. East County rural specialists with yard debris removal. Call (619) 750-0114.',
-    url: 'https://severincleaners.com/junk-removal-lakeside',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/junk-removal-lakeside',
+    siteName: 'Severin Hauling',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Lakeside Junk Removal - Severin Cleaners'
+      alt: 'Lakeside Junk Removal - Severin Hauling'
     }],
     locale: 'en_US',
     type: 'website',
@@ -38,10 +38,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Lakeside Junk Removal | Large Property & Ranch Specialists | Same-Day Service',
     description: 'Professional Lakeside junk removal for large properties, ranches, Riverview, Winter Gardens. East County rural specialists with yard debris removal. Call (619) 750-0114.',
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://severincleaners.com/junk-removal-lakeside',
+    canonical: 'https://www.severinhauling.com/junk-removal-lakeside',
   },
   robots: {
     index: true,
@@ -87,9 +87,9 @@ const lakesideFAQs = [
 
 export default function JunkRemovalLakesidePage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-    { name: "Lakeside Junk Removal", url: "https://severincleaners.com/junk-removal-lakeside" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Areas We Serve", url: "https://www.severinhauling.com/areas-we-serve" },
+    { name: "Lakeside Junk Removal", url: "https://www.severinhauling.com/junk-removal-lakeside" },
   ]);
 
   const faqSchema = generateFAQSchema(lakesideFAQs);
@@ -98,18 +98,18 @@ export default function JunkRemovalLakesidePage() {
     "@type": "Service",
     "name": "Junk Removal in Lakeside",
     "description": "Professional Lakeside junk removal for large properties, ranches, Riverview, Winter Gardens. East County rural specialists with yard debris removal.",
-    "url": "https://severincleaners.com/junk-removal-lakeside",
+    "url": "https://www.severinhauling.com/junk-removal-lakeside",
     "serviceType": "Junk Removal",
     "provider": {
-      "@id": "https://severincleaners.com/junk-removal-lakeside#business"
+      "@id": "https://www.severinhauling.com/junk-removal-lakeside#business"
     }
   };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/junk-removal-lakeside#business",
-    "name": "Severin Cleaners LLC",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/junk-removal-lakeside#business",
+    "name": "Severin Hauling LLC",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -125,7 +125,7 @@ export default function JunkRemovalLakesidePage() {
       "latitude": 32.7678,
       "longitude": -117.0231
     },
-    "url": "https://severincleaners.com/junk-removal-lakeside",
+    "url": "https://www.severinhauling.com/junk-removal-lakeside",
     "areaServed": [
       {
         "@type": "City",
@@ -147,14 +147,14 @@ export default function JunkRemovalLakesidePage() {
     "sameAs": [
       "https://www.facebook.com/severinhauling",
       "https://www.instagram.com/severinhauling/",
-      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.yelp.com/biz/severin-hauling-san-diego",
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
     ]
   };
 
   const howToSchema = generateHowToSchema({
     cityName: "Lakeside",
-    pageUrl: "https://severincleaners.com/junk-removal-lakeside"
+    pageUrl: "https://www.severinhauling.com/junk-removal-lakeside"
   });
 
   const combinedSchema = {
@@ -358,7 +358,7 @@ export default function JunkRemovalLakesidePage() {
                     </div>
 
                     {/* Why Choose Us */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Cleaners for Lakeside Junk Removal</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Hauling for Lakeside Junk Removal</h3>
                     <ul className="space-y-3 mb-6">
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>

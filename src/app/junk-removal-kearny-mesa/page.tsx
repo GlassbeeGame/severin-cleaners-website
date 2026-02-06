@@ -23,13 +23,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Kearny Mesa Junk Removal | Commercial & Residential Specialists | Same-Day Service',
     description: 'Professional Kearny Mesa junk removal for offices, warehouses, industrial parks. Commercial junk hauling experts serving Convoy District, auto businesses. Call (619) 750-0114.',
-    url: 'https://severincleaners.com/junk-removal-kearny-mesa',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/junk-removal-kearny-mesa',
+    siteName: 'Severin Hauling',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Kearny Mesa Junk Removal - Severin Cleaners'
+      alt: 'Kearny Mesa Junk Removal - Severin Hauling'
     }],
     locale: 'en_US',
     type: 'website',
@@ -38,10 +38,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Kearny Mesa Junk Removal | Commercial & Residential Specialists | Same-Day Service',
     description: 'Professional Kearny Mesa junk removal for offices, warehouses, industrial parks. Commercial junk hauling experts serving Convoy District, auto businesses. Call (619) 750-0114.',
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://severincleaners.com/junk-removal-kearny-mesa',
+    canonical: 'https://www.severinhauling.com/junk-removal-kearny-mesa',
   },
   robots: {
     index: true,
@@ -87,9 +87,9 @@ const kearnyMesaFAQs = [
 
 export default function JunkRemovalKearnyMesaPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Areas We Serve", url: "https://severincleaners.com/areas-we-serve" },
-    { name: "Kearny Mesa Junk Removal", url: "https://severincleaners.com/junk-removal-kearny-mesa" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Areas We Serve", url: "https://www.severinhauling.com/areas-we-serve" },
+    { name: "Kearny Mesa Junk Removal", url: "https://www.severinhauling.com/junk-removal-kearny-mesa" },
   ]);
 
   const faqSchema = generateFAQSchema(kearnyMesaFAQs);
@@ -98,18 +98,18 @@ export default function JunkRemovalKearnyMesaPage() {
     "@type": "Service",
     "name": "Junk Removal in Kearny Mesa",
     "description": "Professional Kearny Mesa junk removal for offices, warehouses, industrial parks. Commercial junk hauling experts serving Convoy District, auto businesses.",
-    "url": "https://severincleaners.com/junk-removal-kearny-mesa",
+    "url": "https://www.severinhauling.com/junk-removal-kearny-mesa",
     "serviceType": "Junk Removal",
     "provider": {
-      "@id": "https://severincleaners.com/junk-removal-kearny-mesa#business"
+      "@id": "https://www.severinhauling.com/junk-removal-kearny-mesa#business"
     }
   };
 
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/junk-removal-kearny-mesa#business",
-    "name": "Severin Cleaners LLC",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/junk-removal-kearny-mesa#business",
+    "name": "Severin Hauling LLC",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -125,7 +125,7 @@ export default function JunkRemovalKearnyMesaPage() {
       "latitude": 32.7678,
       "longitude": -117.0231
     },
-    "url": "https://severincleaners.com/junk-removal-kearny-mesa",
+    "url": "https://www.severinhauling.com/junk-removal-kearny-mesa",
     "areaServed": [
       {
         "@type": "City",
@@ -147,14 +147,14 @@ export default function JunkRemovalKearnyMesaPage() {
     "sameAs": [
       "https://www.facebook.com/severinhauling",
       "https://www.instagram.com/severinhauling/",
-      "https://www.yelp.com/biz/severin-cleaners-san-diego",
+      "https://www.yelp.com/biz/severin-hauling-san-diego",
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
     ]
   };
 
   const howToSchema = generateHowToSchema({
     cityName: "Kearny Mesa",
-    pageUrl: "https://severincleaners.com/junk-removal-kearny-mesa"
+    pageUrl: "https://www.severinhauling.com/junk-removal-kearny-mesa"
   });
 
   const combinedSchema = {
@@ -375,7 +375,7 @@ export default function JunkRemovalKearnyMesaPage() {
                       </div>
 
                       {/* Why Choose Us */}
-                      <h3 className="text-2xl font-bold mt-8 mb-4">Why Kearny Mesa Businesses Choose Severin Cleaners</h3>
+                      <h3 className="text-2xl font-bold mt-8 mb-4">Why Kearny Mesa Businesses Choose Severin Hauling</h3>
 
                       <div className="bg-gray-50 p-6 rounded-lg mb-4">
                         <h4 className="text-lg font-bold mb-3 text-gray-900">Commercial District Expertise</h4>
@@ -446,7 +446,7 @@ export default function JunkRemovalKearnyMesaPage() {
                   Book Your Kearny Mesa Junk Removal Today
                 </h2>
                 <p className="text-xl mb-8 leading-relaxed">
-                  Whether you're clearing an office in a business park, removing warehouse equipment, or managing a residential cleanout, Severin Cleaners delivers the trusted commercial and residential junk removal Kearny Mesa businesses and residents depend on.
+                  Whether you're clearing an office in a business park, removing warehouse equipment, or managing a residential cleanout, Severin Hauling delivers the trusted commercial and residential junk removal Kearny Mesa businesses and residents depend on.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
                   <a

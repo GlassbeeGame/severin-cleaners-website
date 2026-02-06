@@ -26,25 +26,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Santee Dump (Sycamore Landfill) 2026: Hours, Fees & Complete Guide",
     description: "Complete guide to Santee dump (Sycamore Landfill) - 2026 hours, fees, accepted items. Learn when professional junk removal actually costs less than DIY.",
-    url: "https://severincleaners.com/blog/santee-dump-guide",
-    siteName: "Severin Cleaners",
+    url: "https://www.severinhauling.com/blog/santee-dump-guide",
+    siteName: "Severin Hauling",
     type: "article",
     locale: "en_US",
     images: [{
-      url: "https://severincleaners.com/og-image.jpg",
+      url: "https://www.severinhauling.com/og-image.jpg",
       width: 1200,
       height: 630,
-      alt: "Santee Dump Guide 2026 - Severin Cleaners"
+      alt: "Santee Dump Guide 2026 - Severin Hauling"
     }]
   },
   twitter: {
     card: "summary_large_image",
     title: "Santee Dump (Sycamore Landfill) 2026: Hours, Fees & Complete Guide",
     description: "Complete Santee dump guide: hours, fees, requirements. Learn when professional junk removal saves money vs DIY.",
-    images: ["https://severincleaners.com/og-image.jpg"]
+    images: ["https://www.severinhauling.com/og-image.jpg"]
   },
   alternates: {
-    canonical: "https://severincleaners.com/blog/santee-dump-guide",
+    canonical: "https://www.severinhauling.com/blog/santee-dump-guide",
   },
   robots: {
     index: true,
@@ -81,19 +81,19 @@ export default function SanteeDumpGuide() {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://severincleaners.com"
+            "item": "https://www.severinhauling.com"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Blog",
-            "item": "https://severincleaners.com/blog"
+            "item": "https://www.severinhauling.com/blog"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Santee Dump Guide",
-            "item": "https://severincleaners.com/blog/santee-dump-guide"
+            "item": "https://www.severinhauling.com/blog/santee-dump-guide"
           }
         ]
       },
@@ -102,7 +102,7 @@ export default function SanteeDumpGuide() {
         "@type": "BlogPosting",
         "headline": "Santee Dump (Sycamore Landfill) 2026: Complete Hours, Fees & Guide",
         "description": "Comprehensive guide to Santee dump (Sycamore Landfill) including 2026 hours, current fees, requirements, accepted materials, free passes for residents, and cost comparison with professional junk removal.",
-        "image": "https://severincleaners.com/og-image.jpg",
+        "image": "https://www.severinhauling.com/og-image.jpg",
         "datePublished": "2026-01-29",
         "dateModified": "2026-01-29",
         "wordCount": 2400,
@@ -112,24 +112,24 @@ export default function SanteeDumpGuide() {
         "timeRequired": "PT8M",
         "author": {
           "@type": "Organization",
-          "name": "Severin Cleaners",
-          "url": "https://severincleaners.com",
+          "name": "Severin Hauling",
+          "url": "https://www.severinhauling.com",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://severincleaners.com/logo.png"
+            "url": "https://www.severinhauling.com/logo.png"
           },
           "sameAs": [
             "https://www.facebook.com/severinhauling",
             "https://www.instagram.com/severinhauling/",
-            "https://www.yelp.com/biz/severin-cleaners-san-diego"
+            "https://www.yelp.com/biz/severin-hauling-san-diego"
           ]
         },
         "publisher": {
           "@type": "Organization",
-          "name": "Severin Cleaners",
+          "name": "Severin Hauling",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://severincleaners.com/logo.png"
+            "url": "https://www.severinhauling.com/logo.png"
           },
           "sameAs": [
             "https://www.facebook.com/severinhauling",
@@ -138,7 +138,7 @@ export default function SanteeDumpGuide() {
         },
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://severincleaners.com/blog/santee-dump-guide"
+          "@id": "https://www.severinhauling.com/blog/santee-dump-guide"
         }
       },
       // Enhanced FAQ Schema - 13 Questions for Maximum Rich Snippet Coverage
@@ -150,7 +150,7 @@ export default function SanteeDumpGuide() {
             "name": "What time does Santee dump open?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Santee dump (Sycamore Landfill) is open Monday-Friday 7:00 AM to 4:30 PM, and Saturday 7:30 AM to 3:00 PM. The dump is CLOSED on Sundays and major holidays. Professional junk removal services like Severin Cleaners operate 7 days per week including Sundays. Call (619) 750-0114 for same-day service."
+              "text": "Santee dump (Sycamore Landfill) is open Monday-Friday 7:00 AM to 4:30 PM, and Saturday 7:30 AM to 3:00 PM. The dump is CLOSED on Sundays and major holidays. Professional junk removal services like Severin Hauling operate 7 days per week including Sundays. Call (619) 750-0114 for same-day service."
             }
           },
           {
@@ -158,7 +158,7 @@ export default function SanteeDumpGuide() {
             "name": "How much does it cost to dump at Santee?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Santee dump (Sycamore Landfill) charges $125 per ton for general trash, $76 per ton for green waste and base materials. You'll also need a hard hat ($6 if you don't have one) and must tarp your load. Factor in truck rental ($75-$150), gas ($10-$20), and your time (3-5 hours), and professional junk removal often costs less. Severin Cleaners starts at $69 for small items with all-inclusive pricing."
+              "text": "Santee dump (Sycamore Landfill) charges $125 per ton for general trash, $76 per ton for green waste and base materials. You'll also need a hard hat ($6 if you don't have one) and must tarp your load. Factor in truck rental ($75-$150), gas ($10-$20), and your time (3-5 hours), and professional junk removal often costs less. Severin Hauling starts at $69 for small items with all-inclusive pricing."
             }
           },
           {
@@ -166,7 +166,7 @@ export default function SanteeDumpGuide() {
             "name": "Is Santee dump open on Sunday?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No, Santee dump (Sycamore Landfill) is CLOSED on Sundays. The landfill is only open Monday-Saturday. If you need junk removal on Sunday, professional services like Severin Cleaners operate 7 days per week throughout Santee, El Cajon, La Mesa, and East County. Call (619) 750-0114."
+              "text": "No, Santee dump (Sycamore Landfill) is CLOSED on Sundays. The landfill is only open Monday-Saturday. If you need junk removal on Sunday, professional services like Severin Hauling operate 7 days per week throughout Santee, El Cajon, La Mesa, and East County. Call (619) 750-0114."
             }
           },
           {
@@ -198,7 +198,7 @@ export default function SanteeDumpGuide() {
             "name": "What can't I bring to Santee dump?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Santee dump restricts hazardous waste, certain chemicals, and liquids. However, they DO accept appliances (with on-site Freon removal), electronics, tires, mattresses, carpet, and large animal remains. Professional junk removal services like Severin Cleaners can handle most restricted items through proper disposal channels. Call (619) 750-0114."
+              "text": "Santee dump restricts hazardous waste, certain chemicals, and liquids. However, they DO accept appliances (with on-site Freon removal), electronics, tires, mattresses, carpet, and large animal remains. Professional junk removal services like Severin Hauling can handle most restricted items through proper disposal channels. Call (619) 750-0114."
             }
           },
           {
@@ -206,7 +206,7 @@ export default function SanteeDumpGuide() {
             "name": "Is professional junk removal cheaper than going to Santee dump?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Often yes, when you factor in all costs. DIY to Santee dump: truck rental ($75-$150) + gas ($10-$20) + dump fees ($60-$125) + hard hat ($6) + your time (3-5 hours) = $151-$301+. Professional junk removal from Severin Cleaners: $149-$349 all-inclusive with zero work from you. Call (619) 750-0114 for a free quote."
+              "text": "Often yes, when you factor in all costs. DIY to Santee dump: truck rental ($75-$150) + gas ($10-$20) + dump fees ($60-$125) + hard hat ($6) + your time (3-5 hours) = $151-$301+. Professional junk removal from Severin Hauling: $149-$349 all-inclusive with zero work from you. Call (619) 750-0114 for a free quote."
             }
           },
           {
@@ -214,7 +214,7 @@ export default function SanteeDumpGuide() {
             "name": "What payment methods does Santee dump accept?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Sycamore Landfill accepts cash, check, and credit cards. Payment is made after weighing your load. Professional junk removal from Severin Cleaners offers flexible payment including cash, credit card, Venmo, Zelle, and Cash App for your convenience."
+              "text": "Sycamore Landfill accepts cash, check, and credit cards. Payment is made after weighing your load. Professional junk removal from Severin Hauling offers flexible payment including cash, credit card, Venmo, Zelle, and Cash App for your convenience."
             }
           },
           {
@@ -222,7 +222,7 @@ export default function SanteeDumpGuide() {
             "name": "How long does it take to dump at Santee landfill?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Expect 30-60 minutes at Sycamore Landfill including wait time, weighing, unloading, and payment. Add 1-2 hours for loading your truck and 1-2 hours for truck rental pickup/return. Total DIY time: 3-5 hours. Professional junk removal from Severin Cleaners takes zero hours of your time with same-day service available."
+              "text": "Expect 30-60 minutes at Sycamore Landfill including wait time, weighing, unloading, and payment. Add 1-2 hours for loading your truck and 1-2 hours for truck rental pickup/return. Total DIY time: 3-5 hours. Professional junk removal from Severin Hauling takes zero hours of your time with same-day service available."
             }
           },
           {
@@ -230,7 +230,7 @@ export default function SanteeDumpGuide() {
             "name": "Can I dump mattresses at Santee dump?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes, Sycamore Landfill accepts mattresses and box springs for disposal as part of general waste ($125/ton). Professional mattress disposal through Severin Cleaners includes pickup from your home, hauling, and eco-friendly recycling when possible. Call (619) 750-0114 for same-day mattress removal in Santee and East County."
+              "text": "Yes, Sycamore Landfill accepts mattresses and box springs for disposal as part of general waste ($125/ton). Professional mattress disposal through Severin Hauling includes pickup from your home, hauling, and eco-friendly recycling when possible. Call (619) 750-0114 for same-day mattress removal in Santee and East County."
             }
           },
           {
@@ -246,7 +246,7 @@ export default function SanteeDumpGuide() {
             "name": "Do I need an appointment to go to Santee dump?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No appointment needed for Sycamore Landfill. It operates first-come, first-served during open hours (Mon-Fri 7AM-4:30PM, Sat 7:30AM-3PM, CLOSED Sunday). Wait times vary from 15-45 minutes. Severin Cleaners offers scheduled appointments for junk removal with no wait time. Call (619) 750-0114."
+              "text": "No appointment needed for Sycamore Landfill. It operates first-come, first-served during open hours (Mon-Fri 7AM-4:30PM, Sat 7:30AM-3PM, CLOSED Sunday). Wait times vary from 15-45 minutes. Severin Hauling offers scheduled appointments for junk removal with no wait time. Call (619) 750-0114."
             }
           }
         ]
@@ -285,43 +285,43 @@ export default function SanteeDumpGuide() {
             "@type": "HowToStep",
             "name": "Rent a Truck",
             "text": "Rent a pickup truck from Home Depot or U-Haul. Cost: $75-$150 depending on size and rental duration.",
-            "url": "https://severincleaners.com/blog/santee-dump-guide#cost-comparison"
+            "url": "https://www.severinhauling.com/blog/santee-dump-guide#cost-comparison"
           },
           {
             "@type": "HowToStep",
             "name": "Load Your Junk",
             "text": "Load items into truck bed. Secure load with tarp (REQUIRED - uncovered loads incur penalties). Estimated time: 1-2 hours of physical labor.",
-            "url": "https://severincleaners.com/blog/santee-dump-guide#requirements"
+            "url": "https://www.severinhauling.com/blog/santee-dump-guide#requirements"
           },
           {
             "@type": "HowToStep",
             "name": "Drive to Sycamore Landfill",
             "text": "Navigate to 8514 Mast Boulevard, Santee, CA 92071. Check hours BEFORE going: Mon-Fri 7AM-4:30PM, Sat 7:30AM-3PM. CLOSED Sundays and holidays.",
-            "url": "https://severincleaners.com/blog/santee-dump-guide#hours"
+            "url": "https://www.severinhauling.com/blog/santee-dump-guide#hours"
           },
           {
             "@type": "HowToStep",
             "name": "Purchase Safety Equipment",
             "text": "Buy hard hat at entrance booth if you don't have one ($6). Wear closed-toe shoes (required). Both are mandatory safety requirements.",
-            "url": "https://severincleaners.com/blog/santee-dump-guide#requirements"
+            "url": "https://www.severinhauling.com/blog/santee-dump-guide#requirements"
           },
           {
             "@type": "HowToStep",
             "name": "Weigh In and Pay Fees",
             "text": "Drive to scale for initial weigh-in. Fees: $125/ton general trash, $76/ton green waste. Typical pickup load costs $60-$125. Payment: cash, check, or credit card.",
-            "url": "https://severincleaners.com/blog/santee-dump-guide#fees"
+            "url": "https://www.severinhauling.com/blog/santee-dump-guide#fees"
           },
           {
             "@type": "HowToStep",
             "name": "Unload at Designated Area",
             "text": "Follow staff directions to unloading zone. Unload items yourself (all physical labor required). Estimated time: 30-60 minutes depending on load size.",
-            "url": "https://severincleaners.com/blog/santee-dump-guide"
+            "url": "https://www.severinhauling.com/blog/santee-dump-guide"
           },
           {
             "@type": "HowToStep",
             "name": "Return Rental Truck",
-            "text": "Drive back to rental location, return truck. Total time commitment: 3-5 hours. Alternatively, professional junk removal from Severin Cleaners requires zero time and often costs less. Call (619) 750-0114.",
-            "url": "https://severincleaners.com/blog/santee-dump-guide#cost-comparison"
+            "text": "Drive back to rental location, return truck. Total time commitment: 3-5 hours. Alternatively, professional junk removal from Severin Hauling requires zero time and often costs less. Call (619) 750-0114.",
+            "url": "https://www.severinhauling.com/blog/santee-dump-guide#cost-comparison"
           }
         ]
       },
@@ -362,16 +362,16 @@ export default function SanteeDumpGuide() {
         "isAccessibleForFree": false,
         "publicAccess": true
       },
-      // LocalBusiness Schema for Severin Cleaners (SERVICE AREA BUSINESS - not storefront)
+      // LocalBusiness Schema for Severin Hauling (SERVICE AREA BUSINESS - not storefront)
       {
         "@type": "LocalBusiness",
-        "@id": "https://severincleaners.com/#organization",
-        "name": "Severin Cleaners",
+        "@id": "https://www.severinhauling.com/#organization",
+        "name": "Severin Hauling",
         "description": "Professional junk removal service serving San Diego County. Service area business - we come to you.",
-        "url": "https://severincleaners.com",
+        "url": "https://www.severinhauling.com",
         "telephone": "+1-619-750-0114",
         "priceRange": "$69-$495",
-        "email": "contact@severincleaners.com",
+        "email": "severinhauling@gmail.com",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "8900 Grossmont Blvd Ste 1",
@@ -416,7 +416,7 @@ export default function SanteeDumpGuide() {
         "sameAs": [
           "https://www.facebook.com/severinhauling",
           "https://www.instagram.com/severinhauling/",
-          "https://www.yelp.com/biz/severin-cleaners-san-diego",
+          "https://www.yelp.com/biz/severin-hauling-san-diego",
           "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
         ]
       },
@@ -427,7 +427,7 @@ export default function SanteeDumpGuide() {
         "name": "Santee Junk Removal Service",
         "description": "Professional junk removal service in Santee, CA as a convenient alternative to DIY dump runs at Sycamore Landfill",
         "provider": {
-          "@id": "https://severincleaners.com/#organization"
+          "@id": "https://www.severinhauling.com/#organization"
         },
         "areaServed": [
           {
@@ -446,7 +446,7 @@ export default function SanteeDumpGuide() {
         ],
         "offers": {
           "@type": "Offer",
-          "url": "https://severincleaners.com/junk-removal-santee",
+          "url": "https://www.severinhauling.com/junk-removal-santee",
           "priceCurrency": "USD",
           "price": "69",
           "priceSpecification": {
@@ -624,7 +624,7 @@ export default function SanteeDumpGuide() {
                     <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-8 rounded-r-lg">
                       <h2 className="text-xl font-bold text-gray-900 mb-3">Quick Answer</h2>
                       <p className="text-gray-700 leading-relaxed">
-                        The <strong>Santee dump</strong> (officially Sycamore Landfill) charges <strong>$125 per ton</strong> for general trash. But when you add truck rental ($75-$150), gas ($10-$20), required hard hat ($6), tarping supplies, and your time (3-5 hours), DIY dump runs often cost <strong>$150-$300+</strong>. Professional junk removal from <Link href="/junk-removal-santee" className="text-blue-600 hover:text-blue-700 font-semibold">Severin Cleaners</Link> starts at $69 (small items) or $100 (standard items) with zero work from you—and we're open Sundays when the dump is closed.
+                        The <strong>Santee dump</strong> (officially Sycamore Landfill) charges <strong>$125 per ton</strong> for general trash. But when you add truck rental ($75-$150), gas ($10-$20), required hard hat ($6), tarping supplies, and your time (3-5 hours), DIY dump runs often cost <strong>$150-$300+</strong>. Professional junk removal from <Link href="/junk-removal-santee" className="text-blue-600 hover:text-blue-700 font-semibold">Severin Hauling</Link> starts at $69 (small items) or $100 (standard items) with zero work from you—and we're open Sundays when the dump is closed.
                       </p>
                     </div>
 
@@ -1067,7 +1067,7 @@ export default function SanteeDumpGuide() {
                       <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Professional Junk Removal in Santee</h2>
 
                       <p className="text-gray-700 mb-6">
-                        <Link href="/junk-removal-santee" className="text-blue-600 hover:text-blue-700 font-semibold">Severin Cleaners</Link> provides professional <strong>junk removal in Santee</strong>, El Cajon, La Mesa, Lakeside, and throughout East County San Diego. We're the local alternative to DIY dump runs.
+                        <Link href="/junk-removal-santee" className="text-blue-600 hover:text-blue-700 font-semibold">Severin Hauling</Link> provides professional <strong>junk removal in Santee</strong>, El Cajon, La Mesa, Lakeside, and throughout East County San Diego. We're the local alternative to DIY dump runs.
                       </p>
 
                       <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -1109,7 +1109,7 @@ export default function SanteeDumpGuide() {
                             <tr>
                               <th className="py-3 px-4 text-left font-bold text-gray-900">Feature</th>
                               <th className="py-3 px-4 text-center font-bold text-gray-900">Sycamore Landfill</th>
-                              <th className="py-3 px-4 text-center font-bold text-gray-900">Severin Cleaners</th>
+                              <th className="py-3 px-4 text-center font-bold text-gray-900">Severin Hauling</th>
                             </tr>
                           </thead>
                           <tbody className="divide-y divide-gray-200">
@@ -1210,7 +1210,7 @@ export default function SanteeDumpGuide() {
                             </svg>
                           </summary>
                           <div className="px-6 py-4 bg-white">
-                            <p className="text-gray-700 leading-relaxed">Santee dump (Sycamore Landfill) is open Monday-Friday 7:00 AM to 4:30 PM, and Saturday 7:30 AM to 3:00 PM. The dump is CLOSED on Sundays and major holidays. Professional junk removal services like Severin Cleaners operate 7 days per week including Sundays. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a> for same-day service.</p>
+                            <p className="text-gray-700 leading-relaxed">Santee dump (Sycamore Landfill) is open Monday-Friday 7:00 AM to 4:30 PM, and Saturday 7:30 AM to 3:00 PM. The dump is CLOSED on Sundays and major holidays. Professional junk removal services like Severin Hauling operate 7 days per week including Sundays. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a> for same-day service.</p>
                           </div>
                         </details>
 
@@ -1230,7 +1230,7 @@ export default function SanteeDumpGuide() {
                             </svg>
                           </summary>
                           <div className="px-6 py-4 bg-white">
-                            <p className="text-gray-700 leading-relaxed">Santee dump (Sycamore Landfill) charges $125 per ton for general trash, $76 per ton for green waste and base materials. You'll also need a hard hat ($6 if you don't have one) and must tarp your load. Factor in truck rental ($75-$150), gas ($10-$20), and your time (3-5 hours), and professional junk removal often costs less. Severin Cleaners starts at $69 for small items with all-inclusive pricing.</p>
+                            <p className="text-gray-700 leading-relaxed">Santee dump (Sycamore Landfill) charges $125 per ton for general trash, $76 per ton for green waste and base materials. You'll also need a hard hat ($6 if you don't have one) and must tarp your load. Factor in truck rental ($75-$150), gas ($10-$20), and your time (3-5 hours), and professional junk removal often costs less. Severin Hauling starts at $69 for small items with all-inclusive pricing.</p>
                           </div>
                         </details>
 
@@ -1250,7 +1250,7 @@ export default function SanteeDumpGuide() {
                             </svg>
                           </summary>
                           <div className="px-6 py-4 bg-white">
-                            <p className="text-gray-700 leading-relaxed">No, Santee dump (Sycamore Landfill) is CLOSED on Sundays. The landfill is only open Monday-Saturday. If you need junk removal on Sunday, professional services like Severin Cleaners operate 7 days per week throughout Santee, El Cajon, La Mesa, and East County. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a>.</p>
+                            <p className="text-gray-700 leading-relaxed">No, Santee dump (Sycamore Landfill) is CLOSED on Sundays. The landfill is only open Monday-Saturday. If you need junk removal on Sunday, professional services like Severin Hauling operate 7 days per week throughout Santee, El Cajon, La Mesa, and East County. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a>.</p>
                           </div>
                         </details>
 
@@ -1330,7 +1330,7 @@ export default function SanteeDumpGuide() {
                             </svg>
                           </summary>
                           <div className="px-6 py-4 bg-white">
-                            <p className="text-gray-700 leading-relaxed">Santee dump restricts hazardous waste, certain chemicals, and liquids. However, they DO accept appliances (with on-site Freon removal), electronics, tires, mattresses, carpet, and large animal remains. Professional junk removal services like Severin Cleaners can handle most restricted items through proper disposal channels. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a>.</p>
+                            <p className="text-gray-700 leading-relaxed">Santee dump restricts hazardous waste, certain chemicals, and liquids. However, they DO accept appliances (with on-site Freon removal), electronics, tires, mattresses, carpet, and large animal remains. Professional junk removal services like Severin Hauling can handle most restricted items through proper disposal channels. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a>.</p>
                           </div>
                         </details>
 
@@ -1350,7 +1350,7 @@ export default function SanteeDumpGuide() {
                             </svg>
                           </summary>
                           <div className="px-6 py-4 bg-white">
-                            <p className="text-gray-700 leading-relaxed">Often yes, when you factor in all costs. DIY to Santee dump: truck rental ($75-$150) + gas ($10-$20) + dump fees ($60-$125) + hard hat ($6) + your time (3-5 hours) = $151-$301+. Professional junk removal from Severin Cleaners: $149-$349 all-inclusive with zero work from you. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a> for a free quote.</p>
+                            <p className="text-gray-700 leading-relaxed">Often yes, when you factor in all costs. DIY to Santee dump: truck rental ($75-$150) + gas ($10-$20) + dump fees ($60-$125) + hard hat ($6) + your time (3-5 hours) = $151-$301+. Professional junk removal from Severin Hauling: $149-$349 all-inclusive with zero work from you. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a> for a free quote.</p>
                           </div>
                         </details>
 
@@ -1370,7 +1370,7 @@ export default function SanteeDumpGuide() {
                             </svg>
                           </summary>
                           <div className="px-6 py-4 bg-white">
-                            <p className="text-gray-700 leading-relaxed">Sycamore Landfill accepts cash, check, and credit cards. Payment is made after weighing your load. Professional junk removal from Severin Cleaners offers flexible payment including cash, credit card, Venmo, Zelle, and Cash App for your convenience.</p>
+                            <p className="text-gray-700 leading-relaxed">Sycamore Landfill accepts cash, check, and credit cards. Payment is made after weighing your load. Professional junk removal from Severin Hauling offers flexible payment including cash, credit card, Venmo, Zelle, and Cash App for your convenience.</p>
                           </div>
                         </details>
 
@@ -1390,7 +1390,7 @@ export default function SanteeDumpGuide() {
                             </svg>
                           </summary>
                           <div className="px-6 py-4 bg-white">
-                            <p className="text-gray-700 leading-relaxed">Expect 30-60 minutes at Sycamore Landfill including wait time, weighing, unloading, and payment. Add 1-2 hours for loading your truck and 1-2 hours for truck rental pickup/return. Total DIY time: 3-5 hours. Professional junk removal from Severin Cleaners takes zero hours of your time with same-day service available.</p>
+                            <p className="text-gray-700 leading-relaxed">Expect 30-60 minutes at Sycamore Landfill including wait time, weighing, unloading, and payment. Add 1-2 hours for loading your truck and 1-2 hours for truck rental pickup/return. Total DIY time: 3-5 hours. Professional junk removal from Severin Hauling takes zero hours of your time with same-day service available.</p>
                           </div>
                         </details>
 
@@ -1410,7 +1410,7 @@ export default function SanteeDumpGuide() {
                             </svg>
                           </summary>
                           <div className="px-6 py-4 bg-white">
-                            <p className="text-gray-700 leading-relaxed">Yes, Sycamore Landfill accepts mattresses and box springs for disposal as part of general waste ($125/ton). Professional mattress disposal through Severin Cleaners includes pickup from your home, hauling, and eco-friendly recycling when possible. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a> for same-day mattress removal in Santee and East County.</p>
+                            <p className="text-gray-700 leading-relaxed">Yes, Sycamore Landfill accepts mattresses and box springs for disposal as part of general waste ($125/ton). Professional mattress disposal through Severin Hauling includes pickup from your home, hauling, and eco-friendly recycling when possible. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a> for same-day mattress removal in Santee and East County.</p>
                           </div>
                         </details>
 
@@ -1450,7 +1450,7 @@ export default function SanteeDumpGuide() {
                             </svg>
                           </summary>
                           <div className="px-6 py-4 bg-white">
-                            <p className="text-gray-700 leading-relaxed">No appointment needed for Sycamore Landfill. It operates first-come, first-served during open hours (Mon-Fri 7AM-4:30PM, Sat 7:30AM-3PM, CLOSED Sunday). Wait times vary from 15-45 minutes. Severin Cleaners offers scheduled appointments for junk removal with no wait time. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a>.</p>
+                            <p className="text-gray-700 leading-relaxed">No appointment needed for Sycamore Landfill. It operates first-come, first-served during open hours (Mon-Fri 7AM-4:30PM, Sat 7:30AM-3PM, CLOSED Sunday). Wait times vary from 15-45 minutes. Severin Hauling offers scheduled appointments for junk removal with no wait time. Call <a href="tel:6197500114" className="text-blue-600 hover:text-blue-700 font-semibold">(619) 750-0114</a>.</p>
                           </div>
                         </details>
                       </div>

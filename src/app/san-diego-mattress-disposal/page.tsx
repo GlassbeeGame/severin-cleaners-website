@@ -28,25 +28,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Mattress Disposal San Diego | Eco-Friendly Recycling from $69",
     description: "Same-day mattress pickup from $69. We recycle up to 80% of materials and donate clean mattresses to local San Diego families. Licensed and insured.",
-    url: 'https://severincleaners.com/san-diego-mattress-disposal',
-    siteName: 'Severin Cleaners',
+    url: 'https://www.severinhauling.com/san-diego-mattress-disposal',
+    siteName: 'Severin Hauling',
     type: 'website',
     locale: 'en_US',
     images: [{
-      url: 'https://severincleaners.com/og-image.jpg',
+      url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Mattress Disposal San Diego - Severin Cleaners'
+      alt: 'Mattress Disposal San Diego - Severin Hauling'
     }]
   },
   twitter: {
     card: 'summary_large_image',
     title: "Mattress Disposal San Diego | Eco-Friendly Recycling from $69",
     description: "Same-day mattress pickup from $69. We recycle up to 80% of materials and donate clean mattresses to local San Diego families. Licensed and insured.",
-    images: ['https://severincleaners.com/og-image.jpg'],
+    images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: "https://severincleaners.com/san-diego-mattress-disposal",
+    canonical: "https://www.severinhauling.com/san-diego-mattress-disposal",
   },
   robots: {
     index: true,
@@ -106,7 +106,7 @@ export default function MattressDisposalPage() {
   const serviceSchema = generateServiceSchema({
     name: "Mattress Disposal San Diego",
     description: "Professional mattress disposal San Diego with same-day mattress pick up, eco-friendly mattress recycling San Diego, and responsible mattress removal San Diego. Licensed and insured service throughout San Diego County.",
-    url: "https://severincleaners.com/san-diego-mattress-disposal",
+    url: "https://www.severinhauling.com/san-diego-mattress-disposal",
     serviceType: "Mattress Removal Service",
     areaServed: "San Diego County, CA",
   });
@@ -114,9 +114,9 @@ export default function MattressDisposalPage() {
   // Enhanced LocalBusiness schema for mattress disposal
   const localBusinessSchema = {
     "@type": "LocalBusiness",
-    "@id": "https://severincleaners.com/san-diego-mattress-disposal#business",
-    "name": "Severin Cleaners - Mattress Disposal San Diego",
-    "image": "https://severincleaners.com/og-image.jpg",
+    "@id": "https://www.severinhauling.com/san-diego-mattress-disposal#business",
+    "name": "Severin Hauling - Mattress Disposal San Diego",
+    "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "address": {
@@ -132,7 +132,7 @@ export default function MattressDisposalPage() {
       "latitude": 32.7678,
       "longitude": -117.0231
     },
-    "url": "https://severincleaners.com/san-diego-mattress-disposal",
+    "url": "https://www.severinhauling.com/san-diego-mattress-disposal",
     "areaServed": {
       "@type": "City",
       "name": "San Diego",
@@ -189,9 +189,9 @@ export default function MattressDisposalPage() {
   };
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://severincleaners.com" },
-    { name: "Services", url: "https://severincleaners.com/services" },
-    { name: "Mattress Disposal San Diego", url: "https://severincleaners.com/san-diego-mattress-disposal" },
+    { name: "Home", url: "https://www.severinhauling.com" },
+    { name: "Services", url: "https://www.severinhauling.com/services" },
+    { name: "Mattress Disposal San Diego", url: "https://www.severinhauling.com/san-diego-mattress-disposal" },
   ]);
 
   const faqSchema = generateFAQSchema(mattressFAQs);
@@ -223,7 +223,7 @@ export default function MattressDisposalPage() {
                     Professional <strong>Mattress Disposal San Diego</strong> Trusts
                   </h2>
                   <p className="text-xl text-gray-600 mb-6 leading-relaxed">
-                    When you need reliable mattress disposal in San Diego, Severin Cleaners delivers fast, affordable, and eco-friendly service throughout the county. Our professional team provides same-day pickup starting at just $69, including all labor, hauling, and responsible recycling or compliant disposal. The exact price varies based on your mattress size and type, and we provide upfront quotes before we arrive so you know exactly what to expect.
+                    When you need reliable mattress disposal in San Diego, Severin Hauling delivers fast, affordable, and eco-friendly service throughout the county. Our professional team provides same-day pickup starting at just $69, including all labor, hauling, and responsible recycling or compliant disposal. The exact price varies based on your mattress size and type, and we provide upfront quotes before we arrive so you know exactly what to expect.
                   </p>
 
                   <p className="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -350,7 +350,7 @@ export default function MattressDisposalPage() {
                   {/* Why Choose Us - Unique Value Proposition */}
                   <div className="mt-12 pt-8 border-t border-gray-200">
                     <h3 className="text-3xl font-bold text-gray-900 mb-6">
-                      Why San Diego Chooses <strong>Severin Cleaners</strong>
+                      Why San Diego Chooses <strong>Severin Hauling</strong>
                     </h3>
                     <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                       What sets our San Diego mattress disposal service apart from generic junk haulers and national franchises? Our specialized expertise and local partnerships ensure your mattress receives proper handling and maximum environmental benefit.
