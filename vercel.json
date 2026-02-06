@@ -5,7 +5,7 @@
       "has": [
         {
           "type": "host",
-          "value": "www.severinhauling.com"
+          "value": "severinhauling.com"
         }
       ],
       "destination": "https://www.severinhauling.com/:path*",
