@@ -119,9 +119,12 @@ export default function ContactPageClient() {
                         >
                           <option value="">Select a service</option>
                           <option value="Junk Removal">Junk Removal</option>
-                          <option value="Detailing">Detailing</option>
-                          <option value="Pressure Washing">Pressure Washing</option>
-                          <option value="Multiple Services">Multiple Services</option>
+                          <option value="Furniture Removal">Furniture Removal</option>
+                          <option value="Appliance Removal">Appliance Removal</option>
+                          <option value="Estate Cleanout">Estate Cleanout</option>
+                          <option value="Commercial Junk Removal">Commercial Junk Removal</option>
+                          <option value="Construction Debris">Construction Debris</option>
+                          <option value="Other">Other</option>
                         </select>
                       </div>
 

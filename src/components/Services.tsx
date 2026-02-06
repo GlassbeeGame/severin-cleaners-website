@@ -93,19 +93,6 @@ const junkServices = [
   }
 ];
 
-const additionalServices = [
-  {
-    title: 'Pressure Washing',
-    description: 'Professional pressure washing for driveways, sidewalks, patios, and building exteriors.',
-    icon: '💦'
-  },
-  {
-    title: 'Car Detailing',
-    description: 'Complete auto detailing services including interior, exterior, and engine bay cleaning.',
-    icon: '🚗'
-  }
-];
-
 export default function Services() {
   return (
     <>
@@ -170,7 +157,7 @@ export default function Services() {
           </div>
 
           {/* See All Services Button */}
-          <div className="text-center mb-12">
+          <div className="text-center">
             <a
               href="/services"
               className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors shadow-lg hover:shadow-xl"
@@ -180,27 +167,6 @@ export default function Services() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
               </svg>
             </a>
-          </div>
-
-          <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
-            <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">
-              Additional Services We Offer
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {additionalServices.map((service, index) => (
-                <div key={index} className="border-2 border-gray-200 rounded-xl p-6 hover:border-blue-500 transition-colors">
-                  <div className="flex items-start gap-4">
-                    <div className="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <span className="text-2xl">{service.icon}</span>
-                    </div>
-                    <div>
-                      <h4 className="text-lg font-bold text-gray-900 mb-2">{service.title}</h4>
-                      <p className="text-gray-600 text-sm hidden md:block">{service.description}</p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </section>
