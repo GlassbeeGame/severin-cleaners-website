@@ -11,7 +11,7 @@ import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggreg
 
 export const metadata: Metadata = {
   title: 'Junk Removal Pacific Beach | Same-Day Service | (619) 750-0114',
-  description: 'Professional service for beach houses, apartments, and rentals in Crystal Pier, Crown Point, Garnet Avenue. Same-day hauling, free estimate, licensed & insured.',
+  description: 'Professional junk removal Pacific Beach for beach houses, apartments, and properties in Crystal Pier, Crown Point, Garnet Avenue. Same-day hauling, free estimate, licensed & insured.',
   keywords: [
     'junk removal pacific beach',
     'pacific beach junk removal',
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
     'same day junk removal pb'
   ],
   openGraph: {
-    title: 'Junk Removal Pacific Beach | Beach House & Rental Specialists',
-    description: 'Professional service from Crystal Pier to Crown Point. Same-day availability, free estimate, transparent pricing. Licensed & insured. Call (619) 750-0114!',
+    title: 'Junk Removal Pacific Beach | Beach House & Property Specialists',
+    description: 'Professional junk removal Pacific Beach from Crystal Pier to Crown Point. Same-day availability, free estimate, transparent pricing. Licensed & insured. Call (619) 750-0114!',
     url: 'https://severincleaners.com/junk-removal-pacific-beach',
     siteName: 'Severin Cleaners',
     images: [{
@@ -34,8 +34,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Junk Removal Pacific Beach | Beach House & Rental Specialists',
-    description: 'Professional service from Crystal Pier to Crown Point. Same-day availability, free estimate, transparent pricing. Licensed & insured. Call (619) 750-0114!',
+    title: 'Junk Removal Pacific Beach | Beach House & Property Specialists',
+    description: 'Professional junk removal Pacific Beach from Crystal Pier to Crown Point. Same-day availability, free estimate, transparent pricing. Licensed & insured. Call (619) 750-0114!',
     images: ['https://severincleaners.com/og-image.jpg'],
   },
   alternates: {

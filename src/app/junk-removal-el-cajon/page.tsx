@@ -10,8 +10,8 @@ import LocationPricingSection from "@/components/LocationPricingSection";
 import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema, generateHowToSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: 'Junk Removal El Cajon | Scrap Metal Recycling • Family Property | (619) 750-0114',
-  description: 'Professional junk removal El Cajon CA: Metal recycling specialists, multi-generational family properties, Fletcher Hills estates. Same-day East County service. (619) 750-0114',
+  title: 'Junk Removal El Cajon | Multi-Generational Family Property | (619) 750-0114',
+  description: 'Professional junk removal El Cajon CA for multi-generational family properties, Fletcher Hills estates, East County homes. Same-day service, licensed & insured. (619) 750-0114',
   keywords: [
     'junk removal el cajon ca',
     'scrap metal el cajon',
@@ -26,8 +26,8 @@ export const metadata: Metadata = {
     'east county junk removal'
   ],
   openGraph: {
-    title: 'Junk Removal El Cajon | Scrap Metal Recycling • Family Property Experts',
-    description: 'Professional junk removal El Cajon CA: Metal recycling specialists, family properties, Fletcher Hills estates. Same-day East County service. (619) 750-0114',
+    title: 'Junk Removal El Cajon | Multi-Generational Family Property Specialists',
+    description: 'Professional junk removal El Cajon CA for family properties, Fletcher Hills estates, East County homes. Same-day service, licensed & insured. (619) 750-0114',
     url: 'https://severincleaners.com/junk-removal-el-cajon',
     siteName: 'Severin Cleaners',
     images: [{
@@ -41,8 +41,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Junk Removal El Cajon | Scrap Metal Recycling • Family Property Experts',
-    description: 'Professional junk removal El Cajon CA: Metal recycling specialists, family properties, Fletcher Hills estates. Same-day East County service.',
+    title: 'Junk Removal El Cajon | Multi-Generational Family Property Specialists',
+    description: 'Professional junk removal El Cajon CA for family properties, Fletcher Hills estates, East County homes. Same-day service, licensed & insured.',
     images: ['https://severincleaners.com/og-image.jpg'],
   },
   alternates: {
