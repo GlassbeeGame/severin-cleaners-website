@@ -210,14 +210,14 @@ export default function CouchRemovalPage() {
                   </p>
 
                   {/* Couch Removal Image */}
-                  <div className="my-8 max-w-3xl mx-auto">
-                    <div className="relative w-full aspect-[16/10] rounded-xl overflow-hidden shadow-lg">
+                  <div className="my-6 max-w-md mx-auto px-4">
+                    <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-md">
                       <Image
                         src="/optimized/couch2.jpg"
                         alt="Couch removal San Diego - professional sofa disposal and hauling service"
                         fill
                         className="object-cover"
-                        sizes="(max-width: 768px) 100vw, 768px"
+                        sizes="(max-width: 640px) 90vw, 448px"
                       />
                     </div>
                   </div>
@@ -260,14 +260,14 @@ export default function CouchRemovalPage() {
                   </div>
 
                   {/* Second Couch Image */}
-                  <div className="my-8 max-w-3xl mx-auto">
-                    <div className="relative w-full aspect-[16/10] rounded-xl overflow-hidden shadow-lg">
+                  <div className="my-6 max-w-md mx-auto px-4">
+                    <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-md">
                       <Image
                         src="/optimized/sectionalcouchlarge.jpg"
                         alt="Sectional couch removal San Diego - large sofa and furniture hauling service"
                         fill
                         className="object-cover"
-                        sizes="(max-width: 768px) 100vw, 768px"
+                        sizes="(max-width: 640px) 90vw, 448px"
                       />
                     </div>
                   </div>

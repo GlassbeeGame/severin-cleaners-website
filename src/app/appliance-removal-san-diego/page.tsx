@@ -165,14 +165,14 @@ export default function ApplianceRemovalPage() {
                 </p>
 
                 {/* Appliance Removal Image */}
-                <div className="my-8 max-w-3xl mx-auto">
-                  <div className="relative w-full aspect-[16/10] rounded-xl overflow-hidden shadow-lg">
+                <div className="my-6 max-w-md mx-auto px-4">
+                  <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-md">
                     <Image
                       src="/optimized/fridge.jpg"
                       alt="Refrigerator removal San Diego - professional appliance disposal and recycling"
                       fill
                       className="object-cover"
-                      sizes="(max-width: 768px) 100vw, 768px"
+                      sizes="(max-width: 640px) 90vw, 448px"
                     />
                   </div>
                 </div>
