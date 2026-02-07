@@ -208,6 +208,18 @@ export default function CouchRemovalPage() {
                     Our eco-friendly approach prioritizes donation and recycling whenever possible. Couches in good shape get donated to local San Diego charities like Habitat for Humanity and San Diego Rescue Mission. Damaged sofas and sectionals get broken down responsibly, with wood frames and metal components sent to recycling facilities. Our customers highly recommend our transparent pricing, same-day availability, and professional couch removal service. From the moment you call us at (619) 750-0114 to the final pickup, we make sofa disposal as simple and stress-free as possible.
                   </p>
 
+                  {/* Couch Removal Image */}
+                  <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+                    <img
+                      src="/optimized/couch2.jpg"
+                      alt="Couch removal San Diego - professional sofa disposal and hauling service"
+                      width={1920}
+                      height={1080}
+                      className="w-full h-auto"
+                      loading="lazy"
+                    />
+                  </div>
+
                   <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Types of Couches We Remove</h3>
 
                   <div className="grid md:grid-cols-2 gap-4 mb-8">
@@ -243,6 +255,18 @@ export default function CouchRemovalPage() {
                       <h4 className="font-bold text-lg mb-2">Patio Furniture</h4>
                       <p className="text-gray-700 mb-4">Outdoor sofas and wicker sets from yards and balconies.</p>
                     </div>
+                  </div>
+
+                  {/* Second Couch Image */}
+                  <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+                    <img
+                      src="/optimized/sectionalcouchlarge.jpg"
+                      alt="Sectional couch removal San Diego - large sofa and furniture hauling service"
+                      width={1920}
+                      height={1080}
+                      className="w-full h-auto"
+                      loading="lazy"
+                    />
                   </div>
 
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Your Options: DIY vs Pro Removal</h3>

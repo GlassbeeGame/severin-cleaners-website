@@ -163,6 +163,18 @@ export default function ApplianceRemovalPage() {
                   We remove refrigerators, washers, dryers, stoves, dishwashers—you name it. Our service covers <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista appliance hauling</a> to Point Loma, North Park to <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon refrigerator removal</a>, helping homeowners reclaim their space daily with safe, eco-friendly appliance disposal. Also need <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture disposal</a> or <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">mattress removal</a>? We handle it all.
                 </p>
 
+                {/* Appliance Removal Image */}
+                <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+                  <img
+                    src="/optimized/fridge.jpg"
+                    alt="Refrigerator removal San Diego - professional appliance disposal and recycling"
+                    width={1920}
+                    height={1080}
+                    className="w-full h-auto"
+                    loading="lazy"
+                  />
+                </div>
+
                 <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove</h3>
                 <p className="text-lg mb-4">
                   If it's an appliance and you need it gone, we'll take it. Here's what we haul away most often:

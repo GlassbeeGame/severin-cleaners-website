@@ -234,6 +234,18 @@ export default function MattressDisposalPage() {
                     Our eco-friendly recycling process prioritizes environmental responsibility while ensuring full compliance with City of San Diego Environmental Services Department regulations. We work with certified recycling facilities that participate in programs to dismantle and recycle up to 80% of mattress materials, keeping thousands of unwanted mattresses out of Miramar Landfill each year. From the moment you call us at (619) 750-0114 to the final pickup, we make the disposal process as simple and stress-free as possible.
                   </p>
 
+                  {/* Mattress Disposal Image */}
+                  <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+                    <img
+                      src="/optimized/bed:boxspring.jpg"
+                      alt="Mattress and box spring removal San Diego - professional disposal service"
+                      width={1920}
+                      height={1080}
+                      className="w-full h-auto"
+                      loading="lazy"
+                    />
+                  </div>
+
                   <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
                     <p className="text-gray-800 font-semibold mb-2">📞 Need <strong>Same-Day Mattress Pick Up</strong>?</p>
                     <p className="text-gray-700 leading-relaxed">

@@ -287,6 +287,18 @@ export default function JunkRemovalSanteePage() {
                       Looking for junk removal Santee CA residents trust? We serve East County's family-oriented community from our La Mesa headquarters, specializing in Santee Lakes RV equipment removal, Trolley Square apartment turnovers, Carlton Hills family garages, and Mission Gorge commercial cleanouts. Our team navigates hillside access, two-car and three-car garage accumulation, and mixed-use property coordination throughout the 92071 zip code. We provide same-day service for family homes, recreation equipment disposal, and <a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">apartment complex cleanouts</a>. Call (619) 750-0114 for transparent pricing and eco-friendly disposal that East County families depend on.
                     </p>
 
+                    {/* Santee Junk Removal Image */}
+                    <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+                      <img
+                        src="/optimized/morewood.jpg"
+                        alt="Junk removal Santee CA - wood debris, outdoor equipment, and yard waste hauling"
+                        width={1920}
+                        height={1080}
+                        className="w-full h-auto"
+                        loading="lazy"
+                      />
+                    </div>
+
                     {/* Santee Lakes Recreation & RV Equipment Specialists */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Santee Lakes Recreation & RV Equipment Specialists</h3>
                     <p className="text-gray-700 mb-4">

@@ -228,6 +228,18 @@ export default function JunkRemovalPacificBeachPage() {
                       Looking for reliable junk removal Pacific Beach residents trust? We serve the 92109 area from Crystal Pier boardwalk apartments to Crown Point bay-front homes. Our team specializes in beach house cleanouts, student housing turnovers, and properties with narrow boardwalk access. We navigate Tuesday Farmers Market closures, summer beach traffic, and salt air-damaged furniture removal unique to coastal properties. Whether you're clearing a vacation rental, handling semester move-outs, or need <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a>, we bring the specialized beach community experience your property demands.
                     </p>
 
+                    {/* Pacific Beach Junk Removal Image */}
+                    <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+                      <img
+                        src="/optimized/junkintrashbags.jpg"
+                        alt="Junk removal Pacific Beach - beach house and property cleanout service"
+                        width={1920}
+                        height={1080}
+                        className="w-full h-auto"
+                        loading="lazy"
+                      />
+                    </div>
+
                     {/* Neighborhoods Served */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Neighborhoods We Serve</h3>
                     <div className="grid md:grid-cols-2 gap-2 mb-6">

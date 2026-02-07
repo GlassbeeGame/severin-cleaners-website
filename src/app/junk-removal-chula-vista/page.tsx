@@ -297,6 +297,18 @@ export default function JunkRemovalChulaVistaPage() {
                       Looking for junk removal Chula Vista residents trust? We serve San Diego County's second-largest city from our La Mesa headquarters, specializing in HOA-compliant service for Eastlake and Otay Ranch, bilingual coordination (60% of residents speak Spanish at home), and multi-generational home cleanouts. Our team navigates master-planned community requirements, border region logistics, and South Bay traffic patterns. From bayfront properties to eastern hillside estates, we provide same-day service with transparent pricing and cultural awareness. Call (619) 750-0114 for professional junk hauling throughout South Bay.
                     </p>
 
+                    {/* Chula Vista Junk Removal Image */}
+                    <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+                      <img
+                        src="/optimized/outdoorfurniture.jpg"
+                        alt="Junk removal Chula Vista - professional outdoor furniture and patio disposal service"
+                        width={1920}
+                        height={1080}
+                        className="w-full h-auto"
+                        loading="lazy"
+                      />
+                    </div>
+
                     {/* Neighborhoods Served */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Chula Vista Neighborhoods We Serve</h3>
                     <ul className="list-disc pl-6 mb-6 text-gray-700 columns-2">

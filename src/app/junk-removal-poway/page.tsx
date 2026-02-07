@@ -234,6 +234,18 @@ export default function JunkRemovalPowayPage() {
                       Looking for reliable junk removal Poway CA residents trust? We specialize in North County's "City in the Country" with expertise in multi-acre ranch properties, equestrian facilities, and large family estates. From barn cleanouts in Stone Ridge to <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a> in Twin Peaks, we handle long driveways, gated properties, and livestock coordination throughout the 92064 and 92074 zip codes. Whether you're in 4S Ranch, Green Valley, or near Lake Poway, our team brings the specialized equipment and capacity your large property demands.
                     </p>
 
+                    {/* Poway Junk Removal Image */}
+                    <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+                      <img
+                        src="/optimized/oldgardeningappliances.jpg"
+                        alt="Junk removal Poway CA - garden equipment, outdoor tools, and ranch property cleanout"
+                        width={1920}
+                        height={1080}
+                        className="w-full h-auto"
+                        loading="lazy"
+                      />
+                    </div>
+
                     {/* Neighborhoods Served */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Neighborhoods We Serve</h3>
                     <div className="grid md:grid-cols-2 gap-2 mb-6">

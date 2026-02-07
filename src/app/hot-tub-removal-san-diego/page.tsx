@@ -192,6 +192,18 @@ export default function HotTubRemovalSanDiegoPage() {
                   Our spa removal San Diego service covers everything from small portable spas to large built-in Jacuzzis, including proper disconnection of plumbing, gas, and electrical systems. Whether you're renovating your backyard, selling your home, or dealing with a broken hot tub, we provide complete spa disposal San Diego that's safe, fast, and environmentally responsible. We also offer <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">deck removal and debris</a>, <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">outdoor furniture removal</a>, and <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial spa services</a>.
                 </p>
 
+                {/* Hot Tub Removal Image */}
+                <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+                  <img
+                    src="/optimized/hottub.jpg"
+                    alt="Hot tub removal San Diego - professional spa and Jacuzzi disposal service"
+                    width={1920}
+                    height={1080}
+                    className="w-full h-auto"
+                    loading="lazy"
+                  />
+                </div>
+
                 <h3 className="text-2xl font-bold mt-8 mb-4">Complete Jacuzzi Removal San Diego Services</h3>
                 <p className="text-lg mb-4">
                   Severin Hauling offers comprehensive hot tub removal San Diego services for all types of spas and backyard water features:

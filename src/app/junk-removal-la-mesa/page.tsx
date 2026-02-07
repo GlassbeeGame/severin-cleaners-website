@@ -303,6 +303,18 @@ export default function JunkRemovalLaMesaPage() {
                       Looking for junk removal La Mesa CA residents can trust? Severin Hauling operates from our headquarters at 8900 Grossmont Blvd, providing same-day service throughout Mount Helix hillside estates, Fletcher Hills family homes, and La Mesa Village downtown properties. We're your faster, easier alternative to the dump with transparent pricing and professional service across all 91941 and 91942 zip codes.
                     </p>
 
+                    {/* La Mesa Junk Removal Image */}
+                    <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+                      <img
+                        src="/optimized/junkinbushes.jpg"
+                        alt="Junk removal La Mesa CA - professional yard waste and debris hauling service"
+                        width={1920}
+                        height={1080}
+                        className="w-full h-auto"
+                        loading="lazy"
+                      />
+                    </div>
+
                     {/* Why Our HQ Matters */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Our La Mesa Junk Removal Service</h3>
                     <ul className="list-disc pl-6 mb-6 text-gray-700 space-y-2">

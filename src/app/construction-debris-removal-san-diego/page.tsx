@@ -153,6 +153,18 @@ export default function ConstructionDebrisRemovalPage() {
                   Our construction debris removal San Diego service handles everything from daily site cleanup to full demolition hauling. We work with contractors in <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a> active development areas, <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a> coastal development projects, and <a href="/junk-removal-escondido" className="text-blue-600 hover:underline">Escondido</a>. We also serve <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> luxury remodels, <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a>, <a href="/junk-removal-mira-mesa" className="text-blue-600 hover:underline">Mira Mesa</a>, <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">Kearny Mesa</a>, and <a href="/junk-removal-poway" className="text-blue-600 hover:underline">Poway</a>—keeping projects on schedule and job sites compliant throughout San Diego County. We also offer <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial construction services</a>, <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">deck and outdoor demolition</a>, and <a href="/scrap-metal-removal" className="text-blue-600 hover:underline">construction metal recycling</a>.
                 </p>
 
+                {/* Construction Debris Image */}
+                <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+                  <img
+                    src="/optimized/Woodpile.jpg"
+                    alt="Construction debris removal San Diego - wood, lumber, and renovation waste hauling"
+                    width={1920}
+                    height={1080}
+                    className="w-full h-auto"
+                    loading="lazy"
+                  />
+                </div>
+
                 <h3 className="text-2xl font-bold mt-10 mb-4">What We Haul</h3>
                 <p className="text-lg mb-4">
                   We handle all types of construction and renovation debris:
