@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
@@ -304,15 +305,16 @@ export default function JunkRemovalLaMesaPage() {
                     </p>
 
                     {/* La Mesa Junk Removal Image */}
-                    <div className="my-8 rounded-lg overflow-hidden shadow-lg">
-                      <img
-                        src="/optimized/junkinbushes.jpg"
-                        alt="Junk removal La Mesa CA - professional yard waste and debris hauling service"
-                        width={1920}
-                        height={1080}
-                        className="w-full h-auto"
-                        loading="lazy"
-                      />
+                    <div className="my-8 max-w-3xl mx-auto">
+                      <div className="relative w-full aspect-[16/10] rounded-xl overflow-hidden shadow-lg">
+                        <Image
+                          src="/optimized/junkinbushes.jpg"
+                          alt="Junk removal La Mesa CA - professional yard waste and debris hauling service"
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 768px) 100vw, 768px"
+                        />
+                      </div>
                     </div>
 
                     {/* Why Our HQ Matters */}

@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
@@ -193,15 +194,16 @@ export default function HotTubRemovalSanDiegoPage() {
                 </p>
 
                 {/* Hot Tub Removal Image */}
-                <div className="my-8 rounded-lg overflow-hidden shadow-lg">
-                  <img
-                    src="/optimized/hottub.jpg"
-                    alt="Hot tub removal San Diego - professional spa and Jacuzzi disposal service"
-                    width={1920}
-                    height={1080}
-                    className="w-full h-auto"
-                    loading="lazy"
-                  />
+                <div className="my-8 max-w-3xl mx-auto">
+                  <div className="relative w-full aspect-[16/10] rounded-xl overflow-hidden shadow-lg">
+                    <Image
+                      src="/optimized/hottub.jpg"
+                      alt="Hot tub removal San Diego - professional spa and Jacuzzi disposal service"
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 768px"
+                    />
+                  </div>
                 </div>
 
                 <h3 className="text-2xl font-bold mt-8 mb-4">Complete Jacuzzi Removal San Diego Services</h3>

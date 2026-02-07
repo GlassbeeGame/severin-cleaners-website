@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
@@ -209,15 +210,16 @@ export default function CouchRemovalPage() {
                   </p>
 
                   {/* Couch Removal Image */}
-                  <div className="my-8 rounded-lg overflow-hidden shadow-lg">
-                    <img
-                      src="/optimized/couch2.jpg"
-                      alt="Couch removal San Diego - professional sofa disposal and hauling service"
-                      width={1920}
-                      height={1080}
-                      className="w-full h-auto"
-                      loading="lazy"
-                    />
+                  <div className="my-8 max-w-3xl mx-auto">
+                    <div className="relative w-full aspect-[16/10] rounded-xl overflow-hidden shadow-lg">
+                      <Image
+                        src="/optimized/couch2.jpg"
+                        alt="Couch removal San Diego - professional sofa disposal and hauling service"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 768px"
+                      />
+                    </div>
                   </div>
 
                   <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Types of Couches We Remove</h3>
@@ -258,15 +260,16 @@ export default function CouchRemovalPage() {
                   </div>
 
                   {/* Second Couch Image */}
-                  <div className="my-8 rounded-lg overflow-hidden shadow-lg">
-                    <img
-                      src="/optimized/sectionalcouchlarge.jpg"
-                      alt="Sectional couch removal San Diego - large sofa and furniture hauling service"
-                      width={1920}
-                      height={1080}
-                      className="w-full h-auto"
-                      loading="lazy"
-                    />
+                  <div className="my-8 max-w-3xl mx-auto">
+                    <div className="relative w-full aspect-[16/10] rounded-xl overflow-hidden shadow-lg">
+                      <Image
+                        src="/optimized/sectionalcouchlarge.jpg"
+                        alt="Sectional couch removal San Diego - large sofa and furniture hauling service"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 768px"
+                      />
+                    </div>
                   </div>
 
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Your Options: DIY vs Pro Removal</h3>

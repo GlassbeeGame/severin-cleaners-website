@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
@@ -154,15 +155,16 @@ export default function ConstructionDebrisRemovalPage() {
                 </p>
 
                 {/* Construction Debris Image */}
-                <div className="my-8 rounded-lg overflow-hidden shadow-lg">
-                  <img
-                    src="/optimized/Woodpile.jpg"
-                    alt="Construction debris removal San Diego - wood, lumber, and renovation waste hauling"
-                    width={1920}
-                    height={1080}
-                    className="w-full h-auto"
-                    loading="lazy"
-                  />
+                <div className="my-8 max-w-3xl mx-auto">
+                  <div className="relative w-full aspect-[16/10] rounded-xl overflow-hidden shadow-lg">
+                    <Image
+                      src="/optimized/Woodpile.jpg"
+                      alt="Construction debris removal San Diego - wood, lumber, and renovation waste hauling"
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 768px"
+                    />
+                  </div>
                 </div>
 
                 <h3 className="text-2xl font-bold mt-10 mb-4">What We Haul</h3>

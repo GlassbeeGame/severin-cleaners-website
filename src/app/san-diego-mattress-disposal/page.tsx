@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
@@ -235,15 +236,16 @@ export default function MattressDisposalPage() {
                   </p>
 
                   {/* Mattress Disposal Image */}
-                  <div className="my-8 rounded-lg overflow-hidden shadow-lg">
-                    <img
-                      src="/optimized/bed:boxspring.jpg"
-                      alt="Mattress and box spring removal San Diego - professional disposal service"
-                      width={1920}
-                      height={1080}
-                      className="w-full h-auto"
-                      loading="lazy"
-                    />
+                  <div className="my-8 max-w-3xl mx-auto">
+                    <div className="relative w-full aspect-[16/10] rounded-xl overflow-hidden shadow-lg">
+                      <Image
+                        src="/optimized/bed:boxspring.jpg"
+                        alt="Mattress and box spring removal San Diego - professional disposal service"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 768px"
+                      />
+                    </div>
                   </div>
 
                   <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
