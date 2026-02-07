@@ -286,6 +286,8 @@ export default function SanDiegoJunkRemovalPage() {
                 </p>
               </div>
 
+              <div className="clear-both"></div>
+
               <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Why Choose Our San Diego Junk Removal Service</h3>
 
               <p className="text-lg text-gray-700 mb-4">

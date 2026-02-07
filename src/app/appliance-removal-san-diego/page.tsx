@@ -156,14 +156,6 @@ export default function ApplianceRemovalPage() {
               </h2>
 
               <div className="prose prose-lg max-w-none">
-                <p className="text-lg mb-4">
-                  Whether you just upgraded your kitchen or have a broken washer collecting dust, we make appliance removal in San Diego easy. From <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla high-end appliance removal</a> to <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach appliance disposal</a>, we're the trusted choice for homeowners and businesses.
-                </p>
-
-                <p className="text-lg mb-6">
-                  We remove refrigerators, washers, dryers, stoves, dishwashers—you name it. Our service covers <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista appliance hauling</a> to Point Loma, North Park to <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon refrigerator removal</a>, helping homeowners reclaim their space daily with safe, eco-friendly appliance disposal. Also need <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture disposal</a> or <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">mattress removal</a>? We handle it all.
-                </p>
-
                 {/* Appliance Removal Image - Integrated */}
                 <div className="float-right ml-6 mb-6 w-80 hidden md:block">
                   <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-md">
@@ -176,6 +168,16 @@ export default function ApplianceRemovalPage() {
                     />
                   </div>
                 </div>
+
+                <p className="text-lg mb-4">
+                  Whether you just upgraded your kitchen or have a broken washer collecting dust, we make appliance removal in San Diego easy. From <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla high-end appliance removal</a> to <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach appliance disposal</a>, we're the trusted choice for homeowners and businesses.
+                </p>
+
+                <p className="text-lg mb-6">
+                  We remove refrigerators, washers, dryers, stoves, dishwashers—you name it. Our service covers <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista appliance hauling</a> to Point Loma, North Park to <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon refrigerator removal</a>, helping homeowners reclaim their space daily with safe, eco-friendly appliance disposal. Also need <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture disposal</a> or <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">mattress removal</a>? We handle it all.
+                </p>
+
+                <div className="clear-both"></div>
 
                 <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove</h3>
                 <p className="text-lg mb-4">

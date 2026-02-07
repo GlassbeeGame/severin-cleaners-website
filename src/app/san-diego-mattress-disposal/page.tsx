@@ -223,18 +223,6 @@ export default function MattressDisposalPage() {
                   <h2 className="text-4xl font-bold text-gray-900 mb-6">
                     Professional <strong>Mattress Disposal San Diego</strong> Trusts
                   </h2>
-                  <p className="text-xl text-gray-600 mb-6 leading-relaxed">
-                    When you need reliable mattress disposal in San Diego, Severin Hauling delivers fast, affordable, and eco-friendly service throughout the county. Our professional team provides same-day pickup starting at just $69, including all labor, hauling, and responsible recycling or compliant disposal. The exact price varies based on your mattress size and type, and we provide upfront quotes before we arrive so you know exactly what to expect.
-                  </p>
-
-                  <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                    Whether you're upgrading your bedroom furniture, clearing out a rental property, handling an estate cleanout, or managing a property turnover, our service handles everything from single mattresses to complete bedroom furniture removal. We serve all San Diego neighborhoods from coastal communities to East County areas throughout the region.
-                  </p>
-
-                  <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                    Our eco-friendly recycling process prioritizes environmental responsibility while ensuring full compliance with City of San Diego Environmental Services Department regulations. We work with certified recycling facilities that participate in programs to dismantle and recycle up to 80% of mattress materials, keeping thousands of unwanted mattresses out of Miramar Landfill each year. From the moment you call us at (619) 750-0114 to the final pickup, we make the disposal process as simple and stress-free as possible.
-                  </p>
-
                   {/* Mattress Disposal Image - Integrated */}
                   <div className="float-right ml-6 mb-6 w-80 hidden md:block">
                     <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-md">
@@ -247,6 +235,20 @@ export default function MattressDisposalPage() {
                       />
                     </div>
                   </div>
+
+                  <p className="text-xl text-gray-600 mb-6 leading-relaxed">
+                    When you need reliable mattress disposal in San Diego, Severin Hauling delivers fast, affordable, and eco-friendly service throughout the county. Our professional team provides same-day pickup starting at just $69, including all labor, hauling, and responsible recycling or compliant disposal. The exact price varies based on your mattress size and type, and we provide upfront quotes before we arrive so you know exactly what to expect.
+                  </p>
+
+                  <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                    Whether you're upgrading your bedroom furniture, clearing out a rental property, handling an estate cleanout, or managing a property turnover, our service handles everything from single mattresses to complete bedroom furniture removal. We serve all San Diego neighborhoods from coastal communities to East County areas throughout the region.
+                  </p>
+
+                  <p className="text-lg text-gray-700 mb-8 leading-relaxed">
+                    Our eco-friendly recycling process prioritizes environmental responsibility while ensuring full compliance with City of San Diego Environmental Services Department regulations. We work with certified recycling facilities that participate in programs to dismantle and recycle up to 80% of mattress materials, keeping thousands of unwanted mattresses out of Miramar Landfill each year. From the moment you call us at (619) 750-0114 to the final pickup, we make the disposal process as simple and stress-free as possible.
+                  </p>
+
+                  <div className="clear-both"></div>
 
                   <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
                     <p className="text-gray-800 font-semibold mb-2">📞 Need <strong>Same-Day Mattress Pick Up</strong>?</p>
