@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
@@ -256,6 +257,19 @@ export default function SanDiegoJunkRemovalPage() {
                 <div className="bg-white rounded-lg shadow-md p-8">
                   <div className="prose prose-lg max-w-none">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Complete Junk Removal San Diego Services</h2>
+
+              {/* San Diego Junk Removal Image - Integrated */}
+              <div className="float-right ml-6 mb-6 w-80 hidden md:block">
+                <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-md">
+                  <Image
+                    src="/optimized/couch3.jpg"
+                    alt="Professional junk removal San Diego - furniture and household item disposal service"
+                    fill
+                    className="object-cover"
+                    sizes="320px"
+                  />
+                </div>
+              </div>
 
               <p className="text-lg text-gray-700 mb-6">
                 When you need reliable <strong>junk removal San Diego</strong> can count on, Severin Hauling delivers professional hauling services throughout San Diego County. Our locally owned team provides same-day service with transparent pricing starting at just $100. From single-item pickups to complete property cleanouts, we handle every job with the same commitment to quality, efficiency, and customer satisfaction. No hidden fees, no surprises, just honest service from licensed and insured professionals who understand San Diego neighborhoods.

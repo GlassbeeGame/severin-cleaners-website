@@ -209,15 +209,15 @@ export default function CouchRemovalPage() {
                     Our eco-friendly approach prioritizes donation and recycling whenever possible. Couches in good shape get donated to local San Diego charities like Habitat for Humanity and San Diego Rescue Mission. Damaged sofas and sectionals get broken down responsibly, with wood frames and metal components sent to recycling facilities. Our customers highly recommend our transparent pricing, same-day availability, and professional couch removal service. From the moment you call us at (619) 750-0114 to the final pickup, we make sofa disposal as simple and stress-free as possible.
                   </p>
 
-                  {/* Couch Removal Image */}
-                  <div className="my-6 max-w-md mx-auto px-4">
+                  {/* Couch Removal Image - Integrated */}
+                  <div className="float-right ml-6 mb-6 w-80 hidden md:block">
                     <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-md">
                       <Image
                         src="/optimized/couch2.jpg"
                         alt="Couch removal San Diego - professional sofa disposal and hauling service"
                         fill
                         className="object-cover"
-                        sizes="(max-width: 640px) 90vw, 448px"
+                        sizes="320px"
                       />
                     </div>
                   </div>
@@ -259,15 +259,18 @@ export default function CouchRemovalPage() {
                     </div>
                   </div>
 
-                  {/* Second Couch Image */}
-                  <div className="my-6 max-w-md mx-auto px-4">
+                  {/* Clear float before next section */}
+                  <div className="clear-both"></div>
+
+                  {/* Second Couch Image - Integrated */}
+                  <div className="float-left mr-6 mb-6 w-80 hidden md:block">
                     <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-md">
                       <Image
                         src="/optimized/sectionalcouchlarge.jpg"
                         alt="Sectional couch removal San Diego - large sofa and furniture hauling service"
                         fill
                         className="object-cover"
-                        sizes="(max-width: 640px) 90vw, 448px"
+                        sizes="320px"
                       />
                     </div>
                   </div>

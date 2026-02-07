@@ -231,22 +231,22 @@ export default function JunkRemovalPowayPage() {
                       Junk Removal Poway CA – The City in the Country
                     </h2>
 
-                    <p className="text-lg mb-6 text-gray-700">
-                      Looking for reliable junk removal Poway CA residents trust? We specialize in North County's "City in the Country" with expertise in multi-acre ranch properties, equestrian facilities, and large family estates. From barn cleanouts in Stone Ridge to <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a> in Twin Peaks, we handle long driveways, gated properties, and livestock coordination throughout the 92064 and 92074 zip codes. Whether you're in 4S Ranch, Green Valley, or near Lake Poway, our team brings the specialized equipment and capacity your large property demands.
-                    </p>
-
-                    {/* Poway Junk Removal Image */}
-                    <div className="my-6 max-w-md mx-auto px-4">
+                    {/* Poway Junk Removal Image - Integrated */}
+                    <div className="float-right ml-6 mb-6 w-80 hidden md:block">
                       <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-md">
                         <Image
                           src="/optimized/oldgardeningappliances.jpg"
                           alt="Junk removal Poway CA - garden equipment, outdoor tools, and ranch property cleanout"
                           fill
                           className="object-cover"
-                          sizes="(max-width: 640px) 90vw, 448px"
+                          sizes="320px"
                         />
                       </div>
                     </div>
+
+                    <p className="text-lg mb-6 text-gray-700">
+                      Looking for reliable junk removal Poway CA residents trust? We specialize in North County's "City in the Country" with expertise in multi-acre ranch properties, equestrian facilities, and large family estates. From barn cleanouts in Stone Ridge to <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a> in Twin Peaks, we handle long driveways, gated properties, and livestock coordination throughout the 92064 and 92074 zip codes. Whether you're in 4S Ranch, Green Valley, or near Lake Poway, our team brings the specialized equipment and capacity your large property demands.
+                    </p>
 
                     {/* Neighborhoods Served */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Neighborhoods We Serve</h3>

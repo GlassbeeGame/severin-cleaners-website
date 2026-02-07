@@ -300,22 +300,22 @@ export default function JunkRemovalLaMesaPage() {
                       Junk Removal La Mesa CA – Fast, Professional Service
                     </h2>
 
-                    <p className="text-lg mb-6 text-gray-700">
-                      Looking for junk removal La Mesa CA residents can trust? Severin Hauling operates from our headquarters at 8900 Grossmont Blvd, providing same-day service throughout Mount Helix hillside estates, Fletcher Hills family homes, and La Mesa Village downtown properties. We're your faster, easier alternative to the dump with transparent pricing and professional service across all 91941 and 91942 zip codes.
-                    </p>
-
-                    {/* La Mesa Junk Removal Image */}
-                    <div className="my-6 max-w-md mx-auto px-4">
+                    {/* La Mesa Junk Removal Image - Integrated */}
+                    <div className="float-right ml-6 mb-6 w-80 hidden md:block">
                       <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-md">
                         <Image
                           src="/optimized/junkinbushes.jpg"
                           alt="Junk removal La Mesa CA - professional yard waste and debris hauling service"
                           fill
                           className="object-cover"
-                          sizes="(max-width: 640px) 90vw, 448px"
+                          sizes="320px"
                         />
                       </div>
                     </div>
+
+                    <p className="text-lg mb-6 text-gray-700">
+                      Looking for junk removal La Mesa CA residents can trust? Severin Hauling operates from our headquarters at 8900 Grossmont Blvd, providing same-day service throughout Mount Helix hillside estates, Fletcher Hills family homes, and La Mesa Village downtown properties. We're your faster, easier alternative to the dump with transparent pricing and professional service across all 91941 and 91942 zip codes.
+                    </p>
 
                     {/* Why Our HQ Matters */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Our La Mesa Junk Removal Service</h3>

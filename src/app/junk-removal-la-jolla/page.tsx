@@ -441,22 +441,22 @@ export default function JunkRemovalLaJollaPage() {
                           Professional Junk Removal La Jolla – Luxury Estate Specialists
                         </h2>
 
-                        <p className="text-lg text-gray-700 mb-6">
-                          Looking for junk removal La Jolla residents trust? We serve homes from the Cove to UTC throughout the 92037 and 92093 zip codes, specializing in oceanfront properties (Bird Rock, Windansea, La Jolla Shores), hillside estates (Mount Soledad, Muirlands), and gated communities (Hidden Valley, La Jolla Farms). Our team provides discreet, white-glove service for luxury estates, complete property cleanouts, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, and <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">high-end furniture removal</a>. We navigate steep hillside driveways, narrow coastal roads, and gated community security coordination. Same-day service available. Call (619) 750-0114 for transparent pricing and luxury-grade disposal.
-                        </p>
-
-                        {/* La Jolla Junk Removal Image */}
-                        <div className="my-6 max-w-md mx-auto px-4">
+                        {/* La Jolla Junk Removal Image - Integrated */}
+                        <div className="float-right ml-6 mb-6 w-80 hidden md:block">
                           <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-md">
                             <Image
                               src="/optimized/cabniets.jpg"
                               alt="Junk removal La Jolla - luxury estate remodel debris, cabinets, and renovation cleanout"
                               fill
                               className="object-cover"
-                              sizes="(max-width: 640px) 90vw, 448px"
+                              sizes="320px"
                             />
                           </div>
                         </div>
+
+                        <p className="text-lg text-gray-700 mb-6">
+                          Looking for junk removal La Jolla residents trust? We serve homes from the Cove to UTC throughout the 92037 and 92093 zip codes, specializing in oceanfront properties (Bird Rock, Windansea, La Jolla Shores), hillside estates (Mount Soledad, Muirlands), and gated communities (Hidden Valley, La Jolla Farms). Our team provides discreet, white-glove service for luxury estates, complete property cleanouts, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, and <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">high-end furniture removal</a>. We navigate steep hillside driveways, narrow coastal roads, and gated community security coordination. Same-day service available. Call (619) 750-0114 for transparent pricing and luxury-grade disposal.
+                        </p>
 
                         {/* Complete Neighborhood Coverage */}
                         <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12">

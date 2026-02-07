@@ -295,22 +295,22 @@ export default function JunkRemovalElCajonPage() {
                       Junk Removal El Cajon CA – East County Family Property Specialists
                     </h2>
 
-                    <p className="text-lg mb-6 text-gray-700">
-                      Looking for junk removal El Cajon CA residents trust? Severin Hauling specializes in East County family properties—from Fletcher Hills hillside estates to Rancho San Diego master-planned communities. We navigate steep driveways, handle multi-generational home cleanouts, and provide expert <a href="/scrap-metal-removal" className="text-blue-600 hover:underline">scrap metal recycling</a> services throughout the area. Whether you're clearing an inherited estate, organizing decades of garage accumulation, or need <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a>, our locally-based team brings compassionate, professional service to every East County property. We also serve nearby <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a>, <a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee</a>, <a href="/junk-removal-lakeside" className="text-blue-600 hover:underline">Lakeside</a>, and <a href="/junk-removal-spring-valley" className="text-blue-600 hover:underline">Spring Valley</a>.
-                    </p>
-
-                    {/* El Cajon Junk Removal Image */}
-                    <div className="my-6 max-w-md mx-auto px-4">
+                    {/* El Cajon Junk Removal Image - Integrated */}
+                    <div className="float-right ml-6 mb-6 w-80 hidden md:block">
                       <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-md">
                         <Image
                           src="/optimized/junkchairs.jpg"
                           alt="Junk removal El Cajon CA - professional furniture and household item disposal"
                           fill
                           className="object-cover"
-                          sizes="(max-width: 640px) 90vw, 448px"
+                          sizes="320px"
                         />
                       </div>
                     </div>
+
+                    <p className="text-lg mb-6 text-gray-700">
+                      Looking for junk removal El Cajon CA residents trust? Severin Hauling specializes in East County family properties—from Fletcher Hills hillside estates to Rancho San Diego master-planned communities. We navigate steep driveways, handle multi-generational home cleanouts, and provide expert <a href="/scrap-metal-removal" className="text-blue-600 hover:underline">scrap metal recycling</a> services throughout the area. Whether you're clearing an inherited estate, organizing decades of garage accumulation, or need <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a>, our locally-based team brings compassionate, professional service to every East County property. We also serve nearby <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a>, <a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee</a>, <a href="/junk-removal-lakeside" className="text-blue-600 hover:underline">Lakeside</a>, and <a href="/junk-removal-spring-valley" className="text-blue-600 hover:underline">Spring Valley</a>.
+                    </p>
 
                     {/* Neighborhoods Served */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Neighborhoods We Serve</h3>
