@@ -13,7 +13,7 @@ const junkServices = [
       'Yard waste & debris',
       'Same-day service available'
     ],
-    image: '/optimized/residential.jpg',
+    image: '/optimized/residential.webp',
     link: '/cleanout-services-san-diego'
   },
   {
@@ -28,7 +28,7 @@ const junkServices = [
       'Construction debris',
       'Flexible scheduling'
     ],
-    image: '/optimized/commercial.jpg',
+    image: '/optimized/commercial.webp',
     link: '/commercial-junk-removal-san-diego'
   },
   {
@@ -43,7 +43,7 @@ const junkServices = [
       'Document shredding',
       'Flexible timelines'
     ],
-    image: '/optimized/estate.jpg',
+    image: '/optimized/estate.webp',
     link: '/estate-cleanout-san-diego'
   },
   {
@@ -58,7 +58,7 @@ const junkServices = [
       'Scrap metal recycling',
       'Job site cleanup'
     ],
-    image: '/optimized/construction.jpg',
+    image: '/optimized/construction.webp',
     link: '/cleanout-services-san-diego'
   },
   {
@@ -73,7 +73,7 @@ const junkServices = [
       'Office furniture removal',
       'Safe disconnection & transport'
     ],
-    image: '/optimized/toiletteam.jpg',
+    image: '/optimized/toiletteam.webp',
     link: '/furniture-disposal-san-diego'
   },
   {
@@ -88,7 +88,7 @@ const junkServices = [
       'Sorting & organizing',
       'Follow-up support'
     ],
-    image: '/optimized/5Q8A8965.jpg',
+    image: '/optimized/5Q8A8965.webp',
     link: '/hoarding-cleanup-san-diego'
   }
 ];
@@ -123,7 +123,7 @@ export default function Services() {
                     alt={service.title}
                     fill
                     loading="lazy"
-                    quality={75}
+                    quality={60}
                     className="object-cover group-hover:scale-110 transition-transform duration-300"
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
@@ -247,7 +247,7 @@ export default function Services() {
                 alt="San Diego County junk removal service areas map"
                 fill
                 loading="lazy"
-                quality={70}
+                quality={60}
                 className="object-cover"
                 sizes="100vw"
               />
@@ -276,7 +276,7 @@ export default function Services() {
                   alt="San Diego County junk removal service areas map"
                   fill
                   loading="lazy"
-                  quality={70}
+                  quality={60}
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />

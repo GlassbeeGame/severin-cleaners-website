@@ -13,7 +13,6 @@
 }
 
 html {
-  scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -73,9 +72,10 @@ body {
     @apply absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70;
   }
 
-  /* Prevent layout shift in hero section */
+  /* Improve rendering performance */
   .relative.z-20 {
     contain: layout;
+    will-change: auto;
   }
 
   .touch-target {
