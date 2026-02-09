@@ -10,6 +10,13 @@
     "lint": "eslint",
     "clean": "rm -rf .next"
   },
+  "browserslist": [
+    "defaults and fully supports es6-module",
+    "maintained node versions",
+    "not IE 11",
+    "not dead",
+    "not op_mini all"
+  ],
   "dependencies": {
     "critters": "^0.0.23",
     "next": "^16.0.7",

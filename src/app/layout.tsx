@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { GoogleTagManagerHead, GoogleTagManagerBody } from "@/components/GoogleTagManager";
+import CriticalCSS from "@/components/CriticalCSS";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -80,6 +81,18 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
+        {/* Critical CSS - inline for immediate render */}
+        <CriticalCSS />
+
+        {/* Preload critical resources */}
+        <link
+          rel="preload"
+          as="image"
+          href="/optimized/landingpage.webp"
+          type="image/webp"
+          fetchPriority="high"
+        />
+
         {/* Resource Hints for Performance - DNS prefetch only for third parties */}
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />

@@ -1,8 +1,0 @@
-# Modern browsers for production
-# Reduces bundle size by targeting browsers with native ES6+ support
-> 0.5%
-last 2 versions
-not dead
-not IE 11
-not op_mini all
-Firefox ESR

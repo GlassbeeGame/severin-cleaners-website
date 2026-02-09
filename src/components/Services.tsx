@@ -123,9 +123,9 @@ export default function Services() {
                     alt={service.title}
                     fill
                     loading="lazy"
-                    quality={60}
+                    quality={50}
                     className="object-cover group-hover:scale-110 transition-transform duration-300"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 380px"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                   <div className="absolute bottom-4 left-4">
@@ -247,9 +247,9 @@ export default function Services() {
                 alt="San Diego County junk removal service areas map"
                 fill
                 loading="lazy"
-                quality={60}
+                quality={50}
                 className="object-cover"
-                sizes="100vw"
+                sizes="(max-width: 640px) 100vw, 640px"
               />
               <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/40"></div>
               <div className="absolute inset-0 flex items-center justify-center">
@@ -276,9 +276,9 @@ export default function Services() {
                   alt="San Diego County junk removal service areas map"
                   fill
                   loading="lazy"
-                  quality={60}
+                  quality={50}
                   className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 640px"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent"></div>
                 <div className="absolute inset-0 flex items-center justify-center lg:justify-start lg:pl-12">

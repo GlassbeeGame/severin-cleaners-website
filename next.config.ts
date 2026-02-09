@@ -4,14 +4,12 @@ const nextConfig: NextConfig = {
   images: {
     formats: ['image/avif', 'image/webp'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     minimumCacheTTL: 31536000, // 1 year cache (365 days)
     dangerouslyAllowSVG: true,
     contentDispositionType: 'attachment',
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     unoptimized: false,
-    loader: 'default',
-    remotePatterns: [],
   },
   compress: true,
   poweredByHeader: false,
@@ -25,7 +23,13 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizePackageImports: ['@/components'],
     // Optimize client-side bundle
-    optimizeCss: true,
+    optimizeCss: {
+      inlineFontSize: 100,
+      critters: {
+        preload: 'swap',
+        pruneSource: true,
+      },
+    },
     // Enable module layer caching for faster builds
     webpackMemoryOptimizations: true,
   },
