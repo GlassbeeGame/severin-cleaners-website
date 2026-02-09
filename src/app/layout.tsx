@@ -11,6 +11,8 @@ const inter = Inter({
   adjustFontFallback: true,
   weight: ["400", "600", "700", "900"], // Only load weights we actually use
   fallback: ["system-ui", "-apple-system", "sans-serif"],
+  // Optimize font loading
+  style: ["normal"],
 });
 
 export const metadata: Metadata = {
@@ -78,17 +80,13 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
-        {/* Resource Hints for Performance */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        {/* Resource Hints for Performance - DNS prefetch only for third parties */}
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://analytics.ahrefs.com" />
 
-        {/* Favicons */}
-        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        {/* Favicons - optimized order */}
         <link rel="icon" type="image/svg+xml" href="/icon.svg" />
-        <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
         <link rel="icon" type="image/png" sizes="96x96" href="/icon-96.png" />
         <link rel="apple-touch-icon" sizes="192x192" href="/icon-192.png" />
       </head>

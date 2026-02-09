@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    formats: ['image/webp', 'image/avif'],
+    formats: ['image/avif', 'image/webp'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920],
     imageSizes: [16, 32, 48, 64, 96, 128, 256],
     minimumCacheTTL: 31536000, // 1 year cache (365 days)
@@ -10,6 +10,8 @@ const nextConfig: NextConfig = {
     contentDispositionType: 'attachment',
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     unoptimized: false,
+    loader: 'default',
+    remotePatterns: [],
   },
   compress: true,
   poweredByHeader: false,
@@ -24,13 +26,15 @@ const nextConfig: NextConfig = {
     optimizePackageImports: ['@/components'],
     // Optimize client-side bundle
     optimizeCss: true,
+    // Enable module layer caching for faster builds
+    webpackMemoryOptimizations: true,
   },
   // Production-only optimizations
   productionBrowserSourceMaps: false,
   // Acknowledge we're using webpack configuration (silences Turbopack warning)
   turbopack: {},
   // Optimized code splitting for SEO and Googlebot crawlability
-  webpack: (config, { isServer }) => {
+  webpack: (config, { isServer, webpack }) => {
     if (!isServer) {
       // Balance bundle optimization with crawlability
       config.optimization = {
@@ -42,11 +46,14 @@ const nextConfig: NextConfig = {
         sideEffects: false,
         // Single runtime chunk
         runtimeChunk: 'single',
+        // Minimize bundle size
+        minimize: true,
         splitChunks: {
           chunks: 'all',
           // Reduced from 25 to 12 for better Googlebot compatibility
           maxInitialRequests: 12,
           minSize: 20000,
+          maxSize: 244000, // 244KB max chunk size
           cacheGroups: {
             default: false,
             vendors: false,
@@ -82,6 +89,12 @@ const nextConfig: NextConfig = {
         config.devtool = false;
       }
     }
+
+    // Optimize module resolution for faster builds
+    config.resolve.alias = {
+      ...config.resolve.alias,
+    };
+
     return config;
   },
 };

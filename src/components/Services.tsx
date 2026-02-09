@@ -122,6 +122,8 @@ export default function Services() {
                     src={service.image}
                     alt={service.title}
                     fill
+                    loading="lazy"
+                    quality={75}
                     className="object-cover group-hover:scale-110 transition-transform duration-300"
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
@@ -241,9 +243,11 @@ export default function Services() {
           <a href="/areas-we-serve" className="md:hidden block bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300 group">
             <div className="relative h-48">
               <Image
-                src="/optimized/locations.jpg"
+                src="/optimized/locations.webp"
                 alt="San Diego County junk removal service areas map"
                 fill
+                loading="lazy"
+                quality={70}
                 className="object-cover"
                 sizes="100vw"
               />
@@ -268,9 +272,11 @@ export default function Services() {
               {/* Left: Image */}
               <div className="relative h-64 lg:h-full min-h-[400px]">
                 <Image
-                  src="/optimized/locations.jpg"
+                  src="/optimized/locations.webp"
                   alt="San Diego County junk removal service areas map"
                   fill
+                  loading="lazy"
+                  quality={70}
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
