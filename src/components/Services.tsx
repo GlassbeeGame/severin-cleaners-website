@@ -96,7 +96,7 @@ const junkServices = [
 export default function Services() {
   return (
     <>
-      <section id="services" className="section-padding bg-gray-50">
+      <section id="services" className="section-padding bg-gray-50" aria-label="Our services">
         <div className="container">
           <div className="text-center mb-12">
             <h2 className="text-gray-900 mb-4">
@@ -123,7 +123,7 @@ export default function Services() {
                     alt={service.title}
                     fill
                     loading="lazy"
-                    quality={50}
+                    quality={45}
                     className="object-cover group-hover:scale-110 transition-transform duration-300"
                     sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 380px"
                   />

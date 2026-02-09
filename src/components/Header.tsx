@@ -33,7 +33,7 @@ export default function Header() {
             </Link>
           </div>
 
-          <nav className="hidden lg:flex items-center space-x-8">
+          <nav className="hidden lg:flex items-center space-x-8" aria-label="Main navigation">
             <Link
               href="/"
               className="text-gray-700 hover:text-blue-500 transition-colors duration-200 font-semibold py-2"
@@ -85,8 +85,9 @@ export default function Header() {
             <a
               href="tel:+16197500114"
               className="btn btn-primary"
+              aria-label="Call us at 619-750-0114"
             >
-              <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
               (619) 750-0114
@@ -94,10 +95,10 @@ export default function Header() {
           </div>
 
           <div className="lg:hidden">
-            <input type="checkbox" id="mobile-menu-toggle" />
+            <input type="checkbox" id="mobile-menu-toggle" aria-label="Toggle mobile menu" />
             <label
               htmlFor="mobile-menu-toggle"
-              className="p-2 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 cursor-pointer inline-block"
+              className="p-3 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200 cursor-pointer inline-flex items-center justify-center min-w-[48px] min-h-[48px]"
               aria-label="Toggle menu"
             >
               <svg
@@ -105,6 +106,7 @@ export default function Header() {
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
+                aria-hidden="true"
               >
                 <path
                   strokeLinecap="round"
@@ -118,6 +120,7 @@ export default function Header() {
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
+                aria-hidden="true"
               >
                 <path
                   strokeLinecap="round"
@@ -128,7 +131,7 @@ export default function Header() {
               </svg>
             </label>
 
-            <div id="mobile-menu" className="hidden lg:hidden border-t border-gray-200 absolute left-0 right-0 bg-white shadow-lg">
+            <nav id="mobile-menu" className="hidden lg:hidden border-t border-gray-200 absolute left-0 right-0 bg-white shadow-lg" aria-label="Mobile navigation">
               <div className="px-2 pt-2 pb-3 space-y-1">
                 <Link
                   href="/"
@@ -176,15 +179,16 @@ export default function Header() {
                   <a
                     href="tel:+16197500114"
                     className="btn btn-primary w-full justify-center"
+                    aria-label="Call us at 619-750-0114"
                   >
-                    <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
                     (619) 750-0114
                   </a>
                 </div>
               </div>
-            </div>
+            </nav>
           </div>
         </div>
       </div>
