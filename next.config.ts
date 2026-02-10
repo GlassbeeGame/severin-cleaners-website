@@ -27,6 +27,7 @@ const nextConfig: NextConfig = {
   },
   experimental: {
     optimizePackageImports: ['react', 'react-dom'],
+    optimizeCss: true, // Optimize CSS loading
   },
   // Exclude transpiling for modern browsers
   transpilePackages: [],
