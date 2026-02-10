@@ -144,7 +144,6 @@ export default function JunkRemovalChulaVistaPage() {
     },
     "url": "https://www.severinhauling.com/junk-removal-chula-vista",
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
-    "acceptsReservations": true,
     "currenciesAccepted": "USD",
     "knowsAbout": [
       "HOA Compliance in Master-Planned Communities",

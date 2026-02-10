@@ -144,7 +144,6 @@ export default function MattressDisposalPage() {
     },
     "openingHours": "Mo-Su 00:00-23:59",
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
-    "acceptsReservations": true,
     "currenciesAccepted": "USD",
     "aggregateRating": generateAggregateRatingSchema(),
     "knowsAbout": [

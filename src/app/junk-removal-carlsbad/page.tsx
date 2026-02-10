@@ -148,7 +148,6 @@ export default function JunkRemovalCarlsbadPage() {
     },
     "url": "https://www.severinhauling.com/junk-removal-carlsbad",
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
-    "acceptsReservations": true,
     "currenciesAccepted": "USD",
     "areaServed": {
       "@type": "City",

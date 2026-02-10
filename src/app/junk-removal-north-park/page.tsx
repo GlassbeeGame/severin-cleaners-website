@@ -134,7 +134,6 @@ export default function JunkRemovalNorthParkPage() {
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
-    "acceptsReservations": true,
     "currenciesAccepted": "USD",
     "address": {
       "@type": "PostalAddress",

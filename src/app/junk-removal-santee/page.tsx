@@ -162,7 +162,6 @@ export default function JunkRemovalSanteePage() {
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
     ],
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
-    "acceptsReservations": true,
     "currenciesAccepted": "USD",
     "knowsAbout": [
       "Santee Lakes Recreation Equipment and RV Disposal",

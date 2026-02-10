@@ -143,7 +143,6 @@ export default function JunkRemovalOceansidePage() {
     },
     "openingHours": "Mo-Su 00:00-23:59",
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle"],
-    "acceptsReservations": true,
     "currenciesAccepted": "USD",
     "aggregateRating": generateAggregateRatingSchema(),
     "knowsAbout": [

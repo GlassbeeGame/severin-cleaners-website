@@ -150,7 +150,6 @@ export default function JunkRemovalLaMesaPage() {
     },
     "url": "https://www.severinhauling.com/junk-removal-la-mesa",
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
-    "acceptsReservations": true,
     "currenciesAccepted": "USD",
     "areaServed": {
       "@type": "City",

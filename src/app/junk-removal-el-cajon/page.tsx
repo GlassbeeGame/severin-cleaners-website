@@ -145,7 +145,6 @@ export default function JunkRemovalElCajonPage() {
     },
     "url": "https://www.severinhauling.com/junk-removal-el-cajon",
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
-    "acceptsReservations": true,
     "currenciesAccepted": "USD",
     "knowsAbout": [
       "East County Family Property Management",

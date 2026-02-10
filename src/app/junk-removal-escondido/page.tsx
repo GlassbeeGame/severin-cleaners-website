@@ -138,7 +138,6 @@ export default function JunkRemovalEscondidoPage() {
     },
     "url": "https://www.severinhauling.com/junk-removal-escondido",
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
-    "acceptsReservations": true,
     "currenciesAccepted": "USD",
     "knowsAbout": [
       "Hillside Property Access and Terrain Challenges",
