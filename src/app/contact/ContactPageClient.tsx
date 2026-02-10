@@ -2,15 +2,8 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-
-const inter = Inter({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-inter",
-});
 
 export default function ContactPageClient() {
   const [formData, setFormData] = useState({
@@ -55,7 +48,7 @@ export default function ContactPageClient() {
   };
 
   return (
-    <div className={`${inter.variable} font-sans antialiased`}>
+    <div className="font-sans antialiased">
       <Header />
 
       <main>

@@ -11,11 +11,14 @@
     "clean": "rm -rf .next"
   },
   "browserslist": [
-    "defaults and fully supports es6-module",
-    "maintained node versions",
-    "not IE 11",
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Safari versions",
+    "last 2 Edge versions",
     "not dead",
-    "not op_mini all"
+    "not IE 11",
+    "not op_mini all",
+    "> 0.5%"
   ],
   "dependencies": {
     "critters": "^0.0.23",
