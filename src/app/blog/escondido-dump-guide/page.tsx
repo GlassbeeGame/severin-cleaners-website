@@ -415,7 +415,8 @@ export default function EscondidoDumpGuide() {
         "name": "Escondido Junk Removal Service",
         "description": "Professional junk removal service in Escondido and North County as a convenient alternative to DIY dump runs to Escondido Resource Recovery transfer station",
         "provider": {
-          "@type": "LocalBusiness",
+          "@type": "Organization",
+          "@id": "https://www.severinhauling.com/#organization",
           "name": "Severin Hauling"
         },
         "areaServed": {

@@ -378,7 +378,8 @@ export default function LaMesaDumpGuide() {
         "name": "Junk Removal Service in La Mesa",
         "description": "Professional junk removal alternative to DIY dump runs and dumpster rental in La Mesa and East County",
         "provider": {
-          "@type": "LocalBusiness",
+          "@type": "Organization",
+          "@id": "https://www.severinhauling.com/#business",
           "name": "Severin Hauling"
         },
         "areaServed": {
