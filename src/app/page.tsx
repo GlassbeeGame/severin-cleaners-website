@@ -159,7 +159,7 @@ export default function Home() {
               <div className="text-center">
                 <a
                   href="/areas-we-serve"
-                  className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold transition-colors group"
+                  className="inline-flex items-center gap-2 text-blue-700 hover:text-blue-800 font-semibold transition-colors group"
                 >
                   <span>View All Service Areas</span>
                   <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
