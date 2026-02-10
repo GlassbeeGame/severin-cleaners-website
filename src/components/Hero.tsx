@@ -9,11 +9,11 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <Image
-          src="/optimized/landingpage.webp"
+          src="/optimized/landingpage-mobile.webp"
           alt="San Diego junk removal service background"
           fill
           priority
-          quality={60}
+          quality={85}
           className="object-cover"
           sizes="100vw"
           fetchPriority="high"

@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { GoogleTagManagerHead, GoogleTagManagerBody } from "@/components/GoogleTagManager";
+import CriticalCSS from "@/components/CriticalCSS";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -80,17 +81,37 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
+        <CriticalCSS />
 
-        {/* Preload critical resources */}
+        {/* Preload critical resources - mobile-first */}
         <link
           rel="preload"
           as="image"
-          href="/optimized/landingpage.webp"
+          href="/optimized/landingpage-mobile.webp"
           type="image/webp"
           fetchPriority="high"
+          media="(max-width: 640px)"
+        />
+        <link
+          rel="preload"
+          as="image"
+          href="/optimized/landingpage-tablet.webp"
+          type="image/webp"
+          fetchPriority="high"
+          media="(min-width: 641px) and (max-width: 768px)"
+        />
+        <link
+          rel="preload"
+          as="image"
+          href="/optimized/landingpage-desktop.webp"
+          type="image/webp"
+          fetchPriority="high"
+          media="(min-width: 769px)"
         />
 
-        {/* Resource Hints for Performance - DNS prefetch only for third parties */}
+        {/* Resource Hints for Performance */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://analytics.ahrefs.com" />

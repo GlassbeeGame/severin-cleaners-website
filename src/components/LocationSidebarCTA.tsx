@@ -71,7 +71,7 @@ export default function LocationSidebarCTA({
                 <span className="text-green-500 mr-2 mt-0.5">✓</span>
                 <Link
                   href={item.slug}
-                  className="text-gray-700 hover:text-blue-600 hover:underline transition-colors"
+                  className="text-gray-700 hover:text-blue-800 hover:underline transition-colors"
                 >
                   {item.name}
                 </Link>
@@ -90,7 +90,7 @@ export default function LocationSidebarCTA({
               <li key={location.slug}>
                 <Link
                   href={location.slug.startsWith('/') ? location.slug : `/${location.slug}`}
-                  className="text-blue-600 hover:text-blue-800 hover:underline flex items-center"
+                  className="text-blue-800 hover:text-blue-900 hover:underline flex items-center"
                 >
                   <span className="text-blue-400 mr-2">→</span>
                   {location.name}

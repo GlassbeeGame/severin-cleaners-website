@@ -3,8 +3,8 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   images: {
     formats: ['image/avif', 'image/webp'],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    deviceSizes: [640, 768, 1024, 1280, 1920],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256],
     minimumCacheTTL: 31536000, // 1 year cache (365 days)
     dangerouslyAllowSVG: true,
     contentDispositionType: 'attachment',
@@ -22,6 +22,14 @@ const nextConfig: NextConfig = {
   },
   // Production-only optimizations
   productionBrowserSourceMaps: false,
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production',
+  },
+  experimental: {
+    optimizePackageImports: ['react', 'react-dom'],
+  },
+  // Exclude transpiling for modern browsers
+  transpilePackages: [],
 };
 
 export default nextConfig;
