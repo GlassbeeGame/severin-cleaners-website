@@ -201,19 +201,22 @@ export default function JunkRemovalEscondidoPage() {
         "@type": "PostalCode",
         "postalCode": "92025",
         "addressLocality": "Escondido",
-        "addressRegion": "CA"
+        "addressRegion": "CA",
+        "addressCountry": "US"
       },
       {
         "@type": "PostalCode",
         "postalCode": "92026",
         "addressLocality": "Escondido",
-        "addressRegion": "CA"
+        "addressRegion": "CA",
+        "addressCountry": "US"
       },
       {
         "@type": "PostalCode",
         "postalCode": "92027",
         "addressLocality": "Escondido",
-        "addressRegion": "CA"
+        "addressRegion": "CA",
+        "addressCountry": "US"
       }
     ],
     "openingHours": "Mo-Su 00:00-23:59",

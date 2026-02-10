@@ -211,7 +211,8 @@ export default function JunkRemovalNorthParkPage() {
         "@type": "PostalCode",
         "postalCode": "92104",
         "addressLocality": "San Diego",
-        "addressRegion": "CA"
+        "addressRegion": "CA",
+        "addressCountry": "US"
       }
     ],
     "openingHours": "Mo-Su 00:00-23:59",

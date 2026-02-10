@@ -355,30 +355,50 @@ export default function EscondidoDumpGuide() {
           {
             "@type": "City",
             "name": "Escondido",
-            "containedIn": {
+            "containedInPlace": {
               "@type": "State",
               "name": "California"
             }
           },
           {
             "@type": "City",
-            "name": "San Marcos"
+            "name": "San Marcos",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "California"
+            }
           },
           {
             "@type": "City",
-            "name": "Rancho Bernardo"
+            "name": "Rancho Bernardo",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "California"
+            }
           },
           {
             "@type": "City",
-            "name": "Valley Center"
+            "name": "Valley Center",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "California"
+            }
           },
           {
             "@type": "City",
-            "name": "Vista"
+            "name": "Vista",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "California"
+            }
           },
           {
             "@type": "City",
-            "name": "Poway"
+            "name": "Poway",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "California"
+            }
           }
         ],
         "aggregateRating": generateAggregateRatingSchema(),

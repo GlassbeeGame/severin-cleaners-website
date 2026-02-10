@@ -186,7 +186,13 @@ export default function MattressDisposalPage() {
           }
         }
       ]
-    }
+    },
+    "sameAs": [
+      "https://www.facebook.com/severinhauling",
+      "https://www.instagram.com/severinhauling/",
+      "https://www.yelp.com/biz/severin-hauling-san-diego",
+      "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
+    ]
   };
 
   const breadcrumbSchema = generateBreadcrumbSchema([

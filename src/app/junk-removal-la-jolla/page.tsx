@@ -212,13 +212,15 @@ export default function JunkRemovalLaJollaPage() {
         "@type": "PostalCode",
         "postalCode": "92037",
         "addressLocality": "La Jolla",
-        "addressRegion": "CA"
+        "addressRegion": "CA",
+        "addressCountry": "US"
       },
       {
         "@type": "PostalCode",
         "postalCode": "92093",
         "addressLocality": "La Jolla",
-        "addressRegion": "CA"
+        "addressRegion": "CA",
+        "addressCountry": "US"
       }
     ],
     "openingHours": "Mo-Su 00:00-23:59",

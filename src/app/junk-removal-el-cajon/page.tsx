@@ -170,19 +170,22 @@ export default function JunkRemovalElCajonPage() {
         "@type": "PostalCode",
         "postalCode": "92019",
         "addressLocality": "El Cajon",
-        "addressRegion": "CA"
+        "addressRegion": "CA",
+        "addressCountry": "US"
       },
       {
         "@type": "PostalCode",
         "postalCode": "92020",
         "addressLocality": "El Cajon",
-        "addressRegion": "CA"
+        "addressRegion": "CA",
+        "addressCountry": "US"
       },
       {
         "@type": "PostalCode",
         "postalCode": "92021",
         "addressLocality": "El Cajon",
-        "addressRegion": "CA"
+        "addressRegion": "CA",
+        "addressCountry": "US"
       }
     ],
     "openingHours": "Mo-Su 00:00-23:59",

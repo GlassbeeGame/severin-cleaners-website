@@ -146,19 +146,22 @@ export default function JunkRemovalOceansidePage() {
         "@type": "PostalCode",
         "postalCode": "92054",
         "addressLocality": "Oceanside",
-        "addressRegion": "CA"
+        "addressRegion": "CA",
+        "addressCountry": "US"
       },
       {
         "@type": "PostalCode",
         "postalCode": "92056",
         "addressLocality": "Oceanside",
-        "addressRegion": "CA"
+        "addressRegion": "CA",
+        "addressCountry": "US"
       },
       {
         "@type": "PostalCode",
         "postalCode": "92057",
         "addressLocality": "Oceanside",
-        "addressRegion": "CA"
+        "addressRegion": "CA",
+        "addressCountry": "US"
       }
     ],
     "openingHours": "Mo-Su 00:00-23:59",

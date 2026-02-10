@@ -396,19 +396,35 @@ export default function SanteeDumpGuide() {
           },
           {
             "@type": "City",
-            "name": "El Cajon"
+            "name": "El Cajon",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "California"
+            }
           },
           {
             "@type": "City",
-            "name": "La Mesa"
+            "name": "La Mesa",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "California"
+            }
           },
           {
             "@type": "City",
-            "name": "Lakeside"
+            "name": "Lakeside",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "California"
+            }
           },
           {
             "@type": "City",
-            "name": "Alpine"
+            "name": "Alpine",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "California"
+            }
           }
         ],
         "openingHours": "Mo-Su 00:00-23:59",
@@ -1474,7 +1490,7 @@ export default function SanteeDumpGuide() {
                           <p className="text-gray-600 text-sm">Professional furniture removal and disposal services</p>
                         </Link>
 
-                        <Link href="/mattress-disposal-san-diego" className="block p-5 bg-gray-50 border-2 border-gray-200 hover:border-blue-400 rounded-lg transition-colors">
+                        <Link href="/san-diego-mattress-disposal" className="block p-5 bg-gray-50 border-2 border-gray-200 hover:border-blue-400 rounded-lg transition-colors">
                           <h4 className="font-bold text-lg mb-2 text-blue-600">Mattress Disposal</h4>
                           <p className="text-gray-600 text-sm">Eco-friendly mattress removal and recycling</p>
                         </Link>

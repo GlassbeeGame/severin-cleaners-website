@@ -156,19 +156,22 @@ export default function JunkRemovalVistaPage() {
         "@type": "PostalCode",
         "postalCode": "92081",
         "addressLocality": "Vista",
-        "addressRegion": "CA"
+        "addressRegion": "CA",
+        "addressCountry": "US"
       },
       {
         "@type": "PostalCode",
         "postalCode": "92083",
         "addressLocality": "Vista",
-        "addressRegion": "CA"
+        "addressRegion": "CA",
+        "addressCountry": "US"
       },
       {
         "@type": "PostalCode",
         "postalCode": "92084",
         "addressLocality": "Vista",
-        "addressRegion": "CA"
+        "addressRegion": "CA",
+        "addressCountry": "US"
       }
     ],
     "openingHours": "Mo-Su 00:00-23:59",

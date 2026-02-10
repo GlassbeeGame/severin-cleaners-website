@@ -329,23 +329,43 @@ export default function LaMesaDumpGuide() {
         "areaServed": [
           {
             "@type": "City",
-            "name": "La Mesa"
+            "name": "La Mesa",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "California"
+            }
           },
           {
             "@type": "City",
-            "name": "El Cajon"
+            "name": "El Cajon",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "California"
+            }
           },
           {
             "@type": "City",
-            "name": "Santee"
+            "name": "Santee",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "California"
+            }
           },
           {
             "@type": "City",
-            "name": "Spring Valley"
+            "name": "Spring Valley",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "California"
+            }
           },
           {
             "@type": "City",
-            "name": "Lemon Grove"
+            "name": "Lemon Grove",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "California"
+            }
           }
         ],
         "openingHours": "Mo-Su 00:00-23:59",

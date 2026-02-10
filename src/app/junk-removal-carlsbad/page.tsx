@@ -163,25 +163,29 @@ export default function JunkRemovalCarlsbadPage() {
         "@type": "PostalCode",
         "postalCode": "92008",
         "addressLocality": "Carlsbad",
-        "addressRegion": "CA"
+        "addressRegion": "CA",
+        "addressCountry": "US"
       },
       {
         "@type": "PostalCode",
         "postalCode": "92009",
         "addressLocality": "Carlsbad",
-        "addressRegion": "CA"
+        "addressRegion": "CA",
+        "addressCountry": "US"
       },
       {
         "@type": "PostalCode",
         "postalCode": "92010",
         "addressLocality": "Carlsbad",
-        "addressRegion": "CA"
+        "addressRegion": "CA",
+        "addressCountry": "US"
       },
       {
         "@type": "PostalCode",
         "postalCode": "92011",
         "addressLocality": "Carlsbad",
-        "addressRegion": "CA"
+        "addressRegion": "CA",
+        "addressCountry": "US"
       }
     ],
     "openingHours": "Mo-Su 00:00-23:59",

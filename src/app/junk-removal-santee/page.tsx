@@ -158,7 +158,8 @@ export default function JunkRemovalSanteePage() {
         "@type": "PostalCode",
         "postalCode": "92071",
         "addressLocality": "Santee",
-        "addressRegion": "CA"
+        "addressRegion": "CA",
+        "addressCountry": "US"
       }
     ],
     "openingHours": "Mo-Su 00:00-23:59",

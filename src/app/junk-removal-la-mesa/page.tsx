@@ -165,19 +165,22 @@ export default function JunkRemovalLaMesaPage() {
         "@type": "PostalCode",
         "postalCode": "91941",
         "addressLocality": "La Mesa",
-        "addressRegion": "CA"
+        "addressRegion": "CA",
+        "addressCountry": "US"
       },
       {
         "@type": "PostalCode",
         "postalCode": "91942",
         "addressLocality": "La Mesa",
-        "addressRegion": "CA"
+        "addressRegion": "CA",
+        "addressCountry": "US"
       },
       {
         "@type": "PostalCode",
         "postalCode": "91944",
         "addressLocality": "La Mesa",
-        "addressRegion": "CA"
+        "addressRegion": "CA",
+        "addressCountry": "US"
       }
     ],
     "openingHours": "Mo-Su 00:00-23:59",
