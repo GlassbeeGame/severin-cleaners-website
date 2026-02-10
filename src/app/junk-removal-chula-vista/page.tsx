@@ -194,37 +194,14 @@ export default function JunkRemovalChulaVistaPage() {
         }
       ]
     },
-    "areaServed": [
-      {
-        "@type": "City",
-        "name": "Chula Vista",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "California"
-        }
-      },
-      {
-        "@type": "PostalCode",
-        "postalCode": "91910",
-        "addressLocality": "Chula Vista",
-        "addressRegion": "CA",
-        "addressCountry": "US"
-      },
-      {
-        "@type": "PostalCode",
-        "postalCode": "91911",
-        "addressLocality": "Chula Vista",
-        "addressRegion": "CA",
-        "addressCountry": "US"
-      },
-      {
-        "@type": "PostalCode",
-        "postalCode": "91913",
-        "addressLocality": "Chula Vista",
-        "addressRegion": "CA",
-        "addressCountry": "US"
+    "areaServed": {
+      "@type": "City",
+      "name": "Chula Vista",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California"
       }
-    ],
+    },
     "openingHours": "Mo-Su 00:00-23:59",
     "aggregateRating": generateAggregateRatingSchema(),
     "sameAs": [

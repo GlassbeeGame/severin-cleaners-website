@@ -150,44 +150,14 @@ export default function JunkRemovalCarlsbadPage() {
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
     "acceptsReservations": true,
     "currenciesAccepted": "USD",
-    "areaServed": [
-      {
-        "@type": "City",
-        "name": "Carlsbad",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "California"
-        }
-      },
-      {
-        "@type": "PostalCode",
-        "postalCode": "92008",
-        "addressLocality": "Carlsbad",
-        "addressRegion": "CA",
-        "addressCountry": "US"
-      },
-      {
-        "@type": "PostalCode",
-        "postalCode": "92009",
-        "addressLocality": "Carlsbad",
-        "addressRegion": "CA",
-        "addressCountry": "US"
-      },
-      {
-        "@type": "PostalCode",
-        "postalCode": "92010",
-        "addressLocality": "Carlsbad",
-        "addressRegion": "CA",
-        "addressCountry": "US"
-      },
-      {
-        "@type": "PostalCode",
-        "postalCode": "92011",
-        "addressLocality": "Carlsbad",
-        "addressRegion": "CA",
-        "addressCountry": "US"
+    "areaServed": {
+      "@type": "City",
+      "name": "Carlsbad",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California"
       }
-    ],
+    },
     "openingHours": "Mo-Su 00:00-23:59",
     "aggregateRating": generateAggregateRatingSchema(),
     "knowsAbout": [

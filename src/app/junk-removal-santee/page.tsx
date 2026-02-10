@@ -145,23 +145,14 @@ export default function JunkRemovalSanteePage() {
       "longitude": -117.0231
     },
     "url": "https://www.severinhauling.com/junk-removal-santee",
-    "areaServed": [
-      {
-        "@type": "City",
-        "name": "Santee",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "California"
-        }
-      },
-      {
-        "@type": "PostalCode",
-        "postalCode": "92071",
-        "addressLocality": "Santee",
-        "addressRegion": "CA",
-        "addressCountry": "US"
+    "areaServed": {
+      "@type": "City",
+      "name": "Santee",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California"
       }
-    ],
+    },
     "openingHours": "Mo-Su 00:00-23:59",
     "aggregateRating": generateAggregateRatingSchema(),
     "sameAs": [

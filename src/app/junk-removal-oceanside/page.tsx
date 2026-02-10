@@ -133,37 +133,14 @@ export default function JunkRemovalOceansidePage() {
       "longitude": -117.0231
     },
     "url": "https://www.severinhauling.com/junk-removal-oceanside",
-    "areaServed": [
-      {
-        "@type": "City",
-        "name": "Oceanside",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "California"
-        }
-      },
-      {
-        "@type": "PostalCode",
-        "postalCode": "92054",
-        "addressLocality": "Oceanside",
-        "addressRegion": "CA",
-        "addressCountry": "US"
-      },
-      {
-        "@type": "PostalCode",
-        "postalCode": "92056",
-        "addressLocality": "Oceanside",
-        "addressRegion": "CA",
-        "addressCountry": "US"
-      },
-      {
-        "@type": "PostalCode",
-        "postalCode": "92057",
-        "addressLocality": "Oceanside",
-        "addressRegion": "CA",
-        "addressCountry": "US"
+    "areaServed": {
+      "@type": "City",
+      "name": "Oceanside",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California"
       }
-    ],
+    },
     "openingHours": "Mo-Su 00:00-23:59",
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle"],
     "acceptsReservations": true,

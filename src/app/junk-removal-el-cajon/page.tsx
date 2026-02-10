@@ -157,37 +157,14 @@ export default function JunkRemovalElCajonPage() {
       "Automotive and DIY Equipment Removal",
       "La Mesa Border Community Service"
     ],
-    "areaServed": [
-      {
-        "@type": "City",
-        "name": "El Cajon",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "California"
-        }
-      },
-      {
-        "@type": "PostalCode",
-        "postalCode": "92019",
-        "addressLocality": "El Cajon",
-        "addressRegion": "CA",
-        "addressCountry": "US"
-      },
-      {
-        "@type": "PostalCode",
-        "postalCode": "92020",
-        "addressLocality": "El Cajon",
-        "addressRegion": "CA",
-        "addressCountry": "US"
-      },
-      {
-        "@type": "PostalCode",
-        "postalCode": "92021",
-        "addressLocality": "El Cajon",
-        "addressRegion": "CA",
-        "addressCountry": "US"
+    "areaServed": {
+      "@type": "City",
+      "name": "El Cajon",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California"
       }
-    ],
+    },
     "openingHours": "Mo-Su 00:00-23:59",
     "aggregateRating": generateAggregateRatingSchema(),
     "sameAs": [

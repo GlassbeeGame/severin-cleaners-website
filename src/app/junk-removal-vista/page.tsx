@@ -143,37 +143,14 @@ export default function JunkRemovalVistaPage() {
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
     "acceptsReservations": true,
     "currenciesAccepted": "USD",
-    "areaServed": [
-      {
-        "@type": "City",
-        "name": "Vista",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "California"
-        }
-      },
-      {
-        "@type": "PostalCode",
-        "postalCode": "92081",
-        "addressLocality": "Vista",
-        "addressRegion": "CA",
-        "addressCountry": "US"
-      },
-      {
-        "@type": "PostalCode",
-        "postalCode": "92083",
-        "addressLocality": "Vista",
-        "addressRegion": "CA",
-        "addressCountry": "US"
-      },
-      {
-        "@type": "PostalCode",
-        "postalCode": "92084",
-        "addressLocality": "Vista",
-        "addressRegion": "CA",
-        "addressCountry": "US"
+    "areaServed": {
+      "@type": "City",
+      "name": "Vista",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California"
       }
-    ],
+    },
     "openingHours": "Mo-Su 00:00-23:59",
     "aggregateRating": generateAggregateRatingSchema(),
     "knowsAbout": [

@@ -198,23 +198,14 @@ export default function JunkRemovalNorthParkPage() {
         }
       ]
     },
-    "areaServed": [
-      {
-        "@type": "City",
-        "name": "North Park",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "California"
-        }
-      },
-      {
-        "@type": "PostalCode",
-        "postalCode": "92104",
-        "addressLocality": "San Diego",
-        "addressRegion": "CA",
-        "addressCountry": "US"
+    "areaServed": {
+      "@type": "City",
+      "name": "North Park",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California"
       }
-    ],
+    },
     "openingHours": "Mo-Su 00:00-23:59",
     "aggregateRating": generateAggregateRatingSchema(),
     "sameAs": [

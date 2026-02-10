@@ -199,30 +199,14 @@ export default function JunkRemovalLaJollaPage() {
         }
       ]
     },
-    "areaServed": [
-      {
-        "@type": "City",
-        "name": "La Jolla",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "California"
-        }
-      },
-      {
-        "@type": "PostalCode",
-        "postalCode": "92037",
-        "addressLocality": "La Jolla",
-        "addressRegion": "CA",
-        "addressCountry": "US"
-      },
-      {
-        "@type": "PostalCode",
-        "postalCode": "92093",
-        "addressLocality": "La Jolla",
-        "addressRegion": "CA",
-        "addressCountry": "US"
+    "areaServed": {
+      "@type": "City",
+      "name": "La Jolla",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California"
       }
-    ],
+    },
     "openingHours": "Mo-Su 00:00-23:59",
     "aggregateRating": generateAggregateRatingSchema(),
     "sameAs": [
