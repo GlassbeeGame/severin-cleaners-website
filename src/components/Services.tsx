@@ -301,7 +301,7 @@ export default function Services() {
                 <div className="grid grid-cols-2 gap-3 mb-8">
                   {[
                     { name: 'El Cajon', link: '/junk-removal-el-cajon' },
-                    { name: 'La Mesa', link: '/junk-removal-la-mesa' },
+                    { name: 'La Mesa', link: '/la-mesa-junk-removal' },
                     { name: 'Santee', link: '/junk-removal-santee' },
                     { name: 'Lakeside', link: '/junk-removal-lakeside' },
                     { name: 'Spring Valley', link: '/junk-removal-spring-valley' },

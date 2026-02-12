@@ -379,7 +379,7 @@ export default function LaMesaJunkRemovalPage() {
                       <div>
                         <h4 className="font-bold mb-3 text-gray-900">Furniture & Household Items</h4>
                         <ul className="space-y-2 text-gray-700">
-                          <li>• Sofas, couches, sectionals</li>
+                          <li>• <a href="/couch-removal-san-diego" className="text-blue-600 hover:underline">Sofas, couches, sectionals</a></li>
                           <li>• <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">Mattresses and box springs</a></li>
                           <li>• Dining sets, tables, chairs</li>
                           <li>• Dressers, cabinets, desks</li>

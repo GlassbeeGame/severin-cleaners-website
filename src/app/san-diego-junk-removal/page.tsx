@@ -502,7 +502,7 @@ export default function SanDiegoJunkRemovalPage() {
                     <h5 className="font-bold text-blue-700 mb-3 text-lg">East County</h5>
                     <ul className="space-y-2 text-gray-700">
                       <li>• <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a> – Valley community hauling</li>
-                      <li>• <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a> – Hillside property service</li>
+                      <li>• <a href="/la-mesa-junk-removal" className="text-blue-600 hover:underline">La Mesa</a> – Hillside property service</li>
                       <li>• <a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee</a> – Family neighborhood cleanouts</li>
                       <li>• <a href="/junk-removal-lakeside" className="text-blue-600 hover:underline">Lakeside</a> – Rural East County</li>
                       <li>• <a href="/junk-removal-lemon-grove" className="text-blue-600 hover:underline">Lemon Grove</a> – Established neighborhoods</li>
@@ -925,7 +925,7 @@ export default function SanDiegoJunkRemovalPage() {
             <a href="/junk-removal-el-cajon" className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-500 hover:text-white transition-colors text-center">
               <span className="font-medium">El Cajon</span>
             </a>
-            <a href="/junk-removal-la-mesa" className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-500 hover:text-white transition-colors text-center">
+            <a href="/la-mesa-junk-removal" className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-500 hover:text-white transition-colors text-center">
               <span className="font-medium">La Mesa</span>
             </a>
             <a href="/junk-removal-chula-vista" className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-500 hover:text-white transition-colors text-center">

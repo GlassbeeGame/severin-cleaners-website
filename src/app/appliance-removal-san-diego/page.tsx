@@ -238,7 +238,7 @@ export default function ApplianceRemovalPage() {
 
                 <h3 className="text-2xl font-bold mt-6 mb-3">Refrigerator Removal San Diego</h3>
                 <p className="text-lg mb-6">
-                  Our refrigerator removal specialists handle units from garages, condos, or upstairs kitchens. Whether it's <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">commercial appliance removal in Kearny Mesa</a> or residential service in <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa washer and dryer removal</a>, we safely navigate tight spaces and recycle Freon-compliant units responsibly.
+                  Our refrigerator removal specialists handle units from garages, condos, or upstairs kitchens. Whether it's <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">commercial appliance removal in Kearny Mesa</a> or residential service in <a href="/la-mesa-junk-removal" className="text-blue-600 hover:underline">La Mesa washer and dryer removal</a>, we safely navigate tight spaces and recycle Freon-compliant units responsibly.
                 </p>
 
                 <h3 className="text-2xl font-bold mt-6 mb-3">Washer & Dryer Removal San Diego</h3>

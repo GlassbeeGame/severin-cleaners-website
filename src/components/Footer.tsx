@@ -267,7 +267,7 @@ export default function Footer() {
               { name: 'Hillcrest', link: '/junk-removal-hillcrest' },
               { name: 'Kearny Mesa', link: '/junk-removal-kearny-mesa' },
               { name: 'La Jolla', link: '/junk-removal-la-jolla' },
-              { name: 'La Mesa', link: '/junk-removal-la-mesa' },
+              { name: 'La Mesa', link: '/la-mesa-junk-removal' },
               { name: 'Lakeside', link: '/junk-removal-lakeside' },
               { name: 'Lemon Grove', link: '/junk-removal-lemon-grove' },
               { name: 'Mira Mesa', link: '/junk-removal-mira-mesa' },

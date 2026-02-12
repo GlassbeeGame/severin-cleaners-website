@@ -261,7 +261,7 @@ export default function HoardingCleanupPage() {
                   <ul className="list-disc pl-4 text-gray-700">
                     <li><a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a></li>
                     <li><a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a></li>
-                    <li><a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a></li>
+                    <li><a href="/la-mesa-junk-removal" className="text-blue-600 hover:underline">La Mesa</a></li>
                     <li><a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee</a></li>
                   </ul>
                   <ul className="list-disc pl-4 text-gray-700">

@@ -279,7 +279,7 @@ export default function EstateCleanoutPage() {
                     <h4 className="font-bold mb-2 text-blue-600">East & South County</h4>
                     <ul className="text-sm space-y-1 text-gray-700">
                       <li>• <a href="/junk-removal-el-cajon" className="text-blue-600 hover:text-blue-700">El Cajon</a></li>
-                      <li>• <a href="/junk-removal-la-mesa" className="text-blue-600 hover:text-blue-700">La Mesa</a></li>
+                      <li>• <a href="/la-mesa-junk-removal" className="text-blue-600 hover:text-blue-700">La Mesa</a></li>
                       <li>• <a href="/junk-removal-chula-vista" className="text-blue-600 hover:text-blue-700">Chula Vista</a></li>
                       <li>• <a href="/junk-removal-santee" className="text-blue-600 hover:text-blue-700">Santee</a></li>
                       <li>• <a href="/junk-removal-poway" className="text-blue-600 hover:text-blue-700">Poway</a></li>

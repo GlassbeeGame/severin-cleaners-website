@@ -28,7 +28,7 @@ export default function NeighborhoodCoverage() {
       description: "Reliable trash removal San Diego eastern communities",
       neighborhoods: [
         { name: "El Cajon", link: "/junk-removal-el-cajon" },
-        { name: "La Mesa", link: "/junk-removal-la-mesa" },
+        { name: "La Mesa", link: "/la-mesa-junk-removal" },
         { name: "Santee", link: "/junk-removal-santee" },
         { name: "Lemon Grove", link: "/junk-removal-lemon-grove" },
         { name: "Spring Valley", link: "/junk-removal-spring-valley" },

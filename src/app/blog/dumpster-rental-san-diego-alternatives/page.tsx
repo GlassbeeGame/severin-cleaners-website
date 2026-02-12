@@ -478,7 +478,7 @@ export default function DumpsterRentalAlternative() {
 
                   <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Dumpster Rental La Mesa vs. Junk Removal La Mesa</h3>
                   <p className="text-gray-700 leading-relaxed mb-6">
-                    <Link href="/junk-removal-la-mesa" className="text-blue-600 hover:text-blue-700 font-semibold">La Mesa</Link> features many hillside properties with steep driveways and challenging access. Loading a dumpster uphill is even more difficult and dangerous than on level ground. HOA communities in La Mesa often restrict how long dumpsters can remain on property. Professional junk removal La Mesa solves both problems—we handle the challenging access safely, and we're gone the same day. Skip the "dumpster rental La Mesa" or "dumpster rental La Mesa CA" search and call us directly for easier service.
+                    <Link href="/la-mesa-junk-removal" className="text-blue-600 hover:text-blue-700 font-semibold">La Mesa</Link> features many hillside properties with steep driveways and challenging access. Loading a dumpster uphill is even more difficult and dangerous than on level ground. HOA communities in La Mesa often restrict how long dumpsters can remain on property. Professional junk removal La Mesa solves both problems—we handle the challenging access safely, and we're gone the same day. Skip the "dumpster rental La Mesa" or "dumpster rental La Mesa CA" search and call us directly for easier service.
                   </p>
 
                   <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">When Dumpster Rental Might Make Sense (Rarely)</h2>
@@ -679,7 +679,7 @@ export default function DumpsterRentalAlternative() {
                       <h4 className="font-bold text-gray-900 mb-3">East County</h4>
                       <ul className="space-y-1 text-gray-700">
                         <li>• <Link href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</Link> ✓</li>
-                        <li>• <Link href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</Link> ✓</li>
+                        <li>• <Link href="/la-mesa-junk-removal" className="text-blue-600 hover:underline">La Mesa</Link> ✓</li>
                         <li>• <Link href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee</Link></li>
                         <li>• <Link href="/junk-removal-lakeside" className="text-blue-600 hover:underline">Lakeside</Link></li>
                         <li>• <Link href="/junk-removal-spring-valley" className="text-blue-600 hover:underline">Spring Valley</Link></li>
