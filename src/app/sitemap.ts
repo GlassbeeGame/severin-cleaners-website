@@ -40,7 +40,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'junk-removal-kearny-mesa',
     'junk-removal-la-jolla',
     'la-mesa-junk-removal',
-    'junk-removal-la-mesa',
     'junk-removal-lakeside',
     'junk-removal-lemon-grove',
     'junk-removal-mira-mesa',
