@@ -71,11 +71,11 @@ export const metadata: Metadata = {
 const elCajonFAQs = [
   {
     question: "How much does junk removal El Cajon CA cost?",
-    answer: "Our pricing is transparent and volume-based: quarter load $100-$150, half load $200-$295, three-quarter load $350-$425, and full load $450-$495. All prices include labor, hauling, and disposal with no extra charges for hillside access. Call (619) 750-0114 for a free quote specific to your project."
+    answer: "Our pricing is transparent and volume-based: quarter load $100-$150, half load $200-$295, three-quarter load $350-$425, and full load $450-$495. All prices include labor, hauling, and disposal with no extra charges for hillside access. Call (619) 750-0114 for a free quote specific to your project. Learn more about <a href='/blog/how-much-does-junk-removal-cost-san-diego' className='text-blue-600 hover:underline'>junk removal pricing in San Diego</a>."
   },
   {
     question: "Do you provide same-day service in East County?",
-    answer: "Yes, we offer <a href='/same-day-junk-removal-san-diego' className='text-blue-600 hover:underline'>same-day service</a> throughout East County including Fletcher Hills, Rancho San Diego, Granite Hills, and Crest. Call before 2 PM for same-day availability. We prioritize family emergencies and estate situations."
+    answer: "Yes, we offer <a href='/same-day-junk-removal-san-diego' className='text-blue-600 hover:underline'>same-day service</a> throughout East County including Fletcher Hills, Rancho San Diego, Granite Hills, and Crest. Call before 2 PM for same-day availability. We prioritize family emergencies and estate situations. Learn more about <a href='/blog/same-day-junk-removal-guide' className='text-blue-600 hover:underline'>securing same-day pickup</a>."
   },
   {
     question: "What neighborhoods in El Cajon do you cover?",
@@ -279,20 +279,21 @@ export default function JunkRemovalElCajonPage() {
                       <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-md">
                         <Image
                           src="/optimized/junkchairs.jpg"
-                          alt="Junk removal El Cajon CA - professional furniture and household item disposal"
+                          alt="junk removal El Cajon CA - furniture disposal service in 92019, 92020, 92021"
                           fill
                           className="object-cover"
                           sizes="320px"
+                          loading="lazy"
                         />
                       </div>
                     </div>
 
                     <p className="text-lg mb-6 text-gray-700">
-                      Looking for junk removal El Cajon CA residents trust? Severin Hauling specializes in East County family properties—from Fletcher Hills hillside estates to Rancho San Diego master-planned communities. We navigate steep driveways, handle multi-generational home cleanouts, and provide expert <a href="/scrap-metal-removal" className="text-blue-600 hover:underline">scrap metal recycling</a> services throughout the area. Whether you're clearing an inherited estate, organizing decades of garage accumulation, or need <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a>, our locally-based team brings compassionate, professional service to every East County property. We also serve nearby <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a>, <a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee</a>, <a href="/junk-removal-lakeside" className="text-blue-600 hover:underline">Lakeside</a>, and <a href="/junk-removal-spring-valley" className="text-blue-600 hover:underline">Spring Valley</a>.
+                      Looking for junk removal El Cajon CA residents trust in 2026? <a href="/" className="text-blue-600 hover:underline font-medium">Severin Hauling</a> specializes in East County family properties across the 92019, 92020, and 92021 zip codes—from Fletcher Hills hillside estates off Fletcher Parkway to Rancho San Diego master-planned communities near Jamacha Road. We navigate steep driveways along Fuerte Drive and Avocado Boulevard, handle multi-generational home cleanouts near Magnolia Avenue and Main Street, and provide expert <a href="/scrap-metal-removal" className="text-blue-600 hover:underline">scrap metal recycling</a> services throughout the area. Whether you're clearing an inherited estate, organizing decades of garage accumulation, or need <a href="/blog/same-day-junk-removal-guide" className="text-blue-600 hover:underline">same-day emergency pickup</a>, our locally-based team brings compassionate, professional service to every East County property. We also serve nearby <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a>, <a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee</a>, <a href="/junk-removal-lakeside" className="text-blue-600 hover:underline">Lakeside</a>, and <a href="/junk-removal-spring-valley" className="text-blue-600 hover:underline">Spring Valley</a>.
                     </p>
 
                     {/* Neighborhoods Served */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Neighborhoods We Serve</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">El Cajon Neighborhoods We Serve (92019, 92020, 92021)</h3>
                     <div className="grid md:grid-cols-2 gap-2 mb-6">
                       <ul className="space-y-1">
                         <li>• Fletcher Hills</li>
@@ -309,32 +310,34 @@ export default function JunkRemovalElCajonPage() {
                     </div>
 
                     {/* Local Landmarks */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Major Landmarks</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Major Landmarks & Cross Streets</h3>
                     <div className="grid md:grid-cols-2 gap-2 mb-6">
                       <ul className="space-y-1">
-                        <li>• Parkway Plaza</li>
+                        <li>• Parkway Plaza (Fletcher Parkway)</li>
                         <li>• Grossmont College</li>
                         <li>• Sycuan Casino</li>
                         <li>• Mount Helix Park</li>
+                        <li>• Main Street Downtown</li>
                       </ul>
                       <ul className="space-y-1">
                         <li>• Water Conservation Garden</li>
                         <li>• Rancho San Diego Parkway</li>
                         <li>• Cottonwood Golf Club</li>
-                        <li>• Downtown Performing Arts Center</li>
+                        <li>• Magnolia Avenue</li>
+                        <li>• Jamacha Road</li>
                       </ul>
                     </div>
 
                     {/* Weather */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Weather Considerations</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">East County Weather & Scheduling</h3>
                     <p className="text-gray-700 mb-6">
-                      Inland East County summers regularly exceed 95°F, requiring early morning scheduling for crew safety during physical hauling work. Winter rains occasionally make unpaved hillside driveways temporarily inaccessible. We monitor weather conditions and adjust scheduling to ensure safe, efficient service year-round.
+                      Inland East County summers (June-September) regularly exceed 95°F, requiring early morning scheduling (6-10 AM) for crew safety during physical hauling work. Winter rains (December-February) occasionally make unpaved hillside driveways temporarily inaccessible in Fletcher Hills and Mount Helix. We monitor weather conditions year-round and adjust scheduling to ensure safe, efficient service. Learn more about <a href="/blog/same-day-junk-removal-guide" className="text-blue-600 hover:underline">planning your junk removal pickup</a>.
                     </p>
 
                     {/* What We Remove */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Services We Provide</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">What We Haul From El Cajon Properties</h3>
                     <p className="text-gray-700 mb-4">
-                      We handle everything from single items to complete property cleanouts:
+                      We handle everything from single items to complete <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
@@ -364,39 +367,39 @@ export default function JunkRemovalElCajonPage() {
                     {/* Multi-Generational Family Property Section */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Multi-Generational Family Property Specialists</h3>
                     <p className="text-gray-700 mb-6">
-                      East County's family-centered culture means many properties house multiple generations or serve as inherited estates. We handle decades of accumulation with compassion, coordinate with estate executors during transitions, and work at your family's pace. Our crews understand the emotional weight of clearing inherited homes and provide patient sorting with family members present.
+                      East County's family-centered culture means many properties house multiple generations or serve as inherited estates. We handle decades of accumulation with compassion, coordinate with estate executors during transitions, and work at your family's pace. Our crews understand the emotional weight of clearing inherited homes and provide patient sorting with family members present. This sensitive approach to <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a> sets us apart in East County.
                     </p>
 
                     {/* Fletcher Hills & Hillside Estate Section */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Fletcher Hills & Hillside Estate Expertise</h3>
                     <p className="text-gray-700 mb-6">
-                      Fletcher Hills luxury estates and Mount Helix properties require specialized hillside access expertise. We navigate steep driveways, winding access roads, and narrow mountain streets with terrain-capable trucks. Full insurance coverage protects challenging property access, and our crews provide discreet, professional service matching the quality of these premium East County neighborhoods.
+                      Fletcher Hills luxury estates and Mount Helix properties require specialized hillside access expertise. We navigate steep driveways off Fuerte Drive, winding access roads along Avocado Boulevard, and narrow mountain streets near Vista Grande Drive with terrain-capable trucks. Full insurance coverage protects challenging property access, and our crews provide discreet, professional service matching the quality of these premium East County neighborhoods.
                     </p>
 
                     {/* Automotive Workshop Section */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Garage & Automotive Workshop Cleanouts</h3>
                     <p className="text-gray-700 mb-6">
-                      East County's automotive DIY culture creates extensive garage workshops with decades of tools, equipment, and project materials. We handle automotive tool collections, car parts, workshop machinery, and hazardous materials with proper disposal. Fair metal recycling pricing provides credits for valuable copper, aluminum, and steel scrap commonly found in workshops.
+                      East County's automotive DIY culture creates extensive garage workshops with decades of tools, equipment, and project materials. We handle automotive tool collections, car parts, workshop machinery, and hazardous materials with proper disposal. Fair metal recycling pricing provides credits for valuable copper, aluminum, and steel scrap commonly found in workshops. See our <a href="/junk-removal-cost-san-diego" className="text-blue-600 hover:underline">pricing guide</a> for large-scale cleanout details.
                     </p>
 
                     {/* Why Choose Us */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Hauling</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Hauling for El Cajon</h3>
                     <ul className="space-y-3 mb-6">
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
-                        <span><strong>East County Specialists:</strong> We handle hillside access, multi-generational properties, and family estate transitions throughout Fletcher Hills, Rancho San Diego, and Granite Hills.</span>
+                        <span><strong>East County Specialists:</strong> We handle hillside access off Fletcher Parkway, multi-generational properties near Main Street, and family estate transitions throughout Fletcher Hills, Rancho San Diego, and Granite Hills.</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
-                        <span><strong>Scrap Metal Experts:</strong> Fair pricing for valuable metals with credits toward your total cost. Certified recycling facilities.</span>
+                        <span><strong>Scrap Metal Experts:</strong> Fair pricing for valuable metals with credits toward your total cost. Certified recycling facilities ensure proper handling.</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
-                        <span><strong>Large Property Capacity:</strong> Complete estate clearances and garage cleanouts with decades of accumulation.</span>
+                        <span><strong>Large Property Capacity:</strong> Complete estate clearances and garage cleanouts with decades of accumulation. Same-day service available for emergencies.</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
-                        <span><strong>Transparent Pricing:</strong> Volume-based rates with no hidden fees. Same price for hillside and valley properties.</span>
+                        <span><strong>Transparent Pricing:</strong> Volume-based rates with no hidden fees. Same price for hillside and valley properties. See our <a href="/junk-removal-cost-san-diego" className="text-blue-600 hover:underline">complete pricing guide</a>.</span>
                       </li>
                     </ul>
 
@@ -419,7 +422,7 @@ export default function JunkRemovalElCajonPage() {
         {/* Pricing Section */}
         <LocationPricingSection
           locationName="El Cajon"
-          contextParagraph="Estate cleanouts and family property projects throughout El Cajon—from Fletcher Hills to Rancho San Diego—all use the same transparent pricing. No hidden fees, same-day service available."
+          contextParagraph="Estate cleanouts and family property projects throughout El Cajon—from Fletcher Hills to Rancho San Diego—all use the same transparent pricing. No hidden fees for hillside access, same-day service available."
         />
 
         {/* Trust Signals Section */}
