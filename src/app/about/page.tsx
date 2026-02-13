@@ -465,7 +465,7 @@ export default function AboutPage() {
                   <h3 className="font-bold text-blue-900 mb-2 text-sm">East County</h3>
                   <ul className="space-y-1 text-xs text-gray-700">
                     <li>• <a href="/junk-removal-el-cajon" className="hover:text-blue-600">El Cajon</a></li>
-                    <li>• <a href="/la-mesa-junk-removal" className="hover:text-blue-600">La Mesa</a></li>
+                    <li>• <a href="/junk-removal-la-mesa" className="hover:text-blue-600">La Mesa</a></li>
                     <li>• <a href="/junk-removal-santee" className="hover:text-blue-600">Santee</a></li>
                     <li>• <a href="/junk-removal-spring-valley" className="hover:text-blue-600">Spring Valley</a></li>
                   </ul>

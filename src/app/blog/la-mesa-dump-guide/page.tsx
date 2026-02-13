@@ -441,7 +441,7 @@ export default function LaMesaDumpGuide() {
   };
 
   const nearbyLocations = [
-    { name: "Junk Removal La Mesa", slug: "/la-mesa-junk-removal" },
+    { name: "Junk Removal La Mesa", slug: "/junk-removal-la-mesa" },
     { name: "Junk Removal El Cajon", slug: "/junk-removal-el-cajon" },
     { name: "Junk Removal Santee", slug: "/junk-removal-santee" },
     { name: "Junk Removal Spring Valley", slug: "/junk-removal-spring-valley" },
@@ -500,7 +500,7 @@ export default function LaMesaDumpGuide() {
                     {/* Quick Answer Section */}
                     <div className="prose prose-lg max-w-none mb-12">
                       <p className="text-lg text-gray-700 leading-relaxed">
-                        <strong>EDCO Station La Mesa</strong> (commonly called "La Mesa dump" or "La Mesa landfill") is open 7 days including weekends, with unique early weekday hours starting at 5 AM but closing at 2:30 PM. Fees are $80 for most loads under 800 lbs, with a unique <strong>Recycling Buyback Center</strong> where you can GET PAID for CRV items. However, when you factor in truck rental ($75-$150), gas ($10-$15), and especially your time (2-3 hours), <Link href="/la-mesa-junk-removal" className="text-blue-600 hover:underline font-semibold">professional junk removal starting at $69</Link> often costs about the same with zero work from you.
+                        <strong>EDCO Station La Mesa</strong> (commonly called "La Mesa dump" or "La Mesa landfill") is open 7 days including weekends, with unique early weekday hours starting at 5 AM but closing at 2:30 PM. Fees are $80 for most loads under 800 lbs, with a unique <strong>Recycling Buyback Center</strong> where you can GET PAID for CRV items. However, when you factor in truck rental ($75-$150), gas ($10-$15), and especially your time (2-3 hours), <Link href="/junk-removal-la-mesa" className="text-blue-600 hover:underline font-semibold">professional junk removal starting at $69</Link> often costs about the same with zero work from you.
                       </p>
                     </div>
 
@@ -696,7 +696,7 @@ export default function LaMesaDumpGuide() {
 
                       <div className="mt-6 bg-orange-50 border-l-4 border-orange-400 p-4 rounded-r">
                         <p className="text-sm text-gray-700">
-                          <strong>Not an EDCO customer?</strong> Professional junk removal services like <Link href="/la-mesa-junk-removal" className="text-blue-600 hover:underline">Severin Hauling</Link> can handle batteries and sharps through proper disposal channels - no EDCO customer status required. Call <a href="tel:6197500114" className="text-blue-600 hover:underline">(619) 750-0114</a>.
+                          <strong>Not an EDCO customer?</strong> Professional junk removal services like <Link href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">Severin Hauling</Link> can handle batteries and sharps through proper disposal channels - no EDCO customer status required. Call <a href="tel:6197500114" className="text-blue-600 hover:underline">(619) 750-0114</a>.
                         </p>
                       </div>
                     </div>
@@ -732,7 +732,7 @@ export default function LaMesaDumpGuide() {
                       </div>
 
                       <p className="text-gray-700 mt-6">
-                        <Link href="/la-mesa-junk-removal" className="text-blue-600 hover:underline font-semibold">Severin Hauling</Link> can handle most items through proper disposal channels, including items restricted to EDCO customers.
+                        <Link href="/junk-removal-la-mesa" className="text-blue-600 hover:underline font-semibold">Severin Hauling</Link> can handle most items through proper disposal channels, including items restricted to EDCO customers.
                       </p>
                     </div>
 
@@ -914,7 +914,7 @@ export default function LaMesaDumpGuide() {
                     <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Professional Junk Removal in La Mesa</h2>
 
                     <p className="text-gray-700 mb-6">
-                      <Link href="/la-mesa-junk-removal" className="text-blue-600 hover:text-blue-700 font-semibold">Severin Hauling</Link> provides professional <strong>junk removal in La Mesa</strong>, El Cajon, Santee, Spring Valley, Lemon Grove, and throughout East County San Diego. We're the local alternative to DIY dump runs.
+                      <Link href="/junk-removal-la-mesa" className="text-blue-600 hover:text-blue-700 font-semibold">Severin Hauling</Link> provides professional <strong>junk removal in La Mesa</strong>, El Cajon, Santee, Spring Valley, Lemon Grove, and throughout East County San Diego. We're the local alternative to DIY dump runs.
                     </p>
 
                     <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -924,7 +924,7 @@ export default function LaMesaDumpGuide() {
                           Service Areas
                         </h3>
                         <ul className="space-y-2 text-gray-700">
-                          <li>• <Link href="/la-mesa-junk-removal" className="text-blue-600 hover:text-blue-700">La Mesa</Link></li>
+                          <li>• <Link href="/junk-removal-la-mesa" className="text-blue-600 hover:text-blue-700">La Mesa</Link></li>
                           <li>• <Link href="/junk-removal-el-cajon" className="text-blue-600 hover:text-blue-700">El Cajon</Link></li>
                           <li>• <Link href="/junk-removal-santee" className="text-blue-600 hover:text-blue-700">Santee</Link></li>
                           <li>• <Link href="/junk-removal-spring-valley" className="text-blue-600 hover:text-blue-700">Spring Valley</Link></li>
@@ -996,7 +996,7 @@ export default function LaMesaDumpGuide() {
 
                       <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r mb-6">
                         <p className="text-sm text-gray-700">
-                          <strong>Recommendation:</strong> La Mesa is better for weekends (open Sunday!) and if you have recyclables to sell. Santee has longer weekday hours if you can't make La Mesa's 2:30 PM cutoff. Either way, <Link href="/la-mesa-junk-removal" className="text-blue-600 hover:underline font-semibold">professional junk removal</Link> saves you the trip entirely.
+                          <strong>Recommendation:</strong> La Mesa is better for weekends (open Sunday!) and if you have recyclables to sell. Santee has longer weekday hours if you can't make La Mesa's 2:30 PM cutoff. Either way, <Link href="/junk-removal-la-mesa" className="text-blue-600 hover:underline font-semibold">professional junk removal</Link> saves you the trip entirely.
                         </p>
                       </div>
                     </div>
@@ -1143,7 +1143,7 @@ export default function LaMesaDumpGuide() {
                         <p className="text-gray-600 text-sm">Complete guide to all San Diego area dumps, fees, and locations</p>
                       </Link>
 
-                      <Link href="/la-mesa-junk-removal" className="block p-5 bg-gray-50 border-2 border-gray-200 hover:border-blue-400 rounded-lg transition-colors">
+                      <Link href="/junk-removal-la-mesa" className="block p-5 bg-gray-50 border-2 border-gray-200 hover:border-blue-400 rounded-lg transition-colors">
                         <h4 className="font-bold text-lg mb-2 text-blue-600">Junk Removal La Mesa</h4>
                         <p className="text-gray-600 text-sm">Professional junk removal throughout La Mesa and East County</p>
                       </Link>

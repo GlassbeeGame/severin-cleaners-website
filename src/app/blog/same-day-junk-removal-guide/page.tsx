@@ -544,7 +544,7 @@ export default function SameDayJunkRemovalGuide() {
                         <li>• <Link href="/junk-removal-el-cajon" className="text-blue-600 hover:text-blue-700">El Cajon</Link></li>
                       </ul>
                       <ul className="space-y-1">
-                        <li>• <Link href="/la-mesa-junk-removal" className="text-blue-600 hover:text-blue-700">La Mesa</Link></li>
+                        <li>• <Link href="/junk-removal-la-mesa" className="text-blue-600 hover:text-blue-700">La Mesa</Link></li>
                         <li>• <Link href="/junk-removal-chula-vista" className="text-blue-600 hover:text-blue-700">Chula Vista</Link></li>
                         <li>• <Link href="/junk-removal-oceanside" className="text-blue-600 hover:text-blue-700">Oceanside</Link></li>
                         <li>• <Link href="/junk-removal-escondido" className="text-blue-600 hover:text-blue-700">Escondido</Link></li>

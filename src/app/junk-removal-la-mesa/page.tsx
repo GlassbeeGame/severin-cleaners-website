@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'La Mesa Junk Removal • Local HQ = 1-Hour Response | (619) 750-0114',
     description: 'La Mesa junk removal from our local headquarters. Mount Helix specialists, same-day service, professional hauling.',
-    url: 'https://www.severinhauling.com/la-mesa-junk-removal',
+    url: 'https://www.severinhauling.com/junk-removal-la-mesa',
     siteName: 'Severin Hauling',
     images: [{
       url: 'https://www.severinhauling.com/og-image.jpg',
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://www.severinhauling.com/la-mesa-junk-removal',
+    canonical: 'https://www.severinhauling.com/junk-removal-la-mesa',
   },
   robots: {
     index: true,
@@ -108,7 +108,7 @@ export default function LaMesaJunkRemovalPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://www.severinhauling.com" },
     { name: "Service Areas", url: "https://www.severinhauling.com/areas-we-serve" },
-    { name: "La Mesa Junk Removal", url: "https://www.severinhauling.com/la-mesa-junk-removal" },
+    { name: "La Mesa Junk Removal", url: "https://www.severinhauling.com/junk-removal-la-mesa" },
   ]);
 
   const faqSchema = generateFAQSchema(laMesaFAQs);
@@ -117,10 +117,10 @@ export default function LaMesaJunkRemovalPage() {
     "@type": "Service",
     "name": "La Mesa Junk Removal and Hauling",
     "description": "Professional junk removal La Mesa CA. Locally headquartered with 1-hour response time, transparent pricing, and eco-friendly disposal. Serving Mount Helix, Fletcher Hills, La Mesa Village, and all East County neighborhoods.",
-    "url": "https://www.severinhauling.com/la-mesa-junk-removal",
+    "url": "https://www.severinhauling.com/junk-removal-la-mesa",
     "serviceType": "Junk Removal and Hauling",
     "provider": {
-      "@id": "https://www.severinhauling.com/la-mesa-junk-removal#organization"
+      "@id": "https://www.severinhauling.com/junk-removal-la-mesa#organization"
     },
     "areaServed": [
       {
@@ -147,7 +147,7 @@ export default function LaMesaJunkRemovalPage() {
 
   const organizationSchema = {
     "@type": "Organization",
-    "@id": "https://www.severinhauling.com/la-mesa-junk-removal#organization",
+    "@id": "https://www.severinhauling.com/junk-removal-la-mesa#organization",
     "name": "Severin Hauling LLC",
     "legalName": "Severin Hauling LLC",
     "url": "https://www.severinhauling.com",
@@ -201,7 +201,7 @@ export default function LaMesaJunkRemovalPage() {
 
   const howToSchema = generateHowToSchema({
     cityName: "La Mesa",
-    pageUrl: "https://www.severinhauling.com/la-mesa-junk-removal"
+    pageUrl: "https://www.severinhauling.com/junk-removal-la-mesa"
   });
 
   const combinedSchema = {

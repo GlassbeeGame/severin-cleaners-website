@@ -67,7 +67,7 @@ export default function AreasWeServePage() {
     { name: "Hillcrest", link: "/junk-removal-hillcrest", description: "Urban village atmosphere" },
     { name: "Kearny Mesa", link: "/junk-removal-kearny-mesa", description: "Commercial hub with industrial parks" },
     { name: "La Jolla", link: "/junk-removal-la-jolla", description: "Upscale coastal community" },
-    { name: "La Mesa", link: "/la-mesa-junk-removal", description: "Village charm with modern amenities" },
+    { name: "La Mesa", link: "/junk-removal-la-mesa", description: "Village charm with modern amenities" },
     { name: "Lakeside", link: "/junk-removal-lakeside", description: "Rural feel, close to city" },
     { name: "Lemon Grove", link: "/junk-removal-lemon-grove", description: "Small town character" },
     { name: "Mira Mesa", link: "/junk-removal-mira-mesa", description: "Diverse neighborhood with tech corridor" },

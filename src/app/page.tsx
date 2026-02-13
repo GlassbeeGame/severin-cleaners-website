@@ -131,7 +131,7 @@ export default function Home() {
 
                 {/* La Mesa */}
                 <a
-                  href="/la-mesa-junk-removal"
+                  href="/junk-removal-la-mesa"
                   className="group relative bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6 hover:from-blue-100 hover:to-blue-200 transition-all duration-300 border-2 border-blue-300 hover:border-blue-500 hover:shadow-lg col-span-2 sm:col-span-1"
                 >
                   <div className="absolute top-2 right-2">

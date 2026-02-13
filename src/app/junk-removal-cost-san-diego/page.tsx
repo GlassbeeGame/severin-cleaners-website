@@ -683,7 +683,7 @@ export default function JunkRemovalCostPage() {
                 <a href="/junk-removal-el-cajon" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
                   <span className="text-sm font-semibold text-gray-700">El Cajon</span>
                 </a>
-                <a href="/la-mesa-junk-removal" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
+                <a href="/junk-removal-la-mesa" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
                   <span className="text-sm font-semibold text-gray-700">La Mesa</span>
                 </a>
                 <a href="/junk-removal-santee" className="bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">

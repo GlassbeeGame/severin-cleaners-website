@@ -547,7 +547,7 @@ export default function SanteeDumpGuide() {
   const nearbyLocations = [
     { name: "Junk Removal Santee", slug: "/junk-removal-santee" },
     { name: "Junk Removal El Cajon", slug: "/junk-removal-el-cajon" },
-    { name: "Junk Removal La Mesa", slug: "/la-mesa-junk-removal" },
+    { name: "Junk Removal La Mesa", slug: "/junk-removal-la-mesa" },
     { name: "Junk Removal Lakeside", slug: "/junk-removal-lakeside" },
   ];
 
@@ -1095,7 +1095,7 @@ export default function SanteeDumpGuide() {
                           <ul className="space-y-2 text-gray-700">
                             <li>• <Link href="/junk-removal-santee" className="text-blue-600 hover:text-blue-700">Santee</Link></li>
                             <li>• <Link href="/junk-removal-el-cajon" className="text-blue-600 hover:text-blue-700">El Cajon</Link></li>
-                            <li>• <Link href="/la-mesa-junk-removal" className="text-blue-600 hover:text-blue-700">La Mesa</Link></li>
+                            <li>• <Link href="/junk-removal-la-mesa" className="text-blue-600 hover:text-blue-700">La Mesa</Link></li>
                             <li>• <Link href="/junk-removal-lakeside" className="text-blue-600 hover:text-blue-700">Lakeside</Link></li>
                             <li>• Alpine & East County</li>
                           </ul>

@@ -486,7 +486,7 @@ export default function FurnitureDisposalPage() {
                           <h4 className="font-bold text-lg mb-4 text-blue-900">East County</h4>
                           <ul className="space-y-2 text-gray-700">
                             <li>• <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline font-semibold">El Cajon</a> - Valley communities</li>
-                            <li>• <a href="/la-mesa-junk-removal" className="text-blue-600 hover:underline font-semibold">La Mesa</a> - Village district</li>
+                            <li>• <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline font-semibold">La Mesa</a> - Village district</li>
                             <li>• <a href="/junk-removal-santee" className="text-blue-600 hover:underline font-semibold">Santee</a> - Family homes</li>
                             <li>• <a href="/junk-removal-lakeside" className="text-blue-600 hover:underline font-semibold">Lakeside</a> - Rural properties</li>
                             <li>• <a href="/junk-removal-lemon-grove" className="text-blue-600 hover:underline font-semibold">Lemon Grove</a> - Residential service</li>
