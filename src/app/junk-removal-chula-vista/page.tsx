@@ -70,7 +70,7 @@ export const metadata: Metadata = {
 const chulaVistaFAQs = [
   {
     question: "How much does junk removal Chula Vista cost?",
-    answer: "Our pricing is transparent and volume-based: small items $69, standard items $100, quarter-load $249, half-load $349, three-quarter load $429, and full-load $495. All prices include labor, hauling, and disposal with no surcharges for HOA communities. We provide free estimates and confirm final pricing on-site before starting work."
+    answer: "Our pricing is transparent and volume-based: small items $69, standard items $100, quarter-load $249, half-load $349, three-quarter load $429, and full-load $495. All prices include labor, hauling, and disposal with no surcharges for HOA communities. We provide free estimates and confirm final pricing on-site before starting work. Learn more about <a href='/blog/how-much-does-junk-removal-cost-san-diego' className='text-blue-600 hover:underline'>junk removal pricing in San Diego</a>."
   },
   {
     question: "Do you offer bilingual junk removal service in Chula Vista?",
@@ -78,7 +78,7 @@ const chulaVistaFAQs = [
   },
   {
     question: "Can you provide same-day junk removal in Eastlake or Otay Ranch?",
-    answer: "Yes, we offer same-day service throughout Eastlake, Otay Ranch, and all South Bay neighborhoods when you call before noon. Our team can often arrive within 2-4 hours. We coordinate around traffic patterns and HOA-approved service hours to ensure reliable arrival times."
+    answer: "Yes, we offer <a href='/same-day-junk-removal-san-diego' className='text-blue-600 hover:underline'>same-day service</a> throughout Eastlake, Otay Ranch, and all South Bay neighborhoods when you call before noon. Our team can often arrive within 2-4 hours. We coordinate around traffic patterns and HOA-approved service hours to ensure reliable arrival times. Learn more about <a href='/blog/same-day-junk-removal-guide' className='text-blue-600 hover:underline'>securing same-day pickup</a>."
   },
   {
     question: "Are your junk removal services HOA-compliant in Chula Vista?",
@@ -94,7 +94,7 @@ const chulaVistaFAQs = [
   },
   {
     question: "Can you remove furniture and appliances in Chula Vista?",
-    answer: "Yes, we handle all furniture (sofas, dining sets, mattresses, bedroom sets) and appliances (refrigerators, washers, dryers) with proper refrigerant handling. We specialize in large family home and multi-generational property cleanouts. Furniture in good condition is donated to South Bay charities. Appliances go to certified recycling facilities."
+    answer: "Yes, we handle all <a href='/furniture-disposal-san-diego' className='text-blue-600 hover:underline'>furniture</a> (sofas, dining sets, mattresses, bedroom sets) and <a href='/appliance-removal-san-diego' className='text-blue-600 hover:underline'>appliances</a> (refrigerators, washers, dryers) with proper refrigerant handling. We specialize in large family home and multi-generational property cleanouts. Furniture in good condition is donated to South Bay charities. Appliances go to certified recycling facilities."
   },
   {
     question: "What payment methods do you accept in Chula Vista?",
@@ -273,25 +273,26 @@ export default function JunkRemovalChulaVistaPage() {
                       Professional Junk Removal Chula Vista – South Bay's Most Trusted Service
                     </h2>
 
-                    {/* Chula Vista Junk Removal Image - Integrated */}
-                    <div className="float-right ml-6 mb-6 w-80 hidden md:block">
+                    {/* Chula Vista Junk Removal Image - Mobile Responsive */}
+                    <div className="mb-6 md:float-right md:ml-6 w-full md:w-80">
                       <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-md">
                         <Image
                           src="/optimized/outdoorfurniture.jpg"
-                          alt="Junk removal Chula Vista - professional outdoor furniture and patio disposal service"
+                          alt="junk removal Chula Vista - outdoor furniture disposal in 91910, 91911, 91913"
                           fill
                           className="object-cover"
-                          sizes="320px"
+                          sizes="(max-width: 768px) 100vw, 320px"
+                          loading="lazy"
                         />
                       </div>
                     </div>
 
                     <p className="text-lg mb-6 text-gray-700">
-                      Looking for junk removal Chula Vista residents trust? We serve San Diego County's second-largest city from our La Mesa headquarters, specializing in HOA-compliant service for Eastlake and Otay Ranch, bilingual coordination (60% of residents speak Spanish at home), and multi-generational home cleanouts. Our team navigates master-planned community requirements, border region logistics, and South Bay traffic patterns. From bayfront properties to eastern hillside estates, we provide same-day service with transparent pricing and cultural awareness. Call (619) 750-0114 for professional junk hauling throughout South Bay.
+                      Looking for junk removal Chula Vista residents trust in 2026? <a href="/" className="text-blue-600 hover:underline font-medium">Severin Hauling</a> serves San Diego County's second-largest city across the 91910, 91911, and 91913 zip codes, specializing in HOA-compliant service for Eastlake and Otay Ranch master-planned communities, bilingual coordination (over 60% of residents speak Spanish at home), and multi-generational home cleanouts. Our team navigates Olympic Parkway traffic patterns, Third Avenue corridor properties, and eastern hillside estates along Proctor Valley Road. From bayfront homes near the Chula Vista Marina to Eastlake Woods hilltop properties, we provide <a href="/blog/same-day-junk-removal-guide" className="text-blue-600 hover:underline">same-day service</a> with transparent pricing and cultural awareness. We also serve nearby <a href="/junk-removal-spring-valley" className="text-blue-600 hover:underline">Spring Valley</a>, <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, and <a href="/junk-removal-lemon-grove" className="text-blue-600 hover:underline">Lemon Grove</a>.
                     </p>
 
                     {/* Neighborhoods Served */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Chula Vista Neighborhoods We Serve</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Chula Vista Neighborhoods We Serve (91910, 91911, 91913)</h3>
                     <ul className="list-disc pl-6 mb-6 text-gray-700 columns-2">
                       <li>Eastlake & Eastlake Woods</li>
                       <li>Otay Ranch</li>
@@ -304,7 +305,7 @@ export default function JunkRemovalChulaVistaPage() {
                     </ul>
 
                     {/* Local Landmarks */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Major Landmarks</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Major Landmarks & Traffic Corridors</h3>
                     <ul className="list-disc pl-6 mb-6 text-gray-700 columns-2">
                       <li>Chula Vista Marina</li>
                       <li>Olympic Training Center</li>
@@ -312,44 +313,57 @@ export default function JunkRemovalChulaVistaPage() {
                       <li>Third Avenue Village</li>
                       <li>Otay Ranch Town Center</li>
                       <li>Southwestern College</li>
+                      <li>Olympic Parkway</li>
+                      <li>Proctor Valley Road</li>
+                      <li>Heritage Road</li>
+                      <li>Telegraph Canyon Road</li>
                     </ul>
 
                     {/* Traffic & Timing */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Traffic & Service Timing</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">South Bay Traffic & Scheduling Considerations</h3>
                     <p className="text-gray-700 mb-6">
-                      Commute hours (7-9 AM, 4-6 PM) bring heavy Olympic Parkway and I-805 congestion—we recommend mid-morning service windows. Chula Vista's location 7 miles from the Tijuana border creates weekend traffic patterns on Otay Mesa Road and Heritage Road, especially Saturday-Sunday when border crossing wait times increase. We build buffer time for eastern neighborhoods and Millenia properties during peak periods. HOA communities often restrict service hours (typically 8 AM-6 PM weekdays)—we confirm rules before scheduling.
+                      Commute hours (7-9 AM, 4-6 PM) bring heavy Olympic Parkway and I-805 congestion—we recommend mid-morning (10 AM-2 PM) service windows for faster arrival. Chula Vista's location 7 miles from the Tijuana border creates weekend traffic patterns on Otay Mesa Road and Heritage Road, especially Saturday-Sunday (10 AM-4 PM) when border crossing wait times increase. We build buffer time for eastern neighborhoods like Eastlake Woods and Millenia properties during peak periods. HOA communities often restrict service hours (typically 8 AM-6 PM weekdays)—we confirm rules before scheduling. Learn more about <a href="/blog/same-day-junk-removal-guide" className="text-blue-600 hover:underline">planning your junk removal pickup</a>.
                     </p>
 
                     {/* Weather */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Weather Considerations</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">South Bay Weather & Service Planning</h3>
                     <p className="text-gray-700 mb-6">
-                      Summer temperatures exceed 85°F inland—we schedule early morning starts during heat waves. Winter rain (December-February) requires protective floor coverings for newer homes.
+                      Summer temperatures (June-September) exceed 85°F inland—we schedule early morning starts (6-10 AM) during heat waves for crew safety. Winter rain (December-February) requires protective floor coverings for newer Eastlake and Otay Ranch homes with premium flooring.
                     </p>
 
                     {/* What We Remove */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Services We Provide</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">What We Haul From Chula Vista Properties</h3>
                     <p className="text-gray-700 mb-4">
-                      Our junk removal Chula Vista team handles <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture removal</a> (sofas, sectionals, dining sets, mattresses, bedroom sets), <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliances</a> (refrigerators, washers, dryers), patio furniture, <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">hot tubs</a>, yard equipment, <a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">garage cleanouts</a>, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, and <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial property</a> clearing. We specialize in large family home cleanouts and multi-generational properties common throughout South Bay. <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">Same-day junk removal Chula Vista</a> service available when you call before noon.
+                      Our junk removal Chula Vista team handles everything from single items to complete <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>:
                     </p>
+                    <ul className="list-disc pl-6 mb-6 text-gray-700">
+                      <li><a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">Furniture removal</a> (sofas, sectionals, dining sets, <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">mattresses</a>, bedroom sets)</li>
+                      <li><a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Appliances</a> (refrigerators, washers, dryers with Freon handling)</li>
+                      <li>Patio furniture and <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">hot tubs</a></li>
+                      <li>Yard equipment and storage shed contents</li>
+                      <li><a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">Garage cleanouts</a> and workshop equipment</li>
+                      <li><a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate cleanouts</a> and family property transitions</li>
+                      <li><a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">Commercial property</a> clearing</li>
+                    </ul>
 
                     {/* Multi-Generational Home Cleanouts */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Multi-Generational Home Specialists</h3>
                     <p className="text-gray-700 mb-6">
-                      Over 25% of Chula Vista homes house three or more generations—the highest concentration in San Diego County. Our team specializes in these large family properties with patient sorting, bilingual coordination (English/Spanish), and respectful handling of cultural items and family heirlooms. We never rush families through decisions, providing separate staging areas for keep/donate/dispose items and flexible scheduling around multiple family members' availability.
+                      Over 25% of Chula Vista homes house three or more generations—the highest concentration in San Diego County. Our team specializes in these large family properties with patient sorting, bilingual coordination (English/Spanish), and respectful handling of cultural items and family heirlooms. We never rush families through decisions, providing separate staging areas for keep/donate/dispose items and flexible scheduling around multiple family members' availability. This compassionate approach to <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a> sets us apart in South Bay.
                     </p>
 
                     {/* HOA-Compliant Service Details */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">HOA-Compliant Junk Removal for Master-Planned Communities</h3>
                     <p className="text-gray-700 mb-6">
-                      Over 50% of Chula Vista homes are HOA-governed, including 30,000+ properties in Eastlake and 20,000+ in Otay Ranch. Our junk removal Chula Vista service specializes in compliance: uniformed crews in marked trucks, scheduling during approved service hours (typically 8 AM-6 PM weekdays), parking only in designated areas, insurance certificates upon request, and elevator coordination for townhomes. Our established reputation in Rolling Hills Ranch, Rancho del Rey, and Sunbow communities eliminates violation risk.
+                      Over 50% of Chula Vista homes are HOA-governed, including 30,000+ properties in Eastlake and 20,000+ in Otay Ranch. Our junk removal Chula Vista service specializes in compliance: uniformed crews in marked trucks, scheduling during approved service hours (typically 8 AM-6 PM weekdays), parking only in designated areas, insurance certificates upon request, and elevator coordination for townhomes along Eastlake Parkway. Our established reputation in Rolling Hills Ranch, Rancho del Rey, and Sunbow communities eliminates violation risk. See our <a href="/junk-removal-cost-san-diego" className="text-blue-600 hover:underline">complete pricing guide</a> for HOA-compliant service rates.
                     </p>
 
                     {/* Why Choose Us */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Hauling for Chula Vista Junk Removal</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Hauling for Chula Vista</h3>
                     <ul className="space-y-3 mb-6">
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
-                        <span><strong>South Bay Community Expertise:</strong> We navigate Chula Vista's diverse neighborhoods, HOA requirements, and large family properties with ease. Our crews have completed thousands of jobs throughout the area and understand the specific challenges of Eastlake master-planned communities, Otay Ranch townhomes, and large multi-generational homes common throughout South Bay. We coordinate with HOAs, work efficiently in large properties, and respect community standards.</span>
+                        <span><strong>South Bay Community Expertise:</strong> We navigate Chula Vista's diverse neighborhoods, HOA requirements along Olympic Parkway, and large family properties throughout Third Avenue corridor. Our crews have completed thousands of jobs and understand Eastlake master-planned communities, Otay Ranch townhomes, and multi-generational homes common throughout South Bay. We coordinate with HOAs, work efficiently in large properties, and respect community standards.</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
@@ -357,11 +371,11 @@ export default function JunkRemovalChulaVistaPage() {
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
-                        <span><strong>Same-Day Service Available:</strong> Call before noon for same-day junk removal Chula Vista service throughout South Bay. Our dispatch team actively monitors traffic and schedules arrival windows that work around border congestion, commuter patterns, and your schedule, ensuring reliable service even during busy periods.</span>
+                        <span><strong>Same-Day Service Available:</strong> Call before noon for same-day junk removal Chula Vista service throughout South Bay. Our dispatch team actively monitors traffic on I-805 and Olympic Parkway, scheduling arrival windows that work around border congestion, commuter patterns, and your schedule.</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
-                        <span><strong>Transparent Pricing:</strong> No hidden fees, no surprises. Upfront quotes based on volume with all labor, hauling, and disposal included. Large family home service and multi-generational property cleanouts don't change our rates—you pay for volume removed, not property size. Most Chula Vista jobs range from half-truck to full-truck loads with clear pricing tiers communicated before work begins.</span>
+                        <span><strong>Transparent Pricing:</strong> No hidden fees, no surprises. Upfront quotes based on volume with all labor, hauling, and disposal included. Large family home service and multi-generational property cleanouts don't change our rates—you pay for volume removed, not property size. See our <a href="/junk-removal-cost-san-diego" className="text-blue-600 hover:underline">complete pricing guide</a>.</span>
                       </li>
                     </ul>
 
@@ -384,7 +398,7 @@ export default function JunkRemovalChulaVistaPage() {
         {/* Pricing Section */}
         <LocationPricingSection
           locationName="Chula Vista"
-          contextParagraph="Large family home cleanouts and estate projects throughout Chula Vista—from Eastlake to Otay Ranch—all use the same transparent pricing. No hidden fees, bilingual service available."
+          contextParagraph="Large family home cleanouts and estate projects throughout Chula Vista—from Eastlake to Otay Ranch—all use the same transparent pricing. No hidden fees for HOA communities, bilingual service available."
         />
 
         {/* Trust Signals Section */}
