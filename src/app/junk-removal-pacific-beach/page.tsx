@@ -64,7 +64,7 @@ export const metadata: Metadata = {
 const pacificBeachFAQs = [
   {
     question: "How much does junk removal Pacific Beach cost?",
-    answer: "Our pricing is transparent and volume-based: small items $69, standard items $100, quarter-load $249, half-load $349, three-quarter load $429, and full-load $495. All prices include labor, hauling, and disposal with no surcharges for beach access or narrow alleys. We provide free estimates and confirm final pricing on-site before starting work."
+    answer: "Our pricing is transparent and volume-based: small items $69, standard items $100, quarter-load $249, half-load $349, three-quarter load $429, and full-load $495. All prices include labor, hauling, and disposal with no surcharges for beach access or narrow alleys. We provide free estimates and confirm final pricing on-site before starting work. Learn more about <a href='/blog/how-much-does-junk-removal-cost-san-diego' className='text-blue-600 hover:underline'>junk removal pricing in San Diego</a>."
   },
   {
     question: "Do you provide same-day service?",
@@ -230,20 +230,21 @@ export default function JunkRemovalPacificBeachPage() {
                       <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-md">
                         <Image
                           src="/optimized/junkintrashbags.jpg"
-                          alt="Junk removal Pacific Beach - beach house and property cleanout service"
+                          alt="junk removal Pacific Beach - beach house cleanout service in 92109"
                           fill
                           className="object-cover"
                           sizes="320px"
+                          loading="lazy"
                         />
                       </div>
                     </div>
 
                     <p className="text-lg mb-6 text-gray-700">
-                      Looking for reliable junk removal Pacific Beach residents trust? We serve the 92109 area from Crystal Pier boardwalk apartments to Crown Point bay-front homes. Our team specializes in beach house cleanouts, student housing turnovers, and properties with narrow boardwalk access. We navigate Tuesday Farmers Market closures, summer beach traffic, and salt air-damaged furniture removal unique to coastal properties. Whether you're clearing a vacation rental, handling semester move-outs, or need <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a>, we bring the specialized beach community experience your property demands.
+                      Looking for reliable junk removal Pacific Beach residents trust in 2026? <a href="/" className="text-blue-600 hover:underline font-medium">Severin Hauling</a> serves the 92109 area from Crystal Pier boardwalk apartments to Crown Point bay-front homes. Our team specializes in beach house cleanouts, student housing turnovers near SDSU Mission Bay, and properties with narrow Ocean Front Walk access. We navigate Tuesday Farmers Market closures on Bayard Street, summer beach traffic along Mission Boulevard, and salt air-damaged furniture removal unique to coastal properties. Whether you're clearing a vacation rental between bookings, handling semester move-outs on Fanuel and Lamont Streets, or need <a href="/blog/same-day-junk-removal-guide" className="text-blue-600 hover:underline">same-day emergency pickup</a>, we bring the specialized beach community experience your property demands.
                     </p>
 
                     {/* Neighborhoods Served */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Neighborhoods We Serve</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">92109 Neighborhoods We Serve</h3>
                     <div className="grid md:grid-cols-2 gap-2 mb-6">
                       <ul className="space-y-1">
                         <li>• North Pacific Beach</li>
@@ -260,7 +261,7 @@ export default function JunkRemovalPacificBeachPage() {
                     </div>
 
                     {/* Local Landmarks */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Major Landmarks</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Major Landmarks & Cross Streets</h3>
                     <div className="grid md:grid-cols-2 gap-2 mb-6">
                       <ul className="space-y-1">
                         <li>• Crystal Pier & Hotel</li>
@@ -279,21 +280,21 @@ export default function JunkRemovalPacificBeachPage() {
                     </div>
 
                     {/* Traffic & Timing */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Beach Traffic & Timing Considerations</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Beach Traffic & Scheduling Considerations</h3>
                     <p className="text-gray-700 mb-6">
-                      Summer weekends bring heavy beach traffic 10 AM-6 PM on Mission Boulevard and Garnet Avenue—we offer early morning (6-9 AM) or evening service to avoid congestion. Tuesday Farmers Market closes Bayard Street 12-8 PM weekly, requiring alternative routing. Student move-outs in May and August create surge demand on Lamont and Fanuel Streets near campus. We coordinate scheduling around these unique beach community patterns for reliable service.
+                      Summer weekends bring heavy beach traffic 10 AM-6 PM on Mission Boulevard and Garnet Avenue—we offer early morning (6-9 AM) or evening slots to avoid congestion. Tuesday Farmers Market closes Bayard Street between Garnet and Grand 12-8 PM weekly, requiring alternative routing. Student move-outs in May and August create surge demand on Lamont and Fanuel Streets near the SDSU Mission Bay campus. We coordinate scheduling around these unique Pacific Beach patterns for reliable, on-time service. Learn more about <a href="/blog/same-day-junk-removal-guide" className="text-blue-600 hover:underline">securing same-day pickup in San Diego</a>.
                     </p>
 
                     {/* Weather */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Coastal Weather Considerations</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Coastal Weather & Salt Air Damage</h3>
                     <p className="text-gray-700 mb-6">
-                      Coastal marine layer deposits salt moisture on outdoor items, accelerating corrosion on beach furniture, bicycles, and metal equipment. Many residents schedule regular removal to clear salt-damaged items before deterioration spreads. Winter storms occasionally cause street flooding near Crown Point's bayside areas, requiring flexible scheduling during heavy rainfall.
+                      Coastal marine layer deposits salt moisture on outdoor items year-round, accelerating corrosion on beach furniture, bicycles, grills, and metal equipment. Many Pacific Beach residents schedule regular removal to clear salt-damaged items before deterioration spreads. Winter storms (typically December-February) occasionally cause street flooding near Crown Point's bayside areas along Moorland Drive and Lamont Street, requiring flexible scheduling during heavy rainfall.
                     </p>
 
                     {/* What We Remove */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Services We Provide</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">What We Haul From Pacific Beach Properties</h3>
                     <p className="text-gray-700 mb-4">
-                      We handle everything from single items to complete property cleanouts:
+                      We handle everything from single items to complete <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
@@ -309,29 +310,29 @@ export default function JunkRemovalPacificBeachPage() {
                         <ul className="space-y-1 text-gray-700">
                           <li>• Surfboards, paddleboards, beach cruisers</li>
                           <li>• <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">Hot tubs</a> and patio furniture</li>
-                          <li>• <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate</a> & <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">construction debris</a></li>
+                          <li>• <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">Construction debris</a> from beach house remodels</li>
                         </ul>
                       </div>
                     </div>
 
                     {/* Why Choose Us */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Hauling</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Hauling for Pacific Beach</h3>
                     <ul className="space-y-3 mb-6">
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
-                        <span><strong>Beach Community Specialists:</strong> We navigate narrow boardwalk alleys, Crystal Pier access, Tuesday Farmers Market closures, and summer beach traffic throughout the 92109 area.</span>
+                        <span><strong>Beach Community Specialists:</strong> We navigate narrow boardwalk alleys off Ocean Front Walk, Crystal Pier access challenges, Tuesday Farmers Market closures, and summer beach traffic throughout the 92109 area. We also serve nearby <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> and <a href="/junk-removal-point-loma" className="text-blue-600 hover:underline">Point Loma</a> coastal communities.</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
-                        <span><strong>Same-Day Service:</strong> Call before noon for same-day availability. We schedule around beach congestion and student move-out periods.</span>
+                        <span><strong>Same-Day Service:</strong> Call before noon for same-day availability. We schedule around beach congestion and student move-out periods for reliable arrival times.</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
-                        <span><strong>Transparent Pricing:</strong> Volume-based rates with no hidden fees. Beach traffic doesn't change our pricing.</span>
+                        <span><strong>Transparent Pricing:</strong> Volume-based rates with no hidden fees. Beach traffic, narrow alleys, and limited parking don't change our pricing. See our <a href="/junk-removal-cost-san-diego" className="text-blue-600 hover:underline">complete pricing guide</a>.</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
-                        <span><strong>Licensed & Insured:</strong> Full coverage for coastal property access, including boardwalk apartments and bay houses.</span>
+                        <span><strong>Licensed & Insured:</strong> Full coverage for coastal property access, including boardwalk apartments and bay houses. Certificates of insurance available for property managers and vacation rental owners.</span>
                       </li>
                     </ul>
 
@@ -354,7 +355,7 @@ export default function JunkRemovalPacificBeachPage() {
         {/* Pricing Section */}
         <LocationPricingSection
           locationName="Pacific Beach"
-          contextParagraph="Beach house cleanouts throughout the 92109 area—from Crystal Pier to Crown Point—all use the same transparent pricing. No hidden fees. Call for your free estimate."
+          contextParagraph="Beach house cleanouts throughout the 92109 area—from Crystal Pier to Crown Point—all use the same transparent pricing. No hidden fees for beach access or limited parking. Call for your free estimate."
         />
 
         {/* Trust Signals Section */}
