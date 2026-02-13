@@ -226,14 +226,14 @@ export default function JunkRemovalPacificBeachPage() {
                     </h2>
 
                     {/* Pacific Beach Junk Removal Image - Integrated */}
-                    <div className="float-right ml-6 mb-6 w-80 hidden md:block">
+                    <div className="mb-6 md:float-right md:ml-6 w-full md:w-80">
                       <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-md">
                         <Image
                           src="/optimized/junkintrashbags.jpg"
                           alt="junk removal Pacific Beach - beach house cleanout service in 92109"
                           fill
                           className="object-cover"
-                          sizes="320px"
+                          sizes="(max-width: 768px) 100vw, 320px"
                           loading="lazy"
                         />
                       </div>

@@ -275,14 +275,14 @@ export default function JunkRemovalElCajonPage() {
                     </h2>
 
                     {/* El Cajon Junk Removal Image - Integrated */}
-                    <div className="float-right ml-6 mb-6 w-80 hidden md:block">
+                    <div className="mb-6 md:float-right md:ml-6 w-full md:w-80">
                       <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow-md">
                         <Image
                           src="/optimized/junkchairs.jpg"
                           alt="junk removal El Cajon CA - furniture disposal service in 92019, 92020, 92021"
                           fill
                           className="object-cover"
-                          sizes="320px"
+                          sizes="(max-width: 768px) 100vw, 320px"
                           loading="lazy"
                         />
                       </div>
