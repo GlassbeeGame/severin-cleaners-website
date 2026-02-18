@@ -287,8 +287,14 @@ export default function JunkRemovalChulaVistaPage() {
                       </div>
                     </div>
 
+                    <p className="text-lg mb-4 text-gray-700">
+                      Need junk removal in Chula Vista? <a href="/" className="text-blue-600 hover:underline font-medium">Severin Hauling</a> serves the entire 91910, 91911, and 91913 area—from bayfront homes near the Chula Vista Marina to Eastlake Woods hilltop estates. Booking junk removal is easy and stress free: call, get a free no-obligation estimate, and we handle the rest.
+                    </p>
+                    <p className="text-lg mb-4 text-gray-700">
+                      We specialize in what South Bay properties actually need. HOA-compliant service for Eastlake and Otay Ranch master-planned communities. Bilingual coordination—over 60% of residents speak Spanish at home, and we communicate comfortably in both languages. Patient multi-generational home cleanouts for large family properties along Third Avenue and Olympic Parkway.
+                    </p>
                     <p className="text-lg mb-6 text-gray-700">
-                      Looking for junk removal Chula Vista residents trust in 2026? <a href="/" className="text-blue-600 hover:underline font-medium">Severin Hauling</a> serves San Diego County's second-largest city across the 91910, 91911, and 91913 zip codes, specializing in HOA-compliant service for Eastlake and Otay Ranch master-planned communities, bilingual coordination (over 60% of residents speak Spanish at home), and multi-generational home cleanouts. Our team navigates Olympic Parkway traffic patterns, Third Avenue corridor properties, and eastern hillside estates along Proctor Valley Road. From bayfront homes near the Chula Vista Marina to Eastlake Woods hilltop properties, we provide <a href="/blog/same-day-junk-removal-guide" className="text-blue-600 hover:underline">same-day service</a> with transparent pricing and cultural awareness. We also serve nearby <a href="/junk-removal-spring-valley" className="text-blue-600 hover:underline">Spring Valley</a>, <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, and <a href="/junk-removal-lemon-grove" className="text-blue-600 hover:underline">Lemon Grove</a>.
+                      Whether it's a single couch or a full estate cleanout, we haul everything away and leave your space clutter free. We also serve nearby <a href="/junk-removal-spring-valley" className="text-blue-600 hover:underline">Spring Valley</a>, <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, and <a href="/junk-removal-lemon-grove" className="text-blue-600 hover:underline">Lemon Grove</a>.
                     </p>
 
                     {/* Neighborhoods Served */}
@@ -321,8 +327,11 @@ export default function JunkRemovalChulaVistaPage() {
 
                     {/* Traffic & Timing */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">South Bay Traffic & Scheduling Considerations</h3>
+                    <p className="text-gray-700 mb-4">
+                      Commute hours (7–9 AM, 4–6 PM) mean heavy traffic on Olympic Parkway and I-805. We recommend mid-morning windows (10 AM–2 PM) for faster arrival. Weekend border traffic on Otay Mesa Road and Heritage Road also runs heavy Saturday–Sunday from 10 AM–4 PM—we build in extra buffer time for eastern neighborhoods like Eastlake Woods and Millenia.
+                    </p>
                     <p className="text-gray-700 mb-6">
-                      Commute hours (7-9 AM, 4-6 PM) bring heavy Olympic Parkway and I-805 congestion—we recommend mid-morning (10 AM-2 PM) service windows for faster arrival. Chula Vista's location 7 miles from the Tijuana border creates weekend traffic patterns on Otay Mesa Road and Heritage Road, especially Saturday-Sunday (10 AM-4 PM) when border crossing wait times increase. We build buffer time for eastern neighborhoods like Eastlake Woods and Millenia properties during peak periods. HOA communities often restrict service hours (typically 8 AM-6 PM weekdays)—we confirm rules before scheduling. Learn more about <a href="/blog/same-day-junk-removal-guide" className="text-blue-600 hover:underline">planning your junk removal pickup</a>.
+                      HOA communities typically restrict service to weekday hours (8 AM–6 PM). We confirm the rules before scheduling so there are no surprises. <a href="/blog/same-day-junk-removal-guide" className="text-blue-600 hover:underline">Learn more about planning your pickup.</a>
                     </p>
 
                     {/* Weather */}
@@ -348,8 +357,11 @@ export default function JunkRemovalChulaVistaPage() {
 
                     {/* Multi-Generational Home Cleanouts */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Multi-Generational Home Specialists</h3>
+                    <p className="text-gray-700 mb-4">
+                      Over 25% of Chula Vista homes house three or more generations—the highest concentration in San Diego County. Our team handles these large family properties with patient sorting, bilingual coordination (English/Spanish), and respectful handling of cultural items and family heirlooms.
+                    </p>
                     <p className="text-gray-700 mb-6">
-                      Over 25% of Chula Vista homes house three or more generations—the highest concentration in San Diego County. Our team specializes in these large family properties with patient sorting, bilingual coordination (English/Spanish), and respectful handling of cultural items and family heirlooms. We never rush families through decisions, providing separate staging areas for keep/donate/dispose items and flexible scheduling around multiple family members' availability. This compassionate approach to <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a> sets us apart in South Bay.
+                      We never rush families through decisions. We set up separate staging areas for keep/donate/dispose, work around multiple family members' schedules, and let you move at your own pace. This is how families reclaim their space without added stress. Our compassionate approach to <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a> sets us apart in South Bay.
                     </p>
 
                     {/* HOA-Compliant Service Details */}
@@ -398,7 +410,7 @@ export default function JunkRemovalChulaVistaPage() {
         {/* Pricing Section */}
         <LocationPricingSection
           locationName="Chula Vista"
-          contextParagraph="Large family home cleanouts and estate projects throughout Chula Vista—from Eastlake to Otay Ranch—all use the same transparent pricing. No hidden fees for HOA communities, bilingual service available."
+          contextParagraph="Large family home cleanouts and estate projects throughout Chula Vista—from Eastlake to Otay Ranch—all use the same transparent pricing. No hidden fees for HOA communities. Call for a free, no-obligation estimate."
         />
 
         {/* Trust Signals Section */}
