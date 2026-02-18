@@ -288,8 +288,11 @@ export default function LaMesaJunkRemovalPage() {
                       </div>
                     </div>
 
+                    <p className="text-lg mb-4 text-gray-700">
+                      Need junk removal La Mesa can count on? Severin Hauling operates from 8900 Grossmont Blvd—not driving in from North County or Carlsbad. Booking junk removal with us is easy and stress free: call, get a free estimate, and we're there.
+                    </p>
                     <p className="text-lg mb-6 text-gray-700">
-                      Need junk removal La Mesa can count on? Severin Hauling operates from 8900 Grossmont Blvd—we're not driving in from North County or Carlsbad. Our local headquarters means 1-2 hour response times throughout Mount Helix hillside estates, Fletcher Hills family homes, La Mesa Village downtown properties, and every neighborhood across 91941, 91942, and 91944 zip codes.
+                      Our local headquarters means 1-2 hour response times throughout Mount Helix hillside estates, Fletcher Hills family homes, La Mesa Village downtown properties, and every neighborhood in the 91941, 91942, and 91944 zip codes.
                     </p>
 
                     <p className="text-lg mb-6 text-gray-700">
@@ -425,7 +428,7 @@ export default function LaMesaJunkRemovalPage() {
                         <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">1</div>
                         <div>
                           <h4 className="font-bold text-gray-900 mb-1">Call or Book Online</h4>
-                          <p className="text-gray-700">Contact us at (619) 750-0114 or through our website. Describe what you need removed and we'll provide upfront pricing—no surprises.</p>
+                          <p className="text-gray-700">Contact us at (619) 750-0114 or through our website. Describe what you need removed and we'll give you a free, no-obligation estimate—no surprises.</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-4">
@@ -439,7 +442,7 @@ export default function LaMesaJunkRemovalPage() {
                         <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">3</div>
                         <div>
                           <h4 className="font-bold text-gray-900 mb-1">We Haul Everything Away</h4>
-                          <p className="text-gray-700">We load, haul, and dispose of everything responsibly. Donations go to East County charities, recyclables to proper facilities. Your space is clean and you're done.</p>
+                          <p className="text-gray-700">We load, haul, and dispose of everything responsibly. Donations go to East County charities, recyclables to certified facilities. Your space is left clutter free—you reclaim your space without lifting a finger.</p>
                         </div>
                       </div>
                     </div>
@@ -447,7 +450,7 @@ export default function LaMesaJunkRemovalPage() {
                     {/* Local Knowledge */}
                     <h3 className="text-2xl font-bold mt-10 mb-4">Why Local Headquarters Matters</h3>
                     <p className="text-gray-700 mb-4">
-                      Many junk removal companies advertise "serving La Mesa" while operating from North County or even Orange County. Here's why our 8900 Grossmont Blvd headquarters makes a measurable difference:
+                      A lot of junk removal companies claim to serve La Mesa while operating from North County or Orange County. Our 8900 Grossmont Blvd headquarters is the real thing. Here's what that means for you:
                     </p>
                     <ul className="space-y-3 mb-8">
                       <li className="flex items-start">
@@ -487,7 +490,7 @@ export default function LaMesaJunkRemovalPage() {
         {/* Pricing Section */}
         <LocationPricingSection
           locationName="La Mesa"
-          contextParagraph="From single-item pickup to full estate cleanouts across Mount Helix, Fletcher Hills, and La Mesa Village—transparent pricing with no hidden fees."
+          contextParagraph="From single-item pickup to full estate cleanouts across Mount Helix, Fletcher Hills, and La Mesa Village—transparent pricing with no hidden fees. Call for a free, no-obligation estimate."
         />
 
         {/* Trust Signals Section */}
