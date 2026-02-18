@@ -239,8 +239,14 @@ export default function JunkRemovalPacificBeachPage() {
                       </div>
                     </div>
 
+                    <p className="text-lg mb-4 text-gray-700">
+                      Need junk removal in Pacific Beach? <a href="/" className="text-blue-600 hover:underline font-medium">Severin Hauling</a> serves the entire 92109 area—from Crystal Pier boardwalk apartments to Crown Point bay-front homes. We do all the heavy lifting so you can reclaim your space without the stress.
+                    </p>
+                    <p className="text-lg mb-4 text-gray-700">
+                      Our crew knows this neighborhood. We handle beach house cleanouts, vacation rental turnovers, and student housing move-outs on Fanuel and Lamont Streets. Narrow Ocean Front Walk alleys, Tuesday Farmers Market closures, summer beach traffic—we work around all of it.
+                    </p>
                     <p className="text-lg mb-6 text-gray-700">
-                      Looking for reliable junk removal Pacific Beach residents trust in 2026? <a href="/" className="text-blue-600 hover:underline font-medium">Severin Hauling</a> serves the 92109 area from Crystal Pier boardwalk apartments to Crown Point bay-front homes. Our team specializes in beach house cleanouts, student housing turnovers near SDSU Mission Bay, and properties with narrow Ocean Front Walk access. We navigate Tuesday Farmers Market closures on Bayard Street, summer beach traffic along Mission Boulevard, and salt air-damaged furniture removal unique to coastal properties. Whether you're clearing a vacation rental between bookings, handling semester move-outs on Fanuel and Lamont Streets, or need <a href="/blog/same-day-junk-removal-guide" className="text-blue-600 hover:underline">same-day emergency pickup</a>, we bring the specialized beach community experience your property demands.
+                      Booking junk removal with us is simple: call, get a free no-obligation estimate, and we show up. Easy and stress free. Whether it's a single item or a full property cleanout, we haul everything away and leave your place clutter free. Need it fast? We offer <a href="/blog/same-day-junk-removal-guide" className="text-blue-600 hover:underline">same-day pickup</a> when you call before noon.
                     </p>
 
                     {/* Neighborhoods Served */}
@@ -281,14 +287,20 @@ export default function JunkRemovalPacificBeachPage() {
 
                     {/* Traffic & Timing */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Beach Traffic & Scheduling Considerations</h3>
+                    <p className="text-gray-700 mb-4">
+                      Summer weekends mean heavy traffic on Mission Boulevard and Garnet Avenue from 10 AM to 6 PM. We offer early morning (6–9 AM) or evening slots to stay on schedule.
+                    </p>
                     <p className="text-gray-700 mb-6">
-                      Summer weekends bring heavy beach traffic 10 AM-6 PM on Mission Boulevard and Garnet Avenue—we offer early morning (6-9 AM) or evening slots to avoid congestion. Tuesday Farmers Market closes Bayard Street between Garnet and Grand 12-8 PM weekly, requiring alternative routing. Student move-outs in May and August create surge demand on Lamont and Fanuel Streets near the SDSU Mission Bay campus. We coordinate scheduling around these unique Pacific Beach patterns for reliable, on-time service. Learn more about <a href="/blog/same-day-junk-removal-guide" className="text-blue-600 hover:underline">securing same-day pickup in San Diego</a>.
+                      Tuesday Farmers Market closes Bayard Street between Garnet and Grand from 12–8 PM weekly—we route around it automatically. Student move-outs in May and August book fast on Lamont and Fanuel Streets, so <a href="/blog/same-day-junk-removal-guide" className="text-blue-600 hover:underline">plan ahead during those weeks</a>.
                     </p>
 
                     {/* Weather */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Coastal Weather & Salt Air Damage</h3>
+                    <p className="text-gray-700 mb-4">
+                      The coastal marine layer deposits salt moisture on outdoor items year-round. Beach furniture, bikes, grills, and metal equipment corrode faster here than anywhere inland. Most PB residents haul damaged items before the rust spreads—not after.
+                    </p>
                     <p className="text-gray-700 mb-6">
-                      Coastal marine layer deposits salt moisture on outdoor items year-round, accelerating corrosion on beach furniture, bicycles, grills, and metal equipment. Many Pacific Beach residents schedule regular removal to clear salt-damaged items before deterioration spreads. Winter storms (typically December-February) occasionally cause street flooding near Crown Point's bayside areas along Moorland Drive and Lamont Street, requiring flexible scheduling during heavy rainfall.
+                      Winter storms (typically December–February) can cause street flooding near Crown Point's bayside along Moorland Drive and Lamont Street. We stay flexible and reschedule around heavy rain when needed.
                     </p>
 
                     {/* What We Remove */}
@@ -355,7 +367,7 @@ export default function JunkRemovalPacificBeachPage() {
         {/* Pricing Section */}
         <LocationPricingSection
           locationName="Pacific Beach"
-          contextParagraph="Beach house cleanouts throughout the 92109 area—from Crystal Pier to Crown Point—all use the same transparent pricing. No hidden fees for beach access or limited parking. Call for your free estimate."
+          contextParagraph="Beach house cleanouts throughout the 92109 area—from Crystal Pier to Crown Point—all use the same transparent pricing. No hidden fees for beach access or limited parking. Call for your free, no-obligation estimate."
         />
 
         {/* Trust Signals Section */}
