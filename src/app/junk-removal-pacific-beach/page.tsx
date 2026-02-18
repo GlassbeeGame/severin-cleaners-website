@@ -142,7 +142,7 @@ export default function JunkRemovalPacificBeachPage() {
     "knowsAbout": [
       "Beach House Property Access and Cleanouts",
       "Ocean Front Walk Boardwalk Alley Navigation",
-      "Vacation Rental and Short-Term Rental Turnovers",
+      "Vacation Rental Property Junk Removal",
       "Student Housing Move-Outs on Fanuel and Lamont Streets",
       "Salt Air Corrosion and Coastal Environment Item Removal",
       "Crown Point Bay-Front Property Access",
@@ -165,8 +165,8 @@ export default function JunkRemovalPacificBeachPage() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Vacation Rental Turnover Service",
-            "description": "Fast, same-day junk removal for Airbnb and VRBO properties throughout the 92109 area, coordinated around guest check-in and check-out schedules"
+            "name": "Vacation Rental Property Junk Removal",
+            "description": "Same-day junk removal for short-term rental properties throughout the 92109 area—removing left-behind furniture, appliances, and accumulated junk between tenants"
           }
         },
         {
@@ -398,9 +398,9 @@ export default function JunkRemovalPacificBeachPage() {
                     </p>
 
                     {/* Vacation Rental Use Case */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Vacation Rental &amp; Airbnb Turnover Cleanouts</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Junk Removal for Vacation Rental Properties</h3>
                     <p className="text-gray-700 mb-4">
-                      Pacific Beach is one of San Diego's most active short-term rental markets. When guests check out and leave behind furniture, appliances, or accumulated junk, turnaround time is everything. We offer priority same-day scheduling for vacation rental owners and property managers throughout the 92109 area—including Ocean Front Walk, Crown Point, and Mission Boulevard—so you're not losing rental income waiting on a crew. We coordinate directly with property managers and can work around guest check-in windows.
+                      Pacific Beach is one of San Diego's most active short-term rental markets. When tenants leave behind furniture, appliances, or accumulated junk, we haul it out fast. We offer same-day scheduling for vacation rental owners and property managers throughout the 92109 area—including Ocean Front Walk, Crown Point, and Mission Boulevard. Whether it's a single abandoned sofa or a full apartment's worth of items left behind, we remove it and dispose of everything responsibly.
                     </p>
 
                     {/* Student Housing Use Case */}
