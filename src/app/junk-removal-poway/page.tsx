@@ -245,8 +245,14 @@ export default function JunkRemovalPowayPage() {
                       </div>
                     </div>
 
+                    <p className="text-lg mb-4 text-gray-700">
+                      Need junk removal in Poway? <a href="/" className="text-blue-600 hover:underline font-medium">Severin Hauling</a> serves North County's "City in the Country" across the 92064 and 92074 zip codes. Booking junk removal is easy and stress free: call, get a free no-obligation estimate, and we show up ready for whatever your property needs.
+                    </p>
+                    <p className="text-lg mb-4 text-gray-700">
+                      We specialize in what Poway properties actually require. Multi-acre ranch estates along Espola Road and Garden Road. Long driveways and gated equestrian facilities in Stone Ridge and Bridlewood. <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate cleanouts</a> in Twin Peaks and family homes in 4S Ranch. We handle it all with the right trucks and crew size.
+                    </p>
                     <p className="text-lg mb-6 text-gray-700">
-                      Looking for reliable junk removal Poway CA residents trust in 2026? <a href="/" className="text-blue-600 hover:underline font-medium">Severin Hauling</a> specializes in North County's "City in the Country" across the 92064 and 92074 zip codes with expertise in multi-acre ranch properties, equestrian facilities along Garden Road and Espola Road, and large family estates throughout Pomerado Road. From barn cleanouts in Stone Ridge to <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a> in Twin Peaks, we handle long driveways, gated properties, and livestock coordination near Lake Poway and Blue Sky Ecological Reserve. Whether you're in 4S Ranch master-planned communities or rural properties near Iron Mountain, our team brings the specialized equipment and capacity your large property demands. We also serve nearby <a href="/junk-removal-escondido" className="text-blue-600 hover:underline">Escondido</a>, <a href="/junk-removal-san-marcos" className="text-blue-600 hover:underline">San Marcos</a>, <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a>, and <a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a>.
+                      Whether it's a barn cleanout near Lake Poway or a full property clearance near Iron Mountain, we haul everything away and leave your space clutter free. We also serve nearby <a href="/junk-removal-escondido" className="text-blue-600 hover:underline">Escondido</a>, <a href="/junk-removal-san-marcos" className="text-blue-600 hover:underline">San Marcos</a>, <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a>, and <a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a>.
                     </p>
 
                     {/* Neighborhoods Served */}
@@ -289,14 +295,20 @@ export default function JunkRemovalPowayPage() {
 
                     {/* Traffic & Timing */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">North County Traffic & Scheduling Considerations</h3>
+                    <p className="text-gray-700 mb-4">
+                      Weekday commute hours (7–9 AM, 4–6 PM) bring heavy I-15 traffic on Pomerado and Rancho Bernardo Roads. We recommend mid-day windows (10 AM–3 PM) for fastest arrival. Weekend Lake Poway recreational traffic also runs heavy Saturday–Sunday from 9 AM–5 PM along Community Road.
+                    </p>
                     <p className="text-gray-700 mb-6">
-                      Weekday commute hours (7-9 AM, 4-6 PM) bring heavy I-15 traffic on Pomerado and Rancho Bernardo Roads—we schedule mid-day (10 AM-3 PM) or early morning (6-9 AM) service to avoid congestion. Weekend Lake Poway recreational traffic affects Community Road and nearby areas Saturday-Sunday (9 AM-5 PM). Ranch properties with long private driveways receive advance arrival coordination for gate codes and access instructions. Equestrian facilities require special timing to avoid horse feeding hours (typically 6-8 AM and 4-6 PM). Learn more about <a href="/blog/same-day-junk-removal-guide" className="text-blue-600 hover:underline">planning your junk removal pickup</a>.
+                      Ranch properties with long driveways get advance coordination for gate codes and access. Equestrian facilities need timing around horse feeding hours (6–8 AM and 4–6 PM)—we plan around those automatically. <a href="/blog/same-day-junk-removal-guide" className="text-blue-600 hover:underline">Learn more about planning your pickup.</a>
                     </p>
 
                     {/* Weather */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Inland North County Climate & Service Planning</h3>
+                    <p className="text-gray-700 mb-4">
+                      Inland summers (June–September) regularly hit 85–90°F. We schedule early morning (6–9 AM) or late afternoon (4–7 PM) slots during heat waves. Heat also accelerates outdoor storage deterioration—sun-damaged patio furniture and dry wooden structures pile up faster than at the coast.
+                    </p>
                     <p className="text-gray-700 mb-6">
-                      Inland summers (June-September) regularly exceed 85-90°F, making early morning (6-9 AM) or late afternoon (4-7 PM) scheduling preferable for crew safety. Heat accelerates outdoor storage deterioration—sun-damaged patio furniture and dried wooden structures accumulate faster than coastal areas. Winter rains (December-February) occasionally make unpaved rural driveways temporarily inaccessible. We prioritize brush and fire hazard removal to help maintain defensible space, particularly near Blue Sky Reserve and Iron Mountain trailheads.
+                      Winter rains (December–February) can make unpaved rural driveways temporarily inaccessible. We also prioritize brush removal to help Poway properties reclaim their space and maintain defensible space near Blue Sky Reserve and Iron Mountain trailheads.
                     </p>
 
                     {/* What We Remove */}
@@ -363,7 +375,7 @@ export default function JunkRemovalPowayPage() {
         {/* Pricing Section */}
         <LocationPricingSection
           locationName="Poway"
-          contextParagraph="Ranch property cleanouts and family home clearances throughout the city—from 4S Ranch to Old Poway Village—all use the same transparent pricing. No hidden fees for long driveways or rural access."
+          contextParagraph="Ranch property cleanouts and family home clearances throughout the city—from 4S Ranch to Old Poway Village—all use the same transparent pricing. No hidden fees for long driveways or rural access. Call for a free, no-obligation estimate."
         />
 
         {/* Trust Signals Section */}
