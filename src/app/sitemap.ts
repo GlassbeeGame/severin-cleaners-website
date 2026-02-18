@@ -30,6 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Location pages
   const locationPages = [
+    'junk-removal-carlsbad',
     'junk-removal-carmel-valley',
     'junk-removal-chula-vista',
     'junk-removal-clairemont',
@@ -49,6 +50,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'junk-removal-point-loma',
     'junk-removal-poway',
     'junk-removal-rancho-santa-fe',
+    'junk-removal-san-marcos',
     'junk-removal-santee',
     'junk-removal-spring-valley',
     'junk-removal-vista',
@@ -57,9 +59,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Blog posts
   const blogPosts = [
     'blog',
+    'blog/dumpster-rental-san-diego-alternatives',
+    'blog/escondido-dump-guide',
     'blog/how-much-does-junk-removal-cost-san-diego',
-    'blog/san-diego-dump-fees-guide',
+    'blog/la-mesa-dump-guide',
     'blog/same-day-junk-removal-guide',
+    'blog/san-diego-dump-fees-guide',
+    'blog/santee-dump-guide',
   ]
 
   return [
