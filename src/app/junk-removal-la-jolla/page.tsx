@@ -440,8 +440,14 @@ export default function JunkRemovalLaJollaPage() {
                           </div>
                         </div>
 
+                        <p className="text-lg text-gray-700 mb-4">
+                          Need junk removal in La Jolla? <a href="/" className="text-blue-600 hover:underline">Severin Hauling</a> serves the entire 92037 and 92093 area—from oceanfront estates in Bird Rock and Windansea to hillside mansions in Muirlands and Mount Soledad, from gated communities in Hidden Valley to UTC executive residences. Booking junk removal is easy and stress free: call, get a free no-obligation estimate, and we handle the rest.
+                        </p>
+                        <p className="text-lg text-gray-700 mb-4">
+                          Our team provides discreet, professional service for luxury <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a> and <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">high-end furniture removal</a>. We navigate steep hillside driveways, narrow coastal roads, and gated community security coordination—all without disrupting your property or schedule.
+                        </p>
                         <p className="text-lg text-gray-700 mb-6">
-                          Looking for junk removal La Jolla CA residents trust in 2026? <a href="/" className="text-blue-600 hover:underline">Severin Hauling</a> serves luxury homes from the Cove to UTC throughout the 92037 and 92093 zip codes—from oceanfront estates along La Jolla Boulevard and Neptune Place in Bird Rock to hillside mansions off Prospect Street and Soledad Avenue in Muirlands, from gated communities on Hidden Valley Road and Via Capri to UTC executive residences near Genesee Avenue and Regents Road. Our team provides discreet, white-glove service for luxury estates, complete property cleanouts, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, and <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">high-end furniture removal</a>. We navigate steep hillside driveways, narrow coastal roads, and gated community security coordination. <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">Same-day service available</a>. For transparent <a href="/junk-removal-pricing-san-diego" className="text-blue-600 hover:underline">pricing</a> and luxury-grade disposal, call (619) 750-0114.
+                          Whether you're preparing a property for sale or clearing an estate, we haul everything away and leave the space clutter free. <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">Same-day service available</a>. Call (619) 750-0114 for transparent <a href="/junk-removal-pricing-san-diego" className="text-blue-600 hover:underline">pricing</a>.
                         </p>
 
                         {/* Complete Neighborhood Coverage */}
@@ -512,7 +518,13 @@ export default function JunkRemovalLaJollaPage() {
                         </h2>
 
                         <p className="text-lg text-gray-700 mb-4">
-                          We specialize in <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">luxury estate cleanouts</a> for multi-million dollar properties (Bird Rock oceanfront, Mount Soledad hillside, Muirlands gated estates), <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">high-end furniture removal</a> (antiques, designer pieces, La Valencia Hotel-quality furnishings), <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">luxury appliance removal</a> (Sub-Zero, Viking, Wolf), <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">hot tub removal</a> from oceanfront decks, <a href="/piano-removal-san-diego" className="text-blue-600 hover:underline">piano removal</a> from hillside estates, property sale preparation for $5M+ listings, renovation debris removal, salt-damaged coastal item removal, and executive relocations. We coordinate with auction houses (Sotheby's, Christie's), provide appraisal coordination, and offer <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day service</a> for luxury properties. Early morning service available (7-9 AM) to avoid peak tourist traffic on Prospect Street and La Jolla Boulevard.
+                          La Jolla properties have needs most junk removal crews aren't equipped for. We specialize in <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">luxury estate cleanouts</a> for Bird Rock oceanfront, Mount Soledad hillside, and Muirlands gated estates. <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">High-end furniture removal</a> for antiques, designer pieces, and La Valencia Hotel-quality furnishings. <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Luxury appliance removal</a> for Sub-Zero, Viking, and Wolf equipment.
+                        </p>
+                        <p className="text-lg text-gray-700 mb-4">
+                          <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">Hot tub removal</a> from oceanfront decks. <a href="/piano-removal-san-diego" className="text-blue-600 hover:underline">Piano removal</a> from hillside estates. Property sale preparation for $5M+ listings. Renovation debris, salt-damaged coastal items, and executive relocations. We coordinate with auction houses (Sotheby's, Christie's) and provide appraisal coordination so you can reclaim your space on your timeline.
+                        </p>
+                        <p className="text-lg text-gray-700 mb-4">
+                          <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">Same-day service</a> available throughout 92037 and 92093. Early morning slots (7–9 AM) available to avoid peak tourist traffic on Prospect Street and La Jolla Boulevard.
                         </p>
 
                       </div>
@@ -535,7 +547,7 @@ export default function JunkRemovalLaJollaPage() {
           {/* Pricing Section */}
           <LocationPricingSection
             locationName="La Jolla"
-            contextParagraph="Transparent pricing for luxury estates throughout La Jolla—from oceanfront Bird Rock to hillside Muirlands. Whether you're clearing a multi-million dollar estate or updating a Village condo, you'll know the exact cost before we begin."
+            contextParagraph="Transparent pricing for luxury estates throughout La Jolla—from oceanfront Bird Rock to hillside Muirlands. Whether you're clearing a multi-million dollar estate or updating a Village condo, call for a free no-obligation estimate. You'll know the exact cost before we begin."
           />
 
           {/* Trust Signals Section */}
