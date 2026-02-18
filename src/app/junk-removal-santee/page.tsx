@@ -288,20 +288,32 @@ export default function JunkRemovalSanteePage() {
                       </div>
                     </div>
 
+                    <p className="text-lg mb-4 text-gray-700">
+                      Need junk removal in Santee? We serve East County's family-oriented community from our La Mesa headquarters. Booking junk removal is easy and stress free: call, get a free no-obligation estimate, and we handle everything in the 92071 zip code.
+                    </p>
+                    <p className="text-lg mb-4 text-gray-700">
+                      We specialize in what Santee actually needs. Santee Lakes RV equipment and camping gear removal. Trolley Square apartment turnovers. Carlton Hills family garage cleanouts. Mission Gorge commercial clearing. We navigate hillside access, packed two-car garages, and mixed-use property logistics without the hassle.
+                    </p>
                     <p className="text-lg mb-6 text-gray-700">
-                      Looking for junk removal Santee CA residents trust? We serve East County's family-oriented community from our La Mesa headquarters, specializing in Santee Lakes RV equipment removal, Trolley Square apartment turnovers, Carlton Hills family garages, and Mission Gorge commercial cleanouts. Our team navigates hillside access, two-car and three-car garage accumulation, and mixed-use property coordination throughout the 92071 zip code. We provide same-day service for family homes, recreation equipment disposal, and <a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">apartment complex cleanouts</a>. Call (619) 750-0114 for transparent pricing and eco-friendly disposal that East County families depend on.
+                      Same-day service throughout the 92071 zip code. Eco-friendly disposal. We haul it all away and leave your space clutter free. Call (619) 750-0114 or book online anytime.
                     </p>
 
                     {/* Santee Lakes Recreation & RV Equipment Specialists */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Santee Lakes Recreation & RV Equipment Specialists</h3>
                     <p className="text-gray-700 mb-4">
-                      Santee Lakes Recreation Preserve creates unique disposal needs for East County families. We specialize in RV equipment (awnings, generators, tanks, hitches, RV furniture), camping gear (tents, coolers, outdoor equipment), boats and kayaks, and patio furniture from Santee's outdoor lifestyle. Families upgrading RVs or clearing years of accumulated camping equipment benefit from our donation coordination with youth programs and metal recycling expertise. We reclaim garage space occupied by recreation equipment that multiplies over time near Santee Lakes.
+                      Santee Lakes Recreation Preserve creates unique disposal needs for East County families. We handle RV equipment (awnings, generators, tanks, hitches, RV furniture), camping gear, boats, kayaks, and patio furniture from Santee's outdoor lifestyle.
+                    </p>
+                    <p className="text-gray-700 mb-4">
+                      Families upgrading their RV or clearing years of accumulated gear can count on our donation coordination with youth programs and metal recycling expertise. We help you reclaim your space when recreation equipment has taken over the garage.
                     </p>
 
                     {/* Trolley Square Mixed-Use Development Specialists */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Trolley Square Mixed-Use Development Specialists</h3>
+                    <p className="text-gray-700 mb-4">
+                      Santee Trolley Square is East County's only significant transit-oriented development—300+ apartments with consistent turnover. We provide rapid cleanouts between tenants, elevator coordination with building management, and handle the limited parking logistics that mixed-use properties require.
+                    </p>
                     <p className="text-gray-700 mb-6">
-                      Santee Trolley Square represents East County's only significant transit-oriented development with 300+ apartments generating consistent turnover. We provide rapid apartment cleanouts between tenants, elevator access coordination with building management, and limited parking logistics for mixed-use properties. Property managers rely on our same-day service during peak turnover seasons, professional crews that respect shared spaces, and Green Line trolley schedule coordination for residents without vehicles. This transit-oriented expertise is unique to Santee.
+                      Property managers rely on our same-day availability during peak turnover seasons, professional crews that respect shared spaces, and Green Line trolley schedule awareness for residents without vehicles. This transit-oriented expertise is unique to Santee.
                     </p>
 
                     {/* Carlton Hills & Sky Ranch Family Garage Specialists */}
@@ -375,7 +387,7 @@ export default function JunkRemovalSanteePage() {
         {/* Pricing Section */}
         <LocationPricingSection
           locationName="Santee"
-          contextParagraph="Garage cleanouts and family home clearances throughout Santee—from Carlton Hills to Santee Trolley Square—all use the same transparent pricing. No hidden fees, same-day service available."
+          contextParagraph="Garage cleanouts and family home clearances throughout Santee—from Carlton Hills to Santee Trolley Square—all use the same transparent pricing. No hidden fees, same-day service available. Call for a free, no-obligation estimate."
         />
 
         {/* Trust Signals Section */}
