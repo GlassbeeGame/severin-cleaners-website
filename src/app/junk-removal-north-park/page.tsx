@@ -66,11 +66,11 @@ export const metadata: Metadata = {
 const northParkFAQs = [
   {
     question: "How much does junk removal cost in North Park?",
-    answer: "Our North Park junk removal pricing is transparent and based on trailer volume:"
+    answer: "Our North Park junk removal pricing is transparent and based on trailer volume: single items start at $69–$100 (e.g., a loveseat or appliance), a quarter-load (3 cu yd) is $249, a half-load (6 cu yd) is $349, and a full load (12 cu yd) is $495. Every price includes all labor, loading, transportation, and eco-friendly disposal—no hidden fees. Urban North Park jobs in multi-story apartments may include a stair carry fee for upper floors. Call (619) 750-0114 for a free, no-obligation quote specific to your property."
   },
   {
     question: "Can you remove heavy items like couches and appliances in North Park?",
-    answer: "Absolutely! Our junk hauling North Park team specializes in removing heavy furniture and appliances from apartments, condos, and Craftsman homes throughout North Park. We safely handle:"
+    answer: "Absolutely! Our junk hauling North Park team specializes in removing heavy furniture and appliances from apartments, condos, and Craftsman homes throughout North Park. We safely handle sofas and sectionals, refrigerators, washers, dryers, and dishwashers, exercise equipment like treadmills and weight benches, mattresses and box springs, water heaters, and large furniture pieces. Our crews are experienced navigating multi-story apartment buildings and narrow Craftsman home hallways without damaging floors or walls. Call (619) 750-0114 to confirm we can handle your specific items."
   },
   {
     question: "Do you provide same-day junk hauling in North Park?",
