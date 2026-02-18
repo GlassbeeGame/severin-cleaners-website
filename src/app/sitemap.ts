@@ -26,6 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'san-diego-mattress-disposal',
     'san-diego-dump-fees',
     'scrap-metal-removal',
+    'concrete-disposal-san-diego',
   ]
 
   // Location pages
