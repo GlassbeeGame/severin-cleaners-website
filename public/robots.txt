@@ -4,10 +4,10 @@ Allow: /
 # Allow critical Next.js static assets for proper page rendering
 Allow: /_next/static/css/
 Allow: /_next/static/chunks/
-Allow: /_next/static/media/
 Allow: /_next/image
 
-# Block Next.js data files to save crawl budget
+# Block Next.js internals to save crawl budget
+Disallow: /_next/static/media/
 Disallow: /_next/data/
 
 # Disallow admin and API routes
