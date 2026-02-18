@@ -271,12 +271,18 @@ export default function SanDiegoJunkRemovalPage() {
                 </div>
               </div>
 
+              <p className="text-lg text-gray-700 mb-4">
+                Need <strong>junk removal in San Diego</strong>? Severin Hauling delivers professional hauling services throughout San Diego County. Booking junk removal with us is easy and stress free: call for a free no-obligation estimate, and our locally owned team shows up same-day.
+              </p>
               <p className="text-lg text-gray-700 mb-6">
-                When you need reliable <strong>junk removal San Diego</strong> can count on, Severin Hauling delivers professional hauling services throughout San Diego County. Our locally owned team provides same-day service with transparent pricing starting at just $100. From single-item pickups to complete property cleanouts, we handle every job with the same commitment to quality, efficiency, and customer satisfaction. No hidden fees, no surprises, just honest service from licensed and insured professionals who understand San Diego neighborhoods.
+                From single-item pickups to complete property cleanouts, we handle every job with the same commitment to quality, efficiency, and customer satisfaction. No hidden fees, no surprises—just honest service from licensed and insured professionals who know San Diego neighborhoods.
               </p>
 
+              <p className="text-lg text-gray-700 mb-4">
+                We've built our reputation on reliability and local expertise. Whether you're clearing a garage in <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, handling an <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanout</a> in <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a>, or managing a renovation in <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, our team brings the experience and equipment to get the job done right.
+              </p>
               <p className="text-lg text-gray-700 mb-6">
-                We've built our reputation on reliability and local expertise. Whether you're clearing out a garage in <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, removing office furniture in downtown, handling an <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanout</a> in <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a>, or managing a renovation project in <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, our team brings the experience and equipment to get the job done right. We're not just haulers—we're your partners in reclaiming your space and maintaining San Diego's beauty through responsible disposal practices.
+                We're not just haulers. We're your partners in helping you reclaim your space through responsible disposal that supports San Diego's coastal community.
               </p>
 
               <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
@@ -563,7 +569,7 @@ export default function SanDiegoJunkRemovalPage() {
               <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-8">
                 <h4 className="font-bold text-green-900 mb-3">Our Environmental Commitment</h4>
                 <p className="text-gray-700 mb-3">
-                  We divert 60-70% of collected junk from landfills through recycling and donation. This commitment reflects San Diego's environmental values and protects our coastal community, beaches, and natural spaces. When you choose our service, you're not just clearing your space—you're supporting responsible waste management that benefits our entire region.
+                  We divert 60-70% of collected junk from landfills through recycling and donation. This commitment reflects San Diego's environmental values and protects our coastal community, beaches, and natural spaces. When you choose our service, your space is left clutter free—and you're supporting responsible waste management that benefits our entire region.
                 </p>
               </div>
 
@@ -768,7 +774,7 @@ export default function SanDiegoJunkRemovalPage() {
         {/* Pricing Section */}
         <LocationPricingSection
           locationName="San Diego"
-          contextParagraph="Junk removal throughout San Diego County—from downtown high-rises to coastal communities to East County neighborhoods—all use the same transparent pricing. No hidden fees, same-day service available."
+          contextParagraph="Junk removal throughout San Diego County—from downtown high-rises to coastal communities to East County neighborhoods—all use the same transparent pricing. No hidden fees, same-day service available. Call for a free, no-obligation estimate."
         />
 
         {/* Trust Signals Section */}
