@@ -123,6 +123,8 @@ export default function JunkRemovalPacificBeachPage() {
     "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
+    "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
+    "currenciesAccepted": "USD",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "8900 Grossmont Blvd Ste 1",
@@ -137,6 +139,54 @@ export default function JunkRemovalPacificBeachPage() {
       "longitude": -117.0231
     },
     "url": "https://www.severinhauling.com/junk-removal-pacific-beach",
+    "knowsAbout": [
+      "Beach House Property Access and Cleanouts",
+      "Ocean Front Walk Boardwalk Alley Navigation",
+      "Vacation Rental and Short-Term Rental Turnovers",
+      "Student Housing Move-Outs on Fanuel and Lamont Streets",
+      "Salt Air Corrosion and Coastal Environment Item Removal",
+      "Crown Point Bay-Front Property Access",
+      "Garnet Avenue Multi-Story Building Coordination",
+      "Summer Beach Traffic and Tuesday Farmers Market Scheduling"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Pacific Beach Junk Removal Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Beach House and Coastal Property Cleanouts",
+            "description": "Full-service junk removal for Crystal Pier boardwalk apartments, Crown Point bay-front homes, and Ocean Front Walk properties with narrow alley access"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Vacation Rental Turnover Service",
+            "description": "Fast, same-day junk removal for Airbnb and VRBO properties throughout the 92109 area, coordinated around guest check-in and check-out schedules"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Student Housing Move-Out Cleanouts",
+            "description": "End-of-lease junk removal for student apartments on Fanuel and Lamont Streets near San Diego State University extension housing"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Salt-Damaged Outdoor and Beach Equipment Removal",
+            "description": "Removal of rust-corroded patio furniture, bikes, grills, surfboards, paddleboards, and other salt-air damaged coastal items"
+          }
+        }
+      ]
+    },
     "areaServed": [
       {
         "@type": "City",
@@ -168,9 +218,107 @@ export default function JunkRemovalPacificBeachPage() {
     pageUrl: "https://www.severinhauling.com/junk-removal-pacific-beach"
   });
 
+  const neighborhoodSchema = {
+    "@type": "ItemList",
+    "name": "Pacific Beach San Diego Neighborhoods Served",
+    "description": "Complete junk removal coverage throughout all Pacific Beach neighborhoods and zones in the 92109 zip code",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Place",
+          "name": "North Pacific Beach",
+          "address": { "@type": "PostalAddress", "addressLocality": "Pacific Beach", "addressRegion": "CA", "postalCode": "92109" }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Place",
+          "name": "Crown Point",
+          "address": { "@type": "PostalAddress", "addressLocality": "Pacific Beach", "addressRegion": "CA", "postalCode": "92109" }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Place",
+          "name": "Garnet Avenue District",
+          "address": { "@type": "PostalAddress", "addressLocality": "Pacific Beach", "addressRegion": "CA", "postalCode": "92109" }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "Place",
+          "name": "Ocean Front Walk",
+          "address": { "@type": "PostalAddress", "addressLocality": "Pacific Beach", "addressRegion": "CA", "postalCode": "92109" }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "Place",
+          "name": "Bay Park",
+          "address": { "@type": "PostalAddress", "addressLocality": "Pacific Beach", "addressRegion": "CA", "postalCode": "92109" }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "item": {
+          "@type": "Place",
+          "name": "The Promenade",
+          "address": { "@type": "PostalAddress", "addressLocality": "Pacific Beach", "addressRegion": "CA", "postalCode": "92109" }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "item": {
+          "@type": "Place",
+          "name": "Fanuel Street Corridor",
+          "address": { "@type": "PostalAddress", "addressLocality": "Pacific Beach", "addressRegion": "CA", "postalCode": "92109" }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "item": {
+          "@type": "Place",
+          "name": "Mission Boulevard",
+          "address": { "@type": "PostalAddress", "addressLocality": "Pacific Beach", "addressRegion": "CA", "postalCode": "92109" }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "item": {
+          "@type": "Place",
+          "name": "Tourmaline Surfing Park Area",
+          "address": { "@type": "PostalAddress", "addressLocality": "Pacific Beach", "addressRegion": "CA", "postalCode": "92109" }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "item": {
+          "@type": "Place",
+          "name": "Kate Sessions Memorial Park Area",
+          "address": { "@type": "PostalAddress", "addressLocality": "Pacific Beach", "addressRegion": "CA", "postalCode": "92109" }
+        }
+      }
+    ]
+  };
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, howToSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, neighborhoodSchema, howToSchema]
   };
 
   const nearbyLocations = [
@@ -222,7 +370,7 @@ export default function JunkRemovalPacificBeachPage() {
 
                     {/* Introduction */}
                     <h2 className="text-3xl font-bold mb-6 text-gray-900">
-                      Junk Removal Pacific Beach – Crystal Pier to Crown Point
+                      Beach House &amp; Coastal Property Cleanout Specialists
                     </h2>
 
                     {/* Pacific Beach Junk Removal Image - Integrated */}
@@ -247,6 +395,18 @@ export default function JunkRemovalPacificBeachPage() {
                     </p>
                     <p className="text-lg mb-6 text-gray-700">
                       Booking junk removal with us is simple: call, get a free no-obligation estimate, and we show up. Easy and stress free. Whether it's a single item or a full property cleanout, we haul everything away and leave your place clutter free. Need it fast? We offer <a href="/blog/same-day-junk-removal-guide" className="text-blue-600 hover:underline">same-day pickup</a> when you call before noon.
+                    </p>
+
+                    {/* Vacation Rental Use Case */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Vacation Rental &amp; Airbnb Turnover Cleanouts</h3>
+                    <p className="text-gray-700 mb-4">
+                      Pacific Beach is one of San Diego's most active short-term rental markets. When guests check out and leave behind furniture, appliances, or accumulated junk, turnaround time is everything. We offer priority same-day scheduling for vacation rental owners and property managers throughout the 92109 area—including Ocean Front Walk, Crown Point, and Mission Boulevard—so you're not losing rental income waiting on a crew. We coordinate directly with property managers and can work around guest check-in windows.
+                    </p>
+
+                    {/* Student Housing Use Case */}
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Student Move-Outs on Lamont, Fanuel &amp; Surrounding Streets</h3>
+                    <p className="text-gray-700 mb-6">
+                      The Fanuel and Lamont Street corridors see heavy student move-out activity every May and August. We've handled dozens of end-of-lease cleanouts in PB's student housing—mattresses left on curbs, furniture abandoned in apartments, and accumulated semester debris. We recommend booking 2–3 weeks ahead during peak move-out season. Outside those windows, we're typically available within 24 hours. All removed items are sorted for donation or recycling before anything goes to landfill.
                     </p>
 
                     {/* Neighborhoods Served */}
@@ -382,6 +542,37 @@ export default function JunkRemovalPacificBeachPage() {
           ctaDescription="Our experienced team is ready to answer your questions, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
+
+        {/* Final CTA Section */}
+        <section className="py-16 bg-gradient-to-br from-blue-900 to-blue-700 text-white">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto text-center">
+              <h2 className="text-4xl font-bold mb-6">
+                Book Your Pacific Beach Junk Removal Today
+              </h2>
+              <p className="text-xl mb-8 leading-relaxed">
+                Whether you're clearing a beach house, turning over a vacation rental on Ocean Front Walk, or handling a student move-out on Lamont Street, Severin Hauling delivers the fast, reliable junk removal Pacific Beach residents and property owners depend on.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
+                <a
+                  href="tel:+16197500114"
+                  className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors"
+                >
+                  📞 Call (619) 750-0114
+                </a>
+                <a
+                  href="/contact"
+                  className="bg-white hover:bg-gray-100 text-blue-700 px-8 py-4 rounded-lg text-lg font-bold transition-colors"
+                >
+                  Get Free Quote
+                </a>
+              </div>
+              <p className="text-blue-200 text-lg">
+                Serving all of Pacific Beach 92109 — Crystal Pier to Crown Point • Same-Day Service Available • Licensed &amp; Insured
+              </p>
+            </div>
+          </div>
+        </section>
 
         {/* Related Services */}
         <section className="py-12 bg-gray-50">
