@@ -75,7 +75,7 @@ const elCajonFAQs = [
   },
   {
     question: "Do you provide same-day service in East County?",
-    answer: "Yes, we offer <a href='/same-day-junk-removal-san-diego' className='text-blue-600 hover:underline'>same-day service</a> throughout East County including Fletcher Hills, Rancho San Diego, Granite Hills, and Crest. Call before 2 PM for same-day availability. We prioritize family emergencies and estate situations. Learn more about <a href='/blog/same-day-junk-removal-guide' className='text-blue-600 hover:underline'>securing same-day pickup</a>."
+    answer: "Yes, our junk removal El Cajon service offers <a href='/same-day-junk-removal-san-diego' className='text-blue-600 hover:underline'>same-day availability</a> throughout East County including Fletcher Hills, Rancho San Diego, Granite Hills, and Crest. Call before 2 PM for same-day pickup. We prioritize family emergencies and estate situations. Learn more about <a href='/blog/same-day-junk-removal-guide' className='text-blue-600 hover:underline'>securing same-day service</a>."
   },
   {
     question: "What neighborhoods in El Cajon do you cover?",
@@ -87,7 +87,7 @@ const elCajonFAQs = [
   },
   {
     question: "Do you serve Fletcher Hills and Rancho San Diego?",
-    answer: "Yes, we provide comprehensive trash removal El Cajon service throughout Fletcher Hills and Rancho San Diego. We specialize in these premier East County neighborhoods, understanding their unique characteristics - from Fletcher Hills' established hillside properties and luxury estates to Rancho San Diego's master-planned communities and HOA requirements. Our team delivers professional service that respects community standards and family values in both areas."
+    answer: "Yes, our junk removal El Cajon service covers Fletcher Hills and Rancho San Diego completely. We specialize in these premier East County neighborhoods, understanding their unique characteristics - from Fletcher Hills' established hillside properties and luxury estates to Rancho San Diego's master-planned communities and HOA requirements. Our team delivers professional service that respects community standards and family values in both areas."
   },
   {
     question: "Do you offer scrap metal removal and recycling in El Cajon?",
@@ -114,8 +114,8 @@ export default function JunkRemovalElCajonPage() {
 
   const serviceSchema = {
     "@type": "Service",
-    "name": "Junk Removal in El Cajon",
-    "description": "Professional service for Fletcher Hills, Rancho San Diego, Granite Hills. East County family property specialists with same-day availability. Call (619) 750-0114.",
+    "name": "Junk Removal El Cajon - East County Specialists",
+    "description": "Professional junk removal El Cajon service for Fletcher Hills, Rancho San Diego, Granite Hills. East County family property specialists with same-day availability. Call (619) 750-0114.",
     "url": "https://www.severinhauling.com/junk-removal-el-cajon",
     "serviceType": "Junk Removal",
     "provider": {
@@ -271,7 +271,7 @@ export default function JunkRemovalElCajonPage() {
 
                     {/* Introduction */}
                     <h2 className="text-3xl font-bold mb-6 text-gray-900">
-                      Junk Removal El Cajon CA – East County Family Property Specialists
+                      Junk Removal El Cajon – East County Family Property Specialists
                     </h2>
 
                     {/* El Cajon Junk Removal Image - Integrated */}
@@ -289,7 +289,7 @@ export default function JunkRemovalElCajonPage() {
                     </div>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      Need junk removal in El Cajon? <a href="/" className="text-blue-600 hover:underline font-medium">Severin Hauling</a> serves the entire 92019, 92020, and 92021 area—from Fletcher Hills hillside estates off Fletcher Parkway to Rancho San Diego master-planned communities near Jamacha Road. Booking junk removal is easy and stress free: call, get a free no-obligation estimate, and we show up.
+                      Looking for junk removal El Cajon residents trust? <a href="/" className="text-blue-600 hover:underline font-medium">Severin Hauling</a> serves the entire 92019, 92020, and 92021 area—from Fletcher Hills hillside estates off Fletcher Parkway to Rancho San Diego master-planned communities near Jamacha Road. When you need junk removal El Cajon offers, we're easy to book: call, get a free no-obligation estimate, and we show up.
                     </p>
                     <p className="text-lg mb-4 text-gray-700">
                       We specialize in what East County properties actually need. Multi-generational home cleanouts near Magnolia and Main Street. Steep driveways off Fuerte Drive and Avocado Boulevard. Expert <a href="/scrap-metal-removal" className="text-blue-600 hover:underline">scrap metal recycling</a> for automotive workshops with decades of accumulation. We handle all of it.
@@ -370,13 +370,13 @@ export default function JunkRemovalElCajonPage() {
                     {/* Scrap Metal Section */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Scrap Metal Recycling El Cajon</h3>
                     <p className="text-gray-700 mb-4">
-                      East County properties accumulate scrap metal from years of automotive work and home improvements. Our <a href="/scrap-metal-removal" className="text-blue-600 hover:underline">scrap metal El Cajon</a> service provides fair pricing for valuable metals and professional disposal. We accept <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliances</a> (refrigerators, washers, dryers, water heaters), copper wire and pipes, aluminum siding and gutters, steel beams and rebar, brass fixtures, and iron materials. Large metal quantities often qualify for credits toward your total cost. We haul to certified recycling facilities and handle proper Freon disposal for cooling appliances.
+                      Beyond general junk removal El Cajon residents need, we specialize in scrap metal recycling. East County properties accumulate metal from years of automotive work and home improvements. Our <a href="/scrap-metal-removal" className="text-blue-600 hover:underline">scrap metal El Cajon</a> service provides fair pricing for valuable metals and professional disposal. We accept <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliances</a> (refrigerators, washers, dryers, water heaters), copper wire and pipes, aluminum siding and gutters, steel beams and rebar, brass fixtures, and iron materials. Large metal quantities often qualify for credits toward your total cost. We haul to certified recycling facilities and handle proper Freon disposal for cooling appliances.
                     </p>
 
                     {/* Multi-Generational Family Property Section */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Multi-Generational Family Property Specialists</h3>
                     <p className="text-gray-700 mb-4">
-                      East County's family-centered culture means many properties house multiple generations or serve as inherited estates. We handle decades of accumulation with compassion, coordinate with estate executors, and work at your family's pace.
+                      Our junk removal El Cajon team understands East County's family-centered culture, where many properties house multiple generations or serve as inherited estates. We handle decades of accumulation with compassion, coordinate with estate executors, and work at your family's pace.
                     </p>
                     <p className="text-gray-700 mb-6">
                       Our crews understand the emotional weight of clearing an inherited home. We sort patiently with family members present. This approach to <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a> is what sets us apart in East County.
@@ -395,7 +395,7 @@ export default function JunkRemovalElCajonPage() {
                     </p>
 
                     {/* Why Choose Us */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Hauling for El Cajon</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Our Junk Removal El Cajon Service</h3>
                     <ul className="space-y-3 mb-6">
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
