@@ -10,7 +10,7 @@ import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema, generateHowToSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: 'Lemon Grove Junk Removal | Local Family-Owned Service | (619) 750-0114',
+  title: 'Junk Removal Lemon Grove | Same-Day Service | (619) 750-0114',
   description: 'Lemon Grove budget junk removal apartments, Broadway corridor. Affordable multi-family, student rentals. (619) 750-0114',
   keywords: [
     'Lemon Grove junk removal',
@@ -21,23 +21,23 @@ export const metadata: Metadata = {
     'apartment junk removal'
   ],
   openGraph: {
-    title: 'Lemon Grove Junk Removal | Family Homes & Apartment Specialists | Same-Day Service',
-    description: 'Affordable Lemon Grove junk removal for apartments, family homes, Broadway corridor. Community-focused service with eco-friendly disposal. Call (619) 750-0114.',
+    title: 'Junk Removal Lemon Grove | Family Homes & Apartment Specialists',
+    description: 'Professional junk removal lemon grove for apartments, family homes, Broadway corridor. Same-day service, transparent pricing, eco-friendly disposal. Call (619) 750-0114.',
     url: 'https://www.severinhauling.com/junk-removal-lemon-grove',
     siteName: 'Severin Hauling',
     images: [{
       url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'Lemon Grove Junk Removal - Severin Hauling'
+      alt: 'Junk Removal Lemon Grove - Severin Hauling'
     }],
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Lemon Grove Junk Removal | Family Homes & Apartment Specialists | Same-Day Service',
-    description: 'Affordable Lemon Grove junk removal for apartments, family homes, Broadway corridor. Community-focused service with eco-friendly disposal. Call (619) 750-0114.',
+    title: 'Junk Removal Lemon Grove | Family Homes & Apartment Specialists',
+    description: 'Professional junk removal lemon grove for apartments, family homes, Broadway corridor. Same-day service, transparent pricing. Call (619) 750-0114.',
     images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
@@ -64,24 +64,36 @@ export const metadata: Metadata = {
 
 const lemonGroveFAQs = [
   {
-    question: "How much does junk removal cost in Lemon Grove?",
-    answer: "Our Lemon Grove junk removal pricing is transparent and affordable, designed with families and apartment residents in mind. We offer upfront pricing with no hidden fees:"
+    question: "How much does junk removal lemon grove cost?",
+    answer: "Our pricing is transparent and volume-based: small items $69, standard items $100, quarter-load $249, half-load $349, three-quarter load $429, and full-load $495. All prices include labor, hauling, and disposal with no hidden fees. We provide free estimates and confirm final pricing on-site before starting work."
   },
   {
-    question: "Do you offer same-day junk pickup in Lemon Grove?",
-    answer: "Yes, we provide same-day junk pickup Lemon Grove service for urgent needs throughout the community. Whether you're dealing with an apartment move-out deadline or unexpected family situation, our local team can respond quickly with professional, affordable service."
+    question: "Do you offer same-day service?",
+    answer: "Yes, call before noon for <a href='/same-day-junk-removal-san-diego' className='text-blue-600 hover:underline'>same-day service</a> throughout the 91945 area. We often arrive within 2-4 hours for urgent situations like apartment move-outs or emergency cleanouts. We coordinate with property managers and schedule around your availability."
   },
   {
-    question: "Can you handle junk hauling for apartments and multifamily housing?",
-    answer: "Absolutely. Our junk hauling Lemon Grove service specializes in apartment complexes and multifamily housing throughout the community. We coordinate with property managers, respect tenant privacy, and work efficiently to minimize disruption while providing affordable bulk item removal and turnover support."
+    question: "Can you handle apartments and multifamily housing?",
+    answer: "Absolutely. We specialize in apartment complexes and multifamily properties throughout the community. We coordinate with property managers, navigate hallways and elevators, and work efficiently to minimize disruption. Our team handles turnover cleanouts, bulk item removal, and property maintenance support with affordable pricing."
   },
   {
-    question: "Do you provide trash removal services for small businesses in Lemon Grove?",
-    answer: "Yes, our trash removal Lemon Grove service supports local small businesses along Broadway and throughout the community. We offer flexible scheduling, competitive commercial rates, and regular service options that help small businesses maintain clean, professional spaces without breaking their budgets."
+    question: "What areas of Lemon Grove do you serve?",
+    answer: "We serve all of Lemon Grove including Downtown, Broadway Corridor, Berry Street area, Trolley Station area, Massachusetts Avenue, Lemon Grove Avenue, Lincoln Street, and Central Avenue. We also serve nearby <a href='/junk-removal-la-mesa' className='text-blue-600 hover:underline'>La Mesa</a>, <a href='/junk-removal-spring-valley' className='text-blue-600 hover:underline'>Spring Valley</a>, and <a href='/junk-removal-el-cajon' className='text-blue-600 hover:underline'>El Cajon</a>."
   },
   {
-    question: "Are your junk removal services eco-friendly and affordable?",
-    answer: "Absolutely. Our Lemon Grove San Diego junk removal combines affordability with environmental responsibility and full regulatory compliance."
+    question: "Can you remove heavy furniture and appliances?",
+    answer: "Yes, we handle all heavy lifting for <a href='/furniture-disposal-san-diego' className='text-blue-600 hover:underline'>furniture</a>, <a href='/appliance-removal-san-diego' className='text-blue-600 hover:underline'>appliances</a>, exercise equipment, and accumulated household items. We protect floors and doorways during all removals and navigate compact streets and apartment buildings with care."
+  },
+  {
+    question: "Do you work with small businesses?",
+    answer: "Yes, we support local small businesses along Broadway and throughout the community. We offer flexible scheduling, competitive commercial rates, and regular service options. Whether it's office furniture, retail fixtures, or restaurant equipment, we handle small business cleanouts efficiently and affordably."
+  },
+  {
+    question: "Do you recycle or donate items?",
+    answer: "Yes, we sort every load for recycling and donation. Usable items go to local East County charities, recyclables to proper facilities, and only true trash to landfill as last resort. This eco-friendly approach reduces landfill fees and supports our competitive pricing."
+  },
+  {
+    question: "Are you licensed and insured?",
+    answer: "Yes, we're fully licensed and insured throughout Lemon Grove and San Diego County. Our comprehensive liability insurance protects your property during service. We carry proper coverage for apartment complexes, residential properties, and commercial spaces."
   }
 ];
 
@@ -89,15 +101,15 @@ export default function JunkRemovalLemonGrovePage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://www.severinhauling.com" },
     { name: "Areas We Serve", url: "https://www.severinhauling.com/areas-we-serve" },
-    { name: "Lemon Grove Junk Removal", url: "https://www.severinhauling.com/junk-removal-lemon-grove" },
+    { name: "Junk Removal Lemon Grove", url: "https://www.severinhauling.com/junk-removal-lemon-grove" },
   ]);
 
   const faqSchema = generateFAQSchema(lemonGroveFAQs);
 
   const serviceSchema = {
     "@type": "Service",
-    "name": "Junk Removal in Lemon Grove",
-    "description": "Affordable Lemon Grove junk removal for apartments, family homes, Broadway corridor. Community-focused service with eco-friendly disposal.",
+    "name": "Junk Removal Lemon Grove - Family & Apartment Specialists",
+    "description": "Professional junk removal lemon grove service for apartments, family homes, and small businesses. Same-day availability, transparent pricing, eco-friendly disposal. Serving all 91945 neighborhoods.",
     "url": "https://www.severinhauling.com/junk-removal-lemon-grove",
     "serviceType": "Junk Removal",
     "provider": {
@@ -191,7 +203,7 @@ export default function JunkRemovalLemonGrovePage() {
               </div>
 
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                Lemon Grove Junk Removal
+                Junk Removal Lemon Grove
               </h1>
 
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
@@ -217,52 +229,37 @@ export default function JunkRemovalLemonGrovePage() {
 
                     {/* Introduction */}
                     <h2 className="text-3xl font-bold mb-6 text-gray-900">
-                      Professional Junk Hauling Lemon Grove – Community-Focused East County Service
+                      Junk Removal Lemon Grove – Family Homes &amp; Apartment Specialists
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      Lemon Grove junk removal serves one of East County's most tight-knit family communities. From Broadway's diverse commercial corridor to Berry Street Park's residential neighborhoods, our junk hauling Lemon Grove team navigates compact streets, apartment complexes, and family homes with efficiency and care. We provide same-day trash removal Lemon Grove for apartment turnovers, family cleanouts, and small business needs throughout the 91945 area with transparent pricing and community-focused service.
+                      Need junk removal lemon grove residents trust? <a href="/" className="text-blue-600 hover:underline font-medium">Severin Hauling</a> serves the entire 91945 area—from Broadway's commercial corridor to Berry Street Park's family neighborhoods. We handle apartment turnovers, family home cleanouts, and small business needs with same-day service and transparent pricing.
                     </p>
 
-                    <p className="text-gray-700 mb-6">
-                      Our Lemon Grove operation is uniquely equipped to serve this diverse, family-oriented community. We understand that Lemon Grove San Diego junk removal requires more than just hauling equipment—it demands respect for working families, affordable pricing structures, coordination with apartment property managers, and the ability to work efficiently in one of East County's most densely populated areas. Whether you're clearing out a Broadway apartment after tenant move-out, removing accumulated storage from a family home near Lemon Grove Avenue, or handling a small business cleanout in the civic center area, our team brings the community understanding and affordable service Lemon Grove residents deserve.
+                    <p className="text-lg mb-4 text-gray-700">
+                      Our crew knows this tight-knit East County community. We navigate compact streets, coordinate with apartment property managers, and work efficiently throughout downtown, the trolley station area, and residential zones. Whether it's a single item or full property cleanout, we do all the heavy lifting.
+                    </p>
+
+                    <p className="text-lg mb-6 text-gray-700">
+                      Booking is simple: call, get a free no-obligation estimate, and we show up. Need it fast? We offer <a href="/blog/same-day-junk-removal-guide" className="text-blue-600 hover:underline">same-day pickup</a> when you call before noon.
                     </p>
 
                     {/* Neighborhoods Served */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Lemon Grove Neighborhoods We Serve</h3>
-                    <p className="text-gray-700 mb-4">
-                      Our apartment junk removal service covers every corner of Lemon Grove's compact community, from historic downtown properties to newer residential developments. We've completed thousands of junk removal jobs throughout Lemon Grove's diverse neighborhoods, each with unique access challenges and community characteristics that inform our service approach:
-                    </p>
-                    <div className="grid md:grid-cols-2 gap-4 mb-6">
-                      <ul className="space-y-2">
-                        <li><strong>Downtown Lemon Grove:</strong> Historic district, civic center, iconic Lemon landmark with mixed-use buildings and limited parking</li>
-                        <li><strong>Broadway Corridor:</strong> Main commercial street with apartments above businesses, shared alley access, and tight loading zones</li>
-                        <li><strong>Berry Street Area:</strong> Family neighborhoods surrounding the park with mature homes and garage storage needs</li>
-                        <li><strong>Massachusetts Avenue:</strong> Residential streets with single-family homes requiring estate and garage cleanouts</li>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">91945 Neighborhoods We Serve</h3>
+                    <div className="grid md:grid-cols-2 gap-2 mb-6">
+                      <ul className="space-y-1">
+                        <li>• Downtown Lemon Grove</li>
+                        <li>• Broadway Corridor</li>
+                        <li>• Berry Street Area</li>
+                        <li>• Massachusetts Avenue</li>
                       </ul>
-                      <ul className="space-y-2">
-                        <li><strong>Lemon Grove Avenue:</strong> Central north-south connector with apartment complexes and multifamily housing</li>
-                        <li><strong>Trolley Station Area:</strong> Transit-oriented development with newer apartments and commercial spaces</li>
-                        <li><strong>Lincoln Street:</strong> Residential neighborhood near schools with family home cleanout needs</li>
-                        <li><strong>Central Avenue:</strong> Mixed residential and commercial requiring flexible service coordination</li>
+                      <ul className="space-y-1">
+                        <li>• Lemon Grove Avenue</li>
+                        <li>• Trolley Station Area</li>
+                        <li>• Lincoln Street</li>
+                        <li>• Central Avenue</li>
                       </ul>
                     </div>
-
-                    {/* Major Streets */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access Points</h3>
-                    <p className="text-gray-700 mb-4">
-                      Our Lemon Grove San Diego junk removal team knows every street and alley in this compact East County community. This local expertise matters when navigating the area's challenging infrastructure—narrow residential streets, limited street parking, apartment complex parking restrictions, and shared commercial loading zones. We plan each junk pickup Lemon Grove job with detailed access coordination to ensure efficient service:
-                    </p>
-                    <ul className="grid md:grid-cols-2 gap-2 mb-6">
-                      <li>• <strong>Broadway:</strong> Main east-west commercial artery with mixed-use buildings and peak congestion periods</li>
-                      <li>• <strong>Lemon Grove Avenue:</strong> Central corridor with apartment complexes and multifamily access coordination</li>
-                      <li>• <strong>Massachusetts Avenue:</strong> Residential connector with single-family homes and standard driveway access</li>
-                      <li>• <strong>Washington Street:</strong> Trolley station access with transit traffic and pedestrian considerations</li>
-                      <li>• <strong>Berry Street:</strong> Park-adjacent residential with school zone timing requirements</li>
-                      <li>• <strong>Lincoln Street:</strong> Family neighborhood street with mature homes and garage access</li>
-                      <li>• <strong>Central Avenue:</strong> Mixed-use area requiring coordination with small businesses</li>
-                      <li>• <strong>Grove Street:</strong> Compact residential with narrow streets and careful truck navigation</li>
-                    </ul>
 
                     {/* Local Landmarks */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Lemon Grove Landmarks & Reference Points</h3>
@@ -288,28 +285,16 @@ export default function JunkRemovalLemonGrovePage() {
                       </ul>
                     </div>
 
-                    {/* Traffic & Timing */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Traffic Patterns & Service Timing</h3>
-                    <p className="text-gray-700 mb-4">
-                      Lemon Grove's compact layout and commuter traffic affect trash removal Lemon Grove timing throughout the day. Our dispatch team actively monitors local traffic patterns and coordinates with you to schedule service windows that minimize disruption while maximizing efficiency. We've developed specific timing protocols for different Lemon Grove areas and property types:
-                    </p>
-                    <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
-                      <li><strong>Weekday morning rush (7-9 AM):</strong> Broadway and Massachusetts Avenue experience heavy commuter traffic as residents head to I-94 and Route 94. School zones around Berry Street and Mt. Vernon Elementary require careful navigation. We recommend mid-morning (9 AM-12 PM) service windows when streets clear and parking becomes available near apartment complexes and residential properties.</li>
-                      <li><strong>Afternoon school zones (2-4 PM):</strong> Areas near schools experience increased pedestrian and vehicle traffic during pickup hours. Streets around Berry Street Park and educational facilities require extra caution and slower navigation. We prioritize early afternoon (12-2 PM) or late afternoon (after 4 PM) for nearby properties to avoid peak school congestion periods.</li>
-                      <li><strong>Trolley station coordination:</strong> The Lemon Grove Trolley Station creates pedestrian traffic and limited parking near Washington Street and downtown areas. We plan commercial and apartment cleanouts near the station during mid-day periods (10 AM-2 PM) when transit commuter parking pressure is reduced and loading zones are more accessible.</li>
-                      <li><strong>Weekend apartment turnovers:</strong> Property managers often schedule apartment cleanouts for weekends to minimize tenant disruption. We offer Saturday morning (8 AM-12 PM) priority scheduling for apartment complexes and multifamily properties, coordinating with management offices to ensure smooth access to units and dumpster areas without interfering with current resident parking.</li>
-                    </ul>
-
                     {/* Weather */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">East County Weather & Service Planning</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">East County Weather Considerations</h3>
                     <p className="text-gray-700 mb-6">
-                      Lemon Grove's inland East County location brings warmer temperatures and occasional rainfall that impact junk removal operations. Summer heat (June-September) regularly reaches the 80s and 90s, making early morning service windows (7-11 AM) most comfortable for both crew efficiency and property owner convenience during large cleanouts. Our team prioritizes morning scheduling during extreme heat periods, completing physical hauling work before afternoon temperatures peak. Apartment complexes with limited air conditioning in common areas particularly benefit from early service timing. Winter rains (December-February) are infrequent but can affect scheduling for outdoor storage cleanouts and garage access. We monitor weather forecasts and coordinate proactive communication with clients when rain threatens outdoor work areas. The compact nature of Lemon Grove's residential streets means storm water runoff can temporarily fill gutters and limit parking near curbs, requiring flexible scheduling after significant rainfall. Spring and fall offer ideal conditions year-round, with moderate temperatures and minimal weather disruptions for all types of junk removal projects from apartment turnovers to family home estate cleanouts.
+                      Inland location means hot summers (80s-90s) from June to September—we offer early morning service windows for comfort. Winter rains (December-February) occasionally affect outdoor work scheduling.
                     </p>
 
                     {/* What We Remove */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove in Lemon Grove</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">What We Haul From Lemon Grove Properties</h3>
                     <p className="text-gray-700 mb-4">
-                      Our Lemon Grove junk removal service handles the diverse mix of items common to family homes and apartment living—from furniture to appliances to accumulated household items. We remove everything from single pieces to complete apartment and home cleanouts:
+                      Our junk removal lemon grove service handles everything from single items to complete <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>:
                     </p>
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
@@ -350,21 +335,8 @@ export default function JunkRemovalLemonGrovePage() {
                       </div>
                     </div>
 
-                    {/* How Our Service Works */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">How Our Lemon Grove Junk Removal Service Works</h3>
-                    <div className="bg-blue-50 rounded-lg p-6 mb-6">
-                      <ol className="space-y-3 text-gray-700">
-                        <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe what you need removed and your Lemon Grove location. For apartments, let us know about parking restrictions or elevator access. We'll provide estimated pricing based on volume and schedule your service window.</li>
-                        <li><strong>2. Same-Day Scheduling Available:</strong> Call before noon for <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day</a> junk pickup Lemon Grove service throughout the community. We coordinate with apartment property managers for access and schedule around your availability for residential properties.</li>
-                        <li><strong>3. We Arrive & Assess:</strong> Our uniformed crew arrives in clearly marked trucks during your scheduled window. We assess items for removal and provide a final quote before starting work—no hidden fees or surprises. For apartment complexes, we coordinate with management offices as needed.</li>
-                        <li><strong>4. We Load & Haul Everything:</strong> Our team does all lifting, loading, and hauling. We protect floors and doorways, navigate apartment hallways and elevators, and complete removal efficiently. You simply point—we handle the rest, including proper disposal coordination.</li>
-                        <li><strong>5. Eco-Friendly Disposal:</strong> We sort items for donation, recycling, and responsible disposal. Usable furniture goes to local East County charities, recyclables to proper facilities, and only true trash to landfill as last resort. We support Lemon Grove's community organizations whenever possible.</li>
-                        <li><strong>6. Clean Sweep & Payment:</strong> We sweep the area clean after removal and collect payment. Most apartment and residential jobs are completed in under two hours from arrival to departure, ensuring minimal disruption to your day.</li>
-                      </ol>
-                    </div>
-
                     {/* Why Choose Us */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Hauling for Lemon Grove Junk Removal</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Our Junk Removal Lemon Grove Service</h3>
                     <ul className="space-y-3 mb-6">
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
