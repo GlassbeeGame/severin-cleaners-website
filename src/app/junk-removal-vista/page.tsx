@@ -67,35 +67,35 @@ export const metadata: Metadata = {
 const vistaFAQs = [
   {
     question: "How much does junk removal Vista cost?",
-    answer: "Our junk removal vista pricing is transparent and volume-based with no hidden fees. Small items start at $69. Standard items (couches, mattresses, appliances) start at $100. Quarter-load service costs $249 for small cleanouts like a closet, bathroom, or partial garage corner. Half-load runs $349 for bedroom furniture sets, garage sections, or apartment move-outs. Three-quarter load is $429 for larger projects like full garage cleanouts. Full-load service tops out at $495 for complete estate cleanouts, business liquidations, or whole-home removals throughout Vista neighborhoods. All prices include labor, hauling, disposal fees, and eco-friendly sorting. We charge no surcharges for downtown access, Shadowridge hillside properties, or Business Park after-hours service. We provide free estimates over the phone and confirm final pricing on-site before starting work. Our North County location means faster response times and competitive pricing compared to companies traveling from central San Diego or coastal areas."
+    answer: "Our junk removal vista pricing is transparent and volume-based. Small items start at $69. Standard items (couches, mattresses, appliances) start at $100. Quarter-load service costs $249, half-load runs $349, three-quarter load is $429, and full-load service tops out at $495. All prices include labor, hauling, disposal fees, and eco-friendly sorting. We charge no surcharges for downtown access, Shadowridge hillside properties, or Business Park after-hours service. Free estimates provided over the phone or on-site."
   },
   {
     question: "Do you handle apartment and condo junk hauling in Vista?",
-    answer: "Yes, our junk hauling vista ca team specializes in apartment and condo services throughout Downtown Vista Village, Shadowridge complexes, and all North County multi-family properties. We navigate narrow hallways, tight staircases, and elevator coordination with professional care. We protect walls, doors, and common areas throughout the removal process. Our crew coordinates with property managers to schedule around move-in/move-out timelines. We respect HOA guidelines for designated dumpster areas and noise restrictions. We work efficiently to minimize disruption to other residents. Vista's mix of vintage downtown walk-ups near the brewery district and modern elevator buildings in Shadowridge requires different approaches. Our team has experience with both property types. We handle tenant turnovers, estate transitions, and personal downsizing projects in apartments and condos of all sizes. We serve all three Vista zip codes (92081, 92083, and 92084). Whether you're in a compact downtown studio or a spacious Shadowridge townhome, our junk removal vista service adapts to your property's unique access requirements."
+    answer: "Yes, our junk hauling vista ca team specializes in apartment and condo services throughout Downtown Vista Village, Shadowridge complexes, and all North County multi-family properties. We navigate narrow hallways, tight staircases, and elevator coordination while protecting walls, doors, and common areas. We coordinate with property managers, respect HOA guidelines, and handle tenant turnovers, estate transitions, and downsizing projects. We serve all three Vista zip codes (92081, 92083, and 92084) with professional, efficient service."
   },
   {
     question: "Can you provide same-day junk removal Vista service?",
-    answer: "Absolutely, our junk removal vista team offers same-day service 7 days a week throughout North County when you call before noon. Our local dispatch can often arrive within 2-4 hours of your call. This works for emergency cleanouts, moving deadlines, rental property turnovers, or unexpected situations requiring immediate service. Same-day junk hauling vista ca service is especially valuable for time-sensitive needs. These include real estate closing cleanouts with tight escrow deadlines. They also include rental property compliance issues with HOA or landlord deadlines. Estate sale aftermath requiring immediate property clearing benefits from same-day service. Business closures needing rapid space turnover for new tenants also need quick response. We monitor Vista Village Drive and SR-78 traffic conditions to provide accurate arrival windows. We coordinate scheduling around North County commute patterns. Even during busy weekends when many Vista families tackle home projects, our expanded crew capacity ensures same-day availability. We serve Shadowridge, Rancho Buena Vista, Downtown Vista, and all surrounding neighborhoods. Call (619) 750-0114 before noon for same-day service."
+    answer: "Yes, our junk removal vista team offers same-day service 7 days a week throughout North County when you call before noon. We often arrive within 2-4 hours for emergency cleanouts, moving deadlines, rental property turnovers, real estate closing cleanouts, estate sales, and business closures. We monitor Vista Village Drive and SR-78 traffic conditions to provide accurate arrival windows. We serve Shadowridge, Rancho Buena Vista, Downtown Vista, and all surrounding neighborhoods. Call (619) 750-0114 before noon for same-day service."
   },
   {
     question: "Do you work with Vista businesses and warehouses?",
-    answer: "Yes, we provide comprehensive commercial junk hauling vista ca services for businesses throughout Vista Business Park, downtown brewery district, retail centers, and warehouse facilities across all North County commercial zones. Our services include office furniture and cubicle removal during relocations or downsizing, brewery and restaurant equipment disposal including industrial appliances and fixtures, retail space clearing for tenant improvements and remodeling projects, warehouse inventory liquidation and obsolete storage rack removal, and construction debris removal from commercial renovation projects. We work flexible schedules to minimize disruption—offering after-hours service (evenings and weekends) for active businesses, early morning service before business hours for downtown retail properties, and coordinated scheduling around production timelines for warehouse and industrial facilities. Our team understands Vista's commercial landscape, from compact downtown brewery spaces with limited loading access to expansive Business Park warehouses with dock access and forklift coordination. We're licensed, insured, and experienced in commercial junk removal throughout North County's diverse business environment."
+    answer: "Yes, we provide comprehensive commercial junk hauling vista ca services throughout Vista Business Park, downtown brewery district, retail centers, and warehouse facilities. Our services include office furniture removal, brewery and restaurant equipment disposal, warehouse inventory liquidation, and construction debris removal. We offer flexible scheduling with after-hours service (evenings and weekends), early morning service, and coordinated scheduling around production timelines. We're licensed, insured, and experienced with Vista's commercial landscape from compact brewery spaces to expansive Business Park warehouses with dock access."
   },
   {
     question: "Are your junk removal Vista services eco-friendly?",
-    answer: "Yes, eco-friendly disposal is central to our junk removal vista approach throughout North County. We sort every load to maximize recycling and donation opportunities, significantly reducing what goes to local landfills or transfer stations. Usable furniture, working appliances, and household goods in good condition are donated to North County charities including Goodwill, Salvation Army, local churches, and family resource centers serving Vista residents. Metal items—appliances, bed frames, scrap metal—go to San Diego recycling facilities that process materials responsibly and recover valuable metals. Mattresses and box springs are taken to specialized recycling centers that break them down into foam, fabric, and metal components rather than landfilling them whole. Electronics receive certified e-waste recycling with proper handling of hazardous materials including batteries, mercury, and circuit boards per California regulations. Wood debris and yard waste go to composting facilities when possible, and construction materials are sorted for recycling or proper disposal. As a San Diego County service provider, we're committed to responsible disposal practices that benefit Vista's North County community and reduce environmental impact throughout the region."
+    answer: "Yes, our Vista clean junk removal approach prioritizes eco-friendly disposal. We sort every load to maximize recycling and donation opportunities. Usable furniture, appliances, and household goods are donated to North County charities including Goodwill, Salvation Army, and local churches. Metal items go to San Diego recycling facilities. Mattresses go to specialized recycling centers. Electronics receive certified e-waste recycling with proper handling of hazardous materials per California regulations. As a San Diego County service provider, we're committed to responsible disposal practices that reduce environmental impact."
   },
   {
     question: "What areas of Vista do you serve?",
-    answer: "Our local junk removal company covers all Vista CA neighborhoods throughout North County San Diego. We serve Downtown Vista Village along Main Street and Broadway with its historic buildings, craft breweries, and mixed-use properties; Shadowridge hillside community with golf course estates and modern family homes; Rancho Buena Vista with established family neighborhoods and larger lot properties; Buena Creek northern residential area near schools and parks; Vista Business Park commercial and industrial corridor off Sycamore Avenue; Vista Village Drive central corridor with retail centers and apartments; Brengle Terrace park area and surrounding established neighborhoods; and North Vista newer developments near the Oceanside boundary. We also serve all three Vista CA zip codes—92081 (central Vista including downtown and Business Park), 92083 (eastern Vista including Shadowridge), and 92084 (western and southern Vista areas)—with the same reliable, professional junk removal services regardless of neighborhood or property type. Our North County San Diego positioning allows us to efficiently serve Vista along with neighboring communities like Oceanside, San Marcos, Carlsbad, and Escondido as natural extensions of our junk removal services area."
+    answer: "Our local junk removal company covers all Vista CA neighborhoods. We serve Downtown Vista Village, Shadowridge hillside community, Rancho Buena Vista, Buena Creek, Vista Business Park, Vista Village Drive corridor, Brengle Terrace, and North Vista. We also serve all three Vista CA zip codes—92081 (central Vista including downtown and Business Park), 92083 (eastern Vista including Shadowridge), and 92084 (western and southern Vista areas). Our North County San Diego positioning allows us to efficiently serve Vista along with neighboring communities like Oceanside, San Marcos, Carlsbad, and Escondido."
   },
   {
     question: "Do you offer free estimates for Vista junk removal?",
-    answer: "Yes, we provide free, no-obligation estimates for all junk removal vista jobs throughout North County. You can get an initial estimate over the phone by describing what needs to be removed. We'll provide a price range based on estimated volume using our standard quarter-load, half-load, three-quarter, and full-load pricing structure. For larger or complex projects, we offer free on-site estimates. These include complete estate cleanouts, multi-unit apartment property turnovers, warehouse liquidations, or commercial building clearances. Our team visits your Vista property to assess items, evaluate access challenges, and provide exact pricing. On-site estimates are especially helpful for several situations. Shadowridge hillside properties with access considerations benefit from on-site visits. Downtown brewery or retail spaces requiring after-hours coordination need in-person assessment. Business Park warehouses with specialized equipment or materials require on-site evaluation. Accumulations spread across multiple rooms, floors, or storage areas need careful assessment. During same-day service calls, we provide final pricing upon arrival before starting any work. You approve the quote before we touch anything. Our transparent volume-based pricing includes all labor, hauling, disposal fees, and eco-friendly sorting. We charge no hidden fees for stairs, elevators, downtown access, hillside properties, or distance. Call (619) 750-0114 for your free estimate."
+    answer: "Yes, we provide free, no-obligation estimates for all junk removal vista jobs throughout North County. You can get an initial estimate over the phone by describing what needs to be removed based on our quarter-load, half-load, three-quarter, and full-load pricing structure. For larger or complex projects, we offer free on-site estimates for estate cleanouts, apartment turnovers, warehouse liquidations, or commercial clearances. During same-day service calls, we provide final pricing upon arrival before starting any work. Our transparent volume-based pricing includes all labor, hauling, disposal fees, and eco-friendly sorting with no hidden fees. Call (619) 750-0114 for your free estimate."
   },
   {
     question: "Can you remove furniture and appliances in Vista?",
-    answer: "Yes, furniture and appliance removal is one of our primary junk hauling vista ca services throughout North County. We handle all types of furniture including sofas, couches, sectionals, recliners, loveseats, dining room tables and chairs, bedroom furniture sets, mattresses and box springs, dressers and armoires, office desks and filing cabinets, entertainment centers and TV stands, patio furniture and outdoor equipment, and specialized items like pianos, pool tables, and exercise equipment. For appliances, we remove refrigerators, freezers, stand-alone freezers, washers, dryers, dishwashers, stoves, ovens, ranges, microwaves, water heaters, air conditioning units, and commercial-grade appliances with proper handling of refrigerants and hazardous materials per California environmental regulations. Vista's diverse property types—from compact downtown apartments to spacious Shadowridge family homes to Business Park commercial spaces—create varied furniture and appliance removal needs, and we handle them all with equal professionalism. We navigate narrow apartment building hallways and staircases downtown, manage Shadowridge hillside home access with winding streets, coordinate elevator reservations for multi-story buildings, and handle commercial dock access at Business Park warehouses. All furniture in good condition is donated to North County charities, and appliances go to certified recycling facilities for environmentally responsible disposal."
+    answer: "Yes, furniture and appliance removal is one of our primary junk hauling vista ca services. We handle all types of furniture including sofas, sectionals, dining sets, bedroom furniture, mattresses, office furniture, patio furniture, and specialized items like pianos and pool tables. For appliances, we remove refrigerators, washers, dryers, dishwashers, stoves, water heaters, and commercial-grade appliances with proper handling of refrigerants per California regulations. We navigate downtown apartments, Shadowridge hillside homes, and Business Park commercial spaces. All furniture in good condition is donated to North County charities, and appliances go to certified recycling facilities."
   }
 ];
 
@@ -271,7 +271,7 @@ export default function JunkRemovalVistaPage() {
                     </h2>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      Severin Hauling provides professional local junk removal for Vista CA, one of North County San Diego's most dynamic cities. From the craft brewery district in Downtown Vista Village to hillside homes in Shadowridge, our junk removal company handles the diverse needs of this 19-square-mile North County community. We offer same day junk removal Vista CA for family homes, apartments, and business properties throughout the 92081, 92083, and 92084 areas with transparent pricing and eco-friendly junk removal services.
+                      Severin Hauling provides professional Vista clean junk removal for North County San Diego. From the craft brewery district in Downtown Vista Village to hillside homes in Shadowridge, our junk removal company handles the diverse needs of this 19-square-mile North County community. We offer same day junk removal Vista CA for family homes, apartments, and business properties throughout the 92081, 92083, and 92084 areas with transparent pricing and eco-friendly services.
                     </p>
 
                     <p className="text-gray-700 mb-4">
@@ -291,29 +291,9 @@ export default function JunkRemovalVistaPage() {
                     </p>
 
                     {/* Craft Brewery District Specialists */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Downtown Vista Craft Brewery District Specialists</h3>
-                    <p className="text-gray-700 mb-4">
-                      Vista has become North County's craft brewery capital with over a dozen breweries concentrated along Main Street and Broadway. This creates unique junk removal vista needs that differ dramatically from standard residential service. Our team specializes in brewery and restaurant equipment removal with scheduling that works around your active business operations.
-                    </p>
-
-                    <p className="text-gray-700 mb-4">
-                      Craft breweries and restaurants require specialized junk hauling vista ca service. Equipment is heavy and bulky. Access is often limited in historic downtown buildings. Timing must work around customer traffic and business hours. Our team has completed numerous brewery and restaurant cleanouts throughout Downtown Vista Village.
-                    </p>
-
-                    <div className="bg-blue-50 rounded-lg p-6 mb-6">
-                      <h4 className="font-bold mb-3 text-blue-900">Brewery & Restaurant Services We Handle:</h4>
-                      <ul className="space-y-2 text-gray-700">
-                        <li><strong>Brewery equipment removal:</strong> Fermentation tanks, kegs, taps, commercial refrigeration units, and brewing system components during upgrades or closures</li>
-                        <li><strong>Restaurant kitchen cleanouts:</strong> Commercial ovens, grills, fryers, walk-in coolers, prep tables, and kitchen fixtures from renovations or business transitions</li>
-                        <li><strong>Bar and dining furniture:</strong> Tables, chairs, booths, bar tops, shelving, and décor from remodels or concept changes</li>
-                        <li><strong>After-hours scheduling:</strong> Sunday and early morning service (6-9 AM) before business hours to minimize disruption to active operations</li>
-                        <li><strong>Downtown parking coordination:</strong> Understanding Main Street and Broadway access restrictions and loading zone requirements</li>
-                        <li><strong>Quick turnaround service:</strong> Vista junk removal completed efficiently when space must be cleared for new equipment or tenant improvements</li>
-                      </ul>
-                    </div>
-
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Downtown Vista Craft Brewery District</h3>
                     <p className="text-gray-700 mb-6">
-                      <strong>Recent Downtown Vista Example:</strong> We completed a full brewery equipment removal for a Main Street location transitioning to new ownership. The project involved removing four 100-gallon fermentation tanks, commercial refrigeration systems, and bar furniture. We scheduled service for Sunday morning before the new ownership began their buildout. Our crew navigated the narrow rear alley access and coordinated street parking permits with the city. This type of specialized commercial junk removal vista service sets us apart from residential-only competitors.
+                      Vista's Main Street brewery district requires specialized commercial equipment removal. We handle brewery tanks, commercial kitchen equipment, bar furniture, and restaurant fixtures with after-hours scheduling (Sunday mornings, 6-9 AM) to minimize business disruption. Our team navigates downtown parking restrictions and narrow alley access for complete brewery and restaurant cleanouts.
                     </p>
 
                     {/* Neighborhoods Served */}
@@ -336,46 +316,10 @@ export default function JunkRemovalVistaPage() {
                       </ul>
                     </div>
 
-                    {/* Major Streets */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access</h3>
-                    <p className="text-gray-700 mb-4">
-                      Our Vista San Diego junk removal team navigates every major route and neighborhood street in this sprawling North County city. We plan each junk pickup Vista job with detailed routing:
-                    </p>
-                    <ul className="grid md:grid-cols-2 gap-2 mb-6">
-                      <li>• <strong>Vista Village Drive:</strong> Main east-west corridor connecting downtown to eastern developments</li>
-                      <li>• <strong>Sycamore Avenue:</strong> Business Park access road with commercial and industrial traffic</li>
-                      <li>• <strong>Main Street:</strong> Historic downtown core with brewery district and vintage buildings</li>
-                      <li>• <strong>Broadway:</strong> Parallel downtown route with residential and commercial mix</li>
-                      <li>• <strong>Shadowridge Drive:</strong> Hillside community access with winding roads and elevation changes</li>
-                      <li>• <strong>Buena Creek Road:</strong> Northern residential connector serving schools and parks</li>
-                      <li>• <strong>Thibodo Road:</strong> Western access linking to coastal communities via SR-78</li>
-                      <li>• <strong>Mar Vista Drive:</strong> Eastern hillside route with family neighborhoods and canyon views</li>
-                    </ul>
-
                     {/* Business Park Industrial Hub */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Vista Business Park Industrial & Warehouse Services</h3>
-                    <p className="text-gray-700 mb-4">
-                      Vista Business Park off Sycamore Avenue represents one of North County's largest concentrations of commercial and industrial properties. This district requires specialized junk removal vista ca service that differs significantly from residential work. Our team handles warehouse cleanouts, office relocations, and industrial equipment disposal with the scale and flexibility commercial properties demand.
-                    </p>
-
-                    <p className="text-gray-700 mb-4">
-                      Commercial properties need junk hauling vista ca providers who understand business operations. Scheduling must minimize disruption to active warehouse operations. Access requires coordination with loading docks and forklift availability. Volume is typically much larger than residential jobs. Our team has completed dozens of Business Park projects ranging from small office furniture removal to full warehouse liquidations.
-                    </p>
-
-                    <div className="bg-blue-50 rounded-lg p-6 mb-6">
-                      <h4 className="font-bold mb-3 text-blue-900">Business Park Commercial Services:</h4>
-                      <ul className="space-y-2 text-gray-700">
-                        <li><strong>Warehouse inventory liquidation:</strong> Complete clearing of obsolete inventory, damaged goods, and discontinued products when businesses relocate or close</li>
-                        <li><strong>Office furniture and cubicle removal:</strong> Full-scale office cleanouts including desks, chairs, cubicle systems, conference tables, and filing cabinets during downsizing or relocations</li>
-                        <li><strong>Industrial equipment disposal:</strong> Manufacturing equipment, storage racks, shelving systems, and specialized industrial machinery no longer needed</li>
-                        <li><strong>Loading dock access coordination:</strong> Working with facility managers to schedule dock access and coordinate with forklift operators when needed</li>
-                        <li><strong>After-hours service available:</strong> Evening and weekend scheduling (6-9 PM weekdays, full weekends) to avoid disrupting active business operations</li>
-                        <li><strong>Recurring commercial accounts:</strong> Ongoing junk removal vista service contracts for property managers and businesses with regular cleanout needs</li>
-                      </ul>
-                    </div>
-
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Vista Business Park Commercial Services</h3>
                     <p className="text-gray-700 mb-6">
-                      Our Business Park experience includes manufacturing facilities, distribution warehouses, corporate offices, and commercial property management. We understand commercial timelines and the importance of coordinating with your business operations. Whether you need one-time cleanout service or recurring monthly pickups, our vista junk removal team provides the professional, reliable service commercial properties require.
+                      Vista Business Park requires large-scale commercial service. We handle warehouse inventory liquidation, office furniture removal, and industrial equipment disposal with after-hours scheduling (6-9 PM weekdays, weekends) to minimize disruption. Our team coordinates loading dock access and provides recurring service contracts for property managers.
                     </p>
 
                     {/* Local Landmarks */}
@@ -403,83 +347,21 @@ export default function JunkRemovalVistaPage() {
                     </div>
 
                     {/* Shadowridge Golf Community */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Shadowridge Golf Community Premium Services</h3>
-                    <p className="text-gray-700 mb-4">
-                      Shadowridge represents Vista's premier hillside golf course community where homes overlook championship fairways and North County vistas. This community maintains high property standards and HOA regulations that require professional, respectful junk removal vista service. Our team understands Shadowridge expectations and delivers the discretion and quality this premium community deserves.
-                    </p>
-
-                    <div className="bg-blue-50 rounded-lg p-6 mb-6">
-                      <h4 className="font-bold mb-3 text-blue-900">Shadowridge Community Expertise:</h4>
-                      <ul className="space-y-2 text-gray-700">
-                        <li><strong>HOA compliance understanding:</strong> Familiarity with community standards for service vehicle parking, dumpster placement restrictions, and noise considerations during residential cleanouts</li>
-                        <li><strong>Golf course community respect:</strong> Scheduling service to avoid peak golf traffic times and maintaining the quiet, professional atmosphere Shadowridge residents expect</li>
-                        <li><strong>Hillside access experience:</strong> Navigating Shadowridge Drive's winding roads and elevation changes with appropriately sized trucks and experienced crews</li>
-                        <li><strong>Premium estate cleanouts:</strong> Professional handling of large-scale family home cleanouts, estate transitions, and downsizing projects common in this established community</li>
-                        <li><strong>Property protection standards:</strong> Extra care with hardwood floors, tile entryways, and premium finishes throughout the removal process</li>
-                      </ul>
-                    </div>
-
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Shadowridge Golf Community Services</h3>
                     <p className="text-gray-700 mb-6">
-                      Our junk hauling vista ca team has completed numerous Shadowridge projects including full estate cleanouts, garage renovations, and family downsizing. We coordinate with homeowners and property managers to ensure service meets community standards. Whether you're clearing a garage, removing furniture, or handling a complete estate transition, we bring the professionalism Shadowridge properties require.
+                      Shadowridge's hillside golf course community requires HOA-compliant service and hillside access expertise. We handle estate cleanouts, garage renovations, and family downsizing with afternoon scheduling (1-5 PM) to avoid peak golf traffic. Our team protects premium finishes and coordinates with property managers to meet community standards.
                     </p>
 
                     {/* Traffic & Timing */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Traffic & Service Timing</h3>
-                    <p className="text-gray-700 mb-4">
-                      Vista's role as a North County employment and residential center creates traffic patterns affecting junk hauling Vista timing:
+                    <p className="text-gray-700 mb-6">
+                      We schedule around Vista's traffic patterns: mid-morning (9 AM-12 PM) or early afternoon (1-3 PM) for weekday commute hours on Vista Village Drive and SR-78. Downtown brewery cleanouts use Sunday mornings or 6-9 AM slots before business hours.
                     </p>
-                    <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-700">
-                      <li><strong>Weekday commute hours (6:30-8:30 AM, 4-6 PM):</strong> Vista Village Drive, Sycamore Avenue, and SR-78 connections experience heavy commuter traffic as workers travel to/from coastal employment centers and inland destinations. We schedule mid-morning (9 AM-12 PM) or early afternoon (1-3 PM) service windows to avoid these peak periods, particularly for properties near major thoroughfares.</li>
-                      <li><strong>Downtown brewery district (Thu-Sat evenings):</strong> Main Street and Broadway experience nightlife traffic Thursday-Saturday 5 PM-midnight as the craft brewery scene draws crowds. For downtown commercial properties, we recommend early morning (6-9 AM) or Sunday service when streets are clear and business dumpster areas are accessible for coordination.</li>
-                      <li><strong>Business Park operations (weekdays 8 AM-5 PM):</strong> Vista Business Park sees concentrated commercial activity during standard business hours. For warehouse and office cleanouts, we offer after-hours service (6-9 PM weekdays, weekends) to minimize disruption to active operations and ensure clear loading dock access without interfering with business traffic.</li>
-                      <li><strong>Hillside Shadowridge access:</strong> Golf course community experiences member traffic Thursday-Sunday mornings during peak play times (7 AM-12 PM). For Shadowridge properties, afternoon scheduling (1-5 PM) provides clearest access on club streets while respecting the quieter residential atmosphere this premium community expects.</li>
-                    </ul>
 
                     {/* Weather */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">North County Inland Climate</h3>
                     <p className="text-gray-700 mb-6">
-                      Vista's inland North County position creates distinct seasonal patterns affecting junk removal operations. Summer temperatures (June-September) regularly reach 85-95°F, making early morning scheduling (7-10 AM) preferable for crew efficiency and client comfort during property walkthroughs. The warm, dry climate accelerates outdoor storage deterioration—patio furniture, garage-stored items, and backyard equipment show sun damage and heat effects faster than coastal properties, creating year-round junk removal demand. Vista's elevation and distance from the coast means less marine layer influence—mornings are typically clear rather than foggy, allowing earlier start times year-round compared to coastal communities. Winter rainy season (December-February) brings occasional heavy rainfall events that temporarily affect unpaved areas and hillside streets, requiring schedule coordination. Spring and fall (March-May, October-November) offer ideal working conditions with moderate temperatures (65-80°F) and minimal weather disruptions, making these months popular for large-scale garage cleanouts and estate projects that benefit from comfortable outdoor staging areas.
-                    </p>
-
-                    {/* Free vs Professional Comparison */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Free vs. Professional Junk Removal Vista: Real Cost Analysis</h3>
-                    <p className="text-gray-700 mb-4">
-                      Many Vista residents consider renting a truck and hauling items to the dump themselves to save money. This DIY approach seems cost-effective until you calculate actual expenses and time investment. Our professional junk removal vista service often costs less than DIY when you account for all factors.
-                    </p>
-
-                    <div className="grid md:grid-cols-2 gap-6 mb-6">
-                      <div className="bg-red-50 rounded-lg p-6">
-                        <h4 className="font-bold mb-3 text-red-900">DIY Approach Hidden Costs:</h4>
-                        <ul className="space-y-2 text-gray-700">
-                          <li><strong>Truck rental:</strong> $80-150/day from U-Haul or Home Depot plus mileage fees</li>
-                          <li><strong>Dump fees:</strong> $50-120 at landfill depending on load size and material type</li>
-                          <li><strong>Gas costs:</strong> $40-50 for round trips from Vista to dump facilities</li>
-                          <li><strong>Your time:</strong> 5-7 hours loading, driving, waiting, unloading, returning truck</li>
-                          <li><strong>Physical strain:</strong> Heavy lifting risks injury with furniture and appliances</li>
-                          <li><strong>Multiple trips usually needed:</strong> Most home cleanouts require 2-3 loads, multiplying all costs</li>
-                          <li><strong>Everything goes to landfill:</strong> No donation or recycling sorting</li>
-                        </ul>
-                        <p className="mt-4 font-bold text-red-900">Total DIY Cost: $170-320+ plus your entire day</p>
-                      </div>
-
-                      <div className="bg-green-50 rounded-lg p-6">
-                        <h4 className="font-bold mb-3 text-green-900">Professional Service Value:</h4>
-                        <ul className="space-y-2 text-gray-700">
-                          <li><strong>We come to you:</strong> No driving to rental centers or dumps</li>
-                          <li><strong>We do ALL the work:</strong> Complete lifting, loading, and hauling</li>
-                          <li><strong>Complete in 1-2 hours:</strong> Most vista junk removal jobs finish quickly</li>
-                          <li><strong>Professional equipment:</strong> Right trucks and tools for safe hauling</li>
-                          <li><strong>Liability insurance:</strong> Your property is protected throughout</li>
-                          <li><strong>Donation & recycling:</strong> We sort for charities and recycling centers</li>
-                          <li><strong>Same-day available:</strong> Call before noon for same-day junk hauling vista ca service</li>
-                          <li><strong>Zero physical risk:</strong> No lifting, no injury risk, no strain</li>
-                        </ul>
-                        <p className="mt-4 font-bold text-green-900">Professional Cost: $249-495 based on volume</p>
-                      </div>
-                    </div>
-
-                    <p className="text-gray-700 mb-6">
-                      <strong>Business Park & Commercial Properties:</strong> For Business Park warehouses and commercial properties, DIY is even less practical. Commercial equipment requires specialized handling and disposal. Large volumes need multiple truck loads. Business downtime costs money. Our professional junk removal vista ca service handles commercial projects efficiently with proper equipment and scheduling that minimizes your business disruption.
+                      Vista's inland position creates hot summers (85-95°F) and mild winters. Early morning service (7-10 AM) is preferable during summer months for crew efficiency and client comfort.
                     </p>
 
                     {/* What We Remove */}
@@ -525,39 +407,6 @@ export default function JunkRemovalVistaPage() {
                           <li>• <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">Same-day service</a> throughout North County Vista</li>
                         </ul>
                       </div>
-                    </div>
-
-                    {/* Tri-City Medical Center Area */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Tri-City Medical Center Healthcare District Services</h3>
-                    <p className="text-gray-700 mb-4">
-                      Tri-City Medical Center serves as a regional healthcare hub serving Vista and surrounding North County communities. The medical district creates specialized junk removal vista needs for medical offices, healthcare facilities, and hospital employees. Our team provides professional, discreet service that understands healthcare environment requirements.
-                    </p>
-
-                    <div className="bg-blue-50 rounded-lg p-6 mb-6">
-                      <h4 className="font-bold mb-3 text-blue-900">Healthcare District Services:</h4>
-                      <ul className="space-y-2 text-gray-700">
-                        <li><strong>Medical office cleanouts:</strong> Furniture, equipment, and fixtures from office relocations or practice closures with professional handling</li>
-                        <li><strong>Healthcare facility coordination:</strong> Scheduling around patient care hours and facility access requirements</li>
-                        <li><strong>Hospital employee residential services:</strong> Busy medical professionals appreciate flexible scheduling and complete-service junk hauling vista ca for home cleanouts</li>
-                        <li><strong>Senior living facilities:</strong> Estate transitions and furniture removal for senior housing near the medical center</li>
-                      </ul>
-                    </div>
-
-                    <p className="text-gray-700 mb-6">
-                      Our vista junk removal team understands the professional standards healthcare facilities require. We coordinate with facility managers and provide the reliable, discreet service medical environments demand.
-                    </p>
-
-                    {/* How Our Service Works */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">How Our Vista CA Junk Removal Services Work</h3>
-                    <div className="bg-blue-50 rounded-lg p-6 mb-6">
-                      <ol className="space-y-3 text-gray-700">
-                        <li><strong>1. Contact Our Junk Removal Company:</strong> Call (619) 750-0114 or book online. Describe your items and Vista CA location. We'll provide volume-based pricing and schedule your service window for this junk removal solution.</li>
-                        <li><strong>2. We Offer Same Day Service:</strong> Our junk removal team offers same day service throughout North County San Diego when you call before noon. Same-day junk removal trash pickup Vista service available. We coordinate timing around traffic patterns and your schedule preferences.</li>
-                        <li><strong>3. We Arrive & Assess:</strong> Our uniformed junk removal team arrives in clearly marked trucks during your scheduled window. We assess items and provide final pricing before starting—no hidden fees.</li>
-                        <li><strong>4. We Handle All Heavy Lifting:</strong> Our team does all the heavy lifting and loading of your junk removal trash. We protect property, navigate tight spaces, and complete removal efficiently. You simply point—we handle the rest.</li>
-                        <li><strong>5. Eco-Friendly Junk Removal:</strong> We sort for donation, recycling, and responsible disposal with eco-friendly junk removal practices. Usable items go to North County charities, recyclables to proper facilities.</li>
-                        <li><strong>6. Clean Sweep & Payment:</strong> We sweep clean after removing unwanted items and collect payment. Most jobs complete in under two hours.</li>
-                      </ol>
                     </div>
 
                     {/* Why Choose Us */}
