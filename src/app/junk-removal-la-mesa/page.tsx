@@ -11,7 +11,7 @@ import LocationPricingSection from "@/components/LocationPricingSection";
 import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema, generateHowToSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: 'La Mesa Junk Removal • Local HQ = 1-Hour Response | (619) 750-0114',
+  title: 'Junk Removal La Mesa • Local HQ = 1-Hour Response | (619) 750-0114',
   description: 'La Mesa junk removal from our local headquarters. Mount Helix specialists, same-day service, 1-hour response time. Professional junk hauling La Mesa trusts. Call (619) 750-0114',
   keywords: [
     'la mesa junk removal',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     'la mesa junk pickup'
   ],
   openGraph: {
-    title: 'La Mesa Junk Removal • Local HQ = 1-Hour Response | (619) 750-0114',
+    title: 'Junk Removal La Mesa • Local HQ = 1-Hour Response | (619) 750-0114',
     description: 'La Mesa junk removal from our local headquarters. Mount Helix specialists, same-day service, professional hauling.',
     url: 'https://www.severinhauling.com/junk-removal-la-mesa',
     siteName: 'Severin Hauling',
@@ -34,14 +34,14 @@ export const metadata: Metadata = {
       url: 'https://www.severinhauling.com/og-image.jpg',
       width: 1200,
       height: 630,
-      alt: 'La Mesa Junk Removal - Severin Hauling'
+      alt: 'Junk Removal La Mesa - Severin Hauling'
     }],
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'La Mesa Junk Removal • Local HQ = 1-Hour Response',
+    title: 'Junk Removal La Mesa • Local HQ = 1-Hour Response',
     description: 'La Mesa junk removal from our local headquarters. Mount Helix specialists, same-day service.',
     images: ['https://www.severinhauling.com/og-image.jpg'],
   },
@@ -76,7 +76,7 @@ const laMesaFAQs = [
   },
   {
     question: "How much does junk hauling La Mesa cost?",
-    answer: "Pricing is simple and transparent: small single items start at $69, standard furniture pieces at $100, quarter-truck load $249, half-truck $349, three-quarter truck $429, and full truck $495. All prices include labor, hauling, disposal, and eco-friendly recycling. No hidden fees for hillside access or downtown parking."
+    answer: "Our junk removal La Mesa pricing is simple and transparent: small single items start at $69, standard furniture pieces at $100, quarter-truck load $249, half-truck $349, three-quarter truck $429, and full truck $495. All prices include labor, hauling, disposal, and eco-friendly recycling. No hidden fees for hillside access or downtown parking."
   },
   {
     question: "Can you handle Mount Helix hillside properties?",
@@ -92,7 +92,7 @@ const laMesaFAQs = [
   },
   {
     question: "Are you really based in La Mesa?",
-    answer: "Yes, our physical headquarters is at 8900 Grossmont Blvd in La Mesa, CA 91941. This isn't just a mailing address—our trucks, crew, and operations are based here. That's why we can respond faster than companies driving in from North County or other areas."
+    answer: "Yes, we're a local junk removal company in La Mesa with our headquarters at 8900 Grossmont Blvd, CA 91941. This isn't just a mailing address—our trucks, crew, and operations are based here. That's why we can respond faster than companies driving in from North County or other areas."
   },
   {
     question: "Do you recycle or donate items?",
@@ -108,15 +108,15 @@ export default function LaMesaJunkRemovalPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://www.severinhauling.com" },
     { name: "Service Areas", url: "https://www.severinhauling.com/areas-we-serve" },
-    { name: "La Mesa Junk Removal", url: "https://www.severinhauling.com/junk-removal-la-mesa" },
+    { name: "Junk Removal La Mesa", url: "https://www.severinhauling.com/junk-removal-la-mesa" },
   ]);
 
   const faqSchema = generateFAQSchema(laMesaFAQs);
 
   const serviceSchema = {
     "@type": "Service",
-    "name": "La Mesa Junk Removal and Hauling",
-    "description": "Professional junk removal La Mesa CA. Locally headquartered with 1-hour response time, transparent pricing, and eco-friendly disposal. Serving Mount Helix, Fletcher Hills, La Mesa Village, and all East County neighborhoods.",
+    "name": "Junk Removal La Mesa - Professional Hauling Services",
+    "description": "Professional junk removal in La Mesa, CA. Locally headquartered junk removal service with 1-hour response time, transparent pricing, and eco-friendly disposal. Serving Mount Helix, Fletcher Hills, La Mesa Village, and all East County neighborhoods.",
     "url": "https://www.severinhauling.com/junk-removal-la-mesa",
     "serviceType": "Junk Removal and Hauling",
     "provider": {
@@ -232,7 +232,7 @@ export default function LaMesaJunkRemovalPage() {
               </div>
 
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                La Mesa Junk Removal
+                Junk Removal La Mesa
               </h1>
 
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
@@ -289,7 +289,7 @@ export default function LaMesaJunkRemovalPage() {
                     </div>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      Need junk removal La Mesa can count on? Severin Hauling operates from 8900 Grossmont Blvd—not driving in from North County or Carlsbad. Booking junk removal with us is easy and stress free: call, get a free estimate, and we're there.
+                      Looking for junk removal in La Mesa you can count on? Severin Hauling operates from 8900 Grossmont Blvd—not driving in from North County or Carlsbad. When you need junk removal in La Mesa, we're already here: call, get a free estimate, and we arrive in 1-2 hours.
                     </p>
                     <p className="text-lg mb-6 text-gray-700">
                       Our local headquarters means 1-2 hour response times throughout Mount Helix hillside estates, Fletcher Hills family homes, La Mesa Village downtown properties, and every neighborhood in the 91941, 91942, and 91944 zip codes.
@@ -450,7 +450,7 @@ export default function LaMesaJunkRemovalPage() {
                     {/* Local Knowledge */}
                     <h3 className="text-2xl font-bold mt-10 mb-4">Why Local Headquarters Matters</h3>
                     <p className="text-gray-700 mb-4">
-                      A lot of junk removal companies claim to serve La Mesa while operating from North County or Orange County. Our 8900 Grossmont Blvd headquarters is the real thing. Here's what that means for you:
+                      A lot of companies advertise junk removal La Mesa while operating from North County or Orange County. Our 8900 Grossmont Blvd headquarters is the real thing—we're actually based here. Here's what that means for you:
                     </p>
                     <ul className="space-y-3 mb-8">
                       <li className="flex items-start">
