@@ -12,7 +12,7 @@ import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggreg
 
 export const metadata: Metadata = {
   title: 'Junk Removal Santee | Santee Lakes RV • Trolley Square | (619) 750-0114',
-  description: 'Junk removal Santee specialists: Santee Lakes RV equipment, Trolley Square apartments, Carlton Hills garages. Recreation gear, family homes, commercial. Same-day service.',
+  description: 'Junk removal Santee: RV equipment, Trolley Square apartments, Carlton Hills garages. Recreation gear specialists. Same-day service (619) 750-0114.',
   keywords: [
     'junk removal santee',
     'santee junk removal',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Junk Removal Santee | Santee Lakes RV • Trolley Square • Carlton Hills',
-    description: 'Junk removal Santee: Santee Lakes RV equipment, Trolley Square apartments, Carlton Hills family garages. Recreation gear specialists. Call (619) 750-0114.',
+    description: 'Junk removal Santee: RV equipment, Trolley Square apartments, Carlton Hills garages. Recreation gear specialists. Same-day service (619) 750-0114.',
     url: 'https://www.severinhauling.com/junk-removal-santee',
     siteName: 'Severin Hauling',
     images: [{
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Junk Removal Santee | Santee Lakes RV • Trolley Square • Carlton Hills',
-    description: 'Junk removal Santee: Santee Lakes RV equipment, Trolley Square apartments, Carlton Hills family garages. Recreation gear specialists. Call (619) 750-0114.',
+    description: 'Junk removal Santee: RV equipment, Trolley Square apartments, Carlton Hills garages. Recreation gear specialists. Same-day service (619) 750-0114.',
     images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
@@ -75,7 +75,7 @@ const santeeFAQs = [
     answer: "Pricing ranges from $69 for small items to $495 for full-truck loads. Quarter-load ($249), half-load ($349), and three-quarter load ($429) options available. All prices include labor, hauling, disposal, and cleanup. No hidden fees or surcharges for Carlton Hills hillside access. Free phone estimates with final pricing confirmed on-site before work begins."
   },
   {
-    question: "Do you handle garage cleanouts and bulky item pickup in Santee?",
+    question: "Do you handle garage cleanouts and junk removal Santee families need?",
     answer: "Yes, we specialize in garage cleanouts for Carlton Hills, Sky Ranch, and West Hills family homes. We remove furniture, appliances, exercise equipment, RV gear, camping equipment, and household storage. Our team protects walls and flooring, works efficiently (most jobs complete in 1-2 hours), and sweeps clean when finished. Same-day availability for urgent cleanouts."
   },
   {
@@ -115,7 +115,7 @@ export default function JunkRemovalSanteePage() {
 
   const serviceSchema = {
     "@type": "Service",
-    "name": "Junk Removal in Santee",
+    "name": "Junk Removal Santee - RV & Recreation Equipment Specialists",
     "description": "Professional junk removal Santee for family homes, garage cleanouts, Carlton Hills, Sky Ranch. East County specialists with same-day service and eco-friendly disposal.",
     "url": "https://www.severinhauling.com/junk-removal-santee",
     "serviceType": "Junk Removal",
@@ -289,7 +289,7 @@ export default function JunkRemovalSanteePage() {
                     </div>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      Need junk removal in Santee? We serve East County's family-oriented community from our La Mesa headquarters. Booking junk removal is easy and stress free: call, get a free no-obligation estimate, and we handle everything in the 92071 zip code.
+                      Looking for junk removal Santee CA families trust? We serve East County's family-oriented community from our La Mesa headquarters. Booking our junk removal Santee service is easy and stress free: call, get a free no-obligation estimate, and we handle everything in the 92071 zip code.
                     </p>
                     <p className="text-lg mb-4 text-gray-700">
                       We specialize in what Santee actually needs. Santee Lakes RV equipment and camping gear removal. Trolley Square apartment turnovers. Carlton Hills family garage cleanouts. Mission Gorge commercial clearing. We navigate hillside access, packed two-car garages, and mixed-use property logistics without the hassle.
@@ -299,7 +299,7 @@ export default function JunkRemovalSanteePage() {
                     </p>
 
                     {/* Santee Lakes Recreation & RV Equipment Specialists */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Santee Lakes Recreation & RV Equipment Specialists</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Santee Lakes Junk Removal - RV & Recreation Equipment Specialists</h3>
                     <p className="text-gray-700 mb-4">
                       Santee Lakes Recreation Preserve creates unique disposal needs for East County families. We handle RV equipment (awnings, generators, tanks, hitches, RV furniture), camping gear, boats, kayaks, and patio furniture from Santee's outdoor lifestyle.
                     </p>
