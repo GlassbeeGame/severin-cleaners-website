@@ -7,17 +7,19 @@ import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
-import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { generateServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema, generateHowToSchema } from "@/lib/schema";
 import OptimizedGradientHero from "@/components/OptimizedGradientHero";
+import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Emergency Junk Removal San Diego - Same Day & Last Minute Service",
-  description: "Emergency junk removal San Diego today! Same-day, weekend & immediate dispatch urgent trash removal. Licensed & insured. Call (619) 750-0114 for immediate service!",
+  title: "Emergency Junk Removal San Diego - Crisis Response & Urgent Hauling",
+  description: "Emergency junk removal San Diego for crisis situations - eviction deadlines, foreclosure cleanouts, fire/water damage debris, HOA violations. Licensed & insured. Call (619) 750-0114.",
   keywords: [
-    "emergency junk removal San Diego today",
+    "emergency junk removal san diego",
+    "urgent junk removal san diego",
+    "emergency junk removal san diego today",
     "same day junk removal San Diego",
     "urgent trash removal San Diego now",
-    "24 hour junk removal San Diego",
     "weekend junk removal San Diego Saturday Sunday",
     "last minute junk removal San Diego",
     "urgent junk hauling",
@@ -64,42 +66,136 @@ export const metadata: Metadata = {
 
 const emergencyFAQs = [
     {
-      question: "What are your emergency junk removal prices?",
-      answer: "Small Items: $69+ • Standard Items: $100+, 1/4 Trailer Load: $249, 3/8 Trailer Load: $319, 1/2 Trailer Load: $349, 5/8 Trailer Load: $366, 3/4 Trailer Load: $429, 7/8 Trailer Load: $462, Full Trailer Load: $495. Prices include labor, hauling, proper disposal, and cleanup. Additional fees may apply for unusually heavy items or special handling."
+      question: "What qualifies as emergency junk removal San Diego vs same-day service?",
+      answer: "Emergency junk removal San Diego is for crisis situations with legal, financial, or safety deadlines—eviction cleanouts, foreclosure deadlines, fire/water damage debris, HOA violations with fines pending, or court-ordered removals. Same-day service is for planned urgent needs without consequences. If you're facing a deadline with penalties, that's emergency service."
     },
     {
-      question: "Do you offer same day junk removal in San Diego?",
-      answer: "Yes, we specialize in same day junk removal San Diego with emergency crews available throughout the county. Most requests are handled within 2-4 hours of your call, depending on location and current demand."
+      question: "How quickly can you respond for emergency junk removal San Diego?",
+      answer: "For true crisis situations like eviction deadlines, foreclosure cleanouts, or HOA violation deadlines, we dispatch within 1-2 hours throughout San Diego County. Response time depends on your location and our crew availability, but emergency situations get priority dispatch."
     },
     {
-      question: "Can you come on weekends for emergency junk removal?",
-      answer: "Absolutely. We provide weekend junk removal San Diego Saturday Sunday service with dedicated emergency crews. Weekend availability is one of our specialties for urgent situations."
+      question: "Do you charge rush fees for emergency junk removal San Diego?",
+      answer: "No rush fees or surge pricing. Emergency junk removal San Diego pricing is the same as our regular service: $69-$100 single items, $249 quarter-load, $349 half-load, $495 full load. All prices include labor, hauling, and disposal—no emergency upcharges when you're already under pressure."
     },
     {
-      question: "How quickly can you arrive for urgent trash removal San Diego?",
-      answer: "For emergency junk removal San Diego today requests, we typically arrive within 2-4 hours. In some cases, we can dispatch crews within 1 hour for true emergencies like foreclosure cleanouts or tenant issues."
+      question: "Can you handle eviction cleanouts and foreclosure junk removal?",
+      answer: "Yes. We specialize in eviction deadline cleanouts and foreclosure junk removal throughout San Diego County. We clear abandoned tenant property, provide before/after photos for legal documentation, work with property managers and banks, and meet your deadlines so you avoid lost rental income or delayed closings."
     },
     {
-      question: "Do you handle bulky or heavy items during emergency calls?",
-      answer: "Yes, our emergency crews are equipped to handle everything from single items like refrigerators and couches to complete property cleanouts. We bring the necessary equipment for heavy lifting and safe removal."
+      question: "Do you remove fire damage debris and water damage junk?",
+      answer: "Yes. Our emergency junk removal San Diego service handles fire damage debris (smoke-damaged furniture, charred materials, ash-covered items) and water damage junk (flood-damaged furniture, mold-contaminated items, waterlogged belongings). We provide documentation for insurance claims including before/after photos, itemized lists, and weight tickets."
     },
     {
-      question: "Is there an extra cost for last minute or emergency service?",
-      answer: "Our pricing remains transparent even for last minute junk removal San Diego requests. While emergency service may include a small urgency fee, we provide upfront pricing with no hidden charges."
+      question: "Can you help with HOA violation compliance cleanouts?",
+      answer: "Absolutely. San Diego HOA violations typically have 3-10 day deadlines with escalating fines. Our emergency junk removal San Diego service clears garage storage violations, front yard junk citations, and driveway violations before fines hit. We provide before/after photos you can submit to your HOA proving compliance."
+    },
+    {
+      question: "Do you work with property managers for emergency cleanouts?",
+      answer: "Yes. We work with property managers, landlords, banks, and asset managers throughout San Diego County for emergency cleanouts. We understand tight turnovers, provide documentation, and offer partnership pricing for repeat emergency service."
     },
     {
       question: "What areas do you cover for emergency junk removal San Diego?",
-      answer: "We provide emergency junk removal service throughout the entire county, from coastal areas like La Jolla and Pacific Beach to inland communities like El Cajon and Santee. Call to confirm immediate availability in your area."
+      answer: "All San Diego County—Chula Vista, El Cajon, Oceanside, La Jolla, Pacific Beach, Escondido, Vista, Santee, National City, and every San Diego neighborhood. We dispatch emergency crews countywide for crisis situations."
+    },
+    {
+      question: "Do you provide documentation for insurance, court, or HOA compliance?",
+      answer: "Yes. We provide before/after photos, itemized removal lists, weight tickets, and receipts with service dates. This documentation satisfies insurance adjusters, courts, HOAs, banks, and property managers for emergency junk removal San Diego situations."
+    },
+    {
+      question: "Can you handle large emergency cleanouts like full-house foreclosures?",
+      answer: "Yes. We can clear full-house foreclosures, complete eviction cleanouts, and large estate emergency situations in a single visit. Most full-house emergency cleanouts take 4-8 hours. We have the capacity for any size crisis throughout San Diego County."
     }
   ];
 
 export default function EmergencyJunkRemovalPage() {
   const serviceSchema = generateServiceSchema({
     name: "Emergency Junk Removal San Diego",
-    description: "Emergency junk removal service for urgent situations. Same-day, weekend, and immediate dispatch service available throughout San Diego County.",
+    description: "Emergency junk removal San Diego for crisis situations - eviction deadlines, foreclosure cleanouts, fire damage debris, water damage debris, HOA violations, court-ordered removals. Immediate dispatch throughout San Diego County.",
     url: "https://www.severinhauling.com/emergency-junk-removal-san-diego",
     serviceType: "Emergency Junk Removal Service",
     areaServed: "San Diego County, CA",
+  });
+
+  const localBusinessSchema = {
+    "@type": "LocalBusiness",
+    "@id": "https://www.severinhauling.com/emergency-junk-removal-san-diego#business",
+    "name": "Severin Hauling - Emergency Junk Removal San Diego",
+    "image": "https://www.severinhauling.com/optimized/estate.jpg",
+    "telephone": "+1-619-750-0114",
+    "priceRange": "$69-$495",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Diego",
+      "addressRegion": "CA",
+      "postalCode": "92101",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.7157,
+      "longitude": -117.1611
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "San Diego"
+    },
+    "openingHours": "Mo-Su 00:00-23:59",
+    "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
+    "currenciesAccepted": "USD",
+    "aggregateRating": generateAggregateRatingSchema(),
+    "knowsAbout": [
+      "Emergency junk removal San Diego",
+      "Eviction deadline cleanouts",
+      "Foreclosure junk removal",
+      "Fire damage debris removal",
+      "Water damage junk removal",
+      "HOA violation compliance cleanouts",
+      "Court-ordered junk removal",
+      "Property management emergency cleanouts"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Emergency Junk Removal Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Eviction Deadline Cleanouts",
+            "url": "https://www.severinhauling.com/foreclosure-eviction-cleanout-san-diego"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Fire Damage Debris Removal",
+            "url": "https://www.severinhauling.com/emergency-junk-removal-san-diego"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Water Damage Junk Removal",
+            "url": "https://www.severinhauling.com/emergency-junk-removal-san-diego"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "HOA Violation Compliance",
+            "url": "https://www.severinhauling.com/emergency-junk-removal-san-diego"
+          }
+        }
+      ]
+    }
+  };
+
+  const howToSchema = generateHowToSchema({
+    cityName: "San Diego (Emergency Service)",
+    pageUrl: "https://www.severinhauling.com/emergency-junk-removal-san-diego"
   });
 
   const breadcrumbSchema = generateBreadcrumbSchema([
@@ -112,7 +208,7 @@ export default function EmergencyJunkRemovalPage() {
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema, faqSchema]
+    "@graph": [serviceSchema, localBusinessSchema, howToSchema, breadcrumbSchema, faqSchema]
   };
 
   const relatedServices = [
@@ -145,11 +241,54 @@ export default function EmergencyJunkRemovalPage() {
 
                     {/* Fast & Reliable Section */}
                     <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                      Fast & Reliable Junk Removal Available Today
+                      Emergency Junk Removal San Diego - Crisis Response & Urgent Hauling
                     </h2>
-                    <p className="text-xl text-gray-600 mb-8">
-                      When you need urgent trash removal San Diego now, Severin Hauling delivers immediate junk hauling solutions in <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach</a>, <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, and <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">Kearny Mesa</a> commercial areas. Our last minute junk removal San Diego service operates 7 days a week, including weekend junk removal San Diego Saturday Sunday availability in <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a>, <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, and <a href="/junk-removal-hillcrest" className="text-blue-600 hover:underline">Hillcrest</a>. No job too big, no timeline too tight. Learn more about our <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day junk removal</a> service.
+
+                    {/* Desktop float-right image */}
+                    <div className="float-right ml-6 mb-6 w-80 hidden md:block">
+                      <div className="relative w-full aspect-[3/4] rounded-lg overflow-hidden shadow-md">
+                        <Image
+                          src="/optimized/estate.jpg"
+                          alt="Emergency junk removal San Diego - crisis response hauling and urgent debris removal service"
+                          fill
+                          className="object-cover"
+                          sizes="320px"
+                        />
+                      </div>
+                    </div>
+
+                    {/* Mobile stacked image */}
+                    <div className="block md:hidden mb-6">
+                      <div className="relative w-full aspect-[3/4] rounded-lg overflow-hidden shadow-md">
+                        <Image
+                          src="/optimized/estate.jpg"
+                          alt="Emergency junk removal San Diego - crisis response hauling and urgent debris removal service"
+                          fill
+                          className="object-cover"
+                          sizes="100vw"
+                          priority
+                        />
+                      </div>
+                    </div>
+
+                    <p className="text-xl text-gray-700 mb-4">
+                      When you're facing an <strong>emergency junk removal San Diego</strong> situation with a real deadline, you need crisis response—not just fast service. Eviction notices, foreclosure cleanouts, fire damage debris, water damage cleanup, HOA violation deadlines, or court-ordered removals all require immediate dispatch and professional handling.
                     </p>
+                    <p className="text-xl text-gray-700 mb-6">
+                      Our <strong>emergency junk removal San Diego</strong> service provides urgent hauling throughout San Diego County for crisis situations where legal, financial, or safety consequences are at stake. We serve all areas including <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>, <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, and every San Diego neighborhood. Licensed, insured, and ready to respond.
+                    </p>
+
+                    <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 mb-8">
+                      <h4 className="text-xl font-bold mb-3 text-yellow-900">Crisis Response vs. Convenience Service</h4>
+                      <p className="text-yellow-800 mb-3">
+                        <strong>Emergency junk removal San Diego</strong> is for crisis situations with deadlines and consequences—not just "I want it done today." If you're facing eviction deadlines, foreclosure timelines, HOA fines, insurance claim requirements, or court orders, that's emergency service.
+                      </p>
+                      <p className="text-yellow-800">
+                        For planned urgent service without legal or financial consequences, see our <a href="/same-day-junk-removal-san-diego" className="text-yellow-900 font-bold hover:underline">same-day junk removal</a> page.
+                      </p>
+                    </div>
+
+                    <div className="clear-both"></div>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
                       <div className="text-center">
@@ -185,192 +324,293 @@ export default function EmergencyJunkRemovalPage() {
 
                     {/* What's Included Section */}
                     <h2 className="text-4xl font-bold text-gray-900 mb-8">
-                      What's Included in Our Emergency Junk Removal
+                      What Crisis Situations We Handle
                     </h2>
-                    <p className="text-xl text-gray-600 mb-8">
-                      Our same day junk removal San Diego service handles everything from single items to complete property cleanouts with immediate pickup and eco-friendly disposal.
+                    <p className="text-xl text-gray-700 mb-8">
+                      Our crisis response service handles the most common emergency situations San Diego property managers, landlords, homeowners, and banks face when deadlines and consequences are at stake.
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                       <div>
-                        <h3 className="text-2xl font-bold text-gray-900 mb-4">Household Items</h3>
+                        <h3 className="text-2xl font-bold text-gray-900 mb-4">Eviction & Foreclosure Items</h3>
                         <ul className="space-y-2">
                           <li className="flex items-center gap-3">
-                            <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg className="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                             </svg>
-                            <span>Furniture (sofas, mattresses, tables, chairs)</span>
+                            <span>Abandoned tenant furniture and belongings</span>
                           </li>
                           <li className="flex items-center gap-3">
-                            <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg className="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                             </svg>
-                            <span>Appliances (refrigerators, washers, dryers, stoves)</span>
+                            <span>Foreclosed property junk and debris</span>
                           </li>
                           <li className="flex items-center gap-3">
-                            <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg className="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                             </svg>
-                            <span>Electronics & e-waste disposal</span>
+                            <span>REO property trash-outs for banks</span>
                           </li>
                           <li className="flex items-center gap-3">
-                            <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg className="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                             </svg>
-                            <span>Hot tubs and exercise equipment</span>
+                            <span>Property manager emergency turnovers</span>
                           </li>
                         </ul>
                       </div>
 
                       <div>
-                        <h3 className="text-2xl font-bold text-gray-900 mb-4">Commercial & Construction</h3>
+                        <h3 className="text-2xl font-bold text-gray-900 mb-4">Fire, Water & Damage Debris</h3>
                         <ul className="space-y-2">
                           <li className="flex items-center gap-3">
-                            <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg className="w-5 h-5 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                             </svg>
-                            <span>Construction debris & renovation waste</span>
+                            <span>Smoke-damaged furniture and belongings</span>
                           </li>
                           <li className="flex items-center gap-3">
-                            <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg className="w-5 h-5 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                             </svg>
-                            <span>Yard waste & landscaping debris</span>
+                            <span>Waterlogged and mold-contaminated items</span>
                           </li>
                           <li className="flex items-center gap-3">
-                            <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg className="w-5 h-5 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                             </svg>
-                            <span>Office furniture and equipment</span>
+                            <span>Flood damage debris and ruined materials</span>
                           </li>
                           <li className="flex items-center gap-3">
-                            <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg className="w-5 h-5 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                             </svg>
-                            <span>Full property cleanouts & move-out hauling</span>
+                            <span>Charred materials and ash-covered belongings</span>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div>
+                        <h3 className="text-2xl font-bold text-gray-900 mb-4">HOA & Court-Ordered Removals</h3>
+                        <ul className="space-y-2">
+                          <li className="flex items-center gap-3">
+                            <svg className="w-5 h-5 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Garage storage violations (HOA citations)</span>
+                          </li>
+                          <li className="flex items-center gap-3">
+                            <svg className="w-5 h-5 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Front yard and driveway junk citations</span>
+                          </li>
+                          <li className="flex items-center gap-3">
+                            <svg className="w-5 h-5 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Probate estate cleanouts (court deadlines)</span>
+                          </li>
+                          <li className="flex items-center gap-3">
+                            <svg className="w-5 h-5 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Divorce decree property divisions</span>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div>
+                        <h3 className="text-2xl font-bold text-gray-900 mb-4">Full Property Cleanouts</h3>
+                        <ul className="space-y-2">
+                          <li className="flex items-center gap-3">
+                            <svg className="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Complete house cleanouts (all rooms cleared)</span>
+                          </li>
+                          <li className="flex items-center gap-3">
+                            <svg className="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Garage and storage unit emergency clearing</span>
+                          </li>
+                          <li className="flex items-center gap-3">
+                            <svg className="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Appliances (washers, dryers, refrigerators)</span>
+                          </li>
+                          <li className="flex items-center gap-3">
+                            <svg className="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span>Electronics, e-waste, construction debris</span>
                           </li>
                         </ul>
                       </div>
                     </div>
 
-                    {/* Common Situations Section */}
+                    {/* Crisis Situations Section */}
                     <h2 className="text-4xl font-bold text-gray-900 mb-8">
-                      Common Emergency Situations We Solve
+                      Crisis Situations Requiring Emergency Junk Removal San Diego
                     </h2>
-                    <p className="text-xl text-gray-600 mb-8">
-                      When life throws unexpected challenges your way, our urgent trash removal San Diego now service provides immediate solutions for these time-sensitive situations:
+                    <p className="text-xl text-gray-700 mb-8">
+                      Our <strong>emergency junk removal San Diego</strong> service handles crisis situations where you're facing real deadlines with legal, financial, or safety consequences. These aren't convenience requests—they're situations where immediate response matters.
                     </p>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-                      <div className="bg-gray-50 p-6 rounded-lg">
-                        <h3 className="text-lg font-bold text-gray-900 mb-3">🏠 Tenant Turnover</h3>
-                        <p className="text-gray-600">Last minute apartment cleanouts when tenants leave behind furniture and belongings</p>
+                    <div className="space-y-6 mb-12">
+                      <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg">
+                        <h3 className="text-2xl font-bold text-red-900 mb-3">⚖️ Eviction Deadline Cleanouts</h3>
+                        <p className="text-gray-700 mb-3">
+                          Tenant left property full of junk and you have 3 days before the new tenant moves in or you face carrying costs on an empty unit. Eviction cleanouts require fast response and documentation. Our <strong>emergency junk removal San Diego</strong> crews clear abandoned tenant property, provide before/after photos for legal protection, and get you turnover-ready before you lose rental income.
+                        </p>
+                        <p className="text-gray-700">
+                          <strong>Common scenarios:</strong> 3-day, 5-day, 30-day eviction notices • Abandoned property after sheriff's lockout • Property manager emergency turnovers • Landlord deadline cleanouts
+                        </p>
                       </div>
-                      <div className="bg-gray-50 p-6 rounded-lg">
-                        <h3 className="text-lg font-bold text-gray-900 mb-3">🔍 Landlord Inspections</h3>
-                        <p className="text-gray-600">Urgent property cleanup before scheduled inspections or showings</p>
+
+                      <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg">
+                        <h3 className="text-2xl font-bold text-blue-900 mb-3">🏦 Foreclosure & Bank Cleanouts</h3>
+                        <p className="text-gray-700 mb-3">
+                          Foreclosure sale closes Friday and the property is still full of junk from the previous owner. Banks and asset managers need fast cleanouts with documentation for compliance. We clear REO properties throughout San Diego County, provide itemized lists and weight tickets, and ensure legal disposal so the sale can close on schedule.
+                        </p>
+                        <p className="text-gray-700">
+                          <strong>Common scenarios:</strong> REO property cleanouts • Asset manager deadline cleanouts • Bank-ordered trash-outs • Pre-sale emergency clearing
+                        </p>
                       </div>
-                      <div className="bg-gray-50 p-6 rounded-lg">
-                        <h3 className="text-lg font-bold text-gray-900 mb-3">🏦 Foreclosure Cleanouts</h3>
-                        <p className="text-gray-600">Bank-ordered emergency cleanouts with tight deadlines</p>
+
+                      <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-lg">
+                        <h3 className="text-2xl font-bold text-orange-900 mb-3">🔥 Fire Damage Debris Removal</h3>
+                        <p className="text-gray-700 mb-3">
+                          San Diego's fire season means smoke-damaged furniture, charred materials, and ash-covered belongings need immediate removal before insurance claims can proceed. Our <strong>emergency junk removal San Diego</strong> service handles fire damage debris safely, provides documentation for insurance adjusters, and clears properties so repairs can begin.
+                        </p>
+                        <p className="text-gray-700">
+                          <strong>Common scenarios:</strong> Wildfire damaged property cleanup • House fire debris removal • Garage fire cleanouts • Smoke-damaged furniture disposal
+                        </p>
                       </div>
-                      <div className="bg-gray-50 p-6 rounded-lg">
-                        <h3 className="text-lg font-bold text-gray-900 mb-3">📦 Moving Deadlines</h3>
-                        <p className="text-gray-600">Last minute junk removal before moving trucks arrive</p>
+
+                      <div className="bg-cyan-50 border-l-4 border-cyan-500 p-6 rounded-lg">
+                        <h3 className="text-2xl font-bold text-cyan-900 mb-3">💧 Water Damage Junk Removal</h3>
+                        <p className="text-gray-700 mb-3">
+                          Pipe burst, roof leak, or flooding left your property full of waterlogged furniture, mold-contaminated items, and soaked belongings. Insurance needs it cleared before processing claims. Water damage spreads fast—our emergency crews remove flood-damaged materials quickly, provide documentation, and prevent mold from spreading.
+                        </p>
+                        <p className="text-gray-700">
+                          <strong>Common scenarios:</strong> Pipe burst cleanouts • Flood damage debris • Water heater failures • Roof leak furniture removal
+                        </p>
                       </div>
-                      <div className="bg-gray-50 p-6 rounded-lg">
-                        <h3 className="text-lg font-bold text-gray-900 mb-3">🎉 Post-Event Cleanup</h3>
-                        <p className="text-gray-600">Immediate trash removal after parties, events, or gatherings</p>
+
+                      <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-lg">
+                        <h3 className="text-2xl font-bold text-yellow-900 mb-3">🏘️ HOA Violation Compliance Cleanouts</h3>
+                        <p className="text-gray-700 mb-3">
+                          HOA sent a violation letter with a 72-hour deadline to clear your garage or face $500 fines. San Diego HOAs enforce storage violations strictly. Our <strong>emergency junk removal San Diego</strong> service gets you compliant before fines hit, provides before/after photos for your HOA response, and clears violations fast.
+                        </p>
+                        <p className="text-gray-700">
+                          <strong>Common scenarios:</strong> Garage storage violations • Front yard junk citations • Driveway violation cleanouts • Side yard debris removal before HOA fines
+                        </p>
                       </div>
-                      <div className="bg-gray-50 p-6 rounded-lg">
-                        <h3 className="text-lg font-bold text-gray-900 mb-3">👥 Unexpected Guests</h3>
-                        <p className="text-gray-600">Quick home decluttering when family or guests arrive unexpectedly</p>
+
+                      <div className="bg-purple-50 border-l-4 border-purple-500 p-6 rounded-lg">
+                        <h3 className="text-2xl font-bold text-purple-900 mb-3">📋 Court-Ordered Cleanouts</h3>
+                        <p className="text-gray-700 mb-3">
+                          Probate deadline, divorce decree property division, or legal mandate to clear property by a court date. Court deadlines are non-negotiable. We provide neutral third-party junk removal, document everything for court compliance (before/after photos, itemized lists, weight tickets), and meet your legal deadlines.
+                        </p>
+                        <p className="text-gray-700">
+                          <strong>Common scenarios:</strong> Probate estate cleanouts • Divorce decree property clearing • Court-ordered hoarding cleanup • APS-mandated cleanouts
+                        </p>
                       </div>
                     </div>
 
                     {/* Process Section */}
                     <h2 id="process" className="text-4xl font-bold text-gray-900 mb-8">
-                      Our Same-Day Emergency Process
+                      Emergency Junk Removal San Diego Response Process
                     </h2>
-                    <p className="text-xl text-gray-600 mb-12">
-                      From your call to completion, our same-day junk removal San Diego service follows this streamlined emergency response process:
+                    <p className="text-xl text-gray-700 mb-8">
+                      When you're facing a crisis deadline, our <strong>emergency junk removal San Diego</strong> process is built for speed and reliability. From eviction notices to foreclosure deadlines, we understand that time matters when legal or financial consequences are at stake.
+                    </p>
+                    <p className="text-xl text-gray-700 mb-12">
+                      Here's how our <strong>emergency junk removal San Diego</strong> service responds to crisis situations:
                     </p>
 
                     <div className="space-y-8 mb-12">
                       <div className="flex items-start gap-6">
                         <div className="flex-shrink-0 w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-xl">1</div>
                         <div>
-                          <h3 className="text-2xl font-bold text-gray-900 mb-2">Call Now - Immediate Response</h3>
-                          <p className="text-gray-600">Speak directly with our local San Diego emergency dispatch team. No phone trees or callbacks - immediate human support for urgent situations.</p>
+                          <h3 className="text-2xl font-bold text-gray-900 mb-2">Call (619) 750-0114 - Crisis Dispatch</h3>
+                          <p className="text-gray-700">Speak directly with our <strong>emergency junk removal San Diego</strong> crisis dispatch team—not an answering service. Tell us your deadline (eviction date, foreclosure closing, HOA violation deadline, court date) and we'll prioritize your response.</p>
                         </div>
                       </div>
 
                       <div className="flex items-start gap-6">
                         <div className="flex-shrink-0 w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-xl">2</div>
                         <div>
-                          <h3 className="text-2xl font-bold text-gray-900 mb-2">Instant Estimate Over the Phone</h3>
-                          <p className="text-gray-600">Clear, upfront pricing with no hidden emergency fees. We provide transparent estimates even for last minute junk removal San Diego requests.</p>
+                          <h3 className="text-2xl font-bold text-gray-900 mb-2">Transparent Crisis Pricing - No Rush Fees</h3>
+                          <p className="text-gray-700">We provide clear upfront pricing over the phone with no emergency surcharges. Crisis situations are stressful enough—no hidden fees when you're already under pressure. Same $249-$495 pricing as our regular service.</p>
                         </div>
                       </div>
 
                       <div className="flex items-start gap-6">
                         <div className="flex-shrink-0 w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-xl">3</div>
                         <div>
-                          <h3 className="text-2xl font-bold text-gray-900 mb-2">Same-Day Crew Dispatch</h3>
-                          <p className="text-gray-600">Professional crews dispatched within hours, often arriving the same day for emergency junk removal San Diego today service.</p>
+                          <h3 className="text-2xl font-bold text-gray-900 mb-2">Priority Dispatch - 1-2 Hour Response</h3>
+                          <p className="text-gray-700">For true crisis situations requiring <strong>emergency junk removal San Diego</strong> service, we dispatch within 1-2 hours. Eviction deadlines, foreclosure closings, and court orders get priority scheduling—we understand the stakes.</p>
                         </div>
                       </div>
 
                       <div className="flex items-start gap-6">
                         <div className="flex-shrink-0 w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-xl">4</div>
                         <div>
-                          <h3 className="text-2xl font-bold text-gray-900 mb-2">Quick & Careful Removal</h3>
-                          <p className="text-gray-600">Fast but professional service that protects your property while meeting urgent deadlines. Licensed and insured crews handle everything safely.</p>
+                          <h3 className="text-2xl font-bold text-gray-900 mb-2">Professional Crisis Cleanout</h3>
+                          <p className="text-gray-700">Licensed and insured crews clear your property fast but carefully—protecting walls, floors, and doorways while meeting your deadline. We document before/after photos for insurance, courts, or property managers if needed.</p>
                         </div>
                       </div>
 
                       <div className="flex items-start gap-6">
                         <div className="flex-shrink-0 w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-xl">5</div>
                         <div>
-                          <h3 className="text-2xl font-bold text-gray-900 mb-2">Eco-Friendly Emergency Disposal</h3>
-                          <p className="text-gray-600">Even in urgent situations, we prioritize recycling and donations whenever possible. Responsible disposal that meets emergency timelines.</p>
+                          <h3 className="text-2xl font-bold text-gray-900 mb-2">Legal Disposal Documentation</h3>
+                          <p className="text-gray-700">We provide weight tickets, itemized removal lists, before/after photos, and dated receipts for your records. This documentation satisfies insurance adjusters, courts, banks, HOAs, and property managers for compliance.</p>
                         </div>
                       </div>
                     </div>
 
                     {/* Why Choose Us Section */}
                     <h2 className="text-4xl font-bold text-gray-900 mb-8">
-                      Why Choose Our San Diego Emergency Junk Removal?
+                      Why Choose Our Emergency Junk Removal San Diego Service?
                     </h2>
+                    <p className="text-xl text-gray-700 mb-8">
+                      When you're facing a crisis deadline, you need <strong>emergency junk removal San Diego</strong> service that understands the stakes. We specialize in situations where failure isn't an option—eviction deadlines, foreclosure closings, HOA violation fines, court orders, and insurance claim requirements.
+                    </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                      <div className="flex items-start gap-4">
+                        <svg className="w-8 h-8 text-red-600 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <div>
+                          <h3 className="text-xl font-bold text-gray-900 mb-2">Crisis Response Specialists</h3>
+                          <p className="text-gray-700">Unlike convenience haulers, our <strong>emergency junk removal San Diego</strong> crews are trained for crisis situations. We understand eviction timelines, foreclosure closing requirements, and legal documentation needs.</p>
+                        </div>
+                      </div>
+
                       <div className="flex items-start gap-4">
                         <svg className="w-8 h-8 text-green-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
                         </svg>
                         <div>
-                          <h3 className="text-xl font-bold text-gray-900 mb-2">Licensed, Insured & Locally Trusted</h3>
-                          <p className="text-gray-600">Fully licensed San Diego business with comprehensive insurance coverage for emergency situations</p>
+                          <h3 className="text-xl font-bold text-gray-900 mb-2">Licensed, Insured & Crisis-Ready</h3>
+                          <p className="text-gray-700">Fully licensed in California with comprehensive liability and workers' comp insurance. Critical when handling foreclosures, evictions, or court-ordered cleanouts where documentation matters.</p>
                         </div>
                       </div>
 
                       <div className="flex items-start gap-4">
                         <svg className="w-8 h-8 text-orange-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                         </svg>
                         <div>
-                          <h3 className="text-xl font-bold text-gray-900 mb-2">Real Same-Day Emergency Coverage</h3>
-                          <p className="text-gray-600">Real emergency response with crews available 7 days a week for urgent San Diego cleanouts</p>
-                        </div>
-                      </div>
-
-                      <div className="flex items-start gap-4">
-                        <svg className="w-8 h-8 text-blue-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3a4 4 0 118 0v4m-4 12v-4"></path>
-                        </svg>
-                        <div>
-                          <h3 className="text-xl font-bold text-gray-900 mb-2">Weekend Junk Removal - Saturday & Sunday</h3>
-                          <p className="text-gray-600">Weekend junk removal San Diego Saturday Sunday availability when other companies are closed</p>
+                          <h3 className="text-xl font-bold text-gray-900 mb-2">1-2 Hour Emergency Dispatch</h3>
+                          <p className="text-gray-700">Real crisis response with 1-2 hour dispatch for <strong>emergency junk removal San Diego</strong> situations. We prioritize eviction deadlines, foreclosure closings, and court orders over convenience requests.</p>
                         </div>
                       </div>
 
@@ -379,38 +619,41 @@ export default function EmergencyJunkRemovalPage() {
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                         </svg>
                         <div>
-                          <h3 className="text-xl font-bold text-gray-900 mb-2">Transparent Emergency Pricing</h3>
-                          <p className="text-gray-600">No hidden fees or emergency surcharges - honest upfront pricing even for urgent requests</p>
+                          <h3 className="text-xl font-bold text-gray-900 mb-2">No Rush Fees or Surge Pricing</h3>
+                          <p className="text-gray-700">Crisis situations are stressful enough. Same $69-$495 pricing as regular service—no emergency upcharges when you're already facing eviction, foreclosure, or HOA fines.</p>
                         </div>
                       </div>
 
                       <div className="flex items-start gap-4">
-                        <svg className="w-8 h-8 text-green-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                        <svg className="w-8 h-8 text-blue-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
                         </svg>
                         <div>
-                          <h3 className="text-xl font-bold text-gray-900 mb-2">Eco-Friendly Emergency Practices</h3>
-                          <p className="text-gray-600">Responsible disposal with recycling and donation programs, even during rushed emergency cleanouts</p>
+                          <h3 className="text-xl font-bold text-gray-900 mb-2">Legal Documentation Provided</h3>
+                          <p className="text-gray-700">Before/after photos, itemized lists, weight tickets, and dated receipts for insurance, courts, HOAs, and property managers. We understand what documentation crisis situations require.</p>
                         </div>
                       </div>
 
                       <div className="flex items-start gap-4">
-                        <svg className="w-8 h-8 text-yellow-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
+                        <svg className="w-8 h-8 text-purple-500 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
                         </svg>
                         <div>
-                          <h3 className="text-xl font-bold text-gray-900 mb-2">5-Star Emergency Service Record</h3>
-                          <p className="text-gray-600">Proven track record of handling emergency situations with professionalism and speed</p>
+                          <h3 className="text-xl font-bold text-gray-900 mb-2">Property Manager Partnerships</h3>
+                          <p className="text-gray-700">We work with property managers, landlords, banks, and asset managers throughout San Diego. Partnership pricing for repeat <strong>emergency junk removal San Diego</strong> service and priority response for established accounts.</p>
                         </div>
                       </div>
                     </div>
 
                     {/* Emergency Availability Section */}
                     <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                      Emergency & Weekend Availability
+                      24/7 Crisis Response Throughout San Diego County
                     </h2>
-                    <p className="text-xl text-gray-600 mb-8">
-                      When you need urgent trash removal San Diego now, we're ready to respond immediately. Our emergency junk removal San Diego today service includes same-day availability with specialized weekend crews standing by for Saturday and Sunday emergencies. Unlike other companies, we maintain active crews throughout San Diego County ready for same-day response and last minute junk removal San Diego requests.
+                    <p className="text-xl text-gray-700 mb-6">
+                      Crisis situations don't follow business hours. Eviction notices arrive Friday afternoon. Foreclosures close on weekends. HOA violation deadlines fall on holidays. That's why our <strong>emergency junk removal San Diego</strong> service operates 7 days a week with weekend crews standing by.
+                    </p>
+                    <p className="text-xl text-gray-700 mb-8">
+                      We dispatch crisis response crews within 1-2 hours for real emergencies throughout San Diego County—from Downtown to North County, East County to coastal areas. When legal or financial deadlines are at stake, we prioritize your response over convenience requests.
                     </p>
 
                     <div className="bg-blue-50 p-8 rounded-xl shadow-lg mb-12">
@@ -428,10 +671,13 @@ export default function EmergencyJunkRemovalPage() {
 
                     {/* Service Areas Section */}
                     <h2 className="text-4xl font-bold text-gray-900 mb-8">
-                      Emergency Service Areas Across San Diego
+                      Emergency Junk Removal San Diego County Coverage
                     </h2>
-                    <p className="text-xl text-gray-600 mb-8">
-                      Our same day junk removal San Diego service covers all major neighborhoods with emergency crews strategically positioned for rapid response times throughout San Diego County.
+                    <p className="text-xl text-gray-700 mb-6">
+                      Crisis situations happen everywhere in San Diego County. Our crews respond to eviction cleanouts in Chula Vista, foreclosure deadlines in Oceanside, HOA violations in La Jolla, fire damage in Santee, and court-ordered removals throughout the region.
+                    </p>
+                    <p className="text-xl text-gray-700 mb-8">
+                      We serve every San Diego neighborhood with the same crisis response standards—no area gets deprioritized. Property managers, banks, landlords, and homeowners countywide rely on our service when deadlines matter.
                     </p>
 
                     <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-center">
@@ -493,17 +739,17 @@ export default function EmergencyJunkRemovalPage() {
         <section className="py-16 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold mb-6">
-              Call Now for Emergency Junk Removal in San Diego
+              Emergency Junk Removal San Diego - Call Now for Crisis Response
             </h2>
             <p className="text-xl mb-8 max-w-4xl mx-auto">
-              Don't wait when you need urgent trash removal San Diego now. Call us immediately for emergency junk removal San Diego today with same-day crews ready for dispatch. Our same-day junk removal San Diego service includes weekend junk removal San Diego Saturday Sunday availability and last minute junk removal San Diego solutions anywhere in San Diego County.
+              When you're facing eviction deadlines, foreclosure closings, HOA fines, fire or water damage, or court orders, don't wait. Our <strong>emergency junk removal San Diego</strong> crisis response team dispatches within 1-2 hours throughout San Diego County. No rush fees, no surge pricing—just professional service when stakes are high.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <a
                 href="tel:+16197500114"
                 className="bg-orange-500 hover:bg-orange-600 text-white px-12 py-6 rounded-lg font-bold text-2xl transition-colors"
               >
-                🚨 EMERGENCY: (619) 750-0114
+                🚨 CRISIS HOTLINE: (619) 750-0114
               </a>
               <a
                 href="mailto:severinhauling@gmail.com"
@@ -513,7 +759,7 @@ export default function EmergencyJunkRemovalPage() {
               </a>
             </div>
             <p className="text-blue-200 mt-6 text-lg">
-              Same-Day Service Available • Weekend Emergency Crews • Licensed & Insured
+              1-2 Hour Crisis Dispatch • Weekend Crews Available • Licensed & Insured • Legal Documentation Provided
             </p>
           </div>
         </section>
