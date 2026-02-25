@@ -602,7 +602,7 @@ export default function EmergencyJunkRemovalPage() {
 
                     {/* Crisis Situations Section */}
                     <h2 className="text-4xl font-bold text-gray-900 mb-8">
-                      Crisis Situations Requiring Emergency Response
+                      Crisis Situations Requiring Emergency Junk Removal San Diego
                     </h2>
                     <p className="text-xl text-gray-700 mb-8">
                       Our service handles crisis situations where you're facing real deadlines with legal, financial, or safety consequences. These aren't convenience requests—they're situations where immediate response matters.
@@ -725,7 +725,7 @@ export default function EmergencyJunkRemovalPage() {
 
                     {/* Why Choose Us Section */}
                     <h2 className="text-4xl font-bold text-gray-900 mb-8">
-                      Why Choose Our Crisis Response Service?
+                      Why Choose Our Emergency Junk Removal San Diego Service?
                     </h2>
                     <p className="text-xl text-gray-700 mb-8">
                       When you're facing a crisis deadline, you need a service that understands the stakes. We specialize in situations where failure isn't an option—eviction deadlines, foreclosure closings, HOA violation fines, court orders, and insurance claim requirements.
@@ -822,7 +822,7 @@ export default function EmergencyJunkRemovalPage() {
                       San Diego County Crisis Response Coverage
                     </h2>
                     <p className="text-xl text-gray-700 mb-6">
-                      Crisis situations happen everywhere in San Diego County. Our crews respond to eviction cleanouts in Chula Vista, foreclosure deadlines in Oceanside, HOA violations in La Jolla, fire damage in Santee, and court-ordered removals throughout the region.
+                      Emergency junk removal San Diego County-wide means crisis situations are handled everywhere in the region. Our crews respond to eviction cleanouts in Chula Vista, foreclosure deadlines in Oceanside, HOA violations in La Jolla, fire damage in Santee, and court-ordered removals throughout San Diego.
                     </p>
                     <p className="text-xl text-gray-700 mb-8">
                       We serve every San Diego neighborhood with the same crisis response standards—no area gets deprioritized. Property managers, banks, landlords, and homeowners countywide rely on our service when deadlines matter.
@@ -887,7 +887,7 @@ export default function EmergencyJunkRemovalPage() {
         <section className="py-16 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold mb-6">
-              Call Now for Crisis Response - 1-2 Hour Dispatch
+              Emergency Junk Removal San Diego - Call Now for 1-2 Hour Dispatch
             </h2>
             <p className="text-xl mb-8 max-w-4xl mx-auto">
               When you're facing eviction deadlines, foreclosure closings, HOA fines, fire or water damage, or court orders, don't wait. Our crisis response team dispatches within 1-2 hours throughout San Diego County. No rush fees, no surge pricing—just professional service when stakes are high.
