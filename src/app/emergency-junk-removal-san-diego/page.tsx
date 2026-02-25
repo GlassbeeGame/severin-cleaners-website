@@ -67,15 +67,15 @@ export const metadata: Metadata = {
 const emergencyFAQs = [
     {
       question: "What qualifies as emergency junk removal San Diego vs same-day service?",
-      answer: "Emergency junk removal San Diego is for crisis situations with legal, financial, or safety deadlines—eviction cleanouts, foreclosure deadlines, fire/water damage debris, HOA violations with fines pending, or court-ordered removals. Same-day service is for planned urgent needs without consequences. If you're facing a deadline with penalties, that's emergency service."
+      answer: "Emergency service is for crisis situations with legal, financial, or safety deadlines—eviction cleanouts, foreclosure deadlines, fire/water damage debris, HOA violations with fines pending, or court-ordered removals. Same-day service is for planned urgent needs without consequences. If you're facing a deadline with penalties, that's emergency service."
     },
     {
-      question: "How quickly can you respond for emergency junk removal San Diego?",
+      question: "How quickly can you respond for crisis situations?",
       answer: "For true crisis situations like eviction deadlines, foreclosure cleanouts, or HOA violation deadlines, we dispatch within 1-2 hours throughout San Diego County. Response time depends on your location and our crew availability, but emergency situations get priority dispatch."
     },
     {
-      question: "Do you charge rush fees for emergency junk removal San Diego?",
-      answer: "No rush fees or surge pricing. Emergency junk removal San Diego pricing is the same as our regular service: $69-$100 single items, $249 quarter-load, $349 half-load, $495 full load. All prices include labor, hauling, and disposal—no emergency upcharges when you're already under pressure."
+      question: "Do you charge rush fees for emergency service?",
+      answer: "No rush fees or surge pricing. Our pricing is the same as regular service: $69-$100 single items, $249 quarter-load, $349 half-load, $495 full load. All prices include labor, hauling, and disposal—no emergency upcharges when you're already under pressure."
     },
     {
       question: "Can you handle eviction cleanouts and foreclosure junk removal?",
@@ -83,27 +83,27 @@ const emergencyFAQs = [
     },
     {
       question: "Do you remove fire damage debris and water damage junk?",
-      answer: "Yes. Our emergency junk removal San Diego service handles fire damage debris (smoke-damaged furniture, charred materials, ash-covered items) and water damage junk (flood-damaged furniture, mold-contaminated items, waterlogged belongings). We provide documentation for insurance claims including before/after photos, itemized lists, and weight tickets."
+      answer: "Yes. We handle fire damage debris (smoke-damaged furniture, charred materials, ash-covered items) and water damage junk (flood-damaged furniture, mold-contaminated items, waterlogged belongings). We provide documentation for insurance claims including before/after photos, itemized lists, and weight tickets."
     },
     {
       question: "Can you help with HOA violation compliance cleanouts?",
-      answer: "Absolutely. San Diego HOA violations typically have 3-10 day deadlines with escalating fines. Our emergency junk removal San Diego service clears garage storage violations, front yard junk citations, and driveway violations before fines hit. We provide before/after photos you can submit to your HOA proving compliance."
+      answer: "Absolutely. San Diego HOA violations typically have 3-10 day deadlines with escalating fines. We clear garage storage violations, front yard junk citations, and driveway violations before fines hit. We provide before/after photos you can submit to your HOA proving compliance."
     },
     {
       question: "Do you work with property managers for emergency cleanouts?",
-      answer: "Yes. We work with property managers, landlords, banks, and asset managers throughout San Diego County for emergency cleanouts. We understand tight turnovers, provide documentation, and offer partnership pricing for repeat emergency service."
+      answer: "Yes. We work with property managers, landlords, banks, and asset managers throughout San Diego County for emergency cleanouts. We understand tight turnovers, provide documentation, and offer partnership pricing for repeat service."
     },
     {
-      question: "What areas do you cover for emergency junk removal San Diego?",
-      answer: "All San Diego County—Chula Vista, El Cajon, Oceanside, La Jolla, Pacific Beach, Escondido, Vista, Santee, National City, and every San Diego neighborhood. We dispatch emergency crews countywide for crisis situations."
+      question: "What areas do you cover in San Diego County?",
+      answer: "All San Diego County—Chula Vista, El Cajon, Oceanside, La Jolla, Pacific Beach, Escondido, Vista, Santee, National City, and every San Diego neighborhood. We dispatch crisis response crews countywide for urgent situations."
     },
     {
       question: "Do you provide documentation for insurance, court, or HOA compliance?",
-      answer: "Yes. We provide before/after photos, itemized removal lists, weight tickets, and receipts with service dates. This documentation satisfies insurance adjusters, courts, HOAs, banks, and property managers for emergency junk removal San Diego situations."
+      answer: "Yes. We provide before/after photos, itemized removal lists, weight tickets, and receipts with service dates. This documentation satisfies insurance adjusters, courts, HOAs, banks, and property managers for crisis situations."
     },
     {
       question: "Can you handle large emergency cleanouts like full-house foreclosures?",
-      answer: "Yes. We can clear full-house foreclosures, complete eviction cleanouts, and large estate emergency situations in a single visit. Most full-house emergency cleanouts take 4-8 hours. We have the capacity for any size crisis throughout San Diego County."
+      answer: "Yes. We can clear full-house foreclosures, complete eviction cleanouts, and large estate emergency situations in a single visit. Most full-house cleanouts take 4-8 hours. We have the capacity for any size crisis throughout San Diego County."
     }
   ];
 
@@ -275,13 +275,13 @@ export default function EmergencyJunkRemovalPage() {
                       When you're facing an <strong>emergency junk removal San Diego</strong> situation with a real deadline, you need crisis response—not just fast service. Eviction notices, foreclosure cleanouts, fire damage debris, water damage cleanup, HOA violation deadlines, or court-ordered removals all require immediate dispatch and professional handling.
                     </p>
                     <p className="text-xl text-gray-700 mb-6">
-                      Our <strong>emergency junk removal San Diego</strong> service provides urgent hauling throughout San Diego County for crisis situations where legal, financial, or safety consequences are at stake. We serve all areas including <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>, <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, and every San Diego neighborhood. Licensed, insured, and ready to respond.
+                      Our crisis response service provides urgent hauling throughout San Diego County for situations where legal, financial, or safety consequences are at stake. We serve all areas including <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>, <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, and every San Diego neighborhood. Licensed, insured, and ready to respond.
                     </p>
 
                     <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 mb-8">
                       <h4 className="text-xl font-bold mb-3 text-yellow-900">Crisis Response vs. Convenience Service</h4>
                       <p className="text-yellow-800 mb-3">
-                        <strong>Emergency junk removal San Diego</strong> is for crisis situations with deadlines and consequences—not just "I want it done today." If you're facing eviction deadlines, foreclosure timelines, HOA fines, insurance claim requirements, or court orders, that's emergency service.
+                        <strong>Emergency service</strong> is for crisis situations with deadlines and consequences—not just "I want it done today." If you're facing eviction deadlines, foreclosure timelines, HOA fines, insurance claim requirements, or court orders, that's when you need crisis response.
                       </p>
                       <p className="text-yellow-800">
                         For planned urgent service without legal or financial consequences, see our <a href="/same-day-junk-removal-san-diego" className="text-yellow-900 font-bold hover:underline">same-day junk removal</a> page.
@@ -454,17 +454,17 @@ export default function EmergencyJunkRemovalPage() {
 
                     {/* Crisis Situations Section */}
                     <h2 className="text-4xl font-bold text-gray-900 mb-8">
-                      Crisis Situations Requiring Emergency Junk Removal San Diego
+                      Crisis Situations Requiring Emergency Response
                     </h2>
                     <p className="text-xl text-gray-700 mb-8">
-                      Our <strong>emergency junk removal San Diego</strong> service handles crisis situations where you're facing real deadlines with legal, financial, or safety consequences. These aren't convenience requests—they're situations where immediate response matters.
+                      Our service handles crisis situations where you're facing real deadlines with legal, financial, or safety consequences. These aren't convenience requests—they're situations where immediate response matters.
                     </p>
 
                     <div className="space-y-6 mb-12">
                       <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg">
                         <h3 className="text-2xl font-bold text-red-900 mb-3">⚖️ Eviction Deadline Cleanouts</h3>
                         <p className="text-gray-700 mb-3">
-                          Tenant left property full of junk and you have 3 days before the new tenant moves in or you face carrying costs on an empty unit. Eviction cleanouts require fast response and documentation. Our <strong>emergency junk removal San Diego</strong> crews clear abandoned tenant property, provide before/after photos for legal protection, and get you turnover-ready before you lose rental income.
+                          Tenant left property full of junk and you have 3 days before the new tenant moves in or you face carrying costs on an empty unit. Eviction cleanouts require fast response and documentation. Our crisis response crews clear abandoned tenant property, provide before/after photos for legal protection, and get you turnover-ready before you lose rental income.
                         </p>
                         <p className="text-gray-700">
                           <strong>Common scenarios:</strong> 3-day, 5-day, 30-day eviction notices • Abandoned property after sheriff's lockout • Property manager emergency turnovers • Landlord deadline cleanouts
@@ -484,7 +484,7 @@ export default function EmergencyJunkRemovalPage() {
                       <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-lg">
                         <h3 className="text-2xl font-bold text-orange-900 mb-3">🔥 Fire Damage Debris Removal</h3>
                         <p className="text-gray-700 mb-3">
-                          San Diego's fire season means smoke-damaged furniture, charred materials, and ash-covered belongings need immediate removal before insurance claims can proceed. Our <strong>emergency junk removal San Diego</strong> service handles fire damage debris safely, provides documentation for insurance adjusters, and clears properties so repairs can begin.
+                          San Diego's fire season means smoke-damaged furniture, charred materials, and ash-covered belongings need immediate removal before insurance claims can proceed. Our service handles fire damage debris safely, provides documentation for insurance adjusters, and clears properties so repairs can begin.
                         </p>
                         <p className="text-gray-700">
                           <strong>Common scenarios:</strong> Wildfire damaged property cleanup • House fire debris removal • Garage fire cleanouts • Smoke-damaged furniture disposal
@@ -504,7 +504,7 @@ export default function EmergencyJunkRemovalPage() {
                       <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-lg">
                         <h3 className="text-2xl font-bold text-yellow-900 mb-3">🏘️ HOA Violation Compliance Cleanouts</h3>
                         <p className="text-gray-700 mb-3">
-                          HOA sent a violation letter with a 72-hour deadline to clear your garage or face $500 fines. San Diego HOAs enforce storage violations strictly. Our <strong>emergency junk removal San Diego</strong> service gets you compliant before fines hit, provides before/after photos for your HOA response, and clears violations fast.
+                          HOA sent a violation letter with a 72-hour deadline to clear your garage or face $500 fines. San Diego HOAs enforce storage violations strictly. Our crisis response service gets you compliant before fines hit, provides before/after photos for your HOA response, and clears violations fast.
                         </p>
                         <p className="text-gray-700">
                           <strong>Common scenarios:</strong> Garage storage violations • Front yard junk citations • Driveway violation cleanouts • Side yard debris removal before HOA fines
@@ -524,13 +524,13 @@ export default function EmergencyJunkRemovalPage() {
 
                     {/* Process Section */}
                     <h2 id="process" className="text-4xl font-bold text-gray-900 mb-8">
-                      Emergency Junk Removal San Diego Response Process
+                      Our Crisis Response Process
                     </h2>
                     <p className="text-xl text-gray-700 mb-8">
-                      When you're facing a crisis deadline, our <strong>emergency junk removal San Diego</strong> process is built for speed and reliability. From eviction notices to foreclosure deadlines, we understand that time matters when legal or financial consequences are at stake.
+                      When you're facing a crisis deadline, our process is built for speed and reliability. From eviction notices to foreclosure deadlines, we understand that time matters when legal or financial consequences are at stake.
                     </p>
                     <p className="text-xl text-gray-700 mb-12">
-                      Here's how our <strong>emergency junk removal San Diego</strong> service responds to crisis situations:
+                      Here's how we respond to crisis situations:
                     </p>
 
                     <div className="space-y-8 mb-12">
@@ -538,7 +538,7 @@ export default function EmergencyJunkRemovalPage() {
                         <div className="flex-shrink-0 w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-xl">1</div>
                         <div>
                           <h3 className="text-2xl font-bold text-gray-900 mb-2">Call (619) 750-0114 - Crisis Dispatch</h3>
-                          <p className="text-gray-700">Speak directly with our <strong>emergency junk removal San Diego</strong> crisis dispatch team—not an answering service. Tell us your deadline (eviction date, foreclosure closing, HOA violation deadline, court date) and we'll prioritize your response.</p>
+                          <p className="text-gray-700">Speak directly with our crisis dispatch team—not an answering service. Tell us your deadline (eviction date, foreclosure closing, HOA violation deadline, court date) and we'll prioritize your response.</p>
                         </div>
                       </div>
 
@@ -554,7 +554,7 @@ export default function EmergencyJunkRemovalPage() {
                         <div className="flex-shrink-0 w-12 h-12 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-xl">3</div>
                         <div>
                           <h3 className="text-2xl font-bold text-gray-900 mb-2">Priority Dispatch - 1-2 Hour Response</h3>
-                          <p className="text-gray-700">For true crisis situations requiring <strong>emergency junk removal San Diego</strong> service, we dispatch within 1-2 hours. Eviction deadlines, foreclosure closings, and court orders get priority scheduling—we understand the stakes.</p>
+                          <p className="text-gray-700">For true crisis situations, we dispatch within 1-2 hours. Eviction deadlines, foreclosure closings, and court orders get priority scheduling—we understand the stakes.</p>
                         </div>
                       </div>
 
@@ -577,10 +577,10 @@ export default function EmergencyJunkRemovalPage() {
 
                     {/* Why Choose Us Section */}
                     <h2 className="text-4xl font-bold text-gray-900 mb-8">
-                      Why Choose Our Emergency Junk Removal San Diego Service?
+                      Why Choose Our Crisis Response Service?
                     </h2>
                     <p className="text-xl text-gray-700 mb-8">
-                      When you're facing a crisis deadline, you need <strong>emergency junk removal San Diego</strong> service that understands the stakes. We specialize in situations where failure isn't an option—eviction deadlines, foreclosure closings, HOA violation fines, court orders, and insurance claim requirements.
+                      When you're facing a crisis deadline, you need a service that understands the stakes. We specialize in situations where failure isn't an option—eviction deadlines, foreclosure closings, HOA violation fines, court orders, and insurance claim requirements.
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
@@ -590,7 +590,7 @@ export default function EmergencyJunkRemovalPage() {
                         </svg>
                         <div>
                           <h3 className="text-xl font-bold text-gray-900 mb-2">Crisis Response Specialists</h3>
-                          <p className="text-gray-700">Unlike convenience haulers, our <strong>emergency junk removal San Diego</strong> crews are trained for crisis situations. We understand eviction timelines, foreclosure closing requirements, and legal documentation needs.</p>
+                          <p className="text-gray-700">Unlike convenience haulers, our crews are trained for crisis situations. We understand eviction timelines, foreclosure closing requirements, and legal documentation needs.</p>
                         </div>
                       </div>
 
@@ -610,7 +610,7 @@ export default function EmergencyJunkRemovalPage() {
                         </svg>
                         <div>
                           <h3 className="text-xl font-bold text-gray-900 mb-2">1-2 Hour Emergency Dispatch</h3>
-                          <p className="text-gray-700">Real crisis response with 1-2 hour dispatch for <strong>emergency junk removal San Diego</strong> situations. We prioritize eviction deadlines, foreclosure closings, and court orders over convenience requests.</p>
+                          <p className="text-gray-700">Real crisis response with 1-2 hour dispatch. We prioritize eviction deadlines, foreclosure closings, and court orders over convenience requests.</p>
                         </div>
                       </div>
 
@@ -640,7 +640,7 @@ export default function EmergencyJunkRemovalPage() {
                         </svg>
                         <div>
                           <h3 className="text-xl font-bold text-gray-900 mb-2">Property Manager Partnerships</h3>
-                          <p className="text-gray-700">We work with property managers, landlords, banks, and asset managers throughout San Diego. Partnership pricing for repeat <strong>emergency junk removal San Diego</strong> service and priority response for established accounts.</p>
+                          <p className="text-gray-700">We work with property managers, landlords, banks, and asset managers throughout San Diego. Partnership pricing for repeat service and priority response for established accounts.</p>
                         </div>
                       </div>
                     </div>
@@ -650,7 +650,7 @@ export default function EmergencyJunkRemovalPage() {
                       24/7 Crisis Response Throughout San Diego County
                     </h2>
                     <p className="text-xl text-gray-700 mb-6">
-                      Crisis situations don't follow business hours. Eviction notices arrive Friday afternoon. Foreclosures close on weekends. HOA violation deadlines fall on holidays. That's why our <strong>emergency junk removal San Diego</strong> service operates 7 days a week with weekend crews standing by.
+                      Crisis situations don't follow business hours. Eviction notices arrive Friday afternoon. Foreclosures close on weekends. HOA violation deadlines fall on holidays. That's why we operate 7 days a week with weekend crews standing by.
                     </p>
                     <p className="text-xl text-gray-700 mb-8">
                       We dispatch crisis response crews within 1-2 hours for real emergencies throughout San Diego County—from Downtown to North County, East County to coastal areas. When legal or financial deadlines are at stake, we prioritize your response over convenience requests.
@@ -671,7 +671,7 @@ export default function EmergencyJunkRemovalPage() {
 
                     {/* Service Areas Section */}
                     <h2 className="text-4xl font-bold text-gray-900 mb-8">
-                      Emergency Junk Removal San Diego County Coverage
+                      San Diego County Crisis Response Coverage
                     </h2>
                     <p className="text-xl text-gray-700 mb-6">
                       Crisis situations happen everywhere in San Diego County. Our crews respond to eviction cleanouts in Chula Vista, foreclosure deadlines in Oceanside, HOA violations in La Jolla, fire damage in Santee, and court-ordered removals throughout the region.
@@ -728,10 +728,10 @@ export default function EmergencyJunkRemovalPage() {
         {/* FAQ Section */}
         <FAQSection
           title="Frequently Asked Questions - Emergency Junk Removal"
-          description="Get answers to common questions about our emergency junk removal San Diego services, response times, and 24/7 availability."
+          description="Get answers to common questions about our crisis response services, dispatch times, and 24/7 availability throughout San Diego County."
           faqs={emergencyFAQs}
-          ctaTitle="Need Emergency Junk Removal Now?"
-          ctaDescription="Our 24/7 emergency junk removal San Diego team is standing by. Call us now for immediate response and same-day service."
+          ctaTitle="Need Emergency Service Now?"
+          ctaDescription="Our 24/7 crisis response team is standing by. Call us now for immediate dispatch and priority response."
           includeSchema={false}
         />
 
@@ -739,10 +739,10 @@ export default function EmergencyJunkRemovalPage() {
         <section className="py-16 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold mb-6">
-              Emergency Junk Removal San Diego - Call Now for Crisis Response
+              Call Now for Crisis Response - 1-2 Hour Dispatch
             </h2>
             <p className="text-xl mb-8 max-w-4xl mx-auto">
-              When you're facing eviction deadlines, foreclosure closings, HOA fines, fire or water damage, or court orders, don't wait. Our <strong>emergency junk removal San Diego</strong> crisis response team dispatches within 1-2 hours throughout San Diego County. No rush fees, no surge pricing—just professional service when stakes are high.
+              When you're facing eviction deadlines, foreclosure closings, HOA fines, fire or water damage, or court orders, don't wait. Our crisis response team dispatches within 1-2 hours throughout San Diego County. No rush fees, no surge pricing—just professional service when stakes are high.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <a
