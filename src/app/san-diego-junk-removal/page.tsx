@@ -386,9 +386,9 @@ export default function SanDiegoJunkRemovalPage() {
                     </p>
                   </div>
                   <div>
-                    <h5 className="font-bold text-gray-800 mb-2"><a href="/emergency-junk-removal-san-diego" className="text-blue-600 hover:underline">Emergency Junk Removal</a></h5>
+                    <h5 className="font-bold text-gray-800 mb-2"><a href="/emergency-junk-removal-san-diego" className="text-blue-600 hover:underline">Crisis & Urgent Situations</a></h5>
                     <p className="text-gray-700">
-                      Sometimes junk removal can't wait. Water damage, fire damage, sudden moves, or urgent deadlines require immediate response. Our emergency service provides rapid junk removal when you need it most, with same-day availability throughout San Diego County. We understand that emergencies don't follow regular business hours, and we're here to help.
+                      Facing an urgent deadline or crisis situation? Water damage cleanups, eviction orders, foreclosure timelines, and court-mandated removals require immediate response beyond standard same-day service. <a href="/emergency-junk-removal-san-diego" className="text-blue-600 hover:underline font-semibold">See our emergency response service →</a>
                     </p>
                   </div>
                 </div>
