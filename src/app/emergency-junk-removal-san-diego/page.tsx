@@ -116,6 +116,154 @@ export default function EmergencyJunkRemovalPage() {
     areaServed: "San Diego County, CA",
   });
 
+  const neighborhoodSchema = {
+    "@type": "ItemList",
+    "name": "San Diego County Emergency Service Coverage",
+    "description": "24/7 emergency junk removal response throughout all San Diego County neighborhoods",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Place",
+          "name": "Downtown San Diego",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92101"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Place",
+          "name": "La Jolla",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92037"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Place",
+          "name": "Pacific Beach",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92109"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "Place",
+          "name": "Chula Vista",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Chula Vista",
+            "addressRegion": "CA",
+            "postalCode": "91910"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "Place",
+          "name": "El Cajon",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "El Cajon",
+            "addressRegion": "CA",
+            "postalCode": "92020"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "item": {
+          "@type": "Place",
+          "name": "Oceanside",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Oceanside",
+            "addressRegion": "CA",
+            "postalCode": "92054"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "item": {
+          "@type": "Place",
+          "name": "Escondido",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Escondido",
+            "addressRegion": "CA",
+            "postalCode": "92025"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "item": {
+          "@type": "Place",
+          "name": "Santee",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Santee",
+            "addressRegion": "CA",
+            "postalCode": "92071"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "item": {
+          "@type": "Place",
+          "name": "National City",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "National City",
+            "addressRegion": "CA",
+            "postalCode": "91950"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "item": {
+          "@type": "Place",
+          "name": "La Mesa",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "La Mesa",
+            "addressRegion": "CA",
+            "postalCode": "91942"
+          }
+        }
+      }
+    ]
+  };
+
   const localBusinessSchema = {
     "@type": "LocalBusiness",
     "@id": "https://www.severinhauling.com/emergency-junk-removal-san-diego#business",
@@ -208,7 +356,7 @@ export default function EmergencyJunkRemovalPage() {
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, localBusinessSchema, howToSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, neighborhoodSchema, howToSchema]
   };
 
   const relatedServices = [
@@ -240,8 +388,8 @@ export default function EmergencyJunkRemovalPage() {
                   <div className="bg-white rounded-lg shadow-md p-8">
 
                     {/* Fast & Reliable Section */}
-                    <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                      Emergency Junk Removal San Diego - Crisis Response & Urgent Hauling
+                    <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                      Crisis Response & Urgent Hauling When Deadlines Matter
                     </h2>
 
                     {/* Desktop float-right image */}
@@ -272,7 +420,7 @@ export default function EmergencyJunkRemovalPage() {
                     </div>
 
                     <p className="text-xl text-gray-700 mb-4">
-                      When you're facing an <strong>emergency junk removal San Diego</strong> situation with a real deadline, you need crisis response—not just fast service. Eviction notices, foreclosure cleanouts, fire damage debris, water damage cleanup, HOA violation deadlines, or court-ordered removals all require immediate dispatch and professional handling.
+                      If you're facing an emergency junk removal need in San Diego with a real deadline, you need crisis response—not just fast service. Eviction notices, foreclosure cleanouts, fire damage debris, water damage cleanup, HOA violation deadlines, or court-ordered removals all require immediate dispatch and professional handling.
                     </p>
                     <p className="text-xl text-gray-700 mb-6">
                       Our crisis response service provides urgent hauling throughout San Diego County for situations where legal, financial, or safety consequences are at stake. We serve all areas including <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>, <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>, <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, and every San Diego neighborhood. Licensed, insured, and ready to respond.
@@ -327,7 +475,7 @@ export default function EmergencyJunkRemovalPage() {
                       What Crisis Situations We Handle
                     </h2>
                     <p className="text-xl text-gray-700 mb-8">
-                      Our crisis response service handles the most common emergency situations San Diego property managers, landlords, homeowners, and banks face when deadlines and consequences are at stake.
+                      Our emergency junk removal service in San Diego handles the most common crisis situations property managers, landlords, homeowners, and banks face when deadlines and consequences are at stake.
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
@@ -659,7 +807,7 @@ export default function EmergencyJunkRemovalPage() {
                     <div className="bg-blue-50 p-8 rounded-xl shadow-lg mb-12">
                       <h3 className="text-2xl font-bold text-blue-700 mb-4">🚨 EMERGENCY HOTLINE</h3>
                       <p className="text-lg text-gray-700 mb-6">
-                        Call for same-day emergency dispatch. Weekend crews available Saturday and Sunday. Weekend junk removal San Diego Saturday Sunday crews available for urgent cleanouts when you need them most.
+                        Call for same-day emergency dispatch. Weekend crews available Saturday and Sunday for urgent cleanouts when you need them most.
                       </p>
                       <a
                         href="tel:+16197500114"
