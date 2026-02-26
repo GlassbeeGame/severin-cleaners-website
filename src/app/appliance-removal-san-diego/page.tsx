@@ -88,7 +88,7 @@ const applianceFAQs = [
   },
   {
     question: "What happens to old appliances after pickup?",
-    answer: "Refrigerators go to certified Freon disposal facilities that meet California Air Resources Board standards. Metal appliances get recycled at Allan Company Recycling or Miramar Greenery. Working units go to Father Joe's Villages and other San Diego charities. Everything gets processed according to EPA and California regulations—no landfill dumping, no illegal disposal."
+    answer: "Appliance disposal in San Diego goes through certified facilities. Refrigerators head to Freon disposal centers that meet California Air Resources Board standards. Metal appliances get recycled at Allan Company Recycling or Miramar Greenery. Working units go to Father Joe's Villages and other local charities. Our appliance recycling San Diego process follows EPA and California regulations—no landfill dumping, no illegal disposal."
   },
   {
     question: "Do you offer same-day appliance removal?",
@@ -481,24 +481,28 @@ export default function ApplianceRemovalPage() {
 
                 <h2 className="text-3xl font-bold mt-8 mb-4">Specialized Appliance Removal Services</h2>
 
-                <h3 className="text-2xl font-bold mt-6 mb-3">Refrigerator Removal San Diego</h3>
                 <p className="text-lg mb-6">
-                  Refrigerators are heavy and awkward—especially getting them down stairs or through narrow San Diego hallways. We handle garages, upstairs kitchens, <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">Kearny Mesa restaurant equipment</a>, and <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa residential units</a>. Freon gets disposed of at certified facilities that meet California Air Resources Board standards—no shortcuts.
+                  Our appliance disposal San Diego service covers every type—from refrigerators that need Freon recovery to washers that quit mid-cycle. Whether it's one unit or a full kitchen worth, we handle the heavy lifting, disconnection, and proper recycling.
                 </p>
 
-                <h3 className="text-2xl font-bold mt-6 mb-3">Washer & Dryer Removal San Diego</h3>
+                <h3 className="text-2xl font-bold mt-6 mb-3">Refrigerator Removal</h3>
+                <p className="text-lg mb-6">
+                  Refrigerators are heavy and awkward—especially getting them down stairs or through narrow San Diego hallways. We handle garages, upstairs kitchens, <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">Kearny Mesa restaurant equipment</a>, and <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa residential units</a>. Freon gets disposed of at certified facilities that meet California Air Resources Board standards—no shortcuts. Our appliance recycling San Diego partners handle refrigerant recovery before the metal gets processed, keeping everything legal and up to code.
+                </p>
+
+                <h3 className="text-2xl font-bold mt-6 mb-3">Washer & Dryer Removal</h3>
                 <p className="text-lg mb-6">
                   We disconnect both units, haul them out together, and handle the recycling. Perfect when you're upgrading or when the delivery guys show up tomorrow and the old set is still sitting there. From <a href="/junk-removal-mira-mesa" className="text-blue-600 hover:underline">Mira Mesa apartment complexes</a> to <a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee houses</a>, we do this every day.
                 </p>
 
-                <h3 className="text-2xl font-bold mt-6 mb-3">Stove & Dishwasher Removal San Diego</h3>
+                <h3 className="text-2xl font-bold mt-6 mb-3">Stove & Dishwasher Removal</h3>
                 <p className="text-lg mb-6">
-                  From gas ranges to built-in dishwashers, our stove removal San Diego team handles careful extraction without damaging cabinetry.
+                  Gas stoves need disconnection from the supply line—not a DIY job if you want to avoid gas leaks. Built-in dishwashers require cabinet work to extract without scratching countertops or breaking the unit loose. Appliance disposal San Diego for kitchen equipment includes safe gas line disconnection, careful removal, and recycling at certified local facilities. We handle everything from contractor-grade ranges to residential dishwashers.
                 </p>
 
-                <h3 className="text-2xl font-bold mt-6 mb-3">Freezer Removal San Diego</h3>
+                <h3 className="text-2xl font-bold mt-6 mb-3">Freezer Removal</h3>
                 <p className="text-lg mb-6">
-                  We remove garage or chest freezers of all sizes—no need to lift a thing. Just empty the contents, and we'll handle the rest. Also removing furniture? Check our <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture removal service</a>.
+                  We remove garage or chest freezers of all sizes—no need to lift a thing. Just empty the contents, and we'll handle the rest. Like refrigerators, freezers require proper Freon recovery before they can be recycled. Our appliance recycling San Diego process ensures all refrigerant gets captured at certified facilities before the metal gets scrapped. Also removing furniture? Check our <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture removal service</a>.
                 </p>
 
                 <h3 className="text-2xl font-bold mt-8 mb-4">Eco-Friendly Appliance Recycling San Diego</h3>
@@ -575,7 +579,7 @@ export default function ApplianceRemovalPage() {
                 </ul>
 
                 <p className="text-lg mb-6">
-                  You could rent a truck, find someone to help, figure out where to legally dispose of a refrigerator with Freon. Or call us and it's done in an hour.
+                  You could rent a truck, find someone to help, figure out where to legally dispose of a refrigerator with Freon—or you could call us. Proper appliance disposal San Diego means more than just hauling to the dump. It means certified Freon recovery, metal recycling at licensed facilities, and following California Air Resources Board regulations. We handle all of that. You get your space back in an hour.
                 </p>
 
                 <h3 className="text-2xl font-bold mt-8 mb-4">Where We Work in San Diego County</h3>
@@ -588,7 +592,7 @@ export default function ApplianceRemovalPage() {
                 </p>
 
                 <p className="text-lg mb-6">
-                  Recycling gets handled at Allan Company Recycling off 28th Street, Miramar Greenery, and certified Freon recovery facilities. Everything follows California Air Resources Board and EPA standards.
+                  Every appliance gets handled according to California Air Resources Board and EPA standards. Appliance recycling San Diego happens at Allan Company Recycling off 28th Street, Miramar Greenery for metal processing, and certified Freon recovery facilities for refrigerators and freezers. No shortcuts, no landfill dumping, no illegal disposal. Just proper recycling like it should be done.
                 </p>
 
               </div>
