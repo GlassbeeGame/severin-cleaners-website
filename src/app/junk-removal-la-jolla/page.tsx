@@ -447,7 +447,7 @@ export default function JunkRemovalLaJollaPage() {
                           Our team provides discreet, professional service for luxury <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a> and <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">high-end furniture removal</a>. We navigate steep hillside driveways, narrow coastal roads, and gated community security coordination—all without disrupting your property or schedule.
                         </p>
                         <p className="text-lg text-gray-700 mb-6">
-                          Whether you're preparing a property for sale or clearing an estate, we haul everything away and leave the space clutter free. <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">Same-day service available</a>. Call (619) 750-0114 for transparent <a href="/junk-removal-pricing-san-diego" className="text-blue-600 hover:underline">pricing</a>.
+                          Whether you're preparing a property for sale or clearing an estate, we haul everything away and leave the space clutter free. <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">Same-day service available</a>. Call (619) 750-0114 for transparent <a href="/junk-removal-cost-san-diego" className="text-blue-600 hover:underline">pricing</a>.
                         </p>
 
                         {/* Complete Neighborhood Coverage */}
@@ -492,7 +492,7 @@ export default function JunkRemovalLaJollaPage() {
                         <ul className="space-y-3 mb-6">
                           <li className="flex items-start">
                             <span className="text-green-500 text-xl mr-3">✓</span>
-                            <span><strong>Discreet Luxury Service:</strong> We provide unmarked vehicles and professional uniforms for $5-50M properties. Non-disclosure agreements available for celebrity and executive clients. We coordinate security clearance with gate staff and offer flexible scheduling to avoid high-visibility hours. See our complete <a href="/junk-removal-pricing-san-diego" className="text-blue-600 hover:underline">pricing guide</a> for transparent rates.</span>
+                            <span><strong>Discreet Luxury Service:</strong> We provide unmarked vehicles and professional uniforms for $5-50M properties. Non-disclosure agreements available for celebrity and executive clients. We coordinate security clearance with gate staff and offer flexible scheduling to avoid high-visibility hours. See our complete <a href="/junk-removal-cost-san-diego" className="text-blue-600 hover:underline">pricing guide</a> for transparent rates.</span>
                           </li>
                           <li className="flex items-start">
                             <span className="text-green-500 text-xl mr-3">✓</span>
