@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
 import { generateFAQSchema } from "@/lib/schema";
 import SchemaMarkup from "@/components/SchemaMarkup";
-import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { generateServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema, generateHowToSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
@@ -88,7 +88,7 @@ const applianceFAQs = [
   },
   {
     question: "What happens to old appliances after pickup?",
-    answer: "After appliance disposal San Diego, all items are professionally disposed of according to local San Diego regulations and requirements. We work to ensure appliances are handled in compliance with local disposal standards. Our team ensures all items are processed at appropriate facilities according to San Diego County disposal requirements."
+    answer: "Refrigerators go to certified Freon disposal facilities that meet California Air Resources Board standards. Metal appliances get recycled at Allan Company Recycling or Miramar Greenery. Working units go to Father Joe's Villages and other San Diego charities. Everything gets processed according to EPA and California regulations—no landfill dumping, no illegal disposal."
   },
   {
     question: "Do you offer same-day appliance removal?",
@@ -101,14 +101,6 @@ const applianceFAQs = [
 ];
 
 export default function ApplianceRemovalPage() {
-  const serviceSchema = generateServiceSchema({
-    name: "Appliance Removal San Diego",
-    description: "Professional appliance removal in San Diego. We remove refrigerators, washers, dryers, stoves, and all appliance types. Eco-friendly disposal.",
-    url: "https://www.severinhauling.com/appliance-removal-san-diego",
-    serviceType: "Appliance Removal Service",
-    areaServed: "San Diego County, CA",
-  });
-
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: "https://www.severinhauling.com" },
     { name: "Services", url: "https://www.severinhauling.com/services" },
@@ -117,9 +109,262 @@ export default function ApplianceRemovalPage() {
 
   const faqSchema = generateFAQSchema(applianceFAQs);
 
+  const serviceSchema = {
+    "@type": "Service",
+    "name": "Appliance Removal in San Diego",
+    "description": "Professional appliance removal and recycling in San Diego. We remove refrigerators, washers, dryers, stoves, and all appliance types with eco-friendly disposal.",
+    "url": "https://www.severinhauling.com/appliance-removal-san-diego",
+    "serviceType": "Appliance Removal Service",
+    "provider": {
+      "@id": "https://www.severinhauling.com/appliance-removal-san-diego#business"
+    }
+  };
+
+  const localBusinessSchema = {
+    "@type": "LocalBusiness",
+    "@id": "https://www.severinhauling.com/appliance-removal-san-diego#business",
+    "name": "Severin Hauling LLC",
+    "image": "https://www.severinhauling.com/og-image.jpg",
+    "telephone": "+1-619-750-0114",
+    "priceRange": "$100-$495",
+    "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
+    "currenciesAccepted": "USD",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "8900 Grossmont Blvd Ste 1",
+      "addressLocality": "La Mesa",
+      "addressRegion": "CA",
+      "postalCode": "91941",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.7678,
+      "longitude": -117.0231
+    },
+    "url": "https://www.severinhauling.com/appliance-removal-san-diego",
+    "knowsAbout": [
+      "Refrigerator Freon-Compliant Disposal and Recycling",
+      "Gas Line Appliance Disconnection and Removal",
+      "Heavy Appliance Stair Navigation and Transport",
+      "Built-In Appliance Cabinet Extraction",
+      "Commercial Kitchen Equipment Removal",
+      "Water Heater Safe Disposal and Recycling",
+      "Washer Dryer Stackable Unit Removal",
+      "San Diego County Appliance Recycling Regulations"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Appliance Removal Services San Diego",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Refrigerator Removal and Recycling",
+            "description": "Professional refrigerator removal with Freon-compliant recycling at certified San Diego facilities"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Washer Dryer Removal Service",
+            "description": "Complete washer and dryer removal with disconnection and eco-friendly appliance recycling"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Stove and Built-In Appliance Removal",
+            "description": "Safe gas and electric stove removal with cabinet-friendly extraction techniques"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Same-Day Appliance Disposal San Diego",
+            "description": "Emergency appliance removal with same-day pickup and responsible recycling throughout San Diego County"
+          }
+        }
+      ]
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "San Diego",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California"
+      }
+    },
+    "openingHours": "Mo-Su 00:00-23:59",
+    "aggregateRating": generateAggregateRatingSchema(),
+    "sameAs": [
+      "https://www.facebook.com/severinhauling",
+      "https://www.instagram.com/severinhauling/",
+      "https://www.yelp.com/biz/severin-hauling-san-diego",
+      "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
+    ]
+  };
+
+  const neighborhoodSchema = {
+    "@type": "ItemList",
+    "name": "San Diego Neighborhoods for Appliance Removal",
+    "description": "Complete appliance removal and recycling coverage throughout San Diego County",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Place",
+          "name": "Downtown San Diego",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92101"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Place",
+          "name": "Pacific Beach",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92109"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Place",
+          "name": "La Jolla",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "La Jolla",
+            "addressRegion": "CA",
+            "postalCode": "92037"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "Place",
+          "name": "Chula Vista",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Chula Vista",
+            "addressRegion": "CA",
+            "postalCode": "91910"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "Place",
+          "name": "El Cajon",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "El Cajon",
+            "addressRegion": "CA",
+            "postalCode": "92020"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "item": {
+          "@type": "Place",
+          "name": "La Mesa",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "La Mesa",
+            "addressRegion": "CA",
+            "postalCode": "91942"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "item": {
+          "@type": "Place",
+          "name": "Oceanside",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Oceanside",
+            "addressRegion": "CA",
+            "postalCode": "92054"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "item": {
+          "@type": "Place",
+          "name": "Carlsbad",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Carlsbad",
+            "addressRegion": "CA",
+            "postalCode": "92008"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "item": {
+          "@type": "Place",
+          "name": "Escondido",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Escondido",
+            "addressRegion": "CA",
+            "postalCode": "92025"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "item": {
+          "@type": "Place",
+          "name": "Mission Valley",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92108"
+          }
+        }
+      }
+    ]
+  };
+
+  const howToSchema = generateHowToSchema({
+    cityName: "San Diego",
+    pageUrl: "https://www.severinhauling.com/appliance-removal-san-diego"
+  });
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, neighborhoodSchema, howToSchema]
   };
 
   const relatedServices = [
@@ -254,6 +499,14 @@ export default function ApplianceRemovalPage() {
                 <h3 className="text-2xl font-bold mt-6 mb-3">Freezer Removal San Diego</h3>
                 <p className="text-lg mb-6">
                   We remove garage or chest freezers of all sizes—no need to lift a thing. Just empty the contents, and we'll handle the rest. Also removing furniture? Check our <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture removal service</a>.
+                </p>
+
+                <h3 className="text-2xl font-bold mt-8 mb-4">Eco-Friendly Appliance Recycling San Diego</h3>
+                <p className="text-lg mb-4">
+                  Every appliance we remove gets processed at certified recycling facilities here in San Diego. Refrigerators and freezers go to Freon recovery centers that meet California Air Resources Board standards—no shortcuts on refrigerant handling. Washers, dryers, stoves, and other metal appliances head to Allan Company Recycling on 28th Street or Miramar Greenery, where they're broken down and the metal gets recycled. Working appliances that still have life left go to Father Joe's Villages and other San Diego charities.
+                </p>
+                <p className="text-lg mb-6">
+                  We follow EPA regulations and California disposal requirements because it's the law, not because it's a marketing angle. Freon gets captured at certified facilities before refrigerators are scrapped. Metals get separated and recycled locally instead of dumped. If an appliance still works, it goes to someone who needs it. That's how appliance recycling San Diego should work—straightforward, legal, local.
                 </p>
 
                 <h3 className="text-2xl font-bold mt-8 mb-4">When San Diego Homeowners Call Us</h3>
