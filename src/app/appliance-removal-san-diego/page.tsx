@@ -415,11 +415,11 @@ export default function ApplianceRemovalPage() {
                 </div>
 
                 <p className="text-lg mb-4">
-                  Whether you just upgraded your kitchen or have a broken washer collecting dust, we make appliance removal in San Diego easy. From <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla high-end appliance removal</a> to <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach appliance disposal</a>, we're the trusted choice for homeowners and businesses.
+                  Got an old fridge in the garage? Washer that quit last month still sitting in the laundry room? We haul appliances out of homes across San Diego County—from <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla condos on Prospect Street</a> to <a href="/junk-removal-pacific-beach" className="text-blue-600 hover:underline">Pacific Beach walk-ups off Garnet</a>. Call (619) 750-0114 and we'll get it out today.
                 </p>
 
                 <p className="text-lg mb-6">
-                  We remove refrigerators, washers, dryers, stoves, dishwashers—you name it. Our service covers <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista appliance hauling</a> to Point Loma, North Park to <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon refrigerator removal</a>, helping homeowners reclaim their space daily with safe, eco-friendly appliance disposal. Also need <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture disposal</a> or <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">mattress removal</a>? We handle it all.
+                  Refrigerators, washers, dryers, stoves, dishwashers—if it plugs in or connects to a gas line, we remove it. We work in <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, Point Loma, North Park, <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>—all over the county. Also need <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture gone</a> or <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:underline">a mattress hauled</a>? Same truck, same day.
                 </p>
 
                 <div className="clear-both"></div>
@@ -456,9 +456,9 @@ export default function ApplianceRemovalPage() {
                 <div className="grid md:grid-cols-3 gap-6 mb-8">
                   <div className="bg-blue-50 p-6 rounded-lg">
                     <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl mb-4">1</div>
-                    <h4 className="font-bold text-lg mb-2">Call or Book Online</h4>
+                    <h4 className="font-bold text-lg mb-2">Call for Pricing</h4>
                     <p className="text-gray-700">
-                      Request your appliance removal San Diego quote and get instant pricing.
+                      Tell us what you've got. One fridge? Full kitchen? We'll quote you over the phone—(619) 750-0114.
                     </p>
                   </div>
 
@@ -472,9 +472,9 @@ export default function ApplianceRemovalPage() {
 
                   <div className="bg-blue-50 p-6 rounded-lg">
                     <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl mb-4">3</div>
-                    <h4 className="font-bold text-lg mb-2">Proper Disposal</h4>
+                    <h4 className="font-bold text-lg mb-2">Proper Recycling</h4>
                     <p className="text-gray-700">
-                      We handle legal disposal and recycling according to City of San Diego regulations, keeping harmful materials out of landfills.
+                      Refrigerators go to certified Freon disposal. Metals get recycled at Allan Company on 28th Street. Working units go to Father Joe's Villages. No landfill dumping.
                     </p>
                   </div>
                 </div>
@@ -483,12 +483,12 @@ export default function ApplianceRemovalPage() {
 
                 <h3 className="text-2xl font-bold mt-6 mb-3">Refrigerator Removal San Diego</h3>
                 <p className="text-lg mb-6">
-                  Our refrigerator removal specialists handle units from garages, condos, or upstairs kitchens. Whether it's <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">commercial appliance removal in Kearny Mesa</a> or residential service in <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa washer and dryer removal</a>, we safely navigate tight spaces and recycle Freon-compliant units responsibly.
+                  Refrigerators are heavy and awkward—especially getting them down stairs or through narrow San Diego hallways. We handle garages, upstairs kitchens, <a href="/junk-removal-kearny-mesa" className="text-blue-600 hover:underline">Kearny Mesa restaurant equipment</a>, and <a href="/junk-removal-la-mesa" className="text-blue-600 hover:underline">La Mesa residential units</a>. Freon gets disposed of at certified facilities that meet California Air Resources Board standards—no shortcuts.
                 </p>
 
                 <h3 className="text-2xl font-bold mt-6 mb-3">Washer & Dryer Removal San Diego</h3>
                 <p className="text-lg mb-6">
-                  We disconnect, remove, and haul both units together—perfect for laundry upgrades or new appliance deliveries. Our team provides efficient service from <a href="/junk-removal-mira-mesa" className="text-blue-600 hover:underline">Mira Mesa appliance recycling</a> to <a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee appliance pickup</a>.
+                  We disconnect both units, haul them out together, and handle the recycling. Perfect when you're upgrading or when the delivery guys show up tomorrow and the old set is still sitting there. From <a href="/junk-removal-mira-mesa" className="text-blue-600 hover:underline">Mira Mesa apartment complexes</a> to <a href="/junk-removal-santee" className="text-blue-600 hover:underline">Santee houses</a>, we do this every day.
                 </p>
 
                 <h3 className="text-2xl font-bold mt-6 mb-3">Stove & Dishwasher Removal San Diego</h3>
@@ -550,45 +550,45 @@ export default function ApplianceRemovalPage() {
                   </div>
                 </div>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">Why Hire Professionals</h3>
+                <h3 className="text-2xl font-bold mt-8 mb-4">Why Not Do It Yourself?</h3>
                 <p className="text-lg mb-4">
-                  Removing large appliances yourself risks injury, damage, and disposal violations. We provide safe, compliant, and efficient appliance disposal San Diego service that includes:
+                  Refrigerators weigh 200-300 pounds. Washers aren't much lighter. You risk throwing your back out, scratching floors, or cracking a gas line if you don't know what you're doing. We've done this thousands of times—you probably haven't.
                 </p>
 
                 <ul className="list-none space-y-2 mb-6">
                   <li className="flex items-start">
                     <span className="text-green-500 mr-2">✅</span>
-                    <span>Proper disconnection from gas/electric/water lines</span>
+                    <span>Gas line and water line disconnection</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-500 mr-2">✅</span>
-                    <span>Floor and wall protection during removal</span>
+                    <span>Floor protection (cardboard, dollies, straps)</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-500 mr-2">✅</span>
-                    <span>Recycling through certified facilities</span>
+                    <span>Freon-compliant recycling for refrigerators</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-500 mr-2">✅</span>
-                    <span>Licensed and insured handling</span>
+                    <span>Licensed and insured (CA contractor requirements)</span>
                   </li>
                 </ul>
 
                 <p className="text-lg mb-6">
-                  Avoid back injuries, scratches, and fines — let the pros handle it.
+                  You could rent a truck, find someone to help, figure out where to legally dispose of a refrigerator with Freon. Or call us and it's done in an hour.
                 </p>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">Serving All of San Diego County</h3>
+                <h3 className="text-2xl font-bold mt-8 mb-4">Where We Work in San Diego County</h3>
                 <p className="text-lg mb-4">
-                  We provide appliance removal San Diego and appliance disposal services everywhere, including <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside appliance disposal services</a> and <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar luxury appliance removal</a>.
+                  We run jobs all over—from <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a> down to <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a> to <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>. If you're in San Diego County, we'll get there.
                 </p>
 
                 <p className="text-lg mb-6 text-gray-700">
-                  La Jolla • Pacific Beach • Downtown • North Park • Hillcrest • Mission Valley • La Mesa • Santee • Poway • El Cajon • Chula Vista • Oceanside • Vista • Del Mar
+                  La Jolla • Pacific Beach • Downtown • North Park • Hillcrest • Mission Valley • La Mesa • Santee • Poway • El Cajon • Chula Vista • Oceanside • Vista • Del Mar • Carlsbad • Escondido • Mira Mesa • Kearny Mesa • Point Loma
                 </p>
 
                 <p className="text-lg mb-6">
-                  Disposal and recycling handled through licensed centers including Miramar Landfill and Allan Company Recycling.
+                  Recycling gets handled at Allan Company Recycling off 28th Street, Miramar Greenery, and certified Freon recovery facilities. Everything follows California Air Resources Board and EPA standards.
                 </p>
 
               </div>
