@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
-import { generateFAQSchema, generateLocationServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { generateFAQSchema, generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema, generateHowToSchema } from "@/lib/schema";
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
@@ -89,6 +89,253 @@ const costFAQs = [
   ];
 
 export default function JunkRemovalCostPage() {
+  const localBusinessSchema = {
+    "@type": "LocalBusiness",
+    "@id": "https://www.severinhauling.com/junk-removal-cost-san-diego#business",
+    "name": "Severin Hauling - Junk Removal Cost San Diego",
+    "description": "Transparent junk removal cost San Diego with free quotes and affordable prices. Licensed & insured junk removal service.",
+    "url": "https://www.severinhauling.com/junk-removal-cost-san-diego",
+    "telephone": "+1-619-750-0114",
+    "email": "severinhauling@gmail.com",
+    "priceRange": "$69-$495",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "8900 Grossmont Blvd Ste 1",
+      "addressLocality": "La Mesa",
+      "addressRegion": "CA",
+      "postalCode": "91941",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.7763,
+      "longitude": -117.0231
+    },
+    "areaServed": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": 32.7157,
+        "longitude": -117.1611
+      },
+      "geoRadius": "50000"
+    },
+    "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
+    "currenciesAccepted": "USD",
+    "openingHours": "Mo-Su 00:00-23:59",
+    "aggregateRating": generateAggregateRatingSchema(),
+    "knowsAbout": [
+      "Transparent Junk Removal Pricing San Diego County",
+      "Volume-Based Junk Removal Cost Structure",
+      "Free Junk Removal Quotes and Estimates",
+      "Affordable Single Item Pickup ($69-$100)",
+      "Competitive Truck Load Pricing ($249-$495)",
+      "No Hidden Fees Junk Removal San Diego",
+      "Same-Day Junk Removal Service Cost Comparison",
+      "Licensed and Insured Budget Junk Hauling"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Junk Removal Pricing San Diego",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Single Item Removal",
+            "description": "Small items ($69+) and standard items ($100+) including furniture and appliances"
+          },
+          "price": "69.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Quarter Load Junk Removal",
+            "description": "1/4 truck load (3 cubic yards) for small cleanouts"
+          },
+          "price": "249.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Half Load Junk Removal",
+            "description": "1/2 truck load (6 cubic yards) for medium cleanouts"
+          },
+          "price": "349.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Full Load Junk Removal",
+            "description": "Full truck load (12 cubic yards) for large cleanouts"
+          },
+          "price": "495.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    }
+  };
+
+  const neighborhoodSchema = {
+    "@type": "ItemList",
+    "name": "San Diego Junk Removal Cost Service Areas",
+    "description": "Affordable junk removal pricing across all San Diego County neighborhoods",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Place",
+          "name": "La Jolla",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92037"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Place",
+          "name": "Pacific Beach",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92109"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Place",
+          "name": "Chula Vista",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Chula Vista",
+            "addressRegion": "CA",
+            "postalCode": "91910"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "Place",
+          "name": "El Cajon",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "El Cajon",
+            "addressRegion": "CA",
+            "postalCode": "92020"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "Place",
+          "name": "Oceanside",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Oceanside",
+            "addressRegion": "CA",
+            "postalCode": "92054"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "item": {
+          "@type": "Place",
+          "name": "Escondido",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Escondido",
+            "addressRegion": "CA",
+            "postalCode": "92025"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "item": {
+          "@type": "Place",
+          "name": "Santee",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Santee",
+            "addressRegion": "CA",
+            "postalCode": "92071"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "item": {
+          "@type": "Place",
+          "name": "La Mesa",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "La Mesa",
+            "addressRegion": "CA",
+            "postalCode": "91942"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "item": {
+          "@type": "Place",
+          "name": "Poway",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Poway",
+            "addressRegion": "CA",
+            "postalCode": "92064"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "item": {
+          "@type": "Place",
+          "name": "Carlsbad",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Carlsbad",
+            "addressRegion": "CA",
+            "postalCode": "92008"
+          }
+        }
+      }
+    ]
+  };
+
+  const howToSchema = generateHowToSchema();
+
   const serviceSchema = generateLocationServiceSchema({
     locationName: "San Diego",
     serviceName: "Junk Removal",
@@ -104,14 +351,9 @@ export default function JunkRemovalCostPage() {
 
   const faqSchema = generateFAQSchema(costFAQs);
 
-  // Remove @context from individual schemas since they'll be in @graph
-  const { "@context": _serviceContext, ...serviceSchemaWithoutContext } = serviceSchema;
-  const { "@context": _breadcrumbContext, ...breadcrumbSchemaWithoutContext } = breadcrumbSchema;
-  const { "@context": _faqContext, ...faqSchemaWithoutContext } = faqSchema;
-
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchemaWithoutContext, breadcrumbSchemaWithoutContext, faqSchemaWithoutContext],
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, neighborhoodSchema, howToSchema],
   };
 
   return (
@@ -357,6 +599,62 @@ export default function JunkRemovalCostPage() {
                 <p className="text-gray-700">
                   Larger loads cost less per cubic yard — meaning the more you haul, the more you save.
                 </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Common Pricing Situations */}
+        <section className="py-16 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center">
+                Common Junk Removal Cost Situations in San Diego
+              </h2>
+              <p className="text-xl text-gray-600 mb-12 text-center">
+                See how our transparent pricing applies to real scenarios:
+              </p>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg">
+                  <h3 className="text-2xl font-bold text-blue-900 mb-3">💰 Budget-Conscious Homeowners</h3>
+                  <p className="text-gray-700 mb-4">
+                    You're comparing DIY dump runs versus hiring professionals. You've priced truck rentals ($50-$150), dump fees ($70-$100), and your Saturday. Then you see our quote: $100 for a single couch, all-in. No truck. No dump lines. No heavy lifting.
+                  </p>
+                  <p className="text-gray-700 font-semibold">
+                    <strong>Common scenarios:</strong> Single furniture pieces, small garage cleanouts, post-renovation debris removal where DIY seems cheaper until you factor in time and effort.
+                  </p>
+                </div>
+
+                <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-lg">
+                  <h3 className="text-2xl font-bold text-green-900 mb-3">📦 Moving & Downsizing</h3>
+                  <p className="text-gray-700 mb-4">
+                    You're moving from a 3-bedroom house to a 2-bedroom condo. Half your furniture won't fit. The movers want $200 extra to haul it away — but they won't recycle or donate. We charge $349 for a half-load, handle donation coordination, and you know the exact cost upfront.
+                  </p>
+                  <p className="text-gray-700 font-semibold">
+                    <strong>Common scenarios:</strong> Downsizing moves, furniture that won't fit new space, moving day cleanouts, staging homes for sale where every item has a clear price.
+                  </p>
+                </div>
+
+                <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-lg">
+                  <h3 className="text-2xl font-bold text-orange-900 mb-3">🏢 Property Managers & Landlords</h3>
+                  <p className="text-gray-700 mb-4">
+                    Tenant left mid-lease. You need the unit clean for showings tomorrow. You call three junk removal companies — two quote "around $400-$600" after seeing it, one doesn't answer. We quote $349 over the phone for a half-load, show up same-day, and invoice you immediately. No surprises.
+                  </p>
+                  <p className="text-gray-700 font-semibold">
+                    <strong>Common scenarios:</strong> Tenant abandonments, turnover cleanouts, property flips, estate cleanouts where you need fast, transparent pricing for budget approval.
+                  </p>
+                </div>
+
+                <div className="bg-purple-50 border-l-4 border-purple-500 p-6 rounded-lg">
+                  <h3 className="text-2xl font-bold text-purple-900 mb-3">⏰ Last-Minute & Same-Day Needs</h3>
+                  <p className="text-gray-700 mb-4">
+                    Your daughter's moving out Sunday. The new tenants move in Monday. You call Saturday morning: "How much to clear a bedroom of furniture?" We quote $249 for a quarter-load, arrive at 2 PM, and it's done by 3 PM. No rush fees. No weekend upcharges.
+                  </p>
+                  <p className="text-gray-700 font-semibold">
+                    <strong>Common scenarios:</strong> Urgent cleanouts, last-minute moving help, emergency property clearing where you need same-day service without paying double.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
