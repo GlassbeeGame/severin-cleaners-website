@@ -334,7 +334,10 @@ export default function JunkRemovalCostPage() {
     ]
   };
 
-  const howToSchema = generateHowToSchema();
+  const howToSchema = generateHowToSchema({
+    cityName: "San Diego",
+    pageUrl: "https://www.severinhauling.com/junk-removal-cost-san-diego"
+  });
 
   const serviceSchema = generateLocationServiceSchema({
     locationName: "San Diego",
