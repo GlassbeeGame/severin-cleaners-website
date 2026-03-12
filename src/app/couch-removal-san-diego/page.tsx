@@ -259,18 +259,146 @@ export default function CouchRemovalPage() {
     "name": "San Diego Neighborhoods We Serve for Couch Removal",
     "description": "Areas throughout San Diego County where we provide couch and sofa removal services",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Pacific Beach couch removal" },
-      { "@type": "ListItem", "position": 2, "name": "La Jolla couch removal" },
-      { "@type": "ListItem", "position": 3, "name": "North Park couch removal" },
-      { "@type": "ListItem", "position": 4, "name": "Hillcrest couch removal" },
-      { "@type": "ListItem", "position": 5, "name": "Downtown San Diego couch removal" },
-      { "@type": "ListItem", "position": 6, "name": "Clairemont couch removal" },
-      { "@type": "ListItem", "position": 7, "name": "Chula Vista couch removal" },
-      { "@type": "ListItem", "position": 8, "name": "El Cajon couch removal" },
-      { "@type": "ListItem", "position": 9, "name": "Oceanside couch removal" },
-      { "@type": "ListItem", "position": 10, "name": "Mission Valley couch removal" },
-      { "@type": "ListItem", "position": 11, "name": "Gaslamp Quarter couch removal" },
-      { "@type": "ListItem", "position": 12, "name": "East Village couch removal" }
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Place",
+          "name": "Pacific Beach",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92109"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Place",
+          "name": "La Jolla",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92037"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Place",
+          "name": "North Park",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92104"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "Place",
+          "name": "Hillcrest",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92103"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "Place",
+          "name": "Downtown San Diego",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92101"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "item": {
+          "@type": "Place",
+          "name": "Clairemont",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92117"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "item": {
+          "@type": "Place",
+          "name": "Chula Vista",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Chula Vista",
+            "addressRegion": "CA",
+            "postalCode": "91910"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "item": {
+          "@type": "Place",
+          "name": "El Cajon",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "El Cajon",
+            "addressRegion": "CA",
+            "postalCode": "92020"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "item": {
+          "@type": "Place",
+          "name": "Oceanside",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Oceanside",
+            "addressRegion": "CA",
+            "postalCode": "92054"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "item": {
+          "@type": "Place",
+          "name": "Mission Valley",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92108"
+          }
+        }
+      }
     ]
   };
 
@@ -331,7 +459,7 @@ export default function CouchRemovalPage() {
 
                   <div className="clear-both"></div>
 
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Types of Couches We Remove</h3>
+                  <h2 className="text-3xl font-bold text-gray-900 mb-4 mt-8">Types of Couches We Remove</h2>
 
                   <div className="grid md:grid-cols-2 gap-4 mb-8">
                     <div>
@@ -371,7 +499,7 @@ export default function CouchRemovalPage() {
                   {/* Clear float before next section */}
                   <div className="clear-both"></div>
 
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Your Options: DIY vs Pro Removal</h3>
+                  <h2 className="text-3xl font-bold text-gray-900 mb-4">Your Options: DIY vs Pro Removal</h2>
 
                   <div className="overflow-x-auto mb-6">
                     <table className="w-full border-collapse border border-gray-300">
@@ -444,42 +572,63 @@ export default function CouchRemovalPage() {
                     </div>
                   </div>
 
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Fast Response Times</h3>
+                  <h2 className="text-3xl font-bold text-gray-900 mb-4">Fast Response Times</h2>
                   <p className="text-lg text-gray-700 mb-4 leading-relaxed">
                     We're locally based in San Diego, which means fast pickup times for couch removal throughout the county. Our central location allows us to reach most San Diego neighborhoods quickly—typically 15 minutes from Petco Park, 10 minutes from Balboa Park, and 20 minutes from UC San Diego. This local presence makes us significantly faster than out-of-town junk removal companies operating from Riverside or Orange County who may take hours to reach your location.
                   </p>
 
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">We Handle Tricky Situations</h3>
+                  <h2 className="text-3xl font-bold text-gray-900 mb-4">We Handle Tricky Situations</h2>
                   <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                     San Diego presents unique challenges for furniture removal, and our experienced team navigates them all. Tight parking in downtown areas, heavy beach traffic in coastal neighborhoods, narrow driveways in older communities—we've handled far worse. Our drivers know San Diego streets intimately and plan efficient routes around traffic patterns, parking restrictions, and neighborhood access limitations. Whether removing a sectional from a Pacific Beach apartment with limited street parking or hauling a sleeper sofa from a hillside home in Mission Hills, we make it work.
                   </p>
 
                   <div className="clear-both"></div>
 
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Business & Property Managers</h3>
+                  <h2 className="text-3xl font-bold text-gray-900 mb-4">Business & Property Managers</h2>
                   <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                     We work extensively with commercial properties, property management companies, and businesses throughout San Diego County. Our couch removal clients include UC San Diego student housing, Sharp Healthcare medical facilities, Qualcomm offices in Sorrento Valley, hotels and vacation rentals near Mission Beach, and retail centers like Fashion Valley. We remove lobby furniture, waiting room seating, office lounge sofas, and tenant-abandoned couches. We offer flexible pickup scheduling with both business hours and after-hours service to minimize disruption to your operations. Property managers highly recommend our transparent pricing and reliable service for apartment turnovers and commercial upholstered furniture disposal.
                   </p>
 
-                  <h2 className="text-3xl font-bold text-gray-900 mb-4">Neighborhood-Specific Solutions</h2>
+                  <h2 className="text-3xl font-bold mt-10 mb-6">Common Couch Removal Situations</h2>
 
-                  <div className="grid md:grid-cols-3 gap-6 mb-8">
-                    <div className="bg-gray-50 p-6 rounded-lg">
-                      <h4 className="text-xl font-bold mb-3 text-blue-600">Urban Apartments & Downtown Properties</h4>
-                      <p className="text-gray-700 leading-relaxed">
-                        We specialize in couch removal from downtown San Diego apartments and urban high-rises. Our team navigates tight hallways, operates freight elevators, and disassembles sectional sofas when needed. We provide same-day move-out furniture disposal near Gaslamp Quarter and East Village, perfect for rental turnovers and quick relocations.
+                  <div className="space-y-6 mb-12">
+                    <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg">
+                      <h3 className="text-2xl font-bold text-blue-900 mb-3">🏠 Moving & Downsizing Deadlines</h3>
+                      <p className="text-gray-700 mb-3">
+                        Your lease ends Friday and the new tenant moves in Saturday morning. The sectional sofa won't fit in your new place and you're out of time. Or you're downsizing from a Clairemont family home to a North Park condo and need three couches gone before the movers arrive Thursday. Missing your move-out deadline means losing your deposit or paying double rent.
+                      </p>
+                      <p className="text-gray-700">
+                        <strong>Common scenarios:</strong> Lease expiration cleanouts • Cross-country moves with no furniture truck space • Downsizing to smaller apartments • Military PCS moves with strict timelines • Estate cleanouts with property sale deadlines • Divorce transitions requiring fast furniture division
                       </p>
                     </div>
-                    <div className="bg-gray-50 p-6 rounded-lg">
-                      <h4 className="text-xl font-bold mb-3 text-blue-600">Suburban Homes & Family Properties</h4>
-                      <p className="text-gray-700 leading-relaxed">
-                        Our sofa removal service handles suburban family homes throughout San Diego with driveway-safe loading procedures for larger living room furniture. We remove couches from garages, attics, and side yards. For furniture in good shape, we coordinate donation pickups with local charities, helping San Diego families give back.
+
+                    <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg">
+                      <h3 className="text-2xl font-bold text-red-900 mb-3">🛋️ Broken or Damaged Furniture Emergencies</h3>
+                      <p className="text-gray-700 mb-3">
+                        The sleeper sofa frame collapsed and now it's a safety hazard blocking your Pacific Beach living room. Or your leather couch developed a mold problem after last month's roof leak and it's making everyone sick. Broken furniture doesn't just look bad—it's a liability. Property managers face tenant complaints. Homeowners risk injuries. San Diego's coastal humidity makes mold spread fast on damaged upholstery.
+                      </p>
+                      <p className="text-gray-700">
+                        <strong>Common scenarios:</strong> Collapsed sofa frames • Mold-damaged upholstery from water leaks • Couches infested with bedbugs or pests • Smoke-damaged furniture after kitchen fires • Pet-destroyed sofas beyond repair • Spring mechanisms breaking through cushions
                       </p>
                     </div>
-                    <div className="bg-gray-50 p-6 rounded-lg">
-                      <h4 className="text-xl font-bold mb-3 text-blue-600">Beach & Coastal Neighborhoods</h4>
-                      <p className="text-gray-700 leading-relaxed">
-                        Coastal furniture removal requires special attention, and we deliver. We handle oversized beachfront sofas with limited street access, provide sand-safe protection for your property, and schedule pickups strategically around tourism patterns and parking restrictions in areas like Pacific Beach and La Jolla.
+
+                    <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-lg">
+                      <h3 className="text-2xl font-bold text-green-900 mb-3">🏘️ Rental Property & Tenant Turnovers</h3>
+                      <p className="text-gray-700 mb-3">
+                        The tenant moved out of your Mission Valley rental and left behind a sectional, loveseat, and recliner. You've got new renters moving in next week and need the unit show-ready. Or you manage a La Jolla vacation rental and guests abandoned a stained couch. Property managers across San Diego deal with this constantly—tenants leave furniture behind, and landlords need it gone fast to avoid lost rental income.
+                      </p>
+                      <p className="text-gray-700">
+                        <strong>Common scenarios:</strong> Tenant-abandoned furniture after evictions • Vacation rental guest furniture disposal • Student housing turnovers near SDSU and UCSD • Airbnb furniture replacement cycles • Corporate housing furniture swaps • Multi-family property bulk furniture cleanouts
+                      </p>
+                    </div>
+
+                    <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-lg">
+                      <h3 className="text-2xl font-bold text-orange-900 mb-3">🚚 New Furniture Delivery Conflicts</h3>
+                      <p className="text-gray-700 mb-3">
+                        Your new sectional from Mor Furniture delivers tomorrow at 10 AM and the old couch is still taking up the entire Hillcrest living room. The delivery crew won't haul away your old furniture—they just drop off the new stuff. You need the space cleared before they arrive or the delivery gets rescheduled (and you wait another 3 weeks). Or you bought a floor model at Ashley Furniture and need same-day old couch removal to make room.
+                      </p>
+                      <p className="text-gray-700">
+                        <strong>Common scenarios:</strong> New furniture delivery tomorrow • Floor model purchases requiring immediate pickup • Living room remodels with contractor start dates • Home staging before open houses this weekend • Interior design projects with tight installation schedules • Showroom furniture swaps for model homes
                       </p>
                     </div>
                   </div>
@@ -489,7 +638,7 @@ export default function CouchRemovalPage() {
                     Taking furniture to <a href="/san-diego-dump-fees" className="text-blue-600 hover:underline">Miramar Landfill</a> yourself is a hassle that consumes half your day. You need access to a truck large enough to haul your couch, which means renting one if you don't own a pickup. Then you wait in long dump lines, unload heavy furniture yourself, and pay $40-60 in disposal fees. Our couch disposal San Diego service makes it simple—one call and we handle everything. No heavy lifting, no driving across town, no waiting in landfill lines. Starting at just $69, we provide convenient furniture removal that saves you time, effort, and often money.
                   </p>
 
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Choose Us Over Big Franchises</h3>
+                  <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Choose Us Over Big Franchises</h2>
                   <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                     As a locally owned furniture removal company, we provide faster service than national franchises operating from outside San Diego. Our transparent pricing model means no hidden fees—unlike other companies that charge extra for stairs, tight spaces, or weekend pickups, we quote one price based on couch size and stick to it. We prioritize eco-friendly disposal, donating furniture in good shape to San Diego charities and recycling materials whenever possible, while many competitors simply dump everything at the landfill regardless of condition. Customers highly recommend our honest approach and reliable service.
                   </p>
@@ -500,7 +649,7 @@ export default function CouchRemovalPage() {
                   </p>
 
                   <div className="text-center bg-blue-900 text-white p-8 rounded-lg mt-8">
-                    <h3 className="text-2xl font-bold mb-4">Ready to Get Rid of Your Couch or Sofa?</h3>
+                    <h2 className="text-3xl font-bold mb-4">Ready to Get Rid of Your Couch or Sofa?</h2>
                     <p className="text-lg mb-6 leading-relaxed">
                       Professional couch and sofa removal San Diego starting at $69 for small sofas, $100 for standard couches, $129+ for sectionals. Same-day service available. Transparent pricing with no hidden fees. Eco-friendly recycling and donation for all upholstered furniture.
                     </p>
@@ -564,7 +713,7 @@ export default function CouchRemovalPage() {
       {/* Related Services */}
       <section className="py-12 bg-white">
         <div className="container mx-auto px-4">
-          <h3 className="text-2xl font-bold text-center mb-8">Related Services</h3>
+          <h2 className="text-3xl font-bold text-center mb-8">Related Services</h2>
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             <a href="/furniture-disposal-san-diego" className="block p-6 bg-blue-50 border-2 border-blue-500 rounded-lg shadow hover:shadow-lg transition-shadow">
               <h4 className="font-semibold text-lg mb-2 text-blue-600">All Furniture Types →</h4>

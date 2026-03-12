@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
 import { generateFAQSchema } from "@/lib/schema";
 import SchemaMarkup from "@/components/SchemaMarkup";
-import { generateServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/lib/schema";
+import { generateServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema, generateHowToSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
@@ -221,24 +221,157 @@ export default function CommercialJunkRemovalSanDiegoPage() {
     "name": "San Diego Business Districts We Serve",
     "description": "Commercial areas throughout San Diego County where we provide business junk removal services",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Downtown San Diego commercial junk removal" },
-      { "@type": "ListItem", "position": 2, "name": "Kearny Mesa office cleanout" },
-      { "@type": "ListItem", "position": 3, "name": "Mission Valley retail junk removal" },
-      { "@type": "ListItem", "position": 4, "name": "UTC/La Jolla business cleanout" },
-      { "@type": "ListItem", "position": 5, "name": "Sorrento Valley office junk removal" },
-      { "@type": "ListItem", "position": 6, "name": "Mira Mesa warehouse cleanout" },
-      { "@type": "ListItem", "position": 7, "name": "North Park retail junk removal" },
-      { "@type": "ListItem", "position": 8, "name": "Gaslamp Quarter business cleanout" },
-      { "@type": "ListItem", "position": 9, "name": "Harbor District commercial removal" },
-      { "@type": "ListItem", "position": 10, "name": "Airport Area business junk removal" },
-      { "@type": "ListItem", "position": 11, "name": "Otay Mesa warehouse cleanout" },
-      { "@type": "ListItem", "position": 12, "name": "Chula Vista commercial junk removal" }
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Place",
+          "name": "Downtown San Diego",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92101"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Place",
+          "name": "Kearny Mesa",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92111"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Place",
+          "name": "Mission Valley",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92108"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "Place",
+          "name": "La Jolla",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92037"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "Place",
+          "name": "Sorrento Valley",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92121"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "item": {
+          "@type": "Place",
+          "name": "Mira Mesa",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92126"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "item": {
+          "@type": "Place",
+          "name": "North Park",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92104"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "item": {
+          "@type": "Place",
+          "name": "Gaslamp Quarter",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92101"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "item": {
+          "@type": "Place",
+          "name": "Chula Vista",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Chula Vista",
+            "addressRegion": "CA",
+            "postalCode": "91910"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "item": {
+          "@type": "Place",
+          "name": "Oceanside",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Oceanside",
+            "addressRegion": "CA",
+            "postalCode": "92054"
+          }
+        }
+      }
     ]
   };
 
+  const howToSchema = generateHowToSchema({
+    cityName: "San Diego (Commercial Service)",
+    pageUrl: "https://www.severinhauling.com/commercial-junk-removal-san-diego"
+  });
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, neighborhoodSchema]
+    "@graph": [serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, neighborhoodSchema, howToSchema]
   };
 
   return (
@@ -307,7 +440,7 @@ export default function CommercialJunkRemovalSanDiegoPage() {
 
                     <div className="clear-both"></div>
 
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Commercial vs Construction Debris Removal</h3>
+                    <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Commercial vs Construction Debris Removal</h2>
 
                     <p className="text-lg text-gray-700 mb-4">
                       Many San Diego businesses wonder which service they need. Here's the difference:
@@ -350,7 +483,7 @@ export default function CommercialJunkRemovalSanDiegoPage() {
                       <strong>Still not sure?</strong> If you're an operating business needing furniture, equipment, or operational waste removed, you're in the right place. If you're a contractor with building materials and demo waste, visit our <a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">construction debris removal page</a>.
                     </p>
 
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4">Types of Businesses We Serve</h3>
+                    <h2 className="text-2xl font-bold text-gray-900 mb-4">Types of Businesses We Serve</h2>
 
                     <p className="text-lg text-gray-700 mb-4">
                       Our commercial debris removal San Diego service handles all types of operating businesses across San Diego County. Each industry has unique requirements and we provide specialized service for your business type.
@@ -430,7 +563,50 @@ export default function CommercialJunkRemovalSanDiegoPage() {
                       </div>
                     </div>
 
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4">Business Account Benefits</h3>
+                    <h2 className="text-3xl font-bold mt-10 mb-6">Common Commercial Cleanout Situations</h2>
+                    <div className="space-y-6 mb-12">
+                      <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg">
+                        <h3 className="text-2xl font-bold text-blue-900 mb-3">🏢 Office Relocation & Downsizing</h3>
+                        <p className="text-gray-700 mb-3">
+                          Moving offices in downtown San Diego, Kearny Mesa, or Mission Valley means clearing old furniture fast. New tenant moves in Monday and you still have 40 workstations, filing cabinets, and conference room furniture to remove. We handle office relocations and downsizing cleanouts over weekends so your business operations don't stop.
+                        </p>
+                        <p className="text-gray-700">
+                          <strong>Common scenarios:</strong> Lease expiration cleanouts • Office relocation to smaller space • Merger consolidations • Startup pivot downsizing • Remote-first transitions
+                        </p>
+                      </div>
+
+                      <div className="bg-purple-50 border-l-4 border-purple-500 p-6 rounded-lg">
+                        <h3 className="text-2xl font-bold text-purple-900 mb-3">🛍️ Retail Store Closure & Remodels</h3>
+                        <p className="text-gray-700 mb-3">
+                          Closing a retail location in North Park, Gaslamp, or UTC means clearing fixtures, displays, and inventory before lease ends. Store remodels require removing old fixtures while keeping the business operational. We coordinate with property management for freight elevator access and loading dock scheduling to minimize disruption.
+                        </p>
+                        <p className="text-gray-700">
+                          <strong>Common scenarios:</strong> Store closure cleanouts • Retail remodel fixture removal • Shopping mall unit turnovers • POS system disposal • Inventory liquidation debris
+                        </p>
+                      </div>
+
+                      <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-lg">
+                        <h3 className="text-2xl font-bold text-green-900 mb-3">📦 Warehouse & Distribution Center Cleanouts</h3>
+                        <p className="text-gray-700 mb-3">
+                          Warehouse operations in Mira Mesa, Otay Mesa, or Airport Area generate equipment, shelving, and pallets that need removal. Facility relocations or equipment upgrades mean clearing industrial shelving, machinery, and loading dock areas without stopping distribution operations. We schedule around your receiving windows and peak shipping times.
+                        </p>
+                        <p className="text-gray-700">
+                          <strong>Common scenarios:</strong> Warehouse relocation cleanouts • Industrial shelving removal • Equipment upgrade disposal • Facility consolidation • Distribution center reorganization
+                        </p>
+                      </div>
+
+                      <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-lg">
+                        <h3 className="text-2xl font-bold text-orange-900 mb-3">⏰ Lease Expiration & Tenant Improvement Deadlines</h3>
+                        <p className="text-gray-700 mb-3">
+                          Commercial lease ends Friday and the landlord requires the space cleared for tenant improvements. Property management needs the space broom-clean or you forfeit your security deposit. We provide documentation (before/after photos, removal receipts) for your landlord showing compliance with lease-end cleanout requirements.
+                        </p>
+                        <p className="text-gray-700">
+                          <strong>Common scenarios:</strong> Lease expiration cleanouts • Landlord required cleanouts • Security deposit compliance • Tenant improvement prep • Property manager deadlines
+                        </p>
+                      </div>
+                    </div>
+
+                    <h2 className="text-2xl font-bold text-gray-900 mb-4">Business Account Benefits</h2>
 
                     <p className="text-lg text-gray-700 mb-4">
                       Our office cleanout San Diego service includes business account options designed specifically for San Diego companies. Unlike residential service, we understand businesses have different needs around billing, scheduling, and documentation.
@@ -460,7 +636,7 @@ export default function CommercialJunkRemovalSanDiegoPage() {
                       </p>
                     </div>
 
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4">After-Hours & Weekend Service</h3>
+                    <h2 className="text-2xl font-bold text-gray-900 mb-4">After-Hours & Weekend Service</h2>
 
                     <p className="text-lg text-gray-700 mb-4">
                       Business operations can't be disrupted during regular hours. That's why after-hours service is standard for our commercial junk removal San Diego clients, not an upcharge.
@@ -484,7 +660,7 @@ export default function CommercialJunkRemovalSanDiegoPage() {
                       </div>
                     </div>
 
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4">Compliance & Documentation</h3>
+                    <h2 className="text-2xl font-bold text-gray-900 mb-4">Compliance & Documentation</h2>
 
                     <p className="text-lg text-gray-700 mb-4">
                       Our business junk removal San Diego service goes beyond hauling. We provide the compliance documentation and professional standards businesses need for regulatory requirements, audits, and corporate policies.
@@ -513,7 +689,7 @@ export default function CommercialJunkRemovalSanDiegoPage() {
                       </div>
                     </div>
 
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4">San Diego Business Districts We Serve</h3>
+                    <h2 className="text-2xl font-bold text-gray-900 mb-4">San Diego Business Districts We Serve</h2>
 
                     <p className="text-lg text-gray-700 mb-4">
                       Our retail cleanout San Diego and warehouse junk removal San Diego services cover all major business districts throughout San Diego County. We understand the unique challenges of different commercial zones and provide tailored solutions for each area.
@@ -542,7 +718,7 @@ export default function CommercialJunkRemovalSanDiegoPage() {
                       </div>
                     </div>
 
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4">Why San Diego Businesses Choose Us</h3>
+                    <h2 className="text-2xl font-bold text-gray-900 mb-4">Why San Diego Businesses Choose Us</h2>
 
                     <p className="text-lg text-gray-700 mb-4">
                       As a locally-owned business serving San Diego's commercial community, we understand what businesses need. Fast response, professional crews, proper documentation, and zero disruption to your operations.

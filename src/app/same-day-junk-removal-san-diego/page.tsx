@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
 import SchemaMarkup from "@/components/SchemaMarkup";
-import { generateFAQSchema, generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { generateFAQSchema, generateServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema, generateHowToSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
@@ -24,7 +24,8 @@ export const metadata: Metadata = {
     'urgent junk removal san diego',
     'today junk pickup',
     'same day hauling san diego',
-    'emergency junk removal san diego'
+    'scheduled junk removal san diego',
+    'planned junk pickup san diego'
   ],
   openGraph: {
     title: 'Same Day Junk Removal San Diego | Today Pickup | Severin Hauling',
@@ -117,9 +118,242 @@ export default function SameDayJunkRemovalPage() {
 
   const faqSchema = generateFAQSchema(sameDayFAQs);
 
+  const localBusinessSchema = {
+    "@type": "LocalBusiness",
+    "@id": "https://www.severinhauling.com/same-day-junk-removal-san-diego#business",
+    "name": "Severin Hauling - Same Day Junk Removal San Diego",
+    "image": "https://www.severinhauling.com/og-image.jpg",
+    "telephone": "+1-619-750-0114",
+    "priceRange": "$69-$495",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "8900 Grossmont Blvd Ste 1",
+      "addressLocality": "La Mesa",
+      "addressRegion": "CA",
+      "postalCode": "91941",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.7683,
+      "longitude": -117.0228
+    },
+    "url": "https://www.severinhauling.com/same-day-junk-removal-san-diego",
+    "areaServed": {
+      "@type": "City",
+      "name": "San Diego",
+      "@id": "https://en.wikipedia.org/wiki/San_Diego"
+    },
+    "openingHours": "Mo-Su 00:00-23:59",
+    "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
+    "currenciesAccepted": "USD",
+    "aggregateRating": generateAggregateRatingSchema(),
+    "knowsAbout": [
+      "Same-Day Junk Removal Service San Diego County",
+      "Rapid Response Junk Pickup Within 2-4 Hours",
+      "7-Day-a-Week Same-Day Junk Hauling",
+      "No Rush Fees or Emergency Surcharges",
+      "Furniture and Appliance Same-Day Removal",
+      "Commercial and Residential Fast Junk Pickup",
+      "Weekend and Holiday Same-Day Service",
+      "Contractor Deadline and Moving Day Junk Removal"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Same Day Junk Removal Services San Diego",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Same-Day Furniture Removal San Diego",
+            "description": "Fast same-day removal of furniture including couches, mattresses, and dressers"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Same-Day Appliance Pickup San Diego",
+            "description": "Rapid same-day appliance removal for refrigerators, washers, and dryers"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Same-Day Construction Debris Removal",
+            "description": "Fast same-day pickup of construction materials and debris"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Same-Day Estate and Garage Cleanouts",
+            "description": "Complete same-day cleanout service for estates, garages, and storage spaces"
+          }
+        }
+      ]
+    }
+  };
+
+  const neighborhoodSchema = {
+    "@type": "ItemList",
+    "name": "Same-Day Junk Removal Coverage San Diego County",
+    "description": "Fast same-day junk removal service throughout San Diego County",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Place",
+          "name": "La Jolla",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92037"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Place",
+          "name": "Pacific Beach",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92109"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Place",
+          "name": "Del Mar",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Del Mar",
+            "addressRegion": "CA",
+            "postalCode": "92014"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "Place",
+          "name": "North Park",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92104"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "Place",
+          "name": "Hillcrest",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92103"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "item": {
+          "@type": "Place",
+          "name": "El Cajon",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "El Cajon",
+            "addressRegion": "CA",
+            "postalCode": "92020"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "item": {
+          "@type": "Place",
+          "name": "Chula Vista",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Chula Vista",
+            "addressRegion": "CA",
+            "postalCode": "91910"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "item": {
+          "@type": "Place",
+          "name": "Oceanside",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Oceanside",
+            "addressRegion": "CA",
+            "postalCode": "92054"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "item": {
+          "@type": "Place",
+          "name": "Escondido",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Escondido",
+            "addressRegion": "CA",
+            "postalCode": "92025"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "item": {
+          "@type": "Place",
+          "name": "Poway",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Poway",
+            "addressRegion": "CA",
+            "postalCode": "92064"
+          }
+        }
+      }
+    ]
+  };
+
+  const howToSchema = generateHowToSchema({
+    cityName: "San Diego (Same-Day Service)",
+    pageUrl: "https://www.severinhauling.com/same-day-junk-removal-san-diego"
+  });
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, neighborhoodSchema, howToSchema]
   };
 
   const relatedServices = [
@@ -168,7 +402,7 @@ export default function SameDayJunkRemovalPage() {
                     </p>
 
                     {/* How Fast Can We Get There */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">How Fast Can We Get There?</h3>
+                    <h2 className="text-3xl font-bold mt-8 mb-4">How Fast Can We Get There?</h2>
                     <p className="text-gray-700 mb-4">
                       Our quick junk removal San Diego service is built around speed and responsiveness.
                     </p>
@@ -194,7 +428,7 @@ export default function SameDayJunkRemovalPage() {
                     </div>
 
                     {/* What We Remove Same Day */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove Same Day</h3>
+                    <h2 className="text-3xl font-bold mt-8 mb-4">What We Remove Same Day</h2>
                     <p className="text-gray-700 mb-4">
                       Our same-day service handles virtually everything from single items to full cleanouts.
                     </p>
@@ -220,7 +454,7 @@ export default function SameDayJunkRemovalPage() {
                     </div>
 
                     {/* Why We're Faster */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Why We're Faster Than National Chains</h3>
+                    <h2 className="text-3xl font-bold mt-8 mb-4">Why We're Faster Than National Chains</h2>
                     <div className="bg-gray-50 p-6 rounded-lg mb-6">
                       <ul className="space-y-2">
                         <li className="flex items-start">
@@ -243,7 +477,7 @@ export default function SameDayJunkRemovalPage() {
                     </div>
 
                     {/* How Our Service Works */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">How Our Same-Day Service Works</h3>
+                    <h2 className="text-3xl font-bold mt-8 mb-4">How Our Same-Day Service Works</h2>
                     <div className="bg-blue-50 rounded-lg p-6 mb-6">
                       <ol className="space-y-3 text-gray-700">
                         <li><strong>1. Call Right Now:</strong> Speak directly with our team at (619) 750-0114. Get an upfront quote in minutes.</li>
@@ -253,7 +487,7 @@ export default function SameDayJunkRemovalPage() {
                     </div>
 
                     {/* Why Choose Us */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Why Choose Severin Hauling for Same-Day Service</h3>
+                    <h2 className="text-3xl font-bold mt-8 mb-4">Why Choose Severin Hauling for Same-Day Service</h2>
                     <ul className="space-y-3 mb-6">
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
@@ -273,8 +507,52 @@ export default function SameDayJunkRemovalPage() {
                       </li>
                     </ul>
 
+                    <h2 className="text-3xl font-bold mt-10 mb-6">Common Same-Day Junk Removal Situations</h2>
+
+                    <div className="space-y-6 mb-12">
+                      <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg">
+                        <h3 className="text-2xl font-bold text-blue-900 mb-3">🚚 Contractor & Renovation Deadlines</h3>
+                        <p className="text-gray-700 mb-3">
+                          Your contractor starts tearing out the kitchen Monday morning and the old cabinets, countertops, and appliances need to be gone before they arrive. Or you're getting new flooring installed this afternoon and the old furniture is still blocking the rooms. Contractors don't wait—they'll reschedule and charge you anyway, wasting your deposit and pushing your project back weeks.
+                        </p>
+                        <p className="text-gray-700">
+                          <strong>Common scenarios:</strong> Kitchen remodel starting tomorrow • Flooring installation this afternoon • Bathroom renovation kicking off Monday • Painting crew arriving in hours • HVAC replacement scheduled today • Window installation requiring furniture moved
+                        </p>
+                      </div>
+
+                      <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-lg">
+                        <h3 className="text-2xl font-bold text-green-900 mb-3">🛋️ Furniture Delivery Conflicts</h3>
+                        <p className="text-gray-700 mb-3">
+                          Your new sectional from Living Spaces delivers at 2 PM today and the old couch is still taking up the entire Pacific Beach living room. Or you bought a floor model at Mor Furniture and need to pick it up this afternoon—but first the old bedroom set has to go. Delivery windows are tight and rescheduling costs money or loses your purchase.
+                        </p>
+                        <p className="text-gray-700">
+                          <strong>Common scenarios:</strong> Furniture delivery arriving today • Floor model pickup appointments • Mattress delivery this afternoon • New appliances being installed now • Office furniture shipment arriving • Room makeover with same-day purchases
+                        </p>
+                      </div>
+
+                      <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-lg">
+                        <h3 className="text-2xl font-bold text-orange-900 mb-3">📦 Moving Day & Staging Deadlines</h3>
+                        <p className="text-gray-700 mb-3">
+                          The moving truck arrives tomorrow at 8 AM and you've got furniture, boxes, and junk you're not taking to the new place. Or your Realtor scheduled an open house for Sunday and the garage, spare bedroom, and patio need to be completely clear by Saturday afternoon for staging. Moving day doesn't wait and home showings happen on tight schedules.
+                        </p>
+                        <p className="text-gray-700">
+                          <strong>Common scenarios:</strong> Moving truck arriving tomorrow morning • Open house this weekend requiring staging • Rental property turnover between tenants • Downsizing and can't fit everything in new place • Cross-country move with tight timeline • Home showing scheduled for this week
+                        </p>
+                      </div>
+
+                      <div className="bg-purple-50 border-l-4 border-purple-500 p-6 rounded-lg">
+                        <h3 className="text-2xl font-bold text-purple-900 mb-3">🏢 Business & Office Turnovers</h3>
+                        <p className="text-gray-700 mb-3">
+                          Your office lease ends Friday and the landlord wants the space broom-clean by 5 PM or you lose your deposit. Or you're opening a new retail location in La Jolla this weekend and the previous tenant's fixtures are still inside. Business moves happen fast and commercial leases have strict turnover requirements with financial penalties for delays.
+                        </p>
+                        <p className="text-gray-700">
+                          <strong>Common scenarios:</strong> Office lease ending this week • Retail space turnover before grand opening • Restaurant equipment removal for new tenant • Warehouse clear-out before new lease starts • Medical office renovation requiring space clearing • Coworking space furniture swap
+                        </p>
+                      </div>
+                    </div>
+
                     {/* Service Areas */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Same-Day Service Throughout San Diego County</h3>
+                    <h2 className="text-3xl font-bold mt-8 mb-4">Same-Day Service Throughout San Diego County</h2>
                     <p className="text-gray-700 mb-4">
                       We provide same-day junk removal service throughout San Diego County. Local teams mean faster response wherever you're located. Services include <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture removal</a>, <a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">appliance removal</a>, <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">hot tub removal</a>, <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial junk removal</a>, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanout</a>, and <a href="/emergency-junk-removal-san-diego" className="text-blue-600 hover:underline">emergency service</a>.
                     </p>

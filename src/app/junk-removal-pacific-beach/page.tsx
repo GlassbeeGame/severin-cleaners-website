@@ -58,6 +58,8 @@ export const metadata: Metadata = {
     'geo.placename': 'Pacific Beach',
     'geo.position': '32.7942;-117.2347',
     'ICBM': '32.7942, -117.2347',
+    'article:published_time': '2026-01-15T09:00:00-08:00',
+    'article:modified_time': '2026-03-06T09:00:00-08:00',
   },
 };
 
@@ -84,7 +86,7 @@ const pacificBeachFAQs = [
   },
   {
     question: "Are you licensed and insured?",
-    answer: "Yes, we're fully licensed and insured throughout Pacific Beach and San Diego County. Our comprehensive liability insurance protects your property during service—especially important for narrow boardwalk access and sandy beach house floors. We provide certificates of insurance upon request for property management companies and vacation rental owners."
+    answer: "Yes, we're a fully licensed California junk removal contractor with $2 million general liability insurance coverage. Our insurance protects your Pacific Beach property during service—especially important for narrow boardwalk access, multi-story buildings, and sandy beach house floors. We provide certificates of insurance upon request for property management companies and vacation rental owners who require proof of coverage."
   },
   {
     question: "Do you recycle or donate items?",
@@ -388,25 +390,25 @@ export default function JunkRemovalPacificBeachPage() {
                     </div>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      Need junk removal in Pacific Beach? <a href="/" className="text-blue-600 hover:underline font-medium">Severin Hauling</a> serves the entire 92109 area—from Crystal Pier boardwalk apartments to Crown Point bay-front homes. We do all the heavy lifting so you can reclaim your space without the stress.
+                      Need junk removal in Pacific Beach? <a href="/" className="text-blue-600 hover:underline font-medium">Severin Hauling</a> serves the entire 92109 area—from Crystal Pier boardwalk apartments to Crown Point bay-front homes. Most Pacific Beach junk removals run $249-$495 depending on volume, with same-day service available when you call before noon.
                     </p>
                     <p className="text-lg mb-4 text-gray-700">
-                      Our crew knows this neighborhood. We handle beach house cleanouts, vacation rental turnovers, and student housing move-outs on Fanuel and Lamont Streets. Narrow Ocean Front Walk alleys, Tuesday Farmers Market closures, summer beach traffic—we work around all of it.
+                      Our crew handles beach house cleanouts, vacation rental turnovers, and student housing move-outs on Fanuel and Lamont Streets. Narrow Ocean Front Walk alleys mean we bring our smaller truck (fits 8-foot-wide passages). Tuesday Farmers Market closures mean we route via Grand Avenue. Summer beach traffic means we schedule early morning slots (6-9 AM) on weekends.
                     </p>
                     <p className="text-lg mb-6 text-gray-700">
-                      Booking junk removal with us is simple: call, get a free no-obligation estimate, and we show up. Easy and stress free. Whether it's a single item or a full property cleanout, we haul everything away and leave your place clutter free. Need it fast? We offer <a href="/blog/same-day-junk-removal-guide" className="text-blue-600 hover:underline">same-day pickup</a> when you call before noon.
+                      Call (619) 750-0114 for a price quote over the phone based on what you're removing. We confirm the final price when we arrive—before we start loading. No obligation to proceed if the on-site price doesn't match your budget. Whether it's a single sofa or a full apartment cleanout, we handle loading, hauling, and disposal. Need it fast? We offer <a href="/blog/same-day-junk-removal-guide" className="text-blue-600 hover:underline">same-day pickup</a> when you call before noon.
                     </p>
 
                     {/* Vacation Rental Use Case */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Junk Removal for Vacation Rental Properties</h3>
                     <p className="text-gray-700 mb-4">
-                      Pacific Beach is one of San Diego's most active short-term rental markets. When tenants leave behind furniture, appliances, or accumulated junk, we haul it out fast. We offer same-day scheduling for vacation rental owners and property managers throughout the 92109 area—including Ocean Front Walk, Crown Point, and Mission Boulevard. Whether it's a single abandoned sofa or a full apartment's worth of items left behind, we remove it and dispose of everything responsibly.
+                      <strong>Typical Pacific Beach vacation rental turnover scenario:</strong> Tenant leaves behind a sofa, mattress, mini-fridge, and 4-5 bags of miscellaneous items in an Ocean Front Walk 3rd-floor apartment. We navigate the narrow boardwalk alley with our smaller truck, hand-carry items down three flights to avoid wall damage, and complete removal in 90 minutes. Cost: $349 (half-load rate). Property ready for next guest same-day when booked before noon. We serve vacation rental owners and property managers throughout the 92109 area—including Ocean Front Walk, Crown Point, and Mission Boulevard.
                     </p>
 
                     {/* Student Housing Use Case */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Student Move-Outs on Lamont, Fanuel &amp; Surrounding Streets</h3>
                     <p className="text-gray-700 mb-6">
-                      The Fanuel and Lamont Street corridors see heavy student move-out activity every May and August. We've handled dozens of end-of-lease cleanouts in PB's student housing—mattresses left on curbs, furniture abandoned in apartments, and accumulated semester debris. We recommend booking 2–3 weeks ahead during peak move-out season. Outside those windows, we're typically available within 24 hours. All removed items are sorted for donation or recycling before anything goes to landfill.
+                      <strong>Typical Pacific Beach student move-out:</strong> Futon, desk, mini-fridge, 6-8 bags of clothes and books left in a Fanuel Street second-floor apartment. Average cost: $249 (quarter-load rate). Time: 60 minutes including stairwell navigation. The Fanuel and Lamont Street corridors see heavy student move-out activity every May and August—book 2-3 weeks ahead during these peak periods for guaranteed availability. Outside May/August, we're typically available within 24 hours. All removed items are sorted for donation or recycling before anything goes to landfill.
                     </p>
 
                     {/* Neighborhoods Served */}
@@ -448,19 +450,19 @@ export default function JunkRemovalPacificBeachPage() {
                     {/* Traffic & Timing */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Beach Traffic & Scheduling Considerations</h3>
                     <p className="text-gray-700 mb-4">
-                      Summer weekends mean heavy traffic on Mission Boulevard and Garnet Avenue from 10 AM to 6 PM. We offer early morning (6–9 AM) or evening slots to stay on schedule.
+                      <strong>Summer weekends:</strong> Mission Boulevard and Garnet Avenue get congested 10 AM-6 PM. We schedule Pacific Beach junk removal for 6-9 AM to avoid delays. Early slots guarantee on-time arrival and faster completion (typical job: 60-90 minutes including loading and haul-away).
                     </p>
                     <p className="text-gray-700 mb-6">
-                      Tuesday Farmers Market closes Bayard Street between Garnet and Grand from 12–8 PM weekly—we route around it automatically. Student move-outs in May and August book fast on Lamont and Fanuel Streets, so <a href="/blog/same-day-junk-removal-guide" className="text-blue-600 hover:underline">plan ahead during those weeks</a>.
+                      <strong>Tuesday Farmers Market:</strong> Bayard Street between Garnet and Grand closes 12-8 PM weekly. We automatically route via Grand Avenue—no delays. <strong>Student move-out season (May/August):</strong> Lamont and Fanuel Streets book 2-3 weeks in advance. <a href="/blog/same-day-junk-removal-guide" className="text-blue-600 hover:underline">Book early during peak periods</a> or call for next-day availability outside those months.
                     </p>
 
                     {/* Weather */}
-                    <h3 className="text-2xl font-bold mt-8 mb-4">Coastal Weather & Salt Air Damage</h3>
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Salt-Damaged Outdoor Items & Weather Considerations</h3>
                     <p className="text-gray-700 mb-4">
-                      The coastal marine layer deposits salt moisture on outdoor items year-round. Beach furniture, bikes, grills, and metal equipment corrode faster here than anywhere inland. Most PB residents haul damaged items before the rust spreads—not after.
+                      <strong>Common Pacific Beach salt-air damage removal:</strong> Rust-corroded patio furniture, bikes with seized chains, grills with deteriorated burners, metal shelving with flaking paint. We handle heavy corroded items (50-200 lbs each) and dispose at proper facilities. Typical outdoor item removal: $100-$249 depending on volume and weight.
                     </p>
                     <p className="text-gray-700 mb-6">
-                      Winter storms (typically December–February) can cause street flooding near Crown Point's bayside along Moorland Drive and Lamont Street. We stay flexible and reschedule around heavy rain when needed.
+                      <strong>Winter weather (December-February):</strong> Crown Point bayside (Moorland Drive, Lamont Street) can flood during heavy rain. We monitor weather and reschedule if street access is unsafe. Text us day-of if you need to postpone—no rescheduling fees.
                     </p>
 
                     {/* What We Remove */}
@@ -492,19 +494,19 @@ export default function JunkRemovalPacificBeachPage() {
                     <ul className="space-y-3 mb-6">
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
-                        <span><strong>Beach Community Specialists:</strong> We navigate narrow boardwalk alleys off Ocean Front Walk, Crystal Pier access challenges, Tuesday Farmers Market closures, and summer beach traffic throughout the 92109 area. We also serve nearby <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> and <a href="/junk-removal-point-loma" className="text-blue-600 hover:underline">Point Loma</a> coastal communities.</span>
+                        <span><strong>Beach Property Access Experience:</strong> We use our smaller truck for narrow Ocean Front Walk alleys (8-foot width minimum). We hand-carry items through tight boardwalk passages and protect walls/doorways during multi-story building removals. We know which Garnet Avenue parking structures allow truck access and which require hand-cart transfers. We also serve nearby <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> and <a href="/junk-removal-point-loma" className="text-blue-600 hover:underline">Point Loma</a> coastal communities.</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
-                        <span><strong>Same-Day Service:</strong> Call before noon for same-day availability. We schedule around beach congestion and student move-out periods for reliable arrival times.</span>
+                        <span><strong>Same-Day Service Guarantee:</strong> Call before noon for same-day Pacific Beach junk removal. We text you 30 minutes before arrival. Typical 2-hour arrival windows (not all-day waits). Jobs completed 60-90 minutes from arrival to final haul-away.</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
-                        <span><strong>Transparent Pricing:</strong> Volume-based rates with no hidden fees. Beach traffic, narrow alleys, and limited parking don't change our pricing. See our <a href="/junk-removal-cost-san-diego" className="text-blue-600 hover:underline">complete pricing guide</a>.</span>
+                        <span><strong>Price Confirmed Before We Start:</strong> Phone quote based on your description. Final price confirmed when we arrive—before loading begins. No obligation if price doesn't match your budget. No surcharges for beach access, narrow alleys, stairs, or limited parking. See our <a href="/junk-removal-cost-san-diego" className="text-blue-600 hover:underline">complete pricing guide</a>.</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-500 text-xl mr-3">✓</span>
-                        <span><strong>Licensed & Insured:</strong> Full coverage for coastal property access, including boardwalk apartments and bay houses. Certificates of insurance available for property managers and vacation rental owners.</span>
+                        <span><strong>Fully Licensed & Insured in California:</strong> Licensed junk removal contractor with $2M general liability coverage. Certificates of insurance available upon request for property managers and vacation rental owners requiring proof of coverage.</span>
                       </li>
                     </ul>
 
@@ -551,14 +553,14 @@ export default function JunkRemovalPacificBeachPage() {
                 Book Your Pacific Beach Junk Removal Today
               </h2>
               <p className="text-xl mb-8 leading-relaxed">
-                Whether you're clearing a beach house, turning over a vacation rental on Ocean Front Walk, or handling a student move-out on Lamont Street, Severin Hauling delivers the fast, reliable junk removal Pacific Beach residents and property owners depend on.
+                Clearing a beach house? Vacation rental turnover on Ocean Front Walk? Student move-out on Lamont Street? Call before noon for same-day Pacific Beach junk removal. Most jobs: $249-$495. Timeline: 60-90 minutes from arrival to completion. Price confirmed on-site before we start loading.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
                 <a
                   href="tel:+16197500114"
                   className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors"
                 >
-                  📞 Call (619) 750-0114
+                  Call (619) 750-0114
                 </a>
                 <a
                   href="/contact"

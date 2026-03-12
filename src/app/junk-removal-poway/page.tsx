@@ -58,6 +58,8 @@ export const metadata: Metadata = {
     'geo.placename': 'Poway',
     'geo.position': '32.9628;-117.0359',
     'ICBM': '32.9628, -117.0359',
+    'article:published_time': '2026-01-15T09:00:00-08:00',
+    'article:modified_time': '2026-03-06T09:00:00-08:00',
   },
 };
 
@@ -80,7 +82,7 @@ const powayFAQs = [
   },
   {
     question: "Are you licensed and insured?",
-    answer: "Yes, we're fully licensed and insured throughout San Diego County. Our comprehensive liability insurance protects your property during service—especially important for large properties with long driveways and equestrian facilities. We provide certificates of insurance upon request for HOA communities like 4S Ranch, commercial clients, and property managers."
+    answer: "Yes, we're a fully licensed California contractor with $2 million general liability insurance coverage throughout San Diego County. Our insurance protects your property during service—especially important for large ranch properties with long driveways, equestrian facilities, and multi-acre estates. We provide certificates of insurance upon request for HOA communities like 4S Ranch, commercial clients, and property managers."
   },
   {
     question: "Do you recycle or donate items?",
@@ -123,6 +125,8 @@ export default function JunkRemovalPowayPage() {
     "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
+    "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
+    "currenciesAccepted": "USD",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "8900 Grossmont Blvd Ste 1",
@@ -246,13 +250,13 @@ export default function JunkRemovalPowayPage() {
                     </div>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      Need junk removal in Poway? <a href="/" className="text-blue-600 hover:underline font-medium">Severin Hauling</a> serves North County's "City in the Country" across the 92064 and 92074 zip codes. Booking junk removal is easy and stress free: call, get a free no-obligation estimate, and we show up ready for whatever your property needs.
+                      Need junk removal in Poway? <a href="/" className="text-blue-600 hover:underline font-medium">Severin Hauling</a> serves North County's "City in the Country" across the 92064 and 92074 zip codes. Call (619) 750-0114 for a phone estimate based on what you're removing. Most Poway junk removals: $249-$495 depending on volume. Call before noon for same-day service (typically 2-4 hour arrival). Price confirmed on-site before we start loading.
                     </p>
                     <p className="text-lg mb-4 text-gray-700">
-                      We specialize in what Poway properties actually require. Multi-acre ranch estates along Espola Road and Garden Road. Long driveways and gated equestrian facilities in Stone Ridge and Bridlewood. <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate cleanouts</a> in Twin Peaks and family homes in 4S Ranch. We handle it all with the right trucks and crew size.
+                      <strong>Typical Poway ranch property cleanout:</strong> Multi-acre estate along Espola Road, barn cleanout with tack, riding equipment, old fencing materials, outdoor furniture. Cost: $495 (full-truck load). Timeline: 3-4 hours including long driveway access and multiple barn trips. We coordinate gate codes in advance and schedule around horse feeding times (6-8 AM and 4-6 PM feeding windows avoided).
                     </p>
                     <p className="text-lg mb-6 text-gray-700">
-                      Whether it's a barn cleanout near Lake Poway or a full property clearance near Iron Mountain, we haul everything away and leave your space clutter free. We also serve nearby <a href="/junk-removal-escondido" className="text-blue-600 hover:underline">Escondido</a>, <a href="/junk-removal-san-marcos" className="text-blue-600 hover:underline">San Marcos</a>, <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a>, and <a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a>.
+                      <strong>Typical family home scenario:</strong> 4S Ranch or Twin Peaks property, garage cleanout and furniture removal. Items: old patio set, exercise equipment, boxes of household goods. Cost: $349 (half-truck load). Timeline: 90 minutes. We also handle <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a> throughout Stone Ridge and Bridlewood. We also serve nearby <a href="/junk-removal-escondido" className="text-blue-600 hover:underline">Escondido</a>, <a href="/junk-removal-san-marcos" className="text-blue-600 hover:underline">San Marcos</a>, <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a>, and <a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a>.
                     </p>
 
                     {/* Neighborhoods Served */}
@@ -305,10 +309,10 @@ export default function JunkRemovalPowayPage() {
                     {/* Weather */}
                     <h3 className="text-2xl font-bold mt-8 mb-4">Inland North County Climate & Service Planning</h3>
                     <p className="text-gray-700 mb-4">
-                      Inland summers (June–September) regularly hit 85–90°F. We schedule early morning (6–9 AM) or late afternoon (4–7 PM) slots during heat waves. Heat also accelerates outdoor storage deterioration—sun-damaged patio furniture and dry wooden structures pile up faster than at the coast.
+                      <strong>Summer heat (June-September):</strong> Inland Poway regularly hits 85-90°F. We schedule early morning (6-9 AM) or late afternoon (4-7 PM) slots during heat waves for crew comfort and faster work. Heat accelerates outdoor storage deterioration—sun-damaged patio furniture, weathered wood structures, and dried-out equipment accumulate faster than coastal areas.
                     </p>
                     <p className="text-gray-700 mb-6">
-                      Winter rains (December–February) can make unpaved rural driveways temporarily inaccessible. We also prioritize brush removal to help Poway properties reclaim their space and maintain defensible space near Blue Sky Reserve and Iron Mountain trailheads.
+                      <strong>Winter rains (December-February):</strong> Unpaved rural driveways can become temporarily inaccessible after heavy rain. We monitor weather and reschedule when needed at no charge. We also handle brush removal for fire defensible space maintenance near Blue Sky Reserve and Iron Mountain trailheads (typical brush removal: $249-$349 depending on volume).
                     </p>
 
                     {/* What We Remove */}

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SchemaMarkup from "@/components/SchemaMarkup";
-import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { generateServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema, generateHowToSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
@@ -75,9 +75,288 @@ export default function PianoremovalsandiegoPage() {
     { name: "Piano Removal", url: "https://www.severinhauling.com/piano-removal-san-diego" },
   ]);
 
+  const localBusinessSchema = {
+    "@type": "LocalBusiness",
+    "@id": "https://www.severinhauling.com/piano-removal-san-diego#business",
+    "name": "Severin Hauling - Piano Removal San Diego",
+    "image": "https://www.severinhauling.com/og-image.jpg",
+    "telephone": "+1-619-750-0114",
+    "priceRange": "$149-$599",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "8900 Grossmont Blvd Ste 1",
+      "addressLocality": "La Mesa",
+      "addressRegion": "CA",
+      "postalCode": "91941",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.7683,
+      "longitude": -117.0228
+    },
+    "url": "https://www.severinhauling.com/piano-removal-san-diego",
+    "areaServed": {
+      "@type": "City",
+      "name": "San Diego",
+      "@id": "https://en.wikipedia.org/wiki/San_Diego"
+    },
+    "openingHours": "Mo-Su 00:00-23:59",
+    "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
+    "currenciesAccepted": "USD",
+    "aggregateRating": generateAggregateRatingSchema(),
+    "knowsAbout": [
+      "Professional Piano Removal and Disposal San Diego County",
+      "Upright Piano and Grand Piano Specialist Removal",
+      "Musical Instrument Hauling and Transport Services",
+      "Stair Navigation and Tight Space Piano Maneuvering",
+      "Estate Piano Evaluation and Removal Services",
+      "Church Organ and Hammond Organ Removal",
+      "Piano Donation Coordination with Local Charities",
+      "Property-Safe Piano Removal with Floor and Wall Protection"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Piano Removal Services San Diego",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Upright Piano Removal San Diego",
+            "description": "Professional removal of spinet, console, studio, and full upright pianos with specialized equipment"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Grand Piano Removal San Diego",
+            "description": "Expert removal of baby grand, parlor grand, and concert grand pianos with careful handling"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Player Piano and Organ Removal",
+            "description": "Specialized removal of antique player pianos, church organs, and Hammond organs"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Estate and Music School Piano Cleanouts",
+            "description": "Complete musical instrument removal for estates, music schools, and venues"
+          }
+        }
+      ]
+    }
+  };
+
+  const faqSchema = {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does piano removal cost in San Diego?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Piano removal in San Diego typically costs $149-$249 for upright pianos and $299-$599 for grand pianos, depending on size, location, and accessibility. This includes all labor, specialized equipment, stair navigation, property protection, and responsible disposal or donation coordination."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you remove a piano from upstairs or tight spaces?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we specialize in challenging piano removals including second and third floor locations, narrow staircases, tight doorways, and elevator transport. Our trained team uses specialized equipment and proper techniques to safely navigate pianos through difficult spaces without damage to your property."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What types of pianos do you remove?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We remove all piano types including upright pianos (spinet, console, studio, full upright), grand pianos (baby grand, parlor grand, concert grand), digital pianos, player pianos, organs (church organs, Hammond organs, pipe organs), and other large musical instruments like harpsichords."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you donate pianos or just throw them away?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We prioritize piano donation whenever possible. Pianos in good working condition are donated to local San Diego charities, music programs, and community centers. Only pianos that cannot be repaired or donated are responsibly disposed of with material recycling."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How quickly can you remove a piano in San Diego?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We offer same-day and next-day piano removal service throughout San Diego County. Call (619) 750-0114 for immediate scheduling. Most piano removals are completed within 1-2 hours depending on piano size and location accessibility."
+        }
+      }
+    ]
+  };
+
+  const neighborhoodSchema = {
+    "@type": "ItemList",
+    "name": "San Diego County Piano Removal Service Coverage",
+    "description": "Premium piano removal services throughout San Diego's finest neighborhoods",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Place",
+          "name": "La Jolla",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92037"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Place",
+          "name": "Rancho Santa Fe",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Rancho Santa Fe",
+            "addressRegion": "CA",
+            "postalCode": "92067"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Place",
+          "name": "Del Mar",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Del Mar",
+            "addressRegion": "CA",
+            "postalCode": "92014"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "Place",
+          "name": "Point Loma",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92106"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "Place",
+          "name": "Carmel Valley",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92130"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "item": {
+          "@type": "Place",
+          "name": "Poway",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Poway",
+            "addressRegion": "CA",
+            "postalCode": "92064"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "item": {
+          "@type": "Place",
+          "name": "Coronado",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Coronado",
+            "addressRegion": "CA",
+            "postalCode": "92118"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "item": {
+          "@type": "Place",
+          "name": "Encinitas",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Encinitas",
+            "addressRegion": "CA",
+            "postalCode": "92024"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "item": {
+          "@type": "Place",
+          "name": "Solana Beach",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Solana Beach",
+            "addressRegion": "CA",
+            "postalCode": "92075"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "item": {
+          "@type": "Place",
+          "name": "Carlsbad",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Carlsbad",
+            "addressRegion": "CA",
+            "postalCode": "92008"
+          }
+        }
+      }
+    ]
+  };
+
+  const howToSchema = generateHowToSchema({
+    cityName: "San Diego (Piano Removal)",
+    pageUrl: "https://www.severinhauling.com/piano-removal-san-diego"
+  });
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, neighborhoodSchema, howToSchema]
   };
 
   const relatedServices = [
@@ -115,7 +394,7 @@ export default function PianoremovalsandiegoPage() {
                 Piano removal requires specialized knowledge and equipment to handle these valuable, heavy instruments safely. Severin Hauling provides expert piano removal San Diego services throughout <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a>, <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a>, <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a>, <a href="/junk-removal-point-loma" className="text-blue-600 hover:underline">Point Loma</a>, <a href="/junk-removal-carmel-valley" className="text-blue-600 hover:underline">Carmel Valley</a>, and <a href="/junk-removal-poway" className="text-blue-600 hover:underline">Poway</a>, whether you&apos;re relocating, downsizing, or dealing with an inherited instrument that needs professional disposal. We also specialize in <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture removal</a>, <a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">estate cleanouts</a>, and are <a href="/hot-tub-removal-san-diego" className="text-blue-600 hover:underline">heavy item specialists</a>.
               </p>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Specialized Piano Removal Services</h3>
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Specialized Piano Removal Services</h2>
               <p className="text-lg text-gray-700 mb-4">
                 Our piano disposal San Diego service handles all types of pianos and musical instruments with the care and expertise they deserve. From apartment upright pianos to concert grand pianos, we have the specialized equipment and trained professionals to ensure safe removal without damage to your property.
               </p>
@@ -145,7 +424,7 @@ export default function PianoremovalsandiegoPage() {
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Piano Removal Requires Expertise</h3>
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Piano Removal Requires Expertise</h2>
               <p className="text-lg text-gray-700 mb-4">
                 Musical instrument removal is not like typical junk removal. Pianos are incredibly heavy (200-1,200 pounds), delicately balanced, and often located in challenging spaces. Our trained team understands piano construction, weight distribution, and proper lifting techniques to ensure safe removal.
               </p>
@@ -183,12 +462,95 @@ export default function PianoremovalsandiegoPage() {
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Choose Severin Hauling</h3>
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Choose Severin Hauling</h2>
               <p className="mb-4">
                 As a locally-owned business, we understand the importance of treating your property and belongings
                 with care. Our San Diego service combines local knowledge with professional standards
                 to deliver the best junk removal experience possible.
               </p>
+
+              <h2 className="text-3xl font-bold mt-10 mb-6">Common Piano Removal Situations</h2>
+
+              <div className="space-y-6 mb-12">
+                <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg">
+                  <h3 className="text-2xl font-bold text-blue-900 mb-3">🏡 Estate Cleanouts & Inherited Pianos</h3>
+                  <p className="text-gray-700 mb-3">
+                    You inherited your grandmother's upright piano after the estate sale in Rancho Santa Fe. It's been sitting in the living room for months and you need the space cleared before listing the property. Or you're the executor handling an estate cleanout in La Jolla and the family doesn't want the old player piano. Estate pianos often hold sentimental value but aren't practical to keep—and moving them yourself risks injury and property damage.
+                  </p>
+                  <p className="text-gray-700">
+                    <strong>Common scenarios:</strong> Inherited pianos from family estates • Estate sale leftovers requiring removal • Downsizing elderly parents with pianos they can't take • Trust property cleanouts with deadline pressures • Probate timelines requiring fast furniture removal • Family disagreements over who takes the piano
+                  </p>
+                </div>
+
+                <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg">
+                  <h3 className="text-2xl font-bold text-red-900 mb-3">🎹 Moving & Relocation Conflicts</h3>
+                  <p className="text-gray-700 mb-3">
+                    Your movers quoted $1,200 to move your grand piano from Point Loma to your new condo—and it won't even fit through the doorway. Or you're relocating from Del Mar to Arizona and the moving company won't touch your 800-pound upright. Piano moving is expensive and risky. Many people realize mid-move that it's cheaper to remove the old piano and buy a new digital one at their destination than pay professional piano movers $1,000+ for interstate transport.
+                  </p>
+                  <p className="text-gray-700">
+                    <strong>Common scenarios:</strong> Cross-country moves where piano won't fit in budget • Downsizing to apartments where pianos won't fit • Military PCS moves with strict weight limits • Last-minute moving day piano conflicts • Piano too damaged to justify moving costs • New home layout won't accommodate large piano
+                  </p>
+                </div>
+
+                <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-lg">
+                  <h3 className="text-2xl font-bold text-green-900 mb-3">🏫 Church, School & Venue Upgrades</h3>
+                  <p className="text-gray-700 mb-3">
+                    The church in Carmel Valley is upgrading to a new digital worship piano and needs the old Hammond organ removed by Sunday. Or the music school in Poway replaced their teaching pianos and has six uprights that need to go. Churches, schools, and performance venues regularly upgrade instruments—but they're left with heavy, bulky pianos that are too expensive to move and too old to sell. These institutions need reliable removal that won't damage their facilities.
+                  </p>
+                  <p className="text-gray-700">
+                    <strong>Common scenarios:</strong> Church organ and piano replacements • Music school instrument upgrades • Theater and venue equipment swaps • Worship center renovations requiring space clearing • School district surplus piano disposal • Community center furniture turnovers
+                  </p>
+                </div>
+
+                <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-lg">
+                  <h3 className="text-2xl font-bold text-orange-900 mb-3">🔧 Broken, Damaged & Unplayable Pianos</h3>
+                  <p className="text-gray-700 mb-3">
+                    The piano in your Coronado home hasn't been tuned in 15 years and half the keys don't work. Or water damage from a roof leak destroyed the soundboard on your Encinitas upright and repair quotes came back at $3,000+. Broken pianos are expensive paperweights—too costly to repair, too heavy to move yourself, and worthless to sell. They take up valuable space and remind you daily of the money you spent. Professional removal is the only practical solution.
+                  </p>
+                  <p className="text-gray-700">
+                    <strong>Common scenarios:</strong> Water-damaged pianos from roof leaks • Pianos with broken soundboards or cracked frames • Severely out-of-tune pianos not worth repairing • Coastal humidity damage to piano mechanisms • Pet-damaged pianos with scratched finishes • Pianos with missing or broken keys beyond economical repair
+                  </p>
+                </div>
+              </div>
+
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+
+              <div className="space-y-4 mb-8">
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">How much does piano removal cost in San Diego?</h3>
+                  <p className="text-gray-700">
+                    Piano removal in San Diego typically costs $149-$249 for upright pianos and $299-$599 for grand pianos, depending on size, location, and accessibility. This includes all labor, specialized equipment, stair navigation, property protection, and responsible disposal or donation coordination.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Can you remove a piano from upstairs or tight spaces?</h3>
+                  <p className="text-gray-700">
+                    Yes, we specialize in challenging piano removals including second and third floor locations, narrow staircases, tight doorways, and elevator transport. Our trained team uses specialized equipment and proper techniques to safely navigate pianos through difficult spaces without damage to your property.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">What types of pianos do you remove?</h3>
+                  <p className="text-gray-700">
+                    We remove all piano types including upright pianos (spinet, console, studio, full upright), grand pianos (baby grand, parlor grand, concert grand), digital pianos, player pianos, organs (church organs, Hammond organs, pipe organs), and other large musical instruments like harpsichords.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Do you donate pianos or just throw them away?</h3>
+                  <p className="text-gray-700">
+                    We prioritize piano donation whenever possible. Pianos in good working condition are donated to local San Diego charities, music programs, and community centers. Only pianos that cannot be repaired or donated are responsibly disposed of with material recycling.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">How quickly can you remove a piano in San Diego?</h3>
+                  <p className="text-gray-700">
+                    We offer same-day and next-day piano removal service throughout San Diego County. Call (619) 750-0114 for immediate scheduling. Most piano removals are completed within 1-2 hours depending on piano size and location accessibility.
+                  </p>
+                </div>
+              </div>
 
                   </div>
                 </div>

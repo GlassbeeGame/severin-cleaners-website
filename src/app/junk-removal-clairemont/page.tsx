@@ -65,7 +65,7 @@ export const metadata: Metadata = {
 const clairemontFAQs = [
   {
     question: "How much does junk removal cost in Clairemont?",
-    answer: "Our Clairemont junk removal pricing is transparent and upfront with no hidden fees. Here's our standard pricing structure:"
+    answer: "Our Clairemont junk removal pricing is transparent and volume-based: small items start at $69, standard furniture $100, quarter-load $249, half-load $349, three-quarter load $429, and full-load $495. All prices include labor, hauling, disposal, and eco-friendly recycling with no hidden fees for hillside access or downtown parking."
   },
   {
     question: "Do you provide same-day junk hauling in Clairemont Mesa?",
@@ -112,6 +112,8 @@ export default function JunkremovalclairemontPage() {
     "image": "https://www.severinhauling.com/og-image.jpg",
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
+    "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
+    "currenciesAccepted": "USD",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "8900 Grossmont Blvd Ste 1",
@@ -126,6 +128,54 @@ export default function JunkremovalclairemontPage() {
       "longitude": -117.0231
     },
     "url": "https://www.severinhauling.com/junk-removal-clairemont",
+    "knowsAbout": [
+      "Mid-Century Home Junk Removal (1950s-1970s Architecture)",
+      "Attached Garage Cleanouts for Multi-Generational Families",
+      "North Clairemont Hillside Access and Canyon-Adjacent Properties",
+      "Balboa Avenue Corridor Commercial Property Access",
+      "Mount Acadia Steep Driveway Navigation",
+      "Tecolote Canyon Street Grid Interruptions",
+      "Bay Ho Hillside Estate Cleanouts",
+      "Clairemont Mesa Family Home Organization and Decluttering"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Clairemont Junk Removal Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Mid-Century Family Home Garage Cleanouts",
+            "description": "Specialized junk removal for Clairemont's 1950s-1970s homes with attached garages, decades of family accumulation, and limited access points"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "North Clairemont Hillside and Canyon Property Access",
+            "description": "Expert navigation of Mount Acadia hillside driveways, Tecolote Canyon street interruptions, and Bay Ho elevation challenges"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Multi-Generational Estate Transitions and Downsizing",
+            "description": "Compassionate junk removal for established Clairemont families downsizing, inheriting properties, or transitioning to senior living"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Balboa Avenue Corridor Commercial Junk Removal",
+            "description": "Business junk hauling for Clairemont Mesa offices, Clairemont Village retail, and Balboa Avenue commercial properties with flexible scheduling"
+          }
+        }
+      ]
+    },
     "sameAs": [
       "https://www.facebook.com/severinhauling",
       "https://www.instagram.com/severinhauling/",
@@ -157,9 +207,107 @@ export default function JunkremovalclairemontPage() {
     pageUrl: "https://www.severinhauling.com/junk-removal-clairemont"
   });
 
+  const neighborhoodSchema = {
+    "@type": "ItemList",
+    "name": "Clairemont San Diego Neighborhoods Served",
+    "description": "Complete junk removal coverage throughout all Clairemont neighborhoods and zones in the 92117 zip code",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Place",
+          "name": "North Clairemont",
+          "address": { "@type": "PostalAddress", "addressLocality": "Clairemont", "addressRegion": "CA", "postalCode": "92117" }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Place",
+          "name": "South Clairemont",
+          "address": { "@type": "PostalAddress", "addressLocality": "Clairemont", "addressRegion": "CA", "postalCode": "92117" }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Place",
+          "name": "Clairemont Mesa East",
+          "address": { "@type": "PostalAddress", "addressLocality": "Clairemont", "addressRegion": "CA", "postalCode": "92117" }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "Place",
+          "name": "Clairemont Mesa West",
+          "address": { "@type": "PostalAddress", "addressLocality": "Clairemont", "addressRegion": "CA", "postalCode": "92117" }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "Place",
+          "name": "Bay Ho",
+          "address": { "@type": "PostalAddress", "addressLocality": "Clairemont", "addressRegion": "CA", "postalCode": "92117" }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "item": {
+          "@type": "Place",
+          "name": "Clairemont Village",
+          "address": { "@type": "PostalAddress", "addressLocality": "Clairemont", "addressRegion": "CA", "postalCode": "92117" }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "item": {
+          "@type": "Place",
+          "name": "Tecolote Canyon Area",
+          "address": { "@type": "PostalAddress", "addressLocality": "Clairemont", "addressRegion": "CA", "postalCode": "92117" }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "item": {
+          "@type": "Place",
+          "name": "Mount Acadia",
+          "address": { "@type": "PostalAddress", "addressLocality": "Clairemont", "addressRegion": "CA", "postalCode": "92117" }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "item": {
+          "@type": "Place",
+          "name": "Balboa Avenue Corridor",
+          "address": { "@type": "PostalAddress", "addressLocality": "Clairemont", "addressRegion": "CA", "postalCode": "92117" }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "item": {
+          "@type": "Place",
+          "name": "Linda Vista Border",
+          "address": { "@type": "PostalAddress", "addressLocality": "Clairemont", "addressRegion": "CA", "postalCode": "92117" }
+        }
+      }
+    ]
+  };
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, howToSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, neighborhoodSchema, howToSchema]
   };
 
   return (

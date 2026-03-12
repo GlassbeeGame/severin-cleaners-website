@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
 import { generateFAQSchema } from "@/lib/schema";
 import SchemaMarkup from "@/components/SchemaMarkup";
-import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { generateServiceSchema, generateBreadcrumbSchema, generateHowToSchema, generateAggregateRatingSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
@@ -155,6 +155,19 @@ export default function FurnitureDisposalPage() {
       }
     },
     "openingHours": "Mo-Su 00:00-23:59",
+    "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
+    "currenciesAccepted": "USD",
+    "aggregateRating": generateAggregateRatingSchema(),
+    "knowsAbout": [
+      "San Diego Furniture Disposal and Removal Services",
+      "Heavy Furniture Extraction (Dressers, Armoires, Filing Cabinets)",
+      "Office and Commercial Furniture Disposal",
+      "Bedroom Set and Dining Room Furniture Removal",
+      "Eco-Friendly Furniture Recycling San Diego County",
+      "Furniture Donation Coordination with Local Charities",
+      "Multi-Story Building Furniture Removal",
+      "Same-Day Furniture Pickup Throughout San Diego"
+    ],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Furniture Disposal Services",
@@ -182,9 +195,165 @@ export default function FurnitureDisposalPage() {
             "name": "Furniture Recycling San Diego",
             "description": "Eco-friendly furniture recycling and donation service"
           }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Heavy Furniture Disposal San Diego",
+            "description": "Specialized removal of heavy bedroom and office furniture throughout San Diego"
+          }
         }
       ]
     }
+  };
+
+  const neighborhoodSchema = {
+    "@type": "ItemList",
+    "name": "San Diego County Furniture Disposal Service Coverage",
+    "description": "Professional furniture removal throughout all San Diego County neighborhoods",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Place",
+          "name": "La Jolla",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "La Jolla",
+            "addressRegion": "CA",
+            "postalCode": "92037"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Place",
+          "name": "Pacific Beach",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Pacific Beach",
+            "addressRegion": "CA",
+            "postalCode": "92109"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Place",
+          "name": "Chula Vista",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Chula Vista",
+            "addressRegion": "CA",
+            "postalCode": "91910"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "Place",
+          "name": "El Cajon",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "El Cajon",
+            "addressRegion": "CA",
+            "postalCode": "92020"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "Place",
+          "name": "Oceanside",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Oceanside",
+            "addressRegion": "CA",
+            "postalCode": "92054"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "item": {
+          "@type": "Place",
+          "name": "Escondido",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Escondido",
+            "addressRegion": "CA",
+            "postalCode": "92025"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "item": {
+          "@type": "Place",
+          "name": "Santee",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Santee",
+            "addressRegion": "CA",
+            "postalCode": "92071"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "item": {
+          "@type": "Place",
+          "name": "National City",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "National City",
+            "addressRegion": "CA",
+            "postalCode": "91950"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "item": {
+          "@type": "Place",
+          "name": "La Mesa",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "La Mesa",
+            "addressRegion": "CA",
+            "postalCode": "91942"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "item": {
+          "@type": "Place",
+          "name": "Downtown San Diego",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92101"
+          }
+        }
+      }
+    ]
   };
 
   const breadcrumbSchema = generateBreadcrumbSchema([
@@ -193,11 +362,16 @@ export default function FurnitureDisposalPage() {
     { name: "Furniture Disposal", url: "https://www.severinhauling.com/furniture-disposal-san-diego" },
   ]);
 
+  const howToSchema = generateHowToSchema({
+    cityName: "San Diego",
+    pageUrl: "https://www.severinhauling.com/furniture-disposal-san-diego"
+  });
+
   const faqSchema = generateFAQSchema(furnitureFAQs);
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, localBusinessSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, neighborhoodSchema, howToSchema]
   };
 
   return (
@@ -277,7 +451,7 @@ export default function FurnitureDisposalPage() {
                       We handle all types of furniture removal San Diego needs: beds, dressers, desks, dining tables, office furniture, bedroom sets, patio furniture, and everything in between. <strong>Specifically removing a couch or sofa?</strong> See our specialized <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline font-semibold">couch removal service</a> for upholstered furniture. We also offer dedicated <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:text-blue-700 underline">mattress disposal</a>. Our furniture recycling San Diego program ensures usable items find new homes through donation partners, while materials like metal and wood get properly recycled. From <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> to <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, we're helping San Diego stay green while keeping your space clutter-free. Need <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">same-day service</a>? Call before 2 PM.
                     </p>
 
-                    <h3 className="text-2xl font-bold mt-10 mb-4">Free vs. Professional Furniture Disposal San Diego</h3>
+                    <h2 className="text-3xl font-bold mt-10 mb-4">Free vs. Professional Furniture Disposal San Diego</h2>
 
                     <p className="text-lg mb-4">
                       Many San Diego residents search for free furniture disposal options. While the city does offer free bulky item pickup, understanding the full picture helps you make the best choice.
@@ -327,7 +501,7 @@ export default function FurnitureDisposalPage() {
                       </p>
                     </div>
 
-                    <h3 className="text-2xl font-bold mt-10 mb-4">What We Remove</h3>
+                    <h2 className="text-3xl font-bold mt-10 mb-4">What We Remove</h2>
                     <p className="text-lg mb-4">
                       If it's furniture, we'll take it. Here's what we haul away most often:
                     </p>
@@ -380,7 +554,7 @@ export default function FurnitureDisposalPage() {
                       </div>
                     </div>
 
-                    <h3 className="text-2xl font-bold mt-10 mb-4">How It Works</h3>
+                    <h2 className="text-3xl font-bold mt-10 mb-4">How It Works</h2>
                     <p className="text-lg mb-4">
                       Getting rid of unwanted furniture couldn't be simpler:
                     </p>
@@ -428,7 +602,7 @@ export default function FurnitureDisposalPage() {
                       Old beds, broken dressers, outdated armoires—we remove all bedroom furniture throughout San Diego. Our team can disassemble bed frames, navigate narrow hallways, and protect your floors and walls during removal. Moving to a smaller place? Redecorating? We make furniture removal simple.
                     </p>
 
-                    <h3 className="text-2xl font-semibold mt-6 mb-3">What Happens to Your Old Furniture?</h3>
+                    <h2 className="text-3xl font-bold mt-10 mb-4">What Happens to Your Old Furniture?</h2>
                     <p className="text-lg mb-6">
                       When you choose our furniture disposal San Diego service, you're choosing responsible disposal. Usable furniture gets donated to local charities like Habitat for Humanity and San Diego Rescue Mission. Broken items are recycled when possible—metal frames, wood components, and fabric materials all get sorted properly. Only true waste reaches the landfill as a last resort. We follow all local San Diego disposal regulations and work with recycling partners throughout the county to minimize environmental impact.
                     </p>
@@ -528,51 +702,54 @@ export default function FurnitureDisposalPage() {
                       </div>
                     </div>
 
-                    <h3 className="text-2xl font-bold mt-10 mb-4">When You Might Need Us</h3>
-                    <p className="text-lg mb-4">
-                      San Diego homeowners and businesses call us for furniture disposal San Diego in all kinds of situations:
+                    <h2 className="text-3xl font-bold mt-10 mb-6">Common Furniture Disposal Situations in San Diego</h2>
+                    <p className="text-lg mb-8">
+                      San Diego homeowners and businesses call us when they need furniture removed quickly and professionally. Here are the most common situations:
                     </p>
 
-                    <div className="grid md:grid-cols-2 gap-6 mb-8">
-                      <div className="bg-gray-50 p-4 rounded-lg">
-                        <h4 className="font-bold mb-2">Moving or Downsizing</h4>
-                        <p className="text-gray-700 text-sm">
-                          Can't fit all your furniture in the new place? We'll haul away what doesn't make the cut.
+                    <div className="space-y-6 mb-12">
+                      <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg">
+                        <h3 className="text-2xl font-bold text-blue-900 mb-3">📦 Moving & Downsizing</h3>
+                        <p className="text-gray-700 mb-3">
+                          Moving to a smaller San Diego apartment or condo and your furniture won't fit? Downsizing from a house to retirement community? We remove what doesn't make the cut—beds, dining sets, living room furniture, and everything in between. Whether you're moving from a 4-bedroom home in Carmel Valley to a 2-bedroom condo downtown, or relocating from San Diego to another city, we handle the furniture you're leaving behind.
+                        </p>
+                        <p className="text-gray-700">
+                          <strong>Common scenarios:</strong> Downsizing to smaller home • Moving out of state • Combining households after marriage • Transitioning to assisted living • New furniture delivery tomorrow
                         </p>
                       </div>
-                      <div className="bg-gray-50 p-4 rounded-lg">
-                        <h4 className="font-bold mb-2">Redecorating</h4>
-                        <p className="text-gray-700 text-sm">
-                          Out with the old, in with the new. We'll remove your old furniture to make room for fresh pieces.
+
+                      <div className="bg-purple-50 border-l-4 border-purple-500 p-6 rounded-lg">
+                        <h3 className="text-2xl font-bold text-purple-900 mb-3">🏡 Estate & Inherited Property Cleanouts</h3>
+                        <p className="text-gray-700 mb-3">
+                          Clearing an inherited San Diego property after losing a family member is overwhelming. You need to remove decades of furniture from a home you didn't grow up in, often while managing estate proceedings and property sales. We handle complete estate furniture removal with sensitivity and professionalism—you don't have to sort through every piece or make dozens of decisions. Point to what stays, we remove everything else.
+                        </p>
+                        <p className="text-gray-700">
+                          <strong>Common scenarios:</strong> Estate sales preparation • Probate property clearing • Inherited homes needing quick turnaround • Preparing property for sale • Family member moved to care facility
                         </p>
                       </div>
-                      <div className="bg-gray-50 p-4 rounded-lg">
-                        <h4 className="font-bold mb-2">Estate Cleanouts</h4>
-                        <p className="text-gray-700 text-sm">
-                          Need to clear an inherited property? We handle full-house furniture removal with care and respect.
+
+                      <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-lg">
+                        <h3 className="text-2xl font-bold text-green-900 mb-3">💼 Commercial Office Furniture Disposal</h3>
+                        <p className="text-gray-700 mb-3">
+                          Office lease ending or company downsizing? Removing desks, cubicles, conference tables, and filing cabinets from San Diego office buildings requires coordination and speed. We work around your business hours (evenings and weekends available), handle disassembly of modular furniture, and clear everything in one visit. From single-office cleanouts to entire floor removals in downtown high-rises, we minimize disruption to neighboring tenants.
+                        </p>
+                        <p className="text-gray-700">
+                          <strong>Common scenarios:</strong> Lease expiration furniture removal • Company relocation • Startup closure cleanouts • Office remodeling • WeWork or co-working space exits
                         </p>
                       </div>
-                      <div className="bg-gray-50 p-4 rounded-lg">
-                        <h4 className="font-bold mb-2">Office Closures</h4>
-                        <p className="text-gray-700 text-sm">
-                          Corporate relocations or closures. We remove office furniture quickly so you can move on.
+
+                      <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-lg">
+                        <h3 className="text-2xl font-bold text-orange-900 mb-3">🏢 Apartment & Multi-Story Furniture Removal</h3>
+                        <p className="text-gray-700 mb-3">
+                          Removing heavy furniture from San Diego apartments—especially high-rises—is a logistical challenge. Narrow hallways, small elevators, tight stairwells, and building access restrictions make DIY removal nearly impossible. Our team handles furniture extraction from any floor (we've done 20th-floor condos in downtown), navigates building requirements, protects hallways and elevators, and coordinates with property management. You avoid the back-breaking work and potential property damage.
                         </p>
-                      </div>
-                      <div className="bg-gray-50 p-4 rounded-lg">
-                        <h4 className="font-bold mb-2">Broken or Damaged Items</h4>
-                        <p className="text-gray-700 text-sm">
-                          That broken dresser has been in the garage for months. Time to get your space back.
-                        </p>
-                      </div>
-                      <div className="bg-gray-50 p-4 rounded-lg">
-                        <h4 className="font-bold mb-2">Property Management</h4>
-                        <p className="text-gray-700 text-sm">
-                          Tenant left furniture behind? We'll clear it out fast so you can re-list the unit.
+                        <p className="text-gray-700">
+                          <strong>Common scenarios:</strong> High-rise condo furniture removal • Walk-up apartment cleanouts • Elevator scheduling logistics • Building access coordination • Protecting common areas during removal
                         </p>
                       </div>
                     </div>
 
-                    <h3 className="text-2xl font-bold mt-10 mb-4">Why Hire Professionals for Furniture Disposal?</h3>
+                    <h2 className="text-3xl font-bold mt-10 mb-4">Why Hire Professionals for Furniture Disposal?</h2>
                     <p className="text-lg mb-4">
                       You could try to move that couch yourself. But here's why that's usually a bad idea:
                     </p>

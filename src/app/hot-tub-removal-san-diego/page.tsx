@@ -6,7 +6,7 @@ import Link from "next/link";
 import FAQSection from "@/components/FAQSection";
 import { generateFAQSchema } from "@/lib/schema";
 import SchemaMarkup from "@/components/SchemaMarkup";
-import { generateServiceSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { generateServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema, generateHowToSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
@@ -103,9 +103,245 @@ export default function HotTubRemovalSanDiegoPage() {
 
   const faqSchema = generateFAQSchema(hotTubFAQs);
 
+  const localBusinessSchema = {
+    "@type": "LocalBusiness",
+    "@id": "https://www.severinhauling.com/hot-tub-removal-san-diego#business",
+    "name": "Severin Hauling - Hot Tub Removal San Diego",
+    "image": "https://www.severinhauling.com/optimized/hottub.jpg",
+    "telephone": "+1-619-750-0114",
+    "priceRange": "$299-$1499",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "8900 Grossmont Blvd Ste 1",
+      "addressLocality": "La Mesa",
+      "addressRegion": "CA",
+      "postalCode": "91941",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.7678,
+      "longitude": -117.0231
+    },
+    "url": "https://www.severinhauling.com/hot-tub-removal-san-diego",
+    "areaServed": {
+      "@type": "City",
+      "name": "San Diego",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California"
+      }
+    },
+    "openingHours": "Mo-Su 00:00-23:59",
+    "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
+    "currenciesAccepted": "USD",
+    "aggregateRating": generateAggregateRatingSchema(),
+    "knowsAbout": [
+      "Professional Hot Tub and Spa Removal San Diego County",
+      "Portable and Built-In Jacuzzi Disposal Services",
+      "220V Electrical and Gas Line Disconnection",
+      "Backyard Hot Tub Demolition and Excavation",
+      "Luxury Spa and Custom Jacuzzi Removal",
+      "Emergency Hot Tub Removal and Damage Response",
+      "Eco-Friendly Spa Recycling and Material Recovery",
+      "Complete Utility Disconnection and Site Cleanup"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Hot Tub Removal Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Portable Hot Tub Removal San Diego",
+            "description": "Above-ground and portable spa removal with complete disconnection and disposal"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Built-In Jacuzzi Removal San Diego",
+            "description": "In-ground spa demolition, excavation, and complete removal services"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Emergency Hot Tub Disposal San Diego",
+            "description": "Same-day emergency spa removal for damage, leaks, and urgent situations"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Luxury Spa and Custom Jacuzzi Removal",
+            "description": "Specialized removal for high-end spas and custom-built Jacuzzis throughout San Diego"
+          }
+        }
+      ]
+    }
+  };
+
+  const neighborhoodSchema = {
+    "@type": "ItemList",
+    "name": "San Diego County Hot Tub Removal Service Coverage",
+    "description": "Professional hot tub and spa removal throughout all San Diego County neighborhoods",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Place",
+          "name": "La Jolla",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92037"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Place",
+          "name": "Del Mar",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Del Mar",
+            "addressRegion": "CA",
+            "postalCode": "92014"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Place",
+          "name": "Rancho Santa Fe",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Rancho Santa Fe",
+            "addressRegion": "CA",
+            "postalCode": "92067"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "Place",
+          "name": "Carmel Valley",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92130"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "Place",
+          "name": "Pacific Beach",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92109"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "item": {
+          "@type": "Place",
+          "name": "Point Loma",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Diego",
+            "addressRegion": "CA",
+            "postalCode": "92106"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "item": {
+          "@type": "Place",
+          "name": "Poway",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Poway",
+            "addressRegion": "CA",
+            "postalCode": "92064"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "item": {
+          "@type": "Place",
+          "name": "Chula Vista",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Chula Vista",
+            "addressRegion": "CA",
+            "postalCode": "91910"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "item": {
+          "@type": "Place",
+          "name": "Escondido",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Escondido",
+            "addressRegion": "CA",
+            "postalCode": "92025"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "item": {
+          "@type": "Place",
+          "name": "Oceanside",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Oceanside",
+            "addressRegion": "CA",
+            "postalCode": "92054"
+          }
+        }
+      }
+    ]
+  };
+
+  const howToSchema = generateHowToSchema({
+    cityName: "San Diego (Hot Tub Removal)",
+    pageUrl: "https://www.severinhauling.com/hot-tub-removal-san-diego"
+  });
+
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [serviceSchema, breadcrumbSchema, faqSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, neighborhoodSchema, howToSchema]
   };
 
   const relatedServices = [
@@ -209,7 +445,7 @@ export default function HotTubRemovalSanDiegoPage() {
 
                 <div className="clear-both"></div>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">Complete Jacuzzi Removal San Diego Services</h3>
+                <h2 className="text-2xl font-bold mt-8 mb-4">Complete Jacuzzi Removal San Diego Services</h2>
                 <p className="text-lg mb-4">
                   Severin Hauling offers comprehensive hot tub removal San Diego services for all types of spas and backyard water features:
                 </p>
@@ -264,7 +500,7 @@ export default function HotTubRemovalSanDiegoPage() {
                   </div>
                 </div>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">Our Professional Hot Tub Disposal Process</h3>
+                <h2 className="text-2xl font-bold mt-8 mb-4">Our Professional Hot Tub Disposal Process</h2>
                 <p className="text-lg mb-4">
                   When you choose our spa removal San Diego service, here's our comprehensive process for safe and efficient hot tub removal:
                 </p>
@@ -278,7 +514,7 @@ export default function HotTubRemovalSanDiegoPage() {
                   <li><strong>Site Cleanup:</strong> Complete cleanup and preparation for your next backyard project</li>
                 </ol>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">Specialized Hot Tub Disposal San Diego Services</h3>
+                <h2 className="text-2xl font-bold mt-8 mb-4">Specialized Hot Tub Disposal San Diego Services</h2>
 
                 <h4 className="text-xl font-bold mb-3">Emergency Hot Tub Removal</h4>
                 <p className="text-lg mb-4">
@@ -295,7 +531,50 @@ export default function HotTubRemovalSanDiegoPage() {
                   Property managers and real estate agents rely on our spa disposal San Diego services for quick turnarounds between tenants, estate cleanouts, and property staging. We provide fast, professional hot tub removal that helps properties show better and sell faster.
                 </p>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">Safety & Utility Disconnection Services</h3>
+                <h2 className="text-3xl font-bold mt-10 mb-6">Common Hot Tub Removal Situations</h2>
+                <div className="space-y-6 mb-12">
+                  <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg">
+                    <h3 className="text-2xl font-bold text-blue-900 mb-3">🏡 Backyard Remodel & Landscaping Projects</h3>
+                    <p className="text-gray-700 mb-3">
+                      Planning a complete backyard renovation and that 15-year-old hot tub has to go first? Landscaper starts Monday and the spa is still taking up 8x8 feet of prime patio space. We remove hot tubs before your backyard project begins—same day if you call early—so contractors can start on schedule. Perfect for pool installations, outdoor kitchen builds, or converting spa space to garden.
+                    </p>
+                    <p className="text-gray-700">
+                      <strong>Common scenarios:</strong> Pool installation starting next week • Outdoor kitchen construction • Converting spa area to landscaping • Deck rebuild requires spa removal • ADU or patio cover installation
+                    </p>
+                  </div>
+
+                  <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg">
+                    <h3 className="text-2xl font-bold text-red-900 mb-3">💸 Home Sale & Property Staging</h3>
+                    <p className="text-gray-700 mb-3">
+                      Listing your La Jolla or Del Mar home next week and buyers don't want the old hot tub? Real estate agents throughout San Diego call us to remove spas before listing photos or open houses. Non-working hot tubs hurt property value—buyers see maintenance nightmares, not luxury amenities. We remove spas fast so your backyard shows clean for maximum sale price.
+                    </p>
+                    <p className="text-gray-700">
+                      <strong>Common scenarios:</strong> Home listing this week • Buyer wants spa removed before closing • Property staging for open house • Estate sale property prep • Non-working spa hurting property value
+                    </p>
+                  </div>
+
+                  <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-lg">
+                    <h3 className="text-2xl font-bold text-orange-900 mb-3">🔧 Broken Hot Tub or Leak Emergency</h3>
+                    <p className="text-gray-700 mb-3">
+                      Hot tub developed a major leak and it's flooding your yard? Pump failed and repair costs more than the spa is worth? We handle emergency hot tub removal throughout San Diego County when spas malfunction, leak, or become safety hazards. Same-day service available for urgent situations where water damage, electrical issues, or structural problems require immediate spa disposal.
+                    </p>
+                    <p className="text-gray-700">
+                      <strong>Common scenarios:</strong> Major leak flooding backyard • Electrical problems or GFCI trips • Repair estimate exceeds spa value • Heater failure beyond repair • Cracked shell or structural damage
+                    </p>
+                  </div>
+
+                  <div className="bg-purple-50 border-l-4 border-purple-500 p-6 rounded-lg">
+                    <h3 className="text-2xl font-bold text-purple-900 mb-3">🏠 Rental Property Turnover & Inherited Spas</h3>
+                    <p className="text-gray-700 mb-3">
+                      Bought a house in Poway or Escondido and the previous owner left a broken hot tub in the backyard? Rental property turnover with spa the tenant never maintained? Property managers call us to remove abandoned hot tubs between tenants or from inherited properties. We clear spas fast so you can rent, sell, or enjoy your yard without someone else's maintenance problem.
+                    </p>
+                    <p className="text-gray-700">
+                      <strong>Common scenarios:</strong> Inherited property with old spa • Tenant left non-working hot tub • Purchased foreclosure with abandoned spa • Property manager turnover cleanout • Previous owner spa removal clause
+                    </p>
+                  </div>
+                </div>
+
+                <h2 className="text-2xl font-bold mt-8 mb-4">Safety & Utility Disconnection Services</h2>
                 <p className="text-lg mb-4">
                   Professional hot tub disposal requires safe disconnection of utilities that can pose safety hazards if handled improperly:
                 </p>
@@ -317,7 +596,7 @@ export default function HotTubRemovalSanDiegoPage() {
                   </p>
                 </div>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">San Diego Areas We Serve for Spa Removal</h3>
+                <h2 className="text-2xl font-bold mt-8 mb-4">San Diego Areas We Serve for Spa Removal</h2>
                 <p className="text-lg mb-4">
                   Our hot tub removal San Diego service covers all major neighborhoods with same-day availability:
                 </p>
@@ -345,7 +624,7 @@ export default function HotTubRemovalSanDiegoPage() {
                   </ul>
                 </div>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">Environmental Responsibility in Spa Disposal</h3>
+                <h2 className="text-2xl font-bold mt-8 mb-4">Environmental Responsibility in Spa Disposal</h2>
                 <p className="text-lg mb-4">
                   Severin Hauling prioritizes environmentally responsible spa disposal San Diego practices:
                 </p>

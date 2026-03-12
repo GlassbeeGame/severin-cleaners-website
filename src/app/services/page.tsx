@@ -87,6 +87,13 @@ export default function ServicesPage() {
       features: ["Refrigerators", "Washers & Dryers", "Kitchen Appliances", "HVAC Units"]
     },
     {
+      title: "Furniture Disposal",
+      link: "/furniture-disposal-san-diego",
+      description: "Professional furniture disposal and removal service with eco-friendly recycling and donation coordination.",
+      icon: "🪑",
+      features: ["Desks & Dressers", "Bedroom Sets", "Office Furniture", "Eco-Friendly Disposal"]
+    },
+    {
       title: "Estate Cleanouts",
       link: "/estate-cleanout-san-diego",
       description: "Compassionate estate cleanout services for families dealing with inherited properties.",

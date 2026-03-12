@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     'geo.position': '32.7678;-117.0231',
     'ICBM': '32.7678, -117.0231',
     'article:published_time': '2026-02-12T09:00:00-08:00',
-    'article:modified_time': '2026-02-12T09:00:00-08:00',
+    'article:modified_time': '2026-03-06T09:00:00-08:00',
   },
 };
 
@@ -92,7 +92,7 @@ const laMesaFAQs = [
   },
   {
     question: "Are you really based in La Mesa?",
-    answer: "Yes, we're a local junk removal company in La Mesa with our headquarters at 8900 Grossmont Blvd, CA 91941. This isn't just a mailing address—our trucks, crew, and operations are based here. That's why we can respond faster than companies driving in from North County or other areas."
+    answer: "Yes, we're a local junk removal company in La Mesa with our headquarters at 8900 Grossmont Blvd, CA 91941. This isn't just a mailing address—our trucks, crew, and operations are based here. We're a fully licensed California contractor with $2 million general liability insurance coverage. That's why we can respond faster than companies driving in from North County or other areas (1-2 hours vs 3-4 hours)."
   },
   {
     question: "Do you recycle or donate items?",
@@ -289,14 +289,14 @@ export default function LaMesaJunkRemovalPage() {
                     </div>
 
                     <p className="text-lg mb-4 text-gray-700">
-                      Looking for junk removal in La Mesa you can count on? Severin Hauling operates from 8900 Grossmont Blvd—not driving in from North County or Carlsbad. When you need junk removal in La Mesa, we're already here: call, get a free estimate, and we arrive in 1-2 hours.
+                      Severin Hauling operates from 8900 Grossmont Blvd—not driving in from North County or Carlsbad. When you need junk removal in La Mesa, we're already here. Call (619) 750-0114 for a phone estimate based on what you're removing. Most La Mesa junk removals: $249-$495. We typically arrive within 1-2 hours for same-day requests (call before 2 PM for same-day service).
                     </p>
                     <p className="text-lg mb-6 text-gray-700">
-                      Our local headquarters means 1-2 hour response times throughout Mount Helix hillside estates, Fletcher Hills family homes, La Mesa Village downtown properties, and every neighborhood in the 91941, 91942, and 91944 zip codes.
+                      Our Grossmont Blvd location means fast response throughout Mount Helix hillside estates, Fletcher Hills family homes, La Mesa Village downtown properties, and every neighborhood in the 91941, 91942, and 91944 zip codes. Other companies drive 30-45 minutes from North County—we're here in 1-2 hours.
                     </p>
 
                     <p className="text-lg mb-6 text-gray-700">
-                      Being locally based isn't just about speed. We know Mount Helix's steep driveways. We navigate La Mesa Village parking restrictions daily. We understand Fletcher Hills access challenges. This is junk hauling La Mesa done by people who live and work here.
+                      Being locally based means we navigate Mount Helix's steep driveways daily (we know which properties require smaller trucks for grades over 20%). We handle La Mesa Village parking permit coordination. We understand Fletcher Hills narrow street access. Price confirmed on-site before loading begins—no obligation if cost doesn't match your budget.
                     </p>
 
                     {/* What Makes Us Different */}
@@ -357,22 +357,22 @@ export default function LaMesaJunkRemovalPage() {
                     <div className="space-y-5 mb-8">
                       <div className="border-l-4 border-blue-500 pl-4">
                         <h4 className="font-bold text-gray-900 mb-1">Mount Helix Estate Cleanouts</h4>
-                        <p className="text-gray-700 text-sm">Large hillside properties often require full-truck removal for estate transitions, downsizing, or inheritance situations. We handle 3,000-5,000 sq ft properties with steep access regularly.</p>
+                        <p className="text-gray-700 text-sm"><strong>Typical scenario:</strong> 3,500 sq ft hillside property, full house cleanout after estate transition. Items: bedroom sets, living room furniture, appliances, garage accumulation, yard equipment. Steep driveway (22% grade) requires smaller truck. <strong>Cost:</strong> $495 (full truck load). <strong>Timeline:</strong> 4-5 hours including multiple trips for steep access. We handle furniture protection during navigation of tight staircases and doorways.</p>
                       </div>
 
                       <div className="border-l-4 border-blue-500 pl-4">
-                        <h4 className="font-bold text-gray-900 mb-1">Grossmont Hospital Area Moves</h4>
-                        <p className="text-gray-700 text-sm">Medical professionals relocating need fast turnaround. We coordinate with property managers and offer flexible scheduling for busy healthcare workers in the Grossmont medical district.</p>
+                        <h4 className="font-bold text-gray-900 mb-1">Grossmont Hospital Area Apartment Turnovers</h4>
+                        <p className="text-gray-700 text-sm"><strong>Typical scenario:</strong> Healthcare worker relocating, needs furniture removal from 2-bedroom apartment near Grossmont medical center. Items: sofa, bed frame, dining table, miscellaneous boxes. <strong>Cost:</strong> $349 (half-truck load). <strong>Timeline:</strong> 90 minutes. Same-day service when booked before 2 PM. We coordinate with property managers for loading zone access.</p>
                       </div>
 
                       <div className="border-l-4 border-blue-500 pl-4">
-                        <h4 className="font-bold text-gray-900 mb-1">La Mesa Village Retail & Restaurant Turnover</h4>
-                        <p className="text-gray-700 text-sm">Downtown businesses need off-peak service to minimize customer disruption. We schedule early morning or evening removal with coordinated parking permits.</p>
+                        <h4 className="font-bold text-gray-900 mb-1">La Mesa Village Retail Equipment Removal</h4>
+                        <p className="text-gray-700 text-sm"><strong>Typical scenario:</strong> Restaurant closing, equipment removal needed. Items: commercial refrigerator, prep tables, shelving units, old fixtures. <strong>Cost:</strong> $429 (three-quarter truck load). We schedule evening removal (after 7 PM) to avoid downtown traffic. La Mesa Village parking permits coordinated in advance.</p>
                       </div>
 
                       <div className="border-l-4 border-blue-500 pl-4">
-                        <h4 className="font-bold text-gray-900 mb-1">College Area Student Move-Outs</h4>
-                        <p className="text-gray-700 text-sm">Grossmont College area landlords need quick turnover between tenants. Our same-day service keeps vacancy time minimal during peak move-out seasons.</p>
+                        <h4 className="font-bold text-gray-900 mb-1">Grossmont College Area Student Move-Outs</h4>
+                        <p className="text-gray-700 text-sm"><strong>Typical scenario:</strong> Student apartment, end-of-lease cleanout. Items: futon, desk, mini-fridge, 5-7 bags of clothes/books. <strong>Cost:</strong> $249 (quarter-truck load). <strong>Timeline:</strong> 60 minutes. Peak season (May/August) requires 1-2 week advance booking. Outside peak: next-day availability.</p>
                       </div>
                     </div>
 
@@ -442,7 +442,7 @@ export default function LaMesaJunkRemovalPage() {
                         <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">3</div>
                         <div>
                           <h4 className="font-bold text-gray-900 mb-1">We Haul Everything Away</h4>
-                          <p className="text-gray-700">We load, haul, and dispose of everything responsibly. Donations go to East County charities, recyclables to certified facilities. Your space is left clutter free—you reclaim your space without lifting a finger.</p>
+                          <p className="text-gray-700">We load, haul, and dispose of everything responsibly. Donations go to East County charities (Goodwill on Fletcher Parkway), recyclables to certified facilities, e-waste to proper processors. Typical job completion: 60-120 minutes from arrival to final haul-away. You're left with cleared space—no lifting required on your end.</p>
                         </div>
                       </div>
                     </div>

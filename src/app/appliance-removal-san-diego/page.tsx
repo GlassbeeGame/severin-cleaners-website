@@ -424,7 +424,7 @@ export default function ApplianceRemovalPage() {
 
                 <div className="clear-both"></div>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">What We Remove</h3>
+                <h2 className="text-2xl font-bold mt-8 mb-4">What We Remove</h2>
                 <p className="text-lg mb-4">
                   If it's an appliance and you need it gone, we'll take it. Here's what we haul away most often:
                 </p>
@@ -451,7 +451,7 @@ export default function ApplianceRemovalPage() {
                   </div>
                 </div>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">How It Works</h3>
+                <h2 className="text-2xl font-bold mt-8 mb-4">How It Works</h2>
 
                 <div className="grid md:grid-cols-3 gap-6 mb-8">
                   <div className="bg-blue-50 p-6 rounded-lg">
@@ -505,7 +505,7 @@ export default function ApplianceRemovalPage() {
                   We remove garage or chest freezers of all sizes—no need to lift a thing. Just empty the contents, and we'll handle the rest. Like refrigerators, freezers require proper Freon recovery before they can be recycled. Our appliance recycling San Diego process ensures all refrigerant gets captured at certified facilities before the metal gets scrapped. Also removing furniture? Check our <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">furniture removal service</a>.
                 </p>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">Eco-Friendly Appliance Recycling San Diego</h3>
+                <h2 className="text-2xl font-bold mt-8 mb-4">Eco-Friendly Appliance Recycling San Diego</h2>
                 <p className="text-lg mb-4">
                   Every appliance we remove gets processed at certified recycling facilities here in San Diego. Refrigerators and freezers go to Freon recovery centers that meet California Air Resources Board standards—no shortcuts on refrigerant handling. Washers, dryers, stoves, and other metal appliances head to Allan Company Recycling on 28th Street or Miramar Greenery, where they're broken down and the metal gets recycled. Working appliances that still have life left go to Father Joe's Villages and other San Diego charities.
                 </p>
@@ -513,48 +513,50 @@ export default function ApplianceRemovalPage() {
                   We follow EPA regulations and California disposal requirements because it's the law, not because it's a marketing angle. Freon gets captured at certified facilities before refrigerators are scrapped. Metals get separated and recycled locally instead of dumped. If an appliance still works, it goes to someone who needs it. That's how appliance recycling San Diego should work—straightforward, legal, local.
                 </p>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">When San Diego Homeowners Call Us</h3>
+                <h2 className="text-3xl font-bold mt-10 mb-6">Common Appliance Removal Situations</h2>
+                <div className="space-y-6 mb-12">
+                  <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg">
+                    <h3 className="text-2xl font-bold text-blue-900 mb-3">🏠 Kitchen Remodel Deadlines</h3>
+                    <p className="text-gray-700 mb-3">
+                      Your contractor starts tearing out cabinets Monday morning and the old refrigerator, stove, and dishwasher are still sitting there. Or Home Depot delivers your new appliances tomorrow and you need the old ones gone before the delivery window. We handle kitchen remodel appliance removal fast—same day if you call early—so your project stays on schedule.
+                    </p>
+                    <p className="text-gray-700">
+                      <strong>Common scenarios:</strong> Contractor demo starting Monday • New appliance delivery tomorrow • Cabinet installer needs space cleared • Kitchen renovation timeline pressure • Flooring installation scheduled
+                    </p>
+                  </div>
 
-                <div className="grid md:grid-cols-2 gap-6 mb-8">
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-bold mb-2">Kitchen Remodels</h4>
-                    <p className="text-gray-700 text-sm">
-                      Old units out before the new ones arrive.
+                  <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-lg">
+                    <h3 className="text-2xl font-bold text-green-900 mb-3">🔧 Broken Appliance Sitting in the Garage</h3>
+                    <p className="text-gray-700 mb-3">
+                      That washer quit six months ago and it's been taking up half your garage ever since. Or the old fridge from the house is now blocking your workbench. We remove broken appliances from garages, laundry rooms, and wherever they ended up when they stopped working. No need to fix it, drain it, or move it yourself—we handle dead appliances all day.
+                    </p>
+                    <p className="text-gray-700">
+                      <strong>Common scenarios:</strong> Non-working washer in garage • Dead fridge blocking storage • Broken dishwasher under the house • Old dryer collecting dust • Appliances from previous owners
                     </p>
                   </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-bold mb-2">Upgrading Appliances</h4>
-                    <p className="text-gray-700 text-sm">
-                      We'll remove your old fridge before tomorrow's delivery.
+
+                  <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-lg">
+                    <h3 className="text-2xl font-bold text-orange-900 mb-3">📦 Move-Out & Property Turnover</h3>
+                    <p className="text-gray-700 mb-3">
+                      Selling your La Jolla condo and the buyer doesn't want your old appliances? Landlord turnover in Pacific Beach with appliances the previous tenant left behind? Property managers throughout San Diego call us for fast appliance removal between tenants. We clear units quickly so you can rent or sell without old appliances sitting there.
+                    </p>
+                    <p className="text-gray-700">
+                      <strong>Common scenarios:</strong> Home sale closing Friday • Tenant left appliances behind • Property turnover between renters • Estate sale property prep • Airbnb property refresh
                     </p>
                   </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-bold mb-2">Moving Out</h4>
-                    <p className="text-gray-700 text-sm">
-                      Leave the property appliance-free for sale or rental.
+
+                  <div className="bg-purple-50 border-l-4 border-purple-500 p-6 rounded-lg">
+                    <h3 className="text-2xl font-bold text-purple-900 mb-3">⚡ Upgrade Delivery Window Tomorrow</h3>
+                    <p className="text-gray-700 mb-3">
+                      Best Buy, Home Depot, or Costco delivers your new fridge, washer, or stove tomorrow between 8 AM - 12 PM and the old unit is still sitting there. Delivery drivers won't haul away the old one or they charge $100+ just to take it. We'll remove your old appliances before the delivery window so the new ones can go straight in. Call today, we'll haul it today.
                     </p>
-                  </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-bold mb-2">Broken Units</h4>
-                    <p className="text-gray-700 text-sm">
-                      Non-working dishwashers or washers? We'll handle it.
-                    </p>
-                  </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-bold mb-2">Property Management</h4>
-                    <p className="text-gray-700 text-sm">
-                      Fast service for turnover or eviction cleanouts.
-                    </p>
-                  </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-bold mb-2">Estate Cleanouts</h4>
-                    <p className="text-gray-700 text-sm">
-                      Multiple appliances removed in one visit.
+                    <p className="text-gray-700">
+                      <strong>Common scenarios:</strong> Home Depot delivery tomorrow morning • Best Buy washer arriving Friday • New stove installation scheduled • Appliance upgrade same-day removal • Delivery driver won't take old unit
                     </p>
                   </div>
                 </div>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">Why Not Do It Yourself?</h3>
+                <h2 className="text-2xl font-bold mt-8 mb-4">Why Not Do It Yourself?</h2>
                 <p className="text-lg mb-4">
                   Refrigerators weigh 200-300 pounds. Washers aren't much lighter. You risk throwing your back out, scratching floors, or cracking a gas line if you don't know what you're doing. We've done this thousands of times—you probably haven't.
                 </p>
@@ -582,7 +584,7 @@ export default function ApplianceRemovalPage() {
                   You could rent a truck, find someone to help, figure out where to legally dispose of a refrigerator with Freon—or you could call us. Proper appliance disposal San Diego means more than just hauling to the dump. It means certified Freon recovery, metal recycling at licensed facilities, and following California Air Resources Board regulations. We handle all of that. You get your space back in an hour.
                 </p>
 
-                <h3 className="text-2xl font-bold mt-8 mb-4">Where We Work in San Diego County</h3>
+                <h2 className="text-2xl font-bold mt-8 mb-4">Where We Work in San Diego County</h2>
                 <p className="text-lg mb-4">
                   We run jobs all over—from <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a> down to <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, <a href="/junk-removal-del-mar" className="text-blue-600 hover:underline">Del Mar</a> to <a href="/junk-removal-el-cajon" className="text-blue-600 hover:underline">El Cajon</a>. If you're in San Diego County, we'll get there.
                 </p>
