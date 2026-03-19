@@ -108,8 +108,8 @@ export default function JunkRemovalCostPage() {
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 32.7763,
-      "longitude": -117.0231
+      "latitude": 32.7736,
+      "longitude": -117.0228
     },
     "areaServed": {
       "@type": "GeoCircle",

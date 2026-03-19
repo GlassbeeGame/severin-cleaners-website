@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     "emergency junk removal san diego",
     "urgent junk removal san diego",
     "emergency junk removal san diego today",
-    "same day junk removal San Diego",
     "urgent trash removal San Diego now",
-    "weekend junk removal San Diego Saturday Sunday",
-    "last minute junk removal San Diego",
+    "crisis cleanout san diego",
+    "eviction cleanout san diego",
+    "foreclosure junk removal san diego",
     "urgent junk hauling",
     "emergency debris removal"
   ],
@@ -66,8 +66,8 @@ export const metadata: Metadata = {
 
 const emergencyFAQs = [
     {
-      question: "What qualifies as emergency junk removal San Diego vs same-day service?",
-      answer: "Emergency service is for crisis situations with legal, financial, or safety deadlines—eviction cleanouts, foreclosure deadlines, fire/water damage debris, HOA violations with fines pending, or court-ordered removals. Same-day service is for planned urgent needs without consequences. If you're facing a deadline with penalties, that's emergency service."
+      question: "What qualifies as emergency junk removal in San Diego?",
+      answer: "Emergency junk removal is for crisis situations with legal, financial, or safety deadlines—eviction cleanouts, foreclosure deadlines, fire or water damage debris, HOA violations with fines accumulating, or court-ordered removals. If missing your deadline means lost rental income, a delayed closing, escalating fines, or legal consequences, that's an emergency situation and we prioritize those calls."
     },
     {
       question: "How quickly can you respond for crisis situations?",
@@ -273,15 +273,16 @@ export default function EmergencyJunkRemovalPage() {
     "priceRange": "$69-$495",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "San Diego",
+      "streetAddress": "8900 Grossmont Blvd Ste 1",
+      "addressLocality": "La Mesa",
       "addressRegion": "CA",
-      "postalCode": "92101",
+      "postalCode": "91941",
       "addressCountry": "US"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 32.7157,
-      "longitude": -117.1611
+      "latitude": 32.7736,
+      "longitude": -117.0228
     },
     "areaServed": {
       "@type": "City",

@@ -122,14 +122,16 @@ export default function SanDiegoJunkRemovalPage() {
     "priceRange": "$69-$495",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "San Diego",
+      "streetAddress": "8900 Grossmont Blvd Ste 1",
+      "addressLocality": "La Mesa",
       "addressRegion": "CA",
+      "postalCode": "91941",
       "addressCountry": "US"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 32.7157,
-      "longitude": -117.1611
+      "latitude": 32.7736,
+      "longitude": -117.0228
     },
     "areaServed": [
       {

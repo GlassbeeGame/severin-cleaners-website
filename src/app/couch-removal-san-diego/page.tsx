@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import FAQSection from "@/components/FAQSection";
 import { generateFAQSchema } from "@/lib/schema";
 import SchemaMarkup from "@/components/SchemaMarkup";
-import { generateServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema } from "@/lib/schema";
+import { generateServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema, generateHowToSchema } from "@/lib/schema";
 import LocationSidebarCTA from "@/components/LocationSidebarCTA";
 import TrustSignalsSection from "@/components/TrustSignalsSection";
 import LocationPricingSection from "@/components/LocationPricingSection";
@@ -146,8 +146,8 @@ export default function CouchRemovalPage() {
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 32.9508,
-      "longitude": -117.0231
+      "latitude": 32.7736,
+      "longitude": -117.0228
     },
     "areaServed": {
       "@type": "City",
@@ -222,37 +222,10 @@ export default function CouchRemovalPage() {
 
   const faqSchema = generateFAQSchema(couchFAQs);
 
-  const howToSchema = {
-    "@type": "HowTo",
-    "name": "How to Get Rid of a Couch in San Diego",
-    "description": "Compare your options for couch disposal in San Diego, from professional removal to DIY solutions.",
-    "step": [
-      {
-        "@type": "HowToStep",
-        "name": "Option 1: Professional Couch Removal",
-        "text": "Call Severin Hauling at (619) 750-0114 for same-day couch removal starting at $69. No work required on your part.",
-        "url": "https://www.severinhauling.com/couch-removal-san-diego"
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Option 2: Take to Miramar Landfill",
-        "text": "Rent a truck, load your couch yourself, and drive to Miramar Landfill. Cost: $40-60 in dump fees plus truck rental and your time.",
-        "url": "https://www.severinhauling.com/san-diego-dump-fees"
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Option 3: City Bulky Item Pickup",
-        "text": "Schedule free pickup with City of San Diego. Move couch to curb yourself and wait 1-2 weeks for scheduled pickup.",
-        "url": "https://www.severinhauling.com/couch-removal-san-diego"
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Option 4: Donate Your Couch",
-        "text": "If couch is in good condition with no stains, schedule donation pickup with Habitat for Humanity. Wait 3-7 days for pickup.",
-        "url": "https://www.severinhauling.com/couch-removal-san-diego"
-      }
-    ]
-  };
+  const howToSchema = generateHowToSchema({
+    cityName: "San Diego",
+    pageUrl: "https://www.severinhauling.com/couch-removal-san-diego"
+  });
 
   const neighborhoodSchema = {
     "@type": "ItemList",
@@ -593,22 +566,22 @@ export default function CouchRemovalPage() {
 
                   <div className="space-y-6 mb-12">
                     <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg">
-                      <h3 className="text-2xl font-bold text-blue-900 mb-3">🏠 Moving & Downsizing Deadlines</h3>
+                      <h3 className="text-2xl font-bold text-blue-900 mb-3">🏠 Moving Deadlines & Sofa Problems</h3>
                       <p className="text-gray-700 mb-3">
-                        Your lease ends Friday and the new tenant moves in Saturday morning. The sectional sofa won't fit in your new place and you're out of time. Or you're downsizing from a Clairemont family home to a North Park condo and need three couches gone before the movers arrive Thursday. Missing your move-out deadline means losing your deposit or paying double rent.
+                        Your lease ends Friday and the new place is a one-bedroom in North Park — no room for the sectional. Or you bought a condo downtown and the sleeper sofa is 9 feet long and won't turn the corner on the stairwell. Moving with a couch that doesn't fit the new space is its own headache: too big to donate easily, too heavy to move yourself, and movers won't take it if it doesn't fit. We handle that pickup on your schedule.
                       </p>
                       <p className="text-gray-700">
-                        <strong>Common scenarios:</strong> Lease expiration cleanouts • Cross-country moves with no furniture truck space • Downsizing to smaller apartments • Military PCS moves with strict timelines • Estate cleanouts with property sale deadlines • Divorce transitions requiring fast furniture division
+                        <strong>Common scenarios:</strong> Sectional too large for new apartment • Sleeper sofa that won't fit a studio • Old couch that doesn't work in the new layout • Military PCS move with no room for bulky seating • Downsizing from a house to a condo — two couches become zero • Estate cleanout with inherited sofas nobody wants
                       </p>
                     </div>
 
                     <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg">
-                      <h3 className="text-2xl font-bold text-red-900 mb-3">🛋️ Broken or Damaged Furniture Emergencies</h3>
+                      <h3 className="text-2xl font-bold text-red-900 mb-3">🛋️ Damaged Upholstery & Sofa Emergencies</h3>
                       <p className="text-gray-700 mb-3">
-                        The sleeper sofa frame collapsed and now it's a safety hazard blocking your Pacific Beach living room. Or your leather couch developed a mold problem after last month's roof leak and it's making everyone sick. Broken furniture doesn't just look bad—it's a liability. Property managers face tenant complaints. Homeowners risk injuries. San Diego's coastal humidity makes mold spread fast on damaged upholstery.
+                        Bed bugs in the cushions. Mold growing inside a sofa after a roof leak. A sleeper sofa frame that collapsed and is now a pile of metal and foam in the middle of your living room. These aren't just cosmetic problems — they're health hazards. San Diego's coastal humidity makes mold spread fast once it gets into upholstery. A bug-infested couch can't go to donation, can't be stored, and needs to leave today.
                       </p>
                       <p className="text-gray-700">
-                        <strong>Common scenarios:</strong> Collapsed sofa frames • Mold-damaged upholstery from water leaks • Couches infested with bedbugs or pests • Smoke-damaged furniture after kitchen fires • Pet-destroyed sofas beyond repair • Spring mechanisms breaking through cushions
+                        <strong>Common scenarios:</strong> Bed bug infestation in upholstered seating • Mold in cushions from water damage or humidity • Collapsed or broken sofa frames • Springs punching through seats — injury risk • Pet-destroyed sofas beyond repair • Smoke-damaged upholstery after kitchen fires
                       </p>
                     </div>
 
@@ -643,9 +616,9 @@ export default function CouchRemovalPage() {
                     As a locally owned furniture removal company, we provide faster service than national franchises operating from outside San Diego. Our transparent pricing model means no hidden fees—unlike other companies that charge extra for stairs, tight spaces, or weekend pickups, we quote one price based on couch size and stick to it. We prioritize eco-friendly disposal, donating furniture in good shape to San Diego charities and recycling materials whenever possible, while many competitors simply dump everything at the landfill regardless of condition. Customers highly recommend our honest approach and reliable service.
                   </p>
 
-                  <h2 className="text-3xl font-bold text-gray-900 mb-4">Eco-Friendly Furniture Disposal</h2>
+                  <h2 className="text-3xl font-bold text-gray-900 mb-4">Where Your Old Sofa Actually Goes</h2>
                   <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                    Our commitment to eco-friendly couch removal means prioritizing donation and recycling over landfill disposal. Sofas in good shape get donated to San Diego organizations including San Diego Rescue Mission and Habitat for Humanity, where they help families furnish their homes. Damaged furniture that cannot be donated gets responsibly broken down, with wood frames sent to recycling facilities and metal springs processed as scrap metal. Only items that truly cannot be reused or recycled end up in the landfill. This approach keeps thousands of pounds of furniture out of San Diego's waste stream each year while supporting our local community.
+                    We prioritize donation over landfill for every couch pickup in San Diego. Sofas and sectionals in decent shape get donated to San Diego Rescue Mission, Habitat for Humanity ReStore, and local transitional housing programs — places where upholstered seating is always in demand. When a sofa is too worn to donate, we break it down: fabric and foam go to textile recyclers, wood frames to lumber recyclers, metal springs to scrap processors. Only what can't be salvaged ends up at Miramar. Most couches and loveseats we pick up never see the landfill.
                   </p>
 
                   <div className="text-center bg-blue-900 text-white p-8 rounded-lg mt-8">

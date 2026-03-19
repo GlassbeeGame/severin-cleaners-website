@@ -21,7 +21,6 @@ export const metadata: Metadata = {
     'immediate junk removal san diego',
     'instant junk removal san diego',
     'quick junk removal san diego',
-    'urgent junk removal san diego',
     'today junk pickup',
     'same day hauling san diego',
     'scheduled junk removal san diego',
@@ -92,8 +91,8 @@ const sameDayFAQs = [
       answer: "For guaranteed same day junk pickup San Diego, call before 2 PM. However, we often accommodate later calls depending on crew availability and location. It never hurts to call – even if it's 4 PM, we'll do everything possible to get there today. Our goal is to solve your junk problem NOW, not make you wait until tomorrow."
     },
     {
-      question: "Can you handle emergency cleanouts the same day?",
-      answer: "Absolutely. Our rapid junk removal San Diego team specializes in emergency situations: last-minute move-outs, property inspection deadlines, HOA violations, and urgent estate cleanouts. We bring extra crew members for large same-day projects to ensure completion within hours. Don't wait days – we'll handle your emergency cleanout TODAY."
+      question: "Can you handle large same-day cleanouts on short notice?",
+      answer: "Yes. Our rapid junk removal San Diego team handles large same-day projects including last-minute move-outs, contractor prep work, property inspection turnovers, and full estate cleanouts. We bring extra crew members for bigger jobs to make sure everything gets done in a single visit—today. Call before 2 PM for the best availability on large-volume same-day work."
     },
     {
       question: "Do I need to sort items for same day removal?",

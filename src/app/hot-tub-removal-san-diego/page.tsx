@@ -120,8 +120,8 @@ export default function HotTubRemovalSanDiegoPage() {
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 32.7678,
-      "longitude": -117.0231
+      "latitude": 32.7736,
+      "longitude": -117.0228
     },
     "url": "https://www.severinhauling.com/hot-tub-removal-san-diego",
     "areaServed": {

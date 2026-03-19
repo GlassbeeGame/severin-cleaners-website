@@ -92,7 +92,7 @@ export default function PianoremovalsandiegoPage() {
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 32.7683,
+      "latitude": 32.7736,
       "longitude": -117.0228
     },
     "url": "https://www.severinhauling.com/piano-removal-san-diego",

@@ -12,18 +12,18 @@ import OptimizedGradientHero from "@/components/OptimizedGradientHero";
 
 export const metadata: Metadata = {
   title: "Furniture Disposal San Diego | Eco-Friendly Removal & Recycling",
-  description: "Professional furniture disposal San Diego starting at $69. Same-day couch removal, desk disposal & recycling. Licensed & insured. Free quote: (619) 750-0114.",
+  description: "Professional furniture disposal San Diego starting at $69. Same-day pickup, eco-friendly recycling & donation. Desks, dressers, tables & more. Free quote: (619) 750-0114.",
   keywords: [
     "furniture disposal San Diego",
     "furniture removal San Diego",
     "furniture recycling San Diego",
-    "couch disposal San Diego",
-    "sofa disposal San Diego",
     "furniture hauling San Diego",
     "old furniture disposal",
     "furniture pickup San Diego",
     "same day furniture disposal",
-    "eco friendly furniture removal"
+    "eco friendly furniture removal",
+    "desk disposal San Diego",
+    "dresser removal San Diego"
   ],
   openGraph: {
     title: "Furniture Disposal San Diego | Eco-Friendly Removal & Recycling",
@@ -77,7 +77,7 @@ const relatedServices = [
 const furnitureFAQs = [
   {
     question: "How much does furniture disposal cost in San Diego?",
-    answer: "Furniture disposal San Diego pricing starts at $69 for small items like chairs and loveseats. Standard items (couches, dressers, appliances) start at $100. Large loads range up to $495 for a full trailer. Couch disposal costs $69-$199 depending on size. Bedroom furniture runs $249-$429. All prices include labor, transportation, eco-friendly disposal, and recycling with no hidden fees. Call (619) 750-0114 for a free quote."
+    answer: "Furniture disposal San Diego pricing starts at $69 for small items like chairs and accent pieces. Standard items (dressers, desks, dining chairs) start at $100. Large loads range up to $495 for a full trailer. Office desks and dining sets typically run $100–$249 depending on size and number of pieces. Bedroom furniture runs $249-$429. All prices include labor, transportation, eco-friendly disposal, and recycling with no hidden fees. Call (619) 750-0114 for a free quote."
   },
   {
     question: "Is there free furniture disposal in San Diego?",
@@ -101,7 +101,7 @@ const furnitureFAQs = [
   },
   {
     question: "Do you offer same-day furniture disposal?",
-    answer: "Yes, we provide same-day furniture disposal San Diego when you call before 2 PM. Our flexible scheduling includes evenings and weekends at no extra charge. Whether you need urgent couch disposal for a new delivery or last-minute space clearing, we can typically arrive within hours. Call (619) 750-0114 to check today's availability."
+    answer: "Yes, we provide same-day furniture disposal San Diego when you call before 2 PM. Our flexible scheduling includes evenings and weekends at no extra charge. Whether you need furniture cleared out before a delivery arriving today or last-minute space clearing before guests show up, we can typically get there within hours. Call (619) 750-0114 to check today's availability."
   },
   {
     question: "Can you remove office furniture from commercial buildings?",
@@ -120,7 +120,7 @@ const furnitureFAQs = [
 export default function FurnitureDisposalPage() {
   const serviceSchema = generateServiceSchema({
     name: "Furniture Disposal San Diego",
-    description: "Professional furniture disposal and recycling in San Diego. Eco-friendly furniture removal services for couches, sofas, desks, beds, and all furniture types. Same-day service available.",
+    description: "Professional furniture disposal and recycling in San Diego. Eco-friendly removal of bedroom sets, office furniture, dining tables, and all household and commercial pieces. Same-day service available.",
     url: "https://www.severinhauling.com/furniture-disposal-san-diego",
     serviceType: "Furniture Disposal and Recycling Service",
     areaServed: "San Diego County, CA",
@@ -136,14 +136,16 @@ export default function FurnitureDisposalPage() {
     "priceRange": "$69-$495",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "San Diego",
+      "streetAddress": "8900 Grossmont Blvd Ste 1",
+      "addressLocality": "La Mesa",
       "addressRegion": "CA",
+      "postalCode": "91941",
       "addressCountry": "US"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 32.7157,
-      "longitude": -117.1611
+      "latitude": 32.7736,
+      "longitude": -117.0228
     },
     "url": "https://www.severinhauling.com/furniture-disposal-san-diego",
     "areaServed": {
@@ -176,8 +178,8 @@ export default function FurnitureDisposalPage() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Couch Removal San Diego",
-            "description": "Professional couch and sofa disposal service"
+            "name": "Living Room Furniture Disposal San Diego",
+            "description": "Professional removal of coffee tables, entertainment centers, bookshelves, and accent chairs"
           }
         },
         {
@@ -402,7 +404,7 @@ export default function FurnitureDisposalPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Same-Day Service</h3>
                 <p className="text-gray-600">
-                  Need that couch gone today? We offer same-day pickup throughout San Diego when you call early.
+                  Need your furniture gone today? We offer same-day pickup throughout San Diego when you call before 2 PM.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-lg text-center">
@@ -448,7 +450,7 @@ export default function FurnitureDisposalPage() {
                     </p>
 
                     <p className="text-lg mb-6">
-                      We handle all types of furniture removal San Diego needs: beds, dressers, desks, dining tables, office furniture, bedroom sets, patio furniture, and everything in between. <strong>Specifically removing a couch or sofa?</strong> See our specialized <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline font-semibold">couch removal service</a> for upholstered furniture. We also offer dedicated <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:text-blue-700 underline">mattress disposal</a>. Our furniture recycling San Diego program ensures usable items find new homes through donation partners, while materials like metal and wood get properly recycled. From <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> to <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, we're helping San Diego stay green while keeping your space clutter-free. Need <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">same-day service</a>? Call before 2 PM.
+                      We handle all types of furniture removal San Diego needs: beds, dressers, desks, dining tables, office furniture, bedroom sets, patio furniture, and everything in between. We also offer dedicated <a href="/san-diego-mattress-disposal" className="text-blue-600 hover:text-blue-700 underline">mattress disposal</a> and a specialized <a href="/couch-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">couch removal service</a> for upholstered seating. Our furniture recycling San Diego program ensures usable items find new homes through donation partners, while materials like metal and wood get properly recycled. From <a href="/junk-removal-la-jolla" className="text-blue-600 hover:underline">La Jolla</a> to <a href="/junk-removal-chula-vista" className="text-blue-600 hover:underline">Chula Vista</a>, we're helping San Diego stay green while keeping your space clutter-free. Need <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:text-blue-700 underline">same-day service</a>? Call before 2 PM.
                     </p>
 
                     <h2 className="text-3xl font-bold mt-10 mb-4">Free vs. Professional Furniture Disposal San Diego</h2>
@@ -587,9 +589,9 @@ export default function FurnitureDisposalPage() {
 
                     <h2 className="text-3xl font-bold mt-10 mb-4">Common Furniture We Remove</h2>
 
-                    <h3 className="text-2xl font-semibold mt-6 mb-3">Living Room Furniture Beyond Couches</h3>
+                    <h3 className="text-2xl font-semibold mt-6 mb-3">Coffee Tables, Entertainment Centers & More</h3>
                     <p className="text-lg mb-6">
-                      We remove coffee tables, entertainment centers, bookshelves, TV stands, and accent chairs throughout San Diego. <strong>Need couch or sofa removal specifically?</strong> Check out our specialized <a href="/couch-removal-san-diego" className="text-blue-600 hover:underline font-semibold">couch removal service</a> dedicated to upholstered seating (sectionals, loveseats, recliners, sleeper sofas). For all other living room furniture, we provide fast, professional removal from <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a> to <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>.
+                      Coffee tables, entertainment centers, bookshelves, TV stands, accent chairs—these are furniture disposal staples. Too big for trash pickup, too heavy to move alone. We get them out fast from <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a> to <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>. Need help with upholstered seating like sectionals or recliners? Our dedicated <a href="/couch-removal-san-diego" className="text-blue-600 hover:underline">couch removal service</a> handles those specifically.
                     </p>
 
                     <h3 className="text-2xl font-semibold mt-6 mb-3">Office Furniture & Desks</h3>
@@ -711,10 +713,10 @@ export default function FurnitureDisposalPage() {
                       <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg">
                         <h3 className="text-2xl font-bold text-blue-900 mb-3">📦 Moving & Downsizing</h3>
                         <p className="text-gray-700 mb-3">
-                          Moving to a smaller San Diego apartment or condo and your furniture won't fit? Downsizing from a house to retirement community? We remove what doesn't make the cut—beds, dining sets, living room furniture, and everything in between. Whether you're moving from a 4-bedroom home in Carmel Valley to a 2-bedroom condo downtown, or relocating from San Diego to another city, we handle the furniture you're leaving behind.
+                          Moving to a smaller place and the bedroom set won't fit? The dining table is too long for the new condo's kitchen? Dressers and armoires are the pieces nobody wants to deal with on move day — too heavy to carry down two flights alone, too bulky for most SUVs, and donation pickup usually takes two weeks you don't have. We take them same-day or scheduled around your move-out date.
                         </p>
                         <p className="text-gray-700">
-                          <strong>Common scenarios:</strong> Downsizing to smaller home • Moving out of state • Combining households after marriage • Transitioning to assisted living • New furniture delivery tomorrow
+                          <strong>Common scenarios:</strong> King bedroom set that won't fit the new apartment • Dining table too large for a condo • Dresser or armoire too heavy to move without a crew • Downsizing from a 4-bedroom home — the furniture math doesn't work • Relocating out of state and leaving bulky pieces behind • Combining households with duplicate bedroom or dining furniture
                         </p>
                       </div>
 
@@ -751,11 +753,11 @@ export default function FurnitureDisposalPage() {
 
                     <h2 className="text-3xl font-bold mt-10 mb-4">Why Hire Professionals for Furniture Disposal?</h2>
                     <p className="text-lg mb-4">
-                      You could try to move that couch yourself. But here's why that's usually a bad idea:
+                      You could try to haul that old dresser or dining set yourself. Here's why that usually goes badly:
                     </p>
 
                     <ul className="list-disc pl-6 mb-6 space-y-2">
-                      <li><strong>Heavy & Awkward:</strong> Furniture is heavier than it looks. Couches can weigh 200+ lbs, and they're awkward to carry.</li>
+                      <li><strong>Heavy & Awkward:</strong> Furniture is heavier than it looks. Dressers and dining tables can hit 150–300 lbs—and the bulk makes them nearly impossible to maneuver solo.</li>
                       <li><strong>Risk of Injury:</strong> Back strains, pinched fingers, and worse. It happens more often than you'd think.</li>
                       <li><strong>Property Damage:</strong> Scratched floors, dented walls, broken railings. One wrong move can cost you.</li>
                       <li><strong>No Truck Needed:</strong> Why rent a truck and make multiple trips when we handle it all?</li>

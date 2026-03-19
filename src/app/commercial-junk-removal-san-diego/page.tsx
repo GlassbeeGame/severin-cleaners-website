@@ -146,8 +146,8 @@ export default function CommercialJunkRemovalSanDiegoPage() {
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 32.7157,
-      "longitude": -117.1611
+      "latitude": 32.7736,
+      "longitude": -117.0228
     },
     "url": "https://www.severinhauling.com/commercial-junk-removal-san-diego",
     "areaServed": [
