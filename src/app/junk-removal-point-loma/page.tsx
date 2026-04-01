@@ -59,6 +59,8 @@ export const metadata: Metadata = {
     'geo.placename': 'Point Loma',
     'geo.position': '32.7242;-117.2431',
     'ICBM': '32.7242, -117.2431',
+    'article:published_time': '2026-01-15T09:00:00-08:00',
+    'article:modified_time': '2026-03-06T09:00:00-08:00',
   },
 };
 
@@ -109,9 +111,15 @@ export default function JunkRemovalPointLomaPage() {
     "@type": "LocalBusiness",
     "@id": "https://www.severinhauling.com/junk-removal-point-loma#business",
     "name": "Severin Hauling LLC",
-    "image": "https://www.severinhauling.com/og-image.jpg",
+    "image": [
+      "https://www.severinhauling.com/optimized/couchwithlogo.jpg",
+      "https://www.severinhauling.com/optimized/toiletteam.jpg",
+      "https://www.severinhauling.com/optimized/commercial.jpg"
+    ],
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
+    "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
+    "currenciesAccepted": "USD",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "8900 Grossmont Blvd Ste 1",
@@ -126,6 +134,54 @@ export default function JunkRemovalPointLomaPage() {
       "longitude": -117.0231
     },
     "url": "https://www.severinhauling.com/junk-removal-point-loma",
+    "knowsAbout": [
+      "Naval Base San Diego PCS Move Logistics",
+      "Sunset Cliffs Coastal Property Access and Cleanouts",
+      "Liberty Station Historic District Property Services",
+      "Military Base Housing Clearance Requirements",
+      "Salt Air Corrosion and Marine Environment Item Removal",
+      "Shelter Island and Harbor Island Waterfront Property Access",
+      "Point Loma Heights Hillside Navigation",
+      "Rosecrans Street and Peninsula Traffic Pattern Management"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Point Loma Junk Removal Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Military PCS Move Junk Removal",
+            "description": "Junk removal for active duty military families during PCS moves from Naval Base San Diego housing, including gate clearance coordination and base housing inspection compliance"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Sunset Cliffs Coastal Property Cleanouts",
+            "description": "Full-service cleanouts for coastal bluff homes along Sunset Cliffs Boulevard with narrow street access, limited parking, and salt-damaged outdoor item removal"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Liberty Station Historic Property Services",
+            "description": "Junk removal for converted NTC barracks, loft apartments, and mixed-use properties in the Liberty Station historic redevelopment district"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Waterfront and Marina Property Removal",
+            "description": "Marine equipment disposal, salt-air damaged item removal, and full cleanouts for Shelter Island, Harbor Island, and La Playa waterfront properties"
+          }
+        }
+      ]
+    },
     "areaServed": [
       {
         "@type": "City",
@@ -158,6 +214,25 @@ export default function JunkRemovalPointLomaPage() {
     ]
   };
 
+  const neighborhoodSchema = {
+    "@type": "ItemList",
+    "name": "Point Loma San Diego Neighborhoods Served",
+    "description": "Complete junk removal coverage throughout all Point Loma peninsula neighborhoods in the 92106 and 92107 zip codes",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "item": { "@type": "Place", "name": "Naval Base San Diego", "address": { "@type": "PostalAddress", "addressLocality": "San Diego", "addressRegion": "CA", "postalCode": "92136" } } },
+      { "@type": "ListItem", "position": 2, "item": { "@type": "Place", "name": "Liberty Station / NTC", "address": { "@type": "PostalAddress", "addressLocality": "San Diego", "addressRegion": "CA", "postalCode": "92106" } } },
+      { "@type": "ListItem", "position": 3, "item": { "@type": "Place", "name": "Sunset Cliffs", "address": { "@type": "PostalAddress", "addressLocality": "San Diego", "addressRegion": "CA", "postalCode": "92107" } } },
+      { "@type": "ListItem", "position": 4, "item": { "@type": "Place", "name": "Wooded Area / Roseville", "address": { "@type": "PostalAddress", "addressLocality": "San Diego", "addressRegion": "CA", "postalCode": "92106" } } },
+      { "@type": "ListItem", "position": 5, "item": { "@type": "Place", "name": "Loma Portal", "address": { "@type": "PostalAddress", "addressLocality": "San Diego", "addressRegion": "CA", "postalCode": "92107" } } },
+      { "@type": "ListItem", "position": 6, "item": { "@type": "Place", "name": "La Playa", "address": { "@type": "PostalAddress", "addressLocality": "San Diego", "addressRegion": "CA", "postalCode": "92106" } } },
+      { "@type": "ListItem", "position": 7, "item": { "@type": "Place", "name": "Shelter Island", "address": { "@type": "PostalAddress", "addressLocality": "San Diego", "addressRegion": "CA", "postalCode": "92106" } } },
+      { "@type": "ListItem", "position": 8, "item": { "@type": "Place", "name": "Harbor Island", "address": { "@type": "PostalAddress", "addressLocality": "San Diego", "addressRegion": "CA", "postalCode": "92101" } } },
+      { "@type": "ListItem", "position": 9, "item": { "@type": "Place", "name": "Point Loma Heights", "address": { "@type": "PostalAddress", "addressLocality": "San Diego", "addressRegion": "CA", "postalCode": "92107" } } },
+      { "@type": "ListItem", "position": 10, "item": { "@type": "Place", "name": "Cabrillo Point Area", "address": { "@type": "PostalAddress", "addressLocality": "San Diego", "addressRegion": "CA", "postalCode": "92106" } } },
+      { "@type": "ListItem", "position": 11, "item": { "@type": "Place", "name": "Ocean Beach Border", "address": { "@type": "PostalAddress", "addressLocality": "San Diego", "addressRegion": "CA", "postalCode": "92107" } } }
+    ]
+  };
+
   const howToSchema = generateHowToSchema({
     cityName: "Point Loma",
     pageUrl: "https://www.severinhauling.com/junk-removal-point-loma"
@@ -165,7 +240,7 @@ export default function JunkRemovalPointLomaPage() {
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, howToSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, howToSchema, neighborhoodSchema]
   };
 
   const nearbyLocations = [

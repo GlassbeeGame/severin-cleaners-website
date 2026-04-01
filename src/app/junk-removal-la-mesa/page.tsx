@@ -120,7 +120,7 @@ export default function LaMesaJunkRemovalPage() {
     "url": "https://www.severinhauling.com/junk-removal-la-mesa",
     "serviceType": "Junk Removal and Hauling",
     "provider": {
-      "@id": "https://www.severinhauling.com/junk-removal-la-mesa#organization"
+      "@id": "https://www.severinhauling.com/junk-removal-la-mesa#business"
     },
     "areaServed": [
       {
@@ -134,8 +134,6 @@ export default function LaMesaJunkRemovalPage() {
     ],
     "offers": {
       "@type": "Offer",
-      "priceCurrency": "USD",
-      "price": "69",
       "priceSpecification": {
         "@type": "PriceSpecification",
         "minPrice": "69",
@@ -145,14 +143,18 @@ export default function LaMesaJunkRemovalPage() {
     }
   };
 
-  const organizationSchema = {
-    "@type": "Organization",
-    "@id": "https://www.severinhauling.com/junk-removal-la-mesa#organization",
+  const localBusinessSchema = {
+    "@type": "LocalBusiness",
+    "@id": "https://www.severinhauling.com/junk-removal-la-mesa#business",
     "name": "Severin Hauling LLC",
     "legalName": "Severin Hauling LLC",
-    "url": "https://www.severinhauling.com",
+    "url": "https://www.severinhauling.com/junk-removal-la-mesa",
     "logo": "https://www.severinhauling.com/logo.png",
-    "image": "https://www.severinhauling.com/og-image.jpg",
+    "image": [
+      "https://www.severinhauling.com/optimized/couchwithlogo.jpg",
+      "https://www.severinhauling.com/optimized/toiletteam.jpg",
+      "https://www.severinhauling.com/optimized/commercial.jpg"
+    ],
     "telephone": "+1-619-750-0114",
     "email": "severinhauling@gmail.com",
     "address": {
@@ -173,29 +175,95 @@ export default function LaMesaJunkRemovalPage() {
     "currenciesAccepted": "USD",
     "openingHours": "Mo-Su 00:00-23:59",
     "aggregateRating": generateAggregateRatingSchema(),
+    "knowsAbout": [
+      "Mount Helix Hillside Estate Properties",
+      "Grossmont Hospital Medical District Services",
+      "La Mesa Village Urban Property Management",
+      "East County Headquarters Operations",
+      "Fletcher Hills Premium Home Service",
+      "Grossmont College Student Housing Cycles",
+      "Lake Murray Residential Areas",
+      "Trolley-Accessible Property Logistics"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "La Mesa Junk Removal Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Mount Helix Estate Property Cleanouts",
+            "description": "Specialized hillside estate junk removal for Mount Helix's premium properties with challenging access and large-volume needs"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Grossmont Medical District Property Services",
+            "description": "Medical office cleanouts, healthcare facility transitions, and hospital employee housing services near Grossmont Hospital"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "La Mesa Village Urban Property Cleanouts",
+            "description": "Downtown retail, restaurant, and multi-unit residential junk removal with coordinated parking logistics on Spring Street and La Mesa Blvd"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Student Housing Move-Out Services",
+            "description": "Grossmont College area rental property turnovers and seasonal student move-out cleanouts in the 91941 and 91942 zip codes"
+          }
+        }
+      ]
+    },
     "areaServed": [
       {
         "@type": "City",
-        "name": "La Mesa"
+        "name": "La Mesa",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "California"
+        }
       },
-      {
-        "@type": "City",
-        "name": "El Cajon"
-      },
-      {
-        "@type": "City",
-        "name": "Spring Valley"
-      },
-      {
-        "@type": "City",
-        "name": "Santee"
-      }
+      { "@type": "PostalCode", "postalCode": "91941", "addressLocality": "La Mesa", "addressRegion": "CA" },
+      { "@type": "PostalCode", "postalCode": "91942", "addressLocality": "La Mesa", "addressRegion": "CA" },
+      { "@type": "PostalCode", "postalCode": "91944", "addressLocality": "La Mesa", "addressRegion": "CA" },
+      { "@type": "City", "name": "El Cajon" },
+      { "@type": "City", "name": "Spring Valley" },
+      { "@type": "City", "name": "Santee" },
+      { "@type": "City", "name": "Lemon Grove" }
     ],
     "sameAs": [
       "https://www.facebook.com/severinhauling",
       "https://www.instagram.com/severinhauling/",
       "https://www.yelp.com/biz/severin-hauling-san-diego",
       "https://www.thumbtack.com/ca/la-mesa/junk-removal/severin-hauling/service/541381661422116888"
+    ]
+  };
+
+  const neighborhoodSchema = {
+    "@type": "ItemList",
+    "name": "La Mesa Neighborhoods Served by Severin Hauling",
+    "description": "Junk removal service areas within La Mesa, CA and surrounding East County communities",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "item": { "@type": "Place", "name": "Mount Helix", "address": { "@type": "PostalAddress", "addressLocality": "La Mesa", "addressRegion": "CA", "postalCode": "91941" } } },
+      { "@type": "ListItem", "position": 2, "item": { "@type": "Place", "name": "Fletcher Hills", "address": { "@type": "PostalAddress", "addressLocality": "El Cajon", "addressRegion": "CA", "postalCode": "92020" } } },
+      { "@type": "ListItem", "position": 3, "item": { "@type": "Place", "name": "La Mesa Village", "address": { "@type": "PostalAddress", "addressLocality": "La Mesa", "addressRegion": "CA", "postalCode": "91941" } } },
+      { "@type": "ListItem", "position": 4, "item": { "@type": "Place", "name": "Grossmont Center", "address": { "@type": "PostalAddress", "addressLocality": "La Mesa", "addressRegion": "CA", "postalCode": "91942" } } },
+      { "@type": "ListItem", "position": 5, "item": { "@type": "Place", "name": "Lake Murray", "address": { "@type": "PostalAddress", "addressLocality": "La Mesa", "addressRegion": "CA", "postalCode": "91942" } } },
+      { "@type": "ListItem", "position": 6, "item": { "@type": "Place", "name": "College Area", "address": { "@type": "PostalAddress", "addressLocality": "La Mesa", "addressRegion": "CA", "postalCode": "91942" } } },
+      { "@type": "ListItem", "position": 7, "item": { "@type": "Place", "name": "Spring Street Corridor", "address": { "@type": "PostalAddress", "addressLocality": "La Mesa", "addressRegion": "CA", "postalCode": "91941" } } },
+      { "@type": "ListItem", "position": 8, "item": { "@type": "Place", "name": "Grossmont Hospital Medical District", "address": { "@type": "PostalAddress", "addressLocality": "La Mesa", "addressRegion": "CA", "postalCode": "91942" } } },
+      { "@type": "ListItem", "position": 9, "item": { "@type": "Place", "name": "Grossmont College Area", "address": { "@type": "PostalAddress", "addressLocality": "El Cajon", "addressRegion": "CA", "postalCode": "92020" } } },
+      { "@type": "ListItem", "position": 10, "item": { "@type": "Place", "name": "Hillside Estates", "address": { "@type": "PostalAddress", "addressLocality": "La Mesa", "addressRegion": "CA", "postalCode": "91941" } } },
+      { "@type": "ListItem", "position": 11, "item": { "@type": "Place", "name": "Trolley District", "address": { "@type": "PostalAddress", "addressLocality": "La Mesa", "addressRegion": "CA", "postalCode": "91941" } } }
     ]
   };
 
@@ -206,7 +274,7 @@ export default function LaMesaJunkRemovalPage() {
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [organizationSchema, serviceSchema, breadcrumbSchema, faqSchema, howToSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, howToSchema, neighborhoodSchema]
   };
 
   const nearbyLocations = [

@@ -31,7 +31,6 @@ export interface LocationServiceSchemaProps {
  */
 export function generateBreadcrumbSchema(breadcrumbs: BreadcrumbItem[]) {
   return {
-    "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": breadcrumbs.map((crumb, index) => ({
       "@type": "ListItem",
@@ -500,7 +499,6 @@ export interface FAQ {
 
 export function generateFAQSchema(faqs: FAQ[]) {
   return {
-    "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": faqs.map(faq => ({
       "@type": "Question",
@@ -708,7 +706,6 @@ export interface HowToSchemaProps {
 
 export function generateHowToSchema({ cityName, pageUrl }: HowToSchemaProps) {
   return {
-    "@context": "https://schema.org",
     "@type": "HowTo",
     "name": `How to Book Junk Removal in ${cityName}`,
     "description": `Simple 3-step process to schedule professional junk removal service in ${cityName}. Same-day and next-day pickup available.`,

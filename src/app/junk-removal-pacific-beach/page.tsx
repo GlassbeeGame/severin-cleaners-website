@@ -122,7 +122,11 @@ export default function JunkRemovalPacificBeachPage() {
     "@type": "LocalBusiness",
     "@id": "https://www.severinhauling.com/junk-removal-pacific-beach#business",
     "name": "Severin Hauling LLC",
-    "image": "https://www.severinhauling.com/og-image.jpg",
+    "image": [
+      "https://www.severinhauling.com/optimized/couchwithlogo.jpg",
+      "https://www.severinhauling.com/optimized/toiletteam.jpg",
+      "https://www.severinhauling.com/optimized/commercial.jpg"
+    ],
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],

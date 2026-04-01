@@ -60,6 +60,8 @@ export const metadata: Metadata = {
     'geo.placename': 'North Park',
     'geo.position': '32.7406;-117.1292',
     'ICBM': '32.7406, -117.1292',
+    'article:published_time': '2024-11-01T08:00:00-07:00',
+    'article:modified_time': '2026-03-28T08:00:00-07:00',
   },
 };
 
@@ -130,7 +132,11 @@ export default function JunkRemovalNorthParkPage() {
     "@type": "LocalBusiness",
     "@id": "https://www.severinhauling.com/junk-removal-north-park#business",
     "name": "Severin Hauling LLC",
-    "image": "https://www.severinhauling.com/og-image.jpg",
+    "image": [
+      "https://www.severinhauling.com/optimized/couchwithlogo.jpg",
+      "https://www.severinhauling.com/optimized/toiletteam.jpg",
+      "https://www.severinhauling.com/optimized/commercial.jpg"
+    ],
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
@@ -197,14 +203,30 @@ export default function JunkRemovalNorthParkPage() {
         }
       ]
     },
-    "areaServed": {
-      "@type": "City",
-      "name": "North Park",
-      "containedInPlace": {
-        "@type": "State",
-        "name": "California"
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "North Park",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "California"
+        }
+      },
+      {
+        "@type": "PostalCode",
+        "postalCode": "92104",
+        "addressLocality": "North Park",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+      },
+      {
+        "@type": "PostalCode",
+        "postalCode": "92116",
+        "addressLocality": "North Park",
+        "addressRegion": "CA",
+        "addressCountry": "US"
       }
-    },
+    ],
     "openingHours": "Mo-Su 00:00-23:59",
     "aggregateRating": generateAggregateRatingSchema(),
     "sameAs": [

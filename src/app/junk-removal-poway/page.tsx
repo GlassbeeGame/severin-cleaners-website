@@ -122,7 +122,11 @@ export default function JunkRemovalPowayPage() {
     "@type": "LocalBusiness",
     "@id": "https://www.severinhauling.com/junk-removal-poway#business",
     "name": "Severin Hauling LLC",
-    "image": "https://www.severinhauling.com/og-image.jpg",
+    "image": [
+      "https://www.severinhauling.com/optimized/couchwithlogo.jpg",
+      "https://www.severinhauling.com/optimized/toiletteam.jpg",
+      "https://www.severinhauling.com/optimized/commercial.jpg"
+    ],
     "telephone": "+1-619-750-0114",
     "priceRange": "$69-$495",
     "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "Zelle", "Cash App"],
@@ -141,6 +145,54 @@ export default function JunkRemovalPowayPage() {
       "longitude": -117.0231
     },
     "url": "https://www.severinhauling.com/junk-removal-poway",
+    "knowsAbout": [
+      "Ranch and Equestrian Property Access and Cleanouts",
+      "4S Ranch HOA Community Standards and Large Estate Removals",
+      "Stone Ridge and Bridlewood Premium Property Services",
+      "Blue Sky Reserve Fire Defensible Space Debris Removal",
+      "Poway Business Park Commercial Property Services",
+      "Old Poway Village Heritage Property Considerations",
+      "Long Private Driveway and Gated Property Coordination",
+      "Inland North County Summer Heat and Rural Access Planning"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Poway Junk Removal Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Ranch and Equestrian Property Cleanouts",
+            "description": "Full-service cleanouts for multi-acre ranch estates along Espola Road and Garden Road, including barn clearing, tack removal, fencing materials, and farm equipment disposal with gate code and feeding schedule coordination"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "4S Ranch and HOA Community Junk Removal",
+            "description": "Residential junk removal for 4S Ranch, Stone Ridge, and Bridlewood HOA communities with compliance documentation available for property managers and homeowners associations"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Poway Business Park Commercial Cleanouts",
+            "description": "Office and warehouse junk removal in Poway Business Park with after-hours scheduling, volume discounts, and certificates of insurance for commercial property managers"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Large Estate and Multi-Acre Property Clearances",
+            "description": "Complete estate cleanouts for large Poway properties in the 92064 and 92074 zip codes, handling accumulated household goods, outdoor equipment, and multi-generational property transitions"
+          }
+        }
+      ]
+    },
     "areaServed": [
       {
         "@type": "City",
@@ -173,6 +225,25 @@ export default function JunkRemovalPowayPage() {
     ]
   };
 
+  const neighborhoodSchema = {
+    "@type": "ItemList",
+    "name": "Poway CA Neighborhoods Served by Severin Hauling",
+    "description": "Complete junk removal coverage throughout all Poway neighborhoods and communities in the 92064 and 92074 zip codes",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "item": { "@type": "Place", "name": "Old Poway Village", "address": { "@type": "PostalAddress", "addressLocality": "Poway", "addressRegion": "CA", "postalCode": "92064" } } },
+      { "@type": "ListItem", "position": 2, "item": { "@type": "Place", "name": "4S Ranch", "address": { "@type": "PostalAddress", "addressLocality": "San Diego", "addressRegion": "CA", "postalCode": "92127" } } },
+      { "@type": "ListItem", "position": 3, "item": { "@type": "Place", "name": "Stone Ridge", "address": { "@type": "PostalAddress", "addressLocality": "Poway", "addressRegion": "CA", "postalCode": "92064" } } },
+      { "@type": "ListItem", "position": 4, "item": { "@type": "Place", "name": "Bridlewood", "address": { "@type": "PostalAddress", "addressLocality": "Poway", "addressRegion": "CA", "postalCode": "92064" } } },
+      { "@type": "ListItem", "position": 5, "item": { "@type": "Place", "name": "Green Valley", "address": { "@type": "PostalAddress", "addressLocality": "Poway", "addressRegion": "CA", "postalCode": "92064" } } },
+      { "@type": "ListItem", "position": 6, "item": { "@type": "Place", "name": "Twin Peaks", "address": { "@type": "PostalAddress", "addressLocality": "Poway", "addressRegion": "CA", "postalCode": "92064" } } },
+      { "@type": "ListItem", "position": 7, "item": { "@type": "Place", "name": "Garden Road Area", "address": { "@type": "PostalAddress", "addressLocality": "Poway", "addressRegion": "CA", "postalCode": "92064" } } },
+      { "@type": "ListItem", "position": 8, "item": { "@type": "Place", "name": "Poway Business Park", "address": { "@type": "PostalAddress", "addressLocality": "Poway", "addressRegion": "CA", "postalCode": "92064" } } },
+      { "@type": "ListItem", "position": 9, "item": { "@type": "Place", "name": "Lake Poway Area", "address": { "@type": "PostalAddress", "addressLocality": "Poway", "addressRegion": "CA", "postalCode": "92064" } } },
+      { "@type": "ListItem", "position": 10, "item": { "@type": "Place", "name": "Espola Road Corridor", "address": { "@type": "PostalAddress", "addressLocality": "Poway", "addressRegion": "CA", "postalCode": "92064" } } },
+      { "@type": "ListItem", "position": 11, "item": { "@type": "Place", "name": "Sabre Springs", "address": { "@type": "PostalAddress", "addressLocality": "San Diego", "addressRegion": "CA", "postalCode": "92128" } } }
+    ]
+  };
+
   const howToSchema = generateHowToSchema({
     cityName: "Poway",
     pageUrl: "https://www.severinhauling.com/junk-removal-poway"
@@ -180,7 +251,7 @@ export default function JunkRemovalPowayPage() {
 
   const combinedSchema = {
     "@context": "https://schema.org",
-    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, howToSchema]
+    "@graph": [localBusinessSchema, serviceSchema, breadcrumbSchema, faqSchema, howToSchema, neighborhoodSchema]
   };
 
   const nearbyLocations = [
