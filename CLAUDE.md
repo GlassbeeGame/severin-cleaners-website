@@ -325,6 +325,34 @@ Full status: `severin-cleaners-vault/reference/implementation-status.md`
 4. Continue internal linking Phase 2 to strengthen location pages
 5. Or pick up batch migration work (Batch 2: Urban Core)
 
+### Session 2026-04-23
+**What was done:**
+- Diagnosed root cause of couch removal page dropping out of top 100 and furniture disposal page dropping 36 positions (SEMrush report week of April 16-22, 2026)
+- Added 3 missing geo meta tags to `couch-removal-san-diego` (`geo.placename`, `geo.position`, `ICBM`) — primary cause of collapse vs furniture page which still had all 4
+- Consolidated two couch/sofa list items on `furniture-disposal-san-diego` "What We Remove" section into one, reducing keyword cannibalization signal (Google was routing "couch disposal san diego" to the furniture page, not the dedicated couch page)
+- Added 9 targeted content freshness sentences across both pages (C1-C6 on couch page, F1-F3 on furniture page) — one sentence per section, San Diego-specific operational detail, written through `seo-content` + `brand-voice` skill workflow with Google Quality Standards as cornerstone evaluation framework
+- Created `severin-cleaners-vault/architecture/google-quality-standards.md` — comprehensive research doc covering Helpful Content System, E-E-A-T, AI Content Policy, Core Updates 2024, Local SEO factors, Schema, CWV, Freshness, Cannibalization, Spam Policies. Referenced in both CLAUDE.md files.
+- Added mandatory skills-before-writing rule to both CLAUDE.md files: no publicly-facing content without running applicable skills first
+- Removed all em dashes (replaced with periods/commas) and all emojis from both service pages — h3 headings, hero subtitle, CTA buttons, FAQ answers, all body copy
+- All changes pushed to GitHub (commit cbb0ad3 + e255551), Vercel deployed
+
+**Decisions made:**
+- `localBusinessSchema.geo` coordinates (La Mesa: 32.7736, -117.0228) correctly represent the physical office and should NOT be changed on service pages — the "never use La Mesa" rule in CLAUDE.md applies to meta geo tags only, not JSON-LD schema
+- Content freshness additions: one sentence per section max, spaced months apart — Google detects bulk AI content sprints
+- Em dashes and emojis are banned site-wide on Severin Hauling (added to voice rules)
+- Skills are non-negotiable before any publicly-facing content: `seo-content` (with humanize) + `brand-voice` check minimum; `direct-response-copy` for CTAs
+
+**Issues identified:**
+- 26 other pages site-wide still missing full geo meta tags (only have `geo.region: 'US-CA'`) — needs batch fix
+- Pre-existing TypeScript error `Cannot find module 'next/types.js'` — node_modules issue, fix with `npm install`, unrelated to content changes
+
+**Next session should start with:**
+1. Submit both URLs in Google Search Console → URL Inspection → Request Indexing (do immediately if not done)
+2. Monitor SEMrush position tracking over 7-14 days for recovery signals on both pages
+3. Add missing geo meta tags to the other 26 pages that only have `geo.region: 'US-CA'`
+4. Fix emergency + same-day pages (missing geo tags + incorrect LocationSidebarCTA props)
+5. Get user decision on emergency page positioning (crisis niche vs broad "emergency junk removal")
+
 ---
 
 ## Open Questions
