@@ -97,7 +97,7 @@ const furnitureFAQs = [
   },
   {
     question: "Do you recycle furniture in San Diego?",
-    answer: "Yes! Our furniture recycling San Diego program prioritizes eco-friendly disposal. Usable furniture gets donated to local charities like Habitat for Humanity and San Diego Rescue Mission. Broken items are disassembled for recycling—metal frames go to scrap recyclers, wood gets repurposed, and fabric materials are sorted properly. We work with San Diego County recycling partners to minimize landfill waste. Only items that can't be donated or recycled are disposed of as a last resort, always following local regulations."
+    answer: "Yes! Our furniture recycling San Diego program prioritizes eco-friendly disposal. Usable furniture gets donated to local charities like Habitat for Humanity and San Diego Rescue Mission. Broken items are disassembled for recycling: metal frames go to scrap recyclers, wood gets repurposed, and fabric materials are sorted properly. We work with San Diego County recycling partners to minimize landfill waste. Only items that can't be donated or recycled are disposed of as a last resort, always following local regulations."
   },
   {
     question: "Do you offer same-day furniture disposal?",
@@ -113,7 +113,7 @@ const furnitureFAQs = [
   },
   {
     question: "What's the cheapest way to dispose of furniture in San Diego?",
-    answer: "The cheapest option depends on your situation. The City of San Diego's free bulky item pickup is technically free but requires you to move furniture to the curb yourself and wait 1-2 weeks. Donation to charities like Habitat for Humanity is free if your furniture is in good shape, but pickup takes 3-7 days to schedule. Taking it to Miramar Landfill yourself costs $40-60 in dump fees plus truck rental ($75-150). Our professional furniture removal San Diego service starts at $69 with same-day availability—we handle all the work so you don't risk injury or spend your entire day. When you factor in your time, physical effort, and convenience, professional furniture disposal San Diego service provides the best overall value for most people."
+    answer: "The cheapest option depends on your situation. The City of San Diego's free bulky item pickup is technically free but requires you to move furniture to the curb yourself and wait 1-2 weeks. Donation to charities like Habitat for Humanity is free if your furniture is in good shape, but pickup takes 3-7 days to schedule. Taking it to Miramar Landfill yourself costs $40-60 in dump fees plus truck rental ($75-150). Our professional furniture removal San Diego service starts at $69 with same-day availability. We handle all the work so you don't risk injury or spend your entire day. When you factor in your time, physical effort, and convenience, professional furniture disposal San Diego service provides the best overall value for most people."
   }
 ];
 
@@ -415,7 +415,7 @@ export default function FurnitureDisposalPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">We Do All the Work</h3>
                 <p className="text-gray-600">
-                  Don't lift a finger. Our team handles everything—from your upstairs bedroom to the curb and beyond.
+                  Don't lift a finger. Our team handles everything, from your upstairs bedroom to the curb and beyond.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-lg text-center">
@@ -446,7 +446,7 @@ export default function FurnitureDisposalPage() {
 
                   <div className="prose prose-lg max-w-none">
                     <p className="text-lg mb-4">
-                      When you need to get rid of old furniture in San Diego, you want it done right. Our furniture disposal San Diego service combines fast removal with eco-friendly practices—recycling and donating whenever possible instead of sending everything to the landfill. Bedroom sets, dining tables, dressers, armoires — the pieces people genuinely cannot carry down a flight of stairs without a crew — are what we haul out most.
+                      When you need to get rid of old furniture in San Diego, you want it done right. Our furniture disposal San Diego service combines fast removal with eco-friendly practices, recycling and donating whenever possible instead of sending everything to the landfill. Bedroom sets, dining tables, dressers, and armoires are what we haul out most. The pieces people genuinely cannot carry down a flight of stairs without a crew.
                     </p>
 
                     <p className="text-lg mb-6">
@@ -463,7 +463,7 @@ export default function FurnitureDisposalPage() {
                       <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg">
                         <h4 className="text-xl font-bold text-red-900 mb-4">The Reality of "Free" Disposal</h4>
                         <p className="text-gray-700 mb-3">
-                          Free city pickup requires you to move heavy furniture to the curb yourself—risking back injury and property damage. You'll wait 1-2 weeks for your scheduled pickup date.
+                          Free city pickup requires you to move heavy furniture to the curb yourself, risking back injury and property damage. You'll wait 1-2 weeks for your scheduled pickup date.
                         </p>
                         <p className="text-gray-700 mb-3">
                           If you take it to Miramar Landfill yourself, you need to rent a truck ($75-150/day), load heavy furniture, drive across town, wait in dump lines, and pay disposal fees ($40-60).
@@ -479,7 +479,7 @@ export default function FurnitureDisposalPage() {
                       <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-lg">
                         <h4 className="text-xl font-bold text-green-900 mb-4">Our Professional Service</h4>
                         <p className="text-gray-700 mb-3">
-                          Our furniture disposal San Diego service starts at $69 for small items, with upfront quotes over the phone. No hidden fees—the price we quote covers everything.
+                          Our furniture disposal San Diego service starts at $69 for small items, with upfront quotes over the phone. No hidden fees. The price we quote covers everything.
                         </p>
                         <p className="text-gray-700 mb-3">
                           We come directly to your location anywhere in San Diego County. Whether you're in a ground-floor home or a 20th-floor high-rise, our team handles all the heavy lifting and protects your walls and floors.
@@ -581,7 +581,7 @@ export default function FurnitureDisposalPage() {
                         <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl mb-4">3</div>
                         <h4 className="font-bold text-lg mb-2">Done!</h4>
                         <p className="text-gray-700 text-sm">
-                          We dispose of your furniture properly according to local regulations. You're done—no truck rental, no heavy lifting.
+                          We dispose of your furniture properly according to local regulations. You're done. No truck rental, no heavy lifting.
                         </p>
                       </div>
                     </div>
@@ -590,7 +590,7 @@ export default function FurnitureDisposalPage() {
 
                     <h3 className="text-2xl font-semibold mt-6 mb-3">Coffee Tables, Entertainment Centers & More</h3>
                     <p className="text-lg mb-6">
-                      Coffee tables, entertainment centers, bookshelves, TV stands, accent chairs—these are furniture disposal staples. Too big for trash pickup, too heavy to move alone. We get them out fast from <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a> to <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>. Need help with upholstered seating like sectionals or recliners? Our dedicated <a href="/couch-removal-san-diego" className="text-blue-600 hover:underline">couch removal service</a> handles those specifically.
+                      Coffee tables, entertainment centers, bookshelves, TV stands, accent chairs. These are furniture disposal staples. Too big for trash pickup, too heavy to move alone. We get them out fast from <a href="/junk-removal-rancho-santa-fe" className="text-blue-600 hover:underline">Rancho Santa Fe</a> to <a href="/junk-removal-oceanside" className="text-blue-600 hover:underline">Oceanside</a>. Need help with upholstered seating like sectionals or recliners? Our dedicated <a href="/couch-removal-san-diego" className="text-blue-600 hover:underline">couch removal service</a> handles those specifically.
                     </p>
 
                     <h3 className="text-2xl font-semibold mt-6 mb-3">Office Furniture & Desks</h3>
@@ -600,12 +600,12 @@ export default function FurnitureDisposalPage() {
 
                     <h3 className="text-2xl font-semibold mt-6 mb-3">Bedroom Furniture</h3>
                     <p className="text-lg mb-6">
-                      Old beds, broken dressers, outdated armoires—we remove all bedroom furniture throughout San Diego. Our team can disassemble bed frames, navigate narrow hallways, and protect your floors and walls during removal. Moving to a smaller place? Redecorating? We make furniture removal simple.
+                      Old beds, broken dressers, outdated armoires. We remove all bedroom furniture throughout San Diego. Our team can disassemble bed frames, navigate narrow hallways, and protect your floors and walls during removal. Moving to a smaller place? Redecorating? We make furniture removal simple.
                     </p>
 
                     <h2 className="text-3xl font-bold mt-10 mb-4">What Happens to Your Old Furniture?</h2>
                     <p className="text-lg mb-6">
-                      When you choose our furniture disposal San Diego service, you're choosing responsible disposal. Usable furniture gets donated to local charities like Habitat for Humanity and San Diego Rescue Mission. Broken items are recycled when possible—metal frames, wood components, and fabric materials all get sorted properly. Only true waste reaches the landfill as a last resort. We follow all local San Diego disposal regulations and work with recycling partners throughout the county to minimize environmental impact.
+                      When you choose our furniture disposal San Diego service, you're choosing responsible disposal. Usable furniture gets donated to local charities like Habitat for Humanity and San Diego Rescue Mission. Broken items are recycled when possible: metal frames, wood components, and fabric materials all get sorted properly. Only true waste reaches the landfill as a last resort. We follow all local San Diego disposal regulations and work with recycling partners throughout the county to minimize environmental impact.
                     </p>
 
                     {/* Local Neighborhoods Section */}
@@ -710,19 +710,19 @@ export default function FurnitureDisposalPage() {
 
                     <div className="space-y-6 mb-12">
                       <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg">
-                        <h3 className="text-2xl font-bold text-blue-900 mb-3">📦 Moving & Downsizing</h3>
+                        <h3 className="text-2xl font-bold text-blue-900 mb-3">Moving & Downsizing</h3>
                         <p className="text-gray-700 mb-3">
-                          Moving to a smaller place and the bedroom set won't fit? The dining table is too long for the new condo's kitchen? Dressers and armoires are the pieces nobody wants to deal with on move day — too heavy to carry down two flights alone, too bulky for most SUVs, and donation pickup usually takes two weeks you don't have. We take them same-day or scheduled around your move-out date.
+                          Moving to a smaller place and the bedroom set won't fit? The dining table is too long for the new condo's kitchen? Dressers and armoires are the pieces nobody wants to deal with on move day: too heavy to carry down two flights alone, too bulky for most SUVs, and donation pickup usually takes two weeks you don't have. We take them same-day or scheduled around your move-out date.
                         </p>
                         <p className="text-gray-700">
-                          <strong>Common scenarios:</strong> King bedroom set that won't fit the new apartment • Dining table too large for a condo • Dresser or armoire too heavy to move without a crew • Downsizing from a 4-bedroom home — the furniture math doesn't work • Relocating out of state and leaving bulky pieces behind • Combining households with duplicate bedroom or dining furniture
+                          <strong>Common scenarios:</strong> King bedroom set that won't fit the new apartment • Dining table too large for a condo • Dresser or armoire too heavy to move without a crew • Downsizing from a 4-bedroom home where the furniture math doesn't work • Relocating out of state and leaving bulky pieces behind • Combining households with duplicate bedroom or dining furniture
                         </p>
                       </div>
 
                       <div className="bg-purple-50 border-l-4 border-purple-500 p-6 rounded-lg">
-                        <h3 className="text-2xl font-bold text-purple-900 mb-3">🏡 Estate & Inherited Property Cleanouts</h3>
+                        <h3 className="text-2xl font-bold text-purple-900 mb-3">Estate & Inherited Property Cleanouts</h3>
                         <p className="text-gray-700 mb-3">
-                          Clearing an inherited San Diego property after losing a family member is overwhelming. You need to remove decades of furniture from a home you didn't grow up in, often while managing estate proceedings and property sales. We handle complete estate furniture removal with sensitivity and professionalism—you don't have to sort through every piece or make dozens of decisions. Point to what stays, we remove everything else. We do a steady stream of these in Del Cerro, Allied Gardens, and Rolando — '50s and '60s ranch homes where the same dining set has sat in the same room for 30 years.
+                          Clearing an inherited San Diego property after losing a family member is overwhelming. You need to remove decades of furniture from a home you didn't grow up in, often while managing estate proceedings and property sales. We handle complete estate furniture removal with sensitivity and professionalism. You don't have to sort through every piece or make dozens of decisions. Point to what stays, we remove everything else. We do a steady stream of these in Del Cerro, Allied Gardens, and Rolando. These are mostly '50s and '60s ranch homes where the same dining set has sat in the same room for 30 years.
                         </p>
                         <p className="text-gray-700">
                           <strong>Common scenarios:</strong> Estate sales preparation • Probate property clearing • Inherited homes needing quick turnaround • Preparing property for sale • Family member moved to care facility
@@ -730,7 +730,7 @@ export default function FurnitureDisposalPage() {
                       </div>
 
                       <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-lg">
-                        <h3 className="text-2xl font-bold text-green-900 mb-3">💼 Commercial Office Furniture Disposal</h3>
+                        <h3 className="text-2xl font-bold text-green-900 mb-3">Commercial Office Furniture Disposal</h3>
                         <p className="text-gray-700 mb-3">
                           Office lease ending or company downsizing? Removing desks, cubicles, conference tables, and filing cabinets from San Diego office buildings requires coordination and speed. We work around your business hours (evenings and weekends available), handle disassembly of modular furniture, and clear everything in one visit. From single-office cleanouts to entire floor removals in downtown high-rises, we minimize disruption to neighboring tenants. Most of our commercial furniture disposal calls come from Sorrento Valley, Kearny Mesa, and the buildings off Friars Road in Mission Valley.
                         </p>
@@ -740,9 +740,9 @@ export default function FurnitureDisposalPage() {
                       </div>
 
                       <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-lg">
-                        <h3 className="text-2xl font-bold text-orange-900 mb-3">🏢 Apartment & Multi-Story Furniture Removal</h3>
+                        <h3 className="text-2xl font-bold text-orange-900 mb-3">Apartment & Multi-Story Furniture Removal</h3>
                         <p className="text-gray-700 mb-3">
-                          Removing heavy furniture from San Diego apartments—especially high-rises—is a logistical challenge. Narrow hallways, small elevators, tight stairwells, and building access restrictions make DIY removal nearly impossible. Our team handles furniture extraction from any floor (we've done 20th-floor condos in downtown), navigates building requirements, protects hallways and elevators, and coordinates with property management. You avoid the back-breaking work and potential property damage.
+                          Removing heavy furniture from San Diego apartments, especially high-rises, is a logistical challenge. Narrow hallways, small elevators, tight stairwells, and building access restrictions make DIY removal nearly impossible. Our team handles furniture extraction from any floor (we've done 20th-floor condos in downtown), navigates building requirements, protects hallways and elevators, and coordinates with property management. You avoid the back-breaking work and potential property damage.
                         </p>
                         <p className="text-gray-700">
                           <strong>Common scenarios:</strong> High-rise condo furniture removal • Walk-up apartment cleanouts • Elevator scheduling logistics • Building access coordination • Protecting common areas during removal
@@ -756,7 +756,7 @@ export default function FurnitureDisposalPage() {
                     </p>
 
                     <ul className="list-disc pl-6 mb-6 space-y-2">
-                      <li><strong>Heavy & Awkward:</strong> Furniture is heavier than it looks. Dressers and dining tables can hit 150–300 lbs—and the bulk makes them nearly impossible to maneuver solo.</li>
+                      <li><strong>Heavy & Awkward:</strong> Furniture is heavier than it looks. Dressers and dining tables can hit 150-300 lbs, and the bulk makes them nearly impossible to maneuver solo.</li>
                       <li><strong>Risk of Injury:</strong> Back strains, pinched fingers, and worse. It happens more often than you'd think.</li>
                       <li><strong>Property Damage:</strong> Scratched floors, dented walls, broken railings. One wrong move can cost you.</li>
                       <li><strong>No Truck Needed:</strong> Why rent a truck and make multiple trips when we handle it all?</li>
