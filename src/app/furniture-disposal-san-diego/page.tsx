@@ -446,7 +446,7 @@ export default function FurnitureDisposalPage() {
 
                   <div className="prose prose-lg max-w-none">
                     <p className="text-lg mb-4">
-                      When you need to get rid of old furniture in San Diego, you want it done right. Our furniture disposal San Diego service combines fast removal with eco-friendly practices—recycling and donating whenever possible instead of sending everything to the landfill.
+                      When you need to get rid of old furniture in San Diego, you want it done right. Our furniture disposal San Diego service combines fast removal with eco-friendly practices—recycling and donating whenever possible instead of sending everything to the landfill. Bedroom sets, dining tables, dressers, armoires — the pieces people genuinely cannot carry down a flight of stairs without a crew — are what we haul out most.
                     </p>
 
                     <p className="text-lg mb-6">
@@ -512,8 +512,7 @@ export default function FurnitureDisposalPage() {
                       <div className="bg-white p-6 rounded-lg shadow-md">
                         <h4 className="font-bold text-xl mb-3 text-blue-600">Living Room</h4>
                         <ul className="list-disc pl-4 space-y-2 text-gray-700">
-                          <li><a href="/couch-removal-san-diego" className="text-blue-600 hover:underline">Couches & sectionals →</a></li>
-                          <li><a href="/couch-removal-san-diego" className="text-blue-600 hover:underline">Sofas & loveseats →</a></li>
+                          <li><a href="/couch-removal-san-diego" className="text-blue-600 hover:underline">Couches & Sofas (dedicated service) →</a></li>
                           <li>Coffee tables & end tables</li>
                           <li>Entertainment centers & TV stands</li>
                           <li>Bookshelves & cabinets</li>
@@ -723,7 +722,7 @@ export default function FurnitureDisposalPage() {
                       <div className="bg-purple-50 border-l-4 border-purple-500 p-6 rounded-lg">
                         <h3 className="text-2xl font-bold text-purple-900 mb-3">🏡 Estate & Inherited Property Cleanouts</h3>
                         <p className="text-gray-700 mb-3">
-                          Clearing an inherited San Diego property after losing a family member is overwhelming. You need to remove decades of furniture from a home you didn't grow up in, often while managing estate proceedings and property sales. We handle complete estate furniture removal with sensitivity and professionalism—you don't have to sort through every piece or make dozens of decisions. Point to what stays, we remove everything else.
+                          Clearing an inherited San Diego property after losing a family member is overwhelming. You need to remove decades of furniture from a home you didn't grow up in, often while managing estate proceedings and property sales. We handle complete estate furniture removal with sensitivity and professionalism—you don't have to sort through every piece or make dozens of decisions. Point to what stays, we remove everything else. We do a steady stream of these in Del Cerro, Allied Gardens, and Rolando — '50s and '60s ranch homes where the same dining set has sat in the same room for 30 years.
                         </p>
                         <p className="text-gray-700">
                           <strong>Common scenarios:</strong> Estate sales preparation • Probate property clearing • Inherited homes needing quick turnaround • Preparing property for sale • Family member moved to care facility
@@ -733,7 +732,7 @@ export default function FurnitureDisposalPage() {
                       <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-lg">
                         <h3 className="text-2xl font-bold text-green-900 mb-3">💼 Commercial Office Furniture Disposal</h3>
                         <p className="text-gray-700 mb-3">
-                          Office lease ending or company downsizing? Removing desks, cubicles, conference tables, and filing cabinets from San Diego office buildings requires coordination and speed. We work around your business hours (evenings and weekends available), handle disassembly of modular furniture, and clear everything in one visit. From single-office cleanouts to entire floor removals in downtown high-rises, we minimize disruption to neighboring tenants.
+                          Office lease ending or company downsizing? Removing desks, cubicles, conference tables, and filing cabinets from San Diego office buildings requires coordination and speed. We work around your business hours (evenings and weekends available), handle disassembly of modular furniture, and clear everything in one visit. From single-office cleanouts to entire floor removals in downtown high-rises, we minimize disruption to neighboring tenants. Most of our commercial furniture disposal calls come from Sorrento Valley, Kearny Mesa, and the buildings off Friars Road in Mission Valley.
                         </p>
                         <p className="text-gray-700">
                           <strong>Common scenarios:</strong> Lease expiration furniture removal • Company relocation • Startup closure cleanouts • Office remodeling • WeWork or co-working space exits

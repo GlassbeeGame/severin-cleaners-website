@@ -60,6 +60,9 @@ export const metadata: Metadata = {
   },
   other: {
     'geo.region': 'US-CA',
+    'geo.placename': 'San Diego',
+    'geo.position': '32.7157;-117.1611',
+    'ICBM': '32.7157, -117.1611',
   },
 };
 
@@ -416,7 +419,7 @@ export default function CouchRemovalPage() {
                   </div>
 
                   <p className="text-xl text-gray-600 mb-4 leading-relaxed">
-                    Need couch removal in San Diego? Severin Hauling specializes in upholstered furniture disposal throughout San Diego County. We handle couches, sectionals, loveseats, recliners, and all upholstered seating. Booking a pickup is easy and stress free: call, get a free no-obligation estimate, and we handle the rest.
+                    Need couch removal in San Diego? Severin Hauling specializes in upholstered furniture disposal throughout San Diego County. We handle couches, sectionals, loveseats, recliners, and all upholstered seating. Booking a pickup is easy and stress free: call, get a free no-obligation estimate, and we handle the rest. We pick up couches seven days a week — from Pacific Beach (92109) and Hillcrest down to Chula Vista and out to El Cajon.
                   </p>
                   <p className="text-xl text-gray-600 mb-6 leading-relaxed">
                     <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">Same-day service</a> starts at just $69 for small sofas and loveseats, with standard couches from $100 and sectionals from $129. Once we give you a price, it covers everything—all labor, hauling, and responsible disposal or recycling. <strong>Need to remove other furniture types like beds, dressers, or desks?</strong> Check out our comprehensive <a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline font-semibold">furniture disposal service</a>.
@@ -552,7 +555,7 @@ export default function CouchRemovalPage() {
 
                   <h2 className="text-3xl font-bold text-gray-900 mb-4">We Handle Tricky Situations</h2>
                   <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                    San Diego presents unique challenges for furniture removal, and our experienced team navigates them all. Tight parking in downtown areas, heavy beach traffic in coastal neighborhoods, narrow driveways in older communities—we've handled far worse. Our drivers know San Diego streets intimately and plan efficient routes around traffic patterns, parking restrictions, and neighborhood access limitations. Whether removing a sectional from a Pacific Beach apartment with limited street parking or hauling a sleeper sofa from a hillside home in Mission Hills, we make it work.
+                    San Diego presents unique challenges for furniture removal, and our experienced team navigates them all. Tight parking in downtown areas, heavy beach traffic in coastal neighborhoods, narrow driveways in older communities—we've handled far worse. Our drivers know San Diego streets intimately and plan efficient routes around traffic patterns, parking restrictions, and neighborhood access limitations. Whether removing a sectional from a Pacific Beach apartment with limited street parking or hauling a sleeper sofa from a hillside home in Mission Hills, we make it work. The freight elevators in downtown high-rises on 5th and 6th Ave have reserved service windows — we call building management the day before to lock in elevator access.
                   </p>
 
                   <div className="clear-both"></div>
@@ -568,7 +571,7 @@ export default function CouchRemovalPage() {
                     <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg">
                       <h3 className="text-2xl font-bold text-blue-900 mb-3">🏠 Moving Deadlines & Sofa Problems</h3>
                       <p className="text-gray-700 mb-3">
-                        Your lease ends Friday and the new place is a one-bedroom in North Park — no room for the sectional. Or you bought a condo downtown and the sleeper sofa is 9 feet long and won't turn the corner on the stairwell. Moving with a couch that doesn't fit the new space is its own headache: too big to donate easily, too heavy to move yourself, and movers won't take it if it doesn't fit. We handle that pickup on your schedule.
+                        Your lease ends Friday and the new place is a one-bedroom in North Park — no room for the sectional. Or you bought a condo downtown and the sleeper sofa is 9 feet long and won't turn the corner on the stairwell. Moving with a couch that doesn't fit the new space is its own headache: too big to donate easily, too heavy to move yourself, and movers won't take it if it doesn't fit. We handle that pickup on your schedule. We get a lot of calls on lease-end days — Saturday mornings in particular — so the earlier you book, the better.
                       </p>
                       <p className="text-gray-700">
                         <strong>Common scenarios:</strong> Sectional too large for new apartment • Sleeper sofa that won't fit a studio • Old couch that doesn't work in the new layout • Military PCS move with no room for bulky seating • Downsizing from a house to a condo — two couches become zero • Estate cleanout with inherited sofas nobody wants
@@ -578,7 +581,7 @@ export default function CouchRemovalPage() {
                     <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg">
                       <h3 className="text-2xl font-bold text-red-900 mb-3">🛋️ Damaged Upholstery & Sofa Emergencies</h3>
                       <p className="text-gray-700 mb-3">
-                        Bed bugs in the cushions. Mold growing inside a sofa after a roof leak. A sleeper sofa frame that collapsed and is now a pile of metal and foam in the middle of your living room. These aren't just cosmetic problems — they're health hazards. San Diego's coastal humidity makes mold spread fast once it gets into upholstery. A bug-infested couch can't go to donation, can't be stored, and needs to leave today.
+                        Bed bugs in the cushions. Mold growing inside a sofa after a roof leak. A sleeper sofa frame that collapsed and is now a pile of metal and foam in the middle of your living room. These aren't just cosmetic problems — they're health hazards. San Diego's coastal humidity makes mold spread fast once it gets into upholstery. A bug-infested couch can't go to donation, can't be stored, and needs to leave today. We see this most in older rental buildings in City Heights, Logan Heights, and East Village — areas where ground-floor units collect moisture and it gets into upholstery over time.
                       </p>
                       <p className="text-gray-700">
                         <strong>Common scenarios:</strong> Bed bug infestation in upholstered seating • Mold in cushions from water damage or humidity • Collapsed or broken sofa frames • Springs punching through seats — injury risk • Pet-destroyed sofas beyond repair • Smoke-damaged upholstery after kitchen fires
@@ -588,7 +591,7 @@ export default function CouchRemovalPage() {
                     <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-lg">
                       <h3 className="text-2xl font-bold text-green-900 mb-3">🏘️ Rental Property & Tenant Turnovers</h3>
                       <p className="text-gray-700 mb-3">
-                        The tenant moved out of your Mission Valley rental and left behind a sectional, loveseat, and recliner. You've got new renters moving in next week and need the unit show-ready. Or you manage a La Jolla vacation rental and guests abandoned a stained couch. Property managers across San Diego deal with this constantly—tenants leave furniture behind, and landlords need it gone fast to avoid lost rental income.
+                        The tenant moved out of your Mission Valley rental and left behind a sectional, loveseat, and recliner. You've got new renters moving in next week and need the unit show-ready. Or you manage a La Jolla vacation rental and guests abandoned a stained couch. Property managers across San Diego deal with this constantly—tenants leave furniture behind, and landlords need it gone fast to avoid lost rental income. City Heights, National City, and Linda Vista are where we get these calls most — high-density rental areas where tenants move out without arranging furniture pickup.
                       </p>
                       <p className="text-gray-700">
                         <strong>Common scenarios:</strong> Tenant-abandoned furniture after evictions • Vacation rental guest furniture disposal • Student housing turnovers near SDSU and UCSD • Airbnb furniture replacement cycles • Corporate housing furniture swaps • Multi-family property bulk furniture cleanouts
@@ -598,7 +601,7 @@ export default function CouchRemovalPage() {
                     <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-lg">
                       <h3 className="text-2xl font-bold text-orange-900 mb-3">🚚 New Furniture Delivery Conflicts</h3>
                       <p className="text-gray-700 mb-3">
-                        Your new sectional from Mor Furniture delivers tomorrow at 10 AM and the old couch is still taking up the entire Hillcrest living room. The delivery crew won't haul away your old furniture—they just drop off the new stuff. You need the space cleared before they arrive or the delivery gets rescheduled (and you wait another 3 weeks). Or you bought a floor model at Ashley Furniture and need same-day old couch removal to make room.
+                        Your new sectional from Mor Furniture delivers tomorrow at 10 AM and the old couch is still taking up the entire Hillcrest living room. The delivery crew won't haul away your old furniture—they just drop off the new stuff. You need the space cleared before they arrive or the delivery gets rescheduled (and you wait another 3 weeks). Or you bought a floor model at Ashley Furniture and need same-day old couch removal to make room. Jerome's is another big one around here — give us your delivery window the night before and we'll clear the space before they arrive.
                       </p>
                       <p className="text-gray-700">
                         <strong>Common scenarios:</strong> New furniture delivery tomorrow • Floor model purchases requiring immediate pickup • Living room remodels with contractor start dates • Home staging before open houses this weekend • Interior design projects with tight installation schedules • Showroom furniture swaps for model homes

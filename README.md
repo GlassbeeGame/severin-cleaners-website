@@ -1,97 +1,83 @@
-# Severin Cleaners Website
+# Severin Hauling — Website Project
 
-## Development Commands
-
-### Normal Development
-```bash
-npm run dev
-```
-Starts the dev server on http://localhost:3000
-
-### Clean Development (Recommended when site won't load)
-```bash
-npm run dev:clean
-```
-This command:
-- Kills any zombie Next.js processes
-- Clears corrupted cache files
-- Starts fresh dev server
-
-### Full Cache Clear
-```bash
-npm run clean
-```
-Completely removes the `.next` directory for a fresh start.
+> This Obsidian vault is the single source of truth for the Severin Hauling website. All project decisions, SEO standards, page blueprints, and implementation status live here.
 
 ---
 
-## Troubleshooting "Site Not Loading"
+## Quick Links
 
-If the site stops loading or shows errors:
+### Architecture (How to Build Pages)
+- [[architecture/seo-standards]] — SEO rules: metadata, schema, geo tags, internal linking, pre-publishing checklist
+- [[architecture/location-pages]] — Location page blueprint + step-by-step prompt
+- [[architecture/service-pages]] — Service page blueprint + step-by-step prompt
+- [[architecture/blog-posts]] — Blog post blueprint + step-by-step prompt
+- [[architecture/content-strategy]] — Voice rules, keyword density, quality checklist, skill workflows
+- [[architecture/nap-strategy]] — NAP consistency, SAB classification, citation checklist
+- [[architecture/technical-specs]] — Tech stack, deployment, Core Web Vitals, config files
 
-1. **Quick Fix (90% of cases):**
-   ```bash
-   npm run dev:clean
-   ```
+### Brand
+- [[brand/voice-profile]] — Content voice, local writing style, banned words, CTA patterns
 
-2. **Nuclear Option (if above doesn't work):**
-   ```bash
-   pkill -f "next dev"
-   npm run clean
-   npm run dev
-   ```
+### Reference
+- [[reference/page-inventory]] — All 55 pages mapped by type, URL, and demographic tier
+- [[reference/component-inventory]] — All 26 React components with page type usage
+- [[reference/implementation-status]] — Batch migration, internal linking, schema rollout progress
 
-3. **Check for port conflicts:**
-   ```bash
-   lsof -ti:3000
-   ```
+### Historical Documentation
+- [[docs/audits/locations/]] — Per-city SEO audit reports
+- [[docs/audits/site-wide/]] — Site-wide audit reports and diagnostics
+- [[docs/audits/performance/]] — PageSpeed and Core Web Vitals reports
+- [[docs/audits/services/]] — Service page audit reports
+- [[docs/strategy/]] — Internal linking and NAP strategy docs
+- [[docs/templates/]] — Original page blueprints (superseded by architecture/ files)
 
-### Common Issues
-
-**"SyntaxError: Unexpected end of JSON input"**
-- This is a cache corruption issue
-- Run `npm run dev:clean` to fix
-- Not harmful but indicates cache needs clearing
-
-**Port 3000 already in use**
-- Old dev server didn't terminate properly
-- Run: `pkill -f "next dev"`
-- Then restart with `npm run dev`
-
-**Site loads blank/404s**
-- Webpack compilation might have failed
-- Check terminal for compilation errors
-- Try `npm run dev:clean`
+### Prompts
+- `prompts/` — Saved prompts from work sessions (add after each major task)
 
 ---
 
-## Tech Stack
+## Project Status
 
-- **Framework:** Next.js 15.5.3
-- **React:** 19.1.0
-- **Styling:** Tailwind CSS 3.4
-- **TypeScript:** 5.x
+| Work Stream | Status | Details |
+|-------------|--------|---------|
+| Site live and ranking | Active | severinhauling.com deployed on Vercel |
+| Batch migration (location pages) | In progress | 6 batches, partially started |
+| Internal linking (Phase 2) | In progress | 16 location pages need service cross-links |
+| Schema rollout | In progress | ~39 pages need schema added/updated |
+| Performance optimization | In progress | Per-page CWV optimization ongoing |
 
-## Project Structure
+Full details: [[reference/implementation-status]]
 
+---
+
+## Page Type Quick Reference
+
+**Before working on any page, identify its type and read the correct blueprint:**
+
+| If the URL looks like... | It's a... | Read this |
+|--------------------------|-----------|-----------|
+| `/junk-removal-[city]` | Location page | [[architecture/location-pages]] |
+| `/[service]-san-diego` | Service page | [[architecture/service-pages]] |
+| `/blog/[slug]` | Blog post | [[architecture/blog-posts]] |
+| Everything else | Utility page | [[architecture/technical-specs]] |
+
+---
+
+## Project Details
+
+- **Business**: Severin Hauling LLC
+- **Service**: Junk removal and hauling (San Diego County)
+- **Framework**: Next.js 15.5.3 (App Router) + Tailwind CSS 3.4
+- **Hosting**: Vercel (auto-deploys via GitHub)
+- **Domain**: severinhauling.com
+- **Phone**: (619) 750-0114
+
+---
+
+## Development
+
+```bash
+npm run dev          # Start dev server
+npm run dev:clean    # Clear cache + restart (use when site won't load)
+npm run build        # Production build
 ```
-src/
-├── app/                    # Next.js app router pages
-│   ├── page.tsx           # Homepage
-│   ├── layout.tsx         # Root layout
-│   ├── globals.css        # Global styles
-│   └── [service-pages]/   # Individual service pages
-├── components/            # Reusable React components
-│   ├── Header.tsx
-│   ├── Footer.tsx
-│   └── ...
-└── ...
-```
-
-## Performance Optimizations
-
-The `next.config.ts` includes:
-- Image optimization (WebP/AVIF)
-- Memory leak prevention (`onDemandEntries`)
-- Compression enabled
-- Optimized build settings
