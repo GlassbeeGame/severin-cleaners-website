@@ -10,8 +10,8 @@ import TrustSignalsSection from "@/components/TrustSignalsSection";
 import { generateLocationServiceSchema, generateBreadcrumbSchema, generateAggregateRatingSchema, generateHowToSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: 'Clairemont Junk Removal | Central San Diego Specialists | (619) 750-0114',
-  description: 'Clairemont family home junk removal Bay Park to Bay Ho. Garage cleanouts, pool equipment, 1950s-era homes. (619) 750-0114',
+  title: 'Clairemont Junk Removal | Same-Day Service | (619) 750-0114',
+  description: 'Junk removal in Clairemont, CA. Garage cleanouts, commercial hauling, and estate transitions. Same-day pickup. Licensed and insured. Call (619) 750-0114.',
   keywords: [
     'Clairemont junk removal',
     'junk hauling Clairemont',
@@ -21,8 +21,8 @@ export const metadata: Metadata = {
     'garage cleanouts'
   ],
   openGraph: {
-    title: 'Clairemont Junk Removal | Family Home & Garage Cleanout Specialists | Same-Day Service',
-    description: 'Professional Clairemont junk removal for family homes, garage cleanouts, Clairemont Village, Balboa Ave corridor. Residential specialists with eco-friendly service. Call (619) 750-0114.',
+    title: 'Clairemont Junk Removal | Garage Cleanouts & Commercial Hauling | Same-Day Service',
+    description: 'Professional Clairemont junk removal for family homes and businesses. Garage cleanouts, estate transitions, commercial hauling on Balboa Avenue. Call (619) 750-0114.',
     url: 'https://www.severinhauling.com/junk-removal-clairemont',
     siteName: 'Severin Hauling',
     images: [{
@@ -36,8 +36,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Clairemont Junk Removal | Family Home & Garage Cleanout Specialists | Same-Day Service',
-    description: 'Professional Clairemont junk removal for family homes, garage cleanouts, Clairemont Village, Balboa Ave corridor. Residential specialists with eco-friendly service. Call (619) 750-0114.',
+    title: 'Clairemont Junk Removal | Garage Cleanouts & Commercial Hauling | Same-Day Service',
+    description: 'Professional Clairemont junk removal for family homes and businesses. Garage cleanouts, estate transitions, commercial hauling on Balboa Avenue. Call (619) 750-0114.',
     images: ['https://www.severinhauling.com/og-image.jpg'],
   },
   alternates: {
@@ -65,23 +65,35 @@ export const metadata: Metadata = {
 const clairemontFAQs = [
   {
     question: "How much does junk removal cost in Clairemont?",
-    answer: "Our Clairemont junk removal pricing is transparent and volume-based: small items start at $69, standard furniture $100, quarter-load $249, half-load $349, three-quarter load $429, and full-load $495. All prices include labor, hauling, disposal, and eco-friendly recycling with no hidden fees for hillside access or downtown parking."
+    answer: "Our Clairemont junk removal pricing is volume-based and transparent: small items start at $69, standard furniture $100, quarter-load $249, half-load $349, three-quarter load $429, and full-load $495. All prices include labor, hauling, and disposal with no hidden fees for hillside access or parking."
   },
   {
     question: "Do you provide same-day junk hauling in Clairemont Mesa?",
-    answer: "Absolutely! We offer same-day junk pickup Clairemont Mesa service for urgent residential and commercial needs. Our local team understands Clairemont families' schedules and can respond quickly for emergency cleanouts, moving deadlines, or unexpected situations throughout North Clairemont, South Clairemont, and Clairemont Mesa East."
+    answer: "Yes. We offer same-day junk pickup in Clairemont Mesa for residential and commercial needs. Call before 2 PM and we can often dispatch the same day. Our team serves North Clairemont, South Clairemont, Bay Ho, and Clairemont Mesa East and West."
   },
   {
     question: "Can you handle garage and attic cleanouts in Clairemont?",
-    answer: "Yes! Our trash removal Clairemont service specializes in garage cleanouts, attic clearing, and storage area organization. We handle everything from accumulated household items to old furniture, appliances, and boxes. Our team helps Clairemont families reclaim valuable space with efficient, respectful service."
+    answer: "Yes. We handle full garage cleanouts, attic clearing, and storage room hauls throughout Clairemont. We remove old furniture, appliances, boxes, and accumulated household items from homes in Bay Ho, North Clairemont, and the Balboa Avenue corridor."
   },
   {
     question: "Do you recycle or donate items collected in Clairemont?",
-    answer: "Absolutely. Our Clairemont junk removal approach prioritizes environmental responsibility through comprehensive recycling, donation programs, and disposal methods that comply with all local regulations."
+    answer: "Yes. We recycle and donate whenever possible. Usable furniture and household items go to local donation centers. Recyclable materials go to certified facilities. Only true waste that cannot be diverted goes to landfill."
   },
   {
     question: "Is commercial junk removal available for Clairemont businesses?",
-    answer: "Yes, we provide comprehensive commercial junk hauling Clairemont for local businesses along Balboa Avenue and throughout Clairemont Mesa. Our services include office cleanouts, retail space clearing, restaurant equipment removal, and small business junk hauling. We offer flexible scheduling and competitive commercial rates to support Clairemont's business community."
+    answer: "Yes. We provide commercial junk hauling for Clairemont businesses along Balboa Avenue and throughout Clairemont Mesa. We remove office furniture, retail fixtures, restaurant equipment, and general commercial debris with flexible scheduling to minimize disruption."
+  },
+  {
+    question: "What Clairemont neighborhoods do you serve?",
+    answer: "We serve the entire 92117 zip code: North Clairemont, South Clairemont, Clairemont Mesa East, Clairemont Mesa West, Bay Ho, Clairemont Village, Tecolote Canyon area, Mount Acadia, Linda Vista border, and the full Balboa Avenue corridor."
+  },
+  {
+    question: "Do you remove appliances and furniture from Clairemont homes?",
+    answer: "Yes. We haul refrigerators, washing machines, dryers, dishwashers, and other large appliances, as well as sofas, mattresses, beds, dining sets, and any other furniture. We handle all the heavy lifting from inside the home to our truck."
+  },
+  {
+    question: "Can you help with estate cleanouts in Clairemont?",
+    answer: "Yes. We regularly handle estate cleanouts for Clairemont families clearing mid-century homes after a transition or loss. We work at your pace, remove everything from furniture to decades of accumulated items, and leave the space broom-clean. Contact us for a walk-through and quote."
   }
 ];
 
@@ -97,7 +109,7 @@ export default function JunkremovalclairemontPage() {
   const serviceSchema = {
     "@type": "Service",
     "name": "Junk Removal in Clairemont",
-    "description": "Professional Clairemont junk removal for family homes, garage cleanouts, Clairemont Village, Balboa Ave corridor. Residential specialists with eco-friendly service. Call (619) 750-0114.",
+    "description": "Professional Clairemont junk removal for family homes and businesses. Garage cleanouts, estate transitions, commercial hauling on Balboa Avenue. Call (619) 750-0114.",
     "url": "https://www.severinhauling.com/junk-removal-clairemont",
     "serviceType": "Junk Removal",
     "provider": {
@@ -132,11 +144,11 @@ export default function JunkremovalclairemontPage() {
       "Mid-Century Home Junk Removal (1950s-1970s Architecture)",
       "Attached Garage Cleanouts for Multi-Generational Families",
       "North Clairemont Hillside Access and Canyon-Adjacent Properties",
-      "Balboa Avenue Corridor Commercial Property Access",
-      "Mount Acadia Steep Driveway Navigation",
+      "Balboa Avenue Corridor Commercial Property Hauling",
+      "Mount Acadia Steep Driveway Access",
       "Tecolote Canyon Street Grid Interruptions",
       "Bay Ho Hillside Estate Cleanouts",
-      "Clairemont Mesa Family Home Organization and Decluttering"
+      "Bay Ho and South Clairemont Appliance and Furniture Removal"
     ],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
@@ -155,7 +167,7 @@ export default function JunkremovalclairemontPage() {
           "itemOffered": {
             "@type": "Service",
             "name": "North Clairemont Hillside and Canyon Property Access",
-            "description": "Expert navigation of Mount Acadia hillside driveways, Tecolote Canyon street interruptions, and Bay Ho elevation challenges"
+            "description": "Expert access to Mount Acadia hillside driveways, Tecolote Canyon street interruptions, and Bay Ho elevation challenges"
           }
         },
         {
@@ -317,15 +329,15 @@ export default function JunkremovalclairemontPage() {
         <Header />
         <main>
           {/* Hero Section */}
-          <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
+          <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white py-20">
             <div className="container mx-auto px-4">
               <div className="max-w-4xl mx-auto text-center">
                 <div className="inline-block bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold mb-6">
-                  Family-Friendly Community with Convenient Balboa Avenue Corridor Access
+                  #1 Clairemont Junk Removal Service
                 </div>
 
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                  Clairemont Junk Removal | Central San Diego Specialists
+                  Clairemont Junk Removal
                 </h1>
 
                 <p className="text-xl md:text-2xl mb-8 text-blue-100">
@@ -333,26 +345,7 @@ export default function JunkremovalclairemontPage() {
                 </p>
 
                 <p className="text-lg mb-8">
-                  ⭐⭐⭐⭐⭐ 5.0 Rating • Garage Cleanout Experts • Licensed & Insured
-                </p>
-
-                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
-                  <a
-                    href="tel:6197500114"
-                    className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors"
-                  >
-                    Call (619) 750-0114
-                  </a>
-                  <a
-                    href="/contact"
-                    className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-bold transition-colors"
-                  >
-                    Get Free Quote
-                  </a>
-                </div>
-
-                <p className="text-lg">
-                  Same-Day Service Available • Residential Family Specialists • Eco-Friendly Disposal
+                  ✓ Same-Day Service Available • ✓ Licensed &amp; Insured • ✓ Free Estimates
                 </p>
               </div>
             </div>
@@ -370,21 +363,21 @@ export default function JunkremovalclairemontPage() {
 
                       {/* Introduction */}
                       <h2 className="text-3xl font-bold mb-6 text-gray-900">
-                        Clairemont's Premier Family Home Junk Removal Service
+                        Clairemont's Premier Junk Removal Service
                       </h2>
 
                       <p className="text-lg mb-4 text-gray-700">
-                        Clairemont junk removal requires understanding one of San Diego's most established family communities, from historic Clairemont Village to bustling Balboa Avenue corridor neighborhoods. Known for its mid-century homes, family-friendly parks, and convenient central location, Clairemont features diverse residential properties from North Clairemont hillside homes to South Clairemont bay-area communities. Our junk hauling Clairemont service specializes in garage cleanouts, family home decluttering, and residential property maintenance throughout this classic San Diego neighborhood.
+                        Clairemont junk removal requires knowing one of San Diego's most established family communities, from historic Clairemont Village to the Balboa Avenue business corridor. Known for mid-century homes, family-friendly parks, and a central location, Clairemont has a mix of residential properties from North Clairemont hillside homes to South Clairemont bay-area neighborhoods and active commercial strips. Our junk hauling Clairemont service handles garage cleanouts, residential property hauls, and <a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">commercial junk removal</a> throughout the 92117 zip code.
                       </p>
 
                       <p className="text-lg mb-6 text-gray-700">
-                        Whether you need junk pickup Clairemont Mesa for a garage renovation project, family home organization, or estate cleanout support, our trash removal Clairemont team provides reliable service that respects the character of this established community. From Bay Park boundaries to Tecolote Canyon natural areas, we deliver professional solutions throughout all Clairemont neighborhoods while honoring the area's family-focused values and mid-century architectural heritage.
+                        Whether you need junk pickup in Clairemont Mesa for a garage renovation or an estate cleanout, our trash removal Clairemont team gives you reliable service that respects this community's character. Need it done today? Check our <a href="/same-day-junk-removal-san-diego" className="text-blue-600 hover:underline">same-day junk removal</a> availability. From Bay Park to Tecolote Canyon, we cover every corner of Clairemont.
                       </p>
 
                       {/* Neighborhoods */}
                       <h3 className="text-2xl font-bold mt-8 mb-4">Clairemont Neighborhoods We Serve</h3>
                       <p className="text-gray-700 mb-4">
-                        Our Clairemont San Diego junk removal service covers every corner of this diverse community, from residential family neighborhoods to commercial corridors. We've completed thousands of projects throughout Clairemont's unique sub-districts, each with distinct characteristics that inform our service approach:
+                        Our Clairemont San Diego junk removal service covers every part of 92117, from residential family neighborhoods to commercial corridors:
                       </p>
 
                       <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -405,9 +398,9 @@ export default function JunkremovalclairemontPage() {
                       </div>
 
                       {/* Major Streets */}
-                      <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets & Access Routes</h3>
+                      <h3 className="text-2xl font-bold mt-8 mb-4">Key Streets &amp; Access Routes</h3>
                       <p className="text-gray-700 mb-4">
-                        Our junk hauling Clairemont team knows every street in this sprawling community. This local expertise matters when navigating Clairemont's grid-pattern streets, canyon interruptions, and freeway crossings. We plan each route efficiently to serve your property without unnecessary delays:
+                        Our junk hauling Clairemont team knows every street in this sprawling community. This local expertise matters when working through Clairemont's grid-pattern streets, canyon interruptions, and freeway crossings. We plan each route efficiently to serve your property without unnecessary delays:
                       </p>
 
                       <ul className="grid md:grid-cols-2 gap-2 mb-6 text-gray-700">
@@ -417,14 +410,14 @@ export default function JunkremovalclairemontPage() {
                         <li>• <strong>Genesee Avenue:</strong> Western border, university connection, canyon crossings</li>
                         <li>• <strong>Mount Acadia Boulevard:</strong> Hillside residential access, elevation gain, scenic views</li>
                         <li>• <strong>Burgener Boulevard:</strong> South Clairemont connector, Bay Park access</li>
-                        <li>• <strong>I-5 & I-805:</strong> Freeway access north and south, commuter routes</li>
+                        <li>• <strong>I-5 &amp; I-805:</strong> Freeway access north and south, commuter routes</li>
                         <li>• <strong>Tecolote Road:</strong> Canyon access, recreational area connection</li>
                       </ul>
 
                       {/* Landmarks */}
-                      <h3 className="text-2xl font-bold mt-8 mb-4">Clairemont Landmarks & Community Reference Points</h3>
+                      <h3 className="text-2xl font-bold mt-8 mb-4">Clairemont Landmarks &amp; Community Reference Points</h3>
                       <p className="text-gray-700 mb-4">
-                        We use Clairemont's well-known landmarks to navigate efficiently to your property, ensuring timely service throughout this established community:
+                        We use Clairemont's well-known landmarks to reach your property efficiently:
                       </p>
 
                       <ul className="grid md:grid-cols-2 gap-3 mb-6 text-gray-700">
@@ -443,9 +436,9 @@ export default function JunkremovalclairemontPage() {
                       </ul>
 
                       {/* Traffic Patterns */}
-                      <h3 className="text-2xl font-bold mt-8 mb-4">Navigating Clairemont's Traffic Patterns</h3>
+                      <h3 className="text-2xl font-bold mt-8 mb-4">Clairemont Traffic Patterns</h3>
                       <p className="text-gray-700 mb-4">
-                        Our trash removal Clairemont crews understand the neighborhood's traffic patterns and navigate them expertly to ensure on-time arrivals:
+                        Our trash removal Clairemont crews understand the neighborhood's traffic patterns and work around them to ensure on-time arrivals:
                       </p>
 
                       <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -455,45 +448,45 @@ export default function JunkremovalclairemontPage() {
                         </div>
                         <div className="bg-blue-50 rounded-lg p-4 border border-blue-200">
                           <h4 className="font-bold mb-2 text-blue-900">School Zone Timing</h4>
-                          <p className="text-gray-700 text-sm">Multiple elementary and middle schools create morning drop-off (8-8:30 AM) and afternoon pickup (2:30-3 PM) congestion on residential streets. We coordinate with school schedules to avoid traffic delays and ensure safe neighborhood navigation.</p>
+                          <p className="text-gray-700 text-sm">Multiple elementary and middle schools create morning drop-off (8-8:30 AM) and afternoon pickup (2:30-3 PM) congestion on residential streets. We coordinate with school schedules to avoid traffic delays and ensure safe neighborhood access.</p>
                         </div>
                         <div className="bg-green-50 rounded-lg p-4 border border-green-200">
                           <h4 className="font-bold mb-2 text-green-900">Shopping District Access</h4>
                           <p className="text-gray-700 text-sm">Clairemont Town Square and Balboa Avenue shopping centers create weekend and evening retail traffic. We use strategic routing through residential neighborhoods to access properties efficiently while respecting parking and loading zones.</p>
                         </div>
                         <div className="bg-purple-50 rounded-lg p-4 border border-purple-200">
-                          <h4 className="font-bold mb-2 text-purple-900">Canyon Crossings & Dead Ends</h4>
+                          <h4 className="font-bold mb-2 text-purple-900">Canyon Crossings &amp; Dead Ends</h4>
                           <p className="text-gray-700 text-sm">Tecolote Canyon interrupts Clairemont's street grid, creating limited crossing points and cul-de-sac neighborhoods. Our team knows which streets connect and which require alternate routing to reach canyon-adjacent properties efficiently.</p>
                         </div>
                       </div>
 
                       {/* Services */}
-                      <h3 className="text-2xl font-bold mt-8 mb-4">Junk Removal Services for Clairemont Families</h3>
+                      <h3 className="text-2xl font-bold mt-8 mb-4">Junk Removal Services for Clairemont Homes and Businesses</h3>
                       <p className="text-gray-700 mb-4">
-                        Our junk pickup Clairemont Mesa service provides specialized attention to the area's classic mid-century family homes, many featuring attached garages, spacious yards, and decades of accumulated household items. We understand the unique needs of Clairemont families maintaining older homes and deliver solutions that help preserve these beloved family properties:
+                        Our junk pickup Clairemont Mesa service handles the area's classic mid-century family homes and active Balboa Avenue businesses. Many homes feature attached garages, spacious yards, and decades of accumulated household items. We understand what it takes to clear these properties and do it without damaging floors, doorframes, or vintage architectural details.
                       </p>
 
                       <div className="grid md:grid-cols-2 gap-6 mb-6">
                         <div>
-                          <h4 className="text-lg font-bold mb-3 text-blue-600">Residential Family Services</h4>
+                          <h4 className="text-lg font-bold mb-3 text-blue-600">Residential Services</h4>
                           <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                            <li><a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">Garage cleanouts</a> and organization for mid-century homes with decades of accumulation</li>
+                            <li><a href="/cleanout-services-san-diego" className="text-blue-600 hover:underline">Garage cleanouts</a> for mid-century homes with decades of accumulation</li>
                             <li>Attic and storage area clearing for established properties with limited access</li>
                             <li>Backyard and patio furniture disposal near canyons and recreational areas</li>
-                            <li>Home office setup and paper clutter removal for remote work transitions</li>
-                            <li>Kids' room decluttering and family organization projects</li>
                             <li>Exercise equipment and recreational gear removal from family homes</li>
+                            <li><a href="/appliance-removal-san-diego" className="text-blue-600 hover:underline">Appliance removal</a> including refrigerators, washers, and dryers</li>
+                            <li><a href="/furniture-disposal-san-diego" className="text-blue-600 hover:underline">Furniture disposal</a> including mid-century pieces and vintage items</li>
                           </ul>
                         </div>
                         <div>
-                          <h4 className="text-lg font-bold mb-3 text-blue-600">Estate & Transition Services</h4>
+                          <h4 className="text-lg font-bold mb-3 text-blue-600">Estate &amp; Commercial Services</h4>
                           <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                            <li><a href="/estate-cleanout-san-diego" className="text-blue-600 hover:text-blue-700 underline">Estate transitions</a> and downsizing assistance for multi-generational families</li>
-                            <li>Senior living transitions and organization for established residents</li>
-                            <li>Property management coordination for rental properties and tenant turnovers</li>
-                            <li>Home renovation debris and remodeling cleanup for family updates</li>
-                            <li><a href="/furniture-disposal-san-diego" className="text-blue-600 hover:text-blue-700 underline">Mid-century furniture removal</a> including vintage pieces and antiques</li>
-                            <li>Seasonal cleanup for family properties and holiday decorations</li>
+                            <li><a href="/estate-cleanout-san-diego" className="text-blue-600 hover:underline">Estate cleanouts</a> and downsizing for multi-generational Clairemont families</li>
+                            <li>Senior downsizing assistance for long-time residents</li>
+                            <li>Property management coordination for rental turnovers</li>
+                            <li>Home renovation debris and remodeling cleanup</li>
+                            <li><a href="/commercial-junk-removal-san-diego" className="text-blue-600 hover:underline">Commercial junk hauling</a> for Balboa Avenue offices and retail</li>
+                            <li><a href="/construction-debris-removal-san-diego" className="text-blue-600 hover:underline">Construction debris removal</a> from remodels and renovation projects</li>
                           </ul>
                         </div>
                       </div>
@@ -501,11 +494,11 @@ export default function JunkremovalclairemontPage() {
                       {/* Mid-Century Focus */}
                       <h3 className="text-2xl font-bold mt-8 mb-4">Mid-Century Home Specialists</h3>
                       <p className="text-gray-700 mb-4">
-                        Clairemont's classic homes from the 1950s-1970s present unique challenges that our team handles expertly. Attached garages filled with decades of family memories, attics with limited access points, and floor plans requiring careful furniture navigation demand specialized expertise. We protect original hardwood floors, maneuver through narrow hallways characteristic of mid-century design, and access difficult storage spaces without damaging walls, doorframes, or vintage architectural details.
+                        Clairemont's classic homes from the 1950s-1970s present challenges our team knows well. Attached garages filled with decades of family history, attics with limited access points, and floor plans requiring careful maneuvering demand real experience. We protect original hardwood floors, work through narrow hallways characteristic of mid-century design, and reach difficult storage spaces without damaging walls or doorframes.
                       </p>
 
                       <p className="text-gray-700 mb-6">
-                        We understand North Clairemont's hillside access challenges, South Clairemont's proximity to canyons and recreational areas, and the Balboa Avenue corridor's mix of residential and commercial properties. Multi-generational households are common throughout Clairemont, and we approach each project with patience and respect—whether helping families downsize, clearing inherited properties, or simply reclaiming garage space that hasn't been used for parking in years.
+                        We know North Clairemont's hillside access challenges, South Clairemont's proximity to canyons, and the Balboa Avenue corridor's mix of residential and commercial properties. Multi-generational households are common in Clairemont, and we approach each project with patience and respect. Whether you're helping a family downsize, clearing an inherited property, or reclaiming a garage that hasn't been used for parking in years, we handle it.
                       </p>
 
                       {/* How It Works */}
@@ -514,7 +507,7 @@ export default function JunkremovalclairemontPage() {
                         <ol className="space-y-3 text-gray-700">
                           <li><strong>1. Contact Us:</strong> Call (619) 750-0114 or book online. Describe your location in Clairemont (North, South, Bay Ho, etc.) and what items need removal. We provide transparent pricing estimates over the phone.</li>
                           <li><strong>2. Schedule Service:</strong> We offer flexible scheduling including same-day service when you call before 2 PM. Choose a service window that works for your family's schedule, including weekends and after-hours appointments.</li>
-                          <li><strong>3. Professional Arrival:</strong> Our uniformed crew arrives on time with proper equipment. We assess items in person and confirm final pricing before beginning any work—no surprises or hidden fees.</li>
+                          <li><strong>3. Professional Arrival:</strong> Our uniformed crew arrives on time with proper equipment. We assess items in person and confirm final pricing before beginning any work — no surprises or hidden fees.</li>
                           <li><strong>4. Efficient Removal:</strong> We handle all the heavy lifting, loading, and hauling. Most Clairemont garage cleanouts complete within 2-3 hours. We protect your mid-century home's floors, doorways, and landscaping throughout the process.</li>
                           <li><strong>5. Eco-Friendly Disposal:</strong> Usable items go to local charities and donation centers. Recyclables are processed through certified facilities. Only true waste goes to landfill as a last resort.</li>
                           <li><strong>6. Final Walkthrough:</strong> We sweep and clean the area, complete a satisfaction walkthrough, and process payment. Many Clairemont families use our service repeatedly for ongoing home needs.</li>
@@ -522,26 +515,26 @@ export default function JunkremovalclairemontPage() {
                       </div>
 
                       {/* Why Choose Us */}
-                      <h3 className="text-2xl font-bold mt-8 mb-4">Why Clairemont Families Choose Severin Hauling</h3>
+                      <h3 className="text-2xl font-bold mt-8 mb-4">Why Clairemont Chooses Severin Hauling</h3>
 
                       <div className="bg-gray-50 p-6 rounded-lg mb-4">
                         <h4 className="text-lg font-bold mb-3 text-gray-900">Local Community Knowledge</h4>
                         <p className="text-gray-700 mb-3">
-                          We know Clairemont's neighborhoods intimately—from Bay Ho's hillside streets to South Clairemont's bay-area access. Our team understands mid-century home layouts, navigates canyon-interrupted street grids efficiently, and respects the family-oriented community that makes Clairemont special.
+                          We know Clairemont's neighborhoods from Bay Ho's hillside streets to South Clairemont's bay-area access. Our team understands mid-century home layouts, works through canyon-interrupted street grids, and respects the family-oriented community that makes Clairemont a place people stay for decades.
                         </p>
                       </div>
 
                       <div className="bg-gray-50 p-6 rounded-lg mb-4">
                         <h4 className="text-lg font-bold mb-3 text-gray-900">Garage Cleanout Expertise</h4>
                         <p className="text-gray-700 mb-3">
-                          Clairemont's attached garages often house decades of family history. We approach these projects with care and respect, helping families sort through memories while efficiently removing unwanted items. Our team has cleared hundreds of Clairemont garages, transforming cluttered storage into functional parking and workshop space.
+                          Clairemont's attached garages often hold decades of family history. We approach these projects with care, helping families sort through what stays and what goes while efficiently removing unwanted items. We've cleared hundreds of Clairemont garages, turning cluttered storage back into functional space.
                         </p>
                       </div>
 
                       <div className="bg-gray-50 p-6 rounded-lg mb-6">
-                        <h4 className="text-lg font-bold mb-3 text-gray-900">Family-Friendly Service</h4>
+                        <h4 className="text-lg font-bold mb-3 text-gray-900">Licensed, Insured, and On Time</h4>
                         <p className="text-gray-700 mb-3">
-                          We understand that Clairemont families value courtesy, reliability, and fair pricing. Our team arrives on time, works efficiently, and treats your home with respect. Many of our Clairemont clients are repeat customers who trust us for ongoing junk removal needs as their families grow and change.
+                          We show up when we say we will, give you a firm price before starting, and do not add fees at the end. Clairemont families and businesses trust us because the process is straightforward from the first call to the final walkthrough.
                         </p>
                       </div>
 
@@ -569,7 +562,7 @@ export default function JunkremovalclairemontPage() {
           {/* Pricing Section */}
           <LocationPricingSection
             locationName="Clairemont"
-            contextParagraph="Transparent pricing for urban Clairemont junk removal—from Bay Ho hillside homes to South Clairemont family neighborhoods. Whether you're clearing a garage or managing an estate cleanout, you'll know the exact cost before we begin."
+            contextParagraph="Transparent pricing for Clairemont junk removal from Bay Ho hillside homes to Balboa Avenue businesses. Whether you're clearing a garage or managing an estate cleanout, you'll know the exact cost before we begin."
           />
 
           {/* Trust Signals Section */}
@@ -581,7 +574,7 @@ export default function JunkremovalclairemontPage() {
           description="Get answers to common questions about our junk removal Clairemont services, pricing, and same-day availability."
           faqs={clairemontFAQs}
           ctaTitle="Still Have Questions About Clairemont Junk Removal?"
-          ctaDescription="Our experienced team is ready to answer any questions about our junk removal Clairemont services, provide detailed quotes, or schedule your same-day pickup."
+          ctaDescription="Our experienced team is ready to answer any questions about our Clairemont junk removal services, provide detailed quotes, or schedule your same-day pickup."
           includeSchema={false}
         />
 
@@ -593,7 +586,7 @@ export default function JunkremovalclairemontPage() {
                   Book Your Clairemont Junk Removal Today
                 </h2>
                 <p className="text-xl mb-8 leading-relaxed">
-                  Whether you're clearing a garage in Bay Ho, organizing a family home in North Clairemont, or managing an estate transition in Clairemont Mesa, Severin Hauling delivers the trusted junk removal Clairemont families depend on.
+                  Whether you're clearing a garage in Bay Ho, hauling debris from a North Clairemont renovation, or managing an estate cleanout in Clairemont Mesa, Severin Hauling delivers the trusted junk removal Clairemont families and businesses depend on.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
                   <a
@@ -610,7 +603,7 @@ export default function JunkremovalclairemontPage() {
                   </a>
                 </div>
                 <p className="text-blue-200 text-lg">
-                  Serving all of Clairemont — Bay Park to Bay Ho • Same-Day Service Available • Licensed & Insured
+                  Serving all of Clairemont — Bay Park to Bay Ho • Same-Day Service Available • Licensed &amp; Insured
                 </p>
               </div>
             </div>
@@ -619,19 +612,19 @@ export default function JunkremovalclairemontPage() {
           {/* Related Services */}
           <section className="py-12 bg-white">
             <div className="container mx-auto px-4">
-              <h3 className="text-2xl font-bold text-center mb-8">Related Residential & Family Services</h3>
+              <h3 className="text-2xl font-bold text-center mb-8">Related Services in Clairemont</h3>
               <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-                <a href="/furniture-disposal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
-                  <h4 className="font-semibold text-lg mb-2 text-blue-600">Furniture Removal San Diego</h4>
-                  <p className="text-gray-600">Family home furniture disposal and mid-century home cleanouts</p>
-                </a>
-                <a href="/estate-cleanout-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
-                  <h4 className="font-semibold text-lg mb-2 text-blue-600">Estate Cleanouts San Diego</h4>
-                  <p className="text-gray-600">Multi-generational family homes and estate transition support</p>
+                <a href="/commercial-junk-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+                  <h4 className="font-semibold text-lg mb-2 text-blue-600">Commercial Junk Removal</h4>
+                  <p className="text-gray-600">Office cleanouts, retail clearing, and commercial hauling along Balboa Avenue</p>
                 </a>
                 <a href="/construction-debris-removal-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
                   <h4 className="font-semibold text-lg mb-2 text-blue-600">Construction Debris Removal</h4>
                   <p className="text-gray-600">Home remodeling cleanup and renovation debris disposal</p>
+                </a>
+                <a href="/estate-cleanout-san-diego" className="block p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow">
+                  <h4 className="font-semibold text-lg mb-2 text-blue-600">Estate Cleanouts San Diego</h4>
+                  <p className="text-gray-600">Multi-generational family homes and estate transition support</p>
                 </a>
               </div>
             </div>

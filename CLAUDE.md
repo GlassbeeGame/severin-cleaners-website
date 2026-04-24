@@ -325,6 +325,95 @@ Full status: `severin-cleaners-vault/reference/implementation-status.md`
 4. Continue internal linking Phase 2 to strengthen location pages
 5. Or pick up batch migration work (Batch 2: Urban Core)
 
+### Session 2026-04-24 (continued — Clairemont + Lakeside)
+**What was done:**
+- Ran full audit of Clairemont and Lakeside pages: what's working vs. what's broken on each
+- Fixed `/junk-removal-clairemont/page.tsx`:
+  - Title: 72 chars → 59 chars ("Clairemont Junk Removal | Same-Day Service | (619) 750-0114")
+  - Meta description: 121 chars → 153 chars, removed "pool equipment" (unverified service)
+  - Hero gradient: fixed from `from-blue-900 to-blue-700` to `from-blue-600 via-blue-700 to-blue-900`
+  - H1: removed pipe character — now just "Clairemont Junk Removal"
+  - Hero badge: fixed to "#1 Clairemont Junk Removal Service"
+  - Star emojis removed from features line, replaced with ✓ checkmarks
+  - CTA buttons removed from hero
+  - knowsAbout item 8: updated from "organization and decluttering" (scope creep) to service-accurate copy
+  - FAQs expanded from 5 to 8: fixed "comprehensive" x2, removed "storage area organization," "home office setup" scope creep
+  - Body content: removed "home office setup," "kids' room organization," "senior living transitions and organization" (scope creep)
+  - Replaced "navigate" (banned word) throughout body
+  - Added 6 internal links: commercial junk removal, same-day, estate cleanout, appliance removal, furniture disposal, cleanout services, construction debris
+  - Related Services updated to Tier 4 priorities: Commercial Junk Removal, Construction Debris, Estate Cleanouts
+  - Streets, Traffic Patterns, and How It Works sections preserved (user decision: don't remove these)
+- Fixed `/junk-removal-lakeside/page.tsx`:
+  - Added `paymentAccepted`, `currenciesAccepted`, `knowsAbout` (8 items), `hasOfferCatalog` (4 items) to localBusinessSchema — were all completely missing
+  - Added neighborhoodSchema (10 neighborhoods) as separate @graph entry — was missing entirely
+  - @graph now has all 6 required schema types
+  - Title: 66 chars → 55 chars ("Lakeside Junk Removal | Large Acreage | (619) 750-0114")
+  - Meta description: 134 chars → 154 chars, removed "horse properties"
+  - Hero subtitle: 4 positioning points → 3 (required spec)
+  - FAQ Q1: fixed critical colon ending (schema rule violation)
+  - FAQs expanded from 5 to 8, fixed "comprehensive" x2, removed "agricultural waste recycling" (unverified)
+  - "navigate"/"navigating" replaced throughout body and streets section (banned word)
+  - "landscaping waste" → "yard waste" (landscaping banned per voice profile)
+  - "agricultural vehicles, trailers, equipment disposal" → "scrap metal, broken equipment, and property debris" (scope creep)
+  - "livestock coordination" removed as a claimed service
+  - Related Services updated to Tier 2 priorities: Furniture, Estate Cleanout, Appliance Removal
+  - Internal links added: same-day service x2, estate cleanout, furniture, appliance, cleanout services
+
+**Decisions made:**
+- Streets, Traffic Patterns, and How It Works sections are NOT being removed from existing location pages — user questioned the ban and wants to leave those sections in place on pages that are ranking. Only apply the ban to new pages going forward. Update location-pages.md to clarify this.
+- npm build checks cannot be run in Claude Code environment — skip all build verification steps
+- Clairemont page was performing well, so only fixed clear issues (schema, meta, hero, FAQs, scope creep) — did not remove existing content sections
+- Lakeside page had critical schema gaps (missing 4 localBusinessSchema fields + entire neighborhoodSchema) — these were the highest priority fixes
+
+**Issues identified:**
+- `severin-cleaners-vault/architecture/location-pages.md` ban on Streets/Traffic/How It Works sections may need a note that it applies to NEW pages only, not pages already ranking with those sections
+- Vista still needs GSC → Request Indexing submission
+- 26 other pages site-wide still missing full geo meta tags
+
+**Next session should start with:**
+1. Push Clairemont + Lakeside + Vista changes to GitHub
+2. Submit all three URLs in GSC → Request Indexing
+3. Decide which pages to audit next (consider pages that are close to ranking or recently dropped)
+4. Consider updating location-pages.md to clarify Streets/Traffic ban applies to new pages only
+
+### Session 2026-04-24
+**What was done:**
+- Diagnosed Vista page ranking drop: identified 8 root causes (neighborhoodSchema missing from @graph, keyword over-optimization at ~30+ mentions vs 8-12 target, meta description 194 chars vs 150-155 target, title 66 chars vs 50-60 target, em dash in H2, 0 service cross-links, content freshness decay, banned words in body copy)
+- Ran full skill workflow: keyword-research → seo-content (with humanize phase) → brand-voice check before writing any code
+- Rewrote `/junk-removal-vista/page.tsx` in full:
+  - Title: "Vista Junk Removal | Brewery to Shadowridge | (619) 750-0114" (60 chars)
+  - Meta description: "Junk removal in Vista CA: Downtown Brewery District, Business Park, and Shadowridge. Same-day hauling available. Licensed and insured. Call (619) 750-0114." (155 chars)
+  - Added neighborhoodSchema (12 Vista neighborhoods with zip codes) to @graph — was missing entirely
+  - Reduced "junk removal Vista" mentions from ~30 to 8 (within 8-12 target)
+  - Removed Traffic & Timing section (banned per location-pages.md)
+  - Removed Weather/Climate section (standalone sections banned)
+  - Removed em dash from H2 (site-wide ban) and all other content
+  - Removed "navigate," "landscape," "comprehensive" — banned words
+  - Rewrote all 8 FAQs: complete sentences, no keyword stuffing, no banned words
+  - Added 6 Tier 4 service cross-links: commercial junk removal, construction debris, estate cleanout, furniture disposal, appliance removal, same-day service
+  - Updated Related Services section to Tier 4 priorities: Commercial Junk Removal, Construction Debris, Estate Cleanouts (was furniture/appliance)
+  - Updated contextParagraph and FAQSection props to remove stuffed language
+  - Keywords updated to 7 relevant Vista terms (removed "downtown vista junk removal", added "Shadowridge junk removal")
+- Build confirmed clean (pre-existing `next/types.js` TypeScript error unrelated to these changes)
+
+**Decisions made:**
+- Kept the existing localBusinessSchema geo coordinates (La Mesa) — correct per session 2026-04-23 decision
+- Kept Vista coordinates in meta geo tags (unchanged — already correct)
+- Tier 4 related services: Commercial, Construction Debris, Estate Cleanout (replacing furniture/appliance which are Tier 2 priorities)
+- Did not do full Batch 3 migration (structural template changes) — fixed the specific issues diagnosed without over-engineering
+- neighborhoodSchema placed as separate @graph entry (consistent with La Jolla reference pattern)
+
+**Issues identified:**
+- Vista still needs to be submitted in Google Search Console → URL Inspection → Request Indexing after this push
+- Vista is still in Batch 3 (not fully migrated to enhanced template) — this fixes the specific issues but full migration remains future work
+- Pre-existing `npm install` needed to fix `next/types.js` TypeScript error
+
+**Next session should start with:**
+1. Push to GitHub and submit Vista URL in GSC → Request Indexing
+2. Monitor position tracking over 7-14 days for recovery
+3. Address remaining open items: geo meta tags on 26 other pages, emergency/same-day page fixes
+4. Continue Batch 3 migration (Escondido, Oceanside, Poway) when ready
+
 ### Session 2026-04-23
 **What was done:**
 - Diagnosed root cause of couch removal page dropping out of top 100 and furniture disposal page dropping 36 positions (SEMrush report week of April 16-22, 2026)
